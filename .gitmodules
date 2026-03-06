@@ -1,0 +1,21 @@
+[submodule "external/claude-code"]
+	path = external/claude-code
+	url = https://github.com/anthropics/claude-code.git
+[submodule "external/anthropic-skills"]
+	path = external/anthropic-skills
+	url = https://github.com/anthropics/skills.git
+[submodule "external/anthropic-quickstarts"]
+	path = external/anthropic-quickstarts
+	url = https://github.com/anthropics/anthropic-quickstarts.git
+[submodule "external/context-engineering-skills"]
+	path = external/context-engineering-skills
+	url = https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git
+[submodule "external/khazix-skills"]
+	path = external/khazix-skills
+	url = https://github.com/KKKKhazix/Khazix-Skills.git
+[submodule "external/superpowers"]
+	path = external/superpowers
+	url = https://github.com/obra/superpowers.git
+[submodule "external/videocut-skills"]
+	path = external/videocut-skills
+	url = https://github.com/Ceeon/videocut-skills.git
