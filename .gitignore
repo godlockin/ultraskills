@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+.envrc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+.temp/

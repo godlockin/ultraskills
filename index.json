@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "version": "1.2.16",
+    "updated_at": "2026-03-05"
+  },
+  "skills": [
+    {
+      "id": "git-commit-master",
+      "name": "Git Commit Master",
+      "path": "./engineering/git-commit-master/SKILL.md",
+      "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+      "tags": ["git", "engineering", "workflow"]
+    },
+    {
+      "id": "github-skill-scout",
+      "name": "github-skill-scout",
+      "path": "./engineering/github-skill-scout/SKILL.md",
+      "description": "Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.",
+      "tags": ["devops", "open-source", "automation", "skill-building"]
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "prompt-engineer",
+      "path": "./engineering/prompt-engineer/SKILL.md",
+      "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
+      "tags": ["ai", "prompt-engineering", "optimization"]
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "path": "./engineering/prompt-optimizer/SKILL.md",
+      "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
+      "tags": ["prompt-engineering", "meta-prompting", "optimization", "ai"]
+    },
+    {
+      "id": "skills-finder",
+      "name": "skills-finder",
+      "path": "./engineering/skills-finder/SKILL.md",
+      "description": "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.",
+      "tags": ["discovery", "routing", "skill-management"]
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "path": "./meta/find-skills/SKILL.md",
+      "description": "根据任务描述搜索最匹配的 Skills，或在无匹配时自动生成新的 Skill",
+      "tags": ["skill-discovery", "search", "skill-generation"]
+    },
+    {
+      "id": "media-downloader",
+      "name": "media-downloader",
+      "path": "./productivity/media-downloader/SKILL.md",
+      "description": "Downloads high-quality video and audio from YouTube, Bilibili, and 1000+ other sites using yt-dlp. Invoke when user wants to archive media content.",
+      "tags": ["productivity", "media", "archiving", "automation", "download"]
+    },
+    {
+      "id": "task-analyzer",
+      "name": "Task Analyzer",
+      "path": "./productivity/task-analyzer/SKILL.md",
+      "description": "分析和优化用户的任务初始化命令，提取需求、思路、背景、约束和目标",
+      "tags": ["productivity", "prompt-engineering", "task-planning", "analysis"]
+    },
+    {
+      "id": "github-to-skills",
+      "name": "github-to-skills",
+      "path": "./devops/github-to-skills/SKILL.md",
+      "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
+      "tags": ["devops", "automation", "github", "skill-creation"]
+    },
+    {
+      "id": "skill-evolution-manager",
+      "name": "skill-evolution-manager",
+      "path": "./devops/skill-evolution-manager/SKILL.md",
+      "description": "Skills 进化管理器。在对话结束时根据用户反馈持续优化 Skills。触发词：/evolve, \"复盘一下\", \"把这个经验保存到 Skill\"",
+      "tags": ["devops", "automation", "evolution", "feedback", "learning"]
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "path": "./devops/skill-manager/SKILL.md",
+      "description": "Skills 生命周期管理器。用于批量扫描 Skills 目录、检查 GitHub 更新、执行升级引导。触发词：/skill-manager check, list, delete",
+      "tags": ["devops", "automation", "lifecycle", "management"]
+    },
+    {
+      "id": "commercial-director",
+      "name": "commercial-director-pro",
+      "path": "./creative/commercial-director/SKILL.md",
+      "description": "Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography, orchestrating the entire production pipeline with a focus on human connection and narrative flow.",
+      "tags": ["creative", "video", "filmmaking", "photography", "design"]
+    },
+    {
+      "id": "gemini-image-optimizer",
+      "name": "gemini-image-optimizer",
+      "path": "./creative/gemini-image-optimizer/SKILL.md",
+      "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
+      "tags": ["creative", "image", "ai", "optimization", "gemini"]
+    },
+    {
+      "id": "ikea-designer",
+      "name": "ikea-designer-pro",
+      "path": "./creative/ikea-designer/SKILL.md",
+      "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity, ensuring adherence to Scandinavian design principles and Democratic Design.",
+      "tags": ["creative", "design", "interior", "product", "branding"]
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "path": "./creative/image-to-video/SKILL.md",
+      "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
+      "tags": ["creative", "video", "image", "animation", "media"]
+    },
+    {
+      "id": "photography-expert",
+      "name": "photography-expert-pro",
+      "path": "./creative/photography-expert/SKILL.md",
+      "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography with a focus on lighting, composition, and optical realism.",
+      "tags": ["creative", "photography", "design", "interior", "lighting"]
+    },
+    {
+      "id": "remotion-video",
+      "name": "Remotion Video Creator",
+      "path": "./creative/remotion-video/SKILL.md",
+      "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
+      "tags": ["video", "react", "remotion", "animation", "creative", "automation"]
+    },
+    {
+      "id": "video-frame-extractor",
+      "name": "video-frame-extractor",
+      "path": "./creative/video-frame-extractor/SKILL.md",
+      "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
+      "tags": ["video", "media", "extraction", "ffmpeg"]
+    },
+    {
+      "id": "video-splitter",
+      "name": "video-splitter",
+      "path": "./creative/video-splitter/SKILL.md",
+      "description": "Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.",
+      "tags": ["video", "media", "editing", "ffmpeg"]
+    },
+    {
+      "id": "visual-expert",
+      "name": "Visual Expert Pro (Gemini 3.0 Edition)",
+      "path": "./creative/visual-expert/SKILL.md",
+      "description": "Physics-Based Rendering Supervisor & Virtual Cinematographer for Home Furnishing & Interior Design",
+      "tags": ["creative", "design", "interior", "3d", "rendering", "ai"]
+    },
+    {
+      "id": "advanced-evaluation",
+      "name": "advanced-evaluation",
+      "path": "./community/advanced-evaluation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
+      "tags": ["ai", "evaluation", "llm", "testing", "quality"]
+    },
+    {
+      "id": "algorithmic-art",
+      "name": "algorithmic-art",
+      "path": "./community/algorithmic-art/SKILL.md",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "tags": ["creative", "generative", "art", "p5js", "code"]
+    },
+    {
+      "id": "bdi-mental-states",
+      "name": "bdi-mental-states",
+      "path": "./community/bdi-mental-states/SKILL.md",
+      "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
+      "tags": ["ai", "agent", "architecture", "cognitive", "bdi"]
+    },
+    {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "path": "./community/brainstorming/SKILL.md",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "tags": ["process", "planning", "creativity", "requirements"]
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "brand-guidelines",
+      "path": "./community/brand-guidelines/SKILL.md",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "tags": ["design", "branding", "styling", "typography"]
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "path": "./community/canvas-design/SKILL.md",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "tags": ["creative", "design", "art", "visual", "canvas"]
+    },
+    {
+      "id": "commercial-director",
+      "name": "commercial-director-pro",
+      "path": "./community/commercial-director/SKILL.md",
+      "description": "Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography",
+      "tags": ["creative", "video", "filmmaking", "photography", "design"]
+    },
+    {
+      "id": "context-compression",
+      "name": "context-compression",
+      "path": "./community/context-compression/SKILL.md",
+      "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
+      "tags": ["ai", "context", "optimization", "tokens", "summarization"]
+    },
+    {
+      "id": "context-degradation",
+      "name": "context-degradation",
+      "path": "./community/context-degradation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"diagnose context problems\", \"fix lost-in-middle issues\", \"debug agent failures\", \"understand context poisoning\", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.",
+      "tags": ["ai", "context", "debugging", "troubleshooting"]
+    },
+    {
+      "id": "context-fundamentals",
+      "name": "context-fundamentals",
+      "path": "./community/context-fundamentals/SKILL.md",
+      "description": "This skill should be used when the user asks to \"understand context\", \"explain context windows\", \"design agent architecture\", \"debug context issues\", \"optimize context usage\", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems.",
+      "tags": ["ai", "context", "architecture", "fundamentals", "education"]
+    },
+    {
+      "id": "context-optimization",
+      "name": "context-optimization",
+      "path": "./community/context-optimization/SKILL.md",
+      "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.",
+      "tags": ["ai", "context", "optimization", "performance", "tokens"]
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "path": "./community/dispatching-parallel-agents/SKILL.md",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "tags": ["ai", "agent", "parallel", "dispatching", "performance"]
+    },
+    {
+      "id": "doc-coauthoring",
+      "name": "doc-coauthoring",
+      "path": "./community/doc-coauthoring/SKILL.md",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "tags": ["documentation", "writing", "collaboration", "workflow"]
+    },
+    {
+      "id": "docx",
+      "name": "docx",
+      "path": "./community/docx/SKILL.md",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+      "tags": ["document", "office", "word", "editing", "productivity"]
+    },
+    {
+      "id": "evaluation",
+      "name": "evaluation",
+      "path": "./community/evaluation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.",
+      "tags": ["ai", "evaluation", "testing", "quality", "llm"]
+    },
+    {
+      "id": "executing-plans",
+      "name": "executing-plans",
+      "path": "./community/executing-plans/SKILL.md",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "tags": ["process", "execution", "planning", "workflow"]
+    },
+    {
+      "id": "filesystem-context",
+      "name": "filesystem-context",
+      "path": "./community/filesystem-context/SKILL.md",
+      "description": "This skill should be used when the user asks to \"offload context to files\", \"implement dynamic context discovery\", \"use filesystem for agent memory\", \"reduce context window bloat\", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.",
+      "tags": ["ai", "context", "filesystem", "memory", "persistence"]
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "path": "./community/finishing-a-development-branch/SKILL.md",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "tags": ["git", "workflow", "development", "merge", "pr"]
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "path": "./community/frontend-design/SKILL.md",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "tags": ["frontend", "web", "design", "ui", "react", "css"]
+    },
+    {
+      "id": "gemini-image-optimizer",
+      "name": "gemini-image-optimizer",
+      "path": "./community/gemini-image-optimizer/SKILL.md",
+      "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
+      "tags": ["creative", "image", "ai", "optimization", "gemini"]
+    },
+    {
+      "id": "git-commit-master",
+      "name": "Git Commit Master",
+      "path": "./community/git-commit-master/SKILL.md",
+      "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+      "tags": ["git", "engineering", "workflow"]
+    },
+    {
+      "id": "github-skill-scout",
+      "name": "github-skill-scout",
+      "path": "./community/github-skill-scout/SKILL.md",
+      "description": "Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.",
+      "tags": ["devops", "open-source", "automation", "skill-building"]
+    },
+    {
+      "id": "github-to-skills",
+      "name": "github-to-skills",
+      "path": "./community/github-to-skills/SKILL.md",
+      "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
+      "tags": ["devops", "github", "automation", "skill-creation", "open-source"]
+    },
+    {
+      "id": "hosted-agents",
+      "name": "hosted-agents",
+      "path": "./community/hosted-agents/SKILL.md",
+      "description": "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.",
+      "tags": ["ai", "agent", "infrastructure", "hosting", "sandbox"]
+    },
+    {
+      "id": "ikea-designer",
+      "name": "ikea-designer-pro",
+      "path": "./community/ikea-designer/SKILL.md",
+      "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity",
+      "tags": ["creative", "design", "interior", "product", "branding"]
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "path": "./community/image-to-video/SKILL.md",
+      "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
+      "tags": ["creative", "video", "image", "animation", "media"]
+    },
+    {
+      "id": "internal-comms",
+      "name": "internal-comms",
+      "path": "./community/internal-comms/SKILL.md",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "tags": ["writing", "communications", "corporate", "documentation"]
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "path": "./community/mcp-builder/SKILL.md",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "tags": ["ai", "mcp", "development", "api", "integration", "server"]
+    },
+    {
+      "id": "media-downloader",
+      "name": "media-downloader",
+      "path": "./community/media-downloader/SKILL.md",
+      "description": "Downloads high-quality video and audio from YouTube, Bilibili, and 1000+ other sites using yt-dlp. Invoke when user wants to archive media content.",
+      "tags": ["productivity", "media", "archiving", "automation", "download"]
+    },
+    {
+      "id": "memory-systems",
+      "name": "memory-systems",
+      "path": "./community/memory-systems/SKILL.md",
+      "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
+      "tags": ["ai", "agent", "memory", "persistence", "knowledge-graph"]
+    },
+    {
+      "id": "multi-agent-patterns",
+      "name": "multi-agent-patterns",
+      "path": "./community/multi-agent-patterns/SKILL.md",
+      "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
+      "tags": ["ai", "agent", "architecture", "multi-agent", "coordination"]
+    },
+    {
+      "id": "pdf",
+      "name": "pdf",
+      "path": "./community/pdf/SKILL.md",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "tags": ["document", "pdf", "productivity", "extraction", "forms"]
+    },
+    {
+      "id": "photography-expert",
+      "name": "photography-expert-pro",
+      "path": "./community/photography-expert/SKILL.md",
+      "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography",
+      "tags": ["creative", "photography", "design", "interior", "lighting"]
+    },
+    {
+      "id": "pptx",
+      "name": "pptx",
+      "path": "./community/pptx/SKILL.md",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+      "tags": ["document", "presentation", "office", "productivity"]
+    },
+    {
+      "id": "project-development",
+      "name": "project-development",
+      "path": "./community/project-development/SKILL.md",
+      "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.",
+      "tags": ["ai", "project", "architecture", "development", "planning"]
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "prompt-engineer",
+      "path": "./community/prompt-engineer/SKILL.md",
+      "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
+      "tags": ["ai", "prompt-engineering", "optimization"]
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "path": "./community/prompt-optimizer/SKILL.md",
+      "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
+      "tags": ["prompt-engineering", "meta-prompting", "optimization", "ai"]
+    },
+    {
+      "id": "receiving-code-review",
+      "name": "receiving-code-review",
+      "path": "./community/receiving-code-review/SKILL.md",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "tags": ["code-review", "process", "quality", "development"]
+    },
+    {
+      "id": "requesting-code-review",
+      "name": "requesting-code-review",
+      "path": "./community/requesting-code-review/SKILL.md",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "tags": ["code-review", "process", "quality", "development"]
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "path": "./community/skill-creator/SKILL.md",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "tags": ["skill-creation", "development", "workflow", "documentation"]
+    },
+    {
+      "id": "skill-evolution-manager",
+      "name": "Skill Evolution Manager",
+      "path": "./community/skill-evolution-manager/SKILL.md",
+      "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的\"精华\"（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
+      "tags": ["devops", "skill-management", "evolution", "feedback", "learning"]
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "path": "./community/skill-manager/SKILL.md",
+      "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
+      "tags": ["devops", "lifecycle", "management", "github", "automation"]
+    },
+    {
+      "id": "slack-gif-creator",
+      "name": "slack-gif-creator",
+      "path": "./community/slack-gif-creator/SKILL.md",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "tags": ["creative", "animation", "gif", "slack", "media"]
+    },
+    {
+      "id": "subagent-driven-development",
+      "name": "subagent-driven-development",
+      "path": "./community/subagent-driven-development/SKILL.md",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "tags": ["ai", "agent", "development", "execution", "automation"]
+    },
+    {
+      "id": "systematic-debugging",
+      "name": "systematic-debugging",
+      "path": "./community/systematic-debugging/SKILL.md",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "tags": ["debugging", "troubleshooting", "process", "development"]
+    },
+    {
+      "id": "test-driven-development",
+      "name": "test-driven-development",
+      "path": "./community/test-driven-development/SKILL.md",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "tags": ["development", "testing", "tdd", "process", "quality"]
+    },
+    {
+      "id": "theme-factory",
+      "name": "theme-factory",
+      "path": "./community/theme-factory/SKILL.md",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "tags": ["design", "styling", "theme", "ui", "css"]
+    },
+    {
+      "id": "tool-design",
+      "name": "tool-design",
+      "path": "./community/tool-design/SKILL.md",
+      "description": "This skill should be used when the user asks to \"design agent tools\", \"create tool descriptions\", \"reduce tool complexity\", \"implement MCP tools\", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.",
+      "tags": ["ai", "agent", "tool", "design", "mcp"]
+    },
+    {
+      "id": "using-git-worktrees",
+      "name": "using-git-worktrees",
+      "path": "./community/using-git-worktrees/SKILL.md",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+      "tags": ["git", "workflow", "isolation", "development"]
+    },
+    {
+      "id": "using-superpowers",
+      "name": "using-superpowers",
+      "path": "./community/using-superpowers/SKILL.md",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "tags": ["meta", "skill-management", "process"]
+    },
+    {
+      "id": "verification-before-completion",
+      "name": "verification-before-completion",
+      "path": "./community/verification-before-completion/SKILL.md",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "tags": ["quality", "verification", "process", "development"]
+    },
+    {
+      "id": "video-frame-extractor",
+      "name": "video-frame-extractor",
+      "path": "./community/video-frame-extractor/SKILL.md",
+      "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
+      "tags": ["video", "media", "extraction", "ffmpeg"]
+    },
+    {
+      "id": "video-splitter",
+      "name": "video-splitter",
+      "path": "./community/video-splitter/SKILL.md",
+      "description": "Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.",
+      "tags": ["video", "media", "editing", "ffmpeg"]
+    },
+    {
+      "id": "visual-expert",
+      "name": "Visual Expert Pro (Gemini 3.0 Edition)",
+      "path": "./community/visual-expert/SKILL.md",
+      "description": "Professional interior visualization and photorealism expert for home furnishing and IKEA-style design, focusing on physically-based rendering (PBR) and material accuracy.",
+      "tags": ["creative", "design", "interior", "3d", "rendering", "ai"]
+    },
+    {
+      "id": "web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "path": "./community/web-artifacts-builder/SKILL.md",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "tags": ["frontend", "web", "react", "artifact", "ui"]
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "path": "./community/webapp-testing/SKILL.md",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "tags": ["testing", "frontend", "playwright", "web", "automation"]
+    },
+    {
+      "id": "writing-plans",
+      "name": "writing-plans",
+      "path": "./community/writing-plans/SKILL.md",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "tags": ["writing", "planning", "documentation", "requirements"]
+    },
+    {
+      "id": "writing-skills",
+      "name": "writing-skills",
+      "path": "./community/writing-skills/SKILL.md",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "tags": ["skill-creation", "development", "writing", "documentation"]
+    },
+    {
+      "id": "xlsx",
+      "name": "xlsx",
+      "path": "./community/xlsx/SKILL.md",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+      "tags": ["document", "spreadsheet", "office", "data", "productivity"]
+    },
+    {
+      "id": "剪口播",
+      "name": "videocut:剪口播",
+      "path": "./community/剪口播/SKILL.md",
+      "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+      "tags": ["video", "transcription", "editing", "media", "chinese"]
+    },
+    {
+      "id": "剪辑",
+      "name": "videocut:剪辑",
+      "path": "./community/剪辑/SKILL.md",
+      "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑",
+      "tags": ["video", "editing", "ffmpeg", "media", "chinese"]
+    },
+    {
+      "id": "字幕",
+      "name": "videocut:字幕",
+      "path": "./community/字幕/SKILL.md",
+      "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+      "tags": ["video", "subtitle", "media", "transcription", "chinese"]
+    },
+    {
+      "id": "安装",
+      "name": "videocut:安装",
+      "path": "./community/安装/SKILL.md",
+      "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
+      "tags": ["devops", "setup", "environment", "installation", "chinese"]
+    },
+    {
+      "id": "自更新",
+      "name": "videocut:自更新",
+      "path": "./community/自更新/SKILL.md",
+      "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+      "tags": ["skill-management", "evolution", "feedback", "chinese"]
+    }
+  ]
+}
