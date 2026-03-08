@@ -1,0 +1,22 @@
+{
+  "daily": [
+    {
+      "date": "2026-03-07",
+      "tools": [
+        {
+          "name": "Trae",
+          "credits": 4000
+        }
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "tools": [
+        {
+          "name": "Codebuddy",
+          "credits": 5000
+        }
+      ]
+    }
+  ]
+}

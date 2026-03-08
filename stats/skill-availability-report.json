@@ -1,0 +1,491 @@
+{
+  "test_date": "2026-03-08",
+  "version": "1.2.18",
+  "total": 68,
+  "by_category": {
+    "engineering": 5,
+    "productivity": 2,
+    "devops": 4,
+    "creative": 9,
+    "community": 48
+  },
+  "all_valid": true,
+  "skills": [
+    {
+      "id": "git-commit-master",
+      "name": "Git Commit Master",
+      "path": "./engineering/git-commit-master/SKILL.md",
+      "category": "engineering",
+      "exists": true
+    },
+    {
+      "id": "github-skill-scout",
+      "name": "github-skill-scout",
+      "path": "./engineering/github-skill-scout/SKILL.md",
+      "category": "engineering",
+      "exists": true
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "prompt-engineer",
+      "path": "./engineering/prompt-engineer/SKILL.md",
+      "category": "engineering",
+      "exists": true
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "path": "./engineering/prompt-optimizer/SKILL.md",
+      "category": "engineering",
+      "exists": true
+    },
+    {
+      "id": "skills-finder",
+      "name": "skills-finder",
+      "path": "./engineering/skills-finder/SKILL.md",
+      "category": "engineering",
+      "exists": true
+    },
+    {
+      "id": "media-downloader",
+      "name": "media-downloader",
+      "path": "./productivity/media-downloader/SKILL.md",
+      "category": "productivity",
+      "exists": true
+    },
+    {
+      "id": "task-analyzer",
+      "name": "Task Analyzer",
+      "path": "./productivity/task-analyzer/SKILL.md",
+      "category": "productivity",
+      "exists": true
+    },
+    {
+      "id": "github-to-skills",
+      "name": "github-to-skills",
+      "path": "./devops/github-to-skills/SKILL.md",
+      "category": "devops",
+      "exists": true
+    },
+    {
+      "id": "skill-evolution-manager",
+      "name": "skill-evolution-manager",
+      "path": "./devops/skill-evolution-manager/SKILL.md",
+      "category": "devops",
+      "exists": true
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "path": "./devops/skill-manager/SKILL.md",
+      "category": "devops",
+      "exists": true
+    },
+    {
+      "id": "skill-sync-manager",
+      "name": "skill-sync-manager",
+      "path": "./devops/skill-sync-manager/SKILL.md",
+      "category": "devops",
+      "exists": true
+    },
+    {
+      "id": "commercial-director",
+      "name": "commercial-director-pro",
+      "path": "./creative/commercial-director/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "gemini-image-optimizer",
+      "name": "gemini-image-optimizer",
+      "path": "./creative/gemini-image-optimizer/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "ikea-designer",
+      "name": "ikea-designer-pro",
+      "path": "./creative/ikea-designer/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "path": "./creative/image-to-video/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "photography-expert",
+      "name": "photography-expert-pro",
+      "path": "./creative/photography-expert/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "remotion-video",
+      "name": "Remotion Video Creator",
+      "path": "./creative/remotion-video/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "video-frame-extractor",
+      "name": "video-frame-extractor",
+      "path": "./creative/video-frame-extractor/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "video-splitter",
+      "name": "video-splitter",
+      "path": "./creative/video-splitter/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "visual-expert",
+      "name": "Visual Expert Pro (Gemini 3.0 Edition)",
+      "path": "./creative/visual-expert/SKILL.md",
+      "category": "creative",
+      "exists": true
+    },
+    {
+      "id": "advanced-evaluation",
+      "name": "advanced-evaluation",
+      "path": "./community/advanced-evaluation/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "algorithmic-art",
+      "name": "algorithmic-art",
+      "path": "./community/algorithmic-art/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "bdi-mental-states",
+      "name": "bdi-mental-states",
+      "path": "./community/bdi-mental-states/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "path": "./community/brainstorming/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "brand-guidelines",
+      "path": "./community/brand-guidelines/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "path": "./community/canvas-design/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "context-compression",
+      "name": "context-compression",
+      "path": "./community/context-compression/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "context-degradation",
+      "name": "context-degradation",
+      "path": "./community/context-degradation/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "context-fundamentals",
+      "name": "context-fundamentals",
+      "path": "./community/context-fundamentals/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "context-optimization",
+      "name": "context-optimization",
+      "path": "./community/context-optimization/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "path": "./community/dispatching-parallel-agents/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "doc-coauthoring",
+      "name": "doc-coauthoring",
+      "path": "./community/doc-coauthoring/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "docx",
+      "name": "docx",
+      "path": "./community/docx/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "evaluation",
+      "name": "evaluation",
+      "path": "./community/evaluation/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "executing-plans",
+      "name": "executing-plans",
+      "path": "./community/executing-plans/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "filesystem-context",
+      "name": "filesystem-context",
+      "path": "./community/filesystem-context/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "path": "./community/finishing-a-development-branch/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "path": "./community/frontend-design/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "hosted-agents",
+      "name": "hosted-agents",
+      "path": "./community/hosted-agents/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "internal-comms",
+      "name": "internal-comms",
+      "path": "./community/internal-comms/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "path": "./community/mcp-builder/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "memory-systems",
+      "name": "memory-systems",
+      "path": "./community/memory-systems/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "multi-agent-patterns",
+      "name": "multi-agent-patterns",
+      "path": "./community/multi-agent-patterns/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "pdf",
+      "name": "pdf",
+      "path": "./community/pdf/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "pptx",
+      "name": "pptx",
+      "path": "./community/pptx/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "project-development",
+      "name": "project-development",
+      "path": "./community/project-development/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "receiving-code-review",
+      "name": "receiving-code-review",
+      "path": "./community/receiving-code-review/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "requesting-code-review",
+      "name": "requesting-code-review",
+      "path": "./community/requesting-code-review/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "path": "./community/skill-creator/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "slack-gif-creator",
+      "name": "slack-gif-creator",
+      "path": "./community/slack-gif-creator/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "subagent-driven-development",
+      "name": "subagent-driven-development",
+      "path": "./community/subagent-driven-development/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "systematic-debugging",
+      "name": "systematic-debugging",
+      "path": "./community/systematic-debugging/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "test-driven-development",
+      "name": "test-driven-development",
+      "path": "./community/test-driven-development/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "theme-factory",
+      "name": "theme-factory",
+      "path": "./community/theme-factory/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "tool-design",
+      "name": "tool-design",
+      "path": "./community/tool-design/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "using-git-worktrees",
+      "name": "using-git-worktrees",
+      "path": "./community/using-git-worktrees/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "using-superpowers",
+      "name": "using-superpowers",
+      "path": "./community/using-superpowers/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "verification-before-completion",
+      "name": "verification-before-completion",
+      "path": "./community/verification-before-completion/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "path": "./community/web-artifacts-builder/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "path": "./community/webapp-testing/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "writing-plans",
+      "name": "writing-plans",
+      "path": "./community/writing-plans/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "writing-skills",
+      "name": "writing-skills",
+      "path": "./community/writing-skills/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "xlsx",
+      "name": "xlsx",
+      "path": "./community/xlsx/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "剪口播",
+      "name": "videocut:剪口播",
+      "path": "./community/剪口播/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "剪辑",
+      "name": "videocut:剪辑",
+      "path": "./community/剪辑/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "字幕",
+      "name": "videocut:字幕",
+      "path": "./community/字幕/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "安装",
+      "name": "videocut:安装",
+      "path": "./community/安装/SKILL.md",
+      "category": "community",
+      "exists": true
+    },
+    {
+      "id": "自更新",
+      "name": "videocut:自更新",
+      "path": "./community/自更新/SKILL.md",
+      "category": "community",
+      "exists": true
+    }
+  ]
+}
