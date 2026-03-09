@@ -25,7 +25,8 @@ from generate_report import generate_report
 from update_index import update_index_with_arena_data
 
 
-PROJECT_ROOT = Path(__file__).parent.parent
+# Project root is 3 levels up from this script (scripts -> skill-arena -> devops -> project root)
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 INDEX_JSON_PATH = PROJECT_ROOT / "index.json"
 CLUSTERS_JSON_PATH = PROJECT_ROOT / "devops" / "skill-arena" / "clusters.json"
 WINNERS_JSON_PATH = PROJECT_ROOT / "devops" / "skill-arena" / "winners.json"
