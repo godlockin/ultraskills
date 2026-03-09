@@ -1,0 +1,7109 @@
+{
+  "categories": [
+    {
+      "category": "cro",
+      "skills": [
+        {
+          "skill_id": "prompt-optimizer",
+          "skill_name": "Prompt Optimizer",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "context-optimization",
+          "skill_name": "context-optimization",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "form-cro",
+          "skill_name": "form-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "onboarding-cro",
+          "skill_name": "onboarding-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "page-cro",
+          "skill_name": "page-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "paywall-upgrade-cro",
+          "skill_name": "paywall-upgrade-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "popup-cro",
+          "skill_name": "popup-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "signup-flow-cro",
+          "skill_name": "signup-flow-cro",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "app-store-optimization",
+          "skill_name": "\"app-store-optimization\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "codebase-onboarding",
+          "skill_name": "\"codebase-onboarding\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cro-advisor",
+          "skill_name": "\"cro-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-demand-gen-specialist",
+          "skill_name": "cs-demand-gen-specialist",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-onboard",
+          "skill_name": "\"cs-onboard\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "form-cro-1",
+          "skill_name": "\"form-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "information-security-manager-iso27001",
+          "skill_name": "\"information-security-manager-iso27001\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "landing-page-generator",
+          "skill_name": "\"landing-page-generator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "onboarding-cro-1",
+          "skill_name": "\"onboarding-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "page-cro-1",
+          "skill_name": "\"page-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "paywall-upgrade-cro-1",
+          "skill_name": "\"paywall-upgrade-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "performance-profiler",
+          "skill_name": "\"performance-profiler\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "popup-cro-1",
+          "skill_name": "\"popup-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "signup-flow-cro-1",
+          "skill_name": "\"signup-flow-cro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "prompt-optimizer",
+        "skill_name": "Prompt Optimizer",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "seo",
+      "skills": [
+        {
+          "skill_id": "ai-seo",
+          "skill_name": "ai-seo",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "programmatic-seo",
+          "skill_name": "programmatic-seo",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "schema-markup",
+          "skill_name": "schema-markup",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "seo-audit",
+          "skill_name": "seo-audit",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ai-seo-1",
+          "skill_name": "\"ai-seo\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "database-schema-designer",
+          "skill_name": "\"database-schema-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "dependency-auditor",
+          "skill_name": "\"dependency-auditor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "isms-audit-expert",
+          "skill_name": "\"isms-audit-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "programmatic-seo-1",
+          "skill_name": "\"programmatic-seo\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "qms-audit-expert",
+          "skill_name": "\"qms-audit-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "schema-markup-1",
+          "skill_name": "\"schema-markup\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "seo-audit-1",
+          "skill_name": "\"seo-audit\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-security-auditor",
+          "skill_name": "\"skill-security-auditor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "ai-seo",
+        "skill_name": "ai-seo",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "content",
+      "skills": [
+        {
+          "skill_id": "commercial-director",
+          "skill_name": "\"commercial-director-pro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "writing-skills",
+          "skill_name": "writing-skills",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "content-strategy",
+          "skill_name": "content-strategy",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "copy-editing",
+          "skill_name": "copy-editing",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "copywriting",
+          "skill_name": "copywriting",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "email-sequence",
+          "skill_name": "email-sequence",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "social-content",
+          "skill_name": "social-content",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cold-email-1",
+          "skill_name": "\"cold-email\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "content-creator",
+          "skill_name": "\"content-creator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "content-humanizer",
+          "skill_name": "\"content-humanizer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "content-production",
+          "skill_name": "\"content-production\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "content-strategy-1",
+          "skill_name": "\"content-strategy\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "copy-editing-1",
+          "skill_name": "\"copy-editing\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "copywriting-1",
+          "skill_name": "\"copywriting\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-content-creator",
+          "skill_name": "cs-content-creator",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "email-sequence-1",
+          "skill_name": "\"email-sequence\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "email-template-builder",
+          "skill_name": "\"email-template-builder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "social-content-1",
+          "skill_name": "\"social-content\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "social-media-analyzer",
+          "skill_name": "\"social-media-analyzer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "social-media-manager",
+          "skill_name": "\"social-media-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "commercial-director",
+        "skill_name": "\"commercial-director-pro\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "marketing",
+      "skills": [
+        {
+          "skill_id": "ab-test-setup",
+          "skill_name": "ab-test-setup",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ad-creative",
+          "skill_name": "ad-creative",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "analytics-tracking",
+          "skill_name": "analytics-tracking",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "churn-prevention",
+          "skill_name": "churn-prevention",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "competitor-alternatives",
+          "skill_name": "competitor-alternatives",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "free-tool-strategy",
+          "skill_name": "free-tool-strategy",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "launch-strategy",
+          "skill_name": "launch-strategy",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-ideas",
+          "skill_name": "marketing-ideas",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "paid-ads",
+          "skill_name": "paid-ads",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-psychology",
+          "skill_name": "marketing-psychology",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "product-marketing-context",
+          "skill_name": "product-marketing-context",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "referral-program",
+          "skill_name": "referral-program",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "revops",
+          "skill_name": "revops",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "site-architecture",
+          "skill_name": "site-architecture",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ad-creative-1",
+          "skill_name": "\"ad-creative\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ab-test-setup-1",
+          "skill_name": "\"ab-test-setup\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "analytics-tracking-1",
+          "skill_name": "\"analytics-tracking\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "campaign-analytics",
+          "skill_name": "\"campaign-analytics\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cmo-advisor",
+          "skill_name": "\"cmo-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "competitive-intel",
+          "skill_name": "\"competitive-intel\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "free-tool-strategy-1",
+          "skill_name": "\"free-tool-strategy\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-bundle",
+          "skill_name": "\"marketing-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-context",
+          "skill_name": "\"marketing-context\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-demand-acquisition",
+          "skill_name": "\"marketing-demand-acquisition\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-ideas-1",
+          "skill_name": "\"marketing-ideas\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-ops",
+          "skill_name": "\"marketing-ops\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-psychology-1",
+          "skill_name": "\"marketing-psychology\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "marketing-strategy-pmm",
+          "skill_name": "\"marketing-strategy-pmm\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "paid-ads-1",
+          "skill_name": "\"paid-ads\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "prompt-engineer-toolkit",
+          "skill_name": "\"prompt-engineer-toolkit\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "ab-test-setup",
+        "skill_name": "ab-test-setup",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "growth",
+      "skills": [
+        {
+          "skill_id": "business-growth-bundle",
+          "skill_name": "\"business-growth-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "churn-prevention-1",
+          "skill_name": "\"churn-prevention\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-growth-strategist",
+          "skill_name": "cs-growth-strategist",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "customer-success-manager",
+          "skill_name": "\"customer-success-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "referral-program-1",
+          "skill_name": "\"referral-program\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "business-growth-bundle",
+        "skill_name": "\"business-growth-skills\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "sales",
+      "skills": [
+        {
+          "skill_id": "cold-email",
+          "skill_name": "cold-email",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "sales-enablement",
+          "skill_name": "sales-enablement",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "competitor-alternatives-1",
+          "skill_name": "\"competitor-alternatives\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "revenue-operations",
+          "skill_name": "\"revenue-operations\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "sales-engineer",
+          "skill_name": "\"sales-engineer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "cold-email",
+        "skill_name": "cold-email",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "pricing",
+      "skills": [
+        {
+          "skill_id": "pricing-strategy",
+          "skill_name": "pricing-strategy",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "competitive-teardown",
+          "skill_name": "\"competitive-teardown\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "pricing-strategy-1",
+          "skill_name": "\"pricing-strategy\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "pricing-strategy",
+        "skill_name": "pricing-strategy",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "engineering",
+      "skills": [
+        {
+          "skill_id": "git-commit-master",
+          "skill_name": "Git Commit Master",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "github-skill-scout",
+          "skill_name": "\"github-skill-scout\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "github-to-skills",
+          "skill_name": "github-to-skills",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "finishing-a-development-branch",
+          "skill_name": "finishing-a-development-branch",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "project-development",
+          "skill_name": "project-development",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "receiving-code-review",
+          "skill_name": "receiving-code-review",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "requesting-code-review",
+          "skill_name": "requesting-code-review",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "subagent-driven-development",
+          "skill_name": "subagent-driven-development",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "systematic-debugging",
+          "skill_name": "systematic-debugging",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "test-driven-development",
+          "skill_name": "test-driven-development",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "using-git-worktrees",
+          "skill_name": "using-git-worktrees",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "webapp-testing",
+          "skill_name": "webapp-testing",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "writing-plans",
+          "skill_name": "writing-plans",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "code-reviewer",
+          "skill_name": "\"code-reviewer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-engineering-lead",
+          "skill_name": "cs-engineering-lead",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-senior-engineer",
+          "skill_name": "cs-senior-engineer",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cto-advisor",
+          "skill_name": "\"cto-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "engineering-bundle",
+          "skill_name": "\"engineering-advanced-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "engineering-team-bundle",
+          "skill_name": "\"engineering-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "extract",
+          "skill_name": "\"extract\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "founder-coach",
+          "skill_name": "\"founder-coach\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "git-worktree-manager",
+          "skill_name": "\"git-worktree-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "playwright-pro",
+          "skill_name": "\"playwright-pro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-computer-vision",
+          "skill_name": "\"senior-computer-vision\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-data-engineer",
+          "skill_name": "\"senior-data-engineer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-frontend",
+          "skill_name": "\"senior-frontend\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-fullstack",
+          "skill_name": "\"senior-fullstack\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-ml-engineer",
+          "skill_name": "\"senior-ml-engineer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-security",
+          "skill_name": "\"senior-security\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tdd-guide",
+          "skill_name": "\"tdd-guide\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-arena",
+          "skill_name": "skill-arena",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "claude-api",
+          "skill_name": "claude-api",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "digital-brain-skill",
+          "skill_name": "digital-brain",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "git-commit-master",
+        "skill_name": "Git Commit Master",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "product",
+      "skills": [
+        {
+          "skill_id": "ikea-designer",
+          "skill_name": "\"ikea-designer-pro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "photography-expert",
+          "skill_name": "\"photography-expert-pro\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "frontend-design",
+          "skill_name": "frontend-design",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "web-artifacts-builder",
+          "skill_name": "web-artifacts-builder",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "agent-workflow-designer",
+          "skill_name": "\"agent-workflow-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "agile-product-owner",
+          "skill_name": "\"agile-product-owner\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "api-design-reviewer",
+          "skill_name": "\"api-design-reviewer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "aws-solution-architect",
+          "skill_name": "\"aws-solution-architect\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "brand-guidelines-1",
+          "skill_name": "\"brand-guidelines\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cpo-advisor",
+          "skill_name": "\"cpo-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-product-manager",
+          "skill_name": "cs-product-manager",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "database-designer",
+          "skill_name": "\"database-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "interview-system-designer",
+          "skill_name": "\"interview-system-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "jira-expert",
+          "skill_name": "\"jira-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "launch-strategy-1",
+          "skill_name": "\"launch-strategy\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "observability-designer",
+          "skill_name": "\"observability-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "product-bundle",
+          "skill_name": "\"product-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "product-manager-toolkit",
+          "skill_name": "\"product-manager-toolkit\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "product-strategist",
+          "skill_name": "\"product-strategist\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "risk-management-specialist",
+          "skill_name": "\"risk-management-specialist\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ui-design-system",
+          "skill_name": "\"ui-design-system\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ux-researcher-designer",
+          "skill_name": "\"ux-researcher-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "ikea-designer",
+        "skill_name": "\"ikea-designer-pro\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "devops",
+      "skills": [
+        {
+          "skill_id": "skill-evolution-manager",
+          "skill_name": "skill-evolution-manager",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-manager",
+          "skill_name": "skill-manager",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-sync-manager",
+          "skill_name": "skill-sync-manager",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "mcp-builder",
+          "skill_name": "mcp-builder",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "mcp-server-builder",
+          "skill_name": "\"mcp-server-builder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ci-cd-pipeline-builder",
+          "skill_name": "\"ci-cd-pipeline-builder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-devops",
+          "skill_name": "\"senior-devops\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "skill-evolution-manager",
+        "skill_name": "skill-evolution-manager",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "data",
+      "skills": [
+        {
+          "skill_id": "pdf",
+          "skill_name": "pdf",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "xlsx",
+          "skill_name": "xlsx",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-data-scientist",
+          "skill_name": "\"senior-data-scientist\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "pdf",
+        "skill_name": "pdf",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "video",
+      "skills": [
+        {
+          "skill_id": "media-downloader",
+          "skill_name": "\"media-downloader\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "gemini-image-optimizer",
+          "skill_name": "\"gemini-image-optimizer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "image-to-video",
+          "skill_name": "\"image-to-video\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "remotion-video",
+          "skill_name": "Remotion Video Creator",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "video-frame-extractor",
+          "skill_name": "\"video-frame-extractor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "video-splitter",
+          "skill_name": "\"video-splitter\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "剪口播",
+          "skill_name": "videocut:剪口播",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "剪辑",
+          "skill_name": "videocut:剪辑",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "字幕",
+          "skill_name": "videocut:字幕",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "安装",
+          "skill_name": "videocut:安装",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "自更新",
+          "skill_name": "videocut:自更新",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "media-downloader",
+        "skill_name": "\"media-downloader\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "agent",
+      "skills": [
+        {
+          "skill_id": "bdi-mental-states",
+          "skill_name": "bdi-mental-states",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "context-compression",
+          "skill_name": "context-compression",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "context-degradation",
+          "skill_name": "context-degradation",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "context-fundamentals",
+          "skill_name": "context-fundamentals",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "dispatching-parallel-agents",
+          "skill_name": "dispatching-parallel-agents",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "evaluation",
+          "skill_name": "evaluation",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "filesystem-context",
+          "skill_name": "filesystem-context",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "hosted-agents",
+          "skill_name": "hosted-agents",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "memory-systems",
+          "skill_name": "memory-systems",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tool-design",
+          "skill_name": "tool-design",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "multi-agent-patterns",
+          "skill_name": "multi-agent-patterns",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "using-superpowers",
+          "skill_name": "using-superpowers",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "agent-designer",
+          "skill_name": "\"agent-designer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "agent-protocol",
+          "skill_name": "\"agent-protocol\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "context-engine",
+          "skill_name": "\"context-engine\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-financial-analyst",
+          "skill_name": "cs-financial-analyst",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-project-manager",
+          "skill_name": "cs-project-manager",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-quality-regulatory",
+          "skill_name": "cs-quality-regulatory",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "decision-logger",
+          "skill_name": "\"decision-logger\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "self-improving-agent",
+          "skill_name": "\"self-improving-agent\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "bdi-mental-states",
+        "skill_name": "bdi-mental-states",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "creative",
+      "skills": [
+        {
+          "skill_id": "visual-expert",
+          "skill_name": "\"Visual Expert Pro (Gemini 3.0 Edition)\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "algorithmic-art",
+          "skill_name": "algorithmic-art",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "brainstorming",
+          "skill_name": "brainstorming",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "canvas-design",
+          "skill_name": "canvas-design",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "visual-expert",
+        "skill_name": "\"Visual Expert Pro (Gemini 3.0 Edition)\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "business",
+      "skills": [
+        {
+          "skill_id": "c-level-advisor-bundle",
+          "skill_name": "\"c-level-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ceo-advisor",
+          "skill_name": "\"ceo-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "chief-of-staff",
+          "skill_name": "\"chief-of-staff\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cfo-advisor",
+          "skill_name": "\"cfo-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "chro-advisor",
+          "skill_name": "\"chro-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "coo-advisor",
+          "skill_name": "\"coo-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-ceo-advisor",
+          "skill_name": "cs-ceo-advisor",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "cs-cto-advisor",
+          "skill_name": "cs-cto-advisor",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "finance-bundle",
+          "skill_name": "\"finance-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "stress-test",
+          "skill_name": "\"stress-test\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "c-level-advisor-bundle",
+        "skill_name": "\"c-level-advisor\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "compliance",
+      "skills": [
+        {
+          "skill_id": "ciso-advisor",
+          "skill_name": "\"ciso-advisor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "fda-consultant-specialist",
+          "skill_name": "\"fda-consultant-specialist\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "gdpr-dsgvo-expert",
+          "skill_name": "\"gdpr-dsgvo-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "intl-expansion",
+          "skill_name": "\"intl-expansion\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "mdr-745-specialist",
+          "skill_name": "\"mdr-745-specialist\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "quality-manager-qms-iso13485",
+          "skill_name": "\"quality-manager-qms-iso13485\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "regulatory-affairs-head",
+          "skill_name": "\"regulatory-affairs-head\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ra-qm-team-bundle",
+          "skill_name": "\"ra-qm-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-secops",
+          "skill_name": "\"senior-secops\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "ciso-advisor",
+        "skill_name": "\"ciso-advisor\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    },
+    {
+      "category": "other",
+      "skills": [
+        {
+          "skill_id": "prompt-engineer",
+          "skill_name": "\"prompt-engineer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skills-finder",
+          "skill_name": "skills-finder",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "task-analyzer",
+          "skill_name": "Task Analyzer",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "advanced-evaluation",
+          "skill_name": "advanced-evaluation",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "brand-guidelines",
+          "skill_name": "brand-guidelines",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "doc-coauthoring",
+          "skill_name": "doc-coauthoring",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "docx",
+          "skill_name": "docx",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "executing-plans",
+          "skill_name": "executing-plans",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "internal-comms",
+          "skill_name": "internal-comms",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "pptx",
+          "skill_name": "pptx",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-creator",
+          "skill_name": "skill-creator",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "slack-gif-creator",
+          "skill_name": "slack-gif-creator",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "theme-factory",
+          "skill_name": "theme-factory",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "verification-before-completion",
+          "skill_name": "verification-before-completion",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "api-test-suite-builder",
+          "skill_name": "\"api-test-suite-builder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "atlassian-admin",
+          "skill_name": "\"atlassian-admin\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "atlassian-templates",
+          "skill_name": "\"atlassian-templates\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "board-deck-builder",
+          "skill_name": "\"board-deck-builder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "board-meeting",
+          "skill_name": "\"board-meeting\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "board-prep",
+          "skill_name": "\"board-prep\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "browserstack",
+          "skill_name": "\"browserstack\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "capa-officer",
+          "skill_name": "\"capa-officer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "challenge",
+          "skill_name": "\"challenge\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "change-management",
+          "skill_name": "\"change-management\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "changelog",
+          "skill_name": "changelog",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "changelog-generator",
+          "skill_name": "\"changelog-generator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "company-os",
+          "skill_name": "\"company-os\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "competitive-matrix",
+          "skill_name": "competitive-matrix",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "confluence-expert",
+          "skill_name": "\"confluence-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "contract-and-proposal-writer",
+          "skill_name": "\"contract-and-proposal-writer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "coverage",
+          "skill_name": "\"coverage\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "culture-architect",
+          "skill_name": "\"culture-architect\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "env-secrets-manager",
+          "skill_name": "\"env-secrets-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "executive-mentor",
+          "skill_name": "\"executive-mentor\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "financial-analyst",
+          "skill_name": "\"financial-analyst\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "fix",
+          "skill_name": "\"fix\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "generate",
+          "skill_name": "\"generate\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "hard-call",
+          "skill_name": "\"hard-call\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "incident-commander",
+          "skill_name": "\"incident-commander\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "init",
+          "skill_name": "\"init\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "internal-narrative",
+          "skill_name": "\"internal-narrative\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ma-playbook",
+          "skill_name": "\"ma-playbook\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "migrate",
+          "skill_name": "\"migrate\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "migration-architect",
+          "skill_name": "\"migration-architect\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "monorepo-navigator",
+          "skill_name": "\"monorepo-navigator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "ms365-tenant-manager",
+          "skill_name": "\"ms365-tenant-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "org-health-diagnostic",
+          "skill_name": "\"org-health-diagnostic\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "pipeline",
+          "skill_name": "pipeline",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "postmortem",
+          "skill_name": "\"postmortem\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "pr-review-expert",
+          "skill_name": "\"pr-review-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "project-management-bundle",
+          "skill_name": "\"pm-skills\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "promote",
+          "skill_name": "\"promote\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "quality-documentation-manager",
+          "skill_name": "\"quality-documentation-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "quality-manager-qmr",
+          "skill_name": "\"quality-manager-qmr\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "rag-architect",
+          "skill_name": "\"rag-architect\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "release-manager",
+          "skill_name": "\"release-manager\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "remember",
+          "skill_name": "\"remember\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "report",
+          "skill_name": "\"report\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "review",
+          "skill_name": "\"review\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "runbook-generator",
+          "skill_name": "\"runbook-generator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "saas-scaffolder",
+          "skill_name": "\"saas-scaffolder\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "scenario-war-room",
+          "skill_name": "\"scenario-war-room\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "scrum-master",
+          "skill_name": "\"scrum-master\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-architect",
+          "skill_name": "\"senior-architect\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-backend",
+          "skill_name": "\"senior-backend\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-pm",
+          "skill_name": "\"senior-pm\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-prompt-engineer",
+          "skill_name": "\"senior-prompt-engineer\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "senior-qa",
+          "skill_name": "\"senior-qa\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "site-architecture-1",
+          "skill_name": "\"site-architecture\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "skill-tester",
+          "skill_name": "\"skill-tester\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "status",
+          "skill_name": "\"status\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "strategic-alignment",
+          "skill_name": "\"strategic-alignment\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "stripe-integration-expert",
+          "skill_name": "\"stripe-integration-expert\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tdd",
+          "skill_name": "tdd",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tech-debt",
+          "skill_name": "tech-debt",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tech-debt-tracker",
+          "skill_name": "tech-debt-tracker",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "tech-stack-evaluator",
+          "skill_name": "\"tech-stack-evaluator\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "testrail",
+          "skill_name": "\"testrail\"",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "interleaved-thinking",
+          "skill_name": "reasoning-trace-optimizer",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        },
+        {
+          "skill_id": "book-sft-pipeline",
+          "skill_name": "book-sft-pipeline",
+          "scores": {
+            "speed": 30.0,
+            "quality": 37.5,
+            "maintainability": 15,
+            "total": 82.5
+          },
+          "total_score": 82.5
+        }
+      ],
+      "winner": {
+        "skill_id": "prompt-engineer",
+        "skill_name": "\"prompt-engineer\"",
+        "scores": {
+          "speed": 30.0,
+          "quality": 37.5,
+          "maintainability": 15,
+          "total": 82.5
+        },
+        "total_score": 82.5
+      }
+    }
+  ],
+  "overall": [
+    {
+      "skill_id": "prompt-optimizer",
+      "skill_name": "Prompt Optimizer",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "context-optimization",
+      "skill_name": "context-optimization",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "form-cro",
+      "skill_name": "form-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "onboarding-cro",
+      "skill_name": "onboarding-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "page-cro",
+      "skill_name": "page-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "paywall-upgrade-cro",
+      "skill_name": "paywall-upgrade-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "popup-cro",
+      "skill_name": "popup-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "signup-flow-cro",
+      "skill_name": "signup-flow-cro",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "app-store-optimization",
+      "skill_name": "\"app-store-optimization\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "codebase-onboarding",
+      "skill_name": "\"codebase-onboarding\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "cro-advisor",
+      "skill_name": "\"cro-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "cs-demand-gen-specialist",
+      "skill_name": "cs-demand-gen-specialist",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "cs-onboard",
+      "skill_name": "\"cs-onboard\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "form-cro-1",
+      "skill_name": "\"form-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "information-security-manager-iso27001",
+      "skill_name": "\"information-security-manager-iso27001\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "landing-page-generator",
+      "skill_name": "\"landing-page-generator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "onboarding-cro-1",
+      "skill_name": "\"onboarding-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "page-cro-1",
+      "skill_name": "\"page-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "paywall-upgrade-cro-1",
+      "skill_name": "\"paywall-upgrade-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "performance-profiler",
+      "skill_name": "\"performance-profiler\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "popup-cro-1",
+      "skill_name": "\"popup-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "signup-flow-cro-1",
+      "skill_name": "\"signup-flow-cro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "cro"
+    },
+    {
+      "skill_id": "ai-seo",
+      "skill_name": "ai-seo",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "programmatic-seo",
+      "skill_name": "programmatic-seo",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "schema-markup",
+      "skill_name": "schema-markup",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "seo-audit",
+      "skill_name": "seo-audit",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "ai-seo-1",
+      "skill_name": "\"ai-seo\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "database-schema-designer",
+      "skill_name": "\"database-schema-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "dependency-auditor",
+      "skill_name": "\"dependency-auditor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "isms-audit-expert",
+      "skill_name": "\"isms-audit-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "programmatic-seo-1",
+      "skill_name": "\"programmatic-seo\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "qms-audit-expert",
+      "skill_name": "\"qms-audit-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "schema-markup-1",
+      "skill_name": "\"schema-markup\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "seo-audit-1",
+      "skill_name": "\"seo-audit\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "skill-security-auditor",
+      "skill_name": "\"skill-security-auditor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "seo"
+    },
+    {
+      "skill_id": "commercial-director",
+      "skill_name": "\"commercial-director-pro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "writing-skills",
+      "skill_name": "writing-skills",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "content-strategy",
+      "skill_name": "content-strategy",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "copy-editing",
+      "skill_name": "copy-editing",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "copywriting",
+      "skill_name": "copywriting",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "email-sequence",
+      "skill_name": "email-sequence",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "social-content",
+      "skill_name": "social-content",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "cold-email-1",
+      "skill_name": "\"cold-email\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "content-creator",
+      "skill_name": "\"content-creator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "content-humanizer",
+      "skill_name": "\"content-humanizer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "content-production",
+      "skill_name": "\"content-production\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "content-strategy-1",
+      "skill_name": "\"content-strategy\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "copy-editing-1",
+      "skill_name": "\"copy-editing\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "copywriting-1",
+      "skill_name": "\"copywriting\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "cs-content-creator",
+      "skill_name": "cs-content-creator",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "email-sequence-1",
+      "skill_name": "\"email-sequence\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "email-template-builder",
+      "skill_name": "\"email-template-builder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "social-content-1",
+      "skill_name": "\"social-content\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "social-media-analyzer",
+      "skill_name": "\"social-media-analyzer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "social-media-manager",
+      "skill_name": "\"social-media-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "content"
+    },
+    {
+      "skill_id": "ab-test-setup",
+      "skill_name": "ab-test-setup",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "ad-creative",
+      "skill_name": "ad-creative",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "analytics-tracking",
+      "skill_name": "analytics-tracking",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "churn-prevention",
+      "skill_name": "churn-prevention",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "competitor-alternatives",
+      "skill_name": "competitor-alternatives",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "free-tool-strategy",
+      "skill_name": "free-tool-strategy",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "launch-strategy",
+      "skill_name": "launch-strategy",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-ideas",
+      "skill_name": "marketing-ideas",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "paid-ads",
+      "skill_name": "paid-ads",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-psychology",
+      "skill_name": "marketing-psychology",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "product-marketing-context",
+      "skill_name": "product-marketing-context",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "referral-program",
+      "skill_name": "referral-program",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "revops",
+      "skill_name": "revops",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "site-architecture",
+      "skill_name": "site-architecture",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "ad-creative-1",
+      "skill_name": "\"ad-creative\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "ab-test-setup-1",
+      "skill_name": "\"ab-test-setup\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "analytics-tracking-1",
+      "skill_name": "\"analytics-tracking\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "campaign-analytics",
+      "skill_name": "\"campaign-analytics\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "cmo-advisor",
+      "skill_name": "\"cmo-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "competitive-intel",
+      "skill_name": "\"competitive-intel\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "free-tool-strategy-1",
+      "skill_name": "\"free-tool-strategy\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-bundle",
+      "skill_name": "\"marketing-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-context",
+      "skill_name": "\"marketing-context\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-demand-acquisition",
+      "skill_name": "\"marketing-demand-acquisition\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-ideas-1",
+      "skill_name": "\"marketing-ideas\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-ops",
+      "skill_name": "\"marketing-ops\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-psychology-1",
+      "skill_name": "\"marketing-psychology\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "marketing-strategy-pmm",
+      "skill_name": "\"marketing-strategy-pmm\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "paid-ads-1",
+      "skill_name": "\"paid-ads\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "prompt-engineer-toolkit",
+      "skill_name": "\"prompt-engineer-toolkit\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "marketing"
+    },
+    {
+      "skill_id": "business-growth-bundle",
+      "skill_name": "\"business-growth-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "growth"
+    },
+    {
+      "skill_id": "churn-prevention-1",
+      "skill_name": "\"churn-prevention\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "growth"
+    },
+    {
+      "skill_id": "cs-growth-strategist",
+      "skill_name": "cs-growth-strategist",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "growth"
+    },
+    {
+      "skill_id": "customer-success-manager",
+      "skill_name": "\"customer-success-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "growth"
+    },
+    {
+      "skill_id": "referral-program-1",
+      "skill_name": "\"referral-program\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "growth"
+    },
+    {
+      "skill_id": "cold-email",
+      "skill_name": "cold-email",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "sales"
+    },
+    {
+      "skill_id": "sales-enablement",
+      "skill_name": "sales-enablement",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "sales"
+    },
+    {
+      "skill_id": "competitor-alternatives-1",
+      "skill_name": "\"competitor-alternatives\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "sales"
+    },
+    {
+      "skill_id": "revenue-operations",
+      "skill_name": "\"revenue-operations\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "sales"
+    },
+    {
+      "skill_id": "sales-engineer",
+      "skill_name": "\"sales-engineer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "sales"
+    },
+    {
+      "skill_id": "pricing-strategy",
+      "skill_name": "pricing-strategy",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "pricing"
+    },
+    {
+      "skill_id": "competitive-teardown",
+      "skill_name": "\"competitive-teardown\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "pricing"
+    },
+    {
+      "skill_id": "pricing-strategy-1",
+      "skill_name": "\"pricing-strategy\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "pricing"
+    },
+    {
+      "skill_id": "git-commit-master",
+      "skill_name": "Git Commit Master",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "github-skill-scout",
+      "skill_name": "\"github-skill-scout\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "github-to-skills",
+      "skill_name": "github-to-skills",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "finishing-a-development-branch",
+      "skill_name": "finishing-a-development-branch",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "project-development",
+      "skill_name": "project-development",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "receiving-code-review",
+      "skill_name": "receiving-code-review",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "requesting-code-review",
+      "skill_name": "requesting-code-review",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "subagent-driven-development",
+      "skill_name": "subagent-driven-development",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "systematic-debugging",
+      "skill_name": "systematic-debugging",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "test-driven-development",
+      "skill_name": "test-driven-development",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "using-git-worktrees",
+      "skill_name": "using-git-worktrees",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "webapp-testing",
+      "skill_name": "webapp-testing",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "writing-plans",
+      "skill_name": "writing-plans",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "code-reviewer",
+      "skill_name": "\"code-reviewer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "cs-engineering-lead",
+      "skill_name": "cs-engineering-lead",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "cs-senior-engineer",
+      "skill_name": "cs-senior-engineer",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "cto-advisor",
+      "skill_name": "\"cto-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "engineering-bundle",
+      "skill_name": "\"engineering-advanced-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "engineering-team-bundle",
+      "skill_name": "\"engineering-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "extract",
+      "skill_name": "\"extract\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "founder-coach",
+      "skill_name": "\"founder-coach\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "git-worktree-manager",
+      "skill_name": "\"git-worktree-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "playwright-pro",
+      "skill_name": "\"playwright-pro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-computer-vision",
+      "skill_name": "\"senior-computer-vision\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-data-engineer",
+      "skill_name": "\"senior-data-engineer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-frontend",
+      "skill_name": "\"senior-frontend\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-fullstack",
+      "skill_name": "\"senior-fullstack\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-ml-engineer",
+      "skill_name": "\"senior-ml-engineer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "senior-security",
+      "skill_name": "\"senior-security\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "tdd-guide",
+      "skill_name": "\"tdd-guide\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "skill-arena",
+      "skill_name": "skill-arena",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "claude-api",
+      "skill_name": "claude-api",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "digital-brain-skill",
+      "skill_name": "digital-brain",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "engineering"
+    },
+    {
+      "skill_id": "ikea-designer",
+      "skill_name": "\"ikea-designer-pro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "photography-expert",
+      "skill_name": "\"photography-expert-pro\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "frontend-design",
+      "skill_name": "frontend-design",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "web-artifacts-builder",
+      "skill_name": "web-artifacts-builder",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "agent-workflow-designer",
+      "skill_name": "\"agent-workflow-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "agile-product-owner",
+      "skill_name": "\"agile-product-owner\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "api-design-reviewer",
+      "skill_name": "\"api-design-reviewer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "aws-solution-architect",
+      "skill_name": "\"aws-solution-architect\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "brand-guidelines-1",
+      "skill_name": "\"brand-guidelines\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "cpo-advisor",
+      "skill_name": "\"cpo-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "cs-product-manager",
+      "skill_name": "cs-product-manager",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "database-designer",
+      "skill_name": "\"database-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "interview-system-designer",
+      "skill_name": "\"interview-system-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "jira-expert",
+      "skill_name": "\"jira-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "launch-strategy-1",
+      "skill_name": "\"launch-strategy\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "observability-designer",
+      "skill_name": "\"observability-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "product-bundle",
+      "skill_name": "\"product-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "product-manager-toolkit",
+      "skill_name": "\"product-manager-toolkit\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "product-strategist",
+      "skill_name": "\"product-strategist\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "risk-management-specialist",
+      "skill_name": "\"risk-management-specialist\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "ui-design-system",
+      "skill_name": "\"ui-design-system\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "ux-researcher-designer",
+      "skill_name": "\"ux-researcher-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "product"
+    },
+    {
+      "skill_id": "skill-evolution-manager",
+      "skill_name": "skill-evolution-manager",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "skill-manager",
+      "skill_name": "skill-manager",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "skill-sync-manager",
+      "skill_name": "skill-sync-manager",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "mcp-builder",
+      "skill_name": "mcp-builder",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "mcp-server-builder",
+      "skill_name": "\"mcp-server-builder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "ci-cd-pipeline-builder",
+      "skill_name": "\"ci-cd-pipeline-builder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "senior-devops",
+      "skill_name": "\"senior-devops\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "devops"
+    },
+    {
+      "skill_id": "pdf",
+      "skill_name": "pdf",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "data"
+    },
+    {
+      "skill_id": "xlsx",
+      "skill_name": "xlsx",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "data"
+    },
+    {
+      "skill_id": "senior-data-scientist",
+      "skill_name": "\"senior-data-scientist\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "data"
+    },
+    {
+      "skill_id": "media-downloader",
+      "skill_name": "\"media-downloader\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "gemini-image-optimizer",
+      "skill_name": "\"gemini-image-optimizer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "image-to-video",
+      "skill_name": "\"image-to-video\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "remotion-video",
+      "skill_name": "Remotion Video Creator",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "video-frame-extractor",
+      "skill_name": "\"video-frame-extractor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "video-splitter",
+      "skill_name": "\"video-splitter\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "剪口播",
+      "skill_name": "videocut:剪口播",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "剪辑",
+      "skill_name": "videocut:剪辑",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "字幕",
+      "skill_name": "videocut:字幕",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "安装",
+      "skill_name": "videocut:安装",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "自更新",
+      "skill_name": "videocut:自更新",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "video"
+    },
+    {
+      "skill_id": "bdi-mental-states",
+      "skill_name": "bdi-mental-states",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "context-compression",
+      "skill_name": "context-compression",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "context-degradation",
+      "skill_name": "context-degradation",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "context-fundamentals",
+      "skill_name": "context-fundamentals",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "dispatching-parallel-agents",
+      "skill_name": "dispatching-parallel-agents",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "evaluation",
+      "skill_name": "evaluation",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "filesystem-context",
+      "skill_name": "filesystem-context",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "hosted-agents",
+      "skill_name": "hosted-agents",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "memory-systems",
+      "skill_name": "memory-systems",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "tool-design",
+      "skill_name": "tool-design",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "multi-agent-patterns",
+      "skill_name": "multi-agent-patterns",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "using-superpowers",
+      "skill_name": "using-superpowers",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "agent-designer",
+      "skill_name": "\"agent-designer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "agent-protocol",
+      "skill_name": "\"agent-protocol\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "context-engine",
+      "skill_name": "\"context-engine\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "cs-financial-analyst",
+      "skill_name": "cs-financial-analyst",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "cs-project-manager",
+      "skill_name": "cs-project-manager",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "cs-quality-regulatory",
+      "skill_name": "cs-quality-regulatory",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "decision-logger",
+      "skill_name": "\"decision-logger\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "self-improving-agent",
+      "skill_name": "\"self-improving-agent\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "agent"
+    },
+    {
+      "skill_id": "visual-expert",
+      "skill_name": "\"Visual Expert Pro (Gemini 3.0 Edition)\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "creative"
+    },
+    {
+      "skill_id": "algorithmic-art",
+      "skill_name": "algorithmic-art",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "creative"
+    },
+    {
+      "skill_id": "brainstorming",
+      "skill_name": "brainstorming",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "creative"
+    },
+    {
+      "skill_id": "canvas-design",
+      "skill_name": "canvas-design",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "creative"
+    },
+    {
+      "skill_id": "c-level-advisor-bundle",
+      "skill_name": "\"c-level-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "ceo-advisor",
+      "skill_name": "\"ceo-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "chief-of-staff",
+      "skill_name": "\"chief-of-staff\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "cfo-advisor",
+      "skill_name": "\"cfo-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "chro-advisor",
+      "skill_name": "\"chro-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "coo-advisor",
+      "skill_name": "\"coo-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "cs-ceo-advisor",
+      "skill_name": "cs-ceo-advisor",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "cs-cto-advisor",
+      "skill_name": "cs-cto-advisor",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "finance-bundle",
+      "skill_name": "\"finance-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "stress-test",
+      "skill_name": "\"stress-test\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "business"
+    },
+    {
+      "skill_id": "ciso-advisor",
+      "skill_name": "\"ciso-advisor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "fda-consultant-specialist",
+      "skill_name": "\"fda-consultant-specialist\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "gdpr-dsgvo-expert",
+      "skill_name": "\"gdpr-dsgvo-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "intl-expansion",
+      "skill_name": "\"intl-expansion\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "mdr-745-specialist",
+      "skill_name": "\"mdr-745-specialist\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "quality-manager-qms-iso13485",
+      "skill_name": "\"quality-manager-qms-iso13485\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "regulatory-affairs-head",
+      "skill_name": "\"regulatory-affairs-head\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "ra-qm-team-bundle",
+      "skill_name": "\"ra-qm-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "senior-secops",
+      "skill_name": "\"senior-secops\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "compliance"
+    },
+    {
+      "skill_id": "prompt-engineer",
+      "skill_name": "\"prompt-engineer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "skills-finder",
+      "skill_name": "skills-finder",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "task-analyzer",
+      "skill_name": "Task Analyzer",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "advanced-evaluation",
+      "skill_name": "advanced-evaluation",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "brand-guidelines",
+      "skill_name": "brand-guidelines",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "doc-coauthoring",
+      "skill_name": "doc-coauthoring",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "docx",
+      "skill_name": "docx",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "executing-plans",
+      "skill_name": "executing-plans",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "internal-comms",
+      "skill_name": "internal-comms",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "pptx",
+      "skill_name": "pptx",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "skill-creator",
+      "skill_name": "skill-creator",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "slack-gif-creator",
+      "skill_name": "slack-gif-creator",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "theme-factory",
+      "skill_name": "theme-factory",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "verification-before-completion",
+      "skill_name": "verification-before-completion",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "api-test-suite-builder",
+      "skill_name": "\"api-test-suite-builder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "atlassian-admin",
+      "skill_name": "\"atlassian-admin\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "atlassian-templates",
+      "skill_name": "\"atlassian-templates\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "board-deck-builder",
+      "skill_name": "\"board-deck-builder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "board-meeting",
+      "skill_name": "\"board-meeting\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "board-prep",
+      "skill_name": "\"board-prep\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "browserstack",
+      "skill_name": "\"browserstack\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "capa-officer",
+      "skill_name": "\"capa-officer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "challenge",
+      "skill_name": "\"challenge\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "change-management",
+      "skill_name": "\"change-management\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "changelog",
+      "skill_name": "changelog",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "changelog-generator",
+      "skill_name": "\"changelog-generator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "company-os",
+      "skill_name": "\"company-os\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "competitive-matrix",
+      "skill_name": "competitive-matrix",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "confluence-expert",
+      "skill_name": "\"confluence-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "contract-and-proposal-writer",
+      "skill_name": "\"contract-and-proposal-writer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "coverage",
+      "skill_name": "\"coverage\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "culture-architect",
+      "skill_name": "\"culture-architect\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "env-secrets-manager",
+      "skill_name": "\"env-secrets-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "executive-mentor",
+      "skill_name": "\"executive-mentor\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "financial-analyst",
+      "skill_name": "\"financial-analyst\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "fix",
+      "skill_name": "\"fix\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "generate",
+      "skill_name": "\"generate\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "hard-call",
+      "skill_name": "\"hard-call\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "incident-commander",
+      "skill_name": "\"incident-commander\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "init",
+      "skill_name": "\"init\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "internal-narrative",
+      "skill_name": "\"internal-narrative\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "ma-playbook",
+      "skill_name": "\"ma-playbook\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "migrate",
+      "skill_name": "\"migrate\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "migration-architect",
+      "skill_name": "\"migration-architect\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "monorepo-navigator",
+      "skill_name": "\"monorepo-navigator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "ms365-tenant-manager",
+      "skill_name": "\"ms365-tenant-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "org-health-diagnostic",
+      "skill_name": "\"org-health-diagnostic\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "pipeline",
+      "skill_name": "pipeline",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "postmortem",
+      "skill_name": "\"postmortem\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "pr-review-expert",
+      "skill_name": "\"pr-review-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "project-management-bundle",
+      "skill_name": "\"pm-skills\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "promote",
+      "skill_name": "\"promote\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "quality-documentation-manager",
+      "skill_name": "\"quality-documentation-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "quality-manager-qmr",
+      "skill_name": "\"quality-manager-qmr\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "rag-architect",
+      "skill_name": "\"rag-architect\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "release-manager",
+      "skill_name": "\"release-manager\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "remember",
+      "skill_name": "\"remember\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "report",
+      "skill_name": "\"report\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "review",
+      "skill_name": "\"review\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "runbook-generator",
+      "skill_name": "\"runbook-generator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "saas-scaffolder",
+      "skill_name": "\"saas-scaffolder\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "scenario-war-room",
+      "skill_name": "\"scenario-war-room\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "scrum-master",
+      "skill_name": "\"scrum-master\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "senior-architect",
+      "skill_name": "\"senior-architect\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "senior-backend",
+      "skill_name": "\"senior-backend\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "senior-pm",
+      "skill_name": "\"senior-pm\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "senior-prompt-engineer",
+      "skill_name": "\"senior-prompt-engineer\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "senior-qa",
+      "skill_name": "\"senior-qa\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "site-architecture-1",
+      "skill_name": "\"site-architecture\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "skill-tester",
+      "skill_name": "\"skill-tester\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "status",
+      "skill_name": "\"status\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "strategic-alignment",
+      "skill_name": "\"strategic-alignment\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "stripe-integration-expert",
+      "skill_name": "\"stripe-integration-expert\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "tdd",
+      "skill_name": "tdd",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "tech-debt",
+      "skill_name": "tech-debt",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "tech-debt-tracker",
+      "skill_name": "tech-debt-tracker",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "tech-stack-evaluator",
+      "skill_name": "\"tech-stack-evaluator\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "testrail",
+      "skill_name": "\"testrail\"",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "interleaved-thinking",
+      "skill_name": "reasoning-trace-optimizer",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    },
+    {
+      "skill_id": "book-sft-pipeline",
+      "skill_name": "book-sft-pipeline",
+      "scores": {
+        "speed": 30.0,
+        "quality": 37.5,
+        "maintainability": 15,
+        "total": 82.5
+      },
+      "total_score": 82.5,
+      "category": "other"
+    }
+  ]
+}
