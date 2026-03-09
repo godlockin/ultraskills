@@ -6,7 +6,7 @@
 
 ```bash
 # 在项目根目录运行
-cd /Users/chenchen/working/sourcecode/tools/ultraskils
+cd ${PWD}/ultraskills
 
 # 搜索视频相关技能
 python meta/find-skills/scripts/search.py 视频
