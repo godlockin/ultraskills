@@ -22,3 +22,6 @@
 [submodule "external/marketingskills"]
 	path = external/marketingskills
 	url = https://github.com/coreyhaines31/marketingskills.git
+[submodule "external/claude-skills"]
+	path = external/claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git

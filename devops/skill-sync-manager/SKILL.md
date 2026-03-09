@@ -29,7 +29,8 @@ external/                          # Git Submodules 源
 ├── khazix-skills/                 # Khazix 自定义 skills
 ├── superpowers/                   # Superpowers 技能库
 ├── videocut-skills/              # Video 剪辑技能
-└── marketingskills/              # Marketing skills (CRO, copywriting, SEO, etc.)
+├── marketingskills/              # Marketing skills (CRO, copywriting, SEO, etc.)
+└── claude-skills/                # 169 production-ready skills (engineering, business, compliance, etc.)
 ```
 
 ### 目录映射
