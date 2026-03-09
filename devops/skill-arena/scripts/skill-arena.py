@@ -80,6 +80,8 @@ def cmd_test(args):
 
     parallel = not getattr(args, 'no_parallel', False)
     max_workers = getattr(args, 'workers', 4)
+    use_llm = getattr(args, 'use_llm', False)
+    llm_provider = getattr(args, 'provider', 'anthropic')
 
     results = []
     for cluster in clusters_data["clusters"]:
@@ -92,8 +94,10 @@ def cmd_test(args):
             design_test_cases(cluster, TEST_SUITES_DIR)
 
         # Run benchmarks
-        print(f"   ⚡ Running benchmarks (parallel={parallel}, workers={max_workers})...")
-        cluster_results = run_benchmarks(cluster, TEST_SUITES_DIR, parallel=parallel, max_workers=max_workers)
+        print(f"   ⚡ Running benchmarks (parallel={parallel}, workers={max_workers}, llm={use_llm})...")
+        cluster_results = run_benchmarks(cluster, TEST_SUITES_DIR, parallel=parallel,
+                                         max_workers=max_workers, use_llm=use_llm,
+                                         llm_provider=llm_provider)
         results.extend(cluster_results)
 
     # Save raw results
@@ -207,6 +211,8 @@ def main():
     test_parser = subparsers.add_parser("test", help="Run PK tests")
     test_parser.add_argument("--no-parallel", action="store_true", help="Disable parallel execution")
     test_parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers")
+    test_parser.add_argument("--use-llm", action="store_true", help="Use actual LLM invocation (requires API key)")
+    test_parser.add_argument("--provider", type=str, default="anthropic", help="LLM provider (anthropic, openai, google)")
     test_parser.set_defaults(func=cmd_test)
 
     # Score command

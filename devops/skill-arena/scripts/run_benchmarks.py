@@ -3,7 +3,7 @@
 Benchmark Runner Module
 
 Executes test cases against skills and collects results.
-Supports parallel execution and detailed metrics collection.
+Supports parallel execution, LLM invocation, and LLM Judge evaluation.
 """
 
 import json
@@ -14,8 +14,19 @@ from datetime import datetime
 from typing import Dict, Any, List
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Import LLM modules (optional - falls back to simulation if not available)
+try:
+    from llm_invoker import SkillInvoker, invoke_skill_for_test
+    from llm_judge import LLMJudge, evaluate_skill_output
+    LLM_AVAILABLE = True
+except ImportError:
+    LLM_AVAILABLE = False
+    print("  Note: LLM modules not available, using simulated execution")
 
-def run_benchmarks(cluster: Dict, test_suites_dir: Path, parallel: bool = True, max_workers: int = 4) -> List[Dict]:
+
+def run_benchmarks(cluster: Dict, test_suites_dir: Path, parallel: bool = True,
+                   max_workers: int = 4, use_llm: bool = False,
+                   llm_provider: str = "anthropic") -> List[Dict]:
     """
     Run benchmark tests for all skills in a cluster.
 
@@ -24,6 +35,8 @@ def run_benchmarks(cluster: Dict, test_suites_dir: Path, parallel: bool = True, 
         test_suites_dir: Directory containing test suite YAML files
         parallel: Whether to run tests in parallel
         max_workers: Maximum number of parallel workers
+        use_llm: Whether to use actual LLM invocation
+        llm_provider: LLM provider name
 
     Returns:
         List of test results for each skill
@@ -45,13 +58,15 @@ def run_benchmarks(cluster: Dict, test_suites_dir: Path, parallel: bool = True, 
     results = []
     skills = cluster.get("skills", [])
 
-    print(f"   Running {len(test_cases)} tests against {len(skills)} skills...")
+    exec_mode = "LLM" if use_llm else "simulated"
+    print(f"   Running {len(test_cases)} tests against {len(skills)} skills ({exec_mode} mode)...")
 
     if parallel:
         # Parallel execution
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             future_to_skill = {
-                executor.submit(evaluate_skill, skill, test_cases, cluster_name): skill
+                executor.submit(evaluate_skill, skill, test_cases, cluster_name,
+                               use_llm=use_llm, llm_provider=llm_provider): skill
                 for skill in skills
             }
 
@@ -65,25 +80,39 @@ def run_benchmarks(cluster: Dict, test_suites_dir: Path, parallel: bool = True, 
     else:
         # Sequential execution
         for skill in skills:
-            result = evaluate_skill(skill, test_cases, cluster_name)
+            result = evaluate_skill(skill, test_cases, cluster_name,
+                                   use_llm=use_llm, llm_provider=llm_provider)
             results.append(result)
 
     return results
 
 
-def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str) -> Dict:
+def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str,
+                   use_llm: bool = False, llm_provider: str = "anthropic") -> Dict:
     """
     Evaluate a single skill against all test cases.
 
-    This is the core evaluation function that:
-    1. Loads the skill's SKILL.md content
-    2. Executes each test case
-    3. Measures performance metrics
-    4. Collects outputs for scoring
+    Args:
+        skill: Skill metadata
+        test_cases: List of test cases
+        cluster_name: Name of the cluster
+        use_llm: Whether to use actual LLM invocation
+        llm_provider: LLM provider name
+
+    Returns:
+        Evaluation result dictionary
     """
     skill_id = skill.get("id", "")
     skill_name = skill.get("name", "")
     skill_path = skill.get("path", "")
+
+    # Initialize LLM components if requested
+    skill_invoker = None
+    llm_judge = None
+
+    if use_llm and LLM_AVAILABLE:
+        skill_invoker = SkillInvoker(provider=llm_provider)
+        llm_judge = LLMJudge(provider=llm_provider)
 
     result = {
         "cluster_name": cluster_name,
@@ -96,13 +125,14 @@ def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str) -> Di
             "total_tokens_used": 0,
             "tests_passed": 0,
             "tests_failed": 0,
-            "success_rate": 0.0
+            "success_rate": 0.0,
+            "avg_quality_score": 0.0
         },
-        "evaluated_at": datetime.now().isoformat()
+        "evaluated_at": datetime.now().isoformat(),
+        "use_llm": use_llm
     }
 
     # Try to load skill content for evaluation
-    # In production, this would actually invoke the skill via LLM
     project_root = Path(__file__).parent.parent.parent.parent
     skill_file_path = project_root / skill_path.lstrip("./")
 
@@ -112,7 +142,10 @@ def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str) -> Di
 
     # Execute each test case
     for test_case in test_cases:
-        test_result = execute_single_test(test_case, skill, skill_content)
+        test_result = execute_single_test(
+            test_case, skill, skill_content,
+            skill_invoker=skill_invoker, llm_judge=llm_judge
+        )
         result["test_results"].append(test_result)
 
         if test_result.get("success", False):
@@ -132,18 +165,22 @@ def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str) -> Di
         result["metrics"]["success_rate"] = (
             result["metrics"]["tests_passed"] / num_tests
         )
+        # Calculate average quality score
+        quality_scores = [tr.get("quality_score", 0) for tr in result["test_results"]]
+        result["metrics"]["avg_quality_score"] = sum(quality_scores) / len(quality_scores)
 
     return result
 
 
-def execute_single_test(test_case: Dict, skill: Dict, skill_content: str) -> Dict:
+def execute_single_test(test_case: Dict, skill: Dict, skill_content: str,
+                        skill_invoker: SkillInvoker = None, llm_judge: LLMJudge = None) -> Dict:
     """
     Execute a single test case against a skill.
 
-    In production, this would:
-    1. Send the test input to the skill (via LLM)
+    In production with LLM:
+    1. Invoke the skill via LLM API
     2. Measure response time and token usage
-    3. Evaluate output quality using LLM judge
+    3. Evaluate output quality using LLM Judge
     4. Return detailed results
     """
     start_time = time.time()
@@ -152,24 +189,41 @@ def execute_single_test(test_case: Dict, skill: Dict, skill_content: str) -> Dic
     input_type = test_input.get("type", "text")
     input_value = test_input.get("value", "")
 
-    # In production, invoke the actual skill here
-    # For now, simulate with placeholder
-    output = simulate_skill_response(skill, test_case, skill_content)
+    # Use LLM invoker if available, otherwise simulate
+    if skill_invoker and LLM_AVAILABLE:
+        result = skill_invoker.invoke_skill(skill, test_input, skill_content)
+        output = result.get("output", "")
+        response_time = result.get("response_time_s", time.time() - start_time)
+        tokens_used = result.get("tokens_used", 0)
+        success = result.get("success", False)
 
-    response_time = time.time() - start_time
-
-    # Calculate quality score (in production, use LLM judge)
-    quality_score = evaluate_output_quality(output, test_case, skill_content)
+        # Use LLM Judge for quality evaluation if available
+        if llm_judge and success:
+            eval_result = llm_judge.evaluate(test_case, output, skill.get("name", ""))
+            quality_score = eval_result.get("overall_score", 5.0)
+            dimension_scores = eval_result.get("dimension_scores", {})
+        else:
+            quality_score = evaluate_output_quality(output, test_case, skill_content)
+            dimension_scores = {}
+    else:
+        # Simulate execution
+        output = simulate_skill_response(skill, test_case, skill_content)
+        response_time = time.time() - start_time
+        tokens_used = len(output) // 4
+        success = True
+        quality_score = evaluate_output_quality(output, test_case, skill_content)
+        dimension_scores = {}
 
     return {
         "test_id": test_case.get("id", "unknown"),
         "test_name": test_case.get("name", ""),
         "executed": True,
         "response_time_s": round(response_time, 3),
-        "tokens_used": estimate_tokens(output),
-        "success": quality_score >= 5.0,
+        "tokens_used": tokens_used,
+        "success": success,
         "output": output[:500],  # Truncate for storage
         "quality_score": quality_score,
+        "dimension_scores": dimension_scores,
         "scoring_breakdown": {
             "speed": calculate_speed_score(response_time, test_case),
             "quality": quality_score * 5,  # Normalize to 50 points
