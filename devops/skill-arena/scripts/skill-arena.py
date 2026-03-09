@@ -78,6 +78,9 @@ def cmd_test(args):
     with open(CLUSTERS_JSON_PATH, 'r', encoding='utf-8') as f:
         clusters_data = json.load(f)
 
+    parallel = not getattr(args, 'no_parallel', False)
+    max_workers = getattr(args, 'workers', 4)
+
     results = []
     for cluster in clusters_data["clusters"]:
         print(f"\n📦 Testing cluster: {cluster['name']} ({cluster['id']})")
@@ -85,12 +88,12 @@ def cmd_test(args):
         # Design test cases if not exists
         test_suite_path = TEST_SUITES_DIR / cluster["name"] / "tests.yaml"
         if not test_suite_path.exists():
-            print(f"   Designing test cases for {cluster['name']}...")
+            print(f"   🧠 Designing test cases with expert panel...")
             design_test_cases(cluster, TEST_SUITES_DIR)
 
         # Run benchmarks
-        print(f"   Running benchmarks...")
-        cluster_results = run_benchmarks(cluster, TEST_SUITES_DIR)
+        print(f"   ⚡ Running benchmarks (parallel={parallel}, workers={max_workers})...")
+        cluster_results = run_benchmarks(cluster, TEST_SUITES_DIR, parallel=parallel, max_workers=max_workers)
         results.extend(cluster_results)
 
     # Save raw results
@@ -202,6 +205,8 @@ def main():
 
     # Test command
     test_parser = subparsers.add_parser("test", help="Run PK tests")
+    test_parser.add_argument("--no-parallel", action="store_true", help="Disable parallel execution")
+    test_parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers")
     test_parser.set_defaults(func=cmd_test)
 
     # Score command
