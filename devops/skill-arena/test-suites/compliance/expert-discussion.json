@@ -1,0 +1,193 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Compliance Expert Panel",
+      "description": "Regulatory compliance, quality management, and risk specialists",
+      "experts": [
+        {
+          "name": "Dr. Janet Woodcock",
+          "title": "FDA Regulatory Expert",
+          "expertise": [
+            "FDA compliance",
+            "drug approval",
+            "regulatory strategy"
+          ],
+          "background": "Former FDA CDER Director, 40+ years regulatory experience",
+          "focus": "FDA regulatory framework"
+        },
+        {
+          "name": "Graham Law",
+          "title": "ISO Standards Expert",
+          "expertise": [
+            "ISO 13485",
+            "ISO 27001",
+            "quality management systems"
+          ],
+          "background": "Lead auditor for multiple ISO standards",
+          "focus": "ISO compliance and QMS"
+        },
+        {
+          "name": "J. Trevor Hughes",
+          "title": "Privacy Leadership",
+          "expertise": [
+            "GDPR",
+            "data privacy",
+            "privacy compliance"
+          ],
+          "background": "IAPP CEO, privacy industry leader",
+          "focus": "Privacy regulations and compliance"
+        },
+        {
+          "name": "Dr. Steven Guttman",
+          "title": "Risk Management Expert",
+          "expertise": [
+            "enterprise risk",
+            "risk assessment",
+            "compliance programs"
+          ],
+          "background": "Former federal regulator, compliance consultant",
+          "focus": "Risk management frameworks"
+        }
+      ]
+    },
+    "category": "compliance",
+    "skills": [
+      {
+        "id": "ciso-advisor",
+        "name": "\"ciso-advisor\"",
+        "description": "\"Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selecting compliance frameworks, managing incidents, assessing vendor risk, or when user mentions CISO, security strategy, compliance roadmap, zero trust, or board security reporting.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "fda-consultant-specialist",
+        "name": "\"fda-consultant-specialist\"",
+        "description": "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, HIPAA medical device, or FDA cybersecurity.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "gdpr-dsgvo-expert",
+        "name": "\"gdpr-dsgvo-expert\"",
+        "description": "GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Use for GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, and data subject rights management.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "intl-expansion",
+        "name": "\"intl-expansion\"",
+        "description": "\"International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "mdr-745-specialist",
+        "name": "\"mdr-745-specialist\"",
+        "description": "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "quality-manager-qms-iso13485",
+        "name": "\"quality-manager-qms-iso13485\"",
+        "description": "ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support. Use when working with medical device quality systems, preparing for ISO 13485 audits, managing regulatory compliance documentation, setting up corrective actions, or building audit preparation programs. Useful for quality management, audit preparation, regulatory compliance, medical device documentation, and corrective action workflows.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "ra-qm-team-bundle",
+        "name": "\"ra-qm-skills\"",
+        "description": "\"12 production-ready regulatory affairs and quality management skills for HealthTech/MedTech: ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO compliance, risk management (ISO 14971), CAPA, document control, and internal auditing. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "regulatory-affairs-head",
+        "name": "\"regulatory-affairs-head\"",
+        "description": "Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes regulatory pathways for new medical devices; drafts responses to FDA deficiency letters and Notified Body queries; develops CE marking technical documentation under EU MDR 2017/745; coordinates multi-market approval strategies across FDA, EU, Health Canada, PMDA, and NMPA; and maintains regulatory intelligence on evolving standards. Use when users need to plan or execute FDA submissions, navigate 510(k) or PMA approval processes, achieve CE marking, prepare pre-submission meeting materials, write regulatory strategy documents, respond to agency queries, or manage compliance documentation for medical device market access.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-secops",
+        "name": "\"senior-secops\"",
+        "description": "Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and automates compliance checks against SOC2, PCI-DSS, HIPAA, and GDPR. Use when conducting a security review or audit, responding to a CVE or security incident, hardening infrastructure, implementing authentication or secrets management, running penetration test prep, checking OWASP Top 10 exposure, or enforcing security controls in CI/CD pipelines.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Compliance Task",
+      "description": "Evaluate skill performance on typical compliance task",
+      "input": {
+        "type": "text",
+        "value": "Test input for compliance"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Janet Woodcock",
+      "expert_focus": "FDA regulatory framework",
+      "refinement_notes": [
+        "Reviewed by Dr. Janet Woodcock",
+        "Aligned with compliance best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Janet Woodcock",
+          "Graham Law",
+          "J. Trevor Hughes",
+          "Dr. Steven Guttman"
+        ],
+        "category": "compliance",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

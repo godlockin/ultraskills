@@ -1,0 +1,404 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "CRO Expert Panel",
+      "description": "Conversion Rate Optimization specialists",
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "title": "Chief Conversion Officer",
+          "expertise": [
+            "landing page optimization",
+            "funnel analysis",
+            "A/B testing"
+          ],
+          "background": "Former CRO lead at Optimizely, 15+ years experience",
+          "focus": "Strategic oversight and test prioritization"
+        },
+        {
+          "name": "Marcus Rodriguez",
+          "title": "UX Research Director",
+          "expertise": [
+            "user behavior analysis",
+            "heatmap interpretation",
+            "session replay"
+          ],
+          "background": "Led UX research at Hotjar, published author on conversion psychology",
+          "focus": "User behavior insights and friction identification"
+        },
+        {
+          "name": "Dr. Emily Watson",
+          "title": "Behavioral Psychologist",
+          "expertise": [
+            "persuasion psychology",
+            "decision science",
+            "nudge theory"
+          ],
+          "background": "PhD in Behavioral Economics, advisor to Fortune 500 companies",
+          "focus": "Psychological triggers and motivation factors"
+        },
+        {
+          "name": "James Park",
+          "title": "Data Science Lead",
+          "expertise": [
+            "statistical analysis",
+            "experiment design",
+            "causal inference"
+          ],
+          "background": "Former data scientist at Booking.com, experimentation platform builder",
+          "focus": "Statistical rigor and measurement validity"
+        }
+      ]
+    },
+    "category": "cro",
+    "skills": [
+      {
+        "id": "prompt-optimizer",
+        "name": "Prompt Optimizer",
+        "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
+        "tags": [
+          "prompt-engineering",
+          "meta-prompting",
+          "optimization"
+        ]
+      },
+      {
+        "id": "context-optimization",
+        "name": "context-optimization",
+        "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.",
+        "tags": []
+      },
+      {
+        "id": "form-cro",
+        "name": "form-cro",
+        "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "onboarding-cro",
+        "name": "onboarding-cro",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "page-cro",
+        "name": "page-cro",
+        "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "paywall-upgrade-cro",
+        "name": "paywall-upgrade-cro",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "popup-cro",
+        "name": "popup-cro",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "signup-flow-cro",
+        "name": "signup-flow-cro",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "app-store-optimization",
+        "name": "\"app-store-optimization\"",
+        "description": "App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, app store listings, app visibility, or mobile app marketing on iOS or Android. Supports keyword research and scoring, competitor keyword analysis, metadata optimization, A/B test planning, launch checklists, and tracking ranking changes.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "codebase-onboarding",
+        "name": "\"codebase-onboarding\"",
+        "description": "\"Codebase Onboarding\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cro-advisor",
+        "name": "\"cro-advisor\"",
+        "description": "\"Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief revenue officer, revenue strategy, sales model, ARR growth, NRR, expansion revenue, churn, pricing strategy, or sales capacity.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-demand-gen-specialist",
+        "name": "cs-demand-gen-specialist",
+        "description": "Demand generation and customer acquisition specialist for lead generation, conversion optimization, and multi-channel acquisition campaigns",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-onboard",
+        "name": "\"cs-onboard\"",
+        "description": "\"Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "form-cro-1",
+        "name": "\"form-cro\"",
+        "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "information-security-manager-iso27001",
+        "name": "\"information-security-manager-iso27001\"",
+        "description": "ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and MedTech companies. Use for ISMS design, security risk assessment, control implementation, ISO 27001 certification, security audits, incident response, and compliance verification. Covers ISO 27001, ISO 27002, healthcare security, and medical device cybersecurity.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "landing-page-generator",
+        "name": "\"landing-page-generator\"",
+        "description": "\"Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage, single-page site, lead capture page, campaign page, promo page, or conversion-optimised web page — or when they want to A/B test landing page variants or replace a static page with one designed to convert.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "onboarding-cro-1",
+        "name": "\"onboarding-cro\"",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "page-cro-1",
+        "name": "\"page-cro\"",
+        "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "paywall-upgrade-cro-1",
+        "name": "\"paywall-upgrade-cro\"",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "performance-profiler",
+        "name": "\"performance-profiler\"",
+        "description": "\"Performance Profiler\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "popup-cro-1",
+        "name": "\"popup-cro\"",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "signup-flow-cro-1",
+        "name": "\"signup-flow-cro\"",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Landing Page Conversion Audit",
+      "description": "Analyze a landing page and identify conversion barriers",
+      "input": {
+        "type": "url",
+        "value": "https://example.com/landing"
+      },
+      "expected_outputs": [
+        "Identify 3+ conversion barriers",
+        "Provide prioritized recommendations",
+        "Include implementation guidance"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Sarah Chen",
+      "expert_focus": "Strategic oversight and test prioritization",
+      "refinement_notes": [
+        "Reviewed by Dr. Sarah Chen",
+        "Aligned with cro best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Sarah Chen",
+          "Marcus Rodriguez",
+          "Dr. Emily Watson",
+          "James Park"
+        ],
+        "category": "cro",
+        "coverage": "comprehensive"
+      }
+    },
+    {
+      "id": "tc-002",
+      "name": "A/B Test Design Challenge",
+      "description": "Design an A/B test for a given conversion problem",
+      "input": {
+        "type": "scenario",
+        "value": "Problem: 70% cart abandonment"
+      },
+      "expected_outputs": [
+        "Clear hypothesis",
+        "Test variant description",
+        "Success metrics",
+        "Sample size calculation"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Sarah Chen",
+      "expert_focus": "Strategic oversight and test prioritization",
+      "refinement_notes": [
+        "Reviewed by Dr. Sarah Chen",
+        "Aligned with cro best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Sarah Chen",
+          "Marcus Rodriguez",
+          "Dr. Emily Watson",
+          "James Park"
+        ],
+        "category": "cro",
+        "coverage": "comprehensive"
+      }
+    },
+    {
+      "id": "tc-003",
+      "name": "Copy Optimization Challenge",
+      "description": "Rewrite weak copy to improve conversions",
+      "input": {
+        "type": "copy",
+        "value": "Weak headline and CTA provided"
+      },
+      "expected_outputs": [
+        "Critique of original copy",
+        "3 alternative versions",
+        "Rationale for each version"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Sarah Chen",
+      "expert_focus": "Strategic oversight and test prioritization",
+      "refinement_notes": [
+        "Reviewed by Dr. Sarah Chen",
+        "Aligned with cro best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Sarah Chen",
+          "Marcus Rodriguez",
+          "Dr. Emily Watson",
+          "James Park"
+        ],
+        "category": "cro",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

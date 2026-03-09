@@ -1,0 +1,112 @@
+cluster: cluster-001-cro
+description: Expert-designed test suite for cro skills
+expert_panel:
+  experts:
+  - Dr. Sarah Chen
+  - Marcus Rodriguez
+  - Dr. Emily Watson
+  - James Park
+  name: CRO Expert Panel
+name: Cro Skills Benchmark
+test_cases:
+- consensus:
+    approved_by:
+    - Dr. Sarah Chen
+    - Marcus Rodriguez
+    - Dr. Emily Watson
+    - James Park
+    category: cro
+    coverage: comprehensive
+  description: Analyze a landing page and identify conversion barriers
+  expected_outputs:
+  - Identify 3+ conversion barriers
+  - Provide prioritized recommendations
+  - Include implementation guidance
+  expert_focus: Strategic oversight and test prioritization
+  id: tc-001
+  input:
+    type: url
+    value: https://example.com/landing
+  name: Landing Page Conversion Audit
+  proposed_by: Dr. Sarah Chen
+  refinement_notes:
+  - Reviewed by Dr. Sarah Chen
+  - Aligned with cro best practices
+  scoring:
+    maintainability:
+      max_points: 20
+      weight: 0.2
+    quality:
+      max_points: 50
+      weight: 0.5
+    speed:
+      max_points: 30
+      weight: 0.3
+- consensus:
+    approved_by:
+    - Dr. Sarah Chen
+    - Marcus Rodriguez
+    - Dr. Emily Watson
+    - James Park
+    category: cro
+    coverage: comprehensive
+  description: Design an A/B test for a given conversion problem
+  expected_outputs:
+  - Clear hypothesis
+  - Test variant description
+  - Success metrics
+  - Sample size calculation
+  expert_focus: Strategic oversight and test prioritization
+  id: tc-002
+  input:
+    type: scenario
+    value: 'Problem: 70% cart abandonment'
+  name: A/B Test Design Challenge
+  proposed_by: Dr. Sarah Chen
+  refinement_notes:
+  - Reviewed by Dr. Sarah Chen
+  - Aligned with cro best practices
+  scoring:
+    maintainability:
+      max_points: 20
+      weight: 0.2
+    quality:
+      max_points: 50
+      weight: 0.5
+    speed:
+      max_points: 30
+      weight: 0.3
+- consensus:
+    approved_by:
+    - Dr. Sarah Chen
+    - Marcus Rodriguez
+    - Dr. Emily Watson
+    - James Park
+    category: cro
+    coverage: comprehensive
+  description: Rewrite weak copy to improve conversions
+  expected_outputs:
+  - Critique of original copy
+  - 3 alternative versions
+  - Rationale for each version
+  expert_focus: Strategic oversight and test prioritization
+  id: tc-003
+  input:
+    type: copy
+    value: Weak headline and CTA provided
+  name: Copy Optimization Challenge
+  proposed_by: Dr. Sarah Chen
+  refinement_notes:
+  - Reviewed by Dr. Sarah Chen
+  - Aligned with cro best practices
+  scoring:
+    maintainability:
+      max_points: 20
+      weight: 0.2
+    quality:
+      max_points: 50
+      weight: 0.5
+    speed:
+      max_points: 30
+      weight: 0.3
+version: 1.0.0

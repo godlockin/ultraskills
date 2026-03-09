@@ -1,0 +1,275 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "SEO Expert Panel",
+      "description": "Search Engine Optimization and visibility specialists",
+      "experts": [
+        {
+          "name": "Dr. Michael Brenner",
+          "title": "SEO Strategy Director",
+          "expertise": [
+            "technical SEO",
+            "site architecture",
+            "Core Web Vitals"
+          ],
+          "background": "Former head of SEO at Moz, consultant for enterprise sites",
+          "focus": "Technical audit and architecture review"
+        },
+        {
+          "name": "Lisa Chang",
+          "title": "Content SEO Lead",
+          "expertise": [
+            "keyword research",
+            "content optimization",
+            "search intent"
+          ],
+          "background": "Built SEO content strategies for HubSpot and SEMrush",
+          "focus": "On-page optimization and content strategy"
+        },
+        {
+          "name": "Ahmed Hassan",
+          "title": "AI Search Specialist",
+          "expertise": [
+            "LLM optimization",
+            "AI Overview visibility",
+            "structured data"
+          ],
+          "background": "Pioneer in AI search optimization, early AEO adopter",
+          "focus": "AI search and emerging search formats"
+        },
+        {
+          "name": "Rachel Green",
+          "title": "Link Building Expert",
+          "expertise": [
+            "digital PR",
+            "link acquisition",
+            "authority building"
+          ],
+          "background": "Built link strategies for 500+ enterprise clients",
+          "focus": "Off-page SEO and authority signals"
+        }
+      ]
+    },
+    "category": "seo",
+    "skills": [
+      {
+        "id": "ai-seo",
+        "name": "ai-seo",
+        "description": "\"When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.\"",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "programmatic-seo",
+        "name": "programmatic-seo",
+        "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "schema-markup",
+        "name": "schema-markup",
+        "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "seo-audit",
+        "name": "seo-audit",
+        "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "ai-seo-1",
+        "name": "\"ai-seo\"",
+        "description": "\"Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links. Triggers: 'optimize for AI search', 'get cited by ChatGPT', 'AI Overviews', 'Perplexity citations', 'AI SEO', 'generative search', 'LLM visibility', 'GEO' (generative engine optimization). NOT for traditional SEO ranking (use seo-audit). NOT for content creation (use content-production).\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "database-schema-designer",
+        "name": "\"database-schema-designer\"",
+        "description": "\"Database Schema Designer\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "dependency-auditor",
+        "name": "\"dependency-auditor\"",
+        "description": "\"Dependency Auditor\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "isms-audit-expert",
+        "name": "\"isms-audit-expert\"",
+        "description": "Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support. Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of Applicability (SOA), gap analysis, nonconformity management, internal audit, surveillance audit, or security certification preparation. Helps review control implementation evidence, document audit findings, classify nonconformities, generate risk-based audit plans, map controls to Annex A requirements, prepare Stage 1 and Stage 2 audit documentation, and support corrective action workflows.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "programmatic-seo-1",
+        "name": "\"programmatic-seo\"",
+        "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "qms-audit-expert",
+        "name": "\"qms-audit-expert\"",
+        "description": "ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use for internal audit planning, audit execution, finding classification, external audit preparation, or audit program management.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "schema-markup-1",
+        "name": "\"schema-markup\"",
+        "description": "\"When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture).\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "seo-audit-1",
+        "name": "\"seo-audit\"",
+        "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "skill-security-auditor",
+        "name": "\"skill-security-auditor\"",
+        "description": ">",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Technical SEO Audit",
+      "description": "Perform comprehensive technical SEO audit",
+      "input": {
+        "type": "url",
+        "value": "https://example.com"
+      },
+      "expected_outputs": [
+        "Identify critical technical issues",
+        "Prioritize by impact",
+        "Provide fix instructions"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Michael Brenner",
+      "expert_focus": "Technical audit and architecture review",
+      "refinement_notes": [
+        "Reviewed by Dr. Michael Brenner",
+        "Aligned with seo best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Michael Brenner",
+          "Lisa Chang",
+          "Ahmed Hassan",
+          "Rachel Green"
+        ],
+        "category": "seo",
+        "coverage": "comprehensive"
+      }
+    },
+    {
+      "id": "tc-002",
+      "name": "Content Optimization for AI Search",
+      "description": "Optimize content for AI Overview visibility",
+      "input": {
+        "type": "content",
+        "value": "Article content provided"
+      },
+      "expected_outputs": [
+        "AI search optimization recommendations",
+        "Structured data suggestions",
+        "Entity optimization ideas"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Michael Brenner",
+      "expert_focus": "Technical audit and architecture review",
+      "refinement_notes": [
+        "Reviewed by Dr. Michael Brenner",
+        "Aligned with seo best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Michael Brenner",
+          "Lisa Chang",
+          "Ahmed Hassan",
+          "Rachel Green"
+        ],
+        "category": "seo",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

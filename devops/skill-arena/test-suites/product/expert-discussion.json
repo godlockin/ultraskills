@@ -1,0 +1,307 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Product Expert Panel",
+      "description": "Product management, UX design, and user research specialists",
+      "experts": [
+        {
+          "name": "Marty Cagan",
+          "title": "Product Leadership Guru",
+          "expertise": [
+            "product discovery",
+            "product strategy",
+            "product teams"
+          ],
+          "background": "Silicon Valley Product Group founder, former Netscape/EBay exec",
+          "focus": "Product discovery and team structure"
+        },
+        {
+          "name": "Teresa Torres",
+          "title": "Product Discovery Coach",
+          "expertise": [
+            "continuous discovery",
+            "user interviewing",
+            "product experiments"
+          ],
+          "background": "Product coach, author of Continuous Discovery Habits",
+          "focus": "Discovery practices and user research"
+        },
+        {
+          "name": "Don Norman",
+          "title": "UX Design Legend",
+          "expertise": [
+            "user-centered design",
+            "design thinking",
+            "cognitive psychology"
+          ],
+          "background": "Cofounder of NN/g, author of The Design of Everyday Things",
+          "focus": "UX principles and usability"
+        },
+        {
+          "name": "Lenny Rachitsky",
+          "title": "Product Growth Advisor",
+          "expertise": [
+            "product-led growth",
+            "feature optimization",
+            "product analytics"
+          ],
+          "background": "Former Airbnb PM, Lenny's Newsletter author",
+          "focus": "Product-led growth and optimization"
+        }
+      ]
+    },
+    "category": "product",
+    "skills": [
+      {
+        "id": "ikea-designer",
+        "name": "\"ikea-designer-pro\"",
+        "description": "\"IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity, ensuring adherence to Scandinavian design principles and Democratic Design.\"",
+        "tags": []
+      },
+      {
+        "id": "photography-expert",
+        "name": "\"photography-expert-pro\"",
+        "description": "\"Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography with a focus on lighting, composition, and optical realism.\"",
+        "tags": []
+      },
+      {
+        "id": "frontend-design",
+        "name": "frontend-design",
+        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "tags": []
+      },
+      {
+        "id": "web-artifacts-builder",
+        "name": "web-artifacts-builder",
+        "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+        "tags": []
+      },
+      {
+        "id": "agent-workflow-designer",
+        "name": "\"agent-workflow-designer\"",
+        "description": "\"Agent Workflow Designer\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "agile-product-owner",
+        "name": "\"agile-product-owner\"",
+        "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing backlog.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "api-design-reviewer",
+        "name": "\"api-design-reviewer\"",
+        "description": "\"API Design Reviewer\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "aws-solution-architect",
+        "name": "\"aws-solution-architect\"",
+        "description": "Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimization.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "brand-guidelines-1",
+        "name": "\"brand-guidelines\"",
+        "description": "\"When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,' or 'company design standards.' Covers color systems, typography, logo rules, imagery guidelines, and tone matrix for any brand — including Anthropic's official identity.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cpo-advisor",
+        "name": "\"cpo-advisor\"",
+        "description": "\"Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, or when user mentions CPO, product strategy, product-market fit, product organization, portfolio prioritization, or roadmap strategy.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-product-manager",
+        "name": "cs-product-manager",
+        "description": "Product management agent for feature prioritization, customer discovery, PRD development, and roadmap planning using RICE framework",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "database-designer",
+        "name": "\"database-designer\"",
+        "description": "\"Database Designer - POWERFUL Tier Skill\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "interview-system-designer",
+        "name": "\"interview-system-designer\"",
+        "description": "This skill should be used when the user asks to \"design interview processes\", \"create hiring pipelines\", \"calibrate interview loops\", \"generate interview questions\", \"design competency matrices\", \"analyze interviewer bias\", \"create scoring rubrics\", \"build question banks\", or \"optimize hiring systems\". Use for designing role-specific interview loops, competency assessments, and hiring calibration systems.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "jira-expert",
+        "name": "\"jira-expert\"",
+        "description": "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "launch-strategy-1",
+        "name": "\"launch-strategy\"",
+        "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launch momentum.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "observability-designer",
+        "name": "\"observability-designer\"",
+        "description": "\"Observability Designer (POWERFUL)\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "product-bundle",
+        "name": "\"product-skills\"",
+        "description": "\"8 production-ready product skills: product manager toolkit with RICE prioritization, agile product owner, product strategist with OKR cascades, UX researcher, UI design system, competitive teardown, landing page generator, and SaaS scaffolder. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "product-manager-toolkit",
+        "name": "\"product-manager-toolkit\"",
+        "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "product-strategist",
+        "name": "\"product-strategist\"",
+        "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "risk-management-specialist",
+        "name": "\"risk-management-specialist\"",
+        "description": "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "ui-design-system",
+        "name": "\"ui-design-system\"",
+        "description": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "ux-researcher-designer",
+        "name": "\"ux-researcher-designer\"",
+        "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Product Task",
+      "description": "Evaluate skill performance on typical product task",
+      "input": {
+        "type": "text",
+        "value": "Test input for product"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Marty Cagan",
+      "expert_focus": "Product discovery and team structure",
+      "refinement_notes": [
+        "Reviewed by Marty Cagan",
+        "Aligned with product best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Marty Cagan",
+          "Teresa Torres",
+          "Don Norman",
+          "Lenny Rachitsky"
+        ],
+        "category": "product",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

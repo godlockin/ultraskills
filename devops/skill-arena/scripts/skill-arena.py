@@ -47,7 +47,7 @@ def cmd_scan(args):
     clusters = cluster_skills(analyzed)
     print(f"   Created {len(clusters)} clusters")
 
-    # Save clusters
+    # Save clusters with full skill data
     clusters_data = {
         "version": "1.0.0",
         "updated_at": "2026-03-09",
@@ -56,7 +56,7 @@ def cmd_scan(args):
                 "id": c["id"],
                 "name": c["name"],
                 "description": c["description"],
-                "skills": [s["id"] for s in c["skills"]],
+                "skills": c["skills"],  # Keep full skill dicts, not just IDs
                 "skill_count": len(c["skills"])
             }
             for c in clusters

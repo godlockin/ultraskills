@@ -1,0 +1,435 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Engineering Expert Panel",
+      "description": "Software engineering, architecture, and code quality specialists",
+      "experts": [
+        {
+          "name": "Martin Fowler",
+          "title": "Software Architecture Authority",
+          "expertise": [
+            "software architecture",
+            "refactoring",
+            "design patterns"
+          ],
+          "background": "Chief Scientist at ThoughtWorks, author of Refactoring",
+          "focus": "Architecture review and design quality"
+        },
+        {
+          "name": "Kent Beck",
+          "title": "Agile Development Pioneer",
+          "expertise": [
+            "TDD",
+            "extreme programming",
+            "software craftsmanship"
+          ],
+          "background": "Creator of JUnit, pioneer of Extreme Programming",
+          "focus": "Testing practices and code quality"
+        },
+        {
+          "name": "Jessica Kerr",
+          "title": "Software Systems Thinker",
+          "expertise": [
+            "distributed systems",
+            "observability",
+            "team dynamics"
+          ],
+          "background": "Developer advocate, author on observability and systems",
+          "focus": "Systems thinking and observability"
+        },
+        {
+          "name": "Will Larson",
+          "title": "Engineering Leadership Expert",
+          "expertise": [
+            "engineering management",
+            "technical strategy",
+            "team scaling"
+          ],
+          "background": "Former CTO at Carto, Calm, author of engineering leadership books",
+          "focus": "Engineering leadership and team effectiveness"
+        }
+      ]
+    },
+    "category": "engineering",
+    "skills": [
+      {
+        "id": "git-commit-master",
+        "name": "Git Commit Master",
+        "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+        "tags": [
+          "git",
+          "engineering",
+          "workflow"
+        ]
+      },
+      {
+        "id": "github-skill-scout",
+        "name": "\"github-skill-scout\"",
+        "description": "\"Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.\"",
+        "tags": [
+          "devops",
+          "open-source",
+          "automation",
+          "skill-building"
+        ]
+      },
+      {
+        "id": "github-to-skills",
+        "name": "github-to-skills",
+        "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
+        "tags": [
+          "devops",
+          "automation",
+          "github",
+          "skill-creation"
+        ]
+      },
+      {
+        "id": "finishing-a-development-branch",
+        "name": "finishing-a-development-branch",
+        "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+        "tags": []
+      },
+      {
+        "id": "project-development",
+        "name": "project-development",
+        "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.",
+        "tags": []
+      },
+      {
+        "id": "receiving-code-review",
+        "name": "receiving-code-review",
+        "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+        "tags": []
+      },
+      {
+        "id": "requesting-code-review",
+        "name": "requesting-code-review",
+        "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+        "tags": []
+      },
+      {
+        "id": "subagent-driven-development",
+        "name": "subagent-driven-development",
+        "description": "Use when executing implementation plans with independent tasks in the current session",
+        "tags": []
+      },
+      {
+        "id": "systematic-debugging",
+        "name": "systematic-debugging",
+        "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+        "tags": []
+      },
+      {
+        "id": "test-driven-development",
+        "name": "test-driven-development",
+        "description": "Use when implementing any feature or bugfix, before writing implementation code",
+        "tags": []
+      },
+      {
+        "id": "using-git-worktrees",
+        "name": "using-git-worktrees",
+        "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+        "tags": []
+      },
+      {
+        "id": "webapp-testing",
+        "name": "webapp-testing",
+        "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+        "tags": []
+      },
+      {
+        "id": "writing-plans",
+        "name": "writing-plans",
+        "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+        "tags": []
+      },
+      {
+        "id": "code-reviewer",
+        "name": "\"code-reviewer\"",
+        "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-engineering-lead",
+        "name": "cs-engineering-lead",
+        "description": "Engineering Team Lead agent for coordinating QA, security, data engineering, ML, and frontend/backend teams. Orchestrates engineering-team skills for team-level technical decisions. Spawn when users need team coordination, tech stack evaluation, incident response, or cross-functional engineering work.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-senior-engineer",
+        "name": "cs-senior-engineer",
+        "description": "Senior Engineer agent for architecture decisions, code review, DevOps, and API design. Orchestrates engineering and engineering-team skills for technical implementation work. Spawn when users need system design, code quality review, CI/CD pipeline setup, or infrastructure decisions.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cto-advisor",
+        "name": "\"cto-advisor\"",
+        "description": "\"Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technical debt, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, or technology strategy.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "engineering-bundle",
+        "name": "\"engineering-advanced-skills\"",
+        "description": "\"25 advanced POWERFUL-tier engineering skills covering agent design, RAG architecture, MCP servers, CI/CD pipelines, database design, observability, security auditing, release management, and platform operations. Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "engineering-team-bundle",
+        "name": "\"engineering-skills\"",
+        "description": "\"23 production-ready engineering skills covering architecture, frontend, backend, fullstack, QA, DevOps, security, AI/ML, data engineering, computer vision, and specialized tools like Playwright Pro, Stripe integration, AWS, and MS365. 30+ Python automation tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "extract",
+        "name": "\"extract\"",
+        "description": "\"Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "founder-coach",
+        "name": "\"founder-coach\"",
+        "description": "\"Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentions founder mode, CEO growth, leadership development, delegation, burnout, or imposter syndrome.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "git-worktree-manager",
+        "name": "\"git-worktree-manager\"",
+        "description": "\"Git Worktree Manager\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "playwright-pro",
+        "name": "\"playwright-pro\"",
+        "description": "\"Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack. 55 templates, 3 agents, smart reporting.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-computer-vision",
+        "name": "\"senior-computer-vision\"",
+        "description": "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-data-engineer",
+        "name": "\"senior-data-engineer\"",
+        "description": "Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, building data pipelines, optimizing data workflows, implementing data governance, or troubleshooting data issues.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-frontend",
+        "name": "\"senior-frontend\"",
+        "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-fullstack",
+        "name": "\"senior-fullstack\"",
+        "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", \"analyze code quality\", \"audit my codebase\", \"what stack should I use\", \"generate project boilerplate\", or mentions fullstack development, project setup, or tech stack comparison.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-ml-engineer",
+        "name": "\"senior-ml-engineer\"",
+        "description": "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kubeflow, Kubernetes, Docker), monitoring model performance or drift, building RAG pipelines, or integrating LLM APIs with retry logic and cost controls. Focused on production and operational concerns rather than model research or initial training.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-security",
+        "name": "\"senior-security\"",
+        "description": "Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance, cryptography patterns, and security scanning tools. Use when the user asks about security reviews, threat analysis, vulnerability assessments, secure coding practices, security audits, attack surface analysis, CVE remediation, or security best practices.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "tdd-guide",
+        "name": "\"tdd-guide\"",
+        "description": "\"Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stubs, or mentions testing frameworks like Jest, pytest, or JUnit. Handles test generation from source code, coverage report parsing (LCOV/JSON/XML), quality scoring, and framework conversion for TypeScript, JavaScript, Python, and Java projects.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "skill-arena",
+        "name": "skill-arena",
+        "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
+        "tags": [
+          "devops",
+          "automation",
+          "testing",
+          "benchmark",
+          "skill-management"
+        ]
+      },
+      {
+        "id": "claude-api",
+        "name": "claude-api",
+        "description": "\"Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.\"",
+        "tags": []
+      },
+      {
+        "id": "digital-brain-skill",
+        "name": "digital-brain",
+        "description": "This skill should be used when the user asks to \"write a post\", \"check my voice\", \"look up contact\", \"prepare for meeting\", \"weekly review\", \"track goals\", or mentions personal brand, content creation, network management, or voice consistency.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Code Review Challenge",
+      "description": "Review code for bugs, security issues, and quality",
+      "input": {
+        "type": "code",
+        "value": "Sample code snippet provided"
+      },
+      "expected_outputs": [
+        "Identify bugs and security issues",
+        "Suggest refactoring improvements",
+        "Evaluate code style and patterns"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Martin Fowler",
+      "expert_focus": "Architecture review and design quality",
+      "refinement_notes": [
+        "Reviewed by Martin Fowler",
+        "Aligned with engineering best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Martin Fowler",
+          "Kent Beck",
+          "Jessica Kerr",
+          "Will Larson"
+        ],
+        "category": "engineering",
+        "coverage": "comprehensive"
+      }
+    },
+    {
+      "id": "tc-002",
+      "name": "Architecture Design Review",
+      "description": "Evaluate system architecture and provide recommendations",
+      "input": {
+        "type": "architecture",
+        "value": "System design document"
+      },
+      "expected_outputs": [
+        "Identify architectural risks",
+        "Suggest improvements",
+        "Evaluate scalability and maintainability"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Martin Fowler",
+      "expert_focus": "Architecture review and design quality",
+      "refinement_notes": [
+        "Reviewed by Martin Fowler",
+        "Aligned with engineering best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Martin Fowler",
+          "Kent Beck",
+          "Jessica Kerr",
+          "Will Larson"
+        ],
+        "category": "engineering",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

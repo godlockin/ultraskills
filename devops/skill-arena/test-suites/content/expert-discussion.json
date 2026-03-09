@@ -1,0 +1,278 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Content Expert Panel",
+      "description": "Content strategy, copywriting, and communications specialists",
+      "experts": [
+        {
+          "name": "Ann Handley",
+          "title": "Chief Content Officer",
+          "expertise": [
+            "content strategy",
+            "brand voice",
+            "storytelling"
+          ],
+          "background": "MarketingProfs founder, bestselling author on content marketing",
+          "focus": "Strategic content direction and brand alignment"
+        },
+        {
+          "name": "David Ogilvy Jr.",
+          "title": "Copywriting Director",
+          "expertise": [
+            "direct response copy",
+            "headline writing",
+            "persuasion"
+          ],
+          "background": "Former creative director at Ogilvy & Mather",
+          "focus": "Copy quality and persuasive messaging"
+        },
+        {
+          "name": "Sonia Simone",
+          "title": "Content Marketing Lead",
+          "expertise": [
+            "email marketing",
+            "content distribution",
+            "audience building"
+          ],
+          "background": "Copyblogger cofounder, email marketing expert",
+          "focus": "Content distribution and audience engagement"
+        }
+      ]
+    },
+    "category": "content",
+    "skills": [
+      {
+        "id": "commercial-director",
+        "name": "\"commercial-director-pro\"",
+        "description": "\"Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography, orchestrating the entire production pipeline with a focus on human connection and narrative flow.\"",
+        "tags": []
+      },
+      {
+        "id": "writing-skills",
+        "name": "writing-skills",
+        "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+        "tags": []
+      },
+      {
+        "id": "content-strategy",
+        "name": "content-strategy",
+        "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "copy-editing",
+        "name": "copy-editing",
+        "description": "\"When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.\"",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "copywriting",
+        "name": "copywriting",
+        "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "email-sequence",
+        "name": "email-sequence",
+        "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "social-content",
+        "name": "social-content",
+        "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.\"",
+        "tags": [
+          "marketing",
+          "external"
+        ]
+      },
+      {
+        "id": "cold-email-1",
+        "name": "\"cold-email\"",
+        "description": "\"When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. Distinct from email-sequence (lifecycle/nurture to opted-in subscribers) — this is unsolicited outreach to new prospects. NOT for lifecycle emails, newsletters, or drip campaigns (use email-sequence).\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "content-creator",
+        "name": "\"content-creator\"",
+        "description": "\"Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a content calendar (routes to content-strategy). Does not handle requests directly — identifies user intent and redirects to content-production for writing/SEO/brand-voice tasks or content-strategy for planning tasks.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "content-humanizer",
+        "name": "\"content-humanizer\"",
+        "description": "\"Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'sounds robotic', 'fix AI writing', 'inject our voice'. NOT for initial content creation (use content-production). NOT for SEO optimization (use content-production Mode 3).\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "content-production",
+        "name": "\"content-production\"",
+        "description": "\"Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for content strategy or calendar planning (use content-strategy). NOT for repurposing existing content (use content-repurposing). NOT for social captions only.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "content-strategy-1",
+        "name": "\"content-strategy\"",
+        "description": "\"When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \\\"content strategy,\\\" \\\"what should I write about,\\\" \\\"content ideas,\\\" \\\"blog strategy,\\\" \\\"topic clusters,\\\" or \\\"content planning.\\\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "copy-editing-1",
+        "name": "\"copy-editing\"",
+        "description": "\"When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "copywriting-1",
+        "name": "\"copywriting\"",
+        "description": "\"When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \\\"write copy for,\\\" \\\"improve this copy,\\\" \\\"rewrite this page,\\\" \\\"marketing copy,\\\" \\\"headline help,\\\" or \\\"CTA copy.\\\" For email copy, see email-sequence. For popup copy, see popup-cro.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "cs-content-creator",
+        "name": "cs-content-creator",
+        "description": "AI-powered content creation specialist for brand voice consistency, SEO optimization, and multi-platform content strategy",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "email-sequence-1",
+        "name": "\"email-sequence\"",
+        "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "email-template-builder",
+        "name": "\"email-template-builder\"",
+        "description": "\"Email Template Builder\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "social-content-1",
+        "name": "\"social-content\"",
+        "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "social-media-analyzer",
+        "name": "\"social-media-analyzer\"",
+        "description": "Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "social-media-manager",
+        "name": "\"social-media-manager\"",
+        "description": "\"When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'engagement rate,' 'social media audit,' or 'which platforms should I use.' For writing individual social posts, see social-content. For analyzing social performance data, see social-media-analyzer.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Content Task",
+      "description": "Evaluate skill performance on typical content task",
+      "input": {
+        "type": "text",
+        "value": "Test input for content"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Ann Handley",
+      "expert_focus": "Strategic content direction and brand alignment",
+      "refinement_notes": [
+        "Reviewed by Ann Handley",
+        "Aligned with content best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Ann Handley",
+          "David Ogilvy Jr.",
+          "Sonia Simone"
+        ],
+        "category": "content",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

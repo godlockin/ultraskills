@@ -1,0 +1,832 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "General Assessment Panel",
+      "description": "Cross-domain experts for uncategorized skills",
+      "experts": [
+        {
+          "name": "Dr. Barbara Minto",
+          "title": "Communication Expert",
+          "expertise": [
+            "structured thinking",
+            "communication",
+            "problem solving"
+          ],
+          "background": "McKinsey consultant, Pyramid Principle creator",
+          "focus": "Structured analysis and communication"
+        },
+        {
+          "name": "Charlie Munger",
+          "title": "Mental Models Master",
+          "expertise": [
+            "decision making",
+            "mental models",
+            "multidisciplinary thinking"
+          ],
+          "background": "Berkshire Hathaway Vice Chairman, polymath investor",
+          "focus": "Multidisciplinary analysis"
+        },
+        {
+          "name": "Dr. Daniel Kahneman",
+          "title": "Behavioral Science Legend",
+          "expertise": [
+            "judgment",
+            "decision science",
+            "cognitive bias"
+          ],
+          "background": "Nobel laureate, Thinking Fast and Slow author",
+          "focus": "Cognitive factors in skill evaluation"
+        }
+      ]
+    },
+    "category": "other",
+    "skills": [
+      {
+        "id": "prompt-engineer",
+        "name": "\"prompt-engineer\"",
+        "description": "\"Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.\"",
+        "tags": []
+      },
+      {
+        "id": "skills-finder",
+        "name": "skills-finder",
+        "description": "\"The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.\"",
+        "tags": []
+      },
+      {
+        "id": "task-analyzer",
+        "name": "Task Analyzer",
+        "description": "分析和优化用户的任务初始化命令，提取需求、思路、背景、约束和目标",
+        "tags": [
+          "productivity",
+          "prompt-engineering",
+          "task-planning",
+          "analysis"
+        ]
+      },
+      {
+        "id": "advanced-evaluation",
+        "name": "advanced-evaluation",
+        "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
+        "tags": []
+      },
+      {
+        "id": "brand-guidelines",
+        "name": "brand-guidelines",
+        "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+        "tags": []
+      },
+      {
+        "id": "doc-coauthoring",
+        "name": "doc-coauthoring",
+        "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+        "tags": []
+      },
+      {
+        "id": "docx",
+        "name": "docx",
+        "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+        "tags": []
+      },
+      {
+        "id": "executing-plans",
+        "name": "executing-plans",
+        "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "tags": []
+      },
+      {
+        "id": "internal-comms",
+        "name": "internal-comms",
+        "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+        "tags": []
+      },
+      {
+        "id": "pptx",
+        "name": "pptx",
+        "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks\"",
+        "tags": []
+      },
+      {
+        "id": "skill-creator",
+        "name": "skill-creator",
+        "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "tags": []
+      },
+      {
+        "id": "slack-gif-creator",
+        "name": "slack-gif-creator",
+        "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+        "tags": []
+      },
+      {
+        "id": "theme-factory",
+        "name": "theme-factory",
+        "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+        "tags": []
+      },
+      {
+        "id": "verification-before-completion",
+        "name": "verification-before-completion",
+        "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+        "tags": []
+      },
+      {
+        "id": "api-test-suite-builder",
+        "name": "\"api-test-suite-builder\"",
+        "description": "\"API Test Suite Builder\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "atlassian-admin",
+        "name": "\"atlassian-admin\"",
+        "description": "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, update admin settings, manage Atlassian groups, set up SSO, install marketplace apps, review security policies, or handle any org-wide Atlassian administration task.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "atlassian-templates",
+        "name": "\"atlassian-templates\"",
+        "description": "Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content generation.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "board-deck-builder",
+        "name": "\"board-deck-builder\"",
+        "description": "\"Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "board-meeting",
+        "name": "\"board-meeting\"",
+        "description": "\"Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:board, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "board-prep",
+        "name": "\"board-prep\"",
+        "description": "\"/em -board-prep — Board Meeting Preparation\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "browserstack",
+        "name": "\"browserstack\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "capa-officer",
+        "name": "\"capa-officer\"",
+        "description": "CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "challenge",
+        "name": "\"challenge\"",
+        "description": "\"/em -challenge — Pre-Mortem Plan Analysis\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "change-management",
+        "name": "\"change-management\"",
+        "description": "\"Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, changing leadership, or when user mentions change management, change rollout, managing resistance, org change, reorg, or pivot communication.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "changelog",
+        "name": "changelog",
+        "description": "Generate changelogs from git history and validate conventional commits. Usage: /changelog <generate|lint> [options]",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "changelog-generator",
+        "name": "\"changelog-generator\"",
+        "description": "\"Changelog Generator\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "company-os",
+        "name": "\"company-os\"",
+        "description": "\"The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selecting a management framework, designing meeting rhythms, building accountability systems, implementing OKRs, or when user mentions EOS, Scaling Up, operating system, L10 meetings, rocks, scorecard, accountability chart, or quarterly planning.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "competitive-matrix",
+        "name": "competitive-matrix",
+        "description": "Build competitive analysis matrices with scoring and gap analysis. Usage: /competitive-matrix <analyze> [options]",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "confluence-expert",
+        "name": "\"confluence-expert\"",
+        "description": "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or restructure a Confluence space, design page hierarchies with permission structures, author or standardise documentation templates, embed Jira reports in pages, run knowledge base audits, or establish documentation standards and collaborative workflows.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "contract-and-proposal-writer",
+        "name": "\"contract-and-proposal-writer\"",
+        "description": "\"Contract & Proposal Writer\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "coverage",
+        "name": "\"coverage\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "culture-architect",
+        "name": "\"culture-architect\"",
+        "description": "\"Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, or culture code.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "env-secrets-manager",
+        "name": "\"env-secrets-manager\"",
+        "description": "\"Env & Secrets Manager\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "executive-mentor",
+        "name": "\"executive-mentor\"",
+        "description": "\"Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or understand what actually went wrong.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "financial-analyst",
+        "name": "\"financial-analyst\"",
+        "description": "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "fix",
+        "name": "\"fix\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "generate",
+        "name": "\"generate\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "hard-call",
+        "name": "\"hard-call\"",
+        "description": "\"/em -hard-call — Framework for Decisions With No Good Options\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "incident-commander",
+        "name": "\"incident-commander\"",
+        "description": "\"Incident Commander Skill\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "init",
+        "name": "\"init\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "internal-narrative",
+        "name": "\"internal-narrative\"",
+        "description": "\"Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communications, recruiting narratives, crisis communications, or when user mentions company narrative, messaging consistency, storytelling, all-hands, investor update, or crisis communication.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "ma-playbook",
+        "name": "\"ma-playbook\"",
+        "description": "\"M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "migrate",
+        "name": "\"migrate\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "migration-architect",
+        "name": "\"migration-architect\"",
+        "description": "\"Migration Architect\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "monorepo-navigator",
+        "name": "\"monorepo-navigator\"",
+        "description": "\"Monorepo Navigator\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "ms365-tenant-manager",
+        "name": "\"ms365-tenant-manager\"",
+        "description": "Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, license management, and compliance reporting. Use for M365 tenant manager, Office 365 admin, Azure AD users, Global Administrator, tenant configuration, or Microsoft 365 automation.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "org-health-diagnostic",
+        "name": "\"org-health-diagnostic\"",
+        "description": "\"Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "pipeline",
+        "name": "pipeline",
+        "description": "Detect stack and generate CI/CD pipeline configs. Usage: /pipeline <detect|generate> [options]",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "postmortem",
+        "name": "\"postmortem\"",
+        "description": "\"/em -postmortem — Honest Analysis of What Went Wrong\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "pr-review-expert",
+        "name": "\"pr-review-expert\"",
+        "description": "\"PR Review Expert\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "project-management-bundle",
+        "name": "\"pm-skills\"",
+        "description": "\"6 production-ready project management skills for Atlassian users: senior PM with portfolio management, scrum master with velocity forecasting, Jira expert with JQL mastery, Confluence expert, Atlassian admin, and template creator. MCP integration for live Jira/Confluence automation. Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "promote",
+        "name": "\"promote\"",
+        "description": "\"Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "quality-documentation-manager",
+        "name": "\"quality-documentation-manager\"",
+        "description": "Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use for document control procedures, change control workflow, document numbering, version management, electronic signature compliance, or regulatory documentation review.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "quality-manager-qmr",
+        "name": "\"quality-manager-qmr\"",
+        "description": "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "rag-architect",
+        "name": "\"rag-architect\"",
+        "description": "\"RAG Architect - POWERFUL\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "release-manager",
+        "name": "\"release-manager\"",
+        "description": "\"Release Manager\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "remember",
+        "name": "\"remember\"",
+        "description": "\"Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "report",
+        "name": "\"report\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "review",
+        "name": "\"review\"",
+        "description": "\"Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "runbook-generator",
+        "name": "\"runbook-generator\"",
+        "description": "\"Runbook Generator\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "saas-scaffolder",
+        "name": "\"saas-scaffolder\"",
+        "description": "\"Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new SaaS app, start a subscription-based web project, scaffold a Next.js application, or mentions terms like starter template, boilerplate, new project, or wiring up auth and payments.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "scenario-war-room",
+        "name": "\"scenario-war-room\"",
+        "description": "\"Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?'\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "scrum-master",
+        "name": "\"scrum-master\"",
+        "description": "\"Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to analyse sprint JSON exports from Jira or similar tools: velocity_analyzer.py for Monte Carlo sprint forecasting, sprint_health_scorer.py for multi-dimension health scoring, and retrospective_analyzer.py for action-item and theme tracking. Produces confidence-interval forecasts, health grade reports, and improvement-velocity trends for high-performing Scrum teams.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-architect",
+        "name": "\"senior-architect\"",
+        "description": "This skill should be used when the user asks to \"design system architecture\", \"evaluate microservices vs monolith\", \"create architecture diagrams\", \"analyze dependencies\", \"choose a database\", \"plan for scalability\", \"make technical decisions\", or \"review system design\". Use for architecture decision records (ADRs), tech stack evaluation, system design reviews, dependency analysis, and generating architecture diagrams in Mermaid, PlantUML, or ASCII format.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-backend",
+        "name": "\"senior-backend\"",
+        "description": "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set up GraphQL\", \"handle database migrations\", or \"load test APIs\". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-pm",
+        "name": "\"senior-pm\"",
+        "description": "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simulation, WSJF prioritization, and multi-dimensional health scoring. Use when a user needs help with project plans, project status reports, risk assessments, resource allocation, project roadmaps, milestone tracking, team capacity planning, portfolio health reviews, program management, or executive-level project reporting — especially for enterprise-scale initiatives with multiple workstreams, complex dependencies, or multi-million dollar budgets.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-prompt-engineer",
+        "name": "\"senior-prompt-engineer\"",
+        "description": "This skill should be used when the user asks to \"optimize prompts\", \"design prompt templates\", \"evaluate LLM outputs\", \"build agentic systems\", \"implement RAG\", \"create few-shot examples\", \"analyze token usage\", or \"design AI workflows\". Use for prompt engineering patterns, LLM evaluation frameworks, agent architectures, and structured output design.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "senior-qa",
+        "name": "\"senior-qa\"",
+        "description": "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, creates test fixtures, and configures test runners. Use when the user asks to \"generate tests\", \"write unit tests\", \"analyze test coverage\", \"scaffold E2E tests\", \"set up Playwright\", \"configure Jest\", \"implement testing patterns\", or \"improve test quality\".",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "site-architecture-1",
+        "name": "\"site-architecture\"",
+        "description": "\"When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pages,' 'silo structure,' 'information architecture,' or 'website reorganization.' Also use when someone has SEO problems and the root cause is structural (not content or schema). NOT for content strategy decisions about what to write (use content-strategy) or for schema markup (use schema-markup).\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "skill-tester",
+        "name": "\"skill-tester\"",
+        "description": "\"Skill Tester\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "status",
+        "name": "\"status\"",
+        "description": "\"Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "strategic-alignment",
+        "name": "\"strategic-alignment\"",
+        "description": "\"Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pulling in different directions, OKRs don't connect, departments optimize locally at company expense, or when user mentions alignment, strategy cascade, silo, conflicting OKRs, or strategy communication.\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "stripe-integration-expert",
+        "name": "\"stripe-integration-expert\"",
+        "description": "\"Stripe Integration Expert\"",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "tdd",
+        "name": "tdd",
+        "description": "Generate tests, analyze coverage, and run TDD workflows. Usage: /tdd <generate|coverage|validate> [options]",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "tech-debt",
+        "name": "tech-debt",
+        "description": "Score, track, and prioritize technical debt. Usage: /tech-debt <scan|score|report> [options]",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "tech-debt-tracker",
+        "name": "tech-debt-tracker",
+        "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "tech-stack-evaluator",
+        "name": "\"tech-stack-evaluator\"",
+        "description": "Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "testrail",
+        "name": "\"testrail\"",
+        "description": ">-",
+        "tags": [
+          "claude-skills",
+          "external",
+          "claude-skills/.gemini"
+        ]
+      },
+      {
+        "id": "interleaved-thinking",
+        "name": "reasoning-trace-optimizer",
+        "description": "\"Debug and optimize AI agents by analyzing reasoning traces. Activates on 'debug agent', 'optimize prompt', 'analyze reasoning', 'why did the agent fail', 'improve agent performance', or when diagnosing agent failures and context degradation.\"",
+        "tags": []
+      },
+      {
+        "id": "book-sft-pipeline",
+        "name": "book-sft-pipeline",
+        "description": "This skill should be used when the user asks to \"fine-tune on books\", \"create SFT dataset\", \"train style model\", \"extract ePub text\", or mentions style transfer, LoRA training, book segmentation, or author voice replication.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Other Task",
+      "description": "Evaluate skill performance on typical other task",
+      "input": {
+        "type": "text",
+        "value": "Test input for other"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Barbara Minto",
+      "expert_focus": "Structured analysis and communication",
+      "refinement_notes": [
+        "Reviewed by Dr. Barbara Minto",
+        "Aligned with other best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Barbara Minto",
+          "Charlie Munger",
+          "Dr. Daniel Kahneman"
+        ],
+        "category": "other",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}
