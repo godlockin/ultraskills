@@ -19,3 +19,6 @@
 [submodule "external/videocut-skills"]
 	path = external/videocut-skills
 	url = https://github.com/Ceeon/videocut-skills.git
+[submodule "external/marketingskills"]
+	path = external/marketingskills
+	url = https://github.com/coreyhaines31/marketingskills.git

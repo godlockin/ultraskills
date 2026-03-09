@@ -28,7 +28,8 @@ external/                          # Git Submodules 源
 ├── context-engineering-skills/    # Context Engineering skills
 ├── khazix-skills/                 # Khazix 自定义 skills
 ├── superpowers/                   # Superpowers 技能库
-└── videocut-skills/              # Video 剪辑技能
+├── videocut-skills/              # Video 剪辑技能
+└── marketingskills/              # Marketing skills (CRO, copywriting, SEO, etc.)
 ```
 
 ### 目录映射
@@ -39,6 +40,7 @@ external/                          # Git Submodules 源
 | anthropic-skills | community/ (部分) |
 | superpowers | community/superpowers/* |
 | videocut-skills | community/剪口播, 剪辑, 字幕 |
+| marketingskills | external/marketingskills/skills/* (32 个 marketing skills) |
 
 ## 🚀 使用流程 (Workflow)
 
