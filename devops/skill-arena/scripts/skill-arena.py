@@ -14,7 +14,15 @@ Usage:
 import argparse
 import json
 import sys
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables before anything else
+# Priority: auth/.env > root .env
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+load_dotenv(PROJECT_ROOT / "auth" / ".env")
+load_dotenv(PROJECT_ROOT / ".env")
 
 # Import sub-modules
 from cluster_skills import scan_skills, analyze_skills, cluster_skills
@@ -25,8 +33,7 @@ from generate_report import generate_report
 from update_index import update_index_with_arena_data
 
 
-# Project root is 3 levels up from this script (scripts -> skill-arena -> devops -> project root)
-PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+# Project root is 4 levels up from this script (scripts -> skill-arena -> devops -> project root)
 INDEX_JSON_PATH = PROJECT_ROOT / "index.json"
 CLUSTERS_JSON_PATH = PROJECT_ROOT / "devops" / "skill-arena" / "clusters.json"
 WINNERS_JSON_PATH = PROJECT_ROOT / "devops" / "skill-arena" / "winners.json"
