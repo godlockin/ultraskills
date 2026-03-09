@@ -23,6 +23,31 @@ tags: [devops, automation, testing, benchmark, skill-management]
 
 ## 🧠 核心理念 (Core Concepts)
 
+### 专家小组召唤 (Expert Panel Summoning)
+
+每个类别的技能都由对应的领域专家小组共同设计测试用例：
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│                    Expert Panel Structure                       │
+├────────────────────────────────────────────────────────────────┤
+│  Category    │  Panel Name              │  Expert Count       │
+│  ─────────   │  ──────────              │  ────────────       │
+│  cro         │  CRO Expert Panel        │  4 专家             │
+│  seo         │  SEO Expert Panel        │  4 专家             │
+│  engineering │  Engineering Expert Panel│  4 专家             │
+│  product     │  Product Expert Panel    │  4 专家             │
+│  marketing   │  Marketing Expert Panel  │  4 专家             │
+│  ...         │  ...                     │  ...                │
+└────────────────────────────────────────────────────────────────┘
+```
+
+**专家协作流程：**
+1. **召唤专家** - 根据类别召唤对应专家团队
+2. **圆桌讨论** - 每位专家从专业视角提出测试建议
+3. **交叉评审** - 专家互相评审和完善测试用例
+4. **共识建立** - 形成最终测试套件
+
 ### 评分维度
 
 ```
