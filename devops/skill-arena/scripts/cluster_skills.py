@@ -72,7 +72,15 @@ def analyze_skills(skills: List[Dict], project_root: Path) -> List[Dict]:
         analysis = {**skill}
         skill_path = project_root / skill["path"]
 
-        if skill_path.exists():
+        # 如果路径是目录，尝试查找 SKILL.md
+        if skill_path.is_dir():
+            skill_md = skill_path / "SKILL.md"
+            if skill_md.exists():
+                skill_path = skill_md
+            else:
+                continue  # 跳过没有 SKILL.md 的目录
+
+        if skill_path.exists() and skill_path.is_file():
             content = skill_path.read_text(encoding='utf-8')
 
             # Extract frontmatter
@@ -167,9 +175,9 @@ def cluster_skills(analyzed_skills: List[Dict]) -> List[Dict]:
         },
         "eng-devops": {
             "parent": "engineering",
-            "keywords": ["devops", "ci-cd", "deployment", "pipeline", "git-worktree", "release"],
+            "keywords": ["devops", "ci-cd", "deployment", "pipeline", "git-worktree", "release", "skill-manager", "skill-sync", "planning", "file-based", "task-plan"],
             "experts": ["Kelsey Hightower", "Charity Majors"],
-            "test_focus": "CI/CD, deployment, monitoring"
+            "test_focus": "CI/CD, deployment, monitoring, skill lifecycle management"
         },
         "eng-security": {
             "parent": "engineering",
@@ -319,9 +327,9 @@ def cluster_skills(analyzed_skills: List[Dict]) -> List[Dict]:
         # DevOps subcategories
         "devops-skill-mgmt": {
             "parent": "devops",
-            "keywords": ["skill-manager", "skill-sync", "skill-evolution"],
+            "keywords": ["skill-manager", "skill-sync", "skill-evolution", "planning", "file-based", "task-plan"],
             "experts": ["Kelsey Hightower"],
-            "test_focus": "skill lifecycle management"
+            "test_focus": "skill lifecycle management, task planning"
         },
         "devops-mcp": {
             "parent": "devops",

@@ -136,8 +136,23 @@ def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str,
     project_root = Path(__file__).parent.parent.parent.parent
     skill_file_path = project_root / skill_path.lstrip("./")
 
+    # 如果路径是目录，尝试查找 SKILL.md
+    if skill_file_path.is_dir():
+        skill_md = skill_file_path / "SKILL.md"
+        if skill_md.exists():
+            skill_file_path = skill_md
+        else:
+            # 跳过没有 SKILL.md 的目录
+            return {
+                "cluster_name": cluster_name,
+                "skill_id": skill_id,
+                "skill_name": skill_name,
+                "error": "SKILL.md not found",
+                "test_results": []
+            }
+
     skill_content = ""
-    if skill_file_path.exists():
+    if skill_file_path.exists() and skill_file_path.is_file():
         skill_content = skill_file_path.read_text(encoding='utf-8')
 
     # Execute each test case
