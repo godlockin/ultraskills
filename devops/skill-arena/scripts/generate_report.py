@@ -16,34 +16,39 @@ def generate_report(rankings: Dict, reports_dir: Path) -> Path:
     report_date = datetime.now().strftime("%Y-%m-%d")
     report_path = reports_dir / f"benchmark-report-{report_date}.md"
 
+    # Calculate total skills tested
+    total_skills = sum(len(cat['skills']) for cat in rankings['categories'])
+
     report_content = f"""# Skill Arena Benchmark Report
 
 **Generated:** {report_date}
 
 ## Executive Summary
 
-- **Total Skills Tested:** {sum(len(cat['skills']) for cat in rankings['categories'])}
+- **Total Skills Tested:** {total_skills}
 - **Categories:** {len(rankings['categories'])}
 - **Test Cases:** {len(rankings['categories']) * 5}  # Estimated
 
 ---
 
-## 🏆 Winners by Category
+## 🏆 Winners by Category (Top 3)
 
 """
 
     for category in rankings['categories']:
         if category.get('winner'):
             winner = category['winner']
-            report_content += f"""### 🥇 {category['category'].title()}
+            report_content += f"""### {category['category'].title()}
 
 | Rank | Skill | Speed | Quality | Maintainability | Total |
 |------|-------|-------|---------|-----------------|-------|
-| 1    | **{winner['skill_name']}** | {winner['scores']['speed']:.1f} | {winner['scores']['quality']:.1f} | {winner['scores']['maintainability']:.1f} | **{winner['total_score']:.1f}** |
 """
-            # Add runners-up
-            for i, skill in enumerate(category['skills'][1:4], 2):
-                report_content += f"""| {i}    | {skill['skill_name']} | {skill['scores']['speed']:.1f} | {skill['scores']['quality']:.1f} | {skill['scores']['maintainability']:.1f} | {skill['total_score']:.1f} |
+            # Top 3 skills
+            top_skills = category['skills'][:3]
+            for i, skill in enumerate(top_skills, 1):
+                medal = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else ""
+                bold = "**" if i == 1 else ""
+                report_content += f"""| {i}{medal} | {bold}{skill['skill_name']}{bold} | {skill['scores']['speed']:.1f} | {skill['scores']['quality']:.1f} | {skill['scores']['maintainability']:.1f} | {bold}{skill['total_score']:.1f}{bold} |
 """
             report_content += "\n"
 
@@ -52,12 +57,29 @@ def generate_report(rankings: Dict, reports_dir: Path) -> Path:
 
 ## 📊 Overall Top 10
 
-| Rank | Category | Skill | Total Score |
-|------|----------|-------|-------------|
+| Rank | Category | Skill | Speed | Quality | Maintainability | Total |
+|------|----------|-------|-------|---------|-----------------|-------|
 """
 
     for i, skill in enumerate(rankings['overall'][:10], 1):
-        report_content += f"| {i} | {skill['category'].title()} | {skill['skill_name']} | {skill['total_score']:.1f} |\n"
+        medal = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else ""
+        report_content += f"| {i}{medal} | {skill['category'].title()} | {skill['skill_name']} | {skill['scores']['speed']:.1f} | {skill['scores']['quality']:.1f} | {skill['scores']['maintainability']:.1f} | **{skill['total_score']:.1f}** |\n"
+
+    report_content += f"""
+
+---
+
+## 📈 Category Summary
+
+| Category | Winner | Score | Skills Count |
+|----------|--------|-------|--------------|
+"""
+
+    for category in rankings['categories']:
+        if category.get('winner'):
+            winner = category['winner']
+            skill_count = len(category['skills'])
+            report_content += f"| {category['category'].title()} | {winner['skill_name']} | {winner['total_score']:.1f} | {skill_count} |\n"
 
     report_content += f"""
 
