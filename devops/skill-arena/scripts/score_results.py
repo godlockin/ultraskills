@@ -80,23 +80,47 @@ def calculate_scores(result: Dict) -> Dict[str, float]:
     if not test_results:
         return {"speed": 0, "quality": 0, "maintainability": 0, "total": 0}
 
-    # Calculate speed score (30 points max)
-    avg_response_time = sum(r.get("response_time_s", 10) for r in test_results) / len(test_results)
-    speed_score = max(0, 30 - (avg_response_time * 2))  # Faster = higher score
+    # Aggregate scores from all test results
+    total_speed = 0
+    total_quality = 0
+    total_maintainability = 0
 
-    # Calculate quality score (50 points max)
-    avg_quality = sum(r.get("quality_score", 5) for r in test_results) / len(test_results)
-    quality_score = (avg_quality / 10) * 50  # Normalize to 50
+    for test_result in test_results:
+        # Use scoring_breakdown if available (from test execution)
+        scoring = test_result.get("scoring_breakdown", {})
 
-    # Calculate maintainability score (20 points max)
-    # In production, analyze code structure, documentation, etc.
-    maintainability_score = 15  # Default placeholder
+        speed = scoring.get("speed", 0)
+        quality = scoring.get("quality", 0)
+        maintainability = scoring.get("maintainability", 0)
 
-    total = speed_score + quality_score + maintainability_score
+        # Fallback: calculate from raw metrics if scoring_breakdown not available
+        if speed == 0 and quality == 0 and maintainability == 0:
+            # Calculate speed from response time
+            response_time = test_result.get("response_time_s", 10)
+            speed = max(0, 30 - (response_time * 2))
+
+            # Calculate quality from quality_score (0-10 scale)
+            quality_score = test_result.get("quality_score", 5)
+            quality = (quality_score / 10) * 50
+
+            # Default maintainability
+            maintainability = 15
+
+        total_speed += speed
+        total_quality += quality
+        total_maintainability += maintainability
+
+    # Average across all tests
+    num_tests = len(test_results)
+    avg_speed = total_speed / num_tests
+    avg_quality = total_quality / num_tests
+    avg_maintainability = total_maintainability / num_tests
+
+    total = avg_speed + avg_quality + avg_maintainability
 
     return {
-        "speed": round(speed_score, 2),
-        "quality": round(quality_score, 2),
-        "maintainability": round(maintainability_score, 2),
+        "speed": round(avg_speed, 2),
+        "quality": round(avg_quality, 2),
+        "maintainability": round(avg_maintainability, 2),
         "total": round(total, 2)
     }
