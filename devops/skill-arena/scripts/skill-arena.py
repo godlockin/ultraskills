@@ -19,10 +19,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # Load environment variables before anything else
-# Priority: auth/.env > root .env
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
-load_dotenv(PROJECT_ROOT / "auth" / ".env")
-load_dotenv(PROJECT_ROOT / ".env")
+load_dotenv(PROJECT_ROOT / ".env")  # Load from root only
 
 # Import sub-modules
 from cluster_skills import scan_skills, analyze_skills, cluster_skills
