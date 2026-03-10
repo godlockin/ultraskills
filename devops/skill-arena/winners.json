@@ -3,326 +3,54 @@
   "updated_at": "2026-03-09",
   "winners": [
     {
-      "category": "cro",
-      "skill_id": "prompt-optimizer",
-      "score": 79.17,
+      "category": "eng-code-quality",
+      "skill_id": "executing-plans",
+      "score": 68.75,
       "scores": {
         "speed": 30.0,
-        "quality": 33.17,
+        "quality": 22.75,
         "maintainability": 16.0,
-        "total": 79.17
+        "total": 68.75
       },
       "defeated": [
-        "popup-cro",
-        "signup-flow-cro",
-        "page-cro",
-        "cro-advisor",
-        "codebase-onboarding",
-        "app-store-optimization",
-        "cs-demand-gen-specialist",
-        "performance-profiler",
-        "form-cro",
-        "context-optimization",
-        "paywall-upgrade-cro",
-        "onboarding-cro",
-        "cs-onboard",
-        "form-cro-1",
-        "landing-page-generator",
-        "page-cro-1",
-        "onboarding-cro-1",
-        "paywall-upgrade-cro-1",
-        "popup-cro-1",
-        "signup-flow-cro-1",
-        "information-security-manager-iso27001"
+        "quality-documentation-manager",
+        "receiving-code-review",
+        "code-reviewer",
+        "review",
+        "api-design-reviewer",
+        "requesting-code-review",
+        "pr-review-expert"
       ]
     },
     {
-      "category": "seo",
-      "skill_id": "programmatic-seo",
-      "score": 89.58,
+      "category": "eng-testing",
+      "skill_id": "systematic-debugging",
+      "score": 68.75,
       "scores": {
         "speed": 30.0,
-        "quality": 43.58,
+        "quality": 22.75,
         "maintainability": 16.0,
-        "total": 89.58
-      },
-      "defeated": [
-        "ai-seo",
-        "isms-audit-expert",
-        "schema-markup",
-        "database-schema-designer",
-        "qms-audit-expert",
-        "skill-security-auditor",
-        "seo-audit",
-        "dependency-auditor",
-        "ai-seo-1",
-        "programmatic-seo-1",
-        "schema-markup-1",
-        "seo-audit-1"
-      ]
-    },
-    {
-      "category": "content",
-      "skill_id": "content-strategy",
-      "score": 69.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 23.75,
-        "maintainability": 16.0,
-        "total": 69.75
-      },
-      "defeated": [
-        "content-strategy-1",
-        "copy-editing",
-        "copywriting",
-        "email-template-builder",
-        "cs-content-creator",
-        "commercial-director",
-        "writing-skills",
-        "email-sequence",
-        "copy-editing-1",
-        "content-creator",
-        "content-production",
-        "copywriting-1",
-        "social-content-1",
-        "social-media-manager",
-        "social-content",
-        "cold-email-1",
-        "content-humanizer",
-        "email-sequence-1",
-        "social-media-analyzer"
-      ]
-    },
-    {
-      "category": "marketing",
-      "skill_id": "free-tool-strategy-1",
-      "score": 69.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 23.75,
-        "maintainability": 16.0,
-        "total": 69.75
+        "total": 68.75
       },
       "defeated": [
         "ab-test-setup",
-        "competitor-alternatives",
-        "site-architecture",
-        "ad-creative-1",
-        "competitive-intel",
-        "marketing-bundle",
-        "marketing-psychology-1",
-        "launch-strategy",
-        "marketing-strategy-pmm",
-        "analytics-tracking",
-        "churn-prevention",
-        "product-marketing-context",
-        "referral-program",
-        "ab-test-setup-1",
-        "revops",
-        "campaign-analytics",
-        "marketing-context",
-        "prompt-engineer-toolkit",
-        "free-tool-strategy",
-        "ad-creative",
-        "marketing-psychology",
-        "marketing-ideas",
-        "paid-ads",
-        "cmo-advisor",
-        "analytics-tracking-1",
-        "marketing-demand-acquisition",
-        "marketing-ops",
-        "marketing-ideas-1",
-        "paid-ads-1"
-      ]
-    },
-    {
-      "category": "growth",
-      "skill_id": "churn-prevention-1",
-      "score": 56.25,
-      "scores": {
-        "speed": 30.0,
-        "quality": 10.25,
-        "maintainability": 16.0,
-        "total": 56.25
-      },
-      "defeated": [
-        "business-growth-bundle",
-        "cs-growth-strategist",
-        "customer-success-manager",
-        "referral-program-1"
-      ]
-    },
-    {
-      "category": "sales",
-      "skill_id": "competitor-alternatives-1",
-      "score": 68.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 22.75,
-        "maintainability": 16.0,
-        "total": 68.75
-      },
-      "defeated": [
-        "sales-enablement",
-        "revenue-operations",
-        "cold-email",
-        "sales-engineer"
-      ]
-    },
-    {
-      "category": "pricing",
-      "skill_id": "pricing-strategy",
-      "score": 57.25,
-      "scores": {
-        "speed": 30.0,
-        "quality": 11.25,
-        "maintainability": 16.0,
-        "total": 57.25
-      },
-      "defeated": [
-        "competitive-teardown",
-        "pricing-strategy-1"
-      ]
-    },
-    {
-      "category": "engineering",
-      "skill_id": "receiving-code-review",
-      "score": 81.25,
-      "scores": {
-        "speed": 30.0,
-        "quality": 35.25,
-        "maintainability": 16.0,
-        "total": 81.25
-      },
-      "defeated": [
+        "tdd",
+        "testrail",
+        "evaluation",
         "test-driven-development",
-        "writing-plans",
-        "code-reviewer",
-        "cs-senior-engineer",
-        "git-worktree-manager",
-        "senior-ml-engineer",
-        "skill-arena",
-        "github-skill-scout",
-        "finishing-a-development-branch",
-        "subagent-driven-development",
-        "systematic-debugging",
         "webapp-testing",
-        "engineering-team-bundle",
+        "ab-test-setup-1",
+        "api-test-suite-builder",
         "playwright-pro",
-        "founder-coach",
-        "senior-data-engineer",
-        "senior-fullstack",
-        "senior-frontend",
-        "senior-security",
-        "git-commit-master",
-        "github-to-skills",
-        "project-development",
-        "requesting-code-review",
-        "using-git-worktrees",
-        "cs-engineering-lead",
-        "cto-advisor",
-        "engineering-bundle",
-        "extract",
-        "senior-computer-vision",
         "tdd-guide",
-        "claude-api",
-        "digital-brain-skill"
+        "skill-tester",
+        "stress-test",
+        "skill-arena"
       ]
     },
     {
-      "category": "product",
-      "skill_id": "frontend-design",
-      "score": 68.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 22.75,
-        "maintainability": 16.0,
-        "total": 68.75
-      },
-      "defeated": [
-        "web-artifacts-builder",
-        "agent-workflow-designer",
-        "jira-expert",
-        "agile-product-owner",
-        "observability-designer",
-        "risk-management-specialist",
-        "product-strategist",
-        "ui-design-system",
-        "launch-strategy-1",
-        "ikea-designer",
-        "photography-expert",
-        "aws-solution-architect",
-        "api-design-reviewer",
-        "brand-guidelines-1",
-        "cs-product-manager",
-        "database-designer",
-        "cpo-advisor",
-        "interview-system-designer",
-        "product-bundle",
-        "product-manager-toolkit",
-        "ux-researcher-designer"
-      ]
-    },
-    {
-      "category": "devops",
-      "skill_id": "skill-manager",
-      "score": 68.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 22.75,
-        "maintainability": 16.0,
-        "total": 68.75
-      },
-      "defeated": [
-        "ci-cd-pipeline-builder",
-        "mcp-builder",
-        "skill-sync-manager",
-        "mcp-server-builder",
-        "skill-evolution-manager",
-        "senior-devops"
-      ]
-    },
-    {
-      "category": "data",
-      "skill_id": "pdf",
-      "score": 66.25,
-      "scores": {
-        "speed": 30.0,
-        "quality": 20.25,
-        "maintainability": 16.0,
-        "total": 66.25
-      },
-      "defeated": [
-        "senior-data-scientist",
-        "xlsx"
-      ]
-    },
-    {
-      "category": "video",
-      "skill_id": "video-splitter",
-      "score": 68.75,
-      "scores": {
-        "speed": 30.0,
-        "quality": 22.75,
-        "maintainability": 16.0,
-        "total": 68.75
-      },
-      "defeated": [
-        "gemini-image-optimizer",
-        "remotion-video",
-        "video-frame-extractor",
-        "自更新",
-        "剪口播",
-        "media-downloader",
-        "image-to-video",
-        "安装",
-        "剪辑",
-        "字幕"
-      ]
-    },
-    {
-      "category": "agent",
-      "skill_id": "bdi-mental-states",
+      "category": "eng-architecture",
+      "skill_id": "ikea-designer",
       "score": 68.75,
       "scores": {
         "speed": 30.0,
@@ -332,29 +60,505 @@
       },
       "defeated": [
         "agent-designer",
-        "context-engine",
-        "self-improving-agent",
-        "context-fundamentals",
-        "filesystem-context",
-        "hosted-agents",
-        "multi-agent-patterns",
-        "using-superpowers",
-        "cs-financial-analyst",
-        "context-degradation",
-        "context-compression",
-        "dispatching-parallel-agents",
-        "evaluation",
+        "agent-workflow-designer",
+        "database-designer",
+        "site-architecture",
+        "cs-senior-engineer",
+        "cto-advisor",
         "tool-design",
+        "cs-cto-advisor",
+        "aws-solution-architect",
+        "database-schema-designer",
+        "interview-system-designer",
+        "decision-logger",
+        "observability-designer",
+        "senior-architect",
+        "site-architecture-1"
+      ]
+    },
+    {
+      "category": "eng-devops",
+      "skill_id": "launch-strategy-1",
+      "score": 69.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 23.75,
+        "maintainability": 16.0,
+        "total": 69.75
+      },
+      "defeated": [
+        "github-skill-scout",
+        "skill-manager",
+        "content-production",
+        "book-sft-pipeline",
+        "launch-strategy",
+        "github-to-skills",
+        "skill-evolution-manager",
+        "writing-skills",
+        "senior-devops",
+        "skill-sync-manager",
+        "ci-cd-pipeline-builder",
+        "using-git-worktrees",
+        "git-worktree-manager",
+        "release-manager",
+        "pipeline",
+        "revenue-operations"
+      ]
+    },
+    {
+      "category": "eng-security",
+      "skill_id": "env-secrets-manager",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "senior-security",
+        "isms-audit-expert",
+        "information-security-manager-iso27001",
+        "doc-coauthoring",
+        "senior-secops",
+        "skill-security-auditor",
+        "tech-stack-evaluator"
+      ]
+    },
+    {
+      "category": "seo-technical",
+      "skill_id": "schema-markup-1",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "schema-markup"
+      ]
+    },
+    {
+      "category": "seo-content",
+      "skill_id": "ai-seo-1",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "context-optimization",
+        "programmatic-seo-1",
+        "ai-seo",
+        "prompt-optimizer",
+        "programmatic-seo",
+        "app-store-optimization"
+      ]
+    },
+    {
+      "category": "cro-landing",
+      "skill_id": "page-cro",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "campaign-analytics",
+        "popup-cro",
+        "cs-demand-gen-specialist",
+        "landing-page-generator",
+        "popup-cro-1",
+        "page-cro-1"
+      ]
+    },
+    {
+      "category": "cro-form",
+      "skill_id": "form-cro",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "signup-flow-cro",
+        "performance-profiler",
+        "form-cro-1",
+        "signup-flow-cro-1"
+      ]
+    },
+    {
+      "category": "cro-funnel",
+      "skill_id": "cs-onboard",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "onboarding-cro-1",
+        "codebase-onboarding",
+        "paywall-upgrade-cro-1",
+        "onboarding-cro",
+        "paywall-upgrade-cro"
+      ]
+    },
+    {
+      "category": "content-copywriting",
+      "skill_id": "copy-editing",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "copy-editing-1",
+        "copywriting-1",
+        "copywriting"
+      ]
+    },
+    {
+      "category": "content-strategy",
+      "skill_id": "content-strategy-1",
+      "score": 57.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 11.25,
+        "maintainability": 16.0,
+        "total": 57.25
+      },
+      "defeated": [
+        "content-strategy",
+        "cs-product-manager",
+        "ceo-advisor"
+      ]
+    },
+    {
+      "category": "content-social",
+      "skill_id": "commercial-director",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "social-media-manager",
+        "social-media-analyzer",
+        "social-content-1",
+        "social-content"
+      ]
+    },
+    {
+      "category": "content-email",
+      "skill_id": "email-sequence",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "email-template-builder",
+        "image-to-video",
+        "email-sequence-1"
+      ]
+    },
+    {
+      "category": "marketing-analytics",
+      "skill_id": "analytics-tracking-1",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "competitive-intel",
+        "analytics-tracking"
+      ]
+    },
+    {
+      "category": "marketing-paid",
+      "skill_id": "paid-ads-1",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "paid-ads",
+        "ad-creative-1",
+        "marketing-demand-acquisition"
+      ]
+    },
+    {
+      "category": "marketing-growth",
+      "skill_id": "free-tool-strategy-1",
+      "score": 69.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 23.75,
+        "maintainability": 16.0,
+        "total": 69.75
+      },
+      "defeated": [
+        "cs-growth-strategist",
+        "cmo-advisor",
+        "free-tool-strategy",
+        "referral-program",
+        "business-growth-bundle",
+        "referral-program-1"
+      ]
+    },
+    {
+      "category": "product-strategy",
+      "skill_id": "ciso-advisor",
+      "score": 47.0,
+      "scores": {
+        "speed": 30.0,
+        "quality": 5.5,
+        "maintainability": 11.5,
+        "total": 47.0
+      },
+      "defeated": []
+    },
+    {
+      "category": "product-discovery",
+      "skill_id": "marketing-strategy-pmm",
+      "score": 69.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 23.75,
+        "maintainability": 16.0,
+        "total": 69.75
+      },
+      "defeated": [
+        "gemini-image-optimizer",
+        "context-degradation",
+        "ad-creative",
+        "sales-enablement",
+        "seo-audit-1",
+        "skills-finder",
+        "advanced-evaluation",
+        "filesystem-context",
+        "multi-agent-patterns",
         "memory-systems",
+        "project-development",
+        "competitor-alternatives",
+        "content-creator",
+        "marketing-ideas-1",
+        "product-manager-toolkit",
+        "scrum-master",
+        "digital-brain-skill",
+        "pricing-strategy",
+        "video-frame-extractor",
+        "video-splitter",
+        "hosted-agents",
+        "churn-prevention",
+        "marketing-psychology",
+        "marketing-ideas",
+        "seo-audit",
+        "product-marketing-context",
+        "agile-product-owner",
+        "competitor-alternatives-1",
+        "brand-guidelines-1",
+        "marketing-context",
+        "marketing-psychology-1",
+        "senior-prompt-engineer",
+        "remember"
+      ]
+    },
+    {
+      "category": "product-ux",
+      "skill_id": "frontend-design",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "senior-frontend",
+        "ux-researcher-designer",
+        "web-artifacts-builder",
+        "brand-guidelines",
+        "board-deck-builder",
+        "ui-design-system"
+      ]
+    },
+    {
+      "category": "agent-context",
+      "skill_id": "context-fundamentals",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "context-compression",
+        "context-engine"
+      ]
+    },
+    {
+      "category": "agent-workflow",
+      "skill_id": "git-commit-master",
+      "score": 47.0,
+      "scores": {
+        "speed": 30.0,
+        "quality": 5.5,
+        "maintainability": 11.5,
+        "total": 47.0
+      },
+      "defeated": [
+        "dispatching-parallel-agents"
+      ]
+    },
+    {
+      "category": "agent-tool",
+      "skill_id": "using-superpowers",
+      "score": 47.0,
+      "scores": {
+        "speed": 30.0,
+        "quality": 5.5,
+        "maintainability": 11.5,
+        "total": 47.0
+      },
+      "defeated": [
+        "claude-api",
+        "prompt-engineer-toolkit"
+      ]
+    },
+    {
+      "category": "agent-bdi",
+      "skill_id": "bdi-mental-states",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": []
+    },
+    {
+      "category": "devops-mcp",
+      "skill_id": "board-meeting",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "mcp-server-builder",
         "agent-protocol",
-        "cs-project-manager",
-        "cs-quality-regulatory",
-        "decision-logger"
+        "mcp-builder"
       ]
     },
     {
-      "category": "creative",
-      "skill_id": "canvas-design",
+      "category": "data-analysis",
+      "skill_id": "task-analyzer",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "competitive-teardown",
+        "postmortem",
+        "senior-data-scientist",
+        "cs-engineering-lead",
+        "xlsx",
+        "senior-data-engineer",
+        "competitive-matrix"
+      ]
+    },
+    {
+      "category": "data-docs",
+      "skill_id": "docx",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "pdf"
+      ]
+    },
+    {
+      "category": "video-editing",
+      "skill_id": "remotion-video",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "剪辑",
+        "剪口播",
+        "字幕",
+        "安装",
+        "自更新"
+      ]
+    },
+    {
+      "category": "video-media",
+      "skill_id": "media-downloader",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "photography-expert"
+      ]
+    },
+    {
+      "category": "sales-outreach",
+      "skill_id": "cold-email",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "cold-email-1"
+      ]
+    },
+    {
+      "category": "sales-enablement",
+      "skill_id": "revops",
       "score": 68.75,
       "scores": {
         "speed": 30.0,
@@ -363,36 +567,45 @@
         "total": 68.75
       },
       "defeated": [
-        "visual-expert",
-        "brainstorming",
-        "algorithmic-art"
+        "cro-advisor"
       ]
     },
     {
-      "category": "business",
-      "skill_id": "finance-bundle",
-      "score": 68.75,
+      "category": "business-strategy",
+      "skill_id": "c-level-advisor-bundle",
+      "score": 69.75,
       "scores": {
         "speed": 30.0,
-        "quality": 22.75,
+        "quality": 23.75,
         "maintainability": 16.0,
-        "total": 68.75
+        "total": 69.75
       },
       "defeated": [
-        "c-level-advisor-bundle",
-        "chro-advisor",
-        "stress-test",
-        "cfo-advisor",
-        "ceo-advisor",
-        "chief-of-staff",
-        "coo-advisor",
+        "ma-playbook",
+        "pricing-strategy-1",
         "cs-ceo-advisor",
-        "cs-cto-advisor"
+        "strategic-alignment"
       ]
     },
     {
-      "category": "compliance",
-      "skill_id": "ra-qm-team-bundle",
+      "category": "business-finance",
+      "skill_id": "cs-financial-analyst",
+      "score": 56.25,
+      "scores": {
+        "speed": 30.0,
+        "quality": 10.25,
+        "maintainability": 16.0,
+        "total": 56.25
+      },
+      "defeated": [
+        "cfo-advisor",
+        "finance-bundle",
+        "financial-analyst"
+      ]
+    },
+    {
+      "category": "compliance-ra",
+      "skill_id": "internal-narrative",
       "score": 68.75,
       "scores": {
         "speed": 30.0,
@@ -401,14 +614,73 @@
         "total": 68.75
       },
       "defeated": [
-        "regulatory-affairs-head",
-        "quality-manager-qms-iso13485",
-        "intl-expansion",
-        "ciso-advisor",
-        "gdpr-dsgvo-expert",
+        "stripe-integration-expert",
+        "tech-debt-tracker",
+        "brainstorming",
         "fda-consultant-specialist",
+        "generate",
+        "coverage",
         "mdr-745-specialist",
-        "senior-secops"
+        "jira-expert",
+        "migrate",
+        "migration-architect",
+        "ra-qm-team-bundle",
+        "runbook-generator",
+        "finishing-a-development-branch",
+        "changelog-generator",
+        "contract-and-proposal-writer",
+        "extract",
+        "intl-expansion",
+        "rag-architect",
+        "product-strategist",
+        "regulatory-affairs-head",
+        "interleaved-thinking"
+      ]
+    },
+    {
+      "category": "compliance-qm",
+      "skill_id": "quality-manager-qms-iso13485",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "qms-audit-expert",
+        "cs-quality-regulatory",
+        "chro-advisor",
+        "coo-advisor",
+        "cpo-advisor",
+        "quality-manager-qmr"
+      ]
+    },
+    {
+      "category": "compliance-security",
+      "skill_id": "gdpr-dsgvo-expert",
+      "score": 47.0,
+      "scores": {
+        "speed": 30.0,
+        "quality": 5.5,
+        "maintainability": 11.5,
+        "total": 47.0
+      },
+      "defeated": []
+    },
+    {
+      "category": "creative-visual",
+      "skill_id": "senior-computer-vision",
+      "score": 68.75,
+      "scores": {
+        "speed": 30.0,
+        "quality": 22.75,
+        "maintainability": 16.0,
+        "total": 68.75
+      },
+      "defeated": [
+        "canvas-design",
+        "visual-expert"
       ]
     },
     {
@@ -422,85 +694,62 @@
         "total": 68.75
       },
       "defeated": [
-        "atlassian-admin",
-        "capa-officer",
-        "board-prep",
-        "changelog-generator",
-        "contract-and-proposal-writer",
-        "coverage",
-        "fix",
-        "incident-commander",
-        "ma-playbook",
-        "ms365-tenant-manager",
-        "migration-architect",
-        "quality-documentation-manager",
-        "release-manager",
-        "report",
-        "tech-stack-evaluator",
-        "tech-debt-tracker",
-        "prompt-engineer",
-        "brand-guidelines",
-        "pptx",
-        "board-deck-builder",
-        "browserstack",
-        "confluence-expert",
-        "executive-mentor",
-        "generate",
-        "financial-analyst",
-        "hard-call",
-        "init",
-        "org-health-diagnostic",
-        "pr-review-expert",
-        "runbook-generator",
-        "review",
-        "site-architecture-1",
-        "skill-tester",
-        "status",
-        "tech-debt",
-        "testrail",
-        "book-sft-pipeline",
-        "interleaved-thinking",
-        "skills-finder",
-        "advanced-evaluation",
-        "task-analyzer",
-        "executing-plans",
-        "doc-coauthoring",
-        "internal-comms",
-        "docx",
-        "slack-gif-creator",
-        "theme-factory",
         "verification-before-completion",
+        "slack-gif-creator",
+        "board-prep",
         "atlassian-templates",
-        "api-test-suite-builder",
-        "board-meeting",
-        "change-management",
+        "company-os",
+        "engineering-bundle",
+        "engineering-team-bundle",
+        "marketing-ops",
+        "saas-scaffolder",
+        "senior-ml-engineer",
+        "tech-debt",
+        "internal-comms",
+        "pptx",
+        "theme-factory",
         "changelog",
         "challenge",
-        "company-os",
-        "competitive-matrix",
+        "churn-prevention-1",
+        "cs-content-creator",
         "culture-architect",
-        "env-secrets-manager",
-        "internal-narrative",
-        "migrate",
-        "monorepo-navigator",
-        "pipeline",
-        "promote",
-        "project-management-bundle",
-        "postmortem",
-        "quality-manager-qmr",
-        "rag-architect",
-        "remember",
-        "scrum-master",
-        "saas-scaffolder",
-        "scenario-war-room",
-        "senior-architect",
+        "content-humanizer",
+        "dependency-auditor",
+        "incident-commander",
+        "marketing-bundle",
+        "org-health-diagnostic",
+        "report",
+        "ms365-tenant-manager",
+        "sales-engineer",
+        "self-improving-agent",
         "senior-backend",
         "senior-pm",
-        "senior-qa",
-        "senior-prompt-engineer",
-        "tdd",
-        "strategic-alignment",
-        "stripe-integration-expert"
+        "prompt-engineer",
+        "algorithmic-art",
+        "subagent-driven-development",
+        "writing-plans",
+        "atlassian-admin",
+        "browserstack",
+        "capa-officer",
+        "change-management",
+        "confluence-expert",
+        "chief-of-staff",
+        "cs-project-manager",
+        "customer-success-manager",
+        "founder-coach",
+        "hard-call",
+        "executive-mentor",
+        "fix",
+        "init",
+        "monorepo-navigator",
+        "product-bundle",
+        "project-management-bundle",
+        "promote",
+        "scenario-war-room",
+        "risk-management-specialist",
+        "senior-fullstack",
+        "status",
+        "senior-qa"
       ]
     }
   ]

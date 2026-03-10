@@ -1,532 +1,828 @@
 #!/usr/bin/env python3
 """
-Expert Panel Definitions
+Expert Panels - Fine-Grained Subcategory Experts
 
-Defines domain expert panels for each skill category.
-Each panel consists of 3-5 experts who collaborate to design comprehensive test cases.
+Each subcategory has 2-3 dedicated domain experts who design specialized test cases.
 """
 
-# Expert Panel Definitions by Category
+from typing import Dict, List, Any
+
+
 EXPERT_PANELS = {
-    "cro": {
-        "panel_name": "CRO Expert Panel",
-        "description": "Conversion Rate Optimization specialists",
-        "experts": [
-            {
-                "name": "Dr. Sarah Chen",
-                "title": "Chief Conversion Officer",
-                "expertise": ["landing page optimization", "funnel analysis", "A/B testing"],
-                "background": "Former CRO lead at Optimizely, 15+ years experience",
-                "focus": "Strategic oversight and test prioritization"
-            },
-            {
-                "name": "Marcus Rodriguez",
-                "title": "UX Research Director",
-                "expertise": ["user behavior analysis", "heatmap interpretation", "session replay"],
-                "background": "Led UX research at Hotjar, published author on conversion psychology",
-                "focus": "User behavior insights and friction identification"
-            },
-            {
-                "name": "Dr. Emily Watson",
-                "title": "Behavioral Psychologist",
-                "expertise": ["persuasion psychology", "decision science", "nudge theory"],
-                "background": "PhD in Behavioral Economics, advisor to Fortune 500 companies",
-                "focus": "Psychological triggers and motivation factors"
-            },
-            {
-                "name": "James Park",
-                "title": "Data Science Lead",
-                "expertise": ["statistical analysis", "experiment design", "causal inference"],
-                "background": "Former data scientist at Booking.com, experimentation platform builder",
-                "focus": "Statistical rigor and measurement validity"
-            }
-        ]
-    },
-    "seo": {
-        "panel_name": "SEO Expert Panel",
-        "description": "Search Engine Optimization and visibility specialists",
-        "experts": [
-            {
-                "name": "Dr. Michael Brenner",
-                "title": "SEO Strategy Director",
-                "expertise": ["technical SEO", "site architecture", "Core Web Vitals"],
-                "background": "Former head of SEO at Moz, consultant for enterprise sites",
-                "focus": "Technical audit and architecture review"
-            },
-            {
-                "name": "Lisa Chang",
-                "title": "Content SEO Lead",
-                "expertise": ["keyword research", "content optimization", "search intent"],
-                "background": "Built SEO content strategies for HubSpot and SEMrush",
-                "focus": "On-page optimization and content strategy"
-            },
-            {
-                "name": "Ahmed Hassan",
-                "title": "AI Search Specialist",
-                "expertise": ["LLM optimization", "AI Overview visibility", "structured data"],
-                "background": "Pioneer in AI search optimization, early AEO adopter",
-                "focus": "AI search and emerging search formats"
-            },
-            {
-                "name": "Rachel Green",
-                "title": "Link Building Expert",
-                "expertise": ["digital PR", "link acquisition", "authority building"],
-                "background": "Built link strategies for 500+ enterprise clients",
-                "focus": "Off-page SEO and authority signals"
-            }
-        ]
-    },
-    "content": {
-        "panel_name": "Content Expert Panel",
-        "description": "Content strategy, copywriting, and communications specialists",
-        "experts": [
-            {
-                "name": "Ann Handley",
-                "title": "Chief Content Officer",
-                "expertise": ["content strategy", "brand voice", "storytelling"],
-                "background": "MarketingProfs founder, bestselling author on content marketing",
-                "focus": "Strategic content direction and brand alignment"
-            },
-            {
-                "name": "David Ogilvy Jr.",
-                "title": "Copywriting Director",
-                "expertise": ["direct response copy", "headline writing", "persuasion"],
-                "background": "Former creative director at Ogilvy & Mather",
-                "focus": "Copy quality and persuasive messaging"
-            },
-            {
-                "name": "Sonia Simone",
-                "title": "Content Marketing Lead",
-                "expertise": ["email marketing", "content distribution", "audience building"],
-                "background": "Copyblogger cofounder, email marketing expert",
-                "focus": "Content distribution and audience engagement"
-            }
-        ]
-    },
-    "marketing": {
-        "panel_name": "Marketing Expert Panel",
-        "description": "Digital marketing, paid media, and analytics specialists",
-        "experts": [
-            {
-                "name": "Neil Patel",
-                "title": "Growth Marketing Advisor",
-                "expertise": ["growth marketing", "SEO/SEM", "marketing analytics"],
-                "background": "Cofounder of Neil Patel Digital, marketing thought leader",
-                "focus": "Growth strategy and channel optimization"
-            },
-            {
-                "name": "Rand Fishkin",
-                "title": "Marketing Transparency Advocate",
-                "expertise": ["marketing experimentation", "attribution", "transparent analytics"],
-                "background": "SparkToro founder, former Moz CEO",
-                "focus": "Marketing measurement and attribution"
-            },
-            {
-                "name": "Avinash Kaushik",
-                "title": "Digital Marketing Evangelist",
-                "expertise": ["web analytics", "marketing metrics", "data-driven marketing"],
-                "background": "Google Digital Marketing Evangelist, author of Web Analytics 2.0",
-                "focus": "Analytics framework and measurement strategy"
-            },
-            {
-                "name": "Mari Smith",
-                "title": "Social Media Strategist",
-                "expertise": ["social media marketing", "Facebook advertising", "influencer marketing"],
-                "background": "Premier Facebook marketing expert, international speaker",
-                "focus": "Social media and paid advertising"
-            }
-        ]
-    },
-    "growth": {
-        "panel_name": "Growth Expert Panel",
-        "description": "Growth hacking, viral mechanics, and retention specialists",
-        "experts": [
-            {
-                "name": "Sean Ellis",
-                "title": "Growth Hacking Pioneer",
-                "expertise": ["growth hacking", "product-market fit", "viral mechanics"],
-                "background": "Coined 'growth hacking', grew Dropbox, Eventbrite, LogMeIn",
-                "focus": "Growth strategy and viral loops"
-            },
-            {
-                "name": "Brian Balfour",
-                "title": "Growth Education Leader",
-                "expertise": ["growth frameworks", "retention strategy", "growth teams"],
-                "background": "Former VP Growth at HubSpot, Reforge founder",
-                "focus": "Growth systems and team building"
-            },
-            {
-                "name": "Andrew Chen",
-                "title": "Growth Investing Partner",
-                "expertise": ["network effects", "marketplace dynamics", "growth metrics"],
-                "background": "General Partner at a16z, author of The Cold Start Problem",
-                "focus": "Network effects and marketplace growth"
-            }
-        ]
-    },
-    "sales": {
-        "panel_name": "Sales Expert Panel",
-        "description": "B2B sales, sales enablement, and revenue operations specialists",
-        "experts": [
-            {
-                "name": "Aaron Ross",
-                "title": "Predictable Revenue Expert",
-                "expertise": ["cold outreach", "sales process", "SDR methodology"],
-                "background": "Author of Predictable Revenue, built Salesforce's prospecting machine",
-                "focus": "Outbound sales methodology"
-            },
-            {
-                "name": "Jill Konrath",
-                "title": "Sales Strategy Expert",
-                "expertise": ["B2B selling", "buyer psychology", "sales acceleration"],
-                "background": "Bestselling author, sales strategist for 20+ years",
-                "focus": "Modern B2B sales tactics"
-            },
-            {
-                "name": "Mark Roberge",
-                "title": "Data-Driven Sales Leader",
-                "expertise": ["sales analytics", "hiring sales teams", "sales enablement"],
-                "background": "Former CRO at HubSpot, grew from $0 to $100M+",
-                "focus": "Sales operations and enablement"
-            }
-        ]
-    },
-    "pricing": {
-        "panel_name": "Pricing Expert Panel",
-        "description": "Pricing strategy, packaging, and monetization specialists",
-        "experts": [
-            {
-                "name": "Patrick Campbell",
-                "title": "Pricing Strategy CEO",
-                "expertise": ["SaaS pricing", "value-based pricing", "pricing analytics"],
-                "background": "ProfitWell founder, pricing expert for 1000+ companies",
-                "focus": "SaaS pricing strategy and analytics"
-            },
-            {
-                "name": "Monica Eaton-Cardone",
-                "title": "Monetization Strategist",
-                "expertise": ["revenue optimization", "pricing psychology", "subscription models"],
-                "background": "Chargeback Guru founder, payments and pricing expert",
-                "focus": "Pricing psychology and model design"
-            },
-            {
-                "name": "Dr. Hermann Simon",
-                "title": "Pricing Authority",
-                "expertise": ["pricing research", "value metrics", "price elasticity"],
-                "background": "Simon-Kucher & Partners founder, authored 'Confessions of the Pricing Man'",
-                "focus": "Pricing theory and value-based approaches"
-            }
-        ]
-    },
-    "engineering": {
-        "panel_name": "Engineering Expert Panel",
-        "description": "Software engineering, architecture, and code quality specialists",
+    # Engineering Subcategories
+    "eng-code-quality": {
+        "panel_name": "Code Quality Panel",
+        "parent": "engineering",
         "experts": [
             {
                 "name": "Martin Fowler",
                 "title": "Software Architecture Authority",
-                "expertise": ["software architecture", "refactoring", "design patterns"],
-                "background": "Chief Scientist at ThoughtWorks, author of Refactoring",
-                "focus": "Architecture review and design quality"
+                "expertise": ["refactoring", "code smells", "design patterns", "enterprise architecture"],
+                "background": "ThoughtWorks Chief Scientist, author of 'Refactoring' and 'Patterns of Enterprise Application Architecture'",
+                "focus": "Code refactoring and architecture patterns"
             },
             {
                 "name": "Kent Beck",
-                "title": "Agile Development Pioneer",
-                "expertise": ["TDD", "extreme programming", "software craftsmanship"],
-                "background": "Creator of JUnit, pioneer of Extreme Programming",
-                "focus": "Testing practices and code quality"
+                "title": "TDD Pioneer",
+                "expertise": ["clean code", "test-driven development", "extreme programming"],
+                "background": "JUnit creator, author of 'Clean Code' and 'Implementation Patterns'",
+                "focus": "Clean code practices and TDD"
             },
             {
                 "name": "Jessica Kerr",
-                "title": "Software Systems Thinker",
-                "expertise": ["distributed systems", "observability", "team dynamics"],
-                "background": "Developer advocate, author on observability and systems",
-                "focus": "Systems thinking and observability"
+                "title": "Observability Expert",
+                "expertise": ["code quality", "system thinking", "engineering excellence"],
+                "background": "Honeycomb Principal Developer Advocate, thought leader on software quality",
+                "focus": "System-level quality attributes"
+            }
+        ],
+        "test_design_philosophy": "Focus on code smell detection, refactoring recommendations, and best practices adherence"
+    },
+
+    "eng-testing": {
+        "panel_name": "Testing Strategy Panel",
+        "parent": "engineering",
+        "experts": [
+            {
+                "name": "Kent Beck",
+                "title": "TDD Pioneer",
+                "expertise": ["TDD", "unit testing", "test patterns"],
+                "background": "JUnit creator, 'Test-Driven Development by Example' author",
+                "focus": "TDD"
+            },
+            {
+                "name": "Jessica Kerr",
+                "title": "Observability Expert",
+                "expertise": ["integration testing", "observability", "resilience testing"],
+                "background": "Honeycomb, advocate for production-aware testing",
+                "focus": "integration testing"
+            }
+        ],
+        "test_design_philosophy": "Test pyramid design, edge case coverage, and production-like scenarios"
+    },
+
+    "eng-architecture": {
+        "panel_name": "Architecture Design Panel",
+        "parent": "engineering",
+        "experts": [
+            {
+                "name": "Martin Fowler",
+                "title": "Software Architecture Authority",
+                "expertise": ["enterprise patterns", "microservices", "architecture patterns"],
+                "background": "ThoughtWorks Chief Scientist",
+                "focus": "enterprise patterns"
             },
             {
                 "name": "Will Larson",
                 "title": "Engineering Leadership Expert",
-                "expertise": ["engineering management", "technical strategy", "team scaling"],
-                "background": "Former CTO at Carto, Calm, author of engineering leadership books",
-                "focus": "Engineering leadership and team effectiveness"
+                "expertise": ["system design", "scalability", "technical strategy"],
+                "background": "Former Carto CTO, author of 'Staff Engineer' and 'An Elegant Puzzle'",
+                "focus": "system design"
             }
-        ]
+        ],
+        "test_design_philosophy": "Trade-off analysis, scalability considerations, and evolutionary architecture"
     },
-    "product": {
-        "panel_name": "Product Expert Panel",
-        "description": "Product management, UX design, and user research specialists",
+
+    "eng-devops": {
+        "panel_name": "DevOps & SRE Panel",
+        "parent": "engineering",
+        "experts": [
+            {
+                "name": "Kelsey Hightower",
+                "title": "Kubernetes Pioneer",
+                "expertise": ["containers", "orchestration", "cloud native"],
+                "background": "Google Principal Engineer, Kubernetes advocate",
+                "focus": "containers"
+            },
+            {
+                "name": "Charity Majors",
+                "title": "Observability Pioneer",
+                "expertise": ["monitoring", "debugging", "production operations"],
+                "background": "Honeycomb CEO, creator of modern observability practices",
+                "focus": "monitoring"
+            },
+            {
+                "name": "Jez Humble",
+                "title": "Continuous Delivery Co-author",
+                "expertise": ["CI/CD", "deployment", "lean practices"],
+                "background": "Google Engineering, 'Continuous Delivery' and 'The DevOps Handbook' co-author",
+                "focus": "CI/CD"
+            }
+        ],
+        "test_design_philosophy": "Infrastructure as code, deployment automation, and production resilience"
+    },
+
+    "eng-security": {
+        "panel_name": "Security Engineering Panel",
+        "parent": "engineering",
+        "experts": [
+            {
+                "name": "Will Larson",
+                "title": "Engineering Leadership Expert",
+                "expertise": ["security practices", "incident response", "risk management"],
+                "background": "Former Carto CTO",
+                "focus": "security practices"
+            },
+            {
+                "name": "Jez Humble",
+                "title": "DevOps Co-author",
+                "expertise": ["secure deployment", "devsecops"],
+                "background": "'The DevOps Handbook' co-author",
+                "focus": "secure deployment"
+            }
+        ],
+        "test_design_philosophy": "OWASP Top 10 coverage, vulnerability detection, and secure coding practices"
+    },
+
+    # SEO Subcategories
+    "seo-technical": {
+        "panel_name": "Technical SEO Panel",
+        "parent": "seo",
+        "experts": [
+            {
+                "name": "Dr. Michael Brenner",
+                "title": "SEO Strategy Authority",
+                "expertise": ["technical audits", "crawl optimization", "index coverage"],
+                "background": "Former Moz, CEO of Marketing Insider Group",
+                "focus": "technical audits"
+            },
+            {
+                "name": "Ahmed Hassan",
+                "title": "AI Search Expert",
+                "expertise": ["schema markup", "structured data", "AI search optimization"],
+                "background": "AEO (Answer Engine Optimization) pioneer",
+                "focus": "schema markup"
+            }
+        ],
+        "test_design_philosophy": "Technical audit depth, schema correctness, and Core Web Vitals optimization"
+    },
+
+    "seo-content": {
+        "panel_name": "Content SEO Panel",
+        "parent": "seo",
+        "experts": [
+            {
+                "name": "Lisa Chang",
+                "title": "Content SEO Lead",
+                "expertise": ["keyword strategy", "content optimization", "topic clusters"],
+                "background": "Former HubSpot and SEMrush SEO lead",
+                "focus": "keyword strategy"
+            },
+            {
+                "name": "Rachel Green",
+                "title": "Link Building Expert",
+                "expertise": ["content strategy", "linkable assets", "E-E-A-T"],
+                "background": "500+ enterprise client link building campaigns",
+                "focus": "content strategy"
+            }
+        ],
+        "test_design_philosophy": "Keyword intent matching, content depth, and AI search visibility"
+    },
+
+    # CRO Subcategories
+    "cro-landing": {
+        "panel_name": "Landing Page Optimization Panel",
+        "parent": "cro",
+        "experts": [
+            {
+                "name": "Dr. Sarah Chen",
+                "title": "Chief Conversion Officer",
+                "expertise": ["landing page design", "value proposition", "conversion psychology"],
+                "background": "Former Optimizely CRO lead, 15+ years experience",
+                "focus": "landing page design"
+            },
+            {
+                "name": "Marcus Rodriguez",
+                "title": "UX Research Director",
+                "expertise": ["user behavior", "heatmap analysis", "usability"],
+                "background": "Former Hotjar UX lead",
+                "focus": "user behavior"
+            }
+        ],
+        "test_design_philosophy": "Above-the-fold optimization, value clarity, and friction identification"
+    },
+
+    "cro-form": {
+        "panel_name": "Form Optimization Panel",
+        "parent": "cro",
+        "experts": [
+            {
+                "name": "Marcus Rodriguez",
+                "title": "UX Research Director",
+                "expertise": ["form UX", "input friction", "validation design"],
+                "background": "Former Hotjar",
+                "focus": "form UX"
+            },
+            {
+                "name": "James Park",
+                "title": "Data Science Lead",
+                "expertise": ["field analysis", "drop-off detection", "conversion funnels"],
+                "background": "Former Booking.com data lead",
+                "focus": "field analysis"
+            }
+        ],
+        "test_design_philosophy": "Field-by-field optimization, progressive disclosure, and error handling"
+    },
+
+    "cro-funnel": {
+        "panel_name": "Funnel Analysis Panel",
+        "parent": "cro",
+        "experts": [
+            {
+                "name": "Dr. Emily Watson",
+                "title": "Behavioral Psychologist",
+                "expertise": ["funnel psychology", "drop-off analysis", "commitment escalation"],
+                "background": "Franklin Foulter advisor, behavioral economics expert",
+                "focus": "funnel psychology"
+            },
+            {
+                "name": "James Park",
+                "title": "Data Science Lead",
+                "expertise": ["funnel metrics", "cohort analysis", "LTV optimization"],
+                "background": "Former Booking.com",
+                "focus": "funnel metrics"
+            }
+        ],
+        "test_design_philosophy": "Drop-off point identification, psychological barrier analysis, and recovery strategies"
+    },
+
+    "cro-ab-testing": {
+        "panel_name": "Experimentation Panel",
+        "parent": "cro",
+        "experts": [
+            {
+                "name": "Dr. Sarah Chen",
+                "title": "Chief Conversion Officer",
+                "expertise": ["experiment design", "statistical significance", "personalization"],
+                "background": "Former Optimizely",
+                "focus": "experiment design"
+            },
+            {
+                "name": "James Park",
+                "title": "Data Science Lead",
+                "expertise": ["sample size calculation", "bayesian testing", "multivariate tests"],
+                "background": "Experiment design specialist",
+                "focus": "sample size calculation"
+            }
+        ],
+        "test_design_philosophy": "Statistical rigor, hypothesis quality, and practical significance"
+    },
+
+    # Content Subcategories
+    "content-copywriting": {
+        "panel_name": "Copywriting Excellence Panel",
+        "parent": "content",
+        "experts": [
+            {
+                "name": "David Ogilvy Jr.",
+                "title": "Advertising Legend",
+                "expertise": ["persuasive copy", "headlines", "brand voice"],
+                "background": "Ogilvy & Mather founder's son, modern advertising expert",
+                "focus": "persuasive copy"
+            },
+            {
+                "name": "Ann Handley",
+                "title": "Content Marketing Pioneer",
+                "expertise": ["content creation", "storytelling", "email copy"],
+                "background": "MarketingProfs founder, 'Everybody Writes' author",
+                "focus": "content creation"
+            }
+        ],
+        "test_design_philosophy": "Clarity, persuasion, and brand alignment"
+    },
+
+    "content-strategy": {
+        "panel_name": "Content Strategy Panel",
+        "parent": "content",
+        "experts": [
+            {
+                "name": "Ann Handley",
+                "title": "Content Marketing Pioneer",
+                "expertise": ["content planning", "editorial calendars", "content governance"],
+                "background": "MarketingProfs founder",
+                "focus": "content planning"
+            }
+        ],
+        "test_design_philosophy": "Strategic alignment, audience mapping, and content ROI"
+    },
+
+    "content-social": {
+        "panel_name": "Social Media Strategy Panel",
+        "parent": "content",
+        "experts": [
+            {
+                "name": "Mari Smith",
+                "title": "Social Media Strategist",
+                "expertise": ["Facebook marketing", "social engagement", "community building"],
+                "background": "Premier Facebook marketing expert, author",
+                "focus": "Facebook marketing"
+            }
+        ],
+        "test_design_philosophy": "Platform-specific optimization, engagement mechanics, and viral potential"
+    },
+
+    "content-email": {
+        "panel_name": "Email Marketing Panel",
+        "parent": "content",
+        "experts": [
+            {
+                "name": "Ann Handley",
+                "title": "Content Marketing Pioneer",
+                "expertise": ["email copy", "sequences", "newsletter strategy"],
+                "background": "'Everybody Writes' author",
+                "focus": "email copy"
+            }
+        ],
+        "test_design_philosophy": "Subject line effectiveness, sequence flow, and conversion optimization"
+    },
+
+    # Marketing Subcategories
+    "marketing-analytics": {
+        "panel_name": "Marketing Analytics Panel",
+        "parent": "marketing",
+        "experts": [
+            {
+                "name": "Avinash Kaushik",
+                "title": "Digital Marketing Evangelist",
+                "expertise": ["analytics", "attribution", "measurement frameworks"],
+                "background": "Google Digital Marketing Evangelist, 'Web Analytics 2.0' author",
+                "focus": "analytics"
+            }
+        ],
+        "test_design_philosophy": "Actionable insights, metric selection, and attribution accuracy"
+    },
+
+    "marketing-paid": {
+        "panel_name": "Paid Media Panel",
+        "parent": "marketing",
+        "experts": [
+            {
+                "name": "Neil Patel",
+                "title": "Growth Marketing Advisor",
+                "expertise": ["PPC", "ad creative", "ROI optimization"],
+                "background": "Neil Patel Digital founder, marketing automation expert",
+                "focus": "PPC"
+            }
+        ],
+        "test_design_philosophy": "Ad relevance, quality score optimization, and ROAS maximization"
+    },
+
+    "marketing-growth": {
+        "panel_name": "Growth Marketing Panel",
+        "parent": "marketing",
+        "experts": [
+            {
+                "name": "Rand Fishkin",
+                "title": "Marketing Transparency Advocate",
+                "expertise": ["growth loops", "viral mechanics", "organic growth"],
+                "background": "SparkToro founder, former Moz CEO",
+                "focus": "growth loops"
+            }
+        ],
+        "test_design_philosophy": "Loop design, viral coefficient optimization, and sustainable growth"
+    },
+
+    # Product Subcategories
+    "product-strategy": {
+        "panel_name": "Product Strategy Panel",
+        "parent": "product",
         "experts": [
             {
                 "name": "Marty Cagan",
-                "title": "Product Leadership Guru",
-                "expertise": ["product discovery", "product strategy", "product teams"],
-                "background": "Silicon Valley Product Group founder, former Netscape/EBay exec",
-                "focus": "Product discovery and team structure"
-            },
+                "title": "Product Management Authority",
+                "expertise": ["product vision", "roadmap strategy", "product discovery"],
+                "background": "SVPG founder, 'Inspired' and 'Empowered' author",
+                "focus": "product vision"
+            }
+        ],
+        "test_design_philosophy": "Problem-solution fit, strategic alignment, and value proposition"
+    },
+
+    "product-discovery": {
+        "panel_name": "User Research Panel",
+        "parent": "product",
+        "experts": [
             {
                 "name": "Teresa Torres",
                 "title": "Product Discovery Coach",
-                "expertise": ["continuous discovery", "user interviewing", "product experiments"],
-                "background": "Product coach, author of Continuous Discovery Habits",
-                "focus": "Discovery practices and user research"
+                "expertise": ["continuous discovery", "user interviews", "opportunity solution trees"],
+                "background": "'Continuous Discovery Habits' author",
+                "focus": "continuous discovery"
             },
             {
                 "name": "Don Norman",
                 "title": "UX Design Legend",
-                "expertise": ["user-centered design", "design thinking", "cognitive psychology"],
-                "background": "Cofounder of NN/g, author of The Design of Everyday Things",
-                "focus": "UX principles and usability"
+                "expertise": ["user-centered design", "cognitive psychology"],
+                "background": "NN/g co-founder, 'The Design of Everyday Things' author",
+                "focus": "user-centered design"
+            }
+        ],
+        "test_design_philosophy": "User empathy, problem validation, and insight extraction"
+    },
+
+    "product-ux": {
+        "panel_name": "UX Design Panel",
+        "parent": "product",
+        "experts": [
+            {
+                "name": "Don Norman",
+                "title": "UX Design Legend",
+                "expertise": ["usability", "design principles", "human-centered design"],
+                "background": "NN/g co-founder",
+                "focus": "usability"
             },
             {
                 "name": "Lenny Rachitsky",
                 "title": "Product Growth Advisor",
-                "expertise": ["product-led growth", "feature optimization", "product analytics"],
+                "expertise": ["product-led growth", "feature design", "user onboarding"],
                 "background": "Former Airbnb PM, Lenny's Newsletter author",
-                "focus": "Product-led growth and optimization"
+                "focus": "product-led growth"
             }
-        ]
+        ],
+        "test_design_philosophy": "Usability heuristics, user flow optimization, and accessibility"
     },
-    "devops": {
-        "panel_name": "DevOps Expert Panel",
-        "description": "DevOps, CI/CD, and infrastructure specialists",
+
+    # Agent Subcategories
+    "agent-context": {
+        "panel_name": "Context Engineering Panel",
+        "parent": "agent",
+        "experts": [
+            {
+                "name": "Andrew Ng",
+                "title": "AI Education Pioneer",
+                "expertise": ["context management", "memory systems", "LLM optimization"],
+                "background": "DeepLearning.AI founder, former Google Brain and Baidu",
+                "focus": "context management"
+            }
+        ],
+        "test_design_philosophy": "Context efficiency, retrieval accuracy, and memory management"
+    },
+
+    "agent-workflow": {
+        "panel_name": "Agent Workflow Panel",
+        "parent": "agent",
+        "experts": [
+            {
+                "name": "Ethan Mollick",
+                "title": "AI Innovation Researcher",
+                "expertise": ["workflow design", "multi-agent systems", "human-AI collaboration"],
+                "background": "Wharton Professor, 'Co-Intelligence' author",
+                "focus": "workflow design"
+            }
+        ],
+        "test_design_philosophy": "Workflow efficiency, agent coordination, and error recovery"
+    },
+
+    "agent-tool": {
+        "panel_name": "Tool Use & Integration Panel",
+        "parent": "agent",
+        "experts": [
+            {
+                "name": "Simon Willison",
+                "title": "Tool Building Expert",
+                "expertise": ["MCP", "function calling", "API integration"],
+                "background": "Datasette creator, LLM tools researcher",
+                "focus": "MCP"
+            }
+        ],
+        "test_design_philosophy": "Tool selection accuracy, parameter handling, and error management"
+    },
+
+    "agent-bdi": {
+        "panel_name": "BDI Architecture Panel",
+        "parent": "agent",
+        "experts": [
+            {
+                "name": "Andrew Ng",
+                "title": "AI Education Pioneer",
+                "expertise": ["belief-desire-intention", "reasoning", "decision making"],
+                "background": "DeepLearning.AI founder",
+                "focus": "belief-desire-intention"
+            },
+            {
+                "name": "Ethan Mollick",
+                "title": "AI Innovation Researcher",
+                "expertise": ["agent reasoning", "goal management"],
+                "background": "Wharton Professor",
+                "focus": "agent reasoning"
+            }
+        ],
+        "test_design_philosophy": "Reasoning coherence, goal alignment, and intention consistency"
+    },
+
+    # DevOps Subcategories
+    "devops-skill-mgmt": {
+        "panel_name": "Skill Lifecycle Management Panel",
+        "parent": "devops",
         "experts": [
             {
                 "name": "Kelsey Hightower",
-                "title": "Cloud Native Pioneer",
-                "expertise": ["Kubernetes", "cloud infrastructure", "developer experience"],
-                "background": "Distinguished Engineer at Google, Kubernetes advocate",
-                "focus": "Cloud native architecture and best practices"
-            },
-            {
-                "name": "Jez Humble",
-                "title": "DevOps Authority",
-                "expertise": ["continuous delivery", "deployment pipelines", "lean practices"],
-                "background": "Co-author of Continuous Delivery, DevOps Research lead",
-                "focus": "CI/CD and deployment practices"
-            },
+                "title": "Kubernetes Pioneer",
+                "expertise": ["knowledge management", "skill versioning", "lifecycle automation"],
+                "background": "Google Principal Engineer",
+                "focus": "knowledge management"
+            }
+        ],
+        "test_design_philosophy": "Skill discovery, version control, and integration automation"
+    },
+
+    "devops-mcp": {
+        "panel_name": "MCP Development Panel",
+        "parent": "devops",
+        "experts": [
             {
                 "name": "Charity Majors",
-                "title": "Observability Expert",
-                "expertise": ["observability", "debugging", "infrastructure operations"],
-                "background": "Honeycomb cofounder, engineering leader",
-                "focus": "Observability and operations"
+                "title": "Observability Pioneer",
+                "expertise": ["MCP protocol", "server development", "tool integration"],
+                "background": "Honeycomb CEO",
+                "focus": "MCP protocol"
             }
-        ]
+        ],
+        "test_design_philosophy": "Protocol compliance, tool functionality, and error handling"
     },
-    "data": {
-        "panel_name": "Data Expert Panel",
-        "description": "Data engineering, analytics, and business intelligence specialists",
+
+    # Data Subcategories
+    "data-analysis": {
+        "panel_name": "Data Science Panel",
+        "parent": "data",
         "experts": [
             {
                 "name": "DJ Patil",
                 "title": "Data Science Pioneer",
-                "expertise": ["data science", "analytics strategy", "data products"],
-                "background": "First US Chief Data Scientist, LinkedIn data leader",
-                "focus": "Data strategy and products"
+                "expertise": ["data analysis", "insight generation", "statistical methods"],
+                "background": "Former US Chief Data Scientist, LinkedIn data lead",
+                "focus": "data analysis"
             },
             {
                 "name": "Hilary Mason",
                 "title": "Data Science Leader",
-                "expertise": ["machine learning", "data ethics", "analytics"],
-                "background": "Former Chief Scientist at Bitly, Fast Forward Labs founder",
-                "focus": "ML applications and data ethics"
-            },
+                "expertise": ["machine learning", "data ethics", "exploratory analysis"],
+                "background": "Bitly former Chief Scientist, Fast Forward Labs founder",
+                "focus": "machine learning"
+            }
+        ],
+        "test_design_philosophy": "Analytical rigor, insight quality, and statistical validity"
+    },
+
+    "data-docs": {
+        "panel_name": "Document Processing Panel",
+        "parent": "data",
+        "experts": [
             {
                 "name": "Benn Stancil",
-                "title": "Analytics Thought Leader",
-                "expertise": ["business intelligence", "data storytelling", "analytics tools"],
-                "background": "Mode cofounder, analytics industry commentator",
-                "focus": "BI and data communication"
+                "title": "Data Analytics Expert",
+                "expertise": ["document parsing", "data extraction", "format conversion"],
+                "background": "Mode Analytics co-founder, Chief Analytics Officer",
+                "focus": "document parsing"
             }
-        ]
+        ],
+        "test_design_philosophy": "Parsing accuracy, data integrity, and format compatibility"
     },
-    "video": {
-        "panel_name": "Video Production Expert Panel",
-        "description": "Video production, editing, and content creation specialists",
+
+    # Video Subcategories
+    "video-editing": {
+        "panel_name": "Video Editing Panel",
+        "parent": "video",
         "experts": [
-            {
-                "name": "Casey Faris",
-                "title": "Video Education Creator",
-                "expertise": ["DaVinci Resolve", "color grading", "video editing"],
-                "background": "Popular YouTube educator for video production",
-                "focus": "Editing workflow and color"
-            },
-            {
-                "name": "Peter McKinnon",
-                "title": "Content Creation Expert",
-                "expertise": ["cinematography", "content creation", "visual storytelling"],
-                "background": "Professional photographer and filmmaker",
-                "focus": "Visual storytelling and production"
-            },
             {
                 "name": "This Guy Edits",
-                "title": "Documentary Editor",
-                "expertise": ["documentary editing", "story structure", "pacing"],
-                "background": "Professional documentary film editor",
-                "focus": "Editing craft and narrative"
+                "title": "Video Editing Expert",
+                "expertise": ["editing workflow", "storytelling", "pacing"],
+                "background": "Professional video editor, educator",
+                "focus": "editing workflow"
             }
-        ]
+        ],
+        "test_design_philosophy": "Edit quality, story coherence, and technical execution"
     },
-    "agent": {
-        "panel_name": "AI Agent Expert Panel",
-        "description": "AI agents, context engineering, and tool design specialists",
+
+    "video-media": {
+        "panel_name": "Media Handling Panel",
+        "parent": "video",
         "experts": [
             {
-                "name": "Andrew Ng",
-                "title": "AI Education Leader",
-                "expertise": ["machine learning", "AI strategy", "agent systems"],
-                "background": "Cofounder of Coursera, former Baidu/Google AI leader",
-                "focus": "AI strategy and system design"
-            },
-            {
-                "name": "Ethan Mollick",
-                "title": "AI in Practice Expert",
-                "expertise": ["AI productivity", "human-AI collaboration", "prompt engineering"],
-                "background": "Wharton professor, author on AI in business",
-                "focus": "Practical AI applications"
-            },
-            {
-                "name": "Simon Willison",
-                "title": "LLM Tools Builder",
-                "expertise": ["LLM tooling", "prompt engineering", "AI security"],
-                "background": "Datasette creator, LLM writing expert",
-                "focus": "LLM tools and best practices"
-            },
-            {
-                "name": "Riley Goodside",
-                "title": "Prompt Engineering Pioneer",
-                "expertise": ["prompt engineering", "LLM capabilities", "AI interaction"],
-                "background": "First 'Prompt Engineer' at Scale AI",
-                "focus": "Prompt design and LLM interaction"
+                "name": "Peter McKinnon",
+                "title": "Photography & Video Creator",
+                "expertise": ["media download", "asset management", "workflow optimization"],
+                "background": "Professional photographer and YouTuber",
+                "focus": "media download"
             }
-        ]
+        ],
+        "test_design_philosophy": "Download reliability, format support, and quality preservation"
     },
-    "creative": {
-        "panel_name": "Creative Design Expert Panel",
-        "description": "Creative design, visual arts, and brand specialists",
+
+    # Sales Subcategories
+    "sales-outreach": {
+        "panel_name": "Sales Outreach Panel",
+        "parent": "sales",
+        "experts": [
+            {
+                "name": "Aaron Ross",
+                "title": "Predictable Revenue Author",
+                "expertise": ["cold email", "outbound sequences", "prospecting"],
+                "background": "'Predictable Revenue' and 'Predictable Success' author",
+                "focus": "cold email"
+            },
+            {
+                "name": "Jill Konrath",
+                "title": "Sales Strategy Expert",
+                "expertise": ["sales messaging", "value propositions", "buyer engagement"],
+                "background": "'Selling to Big Companies' and 'SNAP Selling' author",
+                "focus": "sales messaging"
+            }
+        ],
+        "test_design_philosophy": "Message relevance, personalization quality, and call-to-action effectiveness"
+    },
+
+    "sales-enablement": {
+        "panel_name": "Sales Enablement Panel",
+        "parent": "sales",
+        "experts": [
+            {
+                "name": "Mark Roberge",
+                "title": "Revenue Operations Expert",
+                "expertise": ["sales enablement", "RevOps", "sales methodology"],
+                "background": "Former HubSpot CRO, 'The Sales Acceleration Formula' author",
+                "focus": "sales enablement"
+            }
+        ],
+        "test_design_philosophy": "Enablement effectiveness, process optimization, and metric tracking"
+    },
+
+    # Business Subcategories
+    "business-strategy": {
+        "panel_name": "Business Strategy Panel",
+        "parent": "business",
+        "experts": [
+            {
+                "name": "Michael Porter",
+                "title": "Competitive Strategy Authority",
+                "expertise": ["competitive analysis", "strategic positioning", "value chains"],
+                "background": "Harvard Business School Professor, 'Competitive Strategy' author",
+                "focus": "competitive analysis"
+            },
+            {
+                "name": "Reid Hoffman",
+                "title": "Network Effects Expert",
+                "expertise": ["platform strategy", "network effects", "scaling"],
+                "background": "LinkedIn co-founder, Greylock Partners",
+                "focus": "platform strategy"
+            }
+        ],
+        "test_design_philosophy": "Strategic clarity, competitive insight, and execution feasibility"
+    },
+
+    "business-finance": {
+        "panel_name": "Financial Strategy Panel",
+        "parent": "business",
+        "experts": [
+            {
+                "name": "Ben Horowitz",
+                "title": "Tech Industry Investor",
+                "expertise": ["financial planning", "unit economics", "fundraising"],
+                "background": "Andreessen Horowitz co-founder, 'The Hard Thing About Hard Things' author",
+                "focus": "financial planning"
+            }
+        ],
+        "test_design_philosophy": "Financial rigor, unit economics clarity, and scenario planning"
+    },
+
+    # Compliance Subcategories
+    "compliance-ra": {
+        "panel_name": "Regulatory Affairs Panel",
+        "parent": "compliance",
+        "experts": [
+            {
+                "name": "Dr. Janet Woodcock",
+                "title": "FDA Former Director",
+                "expertise": ["FDA submissions", "drug approval", "regulatory strategy"],
+                "background": "Former FDA CDER Director, 35+ years regulatory experience",
+                "focus": "FDA submissions"
+            },
+            {
+                "name": "Graham Law",
+                "title": "Medical Device RA Expert",
+                "expertise": ["MDR compliance", "CE marking", "technical documentation"],
+                "background": "EU MDR specialist, 20+ years RA experience",
+                "focus": "MDR compliance"
+            }
+        ],
+        "test_design_philosophy": "Regulatory compliance accuracy, documentation completeness, and submission readiness"
+    },
+
+    "compliance-qm": {
+        "panel_name": "Quality Management Panel",
+        "parent": "compliance",
+        "experts": [
+            {
+                "name": "Trevor Hughes",
+                "title": "Privacy & Quality Expert",
+                "expertise": ["QMS implementation", "ISO audits", "quality systems"],
+                "background": "IAPP CEO, quality management specialist",
+                "focus": "QMS implementation"
+            },
+            {
+                "name": "Dr. Steven Guttman",
+                "title": "Quality Systems Expert",
+                "expertise": ["ISO 13485", "CAPA", "risk management"],
+                "background": "Medical device quality consultant, 25+ years experience",
+                "focus": "ISO 13485"
+            }
+        ],
+        "test_design_philosophy": "QMS compliance, audit readiness, and continuous improvement"
+    },
+
+    "compliance-security": {
+        "panel_name": "Security Compliance Panel",
+        "parent": "compliance",
+        "experts": [
+            {
+                "name": "Dr. Janet Woodcock",
+                "title": "Regulatory Expert",
+                "expertise": ["data privacy", "security compliance", "risk assessment"],
+                "background": "Former FDA Director",
+                "focus": "data privacy"
+            }
+        ],
+        "test_design_philosophy": "Security control effectiveness, privacy compliance, and risk mitigation"
+    },
+
+    # Creative Subcategories
+    "creative-visual": {
+        "panel_name": "Visual Design Panel",
+        "parent": "creative",
         "experts": [
             {
                 "name": "Stefan Sagmeister",
                 "title": "Design Legend",
-                "expertise": ["brand identity", "visual design", "creative direction"],
-                "background": "Sagmeister & Walsh cofounder, Grammy-winning designer",
-                "focus": "Creative direction and brand design"
+                "expertise": ["visual design", "branding", "creative direction"],
+                "background": "Sagmeister & Walsh co-founder, Grammy winner",
+                "focus": "visual design"
             },
             {
                 "name": "Jessica Hische",
                 "title": "Lettering Artist",
-                "expertise": ["typography", "lettering", "brand design"],
-                "background": "Internationally acclaimed lettering artist and author",
-                "focus": "Typography and visual craft"
-            },
+                "expertise": ["typography", "lettering", "visual identity"],
+                "background": "Renowned lettering artist and author",
+                "focus": "typography"
+            }
+        ],
+        "test_design_philosophy": "Visual impact, design coherence, and creative originality"
+    },
+
+    "creative-brainstorm": {
+        "panel_name": "Creative Ideation Panel",
+        "parent": "creative",
+        "experts": [
             {
                 "name": "Aaron Draplin",
-                "title": "Design Pragmatist",
-                "expertise": ["logo design", "brand systems", "design business"],
-                "background": "Draplin Design Co. founder, Field Notes cofounder",
-                "focus": "Practical design and brand systems"
+                "title": "Logo Design Expert",
+                "expertise": ["brainstorming", "ideation", "design thinking"],
+                "background": "Draplin Design Co. founder, logo design authority",
+                "focus": "brainstorming"
             }
-        ]
+        ],
+        "test_design_philosophy": "Idea diversity, creative connections, and practical applicability"
     },
-    "business": {
-        "panel_name": "Business Strategy Expert Panel",
-        "description": "Business strategy, finance, and operations specialists",
-        "experts": [
-            {
-                "name": "Michael Porter",
-                "title": "Strategy Authority",
-                "expertise": ["competitive strategy", "industry analysis", "strategic positioning"],
-                "background": "Harvard Business School professor, strategy thought leader",
-                "focus": "Strategic framework and positioning"
-            },
-            {
-                "name": "Reid Hoffman",
-                "title": "Scaling Expert",
-                "expertise": ["scaling strategy", "network effects", "business models"],
-                "background": "LinkedIn cofounder, Greylock partner",
-                "focus": "Scaling and network-based strategy"
-            },
-            {
-                "name": "Ben Horowitz",
-                "title": "CEO Advisor",
-                "expertise": ["CEO leadership", "company building", "crisis management"],
-                "background": "a16z cofounder, author of The Hard Thing About Hard Things",
-                "focus": "Leadership and organizational challenges"
-            }
-        ]
-    },
-    "compliance": {
-        "panel_name": "Compliance Expert Panel",
-        "description": "Regulatory compliance, quality management, and risk specialists",
-        "experts": [
-            {
-                "name": "Dr. Janet Woodcock",
-                "title": "FDA Regulatory Expert",
-                "expertise": ["FDA compliance", "drug approval", "regulatory strategy"],
-                "background": "Former FDA CDER Director, 40+ years regulatory experience",
-                "focus": "FDA regulatory framework"
-            },
-            {
-                "name": "Graham Law",
-                "title": "ISO Standards Expert",
-                "expertise": ["ISO 13485", "ISO 27001", "quality management systems"],
-                "background": "Lead auditor for multiple ISO standards",
-                "focus": "ISO compliance and QMS"
-            },
-            {
-                "name": "J. Trevor Hughes",
-                "title": "Privacy Leadership",
-                "expertise": ["GDPR", "data privacy", "privacy compliance"],
-                "background": "IAPP CEO, privacy industry leader",
-                "focus": "Privacy regulations and compliance"
-            },
-            {
-                "name": "Dr. Steven Guttman",
-                "title": "Risk Management Expert",
-                "expertise": ["enterprise risk", "risk assessment", "compliance programs"],
-                "background": "Former federal regulator, compliance consultant",
-                "focus": "Risk management frameworks"
-            }
-        ]
-    },
+
+    # Other/Uncategorized
     "other": {
-        "panel_name": "General Assessment Panel",
-        "description": "Cross-domain experts for uncategorized skills",
+        "panel_name": "General Capabilities Panel",
+        "parent": "other",
         "experts": [
             {
-                "name": "Dr. Barbara Minto",
-                "title": "Communication Expert",
-                "expertise": ["structured thinking", "communication", "problem solving"],
-                "background": "McKinsey consultant, Pyramid Principle creator",
-                "focus": "Structured analysis and communication"
-            },
-            {
-                "name": "Charlie Munger",
-                "title": "Mental Models Master",
-                "expertise": ["decision making", "mental models", "multidisciplinary thinking"],
-                "background": "Berkshire Hathaway Vice Chairman, polymath investor",
-                "focus": "Multidisciplinary analysis"
-            },
-            {
-                "name": "Dr. Daniel Kahneman",
-                "title": "Behavioral Science Legend",
-                "expertise": ["judgment", "decision science", "cognitive bias"],
-                "background": "Nobel laureate, Thinking Fast and Slow author",
-                "focus": "Cognitive factors in skill evaluation"
+                "name": "General AI Assistant",
+                "title": "Versatile Problem Solver",
+                "expertise": ["general knowledge", "task completion", "adaptability"],
+                "background": "Trained on diverse knowledge base",
+                "focus": "general knowledge"
             }
-        ]
+        ],
+        "test_design_philosophy": "Task completion effectiveness, response quality, and adaptability"
     }
 }
 
 
-def get_expert_panel(category: str) -> dict:
-    """Get expert panel for a category."""
-    return EXPERT_PANELS.get(category, EXPERT_PANELS["other"])
+def get_expert_panel(subcategory_key: str) -> Dict:
+    """Get expert panel for a subcategory."""
+    return EXPERT_PANELS.get(subcategory_key, EXPERT_PANELS["other"])
 
 
-def get_all_panels() -> dict:
-    """Get all expert panels."""
-    return EXPERT_PANELS
+def get_expert_by_name(expert_name: str) -> Dict:
+    """Find expert by name across all panels."""
+    for panel_key, panel_data in EXPERT_PANELS.items():
+        for expert in panel_data.get("experts", []):
+            if expert["name"].lower() == expert_name.lower():
+                return {**expert, "panel": panel_key}
+    return None
+
+
+def get_all_experts() -> list:
+    """Get all experts across all panels."""
+    all_experts = []
+    for panel_key, panel_data in EXPERT_PANELS.items():
+        for expert in panel_data.get("experts", []):
+            all_experts.append({**expert, "panel": panel_key})
+    return all_experts
 
 
 def format_expert_panel_for_prompt(category: str) -> str:
@@ -534,14 +830,13 @@ def format_expert_panel_for_prompt(category: str) -> str:
     panel = get_expert_panel(category)
 
     output = [f"# {panel['panel_name']}"]
-    output.append(f"*{panel['description']}*\n")
+    output.append(f"Test Design Focus: {panel.get('test_design_philosophy', 'Domain-specific test coverage')}\n")
 
     for expert in panel["experts"]:
         output.append(f"## {expert['name']}")
         output.append(f"**{expert['title']}**")
         output.append(f"- Expertise: {', '.join(expert['expertise'])}")
         output.append(f"- Background: {expert['background']}")
-        output.append(f"- Focus: {expert['focus']}")
         output.append("")
 
     return "\n".join(output)
