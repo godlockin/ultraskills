@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.2.21",
-    "updated_at": "2026-03-10",
+    "version": "1.2.22",
+    "updated_at": "2026-03-11",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-03-09"
   },
@@ -2485,6 +2485,922 @@
       "recommended_for": [
         "data-analysis-related-tasks"
       ]
+    },
+    {
+      "id": "planning-with-files",
+      "name": "planning-with-files",
+      "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
+      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md.",
+      "tags": [
+        "planning",
+        "workflow",
+        "project-management",
+        "productivity"
+      ],
+      "arena": {
+        "rank": 17,
+        "category": "eng-devops",
+        "score": 56.25,
+        "scores": {
+          "speed": 30.0,
+          "quality": 10.25,
+          "maintainability": 16.0,
+          "total": 56.25
+        },
+        "is_winner": false,
+        "test_date": "2026-03-09",
+        "test_version": "1.0.0"
+      },
+      "priority": 3,
+      "recommended_for": [
+        "eng-devops-related-tasks"
+      ]
+    },
+    {
+      "id": "claude-frontend-design",
+      "name": "Claude Frontend Design",
+      "path": "./external/claude-code-official/plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "description": "Official Claude Code skill for creating distinctive, production-grade frontend interfaces. Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "tags": [
+        "official",
+        "frontend",
+        "web",
+        "design",
+        "ui",
+        "react",
+        "css"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "agent-development",
+      "name": "Agent Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+      "description": "Official Claude Code skill for building Claude Code agents. Covers agent architecture, state management, tool definitions, and best practices.",
+      "tags": [
+        "official",
+        "claude-code",
+        "agent",
+        "development"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "command-development",
+      "name": "Command Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/command-development/SKILL.md",
+      "description": "Official Claude Code skill for creating slash commands. Covers command structure, argument parsing, and user invocation patterns.",
+      "tags": [
+        "official",
+        "claude-code",
+        "command",
+        "cli"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "hook-development",
+      "name": "Hook Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+      "description": "Official Claude Code skill for creating hooks. Covers hook types, pattern matching, and lifecycle events.",
+      "tags": [
+        "official",
+        "claude-code",
+        "hooks",
+        "events"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "mcp-integration",
+      "name": "MCP Integration",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "description": "Official Claude Code skill for integrating with MCP (Model Context Protocol) servers. Covers server setup, tool exposure, and resource handling.",
+      "tags": [
+        "official",
+        "claude-code",
+        "mcp",
+        "integration"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "plugin-settings",
+      "name": "Plugin Settings",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+      "description": "Official Claude Code skill for configuring plugin settings. Covers settings schema, validation, and user preferences.",
+      "tags": [
+        "official",
+        "claude-code",
+        "settings",
+        "configuration"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "plugin-structure",
+      "name": "Plugin Structure",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+      "description": "Official Claude Code skill for understanding plugin structure. Covers directory layouts, required files, and plugin manifest.",
+      "tags": [
+        "official",
+        "claude-code",
+        "structure",
+        "architecture"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "skill-development",
+      "name": "Skill Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/skill-development/SKILL.md",
+      "description": "Official Claude Code skill for creating skills. Covers skill structure, YAML frontmatter, examples, and best practices.",
+      "tags": [
+        "official",
+        "claude-code",
+        "skill",
+        "development"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "claude-opus-4-5-migration",
+      "name": "Claude Opus 4->5 Migration",
+      "path": "./external/claude-code-official/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md",
+      "description": "Official Claude Code skill for migrating from Opus 4 to Opus 5. Covers API changes, breaking changes, and migration patterns.",
+      "tags": [
+        "official",
+        "claude-code",
+        "migration",
+        "upgrade"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "writing-rules",
+      "name": "Writing Hook Rules",
+      "path": "./external/claude-code-official/plugins/hookify/skills/writing-rules/SKILL.md",
+      "description": "Official Claude Code skill for writing hook rules. Covers rule patterns, matchers, and action types.",
+      "tags": [
+        "official",
+        "claude-code",
+        "hooks",
+        "rules"
+      ],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "claude-automation-recommender",
+      "name": "Claude Automation Recommender",
+      "path": "./external/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/SKILL.md",
+      "description": "Recommends automation opportunities in your project.",
+      "tags": [
+        "official",
+        "automation",
+        "claude-code"
+      ],
+      "source": "submodule:claude-plugins-official"
+    },
+    {
+      "id": "claude-md-improver",
+      "name": "Claude Md Improver",
+      "path": "./external/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+      "description": "Improves markdown files with better formatting and structure.",
+      "tags": [
+        "official",
+        "markdown",
+        "claude-code"
+      ],
+      "source": "submodule:claude-plugins-official"
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "path": "./external/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
+      "description": "Interactive playground for testing Claude Code features.",
+      "tags": [
+        "official",
+        "testing",
+        "claude-code"
+      ],
+      "source": "submodule:claude-plugins-official"
+    },
+    {
+      "id": "example-skill",
+      "name": "Example Skill",
+      "path": "./external/claude-plugins-official/plugins/example-plugin/skills/example-skill/SKILL.md",
+      "description": "Example skill demonstrating skill structure and best practices.",
+      "tags": [
+        "official",
+        "example",
+        "claude-code"
+      ],
+      "source": "submodule:claude-plugins-official"
+    },
+    {
+      "id": "stripe-best-practices",
+      "name": "Stripe Best Practices",
+      "path": "./external/claude-plugins-official/external_plugins/stripe/skills/stripe-best-practices/SKILL.md",
+      "description": "Stripe integration best practices and patterns.",
+      "tags": [
+        "official",
+        "stripe",
+        "payments"
+      ],
+      "source": "submodule:claude-plugins-official"
+    },
+    {
+      "id": "nextjs-developer",
+      "name": "Nextjs Developer",
+      "path": "./external/fullstack-dev-skills/skills/nextjs-developer/SKILL.md",
+      "description": "Fullstack skill: nextjs-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "database-optimizer",
+      "name": "Database Optimizer",
+      "path": "./external/fullstack-dev-skills/skills/database-optimizer/SKILL.md",
+      "description": "Fullstack skill: database-optimizer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "fullstack-guardian",
+      "name": "Fullstack Guardian",
+      "path": "./external/fullstack-dev-skills/skills/fullstack-guardian/SKILL.md",
+      "description": "Fullstack skill: fullstack-guardian",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "spark-engineer",
+      "name": "Spark Engineer",
+      "path": "./external/fullstack-dev-skills/skills/spark-engineer/SKILL.md",
+      "description": "Fullstack skill: spark-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "fine-tuning-expert",
+      "name": "Fine Tuning Expert",
+      "path": "./external/fullstack-dev-skills/skills/fine-tuning-expert/SKILL.md",
+      "description": "Fullstack skill: fine-tuning-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "wordpress-pro",
+      "name": "Wordpress Pro",
+      "path": "./external/fullstack-dev-skills/skills/wordpress-pro/SKILL.md",
+      "description": "Fullstack skill: wordpress-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "code-documenter",
+      "name": "Code Documenter",
+      "path": "./external/fullstack-dev-skills/skills/code-documenter/SKILL.md",
+      "description": "Fullstack skill: code-documenter",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "microservices-architect",
+      "name": "Microservices Architect",
+      "path": "./external/fullstack-dev-skills/skills/microservices-architect/SKILL.md",
+      "description": "Fullstack skill: microservices-architect",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "kotlin-specialist",
+      "name": "Kotlin Specialist",
+      "path": "./external/fullstack-dev-skills/skills/kotlin-specialist/SKILL.md",
+      "description": "Fullstack skill: kotlin-specialist",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "spec-miner",
+      "name": "Spec Miner",
+      "path": "./external/fullstack-dev-skills/skills/spec-miner/SKILL.md",
+      "description": "Fullstack skill: spec-miner",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "fastapi-expert",
+      "name": "Fastapi Expert",
+      "path": "./external/fullstack-dev-skills/skills/fastapi-expert/SKILL.md",
+      "description": "Fullstack skill: fastapi-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "atlassian-mcp",
+      "name": "Atlassian Mcp",
+      "path": "./external/fullstack-dev-skills/skills/atlassian-mcp/SKILL.md",
+      "description": "Fullstack skill: atlassian-mcp",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "golang-pro",
+      "name": "Golang Pro",
+      "path": "./external/fullstack-dev-skills/skills/golang-pro/SKILL.md",
+      "description": "Fullstack skill: golang-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "shopify-expert",
+      "name": "Shopify Expert",
+      "path": "./external/fullstack-dev-skills/skills/shopify-expert/SKILL.md",
+      "description": "Fullstack skill: shopify-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "cli-developer",
+      "name": "Cli Developer",
+      "path": "./external/fullstack-dev-skills/skills/cli-developer/SKILL.md",
+      "description": "Fullstack skill: cli-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "salesforce-developer",
+      "name": "Salesforce Developer",
+      "path": "./external/fullstack-dev-skills/skills/salesforce-developer/SKILL.md",
+      "description": "Fullstack skill: salesforce-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "dotnet-core-expert",
+      "name": "Dotnet Core Expert",
+      "path": "./external/fullstack-dev-skills/skills/dotnet-core-expert/SKILL.md",
+      "description": "Fullstack skill: dotnet-core-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "monitoring-expert",
+      "name": "Monitoring Expert",
+      "path": "./external/fullstack-dev-skills/skills/monitoring-expert/SKILL.md",
+      "description": "Fullstack skill: monitoring-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "vue-expert-js",
+      "name": "Vue Expert Js",
+      "path": "./external/fullstack-dev-skills/skills/vue-expert-js/SKILL.md",
+      "description": "Fullstack skill: vue-expert-js",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "swift-expert",
+      "name": "Swift Expert",
+      "path": "./external/fullstack-dev-skills/skills/swift-expert/SKILL.md",
+      "description": "Fullstack skill: swift-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "embedded-systems",
+      "name": "Embedded Systems",
+      "path": "./external/fullstack-dev-skills/skills/embedded-systems/SKILL.md",
+      "description": "Fullstack skill: embedded-systems",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "rust-engineer",
+      "name": "Rust Engineer",
+      "path": "./external/fullstack-dev-skills/skills/rust-engineer/SKILL.md",
+      "description": "Fullstack skill: rust-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "legacy-modernizer",
+      "name": "Legacy Modernizer",
+      "path": "./external/fullstack-dev-skills/skills/legacy-modernizer/SKILL.md",
+      "description": "Fullstack skill: legacy-modernizer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "devops-engineer",
+      "name": "Devops Engineer",
+      "path": "./external/fullstack-dev-skills/skills/devops-engineer/SKILL.md",
+      "description": "Fullstack skill: devops-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "api-designer",
+      "name": "Api Designer",
+      "path": "./external/fullstack-dev-skills/skills/api-designer/SKILL.md",
+      "description": "Fullstack skill: api-designer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "sre-engineer",
+      "name": "Sre Engineer",
+      "path": "./external/fullstack-dev-skills/skills/sre-engineer/SKILL.md",
+      "description": "Fullstack skill: sre-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "debugging-wizard",
+      "name": "Debugging Wizard",
+      "path": "./external/fullstack-dev-skills/skills/debugging-wizard/SKILL.md",
+      "description": "Fullstack skill: debugging-wizard",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "angular-architect",
+      "name": "Angular Architect",
+      "path": "./external/fullstack-dev-skills/skills/angular-architect/SKILL.md",
+      "description": "Fullstack skill: angular-architect",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "typescript-pro",
+      "name": "Typescript Pro",
+      "path": "./external/fullstack-dev-skills/skills/typescript-pro/SKILL.md",
+      "description": "Fullstack skill: typescript-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "php-pro",
+      "name": "Php Pro",
+      "path": "./external/fullstack-dev-skills/skills/php-pro/SKILL.md",
+      "description": "Fullstack skill: php-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "test-master",
+      "name": "Test Master",
+      "path": "./external/fullstack-dev-skills/skills/test-master/SKILL.md",
+      "description": "Fullstack skill: test-master",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "django-expert",
+      "name": "Django Expert",
+      "path": "./external/fullstack-dev-skills/skills/django-expert/SKILL.md",
+      "description": "Fullstack skill: django-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "nestjs-expert",
+      "name": "Nestjs Expert",
+      "path": "./external/fullstack-dev-skills/skills/nestjs-expert/SKILL.md",
+      "description": "Fullstack skill: nestjs-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "secure-code-guardian",
+      "name": "Secure Code Guardian",
+      "path": "./external/fullstack-dev-skills/skills/secure-code-guardian/SKILL.md",
+      "description": "Fullstack skill: secure-code-guardian",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "java-architect",
+      "name": "Java Architect",
+      "path": "./external/fullstack-dev-skills/skills/java-architect/SKILL.md",
+      "description": "Fullstack skill: java-architect",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "pandas-pro",
+      "name": "Pandas Pro",
+      "path": "./external/fullstack-dev-skills/skills/pandas-pro/SKILL.md",
+      "description": "Fullstack skill: pandas-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "cpp-pro",
+      "name": "Cpp Pro",
+      "path": "./external/fullstack-dev-skills/skills/cpp-pro/SKILL.md",
+      "description": "Fullstack skill: cpp-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "kubernetes-specialist",
+      "name": "Kubernetes Specialist",
+      "path": "./external/fullstack-dev-skills/skills/kubernetes-specialist/SKILL.md",
+      "description": "Fullstack skill: kubernetes-specialist",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "laravel-specialist",
+      "name": "Laravel Specialist",
+      "path": "./external/fullstack-dev-skills/skills/laravel-specialist/SKILL.md",
+      "description": "Fullstack skill: laravel-specialist",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "python-pro",
+      "name": "Python Pro",
+      "path": "./external/fullstack-dev-skills/skills/python-pro/SKILL.md",
+      "description": "Fullstack skill: python-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "spring-boot-engineer",
+      "name": "Spring Boot Engineer",
+      "path": "./external/fullstack-dev-skills/skills/spring-boot-engineer/SKILL.md",
+      "description": "Fullstack skill: spring-boot-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "architecture-designer",
+      "name": "Architecture Designer",
+      "path": "./external/fullstack-dev-skills/skills/architecture-designer/SKILL.md",
+      "description": "Fullstack skill: architecture-designer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "ml-pipeline",
+      "name": "Ml Pipeline",
+      "path": "./external/fullstack-dev-skills/skills/ml-pipeline/SKILL.md",
+      "description": "Fullstack skill: ml-pipeline",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "terraform-engineer",
+      "name": "Terraform Engineer",
+      "path": "./external/fullstack-dev-skills/skills/terraform-engineer/SKILL.md",
+      "description": "Fullstack skill: terraform-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "rails-expert",
+      "name": "Rails Expert",
+      "path": "./external/fullstack-dev-skills/skills/rails-expert/SKILL.md",
+      "description": "Fullstack skill: rails-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "react-native-expert",
+      "name": "React Native Expert",
+      "path": "./external/fullstack-dev-skills/skills/react-native-expert/SKILL.md",
+      "description": "Fullstack skill: react-native-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "csharp-developer",
+      "name": "Csharp Developer",
+      "path": "./external/fullstack-dev-skills/skills/csharp-developer/SKILL.md",
+      "description": "Fullstack skill: csharp-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "graphql-architect",
+      "name": "Graphql Architect",
+      "path": "./external/fullstack-dev-skills/skills/graphql-architect/SKILL.md",
+      "description": "Fullstack skill: graphql-architect",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "chaos-engineer",
+      "name": "Chaos Engineer",
+      "path": "./external/fullstack-dev-skills/skills/chaos-engineer/SKILL.md",
+      "description": "Fullstack skill: chaos-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "vue-expert",
+      "name": "Vue Expert",
+      "path": "./external/fullstack-dev-skills/skills/vue-expert/SKILL.md",
+      "description": "Fullstack skill: vue-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "react-expert",
+      "name": "React Expert",
+      "path": "./external/fullstack-dev-skills/skills/react-expert/SKILL.md",
+      "description": "Fullstack skill: react-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "playwright-expert",
+      "name": "Playwright Expert",
+      "path": "./external/fullstack-dev-skills/skills/playwright-expert/SKILL.md",
+      "description": "Fullstack skill: playwright-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "game-developer",
+      "name": "Game Developer",
+      "path": "./external/fullstack-dev-skills/skills/game-developer/SKILL.md",
+      "description": "Fullstack skill: game-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "the-fool",
+      "name": "The Fool",
+      "path": "./external/fullstack-dev-skills/skills/the-fool/SKILL.md",
+      "description": "Fullstack skill: the-fool",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "javascript-pro",
+      "name": "Javascript Pro",
+      "path": "./external/fullstack-dev-skills/skills/javascript-pro/SKILL.md",
+      "description": "Fullstack skill: javascript-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "mcp-developer",
+      "name": "Mcp Developer",
+      "path": "./external/fullstack-dev-skills/skills/mcp-developer/SKILL.md",
+      "description": "Fullstack skill: mcp-developer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "feature-forge",
+      "name": "Feature Forge",
+      "path": "./external/fullstack-dev-skills/skills/feature-forge/SKILL.md",
+      "description": "Fullstack skill: feature-forge",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "postgres-pro",
+      "name": "Postgres Pro",
+      "path": "./external/fullstack-dev-skills/skills/postgres-pro/SKILL.md",
+      "description": "Fullstack skill: postgres-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "sql-pro",
+      "name": "Sql Pro",
+      "path": "./external/fullstack-dev-skills/skills/sql-pro/SKILL.md",
+      "description": "Fullstack skill: sql-pro",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "security-reviewer",
+      "name": "Security Reviewer",
+      "path": "./external/fullstack-dev-skills/skills/security-reviewer/SKILL.md",
+      "description": "Fullstack skill: security-reviewer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "cloud-architect",
+      "name": "Cloud Architect",
+      "path": "./external/fullstack-dev-skills/skills/cloud-architect/SKILL.md",
+      "description": "Fullstack skill: cloud-architect",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "flutter-expert",
+      "name": "Flutter Expert",
+      "path": "./external/fullstack-dev-skills/skills/flutter-expert/SKILL.md",
+      "description": "Fullstack skill: flutter-expert",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
+    },
+    {
+      "id": "websocket-engineer",
+      "name": "Websocket Engineer",
+      "path": "./external/fullstack-dev-skills/skills/websocket-engineer/SKILL.md",
+      "description": "Fullstack skill: websocket-engineer",
+      "tags": [
+        "fullstack",
+        "development"
+      ],
+      "source": "submodule:fullstack-dev-skills"
     },
     {
       "id": "剪口播",
@@ -13345,32 +14261,6 @@
       "priority": 3,
       "recommended_for": [
         "agent-tool-related-tasks"
-      ]
-    },
-    {
-      "id": "planning-with-files",
-      "name": "planning-with-files",
-      "path": "external/planning-with-files/skills/planning-with-files",
-      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
-      "tags": [],
-      "source": "submodule:planning-with-files",
-      "arena": {
-        "rank": 17,
-        "category": "eng-devops",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
       ]
     }
   ]

@@ -70,6 +70,10 @@ class SkillInvoker:
                 result = self._invoke_anthropic(system_prompt, user_message)
             elif self.provider == "openai":
                 result = self._invoke_openai(system_prompt, user_message)
+            elif self.provider == "google":
+                result = self._invoke_google(system_prompt, user_message)
+            elif self.provider == "azure":
+                result = self._invoke_azure(system_prompt, user_message)
             else:
                 result = self._invoke_anthropic(system_prompt, user_message)  # Default
 
@@ -214,6 +218,140 @@ Apply your methodology systematically and provide actionable insights."""
 
         response = requests.post(
             f"{self.base_url}/chat/completions",
+            headers=headers,
+            json=payload,
+            timeout=120
+        )
+        response.raise_for_status()
+
+        result = response.json()
+        choice = result.get("choices", [{}])[0]
+        return {
+            "content": choice.get("message", {}).get("content", ""),
+            "usage": result.get("usage", {}),
+            "model": result.get("model", self.model)
+        }
+
+    def _invoke_google(self, system_prompt: str, user_message: str) -> Dict:
+        """Invoke Google Vertex AI API."""
+        import requests
+
+        # Get access token from service account
+        import google.auth
+        import google.auth.transport.requests
+
+        creds, project = google.auth.load_credentials_from_file(
+            os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+        )
+        auth_req = google.auth.transport.requests.Request()
+        creds.refresh(auth_req)
+        access_token = creds.token
+
+        # Get project ID from credentials
+        project_id = creds.project_id if creds.project_id else os.environ.get("GOOGLE_PROJECT_ID", "")
+
+        headers = {
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json"
+        }
+
+        # Map model name for Vertex AI
+        model_name = self.model
+        if "gemini" in model_name.lower():
+            # Use Gemini on Vertex AI
+            model_name = f"projects/{project_id}/locations/us-central1/publishers/google/models/{self.model}"
+
+        payload = {
+            "contents": [
+                {
+                    "role": "user",
+                    "parts": [{"text": f"System: {system_prompt}\n\nUser: {user_message}"}]
+                }
+            ],
+            "generationConfig": {
+                "maxOutputTokens": 4096,
+                "temperature": 1.0,
+                "topP": 0.95,
+                "topK": 40
+            }
+        }
+
+        response = requests.post(
+            f"{self.base_url}/chat/completions".replace("chat/completions", f"generateContent"),
+            headers=headers,
+            json=payload,
+            timeout=120
+        )
+
+        if response.status_code != 200:
+            # Fallback to standard Google API
+            headers["Content-Type"] = "application/json"
+            payload = {
+                "contents": [
+                    {
+                        "role": "user",
+                        "parts": [{"text": f"System: {system_prompt}\n\nUser: {user_message}"}]
+                    }
+                ],
+                "generationConfig": {
+                    "maxOutputTokens": 4096,
+                    "temperature": 1.0,
+                    "topP": 0.95,
+                    "topK": 40
+                }
+            }
+            response = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent",
+                headers=headers,
+                json=payload,
+                timeout=120
+            )
+
+        response.raise_for_status()
+        result = response.json()
+
+        content = ""
+        if "candidates" in result and len(result["candidates"]) > 0:
+            candidate = result["candidates"][0]
+            if "content" in candidate and "parts" in candidate["content"]:
+                content = candidate["content"]["parts"][0].get("text", "")
+
+        return {
+            "content": content,
+            "usage": {
+                "prompt_token_count": result.get("usageMetadata", {}).get("promptTokenCount", 0),
+                "candidates_token_count": result.get("usageMetadata", {}).get("candidatesTokenCount", 0),
+                "total_token_count": result.get("usageMetadata", {}).get("totalTokenCount", 0)
+            },
+            "model": self.model
+        }
+
+    def _invoke_azure(self, system_prompt: str, user_message: str) -> Dict:
+        """Invoke Azure OpenAI API."""
+        import requests
+
+        # Azure uses api-version in query params
+        api_version = os.environ.get("AZURE_OPENAI_API_VERSION", "2024-10-21")
+
+        headers = {
+            "api-key": self.api_key,
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message}
+            ],
+            "max_tokens": 4096,
+            "temperature": 1.0
+        }
+
+        base_url = self.base_url.replace("https://your-resource.openai.azure.com/openai",
+                                          os.environ.get("AZURE_OPENAI_ENDPOINT", "").rstrip("/"))
+
+        response = requests.post(
+            f"{base_url}/chat/completions?api-version={api_version}",
             headers=headers,
             json=payload,
             timeout=120

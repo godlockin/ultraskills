@@ -29,9 +29,15 @@ build/
 *.tmp
 .temp/
 
+# Credentials
+gcp-auth.json
+.env
+*.pem
+*.key
+
 # Skill Arena
-devops/skill-arena/test-suites/
 devops/skill-arena/reports/benchmark-report-*.md
+devops/skill-arena/test-suites/
 stats/
 *.db
 
@@ -45,6 +51,3 @@ skills-test-report.md
 # Auth and secrets
 auth/
 *.json
-.env
-*.pem
-*.key
