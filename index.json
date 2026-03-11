@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.2.21",
-    "updated_at": "2026-03-10",
+    "updated_at": "2026-03-11",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-03-09"
   },
@@ -2484,6 +2484,36 @@
       "priority": 2,
       "recommended_for": [
         "data-analysis-related-tasks"
+      ]
+    },
+    {
+      "id": "planning-with-files",
+      "name": "planning-with-files",
+      "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
+      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md.",
+      "tags": [
+        "planning",
+        "workflow",
+        "project-management",
+        "productivity"
+      ],
+      "arena": {
+        "rank": 17,
+        "category": "eng-devops",
+        "score": 56.25,
+        "scores": {
+          "speed": 30.0,
+          "quality": 10.25,
+          "maintainability": 16.0,
+          "total": 56.25
+        },
+        "is_winner": false,
+        "test_date": "2026-03-09",
+        "test_version": "1.0.0"
+      },
+      "priority": 3,
+      "recommended_for": [
+        "eng-devops-related-tasks"
       ]
     },
     {
@@ -13345,32 +13375,6 @@
       "priority": 3,
       "recommended_for": [
         "agent-tool-related-tasks"
-      ]
-    },
-    {
-      "id": "planning-with-files",
-      "name": "planning-with-files",
-      "path": "external/planning-with-files/skills/planning-with-files",
-      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
-      "tags": [],
-      "source": "submodule:planning-with-files",
-      "arena": {
-        "rank": 17,
-        "category": "eng-devops",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
       ]
     }
   ]

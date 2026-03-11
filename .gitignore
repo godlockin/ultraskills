@@ -28,3 +28,11 @@ build/
 # Temporary
 *.tmp
 .temp/
+
+# Credentials
+gcp-auth.json
+.env
+
+# Skill Arena
+devops/skill-arena/reports/
+devops/skill-arena/test-suites/

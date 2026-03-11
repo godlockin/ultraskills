@@ -25,6 +25,6 @@
 [submodule "external/claude-skills"]
 	path = external/claude-skills
 	url = https://github.com/alirezarezvani/claude-skills.git
-[submodule "external/planning-with-files"]
-	path = external/planning-with-files
+[submodule "community/planning-with-files"]
+	path = community/planning-with-files
 	url = https://github.com/OthmanAdi/planning-with-files.git
