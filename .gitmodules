@@ -28,3 +28,6 @@
 [submodule "community/planning-with-files"]
 	path = community/planning-with-files
 	url = https://github.com/OthmanAdi/planning-with-files.git
+[submodule "external/claude-code-official"]
+	path = external/claude-code-official
+	url = https://github.com/anthropics/claude-code.git

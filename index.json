@@ -2517,6 +2517,86 @@
       ]
     },
     {
+      "id": "claude-frontend-design",
+      "name": "Claude Frontend Design",
+      "path": "./external/claude-code-official/plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "description": "Official Claude Code skill for creating distinctive, production-grade frontend interfaces. Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "tags": ["official", "frontend", "web", "design", "ui", "react", "css"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "agent-development",
+      "name": "Agent Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+      "description": "Official Claude Code skill for building Claude Code agents. Covers agent architecture, state management, tool definitions, and best practices.",
+      "tags": ["official", "claude-code", "agent", "development"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "command-development",
+      "name": "Command Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/command-development/SKILL.md",
+      "description": "Official Claude Code skill for creating slash commands. Covers command structure, argument parsing, and user invocation patterns.",
+      "tags": ["official", "claude-code", "command", "cli"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "hook-development",
+      "name": "Hook Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+      "description": "Official Claude Code skill for creating hooks. Covers hook types, pattern matching, and lifecycle events.",
+      "tags": ["official", "claude-code", "hooks", "events"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "mcp-integration",
+      "name": "MCP Integration",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "description": "Official Claude Code skill for integrating with MCP (Model Context Protocol) servers. Covers server setup, tool exposure, and resource handling.",
+      "tags": ["official", "claude-code", "mcp", "integration"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "plugin-settings",
+      "name": "Plugin Settings",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+      "description": "Official Claude Code skill for configuring plugin settings. Covers settings schema, validation, and user preferences.",
+      "tags": ["official", "claude-code", "settings", "configuration"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "plugin-structure",
+      "name": "Plugin Structure",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+      "description": "Official Claude Code skill for understanding plugin structure. Covers directory layouts, required files, and plugin manifest.",
+      "tags": ["official", "claude-code", "structure", "architecture"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "skill-development",
+      "name": "Skill Development",
+      "path": "./external/claude-code-official/plugins/plugin-dev/skills/skill-development/SKILL.md",
+      "description": "Official Claude Code skill for creating skills. Covers skill structure, YAML frontmatter, examples, and best practices.",
+      "tags": ["official", "claude-code", "skill", "development"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "claude-opus-4-5-migration",
+      "name": "Claude Opus 4->5 Migration",
+      "path": "./external/claude-code-official/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md",
+      "description": "Official Claude Code skill for migrating from Opus 4 to Opus 5. Covers API changes, breaking changes, and migration patterns.",
+      "tags": ["official", "claude-code", "migration", "upgrade"],
+      "source": "submodule:claude-code-official"
+    },
+    {
+      "id": "writing-rules",
+      "name": "Writing Hook Rules",
+      "path": "./external/claude-code-official/plugins/hookify/skills/writing-rules/SKILL.md",
+      "description": "Official Claude Code skill for writing hook rules. Covers rule patterns, matchers, and action types.",
+      "tags": ["official", "claude-code", "hooks", "rules"],
+      "source": "submodule:claude-code-official"
+    },
+    {
       "id": "剪口播",
       "name": "videocut:剪口播",
       "path": "./community/剪口播/SKILL.md",
