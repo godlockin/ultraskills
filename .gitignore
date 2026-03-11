@@ -51,3 +51,4 @@ skills-test-report.md
 # Auth and secrets
 auth/
 *.json
+external/planning-with-files/
