@@ -28,3 +28,23 @@ build/
 # Temporary
 *.tmp
 .temp/
+
+# Skill Arena
+devops/skill-arena/test-suites/
+devops/skill-arena/reports/benchmark-report-*.md
+stats/
+*.db
+
+# Claude workspace
+.claude/
+
+# Skills documentation (generated/experimental)
+SKILLS-*.md
+skills-test-report.md
+
+# Auth and secrets
+auth/
+*.json
+.env
+*.pem
+*.key
