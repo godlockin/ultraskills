@@ -1,0 +1,140 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Funnel Analysis Panel",
+      "parent": "cro",
+      "experts": [
+        {
+          "name": "Dr. Emily Watson",
+          "title": "Behavioral Psychologist",
+          "expertise": [
+            "funnel psychology",
+            "drop-off analysis",
+            "commitment escalation"
+          ],
+          "background": "Franklin Foulter advisor, behavioral economics expert",
+          "focus": "funnel psychology"
+        },
+        {
+          "name": "James Park",
+          "title": "Data Science Lead",
+          "expertise": [
+            "funnel metrics",
+            "cohort analysis",
+            "LTV optimization"
+          ],
+          "background": "Former Booking.com",
+          "focus": "funnel metrics"
+        }
+      ],
+      "test_design_philosophy": "Drop-off point identification, psychological barrier analysis, and recovery strategies"
+    },
+    "category": "cro-funnel",
+    "skills": [
+      {
+        "id": "onboarding-cro",
+        "name": "onboarding-cro",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+        "tags": []
+      },
+      {
+        "id": "paywall-upgrade-cro",
+        "name": "paywall-upgrade-cro",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+        "tags": []
+      },
+      {
+        "id": "cs-onboard",
+        "name": "\"cs-onboard\"",
+        "description": "\"Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.\"",
+        "tags": []
+      },
+      {
+        "id": "onboarding-cro",
+        "name": "\"onboarding-cro\"",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+        "tags": []
+      },
+      {
+        "id": "paywall-upgrade-cro",
+        "name": "\"paywall-upgrade-cro\"",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
+        "tags": []
+      },
+      {
+        "id": "codebase-onboarding",
+        "name": "\"codebase-onboarding\"",
+        "description": "\"Codebase Onboarding\"",
+        "tags": []
+      },
+      {
+        "id": "cs-onboard",
+        "name": "\"cs-onboard\"",
+        "description": "\"Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.\"",
+        "tags": []
+      },
+      {
+        "id": "onboarding-cro",
+        "name": "\"onboarding-cro\"",
+        "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+        "tags": []
+      },
+      {
+        "id": "paywall-upgrade-cro",
+        "name": "\"paywall-upgrade-cro\"",
+        "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
+        "tags": []
+      },
+      {
+        "id": "codebase-onboarding",
+        "name": "\"codebase-onboarding\"",
+        "description": "\"Codebase Onboarding\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Cro-Funnel Task",
+      "description": "Evaluate skill performance on typical cro-funnel task",
+      "input": {
+        "type": "text",
+        "value": "Test input for cro-funnel"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Emily Watson",
+      "expert_focus": "funnel psychology",
+      "refinement_notes": [
+        "Reviewed by Dr. Emily Watson",
+        "Aligned with cro-funnel best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Emily Watson",
+          "James Park"
+        ],
+        "category": "cro-funnel",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

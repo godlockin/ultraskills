@@ -1,0 +1,108 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Tool Use & Integration Panel",
+      "parent": "agent",
+      "experts": [
+        {
+          "name": "Simon Willison",
+          "title": "Tool Building Expert",
+          "expertise": [
+            "MCP",
+            "function calling",
+            "API integration"
+          ],
+          "background": "Datasette creator, LLM tools researcher",
+          "focus": "MCP"
+        }
+      ],
+      "test_design_philosophy": "Tool selection accuracy, parameter handling, and error management"
+    },
+    "category": "agent-tool",
+    "skills": [
+      {
+        "id": "tool-design",
+        "name": "tool-design",
+        "description": "This skill should be used when the user asks to \"design agent tools\", \"create tool descriptions\", \"reduce tool complexity\", \"implement MCP tools\", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.",
+        "tags": [
+          "ai",
+          "agent",
+          "tool",
+          "design",
+          "mcp"
+        ]
+      },
+      {
+        "id": "using-superpowers",
+        "name": "using-superpowers",
+        "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+        "tags": [
+          "meta",
+          "skill-management",
+          "process"
+        ]
+      },
+      {
+        "id": "prompt-engineer-toolkit",
+        "name": "\"prompt-engineer-toolkit\"",
+        "description": "\"Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows. Use when the user wants to improve prompts for AI-assisted marketing, build prompt templates, or optimize AI content workflows. Also use when the user mentions 'prompt engineering,' 'improve my prompts,' 'AI writing quality,' 'prompt templates,' or 'AI content workflow.'\"",
+        "tags": []
+      },
+      {
+        "id": "prompt-engineer-toolkit",
+        "name": "\"prompt-engineer-toolkit\"",
+        "description": "\"Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows. Use when the user wants to improve prompts for AI-assisted marketing, build prompt templates, or optimize AI content workflows. Also use when the user mentions 'prompt engineering,' 'improve my prompts,' 'AI writing quality,' 'prompt templates,' or 'AI content workflow.'\"",
+        "tags": []
+      },
+      {
+        "id": "claude-api",
+        "name": "claude-api",
+        "description": "\"Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Agent-Tool Task",
+      "description": "Evaluate skill performance on typical agent-tool task",
+      "input": {
+        "type": "text",
+        "value": "Test input for agent-tool"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Simon Willison",
+      "expert_focus": "MCP",
+      "refinement_notes": [
+        "Reviewed by Simon Willison",
+        "Aligned with agent-tool best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Simon Willison"
+        ],
+        "category": "agent-tool",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

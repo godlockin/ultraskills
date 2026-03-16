@@ -1,0 +1,114 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Document Processing Panel",
+      "parent": "data",
+      "experts": [
+        {
+          "name": "Benn Stancil",
+          "title": "Data Analytics Expert",
+          "expertise": [
+            "document parsing",
+            "data extraction",
+            "format conversion"
+          ],
+          "background": "Mode Analytics co-founder, Chief Analytics Officer",
+          "focus": "document parsing"
+        }
+      ],
+      "test_design_philosophy": "Parsing accuracy, data integrity, and format compatibility"
+    },
+    "category": "data-docs",
+    "skills": [
+      {
+        "id": "docx",
+        "name": "docx",
+        "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+        "tags": [
+          "document",
+          "office",
+          "word",
+          "editing",
+          "productivity"
+        ]
+      },
+      {
+        "id": "internal-comms",
+        "name": "internal-comms",
+        "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+        "tags": [
+          "writing",
+          "communications",
+          "corporate",
+          "documentation"
+        ]
+      },
+      {
+        "id": "pdf",
+        "name": "pdf",
+        "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+        "tags": [
+          "document",
+          "pdf",
+          "productivity",
+          "extraction",
+          "forms"
+        ]
+      },
+      {
+        "id": "pptx",
+        "name": "pptx",
+        "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks\"",
+        "tags": [
+          "document",
+          "presentation",
+          "office",
+          "productivity"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Data-Docs Task",
+      "description": "Evaluate skill performance on typical data-docs task",
+      "input": {
+        "type": "text",
+        "value": "Test input for data-docs"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Benn Stancil",
+      "expert_focus": "document parsing",
+      "refinement_notes": [
+        "Reviewed by Benn Stancil",
+        "Aligned with data-docs best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Benn Stancil"
+        ],
+        "category": "data-docs",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

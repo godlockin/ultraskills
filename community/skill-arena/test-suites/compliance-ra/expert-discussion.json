@@ -1,0 +1,364 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Regulatory Affairs Panel",
+      "parent": "compliance",
+      "experts": [
+        {
+          "name": "Dr. Janet Woodcock",
+          "title": "FDA Former Director",
+          "expertise": [
+            "FDA submissions",
+            "drug approval",
+            "regulatory strategy"
+          ],
+          "background": "Former FDA CDER Director, 35+ years regulatory experience",
+          "focus": "FDA submissions"
+        },
+        {
+          "name": "Graham Law",
+          "title": "Medical Device RA Expert",
+          "expertise": [
+            "MDR compliance",
+            "CE marking",
+            "technical documentation"
+          ],
+          "background": "EU MDR specialist, 20+ years RA experience",
+          "focus": "MDR compliance"
+        }
+      ],
+      "test_design_philosophy": "Regulatory compliance accuracy, documentation completeness, and submission readiness"
+    },
+    "category": "compliance-ra",
+    "skills": [
+      {
+        "id": "algorithmic-art",
+        "name": "algorithmic-art",
+        "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+        "tags": [
+          "creative",
+          "generative",
+          "art",
+          "p5js",
+          "code"
+        ]
+      },
+      {
+        "id": "reasoning-trace-optimizer",
+        "name": "reasoning-trace-optimizer",
+        "description": "\"Debug and optimize AI agents by analyzing reasoning traces. Activates on 'debug agent', 'optimize prompt', 'analyze reasoning', 'why did the agent fail', 'improve agent performance', or when diagnosing agent failures and context degradation.\"",
+        "tags": []
+      },
+      {
+        "id": "pm-skills",
+        "name": "\"pm-skills\"",
+        "description": "\"6 production-ready project management skills for Atlassian users: senior PM with portfolio management, scrum master with velocity forecasting, Jira expert with JQL mastery, Confluence expert, Atlassian admin, and template creator. MCP integration for live Jira/Confluence automation. Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "project-management",
+          "jira",
+          "confluence",
+          "atlassian",
+          "scrum",
+          "agile"
+        ]
+      },
+      {
+        "id": "ra-qm-skills",
+        "name": "\"ra-qm-skills\"",
+        "description": "\"12 production-ready regulatory affairs and quality management skills for HealthTech/MedTech: ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO compliance, risk management (ISO 14971), CAPA, document control, and internal auditing. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "regulatory",
+          "quality-management",
+          "iso-13485",
+          "mdr",
+          "fda",
+          "iso-27001",
+          "gdpr"
+        ]
+      },
+      {
+        "id": "stripe-integration-expert",
+        "name": "\"stripe-integration-expert\"",
+        "description": "\"Stripe Integration Expert\"",
+        "tags": []
+      },
+      {
+        "id": "migration-architect",
+        "name": "\"migration-architect\"",
+        "description": "\"Migration Architect\"",
+        "tags": []
+      },
+      {
+        "id": "internal-narrative",
+        "name": "\"internal-narrative\"",
+        "description": "\"Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communications, recruiting narratives, crisis communications, or when user mentions company narrative, messaging consistency, storytelling, all-hands, investor update, or crisis communication.\"",
+        "tags": []
+      },
+      {
+        "id": "regulatory-affairs-head",
+        "name": "\"regulatory-affairs-head\"",
+        "description": "Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes regulatory pathways for new medical devices; drafts responses to FDA deficiency letters and Notified Body queries; develops CE marking technical documentation under EU MDR 2017/745; coordinates multi-market approval strategies across FDA, EU, Health Canada, PMDA, and NMPA; and maintains regulatory intelligence on evolving standards. Use when users need to plan or execute FDA submissions, navigate 510(k) or PMA approval processes, achieve CE marking, prepare pre-submission meeting materials, write regulatory strategy documents, respond to agency queries, or manage compliance documentation for medical device market access.",
+        "tags": []
+      },
+      {
+        "id": "tech-debt-tracker",
+        "name": "tech-debt-tracker",
+        "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation.",
+        "tags": []
+      },
+      {
+        "id": "intl-expansion",
+        "name": "\"intl-expansion\"",
+        "description": "\"International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.\"",
+        "tags": []
+      },
+      {
+        "id": "mdr-745-specialist",
+        "name": "\"mdr-745-specialist\"",
+        "description": "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.",
+        "tags": []
+      },
+      {
+        "id": "ra-qm-skills",
+        "name": "\"ra-qm-skills\"",
+        "description": "\"12 production-ready regulatory affairs and quality management skills for HealthTech/MedTech: ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO compliance, risk management (ISO 14971), CAPA, document control, and internal auditing. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "regulatory",
+          "quality-management",
+          "iso-13485",
+          "mdr",
+          "fda",
+          "iso-27001",
+          "gdpr"
+        ]
+      },
+      {
+        "id": "migrate",
+        "name": "\"migrate\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "rag-architect",
+        "name": "\"rag-architect\"",
+        "description": "\"RAG Architect - POWERFUL\"",
+        "tags": []
+      },
+      {
+        "id": "changelog-generator",
+        "name": "\"changelog-generator\"",
+        "description": "\"Changelog Generator\"",
+        "tags": []
+      },
+      {
+        "id": "generate",
+        "name": "\"generate\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "fda-consultant-specialist",
+        "name": "\"fda-consultant-specialist\"",
+        "description": "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, HIPAA medical device, or FDA cybersecurity.",
+        "tags": []
+      },
+      {
+        "id": "extract",
+        "name": "\"extract\"",
+        "description": "\"Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.\"",
+        "tags": []
+      },
+      {
+        "id": "jira-expert",
+        "name": "\"jira-expert\"",
+        "description": "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.",
+        "tags": []
+      },
+      {
+        "id": "product-strategist",
+        "name": "\"product-strategist\"",
+        "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level.",
+        "tags": []
+      },
+      {
+        "id": "contract-and-proposal-writer",
+        "name": "\"contract-and-proposal-writer\"",
+        "description": "\"Contract & Proposal Writer\"",
+        "tags": []
+      },
+      {
+        "id": "pm-skills",
+        "name": "\"pm-skills\"",
+        "description": "\"6 production-ready project management skills for Atlassian users: senior PM with portfolio management, scrum master with velocity forecasting, Jira expert with JQL mastery, Confluence expert, Atlassian admin, and template creator. MCP integration for live Jira/Confluence automation. Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "project-management",
+          "jira",
+          "confluence",
+          "atlassian",
+          "scrum",
+          "agile"
+        ]
+      },
+      {
+        "id": "ra-qm-skills",
+        "name": "\"ra-qm-skills\"",
+        "description": "\"12 production-ready regulatory affairs and quality management skills for HealthTech/MedTech: ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO compliance, risk management (ISO 14971), CAPA, document control, and internal auditing. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "regulatory",
+          "quality-management",
+          "iso-13485",
+          "mdr",
+          "fda",
+          "iso-27001",
+          "gdpr"
+        ]
+      },
+      {
+        "id": "coverage",
+        "name": "\"coverage\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "runbook-generator",
+        "name": "\"runbook-generator\"",
+        "description": "\"Runbook Generator\"",
+        "tags": []
+      },
+      {
+        "id": "internal-narrative",
+        "name": "\"internal-narrative\"",
+        "description": "\"Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communications, recruiting narratives, crisis communications, or when user mentions company narrative, messaging consistency, storytelling, all-hands, investor update, or crisis communication.\"",
+        "tags": []
+      },
+      {
+        "id": "intl-expansion",
+        "name": "\"intl-expansion\"",
+        "description": "\"International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.\"",
+        "tags": []
+      },
+      {
+        "id": "contract-and-proposal-writer",
+        "name": "\"contract-and-proposal-writer\"",
+        "description": "\"Contract & Proposal Writer\"",
+        "tags": []
+      },
+      {
+        "id": "jira-expert",
+        "name": "\"jira-expert\"",
+        "description": "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.",
+        "tags": []
+      },
+      {
+        "id": "stripe-integration-expert",
+        "name": "\"stripe-integration-expert\"",
+        "description": "\"Stripe Integration Expert\"",
+        "tags": []
+      },
+      {
+        "id": "regulatory-affairs-head",
+        "name": "\"regulatory-affairs-head\"",
+        "description": "Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes regulatory pathways for new medical devices; drafts responses to FDA deficiency letters and Notified Body queries; develops CE marking technical documentation under EU MDR 2017/745; coordinates multi-market approval strategies across FDA, EU, Health Canada, PMDA, and NMPA; and maintains regulatory intelligence on evolving standards. Use when users need to plan or execute FDA submissions, navigate 510(k) or PMA approval processes, achieve CE marking, prepare pre-submission meeting materials, write regulatory strategy documents, respond to agency queries, or manage compliance documentation for medical device market access.",
+        "tags": []
+      },
+      {
+        "id": "mdr-745-specialist",
+        "name": "\"mdr-745-specialist\"",
+        "description": "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.",
+        "tags": []
+      },
+      {
+        "id": "fda-consultant-specialist",
+        "name": "\"fda-consultant-specialist\"",
+        "description": "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, HIPAA medical device, or FDA cybersecurity.",
+        "tags": []
+      },
+      {
+        "id": "product-strategist",
+        "name": "\"product-strategist\"",
+        "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level.",
+        "tags": []
+      },
+      {
+        "id": "migration-architect",
+        "name": "\"migration-architect\"",
+        "description": "\"Migration Architect\"",
+        "tags": []
+      },
+      {
+        "id": "tech-debt-tracker",
+        "name": "tech-debt-tracker",
+        "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation.",
+        "tags": []
+      },
+      {
+        "id": "rag-architect",
+        "name": "\"rag-architect\"",
+        "description": "\"RAG Architect - POWERFUL\"",
+        "tags": []
+      },
+      {
+        "id": "changelog-generator",
+        "name": "\"changelog-generator\"",
+        "description": "\"Changelog Generator\"",
+        "tags": []
+      },
+      {
+        "id": "runbook-generator",
+        "name": "\"runbook-generator\"",
+        "description": "\"Runbook Generator\"",
+        "tags": []
+      },
+      {
+        "id": "interleaved-thinking",
+        "name": "reasoning-trace-optimizer",
+        "description": "\"Debug and optimize AI agents by analyzing reasoning traces. Activates on 'debug agent', 'optimize prompt', 'analyze reasoning', 'why did the agent fail', 'improve agent performance', or when diagnosing agent failures and context degradation.\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Compliance-Ra Task",
+      "description": "Evaluate skill performance on typical compliance-ra task",
+      "input": {
+        "type": "text",
+        "value": "Test input for compliance-ra"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Janet Woodcock",
+      "expert_focus": "FDA submissions",
+      "refinement_notes": [
+        "Reviewed by Dr. Janet Woodcock",
+        "Aligned with compliance-ra best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Janet Woodcock",
+          "Graham Law"
+        ],
+        "category": "compliance-ra",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

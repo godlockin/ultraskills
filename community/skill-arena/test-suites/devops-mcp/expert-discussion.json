@@ -1,0 +1,117 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "MCP Development Panel",
+      "parent": "devops",
+      "experts": [
+        {
+          "name": "Charity Majors",
+          "title": "Observability Pioneer",
+          "expertise": [
+            "MCP protocol",
+            "server development",
+            "tool integration"
+          ],
+          "background": "Honeycomb CEO",
+          "focus": "MCP protocol"
+        }
+      ],
+      "test_design_philosophy": "Protocol compliance, tool functionality, and error handling"
+    },
+    "category": "devops-mcp",
+    "skills": [
+      {
+        "id": "mcp-builder",
+        "name": "mcp-builder",
+        "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+        "tags": [
+          "ai",
+          "mcp",
+          "development",
+          "api",
+          "integration",
+          "server"
+        ]
+      },
+      {
+        "id": "agent-protocol",
+        "name": "\"agent-protocol\"",
+        "description": "\"Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.\"",
+        "tags": []
+      },
+      {
+        "id": "board-meeting",
+        "name": "\"board-meeting\"",
+        "description": "\"Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:board, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question.\"",
+        "tags": []
+      },
+      {
+        "id": "mcp-server-builder",
+        "name": "\"mcp-server-builder\"",
+        "description": "\"MCP Server Builder\"",
+        "tags": []
+      },
+      {
+        "id": "agent-protocol",
+        "name": "\"agent-protocol\"",
+        "description": "\"Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.\"",
+        "tags": []
+      },
+      {
+        "id": "board-meeting",
+        "name": "\"board-meeting\"",
+        "description": "\"Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:board, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question.\"",
+        "tags": []
+      },
+      {
+        "id": "mcp-server-builder",
+        "name": "\"mcp-server-builder\"",
+        "description": "\"MCP Server Builder\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Devops-Mcp Task",
+      "description": "Evaluate skill performance on typical devops-mcp task",
+      "input": {
+        "type": "text",
+        "value": "Test input for devops-mcp"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Charity Majors",
+      "expert_focus": "MCP protocol",
+      "refinement_notes": [
+        "Reviewed by Charity Majors",
+        "Aligned with devops-mcp best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Charity Majors"
+        ],
+        "category": "devops-mcp",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

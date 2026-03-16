@@ -1,0 +1,128 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Form Optimization Panel",
+      "parent": "cro",
+      "experts": [
+        {
+          "name": "Marcus Rodriguez",
+          "title": "UX Research Director",
+          "expertise": [
+            "form UX",
+            "input friction",
+            "validation design"
+          ],
+          "background": "Former Hotjar",
+          "focus": "form UX"
+        },
+        {
+          "name": "James Park",
+          "title": "Data Science Lead",
+          "expertise": [
+            "field analysis",
+            "drop-off detection",
+            "conversion funnels"
+          ],
+          "background": "Former Booking.com data lead",
+          "focus": "field analysis"
+        }
+      ],
+      "test_design_philosophy": "Field-by-field optimization, progressive disclosure, and error handling"
+    },
+    "category": "cro-form",
+    "skills": [
+      {
+        "id": "form-cro",
+        "name": "form-cro",
+        "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "signup-flow-cro",
+        "name": "signup-flow-cro",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+        "tags": []
+      },
+      {
+        "id": "form-cro",
+        "name": "\"form-cro\"",
+        "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "performance-profiler",
+        "name": "\"performance-profiler\"",
+        "description": "\"Performance Profiler\"",
+        "tags": []
+      },
+      {
+        "id": "signup-flow-cro",
+        "name": "\"signup-flow-cro\"",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+        "tags": []
+      },
+      {
+        "id": "form-cro",
+        "name": "\"form-cro\"",
+        "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "signup-flow-cro",
+        "name": "\"signup-flow-cro\"",
+        "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+        "tags": []
+      },
+      {
+        "id": "performance-profiler",
+        "name": "\"performance-profiler\"",
+        "description": "\"Performance Profiler\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Cro-Form Task",
+      "description": "Evaluate skill performance on typical cro-form task",
+      "input": {
+        "type": "text",
+        "value": "Test input for cro-form"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Marcus Rodriguez",
+      "expert_focus": "form UX",
+      "refinement_notes": [
+        "Reviewed by Marcus Rodriguez",
+        "Aligned with cro-form best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Marcus Rodriguez",
+          "James Park"
+        ],
+        "category": "cro-form",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

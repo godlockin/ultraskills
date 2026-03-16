@@ -1,0 +1,91 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "BDI Architecture Panel",
+      "parent": "agent",
+      "experts": [
+        {
+          "name": "Andrew Ng",
+          "title": "AI Education Pioneer",
+          "expertise": [
+            "belief-desire-intention",
+            "reasoning",
+            "decision making"
+          ],
+          "background": "DeepLearning.AI founder",
+          "focus": "belief-desire-intention"
+        },
+        {
+          "name": "Ethan Mollick",
+          "title": "AI Innovation Researcher",
+          "expertise": [
+            "agent reasoning",
+            "goal management"
+          ],
+          "background": "Wharton Professor",
+          "focus": "agent reasoning"
+        }
+      ],
+      "test_design_philosophy": "Reasoning coherence, goal alignment, and intention consistency"
+    },
+    "category": "agent-bdi",
+    "skills": [
+      {
+        "id": "bdi-mental-states",
+        "name": "bdi-mental-states",
+        "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
+        "tags": [
+          "ai",
+          "agent",
+          "architecture",
+          "cognitive",
+          "bdi"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Agent-Bdi Task",
+      "description": "Evaluate skill performance on typical agent-bdi task",
+      "input": {
+        "type": "text",
+        "value": "Test input for agent-bdi"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Andrew Ng",
+      "expert_focus": "belief-desire-intention",
+      "refinement_notes": [
+        "Reviewed by Andrew Ng",
+        "Aligned with agent-bdi best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Andrew Ng",
+          "Ethan Mollick"
+        ],
+        "category": "agent-bdi",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

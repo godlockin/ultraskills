@@ -1,0 +1,145 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Agent Workflow Panel",
+      "parent": "agent",
+      "experts": [
+        {
+          "name": "Ethan Mollick",
+          "title": "AI Innovation Researcher",
+          "expertise": [
+            "workflow design",
+            "multi-agent systems",
+            "human-AI collaboration"
+          ],
+          "background": "Wharton Professor, 'Co-Intelligence' author",
+          "focus": "workflow design"
+        }
+      ],
+      "test_design_philosophy": "Workflow efficiency, agent coordination, and error recovery"
+    },
+    "category": "agent-workflow",
+    "skills": [
+      {
+        "id": "git-commit-master",
+        "name": "Git Commit Master",
+        "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+        "tags": [
+          "git",
+          "engineering",
+          "workflow"
+        ]
+      },
+      {
+        "id": "dispatching-parallel-agents",
+        "name": "dispatching-parallel-agents",
+        "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "tags": [
+          "ai",
+          "agent",
+          "parallel",
+          "dispatching",
+          "performance"
+        ]
+      },
+      {
+        "id": "doc-coauthoring",
+        "name": "doc-coauthoring",
+        "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+        "tags": [
+          "documentation",
+          "writing",
+          "collaboration",
+          "workflow"
+        ]
+      },
+      {
+        "id": "finishing-a-development-branch",
+        "name": "finishing-a-development-branch",
+        "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+        "tags": [
+          "git",
+          "workflow",
+          "development",
+          "merge",
+          "pr"
+        ]
+      },
+      {
+        "id": "git-commit-master",
+        "name": "Git Commit Master",
+        "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+        "tags": [
+          "git",
+          "engineering",
+          "workflow"
+        ]
+      },
+      {
+        "id": "skill-creator",
+        "name": "skill-creator",
+        "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "tags": [
+          "skill-creation",
+          "development",
+          "workflow",
+          "documentation"
+        ]
+      },
+      {
+        "id": "using-git-worktrees",
+        "name": "using-git-worktrees",
+        "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+        "tags": [
+          "git",
+          "workflow",
+          "isolation",
+          "development"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Agent-Workflow Task",
+      "description": "Evaluate skill performance on typical agent-workflow task",
+      "input": {
+        "type": "text",
+        "value": "Test input for agent-workflow"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Ethan Mollick",
+      "expert_focus": "workflow design",
+      "refinement_notes": [
+        "Reviewed by Ethan Mollick",
+        "Aligned with agent-workflow best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Ethan Mollick"
+        ],
+        "category": "agent-workflow",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "UX Design Panel",
+      "parent": "product",
+      "experts": [
+        {
+          "name": "Don Norman",
+          "title": "UX Design Legend",
+          "expertise": [
+            "usability",
+            "design principles",
+            "human-centered design"
+          ],
+          "background": "NN/g co-founder",
+          "focus": "usability"
+        },
+        {
+          "name": "Lenny Rachitsky",
+          "title": "Product Growth Advisor",
+          "expertise": [
+            "product-led growth",
+            "feature design",
+            "user onboarding"
+          ],
+          "background": "Former Airbnb PM, Lenny's Newsletter author",
+          "focus": "product-led growth"
+        }
+      ],
+      "test_design_philosophy": "Usability heuristics, user flow optimization, and accessibility"
+    },
+    "category": "product-ux",
+    "skills": [
+      {
+        "id": "brand-guidelines",
+        "name": "brand-guidelines",
+        "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+        "tags": [
+          "design",
+          "branding",
+          "styling",
+          "typography"
+        ]
+      },
+      {
+        "id": "frontend-design",
+        "name": "frontend-design",
+        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "tags": [
+          "frontend",
+          "web",
+          "design",
+          "ui",
+          "react",
+          "css"
+        ]
+      },
+      {
+        "id": "theme-factory",
+        "name": "theme-factory",
+        "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+        "tags": [
+          "design",
+          "styling",
+          "theme",
+          "ui",
+          "css"
+        ]
+      },
+      {
+        "id": "web-artifacts-builder",
+        "name": "web-artifacts-builder",
+        "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+        "tags": [
+          "frontend",
+          "web",
+          "react",
+          "artifact",
+          "ui"
+        ]
+      },
+      {
+        "id": "product-skills",
+        "name": "\"product-skills\"",
+        "description": "\"8 production-ready product skills: product manager toolkit with RICE prioritization, agile product owner, product strategist with OKR cascades, UX researcher, UI design system, competitive teardown, landing page generator, and SaaS scaffolder. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "product",
+          "product-management",
+          "ux",
+          "ui",
+          "saas",
+          "agile"
+        ]
+      },
+      {
+        "id": "senior-frontend",
+        "name": "\"senior-frontend\"",
+        "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+        "tags": []
+      },
+      {
+        "id": "board-deck-builder",
+        "name": "\"board-deck-builder\"",
+        "description": "\"Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.\"",
+        "tags": []
+      },
+      {
+        "id": "product-skills",
+        "name": "\"product-skills\"",
+        "description": "\"8 production-ready product skills: product manager toolkit with RICE prioritization, agile product owner, product strategist with OKR cascades, UX researcher, UI design system, competitive teardown, landing page generator, and SaaS scaffolder. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "product",
+          "product-management",
+          "ux",
+          "ui",
+          "saas",
+          "agile"
+        ]
+      },
+      {
+        "id": "product-skills",
+        "name": "\"product-skills\"",
+        "description": "\"8 production-ready product skills: product manager toolkit with RICE prioritization, agile product owner, product strategist with OKR cascades, UX researcher, UI design system, competitive teardown, landing page generator, and SaaS scaffolder. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "product",
+          "product-management",
+          "ux",
+          "ui",
+          "saas",
+          "agile"
+        ]
+      },
+      {
+        "id": "ux-researcher-designer",
+        "name": "\"ux-researcher-designer\"",
+        "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.",
+        "tags": []
+      },
+      {
+        "id": "ui-design-system",
+        "name": "\"ui-design-system\"",
+        "description": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.",
+        "tags": []
+      },
+      {
+        "id": "board-deck-builder",
+        "name": "\"board-deck-builder\"",
+        "description": "\"Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.\"",
+        "tags": []
+      },
+      {
+        "id": "senior-frontend",
+        "name": "\"senior-frontend\"",
+        "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+        "tags": []
+      },
+      {
+        "id": "ux-researcher-designer",
+        "name": "\"ux-researcher-designer\"",
+        "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.",
+        "tags": []
+      },
+      {
+        "id": "ui-design-system",
+        "name": "\"ui-design-system\"",
+        "description": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Product-Ux Task",
+      "description": "Evaluate skill performance on typical product-ux task",
+      "input": {
+        "type": "text",
+        "value": "Test input for product-ux"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Don Norman",
+      "expert_focus": "usability",
+      "refinement_notes": [
+        "Reviewed by Don Norman",
+        "Aligned with product-ux best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Don Norman",
+          "Lenny Rachitsky"
+        ],
+        "category": "product-ux",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

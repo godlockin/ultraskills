@@ -1,0 +1,146 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Landing Page Optimization Panel",
+      "parent": "cro",
+      "experts": [
+        {
+          "name": "Dr. Sarah Chen",
+          "title": "Chief Conversion Officer",
+          "expertise": [
+            "landing page design",
+            "value proposition",
+            "conversion psychology"
+          ],
+          "background": "Former Optimizely CRO lead, 15+ years experience",
+          "focus": "landing page design"
+        },
+        {
+          "name": "Marcus Rodriguez",
+          "title": "UX Research Director",
+          "expertise": [
+            "user behavior",
+            "heatmap analysis",
+            "usability"
+          ],
+          "background": "Former Hotjar UX lead",
+          "focus": "user behavior"
+        }
+      ],
+      "test_design_philosophy": "Above-the-fold optimization, value clarity, and friction identification"
+    },
+    "category": "cro-landing",
+    "skills": [
+      {
+        "id": "page-cro",
+        "name": "page-cro",
+        "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "popup-cro",
+        "name": "popup-cro",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+        "tags": []
+      },
+      {
+        "id": "landing-page-generator",
+        "name": "\"landing-page-generator\"",
+        "description": "\"Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage, single-page site, lead capture page, campaign page, promo page, or conversion-optimised web page — or when they want to A/B test landing page variants or replace a static page with one designed to convert.\"",
+        "tags": []
+      },
+      {
+        "id": "page-cro",
+        "name": "\"page-cro\"",
+        "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "campaign-analytics",
+        "name": "\"campaign-analytics\"",
+        "description": "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.",
+        "tags": []
+      },
+      {
+        "id": "popup-cro",
+        "name": "\"popup-cro\"",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+        "tags": []
+      },
+      {
+        "id": "cs-demand-gen-specialist",
+        "name": "cs-demand-gen-specialist",
+        "description": "Demand generation and customer acquisition specialist for lead generation, conversion optimization, and multi-channel acquisition campaigns",
+        "tags": []
+      },
+      {
+        "id": "page-cro",
+        "name": "\"page-cro\"",
+        "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+        "tags": []
+      },
+      {
+        "id": "campaign-analytics",
+        "name": "\"campaign-analytics\"",
+        "description": "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.",
+        "tags": []
+      },
+      {
+        "id": "popup-cro",
+        "name": "\"popup-cro\"",
+        "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+        "tags": []
+      },
+      {
+        "id": "landing-page-generator",
+        "name": "\"landing-page-generator\"",
+        "description": "\"Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage, single-page site, lead capture page, campaign page, promo page, or conversion-optimised web page — or when they want to A/B test landing page variants or replace a static page with one designed to convert.\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Cro-Landing Task",
+      "description": "Evaluate skill performance on typical cro-landing task",
+      "input": {
+        "type": "text",
+        "value": "Test input for cro-landing"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Sarah Chen",
+      "expert_focus": "landing page design",
+      "refinement_notes": [
+        "Reviewed by Dr. Sarah Chen",
+        "Aligned with cro-landing best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Sarah Chen",
+          "Marcus Rodriguez"
+        ],
+        "category": "cro-landing",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

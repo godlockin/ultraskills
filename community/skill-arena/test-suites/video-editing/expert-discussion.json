@@ -1,0 +1,174 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Video Editing Panel",
+      "parent": "video",
+      "experts": [
+        {
+          "name": "This Guy Edits",
+          "title": "Video Editing Expert",
+          "expertise": [
+            "editing workflow",
+            "storytelling",
+            "pacing"
+          ],
+          "background": "Professional video editor, educator",
+          "focus": "editing workflow"
+        }
+      ],
+      "test_design_philosophy": "Edit quality, story coherence, and technical execution"
+    },
+    "category": "video-editing",
+    "skills": [
+      {
+        "id": "remotion-video",
+        "name": "Remotion Video Creator",
+        "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
+        "tags": [
+          "video",
+          "react",
+          "remotion",
+          "animation",
+          "creative",
+          "automation"
+        ]
+      },
+      {
+        "id": "video-splitter",
+        "name": "\"video-splitter\"",
+        "description": "\"Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.\"",
+        "tags": [
+          "video",
+          "media",
+          "editing",
+          "ffmpeg"
+        ]
+      },
+      {
+        "id": "video-splitter",
+        "name": "\"video-splitter\"",
+        "description": "\"Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.\"",
+        "tags": [
+          "video",
+          "media",
+          "editing",
+          "ffmpeg"
+        ]
+      },
+      {
+        "id": "剪口播",
+        "name": "videocut:剪口播",
+        "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+        "tags": [
+          "video",
+          "transcription",
+          "editing",
+          "media",
+          "chinese"
+        ]
+      },
+      {
+        "id": "剪辑",
+        "name": "videocut:剪辑",
+        "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑",
+        "tags": [
+          "video",
+          "editing",
+          "ffmpeg",
+          "media",
+          "chinese"
+        ]
+      },
+      {
+        "id": "字幕",
+        "name": "videocut:字幕",
+        "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+        "tags": [
+          "video",
+          "subtitle",
+          "media",
+          "transcription",
+          "chinese"
+        ]
+      },
+      {
+        "id": "自更新",
+        "name": "videocut:自更新",
+        "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+        "tags": [
+          "skill-management",
+          "evolution",
+          "feedback",
+          "chinese"
+        ]
+      },
+      {
+        "id": "videocut:安装",
+        "name": "videocut:安装",
+        "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
+        "tags": []
+      },
+      {
+        "id": "videocut:剪口播",
+        "name": "videocut:剪口播",
+        "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+        "tags": []
+      },
+      {
+        "id": "videocut:自进化",
+        "name": "videocut:自进化",
+        "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+        "tags": []
+      },
+      {
+        "id": "videocut:字幕",
+        "name": "videocut:字幕",
+        "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Video-Editing Task",
+      "description": "Evaluate skill performance on typical video-editing task",
+      "input": {
+        "type": "text",
+        "value": "Test input for video-editing"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "This Guy Edits",
+      "expert_focus": "editing workflow",
+      "refinement_notes": [
+        "Reviewed by This Guy Edits",
+        "Aligned with video-editing best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "This Guy Edits"
+        ],
+        "category": "video-editing",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

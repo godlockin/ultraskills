@@ -1,0 +1,343 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "DevOps & SRE Panel",
+      "parent": "engineering",
+      "experts": [
+        {
+          "name": "Kelsey Hightower",
+          "title": "Kubernetes Pioneer",
+          "expertise": [
+            "containers",
+            "orchestration",
+            "cloud native"
+          ],
+          "background": "Google Principal Engineer, Kubernetes advocate",
+          "focus": "containers"
+        },
+        {
+          "name": "Charity Majors",
+          "title": "Observability Pioneer",
+          "expertise": [
+            "monitoring",
+            "debugging",
+            "production operations"
+          ],
+          "background": "Honeycomb CEO, creator of modern observability practices",
+          "focus": "monitoring"
+        },
+        {
+          "name": "Jez Humble",
+          "title": "Continuous Delivery Co-author",
+          "expertise": [
+            "CI/CD",
+            "deployment",
+            "lean practices"
+          ],
+          "background": "Google Engineering, 'Continuous Delivery' and 'The DevOps Handbook' co-author",
+          "focus": "CI/CD"
+        }
+      ],
+      "test_design_philosophy": "Infrastructure as code, deployment automation, and production resilience"
+    },
+    "category": "eng-devops",
+    "skills": [
+      {
+        "id": "github-skill-scout",
+        "name": "\"github-skill-scout\"",
+        "description": "\"Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.\"",
+        "tags": [
+          "devops",
+          "open-source",
+          "automation",
+          "skill-building"
+        ]
+      },
+      {
+        "id": "github-to-skills",
+        "name": "github-to-skills",
+        "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
+        "tags": [
+          "devops",
+          "automation",
+          "github",
+          "skill-creation"
+        ]
+      },
+      {
+        "id": "skill-evolution-manager",
+        "name": "skill-evolution-manager",
+        "description": "Skills 进化管理器。在对话结束时根据用户反馈持续优化 Skills。触发词：/evolve, \"复盘一下\", \"把这个经验保存到 Skill\"",
+        "tags": [
+          "devops",
+          "automation",
+          "evolution",
+          "feedback",
+          "learning"
+        ]
+      },
+      {
+        "id": "skill-manager",
+        "name": "skill-manager",
+        "description": "Skills 生命周期管理器。用于批量扫描 Skills 目录、检查 GitHub 更新、执行升级引导。触发词：/skill-manager check, list, delete",
+        "tags": [
+          "devops",
+          "automation",
+          "lifecycle",
+          "management"
+        ]
+      },
+      {
+        "id": "github-skill-scout",
+        "name": "\"github-skill-scout\"",
+        "description": "\"Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.\"",
+        "tags": [
+          "devops",
+          "open-source",
+          "automation",
+          "skill-building"
+        ]
+      },
+      {
+        "id": "github-to-skills",
+        "name": "github-to-skills",
+        "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
+        "tags": [
+          "devops",
+          "github",
+          "automation",
+          "skill-creation",
+          "open-source"
+        ]
+      },
+      {
+        "id": "skill-evolution-manager",
+        "name": "Skill Evolution Manager",
+        "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
+        "tags": [
+          "devops",
+          "skill-management",
+          "evolution",
+          "feedback",
+          "learning"
+        ]
+      },
+      {
+        "id": "skill-manager",
+        "name": "skill-manager",
+        "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
+        "tags": [
+          "devops",
+          "lifecycle",
+          "management",
+          "github",
+          "automation"
+        ]
+      },
+      {
+        "id": "writing-skills",
+        "name": "writing-skills",
+        "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+        "tags": [
+          "skill-creation",
+          "development",
+          "writing",
+          "documentation"
+        ]
+      },
+      {
+        "id": "安装",
+        "name": "videocut:安装",
+        "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
+        "tags": [
+          "devops",
+          "setup",
+          "environment",
+          "installation",
+          "chinese"
+        ]
+      },
+      {
+        "id": "launch-strategy",
+        "name": "launch-strategy",
+        "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.\"",
+        "tags": []
+      },
+      {
+        "id": "book-sft-pipeline",
+        "name": "book-sft-pipeline",
+        "description": "This skill should be used when the user asks to \"fine-tune on books\", \"create SFT dataset\", \"train style model\", \"extract ePub text\", or mentions style transfer, LoRA training, book segmentation, or author voice replication.",
+        "tags": []
+      },
+      {
+        "id": "engineering-skills",
+        "name": "\"engineering-skills\"",
+        "description": "\"23 production-ready engineering skills covering architecture, frontend, backend, fullstack, QA, DevOps, security, AI/ML, data engineering, computer vision, and specialized tools like Playwright Pro, Stripe integration, AWS, and MS365. 30+ Python automation tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "engineering",
+          "frontend",
+          "backend",
+          "devops",
+          "security",
+          "ai-ml",
+          "data-engineering"
+        ]
+      },
+      {
+        "id": "revenue-operations",
+        "name": "\"revenue-operations\"",
+        "description": "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking forecast accuracy with MAPE, calculating GTM efficiency, or measuring sales efficiency and unit economics for SaaS teams.",
+        "tags": []
+      },
+      {
+        "id": "git-worktree-manager",
+        "name": "\"git-worktree-manager\"",
+        "description": "\"Git Worktree Manager\"",
+        "tags": []
+      },
+      {
+        "id": "launch-strategy",
+        "name": "\"launch-strategy\"",
+        "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launch momentum.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\"",
+        "tags": []
+      },
+      {
+        "id": "engineering-skills",
+        "name": "\"engineering-skills\"",
+        "description": "\"23 production-ready engineering skills covering architecture, frontend, backend, fullstack, QA, DevOps, security, AI/ML, data engineering, computer vision, and specialized tools like Playwright Pro, Stripe integration, AWS, and MS365. 30+ Python automation tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "engineering",
+          "frontend",
+          "backend",
+          "devops",
+          "security",
+          "ai-ml",
+          "data-engineering"
+        ]
+      },
+      {
+        "id": "content-production",
+        "name": "\"content-production\"",
+        "description": "\"Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for content strategy or calendar planning (use content-strategy). NOT for repurposing existing content (use content-repurposing). NOT for social captions only.\"",
+        "tags": []
+      },
+      {
+        "id": "senior-devops",
+        "name": "\"senior-devops\"",
+        "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.",
+        "tags": []
+      },
+      {
+        "id": "release-manager",
+        "name": "\"release-manager\"",
+        "description": "\"Release Manager\"",
+        "tags": []
+      },
+      {
+        "id": "ci-cd-pipeline-builder",
+        "name": "\"ci-cd-pipeline-builder\"",
+        "description": "\"CI/CD Pipeline Builder\"",
+        "tags": []
+      },
+      {
+        "id": "revenue-operations",
+        "name": "\"revenue-operations\"",
+        "description": "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking forecast accuracy with MAPE, calculating GTM efficiency, or measuring sales efficiency and unit economics for SaaS teams.",
+        "tags": []
+      },
+      {
+        "id": "senior-devops",
+        "name": "\"senior-devops\"",
+        "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.",
+        "tags": []
+      },
+      {
+        "id": "launch-strategy",
+        "name": "\"launch-strategy\"",
+        "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launch momentum.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\"",
+        "tags": []
+      },
+      {
+        "id": "content-production",
+        "name": "\"content-production\"",
+        "description": "\"Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for content strategy or calendar planning (use content-strategy). NOT for repurposing existing content (use content-repurposing). NOT for social captions only.\"",
+        "tags": []
+      },
+      {
+        "id": "git-worktree-manager",
+        "name": "\"git-worktree-manager\"",
+        "description": "\"Git Worktree Manager\"",
+        "tags": []
+      },
+      {
+        "id": "release-manager",
+        "name": "\"release-manager\"",
+        "description": "\"Release Manager\"",
+        "tags": []
+      },
+      {
+        "id": "ci-cd-pipeline-builder",
+        "name": "\"ci-cd-pipeline-builder\"",
+        "description": "\"CI/CD Pipeline Builder\"",
+        "tags": []
+      },
+      {
+        "id": "skill-sync-manager",
+        "name": "skill-sync-manager",
+        "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
+        "tags": [
+          "devops",
+          "automation",
+          "sync",
+          "submodule",
+          "update"
+        ]
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Eng-Devops Task",
+      "description": "Evaluate skill performance on typical eng-devops task",
+      "input": {
+        "type": "text",
+        "value": "Test input for eng-devops"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Kelsey Hightower",
+      "expert_focus": "containers",
+      "refinement_notes": [
+        "Reviewed by Kelsey Hightower",
+        "Aligned with eng-devops best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Kelsey Hightower",
+          "Charity Majors",
+          "Jez Humble"
+        ],
+        "category": "eng-devops",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

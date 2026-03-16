@@ -1,0 +1,130 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Visual Design Panel",
+      "parent": "creative",
+      "experts": [
+        {
+          "name": "Stefan Sagmeister",
+          "title": "Design Legend",
+          "expertise": [
+            "visual design",
+            "branding",
+            "creative direction"
+          ],
+          "background": "Sagmeister & Walsh co-founder, Grammy winner",
+          "focus": "visual design"
+        },
+        {
+          "name": "Jessica Hische",
+          "title": "Lettering Artist",
+          "expertise": [
+            "typography",
+            "lettering",
+            "visual identity"
+          ],
+          "background": "Renowned lettering artist and author",
+          "focus": "typography"
+        }
+      ],
+      "test_design_philosophy": "Visual impact, design coherence, and creative originality"
+    },
+    "category": "creative-visual",
+    "skills": [
+      {
+        "id": "visual-expert",
+        "name": "\"Visual Expert Pro (Gemini 3.0 Edition)\"",
+        "description": "\"Physics-Based Rendering Supervisor & Virtual Cinematographer for Home Furnishing & Interior Design\"",
+        "tags": [
+          "creative",
+          "design",
+          "interior",
+          "3d",
+          "rendering",
+          "ai"
+        ]
+      },
+      {
+        "id": "canvas-design",
+        "name": "canvas-design",
+        "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+        "tags": [
+          "creative",
+          "design",
+          "art",
+          "visual",
+          "canvas"
+        ]
+      },
+      {
+        "id": "visual-expert",
+        "name": "\"Visual Expert Pro (Gemini 3.0 Edition)\"",
+        "description": "\"Professional interior visualization and photorealism expert for home furnishing and IKEA-style design, focusing on physically-based rendering (PBR) and material accuracy.\"",
+        "tags": [
+          "creative",
+          "design",
+          "interior",
+          "3d",
+          "rendering",
+          "ai"
+        ]
+      },
+      {
+        "id": "senior-computer-vision",
+        "name": "\"senior-computer-vision\"",
+        "description": "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.",
+        "tags": []
+      },
+      {
+        "id": "senior-computer-vision",
+        "name": "\"senior-computer-vision\"",
+        "description": "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Creative-Visual Task",
+      "description": "Evaluate skill performance on typical creative-visual task",
+      "input": {
+        "type": "text",
+        "value": "Test input for creative-visual"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Stefan Sagmeister",
+      "expert_focus": "visual design",
+      "refinement_notes": [
+        "Reviewed by Stefan Sagmeister",
+        "Aligned with creative-visual best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Stefan Sagmeister",
+          "Jessica Hische"
+        ],
+        "category": "creative-visual",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}
