@@ -31,3 +31,6 @@
 [submodule "external/claude-code-official"]
 	path = external/claude-code-official
 	url = https://github.com/anthropics/claude-code.git
+[submodule "community/gstack"]
+	path = community/gstack
+	url = https://github.com/garrytan/gstack.git
