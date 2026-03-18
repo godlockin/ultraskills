@@ -11,12 +11,15 @@
   "mcpServers": {
     "skills-discovery": {
       "command": "python",
-      "args": ["/Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/skill-loader/mcp_server.py"],
-      "cwd": "/Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/skill-loader"
+      "args": ["<PROJECT_ROOT>/devops/skill-loader/mcp_server.py"],
+      "cwd": "<PROJECT_ROOT>/devops/skill-loader"
     }
   }
 }
 ```
+
+> **注意**：实际安装时会使用绝对路径。上面显示的是模板格式。
+> 查看实际配置请运行：`cat ~/.claude/mcp.json`
 
 ### 2. 索引缓存
 
@@ -42,7 +45,7 @@
 ### 方式 2: 使用 CLI 测试
 
 ```bash
-cd /Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/skill-loader
+cd devops/skill-loader
 
 # 查看统计
 python cli.py stats

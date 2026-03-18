@@ -68,7 +68,7 @@
 如果需要重新安装或迁移到其他机器：
 
 ```bash
-cd /Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/skill-loader
+cd devops/skill-loader
 ./install-global-mcp.sh
 ```
 
@@ -94,7 +94,7 @@ cat ~/.claude/mcp.json
 
 **A:** 测试 MCP Server 是否能启动：
 ```bash
-python /Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/skill-loader/mcp_server.py
+python mcp_server.py
 ```
 
 ### Q: 索引为空
