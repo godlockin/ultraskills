@@ -251,6 +251,8 @@ def sync_global_links(skills: List[Dict], dry_run: bool = False) -> dict:
         Path.home() / ".codex" / "skills",
         Path.home() / ".antigravity" / "skills",
         Path.home() / ".gemini" / "skills",
+        Path.home() / ".windsurf" / "skills",
+        Path.home() / ".cursor" / "skills",
     ]
     
     results = {"created": [], "exists": [], "broken": [], "missing_dir": []}
@@ -339,6 +341,19 @@ def update_index(skills: List[Dict]):
         clean = {k: v for k, v in s.items() if k != "source"}
         clean_skills.append(clean)
     
+    # Detect duplicates
+    seen_ids = {}
+    duplicates = []
+    for s in clean_skills:
+        skill_id = s.get("id")
+        if skill_id in seen_ids:
+            duplicates.append(skill_id)
+        seen_ids[skill_id] = s.get("path")
+    
+    if duplicates:
+        print(f"\n⚠️  Warning: Duplicate skill IDs detected: {', '.join(set(duplicates))}")
+        print("   Consider renaming directories to avoid conflicts.")
+
     index_data = {
         "meta": existing_meta,
         "skills": clean_skills
