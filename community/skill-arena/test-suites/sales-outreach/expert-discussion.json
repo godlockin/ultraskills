@@ -1,0 +1,98 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Sales Outreach Panel",
+      "parent": "sales",
+      "experts": [
+        {
+          "name": "Aaron Ross",
+          "title": "Predictable Revenue Author",
+          "expertise": [
+            "cold email",
+            "outbound sequences",
+            "prospecting"
+          ],
+          "background": "'Predictable Revenue' and 'Predictable Success' author",
+          "focus": "cold email"
+        },
+        {
+          "name": "Jill Konrath",
+          "title": "Sales Strategy Expert",
+          "expertise": [
+            "sales messaging",
+            "value propositions",
+            "buyer engagement"
+          ],
+          "background": "'Selling to Big Companies' and 'SNAP Selling' author",
+          "focus": "sales messaging"
+        }
+      ],
+      "test_design_philosophy": "Message relevance, personalization quality, and call-to-action effectiveness"
+    },
+    "category": "sales-outreach",
+    "skills": [
+      {
+        "id": "cold-email",
+        "name": "cold-email",
+        "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
+        "tags": []
+      },
+      {
+        "id": "cold-email",
+        "name": "\"cold-email\"",
+        "description": "\"When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. Distinct from email-sequence (lifecycle/nurture to opted-in subscribers) — this is unsolicited outreach to new prospects. NOT for lifecycle emails, newsletters, or drip campaigns (use email-sequence).\"",
+        "tags": []
+      },
+      {
+        "id": "cold-email",
+        "name": "\"cold-email\"",
+        "description": "\"When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. Distinct from email-sequence (lifecycle/nurture to opted-in subscribers) — this is unsolicited outreach to new prospects. NOT for lifecycle emails, newsletters, or drip campaigns (use email-sequence).\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Sales-Outreach Task",
+      "description": "Evaluate skill performance on typical sales-outreach task",
+      "input": {
+        "type": "text",
+        "value": "Test input for sales-outreach"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Aaron Ross",
+      "expert_focus": "cold email",
+      "refinement_notes": [
+        "Reviewed by Aaron Ross",
+        "Aligned with sales-outreach best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Aaron Ross",
+          "Jill Konrath"
+        ],
+        "category": "sales-outreach",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

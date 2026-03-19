@@ -1,0 +1,74 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Skill Lifecycle Management Panel",
+      "parent": "devops",
+      "experts": [
+        {
+          "name": "Kelsey Hightower",
+          "title": "Kubernetes Pioneer",
+          "expertise": [
+            "knowledge management",
+            "skill versioning",
+            "lifecycle automation"
+          ],
+          "background": "Google Principal Engineer",
+          "focus": "knowledge management"
+        }
+      ],
+      "test_design_philosophy": "Skill discovery, version control, and integration automation"
+    },
+    "category": "devops-skill-mgmt",
+    "skills": [
+      {
+        "id": "planning-with-files",
+        "name": "planning-with-files",
+        "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Devops-Skill-Mgmt Task",
+      "description": "Evaluate skill performance on typical devops-skill-mgmt task",
+      "input": {
+        "type": "text",
+        "value": "Test input for devops-skill-mgmt"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Kelsey Hightower",
+      "expert_focus": "knowledge management",
+      "refinement_notes": [
+        "Reviewed by Kelsey Hightower",
+        "Aligned with devops-skill-mgmt best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Kelsey Hightower"
+        ],
+        "category": "devops-skill-mgmt",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

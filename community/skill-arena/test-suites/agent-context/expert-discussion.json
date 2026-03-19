@@ -1,0 +1,151 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Context Engineering Panel",
+      "parent": "agent",
+      "experts": [
+        {
+          "name": "Andrew Ng",
+          "title": "AI Education Pioneer",
+          "expertise": [
+            "context management",
+            "memory systems",
+            "LLM optimization"
+          ],
+          "background": "DeepLearning.AI founder, former Google Brain and Baidu",
+          "focus": "context management"
+        }
+      ],
+      "test_design_philosophy": "Context efficiency, retrieval accuracy, and memory management"
+    },
+    "category": "agent-context",
+    "skills": [
+      {
+        "id": "context-compression",
+        "name": "context-compression",
+        "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
+        "tags": [
+          "ai",
+          "context",
+          "optimization",
+          "tokens",
+          "summarization"
+        ]
+      },
+      {
+        "id": "context-degradation",
+        "name": "context-degradation",
+        "description": "This skill should be used when the user asks to \"diagnose context problems\", \"fix lost-in-middle issues\", \"debug agent failures\", \"understand context poisoning\", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.",
+        "tags": [
+          "ai",
+          "context",
+          "debugging",
+          "troubleshooting"
+        ]
+      },
+      {
+        "id": "context-fundamentals",
+        "name": "context-fundamentals",
+        "description": "This skill should be used when the user asks to \"understand context\", \"explain context windows\", \"design agent architecture\", \"debug context issues\", \"optimize context usage\", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems.",
+        "tags": [
+          "ai",
+          "context",
+          "architecture",
+          "fundamentals",
+          "education"
+        ]
+      },
+      {
+        "id": "filesystem-context",
+        "name": "filesystem-context",
+        "description": "This skill should be used when the user asks to \"offload context to files\", \"implement dynamic context discovery\", \"use filesystem for agent memory\", \"reduce context window bloat\", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.",
+        "tags": [
+          "ai",
+          "context",
+          "filesystem",
+          "memory",
+          "persistence"
+        ]
+      },
+      {
+        "id": "memory-systems",
+        "name": "memory-systems",
+        "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
+        "tags": [
+          "ai",
+          "agent",
+          "memory",
+          "persistence",
+          "knowledge-graph"
+        ]
+      },
+      {
+        "id": "context-engineering-collection",
+        "name": "context-engineering-collection",
+        "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+        "tags": []
+      },
+      {
+        "id": "skill-template",
+        "name": "skill-template",
+        "description": "Template for creating new Agent Skills for context engineering. Use this template when adding new skills to the collection.",
+        "tags": []
+      },
+      {
+        "id": "context-engine",
+        "name": "\"context-engine\"",
+        "description": "\"Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.\"",
+        "tags": []
+      },
+      {
+        "id": "context-engine",
+        "name": "\"context-engine\"",
+        "description": "\"Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Agent-Context Task",
+      "description": "Evaluate skill performance on typical agent-context task",
+      "input": {
+        "type": "text",
+        "value": "Test input for agent-context"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Andrew Ng",
+      "expert_focus": "context management",
+      "refinement_notes": [
+        "Reviewed by Andrew Ng",
+        "Aligned with agent-context best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Andrew Ng"
+        ],
+        "category": "agent-context",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

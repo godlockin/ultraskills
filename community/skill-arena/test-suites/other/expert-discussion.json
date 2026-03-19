@@ -1,0 +1,506 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "General Capabilities Panel",
+      "parent": "other",
+      "experts": [
+        {
+          "name": "General AI Assistant",
+          "title": "Versatile Problem Solver",
+          "expertise": [
+            "general knowledge",
+            "task completion",
+            "adaptability"
+          ],
+          "background": "Trained on diverse knowledge base",
+          "focus": "general knowledge"
+        }
+      ],
+      "test_design_philosophy": "Task completion effectiveness, response quality, and adaptability"
+    },
+    "category": "other",
+    "skills": [
+      {
+        "id": "subagent-driven-development",
+        "name": "subagent-driven-development",
+        "description": "Use when executing implementation plans with independent tasks in the current session",
+        "tags": [
+          "ai",
+          "agent",
+          "development",
+          "execution",
+          "automation"
+        ]
+      },
+      {
+        "id": "init",
+        "name": "\"init\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "cs-content-creator",
+        "name": "cs-content-creator",
+        "description": "AI-powered content creation specialist for brand voice consistency, SEO optimization, and multi-platform content strategy",
+        "tags": []
+      },
+      {
+        "id": "change-management",
+        "name": "\"change-management\"",
+        "description": "\"Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, changing leadership, or when user mentions change management, change rollout, managing resistance, org change, reorg, or pivot communication.\"",
+        "tags": []
+      },
+      {
+        "id": "org-health-diagnostic",
+        "name": "\"org-health-diagnostic\"",
+        "description": "\"Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard.\"",
+        "tags": []
+      },
+      {
+        "id": "scenario-war-room",
+        "name": "\"scenario-war-room\"",
+        "description": "\"Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?'\"",
+        "tags": []
+      },
+      {
+        "id": "self-improving-agent",
+        "name": "\"self-improving-agent\"",
+        "description": "\"Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern from notes to enforced rules, (3) turning a debugging solution into a skill, (4) checking memory health and capacity.\"",
+        "tags": []
+      },
+      {
+        "id": "saas-scaffolder",
+        "name": "\"saas-scaffolder\"",
+        "description": "\"Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new SaaS app, start a subscription-based web project, scaffold a Next.js application, or mentions terms like starter template, boilerplate, new project, or wiring up auth and payments.\"",
+        "tags": []
+      },
+      {
+        "id": "culture-architect",
+        "name": "\"culture-architect\"",
+        "description": "\"Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, or culture code.\"",
+        "tags": []
+      },
+      {
+        "id": "dependency-auditor",
+        "name": "\"dependency-auditor\"",
+        "description": "\"Dependency Auditor\"",
+        "tags": []
+      },
+      {
+        "id": "sales-engineer",
+        "name": "\"sales-engineer\"",
+        "description": "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a customer POC or sales demo; preparing a technical proposal; or performing win/loss competitor analysis. Handles tasks described as 'RFP response', 'bid response', 'proposal response', 'competitor comparison', 'feature matrix', 'POC planning', 'sales demo prep', or 'pre-sales engineering'.",
+        "tags": []
+      },
+      {
+        "id": "atlassian-admin",
+        "name": "\"atlassian-admin\"",
+        "description": "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, update admin settings, manage Atlassian groups, set up SSO, install marketplace apps, review security policies, or handle any org-wide Atlassian administration task.",
+        "tags": []
+      },
+      {
+        "id": "promote",
+        "name": "\"promote\"",
+        "description": "\"Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.\"",
+        "tags": []
+      },
+      {
+        "id": "incident-commander",
+        "name": "\"incident-commander\"",
+        "description": "\"Incident Commander Skill\"",
+        "tags": []
+      },
+      {
+        "id": "monorepo-navigator",
+        "name": "\"monorepo-navigator\"",
+        "description": "\"Monorepo Navigator\"",
+        "tags": []
+      },
+      {
+        "id": "executive-mentor",
+        "name": "\"executive-mentor\"",
+        "description": "\"Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or understand what actually went wrong.\"",
+        "tags": []
+      },
+      {
+        "id": "capa-officer",
+        "name": "\"capa-officer\"",
+        "description": "CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.",
+        "tags": []
+      },
+      {
+        "id": "status",
+        "name": "\"status\"",
+        "description": "\"Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.\"",
+        "tags": []
+      },
+      {
+        "id": "cs-project-manager",
+        "name": "cs-project-manager",
+        "description": "Project Manager agent for sprint planning, Jira/Confluence workflows, Scrum ceremonies, and stakeholder reporting. Orchestrates project-management skills.",
+        "tags": []
+      },
+      {
+        "id": "senior-fullstack",
+        "name": "\"senior-fullstack\"",
+        "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", \"analyze code quality\", \"audit my codebase\", \"what stack should I use\", \"generate project boilerplate\", or mentions fullstack development, project setup, or tech stack comparison.",
+        "tags": []
+      },
+      {
+        "id": "senior-ml-engineer",
+        "name": "\"senior-ml-engineer\"",
+        "description": "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kubeflow, Kubernetes, Docker), monitoring model performance or drift, building RAG pipelines, or integrating LLM APIs with retry logic and cost controls. Focused on production and operational concerns rather than model research or initial training.",
+        "tags": []
+      },
+      {
+        "id": "chief-of-staff",
+        "name": "\"chief-of-staff\"",
+        "description": "\"C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.\"",
+        "tags": []
+      },
+      {
+        "id": "marketing-ops",
+        "name": "\"marketing-ops\"",
+        "description": "\"Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next,' 'marketing priorities,' or 'coordinate marketing.'\"",
+        "tags": []
+      },
+      {
+        "id": "customer-success-manager",
+        "name": "\"customer-success-manager\"",
+        "description": "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell opportunities, expansion revenue, retention analysis, or customer analytics. Runs three Python CLI tools to produce deterministic health scores, churn risk tiers, and prioritized expansion recommendations across Enterprise, Mid-Market, and SMB segments.",
+        "tags": []
+      },
+      {
+        "id": "senior-backend",
+        "name": "\"senior-backend\"",
+        "description": "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set up GraphQL\", \"handle database migrations\", or \"load test APIs\". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.",
+        "tags": []
+      },
+      {
+        "id": "senior-pm",
+        "name": "\"senior-pm\"",
+        "description": "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simulation, WSJF prioritization, and multi-dimensional health scoring. Use when a user needs help with project plans, project status reports, risk assessments, resource allocation, project roadmaps, milestone tracking, team capacity planning, portfolio health reviews, program management, or executive-level project reporting — especially for enterprise-scale initiatives with multiple workstreams, complex dependencies, or multi-million dollar budgets.",
+        "tags": []
+      },
+      {
+        "id": "founder-coach",
+        "name": "\"founder-coach\"",
+        "description": "\"Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentions founder mode, CEO growth, leadership development, delegation, burnout, or imposter syndrome.\"",
+        "tags": []
+      },
+      {
+        "id": "fix",
+        "name": "\"fix\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "company-os",
+        "name": "\"company-os\"",
+        "description": "\"The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selecting a management framework, designing meeting rhythms, building accountability systems, implementing OKRs, or when user mentions EOS, Scaling Up, operating system, L10 meetings, rocks, scorecard, accountability chart, or quarterly planning.\"",
+        "tags": []
+      },
+      {
+        "id": "report",
+        "name": "\"report\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "cs-agile-product-owner",
+        "name": "cs-agile-product-owner",
+        "description": "Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation",
+        "tags": []
+      },
+      {
+        "id": "confluence-expert",
+        "name": "\"confluence-expert\"",
+        "description": "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or restructure a Confluence space, design page hierarchies with permission structures, author or standardise documentation templates, embed Jira reports in pages, run knowledge base audits, or establish documentation standards and collaborative workflows.",
+        "tags": []
+      },
+      {
+        "id": "senior-qa",
+        "name": "\"senior-qa\"",
+        "description": "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, creates test fixtures, and configures test runners. Use when the user asks to \"generate tests\", \"write unit tests\", \"analyze test coverage\", \"scaffold E2E tests\", \"set up Playwright\", \"configure Jest\", \"implement testing patterns\", or \"improve test quality\".",
+        "tags": []
+      },
+      {
+        "id": "ms365-tenant-manager",
+        "name": "\"ms365-tenant-manager\"",
+        "description": "Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, license management, and compliance reporting. Use for M365 tenant manager, Office 365 admin, Azure AD users, Global Administrator, tenant configuration, or Microsoft 365 automation.",
+        "tags": []
+      },
+      {
+        "id": "browserstack",
+        "name": "\"browserstack\"",
+        "description": ">-",
+        "tags": []
+      },
+      {
+        "id": "challenge",
+        "name": "\"challenge\"",
+        "description": "\"/em -challenge — Pre-Mortem Plan Analysis\"",
+        "tags": []
+      },
+      {
+        "id": "board-prep",
+        "name": "\"board-prep\"",
+        "description": "\"/em -board-prep — Board Meeting Preparation\"",
+        "tags": []
+      },
+      {
+        "id": "atlassian-templates",
+        "name": "\"atlassian-templates\"",
+        "description": "Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content generation.",
+        "tags": []
+      },
+      {
+        "id": "churn-prevention",
+        "name": "\"churn-prevention\"",
+        "description": "\"Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, save offers, dunning, exit survey, payment recovery, win-back, involuntary churn, failed payments, cancel page. NOT for customer health scoring or expansion revenue — use customer-success-manager for that.\"",
+        "tags": []
+      },
+      {
+        "id": "content-humanizer",
+        "name": "\"content-humanizer\"",
+        "description": "\"Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'sounds robotic', 'fix AI writing', 'inject our voice'. NOT for initial content creation (use content-production). NOT for SEO optimization (use content-production Mode 3).\"",
+        "tags": []
+      },
+      {
+        "id": "hard-call",
+        "name": "\"hard-call\"",
+        "description": "\"/em -hard-call — Framework for Decisions With No Good Options\"",
+        "tags": []
+      },
+      {
+        "id": "risk-management-specialist",
+        "name": "\"risk-management-specialist\"",
+        "description": "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.",
+        "tags": []
+      },
+      {
+        "id": "change-management",
+        "name": "\"change-management\"",
+        "description": "\"Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, changing leadership, or when user mentions change management, change rollout, managing resistance, org change, reorg, or pivot communication.\"",
+        "tags": []
+      },
+      {
+        "id": "org-health-diagnostic",
+        "name": "\"org-health-diagnostic\"",
+        "description": "\"Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard.\"",
+        "tags": []
+      },
+      {
+        "id": "scenario-war-room",
+        "name": "\"scenario-war-room\"",
+        "description": "\"Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?'\"",
+        "tags": []
+      },
+      {
+        "id": "culture-architect",
+        "name": "\"culture-architect\"",
+        "description": "\"Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, or culture code.\"",
+        "tags": []
+      },
+      {
+        "id": "executive-mentor",
+        "name": "\"executive-mentor\"",
+        "description": "\"Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or understand what actually went wrong.\"",
+        "tags": []
+      },
+      {
+        "id": "chief-of-staff",
+        "name": "\"chief-of-staff\"",
+        "description": "\"C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.\"",
+        "tags": []
+      },
+      {
+        "id": "founder-coach",
+        "name": "\"founder-coach\"",
+        "description": "\"Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentions founder mode, CEO growth, leadership development, delegation, burnout, or imposter syndrome.\"",
+        "tags": []
+      },
+      {
+        "id": "company-os",
+        "name": "\"company-os\"",
+        "description": "\"The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selecting a management framework, designing meeting rhythms, building accountability systems, implementing OKRs, or when user mentions EOS, Scaling Up, operating system, L10 meetings, rocks, scorecard, accountability chart, or quarterly planning.\"",
+        "tags": []
+      },
+      {
+        "id": "sales-engineer",
+        "name": "\"sales-engineer\"",
+        "description": "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a customer POC or sales demo; preparing a technical proposal; or performing win/loss competitor analysis. Handles tasks described as 'RFP response', 'bid response', 'proposal response', 'competitor comparison', 'feature matrix', 'POC planning', 'sales demo prep', or 'pre-sales engineering'.",
+        "tags": []
+      },
+      {
+        "id": "customer-success-manager",
+        "name": "\"customer-success-manager\"",
+        "description": "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell opportunities, expansion revenue, retention analysis, or customer analytics. Runs three Python CLI tools to produce deterministic health scores, churn risk tiers, and prioritized expansion recommendations across Enterprise, Mid-Market, and SMB segments.",
+        "tags": []
+      },
+      {
+        "id": "atlassian-admin",
+        "name": "\"atlassian-admin\"",
+        "description": "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, update admin settings, manage Atlassian groups, set up SSO, install marketplace apps, review security policies, or handle any org-wide Atlassian administration task.",
+        "tags": []
+      },
+      {
+        "id": "senior-pm",
+        "name": "\"senior-pm\"",
+        "description": "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simulation, WSJF prioritization, and multi-dimensional health scoring. Use when a user needs help with project plans, project status reports, risk assessments, resource allocation, project roadmaps, milestone tracking, team capacity planning, portfolio health reviews, program management, or executive-level project reporting — especially for enterprise-scale initiatives with multiple workstreams, complex dependencies, or multi-million dollar budgets.",
+        "tags": []
+      },
+      {
+        "id": "confluence-expert",
+        "name": "\"confluence-expert\"",
+        "description": "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or restructure a Confluence space, design page hierarchies with permission structures, author or standardise documentation templates, embed Jira reports in pages, run knowledge base audits, or establish documentation standards and collaborative workflows.",
+        "tags": []
+      },
+      {
+        "id": "atlassian-templates",
+        "name": "\"atlassian-templates\"",
+        "description": "Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content generation.",
+        "tags": []
+      },
+      {
+        "id": "self-improving-agent",
+        "name": "\"self-improving-agent\"",
+        "description": "\"Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern from notes to enforced rules, (3) turning a debugging solution into a skill, (4) checking memory health and capacity.\"",
+        "tags": []
+      },
+      {
+        "id": "incident-commander",
+        "name": "\"incident-commander\"",
+        "description": "\"Incident Commander Skill\"",
+        "tags": []
+      },
+      {
+        "id": "senior-fullstack",
+        "name": "\"senior-fullstack\"",
+        "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", \"analyze code quality\", \"audit my codebase\", \"what stack should I use\", \"generate project boilerplate\", or mentions fullstack development, project setup, or tech stack comparison.",
+        "tags": []
+      },
+      {
+        "id": "senior-ml-engineer",
+        "name": "\"senior-ml-engineer\"",
+        "description": "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kubeflow, Kubernetes, Docker), monitoring model performance or drift, building RAG pipelines, or integrating LLM APIs with retry logic and cost controls. Focused on production and operational concerns rather than model research or initial training.",
+        "tags": []
+      },
+      {
+        "id": "senior-backend",
+        "name": "\"senior-backend\"",
+        "description": "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set up GraphQL\", \"handle database migrations\", or \"load test APIs\". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.",
+        "tags": []
+      },
+      {
+        "id": "senior-qa",
+        "name": "\"senior-qa\"",
+        "description": "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, creates test fixtures, and configures test runners. Use when the user asks to \"generate tests\", \"write unit tests\", \"analyze test coverage\", \"scaffold E2E tests\", \"set up Playwright\", \"configure Jest\", \"implement testing patterns\", or \"improve test quality\".",
+        "tags": []
+      },
+      {
+        "id": "ms365-tenant-manager",
+        "name": "\"ms365-tenant-manager\"",
+        "description": "Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, license management, and compliance reporting. Use for M365 tenant manager, Office 365 admin, Azure AD users, Global Administrator, tenant configuration, or Microsoft 365 automation.",
+        "tags": []
+      },
+      {
+        "id": "marketing-ops",
+        "name": "\"marketing-ops\"",
+        "description": "\"Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next,' 'marketing priorities,' or 'coordinate marketing.'\"",
+        "tags": []
+      },
+      {
+        "id": "churn-prevention",
+        "name": "\"churn-prevention\"",
+        "description": "\"Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, save offers, dunning, exit survey, payment recovery, win-back, involuntary churn, failed payments, cancel page. NOT for customer health scoring or expansion revenue — use customer-success-manager for that.\"",
+        "tags": []
+      },
+      {
+        "id": "content-humanizer",
+        "name": "\"content-humanizer\"",
+        "description": "\"Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'sounds robotic', 'fix AI writing', 'inject our voice'. NOT for initial content creation (use content-production). NOT for SEO optimization (use content-production Mode 3).\"",
+        "tags": []
+      },
+      {
+        "id": "capa-officer",
+        "name": "\"capa-officer\"",
+        "description": "CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.",
+        "tags": []
+      },
+      {
+        "id": "risk-management-specialist",
+        "name": "\"risk-management-specialist\"",
+        "description": "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.",
+        "tags": []
+      },
+      {
+        "id": "saas-scaffolder",
+        "name": "\"saas-scaffolder\"",
+        "description": "\"Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new SaaS app, start a subscription-based web project, scaffold a Next.js application, or mentions terms like starter template, boilerplate, new project, or wiring up auth and payments.\"",
+        "tags": []
+      },
+      {
+        "id": "dependency-auditor",
+        "name": "\"dependency-auditor\"",
+        "description": "\"Dependency Auditor\"",
+        "tags": []
+      },
+      {
+        "id": "monorepo-navigator",
+        "name": "\"monorepo-navigator\"",
+        "description": "\"Monorepo Navigator\"",
+        "tags": []
+      },
+      {
+        "id": "template-skill",
+        "name": "template-skill",
+        "description": "Replace with description of the skill and when Claude should use it.",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Other Task",
+      "description": "Evaluate skill performance on typical other task",
+      "input": {
+        "type": "text",
+        "value": "Test input for other"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "General AI Assistant",
+      "expert_focus": "general knowledge",
+      "refinement_notes": [
+        "Reviewed by General AI Assistant",
+        "Aligned with other best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "General AI Assistant"
+        ],
+        "category": "other",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

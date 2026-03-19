@@ -50,3 +50,4 @@ devops/skill-arena/test-suites/
 
 # Auth and secrets
 auth/
+.gstack/

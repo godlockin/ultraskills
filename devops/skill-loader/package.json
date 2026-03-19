@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-loader",
+  "version": "1.0.0",
+  "description": "高效的 Skills 动态加载和发现系统 - 提供索引缓存、语义搜索、智能路由功能",
+  "author": {
+    "name": "UltraSkills Team"
+  },
+  "plugins": [
+    {
+      "name": "skills-discovery",
+      "description": "MCP Server for skill discovery and routing",
+      "source": "./devops/skill-loader",
+      "category": "productivity"
+    }
+  ]
+}

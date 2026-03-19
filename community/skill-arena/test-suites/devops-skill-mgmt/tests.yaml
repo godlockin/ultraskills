@@ -1,0 +1,37 @@
+cluster: cluster-025-devops-skill-mgmt
+description: Expert-designed test suite for devops-skill-mgmt skills
+expert_panel:
+  experts:
+  - Kelsey Hightower
+  name: Skill Lifecycle Management Panel
+name: Devops-Skill-Mgmt Skills Benchmark
+test_cases:
+- consensus:
+    approved_by:
+    - Kelsey Hightower
+    category: devops-skill-mgmt
+    coverage: comprehensive
+  description: Evaluate skill performance on typical devops-skill-mgmt task
+  expected_outputs:
+  - Relevant and accurate output
+  expert_focus: knowledge management
+  id: tc-001
+  input:
+    type: text
+    value: Test input for devops-skill-mgmt
+  name: Standard Devops-Skill-Mgmt Task
+  proposed_by: Kelsey Hightower
+  refinement_notes:
+  - Reviewed by Kelsey Hightower
+  - Aligned with devops-skill-mgmt best practices
+  scoring:
+    maintainability:
+      max_points: 20
+      weight: 0.2
+    quality:
+      max_points: 50
+      weight: 0.5
+    speed:
+      max_points: 30
+      weight: 0.3
+version: 1.0.0

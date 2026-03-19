@@ -1,0 +1,146 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Growth Marketing Panel",
+      "parent": "marketing",
+      "experts": [
+        {
+          "name": "Rand Fishkin",
+          "title": "Marketing Transparency Advocate",
+          "expertise": [
+            "growth loops",
+            "viral mechanics",
+            "organic growth"
+          ],
+          "background": "SparkToro founder, former Moz CEO",
+          "focus": "growth loops"
+        }
+      ],
+      "test_design_philosophy": "Loop design, viral coefficient optimization, and sustainable growth"
+    },
+    "category": "marketing-growth",
+    "skills": [
+      {
+        "id": "free-tool-strategy",
+        "name": "free-tool-strategy",
+        "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For content-based lead generation, see content-strategy.",
+        "tags": []
+      },
+      {
+        "id": "referral-program",
+        "name": "referral-program",
+        "description": "\"When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.\"",
+        "tags": []
+      },
+      {
+        "id": "business-growth-skills",
+        "name": "\"business-growth-skills\"",
+        "description": "\"4 production-ready business and growth skills: customer success manager with health scoring and churn prediction, sales engineer with RFP analysis, revenue operations with pipeline and GTM metrics, and contract & proposal writer. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "business",
+          "customer-success",
+          "sales",
+          "revenue-operations",
+          "growth"
+        ]
+      },
+      {
+        "id": "business-growth-skills",
+        "name": "\"business-growth-skills\"",
+        "description": "\"4 production-ready business and growth skills: customer success manager with health scoring and churn prediction, sales engineer with RFP analysis, revenue operations with pipeline and GTM metrics, and contract & proposal writer. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw.\"",
+        "tags": [
+          "business",
+          "customer-success",
+          "sales",
+          "revenue-operations",
+          "growth"
+        ]
+      },
+      {
+        "id": "cs-growth-strategist",
+        "name": "cs-growth-strategist",
+        "description": "Growth Strategist agent for revenue operations, sales engineering, customer success, and business development. Orchestrates business-growth skills. Spawn when users need pipeline analysis, churn prevention, expansion scoring, sales demos, or proposal writing.",
+        "tags": []
+      },
+      {
+        "id": "cmo-advisor",
+        "name": "\"cmo-advisor\"",
+        "description": "\"Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when user mentions CMO, brand strategy, growth model, CAC, LTV, channel mix, or marketing ROI.\"",
+        "tags": []
+      },
+      {
+        "id": "free-tool-strategy",
+        "name": "\"free-tool-strategy\"",
+        "description": "\"When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive tool,' or 'free resource.' Covers idea evaluation, tool design, and launch strategy. For pure SEO content strategy (no tool), use seo-audit or content-strategy instead.\"",
+        "tags": []
+      },
+      {
+        "id": "referral-program",
+        "name": "\"referral-program\"",
+        "description": "\"When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through referrals.' Covers program mechanics, incentive design, and optimization — not just the idea of referrals but the actual system.\"",
+        "tags": []
+      },
+      {
+        "id": "cmo-advisor",
+        "name": "\"cmo-advisor\"",
+        "description": "\"Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when user mentions CMO, brand strategy, growth model, CAC, LTV, channel mix, or marketing ROI.\"",
+        "tags": []
+      },
+      {
+        "id": "free-tool-strategy",
+        "name": "\"free-tool-strategy\"",
+        "description": "\"When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive tool,' or 'free resource.' Covers idea evaluation, tool design, and launch strategy. For pure SEO content strategy (no tool), use seo-audit or content-strategy instead.\"",
+        "tags": []
+      },
+      {
+        "id": "referral-program",
+        "name": "\"referral-program\"",
+        "description": "\"When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through referrals.' Covers program mechanics, incentive design, and optimization — not just the idea of referrals but the actual system.\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Marketing-Growth Task",
+      "description": "Evaluate skill performance on typical marketing-growth task",
+      "input": {
+        "type": "text",
+        "value": "Test input for marketing-growth"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Rand Fishkin",
+      "expert_focus": "growth loops",
+      "refinement_notes": [
+        "Reviewed by Rand Fishkin",
+        "Aligned with marketing-growth best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Rand Fishkin"
+        ],
+        "category": "marketing-growth",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}

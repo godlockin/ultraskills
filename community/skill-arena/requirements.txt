@@ -1,0 +1,2 @@
+# Skill Arena Dependencies
+python-dotenv>=1.0.0  # Environment variable loading from .env files

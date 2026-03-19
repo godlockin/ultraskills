@@ -1,0 +1,98 @@
+{
+  "context": {
+    "panel": {
+      "panel_name": "Technical SEO Panel",
+      "parent": "seo",
+      "experts": [
+        {
+          "name": "Dr. Michael Brenner",
+          "title": "SEO Strategy Authority",
+          "expertise": [
+            "technical audits",
+            "crawl optimization",
+            "index coverage"
+          ],
+          "background": "Former Moz, CEO of Marketing Insider Group",
+          "focus": "technical audits"
+        },
+        {
+          "name": "Ahmed Hassan",
+          "title": "AI Search Expert",
+          "expertise": [
+            "schema markup",
+            "structured data",
+            "AI search optimization"
+          ],
+          "background": "AEO (Answer Engine Optimization) pioneer",
+          "focus": "schema markup"
+        }
+      ],
+      "test_design_philosophy": "Technical audit depth, schema correctness, and Core Web Vitals optimization"
+    },
+    "category": "seo-technical",
+    "skills": [
+      {
+        "id": "schema-markup",
+        "name": "schema-markup",
+        "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+        "tags": []
+      },
+      {
+        "id": "schema-markup",
+        "name": "\"schema-markup\"",
+        "description": "\"When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture).\"",
+        "tags": []
+      },
+      {
+        "id": "schema-markup",
+        "name": "\"schema-markup\"",
+        "description": "\"When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture).\"",
+        "tags": []
+      }
+    ],
+    "project_context": {},
+    "task": "design_test_cases"
+  },
+  "final_tests": [
+    {
+      "id": "tc-001",
+      "name": "Standard Seo-Technical Task",
+      "description": "Evaluate skill performance on typical seo-technical task",
+      "input": {
+        "type": "text",
+        "value": "Test input for seo-technical"
+      },
+      "expected_outputs": [
+        "Relevant and accurate output"
+      ],
+      "scoring": {
+        "speed": {
+          "weight": 0.3,
+          "max_points": 30
+        },
+        "quality": {
+          "weight": 0.5,
+          "max_points": 50
+        },
+        "maintainability": {
+          "weight": 0.2,
+          "max_points": 20
+        }
+      },
+      "proposed_by": "Dr. Michael Brenner",
+      "expert_focus": "technical audits",
+      "refinement_notes": [
+        "Reviewed by Dr. Michael Brenner",
+        "Aligned with seo-technical best practices"
+      ],
+      "consensus": {
+        "approved_by": [
+          "Dr. Michael Brenner",
+          "Ahmed Hassan"
+        ],
+        "category": "seo-technical",
+        "coverage": "comprehensive"
+      }
+    }
+  ]
+}
