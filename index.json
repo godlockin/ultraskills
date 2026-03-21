@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.2.26",
-    "updated_at": "2026-03-17",
+    "version": "1.2.27",
+    "updated_at": "2026-03-21",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-03-09",
-    "total_skills": 574
+    "total_skills": 575
   },
   "skills": [
     {
@@ -315,6 +315,19 @@
         "sync",
         "submodule",
         "update"
+      ]
+    },
+    {
+      "id": "bfg-repo-cleaner",
+      "name": "bfg-repo-cleaner",
+      "path": "./devops/bfg-repo-cleaner/SKILL.md",
+      "description": "Git 仓库历史清理工具。使用 BFG Repo-Cleaner 移除大文件、敏感数据（密码、密钥）、凭证等私密信息。10-720x 比 git-filter-branch 更快。触发词：清理 git 历史、删除大文件、移除敏感数据、bfg、git 仓库净化",
+      "tags": [
+        "devops",
+        "git",
+        "cleanup",
+        "security",
+        "history"
       ]
     },
     {
