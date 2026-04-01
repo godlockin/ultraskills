@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.2.27",
-    "updated_at": "2026-03-21",
+    "version": "1.2.28",
+    "updated_at": "2026-04-01",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-03-09",
-    "total_skills": 575
+    "total_skills": 578
   },
   "skills": [
     {
@@ -328,6 +328,45 @@
         "cleanup",
         "security",
         "history"
+      ]
+    },
+    {
+      "id": "pua",
+      "name": "pua",
+      "path": "./devops/pua/SKILL.md",
+      "description": "AI Agent 积极性强化技能。使用大厂 PUA 话术/绩效改进计划（PIP）话术，强制 AI 在放弃前穷尽所有解决方案。支持 13 种公司文化风格（阿里/华为/字节/腾讯/Musk/Jobs 等）。触发词：/pua, 别偷懒，认真点，不行啊，降智了，换个方法，try harder, figure it out, stop giving up",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "methodology"
+      ]
+    },
+    {
+      "id": "pua-en",
+      "name": "pua-en",
+      "path": "./devops/pua-en/SKILL.md",
+      "description": "PUA 英文 PIP 版。使用西方大厂绩效改进计划（PIP）话术，强制 AI 穷尽所有解决方案。触发词：/pua-en, PIP mode, performance review",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "english"
+      ]
+    },
+    {
+      "id": "pua-ja",
+      "name": "pua-ja",
+      "path": "./devops/pua-ja/SKILL.md",
+      "description": "PUA 日本语版。日本企業の文化と言葉遣いで AI の積極性を強化。トリガー：/pua-ja, もっと頑張って，なぜできない",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "japanese"
       ]
     },
     {
