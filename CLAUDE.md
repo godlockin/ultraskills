@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Default Skills
+
+**caveman mode is ALWAYS ON** — talk like caveman by default. Cut filler words. Keep technical accuracy. Use `/caveman lite|full|ultra` to adjust intensity or "normal mode" to disable.
+
 ## Project Overview
 
 **UltraSkils** is an extensive AI Skills library that defines modular, reusable, and verifiable AI prompt patterns following the S.C.A.L.E. model (Standardized, Composable, Automated/Auditable, Living, Examples). This is primarily a documentation/prompt library rather than a traditional code project.
