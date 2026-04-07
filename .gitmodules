@@ -34,3 +34,9 @@
 [submodule "community/gstack"]
 	path = community/gstack
 	url = https://github.com/garrytan/gstack.git
+[submodule "external/caveman"]
+	path = external/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+[submodule "external/autoresearch"]
+	path = external/autoresearch
+	url = https://github.com/karpathy/autoresearch.git
