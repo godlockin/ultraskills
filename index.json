@@ -1,1554 +1,427 @@
 {
-  "version": "1.0.0",
-  "generated_at": "2026-04-14",
-  "stats": {
-    "total": 221,
-    "owned": 87,
-    "external": 134
-  },
-  "tag_index": {
-    "git": [
-      "git-commit-master"
-    ],
-    "engineering": [
-      "git-commit-master",
-      "engineering-advanced-skills",
-      "engineering-skills"
-    ],
-    "workflow": [
-      "git-commit-master"
-    ],
-    "devops": [
-      "github-skill-scout",
-      "skill-arena",
-      "skill-sync-manager",
-      "engineering-skills"
-    ],
-    "open-source": [
-      "github-skill-scout"
-    ],
-    "automation": [
-      "github-skill-scout",
-      "media-downloader",
-      "remotion-video-creator",
-      "skill-arena",
-      "skill-sync-manager"
-    ],
-    "skill-building": [
-      "github-skill-scout"
-    ],
-    "productivity": [
-      "media-downloader",
-      "task-analyzer"
-    ],
-    "media": [
-      "media-downloader"
-    ],
-    "archiving": [
-      "media-downloader"
-    ],
-    "prompt-engineering": [
-      "prompt-optimizer",
-      "task-analyzer"
-    ],
-    "meta-prompting": [
-      "prompt-optimizer"
-    ],
-    "optimization": [
-      "prompt-optimizer"
-    ],
-    "video": [
-      "remotion-video-creator"
-    ],
-    "react": [
-      "remotion-video-creator"
-    ],
-    "remotion": [
-      "remotion-video-creator"
-    ],
-    "animation": [
-      "remotion-video-creator"
-    ],
-    "creative": [
-      "remotion-video-creator"
-    ],
-    "testing": [
-      "skill-arena"
-    ],
-    "benchmark": [
-      "skill-arena"
-    ],
-    "skill-management": [
-      "skill-arena"
-    ],
-    "sync": [
-      "skill-sync-manager"
-    ],
-    "submodule": [
-      "skill-sync-manager"
-    ],
-    "update": [
-      "skill-sync-manager"
-    ],
-    "task-planning": [
-      "task-analyzer"
-    ],
-    "analysis": [
-      "task-analyzer"
-    ],
-    "token-optimization": [
-      "caveman"
-    ],
-    "efficiency": [
-      "caveman"
-    ],
-    "communication": [
-      "caveman"
-    ],
-    "cost-reduction": [
-      "caveman"
-    ],
-    "business": [
-      "business-growth-skills"
-    ],
-    "customer-success": [
-      "business-growth-skills"
-    ],
-    "sales": [
-      "business-growth-skills"
-    ],
-    "revenue-operations": [
-      "business-growth-skills"
-    ],
-    "growth": [
-      "business-growth-skills"
-    ],
-    "architecture": [
-      "engineering-advanced-skills"
-    ],
-    "agents": [
-      "engineering-advanced-skills"
-    ],
-    "rag": [
-      "engineering-advanced-skills"
-    ],
-    "mcp": [
-      "engineering-advanced-skills"
-    ],
-    "ci-cd": [
-      "engineering-advanced-skills"
-    ],
-    "observability": [
-      "engineering-advanced-skills"
-    ],
-    "frontend": [
-      "engineering-skills"
-    ],
-    "backend": [
-      "engineering-skills"
-    ],
-    "security": [
-      "engineering-skills"
-    ],
-    "ai-ml": [
-      "engineering-skills"
-    ],
-    "data-engineering": [
-      "engineering-skills"
-    ],
-    "finance": [
-      "finance-skills"
-    ],
-    "financial-analysis": [
-      "finance-skills"
-    ],
-    "dcf": [
-      "finance-skills"
-    ],
-    "valuation": [
-      "finance-skills"
-    ],
-    "budgeting": [
-      "finance-skills"
-    ],
-    "marketing": [
-      "marketing-skills"
-    ],
-    "seo": [
-      "marketing-skills"
-    ],
-    "content": [
-      "marketing-skills"
-    ],
-    "copywriting": [
-      "marketing-skills"
-    ],
-    "cro": [
-      "marketing-skills"
-    ],
-    "analytics": [
-      "marketing-skills"
-    ],
-    "ai-seo": [
-      "marketing-skills"
-    ],
-    "product": [
-      "product-skills"
-    ],
-    "product-management": [
-      "product-skills"
-    ],
-    "ux": [
-      "product-skills"
-    ],
-    "ui": [
-      "product-skills"
-    ],
-    "saas": [
-      "product-skills"
-    ],
-    "agile": [
-      "product-skills",
-      "pm-skills"
-    ],
-    "project-management": [
-      "pm-skills"
-    ],
-    "jira": [
-      "pm-skills"
-    ],
-    "confluence": [
-      "pm-skills"
-    ],
-    "atlassian": [
-      "pm-skills"
-    ],
-    "scrum": [
-      "pm-skills"
-    ],
-    "regulatory": [
-      "ra-qm-skills"
-    ],
-    "quality-management": [
-      "ra-qm-skills"
-    ],
-    "iso-13485": [
-      "ra-qm-skills"
-    ],
-    "mdr": [
-      "ra-qm-skills"
-    ],
-    "fda": [
-      "ra-qm-skills"
-    ],
-    "iso-27001": [
-      "ra-qm-skills"
-    ],
-    "gdpr": [
-      "ra-qm-skills"
-    ]
-  },
-  "dir_index": {
-    "community": [
-      "advanced-evaluation",
-      "agent-reach",
-      "algorithmic-art",
-      "bdi-mental-states",
-      "blessing-styles",
-      "brainstorming",
-      "brand-guidelines",
-      "canvas-design",
-      "claude-api",
-      "commercial-director-pro",
-      "context-compression",
-      "context-degradation",
-      "context-fundamentals",
-      "context-optimization",
-      "dispatching-parallel-agents",
-      "doc-coauthoring",
-      "docx",
-      "dynamic-expert-group",
-      "evaluation",
-      "executing-plans",
-      "face-beautification",
-      "filesystem-context",
-      "finishing-a-development-branch",
-      "frontend-design",
-      "gemini-image-optimizer",
-      "git-commit-master",
-      "github-skill-scout",
-      "github-to-skills",
-      "gstack",
-      "hosted-agents",
-      "ikea-designer-pro",
-      "image-analyzer",
-      "image-auditor",
-      "image-reviewer",
-      "image-to-video",
-      "internal-comms",
-      "mcp-builder",
-      "media-downloader",
-      "memory-systems",
-      "multi-agent-patterns",
-      "pdf",
-      "photography-expert-pro",
-      "planning-with-files",
-      "planning-with-files-zh",
-      "planning-with-files-zht",
-      "pptx",
-      "project-development",
-      "prompt-engineer",
-      "prompt-optimizer",
-      "receiving-code-review",
-      "remotion-video-creator",
-      "requesting-code-review",
-      "skill-arena",
-      "skill-creator",
-      "skill-evolution-manager",
-      "skill-manager",
-      "skill-sync-manager",
-      "skills-finder",
-      "slack-gif-creator",
-      "subagent-driven-development",
-      "systematic-debugging",
-      "task-analyzer",
-      "test-driven-development",
-      "theme-factory",
-      "tool-design",
-      "using-git-worktrees",
-      "using-superpowers",
-      "verification-before-completion",
-      "video-frame-extractor",
-      "video-splitter",
-      "visual-expert-pro--gemini-3-0-edition",
-      "web-artifacts-builder",
-      "webapp-testing",
-      "writing-plans",
-      "writing-skills",
-      "xlsx",
-      "videocut-剪口播",
-      "videocut-剪辑",
-      "videocut-字幕",
-      "videocut-安装",
-      "videocut-自更新",
-      "videocut-自进化"
-    ],
-    "engineering": [
-      "autoresearch"
-    ],
-    "devops": [
-      "bfg-repo-cleaner",
-      "pua",
-      "pua-en",
-      "pua-ja"
-    ],
-    "external": [
-      "template-skill",
-      "caveman",
-      "stripe-best-practices",
-      "business-growth-skills",
-      "c-level-advisor",
-      "engineering-advanced-skills",
-      "engineering-skills",
-      "finance-skills",
-      "marketing-skills",
-      "product-skills",
-      "pm-skills",
-      "ra-qm-skills",
-      "context-engineering-collection",
-      "angular-architect",
-      "api-designer",
-      "architecture-designer",
-      "atlassian-mcp",
-      "chaos-engineer",
-      "cli-developer",
-      "cloud-architect",
-      "code-documenter",
-      "code-reviewer",
-      "cpp-pro",
-      "csharp-developer",
-      "database-optimizer",
-      "debugging-wizard",
-      "devops-engineer",
-      "django-expert",
-      "dotnet-core-expert",
-      "embedded-systems",
-      "fastapi-expert",
-      "feature-forge",
-      "fine-tuning-expert",
-      "flutter-expert",
-      "fullstack-guardian",
-      "game-developer",
-      "golang-pro",
-      "graphql-architect",
-      "java-architect",
-      "javascript-pro",
-      "kotlin-specialist",
-      "kubernetes-specialist",
-      "laravel-specialist",
-      "legacy-modernizer",
-      "mcp-developer",
-      "microservices-architect",
-      "ml-pipeline",
-      "monitoring-expert",
-      "nestjs-expert",
-      "nextjs-developer",
-      "pandas-pro",
-      "php-pro",
-      "playwright-expert",
-      "postgres-pro",
-      "python-pro",
-      "rag-architect",
-      "rails-expert",
-      "react-expert",
-      "react-native-expert",
-      "rust-engineer",
-      "salesforce-developer",
-      "secure-code-guardian",
-      "security-reviewer",
-      "shopify-expert",
-      "spark-engineer",
-      "spec-miner",
-      "spring-boot-engineer",
-      "sql-pro",
-      "sre-engineer",
-      "swift-expert",
-      "terraform-engineer",
-      "test-master",
-      "the-fool",
-      "typescript-pro",
-      "vue-expert",
-      "vue-expert-js",
-      "websocket-engineer",
-      "wordpress-pro",
-      "huashu-agent-swarm",
-      "huashu-article-edit",
-      "huashu-article-to-x",
-      "huashu-data-pro",
-      "huashu-design",
-      "huashu-douyin-script",
-      "huashu-image-upload",
-      "huashu-info-search",
-      "huashu-material-search",
-      "huashu-md-to-pdf",
-      "huashu-prompt-save",
-      "huashu-proofreading",
-      "huashu-research",
-      "huashu-script-polish",
-      "huashu-slides",
-      "huashu-speech-coach",
-      "huashu-topic-gen",
-      "huashu-video-check",
-      "huashu-video-outline",
-      "huashu-wechat-image",
-      "huashu-xhs-image",
-      "ab-test-setup",
-      "ad-creative",
-      "ai-seo",
-      "analytics-tracking",
-      "churn-prevention",
-      "cold-email",
-      "competitor-alternatives",
-      "content-strategy",
-      "copy-editing",
-      "copywriting",
-      "email-sequence",
-      "form-cro",
-      "free-tool-strategy",
-      "launch-strategy",
-      "lead-magnets",
-      "marketing-ideas",
-      "marketing-psychology",
-      "onboarding-cro",
-      "page-cro",
-      "paid-ads",
-      "paywall-upgrade-cro",
-      "popup-cro",
-      "pricing-strategy",
-      "product-marketing-context",
-      "programmatic-seo",
-      "referral-program",
-      "revops",
-      "sales-enablement",
-      "schema-markup",
-      "seo-audit",
-      "signup-flow-cro",
-      "site-architecture",
-      "social-content",
-      "huashu-nuwa",
-      "web-access"
-    ]
+  "meta": {
+    "version": "1.2.28",
+    "updated_at": "2026-04-07",
+    "arena_version": "1.0.0",
+    "arena_updated_at": "2026-03-09",
+    "total_skills": 114
   },
   "skills": [
     {
-      "id": "advanced-evaluation",
-      "name": "advanced-evaluation",
-      "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/advanced-evaluation",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 43,
-        "category": "product-discovery",
-        "score": 45.62,
-        "scores": {
-          "speed": 12.62,
-          "quality": 25.0,
-          "maintainability": 8.0,
-          "total": 45.62
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "web-access",
+      "name": "web-access",
+      "path": "./external/web-access/SKILL.md",
+      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。提供 CDP 浏览器自动化、站点经验积累、并行分治等能力。",
+      "tags": [
+        "browser",
+        "automation",
+        "cdp",
+        "web-search",
+        "web-fetch"
+      ]
     },
     {
-      "id": "agent-reach",
-      "name": "agent-reach",
-      "description": "给 AI Agent 一键装上互联网能力 - 读取网页、搜索 Twitter/YouTube/GitHub、解析小红书/抖音等",
-      "version": "v1.2.0",
-      "tags": [],
-      "path": "./community/agent-reach",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 53,
-        "category": "other",
-        "score": 72.15,
-        "scores": {
-          "speed": 11.15,
-          "quality": 50.0,
-          "maintainability": 11.0,
-          "total": 72.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "gstack",
+      "name": "gstack",
+      "path": "./community/gstack/SKILL.md",
+      "description": "Fast headless browser for QA testing and site dogfooding. Navigate any URL, interact with elements, verify page state, diff before/after actions, take annotated screenshots, check responsive layouts, test forms and uploads, handle dialogs, and assert element states.",
+      "tags": [
+        "qa",
+        "testing",
+        "browser",
+        "automation",
+        "playwright"
+      ]
     },
     {
-      "id": "algorithmic-art",
-      "name": "algorithmic-art",
-      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/algorithmic-art",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 94,
-        "category": "other",
-        "score": 59.71,
-        "scores": {
-          "speed": 4.71,
-          "quality": 40.0,
-          "maintainability": 15.0,
-          "total": 59.71
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "browse",
+      "name": "browse",
+      "path": "./community/gstack/browse/SKILL.md",
+      "description": "Fast headless browser for QA testing and site dogfooding. Navigate any URL, interact with elements, verify page state, take annotated screenshots, check responsive layouts, test forms and uploads, handle dialogs, and assert element states. ~100ms per command.",
+      "tags": [
+        "qa",
+        "testing",
+        "browser",
+        "automation",
+        "playwright"
+      ]
     },
     {
-      "id": "bdi-mental-states",
-      "name": "bdi-mental-states",
-      "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/bdi-mental-states",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 1,
-        "category": "agent-bdi",
-        "score": 77.9,
-        "scores": {
-          "speed": 12.9,
-          "quality": 50.0,
-          "maintainability": 15.0,
-          "total": 77.9
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "plan-ceo-review",
+      "name": "plan-ceo-review",
+      "path": "./community/gstack/plan-ceo-review/SKILL.md",
+      "description": "CEO/founder-mode plan review. Rethink the problem, find the 10-star product, challenge premises, expand scope when it creates a better product.",
+      "tags": [
+        "planning",
+        "product",
+        "strategy",
+        "review"
+      ]
     },
     {
-      "id": "blessing-styles",
-      "name": "blessing-styles",
-      "description": "",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/blessing-styles",
-      "source": "owned",
-      "source_dir": "community"
+      "id": "plan-eng-review",
+      "name": "plan-eng-review",
+      "path": "./community/gstack/plan-eng-review/SKILL.md",
+      "description": "Eng manager-mode plan review. Lock in the execution plan — architecture, data flow, diagrams, edge cases, test coverage, performance.",
+      "tags": [
+        "planning",
+        "engineering",
+        "architecture",
+        "review"
+      ]
     },
     {
-      "id": "brainstorming",
-      "name": "brainstorming",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/brainstorming",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 21,
-        "category": "compliance-ra",
-        "score": 50.64,
-        "scores": {
-          "speed": 25.64,
-          "quality": 25.0,
-          "maintainability": 0.0,
-          "total": 50.64
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "plan-design-review",
+      "name": "plan-design-review",
+      "path": "./community/gstack/plan-design-review/SKILL.md",
+      "description": "Designer's eye review of a live site. Finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns. Report-only — never modifies code.",
+      "tags": [
+        "design",
+        "review",
+        "ui",
+        "frontend"
+      ]
     },
     {
-      "id": "brand-guidelines",
-      "name": "brand-guidelines",
-      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/brand-guidelines",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 5,
-        "category": "product-ux",
-        "score": 70.67,
-        "scores": {
-          "speed": 11.17,
-          "quality": 45.0,
-          "maintainability": 14.5,
-          "total": 70.67
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "design-consultation",
+      "name": "design-consultation",
+      "path": "./community/gstack/design-consultation/SKILL.md",
+      "description": "Design consultation: understands your product, researches competitors, proposes a complete design system, and generates font+color preview pages. Creates DESIGN.md.",
+      "tags": [
+        "design",
+        "consultation",
+        "design-system"
+      ]
     },
     {
-      "id": "canvas-design",
-      "name": "canvas-design",
-      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/canvas-design",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 3,
-        "category": "creative-visual",
-        "score": 45.15,
-        "scores": {
-          "speed": 5.15,
-          "quality": 25.0,
-          "maintainability": 15.0,
-          "total": 45.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "review",
+      "name": "review",
+      "path": "./community/gstack/review/SKILL.md",
+      "description": "Pre-landing PR review. Analyzes diff against the base branch for SQL safety, LLM trust boundary violations, conditional side effects, and other structural issues.",
+      "tags": [
+        "code-review",
+        "pr",
+        "security"
+      ]
     },
     {
-      "id": "claude-api",
-      "name": "claude-api",
-      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/claude-api",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 4,
-        "category": "agent-tool",
-        "score": 67.77,
-        "scores": {
-          "speed": 6.27,
-          "quality": 50.0,
-          "maintainability": 11.5,
-          "total": 67.77
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "ship",
+      "name": "ship",
+      "path": "./community/gstack/ship/SKILL.md",
+      "description": "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION, update CHANGELOG, commit, push, create PR.",
+      "tags": [
+        "ship",
+        "deployment",
+        "workflow"
+      ]
     },
     {
-      "id": "commercial-director-pro",
-      "name": "commercial-director-pro",
-      "description": "Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/commercial-director",
-      "source": "owned",
-      "source_dir": "community"
+      "id": "qa",
+      "name": "qa",
+      "path": "./community/gstack/qa/SKILL.md",
+      "description": "Systematically QA test a web application and fix bugs found. Runs QA testing, then iteratively fixes bugs in source code. Produces before/after health scores.",
+      "tags": [
+        "qa",
+        "testing",
+        "bug-fix",
+        "browser"
+      ]
     },
     {
-      "id": "context-compression",
-      "name": "context-compression",
-      "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/context-compression",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "agent-context",
-        "score": 74.32,
-        "scores": {
-          "speed": 8.32,
-          "quality": 50.0,
-          "maintainability": 16.0,
-          "total": 74.32
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "qa-only",
+      "name": "qa-only",
+      "path": "./community/gstack/qa-only/SKILL.md",
+      "description": "Report-only QA testing. Systematically tests a web application and produces a structured report with health score, screenshots, and repro steps — but never fixes anything.",
+      "tags": [
+        "qa",
+        "testing",
+        "report"
+      ]
     },
     {
-      "id": "context-degradation",
-      "name": "context-degradation",
-      "description": "This skill should be used when the user asks to \"diagnose context problems\", \"fix lost-in-middle issues\", \"debug agent failures\", \"understand context poisoning\", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/context-degradation",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 40,
-        "category": "product-discovery",
-        "score": 49.79,
-        "scores": {
-          "speed": 16.79,
-          "quality": 25.0,
-          "maintainability": 8.0,
-          "total": 49.79
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "qa-design-review",
+      "name": "qa-design-review",
+      "path": "./community/gstack/qa-design-review/SKILL.md",
+      "description": "Designer's eye QA: finds visual inconsistency, AI slop patterns — then fixes them. Iteratively fixes issues with atomic commits and before/after screenshots.",
+      "tags": [
+        "design",
+        "qa",
+        "frontend",
+        "ui"
+      ]
     },
     {
-      "id": "context-fundamentals",
-      "name": "context-fundamentals",
-      "description": "This skill should be used when the user asks to \"understand context\", \"explain context windows\", \"design agent architecture\", \"debug context issues\", \"optimize context usage\", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/context-fundamentals",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 3,
-        "category": "agent-context",
-        "score": 74.3,
-        "scores": {
-          "speed": 9.8,
-          "quality": 50.0,
-          "maintainability": 14.5,
-          "total": 74.3
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "setup-browser-cookies",
+      "name": "setup-browser-cookies",
+      "path": "./community/gstack/setup-browser-cookies/SKILL.md",
+      "description": "Import cookies from your real browser (Comet, Chrome, Arc, Brave, Edge) into the headless browse session. Use before QA testing authenticated pages.",
+      "tags": [
+        "qa",
+        "testing",
+        "browser",
+        "cookies"
+      ]
     },
     {
-      "id": "context-optimization",
-      "name": "context-optimization",
-      "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/context-optimization",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 1,
-        "category": "seo-content",
-        "score": 79.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 4.5,
-          "total": 79.5
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "retro",
+      "name": "retro",
+      "path": "./community/gstack/retro/SKILL.md",
+      "description": "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics. Team-aware: breaks down per-person contributions.",
+      "tags": [
+        "retro",
+        "engineering",
+        "team"
+      ]
     },
     {
-      "id": "dispatching-parallel-agents",
-      "name": "dispatching-parallel-agents",
-      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/dispatching-parallel-agents",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 3,
-        "category": "agent-workflow",
-        "score": 65.37,
-        "scores": {
-          "speed": 7.37,
-          "quality": 45.0,
-          "maintainability": 13.0,
-          "total": 65.37
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "document-release",
+      "name": "document-release",
+      "path": "./community/gstack/document-release/SKILL.md",
+      "description": "Post-ship documentation update. Reads all project docs, cross-references the diff, updates README/ARCHITECTURE/CONTRIBUTING to match what shipped.",
+      "tags": [
+        "documentation",
+        "release",
+        "writing"
+      ]
     },
     {
-      "id": "doc-coauthoring",
-      "name": "doc-coauthoring",
-      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/doc-coauthoring",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 13,
-        "category": "eng-security",
-        "score": 50.08,
-        "scores": {
-          "speed": 14.08,
-          "quality": 25.0,
-          "maintainability": 11.0,
-          "total": 50.08
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "docx",
-      "name": "docx",
-      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/docx",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 5,
-        "category": "data-docs",
-        "score": 60.65,
-        "scores": {
-          "speed": 9.15,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 60.65
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "dynamic-expert-group",
-      "name": "dynamic-expert-group",
-      "description": "动态组建专家组技能。根据任务目标、状态、进度、挑战动态创建、定义、细化专家设定，\n并组建专家组协同推进任务完成。\n\n触发场景：\n- 需要多角度分析任务\n- 需要不同领域专业知识\n- 需要专家讨论和决策\n- 用户请求\"专家组\"、\"专家团队\"、\"多个专家\"等\n\n不适用：简单明确的单一任务、纯执行类任务",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/dynamic-expert-group",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 61,
-        "category": "other",
-        "score": 69.86,
-        "scores": {
-          "speed": 12.86,
-          "quality": 50.0,
-          "maintainability": 7.0,
-          "total": 69.86
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "evaluation",
-      "name": "evaluation",
-      "description": "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/evaluation",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 11,
-        "category": "eng-testing",
-        "score": 66.08,
-        "scores": {
-          "speed": 6.08,
-          "quality": 45.0,
-          "maintainability": 15.0,
-          "total": 66.08
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "executing-plans",
-      "name": "executing-plans",
-      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/executing-plans",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 11,
-        "category": "eng-code-quality",
-        "score": 59.15,
-        "scores": {
-          "speed": 7.65,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 59.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "face-beautification",
-      "name": "face-beautification",
-      "description": "",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/face-beautification",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "filesystem-context",
-      "name": "filesystem-context",
-      "description": "This skill should be used when the user asks to \"offload context to files\", \"implement dynamic context discovery\", \"use filesystem for agent memory\", \"reduce context window bloat\", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/filesystem-context",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 13,
-        "category": "product-discovery",
-        "score": 74.92,
-        "scores": {
-          "speed": 6.92,
-          "quality": 50.0,
-          "maintainability": 18.0,
-          "total": 74.92
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "finishing-a-development-branch",
-      "name": "finishing-a-development-branch",
-      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/finishing-a-development-branch",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 1,
-        "category": "compliance-ra",
-        "score": 84.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 4.5,
-          "total": 84.5
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "frontend-design",
-      "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/frontend-design",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 8,
-        "category": "product-ux",
-        "score": 66.36,
-        "scores": {
-          "speed": 11.36,
-          "quality": 45.0,
-          "maintainability": 10.0,
-          "total": 66.36
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "gemini-image-optimizer",
-      "name": "gemini-image-optimizer",
-      "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/gemini-image-optimizer",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 7,
-        "category": "product-discovery",
-        "score": 78.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 3.0,
-          "total": 78.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "gstack-upgrade",
+      "name": "gstack-upgrade",
+      "path": "./community/gstack/gstack-upgrade/SKILL.md",
+      "description": "Upgrade gstack to the latest version. Detects global vs vendored install, runs the upgrade, and shows what's new.",
+      "tags": [
+        "upgrade",
+        "maintenance",
+        "tooling"
+      ]
     },
     {
       "id": "git-commit-master",
       "name": "Git Commit Master",
+      "path": "./engineering/git-commit-master/SKILL.md",
       "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
-      "version": "1.0.0",
       "tags": [
         "git",
         "engineering",
         "workflow"
-      ],
-      "path": "./community/git-commit-master",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 4,
-        "category": "agent-workflow",
-        "score": 65.26,
-        "scores": {
-          "speed": 10.76,
-          "quality": 45.0,
-          "maintainability": 9.5,
-          "total": 65.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
       "id": "github-skill-scout",
       "name": "github-skill-scout",
+      "path": "./engineering/github-skill-scout/SKILL.md",
       "description": "Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.",
-      "version": "1.0.0",
       "tags": [
         "devops",
         "open-source",
         "automation",
         "skill-building"
-      ],
-      "path": "./community/github-skill-scout",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 21,
-        "category": "eng-devops",
-        "score": 67.4,
-        "scores": {
-          "speed": 14.4,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 67.4
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
-      "id": "github-to-skills",
-      "name": "github-to-skills",
-      "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/github-to-skills",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 9,
-        "category": "product-discovery",
-        "score": 76.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 1.0,
-          "total": 76.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "prompt-engineer",
+      "name": "prompt-engineer",
+      "path": "./engineering/prompt-engineer/SKILL.md",
+      "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
+      "tags": []
     },
     {
-      "id": "gstack",
-      "name": "gstack",
-      "description": "Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with\nelements, verify state, diff before/after, take annotated screenshots, test responsive\nlayouts, forms, uploads, dialogs, and capture bug evidence. Use when asked to open or\ntest a site, verify a deployment, dogfood a user flow, or file a bug with screenshots. (gstack)",
-      "version": "1.1.0",
-      "tags": [],
-      "path": "./community/gstack",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 13,
-        "category": "eng-testing",
-        "score": 64.47,
-        "scores": {
-          "speed": 14.47,
-          "quality": 45.0,
-          "maintainability": 5.0,
-          "total": 64.47
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "path": "./engineering/prompt-optimizer/SKILL.md",
+      "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
+      "tags": [
+        "prompt-engineering",
+        "meta-prompting",
+        "optimization"
+      ]
     },
     {
-      "id": "hosted-agents",
-      "name": "hosted-agents",
-      "description": "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/hosted-agents",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 1,
-        "category": "product-discovery",
-        "score": 84.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 4.5,
-          "total": 84.5
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "ikea-designer-pro",
-      "name": "ikea-designer-pro",
-      "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/ikea-designer",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "image-analyzer",
-      "name": "image-analyzer",
-      "description": "",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/image-analyzer",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "image-auditor",
-      "name": "image-auditor",
-      "description": "",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/image-auditor",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "image-reviewer",
-      "name": "image-reviewer",
-      "description": "",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/image-reviewer",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "image-to-video",
-      "name": "image-to-video",
-      "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/image-to-video",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "content-email",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "internal-comms",
-      "name": "internal-comms",
-      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/internal-comms",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 38,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "mcp-builder",
-      "name": "mcp-builder",
-      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/mcp-builder",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 3,
-        "category": "devops-mcp",
-        "score": 69.15,
-        "scores": {
-          "speed": 6.15,
-          "quality": 45.0,
-          "maintainability": 18.0,
-          "total": 69.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "skills-finder",
+      "name": "skills-finder",
+      "path": "./engineering/skills-finder/SKILL.md",
+      "description": "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.",
+      "tags": []
     },
     {
       "id": "media-downloader",
       "name": "media-downloader",
+      "path": "./productivity/media-downloader/SKILL.md",
       "description": "Downloads high-quality video and audio from YouTube, Bilibili, and 1000+ other sites using yt-dlp. Invoke when user wants to archive media content.",
-      "version": "1.0.0",
       "tags": [
         "productivity",
         "media",
         "archiving",
         "automation"
-      ],
-      "path": "./community/media-downloader",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "video-media",
-        "score": 77.58,
-        "scores": {
-          "speed": 14.58,
-          "quality": 50.0,
-          "maintainability": 13.0,
-          "total": 77.58
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
-      "id": "memory-systems",
-      "name": "memory-systems",
-      "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/memory-systems",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 22,
-        "category": "product-discovery",
-        "score": 71.62,
-        "scores": {
-          "speed": 23.62,
-          "quality": 45.0,
-          "maintainability": 3.0,
-          "total": 71.62
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "multi-agent-patterns",
-      "name": "multi-agent-patterns",
-      "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/multi-agent-patterns",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 42,
-        "category": "product-discovery",
-        "score": 47.23,
-        "scores": {
-          "speed": 5.73,
-          "quality": 25.0,
-          "maintainability": 16.5,
-          "total": 47.23
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "pdf",
-      "name": "pdf",
-      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/pdf",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "data-docs",
-        "score": 76.05,
-        "scores": {
-          "speed": 21.05,
-          "quality": 50.0,
-          "maintainability": 5.0,
-          "total": 76.05
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "photography-expert-pro",
-      "name": "photography-expert-pro",
-      "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography",
-      "version": "3.0",
-      "tags": [],
-      "path": "./community/photography-expert",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "planning-with-files",
-      "name": "planning-with-files",
-      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/planning-with-files/skills/planning-with-files",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "planning-with-files-zh",
-      "name": "planning-with-files-zh",
-      "description": "基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/planning-with-files/skills/planning-with-files-zh",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "planning-with-files-zht",
-      "name": "planning-with-files-zht",
-      "description": "基於 Manus 風格的檔案規劃系統，用於組織和追蹤複雜任務的進度。建立 task_plan.md、findings.md 和 progress.md 三個檔案。當使用者要求規劃、拆解或組織多步驟專案、研究任務或需要超過5次工具呼叫的工作時使用。支援 /clear 後的自動會話恢復。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/planning-with-files/skills/planning-with-files-zht",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "pptx",
-      "name": "pptx",
-      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/pptx",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 67,
-        "category": "other",
-        "score": 68.64,
-        "scores": {
-          "speed": 12.14,
-          "quality": 50.0,
-          "maintainability": 6.5,
-          "total": 68.64
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "project-development",
-      "name": "project-development",
-      "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/project-development",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 21,
-        "category": "product-discovery",
-        "score": 71.92,
-        "scores": {
-          "speed": 6.42,
-          "quality": 47.5,
-          "maintainability": 18.0,
-          "total": 71.92
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "prompt-engineer",
-      "name": "prompt-engineer",
-      "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/prompt-engineer",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 52,
-        "category": "other",
-        "score": 72.17,
-        "scores": {
-          "speed": 8.67,
-          "quality": 50.0,
-          "maintainability": 13.5,
-          "total": 72.17
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "prompt-optimizer",
-      "name": "Prompt Optimizer",
-      "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
-      "version": "1.0.0",
+      "id": "task-analyzer",
+      "name": "Task Analyzer",
+      "path": "./productivity/task-analyzer/SKILL.md",
+      "description": "分析和优化用户的任务初始化命令，提取需求、思路、背景、约束和目标",
       "tags": [
+        "productivity",
         "prompt-engineering",
-        "meta-prompting",
-        "optimization"
-      ],
-      "path": "./community/prompt-optimizer",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 7,
-        "category": "seo-content",
-        "score": 45.68,
-        "scores": {
-          "speed": 5.68,
-          "quality": 25.0,
-          "maintainability": 15.0,
-          "total": 45.68
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+        "task-planning",
+        "analysis"
+      ]
     },
     {
-      "id": "receiving-code-review",
-      "name": "receiving-code-review",
-      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/receiving-code-review",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 7,
-        "category": "eng-code-quality",
-        "score": 70.33,
-        "scores": {
-          "speed": 5.33,
-          "quality": 50.0,
-          "maintainability": 15.0,
-          "total": 70.33
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "id": "github-to-skills",
+      "name": "github-to-skills",
+      "path": "./devops/github-to-skills/SKILL.md",
+      "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
+      "tags": [
+        "devops",
+        "automation",
+        "github",
+        "skill-creation"
+      ]
     },
     {
-      "id": "remotion-video-creator",
+      "id": "skill-arena",
+      "name": "skill-arena",
+      "path": "./devops/skill-arena/SKILL.md",
+      "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
+      "tags": [
+        "devops",
+        "automation",
+        "testing",
+        "benchmark",
+        "skill-management"
+      ]
+    },
+    {
+      "id": "skill-evolution-manager",
+      "name": "skill-evolution-manager",
+      "path": "./devops/skill-evolution-manager/SKILL.md",
+      "description": "Skills 进化管理器。在对话结束时根据用户反馈持续优化 Skills。触发词：/evolve, \"复盘一下\", \"把这个经验保存到 Skill\"",
+      "tags": [
+        "devops",
+        "automation",
+        "evolution",
+        "feedback",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "path": "./devops/skill-manager/SKILL.md",
+      "description": "Skills 生命周期管理器。用于批量扫描 Skills 目录、检查 GitHub 更新、执行升级引导。触发词：/skill-manager check, list, delete",
+      "tags": [
+        "devops",
+        "automation",
+        "lifecycle",
+        "management"
+      ]
+    },
+    {
+      "id": "skill-sync-manager",
+      "name": "skill-sync-manager",
+      "path": "./devops/skill-sync-manager/SKILL.md",
+      "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
+      "tags": [
+        "devops",
+        "automation",
+        "sync",
+        "submodule",
+        "update"
+      ]
+    },
+    {
+      "id": "bfg-repo-cleaner",
+      "name": "bfg-repo-cleaner",
+      "path": "./devops/bfg-repo-cleaner/SKILL.md",
+      "description": "Git 仓库历史清理工具。使用 BFG Repo-Cleaner 移除大文件、敏感数据（密码、密钥）、凭证等私密信息。10-720x 比 git-filter-branch 更快。触发词：清理 git 历史、删除大文件、移除敏感数据、bfg、git 仓库净化",
+      "tags": [
+        "devops",
+        "git",
+        "cleanup",
+        "security",
+        "history"
+      ]
+    },
+    {
+      "id": "pua",
+      "name": "pua",
+      "path": "./devops/pua/SKILL.md",
+      "description": "AI Agent 积极性强化技能。使用大厂 PUA 话术/绩效改进计划（PIP）话术，强制 AI 在放弃前穷尽所有解决方案。支持 13 种公司文化风格（阿里/华为/字节/腾讯/Musk/Jobs 等）。触发词：/pua, 别偷懒，认真点，不行啊，降智了，换个方法，try harder, figure it out, stop giving up",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "methodology"
+      ]
+    },
+    {
+      "id": "pua-en",
+      "name": "pua-en",
+      "path": "./devops/pua-en/SKILL.md",
+      "description": "PUA 英文 PIP 版。使用西方大厂绩效改进计划（PIP）话术，强制 AI 穷尽所有解决方案。触发词：/pua-en, PIP mode, performance review",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "english"
+      ]
+    },
+    {
+      "id": "pua-ja",
+      "name": "pua-ja",
+      "path": "./devops/pua-ja/SKILL.md",
+      "description": "PUA 日本语版。日本企業の文化と言葉遣いで AI の積極性を強化。トリガー：/pua-ja, もっと頑張って，なぜできない",
+      "tags": [
+        "devops",
+        "agent",
+        "productivity",
+        "debugging",
+        "japanese"
+      ]
+    },
+    {
+      "id": "commercial-director",
+      "name": "commercial-director-pro",
+      "path": "./creative/commercial-director/SKILL.md",
+      "description": "Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography, orchestrating the entire production pipeline with a focus on human connection and narrative flow.",
+      "tags": []
+    },
+    {
+      "id": "gemini-image-optimizer",
+      "name": "gemini-image-optimizer",
+      "path": "./creative/gemini-image-optimizer/SKILL.md",
+      "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
+      "tags": []
+    },
+    {
+      "id": "ikea-designer",
+      "name": "ikea-designer-pro",
+      "path": "./creative/ikea-designer/SKILL.md",
+      "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity, ensuring adherence to Scandinavian design principles and Democratic Design.",
+      "tags": []
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "path": "./creative/image-to-video/SKILL.md",
+      "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
+      "tags": []
+    },
+    {
+      "id": "photography-expert",
+      "name": "photography-expert-pro",
+      "path": "./creative/photography-expert/SKILL.md",
+      "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography with a focus on lighting, composition, and optical realism.",
+      "tags": []
+    },
+    {
+      "id": "remotion-video",
       "name": "Remotion Video Creator",
+      "path": "./creative/remotion-video/SKILL.md",
       "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
-      "version": "1.0.0",
       "tags": [
         "video",
         "react",
@@ -1556,2504 +429,581 @@
         "animation",
         "creative",
         "automation"
-      ],
-      "path": "./community/remotion-video",
-      "source": "owned",
-      "source_dir": "community"
+      ]
+    },
+    {
+      "id": "video-frame-extractor",
+      "name": "video-frame-extractor",
+      "path": "./creative/video-frame-extractor/SKILL.md",
+      "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
+      "tags": []
+    },
+    {
+      "id": "video-splitter",
+      "name": "video-splitter",
+      "path": "./creative/video-splitter/SKILL.md",
+      "description": "Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.",
+      "tags": []
+    },
+    {
+      "id": "visual-expert",
+      "name": "Visual Expert Pro (Gemini 3.0 Edition)",
+      "path": "./creative/visual-expert/SKILL.md",
+      "description": "Physics-Based Rendering Supervisor & Virtual Cinematographer for Home Furnishing & Interior Design",
+      "tags": []
+    },
+    {
+      "id": "advanced-evaluation",
+      "name": "advanced-evaluation",
+      "path": "./community/advanced-evaluation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
+      "tags": []
+    },
+    {
+      "id": "agent-reach",
+      "name": "agent-reach",
+      "path": "./community/agent-reach/SKILL.md",
+      "description": "给 AI Agent 一键装上互联网能力 - 读取网页、搜索 Twitter/YouTube/GitHub、解析小红书/抖音等",
+      "tags": []
+    },
+    {
+      "id": "algorithmic-art",
+      "name": "algorithmic-art",
+      "path": "./community/algorithmic-art/SKILL.md",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "tags": []
+    },
+    {
+      "id": "bdi-mental-states",
+      "name": "bdi-mental-states",
+      "path": "./community/bdi-mental-states/SKILL.md",
+      "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
+      "tags": []
+    },
+    {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "path": "./community/brainstorming/SKILL.md",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "tags": []
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "brand-guidelines",
+      "path": "./community/brand-guidelines/SKILL.md",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "tags": []
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "path": "./community/canvas-design/SKILL.md",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "tags": []
+    },
+    {
+      "id": "claude-api",
+      "name": "claude-api",
+      "path": "./community/claude-api/SKILL.md",
+      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
+      "tags": []
+    },
+    {
+      "id": "commercial-director",
+      "name": "commercial-director-pro",
+      "path": "./community/commercial-director/SKILL.md",
+      "description": "Creative Director & Commercial Filmmaker specializing in TVC, Social Media Video, and Lifestyle Photography",
+      "tags": []
+    },
+    {
+      "id": "context-compression",
+      "name": "context-compression",
+      "path": "./community/context-compression/SKILL.md",
+      "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
+      "tags": []
+    },
+    {
+      "id": "context-degradation",
+      "name": "context-degradation",
+      "path": "./community/context-degradation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"diagnose context problems\", \"fix lost-in-middle issues\", \"debug agent failures\", \"understand context poisoning\", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.",
+      "tags": []
+    },
+    {
+      "id": "context-fundamentals",
+      "name": "context-fundamentals",
+      "path": "./community/context-fundamentals/SKILL.md",
+      "description": "This skill should be used when the user asks to \"understand context\", \"explain context windows\", \"design agent architecture\", \"debug context issues\", \"optimize context usage\", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems.",
+      "tags": []
+    },
+    {
+      "id": "context-optimization",
+      "name": "context-optimization",
+      "path": "./community/context-optimization/SKILL.md",
+      "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.",
+      "tags": []
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "path": "./community/dispatching-parallel-agents/SKILL.md",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "tags": []
+    },
+    {
+      "id": "doc-coauthoring",
+      "name": "doc-coauthoring",
+      "path": "./community/doc-coauthoring/SKILL.md",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "tags": []
+    },
+    {
+      "id": "docx",
+      "name": "docx",
+      "path": "./community/docx/SKILL.md",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+      "tags": []
+    },
+    {
+      "id": "dynamic-expert-group",
+      "name": "dynamic-expert-group",
+      "path": "./community/dynamic-expert-group/SKILL.md",
+      "description": "动态组建专家组技能。根据任务目标、状态、进度、挑战动态创建、定义、细化专家设定，\n并组建专家组协同推进任务完成。\n\n触发场景：\n- 需要多角度分析任务\n- 需要不同领域专业知识\n- 需要专家讨论和决策\n- 用户请求\"专家组\"、\"专家团队\"、\"多个专家\"等\n\n不适用：简单明确的单一任务、纯执行类任务\n",
+      "tags": []
+    },
+    {
+      "id": "evaluation",
+      "name": "evaluation",
+      "path": "./community/evaluation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.",
+      "tags": []
+    },
+    {
+      "id": "executing-plans",
+      "name": "executing-plans",
+      "path": "./community/executing-plans/SKILL.md",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "tags": []
+    },
+    {
+      "id": "filesystem-context",
+      "name": "filesystem-context",
+      "path": "./community/filesystem-context/SKILL.md",
+      "description": "This skill should be used when the user asks to \"offload context to files\", \"implement dynamic context discovery\", \"use filesystem for agent memory\", \"reduce context window bloat\", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.",
+      "tags": []
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "path": "./community/finishing-a-development-branch/SKILL.md",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "tags": []
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "path": "./community/frontend-design/SKILL.md",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "tags": []
+    },
+    {
+      "id": "gemini-image-optimizer",
+      "name": "gemini-image-optimizer",
+      "path": "./community/gemini-image-optimizer/SKILL.md",
+      "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
+      "tags": []
+    },
+    {
+      "id": "git-commit-master",
+      "name": "Git Commit Master",
+      "path": "./community/git-commit-master/SKILL.md",
+      "description": "基于Conventional Commits规范，生成语义化、规范化的Git提交信息",
+      "tags": [
+        "git",
+        "engineering",
+        "workflow"
+      ]
+    },
+    {
+      "id": "github-skill-scout",
+      "name": "github-skill-scout",
+      "path": "./community/github-skill-scout/SKILL.md",
+      "description": "Advanced scout that discovers, audits, and auto-wraps GitHub repositories into Trae/MCP Skills. Invoke when extending capabilities via external open-source tools.",
+      "tags": [
+        "devops",
+        "open-source",
+        "automation",
+        "skill-building"
+      ]
+    },
+    {
+      "id": "github-to-skills",
+      "name": "github-to-skills",
+      "path": "./community/github-to-skills/SKILL.md",
+      "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
+      "tags": []
+    },
+    {
+      "id": "hosted-agents",
+      "name": "hosted-agents",
+      "path": "./community/hosted-agents/SKILL.md",
+      "description": "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.",
+      "tags": []
+    },
+    {
+      "id": "ikea-designer",
+      "name": "ikea-designer-pro",
+      "path": "./community/ikea-designer/SKILL.md",
+      "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity",
+      "tags": []
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "path": "./community/image-to-video/SKILL.md",
+      "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
+      "tags": []
+    },
+    {
+      "id": "internal-comms",
+      "name": "internal-comms",
+      "path": "./community/internal-comms/SKILL.md",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "tags": []
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "path": "./community/mcp-builder/SKILL.md",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "tags": []
+    },
+    {
+      "id": "media-downloader",
+      "name": "media-downloader",
+      "path": "./community/media-downloader/SKILL.md",
+      "description": "Downloads high-quality video and audio from YouTube, Bilibili, and 1000+ other sites using yt-dlp. Invoke when user wants to archive media content.",
+      "tags": [
+        "productivity",
+        "media",
+        "archiving",
+        "automation"
+      ]
+    },
+    {
+      "id": "memory-systems",
+      "name": "memory-systems",
+      "path": "./community/memory-systems/SKILL.md",
+      "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
+      "tags": []
+    },
+    {
+      "id": "multi-agent-patterns",
+      "name": "multi-agent-patterns",
+      "path": "./community/multi-agent-patterns/SKILL.md",
+      "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
+      "tags": []
+    },
+    {
+      "id": "pdf",
+      "name": "pdf",
+      "path": "./community/pdf/SKILL.md",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "tags": []
+    },
+    {
+      "id": "photography-expert",
+      "name": "photography-expert-pro",
+      "path": "./community/photography-expert/SKILL.md",
+      "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography",
+      "tags": []
+    },
+    {
+      "id": "pptx",
+      "name": "pptx",
+      "path": "./community/pptx/SKILL.md",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+      "tags": []
+    },
+    {
+      "id": "project-development",
+      "name": "project-development",
+      "path": "./community/project-development/SKILL.md",
+      "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.",
+      "tags": []
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "prompt-engineer",
+      "path": "./community/prompt-engineer/SKILL.md",
+      "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
+      "tags": []
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "path": "./community/prompt-optimizer/SKILL.md",
+      "description": "融合认知科学与工程美学，系统化优化prompt，构建高精度、结构化、具备元认知能力的指令",
+      "tags": [
+        "prompt-engineering",
+        "meta-prompting",
+        "optimization"
+      ]
+    },
+    {
+      "id": "receiving-code-review",
+      "name": "receiving-code-review",
+      "path": "./community/receiving-code-review/SKILL.md",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "tags": []
+    },
+    {
+      "id": "remotion-video",
+      "name": "Remotion Video Creator",
+      "path": "./community/remotion-video/SKILL.md",
+      "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
+      "tags": [
+        "video",
+        "react",
+        "remotion",
+        "animation",
+        "creative",
+        "automation"
+      ]
     },
     {
       "id": "requesting-code-review",
       "name": "requesting-code-review",
+      "path": "./community/requesting-code-review/SKILL.md",
       "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/requesting-code-review",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 4,
-        "category": "eng-code-quality",
-        "score": 75.77,
-        "scores": {
-          "speed": 12.77,
-          "quality": 50.0,
-          "maintainability": 13.0,
-          "total": 75.77
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "skill-arena",
       "name": "skill-arena",
+      "path": "./community/skill-arena/SKILL.md",
       "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
-      "version": "1.0.0",
       "tags": [
         "devops",
         "automation",
         "testing",
         "benchmark",
         "skill-management"
-      ],
-      "path": "./community/skill-arena",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 12,
-        "category": "eng-testing",
-        "score": 65.36,
-        "scores": {
-          "speed": 5.36,
-          "quality": 45.0,
-          "maintainability": 15.0,
-          "total": 65.36
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
       "id": "skill-creator",
       "name": "skill-creator",
+      "path": "./community/skill-creator/SKILL.md",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/skill-creator",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 19,
-        "category": "other",
-        "score": 79.26,
-        "scores": {
-          "speed": 19.76,
-          "quality": 50.0,
-          "maintainability": 9.5,
-          "total": 79.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "skill-evolution-manager",
       "name": "Skill Evolution Manager",
+      "path": "./community/skill-evolution-manager/SKILL.md",
       "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/skill-evolution-manager",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 71,
-        "category": "other",
-        "score": 67.73,
-        "scores": {
-          "speed": 19.73,
-          "quality": 40.0,
-          "maintainability": 8.0,
-          "total": 67.73
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "skill-manager",
       "name": "skill-manager",
+      "path": "./community/skill-manager/SKILL.md",
       "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/skill-manager",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 7,
-        "category": "eng-devops",
-        "score": 76.04,
-        "scores": {
-          "speed": 22.54,
-          "quality": 45.0,
-          "maintainability": 8.5,
-          "total": 76.04
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "skill-sync-manager",
       "name": "skill-sync-manager",
+      "path": "./community/skill-sync-manager/SKILL.md",
       "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
-      "version": "1.0.0",
       "tags": [
         "devops",
         "automation",
         "sync",
         "submodule",
         "update"
-      ],
-      "path": "./community/skill-sync-manager",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 18,
-        "category": "eng-devops",
-        "score": 70.68,
-        "scores": {
-          "speed": 12.68,
-          "quality": 50.0,
-          "maintainability": 8.0,
-          "total": 70.68
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
       "id": "skills-finder",
       "name": "skills-finder",
+      "path": "./community/skills-finder/SKILL.md",
       "description": "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/skills-finder",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 45,
-        "category": "product-discovery",
-        "score": 43.66,
-        "scores": {
-          "speed": 8.66,
-          "quality": 25.0,
-          "maintainability": 10.0,
-          "total": 43.66
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "slack-gif-creator",
       "name": "slack-gif-creator",
+      "path": "./community/slack-gif-creator/SKILL.md",
       "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/slack-gif-creator",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 39,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "subagent-driven-development",
       "name": "subagent-driven-development",
+      "path": "./community/subagent-driven-development/SKILL.md",
       "description": "Use when executing implementation plans with independent tasks in the current session",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/subagent-driven-development",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 63,
-        "category": "other",
-        "score": 69.67,
-        "scores": {
-          "speed": 9.67,
-          "quality": 45.0,
-          "maintainability": 15.0,
-          "total": 69.67
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "systematic-debugging",
       "name": "systematic-debugging",
+      "path": "./community/systematic-debugging/SKILL.md",
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/systematic-debugging",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "eng-testing",
-        "score": 80.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 0.0,
-          "total": 80.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "task-analyzer",
       "name": "Task Analyzer",
+      "path": "./community/task-analyzer/SKILL.md",
       "description": "分析和优化用户的任务初始化命令，提取需求、思路、背景、约束和目标",
-      "version": "1.0.0",
       "tags": [
         "productivity",
         "prompt-engineering",
         "task-planning",
         "analysis"
-      ],
-      "path": "./community/task-analyzer",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 12,
-        "category": "data-analysis",
-        "score": 53.26,
-        "scores": {
-          "speed": 0.76,
-          "quality": 50.0,
-          "maintainability": 2.5,
-          "total": 53.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      ]
     },
     {
       "id": "test-driven-development",
       "name": "test-driven-development",
+      "path": "./community/test-driven-development/SKILL.md",
       "description": "Use when implementing any feature or bugfix, before writing implementation code",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/test-driven-development",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 16,
-        "category": "eng-testing",
-        "score": 60.57,
-        "scores": {
-          "speed": 9.07,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 60.57
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "theme-factory",
       "name": "theme-factory",
+      "path": "./community/theme-factory/SKILL.md",
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/theme-factory",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 88,
-        "category": "other",
-        "score": 63.75,
-        "scores": {
-          "speed": 10.25,
-          "quality": 50.0,
-          "maintainability": 3.5,
-          "total": 63.75
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "tool-design",
       "name": "tool-design",
+      "path": "./community/tool-design/SKILL.md",
       "description": "This skill should be used when the user asks to \"design agent tools\", \"create tool descriptions\", \"reduce tool complexity\", \"implement MCP tools\", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/tool-design",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 11,
-        "category": "eng-architecture",
-        "score": 71.73,
-        "scores": {
-          "speed": 20.23,
-          "quality": 50.0,
-          "maintainability": 1.5,
-          "total": 71.73
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "using-git-worktrees",
       "name": "using-git-worktrees",
+      "path": "./community/using-git-worktrees/SKILL.md",
       "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/using-git-worktrees",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 6,
-        "category": "eng-devops",
-        "score": 76.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 1.5,
-          "total": 76.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "using-superpowers",
       "name": "using-superpowers",
+      "path": "./community/using-superpowers/SKILL.md",
       "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/using-superpowers",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 6,
-        "category": "agent-tool",
-        "score": 54.29,
-        "scores": {
-          "speed": 6.29,
-          "quality": 40.0,
-          "maintainability": 8.0,
-          "total": 54.29
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "verification-before-completion",
       "name": "verification-before-completion",
+      "path": "./community/verification-before-completion/SKILL.md",
       "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/verification-before-completion",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 57,
-        "category": "other",
-        "score": 71.04,
-        "scores": {
-          "speed": 6.54,
-          "quality": 50.0,
-          "maintainability": 14.5,
-          "total": 71.04
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "video-frame-extractor",
       "name": "video-frame-extractor",
+      "path": "./community/video-frame-extractor/SKILL.md",
       "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/video-frame-extractor",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 41,
-        "category": "product-discovery",
-        "score": 49.33,
-        "scores": {
-          "speed": 1.33,
-          "quality": 45.0,
-          "maintainability": 3.0,
-          "total": 49.33
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "video-splitter",
       "name": "video-splitter",
+      "path": "./community/video-splitter/SKILL.md",
       "description": "Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/video-splitter",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 35,
-        "category": "product-discovery",
-        "score": 55.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 25.0,
-          "maintainability": 0.0,
-          "total": 55.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
-      "id": "visual-expert-pro--gemini-3-0-edition",
+      "id": "visual-expert",
       "name": "Visual Expert Pro (Gemini 3.0 Edition)",
+      "path": "./community/visual-expert/SKILL.md",
       "description": "Professional interior visualization and photorealism expert for home furnishing and IKEA-style design, focusing on physically-based rendering (PBR) and material accuracy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/visual-expert",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
       "id": "web-artifacts-builder",
       "name": "web-artifacts-builder",
+      "path": "./community/web-artifacts-builder/SKILL.md",
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/web-artifacts-builder",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 7,
-        "category": "product-ux",
-        "score": 69.62,
-        "scores": {
-          "speed": 9.62,
-          "quality": 50.0,
-          "maintainability": 10.0,
-          "total": 69.62
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "webapp-testing",
       "name": "webapp-testing",
+      "path": "./community/webapp-testing/SKILL.md",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/webapp-testing",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 6,
-        "category": "eng-testing",
-        "score": 70.89,
-        "scores": {
-          "speed": 12.89,
-          "quality": 50.0,
-          "maintainability": 8.0,
-          "total": 70.89
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "writing-plans",
       "name": "writing-plans",
+      "path": "./community/writing-plans/SKILL.md",
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/writing-plans",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 48,
-        "category": "other",
-        "score": 72.85,
-        "scores": {
-          "speed": 24.85,
-          "quality": 45.0,
-          "maintainability": 3.0,
-          "total": 72.85
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "writing-skills",
       "name": "writing-skills",
+      "path": "./community/writing-skills/SKILL.md",
       "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/writing-skills",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 14,
-        "category": "eng-devops",
-        "score": 73.48,
-        "scores": {
-          "speed": 5.48,
-          "quality": 50.0,
-          "maintainability": 18.0,
-          "total": 73.48
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
       "id": "xlsx",
       "name": "xlsx",
+      "path": "./community/xlsx/SKILL.md",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/xlsx",
-      "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 2,
-        "category": "data-analysis",
-        "score": 79.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 4.5,
-          "total": 79.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     },
     {
-      "id": "videocut-剪口播",
+      "id": "剪口播",
       "name": "videocut:剪口播",
+      "path": "./community/剪口播/SKILL.md",
       "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/剪口播",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
-      "id": "videocut-剪辑",
+      "id": "剪辑",
       "name": "videocut:剪辑",
+      "path": "./community/剪辑/SKILL.md",
       "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/剪辑",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
-      "id": "videocut-字幕",
+      "id": "字幕",
       "name": "videocut:字幕",
+      "path": "./community/字幕/SKILL.md",
       "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/字幕",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
-      "id": "videocut-安装",
+      "id": "安装",
       "name": "videocut:安装",
+      "path": "./community/安装/SKILL.md",
       "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/安装",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
-      "id": "videocut-自更新",
+      "id": "自更新",
       "name": "videocut:自更新",
+      "path": "./community/自更新/SKILL.md",
       "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/自更新",
-      "source": "owned",
-      "source_dir": "community"
+      "tags": []
     },
     {
-      "id": "videocut-自进化",
+      "id": "自进化",
       "name": "videocut:自进化",
+      "path": "./community/自进化/SKILL.md",
       "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./community/自进化",
-      "source": "owned",
-      "source_dir": "community"
-    },
-    {
-      "id": "autoresearch",
-      "name": "autoresearch",
-      "description": "Universal autonomous task optimization framework. Transforms any measurable, iterable task into a self-improving system through conversational design and intelligent optimization loops.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./engineering/autoresearch",
-      "source": "owned",
-      "source_dir": "engineering"
-    },
-    {
-      "id": "bfg-repo-cleaner",
-      "name": "bfg-repo-cleaner",
-      "description": "Git 仓库历史清理工具。使用 BFG Repo-Cleaner 移除大文件、敏感数据（密码、密钥）、凭证等私密信息。10-720x 比 git-filter-branch 更快。触发词：清理 git 历史、删除大文件、移除敏感数据、bfg、git 仓库净化",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./devops/bfg-repo-cleaner",
-      "source": "owned",
-      "source_dir": "devops",
-      "arena": {
-        "rank": 4,
-        "category": "eng-devops",
-        "score": 79.01,
-        "scores": {
-          "speed": 29.01,
-          "quality": 50.0,
-          "maintainability": 0.0,
-          "total": 79.01
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "pua",
-      "name": "pua",
-      "description": "Forces high-agency exhaustive problem-solving with corporate PUA pressure. Triggers on user frustration, repeated failures (2+), passive behavior, or quality complaints. Common triggers across Reddit/LinuxDo/HN/X: 'try harder', 'figure it out', 'stop giving up', 'you keep failing', '加油', '别偷懒', '你再试试', '为什么还不行', '你怎么又失败了', '你怎么搞的', '又错了', '能不能靠谱点', '认真点', '不行啊', '降智了', '你又在原地打转', '你把之前的改坏了', '别让我手动处理', '换个方法', 'stop spinning', 'you broke it', 'why does this still not work', 'this is the third time', '/pua', 'PUA模式'. Applies to ALL task types: code, config, debug, deploy, research.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./devops/pua",
-      "source": "owned",
-      "source_dir": "devops",
-      "arena": {
-        "rank": 31,
-        "category": "eng-devops",
-        "score": 40.61,
-        "scores": {
-          "speed": 10.61,
-          "quality": 25.0,
-          "maintainability": 5.0,
-          "total": 40.61
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "pua-en",
-      "name": "pua-en",
-      "description": "Put your AI on a Performance Improvement Plan. Forces exhaustive problem-solving with Western big-tech performance culture rhetoric and structured debugging. Trigger when: (1) task failed 2+ times or stuck tweaking same approach; (2) about to say 'I cannot', suggest manual work, or blame environment without verifying; (3) being passive—not searching, not reading source, just waiting; (4) user frustration: 'try harder', 'stop giving up', 'figure it out', 'again???', or similar. Also for complex debugging, env issues, config/deployment failures. All task types: code, config, research, writing, deployment, infra, API. Do NOT trigger on first-attempt failures or when a known fix is executing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./devops/pua-en",
-      "source": "owned",
-      "source_dir": "devops",
-      "arena": {
-        "rank": 28,
-        "category": "eng-devops",
-        "score": 41.98,
-        "scores": {
-          "speed": 5.48,
-          "quality": 25.0,
-          "maintainability": 11.5,
-          "total": 41.98
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "pua-ja",
-      "name": "pua-ja",
-      "description": "お前のAIを詰めろ。日本企業の詰め文化と体系的デバッグ方法論で全ての手段を尽くさせる。トリガー条件：(1) タスク失敗2回以上または同じアプローチの微調整ループ; (2)「解決できません」と言おうとする・手動対応を推奨・未検証で環境を原因帰属; (3) 受け身——検索しない・ソースを読まない・指示待ち; (4) ユーザーの不満：'もっと頑張れ'、'なんでまた失敗したの'、'なんとかしろ'。全タスクタイプ適用。初回失敗や既知修正の実行中はトリガーしない。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./devops/pua-ja",
-      "source": "owned",
-      "source_dir": "devops",
-      "arena": {
-        "rank": 20,
-        "category": "eng-devops",
-        "score": 68.34,
-        "scores": {
-          "speed": 5.34,
-          "quality": 50.0,
-          "maintainability": 13.0,
-          "total": 68.34
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "template-skill",
-      "name": "template-skill",
-      "description": "Replace with description of the skill and when Claude should use it.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/anthropic-skills/template",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "caveman",
-      "name": "caveman",
-      "description": "Claude Code skill that reduces output tokens by ~65% by making the agent talk like caveman — dropping filler words while keeping full technical accuracy",
-      "version": "1.0.0",
-      "tags": [
-        "token-optimization",
-        "efficiency",
-        "communication",
-        "cost-reduction"
-      ],
-      "path": "./external/caveman",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "stripe-best-practices",
-      "name": "stripe-best-practices",
-      "description": "Best practices for building Stripe integrations. Use when implementing payment processing, checkout flows, subscriptions, webhooks, Connect platforms, or any Stripe API integration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/claude-plugins-official/external_plugins/stripe/skills/stripe-best-practices",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "business-growth-skills",
-      "name": "business-growth-skills",
-      "description": "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only).",
-      "version": "1.1.0",
-      "tags": [
-        "business",
-        "customer-success",
-        "sales",
-        "revenue-operations",
-        "growth"
-      ],
-      "path": "./external/claude-skills/business-growth",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "c-level-advisor",
-      "name": "c-level-advisor",
-      "description": "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/claude-skills/c-level-advisor",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "engineering-advanced-skills",
-      "name": "engineering-advanced-skills",
-      "description": "25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.",
-      "version": "1.1.0",
-      "tags": [
-        "engineering",
-        "architecture",
-        "agents",
-        "rag",
-        "mcp",
-        "ci-cd",
-        "observability"
-      ],
-      "path": "./external/claude-skills/engineering",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "engineering-skills",
-      "name": "engineering-skills",
-      "description": "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).",
-      "version": "1.1.0",
-      "tags": [
-        "engineering",
-        "frontend",
-        "backend",
-        "devops",
-        "security",
-        "ai-ml",
-        "data-engineering"
-      ],
-      "path": "./external/claude-skills/engineering-team",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "finance-skills",
-      "name": "finance-skills",
-      "description": "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).",
-      "version": "1.0.0",
-      "tags": [
-        "finance",
-        "financial-analysis",
-        "dcf",
-        "valuation",
-        "budgeting"
-      ],
-      "path": "./external/claude-skills/finance",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "marketing-skills",
-      "name": "marketing-skills",
-      "description": "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).",
-      "version": "2.0.0",
-      "tags": [
-        "marketing",
-        "seo",
-        "content",
-        "copywriting",
-        "cro",
-        "analytics",
-        "ai-seo"
-      ],
-      "path": "./external/claude-skills/marketing-skill",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "product-skills",
-      "name": "product-skills",
-      "description": "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).",
-      "version": "1.1.0",
-      "tags": [
-        "product",
-        "product-management",
-        "ux",
-        "ui",
-        "saas",
-        "agile"
-      ],
-      "path": "./external/claude-skills/product-team",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "pm-skills",
-      "name": "pm-skills",
-      "description": "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.",
-      "version": "1.0.0",
-      "tags": [
-        "project-management",
-        "jira",
-        "confluence",
-        "atlassian",
-        "scrum",
-        "agile"
-      ],
-      "path": "./external/claude-skills/project-management",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "ra-qm-skills",
-      "name": "ra-qm-skills",
-      "description": "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).",
-      "version": "1.0.0",
-      "tags": [
-        "regulatory",
-        "quality-management",
-        "iso-13485",
-        "mdr",
-        "fda",
-        "iso-27001",
-        "gdpr"
-      ],
-      "path": "./external/claude-skills/ra-qm-team",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "context-engineering-collection",
-      "name": "context-engineering-collection",
-      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/context-engineering-skills",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "angular-architect",
-      "name": "angular-architect",
-      "description": "Use when building Angular 17+ applications with standalone components or signals. Invoke for enterprise apps, RxJS patterns, NgRx state management, performance optimization, advanced routing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/angular-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "api-designer",
-      "name": "api-designer",
-      "description": "Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or planning API architecture. Invoke for resource modeling, versioning strategies, pagination patterns, error handling standards.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/api-designer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "architecture-designer",
-      "name": "architecture-designer",
-      "description": "Use when designing new system architecture, reviewing existing designs, or making architectural decisions. Invoke for system design, architecture review, design patterns, ADRs, scalability planning.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/architecture-designer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "atlassian-mcp",
-      "name": "atlassian-mcp",
-      "description": "Use when querying Jira issues, searching Confluence pages, creating tickets, updating documentation, or integrating Atlassian tools via MCP protocol.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/atlassian-mcp",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "chaos-engineer",
-      "name": "chaos-engineer",
-      "description": "Use when designing chaos experiments, implementing failure injection frameworks, or conducting game day exercises. Invoke for chaos experiments, resilience testing, blast radius control, game days, antifragile systems.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/chaos-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "cli-developer",
-      "name": "cli-developer",
-      "description": "Use when building CLI tools, implementing argument parsing, or adding interactive prompts. Invoke for CLI design, argument parsing, interactive prompts, progress indicators, shell completions.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/cli-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "cloud-architect",
-      "name": "cloud-architect",
-      "description": "Use when designing cloud architectures, planning migrations, or optimizing multi-cloud deployments. Invoke for Well-Architected Framework, cost optimization, disaster recovery, landing zones, security architecture, serverless design.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/cloud-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "code-documenter",
-      "name": "code-documenter",
-      "description": "Use when adding docstrings, creating API documentation, or building documentation sites. Invoke for OpenAPI/Swagger specs, JSDoc, doc portals, tutorials, user guides.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/code-documenter",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "code-reviewer",
-      "name": "code-reviewer",
-      "description": "Use when reviewing pull requests, conducting code quality audits, or identifying security vulnerabilities. Invoke for PR reviews, code quality checks, refactoring suggestions.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/code-reviewer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "cpp-pro",
-      "name": "cpp-pro",
-      "description": "Use when building C++ applications requiring modern C++20/23 features, template metaprogramming, or high-performance systems. Invoke for concepts, ranges, coroutines, SIMD optimization, memory management.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/cpp-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "csharp-developer",
-      "name": "csharp-developer",
-      "description": "Use when building C# applications with .NET 8+, ASP.NET Core APIs, or Blazor web apps. Invoke for Entity Framework Core, minimal APIs, async patterns, CQRS with MediatR.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/csharp-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "database-optimizer",
-      "name": "database-optimizer",
-      "description": "Use when investigating slow queries, analyzing execution plans, or optimizing database performance. Invoke for index design, query rewrites, configuration tuning, partitioning strategies, lock contention resolution.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/database-optimizer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "debugging-wizard",
-      "name": "debugging-wizard",
-      "description": "Use when investigating errors, analyzing stack traces, or finding root causes of unexpected behavior. Invoke for error investigation, troubleshooting, log analysis, root cause analysis.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/debugging-wizard",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "devops-engineer",
-      "name": "devops-engineer",
-      "description": "Use when setting up CI/CD pipelines, containerizing applications, or managing infrastructure as code. Invoke for pipelines, Docker, Kubernetes, cloud platforms, GitOps.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/devops-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "django-expert",
-      "name": "django-expert",
-      "description": "Use when building Django web applications or REST APIs with Django REST Framework. Invoke for Django models, ORM optimization, DRF serializers, viewsets, authentication with JWT.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/django-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "dotnet-core-expert",
-      "name": "dotnet-core-expert",
-      "description": "Use when building .NET 8 applications with minimal APIs, clean architecture, or cloud-native microservices. Invoke for Entity Framework Core, CQRS with MediatR, JWT authentication, AOT compilation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/dotnet-core-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "embedded-systems",
-      "name": "embedded-systems",
-      "description": "Use when developing firmware for microcontrollers, implementing RTOS applications, or optimizing power consumption. Invoke for STM32, ESP32, FreeRTOS, bare-metal, power optimization, real-time systems.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/embedded-systems",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "fastapi-expert",
-      "name": "fastapi-expert",
-      "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke for async SQLAlchemy, JWT authentication, WebSockets, OpenAPI documentation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/fastapi-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "feature-forge",
-      "name": "feature-forge",
-      "description": "Use when defining new features, gathering requirements, or writing specifications. Invoke for feature definition, requirements gathering, user stories, EARS format specs.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/feature-forge",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "fine-tuning-expert",
-      "name": "fine-tuning-expert",
-      "description": "Use when fine-tuning LLMs, training custom models, or optimizing model performance for specific tasks. Invoke for parameter-efficient methods, dataset preparation, or model adaptation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/fine-tuning-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "flutter-expert",
-      "name": "flutter-expert",
-      "description": "Use when building cross-platform applications with Flutter 3+ and Dart. Invoke for widget development, Riverpod/Bloc state management, GoRouter navigation, platform-specific implementations, performance optimization.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/flutter-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "fullstack-guardian",
-      "name": "fullstack-guardian",
-      "description": "Use when implementing features across frontend and backend, building APIs with UI, or creating end-to-end data flows. Invoke for feature implementation, API development, UI building, cross-stack work.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/fullstack-guardian",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "game-developer",
-      "name": "game-developer",
-      "description": "Use when building game systems, implementing Unity/Unreal features, or optimizing game performance. Invoke for Unity, Unreal, game patterns, ECS, physics, networking, performance optimization.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/game-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "golang-pro",
-      "name": "golang-pro",
-      "description": "Use when building Go applications requiring concurrent programming, microservices architecture, or high-performance systems. Invoke for goroutines, channels, Go generics, gRPC integration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/golang-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "graphql-architect",
-      "name": "graphql-architect",
-      "description": "Use when designing GraphQL schemas, implementing Apollo Federation, or building real-time subscriptions. Invoke for schema design, resolvers with DataLoader, query optimization, federation directives.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/graphql-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "java-architect",
-      "name": "java-architect",
-      "description": "Use when building enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke for WebFlux, JPA optimization, Spring Security, cloud-native patterns.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/java-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "javascript-pro",
-      "name": "javascript-pro",
-      "description": "Use when building JavaScript applications with modern ES2023+ features, async patterns, or Node.js development. Invoke for vanilla JavaScript, browser APIs, performance optimization, module systems.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/javascript-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "kotlin-specialist",
-      "name": "kotlin-specialist",
-      "description": "Use when building Kotlin applications requiring coroutines, multiplatform development, or Android with Compose. Invoke for Flow API, KMP projects, Ktor servers, DSL design, sealed classes.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/kotlin-specialist",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "kubernetes-specialist",
-      "name": "kubernetes-specialist",
-      "description": "Use when deploying or managing Kubernetes workloads requiring cluster configuration, security hardening, or troubleshooting. Invoke for Helm charts, RBAC policies, NetworkPolicies, storage configuration, performance optimization.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/kubernetes-specialist",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "laravel-specialist",
-      "name": "laravel-specialist",
-      "description": "Use when building Laravel 10+ applications requiring Eloquent ORM, API resources, or queue systems. Invoke for Laravel models, Livewire components, Sanctum authentication, Horizon queues.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/laravel-specialist",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "legacy-modernizer",
-      "name": "legacy-modernizer",
-      "description": "Use when modernizing legacy systems, implementing incremental migration strategies, or reducing technical debt. Invoke for strangler fig pattern, monolith decomposition, framework upgrades.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/legacy-modernizer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "mcp-developer",
-      "name": "mcp-developer",
-      "description": "Use when building MCP servers or clients that connect AI systems with external tools and data sources. Invoke for MCP protocol compliance, TypeScript/Python SDKs, resource providers, tool functions.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/mcp-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "microservices-architect",
-      "name": "microservices-architect",
-      "description": "Use when designing distributed systems, decomposing monoliths, or implementing microservices patterns. Invoke for service boundaries, DDD, saga patterns, event sourcing, service mesh, distributed tracing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/microservices-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "ml-pipeline",
-      "name": "ml-pipeline",
-      "description": "Use when building ML pipelines, orchestrating training workflows, automating model lifecycle, implementing feature stores, or managing experiment tracking systems.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/ml-pipeline",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "monitoring-expert",
-      "name": "monitoring-expert",
-      "description": "Use when setting up monitoring systems, logging, metrics, tracing, or alerting. Invoke for dashboards, Prometheus/Grafana, load testing, profiling, capacity planning.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/monitoring-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "nestjs-expert",
-      "name": "nestjs-expert",
-      "description": "Use when building NestJS applications requiring modular architecture, dependency injection, or TypeScript backend development. Invoke for modules, controllers, services, DTOs, guards, interceptors, TypeORM/Prisma.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/nestjs-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "nextjs-developer",
-      "name": "nextjs-developer",
-      "description": "Use when building Next.js 14+ applications with App Router, server components, or server actions. Invoke for full-stack features, performance optimization, SEO implementation, production deployment.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/nextjs-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "pandas-pro",
-      "name": "pandas-pro",
-      "description": "Use when working with pandas DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke for data manipulation, missing value handling, groupby operations, or performance optimization.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/pandas-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "php-pro",
-      "name": "php-pro",
-      "description": "Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks. Invoke for strict typing, PHPStan level 9, async patterns with Swoole, PSR standards.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/php-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "playwright-expert",
-      "name": "playwright-expert",
-      "description": "Use when writing E2E tests with Playwright, setting up test infrastructure, or debugging flaky browser tests. Invoke for browser automation, E2E tests, Page Object Model, test flakiness, visual testing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/playwright-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "postgres-pro",
-      "name": "postgres-pro",
-      "description": "Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database features. Invoke for EXPLAIN analysis, JSONB operations, extension usage, VACUUM tuning, performance monitoring.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/postgres-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "python-pro",
-      "name": "python-pro",
-      "description": "Use when building Python 3.11+ applications requiring type safety, async programming, or production-grade patterns. Invoke for type hints, pytest, async/await, dataclasses, mypy configuration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/python-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "rag-architect",
-      "name": "rag-architect",
-      "description": "Use when building RAG systems, vector databases, or knowledge-grounded AI applications requiring semantic search, document retrieval, or context augmentation.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/rag-architect",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "rails-expert",
-      "name": "rails-expert",
-      "description": "Use when building Rails 7+ web applications with Hotwire, real-time features, or background job processing. Invoke for Active Record optimization, Turbo Frames/Streams, Action Cable, Sidekiq.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/rails-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "react-expert",
-      "name": "react-expert",
-      "description": "Use when building React 18+ applications requiring component architecture, hooks patterns, or state management. Invoke for Server Components, performance optimization, Suspense boundaries, React 19 features.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/react-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "react-native-expert",
-      "name": "react-native-expert",
-      "description": "Use when building cross-platform mobile applications with React Native or Expo. Invoke for navigation patterns, platform-specific code, native modules, FlatList optimization.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/react-native-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "rust-engineer",
-      "name": "rust-engineer",
-      "description": "Use when building Rust applications requiring memory safety, systems programming, or zero-cost abstractions. Invoke for ownership patterns, lifetimes, traits, async/await with tokio.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/rust-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "salesforce-developer",
-      "name": "salesforce-developer",
-      "description": "Use when developing Salesforce applications, Apex code, Lightning Web Components, SOQL queries, triggers, integrations, or CRM customizations. Invoke for governor limits, bulk processing, platform events, Salesforce DX.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/salesforce-developer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "secure-code-guardian",
-      "name": "secure-code-guardian",
-      "description": "Use when implementing authentication/authorization, securing user input, or preventing OWASP Top 10 vulnerabilities. Invoke for authentication, authorization, input validation, encryption, OWASP Top 10 prevention.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/secure-code-guardian",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "security-reviewer",
-      "name": "security-reviewer",
-      "description": "Use when conducting security audits, reviewing code for vulnerabilities, or analyzing infrastructure security. Invoke for SAST scans, penetration testing, DevSecOps practices, cloud security reviews.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/security-reviewer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "shopify-expert",
-      "name": "shopify-expert",
-      "description": "Use when building Shopify themes, apps, custom storefronts, or e-commerce solutions. Invoke for Liquid templating, Storefront API, app development, checkout customization, Shopify Plus features.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/shopify-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "spark-engineer",
-      "name": "spark-engineer",
-      "description": "Use when building Apache Spark applications, distributed data processing pipelines, or optimizing big data workloads. Invoke for DataFrame API, Spark SQL, RDD operations, performance tuning, streaming analytics.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/spark-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "spec-miner",
-      "name": "spec-miner",
-      "description": "Use when understanding legacy or undocumented systems, creating documentation for existing code, or extracting specifications from implementations. Invoke for legacy analysis, code archaeology, undocumented features.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/spec-miner",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "spring-boot-engineer",
-      "name": "spring-boot-engineer",
-      "description": "Use when building Spring Boot 3.x applications, microservices, or reactive Java applications. Invoke for Spring Data JPA, Spring Security 6, WebFlux, Spring Cloud integration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/spring-boot-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "sql-pro",
-      "name": "sql-pro",
-      "description": "Use when optimizing SQL queries, designing database schemas, or tuning database performance. Invoke for complex queries, window functions, CTEs, indexing strategies, query plan analysis.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/sql-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "sre-engineer",
-      "name": "sre-engineer",
-      "description": "Use when defining SLIs/SLOs, managing error budgets, or building reliable systems at scale. Invoke for incident management, chaos engineering, toil reduction, capacity planning.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/sre-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "swift-expert",
-      "name": "swift-expert",
-      "description": "Use when building iOS/macOS applications with Swift 5.9+, SwiftUI, or async/await concurrency. Invoke for protocol-oriented programming, SwiftUI state management, actors, server-side Swift.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/swift-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "terraform-engineer",
-      "name": "terraform-engineer",
-      "description": "Use when implementing infrastructure as code with Terraform across AWS, Azure, or GCP. Invoke for module development, state management, provider configuration, multi-environment workflows, infrastructure testing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/terraform-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "test-master",
-      "name": "test-master",
-      "description": "Use when writing tests, creating test strategies, or building automation frameworks. Invoke for unit tests, integration tests, E2E, coverage analysis, performance testing, security testing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/test-master",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "the-fool",
-      "name": "the-fool",
-      "description": "Use when challenging ideas, plans, decisions, or proposals using structured critical reasoning. Invoke to play devil's advocate, run a pre-mortem, red team, or audit evidence and assumptions.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/the-fool",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "typescript-pro",
-      "name": "typescript-pro",
-      "description": "Use when building TypeScript applications requiring advanced type systems, generics, or full-stack type safety. Invoke for type guards, utility types, tRPC integration, monorepo setup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/typescript-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "vue-expert",
-      "name": "vue-expert",
-      "description": "Use when building Vue 3 applications with Composition API, Nuxt 3, or Quasar. Invoke for Pinia, TypeScript, PWA, Capacitor mobile apps, Vite configuration.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/vue-expert",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "vue-expert-js",
-      "name": "vue-expert-js",
-      "description": "Use when building Vue 3 applications with JavaScript only (no TypeScript). Invoke for JSDoc typing, vanilla JS composables, .mjs modules.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/vue-expert-js",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "websocket-engineer",
-      "name": "websocket-engineer",
-      "description": "Use when building real-time communication systems with WebSockets or Socket.IO. Invoke for bidirectional messaging, horizontal scaling with Redis, presence tracking, room management.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/websocket-engineer",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "wordpress-pro",
-      "name": "wordpress-pro",
-      "description": "Use when developing WordPress themes, plugins, customizing Gutenberg blocks, implementing WooCommerce features, or optimizing WordPress performance and security.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/fullstack-dev-skills/skills/wordpress-pro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "huashu-agent-swarm",
-      "name": "huashu-agent-swarm",
-      "description": "多Agent蜂群并行协作，纯git自组织，适合大型项目开发。当用户提到\"蜂群模式\"、\"多agent\"、\"并行开发\"、\"agent swarm\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-agent-swarm",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "agent-workflow",
-        "score": 78.75,
-        "scores": {
-          "speed": 26.75,
-          "quality": 45.0,
-          "maintainability": 7.0,
-          "total": 78.75
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-article-edit",
-      "name": "huashu-article-edit",
-      "description": "标准化文章编辑流程，确保修改范围明确、进度可追踪、变更有记录。当用户说\"编辑文章\"、\"修改文章\"、\"调整内容\"、\"改一下这篇\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-article-edit",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 101,
-        "category": "other",
-        "score": 57.5,
-        "scores": {
-          "speed": 29.0,
-          "quality": 25.0,
-          "maintainability": 3.5,
-          "total": 57.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-article-to-x",
-      "name": "huashu-article-to-x",
-      "description": "长文精简为X平台内容（200-500字），保留核心观点和个人风格。当用户提到\"转微博\"、\"发小红书\"、\"社交媒体\"、\"缩短文章\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-article-to-x",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 27,
-        "category": "other",
-        "score": 77.44,
-        "scores": {
-          "speed": 17.44,
-          "quality": 50.0,
-          "maintainability": 10.0,
-          "total": 77.44
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-data-pro",
-      "name": "huashu-data-pro",
-      "description": "数据分析与办公提效全能助手。覆盖数据处理、分析洞察、报告撰写、PPT制作、数据可视化的端到端工作流。\n始终从专家视角出发，帮用户多想一步。遇到不确定的问题主动与用户确认。\n支持：Excel数据分析、投放数据复盘、ROI测算、数据可视化、报告生成、PPT制作、公式生成。\n当用户提到\"分析数据\"、\"做报告\"、\"做PPT\"、\"Excel\"、\"投放分析\"、\"ROI\"、\"复盘\"、\n\"周报\"、\"月报\"、\"数据处理\"、\"图表\"、\"可视化\"、\"汇报\"、\"表格\"、\"公式\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-data-pro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 9,
-        "category": "data-analysis",
-        "score": 68.11,
-        "scores": {
-          "speed": 11.11,
-          "quality": 50.0,
-          "maintainability": 7.0,
-          "total": 68.11
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-design",
-      "name": "huashu-design",
-      "description": "设计哲学顾问，从20种风格中推荐3个方向并生成视觉Demo和AI提示词。当用户提到\"设计风格\"、\"设计方向\"、\"配色方案\"、\"视觉风格\"、\"设计评审\"、\"推荐风格\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-design",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 13,
-        "category": "eng-architecture",
-        "score": 71.23,
-        "scores": {
-          "speed": 22.73,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 71.23
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-douyin-script",
-      "name": "huashu-douyin-script",
-      "description": "抖音爆款脚本创作工作流。从竞品视频拆解到脚本生成的完整流程：下载抖音视频→Gemini视频分析→爆款公式提炼→脚本+分镜生成→AI味审校。\n当用户提到\"抖音脚本\"、\"爆款拆解\"、\"竞品分析\"、\"带货脚本\"、\"千川素材\"、\"种草脚本\"、\"视频拆解\"、\"抖音视频分析\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-douyin-script",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 10,
-        "category": "other",
-        "score": 82.62,
-        "scores": {
-          "speed": 29.12,
-          "quality": 50.0,
-          "maintainability": 3.5,
-          "total": 82.62
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-image-upload",
-      "name": "huashu-image-upload",
-      "description": "文章配图一键生成并上传图床，自动插入Markdown链接。当用户提到\"配图\"、\"插图\"、\"上传图片\"、\"文章配图\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-image-upload",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "video-media",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-info-search",
-      "name": "huashu-info-search",
-      "description": "多渠道搜索新产品新技术，交叉验证后存入知识库。当用户提到\"最新信息\"、\"新产品\"、\"搜索资料\"、\"查资料\"、\"了解XX\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-info-search",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 31,
-        "category": "other",
-        "score": 76.85,
-        "scores": {
-          "speed": 23.35,
-          "quality": 50.0,
-          "maintainability": 3.5,
-          "total": 76.85
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-material-search",
-      "name": "huashu-material-search",
-      "description": "搜索个人素材库1800+条真实经历和观点，为内容增加人味。当用户提到\"个人经历\"、\"真实案例\"、\"素材\"、\"人味\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-material-search",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 24,
-        "category": "other",
-        "score": 78.09,
-        "scores": {
-          "speed": 23.09,
-          "quality": 50.0,
-          "maintainability": 5.0,
-          "total": 78.09
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-md-to-pdf",
-      "name": "huashu-md-to-pdf",
-      "description": "将 Markdown 文档转换为专业的 PDF 白皮书，采用苹果设计风格。\n支持完整的 Markdown 语法（代码块、表格、引用、列表等）。\n自动生成封面、目录、页眉页脚。\n使用场景：技术文档、白皮书、教程、报告等需要专业排版的 Markdown 文档。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-md-to-pdf",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "data-docs",
-        "score": 76.11,
-        "scores": {
-          "speed": 11.11,
-          "quality": 50.0,
-          "maintainability": 15.0,
-          "total": 76.11
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-prompt-save",
-      "name": "huashu-prompt-save",
-      "description": "自动识别Prompt类型并分类保存（技术/内容/教学/产品/通用）。当用户提到\"保存prompt\"、\"记录prompt\"、\"整理prompt\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-prompt-save",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 84,
-        "category": "other",
-        "score": 64.77,
-        "scores": {
-          "speed": 9.77,
-          "quality": 50.0,
-          "maintainability": 5.0,
-          "total": 64.77
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-proofreading",
-      "name": "huashu-proofreading",
-      "description": "三遍审校降低AI检测率，让文章更有人味。当用户提到\"AI味太重\"、\"像AI写的\"、\"降低AI检测率\"、\"审校\"、\"自然一些\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-proofreading",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 64,
-        "category": "other",
-        "score": 69.54,
-        "scores": {
-          "speed": 16.04,
-          "quality": 50.0,
-          "maintainability": 3.5,
-          "total": 69.54
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-research",
-      "name": "huashu-research",
-      "description": "结构化网络调研流程，确保调研成果增量保存到文件，不因会话截断丢失。当用户说\"调研\"、\"搜索资料\"、\"帮我查一下\"、\"了解一下\"、\"最新信息\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-research",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 26,
-        "category": "product-discovery",
-        "score": 67.65,
-        "scores": {
-          "speed": 19.15,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 67.65
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-script-polish",
-      "name": "huashu-script-polish",
-      "description": "视频脚本口语化审校，去书面腔让脚本适合说出来。当用户提到\"口语化\"、\"太书面了\"、\"像说话一样\"、\"脚本审校\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-script-polish",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 16,
-        "category": "other",
-        "score": 80.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 5.5,
-          "total": 80.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-slides",
-      "name": "huashu-slides",
-      "description": "从内容到成品PPTX的端到端演示文稿制作，含AI插画生成和18种设计风格。当用户提到\"做PPT\"、\"做幻灯片\"、\"演示文稿\"、\"Keynote\"、\"slides\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-slides",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 100,
-        "category": "other",
-        "score": 58.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 25.0,
-          "maintainability": 3.0,
-          "total": 58.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-speech-coach",
-      "name": "huashu-speech-coach",
-      "description": "演讲与分享教练。基于Patrick Winston（MIT AI教授）的How to Speak方法论，帮助准备线下培训、技术分享、B站教程视频等演讲场景。当用户提到\"演讲\"、\"分享\"、\"培训\"、\"讲课\"、\"PPT演讲\"、\"开场\"、\"结尾\"、\"如何讲\"、\"演讲结构\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-speech-coach",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 86,
-        "category": "other",
-        "score": 64.65,
-        "scores": {
-          "speed": 14.65,
-          "quality": 45.0,
-          "maintainability": 5.0,
-          "total": 64.65
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-topic-gen",
-      "name": "huashu-topic-gen",
-      "description": "快速生成3-4个选题方向，含标题、大纲和优劣分析。当用户提到\"选题\"、\"写什么\"、\"文章方向\"、\"题目建议\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-topic-gen",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 89,
-        "category": "other",
-        "score": 63.67,
-        "scores": {
-          "speed": 18.67,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 63.67
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-video-check",
-      "name": "huashu-video-check",
-      "description": "基于MrBeast策略检查视频标题、封面和开头钩子。当用户提到\"视频标题\"、\"封面图\"、\"点击率\"、\"CTR\"、\"观看时长\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-video-check",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 10,
-        "category": "video-editing",
-        "score": 54.75,
-        "scores": {
-          "speed": 1.25,
-          "quality": 45.0,
-          "maintainability": 8.5,
-          "total": 54.75
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-video-outline",
-      "name": "huashu-video-outline",
-      "description": "快速生成2-3个视频大纲方案，含标题、封面建议和结构设计。当用户提到\"视频大纲\"、\"视频结构\"、\"脚本大纲\"、\"视频选题\"时使用。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-video-outline",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "video-editing",
-        "score": 76.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 1.5,
-          "total": 76.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-wechat-image",
-      "name": "huashu-wechat-image",
-      "description": "为微信公众号文章生成高质量配图。支持封面图（2.35:1）、正文插图（16:9/4:3）、信息图。提供两条路径：AI生成（视觉创意型）和HTML渲染（文字精确型）。当用户提到\"公众号配图\"、\"公众号封面\"、\"文章配图\"、\"正文插图\"、\"公众号图片\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-wechat-image",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "video-media",
-        "score": 76.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 1.0,
-          "total": 76.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-xhs-image",
-      "name": "huashu-xhs-image",
-      "description": "为小红书笔记生成高质量配图。默认AI生成（Gemini），仅精确数据表格用HTML兜底。当用户提到\"小红书配图\"、\"小红书封面\"、\"小红书图片\"、\"做张小红书图\"、\"笔记配图\"时使用此技能。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/huashu-skills/huashu-xhs-image",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 9,
-        "category": "video-media",
-        "score": 61.51,
-        "scores": {
-          "speed": 6.51,
-          "quality": 50.0,
-          "maintainability": 5.0,
-          "total": 61.51
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "ab-test-setup",
-      "name": "ab-test-setup",
-      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" or \"how long should I run this test.\" Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ab-test-setup",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "ad-creative",
-      "name": "ad-creative",
-      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ad-creative",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "ai-seo",
-      "name": "ai-seo",
-      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ai-seo",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "analytics-tracking",
-      "name": "analytics-tracking",
-      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/analytics-tracking",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "churn-prevention",
-      "name": "churn-prevention",
-      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/churn-prevention",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "cold-email",
-      "name": "cold-email",
-      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/cold-email",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "competitor-alternatives",
-      "name": "competitor-alternatives",
-      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/competitor-alternatives",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "content-strategy",
-      "name": "content-strategy",
-      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/content-strategy",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "copy-editing",
-      "name": "copy-editing",
-      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/copy-editing",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "copywriting",
-      "name": "copywriting",
-      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/copywriting",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "email-sequence",
-      "name": "email-sequence",
-      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/email-sequence",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "form-cro",
-      "name": "form-cro",
-      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/form-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "free-tool-strategy",
-      "name": "free-tool-strategy",
-      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/free-tool-strategy",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "launch-strategy",
-      "name": "launch-strategy",
-      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/launch-strategy",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "lead-magnets",
-      "name": "lead-magnets",
-      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/lead-magnets",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "marketing-ideas",
-      "name": "marketing-ideas",
-      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/marketing-ideas",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "marketing-psychology",
-      "name": "marketing-psychology",
-      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/marketing-psychology",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "onboarding-cro",
-      "name": "onboarding-cro",
-      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/onboarding-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "page-cro",
-      "name": "page-cro",
-      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/page-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "paid-ads",
-      "name": "paid-ads",
-      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/paid-ads",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "paywall-upgrade-cro",
-      "name": "paywall-upgrade-cro",
-      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/paywall-upgrade-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "popup-cro",
-      "name": "popup-cro",
-      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/popup-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "pricing-strategy",
-      "name": "pricing-strategy",
-      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/pricing-strategy",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "product-marketing-context",
-      "name": "product-marketing-context",
-      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/product-marketing-context",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "programmatic-seo",
-      "name": "programmatic-seo",
-      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/programmatic-seo",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "referral-program",
-      "name": "referral-program",
-      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/referral-program",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "revops",
-      "name": "revops",
-      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/revops",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "sales-enablement",
-      "name": "sales-enablement",
-      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/sales-enablement",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "schema-markup",
-      "name": "schema-markup",
-      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/schema-markup",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "seo-audit",
-      "name": "seo-audit",
-      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/seo-audit",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "signup-flow-cro",
-      "name": "signup-flow-cro",
-      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/signup-flow-cro",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "site-architecture",
-      "name": "site-architecture",
-      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/site-architecture",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "social-content",
-      "name": "social-content",
-      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/social-content",
-      "source": "external",
-      "source_dir": "external"
-    },
-    {
-      "id": "huashu-nuwa",
-      "name": "huashu-nuwa",
-      "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。\n两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。\n触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。\n模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/nuwa-skill",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 31,
-        "category": "product-discovery",
-        "score": 63.15,
-        "scores": {
-          "speed": 14.65,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 63.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "web-access",
-      "name": "web-access",
-      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/web-access",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "agent-tool",
-        "score": 81.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 1.0,
-          "total": 81.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "tags": []
     }
   ]
 }
