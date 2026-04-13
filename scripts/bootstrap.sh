@@ -17,6 +17,7 @@ for arg in "$@"; do
       exit 0 ;;
   esac
 done
+[[ -n "$TARGET_DIR" ]] || { echo "✗ --target value cannot be empty" >&2; exit 1; }
 
 RED='\033[0;31m'; GREEN='\033[0;32m'; YELLOW='\033[1;33m'; CYAN='\033[0;36m'; NC='\033[0m'; BOLD='\033[1m'
 ok()   { echo -e "${GREEN}✓ $1${NC}"; }
@@ -38,14 +39,17 @@ do_symlink() {
   local dst="$TARGET_DIR/$name"
   if [ -L "$dst" ] && [ -e "$dst" ]; then
     info "已存在: $name"
-    EXISTS=$((EXISTS + 1))
+    EXISTS=$((EXISTS + 1)) || true
   elif $DRY_RUN; then
     info "[DRY-RUN] ln -s $src $dst"
-    NEW=$((NEW + 1))
+    NEW=$((NEW + 1)) || true
   else
     mkdir -p "$TARGET_DIR"
-    ln -sf "$src" "$dst" && ok "链接: $name" && NEW=$((NEW + 1)) \
-      || { err "失败: $name"; FAIL=$((FAIL + 1)); }
+    if ln -sf "$src" "$dst"; then
+      ok "链接: $name"; NEW=$((NEW + 1)) || true
+    else
+      err "失败: $name"; FAIL=$((FAIL + 1)) || true
+    fi
   fi
 }
 
@@ -62,4 +66,7 @@ if ! $GUIDED && ! $UPGRADE; then
   done
   echo ""
   echo -e "${BOLD}完成: 新建 ${GREEN}$NEW${NC} / 已存在 ${CYAN}$EXISTS${NC} / 失败 ${RED}$FAIL${NC}"
+  if [[ $NEW -eq 0 && $EXISTS -eq 0 && $FAIL -eq 0 ]]; then
+    warn "未找到任何 skill，请检查仓库结构或 --target 路径"
+  fi
 fi
