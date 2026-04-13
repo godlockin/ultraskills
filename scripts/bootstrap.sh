@@ -104,7 +104,7 @@ if $GUIDED; then
 
   step "安装选中 skills → $TARGET_DIR"
   for i in "${!SKILL_SELECTED[@]}"; do
-    [ "${SKILL_SELECTED[$i]}" = "true" ] || continue
+    [ "${SKILL_SELECTED[$i]}" = "1" ] || continue
     do_symlink "${SKILL_PATHS[$i]}" "${SKILL_NAMES[$i]}"
   done
   echo ""
