@@ -95,12 +95,19 @@ git-commit-master/
 
 功能：
   - 自动 30s 分段（避免 FunASR 时间戳漂移）
-  - 内置口误/语气词/静音识别（从 tips/ 读方法论）
+  - 口误/语气词/静音识别逻辑硬编码在脚本中；
+    tips/ 目录仅供人类阅读，脚本不解析它
+  - 口误识别规则：重复型/替换型/卡顿型（见 tips/口误识别方法论.md 对应 section）
+  - 语气词列表：嗯/哎/诶/啊（硬编码，可在脚本顶部 FILLER_WORDS 常量扩展）
+  - 静音阈值：≥1s（硬编码常量 SILENCE_THRESHOLD_S）
   - 检查依赖：funasr, modelscope
 
 输出：
-  01-{name}_transcript.json   # 转录结果（含字符级时间戳）
-  01-{name}_审查稿.md          # 口误审查稿，展示给用户确认
+  {序号}-{name}_transcript.json   # 转录结果（含字符级时间戳）
+  {序号}-{name}_审查稿.md          # 口误审查稿，展示给用户确认
+  
+  {序号} 来自输入文件名前缀（如 01-demo.mp4 → 序号为 01）；
+  若文件名无数字前缀，则默认为 01
 ```
 
 **`剪辑/scripts/cut.py`**
@@ -109,14 +116,18 @@ git-commit-master/
 用法：python3 scripts/cut.py <video.mp4> <审查稿.md> [--dry-run]
 
 功能：
-  - 解析审查稿中勾选的 (start-end) 时间段
-  - 生成 FFmpeg filter.txt（trim+concat）
-  - --dry-run：只打印 FFmpeg 命令，不执行
+  - 解析审查稿中勾选（[x]）的删除项，格式固定为：
+      - [x] N. `(start-end)` 删"文本" → 保留"文本"
+    其中 start/end 为秒级浮点数，如 `(1.36-2.54)`
+  - 未勾选（[ ]）的行忽略，保留对应片段
+  - 计算保留时间段（删除区间的补集）
+  - 生成 FFmpeg filter.txt（trim+concat 格式）
+  - --dry-run：只打印 filter.txt 内容和 FFmpeg 命令，不执行
   - 检查依赖：ffmpeg
 
 输出：
-  01-{name}-v{N}.mp4          # 版本号自动递增
-  01-{name}-v{N}_transcript.json  # 重新转录（验证用）
+  {序号}-{name}-v{N}.mp4          # 版本号从输入文件版本号+1 自动递增
+  filter_{序号}-{name}-v{N}.txt   # 中间产物，保留供调试
 ```
 
 **`字幕/scripts/subtitle.py`**
@@ -127,19 +138,21 @@ git-commit-master/
   python3 scripts/subtitle.py <video.mp4> <字幕稿.txt>  # 阶段2：烧录
 
 阶段1功能：
-  - Whisper 转录（medium 模型，zh）
-  - 词典纠错（读取 词典.txt）
-  - 输出字幕稿.txt（≤15字/行，等用户审核）
+  - Whisper 转录（medium 模型，zh），输出含词级时间戳的 JSON
+  - 词典纠错（读取 词典.txt，逐行匹配，大小写不敏感）
+  - 按 ≤15字/行 分句，输出字幕稿.txt，等用户审核
 
 阶段2功能：
-  - 匹配时间戳 → 生成 SRT
-  - FFmpeg 烧录（白字黑边，底部居中）
+  - 约束：用户只能修改文字内容，不能调整行顺序（顺序改变则对齐失效）
+  - 时间戳对齐算法：字幕稿每行对应阶段1 JSON 中等长文本片段，
+    取该片段首词 start 和末词 end 作为 SRT 时间轴
+  - 生成 SRT → FFmpeg 烧录（24号白字黑描边，底部居中，drawtext filter）
   - 检查依赖：whisper, ffmpeg
 
 输出：
-  01-{name}_字幕稿.txt
-  01-{name}.srt
-  01-{name}-字幕.mp4
+  {序号}-{name}_字幕稿.txt
+  {序号}-{name}.srt
+  {序号}-{name}-字幕.mp4
 ```
 
 **`media-downloader/scripts/download.py`**
@@ -163,9 +176,12 @@ git-commit-master/
 用法：bash scripts/commit.sh [--dry-run]
 
 功能：
-  - 检查 git staged 是否有内容
-  - 按 Conventional Commits 格式生成 message
-  - --dry-run：只打印 message，不执行 git commit
+  - 检查 git staged 是否有内容，无则报错退出
+  - 脚本本身不生成 commit message；调用者（Agent）负责生成
+  - 脚本职责：接收 MESSAGE 环境变量或 stdin，校验是否符合
+    Conventional Commits 格式（type(scope): desc），不符合则报错
+  - --dry-run：打印将要执行的 git commit 命令，不实际提交
+  - 格式：MESSAGE="feat: add feature" bash scripts/commit.sh
 ```
 
 #### 通用脚本约定
@@ -175,7 +191,10 @@ git-commit-master/
 1. **`check_deps()`**：顶部检查依赖，缺失时给出安装命令，不崩溃
 2. **`--dry-run`**：打印将执行的命令，不实际执行
 3. **错误友好**：失败时输出人类可读的修复建议，而非 traceback
-4. **输出命名规范**：`{序号}-{name}-v{N}.{ext}`，版本号自动递增
+4. **输出命名规范**：`{序号}-{name}-v{N}.{ext}`
+   - `{序号}`：从输入文件名前缀解析（如 `01-demo.mp4` → `01`）；无数字前缀则默认 `01`
+   - `{name}`：输入文件名去掉序号和扩展名（如 `01-demo.mp4` → `demo`）
+   - `{N}`：版本号，从输入文件版本号+1 自动递增（如 `v1` → `v2`）；无版本号则从 `v1` 开始
 
 ---
 
@@ -217,7 +236,8 @@ bash scripts/bootstrap.sh --guided
 ```
 
 行为（复用 `init_project_skills.sh` 的 `interactive_select()` 等函数）：
-1. 按分类展示 skills（含描述，从 SKILL.md frontmatter 读取）
+1. 按分类展示 skills，描述从 SKILL.md frontmatter `description` 字段读取；
+   frontmatter 格式：`---\nname: xxx\ndescription: "..."\n---`（YAML，已有规范）
 2. 用户输入数字/范围勾选（如 `1,3,5-8` 或 `all`）
 3. 支持 `--target` 指定安装目录（默认 `~/.claude/skills/`）
 4. 确认后建 symlink
