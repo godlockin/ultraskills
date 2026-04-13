@@ -46,3 +46,6 @@
 [submodule "external/huashu-skills"]
 	path = external/huashu-skills
 	url = https://github.com/alchaincyf/huashu-skills.git
+[submodule "external/nuwa-skill"]
+	path = external/nuwa-skill
+	url = https://github.com/alchaincyf/nuwa-skill.git

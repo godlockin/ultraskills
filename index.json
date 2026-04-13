@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.2.28",
-    "updated_at": "2026-04-01",
+    "version": "1.2.29",
+    "updated_at": "2026-04-13",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-03-09",
-    "total_skills": 578
+    "total_skills": 136
   },
   "skills": [
     {
@@ -991,6 +991,264 @@
       "path": "./community/自进化/SKILL.md",
       "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
       "tags": []
+    },
+    {
+      "id": "web-access",
+      "name": "web-access",
+      "path": "./external/web-access/SKILL.md",
+      "description": "给 Claude Code 装上完整联网能力 — 三层通道调度 + 浏览器 CDP + 并行分治。处理所有联网操作：搜索、网页抓取、登录后操作、抓取小红书/微博/推特等社交媒体。",
+      "tags": [
+        "web",
+        "browser",
+        "networking",
+        "scraping",
+        "search"
+      ]
+    },
+    {
+      "id": "huashu-nuwa",
+      "name": "huashu-nuwa",
+      "path": "./external/nuwa-skill/SKILL.md",
+      "description": "女娲造人：输入人名/主题，自动深度调研→思维框架提炼→生成可运行的人物 Skill。蒸馏任何人的思维方式——心智模型、决策启发式、表达 DNA。",
+      "tags": [
+        "skill-creation",
+        "research",
+        "thinking-models",
+        "distillation",
+        "chinese"
+      ]
+    },
+    {
+      "id": "huashu-research",
+      "name": "huashu-research",
+      "path": "./external/huashu-skills/huashu-research/SKILL.md",
+      "description": "结构化网络调研流程，确保调研成果增量保存到文件，不因会话截断丢失。触发词：调研、搜索资料、帮我查一下、了解一下、最新信息。",
+      "tags": [
+        "research",
+        "web-search",
+        "chinese",
+        "persistent"
+      ]
+    },
+    {
+      "id": "huashu-agent-swarm",
+      "name": "huashu-agent-swarm",
+      "path": "./external/huashu-skills/huashu-agent-swarm/SKILL.md",
+      "description": "花叔的 Agent Swarm 多智能体协作技能",
+      "tags": [
+        "multi-agent",
+        "swarm",
+        "chinese"
+      ]
+    },
+    {
+      "id": "huashu-article-edit",
+      "name": "huashu-article-edit",
+      "path": "./external/huashu-skills/huashu-article-edit/SKILL.md",
+      "description": "标准化文章编辑流程，确保修改范围明确、进度可追踪、变更有记录。当用户说\"编辑文章\"、\"修改文章\"、\"调整内容\"、\"改一下这篇\"时使用此技能。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-article-to-x",
+      "name": "huashu-article-to-x",
+      "path": "./external/huashu-skills/huashu-article-to-x/SKILL.md",
+      "description": "长文精简为X平台内容（200-500字），保留核心观点和个人风格。当用户提到\"转微博\"、\"发小红书\"、\"社交媒体\"、\"缩短文章\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-data-pro",
+      "name": "huashu-data-pro",
+      "path": "./external/huashu-skills/huashu-data-pro/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-design",
+      "name": "huashu-design",
+      "path": "./external/huashu-skills/huashu-design/SKILL.md",
+      "description": "设计哲学顾问，从20种风格中推荐3个方向并生成视觉Demo和AI提示词。当用户提到\"设计风格\"、\"设计方向\"、\"配色方案\"、\"视觉风格\"、\"设计评审\"、\"推荐风格\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-douyin-script",
+      "name": "huashu-douyin-script",
+      "path": "./external/huashu-skills/huashu-douyin-script/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-image-upload",
+      "name": "huashu-image-upload",
+      "path": "./external/huashu-skills/huashu-image-upload/SKILL.md",
+      "description": "文章配图一键生成并上传图床，自动插入Markdown链接。当用户提到\"配图\"、\"插图\"、\"上传图片\"、\"文章配图\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-info-search",
+      "name": "huashu-info-search",
+      "path": "./external/huashu-skills/huashu-info-search/SKILL.md",
+      "description": "多渠道搜索新产品新技术，交叉验证后存入知识库。当用户提到\"最新信息\"、\"新产品\"、\"搜索资料\"、\"查资料\"、\"了解XX\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-material-search",
+      "name": "huashu-material-search",
+      "path": "./external/huashu-skills/huashu-material-search/SKILL.md",
+      "description": "搜索个人素材库1800+条真实经历和观点，为内容增加人味。当用户提到\"个人经历\"、\"真实案例\"、\"素材\"、\"人味\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-md-to-pdf",
+      "name": "huashu-md-to-pdf",
+      "path": "./external/huashu-skills/huashu-md-to-pdf/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-prompt-save",
+      "name": "huashu-prompt-save",
+      "path": "./external/huashu-skills/huashu-prompt-save/SKILL.md",
+      "description": "自动识别Prompt类型并分类保存（技术/内容/教学/产品/通用）。当用户提到\"保存prompt\"、\"记录prompt\"、\"整理prompt\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-proofreading",
+      "name": "huashu-proofreading",
+      "path": "./external/huashu-skills/huashu-proofreading/SKILL.md",
+      "description": "三遍审校降低AI检测率，让文章更有人味。当用户提到\"AI味太重\"、\"像AI写的\"、\"降低AI检测率\"、\"审校\"、\"自然一些\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-script-polish",
+      "name": "huashu-script-polish",
+      "path": "./external/huashu-skills/huashu-script-polish/SKILL.md",
+      "description": "视频脚本口语化审校，去书面腔让脚本适合说出来。当用户提到\"口语化\"、\"太书面了\"、\"像说话一样\"、\"脚本审校\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-slides",
+      "name": "huashu-slides",
+      "path": "./external/huashu-skills/huashu-slides/SKILL.md",
+      "description": "从内容到成品PPTX的端到端演示文稿制作，含AI插画生成和18种设计风格。当用户提到\"做PPT\"、\"做幻灯片\"、\"演示文稿\"、\"Keynote\"、\"slides\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-speech-coach",
+      "name": "huashu-speech-coach",
+      "path": "./external/huashu-skills/huashu-speech-coach/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-topic-gen",
+      "name": "huashu-topic-gen",
+      "path": "./external/huashu-skills/huashu-topic-gen/SKILL.md",
+      "description": "快速生成3-4个选题方向，含标题、大纲和优劣分析。当用户提到\"选题\"、\"写什么\"、\"文章方向\"、\"题目建议\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-video-check",
+      "name": "huashu-video-check",
+      "path": "./external/huashu-skills/huashu-video-check/SKILL.md",
+      "description": "基于MrBeast策略检查视频标题、封面和开头钩子。当用户提到\"视频标题\"、\"封面图\"、\"点击率\"、\"CTR\"、\"观看时长\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-video-outline",
+      "name": "huashu-video-outline",
+      "path": "./external/huashu-skills/huashu-video-outline/SKILL.md",
+      "description": "快速生成2-3个视频大纲方案，含标题、封面建议和结构设计。当用户提到\"视频大纲\"、\"视频结构\"、\"脚本大纲\"、\"视频选题\"时使用。",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-wechat-image",
+      "name": "huashu-wechat-image",
+      "path": "./external/huashu-skills/huashu-wechat-image/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "huashu-xhs-image",
+      "name": "huashu-xhs-image",
+      "path": "./external/huashu-skills/huashu-xhs-image/SKILL.md",
+      "description": "|",
+      "tags": [
+        "huashu",
+        "chinese",
+        "content-creation"
+      ]
     }
   ]
 }
