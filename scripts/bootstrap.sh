@@ -70,3 +70,23 @@ if ! $GUIDED && ! $UPGRADE; then
     warn "未找到任何 skill，请检查仓库结构或 --target 路径"
   fi
 fi
+
+if $UPGRADE; then
+  step "更新仓库..."
+  $DRY_RUN && info "[DRY-RUN] git pull" || git -C "$REPO_ROOT" pull
+  $DRY_RUN && info "[DRY-RUN] git submodule update --remote" \
+    || git -C "$REPO_ROOT" submodule update --remote --quiet
+
+  step "修复断链..."
+  FIXED=0
+  for link in "$TARGET_DIR"/*/; do
+    link="${link%/}"
+    [ -L "$link" ] || continue
+    if [ ! -e "$link" ]; then
+      warn "断链: $(basename "$link")"
+      $DRY_RUN && info "[DRY-RUN] rm $link" || { rm "$link"; FIXED=$((FIXED + 1)) || true; }
+    fi
+  done
+  ok "修复断链: $FIXED 个"
+  exit 0
+fi
