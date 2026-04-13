@@ -79,14 +79,13 @@ if $UPGRADE; then
 
   step "修复断链..."
   FIXED=0
-  for link in "$TARGET_DIR"/*/; do
-    link="${link%/}"
+  for link in "$TARGET_DIR"/*; do
     [ -L "$link" ] || continue
     if [ ! -e "$link" ]; then
       warn "断链: $(basename "$link")"
       $DRY_RUN && info "[DRY-RUN] rm $link" || { rm "$link"; FIXED=$((FIXED + 1)) || true; }
     fi
   done
-  ok "修复断链: $FIXED 个"
+  info "修复断链: $FIXED 个"
   exit 0
 fi
