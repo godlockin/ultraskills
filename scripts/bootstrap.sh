@@ -89,3 +89,25 @@ if $UPGRADE; then
   info "修复断链: $FIXED 个"
   exit 0
 fi
+
+if $GUIDED; then
+  # source 复用 init_project_skills.sh 的交互函数（已确认 main() 有守卫）
+  source "$SCRIPT_DIR/init_project_skills.sh" || {
+    err "无法加载 init_project_skills.sh"; exit 1
+  }
+
+  step "收集可用 skills..."
+  collect_available_skills  # 填充 SKILL_NAMES / SKILL_PATHS 全局数组
+
+  step "选择要安装的 skills"
+  interactive_select        # 填充 SKILL_SELECTED 全局数组
+
+  step "安装选中 skills → $TARGET_DIR"
+  for i in "${!SKILL_SELECTED[@]}"; do
+    [ "${SKILL_SELECTED[$i]}" = "true" ] || continue
+    do_symlink "${SKILL_PATHS[$i]}" "${SKILL_NAMES[$i]}"
+  done
+  echo ""
+  echo -e "${BOLD}完成: 新建 ${GREEN}$NEW${NC} / 已存在 ${CYAN}$EXISTS${NC} / 失败 ${RED}$FAIL${NC}"
+  exit 0
+fi

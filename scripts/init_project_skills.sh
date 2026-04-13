@@ -744,5 +744,5 @@ main() {
     echo ""
 }
 
-# 运行主函数
-main "$@"
+# 运行主函数（sourced 时不自动执行）
+[ "${BASH_SOURCE[0]}" = "$0" ] && main "$@" || true
