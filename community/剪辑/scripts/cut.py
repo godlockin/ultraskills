@@ -23,7 +23,7 @@ def parse_filename(video_path: Path):
 def parse_review_draft(draft_path: Path) -> list:
     """解析审查稿中 [x] 勾选的时间段，返回 [(start, end), ...] 删除列表"""
     deletes = []
-    pattern = re.compile(r'- \[x\].*?`\((\d+\.\d+)-(\d+\.\d+)\)`')
+    pattern = re.compile(r'- \[x\].*?`\((\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)\)`')
     for line in draft_path.read_text(encoding='utf-8').splitlines():
         m = pattern.search(line)
         if m:
