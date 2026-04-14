@@ -17,8 +17,13 @@ from typing import Dict, Any, List, Optional
 class SkillInvoker:
     """Invokes skills via LLM API and collects metrics."""
 
-    def __init__(self, provider: str = "anthropic", model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, provider: str = "anthropic", model: str = ""):
         self.provider = provider
+        # Read model from env, fallback to provider-appropriate default
+        if not model:
+            model = os.environ.get("SKILL_ARENA_MODEL", "")
+        if not model:
+            model = "gemini-2.5-flash" if provider == "google" else "claude-sonnet-4-20250514"
         self.model = model
         self.api_key = self._get_api_key(provider)
         self.base_url = self._get_base_url(provider)
@@ -240,8 +245,14 @@ Apply your methodology systematically and provide actionable insights."""
         import google.auth
         import google.auth.transport.requests
 
+        creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+        # Resolve relative path against project root (4 levels up from scripts/)
+        if not os.path.isabs(creds_path):
+            project_root = Path(__file__).parent.parent.parent.parent
+            creds_path = str(project_root / creds_path)
         creds, project = google.auth.load_credentials_from_file(
-            os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+            creds_path,
+            scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
         auth_req = google.auth.transport.requests.Request()
         creds.refresh(auth_req)
@@ -276,37 +287,13 @@ Apply your methodology systematically and provide actionable insights."""
             }
         }
 
-        response = requests.post(
-            f"{self.base_url}/chat/completions".replace("chat/completions", f"generateContent"),
-            headers=headers,
-            json=payload,
-            timeout=120
+        # Use Vertex AI endpoint directly
+        vertex_url = (
+            f"https://us-central1-aiplatform.googleapis.com/v1/"
+            f"projects/{project_id}/locations/us-central1/publishers/google/"
+            f"models/{self.model}:generateContent"
         )
-
-        if response.status_code != 200:
-            # Fallback to standard Google API
-            headers["Content-Type"] = "application/json"
-            payload = {
-                "contents": [
-                    {
-                        "role": "user",
-                        "parts": [{"text": f"System: {system_prompt}\n\nUser: {user_message}"}]
-                    }
-                ],
-                "generationConfig": {
-                    "maxOutputTokens": 4096,
-                    "temperature": 1.0,
-                    "topP": 0.95,
-                    "topK": 40
-                }
-            }
-            response = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent",
-                headers=headers,
-                json=payload,
-                timeout=120
-            )
-
+        response = requests.post(vertex_url, headers=headers, json=payload, timeout=120)
         response.raise_for_status()
         result = response.json()
 

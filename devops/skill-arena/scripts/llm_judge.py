@@ -14,8 +14,12 @@ from typing import Dict, Any, List
 class LLMJudge:
     """Evaluates skill outputs using LLM with detailed rubrics."""
 
-    def __init__(self, provider: str = "anthropic", model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, provider: str = "anthropic", model: str = ""):
         self.provider = provider
+        if not model:
+            model = os.environ.get("SKILL_ARENA_MODEL", "")
+        if not model:
+            model = "gemini-2.5-flash" if provider == "google" else "claude-sonnet-4-20250514"
         self.model = model
         self.api_key = self._get_api_key(provider)
 
@@ -163,8 +167,50 @@ Evaluate objectively. Provide specific examples from the output to support your 
             return self._invoke_anthropic(prompt)
         elif self.provider == "openai":
             return self._invoke_openai(prompt)
+        elif self.provider == "google":
+            return self._invoke_google(prompt)
         else:
             return self._invoke_anthropic(prompt)
+
+    def _invoke_google(self, prompt: str) -> str:
+        """Invoke Google Vertex AI for evaluation."""
+        import requests
+        from pathlib import Path
+        import google.auth
+        import google.auth.transport.requests
+
+        creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+        if not os.path.isabs(creds_path):
+            project_root = Path(__file__).parent.parent.parent.parent
+            creds_path = str(project_root / creds_path)
+        creds, _ = google.auth.load_credentials_from_file(
+            creds_path,
+            scopes=["https://www.googleapis.com/auth/cloud-platform"]
+        )
+        auth_req = google.auth.transport.requests.Request()
+        creds.refresh(auth_req)
+
+        project_id = creds.project_id if creds.project_id else os.environ.get("GOOGLE_PROJECT_ID", "")
+        vertex_url = (
+            f"https://us-central1-aiplatform.googleapis.com/v1/"
+            f"projects/{project_id}/locations/us-central1/publishers/google/"
+            f"models/{self.model}:generateContent"
+        )
+        headers = {
+            "Authorization": f"Bearer {creds.token}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": 2048, "temperature": 0.3}
+        }
+        response = requests.post(vertex_url, headers=headers, json=payload, timeout=60)
+        response.raise_for_status()
+        result = response.json()
+        if "candidates" in result and result["candidates"]:
+            parts = result["candidates"][0].get("content", {}).get("parts", [{}])
+            return parts[0].get("text", "")
+        return ""
 
     def _invoke_anthropic(self, prompt: str) -> str:
         """Invoke Anthropic Claude API."""

@@ -234,6 +234,10 @@ def main():
 
     # Full command
     full_parser = subparsers.add_parser("full", help="Run full pipeline")
+    full_parser.add_argument("--no-parallel", action="store_true", help="Disable parallel execution")
+    full_parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers")
+    full_parser.add_argument("--use-llm", dest="use_llm", action="store_true", help="Use actual LLM invocation")
+    full_parser.add_argument("--provider", type=str, default="anthropic", help="LLM provider")
     full_parser.set_defaults(func=cmd_full)
 
     # Backtrack command

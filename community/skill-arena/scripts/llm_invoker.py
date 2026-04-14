@@ -240,8 +240,14 @@ Apply your methodology systematically and provide actionable insights."""
         import google.auth
         import google.auth.transport.requests
 
+        creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+        # Resolve relative path against project root (4 levels up from scripts/)
+        if not os.path.isabs(creds_path):
+            project_root = Path(__file__).parent.parent.parent.parent
+            creds_path = str(project_root / creds_path)
         creds, project = google.auth.load_credentials_from_file(
-            os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+            creds_path,
+            scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
         auth_req = google.auth.transport.requests.Request()
         creds.refresh(auth_req)

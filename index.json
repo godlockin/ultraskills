@@ -21,22 +21,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 13,
         "category": "eng-testing",
-        "score": 68.75,
+        "score": 64.47,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 14.47,
+          "quality": 45.0,
+          "maintainability": 5.0,
+          "total": 64.47
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-eng-testing-skill",
         "eng-testing-related-tasks"
       ]
     },
@@ -53,14 +52,14 @@
         "playwright"
       ],
       "arena": {
-        "rank": 10,
+        "rank": 14,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 63.82,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.32,
+          "quality": 45.0,
+          "maintainability": 6.5,
+          "total": 63.82
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -84,22 +83,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 3,
         "category": "business-strategy",
-        "score": 57.25,
+        "score": 29.9,
         "scores": {
-          "speed": 30.0,
-          "quality": 11.25,
-          "maintainability": 16.0,
-          "total": 57.25
+          "speed": 6.9,
+          "quality": 15.0,
+          "maintainability": 8.0,
+          "total": 29.9
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 2,
       "recommended_for": [
-        "best-business-strategy-skill",
         "business-strategy-related-tasks"
       ]
     },
@@ -116,22 +114,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 13,
         "category": "eng-code-quality",
-        "score": 68.75,
+        "score": 46.13,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 10.13,
+          "quality": 25.0,
+          "maintainability": 11.0,
+          "total": 46.13
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-eng-code-quality-skill",
         "eng-code-quality-related-tasks"
       ]
     },
@@ -144,17 +141,18 @@
         "design",
         "review",
         "ui",
-        "frontend"
+        "frontend",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 6,
+        "rank": 11,
         "category": "product-ux",
-        "score": 47.0,
+        "score": 13.22,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 4.22,
+          "quality": 5.0,
+          "maintainability": 4.0,
+          "total": 13.22
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -173,17 +171,18 @@
       "tags": [
         "design",
         "consultation",
-        "design-system"
+        "design-system",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 7,
+        "rank": 23,
         "category": "eng-architecture",
-        "score": 56.25,
+        "score": 54.69,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 25.69,
+          "quality": 25.0,
+          "maintainability": 4.0,
+          "total": 54.69
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -205,14 +204,14 @@
         "security"
       ],
       "arena": {
-        "rank": 6,
+        "rank": 14,
         "category": "eng-code-quality",
-        "score": 47.0,
+        "score": 36.94,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.94,
+          "quality": 25.0,
+          "maintainability": 5.0,
+          "total": 36.94
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -234,14 +233,14 @@
         "workflow"
       ],
       "arena": {
-        "rank": 8,
+        "rank": 30,
         "category": "eng-devops",
-        "score": 56.25,
+        "score": 40.88,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 7.88,
+          "quality": 25.0,
+          "maintainability": 8.0,
+          "total": 40.88
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -261,17 +260,18 @@
         "qa",
         "testing",
         "bug-fix",
-        "browser"
+        "browser",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 20,
+        "rank": 19,
         "category": "eng-testing",
-        "score": 45.0,
+        "score": 34.99,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 9.5,
-          "total": 45.0
+          "speed": 5.99,
+          "quality": 25.0,
+          "maintainability": 4.0,
+          "total": 34.99
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -294,14 +294,14 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 11,
+        "rank": 18,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 38.99,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 7.49,
+          "quality": 25.0,
+          "maintainability": 6.5,
+          "total": 38.99
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -321,23 +321,24 @@
         "design",
         "qa",
         "frontend",
-        "ui"
+        "ui",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 6,
         "category": "product-ux",
-        "score": 56.25,
+        "score": 69.97,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 5.47,
+          "quality": 50.0,
+          "maintainability": 14.5,
+          "total": 69.97
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "product-ux-related-tasks"
       ]
@@ -354,14 +355,14 @@
         "cookies"
       ],
       "arena": {
-        "rank": 12,
+        "rank": 20,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 13.0,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 7.0,
+          "quality": 5.0,
+          "maintainability": 1.0,
+          "total": 13.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -380,17 +381,18 @@
       "tags": [
         "retro",
         "engineering",
-        "team"
+        "team",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 27,
+        "rank": 33,
         "category": "other",
-        "score": 56.25,
+        "score": 76.36,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 29.86,
+          "quality": 45.0,
+          "maintainability": 1.5,
+          "total": 76.36
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -415,12 +417,12 @@
       "arena": {
         "rank": 17,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 71.16,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.16,
+          "quality": 50.0,
+          "maintainability": 15.0,
+          "total": 71.16
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -442,14 +444,14 @@
         "tooling"
       ],
       "arena": {
-        "rank": 10,
+        "rank": 8,
         "category": "compliance-ra",
-        "score": 47.0,
+        "score": 73.53,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 23.53,
+          "quality": 50.0,
+          "maintainability": 0.0,
+          "total": 73.53
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -472,22 +474,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 4,
         "category": "agent-workflow",
-        "score": 68.75,
+        "score": 65.26,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 10.76,
+          "quality": 45.0,
+          "maintainability": 9.5,
+          "total": 65.26
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-agent-workflow-skill",
         "agent-workflow-related-tasks"
       ]
     },
@@ -503,14 +504,14 @@
         "skill-building"
       ],
       "arena": {
-        "rank": 11,
+        "rank": 21,
         "category": "eng-devops",
-        "score": 56.25,
+        "score": 67.4,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 14.4,
+          "quality": 45.0,
+          "maintainability": 8.0,
+          "total": 67.4
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -526,16 +527,18 @@
       "name": "prompt-engineer",
       "path": "./engineering/prompt-engineer/SKILL.md",
       "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 60,
+        "rank": 52,
         "category": "other",
-        "score": 47.0,
+        "score": 72.17,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 8.67,
+          "quality": 50.0,
+          "maintainability": 13.5,
+          "total": 72.17
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -554,17 +557,18 @@
       "tags": [
         "prompt-engineering",
         "meta-prompting",
-        "optimization"
+        "optimization",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 7,
         "category": "seo-content",
-        "score": 47.0,
+        "score": 45.68,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.68,
+          "quality": 25.0,
+          "maintainability": 15.0,
+          "total": 45.68
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -580,16 +584,18 @@
       "name": "skills-finder",
       "path": "./engineering/skills-finder/SKILL.md",
       "description": "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 14,
+        "rank": 45,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 43.66,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 8.66,
+          "quality": 25.0,
+          "maintainability": 10.0,
+          "total": 43.66
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -609,24 +615,26 @@
         "productivity",
         "media",
         "archiving",
-        "automation"
+        "automation",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 8,
+        "rank": 2,
         "category": "video-media",
-        "score": 47.0,
+        "score": 77.58,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 14.58,
+          "quality": 50.0,
+          "maintainability": 13.0,
+          "total": 77.58
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
+        "best-video-media-skill",
         "video-media-related-tasks"
       ]
     },
@@ -643,22 +651,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 12,
         "category": "data-analysis",
-        "score": 68.75,
+        "score": 53.26,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 0.76,
+          "quality": 50.0,
+          "maintainability": 2.5,
+          "total": 53.26
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-data-analysis-skill",
         "data-analysis-related-tasks"
       ]
     },
@@ -675,22 +682,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 9,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 76.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 45.0,
+          "maintainability": 1.0,
+          "total": 76.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-product-discovery-skill",
         "product-discovery-related-tasks"
       ]
     },
@@ -707,14 +713,14 @@
         "skill-management"
       ],
       "arena": {
-        "rank": 14,
+        "rank": 12,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 65.36,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.36,
+          "quality": 45.0,
+          "maintainability": 15.0,
+          "total": 65.36
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -738,20 +744,20 @@
         "learning"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 71,
         "category": "other",
-        "score": 68.75,
+        "score": 67.73,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 19.73,
+          "quality": 40.0,
+          "maintainability": 8.0,
+          "total": 67.73
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "other-related-tasks"
       ]
@@ -768,14 +774,14 @@
         "management"
       ],
       "arena": {
-        "rank": 22,
+        "rank": 7,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 76.04,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 22.54,
+          "quality": 45.0,
+          "maintainability": 8.5,
+          "total": 76.04
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -799,14 +805,14 @@
         "update"
       ],
       "arena": {
-        "rank": 23,
+        "rank": 18,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 70.68,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.68,
+          "quality": 50.0,
+          "maintainability": 8.0,
+          "total": 70.68
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -830,20 +836,20 @@
         "history"
       ],
       "arena": {
-        "rank": 3,
+        "rank": 4,
         "category": "eng-devops",
-        "score": 68.75,
+        "score": 79.01,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 29.01,
+          "quality": 50.0,
+          "maintainability": 0.0,
+          "total": 79.01
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "eng-devops-related-tasks"
       ]
@@ -861,14 +867,14 @@
         "methodology"
       ],
       "arena": {
-        "rank": 10,
+        "rank": 31,
         "category": "eng-devops",
-        "score": 56.25,
+        "score": 40.61,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 10.61,
+          "quality": 25.0,
+          "maintainability": 5.0,
+          "total": 40.61
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -892,14 +898,14 @@
         "english"
       ],
       "arena": {
-        "rank": 20,
+        "rank": 28,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 41.98,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
+          "speed": 5.48,
+          "quality": 25.0,
           "maintainability": 11.5,
-          "total": 47.0
+          "total": 41.98
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -923,14 +929,14 @@
         "japanese"
       ],
       "arena": {
-        "rank": 21,
+        "rank": 20,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 68.34,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.34,
+          "quality": 50.0,
+          "maintainability": 13.0,
+          "total": 68.34
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -950,22 +956,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 5,
         "category": "content-social",
-        "score": 68.75,
+        "score": 66.18,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 8.18,
+          "quality": 45.0,
+          "maintainability": 13.0,
+          "total": 66.18
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-content-social-skill",
         "content-social-related-tasks"
       ]
     },
@@ -976,14 +981,14 @@
       "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
       "tags": [],
       "arena": {
-        "rank": 13,
+        "rank": 7,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 78.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 78.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -999,23 +1004,26 @@
       "name": "ikea-designer-pro",
       "path": "./creative/ikea-designer/SKILL.md",
       "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity, ensuring adherence to Scandinavian design principles and Democratic Design.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 14,
+        "rank": 9,
         "category": "eng-architecture",
-        "score": 47.0,
+        "score": 72.54,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 16.04,
+          "quality": 50.0,
+          "maintainability": 6.5,
+          "total": 72.54
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
       "priority": 3,
       "recommended_for": [
+        "best-eng-architecture-skill",
         "eng-architecture-related-tasks"
       ]
     },
@@ -1024,23 +1032,26 @@
       "name": "image-to-video",
       "path": "./creative/image-to-video/SKILL.md",
       "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 4,
+        "rank": 2,
         "category": "content-email",
-        "score": 56.25,
+        "score": 75.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 75.0
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
+        "best-content-email-skill",
         "content-email-related-tasks"
       ]
     },
@@ -1049,16 +1060,18 @@
       "name": "photography-expert-pro",
       "path": "./creative/photography-expert/SKILL.md",
       "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography with a focus on lighting, composition, and optical realism.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 6,
+        "rank": 8,
         "category": "video-media",
-        "score": 47.0,
+        "score": 64.31,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 14.31,
+          "quality": 45.0,
+          "maintainability": 5.0,
+          "total": 64.31
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1080,17 +1093,18 @@
         "remotion",
         "animation",
         "creative",
-        "automation"
+        "automation",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 4,
+        "rank": 9,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 63.16,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 8.66,
+          "quality": 45.0,
+          "maintainability": 9.5,
+          "total": 63.16
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1106,16 +1120,18 @@
       "name": "video-frame-extractor",
       "path": "./creative/video-frame-extractor/SKILL.md",
       "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 15,
+        "rank": 41,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 49.33,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 1.33,
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 49.33
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1135,22 +1151,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 35,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 55.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 25.0,
+          "maintainability": 0.0,
+          "total": 55.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
       "priority": 3,
       "recommended_for": [
-        "best-product-discovery-skill",
         "product-discovery-related-tasks"
       ]
     },
@@ -1159,22 +1174,24 @@
       "name": "Visual Expert Pro (Gemini 3.0 Edition)",
       "path": "./creative/visual-expert/SKILL.md",
       "description": "Physics-Based Rendering Supervisor & Virtual Cinematographer for Home Furnishing & Interior Design",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 3,
+        "rank": 4,
         "category": "creative-visual",
-        "score": 56.25,
+        "score": 40.41,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 13.41,
+          "quality": 25.0,
+          "maintainability": 2.0,
+          "total": 40.41
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "creative-visual-related-tasks"
       ]
@@ -1186,14 +1203,14 @@
       "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
       "tags": [],
       "arena": {
-        "rank": 27,
+        "rank": 43,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 45.62,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.62,
+          "quality": 25.0,
+          "maintainability": 8.0,
+          "total": 45.62
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1213,14 +1230,14 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 59,
+        "rank": 53,
         "category": "other",
-        "score": 47.0,
+        "score": 72.15,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 11.15,
+          "quality": 50.0,
+          "maintainability": 11.0,
+          "total": 72.15
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1238,14 +1255,14 @@
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
       "tags": [],
       "arena": {
-        "rank": 57,
+        "rank": 94,
         "category": "other",
-        "score": 47.0,
+        "score": 59.71,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 4.71,
+          "quality": 40.0,
+          "maintainability": 15.0,
+          "total": 59.71
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1267,12 +1284,12 @@
       "arena": {
         "rank": 1,
         "category": "agent-bdi",
-        "score": 47.0,
+        "score": 77.9,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.9,
+          "quality": 50.0,
+          "maintainability": 15.0,
+          "total": 77.9
         },
         "is_winner": true,
         "test_date": "2026-03-09",
@@ -1293,22 +1310,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 21,
         "category": "compliance-ra",
-        "score": 68.75,
+        "score": 50.64,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 25.64,
+          "quality": 25.0,
+          "maintainability": 0.0,
+          "total": 50.64
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-compliance-ra-skill",
         "compliance-ra-related-tasks"
       ]
     },
@@ -1321,22 +1337,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 5,
         "category": "product-ux",
-        "score": 68.75,
+        "score": 70.67,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 11.17,
+          "quality": 45.0,
+          "maintainability": 14.5,
+          "total": 70.67
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-product-ux-skill",
         "product-ux-related-tasks"
       ]
     },
@@ -1349,22 +1364,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 3,
         "category": "creative-visual",
-        "score": 68.75,
+        "score": 45.15,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 5.15,
+          "quality": 25.0,
+          "maintainability": 15.0,
+          "total": 45.15
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 2,
       "recommended_for": [
-        "best-creative-visual-skill",
         "creative-visual-related-tasks"
       ]
     },
@@ -1373,22 +1387,24 @@
       "name": "claude-api",
       "path": "./community/claude-api/SKILL.md",
       "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 2,
+        "rank": 4,
         "category": "agent-tool",
-        "score": 56.25,
+        "score": 67.77,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 6.27,
+          "quality": 50.0,
+          "maintainability": 11.5,
+          "total": 67.77
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "agent-tool-related-tasks"
       ]
@@ -1402,22 +1418,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 5,
         "category": "content-social",
-        "score": 68.75,
+        "score": 66.18,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 8.18,
+          "quality": 45.0,
+          "maintainability": 13.0,
+          "total": 66.18
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-content-social-skill",
         "content-social-related-tasks"
       ]
     },
@@ -1430,22 +1445,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 2,
         "category": "agent-context",
-        "score": 68.75,
+        "score": 74.32,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
+          "speed": 8.32,
+          "quality": 50.0,
           "maintainability": 16.0,
-          "total": 68.75
+          "total": 74.32
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 2,
       "recommended_for": [
-        "best-agent-context-skill",
         "agent-context-related-tasks"
       ]
     },
@@ -1456,14 +1470,14 @@
       "description": "This skill should be used when the user asks to \"diagnose context problems\", \"fix lost-in-middle issues\", \"debug agent failures\", \"understand context poisoning\", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.",
       "tags": [],
       "arena": {
-        "rank": 26,
+        "rank": 40,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 49.79,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 16.79,
+          "quality": 25.0,
+          "maintainability": 8.0,
+          "total": 49.79
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1483,12 +1497,12 @@
       "arena": {
         "rank": 3,
         "category": "agent-context",
-        "score": 56.25,
+        "score": 74.3,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 9.8,
+          "quality": 50.0,
+          "maintainability": 14.5,
+          "total": 74.3
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1504,23 +1518,26 @@
       "name": "context-optimization",
       "path": "./community/context-optimization/SKILL.md",
       "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 2,
+        "rank": 1,
         "category": "seo-content",
-        "score": 56.25,
+        "score": 79.5,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 4.5,
+          "total": 79.5
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 1,
       "recommended_for": [
+        "best-seo-content-skill",
         "seo-content-related-tasks"
       ]
     },
@@ -1531,20 +1548,20 @@
       "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
       "tags": [],
       "arena": {
-        "rank": 5,
+        "rank": 3,
         "category": "agent-workflow",
-        "score": 47.0,
+        "score": 65.37,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 7.37,
+          "quality": 45.0,
+          "maintainability": 13.0,
+          "total": 65.37
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
         "agent-workflow-related-tasks"
       ]
@@ -1554,22 +1571,24 @@
       "name": "doc-coauthoring",
       "path": "./community/doc-coauthoring/SKILL.md",
       "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 3,
+        "rank": 13,
         "category": "eng-security",
-        "score": 56.25,
+        "score": 50.08,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 14.08,
+          "quality": 25.0,
+          "maintainability": 11.0,
+          "total": 50.08
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "eng-security-related-tasks"
       ]
@@ -1579,22 +1598,24 @@
       "name": "docx",
       "path": "./community/docx/SKILL.md",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 3,
+        "rank": 5,
         "category": "data-docs",
-        "score": 47.0,
+        "score": 60.65,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 9.15,
+          "quality": 45.0,
+          "maintainability": 6.5,
+          "total": 60.65
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "data-docs-related-tasks"
       ]
@@ -1606,14 +1627,14 @@
       "description": "动态组建专家组技能。根据任务目标、状态、进度、挑战动态创建、定义、细化专家设定，\n并组建专家组协同推进任务完成。\n\n触发场景：\n- 需要多角度分析任务\n- 需要不同领域专业知识\n- 需要专家讨论和决策\n- 用户请求\"专家组\"、\"专家团队\"、\"多个专家\"等\n\n不适用：简单明确的单一任务、纯执行类任务\n",
       "tags": [],
       "arena": {
-        "rank": 58,
+        "rank": 61,
         "category": "other",
-        "score": 47.0,
+        "score": 69.86,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.86,
+          "quality": 50.0,
+          "maintainability": 7.0,
+          "total": 69.86
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1631,20 +1652,20 @@
       "description": "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.",
       "tags": [],
       "arena": {
-        "rank": 2,
+        "rank": 11,
         "category": "eng-testing",
-        "score": 68.75,
+        "score": 66.08,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 6.08,
+          "quality": 45.0,
+          "maintainability": 15.0,
+          "total": 66.08
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "eng-testing-related-tasks"
       ]
@@ -1656,14 +1677,14 @@
       "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
       "tags": [],
       "arena": {
-        "rank": 5,
+        "rank": 11,
         "category": "eng-code-quality",
-        "score": 47.0,
+        "score": 59.15,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 7.65,
+          "quality": 45.0,
+          "maintainability": 6.5,
+          "total": 59.15
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1681,14 +1702,14 @@
       "description": "This skill should be used when the user asks to \"offload context to files\", \"implement dynamic context discovery\", \"use filesystem for agent memory\", \"reduce context window bloat\", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.",
       "tags": [],
       "arena": {
-        "rank": 28,
+        "rank": 13,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 74.92,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.92,
+          "quality": 50.0,
+          "maintainability": 18.0,
+          "total": 74.92
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1704,23 +1725,26 @@
       "name": "finishing-a-development-branch",
       "path": "./community/finishing-a-development-branch/SKILL.md",
       "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 5,
+        "rank": 1,
         "category": "compliance-ra",
-        "score": 56.25,
+        "score": 84.5,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 50.0,
+          "maintainability": 4.5,
+          "total": 84.5
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 1,
       "recommended_for": [
+        "best-compliance-ra-skill",
         "compliance-ra-related-tasks"
       ]
     },
@@ -1733,14 +1757,14 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 7,
+        "rank": 8,
         "category": "product-ux",
-        "score": 47.0,
+        "score": 66.36,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 11.36,
+          "quality": 45.0,
+          "maintainability": 10.0,
+          "total": 66.36
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1758,14 +1782,14 @@
       "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
       "tags": [],
       "arena": {
-        "rank": 13,
+        "rank": 7,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 78.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 78.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1788,22 +1812,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 4,
         "category": "agent-workflow",
-        "score": 68.75,
+        "score": 65.26,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 10.76,
+          "quality": 45.0,
+          "maintainability": 9.5,
+          "total": 65.26
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-agent-workflow-skill",
         "agent-workflow-related-tasks"
       ]
     },
@@ -1819,14 +1842,14 @@
         "skill-building"
       ],
       "arena": {
-        "rank": 11,
+        "rank": 21,
         "category": "eng-devops",
-        "score": 56.25,
+        "score": 67.4,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 14.4,
+          "quality": 45.0,
+          "maintainability": 8.0,
+          "total": 67.4
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -1846,22 +1869,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 9,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 76.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 45.0,
+          "maintainability": 1.0,
+          "total": 76.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-product-discovery-skill",
         "product-discovery-related-tasks"
       ]
     },
@@ -1870,23 +1892,26 @@
       "name": "hosted-agents",
       "path": "./community/hosted-agents/SKILL.md",
       "description": "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 29,
+        "rank": 1,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 84.5,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 50.0,
+          "maintainability": 4.5,
+          "total": 84.5
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 1,
       "recommended_for": [
+        "best-product-discovery-skill",
         "product-discovery-related-tasks"
       ]
     },
@@ -1895,23 +1920,26 @@
       "name": "ikea-designer-pro",
       "path": "./community/ikea-designer/SKILL.md",
       "description": "IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 14,
+        "rank": 9,
         "category": "eng-architecture",
-        "score": 47.0,
+        "score": 72.54,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 16.04,
+          "quality": 50.0,
+          "maintainability": 6.5,
+          "total": 72.54
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
       "priority": 3,
       "recommended_for": [
+        "best-eng-architecture-skill",
         "eng-architecture-related-tasks"
       ]
     },
@@ -1920,23 +1948,26 @@
       "name": "image-to-video",
       "path": "./community/image-to-video/SKILL.md",
       "description": "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 4,
+        "rank": 2,
         "category": "content-email",
-        "score": 56.25,
+        "score": 75.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 75.0
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
+        "best-content-email-skill",
         "content-email-related-tasks"
       ]
     },
@@ -1949,22 +1980,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 38,
         "category": "other",
-        "score": 68.75,
+        "score": 75.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 75.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-other-skill",
         "other-related-tasks"
       ]
     },
@@ -1977,22 +2007,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 3,
         "category": "devops-mcp",
-        "score": 56.25,
+        "score": 69.15,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 6.15,
+          "quality": 45.0,
+          "maintainability": 18.0,
+          "total": 69.15
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 2,
       "recommended_for": [
-        "best-devops-mcp-skill",
         "devops-mcp-related-tasks"
       ]
     },
@@ -2005,24 +2034,26 @@
         "productivity",
         "media",
         "archiving",
-        "automation"
+        "automation",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 8,
+        "rank": 2,
         "category": "video-media",
-        "score": 47.0,
+        "score": 77.58,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 14.58,
+          "quality": 50.0,
+          "maintainability": 13.0,
+          "total": 77.58
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
+        "best-video-media-skill",
         "video-media-related-tasks"
       ]
     },
@@ -2033,14 +2064,14 @@
       "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
       "tags": [],
       "arena": {
-        "rank": 30,
+        "rank": 22,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 71.62,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 23.62,
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 71.62
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2058,20 +2089,20 @@
       "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
       "tags": [],
       "arena": {
-        "rank": 3,
+        "rank": 42,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 47.23,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 5.73,
+          "quality": 25.0,
+          "maintainability": 16.5,
+          "total": 47.23
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "product-discovery-related-tasks"
       ]
@@ -2085,22 +2116,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 2,
         "category": "data-docs",
-        "score": 68.75,
+        "score": 76.05,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 21.05,
+          "quality": 50.0,
+          "maintainability": 5.0,
+          "total": 76.05
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 2,
       "recommended_for": [
-        "best-data-docs-skill",
         "data-docs-related-tasks"
       ]
     },
@@ -2109,16 +2139,18 @@
       "name": "photography-expert-pro",
       "path": "./community/photography-expert/SKILL.md",
       "description": "Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 6,
+        "rank": 8,
         "category": "video-media",
-        "score": 47.0,
+        "score": 64.31,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 14.31,
+          "quality": 45.0,
+          "maintainability": 5.0,
+          "total": 64.31
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2136,14 +2168,14 @@
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
       "tags": [],
       "arena": {
-        "rank": 28,
+        "rank": 67,
         "category": "other",
-        "score": 56.25,
+        "score": 68.64,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 12.14,
+          "quality": 50.0,
+          "maintainability": 6.5,
+          "total": 68.64
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2161,14 +2193,14 @@
       "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.",
       "tags": [],
       "arena": {
-        "rank": 31,
+        "rank": 21,
         "category": "product-discovery",
-        "score": 47.0,
+        "score": 71.92,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.42,
+          "quality": 47.5,
+          "maintainability": 18.0,
+          "total": 71.92
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2184,16 +2216,18 @@
       "name": "prompt-engineer",
       "path": "./community/prompt-engineer/SKILL.md",
       "description": "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 60,
+        "rank": 52,
         "category": "other",
-        "score": 47.0,
+        "score": 72.17,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 8.67,
+          "quality": 50.0,
+          "maintainability": 13.5,
+          "total": 72.17
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2212,17 +2246,18 @@
       "tags": [
         "prompt-engineering",
         "meta-prompting",
-        "optimization"
+        "optimization",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 7,
         "category": "seo-content",
-        "score": 47.0,
+        "score": 45.68,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.68,
+          "quality": 25.0,
+          "maintainability": 15.0,
+          "total": 45.68
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2240,14 +2275,14 @@
       "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
       "tags": [],
       "arena": {
-        "rank": 4,
+        "rank": 7,
         "category": "eng-code-quality",
-        "score": 47.0,
+        "score": 70.33,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.33,
+          "quality": 50.0,
+          "maintainability": 15.0,
+          "total": 70.33
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2269,17 +2304,18 @@
         "remotion",
         "animation",
         "creative",
-        "automation"
+        "automation",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 4,
+        "rank": 9,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 63.16,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 8.66,
+          "quality": 45.0,
+          "maintainability": 9.5,
+          "total": 63.16
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2297,14 +2333,14 @@
       "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
       "tags": [],
       "arena": {
-        "rank": 7,
+        "rank": 4,
         "category": "eng-code-quality",
-        "score": 47.0,
+        "score": 75.77,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.77,
+          "quality": 50.0,
+          "maintainability": 13.0,
+          "total": 75.77
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2328,14 +2364,14 @@
         "skill-management"
       ],
       "arena": {
-        "rank": 14,
+        "rank": 12,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 65.36,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.36,
+          "quality": 45.0,
+          "maintainability": 15.0,
+          "total": 65.36
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2353,14 +2389,14 @@
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "tags": [],
       "arena": {
-        "rank": 29,
+        "rank": 19,
         "category": "other",
-        "score": 56.25,
+        "score": 79.26,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 19.76,
+          "quality": 50.0,
+          "maintainability": 9.5,
+          "total": 79.26
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2378,20 +2414,20 @@
       "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
       "tags": [],
       "arena": {
-        "rank": 2,
+        "rank": 71,
         "category": "other",
-        "score": 68.75,
+        "score": 67.73,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 19.73,
+          "quality": 40.0,
+          "maintainability": 8.0,
+          "total": 67.73
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "other-related-tasks"
       ]
@@ -2403,14 +2439,14 @@
       "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
       "tags": [],
       "arena": {
-        "rank": 22,
+        "rank": 7,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 76.04,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 22.54,
+          "quality": 45.0,
+          "maintainability": 8.5,
+          "total": 76.04
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2434,14 +2470,14 @@
         "update"
       ],
       "arena": {
-        "rank": 23,
+        "rank": 18,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 70.68,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 12.68,
+          "quality": 50.0,
+          "maintainability": 8.0,
+          "total": 70.68
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2457,16 +2493,18 @@
       "name": "skills-finder",
       "path": "./community/skills-finder/SKILL.md",
       "description": "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 14,
+        "rank": 45,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 43.66,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 8.66,
+          "quality": 25.0,
+          "maintainability": 10.0,
+          "total": 43.66
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2484,14 +2522,14 @@
       "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "tags": [],
       "arena": {
-        "rank": 61,
+        "rank": 39,
         "category": "other",
-        "score": 47.0,
+        "score": 75.0,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 75.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2509,14 +2547,14 @@
       "description": "Use when executing implementation plans with independent tasks in the current session",
       "tags": [],
       "arena": {
-        "rank": 62,
+        "rank": 63,
         "category": "other",
-        "score": 47.0,
+        "score": 69.67,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 9.67,
+          "quality": 45.0,
+          "maintainability": 15.0,
+          "total": 69.67
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2534,14 +2572,14 @@
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "tags": [],
       "arena": {
-        "rank": 3,
+        "rank": 2,
         "category": "eng-testing",
-        "score": 68.75,
+        "score": 80.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 50.0,
+          "maintainability": 0.0,
+          "total": 80.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2565,22 +2603,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 12,
         "category": "data-analysis",
-        "score": 68.75,
+        "score": 53.26,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 0.76,
+          "quality": 50.0,
+          "maintainability": 2.5,
+          "total": 53.26
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
-        "best-data-analysis-skill",
         "data-analysis-related-tasks"
       ]
     },
@@ -2591,14 +2628,14 @@
       "description": "Use when implementing any feature or bugfix, before writing implementation code",
       "tags": [],
       "arena": {
-        "rank": 15,
+        "rank": 16,
         "category": "eng-testing",
-        "score": 47.0,
+        "score": 60.57,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 9.07,
+          "quality": 45.0,
+          "maintainability": 6.5,
+          "total": 60.57
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2616,20 +2653,20 @@
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
       "tags": [],
       "arena": {
-        "rank": 3,
+        "rank": 88,
         "category": "other",
-        "score": 68.75,
+        "score": 63.75,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 10.25,
+          "quality": 50.0,
+          "maintainability": 3.5,
+          "total": 63.75
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "other-related-tasks"
       ]
@@ -2639,16 +2676,18 @@
       "name": "tool-design",
       "path": "./community/tool-design/SKILL.md",
       "description": "This skill should be used when the user asks to \"design agent tools\", \"create tool descriptions\", \"reduce tool complexity\", \"implement MCP tools\", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 8,
+        "rank": 11,
         "category": "eng-architecture",
-        "score": 56.25,
+        "score": 71.73,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 20.23,
+          "quality": 50.0,
+          "maintainability": 1.5,
+          "total": 71.73
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2666,14 +2705,14 @@
       "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
       "tags": [],
       "arena": {
-        "rank": 25,
+        "rank": 6,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 76.5,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 45.0,
+          "maintainability": 1.5,
+          "total": 76.5
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2689,22 +2728,24 @@
       "name": "using-superpowers",
       "path": "./community/using-superpowers/SKILL.md",
       "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 3,
+        "rank": 6,
         "category": "agent-tool",
-        "score": 56.25,
+        "score": 54.29,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 6.29,
+          "quality": 40.0,
+          "maintainability": 8.0,
+          "total": 54.29
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "agent-tool-related-tasks"
       ]
@@ -2716,14 +2757,14 @@
       "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
       "tags": [],
       "arena": {
-        "rank": 64,
+        "rank": 57,
         "category": "other",
-        "score": 47.0,
+        "score": 71.04,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.54,
+          "quality": 50.0,
+          "maintainability": 14.5,
+          "total": 71.04
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2739,16 +2780,18 @@
       "name": "video-frame-extractor",
       "path": "./community/video-frame-extractor/SKILL.md",
       "description": "Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 15,
+        "rank": 41,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 49.33,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 1.33,
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 49.33
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2768,22 +2811,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 35,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 55.0,
         "scores": {
           "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "quality": 25.0,
+          "maintainability": 0.0,
+          "total": 55.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
       "priority": 3,
       "recommended_for": [
-        "best-product-discovery-skill",
         "product-discovery-related-tasks"
       ]
     },
@@ -2792,22 +2834,24 @@
       "name": "Visual Expert Pro (Gemini 3.0 Edition)",
       "path": "./community/visual-expert/SKILL.md",
       "description": "Professional interior visualization and photorealism expert for home furnishing and IKEA-style design, focusing on physically-based rendering (PBR) and material accuracy.",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 3,
+        "rank": 4,
         "category": "creative-visual",
-        "score": 56.25,
+        "score": 40.41,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 13.41,
+          "quality": 25.0,
+          "maintainability": 2.0,
+          "total": 40.41
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "creative-visual-related-tasks"
       ]
@@ -2819,14 +2863,14 @@
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
       "tags": [],
       "arena": {
-        "rank": 8,
+        "rank": 7,
         "category": "product-ux",
-        "score": 47.0,
+        "score": 69.62,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 9.62,
+          "quality": 50.0,
+          "maintainability": 10.0,
+          "total": 69.62
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2846,12 +2890,12 @@
       "arena": {
         "rank": 6,
         "category": "eng-testing",
-        "score": 56.25,
+        "score": 70.89,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 12.89,
+          "quality": 50.0,
+          "maintainability": 8.0,
+          "total": 70.89
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2869,14 +2913,14 @@
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
       "tags": [],
       "arena": {
-        "rank": 63,
+        "rank": 48,
         "category": "other",
-        "score": 47.0,
+        "score": 72.85,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 24.85,
+          "quality": 45.0,
+          "maintainability": 3.0,
+          "total": 72.85
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2894,14 +2938,14 @@
       "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
       "tags": [],
       "arena": {
-        "rank": 24,
+        "rank": 14,
         "category": "eng-devops",
-        "score": 47.0,
+        "score": 73.48,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 5.48,
+          "quality": 50.0,
+          "maintainability": 18.0,
+          "total": 73.48
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2919,20 +2963,20 @@
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
       "tags": [],
       "arena": {
-        "rank": 8,
+        "rank": 2,
         "category": "data-analysis",
-        "score": 47.0,
+        "score": 79.5,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 45.0,
+          "maintainability": 4.5,
+          "total": 79.5
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
         "data-analysis-related-tasks"
       ]
@@ -2942,23 +2986,26 @@
       "name": "videocut:剪口播",
       "path": "./community/剪口播/SKILL.md",
       "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-      "tags": [],
+      "tags": [
+        "arena-winner"
+      ],
       "arena": {
-        "rank": 6,
+        "rank": 1,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 84.0,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 45.0,
+          "maintainability": 9.0,
+          "total": 84.0
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 1,
       "recommended_for": [
+        "best-video-editing-skill",
         "video-editing-related-tasks"
       ]
     },
@@ -2971,14 +3018,14 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 4,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 72.08,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 15.08,
+          "quality": 50.0,
+          "maintainability": 7.0,
+          "total": 72.08
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -2996,20 +3043,20 @@
       "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
       "tags": [],
       "arena": {
-        "rank": 7,
+        "rank": 3,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 73.68,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 18.68,
+          "quality": 50.0,
+          "maintainability": 5.0,
+          "total": 73.68
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
         "video-editing-related-tasks"
       ]
@@ -3021,14 +3068,14 @@
       "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
       "tags": [],
       "arena": {
-        "rank": 8,
+        "rank": 5,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 69.25,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 23.25,
+          "quality": 45.0,
+          "maintainability": 1.0,
+          "total": 69.25
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3046,14 +3093,14 @@
       "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
       "tags": [],
       "arena": {
-        "rank": 10,
+        "rank": 8,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 67.14,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 10.64,
+          "quality": 50.0,
+          "maintainability": 6.5,
+          "total": 67.14
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3073,22 +3120,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 6,
         "category": "video-editing",
-        "score": 56.25,
+        "score": 68.1,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 18.1,
+          "quality": 45.0,
+          "maintainability": 5.0,
+          "total": 68.1
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-video-editing-skill",
         "video-editing-related-tasks"
       ]
     },
@@ -3102,23 +3148,24 @@
         "browser",
         "networking",
         "scraping",
-        "search"
+        "search",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 2,
         "category": "agent-tool",
-        "score": 47.0,
+        "score": 81.0,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 50.0,
+          "maintainability": 1.0,
+          "total": 81.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 2,
       "recommended_for": [
         "agent-tool-related-tasks"
       ]
@@ -3136,14 +3183,14 @@
         "chinese"
       ],
       "arena": {
-        "rank": 16,
+        "rank": 31,
         "category": "product-discovery",
-        "score": 56.25,
+        "score": 63.15,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 14.65,
+          "quality": 45.0,
+          "maintainability": 3.5,
+          "total": 63.15
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3166,14 +3213,14 @@
         "persistent"
       ],
       "arena": {
-        "rank": 4,
+        "rank": 26,
         "category": "product-discovery",
-        "score": 68.75,
+        "score": 67.65,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 19.15,
+          "quality": 45.0,
+          "maintainability": 3.5,
+          "total": 67.65
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3192,24 +3239,26 @@
       "tags": [
         "multi-agent",
         "swarm",
-        "chinese"
+        "chinese",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 4,
+        "rank": 1,
         "category": "agent-workflow",
-        "score": 56.25,
+        "score": 78.75,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 26.75,
+          "quality": 45.0,
+          "maintainability": 7.0,
+          "total": 78.75
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 1,
       "recommended_for": [
+        "best-agent-workflow-skill",
         "agent-workflow-related-tasks"
       ]
     },
@@ -3224,14 +3273,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 65,
+        "rank": 101,
         "category": "other",
-        "score": 47.0,
+        "score": 57.5,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 29.0,
+          "quality": 25.0,
+          "maintainability": 3.5,
+          "total": 57.5
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3253,14 +3302,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 66,
+        "rank": 27,
         "category": "other",
-        "score": 47.0,
+        "score": 77.44,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 17.44,
+          "quality": 50.0,
+          "maintainability": 10.0,
+          "total": 77.44
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3279,23 +3328,24 @@
       "tags": [
         "huashu",
         "chinese",
-        "content-creation"
+        "content-creation",
+        "arena-winner"
       ],
       "arena": {
-        "rank": 3,
+        "rank": 9,
         "category": "data-analysis",
-        "score": 68.75,
+        "score": 68.11,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 11.11,
+          "quality": 50.0,
+          "maintainability": 7.0,
+          "total": 68.11
         },
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 2,
+      "priority": 3,
       "recommended_for": [
         "data-analysis-related-tasks"
       ]
@@ -3312,22 +3362,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 13,
         "category": "eng-architecture",
-        "score": 68.75,
+        "score": 71.23,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 22.73,
+          "quality": 45.0,
+          "maintainability": 3.5,
+          "total": 71.23
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-eng-architecture-skill",
         "eng-architecture-related-tasks"
       ]
     },
@@ -3342,14 +3391,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 30,
+        "rank": 10,
         "category": "other",
-        "score": 56.25,
+        "score": 82.62,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 29.12,
+          "quality": 50.0,
+          "maintainability": 3.5,
+          "total": 82.62
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3372,22 +3421,21 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 1,
+        "rank": 5,
         "category": "video-media",
-        "score": 56.25,
+        "score": 75.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 75.0
         },
-        "is_winner": true,
+        "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 1,
+      "priority": 3,
       "recommended_for": [
-        "best-video-media-skill",
         "video-media-related-tasks"
       ]
     },
@@ -3402,14 +3450,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 4,
+        "rank": 31,
         "category": "other",
-        "score": 68.75,
+        "score": 76.85,
         "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
+          "speed": 23.35,
+          "quality": 50.0,
+          "maintainability": 3.5,
+          "total": 76.85
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3431,14 +3479,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 31,
+        "rank": 24,
         "category": "other",
-        "score": 56.25,
+        "score": 78.09,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 23.09,
+          "quality": 50.0,
+          "maintainability": 5.0,
+          "total": 78.09
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3461,21 +3509,22 @@
         "arena-winner"
       ],
       "arena": {
-        "rank": 5,
+        "rank": 1,
         "category": "data-docs",
-        "score": 47.0,
+        "score": 76.11,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 11.11,
+          "quality": 50.0,
+          "maintainability": 15.0,
+          "total": 76.11
         },
-        "is_winner": false,
+        "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       },
-      "priority": 3,
+      "priority": 1,
       "recommended_for": [
+        "best-data-docs-skill",
         "data-docs-related-tasks"
       ]
     },
@@ -3490,14 +3539,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 67,
+        "rank": 84,
         "category": "other",
-        "score": 47.0,
+        "score": 64.77,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 9.77,
+          "quality": 50.0,
+          "maintainability": 5.0,
+          "total": 64.77
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3519,14 +3568,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 32,
+        "rank": 64,
         "category": "other",
-        "score": 56.25,
+        "score": 69.54,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 16.04,
+          "quality": 50.0,
+          "maintainability": 3.5,
+          "total": 69.54
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3548,14 +3597,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 68,
+        "rank": 16,
         "category": "other",
-        "score": 47.0,
+        "score": 80.5,
         "scores": {
           "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "quality": 45.0,
+          "maintainability": 5.5,
+          "total": 80.5
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3577,14 +3626,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 33,
+        "rank": 100,
         "category": "other",
-        "score": 56.25,
+        "score": 58.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 25.0,
+          "maintainability": 3.0,
+          "total": 58.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3606,14 +3655,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 69,
+        "rank": 86,
         "category": "other",
-        "score": 47.0,
+        "score": 64.65,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 14.65,
+          "quality": 45.0,
+          "maintainability": 5.0,
+          "total": 64.65
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3635,14 +3684,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 35,
+        "rank": 89,
         "category": "other",
-        "score": 56.25,
+        "score": 63.67,
         "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "speed": 18.67,
+          "quality": 45.0,
+          "maintainability": 0.0,
+          "total": 63.67
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3664,14 +3713,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 9,
+        "rank": 10,
         "category": "video-editing",
-        "score": 47.0,
+        "score": 54.75,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 1.25,
+          "quality": 45.0,
+          "maintainability": 8.5,
+          "total": 54.75
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3695,12 +3744,12 @@
       "arena": {
         "rank": 2,
         "category": "video-editing",
-        "score": 56.25,
+        "score": 76.5,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 1.5,
+          "total": 76.5
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3722,14 +3771,14 @@
         "content-creation"
       ],
       "arena": {
-        "rank": 2,
+        "rank": 3,
         "category": "video-media",
-        "score": 56.25,
+        "score": 76.0,
         "scores": {
           "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
+          "quality": 45.0,
+          "maintainability": 1.0,
+          "total": 76.0
         },
         "is_winner": false,
         "test_date": "2026-03-09",
@@ -3753,12 +3802,12 @@
       "arena": {
         "rank": 9,
         "category": "video-media",
-        "score": 47.0,
+        "score": 61.51,
         "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
+          "speed": 6.51,
+          "quality": 50.0,
+          "maintainability": 5.0,
+          "total": 61.51
         },
         "is_winner": false,
         "test_date": "2026-03-09",
