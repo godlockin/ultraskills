@@ -7,6 +7,15 @@ description: 字幕生成与烧录。转录→词典纠错→审核→烧录。�
 
 > 转录 → 纠错 → 审核 → 匹配 → 烧录
 
+## ⭐ 脚本优先原则
+
+| 场景 | 使用脚本 | 禁止行为 |
+|------|---------|---------|
+| 阶段1：转录+生成字幕稿 | `python3 scripts/subtitle.py <video.mp4>` | 手动调用 whisper 命令 |
+| 阶段2：匹配时间戳+烧录 | `python3 scripts/subtitle.py <video.mp4> <字幕稿.txt>` | 手动拼 FFmpeg subtitles filter |
+
+⚠️ 约束：阶段2 用户只能修改字幕稿的文字内容，不能调整行顺序，否则时间戳对齐失效。
+
 ## 流程
 
 ```
