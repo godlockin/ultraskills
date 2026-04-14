@@ -24,6 +24,15 @@ pos: 转录+识别，到用户审核为止
 用户: 处理一下这个视频
 ```
 
+## ⭐ 脚本优先原则
+
+**必须**优先使用 `scripts/` 目录下的脚本，而非手动拼命令。
+
+| 场景 | 使用脚本 | 禁止行为 |
+|------|---------|---------|
+| 转录视频 + 识别口误 | `python3 scripts/transcribe.py <video.mp4>` | 手动拼 funasr 参数 |
+| 预览模式（无需模型） | `python3 scripts/transcribe.py <video.mp4> --dry-run` | 直接调用 AutoModel |
+
 ## 流程
 
 ```
