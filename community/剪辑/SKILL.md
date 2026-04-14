@@ -29,6 +29,15 @@ pos: 执行 skill，用户确认删除任务后调用
 
 需要先执行 `/videocut:剪口播` 生成删除任务 TodoList
 
+## ⭐ 脚本优先原则
+
+**必须**优先使用 `scripts/` 目录下的脚本。
+
+| 场景 | 使用脚本 | 禁止行为 |
+|------|---------|---------|
+| 执行剪辑 | `python3 scripts/cut.py <video.mp4> <审查稿.md>` | 手动拼 FFmpeg filter_complex |
+| 预览 FFmpeg 命令 | 加 `--dry-run` 参数 | 直接执行 ffmpeg |
+
 ## 流程
 
 ```
