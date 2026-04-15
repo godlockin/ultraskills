@@ -1,0 +1,652 @@
+[
+  {
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "winner": "karpathy-coder",
+    "score": 9.0,
+    "runner_up": "\"adversarial-reviewer\"",
+    "total_contestants": 29,
+    "defeated": [
+      "\"adversarial-reviewer\"",
+      "digital-brain",
+      "receiving-code-review",
+      "\"engineering-skills\"",
+      "\"a11y-audit\""
+    ]
+  },
+  {
+    "cluster": "engineering-ml",
+    "cluster_name": "工程·ML/AI",
+    "winner": "llm-wiki",
+    "score": 9.0,
+    "runner_up": "\"self-improving-agent\"",
+    "total_contestants": 13,
+    "defeated": [
+      "\"self-improving-agent\"",
+      "llm-cost-optimizer",
+      "\"agenthub\"",
+      "\"senior-computer-vision\"",
+      "\"tech-stack-evaluator\""
+    ]
+  },
+  {
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "winner": "skill-arena",
+    "score": 9.0,
+    "runner_up": "gstack-openclaw-retro",
+    "total_contestants": 7,
+    "defeated": [
+      "gstack-openclaw-retro",
+      "writing-hookify-rules",
+      "test-case-templates",
+      "\"tdd-guide\"",
+      "test-driven-development"
+    ]
+  },
+  {
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "winner": "planning-with-files",
+    "score": 8.8,
+    "runner_up": "agent-development",
+    "total_contestants": 11,
+    "defeated": [
+      "agent-development",
+      "skill-development",
+      "planning-with-files-ar",
+      "planning-with-files-de",
+      "planning-with-files-es"
+    ]
+  },
+  {
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "winner": "\"customer-success-manager\"",
+    "score": 8.8,
+    "runner_up": "\"agent-protocol\"",
+    "total_contestants": 38,
+    "defeated": [
+      "\"agent-protocol\"",
+      "\"chief-of-staff\"",
+      "\"cto-advisor\"",
+      "\"internal-narrative\"",
+      "\"strategic-alignment\""
+    ]
+  },
+  {
+    "cluster": "business-hr",
+    "cluster_name": "商业·人力资源",
+    "winner": "\"brand-guidelines\"",
+    "score": 8.8,
+    "runner_up": "lead-magnets",
+    "total_contestants": 4,
+    "defeated": [
+      "lead-magnets",
+      "sales-enablement",
+      "brand-guidelines"
+    ]
+  },
+  {
+    "cluster": "business-pm",
+    "cluster_name": "商业·项目管理",
+    "winner": "\"scrum-master\"",
+    "score": 8.8,
+    "runner_up": "\"confluence-expert\"",
+    "total_contestants": 12,
+    "defeated": [
+      "\"confluence-expert\"",
+      "\"senior-pm\"",
+      "\"tc-tracker\"",
+      "\"atlassian-templates\"",
+      "\"jira-expert\""
+    ]
+  },
+  {
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
+    "winner": "\"research-summarizer\"",
+    "score": 8.8,
+    "runner_up": "\"agile-product-owner\"",
+    "total_contestants": 17,
+    "defeated": [
+      "\"agile-product-owner\"",
+      "\"landing-page-generator\"",
+      "\"product-manager-toolkit\"",
+      "\"product-strategist\"",
+      "\"saas-scaffolder\""
+    ]
+  },
+  {
+    "cluster": "content-seo",
+    "cluster_name": "内容·SEO",
+    "winner": "\"programmatic-seo\"",
+    "score": 8.8,
+    "runner_up": "ai-seo",
+    "total_contestants": 8,
+    "defeated": [
+      "ai-seo",
+      "programmatic-seo",
+      "schema-markup",
+      "seo-audit",
+      "\"ai-seo\""
+    ]
+  },
+  {
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "winner": "\"copy-editing\"",
+    "score": 8.8,
+    "runner_up": "copy-editing",
+    "total_contestants": 11,
+    "defeated": [
+      "copy-editing",
+      "\"copywriting\"",
+      "copywriting",
+      "doc-coauthoring",
+      "internal-comms"
+    ]
+  },
+  {
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "winner": "\"campaign-analytics\"",
+    "score": 8.8,
+    "runner_up": "book-sft-pipeline",
+    "total_contestants": 12,
+    "defeated": [
+      "book-sft-pipeline",
+      "\"senior-data-engineer\"",
+      "\"snowflake-development\"",
+      "\"database-designer\"",
+      "\"database-schema-designer\""
+    ]
+  },
+  {
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
+    "winner": "mcp-integration",
+    "score": 8.8,
+    "runner_up": "site-architecture",
+    "total_contestants": 16,
+    "defeated": [
+      "site-architecture",
+      "\"culture-architect\"",
+      "\"site-architecture\"",
+      "mcp-builder",
+      "\"senior-architect\""
+    ]
+  },
+  {
+    "cluster": "marketing-ads",
+    "cluster_name": "营销·广告",
+    "winner": "\"ab-test-setup\"",
+    "score": 8.8,
+    "runner_up": "\"ad-creative\"",
+    "total_contestants": 6,
+    "defeated": [
+      "\"ad-creative\"",
+      "\"paid-ads\"",
+      "ab-test-setup",
+      "ad-creative",
+      "paid-ads"
+    ]
+  },
+  {
+    "cluster": "marketing-analytics",
+    "cluster_name": "营销·增长分析",
+    "winner": "\"referral-program\"",
+    "score": 8.8,
+    "runner_up": "analytics-tracking",
+    "total_contestants": 7,
+    "defeated": [
+      "analytics-tracking",
+      "churn-prevention",
+      "referral-program",
+      "\"analytics-tracking\"",
+      "\"churn-prevention\""
+    ]
+  },
+  {
+    "cluster": "marketing-cro",
+    "cluster_name": "营销·转化率优化",
+    "winner": "\"onboarding-cro\"",
+    "score": 8.8,
+    "runner_up": "form-cro",
+    "total_contestants": 13,
+    "defeated": [
+      "form-cro",
+      "onboarding-cro",
+      "signup-flow-cro",
+      "\"page-cro\"",
+      "page-cro"
+    ]
+  },
+  {
+    "cluster": "marketing-email",
+    "cluster_name": "营销·邮件",
+    "winner": "cold-email",
+    "score": 8.8,
+    "runner_up": "\"cold-email\"",
+    "total_contestants": 4,
+    "defeated": [
+      "\"cold-email\"",
+      "\"email-sequence\"",
+      "email-sequence"
+    ]
+  },
+  {
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "winner": "\"content-production\"",
+    "score": 8.8,
+    "runner_up": "\"pricing-strategy\"",
+    "total_contestants": 24,
+    "defeated": [
+      "\"pricing-strategy\"",
+      "\"social-media-manager\"",
+      "content-strategy",
+      "launch-strategy",
+      "pricing-strategy"
+    ]
+  },
+  {
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
+    "winner": "\"github-skill-scout\"",
+    "score": 8.5,
+    "runner_up": "skill-sync-manager",
+    "total_contestants": 31,
+    "defeated": [
+      "skill-sync-manager",
+      "\"docker-development\"",
+      "\"terraform-patterns\"",
+      "pua-en",
+      "\"aws-solution-architect\""
+    ]
+  },
+  {
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "winner": "\"prompt-engineer-toolkit\"",
+    "score": 8.3,
+    "runner_up": "\"senior-prompt-engineer\"",
+    "total_contestants": 5,
+    "defeated": [
+      "\"senior-prompt-engineer\"",
+      "prompt-optimizer",
+      "task-analyzer",
+      "\"prompt-engineer\""
+    ]
+  },
+  {
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "winner": "\"social-content\"",
+    "score": 8.3,
+    "runner_up": "social-content",
+    "total_contestants": 10,
+    "defeated": [
+      "social-content",
+      "huashu-agent-swarm",
+      "huashu-article-to-x",
+      "huashu-speech-coach",
+      "huashu-wechat-image"
+    ]
+  },
+  {
+    "cluster": "engineering-fullstack",
+    "cluster_name": "工程·全栈工程师",
+    "winner": "the-fool",
+    "score": 8.3,
+    "runner_up": "\"senior-fullstack\"",
+    "total_contestants": 54,
+    "defeated": [
+      "\"senior-fullstack\"",
+      "api-designer",
+      "code-documenter",
+      "prompt-engineer",
+      "rust-engineer"
+    ]
+  },
+  {
+    "cluster": "marketing-copy",
+    "cluster_name": "营销·文案",
+    "winner": "\"marketing-ideas\"",
+    "score": 8.3,
+    "runner_up": "\"marketing-psychology\"",
+    "total_contestants": 4,
+    "defeated": [
+      "\"marketing-psychology\"",
+      "marketing-ideas",
+      "marketing-psychology"
+    ]
+  },
+  {
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "winner": "gstack-openclaw-ceo-review",
+    "score": 8.3,
+    "runner_up": "gstack-openclaw-office-hours",
+    "total_contestants": 32,
+    "defeated": [
+      "gstack-openclaw-office-hours",
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "design-consultation",
+      "design-review"
+    ]
+  },
+  {
+    "cluster": "skills-mgmt",
+    "cluster_name": "Skills·管理",
+    "winner": "command-development",
+    "score": 8.3,
+    "runner_up": "hook-development",
+    "total_contestants": 18,
+    "defeated": [
+      "hook-development",
+      "plugin-settings",
+      "plugin-structure",
+      "skill-creator",
+      "example-skill"
+    ]
+  },
+  {
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "winner": "remotion-video-creator",
+    "score": 8.2,
+    "runner_up": "video-content-strategist",
+    "total_contestants": 15,
+    "defeated": [
+      "video-content-strategist",
+      "\"demo-video\"",
+      "huashu-video-check",
+      "\"image-to-video\"",
+      "\"video-frame-extractor\""
+    ]
+  },
+  {
+    "cluster": "agent-arch",
+    "cluster_name": "Agent·架构",
+    "winner": "multi-agent-patterns",
+    "score": 7.8,
+    "runner_up": "bdi-mental-states",
+    "total_contestants": 4,
+    "defeated": [
+      "bdi-mental-states",
+      "dispatching-parallel-agents",
+      "subagent-driven-development"
+    ]
+  },
+  {
+    "cluster": "agent-context",
+    "cluster_name": "Agent·上下文管理",
+    "winner": "context-compression",
+    "score": 7.8,
+    "runner_up": "context-degradation",
+    "total_contestants": 6,
+    "defeated": [
+      "context-degradation",
+      "context-fundamentals",
+      "context-optimization",
+      "filesystem-context",
+      "latent-briefing"
+    ]
+  },
+  {
+    "cluster": "agent-eval",
+    "cluster_name": "Agent·评估",
+    "winner": "advanced-evaluation",
+    "score": 7.8,
+    "runner_up": "evaluation",
+    "total_contestants": 2,
+    "defeated": [
+      "evaluation"
+    ]
+  },
+  {
+    "cluster": "agent-hosted",
+    "cluster_name": "Agent·托管运行",
+    "winner": "tool-design",
+    "score": 7.8,
+    "runner_up": "hosted-agents",
+    "total_contestants": 3,
+    "defeated": [
+      "hosted-agents",
+      "pair-agent"
+    ]
+  },
+  {
+    "cluster": "agent-memory",
+    "cluster_name": "Agent·记忆系统",
+    "winner": "memory-systems",
+    "score": 7.8,
+    "runner_up": "project-development",
+    "total_contestants": 3,
+    "defeated": [
+      "project-development",
+      "checkpoint"
+    ]
+  },
+  {
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "winner": "\"capa-officer\"",
+    "score": 7.8,
+    "runner_up": "\"fda-consultant-specialist\"",
+    "total_contestants": 11,
+    "defeated": [
+      "\"fda-consultant-specialist\"",
+      "\"gdpr-dsgvo-expert\"",
+      "\"mdr-745-specialist\"",
+      "\"qms-audit-expert\"",
+      "\"quality-documentation-manager\""
+    ]
+  },
+  {
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "winner": "\"photography-expert-pro\"",
+    "score": 7.8,
+    "runner_up": "algorithmic-art",
+    "total_contestants": 11,
+    "defeated": [
+      "algorithmic-art",
+      "\"visual-expert-pro-(gemini-3.0-edition)\"",
+      "\"commercial-director-pro\"",
+      "huashu-design",
+      "huashu-image-upload"
+    ]
+  },
+  {
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "winner": "\"autoresearch-agent\"",
+    "score": 7.8,
+    "runner_up": "autoresearch",
+    "total_contestants": 15,
+    "defeated": [
+      "autoresearch",
+      "autoresearch:execute",
+      "comprehensive-research-agent",
+      "huashu-material-search",
+      "autoresearch:analyze"
+    ]
+  },
+  {
+    "cluster": "engineering-debug",
+    "cluster_name": "工程·调试",
+    "winner": "gstack-openclaw-investigate",
+    "score": 7.8,
+    "runner_up": "systematic-debugging",
+    "total_contestants": 7,
+    "defeated": [
+      "systematic-debugging",
+      "fullstack-guardian",
+      "secure-code-guardian",
+      "investigate",
+      "careful"
+    ]
+  },
+  {
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "winner": "\"org-health-diagnostic\"",
+    "score": 7.8,
+    "runner_up": "\"senior-qa\"",
+    "total_contestants": 8,
+    "defeated": [
+      "\"senior-qa\"",
+      "webapp-testing",
+      "devex-review",
+      "plan-devex-review",
+      "verification-before-completion"
+    ]
+  },
+  {
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "winner": "\"ciso-advisor\"",
+    "score": 7.8,
+    "runner_up": "\"ai-security\"",
+    "total_contestants": 15,
+    "defeated": [
+      "\"ai-security\"",
+      "\"cloud-security\"",
+      "\"red-team\"",
+      "\"threat-detection\"",
+      "\"information-security-manager-iso27001\""
+    ]
+  },
+  {
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "winner": "xlsx",
+    "score": 7.5,
+    "runner_up": "huashu-slides",
+    "total_contestants": 6,
+    "defeated": [
+      "huashu-slides",
+      "docx",
+      "pdf",
+      "pptx",
+      "huashu-md-to-pdf"
+    ]
+  },
+  {
+    "cluster": "persona",
+    "cluster_name": "人物·视角模拟",
+    "winner": "\"behuman\"",
+    "score": 7.5,
+    "runner_up": "huashu-nuwa",
+    "total_contestants": 16,
+    "defeated": [
+      "huashu-nuwa",
+      "andrej-karpathy-perspective",
+      "elon-musk-perspective",
+      "ilya-sutskever-perspective",
+      "mrbeast-perspective"
+    ]
+  },
+  {
+    "cluster": "skills-web",
+    "cluster_name": "Skills·联网",
+    "winner": "\"media-downloader\"",
+    "score": 7.5,
+    "runner_up": "media-downloader",
+    "total_contestants": 4,
+    "defeated": [
+      "media-downloader",
+      "agent-reach",
+      "web-access"
+    ]
+  },
+  {
+    "cluster": "engineering-frontend",
+    "cluster_name": "工程·前端",
+    "winner": "canvas-design",
+    "score": 7.3,
+    "runner_up": "frontend-design",
+    "total_contestants": 5,
+    "defeated": [
+      "frontend-design",
+      "web-artifacts-builder",
+      "design-html",
+      "theme-factory"
+    ]
+  },
+  {
+    "cluster": "engineering-git",
+    "cluster_name": "工程·Git工作流",
+    "winner": "using-git-worktrees",
+    "score": 7.3,
+    "runner_up": "git-commit-master",
+    "total_contestants": 4,
+    "defeated": [
+      "git-commit-master",
+      "finishing-a-development-branch",
+      "bfg-repo-cleaner"
+    ]
+  },
+  {
+    "cluster": "platform-claude-api",
+    "cluster_name": "平台·Claude API",
+    "winner": "claude-api",
+    "score": 7.3,
+    "runner_up": "stripe-best-practices",
+    "total_contestants": 4,
+    "defeated": [
+      "stripe-best-practices",
+      "\"stripe-integration-expert\"",
+      "\"mcp-server-builder\""
+    ]
+  },
+  {
+    "cluster": "business-finance",
+    "cluster_name": "商业·财务",
+    "winner": "\"financial-analyst\"",
+    "score": 6.8,
+    "runner_up": "hv-analysis",
+    "total_contestants": 2,
+    "defeated": [
+      "hv-analysis"
+    ]
+  },
+  {
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "winner": "slack-gif-creator",
+    "score": 6.8,
+    "runner_up": "brainstorming",
+    "total_contestants": 8,
+    "defeated": [
+      "brainstorming",
+      "dynamic-expert-group",
+      "caveman-compress",
+      "caveman-commit",
+      "caveman-review"
+    ]
+  },
+  {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "claude-opus-4-5-migration",
+    "score": 6.3,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
+  },
+  {
+    "cluster": "design-ux",
+    "cluster_name": "设计·UX/产品设计",
+    "winner": "\"ikea-designer-pro\"",
+    "score": 5.8,
+    "runner_up": "\"api-design-reviewer\"",
+    "total_contestants": 2,
+    "defeated": [
+      "\"api-design-reviewer\""
+    ]
+  }
+]
