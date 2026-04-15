@@ -17,6 +17,14 @@ To provide a reliable, high-quality, and versatile mechanism for downloading aud
 - **Universal Compatibility**: Leverage `yt-dlp`'s massive extractor library to support virtually any site.
 - **Respectful Archiving**: Handle cookies and user-agent strings correctly to respect site policies and throttle limits.
 
+## ⭐ 脚本优先原则
+
+| 场景 | 使用脚本 | 禁止行为 |
+|------|---------|---------|
+| 下载视频 | `python3 scripts/download.py <url>` | 手动拼 yt-dlp 参数 |
+| 仅下载音频 | `python3 scripts/download.py <url> --audio-only` | — |
+| 指定分辨率 | `python3 scripts/download.py <url> --quality 720` | — |
+
 ## 🚀 使用流程 (Workflow)
 
 ### 1. Analysis (分析)
