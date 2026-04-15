@@ -177,7 +177,8 @@ Evaluate objectively. Provide specific examples from the output to support your 
         import requests
         from pathlib import Path
         import google.auth
-        import google.auth.transport.requests
+        import google.auth.transport.urllib3 as google_urllib3
+        import urllib3
 
         creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
         if not os.path.isabs(creds_path):
@@ -187,8 +188,19 @@ Evaluate objectively. Provide specific examples from the output to support your 
             creds_path,
             scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
-        auth_req = google.auth.transport.requests.Request()
-        creds.refresh(auth_req)
+        # Use urllib3 with proxy to refresh token (requests SSL-through-proxy fails on some setups)
+        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or "http://127.0.0.1:7890"
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE") if proxy_url else urllib3.PoolManager(cert_reqs="CERT_NONE")
+        auth_req = google_urllib3.Request(_http)
+        for _attempt in range(3):
+            try:
+                creds.refresh(auth_req)
+                break
+            except Exception as e:
+                if _attempt == 2:
+                    raise
+                import time as _time; _time.sleep(2 ** _attempt)
 
         project_id = creds.project_id if creds.project_id else os.environ.get("GOOGLE_PROJECT_ID", "")
         vertex_url = (
@@ -204,8 +216,17 @@ Evaluate objectively. Provide specific examples from the output to support your 
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 2048, "temperature": 0.3}
         }
-        response = requests.post(vertex_url, headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
+        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        # Retry up to 3 times on network/SSL errors (short timeout to fail fast on dead proxy)
+        for _req_attempt in range(3):
+            try:
+                response = requests.post(vertex_url, headers=headers, json=payload, timeout=60, proxies=_proxies, verify=False)
+                response.raise_for_status()
+                break
+            except Exception as _req_e:
+                if _req_attempt == 2:
+                    raise
+                import time as _t; _t.sleep(5)
         result = response.json()
         if "candidates" in result and result["candidates"]:
             parts = result["candidates"][0].get("content", {}).get("parts", [{}])

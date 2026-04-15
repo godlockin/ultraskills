@@ -243,7 +243,8 @@ Apply your methodology systematically and provide actionable insights."""
 
         # Get access token from service account
         import google.auth
-        import google.auth.transport.requests
+        import google.auth.transport.urllib3 as google_urllib3
+        import urllib3
 
         creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
         # Resolve relative path against project root (4 levels up from scripts/)
@@ -254,8 +255,20 @@ Apply your methodology systematically and provide actionable insights."""
             creds_path,
             scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
-        auth_req = google.auth.transport.requests.Request()
-        creds.refresh(auth_req)
+        # Use urllib3 with proxy to refresh token (requests SSL-through-proxy fails on some setups)
+        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or "http://127.0.0.1:7890"
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE") if proxy_url else urllib3.PoolManager(cert_reqs="CERT_NONE")
+        auth_req = google_urllib3.Request(_http)
+        # Retry token refresh up to 3 times on network errors
+        for _attempt in range(3):
+            try:
+                creds.refresh(auth_req)
+                break
+            except Exception as e:
+                if _attempt == 2:
+                    raise
+                import time as _time; _time.sleep(2 ** _attempt)
         access_token = creds.token
 
         # Get project ID from credentials
@@ -293,8 +306,17 @@ Apply your methodology systematically and provide actionable insights."""
             f"projects/{project_id}/locations/us-central1/publishers/google/"
             f"models/{self.model}:generateContent"
         )
-        response = requests.post(vertex_url, headers=headers, json=payload, timeout=120)
-        response.raise_for_status()
+        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        # Retry up to 3 times on network/SSL errors (short timeout to fail fast on dead proxy)
+        for _req_attempt in range(3):
+            try:
+                response = requests.post(vertex_url, headers=headers, json=payload, timeout=45, proxies=_proxies, verify=False)
+                response.raise_for_status()
+                break
+            except Exception as _req_e:
+                if _req_attempt == 2:
+                    raise
+                import time as _t; _t.sleep(5)
         result = response.json()
 
         content = ""

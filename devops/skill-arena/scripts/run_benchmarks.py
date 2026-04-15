@@ -157,10 +157,23 @@ def evaluate_skill(skill: Dict, test_cases: List[Dict], cluster_name: str,
 
     # Execute each test case
     for test_case in test_cases:
-        test_result = execute_single_test(
-            test_case, skill, skill_content,
-            skill_invoker=skill_invoker, llm_judge=llm_judge
-        )
+        try:
+            test_result = execute_single_test(
+                test_case, skill, skill_content,
+                skill_invoker=skill_invoker, llm_judge=llm_judge
+            )
+        except Exception as _e:
+            test_result = {
+                "test_id": test_case.get("id", "unknown"),
+                "test_name": test_case.get("name", ""),
+                "executed": True,
+                "response_time_s": 0,
+                "tokens_used": 0,
+                "success": False,
+                "output": f"Error: {_e}",
+                "quality_score": 0,
+                "dimension_scores": {}
+            }
         result["test_results"].append(test_result)
 
         if test_result.get("success", False):
@@ -214,9 +227,13 @@ def execute_single_test(test_case: Dict, skill: Dict, skill_content: str,
 
         # Use LLM Judge for quality evaluation if available
         if llm_judge and success:
-            eval_result = llm_judge.evaluate(test_case, output, skill.get("name", ""))
-            quality_score = eval_result.get("overall_score", 5.0)
-            dimension_scores = eval_result.get("dimension_scores", {})
+            try:
+                eval_result = llm_judge.evaluate(test_case, output, skill.get("name", ""))
+                quality_score = eval_result.get("overall_score", 5.0)
+                dimension_scores = eval_result.get("dimension_scores", {})
+            except Exception as _je:
+                quality_score = evaluate_output_quality(output, test_case, skill_content)
+                dimension_scores = {}
         else:
             quality_score = evaluate_output_quality(output, test_case, skill_content)
             dimension_scores = {}
