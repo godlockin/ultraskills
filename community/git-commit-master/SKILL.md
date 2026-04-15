@@ -30,6 +30,16 @@ tags: [git, engineering, workflow]
 - **ci**: CI 配置脚本变化
 - **chore**: 杂务
 
+## ⭐ 脚本优先原则
+
+Agent 生成 message，脚本负责格式校验和执行：
+
+```bash
+MESSAGE="feat(auth): add login flow" bash scripts/commit.sh
+# --dry-run 预览不执行：
+MESSAGE="feat: test" bash scripts/commit.sh --dry-run
+```
+
 ## 🚀 使用流程 (Workflow)
 
 ### Step 1: 提供变更 (Input)
