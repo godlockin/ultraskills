@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-15",
+  "generated_at": "2026-04-16",
   "stats": {
     "total": 228,
     "owned": 91,
@@ -497,11 +497,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "agent-reach",
@@ -525,11 +521,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "algorithmic-art",
@@ -553,20 +545,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "bdi-mental-states",
       "name": "bdi-mental-states",
       "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/bdi-mental-states",
       "source": "owned",
       "source_dir": "community",
@@ -583,12 +569,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-agent-bdi-skill",
-        "agent-bdi-related-tasks"
-      ]
+      }
     },
     {
       "id": "blessing-styles",
@@ -612,11 +593,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "brainstorming",
@@ -640,11 +617,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "brand-guidelines",
@@ -668,11 +641,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "product-ux-related-tasks"
-      ]
+      }
     },
     {
       "id": "canvas-design",
@@ -696,11 +665,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "creative-visual-related-tasks"
-      ]
+      }
     },
     {
       "id": "caveman",
@@ -724,11 +689,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "claude-api",
@@ -752,11 +713,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "agent-tool-related-tasks"
-      ]
+      }
     },
     {
       "id": "commercial-director-pro",
@@ -780,20 +737,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "content-social-related-tasks"
-      ]
+      }
     },
     {
       "id": "context-compression",
       "name": "context-compression",
       "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/context-compression",
       "source": "owned",
       "source_dir": "community",
@@ -810,12 +761,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-agent-context-skill",
-        "agent-context-related-tasks"
-      ]
+      }
     },
     {
       "id": "context-degradation",
@@ -839,11 +785,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "context-fundamentals",
@@ -867,11 +809,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "agent-context-related-tasks"
-      ]
+      }
     },
     {
       "id": "context-optimization",
@@ -895,20 +833,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "seo-content-related-tasks"
-      ]
+      }
     },
     {
       "id": "dispatching-parallel-agents",
       "name": "dispatching-parallel-agents",
       "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/dispatching-parallel-agents",
       "source": "owned",
       "source_dir": "community",
@@ -925,12 +857,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-agent-workflow-skill",
-        "agent-workflow-related-tasks"
-      ]
+      }
     },
     {
       "id": "doc-coauthoring",
@@ -954,11 +881,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-security-related-tasks"
-      ]
+      }
     },
     {
       "id": "docx",
@@ -982,11 +905,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "data-docs-related-tasks"
-      ]
+      }
     },
     {
       "id": "dynamic-expert-group",
@@ -1010,11 +929,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "evaluation",
@@ -1038,11 +953,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "executing-plans",
@@ -1066,11 +977,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "face-beautification",
@@ -1094,11 +1001,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "filesystem-context",
@@ -1122,20 +1025,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "finishing-a-development-branch",
       "name": "finishing-a-development-branch",
       "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/finishing-a-development-branch",
       "source": "owned",
       "source_dir": "community",
@@ -1152,12 +1049,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-compliance-ra-skill",
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "frontend-design",
@@ -1181,20 +1073,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-ux-related-tasks"
-      ]
+      }
     },
     {
       "id": "gemini-image-optimizer",
       "name": "gemini-image-optimizer",
       "description": "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/gemini-image-optimizer",
       "source": "owned",
       "source_dir": "community",
@@ -1211,12 +1097,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-product-discovery-skill",
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "git-commit-master",
@@ -1244,11 +1125,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "agent-workflow-related-tasks"
-      ]
+      }
     },
     {
       "id": "github-skill-scout",
@@ -1277,11 +1154,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "github-to-skills",
@@ -1305,11 +1178,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "gstack",
@@ -1333,11 +1202,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "hosted-agents",
@@ -1361,11 +1226,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "ikea-designer-pro",
@@ -1389,11 +1250,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "image-analyzer",
@@ -1417,20 +1274,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "image-auditor",
       "name": "image-auditor",
       "description": "",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/image-auditor",
       "source": "owned",
       "source_dir": "community",
@@ -1447,12 +1298,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-video-media-skill",
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "image-reviewer",
@@ -1476,11 +1322,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "image-to-video",
@@ -1504,11 +1346,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "content-email-related-tasks"
-      ]
+      }
     },
     {
       "id": "internal-comms",
@@ -1532,11 +1370,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "mcp-builder",
@@ -1560,11 +1394,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "devops-mcp-related-tasks"
-      ]
+      }
     },
     {
       "id": "media-downloader",
@@ -1593,11 +1423,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "memory-systems",
@@ -1621,11 +1447,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "multi-agent-patterns",
@@ -1649,20 +1471,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "pdf",
       "name": "pdf",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/pdf",
       "source": "owned",
       "source_dir": "community",
@@ -1679,12 +1495,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-data-docs-skill",
-        "data-docs-related-tasks"
-      ]
+      }
     },
     {
       "id": "photography-expert-pro",
@@ -1708,11 +1519,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files",
@@ -1736,11 +1543,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files-ar",
@@ -1764,11 +1567,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files-de",
@@ -1792,11 +1591,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files-es",
@@ -1820,11 +1615,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files-zh",
@@ -1848,11 +1639,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "planning-with-files-zht",
@@ -1876,11 +1663,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "pptx",
@@ -1904,11 +1687,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "project-development",
@@ -1932,11 +1711,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "prompt-engineer",
@@ -1960,11 +1735,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "prompt-optimizer",
@@ -1992,11 +1763,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "seo-content-related-tasks"
-      ]
+      }
     },
     {
       "id": "receiving-code-review",
@@ -2020,11 +1787,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "remotion-video-creator",
@@ -2055,11 +1818,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "requesting-code-review",
@@ -2083,11 +1842,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "skill-arena",
@@ -2117,11 +1872,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "skill-creator",
@@ -2145,11 +1896,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "skill-evolution-manager",
@@ -2173,11 +1920,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "skill-manager",
@@ -2201,11 +1944,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "skill-sync-manager",
@@ -2235,11 +1974,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "skills-finder",
@@ -2263,11 +1998,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "slack-gif-creator",
@@ -2291,11 +2022,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "subagent-driven-development",
@@ -2319,20 +2046,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "systematic-debugging",
       "name": "systematic-debugging",
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/systematic-debugging",
       "source": "owned",
       "source_dir": "community",
@@ -2349,12 +2070,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-eng-testing-skill",
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "task-analyzer",
@@ -2383,11 +2099,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "test-driven-development",
@@ -2411,11 +2123,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "theme-factory",
@@ -2439,11 +2147,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "tool-design",
@@ -2467,11 +2171,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "using-git-worktrees",
@@ -2495,11 +2195,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "using-superpowers",
@@ -2523,11 +2219,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "agent-tool-related-tasks"
-      ]
+      }
     },
     {
       "id": "verification-before-completion",
@@ -2551,11 +2243,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "video-frame-extractor",
@@ -2579,11 +2267,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "video-splitter",
@@ -2607,11 +2291,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "visual-expert-pro--gemini-3-0-edition",
@@ -2635,11 +2315,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "creative-visual-related-tasks"
-      ]
+      }
     },
     {
       "id": "web-artifacts-builder",
@@ -2663,11 +2339,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-ux-related-tasks"
-      ]
+      }
     },
     {
       "id": "webapp-testing",
@@ -2691,11 +2363,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "writing-plans",
@@ -2719,11 +2387,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "writing-skills",
@@ -2747,11 +2411,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "xlsx",
@@ -2775,20 +2435,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-剪口播",
       "name": "videocut:剪口播",
       "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./community/剪口播",
       "source": "owned",
       "source_dir": "community",
@@ -2805,12 +2459,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-video-editing-skill",
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-剪辑",
@@ -2834,11 +2483,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-字幕",
@@ -2862,11 +2507,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-安装",
@@ -2890,11 +2531,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-自更新",
@@ -2918,11 +2555,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "videocut-自进化",
@@ -2946,11 +2579,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "autoresearch",
@@ -2974,11 +2603,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "seo-content-related-tasks"
-      ]
+      }
     },
     {
       "id": "bfg-repo-cleaner",
@@ -3002,11 +2627,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "pua",
@@ -3030,11 +2651,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "pua-en",
@@ -3058,11 +2675,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "pua-ja",
@@ -3086,11 +2699,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "template-skill",
@@ -3114,11 +2723,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "caveman-compress",
@@ -3142,11 +2747,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "caveman-commit",
@@ -3170,11 +2771,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "caveman-help",
@@ -3198,11 +2795,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "caveman-review",
@@ -3226,11 +2819,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "stripe-best-practices",
@@ -3254,11 +2843,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "cro-form-related-tasks"
-      ]
+      }
     },
     {
       "id": "business-growth-skills",
@@ -3288,11 +2873,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "marketing-growth-related-tasks"
-      ]
+      }
     },
     {
       "id": "c-level-advisor",
@@ -3316,11 +2897,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "business-strategy-related-tasks"
-      ]
+      }
     },
     {
       "id": "engineering-advanced-skills",
@@ -3352,11 +2929,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "engineering-skills",
@@ -3388,11 +2961,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "finance-skills",
@@ -3422,11 +2991,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "business-finance-related-tasks"
-      ]
+      }
     },
     {
       "id": "marketing-skills",
@@ -3458,11 +3023,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "content-copywriting-related-tasks"
-      ]
+      }
     },
     {
       "id": "product-skills",
@@ -3493,11 +3054,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-ux-related-tasks"
-      ]
+      }
     },
     {
       "id": "pm-skills",
@@ -3528,11 +3085,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "ra-qm-skills",
@@ -3564,11 +3117,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "context-engineering-collection",
@@ -3592,11 +3141,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "agent-context-related-tasks"
-      ]
+      }
     },
     {
       "id": "angular-architect",
@@ -3620,11 +3165,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "api-designer",
@@ -3648,20 +3189,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "architecture-designer",
       "name": "architecture-designer",
       "description": "Use when designing new system architecture, reviewing existing designs, or making architectural decisions. Invoke for system design, architecture review, design patterns, ADRs, scalability planning.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/fullstack-dev-skills/skills/architecture-designer",
       "source": "external",
       "source_dir": "external",
@@ -3678,12 +3213,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-eng-architecture-skill",
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "atlassian-mcp",
@@ -3707,11 +3237,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "agent-tool-related-tasks"
-      ]
+      }
     },
     {
       "id": "chaos-engineer",
@@ -3735,11 +3261,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "cli-developer",
@@ -3763,11 +3285,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "cloud-architect",
@@ -3791,11 +3309,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "code-documenter",
@@ -3819,11 +3333,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "data-docs-related-tasks"
-      ]
+      }
     },
     {
       "id": "code-reviewer",
@@ -3847,11 +3357,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "cpp-pro",
@@ -3875,20 +3381,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "csharp-developer",
       "name": "csharp-developer",
       "description": "Use when building C# applications with .NET 8+, ASP.NET Core APIs, or Blazor web apps. Invoke for Entity Framework Core, minimal APIs, async patterns, CQRS with MediatR.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/fullstack-dev-skills/skills/csharp-developer",
       "source": "external",
       "source_dir": "external",
@@ -3905,12 +3405,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-other-skill",
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "database-optimizer",
@@ -3934,11 +3429,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "debugging-wizard",
@@ -3962,11 +3453,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "devops-engineer",
@@ -3990,11 +3477,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "django-expert",
@@ -4018,11 +3501,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "dotnet-core-expert",
@@ -4046,11 +3525,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "embedded-systems",
@@ -4074,20 +3549,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "fastapi-expert",
       "name": "fastapi-expert",
       "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke for async SQLAlchemy, JWT authentication, WebSockets, OpenAPI documentation.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/fullstack-dev-skills/skills/fastapi-expert",
       "source": "external",
       "source_dir": "external",
@@ -4104,12 +3573,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-agent-tool-skill",
-        "agent-tool-related-tasks"
-      ]
+      }
     },
     {
       "id": "feature-forge",
@@ -4133,11 +3597,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "fine-tuning-expert",
@@ -4161,11 +3621,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "flutter-expert",
@@ -4189,11 +3645,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "fullstack-guardian",
@@ -4217,11 +3669,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-ux-related-tasks"
-      ]
+      }
     },
     {
       "id": "game-developer",
@@ -4245,11 +3693,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "golang-pro",
@@ -4273,11 +3717,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "graphql-architect",
@@ -4301,11 +3741,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "java-architect",
@@ -4329,11 +3765,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "javascript-pro",
@@ -4357,11 +3789,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "kotlin-specialist",
@@ -4385,11 +3813,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "kubernetes-specialist",
@@ -4413,11 +3837,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-security-related-tasks"
-      ]
+      }
     },
     {
       "id": "laravel-specialist",
@@ -4441,11 +3861,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "legacy-modernizer",
@@ -4469,11 +3885,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "mcp-developer",
@@ -4497,11 +3909,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "agent-tool-related-tasks"
-      ]
+      }
     },
     {
       "id": "microservices-architect",
@@ -4525,11 +3933,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "ml-pipeline",
@@ -4553,11 +3957,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "monitoring-expert",
@@ -4581,11 +3981,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "nestjs-expert",
@@ -4609,11 +4005,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "nextjs-developer",
@@ -4637,11 +4029,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "devops-mcp-related-tasks"
-      ]
+      }
     },
     {
       "id": "pandas-pro",
@@ -4665,11 +4053,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "php-pro",
@@ -4693,11 +4077,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "playwright-expert",
@@ -4721,11 +4101,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "postgres-pro",
@@ -4749,11 +4125,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "python-pro",
@@ -4777,11 +4149,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "rag-architect",
@@ -4805,11 +4173,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-docs-related-tasks"
-      ]
+      }
     },
     {
       "id": "rails-expert",
@@ -4833,11 +4197,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "compliance-ra-related-tasks"
-      ]
+      }
     },
     {
       "id": "react-expert",
@@ -4861,11 +4221,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "react-native-expert",
@@ -4889,11 +4245,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "rust-engineer",
@@ -4917,11 +4269,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "agent-context-related-tasks"
-      ]
+      }
     },
     {
       "id": "salesforce-developer",
@@ -4945,11 +4293,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "secure-code-guardian",
@@ -4973,11 +4317,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "eng-security-related-tasks"
-      ]
+      }
     },
     {
       "id": "security-reviewer",
@@ -5001,11 +4341,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-code-quality-related-tasks"
-      ]
+      }
     },
     {
       "id": "shopify-expert",
@@ -5029,20 +4365,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "spark-engineer",
       "name": "spark-engineer",
       "description": "Use when building Apache Spark applications, distributed data processing pipelines, or optimizing big data workloads. Invoke for DataFrame API, Spark SQL, RDD operations, performance tuning, streaming analytics.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/fullstack-dev-skills/skills/spark-engineer",
       "source": "external",
       "source_dir": "external",
@@ -5059,12 +4389,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-data-analysis-skill",
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "spec-miner",
@@ -5088,11 +4413,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "spring-boot-engineer",
@@ -5116,11 +4437,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "sql-pro",
@@ -5144,11 +4461,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "sre-engineer",
@@ -5172,11 +4485,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "swift-expert",
@@ -5200,11 +4509,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "terraform-engineer",
@@ -5228,11 +4533,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "cro-form-related-tasks"
-      ]
+      }
     },
     {
       "id": "test-master",
@@ -5256,11 +4557,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "the-fool",
@@ -5284,11 +4581,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "typescript-pro",
@@ -5312,11 +4605,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "vue-expert",
@@ -5340,11 +4629,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "vue-expert-js",
@@ -5368,11 +4653,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "websocket-engineer",
@@ -5396,11 +4677,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "wordpress-pro",
@@ -5424,11 +4701,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-agent-swarm",
@@ -5452,11 +4725,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-article-edit",
@@ -5480,11 +4749,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-article-to-x",
@@ -5508,11 +4773,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-data-pro",
@@ -5536,11 +4797,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-analysis-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-design",
@@ -5564,11 +4821,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-douyin-script",
@@ -5592,11 +4845,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-image-upload",
@@ -5620,11 +4869,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-info-search",
@@ -5648,11 +4893,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-material-search",
@@ -5676,11 +4917,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-md-to-pdf",
@@ -5704,11 +4941,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "data-docs-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-prompt-save",
@@ -5732,11 +4965,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-proofreading",
@@ -5760,11 +4989,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-research",
@@ -5788,11 +5013,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-script-polish",
@@ -5816,11 +5037,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-slides",
@@ -5844,11 +5061,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-speech-coach",
@@ -5872,11 +5085,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-topic-gen",
@@ -5900,11 +5109,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-video-check",
@@ -5928,11 +5133,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-video-outline",
@@ -5956,11 +5157,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-wechat-image",
@@ -5984,11 +5181,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-xhs-image",
@@ -6012,11 +5205,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "video-media-related-tasks"
-      ]
+      }
     },
     {
       "id": "ab-test-setup",
@@ -6040,11 +5229,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
-      ]
+      }
     },
     {
       "id": "ad-creative",
@@ -6068,11 +5253,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "ai-seo",
@@ -6096,11 +5277,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "seo-content-related-tasks"
-      ]
+      }
     },
     {
       "id": "analytics-tracking",
@@ -6124,11 +5301,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "marketing-analytics-related-tasks"
-      ]
+      }
     },
     {
       "id": "churn-prevention",
@@ -6152,20 +5325,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "cold-email",
       "name": "cold-email",
       "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/cold-email",
       "source": "external",
       "source_dir": "external",
@@ -6182,12 +5349,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-sales-outreach-skill",
-        "sales-outreach-related-tasks"
-      ]
+      }
     },
     {
       "id": "competitor-alternatives",
@@ -6211,20 +5373,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "content-strategy",
       "name": "content-strategy",
       "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/content-strategy",
       "source": "external",
       "source_dir": "external",
@@ -6241,12 +5397,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-content-strategy-skill",
-        "content-strategy-related-tasks"
-      ]
+      }
     },
     {
       "id": "copy-editing",
@@ -6270,20 +5421,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "content-copywriting-related-tasks"
-      ]
+      }
     },
     {
       "id": "copywriting",
       "name": "copywriting",
       "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/copywriting",
       "source": "external",
       "source_dir": "external",
@@ -6300,12 +5445,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-content-copywriting-skill",
-        "content-copywriting-related-tasks"
-      ]
+      }
     },
     {
       "id": "email-sequence",
@@ -6329,11 +5469,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "content-email-related-tasks"
-      ]
+      }
     },
     {
       "id": "form-cro",
@@ -6357,11 +5493,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "cro-form-related-tasks"
-      ]
+      }
     },
     {
       "id": "free-tool-strategy",
@@ -6385,11 +5517,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "marketing-growth-related-tasks"
-      ]
+      }
     },
     {
       "id": "launch-strategy",
@@ -6413,20 +5541,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-devops-related-tasks"
-      ]
+      }
     },
     {
       "id": "lead-magnets",
       "name": "lead-magnets",
       "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/lead-magnets",
       "source": "external",
       "source_dir": "external",
@@ -6443,12 +5565,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-content-email-skill",
-        "content-email-related-tasks"
-      ]
+      }
     },
     {
       "id": "marketing-ideas",
@@ -6472,11 +5589,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "marketing-psychology",
@@ -6500,11 +5613,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "onboarding-cro",
@@ -6528,20 +5637,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "cro-funnel-related-tasks"
-      ]
+      }
     },
     {
       "id": "page-cro",
       "name": "page-cro",
       "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/page-cro",
       "source": "external",
       "source_dir": "external",
@@ -6558,21 +5661,14 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-cro-landing-skill",
-        "cro-landing-related-tasks"
-      ]
+      }
     },
     {
       "id": "paid-ads",
       "name": "paid-ads",
       "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/paid-ads",
       "source": "external",
       "source_dir": "external",
@@ -6589,12 +5685,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-marketing-paid-skill",
-        "marketing-paid-related-tasks"
-      ]
+      }
     },
     {
       "id": "paywall-upgrade-cro",
@@ -6618,11 +5709,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "cro-funnel-related-tasks"
-      ]
+      }
     },
     {
       "id": "popup-cro",
@@ -6646,11 +5733,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "cro-landing-related-tasks"
-      ]
+      }
     },
     {
       "id": "pricing-strategy",
@@ -6674,11 +5757,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "product-marketing-context",
@@ -6702,20 +5781,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "programmatic-seo",
       "name": "programmatic-seo",
       "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/programmatic-seo",
       "source": "external",
       "source_dir": "external",
@@ -6732,21 +5805,14 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-seo-content-skill",
-        "seo-content-related-tasks"
-      ]
+      }
     },
     {
       "id": "referral-program",
       "name": "referral-program",
       "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/referral-program",
       "source": "external",
       "source_dir": "external",
@@ -6763,12 +5829,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-marketing-growth-skill",
-        "marketing-growth-related-tasks"
-      ]
+      }
     },
     {
       "id": "revops",
@@ -6792,11 +5853,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "sales-enablement-related-tasks"
-      ]
+      }
     },
     {
       "id": "sales-enablement",
@@ -6820,20 +5877,14 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "schema-markup",
       "name": "schema-markup",
       "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
       "version": "1.0.0",
-      "tags": [
-        "arena-winner"
-      ],
+      "tags": [],
       "path": "./external/marketingskills/skills/schema-markup",
       "source": "external",
       "source_dir": "external",
@@ -6850,12 +5901,7 @@
         "is_winner": true,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 1,
-      "recommended_for": [
-        "best-seo-technical-skill",
-        "seo-technical-related-tasks"
-      ]
+      }
     },
     {
       "id": "seo-audit",
@@ -6879,11 +5925,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "product-discovery-related-tasks"
-      ]
+      }
     },
     {
       "id": "signup-flow-cro",
@@ -6907,11 +5949,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "cro-form-related-tasks"
-      ]
+      }
     },
     {
       "id": "site-architecture",
@@ -6935,11 +5973,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "eng-architecture-related-tasks"
-      ]
+      }
     },
     {
       "id": "social-content",
@@ -6963,11 +5997,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "content-social-related-tasks"
-      ]
+      }
     },
     {
       "id": "huashu-nuwa",
@@ -6991,11 +6021,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     },
     {
       "id": "web-access",
@@ -7019,15 +6045,7 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "other-related-tasks"
-      ]
+      }
     }
-  ],
-  "meta": {
-    "arena_version": "1.0.0",
-    "arena_updated_at": "2026-04-16"
-  }
+  ]
 }
