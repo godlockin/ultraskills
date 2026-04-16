@@ -80,8 +80,11 @@ def update_index_with_arena_data(index_path: Path, winners_data: Dict, rankings:
                 skill["tags"].append("arena-winner")
 
     # Update metadata
+    if "meta" not in index_data:
+        index_data["meta"] = {}
     index_data["meta"]["arena_version"] = "1.0.0"
-    index_data["meta"]["arena_updated_at"] = "2026-03-09"
+    from datetime import datetime
+    index_data["meta"]["arena_updated_at"] = datetime.now().strftime("%Y-%m-%d")
 
     # Write back
     with open(index_path, 'w', encoding='utf-8') as f:
