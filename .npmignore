@@ -1,0 +1,20 @@
+# Exclude all skill content — only bin/ lib/ README.md are published (via "files" in package.json)
+external/
+community/
+engineering/
+devops/
+creative/
+productivity/
+_template_skill/
+test/
+auth/
+*.py
+*.sh
+*.jsonl
+*.json
+!package.json
+index.json
+clusters.json
+gcp-auth.json
+.env
+.envrc
