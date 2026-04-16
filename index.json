@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "generated_at": "2026-04-16",
   "stats": {
-    "total": 228,
+    "total": 252,
     "owned": 91,
-    "external": 137
+    "external": 161
   },
   "tag_index": {
     "git": [
@@ -6046,6 +6046,277 @@
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       }
+    },
+    {
+      "id": "claude-opus-4-5-migration",
+      "name": "claude-opus-4-5-migration",
+      "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "frontend-design-claude-code",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/frontend-design/skills/frontend-design",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "writing-hookify-rules",
+      "name": "Writing Hookify Rules",
+      "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns.",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/hookify/skills/writing-rules",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "agent-development",
+      "name": "Agent Development",
+      "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or ",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/agent-development",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "command-development",
+      "name": "Command Development",
+      "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs gu",
+      "version": "0.2.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/command-development",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "hook-development",
+      "name": "Hook Development",
+      "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse,",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/hook-development",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "mcp-integration",
+      "name": "MCP Integration",
+      "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/mcp-integration",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "plugin-settings",
+      "name": "Plugin Settings",
+      "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-settings",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "plugin-structure",
+      "name": "Plugin Structure",
+      "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin director",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-structure",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "skill-development",
+      "name": "Skill Development",
+      "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./external/claude-code/plugins/plugin-dev/skills/skill-development",
+      "source": "external",
+      "source_dir": "claude-code",
+      "arena": {}
+    },
+    {
+      "id": "github-to-skills-khazix",
+      "name": "github-to-skills",
+      "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill struc",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/khazix-skills/github-to-skills",
+      "source": "external",
+      "source_dir": "khazix-skills",
+      "arena": {}
+    },
+    {
+      "id": "hv-analysis",
+      "name": "hv-analysis",
+      "description": "横纵分析法（Horizontal-Vertical Analysis）深度研究Skill。由数字生命卡兹克提出，融合了索绪尔的历时-共时分析、社会科学的纵向-横截面研究设计、商学院案例研究法与竞争战略分析的核心思想。\n当用户想要系统性研究一个产品、公司、概念、技术或人物时使用。核心是双轴分析：纵轴追踪从诞生到当下的完整生命历程（以叙事故事呈现），横轴在当下时间截面上与竞品/同类进行系统性横向对比，最后交叉两条轴产出独到洞察。最终产出一份排版精美的PDF研究报告。\n触发词包括但不限于：横纵分析、研究一下、帮我分析、深度研究、做个研究、调研一下、竞品分析、帮我看看这个东西怎么样、这个产品/公司/概",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/khazix-skills/hv-analysis",
+      "source": "external",
+      "source_dir": "khazix-skills",
+      "arena": {}
+    },
+    {
+      "id": "khazix-writer",
+      "name": "khazix-writer",
+      "description": "数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说\"帮我把这个写成文章\"或\"用我的风格写一下\"，只要上下文涉及内容创作和公众号输出，都应该触发。也适用于用户丢过来一个PDF、brief、新闻链接、语音转文字或任何素材说\"帮我写篇文章\"的场景。不要用于短内容（小红书帖子、推特、朋友圈）或纯标题摘要生成（那个用wechat-title skill）。",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/khazix-skills/khazix-writer",
+      "source": "external",
+      "source_dir": "khazix-skills",
+      "arena": {}
+    },
+    {
+      "id": "skill-evolution-manager-khazix",
+      "name": "Skill Evolution Manager",
+      "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/khazix-skills/skill-evolution-manager",
+      "source": "external",
+      "source_dir": "khazix-skills",
+      "arena": {}
+    },
+    {
+      "id": "skill-manager-khazix",
+      "name": "skill-manager",
+      "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/khazix-skills/skill-manager",
+      "source": "external",
+      "source_dir": "khazix-skills",
+      "arena": {}
+    },
+    {
+      "id": "media-downloader-yt-dlp",
+      "name": "Media Downloader",
+      "description": "使用 yt-dlp 下载网络视频/音频，涵盖 YouTube、Bilibili 等主流平台，处理认证、格式选择、合并等完整流程",
+      "version": "1.0.0",
+      "tags": [
+        "yt-dlp",
+        "youtube",
+        "bilibili",
+        "ffmpeg",
+        "media",
+        "download"
+      ],
+      "path": "./external/media-downloader",
+      "source": "external",
+      "source_dir": "media-downloader",
+      "arena": {}
+    },
+    {
+      "id": "videocut:剪口播",
+      "name": "videocut:剪口播",
+      "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/videocut-skills/剪口播",
+      "source": "external",
+      "source_dir": "videocut-skills",
+      "arena": {}
+    },
+    {
+      "id": "videocut:字幕",
+      "name": "videocut:字幕",
+      "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/videocut-skills/字幕",
+      "source": "external",
+      "source_dir": "videocut-skills",
+      "arena": {}
+    },
+    {
+      "id": "videocut:安装",
+      "name": "videocut:安装",
+      "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/videocut-skills/安装",
+      "source": "external",
+      "source_dir": "videocut-skills",
+      "arena": {}
+    },
+    {
+      "id": "videocut:自进化",
+      "name": "videocut:自进化",
+      "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/videocut-skills/自进化",
+      "source": "external",
+      "source_dir": "videocut-skills",
+      "arena": {}
+    },
+    {
+      "id": "videocut:高清化",
+      "name": "videocut:高清化",
+      "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/videocut-skills/高清化",
+      "source": "external",
+      "source_dir": "videocut-skills",
+      "arena": {}
+    },
+    {
+      "id": "aso-audit",
+      "name": "aso-audit",
+      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app c",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/aso-audit",
+      "source": "external",
+      "source_dir": "marketingskills",
+      "arena": {}
+    },
+    {
+      "id": "community-marketing",
+      "name": "community-marketing",
+      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/community-marketing",
+      "source": "external",
+      "source_dir": "marketingskills",
+      "arena": {}
+    },
+    {
+      "id": "customer-research",
+      "name": "customer-research",
+      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"cu",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/customer-research",
+      "source": "external",
+      "source_dir": "marketingskills",
+      "arena": {}
     }
   ]
 }
