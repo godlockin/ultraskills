@@ -6056,7 +6056,20 @@
       "path": "./external/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "eng-devops",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "frontend-design-claude-code",
@@ -6067,7 +6080,20 @@
       "path": "./external/claude-code/plugins/frontend-design/skills/frontend-design",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-ux",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "writing-hookify-rules",
@@ -6078,7 +6104,20 @@
       "path": "./external/claude-code/plugins/hookify/skills/writing-rules",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "agent-development",
@@ -6089,7 +6128,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/agent-development",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "agent-workflow",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "command-development",
@@ -6100,7 +6152,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/command-development",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 50,
+        "scores": {
+          "quality": 22.5,
+          "speed": 6.0,
+          "maintainability": 5.0,
+          "total": 50
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "hook-development",
@@ -6111,7 +6176,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/hook-development",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "eng-devops",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "mcp-integration",
@@ -6122,7 +6200,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/mcp-integration",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "devops-mcp",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "plugin-settings",
@@ -6133,7 +6224,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-settings",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "plugin-structure",
@@ -6144,7 +6248,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-structure",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "skill-development",
@@ -6155,7 +6272,20 @@
       "path": "./external/claude-code/plugins/plugin-dev/skills/skill-development",
       "source": "external",
       "source_dir": "claude-code",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 60,
+        "scores": {
+          "quality": 27.0,
+          "speed": 7.2,
+          "maintainability": 6.0,
+          "total": 60
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "github-to-skills-khazix",
@@ -6166,7 +6296,20 @@
       "path": "./external/khazix-skills/github-to-skills",
       "source": "external",
       "source_dir": "khazix-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "eng-devops",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "hv-analysis",
@@ -6177,7 +6320,20 @@
       "path": "./external/khazix-skills/hv-analysis",
       "source": "external",
       "source_dir": "khazix-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "data-analysis",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "khazix-writer",
@@ -6188,7 +6344,20 @@
       "path": "./external/khazix-skills/khazix-writer",
       "source": "external",
       "source_dir": "khazix-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "content-copywriting",
+        "score": 90,
+        "scores": {
+          "quality": 40.5,
+          "speed": 10.8,
+          "maintainability": 9.0,
+          "total": 90
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "skill-evolution-manager-khazix",
@@ -6199,7 +6368,20 @@
       "path": "./external/khazix-skills/skill-evolution-manager",
       "source": "external",
       "source_dir": "khazix-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "skill-manager-khazix",
@@ -6210,7 +6392,20 @@
       "path": "./external/khazix-skills/skill-manager",
       "source": "external",
       "source_dir": "khazix-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "media-downloader-yt-dlp",
@@ -6228,7 +6423,20 @@
       "path": "./external/media-downloader",
       "source": "external",
       "source_dir": "media-downloader",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "video-media",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "videocut:剪口播",
@@ -6239,7 +6447,20 @@
       "path": "./external/videocut-skills/剪口播",
       "source": "external",
       "source_dir": "videocut-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "video-editing",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "videocut:字幕",
@@ -6250,7 +6471,20 @@
       "path": "./external/videocut-skills/字幕",
       "source": "external",
       "source_dir": "videocut-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "video-editing",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "videocut:安装",
@@ -6261,7 +6495,20 @@
       "path": "./external/videocut-skills/安装",
       "source": "external",
       "source_dir": "videocut-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "eng-devops",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "videocut:自进化",
@@ -6272,7 +6519,20 @@
       "path": "./external/videocut-skills/自进化",
       "source": "external",
       "source_dir": "videocut-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-discovery",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "videocut:高清化",
@@ -6283,7 +6543,20 @@
       "path": "./external/videocut-skills/高清化",
       "source": "external",
       "source_dir": "videocut-skills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "video-editing",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "aso-audit",
@@ -6294,7 +6567,20 @@
       "path": "./external/marketingskills/skills/aso-audit",
       "source": "external",
       "source_dir": "marketingskills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "seo-technical",
+        "score": 70,
+        "scores": {
+          "quality": 31.5,
+          "speed": 8.4,
+          "maintainability": 7.0,
+          "total": 70
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "community-marketing",
@@ -6305,7 +6591,20 @@
       "path": "./external/marketingskills/skills/community-marketing",
       "source": "external",
       "source_dir": "marketingskills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "marketing-growth",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     },
     {
       "id": "customer-research",
@@ -6316,7 +6615,20 @@
       "path": "./external/marketingskills/skills/customer-research",
       "source": "external",
       "source_dir": "marketingskills",
-      "arena": {}
+      "arena": {
+        "rank": 99,
+        "category": "product-strategy",
+        "score": 80,
+        "scores": {
+          "quality": 36.0,
+          "speed": 9.6,
+          "maintainability": 8.0,
+          "total": 80
+        },
+        "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
     }
   ]
 }
