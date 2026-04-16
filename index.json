@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-16",
+  "generated_at": "2026-04-16T15:19:27Z",
   "stats": {
-    "total": 252,
-    "owned": 91,
+    "total": 253,
+    "owned": 92,
     "external": 161
   },
   "tag_index": {
@@ -6626,6 +6626,36 @@
           "total": 80
         },
         "is_winner": false,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
+    },
+    {
+      "id": "awesome-design-md",
+      "name": "awesome-design-md",
+      "description": "Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Supports 68 brands: Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, Cursor, Raycast, Claude, Coinbase, Tesla and more.",
+      "version": "1.0.0",
+      "tags": [
+        "design",
+        "ui",
+        "branding",
+        "frontend",
+        "css",
+        "theming"
+      ],
+      "path": "./community/awesome-design-md/SKILL.md",
+      "source": "community",
+      "source_dir": "community/awesome-design-md",
+      "arena": {
+        "rank": 1,
+        "category": "design-system",
+        "score": 88,
+        "scores": {
+          "relevance": 90,
+          "quality": 87,
+          "completeness": 88
+        },
+        "is_winner": true,
         "test_date": "2026-04-16",
         "test_version": "1.1.0"
       }
