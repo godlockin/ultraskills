@@ -1,0 +1,40 @@
+{
+  "meta": { "version": "2.0.0", "total_skills": 5 },
+  "skills": [
+    {
+      "id": "bdi-mental-states",
+      "path": "./community/bdi-mental-states",
+      "description": "BDI mental state tracking for AI agents",
+      "tags": ["agent", "bdi", "mental-states"],
+      "arena": { "category": "agent-bdi", "score": 75.1, "is_winner": true, "rank": 1 }
+    },
+    {
+      "id": "code-review",
+      "path": "./community/code-review",
+      "description": "Automated code review for pull requests",
+      "tags": ["engineering", "review", "code"],
+      "arena": { "category": "eng-review", "score": 68.5, "is_winner": true, "rank": 1 }
+    },
+    {
+      "id": "page-cro",
+      "path": "./community/page-cro",
+      "description": "Conversion rate optimization for landing pages",
+      "tags": ["cro", "marketing", "conversion"],
+      "arena": { "category": "cro", "score": 71.2, "is_winner": true, "rank": 1 }
+    },
+    {
+      "id": "advanced-evaluation",
+      "path": "./external/anthropic-skills/advanced-evaluation",
+      "description": "Advanced LLM evaluation techniques",
+      "tags": ["evaluation", "llm"],
+      "arena": { "category": "agent-eval", "score": 67.3, "is_winner": false, "rank": 2 }
+    },
+    {
+      "id": "git-workflow",
+      "path": "./community/git-workflow",
+      "description": "Git commit and PR workflow automation",
+      "tags": ["git", "engineering", "workflow"],
+      "arena": { "category": "eng-devops", "score": 62.0, "is_winner": false, "rank": 3 }
+    }
+  ]
+}

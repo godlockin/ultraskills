@@ -1,5 +1,22 @@
 # UltraSkils: The Ultimate AI Skills Library 🚀
 
+## Install a skill in one command
+
+```bash
+npx ultraskills install code-review
+```
+
+Find and install the best-scored AI skills for Claude Code. 538 skills, arena-ranked.
+
+```
+npx ultraskills search "code review"      # find skills
+npx ultraskills list --category eng       # browse by category
+npx ultraskills install bdi-mental-states # install by id
+npx ultraskills update                    # update installed skills
+```
+
+---
+
 > **定义 AI 协作的新标准**。
 > 本项目不仅仅是一个 Prompt 集合，而是一个**模块化、可复用、可验证**的 AI Skills 工业级标准库。
 

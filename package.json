@@ -1,32 +1,14 @@
 {
   "name": "ultraskills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Install the best AI skills for Claude Code in one command",
-  "bin": {
-    "ultraskills": "./bin/ultraskills.js"
-  },
-  "files": [
-    "bin/",
-    "lib/",
-    "README.md"
-  ],
+  "type": "module",
+  "bin": { "ultraskills": "./bin/ultraskills.js" },
+  "files": ["bin/", "lib/", "README.md"],
   "scripts": {
     "test": "node --test test/*.test.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "claude",
-    "claude-code",
-    "skills",
-    "ai",
-    "cli"
-  ],
+  "engines": { "node": ">=18.0.0" },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/godlockin/ultraskills.git"
-  },
-  "type": "module"
+  "repository": { "type": "git", "url": "https://github.com/godlockin/ultraskills.git" }
 }
