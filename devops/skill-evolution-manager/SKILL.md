@@ -139,9 +139,38 @@ python scripts/align_all.py ~/.claude/skills/
 - **Don't**: 不要直接修改 SKILL.md 的正文（除非是拼写错误）
 - **Don't**: 不要手动编辑 `evolution.json`，让 Agent 通过脚本操作
 
+## 🗂 Lessons DB（跨instance经验共享）
+
+经验不写回SKILL.md（浪费上下文），而是存入全局lessons库：
+
+```
+~/.claude/lessons/
+  index.json              ← 可搜索索引 (id / keywords / updated)
+  by-skill/{id}.md        ← 每个skill的提炼经验 (markdown)
+```
+
+**查询方式**（新instance启动时遇到问题先查）：
+
+```bash
+python3 ~/.claude/lessons-lookup.py <keyword>           # 关键词搜索
+python3 ~/.claude/lessons-lookup.py --skill <skill-id>  # 查具体skill
+python3 ~/.claude/lessons-lookup.py --list              # 列出所有
+```
+
+**自动流程**：
+```
+turn结束 → auto-evolve.sh flush → evolution.json (raw)
+  → 阈值触发 or 每日09:00+21:00 cron
+  → consolidate-evolutions.sh
+  → existing lessons + new evolution → claude -p merge
+  → ~/.claude/lessons/by-skill/{id}.md (updated)
+  → evolution.json cleared
+```
+
 ## 📚 资源引用
 
 - [示例：进化 Skill](./examples/evolve-skill.md)
 - [merge_evolution.py](./scripts/merge_evolution.py) - 增量合并工具
-- [smart_stitch.py](./scripts/smart_stitch.py) - 文档缝合工具
-- [align_all.py](./scripts/align_all.py) - 全量对齐工具
+- [lessons-lookup.py](./scripts/lessons-lookup.py) - 经验检索工具
+- [consolidate-evolutions.sh](./hooks/consolidate-evolutions.sh) - LLM提炼+写入lessons DB
+- [auto-evolve.sh](./hooks/auto-evolve.sh) - Stop hook，每turn flush
