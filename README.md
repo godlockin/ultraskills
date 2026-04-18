@@ -13,6 +13,8 @@ npx ultraskills search "code review"      # find skills
 npx ultraskills list --category eng       # browse by category
 npx ultraskills install bdi-mental-states # install by id
 npx ultraskills update                    # update installed skills
+npx ultraskills uninstall bdi-mental-states # remove installed skill
+npx ultraskills info bdi-mental-states    # show skill detail
 ```
 
 ---

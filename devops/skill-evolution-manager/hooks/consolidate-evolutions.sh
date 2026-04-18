@@ -23,14 +23,18 @@ consolidate_file() {
   local skill_name
   skill_name=$(basename "$skill_dir")
 
-  # Count total items
+  # Count total items — pass path as argument, never interpolate into python string
   local count
-  count=$(python3 -c "
-import json, sys
-d = json.load(open('$evo_file'))
-n = len(d.get('fixes', [])) + len(d.get('preferences', [])) + len(d.get('contexts', []))
-print(n)
-" 2>/dev/null)
+  count=$(python3 - "$evo_file" << 'PY' 2>/dev/null
+import sys, json
+try:
+    d = json.load(open(sys.argv[1]))
+    n = len(d.get('fixes', [])) + len(d.get('preferences', [])) + len(d.get('contexts', []))
+    print(n)
+except Exception:
+    print(0)
+PY
+)
 
   [[ -z "$count" || "$count" -eq 0 ]] && return
 
@@ -40,13 +44,12 @@ print(n)
 
   log "Consolidating $skill_name ($count items)..."
 
-  local content
-  content=$(cat "$evo_file")
+  local NOW
+  NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-  # Call claude to consolidate
+  # Call claude to consolidate — pipe file directly, no bash variable expansion in prompt
   local result
-  result=$(echo "$content" | claude -p "
-You are consolidating an AI skill's evolution.json file.
+  result=$(claude -p "You are consolidating an AI skill's evolution.json file.
 
 Rules:
 - Merge semantically duplicate entries into one clear statement
@@ -57,11 +60,9 @@ Rules:
 - Output ONLY valid JSON, no explanation, matching this schema:
   {\"last_updated\": \"<iso>\", \"fixes\": [...], \"preferences\": [...], \"contexts\": [...], \"custom_prompts\": \"...\"}
 - Omit empty arrays/fields
-- last_updated should be $(date -u +%Y-%m-%dT%H:%M:%SZ)
+- last_updated should be $NOW
 
-Input evolution.json:
-$content
-" 2>/dev/null)
+Input evolution.json is provided via stdin." < "$evo_file" 2>/dev/null)
 
   # Validate JSON
   if echo "$result" | python3 -c "import sys,json; json.load(sys.stdin)" 2>/dev/null; then
@@ -72,11 +73,18 @@ import sys,json
 d=json.load(sys.stdin)
 print(json.dumps(d, indent=2, ensure_ascii=False))
 " > "$evo_file"
-    log "✅ $skill_name consolidated ($count → $(python3 -c "
-import json
-d=json.load(open('$evo_file'))
-print(len(d.get('fixes',[]))+len(d.get('preferences',[]))+len(d.get('contexts',[])))
-") items)"
+    # Count after — pass path as argument
+    local after
+    after=$(python3 - "$evo_file" << 'PY' 2>/dev/null
+import sys, json
+try:
+    d = json.load(open(sys.argv[1]))
+    print(len(d.get('fixes',[])) + len(d.get('preferences',[])) + len(d.get('contexts',[])))
+except Exception:
+    print('?')
+PY
+)
+    log "✅ $skill_name consolidated ($count → $after items)"
   else
     log "⚠️  $skill_name: LLM returned invalid JSON, skipping"
   fi
