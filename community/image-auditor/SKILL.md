@@ -1,3 +1,10 @@
+---
+name: image-auditor
+description: 图片审核技能 - 确保上传图片包含清晰人物且内容适合生成新年祝福照片
+version: 1.0.0
+tags: [image, audit, moderation, safety]
+---
+
 # ImageAuditor Skill
 
 ## 描述

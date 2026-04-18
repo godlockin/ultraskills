@@ -1,3 +1,10 @@
+---
+name: image-analyzer
+description: 图片分析技能 - 提取人物性别/年龄/面部特征/发型/穿着等多维度信息
+version: 1.0.0
+tags: [image, analysis, face, feature-extraction]
+---
+
 # ImageAnalyzer Skill
 
 ## 描述

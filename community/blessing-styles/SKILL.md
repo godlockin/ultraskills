@@ -1,3 +1,10 @@
+---
+name: blessing-styles
+description: 祝福语文案技能 - 生成传统/幽默/诗意/现代/温馨5种风格的个性化新年祝福语
+version: 1.0.0
+tags: [copywriting, new-year, blessing, chinese]
+---
+
 # BlessingStyles Skill
 
 ## 描述

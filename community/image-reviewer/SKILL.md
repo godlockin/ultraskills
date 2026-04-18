@@ -1,3 +1,10 @@
+---
+name: image-reviewer
+description: 图片质量审核技能 - 审核AI生成的图片是否符合主题、无畸变、质量达标
+version: 1.0.0
+tags: [image, review, quality, ai-generated]
+---
+
 # ImageReviewer Skill
 
 ## 描述

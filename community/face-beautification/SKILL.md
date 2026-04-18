@@ -1,3 +1,10 @@
+---
+name: face-beautification
+description: 端到端AI新年祝福照片生成系统，含美颜策略（年龄/性别/肤色维度）、Prompt生成、质量审核
+version: 1.0.0
+tags: [image, face, beauty, photo, new-year, ai]
+---
+
 # 新年祝福图片生成器 - 技能体系
 
 ## 项目能力概览
