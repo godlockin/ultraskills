@@ -1,17 +1,71 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-16T15:19:27Z",
+  "generated_at": "2026-04-22",
   "stats": {
-    "total": 253,
-    "owned": 92,
-    "external": 161
+    "total": 240,
+    "owned": 94,
+    "external": 146
   },
   "tag_index": {
+    "design": [
+      "awesome-design-md"
+    ],
+    "ui": [
+      "awesome-design-md",
+      "product-skills"
+    ],
+    "branding": [
+      "awesome-design-md"
+    ],
+    "frontend": [
+      "awesome-design-md",
+      "engineering-skills"
+    ],
+    "css": [
+      "awesome-design-md"
+    ],
+    "theming": [
+      "awesome-design-md"
+    ],
+    "copywriting": [
+      "blessing-styles",
+      "marketing-skills"
+    ],
+    "new-year": [
+      "blessing-styles",
+      "face-beautification"
+    ],
+    "blessing": [
+      "blessing-styles"
+    ],
+    "chinese": [
+      "blessing-styles"
+    ],
+    "image": [
+      "face-beautification",
+      "image-analyzer",
+      "image-auditor",
+      "image-reviewer"
+    ],
+    "face": [
+      "face-beautification",
+      "image-analyzer"
+    ],
+    "beauty": [
+      "face-beautification"
+    ],
+    "photo": [
+      "face-beautification"
+    ],
+    "ai": [
+      "face-beautification"
+    ],
     "git": [
       "git-commit-master"
     ],
     "engineering": [
       "git-commit-master",
+      "karpathy-guidelines",
       "engineering-advanced-skills",
       "engineering-skills"
     ],
@@ -30,12 +84,49 @@
     "automation": [
       "github-skill-scout",
       "media-downloader",
-      "remotion-video-creator",
+      "remotion",
       "skill-arena",
       "skill-sync-manager"
     ],
     "skill-building": [
       "github-skill-scout"
+    ],
+    "analysis": [
+      "image-analyzer",
+      "task-analyzer"
+    ],
+    "feature-extraction": [
+      "image-analyzer"
+    ],
+    "audit": [
+      "image-auditor"
+    ],
+    "moderation": [
+      "image-auditor"
+    ],
+    "safety": [
+      "image-auditor"
+    ],
+    "review": [
+      "image-reviewer"
+    ],
+    "quality": [
+      "image-reviewer"
+    ],
+    "ai-generated": [
+      "image-reviewer"
+    ],
+    "coding": [
+      "karpathy-guidelines"
+    ],
+    "guidelines": [
+      "karpathy-guidelines"
+    ],
+    "best-practices": [
+      "karpathy-guidelines"
+    ],
+    "karpathy": [
+      "karpathy-guidelines"
     ],
     "productivity": [
       "media-downloader",
@@ -58,19 +149,19 @@
       "prompt-optimizer"
     ],
     "video": [
-      "remotion-video-creator"
+      "remotion"
     ],
     "react": [
-      "remotion-video-creator"
+      "remotion"
     ],
     "remotion": [
-      "remotion-video-creator"
+      "remotion"
     ],
     "animation": [
-      "remotion-video-creator"
+      "remotion"
     ],
     "creative": [
-      "remotion-video-creator"
+      "remotion"
     ],
     "testing": [
       "skill-arena"
@@ -91,9 +182,6 @@
       "skill-sync-manager"
     ],
     "task-planning": [
-      "task-analyzer"
-    ],
-    "analysis": [
       "task-analyzer"
     ],
     "business": [
@@ -128,9 +216,6 @@
     ],
     "observability": [
       "engineering-advanced-skills"
-    ],
-    "frontend": [
-      "engineering-skills"
     ],
     "backend": [
       "engineering-skills"
@@ -168,9 +253,6 @@
     "content": [
       "marketing-skills"
     ],
-    "copywriting": [
-      "marketing-skills"
-    ],
     "cro": [
       "marketing-skills"
     ],
@@ -187,9 +269,6 @@
       "product-skills"
     ],
     "ux": [
-      "product-skills"
-    ],
-    "ui": [
       "product-skills"
     ],
     "saas": [
@@ -241,6 +320,7 @@
       "advanced-evaluation",
       "agent-reach",
       "algorithmic-art",
+      "awesome-design-md",
       "bdi-mental-states",
       "blessing-styles",
       "brainstorming",
@@ -275,6 +355,7 @@
       "image-reviewer",
       "image-to-video",
       "internal-comms",
+      "karpathy-guidelines",
       "mcp-builder",
       "media-downloader",
       "memory-systems",
@@ -292,7 +373,7 @@
       "prompt-engineer",
       "prompt-optimizer",
       "receiving-code-review",
-      "remotion-video-creator",
+      "remotion",
       "requesting-code-review",
       "skill-arena",
       "skill-creator",
@@ -307,6 +388,7 @@
       "test-driven-development",
       "theme-factory",
       "tool-design",
+      "ui-ux-pro-max-skill",
       "using-git-worktrees",
       "using-superpowers",
       "verification-before-completion",
@@ -340,6 +422,7 @@
       "caveman-commit",
       "caveman-help",
       "caveman-review",
+      "compress",
       "stripe-best-practices",
       "business-growth-skills",
       "c-level-advisor",
@@ -437,16 +520,23 @@
       "huashu-video-outline",
       "huashu-wechat-image",
       "huashu-xhs-image",
+      "hv-analysis",
+      "khazix-writer",
       "ab-test-setup",
       "ad-creative",
       "ai-seo",
       "analytics-tracking",
+      "aso-audit",
       "churn-prevention",
       "cold-email",
+      "community-marketing",
       "competitor-alternatives",
+      "competitor-profiling",
       "content-strategy",
       "copy-editing",
       "copywriting",
+      "customer-research",
+      "directory-submissions",
       "email-sequence",
       "form-cro",
       "free-tool-strategy",
@@ -471,6 +561,7 @@
       "site-architecture",
       "social-content",
       "huashu-nuwa",
+      "videocut-高清化",
       "web-access"
     ]
   },
@@ -548,6 +639,36 @@
       }
     },
     {
+      "id": "awesome-design-md",
+      "name": "awesome-design-md",
+      "description": "Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Triggers when user asks to \"make it look like [brand]\", \"use [brand] design style\", \"add DESIGN.md\", or \"apply [brand] theme\". Supports 68 brands including Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, and more.",
+      "version": "1.0.0",
+      "tags": [
+        "design",
+        "ui",
+        "branding",
+        "frontend",
+        "css",
+        "theming"
+      ],
+      "path": "./community/awesome-design-md",
+      "source": "owned",
+      "source_dir": "community",
+      "arena": {
+        "rank": 1,
+        "category": "design-system",
+        "score": 88,
+        "scores": {
+          "relevance": 90,
+          "quality": 87,
+          "completeness": 88
+        },
+        "is_winner": true,
+        "test_date": "2026-04-16",
+        "test_version": "1.1.0"
+      }
+    },
+    {
       "id": "bdi-mental-states",
       "name": "bdi-mental-states",
       "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
@@ -574,9 +695,14 @@
     {
       "id": "blessing-styles",
       "name": "blessing-styles",
-      "description": "",
+      "description": "祝福语文案技能 - 生成传统/幽默/诗意/现代/温馨5种风格的个性化新年祝福语",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "copywriting",
+        "new-year",
+        "blessing",
+        "chinese"
+      ],
       "path": "./community/blessing-styles",
       "source": "owned",
       "source_dir": "community",
@@ -982,9 +1108,16 @@
     {
       "id": "face-beautification",
       "name": "face-beautification",
-      "description": "",
+      "description": "端到端AI新年祝福照片生成系统，含美颜策略（年龄/性别/肤色维度）、Prompt生成、质量审核",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "image",
+        "face",
+        "beauty",
+        "photo",
+        "new-year",
+        "ai"
+      ],
       "path": "./community/face-beautification",
       "source": "owned",
       "source_dir": "community",
@@ -1188,21 +1321,7 @@
       "tags": [],
       "path": "./community/gstack",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 61,
-        "category": "other",
-        "score": 73.52,
-        "scores": {
-          "speed": 14.02,
-          "quality": 50.0,
-          "maintainability": 9.5,
-          "total": 73.52
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "hosted-agents",
@@ -1255,9 +1374,14 @@
     {
       "id": "image-analyzer",
       "name": "image-analyzer",
-      "description": "",
+      "description": "图片分析技能 - 提取人物性别/年龄/面部特征/发型/穿着等多维度信息",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "image",
+        "analysis",
+        "face",
+        "feature-extraction"
+      ],
       "path": "./community/image-analyzer",
       "source": "owned",
       "source_dir": "community",
@@ -1279,9 +1403,14 @@
     {
       "id": "image-auditor",
       "name": "image-auditor",
-      "description": "",
+      "description": "图片审核技能 - 确保上传图片包含清晰人物且内容适合生成新年祝福照片",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "image",
+        "audit",
+        "moderation",
+        "safety"
+      ],
       "path": "./community/image-auditor",
       "source": "owned",
       "source_dir": "community",
@@ -1303,9 +1432,14 @@
     {
       "id": "image-reviewer",
       "name": "image-reviewer",
-      "description": "",
+      "description": "图片质量审核技能 - 审核AI生成的图片是否符合主题、无畸变、质量达标",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "image",
+        "review",
+        "quality",
+        "ai-generated"
+      ],
       "path": "./community/image-reviewer",
       "source": "owned",
       "source_dir": "community",
@@ -1370,6 +1504,25 @@
         "is_winner": false,
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "karpathy-guidelines",
+      "name": "karpathy-guidelines",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria. Derived from Andrej Karpathy's observations.",
+      "version": "1.0.0",
+      "tags": [
+        "coding",
+        "guidelines",
+        "best-practices",
+        "karpathy",
+        "engineering"
+      ],
+      "path": "./community/karpathy-guidelines",
+      "source": "owned",
+      "source_dir": "community",
+      "arena": {
+        "category": "community"
       }
     },
     {
@@ -1524,26 +1677,12 @@
     {
       "id": "planning-with-files",
       "name": "planning-with-files",
-      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
+      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
       "version": "1.0.0",
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 20,
-        "category": "eng-devops",
-        "score": 58.97,
-        "scores": {
-          "speed": 6.97,
-          "quality": 45.0,
-          "maintainability": 7.0,
-          "total": 58.97
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "planning-with-files-ar",
@@ -1553,21 +1692,7 @@
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files-ar",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 25,
-        "category": "eng-devops",
-        "score": 45.34,
-        "scores": {
-          "speed": 7.34,
-          "quality": 25.0,
-          "maintainability": 13.0,
-          "total": 45.34
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "planning-with-files-de",
@@ -1577,21 +1702,7 @@
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files-de",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 14,
-        "category": "eng-devops",
-        "score": 67.02,
-        "scores": {
-          "speed": 7.02,
-          "quality": 45.0,
-          "maintainability": 15.0,
-          "total": 67.02
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "planning-with-files-es",
@@ -1601,21 +1712,7 @@
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files-es",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 27,
-        "category": "eng-devops",
-        "score": 35.08,
-        "scores": {
-          "speed": 5.58,
-          "quality": 25.0,
-          "maintainability": 4.5,
-          "total": 35.08
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "planning-with-files-zh",
@@ -1625,21 +1722,7 @@
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files-zh",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 22,
-        "category": "eng-devops",
-        "score": 48.67,
-        "scores": {
-          "speed": 6.67,
-          "quality": 25.0,
-          "maintainability": 17.0,
-          "total": 48.67
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "planning-with-files-zht",
@@ -1649,21 +1732,7 @@
       "tags": [],
       "path": "./community/planning-with-files/skills/planning-with-files-zht",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 15,
-        "category": "eng-devops",
-        "score": 67.01,
-        "scores": {
-          "speed": 8.01,
-          "quality": 45.0,
-          "maintainability": 14.0,
-          "total": 67.01
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "pptx",
@@ -1790,10 +1859,10 @@
       }
     },
     {
-      "id": "remotion-video-creator",
-      "name": "Remotion Video Creator",
-      "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
-      "version": "1.0.0",
+      "id": "remotion",
+      "name": "remotion",
+      "description": "使用 React 和 Remotion 框架创建程序化视频 (Programmatic video creation with React). Generate animations, effects, data-driven personalized videos, and render to MP4/WebM/GIF. Trigger when the user mentions Remotion, programmatic video, React-based video, useCurrentFrame, interpolate, spring, Sequence, or wants to render a video from code.",
+      "version": "2.0.0",
       "tags": [
         "video",
         "react",
@@ -1802,23 +1871,9 @@
         "creative",
         "automation"
       ],
-      "path": "./community/remotion-video",
+      "path": "./community/remotion",
       "source": "owned",
-      "source_dir": "community",
-      "arena": {
-        "rank": 9,
-        "category": "video-editing",
-        "score": 68.47,
-        "scores": {
-          "speed": 11.97,
-          "quality": 50.0,
-          "maintainability": 6.5,
-          "total": 68.47
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "community"
     },
     {
       "id": "requesting-code-review",
@@ -2172,6 +2227,16 @@
         "test_date": "2026-03-09",
         "test_version": "1.0.0"
       }
+    },
+    {
+      "id": "ui-ux-pro-max-skill",
+      "name": "ui-ux-pro-max-skill",
+      "description": "Skill wrapper for ui-ux-pro-max-skill. Generated from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.",
+      "version": "0.1.0",
+      "tags": [],
+      "path": "./community/ui-ux-pro-max-skill",
+      "source": "owned",
+      "source_dir": "community"
     },
     {
       "id": "using-git-worktrees",
@@ -2709,21 +2774,7 @@
       "tags": [],
       "path": "./external/anthropic-skills/template",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 127,
-        "category": "other",
-        "score": 30.92,
-        "scores": {
-          "speed": 1.42,
-          "quality": 25.0,
-          "maintainability": 4.5,
-          "total": 30.92
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "caveman-compress",
@@ -2733,21 +2784,7 @@
       "tags": [],
       "path": "./external/caveman/caveman-compress",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 48,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "caveman-commit",
@@ -2757,21 +2794,7 @@
       "tags": [],
       "path": "./external/caveman/skills/caveman-commit",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 14,
-        "category": "other",
-        "score": 80.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 0.0,
-          "total": 80.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "caveman-help",
@@ -2781,21 +2804,7 @@
       "tags": [],
       "path": "./external/caveman/skills/caveman-help",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 100,
-        "category": "other",
-        "score": 59.98,
-        "scores": {
-          "speed": 14.98,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 59.98
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "caveman-review",
@@ -2805,21 +2814,17 @@
       "tags": [],
       "path": "./external/caveman/skills/caveman-review",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 8,
-        "category": "eng-code-quality",
-        "score": 63.34,
-        "scores": {
-          "speed": 13.34,
-          "quality": 50.0,
-          "maintainability": 0.0,
-          "total": 63.34
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
+    },
+    {
+      "id": "compress",
+      "name": "compress",
+      "description": "Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md. Trigger: /caveman:compress <filepath> or \"compress memory file\"",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/caveman/skills/compress",
+      "source": "external",
+      "source_dir": "external"
     },
     {
       "id": "stripe-best-practices",
@@ -2859,21 +2864,7 @@
       ],
       "path": "./external/claude-skills/business-growth",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "marketing-growth",
-        "score": 59.66,
-        "scores": {
-          "speed": 28.16,
-          "quality": 25.0,
-          "maintainability": 6.5,
-          "total": 59.66
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "c-level-advisor",
@@ -2883,21 +2874,7 @@
       "tags": [],
       "path": "./external/claude-skills/c-level-advisor",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "business-strategy",
-        "score": 58.03,
-        "scores": {
-          "speed": 0.03,
-          "quality": 50.0,
-          "maintainability": 8.0,
-          "total": 58.03
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "engineering-advanced-skills",
@@ -2915,21 +2892,7 @@
       ],
       "path": "./external/claude-skills/engineering",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 11,
-        "category": "eng-architecture",
-        "score": 65.5,
-        "scores": {
-          "speed": 12.5,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 65.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "engineering-skills",
@@ -2947,21 +2910,7 @@
       ],
       "path": "./external/claude-skills/engineering-team",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 9,
-        "category": "eng-devops",
-        "score": 70.41,
-        "scores": {
-          "speed": 17.41,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 70.41
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "finance-skills",
@@ -2977,21 +2926,7 @@
       ],
       "path": "./external/claude-skills/finance",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "business-finance",
-        "score": 64.26,
-        "scores": {
-          "speed": 11.26,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 64.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "marketing-skills",
@@ -3009,21 +2944,7 @@
       ],
       "path": "./external/claude-skills/marketing-skill",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "content-copywriting",
-        "score": 71.34,
-        "scores": {
-          "speed": 7.84,
-          "quality": 49.0,
-          "maintainability": 14.5,
-          "total": 71.34
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "product-skills",
@@ -3040,21 +2961,7 @@
       ],
       "path": "./external/claude-skills/product-team",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "product-ux",
-        "score": 69.45,
-        "scores": {
-          "speed": 13.45,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 69.45
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "pm-skills",
@@ -3071,21 +2978,7 @@
       ],
       "path": "./external/claude-skills/project-management",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 21,
-        "category": "compliance-ra",
-        "score": 47.92,
-        "scores": {
-          "speed": 6.92,
-          "quality": 25.0,
-          "maintainability": 16.0,
-          "total": 47.92
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "ra-qm-skills",
@@ -3103,21 +2996,7 @@
       ],
       "path": "./external/claude-skills/ra-qm-team",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "compliance-ra",
-        "score": 74.76,
-        "scores": {
-          "speed": 24.76,
-          "quality": 45.0,
-          "maintainability": 5.0,
-          "total": 74.76
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "context-engineering-collection",
@@ -3127,21 +3006,7 @@
       "tags": [],
       "path": "./external/context-engineering-skills",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "agent-context",
-        "score": 63.9,
-        "scores": {
-          "speed": 6.4,
-          "quality": 45.0,
-          "maintainability": 12.5,
-          "total": 63.9
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "angular-architect",
@@ -4711,21 +4576,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-agent-swarm",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 28,
-        "category": "other",
-        "score": 77.72,
-        "scores": {
-          "speed": 29.22,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 77.72
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-article-edit",
@@ -4735,21 +4586,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-article-edit",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 22,
-        "category": "other",
-        "score": 78.61,
-        "scores": {
-          "speed": 27.11,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 78.61
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-article-to-x",
@@ -4759,21 +4596,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-article-to-x",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 115,
-        "category": "other",
-        "score": 52.23,
-        "scores": {
-          "speed": 1.23,
-          "quality": 50.0,
-          "maintainability": 1.0,
-          "total": 52.23
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-data-pro",
@@ -4783,21 +4606,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-data-pro",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 10,
-        "category": "data-analysis",
-        "score": 55.71,
-        "scores": {
-          "speed": 2.71,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 55.71
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-design",
@@ -4807,21 +4616,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-design",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 19,
-        "category": "eng-architecture",
-        "score": 57.3,
-        "scores": {
-          "speed": 8.8,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 57.3
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-douyin-script",
@@ -4831,21 +4626,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-douyin-script",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 23,
-        "category": "other",
-        "score": 78.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 78.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-image-upload",
@@ -4855,21 +4636,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-image-upload",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 7,
-        "category": "video-media",
-        "score": 55.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 25.0,
-          "maintainability": 0.0,
-          "total": 55.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-info-search",
@@ -4879,21 +4646,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-info-search",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 70,
-        "category": "other",
-        "score": 71.48,
-        "scores": {
-          "speed": 17.98,
-          "quality": 50.0,
-          "maintainability": 3.5,
-          "total": 71.48
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-material-search",
@@ -4903,21 +4656,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-material-search",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 103,
-        "category": "other",
-        "score": 59.5,
-        "scores": {
-          "speed": 1.0,
-          "quality": 50.0,
-          "maintainability": 8.5,
-          "total": 59.5
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-md-to-pdf",
@@ -4927,21 +4666,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-md-to-pdf",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "data-docs",
-        "score": 72.95,
-        "scores": {
-          "speed": 7.95,
-          "quality": 50.0,
-          "maintainability": 15.0,
-          "total": 72.95
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-prompt-save",
@@ -4951,21 +4676,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-prompt-save",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 49,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-proofreading",
@@ -4975,21 +4686,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-proofreading",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 81,
-        "category": "other",
-        "score": 67.43,
-        "scores": {
-          "speed": 10.43,
-          "quality": 50.0,
-          "maintainability": 7.0,
-          "total": 67.43
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-research",
@@ -4999,21 +4696,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-research",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 37,
-        "category": "product-discovery",
-        "score": 45.88,
-        "scores": {
-          "speed": 5.88,
-          "quality": 25.0,
-          "maintainability": 15.0,
-          "total": 45.88
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-script-polish",
@@ -5023,21 +4706,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-script-polish",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 21,
-        "category": "other",
-        "score": 78.67,
-        "scores": {
-          "speed": 26.17,
-          "quality": 49.0,
-          "maintainability": 3.5,
-          "total": 78.67
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-slides",
@@ -5047,21 +4716,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-slides",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 50,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-speech-coach",
@@ -5071,21 +4726,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-speech-coach",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 74,
-        "category": "other",
-        "score": 70.74,
-        "scores": {
-          "speed": 19.24,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 70.74
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-topic-gen",
@@ -5095,21 +4736,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-topic-gen",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 51,
-        "category": "other",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-video-check",
@@ -5119,21 +4746,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-video-check",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 16,
-        "category": "video-editing",
-        "score": 47.86,
-        "scores": {
-          "speed": 19.36,
-          "quality": 25.0,
-          "maintainability": 3.5,
-          "total": 47.86
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-video-outline",
@@ -5143,21 +4756,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-video-outline",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 10,
-        "category": "video-editing",
-        "score": 68.42,
-        "scores": {
-          "speed": 5.42,
-          "quality": 50.0,
-          "maintainability": 13.0,
-          "total": 68.42
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-wechat-image",
@@ -5167,21 +4766,7 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-wechat-image",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "video-media",
-        "score": 75.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 0.0,
-          "total": 75.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "huashu-xhs-image",
@@ -5191,1149 +4776,17 @@
       "tags": [],
       "path": "./external/huashu-skills/huashu-xhs-image",
       "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "video-media",
-        "score": 80.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 50.0,
-          "maintainability": 0.0,
-          "total": 80.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "ab-test-setup",
-      "name": "ab-test-setup",
-      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" or \"how long should I run this test.\" Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ab-test-setup",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 14,
-        "category": "eng-testing",
-        "score": 53.56,
-        "scores": {
-          "speed": 0.56,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 53.56
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "ad-creative",
-      "name": "ad-creative",
-      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ad-creative",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 9,
-        "category": "product-discovery",
-        "score": 73.89,
-        "scores": {
-          "speed": 19.39,
-          "quality": 48.0,
-          "maintainability": 6.5,
-          "total": 73.89
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "ai-seo",
-      "name": "ai-seo",
-      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/ai-seo",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "seo-content",
-        "score": 68.11,
-        "scores": {
-          "speed": 14.11,
-          "quality": 45.0,
-          "maintainability": 9.0,
-          "total": 68.11
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "analytics-tracking",
-      "name": "analytics-tracking",
-      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/analytics-tracking",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "marketing-analytics",
-        "score": 70.85,
-        "scores": {
-          "speed": 19.35,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 70.85
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "churn-prevention",
-      "name": "churn-prevention",
-      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/churn-prevention",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 6,
-        "category": "product-discovery",
-        "score": 78.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 45.0,
-          "maintainability": 3.0,
-          "total": 78.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "cold-email",
-      "name": "cold-email",
-      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/cold-email",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "sales-outreach",
-        "score": 72.28,
-        "scores": {
-          "speed": 23.78,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 72.28
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "competitor-alternatives",
-      "name": "competitor-alternatives",
-      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/competitor-alternatives",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 30,
-        "category": "product-discovery",
-        "score": 60.15,
-        "scores": {
-          "speed": 5.15,
-          "quality": 45.0,
-          "maintainability": 10.0,
-          "total": 60.15
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "content-strategy",
-      "name": "content-strategy",
-      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/content-strategy",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "content-strategy",
-        "score": 72.36,
-        "scores": {
-          "speed": 16.36,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 72.36
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "copy-editing",
-      "name": "copy-editing",
-      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/copy-editing",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "content-copywriting",
-        "score": 72.54,
-        "scores": {
-          "speed": 8.54,
-          "quality": 50.0,
-          "maintainability": 14.0,
-          "total": 72.54
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "copywriting",
-      "name": "copywriting",
-      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/copywriting",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "content-copywriting",
-        "score": 75.27,
-        "scores": {
-          "speed": 19.27,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 75.27
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "email-sequence",
-      "name": "email-sequence",
-      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/email-sequence",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "content-email",
-        "score": 75.89,
-        "scores": {
-          "speed": 19.39,
-          "quality": 50.0,
-          "maintainability": 6.5,
-          "total": 75.89
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "form-cro",
-      "name": "form-cro",
-      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/form-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 3,
-        "category": "cro-form",
-        "score": 70.65,
-        "scores": {
-          "speed": 12.15,
-          "quality": 47.5,
-          "maintainability": 11.0,
-          "total": 70.65
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "free-tool-strategy",
-      "name": "free-tool-strategy",
-      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/free-tool-strategy",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "marketing-growth",
-        "score": 76.26,
-        "scores": {
-          "speed": 23.26,
-          "quality": 45.0,
-          "maintainability": 8.0,
-          "total": 76.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "launch-strategy",
-      "name": "launch-strategy",
-      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/launch-strategy",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "eng-devops",
-        "score": 72.06,
-        "scores": {
-          "speed": 20.56,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 72.06
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "lead-magnets",
-      "name": "lead-magnets",
-      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/lead-magnets",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "content-email",
-        "score": 79.56,
-        "scores": {
-          "speed": 21.06,
-          "quality": 47.5,
-          "maintainability": 11.0,
-          "total": 79.56
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "marketing-ideas",
-      "name": "marketing-ideas",
-      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/marketing-ideas",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 32,
-        "category": "product-discovery",
-        "score": 58.43,
-        "scores": {
-          "speed": 26.93,
-          "quality": 25.0,
-          "maintainability": 6.5,
-          "total": 58.43
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "marketing-psychology",
-      "name": "marketing-psychology",
-      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/marketing-psychology",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 24,
-        "category": "product-discovery",
-        "score": 62.45,
-        "scores": {
-          "speed": 4.45,
-          "quality": 45.0,
-          "maintainability": 13.0,
-          "total": 62.45
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "onboarding-cro",
-      "name": "onboarding-cro",
-      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/onboarding-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "cro-funnel",
-        "score": 59.94,
-        "scores": {
-          "speed": 3.94,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 59.94
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "page-cro",
-      "name": "page-cro",
-      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/page-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "cro-landing",
-        "score": 79.0,
-        "scores": {
-          "speed": 24.5,
-          "quality": 45.0,
-          "maintainability": 9.5,
-          "total": 79.0
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "paid-ads",
-      "name": "paid-ads",
-      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/paid-ads",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "marketing-paid",
-        "score": 83.4,
-        "scores": {
-          "speed": 27.4,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 83.4
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "paywall-upgrade-cro",
-      "name": "paywall-upgrade-cro",
-      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/paywall-upgrade-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "cro-funnel",
-        "score": 38.09,
-        "scores": {
-          "speed": 2.09,
-          "quality": 25.0,
-          "maintainability": 11.0,
-          "total": 38.09
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "popup-cro",
-      "name": "popup-cro",
-      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/popup-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 4,
-        "category": "cro-landing",
-        "score": 59.26,
-        "scores": {
-          "speed": 2.26,
-          "quality": 45.0,
-          "maintainability": 12.0,
-          "total": 59.26
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "pricing-strategy",
-      "name": "pricing-strategy",
-      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/pricing-strategy",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 35,
-        "category": "product-discovery",
-        "score": 48.69,
-        "scores": {
-          "speed": 20.19,
-          "quality": 25.0,
-          "maintainability": 3.5,
-          "total": 48.69
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "product-marketing-context",
-      "name": "product-marketing-context",
-      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/product-marketing-context",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 15,
-        "category": "product-discovery",
-        "score": 70.08,
-        "scores": {
-          "speed": 13.58,
-          "quality": 45.0,
-          "maintainability": 11.5,
-          "total": 70.08
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "programmatic-seo",
-      "name": "programmatic-seo",
-      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/programmatic-seo",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "seo-content",
-        "score": 75.21,
-        "scores": {
-          "speed": 19.21,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 75.21
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "referral-program",
-      "name": "referral-program",
-      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/referral-program",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "marketing-growth",
-        "score": 80.03,
-        "scores": {
-          "speed": 24.03,
-          "quality": 45.0,
-          "maintainability": 11.0,
-          "total": 80.03
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "revops",
-      "name": "revops",
-      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/revops",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 2,
-        "category": "sales-enablement",
-        "score": 25.62,
-        "scores": {
-          "speed": 0.62,
-          "quality": 25.0,
-          "maintainability": 0.0,
-          "total": 25.62
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "sales-enablement",
-      "name": "sales-enablement",
-      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/sales-enablement",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 16,
-        "category": "product-discovery",
-        "score": 69.74,
-        "scores": {
-          "speed": 9.74,
-          "quality": 50.0,
-          "maintainability": 10.0,
-          "total": 69.74
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "schema-markup",
-      "name": "schema-markup",
-      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/schema-markup",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 1,
-        "category": "seo-technical",
-        "score": 45.18,
-        "scores": {
-          "speed": 13.68,
-          "quality": 25.0,
-          "maintainability": 6.5,
-          "total": 45.18
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "seo-audit",
-      "name": "seo-audit",
-      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/seo-audit",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 26,
-        "category": "product-discovery",
-        "score": 62.2,
-        "scores": {
-          "speed": 1.2,
-          "quality": 50.0,
-          "maintainability": 11.0,
-          "total": 62.2
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "signup-flow-cro",
-      "name": "signup-flow-cro",
-      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/signup-flow-cro",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "cro-form",
-        "score": 65.08,
-        "scores": {
-          "speed": 4.08,
-          "quality": 50.0,
-          "maintainability": 11.0,
-          "total": 65.08
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "site-architecture",
-      "name": "site-architecture",
-      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/site-architecture",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 18,
-        "category": "eng-architecture",
-        "score": 61.75,
-        "scores": {
-          "speed": 12.25,
-          "quality": 45.0,
-          "maintainability": 4.5,
-          "total": 61.75
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "social-content",
-      "name": "social-content",
-      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/social-content",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 5,
-        "category": "content-social",
-        "score": 64.1,
-        "scores": {
-          "speed": 6.1,
-          "quality": 45.0,
-          "maintainability": 13.0,
-          "total": 64.1
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "huashu-nuwa",
-      "name": "huashu-nuwa",
-      "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。\n两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。\n触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。\n模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/nuwa-skill",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 89,
-        "category": "other",
-        "score": 63.96,
-        "scores": {
-          "speed": 12.46,
-          "quality": 45.0,
-          "maintainability": 6.5,
-          "total": 63.96
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "web-access",
-      "name": "web-access",
-      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/web-access",
-      "source": "external",
-      "source_dir": "external",
-      "arena": {
-        "rank": 107,
-        "category": "other",
-        "score": 57.12,
-        "scores": {
-          "speed": 8.62,
-          "quality": 45.0,
-          "maintainability": 3.5,
-          "total": 57.12
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "claude-opus-4-5-migration",
-      "name": "claude-opus-4-5-migration",
-      "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "eng-devops",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "frontend-design-claude-code",
-      "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/frontend-design/skills/frontend-design",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-ux",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "writing-hookify-rules",
-      "name": "Writing Hookify Rules",
-      "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns.",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/hookify/skills/writing-rules",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "agent-development",
-      "name": "Agent Development",
-      "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or ",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/agent-development",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "agent-workflow",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "command-development",
-      "name": "Command Development",
-      "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs gu",
-      "version": "0.2.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/command-development",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 50,
-        "scores": {
-          "quality": 22.5,
-          "speed": 6.0,
-          "maintainability": 5.0,
-          "total": 50
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "hook-development",
-      "name": "Hook Development",
-      "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse,",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/hook-development",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "eng-devops",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "mcp-integration",
-      "name": "MCP Integration",
-      "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/mcp-integration",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "devops-mcp",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "plugin-settings",
-      "name": "Plugin Settings",
-      "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-settings",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "plugin-structure",
-      "name": "Plugin Structure",
-      "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin director",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/plugin-structure",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "skill-development",
-      "name": "Skill Development",
-      "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
-      "version": "0.1.0",
-      "tags": [],
-      "path": "./external/claude-code/plugins/plugin-dev/skills/skill-development",
-      "source": "external",
-      "source_dir": "claude-code",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 60,
-        "scores": {
-          "quality": 27.0,
-          "speed": 7.2,
-          "maintainability": 6.0,
-          "total": 60
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "github-to-skills-khazix",
-      "name": "github-to-skills",
-      "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill struc",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/khazix-skills/github-to-skills",
-      "source": "external",
-      "source_dir": "khazix-skills",
-      "arena": {
-        "rank": 99,
-        "category": "eng-devops",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "hv-analysis",
       "name": "hv-analysis",
-      "description": "横纵分析法（Horizontal-Vertical Analysis）深度研究Skill。由数字生命卡兹克提出，融合了索绪尔的历时-共时分析、社会科学的纵向-横截面研究设计、商学院案例研究法与竞争战略分析的核心思想。\n当用户想要系统性研究一个产品、公司、概念、技术或人物时使用。核心是双轴分析：纵轴追踪从诞生到当下的完整生命历程（以叙事故事呈现），横轴在当下时间截面上与竞品/同类进行系统性横向对比，最后交叉两条轴产出独到洞察。最终产出一份排版精美的PDF研究报告。\n触发词包括但不限于：横纵分析、研究一下、帮我分析、深度研究、做个研究、调研一下、竞品分析、帮我看看这个东西怎么样、这个产品/公司/概",
+      "description": "横纵分析法（Horizontal-Vertical Analysis）深度研究Skill。由数字生命卡兹克提出，融合了索绪尔的历时-共时分析、社会科学的纵向-横截面研究设计、商学院案例研究法与竞争战略分析的核心思想。\n当用户想要系统性研究一个产品、公司、概念、技术或人物时使用。核心是双轴分析：纵轴追踪从诞生到当下的完整生命历程（以叙事故事呈现），横轴在当下时间截面上与竞品/同类进行系统性横向对比，最后交叉两条轴产出独到洞察。最终产出一份排版精美的PDF研究报告。\n触发词包括但不限于：横纵分析、研究一下、帮我分析、深度研究、做个研究、调研一下、竞品分析、帮我看看这个东西怎么样、这个产品/公司/概念是怎么回事、帮我摸清楚、帮我搞懂、帮我做个deep research。\n即使用户只是说\"帮我了解一下XX\"或\"XX是什么来头\"，只要上下文暗示需要系统性的深度研究（而非简单的概念解释），都应该触发。也适用于用户丢来一个产品名、公司名、技术名词说\"帮我研究一下这个\"的场景。\n不要用于简单的名词解释（用户只是问\"XX是什么\"）、不要用于公众号写作（那个用khazix-writer）、不要用于纯标题摘要生成（用wechat-title）。",
       "version": "1.0.0",
       "tags": [],
       "path": "./external/khazix-skills/hv-analysis",
       "source": "external",
-      "source_dir": "khazix-skills",
-      "arena": {
-        "rank": 99,
-        "category": "data-analysis",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
       "id": "khazix-writer",
@@ -6343,341 +4796,417 @@
       "tags": [],
       "path": "./external/khazix-skills/khazix-writer",
       "source": "external",
-      "source_dir": "khazix-skills",
-      "arena": {
-        "rank": 99,
-        "category": "content-copywriting",
-        "score": 90,
-        "scores": {
-          "quality": 40.5,
-          "speed": 10.8,
-          "maintainability": 9.0,
-          "total": 90
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "skill-evolution-manager-khazix",
-      "name": "Skill Evolution Manager",
-      "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
+      "id": "ab-test-setup",
+      "name": "ab-test-setup",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/khazix-skills/skill-evolution-manager",
+      "path": "./external/marketingskills/skills/ab-test-setup",
       "source": "external",
-      "source_dir": "khazix-skills",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "skill-manager-khazix",
-      "name": "skill-manager",
-      "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
+      "id": "ad-creative",
+      "name": "ad-creative",
+      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/khazix-skills/skill-manager",
+      "path": "./external/marketingskills/skills/ad-creative",
       "source": "external",
-      "source_dir": "khazix-skills",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "media-downloader-yt-dlp",
-      "name": "Media Downloader",
-      "description": "使用 yt-dlp 下载网络视频/音频，涵盖 YouTube、Bilibili 等主流平台，处理认证、格式选择、合并等完整流程",
-      "version": "1.0.0",
-      "tags": [
-        "yt-dlp",
-        "youtube",
-        "bilibili",
-        "ffmpeg",
-        "media",
-        "download"
-      ],
-      "path": "./external/media-downloader",
-      "source": "external",
-      "source_dir": "media-downloader",
-      "arena": {
-        "rank": 99,
-        "category": "video-media",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "videocut:剪口播",
-      "name": "videocut:剪口播",
-      "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+      "id": "ai-seo",
+      "name": "ai-seo",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/videocut-skills/剪口播",
+      "path": "./external/marketingskills/skills/ai-seo",
       "source": "external",
-      "source_dir": "videocut-skills",
-      "arena": {
-        "rank": 99,
-        "category": "video-editing",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "videocut:字幕",
-      "name": "videocut:字幕",
-      "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+      "id": "analytics-tracking",
+      "name": "analytics-tracking",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/videocut-skills/字幕",
+      "path": "./external/marketingskills/skills/analytics-tracking",
       "source": "external",
-      "source_dir": "videocut-skills",
-      "arena": {
-        "rank": 99,
-        "category": "video-editing",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "videocut:安装",
-      "name": "videocut:安装",
-      "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
+      "id": "aso-audit",
+      "name": "aso-audit",
+      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/videocut-skills/安装",
+      "path": "./external/marketingskills/skills/aso-audit",
       "source": "external",
-      "source_dir": "videocut-skills",
-      "arena": {
-        "rank": 99,
-        "category": "eng-devops",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "videocut:自进化",
-      "name": "videocut:自进化",
-      "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+      "id": "churn-prevention",
+      "name": "churn-prevention",
+      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/videocut-skills/自进化",
+      "path": "./external/marketingskills/skills/churn-prevention",
       "source": "external",
-      "source_dir": "videocut-skills",
-      "arena": {
-        "rank": 99,
-        "category": "product-discovery",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "videocut:高清化",
+      "id": "cold-email",
+      "name": "cold-email",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/cold-email",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "community-marketing",
+      "name": "community-marketing",
+      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/community-marketing",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "competitor-alternatives",
+      "name": "competitor-alternatives",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/competitor-alternatives",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "competitor-profiling",
+      "name": "competitor-profiling",
+      "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitor-alternatives. For sales-specific battle cards, see sales-enablement.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/competitor-profiling",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "content-strategy",
+      "name": "content-strategy",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/content-strategy",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "copy-editing",
+      "name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/copy-editing",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "copywriting",
+      "name": "copywriting",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/copywriting",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "customer-research",
+      "name": "customer-research",
+      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/customer-research",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "directory-submissions",
+      "name": "directory-submissions",
+      "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch-strategy. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/directory-submissions",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "email-sequence",
+      "name": "email-sequence",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/email-sequence",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "form-cro",
+      "name": "form-cro",
+      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/form-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "free-tool-strategy",
+      "name": "free-tool-strategy",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/free-tool-strategy",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "launch-strategy",
+      "name": "launch-strategy",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/launch-strategy",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "lead-magnets",
+      "name": "lead-magnets",
+      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/lead-magnets",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "marketing-ideas",
+      "name": "marketing-ideas",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/marketing-ideas",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "marketing-psychology",
+      "name": "marketing-psychology",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/marketing-psychology",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "onboarding-cro",
+      "name": "onboarding-cro",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/onboarding-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "page-cro",
+      "name": "page-cro",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/page-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "paid-ads",
+      "name": "paid-ads",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/paid-ads",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "paywall-upgrade-cro",
+      "name": "paywall-upgrade-cro",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/paywall-upgrade-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "popup-cro",
+      "name": "popup-cro",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/popup-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "pricing-strategy",
+      "name": "pricing-strategy",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/pricing-strategy",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "product-marketing-context",
+      "name": "product-marketing-context",
+      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/product-marketing-context",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "programmatic-seo",
+      "name": "programmatic-seo",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/programmatic-seo",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "referral-program",
+      "name": "referral-program",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/referral-program",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "revops",
+      "name": "revops",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/revops",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "sales-enablement",
+      "name": "sales-enablement",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/sales-enablement",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "schema-markup",
+      "name": "schema-markup",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/schema-markup",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "seo-audit",
+      "name": "seo-audit",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/seo-audit",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "signup-flow-cro",
+      "name": "signup-flow-cro",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/signup-flow-cro",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "site-architecture",
+      "name": "site-architecture",
+      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/site-architecture",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "social-content",
+      "name": "social-content",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/marketingskills/skills/social-content",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "huashu-nuwa",
+      "name": "huashu-nuwa",
+      "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。\n两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。\n触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。\n模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。",
+      "version": "1.0.0",
+      "tags": [],
+      "path": "./external/nuwa-skill",
+      "source": "external",
+      "source_dir": "external"
+    },
+    {
+      "id": "videocut-高清化",
       "name": "videocut:高清化",
       "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
       "version": "1.0.0",
       "tags": [],
       "path": "./external/videocut-skills/高清化",
       "source": "external",
-      "source_dir": "videocut-skills",
-      "arena": {
-        "rank": 99,
-        "category": "video-editing",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
+      "source_dir": "external"
     },
     {
-      "id": "aso-audit",
-      "name": "aso-audit",
-      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app c",
+      "id": "web-access",
+      "name": "web-access",
+      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
       "version": "1.0.0",
       "tags": [],
-      "path": "./external/marketingskills/skills/aso-audit",
+      "path": "./external/web-access",
       "source": "external",
-      "source_dir": "marketingskills",
-      "arena": {
-        "rank": 99,
-        "category": "seo-technical",
-        "score": 70,
-        "scores": {
-          "quality": 31.5,
-          "speed": 8.4,
-          "maintainability": 7.0,
-          "total": 70
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "community-marketing",
-      "name": "community-marketing",
-      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/community-marketing",
-      "source": "external",
-      "source_dir": "marketingskills",
-      "arena": {
-        "rank": 99,
-        "category": "marketing-growth",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "customer-research",
-      "name": "customer-research",
-      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"cu",
-      "version": "1.0.0",
-      "tags": [],
-      "path": "./external/marketingskills/skills/customer-research",
-      "source": "external",
-      "source_dir": "marketingskills",
-      "arena": {
-        "rank": 99,
-        "category": "product-strategy",
-        "score": 80,
-        "scores": {
-          "quality": 36.0,
-          "speed": 9.6,
-          "maintainability": 8.0,
-          "total": 80
-        },
-        "is_winner": false,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "awesome-design-md",
-      "name": "awesome-design-md",
-      "description": "Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Supports 68 brands: Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, Cursor, Raycast, Claude, Coinbase, Tesla and more.",
-      "version": "1.0.0",
-      "tags": [
-        "design",
-        "ui",
-        "branding",
-        "frontend",
-        "css",
-        "theming"
-      ],
-      "path": "./community/awesome-design-md/SKILL.md",
-      "source": "community",
-      "source_dir": "community/awesome-design-md",
-      "arena": {
-        "rank": 1,
-        "category": "design-system",
-        "score": 88,
-        "scores": {
-          "relevance": 90,
-          "quality": 87,
-          "completeness": 88
-        },
-        "is_winner": true,
-        "test_date": "2026-04-16",
-        "test_version": "1.1.0"
-      }
-    },
-    {
-      "id": "karpathy-guidelines",
-      "name": "Karpathy Guidelines",
-      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "path": "community/karpathy-guidelines",
-      "tags": [
-        "coding",
-        "guidelines",
-        "best-practices",
-        "karpathy",
-        "engineering"
-      ],
-      "arena": {
-        "category": "community"
-      },
-      "github_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "github_hash": "c9a44ae835fa2f5765a697216692705761a53f40",
-      "version": "1.0.0"
+      "source_dir": "external"
     }
   ]
 }
