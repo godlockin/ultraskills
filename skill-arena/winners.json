@@ -1,17 +1,47 @@
 [
   {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "awesome-design-md",
+    "score": 10.0,
+    "runner_up": "aso-audit",
+    "total_contestants": 7,
+    "defeated": [
+      "aso-audit",
+      "competitor-profiling",
+      "directory-submissions",
+      "community-marketing",
+      "ui-ux-pro-max-skill"
+    ]
+  },
+  {
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "winner": "remotion",
+    "score": 9.7,
+    "runner_up": "video-content-strategist",
+    "total_contestants": 16,
+    "defeated": [
+      "video-content-strategist",
+      "\"demo-video\"",
+      "huashu-video-check",
+      "\"image-to-video\"",
+      "\"video-frame-extractor\""
+    ]
+  },
+  {
     "cluster": "engineering-code",
     "cluster_name": "工程·代码质量",
     "winner": "karpathy-coder",
     "score": 9.0,
     "runner_up": "\"adversarial-reviewer\"",
-    "total_contestants": 29,
+    "total_contestants": 30,
     "defeated": [
       "\"adversarial-reviewer\"",
       "digital-brain",
+      "karpathy-guidelines",
       "receiving-code-review",
-      "\"engineering-skills\"",
-      "\"a11y-audit\""
+      "\"engineering-skills\""
     ]
   },
   {
@@ -34,12 +64,12 @@
     "cluster_name": "工程·测试",
     "winner": "skill-arena",
     "score": 9.0,
-    "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 7,
+    "runner_up": "writing-hookify-rules",
+    "total_contestants": 8,
     "defeated": [
-      "gstack-openclaw-retro",
       "writing-hookify-rules",
       "test-case-templates",
+      "gstack-openclaw-retro",
       "\"tdd-guide\"",
       "test-driven-development"
     ]
@@ -138,13 +168,13 @@
     "winner": "\"copy-editing\"",
     "score": 8.8,
     "runner_up": "copy-editing",
-    "total_contestants": 11,
+    "total_contestants": 12,
     "defeated": [
       "copy-editing",
       "\"copywriting\"",
       "copywriting",
       "doc-coauthoring",
-      "internal-comms"
+      "blessing-styles"
     ]
   },
   {
@@ -295,6 +325,21 @@
     ]
   },
   {
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "winner": "customer-research",
+    "score": 8.3,
+    "runner_up": "\"autoresearch-agent\"",
+    "total_contestants": 16,
+    "defeated": [
+      "\"autoresearch-agent\"",
+      "autoresearch",
+      "autoresearch:execute",
+      "comprehensive-research-agent",
+      "huashu-material-search"
+    ]
+  },
+  {
     "cluster": "engineering-fullstack",
     "cluster_name": "工程·全栈工程师",
     "winner": "the-fool",
@@ -323,21 +368,6 @@
     ]
   },
   {
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "winner": "gstack-openclaw-ceo-review",
-    "score": 8.3,
-    "runner_up": "gstack-openclaw-office-hours",
-    "total_contestants": 32,
-    "defeated": [
-      "gstack-openclaw-office-hours",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "design-consultation",
-      "design-review"
-    ]
-  },
-  {
     "cluster": "skills-mgmt",
     "cluster_name": "Skills·管理",
     "winner": "command-development",
@@ -350,21 +380,6 @@
       "plugin-structure",
       "skill-creator",
       "example-skill"
-    ]
-  },
-  {
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "winner": "remotion-video-creator",
-    "score": 8.2,
-    "runner_up": "video-content-strategist",
-    "total_contestants": 15,
-    "defeated": [
-      "video-content-strategist",
-      "\"demo-video\"",
-      "huashu-video-check",
-      "\"image-to-video\"",
-      "\"video-frame-extractor\""
     ]
   },
   {
@@ -424,10 +439,9 @@
     "winner": "memory-systems",
     "score": 7.8,
     "runner_up": "project-development",
-    "total_contestants": 3,
+    "total_contestants": 2,
     "defeated": [
-      "project-development",
-      "checkpoint"
+      "project-development"
     ]
   },
   {
@@ -450,44 +464,14 @@
     "cluster_name": "内容·图像设计",
     "winner": "\"photography-expert-pro\"",
     "score": 7.8,
-    "runner_up": "algorithmic-art",
+    "runner_up": "face-beautification",
     "total_contestants": 11,
     "defeated": [
+      "face-beautification",
       "algorithmic-art",
       "\"visual-expert-pro-(gemini-3.0-edition)\"",
       "\"commercial-director-pro\"",
-      "huashu-design",
-      "huashu-image-upload"
-    ]
-  },
-  {
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "winner": "\"autoresearch-agent\"",
-    "score": 7.8,
-    "runner_up": "autoresearch",
-    "total_contestants": 15,
-    "defeated": [
-      "autoresearch",
-      "autoresearch:execute",
-      "comprehensive-research-agent",
-      "huashu-material-search",
-      "autoresearch:analyze"
-    ]
-  },
-  {
-    "cluster": "engineering-debug",
-    "cluster_name": "工程·调试",
-    "winner": "gstack-openclaw-investigate",
-    "score": 7.8,
-    "runner_up": "systematic-debugging",
-    "total_contestants": 7,
-    "defeated": [
-      "systematic-debugging",
-      "fullstack-guardian",
-      "secure-code-guardian",
-      "investigate",
-      "careful"
+      "huashu-design"
     ]
   },
   {
@@ -541,7 +525,7 @@
     "winner": "\"behuman\"",
     "score": 7.5,
     "runner_up": "huashu-nuwa",
-    "total_contestants": 16,
+    "total_contestants": 15,
     "defeated": [
       "huashu-nuwa",
       "andrej-karpathy-perspective",
@@ -561,6 +545,21 @@
       "media-downloader",
       "agent-reach",
       "web-access"
+    ]
+  },
+  {
+    "cluster": "engineering-debug",
+    "cluster_name": "工程·调试",
+    "winner": "systematic-debugging",
+    "score": 7.3,
+    "runner_up": "fullstack-guardian",
+    "total_contestants": 7,
+    "defeated": [
+      "fullstack-guardian",
+      "secure-code-guardian",
+      "gstack-openclaw-investigate",
+      "investigate",
+      "careful"
     ]
   },
   {
@@ -604,6 +603,21 @@
     ]
   },
   {
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "winner": "gstack-openclaw-ceo-review",
+    "score": 7.3,
+    "runner_up": "\"playwright-pro\"",
+    "total_contestants": 36,
+    "defeated": [
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "gstack-openclaw-office-hours",
+      "context-restore",
+      "context-save"
+    ]
+  },
+  {
     "cluster": "business-finance",
     "cluster_name": "商业·财务",
     "winner": "\"financial-analyst\"",
@@ -628,15 +642,6 @@
       "caveman-commit",
       "caveman-review"
     ]
-  },
-  {
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "winner": "claude-opus-4-5-migration",
-    "score": 6.3,
-    "runner_up": null,
-    "total_contestants": 1,
-    "defeated": []
   },
   {
     "cluster": "design-ux",

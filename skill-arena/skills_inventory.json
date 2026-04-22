@@ -30,6 +30,22 @@
     "github_url": ""
   },
   {
+    "id": "awesome-design-md",
+    "path": "./community/awesome-design-md/SKILL.md",
+    "description": "Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Triggers when user asks to \"make it look like [brand]\", \"use [brand] design style\", \"add DESIGN.md\", or \"apply [brand] theme\". Supports 68 brands including Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, and more.",
+    "tags": [
+      "design",
+      "ui",
+      "branding",
+      "frontend",
+      "css",
+      "theming",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/VoltAgent/awesome-design-md"
+  },
+  {
     "id": "bdi-mental-states",
     "path": "./community/bdi-mental-states/SKILL.md",
     "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
@@ -42,11 +58,15 @@
   {
     "id": "blessing-styles",
     "path": "./community/blessing-styles/SKILL.md",
-    "description": "祝福语文案技能 - 生成多种风格的个性化新年祝福语",
+    "description": "祝福语文案技能 - 生成传统/幽默/诗意/现代/温馨5种风格的个性化新年祝福语",
     "tags": [
+      "copywriting",
+      "new-year",
+      "blessing",
+      "chinese",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -73,6 +93,16 @@
     "id": "canvas-design",
     "path": "./community/canvas-design/SKILL.md",
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "caveman",
+    "path": "./community/caveman/SKILL.md",
+    "description": ">",
     "tags": [
       "community"
     ],
@@ -202,11 +232,17 @@
   {
     "id": "face-beautification",
     "path": "./community/face-beautification/SKILL.md",
-    "description": "本项目是一个基于 AI 的端到端新年祝福照片生成系统，包含以下核心能力：",
+    "description": "端到端AI新年祝福照片生成系统，含美颜策略（年龄/性别/肤色维度）、Prompt生成、质量审核",
     "tags": [
+      "image",
+      "face",
+      "beauty",
+      "photo",
+      "new-year",
+      "ai",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -317,6 +353,16 @@
     "github_url": ""
   },
   {
+    "id": "benchmark-models",
+    "path": "./community/gstack/benchmark-models/SKILL.md",
+    "description": "|",
+    "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "browse",
     "path": "./community/gstack/browse/SKILL.md",
     "description": "|",
@@ -347,8 +393,8 @@
     "github_url": ""
   },
   {
-    "id": "checkpoint",
-    "path": "./community/gstack/checkpoint/SKILL.md",
+    "id": "codex",
+    "path": "./community/gstack/codex/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -357,8 +403,18 @@
     "github_url": ""
   },
   {
-    "id": "codex",
-    "path": "./community/gstack/codex/SKILL.md",
+    "id": "context-restore",
+    "path": "./community/gstack/context-restore/SKILL.md",
+    "description": "|",
+    "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "context-save",
+    "path": "./community/gstack/context-save/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -507,6 +563,16 @@
     "github_url": ""
   },
   {
+    "id": "make-pdf",
+    "path": "./community/gstack/make-pdf/SKILL.md",
+    "description": "|",
+    "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "office-hours",
     "path": "./community/gstack/office-hours/SKILL.md",
     "description": "|",
@@ -529,41 +595,41 @@
   {
     "id": "gstack-openclaw-ceo-review",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
-    "description": "CEO/founder-mode plan review. Rethink the problem, find the 10-star product, challenge premises, expand scope when it creates a better product. Four modes: SCOPE EXPANSION (dream big), SELECTIVE EXPANSION (hold scope + cherry-pick), HOLD SCOPE (maximum rigor), SCOPE REDUCTION (strip to essentials). Use when asked to review a plan, challenge this, CEO review, poke holes, think bigger, or expand scope.",
+    "description": "Use when asked to review a plan, challenge a proposal, run a CEO review, poke holes in an approach, think bigger about scope, or decide whether to expand or reduce the plan.",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-investigate",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
-    "description": "Systematic debugging with root cause investigation. Four phases: investigate, analyze, hypothesize, implement. Iron Law: no fixes without root cause. Use when asked to debug, fix a bug, investigate an error, or root cause analysis. Proactively use when user reports errors, stack traces, unexpected behavior, or says something stopped working.",
+    "description": "Use when asked to debug, fix a bug, investigate an error, or do root cause analysis, and when users report errors, stack traces, unexpected behavior, or say something stopped working.",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-office-hours",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
-    "description": "Product interrogation with six forcing questions. Two modes: startup diagnostic (demand reality, status quo, desperate specificity, narrowest wedge, observation, future-fit) and builder brainstorm. Use when asked to brainstorm, \"is this worth building\", \"I have an idea\", \"office hours\", or \"help me think through this\". Proactively use when user describes a new product idea or wants to think through design decisions before any code is written.",
+    "description": "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written.",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-retro",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
-    "description": "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.",
+    "description": "\"Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.\"",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "",
     "github_url": ""
   },
   {
@@ -609,6 +675,16 @@
   {
     "id": "plan-eng-review",
     "path": "./community/gstack/plan-eng-review/SKILL.md",
+    "description": "|",
+    "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "plan-tune",
+    "path": "./community/gstack/plan-tune/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -719,31 +795,43 @@
   {
     "id": "image-analyzer",
     "path": "./community/image-analyzer/SKILL.md",
-    "description": "图片分析技能 - 提取人物的多维度特征信息",
+    "description": "图片分析技能 - 提取人物性别/年龄/面部特征/发型/穿着等多维度信息",
     "tags": [
+      "image",
+      "analysis",
+      "face",
+      "feature-extraction",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
     "id": "image-auditor",
     "path": "./community/image-auditor/SKILL.md",
-    "description": "图片审核技能 - 确保上传图片适合用于生成新年祝福照片",
+    "description": "图片审核技能 - 确保上传图片包含清晰人物且内容适合生成新年祝福照片",
     "tags": [
+      "image",
+      "audit",
+      "moderation",
+      "safety",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
     "id": "image-reviewer",
     "path": "./community/image-reviewer/SKILL.md",
-    "description": "图片质量审核技能 - 确保AI生成的祝福照片质量合格",
+    "description": "图片质量审核技能 - 审核AI生成的图片是否符合主题、无畸变、质量达标",
     "tags": [
+      "image",
+      "review",
+      "quality",
+      "ai-generated",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -765,6 +853,21 @@
     ],
     "version": "",
     "github_url": ""
+  },
+  {
+    "id": "karpathy-guidelines",
+    "path": "./community/karpathy-guidelines/SKILL.md",
+    "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria. Derived from Andrej Karpathy's observations.",
+    "tags": [
+      "coding",
+      "guidelines",
+      "best-practices",
+      "karpathy",
+      "engineering",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/multica-ai/andrej-karpathy-skills"
   },
   {
     "id": "mcp-builder",
@@ -833,11 +936,11 @@
   {
     "id": "planning-with-files",
     "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
-    "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
+    "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -847,7 +950,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -857,7 +960,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -867,7 +970,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -877,7 +980,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -887,7 +990,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.33.0\"",
+    "version": "\"2.35.0\"",
     "github_url": ""
   },
   {
@@ -944,9 +1047,9 @@
     "github_url": ""
   },
   {
-    "id": "remotion-video-creator",
-    "path": "./community/remotion-video/SKILL.md",
-    "description": "使用 React 和 Remotion 框架创建程序化视频，支持动画、特效和自动化视频生成",
+    "id": "remotion",
+    "path": "./community/remotion/SKILL.md",
+    "description": "使用 React 和 Remotion 框架创建程序化视频 (Programmatic video creation with React). Generate animations, effects, data-driven personalized videos, and render to MP4/WebM/GIF. Trigger when the user mentions Remotion, programmatic video, React-based video, useCurrentFrame, interpolate, spring, Sequence, or wants to render a video from code.",
     "tags": [
       "video",
       "react",
@@ -956,8 +1059,8 @@
       "automation",
       "community"
     ],
-    "version": "1.0.0",
-    "github_url": ""
+    "version": "2.0.0",
+    "github_url": "https://github.com/remotion-dev/remotion"
   },
   {
     "id": "requesting-code-review",
@@ -1126,6 +1229,16 @@
     ],
     "version": "",
     "github_url": ""
+  },
+  {
+    "id": "ui-ux-pro-max-skill",
+    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
+    "description": "Skill wrapper for ui-ux-pro-max-skill. Generated from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.",
+    "tags": [
+      "community"
+    ],
+    "version": "0.1.0",
+    "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
   },
   {
     "id": "using-git-worktrees",
@@ -1393,16 +1506,6 @@
     "description": "Replace with description of the skill and when Claude should use it.",
     "tags": [
       "anthropic"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "caveman",
-    "path": "./external/caveman/caveman/SKILL.md",
-    "description": ">",
-    "tags": [
-      "caveman"
     ],
     "version": "",
     "github_url": ""
@@ -4915,11 +5018,11 @@
   {
     "id": "ab-test-setup",
     "path": "./external/marketingskills/skills/ab-test-setup/SKILL.md",
-    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" or \"how long should I run this test.\" Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -4939,7 +5042,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -4950,6 +5053,16 @@
       "marketingskills"
     ],
     "version": "1.1.0",
+    "github_url": ""
+  },
+  {
+    "id": "aso-audit",
+    "path": "./external/marketingskills/skills/aso-audit/SKILL.md",
+    "description": "\"When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.\"",
+    "tags": [
+      "marketingskills"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -4973,6 +5086,16 @@
     "github_url": ""
   },
   {
+    "id": "community-marketing",
+    "path": "./external/marketingskills/skills/community-marketing/SKILL.md",
+    "description": "\"Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\\"\"",
+    "tags": [
+      "marketingskills"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "competitor-alternatives",
     "path": "./external/marketingskills/skills/competitor-alternatives/SKILL.md",
     "description": "\"When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.\"",
@@ -4980,6 +5103,16 @@
       "marketingskills"
     ],
     "version": "1.1.0",
+    "github_url": ""
+  },
+  {
+    "id": "competitor-profiling",
+    "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
+    "description": "\"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitor-alternatives. For sales-specific battle cards, see sales-enablement.\"",
+    "tags": [
+      "marketingskills"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -4995,11 +5128,11 @@
   {
     "id": "copy-editing",
     "path": "./external/marketingskills/skills/copy-editing/SKILL.md",
-    "description": "\"When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.\"",
+    "description": "\"When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.\"",
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.3.0",
     "github_url": ""
   },
   {
@@ -5010,6 +5143,26 @@
       "marketingskills"
     ],
     "version": "1.1.0",
+    "github_url": ""
+  },
+  {
+    "id": "customer-research",
+    "path": "./external/marketingskills/skills/customer-research/SKILL.md",
+    "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.",
+    "tags": [
+      "marketingskills"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "directory-submissions",
+    "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
+    "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch-strategy. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+    "tags": [
+      "marketingskills"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -5109,7 +5262,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -5209,7 +5362,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -5239,7 +5392,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -5419,13 +5572,23 @@
     "github_url": ""
   },
   {
+    "id": "videocut:高清化",
+    "path": "./external/videocut-skills/高清化/SKILL.md",
+    "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
+    "tags": [
+      "videocut"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
     "id": "web-access",
     "path": "./external/web-access/SKILL.md",
     "description": "在开始联网操作前，先检查 CDP 模式可用性：",
     "tags": [
       "web-access"
     ],
-    "version": "\"2.4.3\"",
+    "version": "\"2.5.0\"",
     "github_url": ""
   },
   {

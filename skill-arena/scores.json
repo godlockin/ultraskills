@@ -1,5 +1,27 @@
 [
   {
+    "id": "awesome-design-md",
+    "path": "./community/awesome-design-md/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 10.0
+  },
+  {
+    "id": "remotion",
+    "path": "./community/remotion/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 10,
+    "total": 9.7
+  },
+  {
     "id": "skill-arena",
     "path": "./community/skill-arena/SKILL.md",
     "cluster": "engineering-testing",
@@ -31,17 +53,6 @@
     "func_clarity": 9,
     "maintainability": 9,
     "total": 9.0
-  },
-  {
-    "id": "gstack-openclaw-retro",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
   },
   {
     "id": "planning-with-files",
@@ -407,6 +418,17 @@
     "total": 8.8
   },
   {
+    "id": "aso-audit",
+    "path": "./external/marketingskills/skills/aso-audit/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
     "id": "churn-prevention",
     "path": "./external/marketingskills/skills/churn-prevention/SKILL.md",
     "cluster": "marketing-analytics",
@@ -429,6 +451,17 @@
     "total": 8.8
   },
   {
+    "id": "competitor-profiling",
+    "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
     "id": "content-strategy",
     "path": "./external/marketingskills/skills/content-strategy/SKILL.md",
     "cluster": "marketing-strategy",
@@ -444,6 +477,17 @@
     "path": "./external/marketingskills/skills/copy-editing/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "directory-submissions",
+    "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
@@ -594,6 +638,17 @@
     "total": 8.5
   },
   {
+    "id": "karpathy-guidelines",
+    "path": "./community/karpathy-guidelines/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 8.5
+  },
+  {
     "id": "test-case-templates",
     "path": "./community/skill-arena/templates/test-case-templates/SKILL.md",
     "cluster": "engineering-testing",
@@ -614,17 +669,6 @@
     "func_clarity": 9,
     "maintainability": 9,
     "total": 8.5
-  },
-  {
-    "id": "gstack-openclaw-ceo-review",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
   },
   {
     "id": "planning-with-files-ar",
@@ -1045,11 +1089,33 @@
     "total": 8.3
   },
   {
+    "id": "community-marketing",
+    "path": "./external/marketingskills/skills/community-marketing/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.3
+  },
+  {
     "id": "competitor-alternatives",
     "path": "./external/marketingskills/skills/competitor-alternatives/SKILL.md",
     "cluster": "marketing-strategy",
     "cluster_name": "营销·策略",
     "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.3
+  },
+  {
+    "id": "customer-research",
+    "path": "./external/marketingskills/skills/customer-research/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1142,17 +1208,6 @@
     "func_clarity": 8,
     "maintainability": 7,
     "total": 8.3
-  },
-  {
-    "id": "remotion-video-creator",
-    "path": "./community/remotion-video/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": true,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 9,
-    "total": 8.2
   },
   {
     "id": "\"copywriting\"",
@@ -1265,25 +1320,14 @@
     "total": 7.8
   },
   {
-    "id": "gstack-openclaw-investigate",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
-    "cluster": "engineering-debug",
-    "cluster_name": "工程·调试",
-    "is_winner": true,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "gstack-openclaw-office-hours",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
+    "id": "gstack-openclaw-retro",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
     "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
     "total": 7.8
   },
   {
@@ -1797,7 +1841,7 @@
     "path": "./external/claude-skills/engineering/autoresearch-agent/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,
     "maintainability": 7,
@@ -2332,6 +2376,17 @@
     "total": 7.8
   },
   {
+    "id": "face-beautification",
+    "path": "./community/face-beautification/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.7
+  },
+  {
     "id": "prompt-optimizer",
     "path": "./community/prompt-optimizer/SKILL.md",
     "cluster": "agent-pua",
@@ -2486,6 +2541,17 @@
     "total": 7.3
   },
   {
+    "id": "gstack-openclaw-ceo-review",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "hosted-agents",
     "path": "./community/hosted-agents/SKILL.md",
     "cluster": "agent-hosted",
@@ -2501,10 +2567,21 @@
     "path": "./community/systematic-debugging/SKILL.md",
     "cluster": "engineering-debug",
     "cluster_name": "工程·调试",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 6,
     "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "ui-ux-pro-max-skill",
+    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 8,
     "total": 7.3
   },
   {
@@ -3773,6 +3850,28 @@
     "total": 6.8
   },
   {
+    "id": "gstack-openclaw-investigate",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
+    "cluster": "engineering-debug",
+    "cluster_name": "工程·调试",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "gstack-openclaw-office-hours",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
     "id": "skill-manager",
     "path": "./community/skill-manager/SKILL.md",
     "cluster": "skills-mgmt",
@@ -4070,6 +4169,39 @@
     "total": 6.8
   },
   {
+    "id": "blessing-styles",
+    "path": "./community/blessing-styles/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "context-restore",
+    "path": "./community/gstack/context-restore/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "context-save",
+    "path": "./community/gstack/context-save/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
     "id": "design-consultation",
     "path": "./community/gstack/design-consultation/SKILL.md",
     "cluster": "skills-browser",
@@ -4215,6 +4347,17 @@
   {
     "id": "plan-eng-review",
     "path": "./community/gstack/plan-eng-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "plan-tune",
+    "path": "./community/gstack/plan-tune/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
     "is_winner": false,
@@ -4437,7 +4580,7 @@
     "path": "./external/claude-code/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 6,
     "maintainability": 5,
@@ -4554,17 +4697,6 @@
     "total": 6.2
   },
   {
-    "id": "checkpoint",
-    "path": "./community/gstack/checkpoint/SKILL.md",
-    "cluster": "agent-memory",
-    "cluster_name": "Agent·记忆系统",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
     "id": "codex",
     "path": "./community/gstack/codex/SKILL.md",
     "cluster": "skills-browser",
@@ -4620,6 +4752,39 @@
     "total": 6.2
   },
   {
+    "id": "image-analyzer",
+    "path": "./community/image-analyzer/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.2
+  },
+  {
+    "id": "image-auditor",
+    "path": "./community/image-auditor/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.2
+  },
+  {
+    "id": "image-reviewer",
+    "path": "./community/image-reviewer/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.2
+  },
+  {
     "id": "brainstorming",
     "path": "./community/brainstorming/SKILL.md",
     "cluster": "productivity",
@@ -4628,6 +4793,17 @@
     "doc_quality": 7,
     "func_clarity": 5,
     "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "benchmark-models",
+    "path": "./community/gstack/benchmark-models/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 6.0
   },
   {
@@ -4893,6 +5069,17 @@
     "func_clarity": 4,
     "maintainability": 7,
     "total": 5.6
+  },
+  {
+    "id": "make-pdf",
+    "path": "./community/gstack/make-pdf/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
   },
   {
     "id": "setup-browser-cookies",
@@ -5236,15 +5423,15 @@
     "total": 5.5
   },
   {
-    "id": "face-beautification",
-    "path": "./community/face-beautification/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
+    "id": "videocut:高清化",
+    "path": "./external/videocut-skills/高清化/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
     "is_winner": false,
-    "doc_quality": 7,
+    "doc_quality": 6,
     "func_clarity": 5,
-    "maintainability": 2,
-    "total": 5.4
+    "maintainability": 5,
+    "total": 5.5
   },
   {
     "id": "skill-evolution-manager",
@@ -5665,6 +5852,17 @@
     "total": 4.5
   },
   {
+    "id": "caveman",
+    "path": "./community/caveman/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 4,
+    "maintainability": 5,
+    "total": 4.2
+  },
+  {
     "id": "unfreeze",
     "path": "./community/gstack/unfreeze/SKILL.md",
     "cluster": "skills-browser",
@@ -5680,17 +5878,6 @@
     "path": "./community/字幕/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 4.2
-  },
-  {
-    "id": "caveman",
-    "path": "./external/caveman/caveman/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
     "is_winner": false,
     "doc_quality": 4,
     "func_clarity": 4,
@@ -5872,49 +6059,5 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 3.5
-  },
-  {
-    "id": "blessing-styles",
-    "path": "./community/blessing-styles/SKILL.md",
-    "cluster": "persona",
-    "cluster_name": "人物·视角模拟",
-    "is_winner": false,
-    "doc_quality": 3,
-    "func_clarity": 5,
-    "maintainability": 2,
-    "total": 3.4
-  },
-  {
-    "id": "image-analyzer",
-    "path": "./community/image-analyzer/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 2,
-    "func_clarity": 5,
-    "maintainability": 2,
-    "total": 2.9
-  },
-  {
-    "id": "image-auditor",
-    "path": "./community/image-auditor/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 0,
-    "func_clarity": 5,
-    "maintainability": 2,
-    "total": 1.9
-  },
-  {
-    "id": "image-reviewer",
-    "path": "./community/image-reviewer/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 0,
-    "func_clarity": 5,
-    "maintainability": 2,
-    "total": 1.9
   }
 ]
