@@ -4,14 +4,14 @@
     "cluster_name": "其他未分类",
     "winner": "awesome-design-md",
     "score": 10.0,
-    "runner_up": "aso-audit",
+    "runner_up": "ui-ux-pro-max-skill",
     "total_contestants": 7,
     "defeated": [
+      "ui-ux-pro-max-skill",
       "aso-audit",
       "competitor-profiling",
       "directory-submissions",
-      "community-marketing",
-      "ui-ux-pro-max-skill"
+      "community-marketing"
     ]
   },
   {
@@ -294,6 +294,15 @@
       "pua-en",
       "\"aws-solution-architect\""
     ]
+  },
+  {
+    "cluster": "engineering-mobile",
+    "cluster_name": "工程·移动",
+    "winner": "awesome-android-ui",
+    "score": 8.5,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
   },
   {
     "cluster": "agent-pua",

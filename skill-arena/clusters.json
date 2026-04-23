@@ -707,11 +707,11 @@
     "winner": "awesome-design-md",
     "skills": [
       "awesome-design-md",
+      "ui-ux-pro-max-skill",
       "aso-audit",
       "competitor-profiling",
       "directory-submissions",
       "community-marketing",
-      "ui-ux-pro-max-skill",
       "claude-opus-4-5-migration"
     ]
   },
@@ -916,6 +916,15 @@
     "skills": [
       "\"ikea-designer-pro\"",
       "\"api-design-reviewer\""
+    ]
+  },
+  {
+    "id": "engineering-mobile",
+    "name": "工程·移动",
+    "skill_count": 1,
+    "winner": "awesome-android-ui",
+    "skills": [
+      "awesome-android-ui"
     ]
   }
 ]

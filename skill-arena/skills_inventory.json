@@ -30,6 +30,23 @@
     "github_url": ""
   },
   {
+    "id": "awesome-android-ui",
+    "path": "./community/awesome-android-ui/SKILL.md",
+    "description": "Curated catalog of Android UI/UX libraries (Jetpack Compose, Layout, Button, List/Grid, ViewPager, Form, Image, SeekBar, Progress, Menu, ActionBar, Dialog, Calendar, Graph, Animation, Parallax, Effects). Use when the user asks to recommend, find, or compare Android UI components, animations, or visual libraries — pick from the curated list rather than guessing from memory.",
+    "tags": [
+      "android",
+      "ui",
+      "ux",
+      "jetpack-compose",
+      "awesome-list",
+      "mobile",
+      "libraries",
+      "community"
+    ],
+    "version": "0.1.0",
+    "github_url": "https://github.com/wasabeef/awesome-android-ui"
+  },
+  {
     "id": "awesome-design-md",
     "path": "./community/awesome-design-md/SKILL.md",
     "description": "Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Triggers when user asks to \"make it look like [brand]\", \"use [brand] design style\", \"add DESIGN.md\", or \"apply [brand] theme\". Supports 68 brands including Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, and more.",
@@ -1233,11 +1250,18 @@
   {
     "id": "ui-ux-pro-max-skill",
     "path": "./community/ui-ux-pro-max-skill/SKILL.md",
-    "description": "Skill wrapper for ui-ux-pro-max-skill. Generated from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.",
+    "description": "AI design intelligence for building professional UI/UX. Generates complete tailored design systems (pattern + style + colors + typography + effects + anti-patterns + checklist) from a project brief. 161 industry reasoning rules, 67 UI styles, 161 color palettes, 24 landing page patterns, 57 typography pairings. Trigger on design, UI, UX, landing page, color palette, typography, design system requests.",
     "tags": [
+      "design",
+      "ui",
+      "ux",
+      "design-system",
+      "color-palette",
+      "typography",
+      "landing-page",
       "community"
     ],
-    "version": "0.1.0",
+    "version": "2.0.0",
     "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
   },
   {

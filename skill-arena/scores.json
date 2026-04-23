@@ -33,6 +33,17 @@
     "total": 9.0
   },
   {
+    "id": "ui-ux-pro-max-skill",
+    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 9.0
+  },
+  {
     "id": "karpathy-coder",
     "path": "./external/claude-skills/engineering/karpathy-coder/SKILL.md",
     "cluster": "engineering-code",
@@ -625,6 +636,17 @@
     "func_clarity": 8,
     "maintainability": 7,
     "total": 8.8
+  },
+  {
+    "id": "awesome-android-ui",
+    "path": "./community/awesome-android-ui/SKILL.md",
+    "cluster": "engineering-mobile",
+    "cluster_name": "工程·移动",
+    "is_winner": true,
+    "doc_quality": 7,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 8.5
   },
   {
     "id": "\"github-skill-scout\"",
@@ -2571,17 +2593,6 @@
     "doc_quality": 9,
     "func_clarity": 6,
     "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "ui-ux-pro-max-skill",
-    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 9,
-    "maintainability": 8,
     "total": 7.3
   },
   {
