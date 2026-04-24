@@ -658,10 +658,10 @@
     "id": "productivity",
     "name": "效率·生产力",
     "skill_count": 8,
-    "winner": "slack-gif-creator",
+    "winner": "brainstorming",
     "skills": [
-      "slack-gif-creator",
       "brainstorming",
+      "slack-gif-creator",
       "dynamic-expert-group",
       "caveman-compress",
       "caveman-commit",

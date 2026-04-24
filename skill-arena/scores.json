@@ -2431,6 +2431,17 @@
     "total": 7.7
   },
   {
+    "id": "brainstorming",
+    "path": "./community/brainstorming/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": true,
+    "doc_quality": 8,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 7.5
+  },
+  {
     "id": "evaluation",
     "path": "./community/evaluation/SKILL.md",
     "cluster": "agent-eval",
@@ -3909,7 +3920,7 @@
     "path": "./community/slack-gif-creator/SKILL.md",
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 6,
     "maintainability": 5,
@@ -4794,17 +4805,6 @@
     "func_clarity": 8,
     "maintainability": 9,
     "total": 6.2
-  },
-  {
-    "id": "brainstorming",
-    "path": "./community/brainstorming/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.0
   },
   {
     "id": "benchmark-models",

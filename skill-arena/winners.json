@@ -544,6 +544,21 @@
     ]
   },
   {
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "winner": "brainstorming",
+    "score": 7.5,
+    "runner_up": "slack-gif-creator",
+    "total_contestants": 8,
+    "defeated": [
+      "slack-gif-creator",
+      "dynamic-expert-group",
+      "caveman-compress",
+      "caveman-commit",
+      "caveman-review"
+    ]
+  },
+  {
     "cluster": "skills-web",
     "cluster_name": "Skills·联网",
     "winner": "\"media-downloader\"",
@@ -635,21 +650,6 @@
     "total_contestants": 2,
     "defeated": [
       "hv-analysis"
-    ]
-  },
-  {
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "winner": "slack-gif-creator",
-    "score": 6.8,
-    "runner_up": "brainstorming",
-    "total_contestants": 8,
-    "defeated": [
-      "brainstorming",
-      "dynamic-expert-group",
-      "caveman-compress",
-      "caveman-commit",
-      "caveman-review"
     ]
   },
   {

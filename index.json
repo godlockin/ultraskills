@@ -10560,6 +10560,28 @@
       }
     },
     {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "path": "./community/brainstorming/SKILL.md",
+      "description": "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\"",
+      "tags": [
+        "community"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 7.5,
+        "doc_quality": 8,
+        "func_clarity": 7,
+        "maintainability": 7,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-04-24",
+        "test_version": "1.0.0"
+      },
+      "version": "2.0.0"
+    },
+    {
       "id": "slack-gif-creator",
       "name": "slack-gif-creator",
       "path": "./community/slack-gif-creator/SKILL.md",
@@ -10573,27 +10595,6 @@
         "score": 6.8,
         "doc_quality": 8,
         "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-04-24",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "brainstorming",
-      "name": "brainstorming",
-      "path": "./community/brainstorming/SKILL.md",
-      "description": "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\"",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 6.0,
-        "doc_quality": 7,
-        "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
         "rank": 2,
