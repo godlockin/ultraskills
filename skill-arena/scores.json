@@ -11,6 +11,17 @@
     "total": 10.0
   },
   {
+    "id": "magazine-web-ppt",
+    "path": "./community/magazine-web-ppt/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 10.0
+  },
+  {
     "id": "remotion",
     "path": "./community/remotion/SKILL.md",
     "cluster": "content-video",
@@ -2468,7 +2479,7 @@
     "path": "./community/xlsx/SKILL.md",
     "cluster": "content-doc",
     "cluster_name": "内容·文档生成",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 5,
     "maintainability": 5,

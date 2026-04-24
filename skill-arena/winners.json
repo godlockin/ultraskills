@@ -1,5 +1,20 @@
 [
   {
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "winner": "magazine-web-ppt",
+    "score": 10.0,
+    "runner_up": "xlsx",
+    "total_contestants": 7,
+    "defeated": [
+      "xlsx",
+      "huashu-slides",
+      "docx",
+      "pdf",
+      "pptx"
+    ]
+  },
+  {
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "winner": "awesome-design-md",
@@ -511,21 +526,6 @@
       "\"red-team\"",
       "\"threat-detection\"",
       "\"information-security-manager-iso27001\""
-    ]
-  },
-  {
-    "cluster": "content-doc",
-    "cluster_name": "内容·文档生成",
-    "winner": "xlsx",
-    "score": 7.5,
-    "runner_up": "huashu-slides",
-    "total_contestants": 6,
-    "defeated": [
-      "huashu-slides",
-      "docx",
-      "pdf",
-      "pptx",
-      "huashu-md-to-pdf"
     ]
   },
   {

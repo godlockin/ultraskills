@@ -671,6 +671,21 @@
     ]
   },
   {
+    "id": "content-doc",
+    "name": "内容·文档生成",
+    "skill_count": 7,
+    "winner": "magazine-web-ppt",
+    "skills": [
+      "magazine-web-ppt",
+      "xlsx",
+      "huashu-slides",
+      "docx",
+      "pdf",
+      "pptx",
+      "huashu-md-to-pdf"
+    ]
+  },
+  {
     "id": "engineering-debug",
     "name": "工程·调试",
     "skill_count": 7,
@@ -727,20 +742,6 @@
       "context-optimization",
       "filesystem-context",
       "latent-briefing"
-    ]
-  },
-  {
-    "id": "content-doc",
-    "name": "内容·文档生成",
-    "skill_count": 6,
-    "winner": "xlsx",
-    "skills": [
-      "xlsx",
-      "huashu-slides",
-      "docx",
-      "pdf",
-      "pptx",
-      "huashu-md-to-pdf"
     ]
   },
   {
