@@ -130,12 +130,12 @@
       "plan-eng-review",
       "plan-tune",
       "codex",
+      "learn",
       "retro",
       "review",
       "gstack-upgrade",
       "gstack",
       "browse",
-      "learn",
       "qa",
       "make-pdf",
       "setup-browser-cookies",
@@ -633,9 +633,9 @@
       "webapp-testing",
       "devex-review",
       "plan-devex-review",
+      "qa-only",
       "verification-before-completion",
-      "health",
-      "qa-only"
+      "health"
     ]
   },
   {

@@ -5658,8 +5658,8 @@
       "arena": {
         "cluster": "engineering-debug",
         "cluster_name": "工程·调试",
-        "score": 5.7,
-        "doc_quality": 5,
+        "score": 6.2,
+        "doc_quality": 6,
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
@@ -8187,6 +8187,28 @@
       "version": "2.0.0"
     },
     {
+      "id": "qa-only",
+      "name": "qa-only",
+      "path": "./community/gstack/qa-only/SKILL.md",
+      "description": "|",
+      "tags": [
+        "community"
+      ],
+      "arena": {
+        "cluster": "engineering-qa",
+        "cluster_name": "工程·QA",
+        "score": 6.5,
+        "doc_quality": 6,
+        "func_clarity": 7,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 6,
+        "test_date": "2026-04-24",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "verification-before-completion",
       "name": "verification-before-completion",
       "path": "./community/verification-before-completion/SKILL.md",
@@ -8202,7 +8224,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       }
@@ -8221,28 +8243,6 @@
         "score": 6.2,
         "doc_quality": 6,
         "func_clarity": 6,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 7,
-        "test_date": "2026-04-24",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "qa-only",
-      "name": "qa-only",
-      "path": "./community/gstack/qa-only/SKILL.md",
-      "description": "|",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "engineering-qa",
-        "cluster_name": "工程·QA",
-        "score": 6.0,
-        "doc_quality": 5,
-        "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
         "rank": 8,
@@ -8516,8 +8516,8 @@
       "arena": {
         "cluster": "engineering-security",
         "cluster_name": "工程·安全",
-        "score": 5.7,
-        "doc_quality": 5,
+        "score": 6.2,
+        "doc_quality": 6,
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
@@ -11130,6 +11130,28 @@
       "version": "1.0.0"
     },
     {
+      "id": "learn",
+      "name": "learn",
+      "path": "./community/gstack/learn/SKILL.md",
+      "description": "|",
+      "tags": [
+        "community"
+      ],
+      "arena": {
+        "cluster": "skills-browser",
+        "cluster_name": "Skills·浏览器",
+        "score": 6.2,
+        "doc_quality": 6,
+        "func_clarity": 6,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 18,
+        "test_date": "2026-04-24",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "retro",
       "name": "retro",
       "path": "./community/gstack/retro/SKILL.md",
@@ -11145,7 +11167,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       },
@@ -11167,7 +11189,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       },
@@ -11189,7 +11211,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       },
@@ -11211,7 +11233,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 21,
+        "rank": 22,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       },
@@ -11233,33 +11255,11 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 22,
-        "test_date": "2026-04-24",
-        "test_version": "1.0.0"
-      },
-      "version": "1.1.0"
-    },
-    {
-      "id": "learn",
-      "name": "learn",
-      "path": "./community/gstack/learn/SKILL.md",
-      "description": "|",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "skills-browser",
-        "cluster_name": "Skills·浏览器",
-        "score": 5.7,
-        "doc_quality": 5,
-        "func_clarity": 6,
-        "maintainability": 7,
-        "is_winner": false,
         "rank": 23,
         "test_date": "2026-04-24",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "qa",

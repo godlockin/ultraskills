@@ -510,7 +510,7 @@
       "webapp-testing",
       "devex-review",
       "plan-devex-review",
-      "verification-before-completion"
+      "qa-only"
     ]
   },
   {
