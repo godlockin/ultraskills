@@ -887,6 +887,25 @@
     "github_url": "https://github.com/multica-ai/andrej-karpathy-skills"
   },
   {
+    "id": "mac-whisper",
+    "path": "./community/mac-whisper/SKILL.md",
+    "description": "在 Apple Silicon Mac (M1/M2/M3/M4) 本地跑 SOTA 语音转文字（Whisper large-v3-turbo via MLX）。用于将音频/视频转成文本/SRT/VTT/JSON。10-20× 实时速度，99 语言（含中英文），完全离线。Trigger on 语音转文字 / transcribe / audio to text / SRT / 字幕生成 / speech-to-text / ASR / 听写。",
+    "tags": [
+      "asr",
+      "speech-to-text",
+      "whisper",
+      "mlx",
+      "transcription",
+      "srt",
+      "subtitles",
+      "mac",
+      "apple-silicon",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "magazine-web-ppt",
     "path": "./community/magazine-web-ppt/SKILL.md",
     "description": "生成\"电子杂志 × 电子墨水\"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到\"杂志风 PPT\"、\"horizontal swipe deck\"、\"editorial magazine\"、\"e-ink presentation\"时使用。",

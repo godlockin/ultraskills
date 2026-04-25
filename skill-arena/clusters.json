@@ -655,6 +655,22 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 8,
+    "winner": "awesome-design-md",
+    "skills": [
+      "awesome-design-md",
+      "ui-ux-pro-max-skill",
+      "aso-audit",
+      "competitor-profiling",
+      "directory-submissions",
+      "mac-whisper",
+      "community-marketing",
+      "claude-opus-4-5-migration"
+    ]
+  },
+  {
     "id": "productivity",
     "name": "效率·生产力",
     "skill_count": 8,
@@ -713,21 +729,6 @@
       "\"analytics-tracking\"",
       "\"churn-prevention\"",
       "\"revenue-operations\""
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 7,
-    "winner": "awesome-design-md",
-    "skills": [
-      "awesome-design-md",
-      "ui-ux-pro-max-skill",
-      "aso-audit",
-      "competitor-profiling",
-      "directory-submissions",
-      "community-marketing",
-      "claude-opus-4-5-migration"
     ]
   },
   {

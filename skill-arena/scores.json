@@ -682,6 +682,17 @@
     "total": 8.5
   },
   {
+    "id": "mac-whisper",
+    "path": "./community/mac-whisper/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "test-case-templates",
     "path": "./community/skill-arena/templates/test-case-templates/SKILL.md",
     "cluster": "engineering-testing",
