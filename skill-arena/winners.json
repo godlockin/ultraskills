@@ -34,14 +34,14 @@
     "cluster_name": "内容·视频",
     "winner": "remotion",
     "score": 9.7,
-    "runner_up": "video-content-strategist",
+    "runner_up": "\"video-frame-extractor\"",
     "total_contestants": 16,
     "defeated": [
+      "\"video-frame-extractor\"",
       "video-content-strategist",
       "\"demo-video\"",
       "huashu-video-check",
-      "\"image-to-video\"",
-      "\"video-frame-extractor\""
+      "\"image-to-video\""
     ]
   },
   {

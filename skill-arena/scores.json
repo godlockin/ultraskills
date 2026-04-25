@@ -715,6 +715,17 @@
     "total": 8.5
   },
   {
+    "id": "\"video-frame-extractor\"",
+    "path": "./community/video-frame-extractor/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "planning-with-files-ar",
     "path": "./community/planning-with-files/skills/planning-with-files-ar/SKILL.md",
     "cluster": "agent-workflow",
@@ -4998,17 +5009,6 @@
     "path": "./community/prompt-engineer/SKILL.md",
     "cluster": "agent-pua",
     "cluster_name": "Agent·激励强化",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 5.8
-  },
-  {
-    "id": "\"video-frame-extractor\"",
-    "path": "./community/video-frame-extractor/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 6,

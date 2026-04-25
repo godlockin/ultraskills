@@ -318,11 +318,11 @@
     "winner": "remotion",
     "skills": [
       "remotion",
+      "\"video-frame-extractor\"",
       "video-content-strategist",
       "\"demo-video\"",
       "huashu-video-check",
       "\"image-to-video\"",
-      "\"video-frame-extractor\"",
       "\"video-splitter\"",
       "videocut:剪辑",
       "videocut:高清化",

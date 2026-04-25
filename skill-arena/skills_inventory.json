@@ -1334,11 +1334,17 @@
   {
     "id": "\"video-frame-extractor\"",
     "path": "./community/video-frame-extractor/SKILL.md",
-    "description": "\"Extracts image frames from video files. Invoke when user wants to convert video to images, extract frames at specific FPS, or sample video content.\"",
+    "description": "\"Extract image frames from video files via ffmpeg. Modes: at exact timestamps, at fixed FPS, every N seconds, all frames, keyframes only, or scene changes. Trigger on 抽帧 / extract frames / video to images / screenshot from video / 截图视频帧 / 指定时间抽帧.\"",
     "tags": [
+      "video",
+      "ffmpeg",
+      "frame",
+      "image",
+      "extract",
+      "screenshot",
       "community"
     ],
-    "version": "",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
