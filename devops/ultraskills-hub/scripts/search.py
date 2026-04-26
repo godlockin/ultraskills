@@ -32,8 +32,14 @@ def load_index():
 
 
 def skill_path(s):
-    """Absolute path to skill directory."""
-    return os.path.join(REPO_ROOT, s["path"].lstrip("./"))
+    """Absolute path to skill directory. Guards against path traversal."""
+    # os.path.normpath resolves any ../.. sequences
+    raw = os.path.join(REPO_ROOT, s["path"].lstrip("./"))
+    resolved = os.path.normpath(raw)
+    # Reject if resolved path escapes repo root
+    if not resolved.startswith(REPO_ROOT + os.sep) and resolved != REPO_ROOT:
+        return None  # poisoned index entry
+    return resolved
 
 
 def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
@@ -47,6 +53,10 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
         if tag_filter and tag_filter not in s.get("tags", []):
             continue
 
+        path = skill_path(s)
+        if path is None:
+            continue  # poisoned index entry, skip
+
         # Scoring: exact id match > tags > description keyword hits
         score = 0
         sid = s["id"].lower()
@@ -58,7 +68,7 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
             if kw_item == sid:
                 score += 20
             elif kw_item in sid:
-                score += 10
+                score += 5  # reduced from 10: prevent id-substring from beating winners
             if any(kw_item in t for t in tags):
                 score += 6
             if any(kw_item in r for r in rec):
@@ -74,22 +84,37 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
         arena_cat = arena.get("category", "")
         a_scores = arena.get("scores", {})
 
+        # Arena bonus — only applied when keyword relevance already established
+        # (score > 0 = has keyword match; prevents winner bonus from firing on unrelated skills)
         if score > 0:
-            # Quality bonus: winner gets significant uplift
-            if is_winner:
+            # Winner bonus: only if skill has meaningful keyword relevance (>= 10pts)
+            # Prevents unrelated winners from outranking relevant non-winners
+            if is_winner and score >= 10:
                 score += 15
-            # Arena score bonus: 0-100 → 0-10 pts (meaningful, not tiebreak)
+            elif is_winner:
+                score += 5  # small boost for marginal matches
+            # Arena score bonus: 0-100 → 0-10 pts
             score += arena_score * 0.10
-            # Quality dimension: reward high quality/maintainability skills
+            # Quality dimension bonus
             score += a_scores.get("quality", 0) * 0.15
             score += a_scores.get("maintainability", 0) * 0.10
-            # Category match bonus: if query terms appear in arena category
+            # Category match bonus
             if any(kw_item in arena_cat for kw_item in kw):
                 score += 4
 
+        # Browse modes (--winners, --tag): no query terms → seed score from arena data
+        no_query = not kw
+        if no_query:
+            score = arena_score * 0.10
+            if is_winner:
+                score += 15
+            score += a_scores.get("quality", 0) * 0.15
+
+        # Emit result if relevant (keyword hit) or browsing (no query)
+        if score > 0:
             results.append({
                 "id": s["id"],
-                "path": skill_path(s),
+                "path": path,
                 "description": s.get("description", ""),
                 "tags": s.get("tags", []),
                 "arena_score": arena_score,
