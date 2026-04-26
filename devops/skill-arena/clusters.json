@@ -726,9 +726,21 @@
           "complexity": "expert",
           "content_length": 8405,
           "section_count": 18
+        },
+        {
+          "id": "gh-address-comments",
+          "name": "gh-address-comments",
+          "path": "./community/gh-address-comments",
+          "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI",
+          "tags": ["community", "composio", "github", "pr", "code-review"],
+          "source": "index.json",
+          "keywords": ["github", "pr", "review", "comments", "code-review", "gh"],
+          "complexity": "intermediate",
+          "content_length": 900,
+          "section_count": 3
         }
       ],
-      "skill_count": 30
+      "skill_count": 31
     },
     {
       "id": "cluster-002-eng-testing",
@@ -3648,9 +3660,33 @@
           "complexity": "expert",
           "content_length": 4756,
           "section_count": 17
+        },
+        {
+          "id": "gh-fix-ci",
+          "name": "gh-fix-ci",
+          "path": "./community/gh-fix-ci",
+          "description": "Inspect GitHub PR checks, pull failing GitHub Actions logs, summarize failure context, create fix plan and implement after approval",
+          "tags": ["community", "composio", "github", "ci", "devops"],
+          "source": "index.json",
+          "keywords": ["github", "ci", "actions", "pr", "checks", "devops", "workflow", "gh"],
+          "complexity": "advanced",
+          "content_length": 3200,
+          "section_count": 8
+        },
+        {
+          "id": "changelog-generator",
+          "name": "changelog-generator",
+          "path": "./community/changelog-generator",
+          "description": "Automatically creates user-facing changelogs from git commits, transforming technical commits into customer-friendly release notes",
+          "tags": ["community", "composio", "git", "changelog", "release-notes"],
+          "source": "index.json",
+          "keywords": ["git", "changelog", "release", "notes", "commits", "devops"],
+          "complexity": "intermediate",
+          "content_length": 2800,
+          "section_count": 7
         }
       ],
-      "skill_count": 44
+      "skill_count": 46
     },
     {
       "id": "cluster-005-eng-security",
@@ -10821,9 +10857,21 @@
           "complexity": "expert",
           "content_length": 8354,
           "section_count": 18
+        },
+        {
+          "id": "spreadsheet-formula-helper",
+          "name": "spreadsheet-formula-helper",
+          "path": "./community/spreadsheet-formula-helper",
+          "description": "Write and debug spreadsheet formulas (Excel/Google Sheets), pivot tables, and array formulas; translate between dialects",
+          "tags": ["community", "composio", "excel", "google-sheets", "formulas"],
+          "source": "index.json",
+          "keywords": ["excel", "sheets", "formula", "spreadsheet", "data", "pivot"],
+          "complexity": "intermediate",
+          "content_length": 1200,
+          "section_count": 4
         }
       ],
-      "skill_count": 18
+      "skill_count": 19
     },
     {
       "id": "cluster-028-data-docs",
@@ -18401,9 +18449,33 @@
           "complexity": "expert",
           "content_length": 11542,
           "section_count": 20
+        },
+        {
+          "id": "meeting-notes-and-actions",
+          "name": "meeting-notes-and-actions",
+          "path": "./community/meeting-notes-and-actions",
+          "description": "Turn meeting transcripts or rough notes into crisp summaries with decisions, risks, and owner-tagged action items",
+          "tags": ["community", "composio", "meetings", "productivity", "notes"],
+          "source": "index.json",
+          "keywords": ["meeting", "transcript", "notes", "action", "decisions", "productivity"],
+          "complexity": "intermediate",
+          "content_length": 1100,
+          "section_count": 5
+        },
+        {
+          "id": "support-ticket-triage",
+          "name": "support-ticket-triage",
+          "path": "./community/support-ticket-triage",
+          "description": "Triage customer support tickets/emails/chats into categories, priority, and next action; draft responses",
+          "tags": ["community", "composio", "support", "triage", "customer-success"],
+          "source": "index.json",
+          "keywords": ["support", "ticket", "triage", "customer", "priority", "response"],
+          "complexity": "intermediate",
+          "content_length": 1100,
+          "section_count": 4
         }
       ],
-      "skill_count": 204
+      "skill_count": 206
     }
   ]
 }
