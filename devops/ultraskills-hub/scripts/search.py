@@ -66,21 +66,37 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
             # Count description hits
             score += desc.count(kw_item) * 2
 
-        # Arena bonus
+        # Arena bonus — heavily weighted, not just tiebreak
         arena = s.get("arena", {})
-        if arena.get("is_winner"):
-            score += 3
         arena_score = arena.get("score", 0)
-        score += arena_score * 0.01  # tiebreak
+        is_winner = arena.get("is_winner", False)
+        arena_rank = arena.get("rank", 999)
+        arena_cat = arena.get("category", "")
+        a_scores = arena.get("scores", {})
 
         if score > 0:
+            # Quality bonus: winner gets significant uplift
+            if is_winner:
+                score += 15
+            # Arena score bonus: 0-100 → 0-10 pts (meaningful, not tiebreak)
+            score += arena_score * 0.10
+            # Quality dimension: reward high quality/maintainability skills
+            score += a_scores.get("quality", 0) * 0.15
+            score += a_scores.get("maintainability", 0) * 0.10
+            # Category match bonus: if query terms appear in arena category
+            if any(kw_item in arena_cat for kw_item in kw):
+                score += 4
+
             results.append({
                 "id": s["id"],
                 "path": skill_path(s),
                 "description": s.get("description", ""),
                 "tags": s.get("tags", []),
                 "arena_score": arena_score,
-                "is_winner": arena.get("is_winner", False),
+                "arena_rank": arena_rank,
+                "arena_category": arena_cat,
+                "quality_score": a_scores.get("quality", 0),
+                "is_winner": is_winner,
                 "match_score": round(score, 2),
             })
 
