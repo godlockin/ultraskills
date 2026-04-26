@@ -1,6 +1,8 @@
 ---
 name: autoresearch
 description: "Universal autonomous task optimization framework. Transforms any measurable, iterable task into a self-improving system through conversational design and intelligent optimization loops."
+version: 1.0.0
+tags: [engineering, arena-winner]
 ---
 
 # Autoresearch: Universal Task Optimization Framework

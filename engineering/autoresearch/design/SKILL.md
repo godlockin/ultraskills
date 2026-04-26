@@ -1,6 +1,8 @@
 ---
 name: autoresearch:design
 description: "Conversational task design. Helps you define optimization objectives, metrics, constraints, and success criteria through natural dialogue."
+version: 1.0.0
+tags: [engineering]
 ---
 
 # Autoresearch Design: Conversational Task Configuration

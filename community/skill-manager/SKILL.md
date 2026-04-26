@@ -2,6 +2,8 @@
 name: skill-manager
 description: Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.
 license: MIT
+version: 1.0.0
+tags: [community]
 ---
 
 # Skill Lifecycle Manager

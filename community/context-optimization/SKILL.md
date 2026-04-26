@@ -1,6 +1,8 @@
 ---
 name: context-optimization
 description: This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "partition context", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.
+version: 1.0.0
+tags: [community]
 ---
 
 # Context Optimization Techniques

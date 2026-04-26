@@ -1,6 +1,8 @@
 ---
 name: "video-splitter"
 description: "Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video."
+version: 1.0.0
+tags: [community]
 ---
 
 # Video Splitter

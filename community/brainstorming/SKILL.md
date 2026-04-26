@@ -15,6 +15,7 @@ companion_files:
   - scripts/stop-server.sh
   - scripts/frame-template.html
   - scripts/helper.js
+tags: [community]
 ---
 
 # Brainstorming Ideas Into Designs

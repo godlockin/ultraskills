@@ -1,6 +1,8 @@
 ---
 name: autoresearch:analyze
 description: "Analyze experiment history, generate insights, visualize trends, recommend next steps."
+version: 1.0.0
+tags: [engineering]
 ---
 
 # Autoresearch Analyze: Experiment Analysis and Insights

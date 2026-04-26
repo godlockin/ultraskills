@@ -7,6 +7,7 @@ version: 1.0.0
 created_at: 2026-04-26T00:00:00Z
 entry_point: SKILL.md
 dependencies: []
+tags: [planning, prd, github, documentation]
 ---
 
 This skill takes the current conversation context and codebase understanding and produces a PRD. Do NOT interview the user — just synthesize what you already know.

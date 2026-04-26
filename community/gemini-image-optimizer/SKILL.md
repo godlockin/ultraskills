@@ -1,6 +1,8 @@
 ---
 name: "gemini-image-optimizer"
 description: "Optimizes or refines images using Google's Gemini model. Invoke when user wants to improve image quality, change style, or fix artifacts using AI."
+version: 1.0.0
+tags: [community]
 ---
 
 # Gemini Image Optimizer

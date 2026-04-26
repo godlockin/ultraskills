@@ -7,6 +7,7 @@ version: 1.0.0
 created_at: 2026-04-26T00:00:00Z
 entry_point: SKILL.md
 dependencies: [jq]
+tags: [git, safety, hooks, guardrails, devops]
 ---
 
 # Setup Git Guardrails

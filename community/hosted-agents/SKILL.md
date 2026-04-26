@@ -1,6 +1,8 @@
 ---
 name: hosted-agents
 description: This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.
+version: 1.0.0
+tags: [community]
 ---
 
 # Hosted Agent Infrastructure

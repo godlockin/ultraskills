@@ -1,6 +1,8 @@
 ---
 name: bfg-repo-cleaner
 description: Git 仓库历史清理工具。使用 BFG Repo-Cleaner 移除大文件、敏感数据（密码、密钥）、凭证等私密信息。10-720x 比 git-filter-branch 更快。触发词：清理 git 历史、删除大文件、移除敏感数据、bfg、git 仓库净化
+version: 1.0.0
+tags: [devops]
 ---
 
 # BFG Repo-Cleaner

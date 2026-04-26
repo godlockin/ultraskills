@@ -1,6 +1,8 @@
 ---
 name: context-compression
 description: This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.
+version: 1.0.0
+tags: [community]
 ---
 
 # Context Compression Strategies

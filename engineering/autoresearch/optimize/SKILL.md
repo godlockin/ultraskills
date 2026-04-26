@@ -1,6 +1,8 @@
 ---
 name: autoresearch:optimize
 description: "Autonomous optimization loop: generate hypotheses, run experiments, make decisions, repeat until success criteria met."
+version: 1.0.0
+tags: [engineering]
 ---
 
 # Autoresearch Optimize: Autonomous Experimentation Loop

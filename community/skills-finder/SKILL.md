@@ -1,6 +1,8 @@
 ---
 name: skills-finder
 description: "The primary router and discovery engine for the UltraSkils library. Use this when you are unsure which skill to apply, when existing skills seem insufficient, or when a task requires novel capabilities that might need web research or new skill creation."
+version: 1.0.0
+tags: [community]
 ---
 
 # Skills Finder: The Intelligent Router & Incubator

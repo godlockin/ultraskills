@@ -1,6 +1,8 @@
 ---
 name: "image-to-video"
 description: "Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence."
+version: 1.0.0
+tags: [community, arena-winner]
 ---
 
 # Image to Video Converter

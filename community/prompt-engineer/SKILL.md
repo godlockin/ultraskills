@@ -1,6 +1,8 @@
 ---
 name: "prompt-engineer"
 description: "Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs."
+version: 1.0.0
+tags: [community]
 ---
 
 # Prompt Engineer

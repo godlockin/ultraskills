@@ -1,6 +1,8 @@
 ---
 name: autoresearch:execute
 description: "Execute a single experiment: modify code/config, run command, extract metrics, handle errors."
+version: 1.0.0
+tags: [engineering]
 ---
 
 # Autoresearch Execute: Single Experiment Runner

@@ -8,6 +8,7 @@ version: v1.2.0
 created_at: 2026-02-27
 entry_point: scripts/wrapper.py
 dependencies: ["pip", "gh CLI", "Node.js", "yt-dlp", "mcporter", "xreach", "docker"]
+tags: [community]
 ---
 
 # Agent Reach - AI Agent 互联网能力工具

@@ -7,6 +7,7 @@ github_url: https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d7244
 github_hash: 711ee69d724457093d52f685d729917f5389c686
 version: 1.0.0
 created_at: 2026-04-26T00:00:00Z
+tags: [community, composio, github, pr, code-review]
 ---
 
 # PR Comment Handler
