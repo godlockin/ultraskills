@@ -4498,60 +4498,6 @@
       ]
     },
     {
-      "id": "videocut:剪辑",
-      "name": "videocut:剪辑",
-      "path": "./community/剪辑",
-      "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 14,
-        "category": "video-editing",
-        "score": 47.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:高清化",
-      "name": "videocut:高清化",
-      "path": "./external/videocut-skills/高清化",
-      "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "rank": 4,
-        "category": "video-editing",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
       "id": "huashu-video-outline",
       "name": "huashu-video-outline",
       "path": "./external/huashu-skills/huashu-video-outline",
@@ -4561,60 +4507,6 @@
       ],
       "arena": {
         "rank": 5,
-        "category": "video-editing",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:剪口播",
-      "name": "videocut:剪口播",
-      "path": "./community/剪口播",
-      "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 15,
-        "category": "video-editing",
-        "score": 47.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:安装",
-      "name": "videocut:安装",
-      "path": "./community/安装",
-      "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 7,
         "category": "video-editing",
         "score": 56.25,
         "scores": {
@@ -4657,87 +4549,6 @@
       "priority": 3,
       "recommended_for": [
         "other-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:自更新",
-      "name": "videocut:自更新",
-      "path": "./community/自更新",
-      "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 6,
-        "category": "video-editing",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:自进化",
-      "name": "videocut:自进化",
-      "path": "./community/自进化",
-      "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 2,
-        "category": "video-editing",
-        "score": 68.75,
-        "scores": {
-          "speed": 30.0,
-          "quality": 22.75,
-          "maintainability": 16.0,
-          "total": 68.75
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "video-editing-related-tasks"
-      ]
-    },
-    {
-      "id": "videocut:字幕",
-      "name": "videocut:字幕",
-      "path": "./community/字幕",
-      "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "rank": 8,
-        "category": "video-editing",
-        "score": 56.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 10.25,
-          "maintainability": 16.0,
-          "total": 56.25
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "priority": 3,
-      "recommended_for": [
-        "video-editing-related-tasks"
       ]
     },
     {
@@ -15570,7 +15381,12 @@
         "rank": 2,
         "category": "eng-devops",
         "score": 68.0,
-        "scores": {"speed": 26, "quality": 28, "maintainability": 14, "total": 68.0},
+        "scores": {
+          "speed": 26,
+          "quality": 28,
+          "maintainability": 14,
+          "total": 68.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15594,7 +15410,12 @@
         "rank": 2,
         "category": "eng-code-quality",
         "score": 47.0,
-        "scores": {"speed": 25, "quality": 12, "maintainability": 10, "total": 47.0},
+        "scores": {
+          "speed": 25,
+          "quality": 12,
+          "maintainability": 10,
+          "total": 47.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15618,7 +15439,12 @@
         "rank": 2,
         "category": "other",
         "score": 63.0,
-        "scores": {"speed": 27, "quality": 22, "maintainability": 14, "total": 63.0},
+        "scores": {
+          "speed": 27,
+          "quality": 22,
+          "maintainability": 14,
+          "total": 63.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15642,7 +15468,12 @@
         "rank": 3,
         "category": "other",
         "score": 63.0,
-        "scores": {"speed": 27, "quality": 22, "maintainability": 14, "total": 63.0},
+        "scores": {
+          "speed": 27,
+          "quality": 22,
+          "maintainability": 14,
+          "total": 63.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15666,7 +15497,12 @@
         "rank": 2,
         "category": "data-analysis",
         "score": 60.0,
-        "scores": {"speed": 27, "quality": 20, "maintainability": 13, "total": 60.0},
+        "scores": {
+          "speed": 27,
+          "quality": 20,
+          "maintainability": 13,
+          "total": 60.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15690,7 +15526,12 @@
         "rank": 3,
         "category": "eng-devops",
         "score": 65.0,
-        "scores": {"speed": 25, "quality": 25, "maintainability": 15, "total": 65.0},
+        "scores": {
+          "speed": 25,
+          "quality": 25,
+          "maintainability": 15,
+          "total": 65.0
+        },
         "is_winner": false,
         "test_date": "2026-04-26",
         "test_version": "1.1.0"
@@ -15699,5 +15540,5 @@
       "recommended_for": []
     }
   ],
-  "total": 562
+  "total": 555
 }
