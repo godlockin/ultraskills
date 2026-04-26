@@ -2,13 +2,15 @@
 # setup.sh — Install ultraskills into ~/.claude/skills/
 #
 # Usage:
-#   ./setup.sh           # Symlink top skills (arena winners + community picks)
-#   ./setup.sh --all     # Symlink ALL 555 skills (slower discovery)
+#   ./setup.sh           # Hub-only (recommended): 1 entry point + search engine
+#   ./setup.sh --top     # Hub + 33 top/curated skills pre-loaded
+#   ./setup.sh --all     # Hub + ALL 555 skills (floods system-reminder)
 #   ./setup.sh --remove  # Remove all ultraskills symlinks from ~/.claude/skills/
 #
-# What this does:
-#   Creates symlinks: ~/.claude/skills/{skill-id} → /path/to/ultraskills/{skill-dir}
-#   Skills become discoverable by Claude Code, equivalent to default ~/.claude/skills/.
+# Recommended: hub-only
+#   - Only "ultraskills-hub" skill appears in system-reminder (1 entry)
+#   - Claude searches index on demand → loads specific SKILL.md when needed
+#   - Zero bloat, full access to all 555 skills
 
 set -euo pipefail
 
@@ -16,9 +18,8 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="$HOME/.claude/skills"
 INSTALL_MODE="${1:-}"
 
-# Top skills: arena winners (24 found in index) + curated community/karpathy picks
+# Curated top skills: arena winners + community picks
 TOP_SKILLS=(
-  # Arena winners
   "receiving-code-review|community/receiving-code-review"
   "ab-test-setup|external/marketingskills/skills/ab-test-setup"
   "site-architecture|external/marketingskills/skills/site-architecture"
@@ -43,7 +44,6 @@ TOP_SKILLS=(
   "cold-email|external/marketingskills/skills/cold-email"
   "revops|external/marketingskills/skills/revops"
   "pricing-strategy|external/marketingskills/skills/pricing-strategy"
-  # Curated community picks (karpathy + mattpocock)
   "karpathy-guidelines|community/karpathy-guidelines"
   "grill-me|community/grill-me"
   "design-an-interface|community/design-an-interface"
@@ -57,26 +57,31 @@ TOP_SKILLS=(
 
 mkdir -p "$SKILLS_DIR"
 
-install_skill() {
+symlink_skill() {
   local id="$1"
   local rel_path="$2"
   local src="$REPO_DIR/$rel_path"
   local dst="$SKILLS_DIR/$id"
 
   if [ ! -d "$src" ]; then
-    echo "  ⚠️  skip $id (dir not found: $src)"
+    echo "  ⚠️  skip $id (not found)"
     return
   fi
-
-  if [ -L "$dst" ]; then
-    rm "$dst"
-  elif [ -d "$dst" ]; then
-    echo "  ⚠️  skip $id (real dir exists at $dst, not overwriting)"
+  [ -L "$dst" ] && rm "$dst"
+  if [ -d "$dst" ]; then
+    echo "  ⚠️  skip $id (real dir exists)"
     return
   fi
-
   ln -sf "$src" "$dst"
   echo "  ✓ $id"
+}
+
+install_hub() {
+  local hub_src="$REPO_DIR/devops/ultraskills-hub"
+  local hub_dst="$SKILLS_DIR/ultraskills-hub"
+  [ -L "$hub_dst" ] && rm "$hub_dst"
+  ln -sf "$hub_src" "$hub_dst"
+  echo "  ✓ ultraskills-hub (search engine for all 555 skills)"
 }
 
 remove_ultraskills() {
@@ -97,18 +102,19 @@ remove_ultraskills() {
   exit 0
 }
 
+# ── Dispatch ──────────────────────────────────────────────────────────────────
+
 if [ "$INSTALL_MODE" = "--remove" ]; then
   remove_ultraskills
 fi
 
 if [ "$INSTALL_MODE" = "--all" ]; then
-  echo "Installing ALL skills from $REPO_DIR → $SKILLS_DIR"
-  echo "⚠️  555 skills will be registered. Session start may be slower."
+  echo "Installing hub + ALL skills → $SKILLS_DIR"
+  echo "⚠️  555 skills will appear in system-reminder. Expect token overhead."
   echo ""
-  # Use index.json to enumerate all skills
+  install_hub
   python3 - "$REPO_DIR" "$SKILLS_DIR" << 'PY'
 import json, os, sys
-
 repo_dir, skills_dir = sys.argv[1], sys.argv[2]
 idx = json.load(open(os.path.join(repo_dir, "index.json")))
 count = 0
@@ -117,28 +123,39 @@ for s in idx["skills"]:
     src = os.path.join(repo_dir, s["path"].lstrip("./"))
     dst = os.path.join(skills_dir, sid)
     if not os.path.isdir(src):
-        print(f"  ⚠️  skip {sid}")
         continue
     if os.path.islink(dst):
         os.remove(dst)
     elif os.path.isdir(dst):
-        print(f"  ⚠️  skip {sid} (real dir exists)")
         continue
     os.symlink(src, dst)
     count += 1
-print(f"\nInstalled {count} skills → {skills_dir}")
+print(f"  + {count} individual skills")
 PY
-else
-  echo "Installing top skills (arena winners + curated picks) → $SKILLS_DIR"
+  exit 0
+fi
+
+if [ "$INSTALL_MODE" = "--top" ]; then
+  echo "Installing hub + top 33 curated skills → $SKILLS_DIR"
   echo ""
+  install_hub
   for entry in "${TOP_SKILLS[@]}"; do
-    id="${entry%%|*}"
-    path="${entry##*|}"
-    install_skill "$id" "$path"
+    symlink_skill "${entry%%|*}" "${entry##*|}"
   done
   echo ""
-  echo "Installed ${#TOP_SKILLS[@]} skills → $SKILLS_DIR"
-  echo ""
-  echo "To install all 555 skills: ./setup.sh --all"
-  echo "To remove:                 ./setup.sh --remove"
+  echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
+  exit 0
 fi
+
+# Default: hub only
+echo "Installing ultraskills-hub → $SKILLS_DIR"
+echo ""
+install_hub
+echo ""
+echo "Done. Claude can now search all 555 ultraskills on demand."
+echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
+echo ""
+echo "Other modes:"
+echo "  ./setup.sh --top     # also pre-load 33 curated skills"
+echo "  ./setup.sh --all     # pre-load all 555 (high token overhead)"
+echo "  ./setup.sh --remove  # uninstall everything"

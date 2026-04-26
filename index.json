@@ -11,6 +11,28 @@
   },
   "skills": [
     {
+      "id": "ultraskills-hub",
+      "name": "UltraSkills Hub",
+      "path": "./devops/ultraskills-hub",
+      "description": "Search engine for 555+ AI skills. Use when you need a specialized skill but don't know which one. Searches index.json by keyword/intent, returns path to matching SKILL.md for on-demand loading.",
+      "tags": [
+        "hub",
+        "meta",
+        "search",
+        "discovery"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 100,
+        "is_winner": true
+      },
+      "priority": 0,
+      "recommended_for": [
+        "skill-discovery",
+        "finding-the-right-skill"
+      ]
+    },
+    {
       "id": "multi-agent-patterns",
       "name": "multi-agent-patterns",
       "path": "./community/multi-agent-patterns",
@@ -15532,5 +15554,6 @@
         "eng-testing-related-tasks"
       ]
     }
-  ]
+  ],
+  "total": 556
 }
