@@ -11907,6 +11907,156 @@
         "test_version": "1.0.0"
       },
       "version": "\"2.5.0\""
+    },
+    {
+      "id": "grill-me",
+      "name": "Grill Me",
+      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree.",
+      "path": "community/grill-me",
+      "tags": [
+        "planning",
+        "design",
+        "interview",
+        "stress-test"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "design-an-interface",
+      "name": "Design an Interface",
+      "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Based on 'Design It Twice'.",
+      "path": "community/design-an-interface",
+      "tags": [
+        "design",
+        "architecture",
+        "api",
+        "interface",
+        "parallel-agents"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "git-guardrails-claude-code",
+      "name": "Git Guardrails for Claude Code",
+      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute.",
+      "path": "community/git-guardrails-claude-code",
+      "tags": [
+        "git",
+        "safety",
+        "hooks",
+        "guardrails",
+        "devops"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "to-prd",
+      "name": "To PRD",
+      "description": "Turn the current conversation context into a PRD and submit it as a GitHub issue. No interview — synthesizes what you've already discussed.",
+      "path": "community/to-prd",
+      "tags": [
+        "planning",
+        "prd",
+        "github",
+        "documentation"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "to-issues",
+      "name": "To Issues",
+      "description": "Break any plan, spec, or PRD into independently-grabbable GitHub issues using vertical slices (tracer bullets).",
+      "path": "community/to-issues",
+      "tags": [
+        "planning",
+        "github",
+        "issues",
+        "vertical-slice",
+        "project-management"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "name": "Improve Codebase Architecture",
+      "description": "Find deepening opportunities in a codebase, informed by domain language in CONTEXT.md and ADRs. Surface shallow modules and propose refactors.",
+      "path": "community/improve-codebase-architecture",
+      "tags": [
+        "architecture",
+        "refactoring",
+        "ddd",
+        "modules",
+        "testability"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ubiquitous-language",
+      "name": "Ubiquitous Language",
+      "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms.",
+      "path": "community/ubiquitous-language",
+      "tags": [
+        "ddd",
+        "domain-model",
+        "glossary",
+        "terminology",
+        "documentation"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
+    },
+    {
+      "id": "triage-issue",
+      "name": "Triage Issue",
+      "description": "Investigate a bug by exploring the codebase, identify the root cause, and file a GitHub issue with a TDD-based fix plan.",
+      "path": "community/triage-issue",
+      "tags": [
+        "debugging",
+        "triage",
+        "github",
+        "tdd",
+        "bug"
+      ],
+      "arena": {
+        "category": "community"
+      },
+      "github_url": "https://github.com/mattpocock/skills",
+      "github_hash": "60aa99c0230fbac087514ba5fca2ae6e519965fe",
+      "version": "1.0.0"
     }
   ]
 }
