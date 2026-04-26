@@ -8,6 +8,7 @@ Usage:
   search.py --list-tags
   search.py --id <skill-id>        # exact lookup, returns path
   search.py --winners              # list arena winners only
+  search.py --compare <skill-id-a> <skill-id-b>  # side-by-side comparison
 
 Output: JSON array of matches with id, path, description, score, tags
 """
@@ -177,6 +178,57 @@ def main():
             print(json.dumps({"id": match["id"], "path": skill_path(match)}, ensure_ascii=False))
         else:
             print(json.dumps({"error": f"skill not found: {args[1]}"}))
+        return
+
+    if args[0] == "--compare" and len(args) >= 3:
+        def get_skill_by_id(idx, target):
+            skills = idx["skills"]
+            target = target.lower()
+            match = next((s for s in skills if s["id"].lower() == target), None)
+            if not match:
+                matches = [s for s in skills if target in s["id"].lower()]
+                if len(matches) == 1:
+                    match = matches[0]
+            return match
+
+        sa = get_skill_by_id(idx, args[1])
+        sb = get_skill_by_id(idx, args[2])
+        if not sa:
+            print(json.dumps({"error": f"skill not found: {args[1]}"}))
+            return
+        if not sb:
+            print(json.dumps({"error": f"skill not found: {args[2]}"}))
+            return
+
+        def arena_scores(s):
+            a = s.get("arena", {})
+            scores = a.get("scores", {})
+            return {
+                "total": a.get("score", 0),
+                "speed": scores.get("speed", 0),
+                "quality": scores.get("quality", 0),
+                "maintainability": scores.get("maintainability", 0),
+                "is_winner": a.get("is_winner", False),
+                "rank": a.get("rank", 999),
+                "category": a.get("category", ""),
+            }
+
+        aa = arena_scores(sa)
+        ab = arena_scores(sb)
+
+        dims = ["speed", "quality", "maintainability", "total"]
+        winner_id = sa["id"] if aa["total"] >= ab["total"] else sb["id"]
+
+        comparison = {
+            "skill_a": {"id": sa["id"], "description": sa.get("description", ""), "path": skill_path(sa), **aa},
+            "skill_b": {"id": sb["id"], "description": sb.get("description", ""), "path": skill_path(sb), **ab},
+            "winner": winner_id,
+            "dimension_winners": {
+                dim: (sa["id"] if aa[dim] >= ab[dim] else sb["id"]) for dim in dims
+            },
+            "score_delta": round(aa["total"] - ab["total"], 2),
+        }
+        print(json.dumps(comparison, ensure_ascii=False, indent=2))
         return
 
     # Default: keyword search
