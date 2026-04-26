@@ -4,7 +4,7 @@
     "updated_at": "2026-04-25",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-04-26",
-    "total_skills": 554,
+    "total_skills": 560,
     "total_clusters": 47,
     "avg_arena_score": 7.1,
     "total_winners": 47
@@ -15553,7 +15553,127 @@
       "recommended_for": [
         "eng-testing-related-tasks"
       ]
+    },
+    {
+      "id": "gh-fix-ci",
+      "name": "gh-fix-ci",
+      "path": "./community/gh-fix-ci",
+      "description": "Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.",
+      "tags": [
+        "community",
+        "composio",
+        "github",
+        "ci",
+        "devops"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
+    },
+    {
+      "id": "gh-address-comments",
+      "name": "gh-address-comments",
+      "path": "./community/gh-address-comments",
+      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+      "tags": [
+        "community",
+        "composio",
+        "github",
+        "pr",
+        "code-review"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
+    },
+    {
+      "id": "meeting-notes-and-actions",
+      "name": "meeting-notes-and-actions",
+      "path": "./community/meeting-notes-and-actions",
+      "description": "Turn meeting transcripts or rough notes into crisp summaries with decisions, risks, and owner-tagged action items; use for Zoom/Meet/Teams transcripts, call notes, or long meeting chats to generate share-ready outputs.",
+      "tags": [
+        "community",
+        "composio",
+        "meetings",
+        "productivity",
+        "notes"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
+    },
+    {
+      "id": "support-ticket-triage",
+      "name": "support-ticket-triage",
+      "path": "./community/support-ticket-triage",
+      "description": "Triage customer support tickets/emails/chats into categories, priority, and next action; draft responses and create reproducible steps; use for Zendesk/Intercom/Help Scout exports or pasted threads.",
+      "tags": [
+        "community",
+        "composio",
+        "support",
+        "triage",
+        "customer-success"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
+    },
+    {
+      "id": "spreadsheet-formula-helper",
+      "name": "spreadsheet-formula-helper",
+      "path": "./community/spreadsheet-formula-helper",
+      "description": "Write and debug spreadsheet formulas (Excel/Google Sheets), pivot tables, and array formulas; translate between dialects; use when users need working formulas with examples and edge-case checks.",
+      "tags": [
+        "community",
+        "composio",
+        "excel",
+        "google-sheets",
+        "formulas"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
+    },
+    {
+      "id": "changelog-generator",
+      "name": "changelog-generator",
+      "path": "./community/changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+      "tags": [
+        "community",
+        "composio",
+        "git",
+        "changelog",
+        "release-notes"
+      ],
+      "arena": {
+        "rank": 0,
+        "score": 0,
+        "is_winner": false
+      },
+      "priority": 2,
+      "recommended_for": []
     }
   ],
-  "total": 556
+  "total": 562
 }
