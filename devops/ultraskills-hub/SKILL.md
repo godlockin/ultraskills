@@ -55,6 +55,7 @@ JSON array. Key fields:
 - `path` — absolute path to skill directory
 - `description` — what it does / when to trigger
 - `is_winner` — arena winner (highest quality)
+- `winner_reason` — human-readable explanation of winner status, e.g. `"#1 in eng-devops category, arena score 91.5"`; `null` if not a winner
 - `match_score` — relevance to your query
 
 ## Load a Skill

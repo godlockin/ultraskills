@@ -63,6 +63,8 @@ tags: [devops, automation, testing, benchmark, skill-management]
 └─────────────────────────────────────────────────────────────┘
 
 总分 = (速度分 × 0.30) + (质量分 × 0.50) + (可维护性分 × 0.20)
+
+> ⚠️ **长度惩罚**：若 skill 输出 token 数超过 cluster 内中位数长度的 **1.5 倍**，Quality 分自动降 **10%**（防止 verbose skill 虚高得分，消除 length bias）。详见 HOW_IT_WORKS.md §2.1。
 ```
 
 ### 聚类维度

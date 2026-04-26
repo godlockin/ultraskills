@@ -112,6 +112,12 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
 
         # Emit result if relevant (keyword hit) or browsing (no query)
         if score > 0:
+            if is_winner and arena_cat:
+                rank_label = f"#{arena_rank} in {arena_cat} category" if arena_rank and arena_rank < 999 else f"winner in {arena_cat} category"
+                winner_reason = f"{rank_label}, arena score {arena_score}"
+            else:
+                winner_reason = None
+
             results.append({
                 "id": s["id"],
                 "path": path,
@@ -122,6 +128,7 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
                 "arena_category": arena_cat,
                 "quality_score": a_scores.get("quality", 0),
                 "is_winner": is_winner,
+                "winner_reason": winner_reason,
                 "match_score": round(score, 2),
             })
 

@@ -167,6 +167,42 @@ turn结束 → auto-evolve.sh flush → evolution.json (raw)
   → evolution.json cleared
 ```
 
+## 🔔 用户隐式反馈（Implicit Feedback）
+
+除显式 `/evolve` 触发外，evolution.json 可记录用户的**隐式行为信号**，无需打扰用户主动评分。
+
+### 字段扩展
+
+```json
+{
+  "skill_id": "...",
+  "session_id": "...",
+  "used_skill": true,
+  "output_modified": false,
+  "helpful": null
+}
+```
+
+| 字段 | 类型 | 含义 |
+|------|------|------|
+| `skill_id` | string | 被调用的 skill ID |
+| `session_id` | string | 会话唯一 ID，用于去重 |
+| `used_skill` | bool | 该 session 是否触发了此 skill |
+| `output_modified` | bool | 用户是否修改了 skill 的输出 |
+| `helpful` | bool \| null | 用户显式评价（null=未评价） |
+
+### 信号强度
+
+- **`output_modified: true`** → **最强负反馈信号**。用户对 skill 输出不满意，直接修改了结果。这比任何显式评分都更可信，因为是实际行为而非主观报告。
+- `used_skill: true` + `output_modified: false` → 隐式正反馈（接受了输出）
+- `helpful: false` → 显式负反馈（仅在用户主动评价时写入）
+
+### 自动采集
+
+Stop hook 在每个 turn 结束时检测 diff，若用户在 tool 调用后修改了 assistant 输出，写入 `output_modified: true` 到对应 skill 的 evolution.json。累积一定数量的负反馈信号后，触发 `/evolve` 自动复盘。
+
+---
+
 ## 📚 资源引用
 
 - [示例：进化 Skill](./examples/evolve-skill.md)
