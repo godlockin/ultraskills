@@ -108,60 +108,23 @@
     ]
   },
   {
-    "id": "skills-browser",
-    "name": "Skills·浏览器",
-    "skill_count": 36,
-    "winner": "gstack-openclaw-ceo-review",
-    "skills": [
-      "gstack-openclaw-ceo-review",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "gstack-openclaw-office-hours",
-      "context-restore",
-      "context-save",
-      "design-consultation",
-      "design-review",
-      "design-shotgun",
-      "document-release",
-      "office-hours",
-      "open-gstack-browser",
-      "plan-ceo-review",
-      "plan-design-review",
-      "plan-eng-review",
-      "plan-tune",
-      "codex",
-      "learn",
-      "retro",
-      "review",
-      "gstack-upgrade",
-      "gstack",
-      "browse",
-      "qa",
-      "make-pdf",
-      "setup-browser-cookies",
-      "freeze",
-      "unfreeze",
-      "\"generate\"",
-      "\"browserstack\"",
-      "\"coverage\"",
-      "\"fix\"",
-      "\"migrate\"",
-      "\"report\"",
-      "\"review\"",
-      "\"testrail\""
-    ]
-  },
-  {
     "id": "engineering-devops",
     "name": "工程·DevOps",
-    "skill_count": 31,
-    "winner": "\"github-skill-scout\"",
+    "skill_count": 36,
+    "winner": "gh-fix-ci",
     "skills": [
+      "gh-fix-ci",
+      "pua-en",
       "\"github-skill-scout\"",
+      "github-to-skills",
+      "pua",
+      "skill-manager",
       "skill-sync-manager",
+      "ultraskills-hub",
+      "pua-ja",
       "\"docker-development\"",
       "\"terraform-patterns\"",
-      "pua-en",
+      "skill-evolution-manager",
       "\"aws-solution-architect\"",
       "\"azure-cloud-architect\"",
       "\"gcp-cloud-architect\"",
@@ -169,8 +132,6 @@
       "\"incident-response\"",
       "\"ms365-tenant-manager\"",
       "\"helm-chart-builder\"",
-      "pua",
-      "pua-ja",
       "\"senior-devops\"",
       "\"release-manager\"",
       "devops-engineer",
@@ -193,14 +154,17 @@
   {
     "id": "engineering-code",
     "name": "工程·代码质量",
-    "skill_count": 30,
-    "winner": "karpathy-coder",
+    "skill_count": 33,
+    "winner": "receiving-code-review",
     "skills": [
+      "receiving-code-review",
+      "changelog-generator",
+      "improve-codebase-architecture",
       "karpathy-coder",
       "\"adversarial-reviewer\"",
       "digital-brain",
+      "gh-address-comments",
       "karpathy-guidelines",
-      "receiving-code-review",
       "\"engineering-skills\"",
       "\"a11y-audit\"",
       "\"senior-backend\"",
@@ -210,6 +174,7 @@
       "\"code-tour\"",
       "\"spec-driven-workflow\"",
       "code-reviewer",
+      "requesting-code-review",
       "\"engineering-advanced-skills\"",
       "\"code-reviewer\"",
       "\"focused-fix\"",
@@ -218,7 +183,6 @@
       "context-engineering-collection",
       "reasoning-trace-optimizer",
       "\"api-test-suite-builder\"",
-      "requesting-code-review",
       "tech-debt-tracker",
       "\"changelog-generator\"",
       "\"codebase-onboarding\"",
@@ -226,6 +190,46 @@
       "\"monorepo-navigator\"",
       "\"performance-profiler\"",
       "\"runbook-generator\""
+    ]
+  },
+  {
+    "id": "skills-browser",
+    "name": "Skills·浏览器",
+    "skill_count": 32,
+    "winner": "gstack-openclaw-ceo-review",
+    "skills": [
+      "gstack-openclaw-ceo-review",
+      "gstack-openclaw-office-hours",
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "design-consultation",
+      "design-review",
+      "design-shotgun",
+      "document-release",
+      "office-hours",
+      "open-gstack-browser",
+      "plan-ceo-review",
+      "plan-design-review",
+      "plan-eng-review",
+      "codex",
+      "retro",
+      "review",
+      "gstack-upgrade",
+      "gstack",
+      "browse",
+      "learn",
+      "qa",
+      "setup-browser-cookies",
+      "freeze",
+      "unfreeze",
+      "\"generate\"",
+      "\"browserstack\"",
+      "\"coverage\"",
+      "\"fix\"",
+      "\"migrate\"",
+      "\"report\"",
+      "\"review\"",
+      "\"testrail\""
     ]
   },
   {
@@ -261,29 +265,29 @@
     ]
   },
   {
-    "id": "skills-mgmt",
-    "name": "Skills·管理",
+    "id": "engineering-arch",
+    "name": "工程·架构",
     "skill_count": 18,
-    "winner": "command-development",
+    "winner": "design-an-interface",
     "skills": [
-      "command-development",
-      "hook-development",
-      "plugin-settings",
-      "plugin-structure",
-      "skill-creator",
-      "example-skill",
-      "writing-skills",
-      "claude-automation-recommender",
-      "claude-md-improver",
-      "find-skills",
-      "skill-manager",
-      "skills-finder",
-      "skill-template",
-      "github-to-skills",
-      "using-superpowers",
-      "playground",
-      "skill-evolution-manager",
-      "template-skill"
+      "design-an-interface",
+      "ubiquitous-language",
+      "mcp-builder",
+      "mcp-integration",
+      "site-architecture",
+      "\"culture-architect\"",
+      "\"site-architecture\"",
+      "\"senior-architect\"",
+      "graphql-architect",
+      "rag-architect",
+      "angular-architect",
+      "architecture-designer",
+      "cloud-architect",
+      "java-architect",
+      "microservices-architect",
+      "\"rag-architect\"",
+      "\"interview-system-designer\"",
+      "\"migration-architect\""
     ]
   },
   {
@@ -312,44 +316,20 @@
     ]
   },
   {
-    "id": "content-video",
-    "name": "内容·视频",
-    "skill_count": 16,
-    "winner": "remotion",
-    "skills": [
-      "remotion",
-      "\"video-frame-extractor\"",
-      "video-content-strategist",
-      "\"demo-video\"",
-      "huashu-video-check",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
-      "videocut:剪辑",
-      "videocut:高清化",
-      "huashu-video-outline",
-      "videocut:剪口播",
-      "videocut:安装",
-      "huashu-douyin-script",
-      "videocut:自更新",
-      "videocut:自进化",
-      "videocut:字幕"
-    ]
-  },
-  {
     "id": "education",
     "name": "教育·学习研究",
     "skill_count": 16,
-    "winner": "customer-research",
+    "winner": "autoresearch",
     "skills": [
-      "customer-research",
-      "\"autoresearch-agent\"",
       "autoresearch",
+      "customer-research",
       "autoresearch:execute",
-      "comprehensive-research-agent",
-      "huashu-material-search",
+      "\"autoresearch-agent\"",
       "autoresearch:analyze",
       "autoresearch:design",
       "autoresearch:optimize",
+      "comprehensive-research-agent",
+      "huashu-material-search",
       "\"loop\"",
       "\"resume\"",
       "\"setup\"",
@@ -357,30 +337,6 @@
       "huashu-prompt-save",
       "huashu-research",
       "huashu-info-search"
-    ]
-  },
-  {
-    "id": "engineering-arch",
-    "name": "工程·架构",
-    "skill_count": 16,
-    "winner": "mcp-integration",
-    "skills": [
-      "mcp-integration",
-      "site-architecture",
-      "\"culture-architect\"",
-      "\"site-architecture\"",
-      "mcp-builder",
-      "\"senior-architect\"",
-      "graphql-architect",
-      "rag-architect",
-      "angular-architect",
-      "architecture-designer",
-      "cloud-architect",
-      "java-architect",
-      "microservices-architect",
-      "\"rag-architect\"",
-      "\"interview-system-designer\"",
-      "\"migration-architect\""
     ]
   },
   {
@@ -430,6 +386,94 @@
     ]
   },
   {
+    "id": "skills-mgmt",
+    "name": "Skills·管理",
+    "skill_count": 15,
+    "winner": "skill-creator",
+    "skills": [
+      "skill-creator",
+      "writing-skills",
+      "command-development",
+      "hook-development",
+      "plugin-settings",
+      "plugin-structure",
+      "skills-finder",
+      "example-skill",
+      "using-superpowers",
+      "claude-automation-recommender",
+      "claude-md-improver",
+      "find-skills",
+      "skill-template",
+      "playground",
+      "template-skill"
+    ]
+  },
+  {
+    "id": "business-pm",
+    "name": "商业·项目管理",
+    "skill_count": 14,
+    "winner": "to-issues",
+    "skills": [
+      "to-issues",
+      "\"scrum-master\"",
+      "grill-me",
+      "\"confluence-expert\"",
+      "\"senior-pm\"",
+      "\"tc-tracker\"",
+      "\"atlassian-templates\"",
+      "\"jira-expert\"",
+      "meeting-analyzer",
+      "\"pm-skills\"",
+      "\"atlassian-admin\"",
+      "team-communications",
+      "\"skill-tester\"",
+      "sample-skill"
+    ]
+  },
+  {
+    "id": "content-video",
+    "name": "内容·视频",
+    "skill_count": 14,
+    "winner": "remotion",
+    "skills": [
+      "remotion",
+      "\"video-frame-extractor\"",
+      "video-content-strategist",
+      "\"demo-video\"",
+      "\"image-to-video\"",
+      "\"video-splitter\"",
+      "huashu-video-check",
+      "videocut:剪口播",
+      "videocut:高清化",
+      "huashu-video-outline",
+      "videocut:字幕",
+      "huashu-douyin-script",
+      "videocut:安装",
+      "videocut:自进化"
+    ]
+  },
+  {
+    "id": "content-writing",
+    "name": "内容·写作",
+    "skill_count": 13,
+    "winner": "doc-coauthoring",
+    "skills": [
+      "doc-coauthoring",
+      "\"copy-editing\"",
+      "copy-editing",
+      "support-ticket-triage",
+      "\"copywriting\"",
+      "copywriting",
+      "internal-comms",
+      "blessing-styles",
+      "huashu-proofreading",
+      "huashu-script-polish",
+      "huashu-article-edit",
+      "\"email-template-builder\"",
+      "caveman-help"
+    ]
+  },
+  {
     "id": "engineering-ml",
     "name": "工程·ML/AI",
     "skill_count": 13,
@@ -469,46 +513,6 @@
       "\"popup-cro\"",
       "\"signup-flow-cro\"",
       "paywall-upgrade-cro"
-    ]
-  },
-  {
-    "id": "business-pm",
-    "name": "商业·项目管理",
-    "skill_count": 12,
-    "winner": "\"scrum-master\"",
-    "skills": [
-      "\"scrum-master\"",
-      "\"confluence-expert\"",
-      "\"senior-pm\"",
-      "\"tc-tracker\"",
-      "\"atlassian-templates\"",
-      "\"jira-expert\"",
-      "meeting-analyzer",
-      "\"pm-skills\"",
-      "\"atlassian-admin\"",
-      "team-communications",
-      "\"skill-tester\"",
-      "sample-skill"
-    ]
-  },
-  {
-    "id": "content-writing",
-    "name": "内容·写作",
-    "skill_count": 12,
-    "winner": "\"copy-editing\"",
-    "skills": [
-      "\"copy-editing\"",
-      "copy-editing",
-      "\"copywriting\"",
-      "copywriting",
-      "doc-coauthoring",
-      "blessing-styles",
-      "internal-comms",
-      "huashu-proofreading",
-      "huashu-script-polish",
-      "huashu-article-edit",
-      "\"email-template-builder\"",
-      "caveman-help"
     ]
   },
   {
@@ -573,19 +577,19 @@
     "id": "content-image",
     "name": "内容·图像设计",
     "skill_count": 11,
-    "winner": "\"photography-expert-pro\"",
+    "winner": "algorithmic-art",
     "skills": [
-      "\"photography-expert-pro\"",
-      "face-beautification",
       "algorithmic-art",
       "\"visual-expert-pro-(gemini-3.0-edition)\"",
       "\"commercial-director-pro\"",
+      "\"photography-expert-pro\"",
+      "face-beautification",
+      "\"gemini-image-optimizer\"",
       "huashu-design",
       "huashu-image-upload",
       "image-analyzer",
       "image-auditor",
-      "image-reviewer",
-      "\"gemini-image-optimizer\""
+      "image-reviewer"
     ]
   },
   {
@@ -607,6 +611,23 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 9,
+    "winner": "awesome-design-md",
+    "skills": [
+      "awesome-design-md",
+      "ui-ux-pro-max-skill",
+      "aso-audit",
+      "mac-whisper",
+      "spreadsheet-formula-helper",
+      "to-prd",
+      "community-marketing",
+      "meeting-notes-and-actions",
+      "claude-opus-4-5-migration"
+    ]
+  },
+  {
     "id": "content-seo",
     "name": "内容·SEO",
     "skill_count": 8,
@@ -623,66 +644,66 @@
     ]
   },
   {
+    "id": "engineering-debug",
+    "name": "工程·调试",
+    "skill_count": 8,
+    "winner": "git-guardrails-claude-code",
+    "skills": [
+      "git-guardrails-claude-code",
+      "systematic-debugging",
+      "gstack-openclaw-investigate",
+      "fullstack-guardian",
+      "secure-code-guardian",
+      "investigate",
+      "careful",
+      "guard"
+    ]
+  },
+  {
     "id": "engineering-qa",
     "name": "工程·QA",
     "skill_count": 8,
-    "winner": "\"org-health-diagnostic\"",
+    "winner": "webapp-testing",
     "skills": [
+      "webapp-testing",
       "\"org-health-diagnostic\"",
       "\"senior-qa\"",
-      "webapp-testing",
+      "verification-before-completion",
       "devex-review",
       "plan-devex-review",
-      "qa-only",
-      "verification-before-completion",
-      "health"
+      "health",
+      "qa-only"
     ]
   },
   {
     "id": "engineering-testing",
     "name": "工程·测试",
     "skill_count": 8,
-    "winner": "skill-arena",
+    "winner": "triage-issue",
     "skills": [
+      "triage-issue",
       "skill-arena",
+      "gstack-openclaw-retro",
       "writing-hookify-rules",
       "test-case-templates",
-      "gstack-openclaw-retro",
-      "\"tdd-guide\"",
       "test-driven-development",
-      "benchmark-models",
+      "\"tdd-guide\"",
       "benchmark"
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 8,
-    "winner": "awesome-design-md",
-    "skills": [
-      "awesome-design-md",
-      "ui-ux-pro-max-skill",
-      "aso-audit",
-      "competitor-profiling",
-      "directory-submissions",
-      "mac-whisper",
-      "community-marketing",
-      "claude-opus-4-5-migration"
     ]
   },
   {
     "id": "productivity",
     "name": "效率·生产力",
     "skill_count": 8,
-    "winner": "brainstorming",
+    "winner": "slack-gif-creator",
     "skills": [
-      "brainstorming",
       "slack-gif-creator",
+      "brainstorming",
       "dynamic-expert-group",
+      "caveman",
       "caveman-compress",
       "caveman-commit",
       "caveman-review",
-      "caveman",
       "compress"
     ]
   },
@@ -694,26 +715,11 @@
     "skills": [
       "magazine-web-ppt",
       "xlsx",
-      "huashu-slides",
       "docx",
       "pdf",
       "pptx",
+      "huashu-slides",
       "huashu-md-to-pdf"
-    ]
-  },
-  {
-    "id": "engineering-debug",
-    "name": "工程·调试",
-    "skill_count": 7,
-    "winner": "systematic-debugging",
-    "skills": [
-      "systematic-debugging",
-      "fullstack-guardian",
-      "secure-code-guardian",
-      "gstack-openclaw-investigate",
-      "investigate",
-      "careful",
-      "guard"
     ]
   },
   {
@@ -781,8 +787,8 @@
       "canvas-design",
       "frontend-design",
       "web-artifacts-builder",
-      "design-html",
-      "theme-factory"
+      "theme-factory",
+      "design-html"
     ]
   },
   {
@@ -816,9 +822,9 @@
     "winner": "using-git-worktrees",
     "skills": [
       "using-git-worktrees",
-      "git-commit-master",
       "finishing-a-development-branch",
-      "bfg-repo-cleaner"
+      "bfg-repo-cleaner",
+      "git-commit-master"
     ]
   },
   {
@@ -881,6 +887,17 @@
     ]
   },
   {
+    "id": "agent-memory",
+    "name": "Agent·记忆系统",
+    "skill_count": 3,
+    "winner": "memory-systems",
+    "skills": [
+      "memory-systems",
+      "project-development",
+      "checkpoint"
+    ]
+  },
+  {
     "id": "agent-eval",
     "name": "Agent·评估",
     "skill_count": 2,
@@ -888,16 +905,6 @@
     "skills": [
       "advanced-evaluation",
       "evaluation"
-    ]
-  },
-  {
-    "id": "agent-memory",
-    "name": "Agent·记忆系统",
-    "skill_count": 2,
-    "winner": "memory-systems",
-    "skills": [
-      "memory-systems",
-      "project-development"
     ]
   },
   {

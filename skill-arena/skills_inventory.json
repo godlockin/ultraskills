@@ -4,9 +4,10 @@
     "path": "./community/advanced-evaluation/SKILL.md",
     "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
     "tags": [
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -26,7 +27,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -67,9 +68,10 @@
     "path": "./community/bdi-mental-states/SKILL.md",
     "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
     "tags": [
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -103,7 +105,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -113,7 +115,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -123,8 +125,22 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "changelog-generator",
+    "path": "./community/changelog-generator/SKILL.md",
+    "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+    "tags": [
+      "community",
+      "composio",
+      "git",
+      "changelog",
+      "release-notes"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/changelog-generator"
   },
   {
     "id": "claude-api",
@@ -133,7 +149,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -143,7 +159,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -153,7 +169,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -163,7 +179,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -173,7 +189,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -183,8 +199,23 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "design-an-interface",
+    "path": "./community/design-an-interface/SKILL.md",
+    "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
+    "tags": [
+      "design",
+      "architecture",
+      "api",
+      "interface",
+      "parallel-agents",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "dispatching-parallel-agents",
@@ -193,7 +224,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -203,7 +234,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -213,7 +244,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -223,7 +254,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -233,7 +264,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -243,7 +274,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -269,7 +300,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -279,7 +310,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -289,7 +320,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -299,8 +330,36 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "gh-address-comments",
+    "path": "./community/gh-address-comments/SKILL.md",
+    "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+    "tags": [
+      "community",
+      "composio",
+      "github",
+      "pr",
+      "code-review"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-address-comments"
+  },
+  {
+    "id": "gh-fix-ci",
+    "path": "./community/gh-fix-ci/SKILL.md",
+    "description": "Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.",
+    "tags": [
+      "community",
+      "composio",
+      "github",
+      "ci",
+      "devops"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-fix-ci"
   },
   {
     "id": "git-commit-master",
@@ -314,6 +373,21 @@
     ],
     "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "git-guardrails-claude-code",
+    "path": "./community/git-guardrails-claude-code/SKILL.md",
+    "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+    "tags": [
+      "git",
+      "safety",
+      "hooks",
+      "guardrails",
+      "devops",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "\"github-skill-scout\"",
@@ -330,14 +404,18 @@
     "github_url": ""
   },
   {
-    "id": "github-to-skills",
-    "path": "./community/github-to-skills/SKILL.md",
-    "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
+    "id": "grill-me",
+    "path": "./community/grill-me/SKILL.md",
+    "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
     "tags": [
+      "planning",
+      "design",
+      "interview",
+      "stress-test",
       "community"
     ],
-    "version": "",
-    "github_url": ""
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "gstack",
@@ -362,16 +440,6 @@
   {
     "id": "benchmark",
     "path": "./community/gstack/benchmark/SKILL.md",
-    "description": "|",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "benchmark-models",
-    "path": "./community/gstack/benchmark-models/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -410,28 +478,18 @@
     "github_url": ""
   },
   {
+    "id": "checkpoint",
+    "path": "./community/gstack/checkpoint/SKILL.md",
+    "description": "|",
+    "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "codex",
     "path": "./community/gstack/codex/SKILL.md",
-    "description": "|",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "context-restore",
-    "path": "./community/gstack/context-restore/SKILL.md",
-    "description": "|",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "context-save",
-    "path": "./community/gstack/context-save/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -580,16 +638,6 @@
     "github_url": ""
   },
   {
-    "id": "make-pdf",
-    "path": "./community/gstack/make-pdf/SKILL.md",
-    "description": "|",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
     "id": "office-hours",
     "path": "./community/gstack/office-hours/SKILL.md",
     "description": "|",
@@ -612,41 +660,41 @@
   {
     "id": "gstack-openclaw-ceo-review",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
-    "description": "Use when asked to review a plan, challenge a proposal, run a CEO review, poke holes in an approach, think bigger about scope, or decide whether to expand or reduce the plan.",
+    "description": "CEO/founder-mode plan review. Rethink the problem, find the 10-star product, challenge premises, expand scope when it creates a better product. Four modes: SCOPE EXPANSION (dream big), SELECTIVE EXPANSION (hold scope + cherry-pick), HOLD SCOPE (maximum rigor), SCOPE REDUCTION (strip to essentials). Use when asked to review a plan, challenge this, CEO review, poke holes, think bigger, or expand scope.",
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-investigate",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
-    "description": "Use when asked to debug, fix a bug, investigate an error, or do root cause analysis, and when users report errors, stack traces, unexpected behavior, or say something stopped working.",
+    "description": "Systematic debugging with root cause investigation. Four phases: investigate, analyze, hypothesize, implement. Iron Law: no fixes without root cause. Use when asked to debug, fix a bug, investigate an error, or root cause analysis. Proactively use when user reports errors, stack traces, unexpected behavior, or says something stopped working.",
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-office-hours",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
-    "description": "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written.",
+    "description": "Product interrogation with six forcing questions. Two modes: startup diagnostic (demand reality, status quo, desperate specificity, narrowest wedge, observation, future-fit) and builder brainstorm. Use when asked to brainstorm, \"is this worth building\", \"I have an idea\", \"office hours\", or \"help me think through this\". Proactively use when user describes a new product idea or wants to think through design decisions before any code is written.",
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
     "id": "gstack-openclaw-retro",
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
-    "description": "\"Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.\"",
+    "description": "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.",
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -692,16 +740,6 @@
   {
     "id": "plan-eng-review",
     "path": "./community/gstack/plan-eng-review/SKILL.md",
-    "description": "|",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "plan-tune",
-    "path": "./community/gstack/plan-tune/SKILL.md",
     "description": "|",
     "tags": [
       "community"
@@ -796,7 +834,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -806,7 +844,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -856,10 +894,26 @@
     "path": "./community/image-to-video/SKILL.md",
     "description": "\"Combines a sequence of images into a video file. Invoke when user wants to create a video from frames, timelapse, or image sequence.\"",
     "tags": [
+      "community",
+      "arena-winner"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "improve-codebase-architecture",
+    "path": "./community/improve-codebase-architecture/SKILL.md",
+    "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
+    "tags": [
+      "architecture",
+      "refactoring",
+      "ddd",
+      "modules",
+      "testability",
       "community"
     ],
-    "version": "",
-    "github_url": ""
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "internal-comms",
@@ -868,7 +922,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -930,7 +984,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -948,13 +1002,27 @@
     "github_url": ""
   },
   {
+    "id": "meeting-notes-and-actions",
+    "path": "./community/meeting-notes-and-actions/SKILL.md",
+    "description": "Turn meeting transcripts or rough notes into crisp summaries with decisions, risks, and owner-tagged action items; use for Zoom/Meet/Teams transcripts, call notes, or long meeting chats to generate share-ready outputs.",
+    "tags": [
+      "community",
+      "composio",
+      "meetings",
+      "productivity",
+      "notes"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/meeting-notes-and-actions"
+  },
+  {
     "id": "memory-systems",
     "path": "./community/memory-systems/SKILL.md",
     "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -964,7 +1032,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -974,7 +1042,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -994,7 +1062,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1004,7 +1072,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1014,7 +1082,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1024,7 +1092,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1034,7 +1102,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1044,7 +1112,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.35.0\"",
+    "version": "\"2.34.0\"",
     "github_url": ""
   },
   {
@@ -1054,7 +1122,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1064,7 +1132,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1074,7 +1142,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1095,9 +1163,10 @@
     "path": "./community/receiving-code-review/SKILL.md",
     "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
     "tags": [
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1123,35 +1192,6 @@
     "tags": [
       "community"
     ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "skill-arena",
-    "path": "./community/skill-arena/SKILL.md",
-    "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
-    "tags": [
-      "devops",
-      "automation",
-      "testing",
-      "benchmark",
-      "skill-management",
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "test-case-templates",
-    "path": "./community/skill-arena/templates/test-case-templates/SKILL.md",
-    "description": "Template library for skill arena test cases - 5-10 comprehensive tests per category",
-    "tags": [
-      "devops",
-      "testing",
-      "benchmark",
-      "templates",
-      "community"
-    ],
     "version": "1.0.0",
     "github_url": ""
   },
@@ -1160,41 +1200,6 @@
     "path": "./community/skill-creator/SKILL.md",
     "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
     "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "skill-evolution-manager",
-    "path": "./community/skill-evolution-manager/SKILL.md",
-    "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "skill-manager",
-    "path": "./community/skill-manager/SKILL.md",
-    "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "skill-sync-manager",
-    "path": "./community/skill-sync-manager/SKILL.md",
-    "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
-    "tags": [
-      "devops",
-      "automation",
-      "sync",
-      "submodule",
-      "update",
       "community"
     ],
     "version": "1.0.0",
@@ -1207,7 +1212,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1217,8 +1222,22 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "spreadsheet-formula-helper",
+    "path": "./community/spreadsheet-formula-helper/SKILL.md",
+    "description": "Write and debug spreadsheet formulas (Excel/Google Sheets), pivot tables, and array formulas; translate between dialects; use when users need working formulas with examples and edge-case checks.",
+    "tags": [
+      "community",
+      "composio",
+      "excel",
+      "google-sheets",
+      "formulas"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/spreadsheet-formula-helper"
   },
   {
     "id": "subagent-driven-development",
@@ -1227,8 +1246,22 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "support-ticket-triage",
+    "path": "./community/support-ticket-triage/SKILL.md",
+    "description": "Triage customer support tickets/emails/chats into categories, priority, and next action; draft responses and create reproducible steps; use for Zendesk/Intercom/Help Scout exports or pasted threads.",
+    "tags": [
+      "community",
+      "composio",
+      "support",
+      "triage",
+      "customer-success"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/support-ticket-triage"
   },
   {
     "id": "systematic-debugging",
@@ -1237,7 +1270,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1261,7 +1294,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1271,8 +1304,37 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "to-issues",
+    "path": "./community/to-issues/SKILL.md",
+    "description": "Break a plan, spec, or PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.",
+    "tags": [
+      "planning",
+      "github",
+      "issues",
+      "vertical-slice",
+      "project-management",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "id": "to-prd",
+    "path": "./community/to-prd/SKILL.md",
+    "description": "Turn the current conversation context into a PRD and submit it as a GitHub issue. Use when user wants to create a PRD from the current context.",
+    "tags": [
+      "planning",
+      "prd",
+      "github",
+      "documentation",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "tool-design",
@@ -1281,8 +1343,38 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
+  },
+  {
+    "id": "triage-issue",
+    "path": "./community/triage-issue/SKILL.md",
+    "description": "Triage a bug or issue by exploring the codebase to find root cause, then create a GitHub issue with a TDD-based fix plan. Use when user reports a bug, wants to file an issue, mentions \"triage\", or wants to investigate and plan a fix for a problem.",
+    "tags": [
+      "debugging",
+      "triage",
+      "github",
+      "tdd",
+      "bug",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "id": "ubiquitous-language",
+    "path": "./community/ubiquitous-language/SKILL.md",
+    "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
+    "tags": [
+      "ddd",
+      "domain-model",
+      "glossary",
+      "terminology",
+      "documentation",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/mattpocock/skills"
   },
   {
     "id": "ui-ux-pro-max-skill",
@@ -1308,7 +1400,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1318,7 +1410,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1328,7 +1420,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1354,7 +1446,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1364,7 +1456,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1374,7 +1466,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1384,7 +1476,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1394,7 +1486,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1404,7 +1496,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1414,67 +1506,7 @@
     "tags": [
       "community"
     ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:剪口播",
-    "path": "./community/剪口播/SKILL.md",
-    "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:剪辑",
-    "path": "./community/剪辑/SKILL.md",
-    "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:字幕",
-    "path": "./community/字幕/SKILL.md",
-    "description": "字幕生成与烧录。转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:安装",
-    "path": "./community/安装/SKILL.md",
-    "description": "环境准备。安装依赖、下载模型、验证环境。触发词：安装、环境准备、初始化",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:自更新",
-    "path": "./community/自更新/SKILL.md",
-    "description": "自更新 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-    "tags": [
-      "community"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "videocut:自进化",
-    "path": "./community/自进化/SKILL.md",
-    "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-    "tags": [
-      "community"
-    ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1484,7 +1516,20 @@
     "tags": [
       "devops"
     ],
-    "version": "",
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "github-to-skills",
+    "path": "./devops/github-to-skills/SKILL.md",
+    "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
+    "tags": [
+      "devops",
+      "automation",
+      "github",
+      "skill-creation"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1494,7 +1539,7 @@
     "tags": [
       "devops"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1504,7 +1549,7 @@
     "tags": [
       "devops"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1514,7 +1559,89 @@
     "tags": [
       "devops"
     ],
-    "version": "",
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "skill-arena",
+    "path": "./devops/skill-arena/SKILL.md",
+    "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
+    "tags": [
+      "devops",
+      "automation",
+      "testing",
+      "benchmark",
+      "skill-management"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "test-case-templates",
+    "path": "./devops/skill-arena/templates/test-case-templates/SKILL.md",
+    "description": "Template library for skill arena test cases - 5-10 comprehensive tests per category",
+    "tags": [
+      "devops",
+      "testing",
+      "benchmark",
+      "templates"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "skill-evolution-manager",
+    "path": "./devops/skill-evolution-manager/SKILL.md",
+    "description": "Skills 进化管理器。在对话结束时根据用户反馈持续优化 Skills。触发词：/evolve, \"复盘一下\", \"把这个经验保存到 Skill\"",
+    "tags": [
+      "devops",
+      "automation",
+      "evolution",
+      "feedback",
+      "learning"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "skill-manager",
+    "path": "./devops/skill-manager/SKILL.md",
+    "description": "Skills 生命周期管理器。用于批量扫描 Skills 目录、检查 GitHub 更新、执行升级引导。触发词：/skill-manager check, list, delete",
+    "tags": [
+      "devops",
+      "automation",
+      "lifecycle",
+      "management"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "skill-sync-manager",
+    "path": "./devops/skill-sync-manager/SKILL.md",
+    "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
+    "tags": [
+      "devops",
+      "automation",
+      "sync",
+      "submodule",
+      "update"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "ultraskills-hub",
+    "path": "./devops/ultraskills-hub/SKILL.md",
+    "description": "Search engine for 555+ AI skills. Use when you need a specialized skill but don't know which one. Trigger: \"find skill for X\", \"search ultraskills\", or whenever a task might benefit from a specialized skill that isn't already loaded.",
+    "tags": [
+      "hub",
+      "search",
+      "discovery",
+      "meta",
+      "devops"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1522,9 +1649,10 @@
     "path": "./engineering/autoresearch/SKILL.md",
     "description": "\"Universal autonomous task optimization framework. Transforms any measurable, iterable task into a self-improving system through conversational design and intelligent optimization loops.\"",
     "tags": [
-      "engineering"
+      "engineering",
+      "arena-winner"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1534,7 +1662,7 @@
     "tags": [
       "engineering"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1544,7 +1672,7 @@
     "tags": [
       "engineering"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1554,7 +1682,7 @@
     "tags": [
       "engineering"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1564,7 +1692,7 @@
     "tags": [
       "engineering"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -5155,7 +5283,7 @@
   {
     "id": "community-marketing",
     "path": "./external/marketingskills/skills/community-marketing/SKILL.md",
-    "description": "\"Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\\"\"",
+    "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
     "tags": [
       "marketingskills"
     ],
@@ -5170,16 +5298,6 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
-  },
-  {
-    "id": "competitor-profiling",
-    "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
-    "description": "\"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitor-alternatives. For sales-specific battle cards, see sales-enablement.\"",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -5216,16 +5334,6 @@
     "id": "customer-research",
     "path": "./external/marketingskills/skills/customer-research/SKILL.md",
     "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
-    "id": "directory-submissions",
-    "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
-    "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch-strategy. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
     "tags": [
       "marketingskills"
     ],
@@ -5329,7 +5437,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.2.0",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
@@ -5429,7 +5537,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.2.0",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
@@ -5639,6 +5747,46 @@
     "github_url": ""
   },
   {
+    "id": "videocut:剪口播",
+    "path": "./external/videocut-skills/剪口播/SKILL.md",
+    "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
+    "tags": [
+      "videocut"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "videocut:字幕",
+    "path": "./external/videocut-skills/字幕/SKILL.md",
+    "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
+    "tags": [
+      "videocut"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "videocut:安装",
+    "path": "./external/videocut-skills/安装/SKILL.md",
+    "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
+    "tags": [
+      "videocut"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "videocut:自进化",
+    "path": "./external/videocut-skills/自进化/SKILL.md",
+    "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
+    "tags": [
+      "videocut"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
     "id": "videocut:高清化",
     "path": "./external/videocut-skills/高清化/SKILL.md",
     "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
@@ -5655,7 +5803,7 @@
     "tags": [
       "web-access"
     ],
-    "version": "\"2.5.0\"",
+    "version": "\"2.4.3\"",
     "github_url": ""
   },
   {
