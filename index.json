@@ -15914,6 +15914,86 @@
       "recommended_for": [
         "data-analysis-related-tasks"
       ]
+    },
+    {
+      "id": "mediacrawler",
+      "name": "MediaCrawler - 多平台自媒体数据采集",
+      "path": "./external/mediacrawler",
+      "description": "小红书/抖音/微博/B站/知乎关键词搜索、帖子详情、评论爬取，支持SQLite/MySQL存储",
+      "tags": [
+        "scraping",
+        "social-media",
+        "xiaohongshu",
+        "douyin",
+        "weibo",
+        "crawler",
+        "data-collection"
+      ],
+      "version": "0.1.0",
+      "source": "external"
+    },
+    {
+      "id": "chinese-text-analysis",
+      "name": "Chinese Text Analysis - 中文NLP分析管道",
+      "path": "./external/chinese-text-analysis",
+      "description": "中文情感分析(正/负)、关键词提取、语义主题聚类，对接MediaCrawler采集结果",
+      "tags": [
+        "nlp",
+        "sentiment-analysis",
+        "keyword-extraction",
+        "semantic-clustering",
+        "chinese",
+        "text-analysis"
+      ],
+      "version": "1.0.0",
+      "source": "external"
+    },
+    {
+      "id": "video-scene-splitter",
+      "name": "Video Scene Splitter - 视频镜头切割与帧提取",
+      "path": "./external/video-scene-splitter",
+      "description": "自动检测视频场景切换点、按时间区间抽帧（前10s/中段/结尾5s）、提取音轨，为视频内容分析提供素材",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "scene-detection",
+        "frame-extraction",
+        "opencv"
+      ],
+      "version": "0.6.7",
+      "source": "external"
+    },
+    {
+      "id": "video-transcriber",
+      "name": "Video Transcriber - 视频语音转录",
+      "path": "./external/video-transcriber",
+      "description": "OpenAI Whisper本地转录视频/音频，生成带时间戳文本，支持中文，供视频内容分析使用",
+      "tags": [
+        "whisper",
+        "transcription",
+        "speech-to-text",
+        "chinese",
+        "subtitle",
+        "timestamps"
+      ],
+      "version": "20231117",
+      "source": "external"
+    },
+    {
+      "id": "video-content-analyzer",
+      "name": "Video Content Analyzer - 短视频深度内容分析",
+      "path": "./external/video-content-analyzer",
+      "description": "分析短视频前10秒钩子、中段内容簇、结尾5秒，输出完整结构/内容分布/情感曲线报告",
+      "tags": [
+        "video-analysis",
+        "content-strategy",
+        "short-video",
+        "douyin",
+        "xiaohongshu",
+        "multimodal"
+      ],
+      "version": "1.0.0",
+      "source": "external"
     }
   ]
 }
