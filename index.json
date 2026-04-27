@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": "2.0.0",
-    "updated_at": "2026-04-27",
+    "updated_at": "2026-04-27T11:25:15",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-04-27",
-    "total_skills": 561,
+    "total_skills": 564,
     "total_clusters": 47,
     "avg_arena_score": 7.28,
     "total_winners": 47
@@ -12378,6 +12378,91 @@
         "test_version": "1.0.0"
       },
       "version": "\"2.4.3\""
+    },
+    {
+      "id": "mac-tts",
+      "name": "mac-tts",
+      "path": "./community/mac-tts/SKILL.md",
+      "description": "在 Mac 本地把文字合成为高质量语音 (TTS)。三档后端：edge-tts (免费微软神经语音) > kokoro-tts (本地开源 82M) > macOS say (兜底)。输出 wav/mp3。Trigger on TTS / 文字转语音 / 语音合成 / text-to-speech / 配音 / voiceover / read aloud / 朗读。",
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "voice",
+        "audio",
+        "voiceover",
+        "mac",
+        "dubbing",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.0,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 8,
+        "is_winner": false,
+        "rank": 5,
+        "test_date": "2026-04-27",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "mac-voice-clone",
+      "name": "mac-voice-clone",
+      "path": "./community/mac-voice-clone/SKILL.md",
+      "description": "在 Mac 本地做零样本语音克隆：参考音频 + 文字 → 用参考人声朗读这段文字。三档后端：F5-TTS (默认/MIT) > VoxCPM2 (openbmb 2B/Apache-2.0) > GPT-SoVITS (中文最强)。Trigger on voice clone / 声音克隆 / 语音克隆 / clone my voice / zero-shot TTS。",
+      "tags": [
+        "tts",
+        "voice-clone",
+        "voice-cloning",
+        "zero-shot",
+        "mac",
+        "apple-silicon",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.2,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 8,
+        "is_winner": false,
+        "rank": 4,
+        "test_date": "2026-04-27",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "video-analyzer",
+      "name": "video-analyzer",
+      "path": "./community/video-analyzer/SKILL.md",
+      "description": "把本地视频文件拆成转录稿 + 关键帧截图 + 章节摘要。串联 mac-whisper + video-frame-extractor + LLM。一条命令产出 Markdown 报告。Trigger on 视频拆解 / 视频分析 / video summary / video chapters / 视频转笔记。",
+      "tags": [
+        "video",
+        "analysis",
+        "summary",
+        "transcription",
+        "chapters",
+        "multimodal",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.3,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 8,
+        "is_winner": false,
+        "rank": 3,
+        "test_date": "2026-04-27",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
     }
   ]
 }
