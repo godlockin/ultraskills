@@ -7216,7 +7216,7 @@
     {
       "id": "skill-sync-manager",
       "name": "skill-sync-manager",
-      "path": "./community/skill-sync-manager",
+      "path": "./devops/skill-sync-manager",
       "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
       "tags": [
         "devops",
@@ -10834,7 +10834,7 @@
     {
       "id": "skill-arena",
       "name": "skill-arena",
-      "path": "./community/skill-arena",
+      "path": "./devops/skill-arena",
       "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
       "tags": [
         "devops",
@@ -10890,38 +10890,6 @@
       "priority": 3,
       "recommended_for": [
         "product-discovery-related-tasks"
-      ]
-    },
-    {
-      "id": "test-case-templates",
-      "name": "test-case-templates",
-      "path": "./community/skill-arena/templates/test-case-templates",
-      "description": "Template library for skill arena test cases - 5-10 comprehensive tests per category",
-      "tags": [
-        "devops",
-        "testing",
-        "benchmark",
-        "templates",
-        "community"
-      ],
-      "arena": {
-        "rank": 18,
-        "category": "eng-testing",
-        "score": 47.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 5.5,
-          "maintainability": 11.5,
-          "total": 47.0
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "eng-testing-related-tasks"
       ]
     },
     {
@@ -14757,7 +14725,7 @@
     {
       "id": "skill-manager",
       "name": "skill-manager",
-      "path": "./community/skill-manager",
+      "path": "./devops/skill-manager",
       "description": "Lifecycle manager for GitHub-based skills. Use this to batch scan your skills directory, check for updates on GitHub, and perform guided upgrades of your skill wrappers.",
       "tags": [
         "community"
@@ -14838,7 +14806,7 @@
     {
       "id": "github-to-skills",
       "name": "github-to-skills",
-      "path": "./community/github-to-skills",
+      "path": "./devops/github-to-skills",
       "description": "Automated factory for converting GitHub repositories into specialized AI skills. Use this skill when the user provides a GitHub URL and wants to \"package\", \"wrap\", or \"create a skill\" from it. It automatically fetches repository details, latest commit hashes, and generates a standardized skill structure with enhanced metadata suitable for lifecycle management.",
       "tags": [
         "community"
@@ -14919,7 +14887,7 @@
     {
       "id": "skill-evolution-manager",
       "name": "skill-evolution-manager",
-      "path": "./community/skill-evolution-manager",
+      "path": "./devops/skill-evolution-manager",
       "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。",
       "tags": [
         "community"
@@ -15635,6 +15603,26 @@
         "is_winner": false,
         "rank": 999,
         "category": "video-editing",
+        "scores": {}
+      }
+    },
+    {
+      "id": "gstack-checkpoint",
+      "name": "Checkpoint (gstack)",
+      "path": "./community/gstack/checkpoint",
+      "description": "Save and resume working state checkpoints. Captures git state, decisions, and remaining work so you can pick up exactly where you left off.",
+      "tags": [
+        "productivity",
+        "workflow",
+        "checkpoint",
+        "gstack"
+      ],
+      "version": "1.0.0",
+      "arena": {
+        "score": 0,
+        "is_winner": false,
+        "rank": 999,
+        "category": "productivity",
         "scores": {}
       }
     }
