@@ -139,6 +139,65 @@ remove_ultraskills() {
   exit 0
 }
 
+# ── Claude Code hooks injection ───────────────────────────────────────────────
+setup_hooks() {
+  local settings="$REPO_DIR/.claude/settings.local.json"
+  local hook_post="$REPO_DIR/devops/hooks/post-skill-write.sh"
+  local hook_stop="$REPO_DIR/devops/hooks/stop-arena-rebuild.sh"
+
+  if [ ! -f "$settings" ]; then
+    echo "  ⚠️  .claude/settings.local.json not found, skipping hooks injection"
+    return
+  fi
+
+  chmod +x "$hook_post" "$hook_stop"
+
+  # Inject PostToolUse + Stop hooks via Python (idempotent)
+  python3 - "$settings" "$hook_post" "$hook_stop" << 'PY'
+import json, sys
+
+settings_path, hook_post, hook_stop = sys.argv[1], sys.argv[2], sys.argv[3]
+with open(settings_path) as f:
+    cfg = json.load(f)
+
+hooks = cfg.setdefault("hooks", {})
+
+def has_hook(hook_list, cmd):
+    for entry in hook_list:
+        for h in entry.get("hooks", []):
+            if h.get("command") == cmd:
+                return True
+    return False
+
+# PostToolUse: validate on Write/Edit to SKILL.md or index.json
+post_list = hooks.setdefault("PostToolUse", [])
+if not has_hook(post_list, hook_post):
+    post_list.append({
+        "matcher": "Write|Edit",
+        "hooks": [{"type": "command", "command": hook_post}]
+    })
+    print(f"  ✓ PostToolUse hook added: post-skill-write.sh")
+else:
+    print(f"  ✓ PostToolUse hook already present")
+
+# Stop: arena pipeline rebuild if SKILL.md was written this session
+stop_list = hooks.setdefault("Stop", [])
+if not has_hook(stop_list, hook_stop):
+    stop_list.append({
+        "matcher": "",
+        "hooks": [{"type": "command", "command": hook_stop}]
+    })
+    print(f"  ✓ Stop hook added: stop-arena-rebuild.sh")
+else:
+    print(f"  ✓ Stop hook already present")
+
+with open(settings_path, "w") as f:
+    json.dump(cfg, f, indent=2, ensure_ascii=False)
+    f.write("\n")
+PY
+}
+
+
 # ── Dispatch ──────────────────────────────────────────────────────────────────
 
 if [ "$INSTALL_MODE" = "--remove" ]; then
@@ -169,6 +228,7 @@ for s in idx["skills"]:
     count += 1
 print(f"  + {count} individual skills")
 PY
+  setup_hooks
   exit 0
 fi
 
@@ -181,6 +241,7 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   done
   echo ""
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
+  setup_hooks
   exit 0
 fi
 
@@ -188,6 +249,7 @@ fi
 echo "Installing ultraskills-hub → $SKILLS_DIR"
 echo ""
 install_hub
+setup_hooks
 echo ""
 echo "Done. Claude can now search all 555 ultraskills on demand."
 echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
