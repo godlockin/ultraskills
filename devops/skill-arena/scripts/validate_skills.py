@@ -13,10 +13,35 @@ import sys
 import os
 import json
 import re
+import configparser
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../.."))
 INDEX_FILE = os.path.join(REPO_ROOT, "index.json")
+
+
+def load_submodule_paths():
+    """Parse .gitmodules and return set of normalized submodule root paths."""
+    gitmodules = os.path.join(REPO_ROOT, ".gitmodules")
+    if not os.path.exists(gitmodules):
+        return set()
+    cfg = configparser.ConfigParser()
+    cfg.read(gitmodules, encoding="utf-8")
+    paths = set()
+    for section in cfg.sections():
+        if cfg.has_option(section, "path"):
+            p = cfg.get(section, "path")
+            paths.add(os.path.normpath(os.path.join(REPO_ROOT, p)))
+    return paths
+
+
+def is_under_submodule(resolved_path, submodule_roots):
+    """Return True if resolved_path is inside any known submodule root."""
+    for sm_root in submodule_roots:
+        # exact match (the submodule root itself) or a subdirectory
+        if resolved_path == sm_root or resolved_path.startswith(sm_root + os.sep):
+            return True
+    return False
 
 REQUIRED_FRONTMATTER = ["name", "description", "version", "tags"]
 
@@ -45,14 +70,26 @@ def validate_all():
         idx = json.load(f)
 
     indexed_ids = {s["id"] for s in idx["skills"]}
-    indexed_paths = {os.path.normpath(os.path.join(REPO_ROOT, s["path"].lstrip("./"))) for s in idx["skills"]}
+
+    def skill_dir(raw_path):
+        """Resolve skill directory from path (handles both dir paths and SKILL.md paths)."""
+        p = os.path.normpath(os.path.join(REPO_ROOT, raw_path.lstrip("./")))
+        if p.endswith("SKILL.md"):
+            return os.path.dirname(p)
+        return p
+
+    indexed_paths = {skill_dir(s["path"]) for s in idx["skills"]}
+
+    submodule_roots = load_submodule_paths()
 
     # Check 1: all index entries point to existing dirs
     for s in idx["skills"]:
-        raw = os.path.join(REPO_ROOT, s["path"].lstrip("./"))
-        resolved = os.path.normpath(raw)
+        resolved = skill_dir(s["path"])
         if not os.path.isdir(resolved):
-            errors.append(f"[MISSING_DIR] id={s['id']} path={s['path']} → directory not found")
+            if is_under_submodule(resolved, submodule_roots):
+                warnings.append(f"[MISSING_DIR:submodule-not-initialized] id={s['id']} path={s['path']}")
+            else:
+                errors.append(f"[MISSING_DIR] id={s['id']} path={s['path']} → directory not found")
         skill_md = os.path.join(resolved, "SKILL.md")
         if os.path.isdir(resolved) and not os.path.exists(skill_md):
             errors.append(f"[MISSING_SKILL_MD] id={s['id']} → SKILL.md not found in {resolved}")
