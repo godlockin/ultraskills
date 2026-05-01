@@ -9,10 +9,13 @@
 ```bash
 git clone https://github.com/godlockin/ultraskills.git
 cd ultraskills
-./setup.sh          # installs ultraskills-hub into ~/.claude/skills/
+./setup.sh          # auto-inits submodules + installs ultraskills-hub
 ```
 
 Done. Restart Claude Code — Claude can now search all 581 skills on demand.
+
+> **Submodules**: `setup.sh` automatically runs `git submodule update --init --recursive` on first run.
+> Pass `--no-submodules` to skip (some external skills will be unavailable).
 
 ---
 
@@ -30,13 +33,44 @@ Hub 内部使用 `devops/ultraskills-hub/scripts/search.py` 对 `index.json` 做
 ### 安装选项
 
 ```bash
-./setup.sh           # 推荐：仅安装 hub（1 个 skill 在 system prompt）
-./setup.sh --top     # hub + 33 个精选高分 skills
-./setup.sh --all     # 全部 581 个（不推荐，context 很大）
-./setup.sh --remove  # 卸载
+./setup.sh                # 推荐：hub-only（1 个 skill 在 system prompt）
+./setup.sh --top          # hub + 33 个精选高分 skills
+./setup.sh --all          # 全部 581 个（不推荐，context 很大）
+./setup.sh --no-submodules  # 跳过 submodule 初始化（部分 external skills 不可用）
+./setup.sh --remove       # 卸载
 ```
 
----
+### Submodule 说明
+
+本库包含多个 git submodule（第三方 skill 集合，位于 `external/` 和部分 `community/` 下）：
+
+| 路径 | 来源 |
+|------|------|
+| `external/marketingskills` | coreyhaines31/marketingskills |
+| `external/claude-skills` | alirezarezvani/claude-skills |
+| `external/anthropic-skills` | anthropics/skills |
+| `external/superpowers` | obra/superpowers |
+| `community/gstack` | garrytan/gstack |
+| `community/planning-with-files` | OthmanAdi/planning-with-files |
+| … | （共 17 个，见 `.gitmodules`） |
+
+**初始化方式**（`setup.sh` 自动执行，无需手动）：
+
+```bash
+# 全部初始化（推荐）
+git submodule update --init --recursive
+
+# 仅初始化特定 submodule
+git submodule update --init external/marketingskills
+
+# 检查 submodule 状态
+git submodule status
+```
+
+> 未初始化的 submodule 目录存在但为空。`validate_skills.py` 会将此类缺失路径标记为
+> **warning**（而非 error），不影响 CI 通过，但对应 skills 无法使用。
+
+
 
 ## 🏆 Arena 竞技场排名
 

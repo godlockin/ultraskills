@@ -18,6 +18,43 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="$HOME/.claude/skills"
 INSTALL_MODE="${1:-}"
 
+# ── Submodule check ───────────────────────────────────────────────────────────
+check_submodules() {
+  # Detect uninitialized submodules: registered in .gitmodules but empty dirs
+  local uninitialized=()
+  while IFS= read -r path; do
+    local full="$REPO_DIR/$path"
+    if [ -d "$full" ] && [ -z "$(ls -A "$full" 2>/dev/null)" ]; then
+      uninitialized+=("$path")
+    elif [ ! -d "$full" ]; then
+      uninitialized+=("$path")
+    fi
+  done < <(git -C "$REPO_DIR" config --file .gitmodules --get-regexp 'submodule\..*\.path' | awk '{print $2}')
+
+  if [ ${#uninitialized[@]} -eq 0 ]; then
+    return 0
+  fi
+
+  echo ""
+  echo "⚠️  Uninitialized submodules detected (${#uninitialized[@]}):"
+  for p in "${uninitialized[@]}"; do
+    echo "    - $p"
+  done
+  echo ""
+
+  # Auto-init by default; skip only if --no-submodules passed
+  if [[ "${INSTALL_MODE}" == "--no-submodules" ]]; then
+    echo "Skipping submodule init (--no-submodules). Some skills may be unavailable."
+    return 0
+  fi
+
+  echo "Initializing submodules... (pass --no-submodules to skip)"
+  git -C "$REPO_DIR" submodule update --init --recursive
+  echo "✓ Submodules initialized"
+}
+
+check_submodules
+
 # Curated top skills: arena winners + community picks
 TOP_SKILLS=(
   "receiving-code-review|community/receiving-code-review"
