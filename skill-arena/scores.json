@@ -5808,6 +5808,17 @@
     "total": 5.5
   },
   {
+    "id": "dbs-chatroom",
+    "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
     "id": "huashu-article-edit",
     "path": "./external/huashu-skills/huashu-article-edit/SKILL.md",
     "cluster": "content-writing",
@@ -6028,6 +6039,61 @@
     "total": 5.0
   },
   {
+    "id": "dbs-agent-migration",
+    "path": "./external/dbskill/skills/dbs-agent-migration/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "dbs-diagnosis",
+    "path": "./external/dbskill/skills/dbs-diagnosis/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "dbs-hook",
+    "path": "./external/dbskill/skills/dbs-hook/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "dbs-slowisfast",
+    "path": "./external/dbskill/skills/dbs-slowisfast/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "dbs-xhs-title",
+    "path": "./external/dbskill/skills/dbs-xhs-title/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
     "id": "huashu-douyin-script",
     "path": "./external/huashu-skills/huashu-douyin-script/SKILL.md",
     "cluster": "content-video",
@@ -6193,6 +6259,28 @@
     "total": 4.5
   },
   {
+    "id": "dbs-ai-check",
+    "path": "./external/dbskill/skills/dbs-ai-check/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.5
+  },
+  {
+    "id": "dbs-content",
+    "path": "./external/dbskill/skills/dbs-content/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.5
+  },
+  {
     "id": "huashu-md-to-pdf",
     "path": "./external/huashu-skills/huashu-md-to-pdf/SKILL.md",
     "cluster": "content-doc",
@@ -6274,6 +6362,50 @@
     "path": "./external/claude-skills/engineering/performance-profiler/SKILL.md",
     "cluster": "engineering-code",
     "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.0
+  },
+  {
+    "id": "dbs-action",
+    "path": "./external/dbskill/skills/dbs-action/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.0
+  },
+  {
+    "id": "dbs-benchmark",
+    "path": "./external/dbskill/skills/dbs-benchmark/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.0
+  },
+  {
+    "id": "dbs-chatroom-austrian",
+    "path": "./external/dbskill/skills/dbs-chatroom-austrian/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.0
+  },
+  {
+    "id": "dbs-deconstruct",
+    "path": "./external/dbskill/skills/dbs-deconstruct/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 3,
     "func_clarity": 5,
@@ -6373,6 +6505,17 @@
     "path": "./external/claude-skills/engineering-team/playwright-pro/skills/testrail/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 4,
+    "maintainability": 5,
+    "total": 3.7
+  },
+  {
+    "id": "dbs",
+    "path": "./external/dbskill/skills/dbs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 3,
     "func_clarity": 4,

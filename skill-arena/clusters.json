@@ -234,6 +234,44 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 30,
+    "winner": "awesome-design-md",
+    "skills": [
+      "awesome-design-md",
+      "deck-that-wins",
+      "mac-tts",
+      "mac-voice-clone",
+      "ui-ux-pro-max-skill",
+      "aso-audit",
+      "mac-whisper",
+      "spreadsheet-formula-helper",
+      "to-prd",
+      "community-marketing",
+      "audio-clean",
+      "design-tokens",
+      "figma-to-code",
+      "icon-system",
+      "meeting-notes-and-actions",
+      "motion-design",
+      "poster-print-design",
+      "claude-opus-4-5-migration",
+      "dbs-chatroom",
+      "dbs-agent-migration",
+      "dbs-diagnosis",
+      "dbs-hook",
+      "dbs-slowisfast",
+      "dbs-xhs-title",
+      "dbs-ai-check",
+      "dbs-content",
+      "dbs-action",
+      "dbs-chatroom-austrian",
+      "dbs-deconstruct",
+      "dbs"
+    ]
+  },
+  {
     "id": "marketing-strategy",
     "name": "营销·策略",
     "skill_count": 24,
@@ -318,32 +356,6 @@
       "\"rag-architect\"",
       "\"interview-system-designer\"",
       "\"migration-architect\""
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 18,
-    "winner": "awesome-design-md",
-    "skills": [
-      "awesome-design-md",
-      "deck-that-wins",
-      "mac-tts",
-      "mac-voice-clone",
-      "ui-ux-pro-max-skill",
-      "aso-audit",
-      "mac-whisper",
-      "spreadsheet-formula-helper",
-      "to-prd",
-      "community-marketing",
-      "audio-clean",
-      "design-tokens",
-      "figma-to-code",
-      "icon-system",
-      "meeting-notes-and-actions",
-      "motion-design",
-      "poster-print-design",
-      "claude-opus-4-5-migration"
     ]
   },
   {
@@ -648,6 +660,23 @@
     ]
   },
   {
+    "id": "engineering-testing",
+    "name": "工程·测试",
+    "skill_count": 9,
+    "winner": "triage-issue",
+    "skills": [
+      "triage-issue",
+      "skill-arena",
+      "gstack-openclaw-retro",
+      "writing-hookify-rules",
+      "test-case-templates",
+      "test-driven-development",
+      "\"tdd-guide\"",
+      "benchmark",
+      "dbs-benchmark"
+    ]
+  },
+  {
     "id": "content-seo",
     "name": "内容·SEO",
     "skill_count": 8,
@@ -693,22 +722,6 @@
       "plan-devex-review",
       "health",
       "qa-only"
-    ]
-  },
-  {
-    "id": "engineering-testing",
-    "name": "工程·测试",
-    "skill_count": 8,
-    "winner": "triage-issue",
-    "skills": [
-      "triage-issue",
-      "skill-arena",
-      "gstack-openclaw-retro",
-      "writing-hookify-rules",
-      "test-case-templates",
-      "test-driven-development",
-      "\"tdd-guide\"",
-      "benchmark"
     ]
   },
   {

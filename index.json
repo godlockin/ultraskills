@@ -4,9 +4,9 @@
     "updated_at": "2026-05-01",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-01",
-    "total_skills": 581,
+    "total_skills": 594,
     "total_clusters": 47,
-    "avg_arena_score": 7.32,
+    "avg_arena_score": 7.26,
     "total_winners": 47
   },
   "skills": [
@@ -543,7 +543,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "agent-development",
@@ -609,7 +609,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "planning-with-files-de",
@@ -631,7 +631,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "planning-with-files-es",
@@ -653,7 +653,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "planning-with-files-zh",
@@ -675,7 +675,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "planning-with-files-zht",
@@ -697,7 +697,7 @@
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       },
-      "version": "\"2.34.0\""
+      "version": "1.0.0"
     },
     {
       "id": "executing-plans",
@@ -9507,6 +9507,27 @@
       "version": "1.0.0"
     },
     {
+      "id": "dbs-benchmark",
+      "name": "dbs-benchmark",
+      "path": "./external/dbskill/skills/dbs-benchmark/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "engineering-testing",
+        "cluster_name": "工程·测试",
+        "score": 4.0,
+        "doc_quality": 3,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 9,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
       "id": "\"ab-test-setup\"",
       "name": "\"ab-test-setup\"",
       "path": "./external/claude-skills/marketing-skill/ab-test-setup/SKILL.md",
@@ -11277,6 +11298,258 @@
         "maintainability": 5,
         "is_winner": false,
         "rank": 18,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-chatroom",
+      "name": "dbs-chatroom",
+      "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
+      "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.3,
+        "doc_quality": 5,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 19,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-agent-migration",
+      "name": "dbs-agent-migration",
+      "path": "./external/dbskill/skills/dbs-agent-migration/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 20,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-diagnosis",
+      "name": "dbs-diagnosis",
+      "path": "./external/dbskill/skills/dbs-diagnosis/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 21,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-hook",
+      "name": "dbs-hook",
+      "path": "./external/dbskill/skills/dbs-hook/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 22,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-slowisfast",
+      "name": "dbs-slowisfast",
+      "path": "./external/dbskill/skills/dbs-slowisfast/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 23,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-xhs-title",
+      "name": "dbs-xhs-title",
+      "path": "./external/dbskill/skills/dbs-xhs-title/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 24,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-ai-check",
+      "name": "dbs-ai-check",
+      "path": "./external/dbskill/skills/dbs-ai-check/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.5,
+        "doc_quality": 4,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 25,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-content",
+      "name": "dbs-content",
+      "path": "./external/dbskill/skills/dbs-content/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.5,
+        "doc_quality": 4,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 26,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-action",
+      "name": "dbs-action",
+      "path": "./external/dbskill/skills/dbs-action/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.0,
+        "doc_quality": 3,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 27,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-chatroom-austrian",
+      "name": "dbs-chatroom-austrian",
+      "path": "./external/dbskill/skills/dbs-chatroom-austrian/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.0,
+        "doc_quality": 3,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 28,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs-deconstruct",
+      "name": "dbs-deconstruct",
+      "path": "./external/dbskill/skills/dbs-deconstruct/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.0,
+        "doc_quality": 3,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 29,
+        "test_date": "2026-05-01",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "dbs",
+      "name": "dbs",
+      "path": "./external/dbskill/skills/dbs/SKILL.md",
+      "description": "|",
+      "tags": [
+        "dbskill"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 3.7,
+        "doc_quality": 3,
+        "func_clarity": 4,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 30,
         "test_date": "2026-05-01",
         "test_version": "1.0.0"
       }

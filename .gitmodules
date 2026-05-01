@@ -49,3 +49,6 @@
 [submodule "external/nuwa-skill"]
 	path = external/nuwa-skill
 	url = https://github.com/alchaincyf/nuwa-skill.git
+[submodule "external/dbskill"]
+	path = external/dbskill
+	url = https://github.com/dontbesilent2025/dbskill.git

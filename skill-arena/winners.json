@@ -20,7 +20,7 @@
     "winner": "awesome-design-md",
     "score": 10.0,
     "runner_up": "deck-that-wins",
-    "total_contestants": 18,
+    "total_contestants": 30,
     "defeated": [
       "deck-that-wins",
       "mac-tts",
@@ -136,7 +136,7 @@
     "winner": "triage-issue",
     "score": 9.0,
     "runner_up": "skill-arena",
-    "total_contestants": 8,
+    "total_contestants": 9,
     "defeated": [
       "skill-arena",
       "gstack-openclaw-retro",

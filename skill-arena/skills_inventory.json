@@ -1255,7 +1255,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1265,7 +1265,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1275,7 +1275,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1285,7 +1285,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1295,7 +1295,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1305,7 +1305,7 @@
     "tags": [
       "community"
     ],
-    "version": "\"2.34.0\"",
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -4595,6 +4595,136 @@
     "description": "Template for creating new Agent Skills for context engineering. Use this template when adding new skills to the collection.",
     "tags": [
       "context-engineering"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs",
+    "path": "./external/dbskill/skills/dbs/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-action",
+    "path": "./external/dbskill/skills/dbs-action/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-agent-migration",
+    "path": "./external/dbskill/skills/dbs-agent-migration/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-ai-check",
+    "path": "./external/dbskill/skills/dbs-ai-check/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-benchmark",
+    "path": "./external/dbskill/skills/dbs-benchmark/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-chatroom",
+    "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
+    "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-chatroom-austrian",
+    "path": "./external/dbskill/skills/dbs-chatroom-austrian/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-content",
+    "path": "./external/dbskill/skills/dbs-content/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-deconstruct",
+    "path": "./external/dbskill/skills/dbs-deconstruct/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-diagnosis",
+    "path": "./external/dbskill/skills/dbs-diagnosis/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-hook",
+    "path": "./external/dbskill/skills/dbs-hook/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-slowisfast",
+    "path": "./external/dbskill/skills/dbs-slowisfast/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dbs-xhs-title",
+    "path": "./external/dbskill/skills/dbs-xhs-title/SKILL.md",
+    "description": "|",
+    "tags": [
+      "dbskill"
     ],
     "version": "",
     "github_url": ""

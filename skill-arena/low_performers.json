@@ -1,74 +1,91 @@
 {
   "template-skill": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.8,
       3.8
     ],
     "cluster": "skills-mgmt",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"browserstack\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"report\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"review\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"migrate\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"runbook-generator\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.5,
       3.5
     ],
     "cluster": "engineering-code",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"testrail\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"fix\"": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "\"coverage\"": {
+    "consecutive_low": 2,
+    "scores": [
+      3.7,
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "warning"
+  },
+  "dbs": {
     "consecutive_low": 1,
     "scores": [
       3.7
     ],
-    "cluster": "skills-browser",
+    "cluster": "misc",
     "recommendation": "monitor"
   }
 }
