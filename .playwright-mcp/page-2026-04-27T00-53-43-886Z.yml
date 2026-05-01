@@ -1,0 +1,457 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisnowfy%2Fsnownlp
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=isnowfy%2Fsnownlp
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "isnowfy" [ref=e70] [cursor=pointer]:
+            - /url: /isnowfy
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "snownlp" [ref=e73] [cursor=pointer]:
+              - /url: /isnowfy/snownlp
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisnowfy%2Fsnownlp
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 1.4k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisnowfy%2Fsnownlp
+                - img [ref=e82]
+                - text: Fork
+                - generic "1,354" [ref=e84]: 1.4k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisnowfy%2Fsnownlp
+                - img [ref=e88]
+                - text: Star
+                - generic "6623 users starred this repository" [ref=e90]: 6.6k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /isnowfy/snownlp
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 42" [ref=e99] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "42" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 2" [ref=e106] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "2" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Wiki" [ref=e122] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/wiki
+              - img [ref=e123]
+              - generic [ref=e125]: Wiki
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "isnowfy/snownlp" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "master branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: master
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "Branches" [ref=e168] [cursor=pointer]:
+                  - /url: /isnowfy/snownlp/branches
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]: Branches
+                - link "Tags" [ref=e171] [cursor=pointer]:
+                  - /url: /isnowfy/snownlp/tags
+                  - generic [ref=e172]:
+                    - generic:
+                      - img
+                    - generic [ref=e173]: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit History 57 Commits" [ref=e191]:
+                    - cell "Latest commit History 57 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e197]:
+                          - heading "History" [level=2] [ref=e198]
+                          - link "57 Commits" [ref=e199] [cursor=pointer]:
+                            - /url: /isnowfy/snownlp/commits/master/
+                            - generic [ref=e200]:
+                              - generic:
+                                - img
+                              - generic [ref=e201]: 57 Commits
+                  - row "snownlp, (Directory)" [ref=e202]:
+                    - cell "snownlp, (Directory)" [ref=e203]:
+                      - generic [ref=e204]:
+                        - img [ref=e205]
+                        - link "snownlp, (Directory)" [ref=e210] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/tree/master/snownlp
+                          - text: snownlp
+                    - cell [ref=e211]
+                    - cell [ref=e213]
+                  - row ".gitignore, (File)" [ref=e216]:
+                    - cell ".gitignore, (File)" [ref=e217]:
+                      - generic [ref=e218]:
+                        - img [ref=e219]
+                        - link ".gitignore, (File)" [ref=e224] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e225]
+                    - cell [ref=e227]
+                  - row "LICENSE.md, (File)" [ref=e230]:
+                    - cell "LICENSE.md, (File)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "LICENSE.md, (File)" [ref=e238] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/LICENSE.md
+                          - text: LICENSE.md
+                    - cell [ref=e239]
+                    - cell [ref=e241]
+                  - row "MANIFEST.in, (File)" [ref=e244]:
+                    - cell "MANIFEST.in, (File)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link "MANIFEST.in, (File)" [ref=e252] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/MANIFEST.in
+                          - text: MANIFEST.in
+                    - cell [ref=e253]
+                    - cell [ref=e255]
+                  - row "README.md, (File)" [ref=e258]:
+                    - cell "README.md, (File)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link "README.md, (File)" [ref=e266] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/README.md
+                          - text: README.md
+                    - cell [ref=e267]
+                    - cell [ref=e269]
+                  - row "setup.py, (File)" [ref=e272]:
+                    - cell "setup.py, (File)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "setup.py, (File)" [ref=e280] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/setup.py
+                          - text: setup.py
+                    - cell [ref=e281]
+                    - cell [ref=e283]
+                  - row "test.py, (File)" [ref=e286]:
+                    - cell "test.py, (File)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "test.py, (File)" [ref=e294] [cursor=pointer]:
+                          - /url: /isnowfy/snownlp/blob/master/test.py
+                          - text: test.py
+                    - cell [ref=e295]
+                    - cell [ref=e297]
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - heading "Repository files navigation" [level=2] [ref=e303]
+                - navigation "Repository files" [ref=e304]:
+                  - list [ref=e305]:
+                    - listitem [ref=e306]:
+                      - link "README" [ref=e307] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e309]
+                        - generic [ref=e311]: README
+                    - listitem [ref=e312]:
+                      - link "MIT license" [ref=e313] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e315]
+                        - generic [ref=e317]: MIT license
+                - button "Outline" [ref=e318] [cursor=pointer]:
+                  - img [ref=e319]
+              - article [ref=e322]:
+                - generic [ref=e323]:
+                  - 'heading "SnowNLP: Simplified Chinese Text Processing" [level=1] [ref=e324]'
+                  - 'link "Permalink: SnowNLP: Simplified Chinese Text Processing" [ref=e325] [cursor=pointer]':
+                    - /url: "#snownlp-simplified-chinese-text-processing"
+                    - img [ref=e326]
+                - paragraph [ref=e328]:
+                  - text: SnowNLP是一个python写的类库，可以方便的处理中文文本内容，是受到了
+                  - link "TextBlob" [ref=e329] [cursor=pointer]:
+                    - /url: https://github.com/sloria/TextBlob
+                  - text: 的启发而写的，由于现在大部分的自然语言处理库基本都是针对英文的，于是写了一个方便处理中文的类库，并且和TextBlob不同的是，这里没有用NLTK，所有的算法都是自己实现的，并且自带了一些训练好的字典。注意本程序都是处理的unicode编码，所以使用时请自行decode成unicode。
+                - generic [ref=e330]:
+                  - code [ref=e332]: "from snownlp import SnowNLP s = SnowNLP(u'这个东西真心很赞') s.words # [u'这个', u'东西', u'真心', # u'很', u'赞'] s.tags # [(u'这个', u'r'), (u'东西', u'n'), # (u'真心', u'd'), (u'很', u'd'), # (u'赞', u'Vg')] s.sentiments # 0.9769663402895832 positive的概率 s.pinyin # [u'zhe', u'ge', u'dong', u'xi', # u'zhen', u'xin', u'hen', u'zan'] s = SnowNLP(u'「繁體字」「繁體中文」的叫法在臺灣亦很常見。') s.han # u'「繁体字」「繁体中文」的叫法 # 在台湾亦很常见。' text = u''' 自然语言处理是计算机科学领域与人工智能领域中的一个重要方向。 它研究能实现人与计算机之间用自然语言进行有效通信的各种理论和方法。 自然语言处理是一门融语言学、计算机科学、数学于一体的科学。 因此，这一领域的研究将涉及自然语言，即人们日常使用的语言， 所以它与语言学的研究有着密切的联系，但又有重要的区别。 自然语言处理并不是一般地研究自然语言， 而在于研制能有效地实现自然语言通信的计算机系统， 特别是其中的软件系统。因而它是计算机科学的一部分。 ''' s = SnowNLP(text) s.keywords(3) # [u'语言', u'自然', u'计算机'] s.summary(3) # [u'因而它是计算机科学的一部分', # u'自然语言处理是一门融语言学、计算机科学、 # 数学于一体的科学', # u'自然语言处理是计算机科学领域与人工智能 # 领域中的一个重要方向'] s.sentences s = SnowNLP([[u'这篇', u'文章'], [u'那篇', u'论文'], [u'这个']]) s.tf s.idf s.sim([u'文章'])# [0.3756070762985226, 0, 0]"
+                  - button "Copy" [ref=e334] [cursor=pointer]:
+                    - img [ref=e335]
+                - generic [ref=e338]:
+                  - heading "Features" [level=2] [ref=e339]
+                  - 'link "Permalink: Features" [ref=e340] [cursor=pointer]':
+                    - /url: "#features"
+                    - img [ref=e341]
+                - list [ref=e343]:
+                  - listitem [ref=e344]:
+                    - text: 中文分词（
+                    - link "Character-Based Generative Model" [ref=e345] [cursor=pointer]:
+                      - /url: http://aclweb.org/anthology//Y/Y09/Y09-2047.pdf
+                    - text: ）
+                  - listitem [ref=e346]:
+                    - text: 词性标注（
+                    - link "TnT" [ref=e347] [cursor=pointer]:
+                      - /url: http://aclweb.org/anthology//A/A00/A00-1031.pdf
+                    - text: 3-gram 隐马）
+                  - listitem [ref=e348]: 情感分析（现在训练数据主要是买卖东西时的评价，所以对其他的一些可能效果不是很好，待解决）
+                  - listitem [ref=e349]: 文本分类（Naive Bayes）
+                  - listitem [ref=e350]: 转换成拼音（Trie树实现的最大匹配）
+                  - listitem [ref=e351]: 繁体转简体（Trie树实现的最大匹配）
+                  - listitem [ref=e352]:
+                    - text: 提取文本关键词（
+                    - link "TextRank" [ref=e353] [cursor=pointer]:
+                      - /url: https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+                    - text: 算法）
+                  - listitem [ref=e354]:
+                    - text: 提取文本摘要（
+                    - link "TextRank" [ref=e355] [cursor=pointer]:
+                      - /url: https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+                    - text: 算法）
+                  - listitem [ref=e356]: tf，idf
+                  - listitem [ref=e357]: Tokenization（分割成句子）
+                  - listitem [ref=e358]:
+                    - text: 文本相似（
+                    - link "BM25" [ref=e359] [cursor=pointer]:
+                      - /url: http://en.wikipedia.org/wiki/Okapi_BM25
+                    - text: ）
+                  - listitem [ref=e360]:
+                    - text: 支持python3（感谢
+                    - link "erning" [ref=e361] [cursor=pointer]:
+                      - /url: https://github.com/erning
+                    - text: ）
+                - generic [ref=e362]:
+                  - heading "Get It now" [level=2] [ref=e363]
+                  - 'link "Permalink: Get It now" [ref=e364] [cursor=pointer]':
+                    - /url: "#get-it-now"
+                    - img [ref=e365]
+                - generic [ref=e367]:
+                  - code [ref=e369]: $ pip install snownlp
+                  - button "Copy" [ref=e371] [cursor=pointer]:
+                    - img [ref=e372]
+                - generic [ref=e375]:
+                  - heading "关于训练" [level=2] [ref=e376]
+                  - 'link "Permalink: 关于训练" [ref=e377] [cursor=pointer]':
+                    - /url: "#关于训练"
+                    - img [ref=e378]
+                - paragraph [ref=e380]:
+                  - text: 现在提供训练的包括分词，词性标注，情感分析，而且都提供了我用来训练的原始文件 以分词为例 分词在
+                  - code [ref=e381]: snownlp/seg
+                  - text: 目录下
+                - generic [ref=e382]:
+                  - code [ref=e384]: "from snownlp import seg seg.train('data.txt') seg.save('seg.marshal') # from snownlp import tag # tag.train('199801.txt') # tag.save('tag.marshal') # from snownlp import sentiment # sentiment.train('neg.txt', 'pos.txt') # sentiment.save('sentiment.marshal')"
+                  - button "Copy" [ref=e386] [cursor=pointer]:
+                    - img [ref=e387]
+                - paragraph [ref=e390]:
+                  - text: 这样训练好的文件就存储为
+                  - code [ref=e391]: seg.marshal
+                  - text: 了，之后修改
+                  - code [ref=e392]: snownlp/seg/__init__.py
+                  - text: 里的
+                  - code [ref=e393]: data_path
+                  - text: 指向刚训练好的文件即可
+                - generic [ref=e394]:
+                  - heading "License" [level=2] [ref=e395]
+                  - 'link "Permalink: License" [ref=e396] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e397]
+                - paragraph [ref=e399]: MIT licensed.
+        - generic [ref=e403]:
+          - generic [ref=e406]:
+            - heading "About" [level=2] [ref=e407]
+            - paragraph [ref=e408]: Python library for processing Chinese text
+            - heading "Resources" [level=3] [ref=e409]
+            - link "Readme" [ref=e411] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e412]
+              - text: Readme
+            - heading "License" [level=3] [ref=e414]
+            - link "MIT license" [ref=e416] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e417]
+              - text: MIT license
+            - link "Activity" [ref=e420] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/activity
+              - img [ref=e421]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e423]
+            - link "6.6k stars" [ref=e425] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/stargazers
+              - img [ref=e426]
+              - strong [ref=e428]: 6.6k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e429]
+            - link "347 watching" [ref=e431] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/watchers
+              - img [ref=e432]
+              - strong [ref=e434]: "347"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e435]
+            - link "1.4k forks" [ref=e437] [cursor=pointer]:
+              - /url: /isnowfy/snownlp/forks
+              - img [ref=e438]
+              - strong [ref=e440]: 1.4k
+              - text: forks
+            - link "Report repository" [ref=e442] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fisnowfy%2Fsnownlp&report=isnowfy+%28user%29
+          - generic [ref=e444]:
+            - heading "Releases" [level=2] [ref=e445]:
+              - link "Releases" [ref=e446] [cursor=pointer]:
+                - /url: /isnowfy/snownlp/releases
+            - generic [ref=e447]: No releases published
+          - generic "Loading latest packages" [ref=e450]:
+            - heading "Packages" [level=2] [ref=e451]:
+              - link "Packages" [ref=e452] [cursor=pointer]:
+                - /url: /users/isnowfy/packages?repo_name=snownlp
+          - generic "Loading contributors" [ref=e464]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e465]:
+                - link "Contributors" [ref=e466] [cursor=pointer]:
+                  - /url: /isnowfy/snownlp/graphs/contributors
+              - list [ref=e467]:
+                - listitem [ref=e468]
+                - listitem [ref=e470]
+                - listitem [ref=e472]
+          - generic [ref=e475]:
+            - heading "Languages" [level=2] [ref=e476]
+            - list [ref=e480]:
+              - listitem [ref=e481]:
+                - link "Python 100.0%" [ref=e482] [cursor=pointer]:
+                  - /url: /isnowfy/snownlp/search?l=python
+                  - img [ref=e483]
+                  - generic [ref=e485]: Python
+                  - generic [ref=e486]: 100.0%
+  - contentinfo [ref=e488]:
+    - heading "Footer" [level=2] [ref=e489]
+    - generic [ref=e490]:
+      - generic [ref=e491]:
+        - link "GitHub Homepage" [ref=e492] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e493]
+        - generic [ref=e495]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e496]:
+        - heading "Footer navigation" [level=3] [ref=e497]
+        - list "Footer navigation" [ref=e498]:
+          - listitem [ref=e499]:
+            - link "Terms" [ref=e500] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e501]:
+            - link "Privacy" [ref=e502] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e503]:
+            - link "Security" [ref=e504] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e505]:
+            - link "Status" [ref=e506] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e507]:
+            - link "Community" [ref=e508] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e509]:
+            - link "Docs" [ref=e510] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e511]:
+            - link "Contact" [ref=e512] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e513]:
+            - button "Manage cookies" [ref=e515] [cursor=pointer]
+          - listitem [ref=e516]:
+            - button "Do not share my personal information" [ref=e518] [cursor=pointer]

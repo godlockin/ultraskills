@@ -1,0 +1,869 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FBreakthrough%2FPySceneDetect
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Breakthrough%2FPySceneDetect
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "Breakthrough" [ref=e70] [cursor=pointer]:
+            - /url: /Breakthrough
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "PySceneDetect" [ref=e73] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 486" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                - img [ref=e82]
+                - text: Fork
+                - generic "486" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                - img [ref=e88]
+                - text: Star
+                - generic "4753 users starred this repository" [ref=e90]: 4.8k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 62" [ref=e99] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "62" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 5" [ref=e106] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "5" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Wiki" [ref=e127] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/wiki
+              - img [ref=e128]
+              - generic [ref=e130]: Wiki
+          - listitem [ref=e131]:
+            - link "Security and quality" [ref=e132] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/security
+              - img [ref=e133]
+              - generic [ref=e135]: Security and quality
+          - listitem [ref=e136]:
+            - link "Insights" [ref=e137] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/pulse
+              - img [ref=e138]
+              - generic [ref=e140]: Insights
+    - generic [ref=e153]:
+      - heading "Breakthrough/PySceneDetect" [level=1] [ref=e155]
+      - generic [ref=e156]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - button "main branch" [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]:
+                  - generic [ref=e166]:
+                    - img [ref=e168]
+                    - generic [ref=e171]: main
+                  - generic:
+                    - img
+              - generic [ref=e172]:
+                - link "17 Branches" [ref=e173] [cursor=pointer]:
+                  - /url: /Breakthrough/PySceneDetect/branches
+                  - generic [ref=e174]:
+                    - generic:
+                      - img
+                    - generic [ref=e176]:
+                      - strong [ref=e177]: "17"
+                      - text: Branches
+                - link "40 Tags" [ref=e178] [cursor=pointer]:
+                  - /url: /Breakthrough/PySceneDetect/tags
+                  - generic [ref=e179]:
+                    - generic:
+                      - img
+                    - generic [ref=e181]:
+                      - strong [ref=e182]: "40"
+                      - text: Tags
+            - generic [ref=e183]:
+              - generic [ref=e187]:
+                - img [ref=e189]
+                - combobox "Go to file" [ref=e191]
+              - button "Code" [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]:
+                  - generic:
+                    - img
+                  - generic [ref=e194]: Code
+                  - generic:
+                    - img
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - heading "Folders and files" [level=2] [ref=e197]
+              - table "Folders and files" [ref=e198]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e199]:
+                  - row "Latest commit Breakthrough commits by Breakthrough [dist] Split package into regular vs. headless variant success Commit 0092815 · Apr 27, 20263 hours ago History 1,592 Commits" [ref=e200]:
+                    - cell "Latest commit Breakthrough commits by Breakthrough [dist] Split package into regular vs. headless variant success Commit 0092815 · Apr 27, 20263 hours ago History 1,592 Commits" [ref=e201]:
+                      - generic [ref=e202]:
+                        - heading "Latest commit" [level=2] [ref=e203]
+                        - generic [ref=e204]:
+                          - generic [ref=e206]:
+                            - link "Breakthrough" [ref=e207] [cursor=pointer]:
+                              - /url: /Breakthrough
+                              - img "Breakthrough" [ref=e208]
+                            - link "commits by Breakthrough" [ref=e209] [cursor=pointer]:
+                              - /url: /Breakthrough/PySceneDetect/commits?author=Breakthrough
+                              - text: Breakthrough
+                          - generic [ref=e210]:
+                            - link "[dist] Split package into regular vs. headless variant" [ref=e213] [cursor=pointer]:
+                              - /url: /Breakthrough/PySceneDetect/commit/009281557bf198d0ebe366699ceb7429e3e222a2
+                            - button "success" [ref=e214] [cursor=pointer]:
+                              - img [ref=e215]
+                        - generic [ref=e217]:
+                          - generic [ref=e219]:
+                            - link "Commit 0092815" [ref=e220] [cursor=pointer]:
+                              - /url: /Breakthrough/PySceneDetect/commit/009281557bf198d0ebe366699ceb7429e3e222a2
+                              - text: "0092815"
+                            - text: ·
+                            - generic "Apr 27, 2026, 6:00 AM GMT+8" [ref=e221]: Apr 27, 20263 hours ago
+                          - generic [ref=e222]:
+                            - heading "History" [level=2] [ref=e223]
+                            - link "1,592 Commits" [ref=e224] [cursor=pointer]:
+                              - /url: /Breakthrough/PySceneDetect/commits/main/
+                              - generic [ref=e225]:
+                                - generic:
+                                  - img
+                                - generic [ref=e226]: 1,592 Commits
+                  - row ".github, (Directory) [dist] Split package into regular vs. headless variant Apr 27, 20263 hours ago" [ref=e227]:
+                    - cell ".github, (Directory)" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - link ".github, (Directory)" [ref=e235] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/.github
+                          - text: .github
+                    - cell "[dist] Split package into regular vs. headless variant" [ref=e236]:
+                      - link "[dist] Split package into regular vs. headless variant" [ref=e239] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/009281557bf198d0ebe366699ceb7429e3e222a2
+                    - cell "Apr 27, 20263 hours ago" [ref=e240]:
+                      - generic [ref=e241]: Apr 27, 20263 hours ago
+                  - row "benchmark, (Directory) [lint] Audit F401 and fix E501 Apr 25, 20262 days ago" [ref=e242]:
+                    - cell "benchmark, (Directory)" [ref=e243]:
+                      - generic [ref=e244]:
+                        - img [ref=e245]
+                        - link "benchmark, (Directory)" [ref=e250] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/benchmark
+                          - text: benchmark
+                    - cell "[lint] Audit F401 and fix E501" [ref=e251]:
+                      - link "[lint] Audit F401 and fix E501" [ref=e254] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/cc682ba2dc0f63c388a37a6b936fee8612cd0ed2
+                    - cell "Apr 25, 20262 days ago" [ref=e255]:
+                      - generic [ref=e256]: Apr 25, 20262 days ago
+                  - row "docs, (Directory) [dist] Finish PEP 621 migration Apr 27, 20263 hours ago" [ref=e257]:
+                    - cell "docs, (Directory)" [ref=e258]:
+                      - generic [ref=e259]:
+                        - img [ref=e260]
+                        - link "docs, (Directory)" [ref=e265] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/docs
+                          - text: docs
+                    - cell "[dist] Finish PEP 621 migration" [ref=e266]:
+                      - link "[dist] Finish PEP 621 migration" [ref=e269] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/2d97e2d34ea69420dec892e652cdbf80e1073730
+                    - cell "Apr 27, 20263 hours ago" [ref=e270]:
+                      - generic [ref=e271]: Apr 27, 20263 hours ago
+                  - row "packaging, (Directory) [dist] Split package into regular vs. headless variant Apr 27, 20263 hours ago" [ref=e272]:
+                    - cell "packaging, (Directory)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "packaging, (Directory)" [ref=e280] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/packaging
+                          - text: packaging
+                    - cell "[dist] Split package into regular vs. headless variant" [ref=e281]:
+                      - link "[dist] Split package into regular vs. headless variant" [ref=e284] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/009281557bf198d0ebe366699ceb7429e3e222a2
+                    - cell "Apr 27, 20263 hours ago" [ref=e285]:
+                      - generic [ref=e286]: Apr 27, 20263 hours ago
+                  - row "scenedetect, (Directory) [build] Add pyright checks to analysis, add moviepy as dev dep Apr 27, 20263 hours ago" [ref=e287]:
+                    - cell "scenedetect, (Directory)" [ref=e288]:
+                      - generic [ref=e289]:
+                        - img [ref=e290]
+                        - link "scenedetect, (Directory)" [ref=e295] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/scenedetect
+                          - text: scenedetect
+                    - cell "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e296]:
+                      - link "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e299] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/7984791b489dfbd52730d65aec429bbb242af41a
+                    - cell "Apr 27, 20263 hours ago" [ref=e300]:
+                      - generic [ref=e301]: Apr 27, 20263 hours ago
+                  - row "scripts, (Directory) [build] Add pyright checks to analysis, add moviepy as dev dep Apr 27, 20263 hours ago" [ref=e302]:
+                    - cell "scripts, (Directory)" [ref=e303]:
+                      - generic [ref=e304]:
+                        - img [ref=e305]
+                        - link "scripts, (Directory)" [ref=e310] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/scripts
+                          - text: scripts
+                    - cell "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e311]:
+                      - link "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e314] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/7984791b489dfbd52730d65aec429bbb242af41a
+                    - cell "Apr 27, 20263 hours ago" [ref=e315]:
+                      - generic [ref=e316]: Apr 27, 20263 hours ago
+                  - row "tests, (Directory) [build] Add pyright checks to analysis, add moviepy as dev dep Apr 27, 20263 hours ago" [ref=e317]:
+                    - cell "tests, (Directory)" [ref=e318]:
+                      - generic [ref=e319]:
+                        - img [ref=e320]
+                        - link "tests, (Directory)" [ref=e325] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/tests
+                          - text: tests
+                    - cell "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e326]:
+                      - link "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e329] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/7984791b489dfbd52730d65aec429bbb242af41a
+                    - cell "Apr 27, 20263 hours ago" [ref=e330]:
+                      - generic [ref=e331]: Apr 27, 20263 hours ago
+                  - row "website, (Directory) [dist] Finish PEP 621 migration Apr 27, 20263 hours ago" [ref=e332]:
+                    - cell "website, (Directory)" [ref=e333]:
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - link "website, (Directory)" [ref=e340] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/tree/main/website
+                          - text: website
+                    - cell "[dist] Finish PEP 621 migration" [ref=e341]:
+                      - link "[dist] Finish PEP 621 migration" [ref=e344] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/2d97e2d34ea69420dec892e652cdbf80e1073730
+                    - cell "Apr 27, 20263 hours ago" [ref=e345]:
+                      - generic [ref=e346]: Apr 27, 20263 hours ago
+                  - row ".gitignore, (File) [dist] Reorganize dist/ into scripts/ and packaging/ Apr 27, 20264 hours ago" [ref=e347]:
+                    - cell ".gitignore, (File)" [ref=e348]:
+                      - generic [ref=e349]:
+                        - img [ref=e350]
+                        - link ".gitignore, (File)" [ref=e355] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "[dist] Reorganize dist/ into scripts/ and packaging/" [ref=e356]:
+                      - link "[dist] Reorganize dist/ into scripts/ and packaging/" [ref=e359] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/bba2bfe2733f55ac28286a4a6bf04afc321d7297
+                    - cell "Apr 27, 20264 hours ago" [ref=e360]:
+                      - generic [ref=e361]: Apr 27, 20264 hours ago
+                  - 'row "CITATION.cff, (File) [docs] Add CITATION.cff #399 Jun 9, 20242 years ago" [ref=e362]':
+                    - cell "CITATION.cff, (File)" [ref=e363]:
+                      - generic [ref=e364]:
+                        - img [ref=e365]
+                        - link "CITATION.cff, (File)" [ref=e370] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/CITATION.cff
+                          - text: CITATION.cff
+                    - 'cell "[docs] Add CITATION.cff #399" [ref=e371]':
+                      - generic [ref=e373]:
+                        - link "[docs] Add CITATION.cff" [ref=e374] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/commit/20f6848d78f72c00f582058793376c951c43020c
+                        - link "#399" [ref=e375] [cursor=pointer]:
+                          - /url: https://github.com/Breakthrough/PySceneDetect/issues/399
+                    - cell "Jun 9, 20242 years ago" [ref=e376]:
+                      - generic [ref=e377]: Jun 9, 20242 years ago
+                  - row "LICENSE, (File) [general] Change copyright style to single year, files use first date… Apr 26, 2026yesterday" [ref=e378]:
+                    - cell "LICENSE, (File)" [ref=e379]:
+                      - generic [ref=e380]:
+                        - img [ref=e381]
+                        - link "LICENSE, (File)" [ref=e386] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "[general] Change copyright style to single year, files use first date…" [ref=e387]:
+                      - link "[general] Change copyright style to single year, files use first date…" [ref=e390] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/97f1e4b3b87a0d2c1102613c116b3dca2f97ca00
+                    - cell "Apr 26, 2026yesterday" [ref=e391]:
+                      - generic [ref=e392]: Apr 26, 2026yesterday
+                  - row "MANIFEST.in, (File) [dist] Finish PEP 621 migration Apr 27, 20263 hours ago" [ref=e393]:
+                    - cell "MANIFEST.in, (File)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link "MANIFEST.in, (File)" [ref=e401] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/MANIFEST.in
+                          - text: MANIFEST.in
+                    - cell "[dist] Finish PEP 621 migration" [ref=e402]:
+                      - link "[dist] Finish PEP 621 migration" [ref=e405] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/2d97e2d34ea69420dec892e652cdbf80e1073730
+                    - cell "Apr 27, 20263 hours ago" [ref=e406]:
+                      - generic [ref=e407]: Apr 27, 20263 hours ago
+                  - row "README.md, (File) [general] Change copyright style to single year, files use first date… Apr 26, 2026yesterday" [ref=e408]:
+                    - cell "README.md, (File)" [ref=e409]:
+                      - generic [ref=e410]:
+                        - img [ref=e411]
+                        - link "README.md, (File)" [ref=e416] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/README.md
+                          - text: README.md
+                    - cell "[general] Change copyright style to single year, files use first date…" [ref=e417]:
+                      - link "[general] Change copyright style to single year, files use first date…" [ref=e420] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/97f1e4b3b87a0d2c1102613c116b3dca2f97ca00
+                    - cell "Apr 26, 2026yesterday" [ref=e421]:
+                      - generic [ref=e422]: Apr 26, 2026yesterday
+                  - row "RELEASE-PLAN.md, (File) [dist] Split package into regular vs. headless variant Apr 27, 20263 hours ago" [ref=e423]:
+                    - cell "RELEASE-PLAN.md, (File)" [ref=e424]:
+                      - generic [ref=e425]:
+                        - img [ref=e426]
+                        - link "RELEASE-PLAN.md, (File)" [ref=e431] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/RELEASE-PLAN.md
+                          - text: RELEASE-PLAN.md
+                    - cell "[dist] Split package into regular vs. headless variant" [ref=e432]:
+                      - link "[dist] Split package into regular vs. headless variant" [ref=e435] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/009281557bf198d0ebe366699ceb7429e3e222a2
+                    - cell "Apr 27, 20263 hours ago" [ref=e436]:
+                      - generic [ref=e437]: Apr 27, 20263 hours ago
+                  - row "THIRD-PARTY.md, (File) [dist] Fix Github license detection. May 27, 20242 years ago" [ref=e438]:
+                    - cell "THIRD-PARTY.md, (File)" [ref=e439]:
+                      - generic [ref=e440]:
+                        - img [ref=e441]
+                        - link "THIRD-PARTY.md, (File)" [ref=e446] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/THIRD-PARTY.md
+                          - text: THIRD-PARTY.md
+                    - cell "[dist] Fix Github license detection." [ref=e447]:
+                      - link "[dist] Fix Github license detection." [ref=e450] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/86159d4746a6fce88ade54b2d494397a30a84a73
+                    - cell "May 27, 20242 years ago" [ref=e451]:
+                      - generic [ref=e452]: May 27, 20242 years ago
+                  - row "appveyor.yml, (File) [dist] Finish PEP 621 migration Apr 27, 20263 hours ago" [ref=e453]:
+                    - cell "appveyor.yml, (File)" [ref=e454]:
+                      - generic [ref=e455]:
+                        - img [ref=e456]
+                        - link "appveyor.yml, (File)" [ref=e461] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/appveyor.yml
+                          - text: appveyor.yml
+                    - cell "[dist] Finish PEP 621 migration" [ref=e462]:
+                      - link "[dist] Finish PEP 621 migration" [ref=e465] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/2d97e2d34ea69420dec892e652cdbf80e1073730
+                    - cell "Apr 27, 20263 hours ago" [ref=e466]:
+                      - generic [ref=e467]: Apr 27, 20263 hours ago
+                  - row "pyproject.toml, (File) [build] Add pyright checks to analysis, add moviepy as dev dep Apr 27, 20263 hours ago" [ref=e468]:
+                    - cell "pyproject.toml, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "pyproject.toml, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e477]:
+                      - link "[build] Add pyright checks to analysis, add moviepy as dev dep" [ref=e480] [cursor=pointer]:
+                        - /url: /Breakthrough/PySceneDetect/commit/7984791b489dfbd52730d65aec429bbb242af41a
+                    - cell "Apr 27, 20263 hours ago" [ref=e481]:
+                      - generic [ref=e482]: Apr 27, 20263 hours ago
+                  - row "scenedetect.cfg, (File) Add New Output Methods to Python API + Finalize FCPX Support (#543) Apr 23, 20264 days ago" [ref=e483]:
+                    - cell "scenedetect.cfg, (File)" [ref=e484]:
+                      - generic [ref=e485]:
+                        - img [ref=e486]
+                        - link "scenedetect.cfg, (File)" [ref=e491] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/blob/main/scenedetect.cfg
+                          - text: scenedetect.cfg
+                    - cell "Add New Output Methods to Python API + Finalize FCPX Support (#543)" [ref=e492]:
+                      - generic [ref=e494]:
+                        - link "Add New Output Methods to Python API + Finalize FCPX Support (" [ref=e495] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/commit/7fce8414ae1cfb921cb7086c49c7e9e0648696cb
+                        - link "#543" [ref=e496] [cursor=pointer]:
+                          - /url: https://github.com/Breakthrough/PySceneDetect/pull/543
+                        - link ")" [ref=e497] [cursor=pointer]:
+                          - /url: /Breakthrough/PySceneDetect/commit/7fce8414ae1cfb921cb7086c49c7e9e0648696cb
+                    - cell "Apr 23, 20264 days ago" [ref=e498]:
+                      - generic [ref=e499]: Apr 23, 20264 days ago
+            - generic [ref=e501]:
+              - generic [ref=e502]:
+                - heading "Repository files navigation" [level=2] [ref=e503]
+                - navigation "Repository files" [ref=e504]:
+                  - list [ref=e505]:
+                    - listitem [ref=e506]:
+                      - link "README" [ref=e507] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e509]
+                        - generic [ref=e511]: README
+                    - listitem [ref=e512]:
+                      - link "BSD-3-Clause license" [ref=e513] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e515]
+                        - generic [ref=e517]: BSD-3-Clause license
+                - button "Outline" [ref=e518] [cursor=pointer]:
+                  - img [ref=e519]
+              - article [ref=e522]:
+                - generic [ref=e523]:
+                  - heading "PySceneDetect" [level=1] [ref=e524]:
+                    - link "PySceneDetect" [ref=e525] [cursor=pointer]:
+                      - /url: https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png
+                      - img "PySceneDetect" [ref=e526]
+                  - link "Permalink:" [ref=e527] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e528]
+                - generic [ref=e530]:
+                  - heading "Video Cut Detection and Analysis Tool" [level=2] [ref=e531]
+                  - 'link "Permalink: Video Cut Detection and Analysis Tool" [ref=e532] [cursor=pointer]':
+                    - /url: "#video-cut-detection-and-analysis-tool"
+                    - img [ref=e533]
+                - paragraph [ref=e535]:
+                  - link "Build Status" [ref=e536] [cursor=pointer]:
+                    - /url: https://github.com/Breakthrough/PySceneDetect/actions
+                    - img "Build Status" [ref=e537]
+                  - link "PyPI Status" [ref=e538] [cursor=pointer]:
+                    - /url: https://pypi.python.org/pypi/scenedetect/
+                    - img "PyPI Status" [ref=e539]
+                  - link "PyPI Version" [ref=e540] [cursor=pointer]:
+                    - /url: https://pypi.python.org/pypi/scenedetect/
+                    - img "PyPI Version" [ref=e541]
+                  - link "PyPI License" [ref=e542] [cursor=pointer]:
+                    - /url: https://scenedetect.com/copyright/
+                    - img "PyPI License" [ref=e543]
+                - separator [ref=e544]
+                - generic [ref=e545]:
+                  - 'heading "Latest Release: v0.6.7 (August 24, 2025)" [level=3] [ref=e546]'
+                  - 'link "Permalink: Latest Release: v0.6.7 (August 24, 2025)" [ref=e547] [cursor=pointer]':
+                    - /url: "#latest-release-v067-august-24-2025"
+                    - img [ref=e548]
+                - paragraph [ref=e550]:
+                  - strong [ref=e551]: Website
+                  - text: ":"
+                  - link "scenedetect.com" [ref=e552] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com
+                - paragraph [ref=e553]:
+                  - strong [ref=e554]: Quickstart Example
+                  - text: ":"
+                  - link "scenedetect.com/cli/" [ref=e555] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com/cli/
+                - paragraph [ref=e556]:
+                  - strong [ref=e557]: Documentation
+                  - text: ":"
+                  - link "scenedetect.com/docs/" [ref=e558] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com/docs/
+                - paragraph [ref=e559]:
+                  - strong [ref=e560]: Discord
+                  - text: ":"
+                  - link "https://discord.gg/H83HbJngk7" [ref=e561] [cursor=pointer]:
+                    - /url: https://discord.gg/H83HbJngk7
+                - separator [ref=e562]
+                - paragraph [ref=e563]:
+                  - strong [ref=e564]: Quick Install
+                  - text: ":"
+                - generic [ref=e565]:
+                  - code [ref=e567]: pip install scenedetect[opencv] --upgrade
+                  - button "Copy" [ref=e569] [cursor=pointer]:
+                    - img [ref=e570]
+                - paragraph [ref=e573]:
+                  - text: Requires ffmpeg/mkvmerge for video splitting support. Windows builds (MSI installer/portable ZIP) can be found on
+                  - link "the download page" [ref=e574] [cursor=pointer]:
+                    - /url: https://scenedetect.com/download/
+                  - text: .
+                - separator [ref=e575]
+                - paragraph [ref=e576]:
+                  - strong [ref=e577]: Quick Start (Command Line)
+                  - text: ":"
+                - paragraph [ref=e578]:
+                  - text: Split input video on each fast cut using
+                  - code [ref=e579]: ffmpeg
+                  - text: ":"
+                - generic [ref=e580]:
+                  - code [ref=e582]: scenedetect -i video.mp4 split-video
+                  - button "Copy" [ref=e584] [cursor=pointer]:
+                    - img [ref=e585]
+                - paragraph [ref=e588]: "Save some frames from each cut:"
+                - generic [ref=e589]:
+                  - code [ref=e591]: scenedetect -i video.mp4 save-images
+                  - button "Copy" [ref=e593] [cursor=pointer]:
+                    - img [ref=e594]
+                - paragraph [ref=e597]: "Skip the first 10 seconds of the input video:"
+                - generic [ref=e598]:
+                  - code [ref=e600]: scenedetect -i video.mp4 time -s 10s
+                  - button "Copy" [ref=e602] [cursor=pointer]:
+                    - img [ref=e603]
+                - paragraph [ref=e606]:
+                  - text: More examples can be found throughout
+                  - link "the documentation" [ref=e607] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com/docs/latest/cli.html
+                  - text: .
+                - paragraph [ref=e608]:
+                  - strong [ref=e609]: Quick Start (Python API)
+                  - text: ":"
+                - paragraph [ref=e610]: "To get started, there is a high level function in the library that performs content-aware scene detection on a video (try it from a Python prompt):"
+                - generic [ref=e611]:
+                  - generic [ref=e612]: from scenedetect import detect, ContentDetector scene_list = detect('my_video.mp4', ContentDetector())
+                  - button "Copy" [ref=e614] [cursor=pointer]:
+                    - img [ref=e615]
+                - paragraph [ref=e618]:
+                  - code [ref=e619]: scene_list
+                  - text: will now be a list containing the start/end times of all scenes found in the video. There also exists a two-pass version
+                  - code [ref=e620]: AdaptiveDetector
+                  - text: which handles fast camera movement better, and
+                  - code [ref=e621]: ThresholdDetector
+                  - text: for handling fade out/fade in events.
+                - paragraph [ref=e622]:
+                  - text: Try calling
+                  - code [ref=e623]: print(scene_list)
+                  - text: ", or iterating over each scene:"
+                - generic [ref=e624]:
+                  - generic [ref=e625]: "from scenedetect import detect, ContentDetector scene_list = detect('my_video.mp4', ContentDetector()) for i, scene in enumerate(scene_list): print(' Scene %2d: Start %s / Frame %d, End %s / Frame %d' % ( i+1, scene[0].get_timecode(), scene[0].frame_num, scene[1].get_timecode(), scene[1].frame_num,))"
+                  - button "Copy" [ref=e627] [cursor=pointer]:
+                    - img [ref=e628]
+                - paragraph [ref=e631]:
+                  - text: We can also split the video into each scene if
+                  - code [ref=e632]: ffmpeg
+                  - text: is installed (
+                  - code [ref=e633]: mkvmerge
+                  - text: "is also supported):"
+                - generic [ref=e634]:
+                  - generic [ref=e635]: from scenedetect import detect, ContentDetector, split_video_ffmpeg scene_list = detect('my_video.mp4', ContentDetector()) split_video_ffmpeg('my_video.mp4', scene_list)
+                  - button "Copy" [ref=e637] [cursor=pointer]:
+                    - img [ref=e638]
+                - paragraph [ref=e641]:
+                  - text: For more advanced usage, the API is highly configurable, and can easily integrate with any pipeline. This includes using different detection algorithms, splitting the input video, and much more. The following example shows how to implement a function similar to the above, but using
+                  - link "the scenedetect API" [ref=e642] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com/docs/latest/api.html
+                    - text: the
+                    - code [ref=e643]: scenedetect
+                    - text: API
+                  - text: ":"
+                - generic [ref=e644]:
+                  - generic [ref=e645]: "from scenedetect import open_video, SceneManager, split_video_ffmpeg from scenedetect.detectors import ContentDetector from scenedetect.video_splitter import split_video_ffmpeg def split_video_into_scenes(video_path, threshold=27.0): # Open our video, create a scene manager, and add a detector. video = open_video(video_path) scene_manager = SceneManager() scene_manager.add_detector( ContentDetector(threshold=threshold)) scene_manager.detect_scenes(video, show_progress=True) scene_list = scene_manager.get_scene_list() split_video_ffmpeg(video_path, scene_list, show_progress=True)"
+                  - button "Copy" [ref=e647] [cursor=pointer]:
+                    - img [ref=e648]
+                - paragraph [ref=e651]:
+                  - text: See
+                  - link "the documentation" [ref=e652] [cursor=pointer]:
+                    - /url: https://www.scenedetect.com/docs/latest/api.html
+                  - text: for more examples.
+                - paragraph [ref=e653]:
+                  - strong [ref=e654]: Benchmark
+                  - text: ":"
+                - paragraph [ref=e655]:
+                  - text: We evaluate the performance of different detectors in terms of accuracy and processing speed. See the
+                  - link "benchmark report" [ref=e656] [cursor=pointer]:
+                    - /url: /Breakthrough/PySceneDetect/blob/main/benchmark/README.md
+                  - text: for details.
+                - generic [ref=e657]:
+                  - heading "Reference" [level=2] [ref=e658]
+                  - 'link "Permalink: Reference" [ref=e659] [cursor=pointer]':
+                    - /url: "#reference"
+                    - img [ref=e660]
+                - list [ref=e662]:
+                  - listitem [ref=e663]:
+                    - link "Documentation" [ref=e664] [cursor=pointer]:
+                      - /url: https://www.scenedetect.com/docs/
+                    - text: (covers application and Python API)
+                  - listitem [ref=e665]:
+                    - link "CLI Example" [ref=e666] [cursor=pointer]:
+                      - /url: https://www.scenedetect.com/cli/
+                  - listitem [ref=e667]:
+                    - link "Config File" [ref=e668] [cursor=pointer]:
+                      - /url: https://www.scenedetect.com/docs/0.6.4/cli/config_file.html
+                - generic [ref=e669]:
+                  - heading "Help & Contributing" [level=2] [ref=e670]
+                  - 'link "Permalink: Help & Contributing" [ref=e671] [cursor=pointer]':
+                    - /url: "#help--contributing"
+                    - img [ref=e672]
+                - paragraph [ref=e674]:
+                  - text: Please submit any bugs/issues or feature requests to
+                  - link "the Issue Tracker" [ref=e675] [cursor=pointer]:
+                    - /url: https://github.com/Breakthrough/PySceneDetect/issues
+                  - text: . Before submission, ensure you search through existing issues (both open and closed) to avoid creating duplicate entries. Pull requests are welcome and encouraged. PySceneDetect is released under the BSD 3-Clause license, and submitted code should be compliant.
+                - paragraph [ref=e676]:
+                  - text: For help or other issues, you can join
+                  - link "the official PySceneDetect Discord Server" [ref=e677] [cursor=pointer]:
+                    - /url: https://discord.gg/H83HbJngk7
+                  - text: ", submit an issue/bug report"
+                  - link "here on Github" [ref=e678] [cursor=pointer]:
+                    - /url: https://github.com/Breakthrough/PySceneDetect/issues
+                  - text: ", or contact me via"
+                  - link "my website" [ref=e679] [cursor=pointer]:
+                    - /url: http://www.bcastell.com/about/
+                  - text: .
+                - generic [ref=e680]:
+                  - heading "Code Signing" [level=2] [ref=e681]
+                  - 'link "Permalink: Code Signing" [ref=e682] [cursor=pointer]':
+                    - /url: "#code-signing"
+                    - img [ref=e683]
+                - paragraph [ref=e685]:
+                  - text: This program uses free code signing provided by
+                  - link "SignPath.io" [ref=e686] [cursor=pointer]:
+                    - /url: https://signpath.io?utm_source=foundation&utm_medium=github&utm_campaign=PySceneDetect
+                  - text: ", and a free code signing certificate by the"
+                  - link "SignPath Foundation" [ref=e687] [cursor=pointer]:
+                    - /url: https://signpath.org?utm_source=foundation&utm_medium=github&utm_campaign=PySceneDetect
+                - generic [ref=e688]:
+                  - heading "License" [level=2] [ref=e689]
+                  - 'link "Permalink: License" [ref=e690] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e691]
+                - paragraph [ref=e693]:
+                  - text: BSD-3-Clause; see
+                  - link "LICENSE" [ref=e694] [cursor=pointer]:
+                    - /url: /Breakthrough/PySceneDetect/blob/main/LICENSE
+                    - code [ref=e695]: LICENSE
+                  - text: and
+                  - link "THIRD-PARTY.md" [ref=e696] [cursor=pointer]:
+                    - /url: /Breakthrough/PySceneDetect/blob/main/THIRD-PARTY.md
+                    - code [ref=e697]: THIRD-PARTY.md
+                  - text: for details.
+                - separator [ref=e698]
+                - paragraph [ref=e699]: Copyright (C) 2014 Brandon Castellano. All rights reserved.
+        - generic [ref=e703]:
+          - generic [ref=e706]:
+            - heading "About" [level=2] [ref=e707]
+            - paragraph [ref=e708]: 🎥 Python and OpenCV-based scene cut/transition detection program & library.
+            - generic [ref=e709]:
+              - img [ref=e710]
+              - link "www.scenedetect.com/" [ref=e713] [cursor=pointer]:
+                - /url: https://www.scenedetect.com/
+            - heading "Topics" [level=3] [ref=e714]
+            - generic [ref=e716]:
+              - link "python" [ref=e717] [cursor=pointer]:
+                - /url: /topics/python
+              - link "opencv" [ref=e718] [cursor=pointer]:
+                - /url: /topics/opencv
+              - link "video" [ref=e719] [cursor=pointer]:
+                - /url: /topics/video
+              - link "analysis" [ref=e720] [cursor=pointer]:
+                - /url: /topics/analysis
+              - link "image-processing" [ref=e721] [cursor=pointer]:
+                - /url: /topics/image-processing
+              - link "video-processing" [ref=e722] [cursor=pointer]:
+                - /url: /topics/video-processing
+              - link "scene-recognition" [ref=e723] [cursor=pointer]:
+                - /url: /topics/scene-recognition
+              - link "scene-detection" [ref=e724] [cursor=pointer]:
+                - /url: /topics/scene-detection
+              - link "python-opencv" [ref=e725] [cursor=pointer]:
+                - /url: /topics/python-opencv
+            - heading "Resources" [level=3] [ref=e726]
+            - link "Readme" [ref=e728] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e729]
+              - text: Readme
+            - heading "License" [level=3] [ref=e731]
+            - link "BSD-3-Clause license" [ref=e733] [cursor=pointer]:
+              - /url: "#BSD-3-Clause-1-ov-file"
+              - img [ref=e734]
+              - text: BSD-3-Clause license
+            - heading "Citation" [level=3] [ref=e736]
+            - button "Cite this repository" [ref=e738] [cursor=pointer]:
+              - generic [ref=e740]:
+                - img [ref=e741]
+                - text: Cite this repository
+            - link "Activity" [ref=e745] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/activity
+              - img [ref=e746]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e748]
+            - link "4.8k stars" [ref=e750] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/stargazers
+              - img [ref=e751]
+              - strong [ref=e753]: 4.8k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e754]
+            - link "65 watching" [ref=e756] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/watchers
+              - img [ref=e757]
+              - strong [ref=e759]: "65"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e760]
+            - link "486 forks" [ref=e762] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/forks
+              - img [ref=e763]
+              - strong [ref=e765]: "486"
+              - text: forks
+            - link "Report repository" [ref=e767] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FBreakthrough%2FPySceneDetect&report=Breakthrough+%28user%29
+          - generic [ref=e769]:
+            - heading "Releases 36" [level=2] [ref=e770]:
+              - link "Releases 36" [ref=e771] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/releases
+                - text: Releases
+                - generic "36" [ref=e772]
+            - link "PySceneDetect v0.6.7 Latest Aug 25, 2025on Aug 25, 2025" [ref=e773] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/releases/tag/v0.6.7-release
+              - img [ref=e774]
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - generic [ref=e778]: PySceneDetect v0.6.7
+                  - 'generic "Label: Latest" [ref=e779]': Latest
+                - generic [ref=e780]: Aug 25, 2025on Aug 25, 2025
+            - link "+ 35 releases" [ref=e782] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/releases
+          - generic [ref=e784]:
+            - heading "Packages" [level=2] [ref=e785]:
+              - link "Packages" [ref=e786] [cursor=pointer]:
+                - /url: /users/Breakthrough/packages?repo_name=PySceneDetect
+            - generic [ref=e787]: No packages published
+          - generic [ref=e789]:
+            - heading "Contributors 36" [level=2] [ref=e790]:
+              - link "Contributors 36" [ref=e791] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/graphs/contributors
+                - text: Contributors
+                - generic "36" [ref=e792]
+            - list [ref=e793]:
+              - listitem [ref=e794]:
+                - link "@Breakthrough" [ref=e795] [cursor=pointer]:
+                  - /url: https://github.com/Breakthrough
+                  - img "@Breakthrough" [ref=e796]
+              - listitem [ref=e797]:
+                - link "@wjs018" [ref=e798] [cursor=pointer]:
+                  - /url: https://github.com/wjs018
+                  - img "@wjs018" [ref=e799]
+              - listitem [ref=e800]:
+                - link "@tonycpsu" [ref=e801] [cursor=pointer]:
+                  - /url: https://github.com/tonycpsu
+                  - img "@tonycpsu" [ref=e802]
+              - listitem [ref=e803]:
+                - link "@scarwire" [ref=e804] [cursor=pointer]:
+                  - /url: https://github.com/scarwire
+                  - img "@scarwire" [ref=e805]
+              - listitem [ref=e806]:
+                - link "@awkrail" [ref=e807] [cursor=pointer]:
+                  - /url: https://github.com/awkrail
+                  - img "@awkrail" [ref=e808]
+              - listitem [ref=e809]:
+                - link "@nirabo" [ref=e810] [cursor=pointer]:
+                  - /url: https://github.com/nirabo
+                  - img "@nirabo" [ref=e811]
+              - listitem [ref=e812]:
+                - link "@dependabot[bot]" [ref=e813] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e814]
+              - listitem [ref=e815]:
+                - link "@jffaria" [ref=e816] [cursor=pointer]:
+                  - /url: https://github.com/jffaria
+                  - img "@jffaria" [ref=e817]
+              - listitem [ref=e818]:
+                - link "@elcombato" [ref=e819] [cursor=pointer]:
+                  - /url: https://github.com/elcombato
+                  - img "@elcombato" [ref=e820]
+              - listitem [ref=e821]:
+                - link "@dadus33" [ref=e822] [cursor=pointer]:
+                  - /url: https://github.com/dadus33
+                  - img "@dadus33" [ref=e823]
+              - listitem [ref=e824]:
+                - link "@kianmeng" [ref=e825] [cursor=pointer]:
+                  - /url: https://github.com/kianmeng
+                  - img "@kianmeng" [ref=e826]
+              - listitem [ref=e827]:
+                - link "@piercus" [ref=e828] [cursor=pointer]:
+                  - /url: https://github.com/piercus
+                  - img "@piercus" [ref=e829]
+              - listitem [ref=e830]:
+                - link "@Mtillmann" [ref=e831] [cursor=pointer]:
+                  - /url: https://github.com/Mtillmann
+                  - img "@Mtillmann" [ref=e832]
+            - link "+ 22 contributors" [ref=e834] [cursor=pointer]:
+              - /url: /Breakthrough/PySceneDetect/graphs/contributors
+          - generic [ref=e836]:
+            - heading "Languages" [level=2] [ref=e837]
+            - list [ref=e842]:
+              - listitem [ref=e843]:
+                - link "Python 99.6%" [ref=e844] [cursor=pointer]:
+                  - /url: /Breakthrough/PySceneDetect/search?l=python
+                  - img [ref=e845]
+                  - generic [ref=e847]: Python
+                  - generic [ref=e848]: 99.6%
+              - listitem [ref=e849]:
+                - generic [ref=e850]:
+                  - img [ref=e851]
+                  - generic [ref=e853]: Other
+                  - generic [ref=e854]: 0.4%
+  - contentinfo [ref=e856]:
+    - heading "Footer" [level=2] [ref=e857]
+    - generic [ref=e858]:
+      - generic [ref=e859]:
+        - link "GitHub Homepage" [ref=e860] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e861]
+        - generic [ref=e863]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e864]:
+        - heading "Footer navigation" [level=3] [ref=e865]
+        - list "Footer navigation" [ref=e866]:
+          - listitem [ref=e867]:
+            - link "Terms" [ref=e868] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e869]:
+            - link "Privacy" [ref=e870] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e871]:
+            - link "Security" [ref=e872] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e873]:
+            - link "Status" [ref=e874] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e875]:
+            - link "Community" [ref=e876] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e877]:
+            - link "Docs" [ref=e878] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e879]:
+            - link "Contact" [ref=e880] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e881]:
+            - button "Manage cookies" [ref=e883] [cursor=pointer]
+          - listitem [ref=e884]:
+            - button "Do not share my personal information" [ref=e886] [cursor=pointer]

@@ -1,0 +1,1544 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FBreakthrough%2FPySceneDetect%2Fblob%2Fmain%2Fpyproject.toml
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=Breakthrough%2FPySceneDetect
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "Breakthrough" [ref=e70] [cursor=pointer]:
+              - /url: /Breakthrough
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "PySceneDetect" [ref=e73] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 486" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "486" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBreakthrough%2FPySceneDetect
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "4755 users starred this repository" [ref=e90]: 4.8k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 62" [ref=e99] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "62" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 5" [ref=e106] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "5" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Wiki" [ref=e127] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/wiki
+                - img [ref=e128]
+                - generic [ref=e130]: Wiki
+            - listitem [ref=e131]:
+              - link "Security and quality" [ref=e132] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/security
+                - img [ref=e133]
+                - generic [ref=e135]: Security and quality
+            - listitem [ref=e136]:
+              - link "Insights" [ref=e137] [cursor=pointer]:
+                - /url: /Breakthrough/PySceneDetect/pulse
+                - img [ref=e138]
+                - generic [ref=e140]: Insights
+      - generic [ref=e148]:
+        - generic [ref=e150]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - heading "Collapse file tree" [level=2] [ref=e156]:
+                  - button "Collapse file tree" [expanded] [ref=e157] [cursor=pointer]:
+                    - img [ref=e158]
+                - heading "Files" [level=2] [ref=e161]
+              - generic [ref=e162]:
+                - button "main branch" [ref=e164] [cursor=pointer]:
+                  - generic [ref=e165]:
+                    - generic [ref=e167]:
+                      - img [ref=e169]
+                      - generic [ref=e172]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e174] [cursor=pointer]:
+                  - img [ref=e175]
+            - generic [ref=e178]:
+              - img [ref=e180]
+              - combobox "Go to file" [ref=e182]
+            - navigation "File Tree Navigation" [ref=e188]:
+              - tree "Files" [ref=e190]:
+                - treeitem ".github" [level=1] [ref=e191]:
+                  - generic [ref=e192] [cursor=pointer]:
+                    - img [ref=e194]
+                    - generic [ref=e196]:
+                      - img [ref=e200]
+                      - generic [ref=e202]: .github
+                - treeitem "benchmark" [level=1] [ref=e203]:
+                  - generic [ref=e204] [cursor=pointer]:
+                    - img [ref=e206]
+                    - generic [ref=e208]:
+                      - img [ref=e212]
+                      - generic [ref=e214]: benchmark
+                - treeitem "docs" [level=1] [ref=e215]:
+                  - generic [ref=e216] [cursor=pointer]:
+                    - img [ref=e218]
+                    - generic [ref=e220]:
+                      - img [ref=e224]
+                      - generic [ref=e226]: docs
+                - treeitem "packaging" [level=1] [ref=e227]:
+                  - generic [ref=e228] [cursor=pointer]:
+                    - img [ref=e230]
+                    - generic [ref=e232]:
+                      - img [ref=e236]
+                      - generic [ref=e238]: packaging
+                - treeitem "scenedetect" [level=1] [ref=e239]:
+                  - generic [ref=e240] [cursor=pointer]:
+                    - img [ref=e242]
+                    - generic [ref=e244]:
+                      - img [ref=e248]
+                      - generic [ref=e250]: scenedetect
+                - treeitem "scripts" [level=1] [ref=e251]:
+                  - generic [ref=e252] [cursor=pointer]:
+                    - img [ref=e254]
+                    - generic [ref=e256]:
+                      - img [ref=e260]
+                      - generic [ref=e262]: scripts
+                - treeitem "tests" [level=1] [ref=e263]:
+                  - generic [ref=e264] [cursor=pointer]:
+                    - img [ref=e266]
+                    - generic [ref=e268]:
+                      - img [ref=e272]
+                      - generic [ref=e274]: tests
+                - treeitem "website" [level=1] [ref=e275]:
+                  - generic [ref=e276] [cursor=pointer]:
+                    - img [ref=e278]
+                    - generic [ref=e280]:
+                      - img [ref=e284]
+                      - generic [ref=e286]: website
+                - treeitem ".gitignore" [level=1] [ref=e287]:
+                  - generic [ref=e289] [cursor=pointer]:
+                    - img [ref=e292]
+                    - generic [ref=e294]: .gitignore
+                - treeitem "CITATION.cff" [level=1] [ref=e295]:
+                  - generic [ref=e297] [cursor=pointer]:
+                    - img [ref=e300]
+                    - generic [ref=e302]: CITATION.cff
+                - treeitem "LICENSE" [level=1] [ref=e303]:
+                  - generic [ref=e305] [cursor=pointer]:
+                    - img [ref=e308]
+                    - generic [ref=e310]: LICENSE
+                - treeitem "MANIFEST.in" [level=1] [ref=e311]:
+                  - generic [ref=e313] [cursor=pointer]:
+                    - img [ref=e316]
+                    - generic [ref=e318]: MANIFEST.in
+                - treeitem "README.md" [level=1] [ref=e319]:
+                  - generic [ref=e321] [cursor=pointer]:
+                    - img [ref=e324]
+                    - generic [ref=e326]: README.md
+                - treeitem "RELEASE-PLAN.md" [level=1] [ref=e327]:
+                  - generic [ref=e329] [cursor=pointer]:
+                    - img [ref=e332]
+                    - generic [ref=e334]: RELEASE-PLAN.md
+                - treeitem "THIRD-PARTY.md" [level=1] [ref=e335]:
+                  - generic [ref=e337] [cursor=pointer]:
+                    - img [ref=e340]
+                    - generic [ref=e342]: THIRD-PARTY.md
+                - treeitem "appveyor.yml" [level=1] [ref=e343]:
+                  - generic [ref=e345] [cursor=pointer]:
+                    - img [ref=e348]
+                    - generic [ref=e350]: appveyor.yml
+                - treeitem "pyproject.toml" [level=1] [ref=e351]:
+                  - generic [ref=e353] [cursor=pointer]:
+                    - img [ref=e356]
+                    - generic [ref=e358]: pyproject.toml
+                - treeitem "scenedetect.cfg" [level=1] [ref=e359]:
+                  - generic [ref=e361] [cursor=pointer]:
+                    - img [ref=e364]
+                    - generic [ref=e366]: scenedetect.cfg
+          - slider "Draggable pane splitter" [ref=e368]
+        - generic [ref=e371]:
+          - generic [ref=e375]:
+            - generic [ref=e377]:
+              - navigation "Breadcrumbs" [ref=e378]:
+                - heading "Breadcrumbs" [level=2] [ref=e379]
+                - list [ref=e380]:
+                  - listitem [ref=e381]:
+                    - link "PySceneDetect" [ref=e382] [cursor=pointer]:
+                      - /url: /Breakthrough/PySceneDetect/tree/main
+              - generic [ref=e383]:
+                - text: /
+                - heading "pyproject.toml" [level=1] [ref=e384]
+              - button "Copy path" [ref=e385] [cursor=pointer]:
+                - img [ref=e386]
+            - button "More file actions" [ref=e392] [cursor=pointer]:
+              - img [ref=e393]
+          - generic [ref=e395]:
+            - generic [ref=e397]:
+              - heading "Latest commit" [level=2] [ref=e398]
+              - generic [ref=e401]:
+                - heading "History" [level=2] [ref=e402]
+                - link "History" [ref=e403] [cursor=pointer]:
+                  - /url: /Breakthrough/PySceneDetect/commits/main/pyproject.toml
+                  - generic [ref=e404]:
+                    - generic:
+                      - img
+                    - generic [ref=e405]: History
+            - generic [ref=e407]:
+              - generic [ref=e409]:
+                - heading "File metadata and controls" [level=2] [ref=e410]
+                - list "File view" [ref=e412]:
+                  - listitem [ref=e413]:
+                    - button "Code" [ref=e414] [cursor=pointer]:
+                      - generic [ref=e416]: Code
+                  - listitem [ref=e417]:
+                    - button "Blame" [ref=e418] [cursor=pointer]:
+                      - generic [ref=e420]: Blame
+                - generic [ref=e421]:
+                  - generic [ref=e422]:
+                    - generic [ref=e423]:
+                      - link "Raw" [ref=e425] [cursor=pointer]:
+                        - /url: https://github.com/Breakthrough/PySceneDetect/raw/refs/heads/main/pyproject.toml
+                        - generic [ref=e427]: Raw
+                      - button "Copy raw file" [ref=e429] [cursor=pointer]:
+                        - img [ref=e430]
+                      - button "Download raw file" [ref=e434] [cursor=pointer]:
+                        - img [ref=e435]
+                    - generic [ref=e438]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e440]:
+                        - img [ref=e441]
+                      - button "More edit options" [ref=e444] [cursor=pointer]:
+                        - img [ref=e445]
+                  - button "Open symbols panel" [ref=e447] [cursor=pointer]:
+                    - img [ref=e448]
+              - region "pyproject.toml" [ref=e451]:
+                - generic [ref=e455]:
+                  - textbox "file content" [ref=e460]: "# # PySceneDetect: Python-Based Video Scene Detector # --------------------------------------------------------------- # [ Site: http://www.bcastell.com/projects/PySceneDetect/ ] # [ Github: https://github.com/Breakthrough/PySceneDetect/ ] # [ Documentation: http://www.scenedetect.com/docs/ ] # # Copyright (C) 2014 Brandon Castellano <http://www.bcastell.com>. # [build-system] requires = [\"setuptools\"] build-backend = \"setuptools.build_meta\" [project] name = \"scenedetect\" dynamic = [\"version\"] description = \"Video scene cut/shot detection program and Python library.\" readme = { file = \"packaging/package-info.rst\", content-type = \"text/x-rst\" } license = { text = \"BSD-3-Clause\" } requires-python = \">=3.10\" authors = [{ name = \"Brandon Castellano\", email = \"brandon248@gmail.com\" }] keywords = [\"video\", \"computer-vision\", \"analysis\"] classifiers = [ \"Development Status :: 5 - Production/Stable\", \"Environment :: Console\", \"Environment :: Console :: Curses\", \"Intended Audience :: Developers\", \"Intended Audience :: End Users/Desktop\", \"Intended Audience :: System Administrators\", \"Operating System :: OS Independent\", \"Programming Language :: Python :: 3\", \"Programming Language :: Python :: 3.10\", \"Programming Language :: Python :: 3.11\", \"Programming Language :: Python :: 3.12\", \"Programming Language :: Python :: 3.13\", \"Topic :: Multimedia :: Video\", \"Topic :: Multimedia :: Video :: Conversion\", \"Topic :: Multimedia :: Video :: Non-Linear Editor\", \"Topic :: Utilities\", ] dependencies = [ # click 8.3.0 is excluded as per https://scenedetect.com/issues/521 \"click~=8.0,<8.3.0\", \"numpy\", \"opencv-python\", \"platformdirs\", \"tqdm\", ] [project.optional-dependencies] pyav = [\"av>=9.2\"] moviepy = [\"moviepy\"] dev = [\"av>=9.2\", \"moviepy\", \"pytest>=7.0\"] docs = [\"Sphinx==7.0.1\"] website = [\"mkdocs==1.5.2\", \"jinja2>=3.1.6\"] [project.urls] Homepage = \"https://www.scenedetect.com\" Repository = \"https://github.com/Breakthrough/PySceneDetect/\" Documentation = \"https://www.scenedetect.com/docs/\" \"Bug Tracker\" = \"https://github.com/Breakthrough/PySceneDetect/issues/\" [project.scripts] scenedetect = \"scenedetect.__main__:main\" [tool.setuptools] include-package-data = true [tool.setuptools.packages.find] include = [\"scenedetect*\"] [tool.setuptools.dynamic] version = { attr = \"scenedetect.__version__\" } [tool.pytest.ini_options] markers = [ \"release: opt-in release-validation tests; excluded by default (run with `pytest -m release`)\", ] addopts = \"-m 'not release'\" filterwarnings = [ \"ignore:TODO.*Update caller to handle VFR:UserWarning\", ] [tool.ruff] line-length = 100 indent-width = 4 [tool.ruff.format] quote-style = \"double\" indent-style = \"space\" skip-magic-trailing-comma = false docstring-code-format = true [tool.ruff.lint] select = [ # flake8-bugbear \"B\", # pycodestyle \"E\", \"W\", # Pyflakes \"F\", # isort \"I\", # pyupgrade \"UP\", # flake8-simplify \"SIM\", # ruff-native checks \"RUF\", ] ignore = [ # TODO: Audit re-exports in __init__.py files. Add `__all__` (note: must be kept in sync as # new public symbols are added) or use redundant-alias form (`from x import Y as Y`). \"F401\", ] fixable = [\"ALL\"] unfixable = [] [tool.ruff.lint.per-file-ignores] # Vendored third-party code: don't rewrite/modernize upstream source. \"scenedetect/_thirdparty/*\" = [\"UP\"] # CLI help text and validation messages are intentionally long. \"scenedetect/_cli/*\" = [\"E501\"] # Test data tables and golden output strings are clearer unwrapped. \"tests/*\" = [\"E501\"] # Doc generators and benchmark scripts mirror the CLI strings. \"docs/*\" = [\"E501\"] \"benchmark/*\" = [\"E501\"] [tool.pyright] include = [\"scenedetect\", \"tests\"] exclude = [ # Pyright built-in defaults \"**/node_modules\", \"**/__pycache__\", \"**/.*\", \".venv\", # Vendored third-party code \"scenedetect/_thirdparty\", # Release tests pull in extra deps (opentimelineio, psutil) that aren't in [dev] \"tests/release\", ] # Modes: \"off\" | \"basic\" | \"standard\" | \"strict\". The 0.7 codebase is clean # at \"basic\". When tightening to \"standard\" or \"strict\" in the future, the # cv2 / av / numpy / moviepy noise rules (reportUnknown*, reportMissingTypeStubs) # will likely need to be re-added with \"none\" or scoped per-file. typeCheckingMode = \"basic\" # Analyze against the minimum supported Python so 3.11+-only APIs get flagged # regardless of which interpreter runs pyright. pythonVersion = \"3.10\""
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e461]:
+                          - generic [ref=e462] [cursor=pointer]: "1"
+                          - generic [ref=e463] [cursor=pointer]: "2"
+                          - generic [ref=e464] [cursor=pointer]: "3"
+                          - generic [ref=e465] [cursor=pointer]: "4"
+                          - generic [ref=e466] [cursor=pointer]: "5"
+                          - generic [ref=e467] [cursor=pointer]: "6"
+                          - generic [ref=e468] [cursor=pointer]: "7"
+                          - generic [ref=e469] [cursor=pointer]: "8"
+                          - generic [ref=e470] [cursor=pointer]: "9"
+                          - generic [ref=e471] [cursor=pointer]: "10"
+                          - generic [ref=e472] [cursor=pointer]: "11"
+                          - generic [ref=e473] [cursor=pointer]: "12"
+                          - generic [ref=e474] [cursor=pointer]: "13"
+                          - generic [ref=e475] [cursor=pointer]: "14"
+                          - generic [ref=e476] [cursor=pointer]: "15"
+                          - generic [ref=e477] [cursor=pointer]: "16"
+                          - generic [ref=e478] [cursor=pointer]: "17"
+                          - generic [ref=e479] [cursor=pointer]: "18"
+                          - generic [ref=e480] [cursor=pointer]: "19"
+                          - generic [ref=e481] [cursor=pointer]: "20"
+                          - generic [ref=e482] [cursor=pointer]: "21"
+                          - generic [ref=e483] [cursor=pointer]: "22"
+                          - generic [ref=e484] [cursor=pointer]: "23"
+                          - generic [ref=e485] [cursor=pointer]: "24"
+                          - generic [ref=e486] [cursor=pointer]: "25"
+                          - generic [ref=e487] [cursor=pointer]: "26"
+                          - generic [ref=e488] [cursor=pointer]: "27"
+                          - generic [ref=e489] [cursor=pointer]: "28"
+                          - generic [ref=e490] [cursor=pointer]: "29"
+                          - generic [ref=e491] [cursor=pointer]: "30"
+                          - generic [ref=e492] [cursor=pointer]: "31"
+                          - generic [ref=e493] [cursor=pointer]: "32"
+                          - generic [ref=e494] [cursor=pointer]: "33"
+                          - generic [ref=e495] [cursor=pointer]: "34"
+                          - generic [ref=e496] [cursor=pointer]: "35"
+                          - generic [ref=e497] [cursor=pointer]: "36"
+                          - generic [ref=e498] [cursor=pointer]: "37"
+                          - generic [ref=e499] [cursor=pointer]: "38"
+                          - generic [ref=e500] [cursor=pointer]: "39"
+                          - generic [ref=e501] [cursor=pointer]: "40"
+                          - generic [ref=e502] [cursor=pointer]: "41"
+                          - generic [ref=e503] [cursor=pointer]: "42"
+                          - generic [ref=e504] [cursor=pointer]: "43"
+                          - generic [ref=e505] [cursor=pointer]: "44"
+                          - generic [ref=e506] [cursor=pointer]: "45"
+                          - generic [ref=e507] [cursor=pointer]: "46"
+                          - generic [ref=e508] [cursor=pointer]: "47"
+                          - generic [ref=e509] [cursor=pointer]: "48"
+                          - generic [ref=e510] [cursor=pointer]: "49"
+                          - generic [ref=e511] [cursor=pointer]: "50"
+                          - generic [ref=e512] [cursor=pointer]: "51"
+                          - generic [ref=e513] [cursor=pointer]: "52"
+                          - generic [ref=e514] [cursor=pointer]: "53"
+                          - generic [ref=e515] [cursor=pointer]: "54"
+                          - generic [ref=e516] [cursor=pointer]: "55"
+                          - generic [ref=e517] [cursor=pointer]: "56"
+                          - generic [ref=e518] [cursor=pointer]: "57"
+                          - generic [ref=e519] [cursor=pointer]: "58"
+                          - generic [ref=e520] [cursor=pointer]: "59"
+                          - generic [ref=e521] [cursor=pointer]: "60"
+                          - generic [ref=e522] [cursor=pointer]: "61"
+                          - generic [ref=e523] [cursor=pointer]: "62"
+                          - generic [ref=e524] [cursor=pointer]: "63"
+                          - generic [ref=e525] [cursor=pointer]: "64"
+                          - generic [ref=e526] [cursor=pointer]: "65"
+                          - generic [ref=e527] [cursor=pointer]: "66"
+                          - generic [ref=e528] [cursor=pointer]: "67"
+                          - generic [ref=e529] [cursor=pointer]: "68"
+                          - generic [ref=e530] [cursor=pointer]: "69"
+                          - generic [ref=e531] [cursor=pointer]: "70"
+                          - generic [ref=e532] [cursor=pointer]: "71"
+                          - generic [ref=e533] [cursor=pointer]: "72"
+                          - generic [ref=e534] [cursor=pointer]: "73"
+                          - generic [ref=e535] [cursor=pointer]: "74"
+                          - generic [ref=e536] [cursor=pointer]: "75"
+                          - generic [ref=e537] [cursor=pointer]: "76"
+                          - generic [ref=e538] [cursor=pointer]: "77"
+                          - generic [ref=e539] [cursor=pointer]: "78"
+                          - generic [ref=e540] [cursor=pointer]: "79"
+                          - generic [ref=e541] [cursor=pointer]: "80"
+                          - generic [ref=e542] [cursor=pointer]: "81"
+                          - generic [ref=e543] [cursor=pointer]: "82"
+                          - generic [ref=e544] [cursor=pointer]: "83"
+                          - generic [ref=e545] [cursor=pointer]: "84"
+                          - generic [ref=e546] [cursor=pointer]: "85"
+                          - generic [ref=e547] [cursor=pointer]: "86"
+                          - generic [ref=e548] [cursor=pointer]: "87"
+                          - generic [ref=e549] [cursor=pointer]: "88"
+                          - generic [ref=e550] [cursor=pointer]: "89"
+                          - generic [ref=e551] [cursor=pointer]: "90"
+                          - generic [ref=e552] [cursor=pointer]: "91"
+                          - generic [ref=e553] [cursor=pointer]: "92"
+                          - generic [ref=e554] [cursor=pointer]: "93"
+                          - generic [ref=e555] [cursor=pointer]: "94"
+                          - generic [ref=e556] [cursor=pointer]: "95"
+                          - generic [ref=e557] [cursor=pointer]: "96"
+                          - generic [ref=e558] [cursor=pointer]: "97"
+                          - generic [ref=e559] [cursor=pointer]: "98"
+                          - generic [ref=e560] [cursor=pointer]: "99"
+                          - generic [ref=e561] [cursor=pointer]: "100"
+                          - generic [ref=e562] [cursor=pointer]: "101"
+                          - generic [ref=e563] [cursor=pointer]: "102"
+                          - generic [ref=e564] [cursor=pointer]: "103"
+                          - generic [ref=e565] [cursor=pointer]: "104"
+                          - generic [ref=e566] [cursor=pointer]: "105"
+                          - generic [ref=e567] [cursor=pointer]: "106"
+                          - generic [ref=e568] [cursor=pointer]: "107"
+                          - generic [ref=e569] [cursor=pointer]: "108"
+                          - generic [ref=e570] [cursor=pointer]: "109"
+                          - generic [ref=e571] [cursor=pointer]: "110"
+                          - generic [ref=e572] [cursor=pointer]: "111"
+                          - generic [ref=e573] [cursor=pointer]: "112"
+                          - generic [ref=e574] [cursor=pointer]: "113"
+                          - generic [ref=e575] [cursor=pointer]: "114"
+                          - generic [ref=e576] [cursor=pointer]: "115"
+                          - generic [ref=e577] [cursor=pointer]: "116"
+                          - generic [ref=e578] [cursor=pointer]: "117"
+                          - generic [ref=e579] [cursor=pointer]: "118"
+                          - generic [ref=e580] [cursor=pointer]: "119"
+                          - generic [ref=e581] [cursor=pointer]: "120"
+                          - generic [ref=e582] [cursor=pointer]: "121"
+                          - generic [ref=e583] [cursor=pointer]: "122"
+                          - generic [ref=e584] [cursor=pointer]: "123"
+                          - generic [ref=e585] [cursor=pointer]: "124"
+                          - generic [ref=e586] [cursor=pointer]: "125"
+                          - generic [ref=e587] [cursor=pointer]: "126"
+                          - generic [ref=e588] [cursor=pointer]: "127"
+                          - generic [ref=e589] [cursor=pointer]: "128"
+                          - generic [ref=e590] [cursor=pointer]: "129"
+                          - generic [ref=e591] [cursor=pointer]: "130"
+                          - generic [ref=e592] [cursor=pointer]: "131"
+                          - generic [ref=e593] [cursor=pointer]: "132"
+                          - generic [ref=e594] [cursor=pointer]: "133"
+                          - generic [ref=e595] [cursor=pointer]: "134"
+                          - generic [ref=e596] [cursor=pointer]: "135"
+                          - generic [ref=e597] [cursor=pointer]: "136"
+                          - generic [ref=e598] [cursor=pointer]: "137"
+                          - generic [ref=e599] [cursor=pointer]: "138"
+                          - generic [ref=e600] [cursor=pointer]: "139"
+                          - generic [ref=e601] [cursor=pointer]: "140"
+                          - generic [ref=e602] [cursor=pointer]: "141"
+                          - generic [ref=e603] [cursor=pointer]: "142"
+                          - generic [ref=e604] [cursor=pointer]: "143"
+                          - generic [ref=e605] [cursor=pointer]: "144"
+                          - generic [ref=e606] [cursor=pointer]: "145"
+                          - generic [ref=e607] [cursor=pointer]: "146"
+                          - generic [ref=e608] [cursor=pointer]: "147"
+                          - generic [ref=e609] [cursor=pointer]: "148"
+                          - generic [ref=e610] [cursor=pointer]: "149"
+                          - generic [ref=e611] [cursor=pointer]: "150"
+                          - generic [ref=e612] [cursor=pointer]: "151"
+                          - generic [ref=e613] [cursor=pointer]: "152"
+                          - generic [ref=e614] [cursor=pointer]: "153"
+                          - generic [ref=e615] [cursor=pointer]: "154"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "PySceneDetect: Python-Based Video Scene Detector"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "---------------------------------------------------------------"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "[ Site: http://www.bcastell.com/projects/PySceneDetect/ ]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "[ Github: https://github.com/Breakthrough/PySceneDetect/ ]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "[ Documentation: http://www.scenedetect.com/docs/ ]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Copyright (C) 2014 Brandon Castellano <http://www.bcastell.com>.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: build-system
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: requires
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: setuptools
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: build-backend
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: setuptools.build_meta
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: project
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: name
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dynamic
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: version
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: description
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: Video scene cut/shot detection program and Python library.
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: readme
+                                - text: "= {"
+                                - generic: file
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: packaging/package-info.rst
+                                  - generic: "\""
+                                - text: ","
+                                - generic: content-type
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: text/x-rst
+                                  - generic: "\""
+                                - text: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: license
+                                - text: "= {"
+                                - generic: text
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: BSD-3-Clause
+                                  - generic: "\""
+                                - text: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: requires-python
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: ">=3.10"
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: authors
+                                - text: "= [{"
+                                - generic: name
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: Brandon Castellano
+                                  - generic: "\""
+                                - text: ","
+                                - generic: email
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: brandon248@gmail.com
+                                  - generic: "\""
+                                - text: "}]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: keywords
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: video
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: computer-vision
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: analysis
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: classifiers
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Development Status :: 5 - Production/Stable"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Environment :: Console"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Environment :: Console :: Curses"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Intended Audience :: Developers"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Intended Audience :: End Users/Desktop"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Intended Audience :: System Administrators"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Operating System :: OS Independent"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Programming Language :: Python :: 3"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Programming Language :: Python :: 3.10"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Programming Language :: Python :: 3.11"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Programming Language :: Python :: 3.12"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Programming Language :: Python :: 3.13"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Topic :: Multimedia :: Video"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Topic :: Multimedia :: Video :: Conversion"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Topic :: Multimedia :: Video :: Non-Linear Editor"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "Topic :: Utilities"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dependencies
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: click 8.3.0 is excluded as per https://scenedetect.com/issues/521
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: click~=8.0,<8.3.0
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: numpy
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: opencv-python
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: platformdirs
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: tqdm
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: project
+                                - text: .
+                                - generic: optional-dependencies
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: pyav
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: av>=9.2
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: moviepy
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: moviepy
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dev
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: av>=9.2
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: moviepy
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: pytest>=7.0
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: docs
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: Sphinx==7.0.1
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: website
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: mkdocs==1.5.2
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: jinja2>=3.1.6
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: project
+                                - text: .
+                                - generic: urls
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Homepage
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: https://www.scenedetect.com
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Repository
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: https://github.com/Breakthrough/PySceneDetect/
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Documentation
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: https://www.scenedetect.com/docs/
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"Bug Tracker\""
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: https://github.com/Breakthrough/PySceneDetect/issues/
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: project
+                                - text: .
+                                - generic: scripts
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: scenedetect
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect.__main__:main
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: setuptools
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: include-package-data
+                                - text: =
+                                - generic: "true"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: setuptools
+                                - text: .
+                                - generic: packages
+                                - text: .
+                                - generic: find
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: include
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect*
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: setuptools
+                                - text: .
+                                - generic: dynamic
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: version
+                                - text: "= {"
+                                - generic: attr
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect.__version__
+                                  - generic: "\""
+                                - text: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: pytest
+                                - text: .
+                                - generic: ini_options
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: markers
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "release: opt-in release-validation tests; excluded by default (run with `pytest -m release`)"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: addopts
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: "-m 'not release'"
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: filterwarnings
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: ignore:TODO.*Update caller to handle VFR:UserWarning
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: ruff
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: line-length
+                                - text: =
+                                - generic: "100"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: indent-width
+                                - text: =
+                                - generic: "4"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: ruff
+                                - text: .
+                                - generic: format
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: quote-style
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: double
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: indent-style
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: space
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: skip-magic-trailing-comma
+                                - text: =
+                                - generic: "false"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: docstring-code-format
+                                - text: =
+                                - generic: "true"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: ruff
+                                - text: .
+                                - generic: lint
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: select
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: flake8-bugbear
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: B
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: pycodestyle
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: E
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: W
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Pyflakes
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: F
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: isort
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: I
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: pyupgrade
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: UP
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: flake8-simplify
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: SIM
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: ruff-native checks
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: RUF
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ignore
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "TODO: Audit re-exports in __init__.py files. Add `__all__` (note: must be kept in sync as"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "new public symbols are added) or use redundant-alias form (`from x import Y as Y`)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: F401
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fixable
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: ALL
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: unfixable
+                                - text: = []
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: ruff
+                                - text: .
+                                - generic: lint
+                                - text: .
+                                - generic: per-file-ignores
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "Vendored third-party code: don't rewrite/modernize upstream source."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"scenedetect/_thirdparty/*\""
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: UP
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: CLI help text and validation messages are intentionally long.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"scenedetect/_cli/*\""
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: E501
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Test data tables and golden output strings are clearer unwrapped.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"tests/*\""
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: E501
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Doc generators and benchmark scripts mirror the CLI strings.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"docs/*\""
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: E501
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"benchmark/*\""
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: E501
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: tool
+                                - text: .
+                                - generic: pyright
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: include
+                                - text: = [
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect
+                                  - generic: "\""
+                                - text: ","
+                                - generic:
+                                  - generic: "\""
+                                  - text: tests
+                                  - generic: "\""
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: exclude
+                                - text: = [
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Pyright built-in defaults
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "**/node_modules"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "**/__pycache__"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: "**/.*"
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: .venv
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Vendored third-party code
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: scenedetect/_thirdparty
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Release tests pull in extra deps (opentimelineio, psutil) that aren't in [dev]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "\""
+                                  - text: tests/release
+                                  - generic: "\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "Modes: \"off\" | \"basic\" | \"standard\" | \"strict\". The 0.7 codebase is clean"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: at "basic". When tightening to "standard" or "strict" in the future, the
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: cv2 / av / numpy / moviepy noise rules (reportUnknown*, reportMissingTypeStubs)
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: will likely need to be re-added with "none" or scoped per-file.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: typeCheckingMode
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: basic
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Analyze against the minimum supported Python so 3.11+-only APIs get flagged
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: regardless of which interpreter runs pyright.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: pythonVersion
+                                - text: =
+                                - generic:
+                                  - generic: "\""
+                                  - text: "3.10"
+                                  - generic: "\""
+  - alert [ref=e619]

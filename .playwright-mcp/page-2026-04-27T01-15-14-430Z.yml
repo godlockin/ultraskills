@@ -1,0 +1,994 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fopenai%2Fwhisper
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=openai%2Fwhisper
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "openai" [ref=e70] [cursor=pointer]:
+            - /url: /openai
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "whisper" [ref=e73] [cursor=pointer]:
+              - /url: /openai/whisper
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fwhisper
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 12.1k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fwhisper
+                - img [ref=e82]
+                - text: Fork
+                - generic "12,105" [ref=e84]: 12.1k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fwhisper
+                - img [ref=e88]
+                - text: Star
+                - generic "98458 users starred this repository" [ref=e90]: 98.5k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /openai/whisper
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Pull requests 122" [ref=e99] [cursor=pointer]:
+              - /url: /openai/whisper/pulls
+              - img [ref=e100]
+              - generic [ref=e102]: Pull requests
+              - generic "122" [ref=e103]
+          - listitem [ref=e104]:
+            - link "Discussions" [ref=e105] [cursor=pointer]:
+              - /url: /openai/whisper/discussions
+              - img [ref=e106]
+              - generic [ref=e108]: Discussions
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /openai/whisper/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Security and quality" [ref=e115] [cursor=pointer]:
+              - /url: /openai/whisper/security
+              - img [ref=e116]
+              - generic [ref=e118]: Security and quality
+          - listitem [ref=e119]:
+            - link "Insights" [ref=e120] [cursor=pointer]:
+              - /url: /openai/whisper/pulse
+              - img [ref=e121]
+              - generic [ref=e123]: Insights
+    - generic [ref=e136]:
+      - heading "openai/whisper" [level=1] [ref=e138]
+      - generic [ref=e139]:
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - button "main branch" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - generic [ref=e149]:
+                    - img [ref=e151]
+                    - generic [ref=e154]: main
+                  - generic:
+                    - img
+              - generic [ref=e155]:
+                - link "16 Branches" [ref=e156] [cursor=pointer]:
+                  - /url: /openai/whisper/branches
+                  - generic [ref=e157]:
+                    - generic:
+                      - img
+                    - generic [ref=e159]:
+                      - strong [ref=e160]: "16"
+                      - text: Branches
+                - link "13 Tags" [ref=e161] [cursor=pointer]:
+                  - /url: /openai/whisper/tags
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "13"
+                      - text: Tags
+            - generic [ref=e166]:
+              - generic [ref=e170]:
+                - img [ref=e172]
+                - combobox "Go to file" [ref=e174]
+              - button "Code" [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]:
+                  - generic:
+                    - img
+                  - generic [ref=e177]: Code
+                  - generic:
+                    - img
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - heading "Folders and files" [level=2] [ref=e180]
+              - table "Folders and files" [ref=e181]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e182]:
+                  - row "Latest commit mcgrew-oai codex commits by mcgrew-oai and commits by codex Pin pre-commit hook revisions to immutable commits (#2760) Open commit details success Commit 04f449b · Apr 16, 20262 weeks ago History 168 Commits" [ref=e183]:
+                    - cell "Latest commit mcgrew-oai codex commits by mcgrew-oai and commits by codex Pin pre-commit hook revisions to immutable commits (#2760) Open commit details success Commit 04f449b · Apr 16, 20262 weeks ago History 168 Commits" [ref=e184]:
+                      - generic [ref=e185]:
+                        - heading "Latest commit" [level=2] [ref=e186]
+                        - generic [ref=e187]:
+                          - generic [ref=e188]:
+                            - generic [ref=e190]:
+                              - img "mcgrew-oai" [ref=e191]
+                              - img "codex" [ref=e192]
+                            - link "commits by mcgrew-oai" [ref=e194] [cursor=pointer]:
+                              - /url: /openai/whisper/commits?author=mcgrew-oai
+                              - text: mcgrew-oai
+                            - generic [ref=e195]: and
+                            - link "commits by codex" [ref=e197] [cursor=pointer]:
+                              - /url: /openai/whisper/commits?author=codex
+                              - text: codex
+                          - generic [ref=e198]:
+                            - generic [ref=e200]:
+                              - link "Pin pre-commit hook revisions to immutable commits (" [ref=e201] [cursor=pointer]:
+                                - /url: /openai/whisper/commit/04f449b8a437f1bbd3dba5c9f826aca972e7709a
+                              - link "#2760" [ref=e202] [cursor=pointer]:
+                                - /url: https://github.com/openai/whisper/pull/2760
+                              - link ")" [ref=e203] [cursor=pointer]:
+                                - /url: /openai/whisper/commit/04f449b8a437f1bbd3dba5c9f826aca972e7709a
+                            - button "Open commit details" [ref=e204] [cursor=pointer]:
+                              - img [ref=e205]
+                            - button "success" [ref=e207] [cursor=pointer]:
+                              - img [ref=e208]
+                        - generic [ref=e210]:
+                          - generic [ref=e212]:
+                            - link "Commit 04f449b" [ref=e213] [cursor=pointer]:
+                              - /url: /openai/whisper/commit/04f449b8a437f1bbd3dba5c9f826aca972e7709a
+                              - text: 04f449b
+                            - text: ·
+                            - generic "Apr 16, 2026, 12:32 AM GMT+8" [ref=e214]: Apr 16, 20262 weeks ago
+                          - generic [ref=e215]:
+                            - heading "History" [level=2] [ref=e216]
+                            - link "168 Commits" [ref=e217] [cursor=pointer]:
+                              - /url: /openai/whisper/commits/main/
+                              - generic [ref=e218]:
+                                - generic:
+                                  - img
+                                - generic [ref=e219]: 168 Commits
+                  - row ".github, (Directory) Pin GitHub Actions workflow references (#2751) Mar 28, 2026last month" [ref=e220]:
+                    - cell ".github, (Directory)" [ref=e221]:
+                      - generic [ref=e222]:
+                        - img [ref=e223]
+                        - link ".github, (Directory)" [ref=e228] [cursor=pointer]:
+                          - /url: /openai/whisper/tree/main/.github
+                          - text: .github
+                    - cell "Pin GitHub Actions workflow references (#2751)" [ref=e229]:
+                      - generic [ref=e231]:
+                        - link "Pin GitHub Actions workflow references (" [ref=e232] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/cba3768142a28276a90f14907e4900372c0c3ee0
+                        - link "#2751" [ref=e233] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2751
+                        - link ")" [ref=e234] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/cba3768142a28276a90f14907e4900372c0c3ee0
+                    - cell "Mar 28, 2026last month" [ref=e235]:
+                      - generic [ref=e236]: Mar 28, 2026last month
+                  - row "data, (Directory) fix typo data/README.md (#2433) Nov 13, 20242 years ago" [ref=e237]:
+                    - cell "data, (Directory)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link "data, (Directory)" [ref=e245] [cursor=pointer]:
+                          - /url: /openai/whisper/tree/main/data
+                          - text: data
+                    - cell "fix typo data/README.md (#2433)" [ref=e246]:
+                      - generic [ref=e248]:
+                        - link "fix typo data/README.md (" [ref=e249] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/173ff7dd1d9fb1c4fddea0d41d704cfefeb8908c
+                        - link "#2433" [ref=e250] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2433
+                        - link ")" [ref=e251] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/173ff7dd1d9fb1c4fddea0d41d704cfefeb8908c
+                    - cell "Nov 13, 20242 years ago" [ref=e252]:
+                      - generic [ref=e253]: Nov 13, 20242 years ago
+                  - 'row "notebooks, (Directory) Fix: GitHub display errors for Jupyter notebooks (#2589) Jun 26, 202510 months ago" [ref=e254]':
+                    - cell "notebooks, (Directory)" [ref=e255]:
+                      - generic [ref=e256]:
+                        - img [ref=e257]
+                        - link "notebooks, (Directory)" [ref=e262] [cursor=pointer]:
+                          - /url: /openai/whisper/tree/main/notebooks
+                          - text: notebooks
+                    - 'cell "Fix: GitHub display errors for Jupyter notebooks (#2589)" [ref=e263]':
+                      - generic [ref=e265]:
+                        - 'link "Fix: GitHub display errors for Jupyter notebooks (" [ref=e266] [cursor=pointer]':
+                          - /url: /openai/whisper/commit/5dff4db81ac1d9d1b08a4904c2e9f1b560d3d932
+                        - link "#2589" [ref=e267] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2589
+                        - link ")" [ref=e268] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/5dff4db81ac1d9d1b08a4904c2e9f1b560d3d932
+                    - cell "Jun 26, 202510 months ago" [ref=e269]:
+                      - generic [ref=e270]: Jun 26, 202510 months ago
+                  - row "tests, (Directory) large-v3 (#1761) Nov 7, 20233 years ago" [ref=e271]:
+                    - cell "tests, (Directory)" [ref=e272]:
+                      - generic [ref=e273]:
+                        - img [ref=e274]
+                        - link "tests, (Directory)" [ref=e279] [cursor=pointer]:
+                          - /url: /openai/whisper/tree/main/tests
+                          - text: tests
+                    - cell "large-v3 (#1761)" [ref=e280]:
+                      - generic [ref=e282]:
+                        - link "large-v3 (" [ref=e283] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/c5d42560760a05584c1c79546a098287e5a771eb
+                        - link "#1761" [ref=e284] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/1761
+                        - link ")" [ref=e285] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/c5d42560760a05584c1c79546a098287e5a771eb
+                    - cell "Nov 7, 20233 years ago" [ref=e286]:
+                      - generic [ref=e287]: Nov 7, 20233 years ago
+                  - row "whisper, (Directory) Release 20250625 Jun 26, 202510 months ago" [ref=e288]:
+                    - cell "whisper, (Directory)" [ref=e289]:
+                      - generic [ref=e290]:
+                        - img [ref=e291]
+                        - link "whisper, (Directory)" [ref=e296] [cursor=pointer]:
+                          - /url: /openai/whisper/tree/main/whisper
+                          - text: whisper
+                    - cell "Release 20250625" [ref=e297]:
+                      - link "Release 20250625" [ref=e300] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803
+                    - cell "Jun 26, 202510 months ago" [ref=e301]:
+                      - generic [ref=e302]: Jun 26, 202510 months ago
+                  - row ".flake8, (File) apply formatting with black (#1038) Mar 7, 20233 years ago" [ref=e303]:
+                    - cell ".flake8, (File)" [ref=e304]:
+                      - generic [ref=e305]:
+                        - img [ref=e306]
+                        - link ".flake8, (File)" [ref=e311] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/.flake8
+                          - text: .flake8
+                    - cell "apply formatting with black (#1038)" [ref=e312]:
+                      - generic [ref=e314]:
+                        - link "apply formatting with" [ref=e315] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/b80bcf610d89960bc658b61af9c333fc6d978d78
+                        - code [ref=e316]:
+                          - link "black" [ref=e317] [cursor=pointer]:
+                            - /url: /openai/whisper/commit/b80bcf610d89960bc658b61af9c333fc6d978d78
+                        - link "(" [ref=e318] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/b80bcf610d89960bc658b61af9c333fc6d978d78
+                        - link "#1038" [ref=e319] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/1038
+                        - link ")" [ref=e320] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/b80bcf610d89960bc658b61af9c333fc6d978d78
+                    - cell "Mar 7, 20233 years ago" [ref=e321]:
+                      - generic [ref=e322]: Mar 7, 20233 years ago
+                  - row ".gitattributes, (File) fix github language stats getting dominated by jupyter notebook (#1076) Mar 14, 20233 years ago" [ref=e323]:
+                    - cell ".gitattributes, (File)" [ref=e324]:
+                      - generic [ref=e325]:
+                        - img [ref=e326]
+                        - link ".gitattributes, (File)" [ref=e331] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell "fix github language stats getting dominated by jupyter notebook (#1076)" [ref=e332]:
+                      - generic [ref=e334]:
+                        - link "fix github language stats getting dominated by jupyter notebook (" [ref=e335] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/ba88b8e1b38fb6098bfe1e06b09533592e776067
+                        - link "#1076" [ref=e336] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/1076
+                        - link ")" [ref=e337] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/ba88b8e1b38fb6098bfe1e06b09533592e776067
+                    - cell "Mar 14, 20233 years ago" [ref=e338]:
+                      - generic [ref=e339]: Mar 14, 20233 years ago
+                  - row ".gitignore, (File) initial commit Sep 22, 20224 years ago" [ref=e340]:
+                    - cell ".gitignore, (File)" [ref=e341]:
+                      - generic [ref=e342]:
+                        - img [ref=e343]
+                        - link ".gitignore, (File)" [ref=e348] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "initial commit" [ref=e349]:
+                      - link "initial commit" [ref=e352] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/6e3be77e1a105e59086e3e21ff5f609fd6fa89a5
+                    - cell "Sep 22, 20224 years ago" [ref=e353]:
+                      - generic [ref=e354]: Sep 22, 20224 years ago
+                  - row ".pre-commit-config.yaml, (File) Pin pre-commit hook revisions to immutable commits (#2760) Apr 16, 20262 weeks ago" [ref=e355]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e356]:
+                      - generic [ref=e357]:
+                        - img [ref=e358]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e363] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Pin pre-commit hook revisions to immutable commits (#2760)" [ref=e364]:
+                      - generic [ref=e366]:
+                        - link "Pin pre-commit hook revisions to immutable commits (" [ref=e367] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/04f449b8a437f1bbd3dba5c9f826aca972e7709a
+                        - link "#2760" [ref=e368] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2760
+                        - link ")" [ref=e369] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/04f449b8a437f1bbd3dba5c9f826aca972e7709a
+                    - cell "Apr 16, 20262 weeks ago" [ref=e370]:
+                      - generic [ref=e371]: Apr 16, 20262 weeks ago
+                  - row "CHANGELOG.md, (File) Release 20250625 Jun 26, 202510 months ago" [ref=e372]:
+                    - cell "CHANGELOG.md, (File)" [ref=e373]:
+                      - generic [ref=e374]:
+                        - img [ref=e375]
+                        - link "CHANGELOG.md, (File)" [ref=e380] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - cell "Release 20250625" [ref=e381]:
+                      - link "Release 20250625" [ref=e384] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803
+                    - cell "Jun 26, 202510 months ago" [ref=e385]:
+                      - generic [ref=e386]: Jun 26, 202510 months ago
+                  - row "LICENSE, (File) initial commit Sep 22, 20224 years ago" [ref=e387]:
+                    - cell "LICENSE, (File)" [ref=e388]:
+                      - generic [ref=e389]:
+                        - img [ref=e390]
+                        - link "LICENSE, (File)" [ref=e395] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "initial commit" [ref=e396]:
+                      - link "initial commit" [ref=e399] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/6e3be77e1a105e59086e3e21ff5f609fd6fa89a5
+                    - cell "Sep 22, 20224 years ago" [ref=e400]:
+                      - generic [ref=e401]: Sep 22, 20224 years ago
+                  - row "MANIFEST.in, (File) Use tiktoken (#1044) Mar 13, 20233 years ago" [ref=e402]:
+                    - cell "MANIFEST.in, (File)" [ref=e403]:
+                      - generic [ref=e404]:
+                        - img [ref=e405]
+                        - link "MANIFEST.in, (File)" [ref=e410] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/MANIFEST.in
+                          - text: MANIFEST.in
+                    - cell "Use tiktoken (#1044)" [ref=e411]:
+                      - generic [ref=e413]:
+                        - link "Use tiktoken (" [ref=e414] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/839639a223b92ad61851baae9ad8a695ccb41ce5
+                        - link "#1044" [ref=e415] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/1044
+                        - link ")" [ref=e416] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/839639a223b92ad61851baae9ad8a695ccb41ce5
+                    - cell "Mar 13, 20233 years ago" [ref=e417]:
+                      - generic [ref=e418]: Mar 13, 20233 years ago
+                  - 'row "README.md, (File) docs: updated README to specify translation model limitation (#2547) Jun 26, 202510 months ago" [ref=e419]':
+                    - cell "README.md, (File)" [ref=e420]:
+                      - generic [ref=e421]:
+                        - img [ref=e422]
+                        - link "README.md, (File)" [ref=e427] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/README.md
+                          - text: README.md
+                    - 'cell "docs: updated README to specify translation model limitation (#2547)" [ref=e428]':
+                      - generic [ref=e430]:
+                        - 'link "docs: updated README to specify translation model limitation (" [ref=e431] [cursor=pointer]':
+                          - /url: /openai/whisper/commit/f50c4f264e072d17da320fb7266ef55f791fcc35
+                        - link "#2547" [ref=e432] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2547
+                        - link ")" [ref=e433] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/f50c4f264e072d17da320fb7266ef55f791fcc35
+                    - cell "Jun 26, 202510 months ago" [ref=e434]:
+                      - generic [ref=e435]: Jun 26, 202510 months ago
+                  - row "approach.png, (File) initial commit Sep 22, 20224 years ago" [ref=e436]:
+                    - cell "approach.png, (File)" [ref=e437]:
+                      - generic [ref=e438]:
+                        - img [ref=e439]
+                        - link "approach.png, (File)" [ref=e444] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/approach.png
+                          - text: approach.png
+                    - cell "initial commit" [ref=e445]:
+                      - link "initial commit" [ref=e448] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/6e3be77e1a105e59086e3e21ff5f609fd6fa89a5
+                    - cell "Sep 22, 20224 years ago" [ref=e449]:
+                      - generic [ref=e450]: Sep 22, 20224 years ago
+                  - row "language-breakdown.svg, (File) large-v3 (#1761) Nov 7, 20233 years ago" [ref=e451]:
+                    - cell "language-breakdown.svg, (File)" [ref=e452]:
+                      - generic [ref=e453]:
+                        - img [ref=e454]
+                        - link "language-breakdown.svg, (File)" [ref=e459] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/language-breakdown.svg
+                          - text: language-breakdown.svg
+                    - cell "large-v3 (#1761)" [ref=e460]:
+                      - generic [ref=e462]:
+                        - link "large-v3 (" [ref=e463] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/c5d42560760a05584c1c79546a098287e5a771eb
+                        - link "#1761" [ref=e464] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/1761
+                        - link ")" [ref=e465] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/c5d42560760a05584c1c79546a098287e5a771eb
+                    - cell "Nov 7, 20233 years ago" [ref=e466]:
+                      - generic [ref=e467]: Nov 7, 20233 years ago
+                  - row "model-card.md, (File) large-v3-turbo model (#2361) Oct 1, 20242 years ago" [ref=e468]:
+                    - cell "model-card.md, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "model-card.md, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/model-card.md
+                          - text: model-card.md
+                    - cell "large-v3-turbo model (#2361)" [ref=e477]:
+                      - generic [ref=e479]:
+                        - link "large-v3-turbo model (" [ref=e480] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/25e5c364e0a21ddefee46adb674c591f1ba610ba
+                        - link "#2361" [ref=e481] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2361
+                        - link ")" [ref=e482] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/25e5c364e0a21ddefee46adb674c591f1ba610ba
+                    - cell "Oct 1, 20242 years ago" [ref=e483]:
+                      - generic [ref=e484]: Oct 1, 20242 years ago
+                  - 'row "pyproject.toml, (File) PEP 621: Migrate from setup.py to pyproject.toml (#2435) Jan 4, 20252 years ago" [ref=e485]':
+                    - cell "pyproject.toml, (File)" [ref=e486]:
+                      - generic [ref=e487]:
+                        - img [ref=e488]
+                        - link "pyproject.toml, (File)" [ref=e493] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "PEP 621: Migrate from setup.py to pyproject.toml (#2435)" [ref=e494]':
+                      - generic [ref=e496]:
+                        - 'link "PEP 621: Migrate from setup.py to pyproject.toml (" [ref=e497] [cursor=pointer]':
+                          - /url: /openai/whisper/commit/dd4d010d2c585bc70aeddd166cd3e26b0bb62f31
+                        - link "#2435" [ref=e498] [cursor=pointer]:
+                          - /url: https://github.com/openai/whisper/pull/2435
+                        - link ")" [ref=e499] [cursor=pointer]:
+                          - /url: /openai/whisper/commit/dd4d010d2c585bc70aeddd166cd3e26b0bb62f31
+                    - cell "Jan 4, 20252 years ago" [ref=e500]:
+                      - generic [ref=e501]: Jan 4, 20252 years ago
+                  - row "requirements.txt, (File) Relax triton requirements for compatibility with pytorch 2.4 and newer ( Sep 11, 20242 years ago" [ref=e502]:
+                    - cell "requirements.txt, (File)" [ref=e503]:
+                      - generic [ref=e504]:
+                        - img [ref=e505]
+                        - link "requirements.txt, (File)" [ref=e510] [cursor=pointer]:
+                          - /url: /openai/whisper/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - cell "Relax triton requirements for compatibility with pytorch 2.4 and newer (" [ref=e511]:
+                      - link "Relax triton requirements for compatibility with pytorch 2.4 and newer (" [ref=e514] [cursor=pointer]:
+                        - /url: /openai/whisper/commit/32d55d5d76c9ecbe2dfa3e6735896c648156ab63
+                    - cell "Sep 11, 20242 years ago" [ref=e515]:
+                      - generic [ref=e516]: Sep 11, 20242 years ago
+            - generic [ref=e518]:
+              - generic [ref=e519]:
+                - heading "Repository files navigation" [level=2] [ref=e520]
+                - navigation "Repository files" [ref=e521]:
+                  - list [ref=e522]:
+                    - listitem [ref=e523]:
+                      - link "README" [ref=e524] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e526]
+                        - generic [ref=e528]: README
+                    - listitem [ref=e529]:
+                      - link "MIT license" [ref=e530] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e532]
+                        - generic [ref=e534]: MIT license
+                - button "Outline" [ref=e535] [cursor=pointer]:
+                  - img [ref=e536]
+              - article [ref=e539]:
+                - generic [ref=e540]:
+                  - heading "Whisper" [level=1] [ref=e541]
+                  - 'link "Permalink: Whisper" [ref=e542] [cursor=pointer]':
+                    - /url: "#whisper"
+                    - img [ref=e543]
+                - paragraph [ref=e545]:
+                  - link "[Blog]" [ref=e546] [cursor=pointer]:
+                    - /url: https://openai.com/blog/whisper
+                  - link "[Paper]" [ref=e547] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2212.04356
+                  - link "[Model card]" [ref=e548] [cursor=pointer]:
+                    - /url: https://github.com/openai/whisper/blob/main/model-card.md
+                  - link "[Colab example]" [ref=e549] [cursor=pointer]:
+                    - /url: https://colab.research.google.com/github/openai/whisper/blob/master/notebooks/LibriSpeech.ipynb
+                - paragraph [ref=e550]: Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
+                - generic [ref=e551]:
+                  - heading "Approach" [level=2] [ref=e552]
+                  - 'link "Permalink: Approach" [ref=e553] [cursor=pointer]':
+                    - /url: "#approach"
+                    - img [ref=e554]
+                - paragraph [ref=e556]:
+                  - link "Approach" [ref=e557] [cursor=pointer]:
+                    - /url: https://raw.githubusercontent.com/openai/whisper/main/approach.png
+                    - img "Approach" [ref=e558]
+                - paragraph [ref=e559]: A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.
+                - generic [ref=e560]:
+                  - heading "Setup" [level=2] [ref=e561]
+                  - 'link "Permalink: Setup" [ref=e562] [cursor=pointer]':
+                    - /url: "#setup"
+                    - img [ref=e563]
+                - paragraph [ref=e565]:
+                  - text: We used Python 3.9.9 and
+                  - link "PyTorch" [ref=e566] [cursor=pointer]:
+                    - /url: https://pytorch.org/
+                  - text: 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends on a few Python packages, most notably
+                  - link "OpenAI's tiktoken" [ref=e567] [cursor=pointer]:
+                    - /url: https://github.com/openai/tiktoken
+                  - text: "for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:"
+                - generic [ref=e568]:
+                  - code [ref=e570]: pip install -U openai-whisper
+                  - button "Copy" [ref=e572] [cursor=pointer]:
+                    - img [ref=e573]
+                - paragraph [ref=e576]: "Alternatively, the following command will pull and install the latest commit from this repository, along with its Python dependencies:"
+                - generic [ref=e577]:
+                  - code [ref=e579]: pip install git+https://github.com/openai/whisper.git
+                  - button "Copy" [ref=e581] [cursor=pointer]:
+                    - img [ref=e582]
+                - paragraph [ref=e585]: "To update the package to the latest version of this repository, please run:"
+                - generic [ref=e586]:
+                  - code [ref=e588]: pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+                  - button "Copy" [ref=e590] [cursor=pointer]:
+                    - img [ref=e591]
+                - paragraph [ref=e594]:
+                  - text: It also requires the command-line tool
+                  - link "ffmpeg" [ref=e595] [cursor=pointer]:
+                    - /url: https://ffmpeg.org/
+                    - code [ref=e596]: ffmpeg
+                  - text: "to be installed on your system, which is available from most package managers:"
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: "# on Ubuntu or Debian"
+                    - text: sudo apt update && sudo apt install ffmpeg
+                    - generic [ref=e600]: "# on Arch Linux"
+                    - text: sudo pacman -S ffmpeg
+                    - generic [ref=e601]: "# on MacOS using Homebrew (https://brew.sh/)"
+                    - text: brew install ffmpeg
+                    - generic [ref=e602]: "# on Windows using Chocolatey (https://chocolatey.org/)"
+                    - text: choco install ffmpeg
+                    - generic [ref=e603]: "# on Windows using Scoop (https://scoop.sh/)"
+                    - text: scoop install ffmpeg
+                  - button "Copy" [ref=e605] [cursor=pointer]:
+                    - img [ref=e606]
+                - paragraph [ref=e609]:
+                  - text: You may need
+                  - link "rust" [ref=e610] [cursor=pointer]:
+                    - /url: http://rust-lang.org
+                    - code [ref=e611]: rust
+                  - text: installed as well, in case
+                  - link "tiktoken" [ref=e612] [cursor=pointer]:
+                    - /url: https://github.com/openai/tiktoken
+                  - text: does not provide a pre-built wheel for your platform. If you see installation errors during the
+                  - code [ref=e613]: pip install
+                  - text: command above, please follow the
+                  - link "Getting started page" [ref=e614] [cursor=pointer]:
+                    - /url: https://www.rust-lang.org/learn/get-started
+                  - text: to install Rust development environment. Additionally, you may need to configure the
+                  - code [ref=e615]: PATH
+                  - text: environment variable, e.g.
+                  - code [ref=e616]: export PATH="$HOME/.cargo/bin:$PATH"
+                  - text: . If the installation fails with
+                  - code [ref=e617]: No module named 'setuptools_rust'
+                  - text: ", you need to install"
+                  - code [ref=e618]: setuptools_rust
+                  - text: ", e.g. by running:"
+                - generic [ref=e619]:
+                  - generic [ref=e620]: pip install setuptools-rust
+                  - button "Copy" [ref=e622] [cursor=pointer]:
+                    - img [ref=e623]
+                - generic [ref=e626]:
+                  - heading "Available models and languages" [level=2] [ref=e627]
+                  - 'link "Permalink: Available models and languages" [ref=e628] [cursor=pointer]':
+                    - /url: "#available-models-and-languages"
+                    - img [ref=e629]
+                - paragraph [ref=e631]: There are six model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model. The relative speeds below are measured by transcribing English speech on a A100, and the real-world speed may vary significantly depending on many factors including the language, the speaking speed, and the available hardware.
+                - table [ref=e633]:
+                  - rowgroup [ref=e634]:
+                    - row "Size Parameters English-only model Multilingual model Required VRAM Relative speed" [ref=e635]:
+                      - columnheader "Size" [ref=e636]
+                      - columnheader "Parameters" [ref=e637]
+                      - columnheader "English-only model" [ref=e638]
+                      - columnheader "Multilingual model" [ref=e639]
+                      - columnheader "Required VRAM" [ref=e640]
+                      - columnheader "Relative speed" [ref=e641]
+                  - rowgroup [ref=e642]:
+                    - row "tiny 39 M tiny.en tiny ~1 GB ~10x" [ref=e643]:
+                      - cell "tiny" [ref=e644]
+                      - cell "39 M" [ref=e645]
+                      - cell "tiny.en" [ref=e646]:
+                        - code [ref=e647]: tiny.en
+                      - cell "tiny" [ref=e648]:
+                        - code [ref=e649]: tiny
+                      - cell "~1 GB" [ref=e650]
+                      - cell "~10x" [ref=e651]
+                    - row "base 74 M base.en base ~1 GB ~7x" [ref=e652]:
+                      - cell "base" [ref=e653]
+                      - cell "74 M" [ref=e654]
+                      - cell "base.en" [ref=e655]:
+                        - code [ref=e656]: base.en
+                      - cell "base" [ref=e657]:
+                        - code [ref=e658]: base
+                      - cell "~1 GB" [ref=e659]
+                      - cell "~7x" [ref=e660]
+                    - row "small 244 M small.en small ~2 GB ~4x" [ref=e661]:
+                      - cell "small" [ref=e662]
+                      - cell "244 M" [ref=e663]
+                      - cell "small.en" [ref=e664]:
+                        - code [ref=e665]: small.en
+                      - cell "small" [ref=e666]:
+                        - code [ref=e667]: small
+                      - cell "~2 GB" [ref=e668]
+                      - cell "~4x" [ref=e669]
+                    - row "medium 769 M medium.en medium ~5 GB ~2x" [ref=e670]:
+                      - cell "medium" [ref=e671]
+                      - cell "769 M" [ref=e672]
+                      - cell "medium.en" [ref=e673]:
+                        - code [ref=e674]: medium.en
+                      - cell "medium" [ref=e675]:
+                        - code [ref=e676]: medium
+                      - cell "~5 GB" [ref=e677]
+                      - cell "~2x" [ref=e678]
+                    - row "large 1550 M N/A large ~10 GB 1x" [ref=e679]:
+                      - cell "large" [ref=e680]
+                      - cell "1550 M" [ref=e681]
+                      - cell "N/A" [ref=e682]
+                      - cell "large" [ref=e683]:
+                        - code [ref=e684]: large
+                      - cell "~10 GB" [ref=e685]
+                      - cell "1x" [ref=e686]
+                    - row "turbo 809 M N/A turbo ~6 GB ~8x" [ref=e687]:
+                      - cell "turbo" [ref=e688]
+                      - cell "809 M" [ref=e689]
+                      - cell "N/A" [ref=e690]
+                      - cell "turbo" [ref=e691]:
+                        - code [ref=e692]: turbo
+                      - cell "~6 GB" [ref=e693]
+                      - cell "~8x" [ref=e694]
+                - paragraph [ref=e695]:
+                  - text: The
+                  - code [ref=e696]: .en
+                  - text: models for English-only applications tend to perform better, especially for the
+                  - code [ref=e697]: tiny.en
+                  - text: and
+                  - code [ref=e698]: base.en
+                  - text: models. We observed that the difference becomes less significant for the
+                  - code [ref=e699]: small.en
+                  - text: and
+                  - code [ref=e700]: medium.en
+                  - text: models. Additionally, the
+                  - code [ref=e701]: turbo
+                  - text: model is an optimized version of
+                  - code [ref=e702]: large-v3
+                  - text: that offers faster transcription speed with a minimal degradation in accuracy.
+                - paragraph [ref=e703]:
+                  - text: Whisper's performance varies widely depending on the language. The figure below shows a performance breakdown of
+                  - code [ref=e704]: large-v3
+                  - text: and
+                  - code [ref=e705]: large-v2
+                  - text: models by language, using WERs (word error rates) or CER (character error rates, shown in
+                  - emphasis [ref=e706]: Italic
+                  - text: ) evaluated on the Common Voice 15 and Fleurs datasets. Additional WER/CER metrics corresponding to the other models and datasets can be found in Appendix D.1, D.2, and D.4 of
+                  - link "the paper" [ref=e707] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2212.04356
+                  - text: ", as well as the BLEU (Bilingual Evaluation Understudy) scores for translation in Appendix D.3."
+                - paragraph [ref=e708]:
+                  - link "WER breakdown by language" [ref=e709] [cursor=pointer]:
+                    - /url: https://private-user-images.githubusercontent.com/266841/280740425-f4619d66-1058-4005-8f67-a9d811b77c62.svg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzcyNTI4MTMsIm5iZiI6MTc3NzI1MjUxMywicGF0aCI6Ii8yNjY4NDEvMjgwNzQwNDI1LWY0NjE5ZDY2LTEwNTgtNDAwNS04ZjY3LWE5ZDgxMWI3N2M2Mi5zdmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNDI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDQyN1QwMTE1MTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNGM3YmQ2M2NmMDYwNzY3MzFkMzNiODlmOGNhMzFkYTcwOGZlN2NkMGNkMTNkZGYzZWNmNjA3NzQyNWU0OWUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZzdmclMkJ4bWwifQ.VxFEFNHyXWCat0nmNw4nYq_yemiV46l5yX1k9s3M6QA
+                    - img "WER breakdown by language" [ref=e710]
+                - generic [ref=e711]:
+                  - heading "Command-line usage" [level=2] [ref=e712]
+                  - 'link "Permalink: Command-line usage" [ref=e713] [cursor=pointer]':
+                    - /url: "#command-line-usage"
+                    - img [ref=e714]
+                - paragraph [ref=e716]:
+                  - text: The following command will transcribe speech in audio files, using the
+                  - code [ref=e717]: turbo
+                  - text: "model:"
+                - generic [ref=e718]:
+                  - generic [ref=e719]: whisper audio.flac audio.mp3 audio.wav --model turbo
+                  - button "Copy" [ref=e721] [cursor=pointer]:
+                    - img [ref=e722]
+                - paragraph [ref=e725]:
+                  - text: The default setting (which selects the
+                  - code [ref=e726]: turbo
+                  - text: model) works well for transcribing English. However,
+                  - strong [ref=e727]:
+                    - text: the
+                    - code [ref=e728]: turbo
+                    - text: model is not trained for translation tasks
+                  - text: . If you need to
+                  - strong [ref=e729]: translate non-English speech into English
+                  - text: ", use one of the"
+                  - strong [ref=e730]: multilingual models
+                  - text: (
+                  - code [ref=e731]: tiny
+                  - text: ","
+                  - code [ref=e732]: base
+                  - text: ","
+                  - code [ref=e733]: small
+                  - text: ","
+                  - code [ref=e734]: medium
+                  - text: ","
+                  - code [ref=e735]: large
+                  - text: ) instead of
+                  - code [ref=e736]: turbo
+                  - text: .
+                - paragraph [ref=e737]: "For example, to transcribe an audio file containing non-English speech, you can specify the language:"
+                - generic [ref=e738]:
+                  - generic [ref=e739]: whisper japanese.wav --language Japanese
+                  - button "Copy" [ref=e741] [cursor=pointer]:
+                    - img [ref=e742]
+                - paragraph [ref=e745]:
+                  - text: To
+                  - strong [ref=e746]: translate
+                  - text: "speech into English, use:"
+                - generic [ref=e747]:
+                  - generic [ref=e748]: whisper japanese.wav --model medium --language Japanese --task translate
+                  - button "Copy" [ref=e750] [cursor=pointer]:
+                    - img [ref=e751]
+                - blockquote [ref=e754]:
+                  - paragraph [ref=e755]:
+                    - strong [ref=e756]: "Note:"
+                    - text: The
+                    - code [ref=e757]: turbo
+                    - text: model will return the original language even if
+                    - code [ref=e758]: "--task translate"
+                    - text: is specified. Use
+                    - code [ref=e759]: medium
+                    - text: or
+                    - code [ref=e760]: large
+                    - text: for the best translation results.
+                - paragraph [ref=e761]: "Run the following to view all available options:"
+                - generic [ref=e762]:
+                  - generic [ref=e763]: whisper --help
+                  - button "Copy" [ref=e765] [cursor=pointer]:
+                    - img [ref=e766]
+                - paragraph [ref=e769]:
+                  - text: See
+                  - link "tokenizer.py" [ref=e770] [cursor=pointer]:
+                    - /url: https://github.com/openai/whisper/blob/main/whisper/tokenizer.py
+                  - text: for the list of all available languages.
+                - generic [ref=e771]:
+                  - heading "Python usage" [level=2] [ref=e772]
+                  - 'link "Permalink: Python usage" [ref=e773] [cursor=pointer]':
+                    - /url: "#python-usage"
+                    - img [ref=e774]
+                - paragraph [ref=e776]: "Transcription can also be performed within Python:"
+                - generic [ref=e777]:
+                  - generic [ref=e778]: import whisper model = whisper.load_model("turbo") result = model.transcribe("audio.mp3") print(result["text"])
+                  - button "Copy" [ref=e780] [cursor=pointer]:
+                    - img [ref=e781]
+                - paragraph [ref=e784]:
+                  - text: Internally, the
+                  - code [ref=e785]: transcribe()
+                  - text: method reads the entire file and processes the audio with a sliding 30-second window, performing autoregressive sequence-to-sequence predictions on each window.
+                - paragraph [ref=e786]:
+                  - text: Below is an example usage of
+                  - code [ref=e787]: whisper.detect_language()
+                  - text: and
+                  - code [ref=e788]: whisper.decode()
+                  - text: which provide lower-level access to the model.
+                - generic [ref=e789]:
+                  - generic [ref=e790]:
+                    - text: "import whisper model = whisper.load_model(\"turbo\") # load audio and pad/trim it to fit 30 seconds audio = whisper.load_audio(\"audio.mp3\") audio = whisper.pad_or_trim(audio) # make log-Mel spectrogram and move to the same device as the model mel = whisper.log_mel_spectrogram(audio, n_mels=model.dims.n_mels).to(model.device) # detect the spoken language _, probs = model.detect_language(mel) print("
+                    - generic [ref=e791]:
+                      - text: "f\"Detected language:"
+                      - generic [ref=e792]: "{max(probs, key=probs.get)}"
+                      - text: "\""
+                    - text: ") # decode the audio options = whisper.DecodingOptions() result = whisper.decode(model, mel, options) # print the recognized text print(result.text)"
+                  - button "Copy" [ref=e794] [cursor=pointer]:
+                    - img [ref=e795]
+                - generic [ref=e798]:
+                  - heading "More examples" [level=2] [ref=e799]
+                  - 'link "Permalink: More examples" [ref=e800] [cursor=pointer]':
+                    - /url: "#more-examples"
+                    - img [ref=e801]
+                - paragraph [ref=e803]:
+                  - text: Please use the
+                  - link "🙌 Show and tell" [ref=e804] [cursor=pointer]:
+                    - /url: https://github.com/openai/whisper/discussions/categories/show-and-tell
+                  - text: category in Discussions for sharing more example usages of Whisper and third-party extensions such as web demos, integrations with other tools, ports for different platforms, etc.
+                - generic [ref=e805]:
+                  - heading "License" [level=2] [ref=e806]
+                  - 'link "Permalink: License" [ref=e807] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e808]
+                - paragraph [ref=e810]:
+                  - text: Whisper's code and model weights are released under the MIT License. See
+                  - link "LICENSE" [ref=e811] [cursor=pointer]:
+                    - /url: https://github.com/openai/whisper/blob/main/LICENSE
+                  - text: for further details.
+        - generic [ref=e815]:
+          - generic [ref=e818]:
+            - heading "About" [level=2] [ref=e819]
+            - paragraph [ref=e820]: Robust Speech Recognition via Large-Scale Weak Supervision
+            - heading "Resources" [level=3] [ref=e821]
+            - link "Readme" [ref=e823] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e824]
+              - text: Readme
+            - heading "License" [level=3] [ref=e826]
+            - link "MIT license" [ref=e828] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e829]
+              - text: MIT license
+            - link "Activity" [ref=e832] [cursor=pointer]:
+              - /url: /openai/whisper/activity
+              - img [ref=e833]
+              - text: Activity
+            - link "Custom properties" [ref=e836] [cursor=pointer]:
+              - /url: /openai/whisper/custom-properties
+              - img [ref=e837]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e839]
+            - link "98.5k stars" [ref=e841] [cursor=pointer]:
+              - /url: /openai/whisper/stargazers
+              - img [ref=e842]
+              - strong [ref=e844]: 98.5k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e845]
+            - link "728 watching" [ref=e847] [cursor=pointer]:
+              - /url: /openai/whisper/watchers
+              - img [ref=e848]
+              - strong [ref=e850]: "728"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e851]
+            - link "12.1k forks" [ref=e853] [cursor=pointer]:
+              - /url: /openai/whisper/forks
+              - img [ref=e854]
+              - strong [ref=e856]: 12.1k
+              - text: forks
+            - link "Report repository" [ref=e858] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fopenai%2Fwhisper&report=openai+%28user%29
+          - generic [ref=e860]:
+            - heading "Releases 13" [level=2] [ref=e861]:
+              - link "Releases 13" [ref=e862] [cursor=pointer]:
+                - /url: /openai/whisper/releases
+                - text: Releases
+                - generic "13" [ref=e863]
+            - link "v20250625 Latest Jun 26, 2025on Jun 26, 2025" [ref=e864] [cursor=pointer]:
+              - /url: /openai/whisper/releases/tag/v20250625
+              - img [ref=e865]
+              - generic [ref=e867]:
+                - generic [ref=e868]:
+                  - generic [ref=e869]: v20250625
+                  - 'generic "Label: Latest" [ref=e870]': Latest
+                - generic [ref=e871]: Jun 26, 2025on Jun 26, 2025
+            - link "+ 12 releases" [ref=e873] [cursor=pointer]:
+              - /url: /openai/whisper/releases
+          - generic [ref=e875]:
+            - heading "Contributors 84" [level=2] [ref=e876]:
+              - link "Contributors 84" [ref=e877] [cursor=pointer]:
+                - /url: /openai/whisper/graphs/contributors
+                - text: Contributors
+                - generic "84" [ref=e878]
+            - list [ref=e879]:
+              - listitem [ref=e880]:
+                - link "@jongwook" [ref=e881] [cursor=pointer]:
+                  - /url: https://github.com/jongwook
+                  - img "@jongwook" [ref=e882]
+              - listitem [ref=e883]:
+                - link "@cclauss" [ref=e884] [cursor=pointer]:
+                  - /url: https://github.com/cclauss
+                  - img "@cclauss" [ref=e885]
+              - listitem [ref=e886]:
+                - link "@ryanheise" [ref=e887] [cursor=pointer]:
+                  - /url: https://github.com/ryanheise
+                  - img "@ryanheise" [ref=e888]
+              - listitem [ref=e889]:
+                - link "@petterreinholdtsen" [ref=e890] [cursor=pointer]:
+                  - /url: https://github.com/petterreinholdtsen
+                  - img "@petterreinholdtsen" [ref=e891]
+              - listitem [ref=e892]:
+                - link "@HennerM" [ref=e893] [cursor=pointer]:
+                  - /url: https://github.com/HennerM
+                  - img "@HennerM" [ref=e894]
+              - listitem [ref=e895]:
+                - link "@VulumeCode" [ref=e896] [cursor=pointer]:
+                  - /url: https://github.com/VulumeCode
+                  - img "@VulumeCode" [ref=e897]
+              - listitem [ref=e898]:
+                - link "@guillaumekln" [ref=e899] [cursor=pointer]:
+                  - /url: https://github.com/guillaumekln
+                  - img "@guillaumekln" [ref=e900]
+              - listitem [ref=e901]:
+                - link "@vickianand" [ref=e902] [cursor=pointer]:
+                  - /url: https://github.com/vickianand
+                  - img "@vickianand" [ref=e903]
+              - listitem [ref=e904]:
+                - link "@EliEron" [ref=e905] [cursor=pointer]:
+                  - /url: https://github.com/EliEron
+                  - img "@EliEron" [ref=e906]
+              - listitem [ref=e907]:
+                - link "@fcakyon" [ref=e908] [cursor=pointer]:
+                  - /url: https://github.com/fcakyon
+                  - img "@fcakyon" [ref=e909]
+              - listitem [ref=e910]:
+                - link "@jumon" [ref=e911] [cursor=pointer]:
+                  - /url: https://github.com/jumon
+                  - img "@jumon" [ref=e912]
+              - listitem [ref=e913]:
+                - link "@tomstuart" [ref=e914] [cursor=pointer]:
+                  - /url: https://github.com/tomstuart
+                  - img "@tomstuart" [ref=e915]
+              - listitem [ref=e916]:
+                - link "@wangchou" [ref=e917] [cursor=pointer]:
+                  - /url: https://github.com/wangchou
+                  - img "@wangchou" [ref=e918]
+              - listitem [ref=e919]:
+                - link "@drdaxxy" [ref=e920] [cursor=pointer]:
+                  - /url: https://github.com/drdaxxy
+                  - img "@drdaxxy" [ref=e921]
+            - link "+ 70 contributors" [ref=e923] [cursor=pointer]:
+              - /url: /openai/whisper/graphs/contributors
+          - generic [ref=e925]:
+            - heading "Languages" [level=2] [ref=e926]
+            - list [ref=e930]:
+              - listitem [ref=e931]:
+                - link "Python 100.0%" [ref=e932] [cursor=pointer]:
+                  - /url: /openai/whisper/search?l=python
+                  - img [ref=e933]
+                  - generic [ref=e935]: Python
+                  - generic [ref=e936]: 100.0%
+  - contentinfo [ref=e938]:
+    - heading "Footer" [level=2] [ref=e939]
+    - generic [ref=e940]:
+      - generic [ref=e941]:
+        - link "GitHub Homepage" [ref=e942] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e943]
+        - generic [ref=e945]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e946]:
+        - heading "Footer navigation" [level=3] [ref=e947]
+        - list "Footer navigation" [ref=e948]:
+          - listitem [ref=e949]:
+            - link "Terms" [ref=e950] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e951]:
+            - link "Privacy" [ref=e952] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e953]:
+            - link "Security" [ref=e954] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e955]:
+            - link "Status" [ref=e956] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e957]:
+            - link "Community" [ref=e958] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e959]:
+            - link "Docs" [ref=e960] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e961]:
+            - link "Contact" [ref=e962] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e963]:
+            - button "Manage cookies" [ref=e965] [cursor=pointer]
+          - listitem [ref=e966]:
+            - button "Do not share my personal information" [ref=e968] [cursor=pointer]

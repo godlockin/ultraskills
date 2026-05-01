@@ -52,3 +52,6 @@
 [submodule "external/dbskill"]
 	path = external/dbskill
 	url = https://github.com/dontbesilent2025/dbskill.git
+[submodule "external/baoyu-skills"]
+	path = external/baoyu-skills
+	url = https://github.com/jimliu/baoyu-skills.git

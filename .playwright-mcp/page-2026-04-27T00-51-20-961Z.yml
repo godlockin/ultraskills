@@ -1,0 +1,1399 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNanmiCoder%2FMediaCrawler
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=NanmiCoder%2FMediaCrawler
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "NanmiCoder" [ref=e70] [cursor=pointer]:
+            - /url: /NanmiCoder
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "MediaCrawler" [ref=e73] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "Sponsor @NanmiCoder" [ref=e77] [cursor=pointer]:
+                - /url: /sponsors/NanmiCoder
+                - generic [ref=e79]:
+                  - img [ref=e80]
+                  - text: Sponsor
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 10.4k" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e88]
+                - text: Fork
+                - generic "10,363" [ref=e90]: 10.4k
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e94]
+                - text: Star
+                - generic "48523 users starred this repository" [ref=e96]: 48.5k
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues 145" [ref=e105] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+              - generic "145" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Pull requests 9" [ref=e112] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/pulls
+              - img [ref=e113]
+              - generic [ref=e115]: Pull requests
+              - generic "9" [ref=e116]
+          - listitem [ref=e117]:
+            - link "Discussions" [ref=e118] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/discussions
+              - img [ref=e119]
+              - generic [ref=e121]: Discussions
+          - listitem [ref=e122]:
+            - link "Actions" [ref=e123] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/actions
+              - img [ref=e124]
+              - generic [ref=e126]: Actions
+          - listitem [ref=e127]:
+            - link "Projects" [ref=e128] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/projects
+              - img [ref=e129]
+              - generic [ref=e131]: Projects
+          - listitem [ref=e132]:
+            - link "Security and quality" [ref=e133] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/security
+              - img [ref=e134]
+              - generic [ref=e136]: Security and quality
+          - listitem [ref=e137]:
+            - link "Insights" [ref=e138] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/pulse
+              - img [ref=e139]
+              - generic [ref=e141]: Insights
+    - generic [ref=e154]:
+      - heading "NanmiCoder/MediaCrawler" [level=1] [ref=e156]
+      - generic [ref=e157]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - button "main branch" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]:
+                  - generic [ref=e167]:
+                    - img [ref=e169]
+                    - generic [ref=e172]: main
+                  - generic:
+                    - img
+              - generic [ref=e173]:
+                - link "10 Branches" [ref=e174] [cursor=pointer]:
+                  - /url: /NanmiCoder/MediaCrawler/branches
+                  - generic [ref=e175]:
+                    - generic:
+                      - img
+                    - generic [ref=e177]:
+                      - strong [ref=e178]: "10"
+                      - text: Branches
+                - link "0 Tags" [ref=e179] [cursor=pointer]:
+                  - /url: /NanmiCoder/MediaCrawler/tags
+                  - generic [ref=e180]:
+                    - generic:
+                      - img
+                    - generic [ref=e182]:
+                      - strong [ref=e183]: "0"
+                      - text: Tags
+            - generic [ref=e184]:
+              - generic [ref=e188]:
+                - img [ref=e190]
+                - combobox "Go to file" [ref=e192]
+              - button "Code" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]:
+                  - generic:
+                    - img
+                  - generic [ref=e195]: Code
+                  - generic:
+                    - img
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - heading "Folders and files" [level=2] [ref=e198]
+              - table "Folders and files" [ref=e199]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e200]:
+                  - 'row "Latest commit NanmiCoder commits by NanmiCoder docs: 展示 LegionProxy 赞助商 Open commit details success Commit 1572b64 · Apr 25, 2026yesterday History 759 Commits" [ref=e201]':
+                    - 'cell "Latest commit NanmiCoder commits by NanmiCoder docs: 展示 LegionProxy 赞助商 Open commit details success Commit 1572b64 · Apr 25, 2026yesterday History 759 Commits" [ref=e202]':
+                      - generic [ref=e203]:
+                        - heading "Latest commit" [level=2] [ref=e204]
+                        - generic [ref=e205]:
+                          - generic [ref=e207]:
+                            - link "NanmiCoder" [ref=e208] [cursor=pointer]:
+                              - /url: /NanmiCoder
+                              - img "NanmiCoder" [ref=e209]
+                            - link "commits by NanmiCoder" [ref=e210] [cursor=pointer]:
+                              - /url: /NanmiCoder/MediaCrawler/commits?author=NanmiCoder
+                              - text: NanmiCoder
+                          - generic [ref=e211]:
+                            - 'link "docs: 展示 LegionProxy 赞助商" [ref=e214] [cursor=pointer]':
+                              - /url: /NanmiCoder/MediaCrawler/commit/1572b643346e539047b6347bd90c26130d0a03f8
+                            - button "Open commit details" [ref=e215] [cursor=pointer]:
+                              - img [ref=e216]
+                            - button "success" [ref=e218] [cursor=pointer]:
+                              - img [ref=e219]
+                        - generic [ref=e221]:
+                          - generic [ref=e223]:
+                            - link "Commit 1572b64" [ref=e224] [cursor=pointer]:
+                              - /url: /NanmiCoder/MediaCrawler/commit/1572b643346e539047b6347bd90c26130d0a03f8
+                              - text: 1572b64
+                            - text: ·
+                            - generic "Apr 25, 2026, 10:00 PM GMT+8" [ref=e225]: Apr 25, 2026yesterday
+                          - generic [ref=e226]:
+                            - heading "History" [level=2] [ref=e227]
+                            - link "759 Commits" [ref=e228] [cursor=pointer]:
+                              - /url: /NanmiCoder/MediaCrawler/commits/main/
+                              - generic [ref=e229]:
+                                - generic:
+                                  - img
+                                - generic [ref=e230]: 759 Commits
+                  - row ".github, (Directory) Add GitHub Sponsors FUNDING.yml Apr 3, 20263 weeks ago" [ref=e231]:
+                    - cell ".github, (Directory)" [ref=e232]:
+                      - generic [ref=e233]:
+                        - img [ref=e234]
+                        - link ".github, (Directory)" [ref=e239] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/.github
+                          - text: .github
+                    - cell "Add GitHub Sponsors FUNDING.yml" [ref=e240]:
+                      - link "Add GitHub Sponsors FUNDING.yml" [ref=e243] [cursor=pointer]:
+                        - /url: /NanmiCoder/MediaCrawler/commit/21b3f90c7d7797ad2d222e7d8f5e6537a8a5f9b0
+                    - cell "Apr 3, 20263 weeks ago" [ref=e244]:
+                      - generic [ref=e245]: Apr 3, 20263 weeks ago
+                  - 'row "api, (Directory) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e246]':
+                    - cell "api, (Directory)" [ref=e247]:
+                      - generic [ref=e248]:
+                        - img [ref=e249]
+                        - link "api, (Directory)" [ref=e254] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/api
+                          - text: api
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e255]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e258] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e259]:
+                      - generic [ref=e260]: Mar 3, 2026last month
+                  - 'row "base, (Directory) i18n: translate all Chinese comments, docstrings, and logger messages… Dec 26, 20254 months ago" [ref=e261]':
+                    - cell "base, (Directory)" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - link "base, (Directory)" [ref=e269] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/base
+                          - text: base
+                    - 'cell "i18n: translate all Chinese comments, docstrings, and logger messages…" [ref=e270]':
+                      - 'link "i18n: translate all Chinese comments, docstrings, and logger messages…" [ref=e273] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/157ddfb21bd534109c0668ffeef9f643aa7c2d15
+                    - cell "Dec 26, 20254 months ago" [ref=e274]:
+                      - generic [ref=e275]: Dec 26, 20254 months ago
+                  - row "cache, (Directory) 适配没有redisKeys和快代理没有账号密码的情况 Feb 13, 20262 months ago" [ref=e276]:
+                    - cell "cache, (Directory)" [ref=e277]:
+                      - generic [ref=e278]:
+                        - img [ref=e279]
+                        - link "cache, (Directory)" [ref=e284] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/cache
+                          - text: cache
+                    - cell "适配没有redisKeys和快代理没有账号密码的情况" [ref=e285]:
+                      - link "适配没有redisKeys和快代理没有账号密码的情况" [ref=e288] [cursor=pointer]:
+                        - /url: /NanmiCoder/MediaCrawler/commit/db47d0e6f45b8ae995ec38ada3c80ebe0487c834
+                    - cell "Feb 13, 20262 months ago" [ref=e289]:
+                      - generic [ref=e290]: Feb 13, 20262 months ago
+                  - 'row "cmd_arg, (Directory) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e291]':
+                    - cell "cmd_arg, (Directory)" [ref=e292]:
+                      - generic [ref=e293]:
+                        - img [ref=e294]
+                        - link "cmd_arg, (Directory)" [ref=e299] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/cmd_arg
+                          - text: cmd_arg
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e300]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e303] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e304]:
+                      - generic [ref=e305]: Mar 3, 2026last month
+                  - 'row "config, (Directory) feat: 支持连接用户已有的 Chrome 浏览器进行爬取 Apr 15, 20262 weeks ago" [ref=e306]':
+                    - cell "config, (Directory)" [ref=e307]:
+                      - generic [ref=e308]:
+                        - img [ref=e309]
+                        - link "config, (Directory)" [ref=e314] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/config
+                          - text: config
+                    - 'cell "feat: 支持连接用户已有的 Chrome 浏览器进行爬取" [ref=e315]':
+                      - 'link "feat: 支持连接用户已有的 Chrome 浏览器进行爬取" [ref=e318] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/5294b6d9b76f5f3558997d837127d7dfcbe1b5fa
+                    - cell "Apr 15, 20262 weeks ago" [ref=e319]:
+                      - generic [ref=e320]: Apr 15, 20262 weeks ago
+                  - 'row "constant, (Directory) chore: add copyright to every file Nov 18, 20255 months ago" [ref=e321]':
+                    - cell "constant, (Directory)" [ref=e322]:
+                      - generic [ref=e323]:
+                        - img [ref=e324]
+                        - link "constant, (Directory)" [ref=e329] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/constant
+                          - text: constant
+                    - 'cell "chore: add copyright to every file" [ref=e330]':
+                      - 'link "chore: add copyright to every file" [ref=e333] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/ff8c92daaddad5f675a5ccde396efaf5c0fb97b0
+                    - cell "Nov 18, 20255 months ago" [ref=e334]:
+                      - generic [ref=e335]: Nov 18, 20255 months ago
+                  - 'row "database, (Directory) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e336]':
+                    - cell "database, (Directory)" [ref=e337]:
+                      - generic [ref=e338]:
+                        - img [ref=e339]
+                        - link "database, (Directory)" [ref=e344] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/database
+                          - text: database
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e345]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e348] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e349]:
+                      - generic [ref=e350]: Mar 3, 2026last month
+                  - 'row "docs, (Directory) docs: 展示 LegionProxy 赞助商 Apr 25, 2026yesterday" [ref=e351]':
+                    - cell "docs, (Directory)" [ref=e352]:
+                      - generic [ref=e353]:
+                        - img [ref=e354]
+                        - link "docs, (Directory)" [ref=e359] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/docs
+                          - text: docs
+                    - 'cell "docs: 展示 LegionProxy 赞助商" [ref=e360]':
+                      - 'link "docs: 展示 LegionProxy 赞助商" [ref=e363] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/1572b643346e539047b6347bd90c26130d0a03f8
+                    - cell "Apr 25, 2026yesterday" [ref=e364]:
+                      - generic [ref=e365]: Apr 25, 2026yesterday
+                  - 'row "libs, (Directory) feat: update douyin abogus params Sep 27, 20242 years ago" [ref=e366]':
+                    - cell "libs, (Directory)" [ref=e367]:
+                      - generic [ref=e368]:
+                        - img [ref=e369]
+                        - link "libs, (Directory)" [ref=e374] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/libs
+                          - text: libs
+                    - 'cell "feat: update douyin abogus params" [ref=e375]':
+                      - 'link "feat: update douyin abogus params" [ref=e378] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/7b5b09963696f3593781eaa9923f05a8447c89a4
+                    - cell "Sep 27, 20242 years ago" [ref=e379]:
+                      - generic [ref=e380]: Sep 27, 20242 years ago
+                  - 'row "media_platform, (Directory) fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败 Apr 21, 2026last week" [ref=e381]':
+                    - cell "media_platform, (Directory)" [ref=e382]:
+                      - generic [ref=e383]:
+                        - img [ref=e384]
+                        - link "media_platform, (Directory)" [ref=e389] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/media_platform
+                          - text: media_platform
+                    - 'cell "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e390]':
+                      - 'link "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e393] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0c5f2812128408ed2d6de711c1882d532d9c2777
+                    - cell "Apr 21, 2026last week" [ref=e394]:
+                      - generic [ref=e395]: Apr 21, 2026last week
+                  - 'row "model, (Directory) i18n: translate all Chinese comments, docstrings, and logger messages… Dec 26, 20254 months ago" [ref=e396]':
+                    - cell "model, (Directory)" [ref=e397]:
+                      - generic [ref=e398]:
+                        - img [ref=e399]
+                        - link "model, (Directory)" [ref=e404] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/model
+                          - text: model
+                    - 'cell "i18n: translate all Chinese comments, docstrings, and logger messages…" [ref=e405]':
+                      - 'link "i18n: translate all Chinese comments, docstrings, and logger messages…" [ref=e408] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/157ddfb21bd534109c0668ffeef9f643aa7c2d15
+                    - cell "Dec 26, 20254 months ago" [ref=e409]:
+                      - generic [ref=e410]: Dec 26, 20254 months ago
+                  - 'row "proxy, (Directory) fix: extend make_async_client to proxy provider and IP pool Mar 18, 2026last month" [ref=e411]':
+                    - cell "proxy, (Directory)" [ref=e412]:
+                      - generic [ref=e413]:
+                        - img [ref=e414]
+                        - link "proxy, (Directory)" [ref=e419] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/proxy
+                          - text: proxy
+                    - 'cell "fix: extend make_async_client to proxy provider and IP pool" [ref=e420]':
+                      - 'link "fix: extend make_async_client to proxy provider and IP pool" [ref=e423] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/dd327f068eef16e8aaf18140e2f625ec08df246d
+                    - cell "Mar 18, 2026last month" [ref=e424]:
+                      - generic [ref=e425]: Mar 18, 2026last month
+                  - 'row "store, (Directory) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e426]':
+                    - cell "store, (Directory)" [ref=e427]:
+                      - generic [ref=e428]:
+                        - img [ref=e429]
+                        - link "store, (Directory)" [ref=e434] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/store
+                          - text: store
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e435]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e438] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e439]:
+                      - generic [ref=e440]: Mar 3, 2026last month
+                  - 'row "test, (Directory) fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败 Apr 21, 2026last week" [ref=e441]':
+                    - cell "test, (Directory)" [ref=e442]:
+                      - generic [ref=e443]:
+                        - img [ref=e444]
+                        - link "test, (Directory)" [ref=e449] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/test
+                          - text: test
+                    - 'cell "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e450]':
+                      - 'link "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e453] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0c5f2812128408ed2d6de711c1882d532d9c2777
+                    - cell "Apr 21, 2026last week" [ref=e454]:
+                      - generic [ref=e455]: Apr 21, 2026last week
+                  - 'row "tests, (Directory) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e456]':
+                    - cell "tests, (Directory)" [ref=e457]:
+                      - generic [ref=e458]:
+                        - img [ref=e459]
+                        - link "tests, (Directory)" [ref=e464] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/tests
+                          - text: tests
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e465]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e468] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e469]:
+                      - generic [ref=e470]: Mar 3, 2026last month
+                  - 'row "tools, (Directory) fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败 Apr 21, 2026last week" [ref=e471]':
+                    - cell "tools, (Directory)" [ref=e472]:
+                      - generic [ref=e473]:
+                        - img [ref=e474]
+                        - link "tools, (Directory)" [ref=e479] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/tree/main/tools
+                          - text: tools
+                    - 'cell "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e480]':
+                      - 'link "fix: 避免复用浏览器时跨域 Cookie 过长导致请求失败" [ref=e483] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0c5f2812128408ed2d6de711c1882d532d9c2777
+                    - cell "Apr 21, 2026last week" [ref=e484]:
+                      - generic [ref=e485]: Apr 21, 2026last week
+                  - 'row ".env.example, (File) feat(database): add PostgreSQL support and fix Windows subprocess enc… Jan 9, 20263 months ago" [ref=e486]':
+                    - cell ".env.example, (File)" [ref=e487]:
+                      - generic [ref=e488]:
+                        - img [ref=e489]
+                        - link ".env.example, (File)" [ref=e494] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/.env.example
+                          - text: .env.example
+                    - 'cell "feat(database): add PostgreSQL support and fix Windows subprocess enc…" [ref=e495]':
+                      - 'link "feat(database): add PostgreSQL support and fix Windows subprocess enc…" [ref=e498] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/70a6ca55bb52ad97d0d4d2f227cab45c9e7e546d
+                    - cell "Jan 9, 20263 months ago" [ref=e499]:
+                      - generic [ref=e500]: Jan 9, 20263 months ago
+                  - 'row ".gitattributes, (File) feat: 小红书笔记搜索，评论获取done Jun 12, 20233 years ago" [ref=e501]':
+                    - cell ".gitattributes, (File)" [ref=e502]:
+                      - generic [ref=e503]:
+                        - img [ref=e504]
+                        - link ".gitattributes, (File)" [ref=e509] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - 'cell "feat: 小红书笔记搜索，评论获取done" [ref=e510]':
+                      - 'link "feat: 小红书笔记搜索，评论获取done" [ref=e513] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/e82dcae02f84fab7286117c71126e4151abe053b
+                    - cell "Jun 12, 20233 years ago" [ref=e514]:
+                      - generic [ref=e515]: Jun 12, 20233 years ago
+                  - 'row ".gitignore, (File) feat(api): add WebUI API server with built frontend Dec 19, 20254 months ago" [ref=e516]':
+                    - cell ".gitignore, (File)" [ref=e517]:
+                      - generic [ref=e518]:
+                        - img [ref=e519]
+                        - link ".gitignore, (File)" [ref=e524] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "feat(api): add WebUI API server with built frontend" [ref=e525]':
+                      - 'link "feat(api): add WebUI API server with built frontend" [ref=e528] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/508675a251569f268aba92c35cb99e9c1a2a9b04
+                    - cell "Dec 19, 20254 months ago" [ref=e529]:
+                      - generic [ref=e530]: Dec 19, 20254 months ago
+                  - 'row ".pre-commit-config.yaml, (File) fix: xhs creator error Apr 7, 20263 weeks ago" [ref=e531]':
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e532]:
+                      - generic [ref=e533]:
+                        - img [ref=e534]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e539] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - 'cell "fix: xhs creator error" [ref=e540]':
+                      - 'link "fix: xhs creator error" [ref=e543] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/699a90f830d13dfc1af07b415164bfa9112425a7
+                    - cell "Apr 7, 20263 weeks ago" [ref=e544]:
+                      - generic [ref=e545]: Apr 7, 20263 weeks ago
+                  - 'row ".python-version, (File) fix: typer args bugfix Sep 26, 20257 months ago" [ref=e546]':
+                    - cell ".python-version, (File)" [ref=e547]:
+                      - generic [ref=e548]:
+                        - img [ref=e549]
+                        - link ".python-version, (File)" [ref=e554] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/.python-version
+                          - text: .python-version
+                    - 'cell "fix: typer args bugfix" [ref=e555]':
+                      - 'link "fix: typer args bugfix" [ref=e558] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/84f6f650f853c06b20eef41f445e7944e1fa7e14
+                    - cell "Sep 26, 20257 months ago" [ref=e559]:
+                      - generic [ref=e560]: Sep 26, 20257 months ago
+                  - 'row "LICENSE, (File) docs: add english license Jun 1, 202511 months ago" [ref=e561]':
+                    - cell "LICENSE, (File)" [ref=e562]:
+                      - generic [ref=e563]:
+                        - img [ref=e564]
+                        - link "LICENSE, (File)" [ref=e569] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/LICENSE
+                          - text: LICENSE
+                    - 'cell "docs: add english license" [ref=e570]':
+                      - 'link "docs: add english license" [ref=e573] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/23c8f8f87b1bf6e204694af7d59063e318008c56
+                    - cell "Jun 1, 202511 months ago" [ref=e574]:
+                      - generic [ref=e575]: Jun 1, 202511 months ago
+                  - 'row "README.md, (File) docs: 展示 LegionProxy 赞助商 Apr 25, 2026yesterday" [ref=e576]':
+                    - cell "README.md, (File)" [ref=e577]:
+                      - generic [ref=e578]:
+                        - img [ref=e579]
+                        - link "README.md, (File)" [ref=e584] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/README.md
+                          - text: README.md
+                    - 'cell "docs: 展示 LegionProxy 赞助商" [ref=e585]':
+                      - 'link "docs: 展示 LegionProxy 赞助商" [ref=e588] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/1572b643346e539047b6347bd90c26130d0a03f8
+                    - cell "Apr 25, 2026yesterday" [ref=e589]:
+                      - generic [ref=e590]: Apr 25, 2026yesterday
+                  - 'row "README_en.md, (File) docs: 展示 LegionProxy 赞助商 Apr 25, 2026yesterday" [ref=e591]':
+                    - cell "README_en.md, (File)" [ref=e592]:
+                      - generic [ref=e593]:
+                        - img [ref=e594]
+                        - link "README_en.md, (File)" [ref=e599] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/README_en.md
+                          - text: README_en.md
+                    - 'cell "docs: 展示 LegionProxy 赞助商" [ref=e600]':
+                      - 'link "docs: 展示 LegionProxy 赞助商" [ref=e603] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/1572b643346e539047b6347bd90c26130d0a03f8
+                    - cell "Apr 25, 2026yesterday" [ref=e604]:
+                      - generic [ref=e605]: Apr 25, 2026yesterday
+                  - 'row "README_es.md, (File) docs: update README.md Mar 17, 2026last month" [ref=e606]':
+                    - cell "README_es.md, (File)" [ref=e607]:
+                      - generic [ref=e608]:
+                        - img [ref=e609]
+                        - link "README_es.md, (File)" [ref=e614] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/README_es.md
+                          - text: README_es.md
+                    - 'cell "docs: update README.md" [ref=e615]':
+                      - 'link "docs: update README.md" [ref=e618] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/6742cd598b3c6f633b0853f728790f699310c723
+                    - cell "Mar 17, 2026last month" [ref=e619]:
+                      - generic [ref=e620]: Mar 17, 2026last month
+                  - 'row "main.py, (File) feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl Mar 3, 2026last month" [ref=e621]':
+                    - cell "main.py, (File)" [ref=e622]:
+                      - generic [ref=e623]:
+                        - img [ref=e624]
+                        - link "main.py, (File)" [ref=e629] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/main.py
+                          - text: main.py
+                    - 'cell "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e630]':
+                      - 'link "feat: 新增 JSONL 存储格式支持，默认存储格式改为 jsonl" [ref=e633] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/0282e626c94a8c0e42548dedf4475d90fdd3ec61
+                    - cell "Mar 3, 2026last month" [ref=e634]:
+                      - generic [ref=e635]: Mar 3, 2026last month
+                  - 'row "mypy.ini, (File) feat: 完善类型注释，增加 mypy 类型检测 Jul 16, 20233 years ago" [ref=e636]':
+                    - cell "mypy.ini, (File)" [ref=e637]:
+                      - generic [ref=e638]:
+                        - img [ref=e639]
+                        - link "mypy.ini, (File)" [ref=e644] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/mypy.ini
+                          - text: mypy.ini
+                    - 'cell "feat: 完善类型注释，增加 mypy 类型检测" [ref=e645]':
+                      - 'link "feat: 完善类型注释，增加 mypy 类型检测" [ref=e648] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/745e59c87524ea020f50cef376ab5e5940a6bfed
+                    - cell "Jul 16, 20233 years ago" [ref=e649]:
+                      - generic [ref=e650]: Jul 16, 20233 years ago
+                  - 'row "package-lock.json, (File) docs: add vitepress-plugin-mermaid for Mermaid diagram rendering Dec 18, 20254 months ago" [ref=e651]':
+                    - cell "package-lock.json, (File)" [ref=e652]:
+                      - generic [ref=e653]:
+                        - img [ref=e654]
+                        - link "package-lock.json, (File)" [ref=e659] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - 'cell "docs: add vitepress-plugin-mermaid for Mermaid diagram rendering" [ref=e660]':
+                      - 'link "docs: add vitepress-plugin-mermaid for Mermaid diagram rendering" [ref=e663] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/fb66ef016dd16692dcef8ea71c0dd61ebcd27549
+                    - cell "Dec 18, 20254 months ago" [ref=e664]:
+                      - generic [ref=e665]: Dec 18, 20254 months ago
+                  - 'row "package.json, (File) docs: add vitepress-plugin-mermaid for Mermaid diagram rendering Dec 18, 20254 months ago" [ref=e666]':
+                    - cell "package.json, (File)" [ref=e667]:
+                      - generic [ref=e668]:
+                        - img [ref=e669]
+                        - link "package.json, (File)" [ref=e674] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/package.json
+                          - text: package.json
+                    - 'cell "docs: add vitepress-plugin-mermaid for Mermaid diagram rendering" [ref=e675]':
+                      - 'link "docs: add vitepress-plugin-mermaid for Mermaid diagram rendering" [ref=e678] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/fb66ef016dd16692dcef8ea71c0dd61ebcd27549
+                    - cell "Dec 18, 20254 months ago" [ref=e679]:
+                      - generic [ref=e680]: Dec 18, 20254 months ago
+                  - 'row "pyproject.toml, (File) fix: add xhshow dependency Apr 7, 20263 weeks ago" [ref=e681]':
+                    - cell "pyproject.toml, (File)" [ref=e682]:
+                      - generic [ref=e683]:
+                        - img [ref=e684]
+                        - link "pyproject.toml, (File)" [ref=e689] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "fix: add xhshow dependency" [ref=e690]':
+                      - 'link "fix: add xhshow dependency" [ref=e693] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/16e8965035185db87e0b5534c723ac649b04deec
+                    - cell "Apr 7, 20263 weeks ago" [ref=e694]:
+                      - generic [ref=e695]: Apr 7, 20263 weeks ago
+                  - 'row "recv_sms.py, (File) chore: add copyright to every file Nov 18, 20255 months ago" [ref=e696]':
+                    - cell "recv_sms.py, (File)" [ref=e697]:
+                      - generic [ref=e698]:
+                        - img [ref=e699]
+                        - link "recv_sms.py, (File)" [ref=e704] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/recv_sms.py
+                          - text: recv_sms.py
+                    - 'cell "chore: add copyright to every file" [ref=e705]':
+                      - 'link "chore: add copyright to every file" [ref=e708] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/ff8c92daaddad5f675a5ccde396efaf5c0fb97b0
+                    - cell "Nov 18, 20255 months ago" [ref=e709]:
+                      - generic [ref=e710]: Nov 18, 20255 months ago
+                  - 'row "requirements.txt, (File) fix: add xhshow dependency Apr 7, 20263 weeks ago" [ref=e711]':
+                    - cell "requirements.txt, (File)" [ref=e712]:
+                      - generic [ref=e713]:
+                        - img [ref=e714]
+                        - link "requirements.txt, (File)" [ref=e719] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - 'cell "fix: add xhshow dependency" [ref=e720]':
+                      - 'link "fix: add xhshow dependency" [ref=e723] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/16e8965035185db87e0b5534c723ac649b04deec
+                    - cell "Apr 7, 20263 weeks ago" [ref=e724]:
+                      - generic [ref=e725]: Apr 7, 20263 weeks ago
+                  - 'row "uv.lock, (File) feat: 支持连接用户已有的 Chrome 浏览器进行爬取 Apr 15, 20262 weeks ago" [ref=e726]':
+                    - cell "uv.lock, (File)" [ref=e727]:
+                      - generic [ref=e728]:
+                        - img [ref=e729]
+                        - link "uv.lock, (File)" [ref=e734] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "feat: 支持连接用户已有的 Chrome 浏览器进行爬取" [ref=e735]':
+                      - 'link "feat: 支持连接用户已有的 Chrome 浏览器进行爬取" [ref=e738] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/5294b6d9b76f5f3558997d837127d7dfcbe1b5fa
+                    - cell "Apr 15, 20262 weeks ago" [ref=e739]:
+                      - generic [ref=e740]: Apr 15, 20262 weeks ago
+                  - 'row "var.py, (File) chore: add copyright to every file Nov 18, 20255 months ago" [ref=e741]':
+                    - cell "var.py, (File)" [ref=e742]:
+                      - generic [ref=e743]:
+                        - img [ref=e744]
+                        - link "var.py, (File)" [ref=e749] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/var.py
+                          - text: var.py
+                    - 'cell "chore: add copyright to every file" [ref=e750]':
+                      - 'link "chore: add copyright to every file" [ref=e753] [cursor=pointer]':
+                        - /url: /NanmiCoder/MediaCrawler/commit/ff8c92daaddad5f675a5ccde396efaf5c0fb97b0
+                    - cell "Nov 18, 20255 months ago" [ref=e754]:
+                      - generic [ref=e755]: Nov 18, 20255 months ago
+            - generic [ref=e757]:
+              - generic [ref=e758]:
+                - heading "Repository files navigation" [level=2] [ref=e759]
+                - navigation "Repository files" [ref=e760]:
+                  - list [ref=e761]:
+                    - listitem [ref=e762]:
+                      - link "README" [ref=e763] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e765]
+                        - generic [ref=e767]: README
+                    - listitem [ref=e768]:
+                      - link "License" [ref=e769] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e771]
+                        - generic [ref=e773]: License
+                - button "Outline" [ref=e774] [cursor=pointer]:
+                  - img [ref=e775]
+              - article [ref=e778]:
+                - generic [ref=e779]:
+                  - heading "🔥 MediaCrawler - 自媒体平台爬虫 🕷️" [level=1] [ref=e780]
+                  - 'link "Permalink: 🔥 MediaCrawler - 自媒体平台爬虫 🕷️" [ref=e781] [cursor=pointer]':
+                    - /url: "#-mediacrawler---自媒体平台爬虫-️"
+                    - img [ref=e782]
+                - generic [ref=e784]:
+                  - link "NanmiCoder%2FMediaCrawler | Trendshift" [ref=e785] [cursor=pointer]:
+                    - /url: https://trendshift.io/repositories/8291
+                    - img "NanmiCoder%2FMediaCrawler | Trendshift" [ref=e786]
+                  - paragraph [ref=e787]:
+                    - link "GitHub Stars" [ref=e788] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/MediaCrawler/stargazers
+                      - img "GitHub Stars" [ref=e789]
+                    - link "GitHub Forks" [ref=e790] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/MediaCrawler/network/members
+                      - img "GitHub Forks" [ref=e791]
+                    - link "GitHub Issues" [ref=e792] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/MediaCrawler/issues
+                      - img "GitHub Issues" [ref=e793]
+                    - link "GitHub Pull Requests" [ref=e794] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/MediaCrawler/pulls
+                      - img "GitHub Pull Requests" [ref=e795]
+                    - link "License" [ref=e796] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/MediaCrawler/blob/main/LICENSE
+                      - img "License" [ref=e797]
+                    - link "中文" [ref=e798] [cursor=pointer]:
+                      - /url: /NanmiCoder/MediaCrawler/blob/main/README.md
+                      - img "中文" [ref=e799]
+                    - link "English" [ref=e800] [cursor=pointer]:
+                      - /url: /NanmiCoder/MediaCrawler/blob/main/README_en.md
+                      - img "English" [ref=e801]
+                    - link "Español" [ref=e802] [cursor=pointer]:
+                      - /url: /NanmiCoder/MediaCrawler/blob/main/README_es.md
+                      - img "Español" [ref=e803]
+                - blockquote [ref=e804]:
+                  - paragraph [ref=e805]:
+                    - strong [ref=e806]: 免责声明：
+                  - paragraph [ref=e807]:
+                    - text: 大家请以学习为目的使用本仓库
+                    - generic [ref=e808]: ⚠️
+                    - generic [ref=e809]: ⚠️
+                    - generic [ref=e810]: ⚠️
+                    - generic [ref=e811]: ⚠️
+                    - text: ，
+                    - link "爬虫违法违规的案件" [ref=e812] [cursor=pointer]:
+                      - /url: https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China
+                  - paragraph [ref=e813]: 本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。任何人或组织不得将本仓库的内容用于非法用途或侵犯他人合法权益。本仓库所涉及的爬虫技术仅用于学习和研究，不得用于对其他平台进行大规模爬虫或其他非法行为。对于因使用本仓库内容而引起的任何法律责任，本仓库不承担任何责任。使用本仓库的内容即表示您同意本免责声明的所有条款和条件。
+                  - paragraph [ref=e814]:
+                    - text: 点击查看更为详细的免责声明。
+                    - link "点击跳转" [ref=e815] [cursor=pointer]:
+                      - /url: "#disclaimer"
+                - generic [ref=e816]:
+                  - heading "📖 项目简介" [level=2] [ref=e817]
+                  - 'link "Permalink: 📖 项目简介" [ref=e818] [cursor=pointer]':
+                    - /url: "#-项目简介"
+                    - img [ref=e819]
+                - paragraph [ref=e821]:
+                  - text: 一个功能强大的
+                  - strong [ref=e822]: 多平台自媒体数据采集工具
+                  - text: ，支持小红书、抖音、快手、B站、微博、贴吧、知乎等主流平台的公开信息抓取。
+                - generic [ref=e823]:
+                  - heading "🔧 技术原理" [level=3] [ref=e824]
+                  - 'link "Permalink: 🔧 技术原理" [ref=e825] [cursor=pointer]':
+                    - /url: "#-技术原理"
+                    - img [ref=e826]
+                - list [ref=e828]:
+                  - listitem [ref=e829]:
+                    - strong [ref=e830]: 核心技术
+                    - text: ：基于
+                    - link "Playwright" [ref=e831] [cursor=pointer]:
+                      - /url: https://playwright.dev/
+                    - text: 浏览器自动化框架登录保存登录态
+                  - listitem [ref=e832]:
+                    - strong [ref=e833]: 无需JS逆向
+                    - text: ：利用保留登录态的浏览器上下文环境，通过 JS 表达式获取签名参数
+                  - listitem [ref=e834]:
+                    - strong [ref=e835]: 优势特点
+                    - text: ：无需逆向复杂的加密算法，大幅降低技术门槛
+                - generic [ref=e836]:
+                  - heading "✨ 功能特性" [level=2] [ref=e837]
+                  - 'link "Permalink: ✨ 功能特性" [ref=e838] [cursor=pointer]':
+                    - /url: "#-功能特性"
+                    - img [ref=e839]
+                - table [ref=e842]:
+                  - rowgroup [ref=e843]:
+                    - row "平台 关键词搜索 指定帖子ID爬取 二级评论 指定创作者主页 登录态缓存 IP代理池 生成评论词云图" [ref=e844]:
+                      - columnheader "平台" [ref=e845]
+                      - columnheader "关键词搜索" [ref=e846]
+                      - columnheader "指定帖子ID爬取" [ref=e847]
+                      - columnheader "二级评论" [ref=e848]
+                      - columnheader "指定创作者主页" [ref=e849]
+                      - columnheader "登录态缓存" [ref=e850]
+                      - columnheader "IP代理池" [ref=e851]
+                      - columnheader "生成评论词云图" [ref=e852]
+                  - rowgroup [ref=e853]:
+                    - row "小红书 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e854]:
+                      - cell "小红书" [ref=e855]
+                      - cell "✅" [ref=e856]
+                      - cell "✅" [ref=e857]
+                      - cell "✅" [ref=e858]
+                      - cell "✅" [ref=e859]
+                      - cell "✅" [ref=e860]
+                      - cell "✅" [ref=e861]
+                      - cell "✅" [ref=e862]
+                    - row "抖音 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e863]:
+                      - cell "抖音" [ref=e864]
+                      - cell "✅" [ref=e865]
+                      - cell "✅" [ref=e866]
+                      - cell "✅" [ref=e867]
+                      - cell "✅" [ref=e868]
+                      - cell "✅" [ref=e869]
+                      - cell "✅" [ref=e870]
+                      - cell "✅" [ref=e871]
+                    - row "快手 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e872]:
+                      - cell "快手" [ref=e873]
+                      - cell "✅" [ref=e874]
+                      - cell "✅" [ref=e875]
+                      - cell "✅" [ref=e876]
+                      - cell "✅" [ref=e877]
+                      - cell "✅" [ref=e878]
+                      - cell "✅" [ref=e879]
+                      - cell "✅" [ref=e880]
+                    - row "B 站 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e881]:
+                      - cell "B 站" [ref=e882]
+                      - cell "✅" [ref=e883]
+                      - cell "✅" [ref=e884]
+                      - cell "✅" [ref=e885]
+                      - cell "✅" [ref=e886]
+                      - cell "✅" [ref=e887]
+                      - cell "✅" [ref=e888]
+                      - cell "✅" [ref=e889]
+                    - row "微博 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e890]:
+                      - cell "微博" [ref=e891]
+                      - cell "✅" [ref=e892]
+                      - cell "✅" [ref=e893]
+                      - cell "✅" [ref=e894]
+                      - cell "✅" [ref=e895]
+                      - cell "✅" [ref=e896]
+                      - cell "✅" [ref=e897]
+                      - cell "✅" [ref=e898]
+                    - row "贴吧 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e899]:
+                      - cell "贴吧" [ref=e900]
+                      - cell "✅" [ref=e901]
+                      - cell "✅" [ref=e902]
+                      - cell "✅" [ref=e903]
+                      - cell "✅" [ref=e904]
+                      - cell "✅" [ref=e905]
+                      - cell "✅" [ref=e906]
+                      - cell "✅" [ref=e907]
+                    - row "知乎 ✅ ✅ ✅ ✅ ✅ ✅ ✅" [ref=e908]:
+                      - cell "知乎" [ref=e909]
+                      - cell "✅" [ref=e910]
+                      - cell "✅" [ref=e911]
+                      - cell "✅" [ref=e912]
+                      - cell "✅" [ref=e913]
+                      - cell "✅" [ref=e914]
+                      - cell "✅" [ref=e915]
+                      - cell "✅" [ref=e916]
+                - paragraph [ref=e917]:
+                  - strong [ref=e918]: MediaCrawlerPro 重磅发布！开源不易，欢迎订阅支持
+                - blockquote [ref=e919]:
+                  - paragraph [ref=e920]: 专注于学习成熟项目的架构设计，不仅仅是爬虫技术，Pro 版本的代码设计思路同样值得深入学习！
+                - paragraph [ref=e921]:
+                  - link "MediaCrawlerPro" [ref=e922] [cursor=pointer]:
+                    - /url: https://github.com/MediaCrawlerPro
+                  - text: 相较于开源版本的核心优势：
+                - generic [ref=e923]:
+                  - heading "🎯 核心功能升级" [level=4] [ref=e924]
+                  - 'link "Permalink: 🎯 核心功能升级" [ref=e925] [cursor=pointer]':
+                    - /url: "#-核心功能升级"
+                    - img [ref=e926]
+                - list [ref=e928]:
+                  - listitem [ref=e929]:
+                    - text: ✅
+                    - strong [ref=e930]: 自媒体内容拆解Agent
+                    - text: （新增功能）
+                  - listitem [ref=e931]:
+                    - text: ✅
+                    - strong [ref=e932]: 断点续爬功能
+                    - text: （重点特性）
+                  - listitem [ref=e933]:
+                    - text: ✅
+                    - strong [ref=e934]: 多账号 + IP代理池支持
+                    - text: （重点特性）
+                  - listitem [ref=e935]:
+                    - text: ✅
+                    - strong [ref=e936]: 去除 Playwright 依赖
+                    - text: ，使用更简单
+                  - listitem [ref=e937]:
+                    - text: ✅
+                    - strong [ref=e938]: 完整 Linux 环境支持
+                - generic [ref=e939]:
+                  - heading "🏗️ 架构设计优化" [level=4] [ref=e940]
+                  - 'link "Permalink: 🏗️ 架构设计优化" [ref=e941] [cursor=pointer]':
+                    - /url: "#️-架构设计优化"
+                    - img [ref=e942]
+                - list [ref=e944]:
+                  - listitem [ref=e945]:
+                    - text: ✅
+                    - strong [ref=e946]: 代码重构优化
+                    - text: ，更易读易维护（解耦 JS 签名逻辑）
+                  - listitem [ref=e947]:
+                    - text: ✅
+                    - strong [ref=e948]: 企业级代码质量
+                    - text: ，适合构建大型爬虫项目
+                  - listitem [ref=e949]:
+                    - text: ✅
+                    - strong [ref=e950]: 完美架构设计
+                    - text: ，高扩展性，源码学习价值更大
+                - generic [ref=e951]:
+                  - heading "🎁 额外功能" [level=4] [ref=e952]
+                  - 'link "Permalink: 🎁 额外功能" [ref=e953] [cursor=pointer]':
+                    - /url: "#-额外功能"
+                    - img [ref=e954]
+                - list [ref=e956]:
+                  - listitem [ref=e957]:
+                    - text: ✅
+                    - strong [ref=e958]: 自媒体视频下载器桌面端
+                    - text: （适合学习全栈开发）
+                  - listitem [ref=e959]:
+                    - text: ✅
+                    - strong [ref=e960]: 多平台首页信息流推荐
+                    - text: （HomeFeed）
+                  - listitem [ref=e961]:
+                    - text: ✅
+                    - strong [ref=e962]: AI Agent Skill 支持
+                    - text: （
+                    - link "OpenClaw" [ref=e963] [cursor=pointer]:
+                      - /url: https://openclaw.ai/
+                    - text: 🦞 / Claude Code / Cursor 一键安装，让 Agent 自动爬取数据）
+                  - listitem [ref=e964]:
+                    - checkbox "Incomplete task" [disabled] [ref=e965]
+                    - strong [ref=e966]: 基于评论分析AI Agent正在开发中 🚀🚀
+                - paragraph [ref=e967]:
+                  - text: 点击查看：
+                  - link "MediaCrawlerPro 项目主页" [ref=e968] [cursor=pointer]:
+                    - /url: https://github.com/MediaCrawlerPro
+                  - text: 更多介绍
+                - generic [ref=e969]:
+                  - heading "🚀 快速开始" [level=2] [ref=e970]
+                  - 'link "Permalink: 🚀 快速开始" [ref=e971] [cursor=pointer]':
+                    - /url: "#-快速开始"
+                    - img [ref=e972]
+                - blockquote [ref=e974]:
+                  - paragraph [ref=e975]:
+                    - text: 💡
+                    - strong [ref=e976]: 如果这个项目对您有帮助，请给个 ⭐ Star 支持一下！
+                - generic [ref=e977]:
+                  - heading "📋 前置依赖" [level=2] [ref=e978]
+                  - 'link "Permalink: 📋 前置依赖" [ref=e979] [cursor=pointer]':
+                    - /url: "#-前置依赖"
+                    - img [ref=e980]
+                - generic [ref=e982]:
+                  - heading "🚀 uv 安装（推荐）" [level=3] [ref=e983]
+                  - 'link "Permalink: 🚀 uv 安装（推荐）" [ref=e984] [cursor=pointer]':
+                    - /url: "#-uv-安装推荐"
+                    - img [ref=e985]
+                - paragraph [ref=e987]: 在进行下一步操作之前，请确保电脑上已经安装了 uv：
+                - list [ref=e988]:
+                  - listitem [ref=e989]:
+                    - strong [ref=e990]: 安装地址
+                    - text: ：
+                    - link "uv 官方安装指南" [ref=e991] [cursor=pointer]:
+                      - /url: https://docs.astral.sh/uv/getting-started/installation
+                  - listitem [ref=e992]:
+                    - strong [ref=e993]: 验证安装
+                    - text: ：终端输入命令
+                    - code [ref=e994]: uv --version
+                    - text: ，如果正常显示版本号，证明已经安装成功
+                  - listitem [ref=e995]:
+                    - strong [ref=e996]: 推荐理由
+                    - text: ：uv 是目前最强的 Python 包管理工具，速度快、依赖解析准确
+                - generic [ref=e997]:
+                  - heading "🟢 Node.js 安装" [level=3] [ref=e998]
+                  - 'link "Permalink: 🟢 Node.js 安装" [ref=e999] [cursor=pointer]':
+                    - /url: "#-nodejs-安装"
+                    - img [ref=e1000]
+                - paragraph [ref=e1002]: 项目依赖 Node.js，请前往官网下载安装：
+                - list [ref=e1003]:
+                  - listitem [ref=e1004]:
+                    - strong [ref=e1005]: 下载地址
+                    - text: ：
+                    - link "https://nodejs.org/en/download/" [ref=e1006] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/download/
+                  - listitem [ref=e1007]:
+                    - strong [ref=e1008]: 版本要求
+                    - text: ：>= 16.0.0
+                - generic [ref=e1009]:
+                  - heading "📦 Python 包安装" [level=3] [ref=e1010]
+                  - 'link "Permalink: 📦 Python 包安装" [ref=e1011] [cursor=pointer]':
+                    - /url: "#-python-包安装"
+                    - img [ref=e1012]
+                - generic [ref=e1014]:
+                  - generic [ref=e1015]:
+                    - generic [ref=e1016]: "# 进入项目目录"
+                    - text: cd MediaCrawler
+                    - generic [ref=e1017]: "# 使用 uv sync 命令来保证 python 版本和相关依赖包的一致性"
+                    - text: uv sync
+                  - button "Copy" [ref=e1019] [cursor=pointer]:
+                    - img [ref=e1020]
+                - generic [ref=e1023]:
+                  - heading "🌐 浏览器驱动安装（可选）" [level=3] [ref=e1024]
+                  - 'link "Permalink: 🌐 浏览器驱动安装（可选）" [ref=e1025] [cursor=pointer]':
+                    - /url: "#-浏览器驱动安装可选"
+                    - img [ref=e1026]
+                - blockquote [ref=e1028]:
+                  - paragraph [ref=e1029]:
+                    - text: 如果使用默认的 CDP 模式（连接已有 Chrome 浏览器），
+                    - strong [ref=e1030]: 无需安装浏览器驱动
+                    - text: 。仅在使用标准 Playwright 模式时需要安装。
+                - generic [ref=e1031]:
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: "# 仅在标准 Playwright 模式下需要安装浏览器驱动"
+                    - text: uv run playwright install
+                  - button "Copy" [ref=e1035] [cursor=pointer]:
+                    - img [ref=e1036]
+                - generic [ref=e1039]:
+                  - heading "🌍 Chrome 浏览器配置（推荐）" [level=3] [ref=e1040]
+                  - 'link "Permalink: 🌍 Chrome 浏览器配置（推荐）" [ref=e1041] [cursor=pointer]':
+                    - /url: "#-chrome-浏览器配置推荐"
+                    - img [ref=e1042]
+                - paragraph [ref=e1044]:
+                  - text: 项目默认使用 CDP 模式连接用户已有的 Chrome 浏览器，可以复用浏览器已有的登录状态、Cookie、扩展等，
+                  - strong [ref=e1045]: 大幅降低平台风控检测风险
+                  - text: 。
+                - paragraph [ref=e1046]: 使用前需要：
+                - list [ref=e1047]:
+                  - listitem [ref=e1048]:
+                    - strong [ref=e1049]: 安装最新版 Chrome 浏览器
+                    - text: （版本 >= 144），
+                    - link "下载地址" [ref=e1050] [cursor=pointer]:
+                      - /url: https://www.google.com/chrome/
+                  - listitem [ref=e1051]:
+                    - strong [ref=e1052]: 开启远程调试功能
+                    - text: ：在 Chrome 地址栏输入
+                    - code [ref=e1053]: chrome://inspect/#remote-debugging
+                    - text: ，勾选
+                    - strong [ref=e1054]: "\"Allow remote debugging for this browser instance\""
+                  - listitem [ref=e1055]:
+                    - text: 页面显示
+                    - code [ref=e1056]: "Server running at: 127.0.0.1:9222"
+                    - text: 表示已就绪
+                - blockquote [ref=e1057]:
+                  - paragraph [ref=e1058]:
+                    - text: 💡
+                    - strong [ref=e1059]: 提示
+                    - text: ：运行爬虫后，Chrome 浏览器会弹出确认对话框，点击"接受"即可。程序会等待用户确认，60秒内操作完成即可。
+                  - paragraph [ref=e1060]:
+                    - text: 如果不想使用 CDP 模式，可以在
+                    - code [ref=e1061]: config/base_config.py
+                    - text: 中设置
+                    - code [ref=e1062]: ENABLE_CDP_MODE = False
+                    - text: 切换为标准 Playwright 模式。
+                - generic [ref=e1063]:
+                  - heading "🚀 运行爬虫程序" [level=2] [ref=e1064]
+                  - 'link "Permalink: 🚀 运行爬虫程序" [ref=e1065] [cursor=pointer]':
+                    - /url: "#-运行爬虫程序"
+                    - img [ref=e1066]
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]:
+                    - generic [ref=e1070]: "# 在 config/base_config.py 查看配置项目功能，写的有中文注释"
+                    - generic [ref=e1071]: "# 从配置文件中读取关键词搜索相关的帖子并爬取帖子信息与评论"
+                    - text: uv run main.py --platform xhs --lt qrcode --type search
+                    - generic [ref=e1072]: "# 从配置文件中读取指定的帖子ID列表获取指定帖子的信息与评论信息"
+                    - text: uv run main.py --platform xhs --lt qrcode --type detail
+                    - generic [ref=e1073]: "# 打开对应APP扫二维码登录"
+                    - generic [ref=e1074]: "# 其他平台爬虫使用示例，执行下面的命令查看"
+                    - text: uv run main.py --help
+                  - button "Copy" [ref=e1076] [cursor=pointer]:
+                    - img [ref=e1077]
+                - group [ref=e1080]:
+                  - generic "🖥️ WebUI 可视化操作界面" [ref=e1081] [cursor=pointer]:
+                    - text: 🖥️
+                    - strong [ref=e1082]: WebUI 可视化操作界面
+                - group [ref=e1083]:
+                  - generic "🔗 使用 Python 原生 venv 管理环境（不推荐）" [ref=e1084] [cursor=pointer]:
+                    - text: 🔗
+                    - strong [ref=e1085]: 使用 Python 原生 venv 管理环境（不推荐）
+                - generic [ref=e1086]:
+                  - heading "💾 数据保存" [level=2] [ref=e1087]
+                  - 'link "Permalink: 💾 数据保存" [ref=e1088] [cursor=pointer]':
+                    - /url: "#-数据保存"
+                    - img [ref=e1089]
+                - paragraph [ref=e1091]: MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel、SQLite 和 MySQL 数据库。
+                - paragraph [ref=e1092]:
+                  - text: 📖
+                  - strong [ref=e1093]:
+                    - text: 详细使用说明请查看：
+                    - link "数据存储指南" [ref=e1094] [cursor=pointer]:
+                      - /url: /NanmiCoder/MediaCrawler/blob/main/docs/data_storage_guide.md
+                - paragraph [ref=e1095]:
+                  - link "🚀 MediaCrawlerPro 重磅发布 🚀！更多的功能，更好的架构设计！开源不易，欢迎订阅支持！" [ref=e1096] [cursor=pointer]:
+                    - /url: https://github.com/MediaCrawlerPro
+                - generic [ref=e1097]:
+                  - heading "💬 交流群组" [level=2] [ref=e1098]
+                  - 'link "Permalink: 💬 交流群组" [ref=e1099] [cursor=pointer]':
+                    - /url: "#-交流群组"
+                    - img [ref=e1100]
+                - list [ref=e1102]:
+                  - listitem [ref=e1103]:
+                    - strong [ref=e1104]: 微信交流群
+                    - text: ：
+                    - link "点击加入" [ref=e1105] [cursor=pointer]:
+                      - /url: https://nanmicoder.github.io/MediaCrawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html
+                  - listitem [ref=e1106]:
+                    - strong [ref=e1107]: B站账号
+                    - text: ：
+                    - link "关注我" [ref=e1108] [cursor=pointer]:
+                      - /url: https://space.bilibili.com/434377496
+                    - text: ，分享AI与爬虫技术知识
+                - generic [ref=e1109]:
+                  - heading "💰 赞助商展示" [level=2] [ref=e1110]
+                  - 'link "Permalink: 💰 赞助商展示" [ref=e1111] [cursor=pointer]':
+                    - /url: "#-赞助商展示"
+                    - img [ref=e1112]
+                - link "TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、Ins、X 等 14+ 海内外主流平台，支持用户、内容、商品、评论等多维度公开数据 API，并配套 4000 万+ 已清洗结构化数据集，使用邀请码 cfzyejV9 注册并充值，即可额外获得 $2 赠送额度。" [ref=e1114] [cursor=pointer]:
+                  - /url: https://tikhub.io/?utm_source=github.com/NanmiCoder/MediaCrawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad
+                  - img [ref=e1115]
+                  - text: TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、Ins、X 等 14+ 海内外主流平台，支持用户、内容、商品、评论等多维度公开数据 API，并配套 4000 万+ 已清洗结构化数据集，使用邀请码
+                  - code [ref=e1116]: cfzyejV9
+                  - text: 注册并充值，即可额外获得 $2 赠送额度。
+                - link "LegionProxy residential proxy sponsor banner LegionProxy 专为账号注册与自动化场景提供住宅代理网络，覆盖 74M+ 真实住宅 IP、195+ 国家，支持 HTTP/3 高速连接，价格 $0.60/GB 起。" [ref=e1117] [cursor=pointer]:
+                  - /url: https://legionproxy.io/?utm_source=github&utm_campaign=mediacrawler
+                  - img "LegionProxy residential proxy sponsor banner" [ref=e1118]
+                  - text: LegionProxy 专为账号注册与自动化场景提供住宅代理网络，覆盖 74M+ 真实住宅 IP、195+ 国家，支持 HTTP/3 高速连接，价格 $0.60/GB 起。
+                - separator [ref=e1119]
+                - generic [ref=e1120]:
+                  - heading "🤝 成为赞助者" [level=2] [ref=e1121]
+                  - 'link "Permalink: 🤝 成为赞助者" [ref=e1122] [cursor=pointer]':
+                    - /url: "#-成为赞助者"
+                    - img [ref=e1123]
+                - paragraph [ref=e1125]: 成为赞助者，可以将您的产品展示在这里，每天获得大量曝光！
+                - paragraph [ref=e1126]:
+                  - strong [ref=e1127]: 联系方式
+                  - text: ：
+                - list [ref=e1128]:
+                  - listitem [ref=e1129]:
+                    - text: 微信：
+                    - code [ref=e1130]: relakkes
+                  - listitem [ref=e1131]:
+                    - text: 邮箱：
+                    - code [ref=e1132]: relakkes@gmail.com
+                - separator [ref=e1133]
+                - generic [ref=e1134]:
+                  - heading "☕ 请作者喝杯咖啡" [level=2] [ref=e1135]
+                  - 'link "Permalink: ☕ 请作者喝杯咖啡" [ref=e1136] [cursor=pointer]':
+                    - /url: "#-请作者喝杯咖啡"
+                    - img [ref=e1137]
+                - paragraph [ref=e1139]: 如果这个项目对您有帮助，欢迎打赏支持，您的每一份支持都是我持续更新的动力 ❤️
+                - table [ref=e1141]:
+                  - rowgroup [ref=e1142]:
+                    - row "微信赞赏 微信赞赏 支付宝 支付宝 Buy Me a Coffee Buy Me a Coffee" [ref=e1143]:
+                      - cell "微信赞赏 微信赞赏" [ref=e1144]:
+                        - link "微信赞赏" [ref=e1145] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/docs/static/images/wechat_pay.jpeg
+                          - img "微信赞赏" [ref=e1146]
+                        - text: 微信赞赏
+                      - cell "支付宝 支付宝" [ref=e1147]:
+                        - link "支付宝" [ref=e1148] [cursor=pointer]:
+                          - /url: /NanmiCoder/MediaCrawler/blob/main/docs/static/images/zfb_pay.png
+                          - img "支付宝" [ref=e1149]
+                        - text: 支付宝
+                      - cell "Buy Me a Coffee Buy Me a Coffee" [ref=e1150]:
+                        - link "Buy Me a Coffee" [ref=e1151] [cursor=pointer]:
+                          - /url: https://buymeacoffee.com/relakkes
+                          - img "Buy Me a Coffee" [ref=e1152]
+                        - text: Buy Me a Coffee
+                - separator [ref=e1153]
+                - generic [ref=e1154]:
+                  - heading "📚 其他" [level=2] [ref=e1155]
+                  - 'link "Permalink: 📚 其他" [ref=e1156] [cursor=pointer]':
+                    - /url: "#-其他"
+                    - img [ref=e1157]
+                - list [ref=e1159]:
+                  - listitem [ref=e1160]:
+                    - strong [ref=e1161]: 常见问题
+                    - text: ：
+                    - link "MediaCrawler 完整文档" [ref=e1162] [cursor=pointer]:
+                      - /url: https://nanmicoder.github.io/MediaCrawler/
+                  - listitem [ref=e1163]:
+                    - strong [ref=e1164]: 爬虫入门教程
+                    - text: ：
+                    - link "CrawlerTutorial 免费教程" [ref=e1165] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/CrawlerTutorial
+                  - listitem [ref=e1166]:
+                    - strong [ref=e1167]: 新闻爬虫开源项目
+                    - text: ：
+                    - link "NewsCrawlerCollection" [ref=e1168] [cursor=pointer]:
+                      - /url: https://github.com/NanmiCoder/NewsCrawlerCollection
+                - generic [ref=e1169]:
+                  - heading "⭐ Star 趋势图" [level=2] [ref=e1170]
+                  - 'link "Permalink: ⭐ Star 趋势图" [ref=e1171] [cursor=pointer]':
+                    - /url: "#-star-趋势图"
+                    - img [ref=e1172]
+                - paragraph [ref=e1174]: 如果这个项目对您有帮助，请给个 ⭐ Star 支持一下，让更多的人看到 MediaCrawler！
+                - paragraph [ref=e1175]:
+                  - link "Star History Chart" [ref=e1176] [cursor=pointer]:
+                    - /url: https://star-history.com/#NanmiCoder/MediaCrawler&Date
+                    - img "Star History Chart" [ref=e1177]
+                - generic [ref=e1178]:
+                  - heading "📚 参考" [level=2] [ref=e1179]
+                  - 'link "Permalink: 📚 参考" [ref=e1180] [cursor=pointer]':
+                    - /url: "#-参考"
+                    - img [ref=e1181]
+                - list [ref=e1183]:
+                  - listitem [ref=e1184]:
+                    - strong [ref=e1185]: 小红书签名仓库
+                    - text: ：
+                    - link "Cloxl 的 xhs 签名仓库" [ref=e1186] [cursor=pointer]:
+                      - /url: https://github.com/Cloxl/xhshow
+                  - listitem [ref=e1187]:
+                    - strong [ref=e1188]: 小红书客户端
+                    - text: ：
+                    - link "ReaJason 的 xhs 仓库" [ref=e1189] [cursor=pointer]:
+                      - /url: https://github.com/ReaJason/xhs
+                  - listitem [ref=e1190]:
+                    - strong [ref=e1191]: 短信转发
+                    - text: ：
+                    - link "SmsForwarder 参考仓库" [ref=e1192] [cursor=pointer]:
+                      - /url: https://github.com/pppscn/SmsForwarder
+                  - listitem [ref=e1193]:
+                    - strong [ref=e1194]: 内网穿透工具
+                    - text: ：
+                    - link "ngrok 官方文档" [ref=e1195] [cursor=pointer]:
+                      - /url: https://ngrok.com/docs/
+                - generic [ref=e1196]:
+                  - heading "免责声明" [level=1] [ref=e1197]
+                  - 'link "Permalink: 免责声明" [ref=e1198] [cursor=pointer]':
+                    - /url: "#免责声明"
+                    - img [ref=e1199]
+                - generic [ref=e1201]:
+                  - generic [ref=e1202]:
+                    - heading "1. 项目目的与性质" [level=2] [ref=e1203]
+                    - 'link "Permalink: 1. 项目目的与性质" [ref=e1204] [cursor=pointer]':
+                      - /url: "#1-项目目的与性质"
+                      - img [ref=e1205]
+                  - paragraph [ref=e1207]: 本项目（以下简称“本项目”）是作为一个技术研究与学习工具而创建的，旨在探索和学习网络数据采集技术。本项目专注于自媒体平台的数据爬取技术研究，旨在提供给学习者和研究者作为技术交流之用。
+                  - generic [ref=e1208]:
+                    - heading "2. 法律合规性声明" [level=2] [ref=e1209]
+                    - 'link "Permalink: 2. 法律合规性声明" [ref=e1210] [cursor=pointer]':
+                      - /url: "#2-法律合规性声明"
+                      - img [ref=e1211]
+                  - paragraph [ref=e1213]: 本项目开发者（以下简称“开发者”）郑重提醒用户在下载、安装和使用本项目时，严格遵守中华人民共和国相关法律法规，包括但不限于《中华人民共和国网络安全法》、《中华人民共和国反间谍法》等所有适用的国家法律和政策。用户应自行承担一切因使用本项目而可能引起的法律责任。
+                  - generic [ref=e1214]:
+                    - heading "3. 使用目的限制" [level=2] [ref=e1215]
+                    - 'link "Permalink: 3. 使用目的限制" [ref=e1216] [cursor=pointer]':
+                      - /url: "#3-使用目的限制"
+                      - img [ref=e1217]
+                  - paragraph [ref=e1219]: 本项目严禁用于任何非法目的或非学习、非研究的商业行为。本项目不得用于任何形式的非法侵入他人计算机系统，不得用于任何侵犯他人知识产权或其他合法权益的行为。用户应保证其使用本项目的目的纯属个人学习和技术研究，不得用于任何形式的非法活动。
+                  - generic [ref=e1220]:
+                    - heading "4. 免责声明" [level=2] [ref=e1221]
+                    - 'link "Permalink: 4. 免责声明" [ref=e1222] [cursor=pointer]':
+                      - /url: "#4-免责声明"
+                      - img [ref=e1223]
+                  - paragraph [ref=e1225]: 开发者已尽最大努力确保本项目的正当性及安全性，但不对用户使用本项目可能引起的任何形式的直接或间接损失承担责任。包括但不限于由于使用本项目而导致的任何数据丢失、设备损坏、法律诉讼等。
+                  - generic [ref=e1226]:
+                    - heading "5. 知识产权声明" [level=2] [ref=e1227]
+                    - 'link "Permalink: 5. 知识产权声明" [ref=e1228] [cursor=pointer]':
+                      - /url: "#5-知识产权声明"
+                      - img [ref=e1229]
+                  - paragraph [ref=e1231]: 本项目的知识产权归开发者所有。本项目受到著作权法和国际著作权条约以及其他知识产权法律和条约的保护。用户在遵守本声明及相关法律法规的前提下，可以下载和使用本项目。
+                  - generic [ref=e1232]:
+                    - heading "6. 最终解释权" [level=2] [ref=e1233]
+                    - 'link "Permalink: 6. 最终解释权" [ref=e1234] [cursor=pointer]':
+                      - /url: "#6-最终解释权"
+                      - img [ref=e1235]
+                  - paragraph [ref=e1237]: 关于本项目的最终解释权归开发者所有。开发者保留随时更改或更新本免责声明的权利，恕不另行通知。
+        - generic [ref=e1241]:
+          - generic [ref=e1244]:
+            - heading "About" [level=2] [ref=e1245]
+            - paragraph [ref=e1246]: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
+            - generic [ref=e1247]:
+              - img [ref=e1248]
+              - link "nanmicoder.github.io/MediaCrawler/" [ref=e1251] [cursor=pointer]:
+                - /url: https://nanmicoder.github.io/MediaCrawler/
+            - heading "Resources" [level=3] [ref=e1252]
+            - link "Readme" [ref=e1254] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1255]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1257]
+            - link "View license" [ref=e1259] [cursor=pointer]:
+              - /url: "#License-1-ov-file"
+              - img [ref=e1260]
+              - text: View license
+            - link "Activity" [ref=e1263] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/activity
+              - img [ref=e1264]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e1266]
+            - link "48.5k stars" [ref=e1268] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/stargazers
+              - img [ref=e1269]
+              - strong [ref=e1271]: 48.5k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1272]
+            - link "220 watching" [ref=e1274] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/watchers
+              - img [ref=e1275]
+              - strong [ref=e1277]: "220"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1278]
+            - link "10.4k forks" [ref=e1280] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/forks
+              - img [ref=e1281]
+              - strong [ref=e1283]: 10.4k
+              - text: forks
+            - link "Report repository" [ref=e1285] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNanmiCoder%2FMediaCrawler&report=NanmiCoder+%28user%29
+          - generic [ref=e1287]:
+            - heading "Releases" [level=2] [ref=e1288]:
+              - link "Releases" [ref=e1289] [cursor=pointer]:
+                - /url: /NanmiCoder/MediaCrawler/releases
+            - generic [ref=e1290]: No releases published
+          - generic [ref=e1292]:
+            - heading "Sponsor this project" [level=2] [ref=e1293]
+            - generic [ref=e1294]:
+              - link "@NanmiCoder" [ref=e1295] [cursor=pointer]:
+                - /url: /NanmiCoder
+                - img "@NanmiCoder" [ref=e1296]
+              - link "NanmiCoder 程序员阿江-Relakkes" [ref=e1298] [cursor=pointer]:
+                - /url: /NanmiCoder
+                - strong [ref=e1299]: NanmiCoder
+                - text: 程序员阿江-Relakkes
+            - link "Sponsor @NanmiCoder" [ref=e1300] [cursor=pointer]:
+              - /url: /sponsors/NanmiCoder
+              - generic [ref=e1302]:
+                - img [ref=e1303]
+                - text: Sponsor
+            - link "Learn more about GitHub Sponsors" [ref=e1306] [cursor=pointer]:
+              - /url: /sponsors
+          - generic [ref=e1308]:
+            - heading "Packages" [level=2] [ref=e1309]:
+              - link "Packages" [ref=e1310] [cursor=pointer]:
+                - /url: /users/NanmiCoder/packages?repo_name=MediaCrawler
+            - generic [ref=e1311]: No packages published
+          - generic [ref=e1313]:
+            - heading "Contributors 63" [level=2] [ref=e1314]:
+              - link "Contributors 63" [ref=e1315] [cursor=pointer]:
+                - /url: /NanmiCoder/MediaCrawler/graphs/contributors
+                - text: Contributors
+                - generic "63" [ref=e1316]
+            - list [ref=e1317]:
+              - listitem [ref=e1318]:
+                - link "@NanmiCoder" [ref=e1319] [cursor=pointer]:
+                  - /url: https://github.com/NanmiCoder
+                  - img "@NanmiCoder" [ref=e1320]
+              - listitem [ref=e1321]:
+                - link "@2513502304" [ref=e1322] [cursor=pointer]:
+                  - /url: https://github.com/2513502304
+                  - img "@2513502304" [ref=e1323]
+              - listitem [ref=e1324]:
+                - link "@gaoxiaobei" [ref=e1325] [cursor=pointer]:
+                  - /url: https://github.com/gaoxiaobei
+                  - img "@gaoxiaobei" [ref=e1326]
+              - listitem [ref=e1327]:
+                - link "@persist-1" [ref=e1328] [cursor=pointer]:
+                  - /url: https://github.com/persist-1
+                  - img "@persist-1" [ref=e1329]
+              - listitem [ref=e1330]:
+                - link "@claude" [ref=e1331] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1332]
+              - listitem [ref=e1333]:
+                - link "@BaoZhuhan" [ref=e1334] [cursor=pointer]:
+                  - /url: https://github.com/BaoZhuhan
+                  - img "@BaoZhuhan" [ref=e1335]
+              - listitem [ref=e1336]:
+                - link "@github-actions[bot]" [ref=e1337] [cursor=pointer]:
+                  - /url: https://github.com/apps/github-actions
+                  - img "@github-actions[bot]" [ref=e1338]
+              - listitem [ref=e1339]:
+                - link "@leantli" [ref=e1340] [cursor=pointer]:
+                  - /url: https://github.com/leantli
+                  - img "@leantli" [ref=e1341]
+              - listitem [ref=e1342]:
+                - link "@crpa33" [ref=e1343] [cursor=pointer]:
+                  - /url: https://github.com/crpa33
+                  - img "@crpa33" [ref=e1344]
+              - listitem [ref=e1345]:
+                - link "@PeanutSplash" [ref=e1346] [cursor=pointer]:
+                  - /url: https://github.com/PeanutSplash
+                  - img "@PeanutSplash" [ref=e1347]
+              - listitem [ref=e1348]:
+                - link "@Rosyrain" [ref=e1349] [cursor=pointer]:
+                  - /url: https://github.com/Rosyrain
+                  - img "@Rosyrain" [ref=e1350]
+              - listitem [ref=e1351]:
+                - link "@nelzomal" [ref=e1352] [cursor=pointer]:
+                  - /url: https://github.com/nelzomal
+                  - img "@nelzomal" [ref=e1353]
+              - listitem [ref=e1354]:
+                - link "@jayeeliu" [ref=e1355] [cursor=pointer]:
+                  - /url: https://github.com/jayeeliu
+                  - img "@jayeeliu" [ref=e1356]
+              - listitem [ref=e1357]:
+                - link "@wanzirong" [ref=e1358] [cursor=pointer]:
+                  - /url: https://github.com/wanzirong
+                  - img "@wanzirong" [ref=e1359]
+            - link "+ 49 contributors" [ref=e1361] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/graphs/contributors
+          - generic [ref=e1363]:
+            - heading "Languages" [level=2] [ref=e1364]
+            - list [ref=e1368]:
+              - listitem [ref=e1369]:
+                - link "Python 100.0%" [ref=e1370] [cursor=pointer]:
+                  - /url: /NanmiCoder/MediaCrawler/search?l=python
+                  - img [ref=e1371]
+                  - generic [ref=e1373]: Python
+                  - generic [ref=e1374]: 100.0%
+  - contentinfo [ref=e1376]:
+    - heading "Footer" [level=2] [ref=e1377]
+    - generic [ref=e1378]:
+      - generic [ref=e1379]:
+        - link "GitHub Homepage" [ref=e1380] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1381]
+        - generic [ref=e1383]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1384]:
+        - heading "Footer navigation" [level=3] [ref=e1385]
+        - list "Footer navigation" [ref=e1386]:
+          - listitem [ref=e1387]:
+            - link "Terms" [ref=e1388] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1389]:
+            - link "Privacy" [ref=e1390] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1391]:
+            - link "Security" [ref=e1392] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1393]:
+            - link "Status" [ref=e1394] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1395]:
+            - link "Community" [ref=e1396] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1397]:
+            - link "Docs" [ref=e1398] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1399]:
+            - link "Contact" [ref=e1400] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1401]:
+            - button "Manage cookies" [ref=e1403] [cursor=pointer]
+          - listitem [ref=e1404]:
+            - button "Do not share my personal information" [ref=e1406] [cursor=pointer]

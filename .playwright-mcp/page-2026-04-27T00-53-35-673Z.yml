@@ -1,0 +1,1579 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffxsjy%2Fjieba
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=fxsjy%2Fjieba
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "fxsjy" [ref=e70] [cursor=pointer]:
+            - /url: /fxsjy
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "jieba" [ref=e73] [cursor=pointer]:
+              - /url: /fxsjy/jieba
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffxsjy%2Fjieba
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 6.7k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffxsjy%2Fjieba
+                - img [ref=e82]
+                - text: Fork
+                - generic "6,697" [ref=e84]: 6.7k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffxsjy%2Fjieba
+                - img [ref=e88]
+                - text: Star
+                - generic "34928 users starred this repository" [ref=e90]: 34.9k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /fxsjy/jieba
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 646" [ref=e99] [cursor=pointer]:
+              - /url: /fxsjy/jieba/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "646" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 54" [ref=e106] [cursor=pointer]:
+              - /url: /fxsjy/jieba/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "54" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /fxsjy/jieba/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /fxsjy/jieba/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Wiki" [ref=e122] [cursor=pointer]:
+              - /url: /fxsjy/jieba/wiki
+              - img [ref=e123]
+              - generic [ref=e125]: Wiki
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /fxsjy/jieba/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /fxsjy/jieba/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "fxsjy/jieba" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "master branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: master
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "Branches" [ref=e168] [cursor=pointer]:
+                  - /url: /fxsjy/jieba/branches
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]: Branches
+                - link "Tags" [ref=e171] [cursor=pointer]:
+                  - /url: /fxsjy/jieba/tags
+                  - generic [ref=e172]:
+                    - generic:
+                      - img
+                    - generic [ref=e173]: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit History 523 Commits" [ref=e191]:
+                    - cell "Latest commit History 523 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e197]:
+                          - heading "History" [level=2] [ref=e198]
+                          - link "523 Commits" [ref=e199] [cursor=pointer]:
+                            - /url: /fxsjy/jieba/commits/master/
+                            - generic [ref=e200]:
+                              - generic:
+                                - img
+                              - generic [ref=e201]: 523 Commits
+                  - row "extra_dict, (Directory)" [ref=e202]:
+                    - cell "extra_dict, (Directory)" [ref=e203]:
+                      - generic [ref=e204]:
+                        - img [ref=e205]
+                        - link "extra_dict, (Directory)" [ref=e210] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/tree/master/extra_dict
+                          - text: extra_dict
+                    - cell [ref=e211]
+                    - cell [ref=e213]
+                  - row "jieba, (Directory)" [ref=e216]:
+                    - cell "jieba, (Directory)" [ref=e217]:
+                      - generic [ref=e218]:
+                        - img [ref=e219]
+                        - link "jieba, (Directory)" [ref=e224] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/tree/master/jieba
+                          - text: jieba
+                    - cell [ref=e225]
+                    - cell [ref=e227]
+                  - row "test, (Directory)" [ref=e230]:
+                    - cell "test, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "test, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/tree/master/test
+                          - text: test
+                    - cell [ref=e239]
+                    - cell [ref=e241]
+                  - row ".gitattributes, (File)" [ref=e244]:
+                    - cell ".gitattributes, (File)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link ".gitattributes, (File)" [ref=e252] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/.gitattributes
+                          - text: .gitattributes
+                    - cell [ref=e253]
+                    - cell [ref=e255]
+                  - row ".gitignore, (File)" [ref=e258]:
+                    - cell ".gitignore, (File)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link ".gitignore, (File)" [ref=e266] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e267]
+                    - cell [ref=e269]
+                  - row "Changelog, (File)" [ref=e272]:
+                    - cell "Changelog, (File)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "Changelog, (File)" [ref=e280] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/Changelog
+                          - text: Changelog
+                    - cell [ref=e281]
+                    - cell [ref=e283]
+                  - row "LICENSE, (File)" [ref=e286]:
+                    - cell "LICENSE, (File)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "LICENSE, (File)" [ref=e294] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell [ref=e295]
+                    - cell [ref=e297]
+                  - row "MANIFEST.in, (File)" [ref=e300]:
+                    - cell "MANIFEST.in, (File)" [ref=e301]:
+                      - generic [ref=e302]:
+                        - img [ref=e303]
+                        - link "MANIFEST.in, (File)" [ref=e308] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/MANIFEST.in
+                          - text: MANIFEST.in
+                    - cell [ref=e309]
+                    - cell [ref=e311]
+                  - row "README.md, (File)" [ref=e314]:
+                    - cell "README.md, (File)" [ref=e315]:
+                      - generic [ref=e316]:
+                        - img [ref=e317]
+                        - link "README.md, (File)" [ref=e322] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/README.md
+                          - text: README.md
+                    - cell [ref=e323]
+                    - cell [ref=e325]
+                  - row "setup.py, (File)" [ref=e328]:
+                    - cell "setup.py, (File)" [ref=e329]:
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - link "setup.py, (File)" [ref=e336] [cursor=pointer]:
+                          - /url: /fxsjy/jieba/blob/master/setup.py
+                          - text: setup.py
+                    - cell [ref=e337]
+                    - cell [ref=e339]
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - heading "Repository files navigation" [level=2] [ref=e345]
+                - navigation "Repository files" [ref=e346]:
+                  - list [ref=e347]:
+                    - listitem [ref=e348]:
+                      - link "README" [ref=e349] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e351]
+                        - generic [ref=e353]: README
+                    - listitem [ref=e354]:
+                      - link "MIT license" [ref=e355] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e357]
+                        - generic [ref=e359]: MIT license
+                - button "Outline" [ref=e360] [cursor=pointer]:
+                  - img [ref=e361]
+              - article [ref=e364]:
+                - generic [ref=e365]:
+                  - heading "jieba" [level=1] [ref=e366]
+                  - 'link "Permalink: jieba" [ref=e367] [cursor=pointer]':
+                    - /url: "#jieba"
+                    - img [ref=e368]
+                - paragraph [ref=e370]: “结巴”中文分词：做最好的 Python 中文分词组件
+                - paragraph [ref=e371]: "\"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best Python Chinese word segmentation module."
+                - list [ref=e372]:
+                  - listitem [ref=e373]:
+                    - emphasis [ref=e374]: Scroll down for English documentation.
+                - generic [ref=e375]:
+                  - heading "特点" [level=1] [ref=e376]
+                  - 'link "Permalink: 特点" [ref=e377] [cursor=pointer]':
+                    - /url: "#特点"
+                    - img [ref=e378]
+                - list [ref=e380]:
+                  - listitem [ref=e381]:
+                    - text: 支持四种分词模式：
+                    - list [ref=e382]:
+                      - listitem [ref=e383]: 精确模式，试图将句子最精确地切开，适合文本分析；
+                      - listitem [ref=e384]: 全模式，把句子中所有的可以成词的词语都扫描出来, 速度非常快，但是不能解决歧义；
+                      - listitem [ref=e385]: 搜索引擎模式，在精确模式的基础上，对长词再次切分，提高召回率，适合用于搜索引擎分词。
+                      - listitem [ref=e386]:
+                        - text: paddle模式，利用PaddlePaddle深度学习框架，训练序列标注（双向GRU）网络模型实现分词。同时支持词性标注。paddle模式使用需安装paddlepaddle-tiny，
+                        - code [ref=e387]: pip install paddlepaddle-tiny==1.6.1
+                        - text: 。目前paddle模式支持jieba v0.40及以上版本。jieba v0.40以下版本，请升级jieba，
+                        - code [ref=e388]: pip install jieba --upgrade
+                        - text: 。
+                        - link "PaddlePaddle官网" [ref=e389] [cursor=pointer]:
+                          - /url: https://www.paddlepaddle.org.cn/
+                  - listitem [ref=e390]: 支持繁体分词
+                  - listitem [ref=e391]: 支持自定义词典
+                  - listitem [ref=e392]: MIT 授权协议
+                - generic [ref=e393]:
+                  - heading "安装说明" [level=1] [ref=e394]
+                  - 'link "Permalink: 安装说明" [ref=e395] [cursor=pointer]':
+                    - /url: "#安装说明"
+                    - img [ref=e396]
+                - paragraph [ref=e398]: 代码对 Python 2/3 均兼容
+                - list [ref=e399]:
+                  - listitem [ref=e400]:
+                    - text: 全自动安装：
+                    - code [ref=e401]: easy_install jieba
+                    - text: 或者
+                    - code [ref=e402]: pip install jieba
+                    - text: /
+                    - code [ref=e403]: pip3 install jieba
+                  - listitem [ref=e404]:
+                    - text: 半自动安装：先下载
+                    - link "http://pypi.python.org/pypi/jieba/" [ref=e405] [cursor=pointer]:
+                      - /url: http://pypi.python.org/pypi/jieba/
+                    - text: ，解压后运行
+                    - code [ref=e406]: python setup.py install
+                  - listitem [ref=e407]: 手动安装：将 jieba 目录放置于当前目录或者 site-packages 目录
+                  - listitem [ref=e408]:
+                    - text: 通过
+                    - code [ref=e409]: import jieba
+                    - text: 来引用
+                  - listitem [ref=e410]:
+                    - text: 如果需要使用paddle模式下的分词和词性标注功能，请先安装paddlepaddle-tiny，
+                    - code [ref=e411]: pip install paddlepaddle-tiny==1.6.1
+                    - text: 。
+                - generic [ref=e412]:
+                  - heading "算法" [level=1] [ref=e413]
+                  - 'link "Permalink: 算法" [ref=e414] [cursor=pointer]':
+                    - /url: "#算法"
+                    - img [ref=e415]
+                - list [ref=e417]:
+                  - listitem [ref=e418]: 基于前缀词典实现高效的词图扫描，生成句子中汉字所有可能成词情况所构成的有向无环图 (DAG)
+                  - listitem [ref=e419]: 采用了动态规划查找最大概率路径, 找出基于词频的最大切分组合
+                  - listitem [ref=e420]: 对于未登录词，采用了基于汉字成词能力的 HMM 模型，使用了 Viterbi 算法
+                - generic [ref=e421]:
+                  - heading "主要功能" [level=1] [ref=e422]
+                  - 'link "Permalink: 主要功能" [ref=e423] [cursor=pointer]':
+                    - /url: "#主要功能"
+                    - img [ref=e424]
+                - list [ref=e426]:
+                  - listitem [ref=e427]: 分词
+                - separator [ref=e428]
+                - list [ref=e429]:
+                  - listitem [ref=e430]:
+                    - code [ref=e431]: jieba.cut
+                    - text: "方法接受四个输入参数: 需要分词的字符串；cut_all 参数用来控制是否采用全模式；HMM 参数用来控制是否使用 HMM 模型；use_paddle 参数用来控制是否使用paddle模式下的分词模式，paddle模式采用延迟加载方式，通过enable_paddle接口安装paddlepaddle-tiny，并且import相关代码；"
+                  - listitem [ref=e432]:
+                    - code [ref=e433]: jieba.cut_for_search
+                    - text: 方法接受两个参数：需要分词的字符串；是否使用 HMM 模型。该方法适合用于搜索引擎构建倒排索引的分词，粒度比较细
+                  - listitem [ref=e434]: 待分词的字符串可以是 unicode 或 UTF-8 字符串、GBK 字符串。注意：不建议直接输入 GBK 字符串，可能无法预料地错误解码成 UTF-8
+                  - listitem [ref=e435]:
+                    - code [ref=e436]: jieba.cut
+                    - text: 以及
+                    - code [ref=e437]: jieba.cut_for_search
+                    - text: 返回的结构都是一个可迭代的 generator，可以使用 for 循环来获得分词后得到的每一个词语(unicode)，或者用
+                  - listitem [ref=e438]:
+                    - code [ref=e439]: jieba.lcut
+                    - text: 以及
+                    - code [ref=e440]: jieba.lcut_for_search
+                    - text: 直接返回 list
+                  - listitem [ref=e441]:
+                    - code [ref=e442]: jieba.Tokenizer(dictionary=DEFAULT_DICT)
+                    - text: 新建自定义分词器，可用于同时使用不同词典。
+                    - code [ref=e443]: jieba.dt
+                    - text: 为默认分词器，所有全局分词相关函数都是该分词器的映射。
+                - paragraph [ref=e444]: 代码示例
+                - generic [ref=e445]:
+                  - generic [ref=e446]: "# encoding=utf-8 import jieba jieba.enable_paddle()# 启动paddle模式。 0.40版之后开始支持，早期版本不支持 strs=[\"我来到北京清华大学\",\"乒乓球拍卖完了\",\"中国科学技术大学\"] for str in strs: seg_list = jieba.cut(str,use_paddle=True) # 使用paddle模式 print(\"Paddle Mode: \" + '/'.join(list(seg_list))) seg_list = jieba.cut(\"我来到北京清华大学\", cut_all=True) print(\"Full Mode: \" + \"/ \".join(seg_list)) # 全模式 seg_list = jieba.cut(\"我来到北京清华大学\", cut_all=False) print(\"Default Mode: \" + \"/ \".join(seg_list)) # 精确模式 seg_list = jieba.cut(\"他来到了网易杭研大厦\") # 默认是精确模式 print(\", \".join(seg_list)) seg_list = jieba.cut_for_search(\"小明硕士毕业于中国科学院计算所，后在日本京都大学深造\") # 搜索引擎模式 print(\", \".join(seg_list))"
+                  - button "Copy" [ref=e448] [cursor=pointer]:
+                    - img [ref=e449]
+                - paragraph [ref=e452]: "输出:"
+                - generic [ref=e453]:
+                  - code [ref=e455]: "【全模式】: 我/ 来到/ 北京/ 清华/ 清华大学/ 华大/ 大学 【精确模式】: 我/ 来到/ 北京/ 清华大学 【新词识别】：他, 来到, 了, 网易, 杭研, 大厦 (此处，“杭研”并没有在词典中，但是也被Viterbi算法识别出来了) 【搜索引擎模式】： 小明, 硕士, 毕业, 于, 中国, 科学, 学院, 科学院, 中国科学院, 计算, 计算所, 后, 在, 日本, 京都, 大学, 日本京都大学, 深造"
+                  - button "Copy" [ref=e457] [cursor=pointer]:
+                    - img [ref=e458]
+                - list [ref=e461]:
+                  - listitem [ref=e462]: 添加自定义词典
+                - separator [ref=e463]
+                - generic [ref=e464]:
+                  - heading "载入词典" [level=3] [ref=e465]
+                  - 'link "Permalink: 载入词典" [ref=e466] [cursor=pointer]':
+                    - /url: "#载入词典"
+                    - img [ref=e467]
+                - list [ref=e469]:
+                  - listitem [ref=e470]: 开发者可以指定自己自定义的词典，以便包含 jieba 词库里没有的词。虽然 jieba 有新词识别能力，但是自行添加新词可以保证更高的正确率
+                  - listitem [ref=e471]: "用法： jieba.load_userdict(file_name) # file_name 为文件类对象或自定义词典的路径"
+                  - listitem [ref=e472]:
+                    - text: 词典格式和
+                    - code [ref=e473]: dict.txt
+                    - text: 一样，一个词占一行；每一行分三部分：词语、词频（可省略）、词性（可省略），用空格隔开，顺序不可颠倒。
+                    - code [ref=e474]: file_name
+                    - text: 若为路径或二进制方式打开的文件，则文件必须为 UTF-8 编码。
+                  - listitem [ref=e475]: 词频省略时使用自动计算的能保证分出该词的词频。
+                - paragraph [ref=e476]:
+                  - strong [ref=e477]: 例如：
+                - generic [ref=e478]:
+                  - code [ref=e480]: 创新办 3 i 云计算 5 凱特琳 nz 台中
+                  - button "Copy" [ref=e482] [cursor=pointer]:
+                    - img [ref=e483]
+                - list [ref=e486]:
+                  - listitem [ref=e487]:
+                    - paragraph [ref=e488]:
+                      - text: 更改分词器（默认为
+                      - code [ref=e489]: jieba.dt
+                      - text: ）的
+                      - code [ref=e490]: tmp_dir
+                      - text: 和
+                      - code [ref=e491]: cache_file
+                      - text: 属性，可分别指定缓存文件所在的文件夹及其文件名，用于受限的文件系统。
+                  - listitem [ref=e492]:
+                    - paragraph [ref=e493]: 范例：
+                    - list [ref=e494]:
+                      - listitem [ref=e495]:
+                        - paragraph [ref=e496]:
+                          - text: 自定义词典：
+                          - link "https://github.com/fxsjy/jieba/blob/master/test/userdict.txt" [ref=e497] [cursor=pointer]:
+                            - /url: https://github.com/fxsjy/jieba/blob/master/test/userdict.txt
+                      - listitem [ref=e498]:
+                        - paragraph [ref=e499]:
+                          - text: 用法示例：
+                          - link "https://github.com/fxsjy/jieba/blob/master/test/test_userdict.py" [ref=e500] [cursor=pointer]:
+                            - /url: https://github.com/fxsjy/jieba/blob/master/test/test_userdict.py
+                        - list [ref=e501]:
+                          - listitem [ref=e502]:
+                            - paragraph [ref=e503]: 之前： 李小福 / 是 / 创新 / 办 / 主任 / 也 / 是 / 云 / 计算 / 方面 / 的 / 专家 /
+                          - listitem [ref=e504]:
+                            - paragraph [ref=e505]: 加载自定义词库后： 李小福 / 是 / 创新办 / 主任 / 也 / 是 / 云计算 / 方面 / 的 / 专家 /
+                - generic [ref=e506]:
+                  - heading "调整词典" [level=3] [ref=e507]
+                  - 'link "Permalink: 调整词典" [ref=e508] [cursor=pointer]':
+                    - /url: "#调整词典"
+                    - img [ref=e509]
+                - list [ref=e511]:
+                  - listitem [ref=e512]:
+                    - paragraph [ref=e513]:
+                      - text: 使用
+                      - code [ref=e514]: add_word(word, freq=None, tag=None)
+                      - text: 和
+                      - code [ref=e515]: del_word(word)
+                      - text: 可在程序中动态修改词典。
+                  - listitem [ref=e516]:
+                    - paragraph [ref=e517]:
+                      - text: 使用
+                      - code [ref=e518]: suggest_freq(segment, tune=True)
+                      - text: 可调节单个词语的词频，使其能（或不能）被分出来。
+                  - listitem [ref=e519]:
+                    - paragraph [ref=e520]: 注意：自动计算的词频在使用 HMM 新词发现功能时可能无效。
+                - paragraph [ref=e521]: 代码示例：
+                - generic [ref=e522]:
+                  - generic [ref=e523]:
+                    - text: ">>> print("
+                    - generic [ref=e524]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e525]: "'如果放到post中将出错。'"
+                    - text: ", HMM=False))) 如果/放到/post/中将/出错/。 >>> jieba.suggest_freq(("
+                    - generic [ref=e526]: "'中'"
+                    - text: ","
+                    - generic [ref=e527]: "'将'"
+                    - text: ), True) 494 >>> print(
+                    - generic [ref=e528]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e529]: "'如果放到post中将出错。'"
+                    - text: ", HMM=False))) 如果/放到/post/中/将/出错/。 >>> print("
+                    - generic [ref=e530]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e531]: "'「台中」正确应该不会被切开'"
+                    - text: ", HMM=False))) 「/台/中/」/正确/应该/不会/被/切开 >>> jieba.suggest_freq("
+                    - generic [ref=e532]: "'台中'"
+                    - text: ", True) 69 >>> print("
+                    - generic [ref=e533]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e534]: "'「台中」正确应该不会被切开'"
+                    - text: ", HMM=False))) 「/台中/」/正确/应该/不会/被/切开"
+                  - button "Copy" [ref=e536] [cursor=pointer]:
+                    - img [ref=e537]
+                - list [ref=e540]:
+                  - listitem [ref=e541]:
+                    - text: "\"通过用户自定义词典来增强歧义纠错能力\" ---"
+                    - link "#14" [ref=e542] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/issues/14
+                - list [ref=e543]:
+                  - listitem [ref=e544]: 关键词提取
+                - separator [ref=e545]
+                - generic [ref=e546]:
+                  - heading "基于 TF-IDF 算法的关键词抽取" [level=3] [ref=e547]
+                  - 'link "Permalink: 基于 TF-IDF 算法的关键词抽取" [ref=e548] [cursor=pointer]':
+                    - /url: "#基于-tf-idf-算法的关键词抽取"
+                    - img [ref=e549]
+                - paragraph [ref=e551]:
+                  - code [ref=e552]: import jieba.analyse
+                - list [ref=e553]:
+                  - listitem [ref=e554]:
+                    - text: jieba.analyse.extract_tags(sentence, topK=20, withWeight=False, allowPOS=())
+                    - list [ref=e555]:
+                      - listitem [ref=e556]: sentence 为待提取的文本
+                      - listitem [ref=e557]: topK 为返回几个 TF/IDF 权重最大的关键词，默认值为 20
+                      - listitem [ref=e558]: withWeight 为是否一并返回关键词权重值，默认值为 False
+                      - listitem [ref=e559]: allowPOS 仅包括指定词性的词，默认值为空，即不筛选
+                  - listitem [ref=e560]: jieba.analyse.TFIDF(idf_path=None) 新建 TFIDF 实例，idf_path 为 IDF 频率文件
+                - paragraph [ref=e561]: 代码示例 （关键词提取）
+                - paragraph [ref=e562]:
+                  - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags.py" [ref=e563] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags.py
+                - paragraph [ref=e564]: 关键词提取所使用逆向文件频率（IDF）文本语料库可以切换成自定义语料库的路径
+                - list [ref=e565]:
+                  - listitem [ref=e566]: "用法： jieba.analyse.set_idf_path(file_name) # file_name为自定义语料库的路径"
+                  - listitem [ref=e567]:
+                    - text: 自定义语料库示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/extra_dict/idf.txt.big" [ref=e568] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/extra_dict/idf.txt.big
+                  - listitem [ref=e569]:
+                    - text: 用法示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags_idfpath.py" [ref=e570] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags_idfpath.py
+                - paragraph [ref=e571]: 关键词提取所使用停止词（Stop Words）文本语料库可以切换成自定义语料库的路径
+                - list [ref=e572]:
+                  - listitem [ref=e573]: "用法： jieba.analyse.set_stop_words(file_name) # file_name为自定义语料库的路径"
+                  - listitem [ref=e574]:
+                    - text: 自定义语料库示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/extra_dict/stop_words.txt" [ref=e575] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/extra_dict/stop_words.txt
+                  - listitem [ref=e576]:
+                    - text: 用法示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags_stop_words.py" [ref=e577] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags_stop_words.py
+                - paragraph [ref=e578]: 关键词一并返回关键词权重值示例
+                - list [ref=e579]:
+                  - listitem [ref=e580]:
+                    - text: 用法示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags_with_weight.py" [ref=e581] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags_with_weight.py
+                - generic [ref=e582]:
+                  - heading "基于 TextRank 算法的关键词抽取" [level=3] [ref=e583]
+                  - 'link "Permalink: 基于 TextRank 算法的关键词抽取" [ref=e584] [cursor=pointer]':
+                    - /url: "#基于-textrank-算法的关键词抽取"
+                    - img [ref=e585]
+                - list [ref=e587]:
+                  - listitem [ref=e588]: jieba.analyse.textrank(sentence, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v')) 直接使用，接口相同，注意默认过滤词性。
+                  - listitem [ref=e589]: jieba.analyse.TextRank() 新建自定义 TextRank 实例
+                - paragraph [ref=e590]:
+                  - text: 算法论文：
+                  - 'link "TextRank: Bringing Order into Texts" [ref=e591] [cursor=pointer]':
+                    - /url: http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+                - generic [ref=e592]:
+                  - heading "基本思想:" [level=4] [ref=e593]
+                  - 'link "Permalink: 基本思想:" [ref=e594] [cursor=pointer]':
+                    - /url: "#基本思想"
+                    - img [ref=e595]
+                - list [ref=e597]:
+                  - listitem [ref=e598]: 将待抽取关键词的文本进行分词
+                  - listitem [ref=e599]: 以固定窗口大小(默认为5，通过span属性调整)，词之间的共现关系，构建图
+                  - listitem [ref=e600]: 计算图中节点的PageRank，注意是无向带权图
+                - generic [ref=e601]:
+                  - heading "使用示例:" [level=4] [ref=e602]
+                  - 'link "Permalink: 使用示例:" [ref=e603] [cursor=pointer]':
+                    - /url: "#使用示例"
+                    - img [ref=e604]
+                - paragraph [ref=e606]:
+                  - text: 见
+                  - link "test/demo.py" [ref=e607] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/blob/master/test/demo.py
+                - list [ref=e608]:
+                  - listitem [ref=e609]: 词性标注
+                - separator [ref=e610]
+                - list [ref=e611]:
+                  - listitem [ref=e612]:
+                    - code [ref=e613]: jieba.posseg.POSTokenizer(tokenizer=None)
+                    - text: 新建自定义分词器，
+                    - code [ref=e614]: tokenizer
+                    - text: 参数可指定内部使用的
+                    - code [ref=e615]: jieba.Tokenizer
+                    - text: 分词器。
+                    - code [ref=e616]: jieba.posseg.dt
+                    - text: 为默认词性标注分词器。
+                  - listitem [ref=e617]: 标注句子分词后每个词的词性，采用和 ictclas 兼容的标记法。
+                  - listitem [ref=e618]: 除了jieba默认分词模式，提供paddle模式下的词性标注功能。paddle模式采用延迟加载方式，通过enable_paddle()安装paddlepaddle-tiny，并且import相关代码；
+                  - listitem [ref=e619]: 用法示例
+                - generic [ref=e620]:
+                  - generic [ref=e621]:
+                    - text: ">>> import jieba >>> import jieba.posseg as pseg >>> words = pseg.cut("
+                    - generic [ref=e622]: "\"我爱北京天安门\""
+                    - text: )
+                    - generic [ref=e623]: "#jieba默认模式"
+                    - text: ">>> jieba.enable_paddle()"
+                    - generic [ref=e624]: "#启动paddle模式。 0.40版之后开始支持，早期版本不支持"
+                    - text: ">>> words = pseg.cut("
+                    - generic [ref=e625]: "\"我爱北京天安门\""
+                    - text: ",use_paddle=True)"
+                    - generic [ref=e626]: "#paddle模式"
+                    - text: ">>> for word, flag in words: ... print("
+                    - generic [ref=e627]: "'%s %s'"
+                    - text: "% (word, flag)) ... 我 r 爱 v 北京 ns 天安门 ns"
+                  - button "Copy" [ref=e629] [cursor=pointer]:
+                    - img [ref=e630]
+                - paragraph [ref=e633]: paddle模式词性标注对应表如下：
+                - paragraph [ref=e634]: paddle模式词性和专名类别标签集合如下表，其中词性标签 24 个（小写字母），专名类别标签 4 个（大写字母）。
+                - table [ref=e636]:
+                  - rowgroup [ref=e637]:
+                    - row "标签 含义 标签 含义 标签 含义 标签 含义" [ref=e638]:
+                      - columnheader "标签" [ref=e639]
+                      - columnheader "含义" [ref=e640]
+                      - columnheader "标签" [ref=e641]
+                      - columnheader "含义" [ref=e642]
+                      - columnheader "标签" [ref=e643]
+                      - columnheader "含义" [ref=e644]
+                      - columnheader "标签" [ref=e645]
+                      - columnheader "含义" [ref=e646]
+                  - rowgroup [ref=e647]:
+                    - row "n 普通名词 f 方位名词 s 处所名词 t 时间" [ref=e648]:
+                      - cell "n" [ref=e649]
+                      - cell "普通名词" [ref=e650]
+                      - cell "f" [ref=e651]
+                      - cell "方位名词" [ref=e652]
+                      - cell "s" [ref=e653]
+                      - cell "处所名词" [ref=e654]
+                      - cell "t" [ref=e655]
+                      - cell "时间" [ref=e656]
+                    - row "nr 人名 ns 地名 nt 机构名 nw 作品名" [ref=e657]:
+                      - cell "nr" [ref=e658]
+                      - cell "人名" [ref=e659]
+                      - cell "ns" [ref=e660]
+                      - cell "地名" [ref=e661]
+                      - cell "nt" [ref=e662]
+                      - cell "机构名" [ref=e663]
+                      - cell "nw" [ref=e664]
+                      - cell "作品名" [ref=e665]
+                    - row "nz 其他专名 v 普通动词 vd 动副词 vn 名动词" [ref=e666]:
+                      - cell "nz" [ref=e667]
+                      - cell "其他专名" [ref=e668]
+                      - cell "v" [ref=e669]
+                      - cell "普通动词" [ref=e670]
+                      - cell "vd" [ref=e671]
+                      - cell "动副词" [ref=e672]
+                      - cell "vn" [ref=e673]
+                      - cell "名动词" [ref=e674]
+                    - row "a 形容词 ad 副形词 an 名形词 d 副词" [ref=e675]:
+                      - cell "a" [ref=e676]
+                      - cell "形容词" [ref=e677]
+                      - cell "ad" [ref=e678]
+                      - cell "副形词" [ref=e679]
+                      - cell "an" [ref=e680]
+                      - cell "名形词" [ref=e681]
+                      - cell "d" [ref=e682]
+                      - cell "副词" [ref=e683]
+                    - row "m 数量词 q 量词 r 代词 p 介词" [ref=e684]:
+                      - cell "m" [ref=e685]
+                      - cell "数量词" [ref=e686]
+                      - cell "q" [ref=e687]
+                      - cell "量词" [ref=e688]
+                      - cell "r" [ref=e689]
+                      - cell "代词" [ref=e690]
+                      - cell "p" [ref=e691]
+                      - cell "介词" [ref=e692]
+                    - row "c 连词 u 助词 xc 其他虚词 w 标点符号" [ref=e693]:
+                      - cell "c" [ref=e694]
+                      - cell "连词" [ref=e695]
+                      - cell "u" [ref=e696]
+                      - cell "助词" [ref=e697]
+                      - cell "xc" [ref=e698]
+                      - cell "其他虚词" [ref=e699]
+                      - cell "w" [ref=e700]
+                      - cell "标点符号" [ref=e701]
+                    - row "PER 人名 LOC 地名 ORG 机构名 TIME 时间" [ref=e702]:
+                      - cell "PER" [ref=e703]
+                      - cell "人名" [ref=e704]
+                      - cell "LOC" [ref=e705]
+                      - cell "地名" [ref=e706]
+                      - cell "ORG" [ref=e707]
+                      - cell "机构名" [ref=e708]
+                      - cell "TIME" [ref=e709]
+                      - cell "时间" [ref=e710]
+                - list [ref=e711]:
+                  - listitem [ref=e712]: 并行分词
+                - separator [ref=e713]
+                - list [ref=e714]:
+                  - listitem [ref=e715]:
+                    - paragraph [ref=e716]: 原理：将目标文本按行分隔后，把各行文本分配到多个 Python 进程并行分词，然后归并结果，从而获得分词速度的可观提升
+                  - listitem [ref=e717]:
+                    - paragraph [ref=e718]: 基于 python 自带的 multiprocessing 模块，目前暂不支持 Windows
+                  - listitem [ref=e719]:
+                    - paragraph [ref=e720]: 用法：
+                    - list [ref=e721]:
+                      - listitem [ref=e722]:
+                        - code [ref=e723]: jieba.enable_parallel(4)
+                        - text: "# 开启并行分词模式，参数为并行进程数"
+                      - listitem [ref=e724]:
+                        - code [ref=e725]: jieba.disable_parallel()
+                        - text: "# 关闭并行分词模式"
+                  - listitem [ref=e726]:
+                    - paragraph [ref=e727]:
+                      - text: 例子：
+                      - link "https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py" [ref=e728] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py
+                  - listitem [ref=e729]:
+                    - paragraph [ref=e730]: 实验结果：在 4 核 3.4GHz Linux 机器上，对金庸全集进行精确分词，获得了 1MB/s 的速度，是单进程版的 3.3 倍。
+                  - listitem [ref=e731]:
+                    - paragraph [ref=e732]:
+                      - strong [ref=e733]: 注意
+                      - text: ：并行分词仅支持默认分词器
+                      - code [ref=e734]: jieba.dt
+                      - text: 和
+                      - code [ref=e735]: jieba.posseg.dt
+                      - text: 。
+                - list [ref=e736]:
+                  - listitem [ref=e737]: Tokenize：返回词语在原文的起止位置
+                - separator [ref=e738]
+                - list [ref=e739]:
+                  - listitem [ref=e740]: 注意，输入参数只接受 unicode
+                  - listitem [ref=e741]: 默认模式
+                - generic [ref=e742]:
+                  - generic [ref=e743]:
+                    - text: "result = jieba.tokenize(u'永和服装饰品有限公司') for tk in result: print("
+                    - generic [ref=e744]: "\"word %s\\t\\t start: %d \\t\\t end:%d\""
+                    - text: "% (tk[0],tk[1],tk[2]))"
+                  - button "Copy" [ref=e746] [cursor=pointer]:
+                    - img [ref=e747]
+                - generic [ref=e750]:
+                  - code [ref=e752]: "word 永和 start: 0 end:2 word 服装 start: 2 end:4 word 饰品 start: 4 end:6 word 有限公司 start: 6 end:10"
+                  - button "Copy" [ref=e754] [cursor=pointer]:
+                    - img [ref=e755]
+                - list [ref=e758]:
+                  - listitem [ref=e759]: 搜索模式
+                - generic [ref=e760]:
+                  - generic [ref=e761]:
+                    - text: "result = jieba.tokenize(u'永和服装饰品有限公司', mode='search') for tk in result: print("
+                    - generic [ref=e762]: "\"word %s\\t\\t start: %d \\t\\t end:%d\""
+                    - text: "% (tk[0],tk[1],tk[2]))"
+                  - button "Copy" [ref=e764] [cursor=pointer]:
+                    - img [ref=e765]
+                - generic [ref=e768]:
+                  - code [ref=e770]: "word 永和 start: 0 end:2 word 服装 start: 2 end:4 word 饰品 start: 4 end:6 word 有限 start: 6 end:8 word 公司 start: 8 end:10 word 有限公司 start: 6 end:10"
+                  - button "Copy" [ref=e772] [cursor=pointer]:
+                    - img [ref=e773]
+                - list [ref=e776]:
+                  - listitem [ref=e777]: ChineseAnalyzer for Whoosh 搜索引擎
+                - separator [ref=e778]
+                - list [ref=e779]:
+                  - listitem [ref=e780]:
+                    - text: 引用：
+                    - code [ref=e781]: from jieba.analyse import ChineseAnalyzer
+                  - listitem [ref=e782]:
+                    - text: 用法示例：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/test_whoosh.py" [ref=e783] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/test_whoosh.py
+                - list [ref=e784]:
+                  - listitem [ref=e785]: 命令行分词
+                - separator [ref=e786]
+                - paragraph [ref=e787]:
+                  - text: 使用示例：
+                  - code [ref=e788]: python -m jieba news.txt > cut_result.txt
+                - paragraph [ref=e789]: 命令行选项（翻译）：
+                - generic [ref=e790]:
+                  - code [ref=e792]: "使用: python -m jieba [options] filename 结巴命令行界面。 固定参数: filename 输入文件 可选参数: -h, --help 显示此帮助信息并退出 -d [DELIM], --delimiter [DELIM] 使用 DELIM 分隔词语，而不是用默认的' / '。 若不指定 DELIM，则使用一个空格分隔。 -p [DELIM], --pos [DELIM] 启用词性标注；如果指定 DELIM，词语和词性之间 用它分隔，否则用 _ 分隔 -D DICT, --dict DICT 使用 DICT 代替默认词典 -u USER_DICT, --user-dict USER_DICT 使用 USER_DICT 作为附加词典，与默认词典或自定义词典配合使用 -a, --cut-all 全模式分词（不支持词性标注） -n, --no-hmm 不使用隐含马尔可夫模型 -q, --quiet 不输出载入信息到 STDERR -V, --version 显示版本信息并退出 如果没有指定文件名，则使用标准输入。"
+                  - button "Copy" [ref=e794] [cursor=pointer]:
+                    - img [ref=e795]
+                - paragraph [ref=e798]:
+                  - code [ref=e799]: "--help"
+                  - text: 选项输出：
+                - generic [ref=e800]:
+                  - code [ref=e802]: "$> python -m jieba --help Jieba command line interface. positional arguments: filename input file optional arguments: -h, --help show this help message and exit -d [DELIM], --delimiter [DELIM] use DELIM instead of ' / ' for word delimiter; or a space if it is used without DELIM -p [DELIM], --pos [DELIM] enable POS tagging; if DELIM is specified, use DELIM instead of '_' for POS delimiter -D DICT, --dict DICT use DICT as dictionary -u USER_DICT, --user-dict USER_DICT use USER_DICT together with the default dictionary or DICT (if specified) -a, --cut-all full pattern cutting (ignored with POS tagging) -n, --no-hmm don't use the Hidden Markov Model -q, --quiet don't print loading messages to stderr -V, --version show program's version number and exit If no filename specified, use STDIN instead."
+                  - button "Copy" [ref=e804] [cursor=pointer]:
+                    - img [ref=e805]
+                - generic [ref=e808]:
+                  - heading "延迟加载机制" [level=2] [ref=e809]
+                  - 'link "Permalink: 延迟加载机制" [ref=e810] [cursor=pointer]':
+                    - /url: "#延迟加载机制"
+                    - img [ref=e811]
+                - paragraph [ref=e813]:
+                  - text: jieba 采用延迟加载，
+                  - code [ref=e814]: import jieba
+                  - text: 和
+                  - code [ref=e815]: jieba.Tokenizer()
+                  - text: 不会立即触发词典的加载，一旦有必要才开始加载词典构建前缀字典。如果你想手工初始 jieba，也可以手动初始化。
+                - generic [ref=e816]:
+                  - code [ref=e818]: "import jieba jieba.initialize() # 手动初始化（可选）"
+                  - button "Copy" [ref=e820] [cursor=pointer]:
+                    - img [ref=e821]
+                - paragraph [ref=e824]: "在 0.28 之前的版本是不能指定主词典的路径的，有了延迟加载机制后，你可以改变主词典的路径:"
+                - generic [ref=e825]:
+                  - code [ref=e827]: jieba.set_dictionary('data/dict.txt.big')
+                  - button "Copy" [ref=e829] [cursor=pointer]:
+                    - img [ref=e830]
+                - paragraph [ref=e833]:
+                  - text: 例子：
+                  - link "https://github.com/fxsjy/jieba/blob/master/test/test_change_dictpath.py" [ref=e834] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/blob/master/test/test_change_dictpath.py
+                - generic [ref=e835]:
+                  - heading "其他词典" [level=1] [ref=e836]
+                  - 'link "Permalink: 其他词典" [ref=e837] [cursor=pointer]':
+                    - /url: "#其他词典"
+                    - img [ref=e838]
+                - list [ref=e840]:
+                  - listitem [ref=e841]:
+                    - paragraph [ref=e842]:
+                      - text: 占用内存较小的词典文件
+                      - link "https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.small" [ref=e843] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.small
+                  - listitem [ref=e844]:
+                    - paragraph [ref=e845]:
+                      - text: 支持繁体分词更好的词典文件
+                      - link "https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.big" [ref=e846] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.big
+                - paragraph [ref=e847]:
+                  - text: 下载你所需要的词典，然后覆盖 jieba/dict.txt 即可；或者用
+                  - code [ref=e848]: jieba.set_dictionary('data/dict.txt.big')
+                - generic [ref=e849]:
+                  - heading "其他语言实现" [level=1] [ref=e850]
+                  - 'link "Permalink: 其他语言实现" [ref=e851] [cursor=pointer]':
+                    - /url: "#其他语言实现"
+                    - img [ref=e852]
+                - generic [ref=e854]:
+                  - heading "结巴分词 Java 版本" [level=2] [ref=e855]
+                  - 'link "Permalink: 结巴分词 Java 版本" [ref=e856] [cursor=pointer]':
+                    - /url: "#结巴分词-java-版本"
+                    - img [ref=e857]
+                - paragraph [ref=e859]:
+                  - text: 作者：piaolingxue 地址：
+                  - link "https://github.com/huaban/jieba-analysis" [ref=e860] [cursor=pointer]:
+                    - /url: https://github.com/huaban/jieba-analysis
+                - generic [ref=e861]:
+                  - heading "结巴分词 C++ 版本" [level=2] [ref=e862]
+                  - 'link "Permalink: 结巴分词 C++ 版本" [ref=e863] [cursor=pointer]':
+                    - /url: "#结巴分词-c-版本"
+                    - img [ref=e864]
+                - paragraph [ref=e866]:
+                  - text: 作者：yanyiwu 地址：
+                  - link "https://github.com/yanyiwu/cppjieba" [ref=e867] [cursor=pointer]:
+                    - /url: https://github.com/yanyiwu/cppjieba
+                - generic [ref=e868]:
+                  - heading "结巴分词 Rust 版本" [level=2] [ref=e869]
+                  - 'link "Permalink: 结巴分词 Rust 版本" [ref=e870] [cursor=pointer]':
+                    - /url: "#结巴分词-rust-版本"
+                    - img [ref=e871]
+                - paragraph [ref=e873]:
+                  - text: 作者：messense, MnO2 地址：
+                  - link "https://github.com/messense/jieba-rs" [ref=e874] [cursor=pointer]:
+                    - /url: https://github.com/messense/jieba-rs
+                - generic [ref=e875]:
+                  - heading "结巴分词 Node.js 版本" [level=2] [ref=e876]
+                  - 'link "Permalink: 结巴分词 Node.js 版本" [ref=e877] [cursor=pointer]':
+                    - /url: "#结巴分词-nodejs-版本"
+                    - img [ref=e878]
+                - paragraph [ref=e880]:
+                  - text: 作者：yanyiwu 地址：
+                  - link "https://github.com/yanyiwu/nodejieba" [ref=e881] [cursor=pointer]:
+                    - /url: https://github.com/yanyiwu/nodejieba
+                - generic [ref=e882]:
+                  - heading "结巴分词 Erlang 版本" [level=2] [ref=e883]
+                  - 'link "Permalink: 结巴分词 Erlang 版本" [ref=e884] [cursor=pointer]':
+                    - /url: "#结巴分词-erlang-版本"
+                    - img [ref=e885]
+                - paragraph [ref=e887]:
+                  - text: 作者：falood 地址：
+                  - link "https://github.com/falood/exjieba" [ref=e888] [cursor=pointer]:
+                    - /url: https://github.com/falood/exjieba
+                - generic [ref=e889]:
+                  - heading "结巴分词 R 版本" [level=2] [ref=e890]
+                  - 'link "Permalink: 结巴分词 R 版本" [ref=e891] [cursor=pointer]':
+                    - /url: "#结巴分词-r-版本"
+                    - img [ref=e892]
+                - paragraph [ref=e894]:
+                  - text: 作者：qinwf 地址：
+                  - link "https://github.com/qinwf/jiebaR" [ref=e895] [cursor=pointer]:
+                    - /url: https://github.com/qinwf/jiebaR
+                - generic [ref=e896]:
+                  - heading "结巴分词 iOS 版本" [level=2] [ref=e897]
+                  - 'link "Permalink: 结巴分词 iOS 版本" [ref=e898] [cursor=pointer]':
+                    - /url: "#结巴分词-ios-版本"
+                    - img [ref=e899]
+                - paragraph [ref=e901]:
+                  - text: 作者：yanyiwu 地址：
+                  - link "https://github.com/yanyiwu/iosjieba" [ref=e902] [cursor=pointer]:
+                    - /url: https://github.com/yanyiwu/iosjieba
+                - generic [ref=e903]:
+                  - heading "结巴分词 PHP 版本" [level=2] [ref=e904]
+                  - 'link "Permalink: 结巴分词 PHP 版本" [ref=e905] [cursor=pointer]':
+                    - /url: "#结巴分词-php-版本"
+                    - img [ref=e906]
+                - paragraph [ref=e908]:
+                  - text: 作者：fukuball 地址：
+                  - link "https://github.com/fukuball/jieba-php" [ref=e909] [cursor=pointer]:
+                    - /url: https://github.com/fukuball/jieba-php
+                - generic [ref=e910]:
+                  - heading "结巴分词 .NET(C#) 版本" [level=2] [ref=e911]
+                  - 'link "Permalink: 结巴分词 .NET(C#) 版本" [ref=e912] [cursor=pointer]':
+                    - /url: "#结巴分词-netc-版本"
+                    - img [ref=e913]
+                - paragraph [ref=e915]:
+                  - text: 作者：anderscui 地址：
+                  - link "https://github.com/anderscui/jieba.NET/" [ref=e916] [cursor=pointer]:
+                    - /url: https://github.com/anderscui/jieba.NET/
+                - generic [ref=e917]:
+                  - heading "结巴分词 Go 版本" [level=2] [ref=e918]
+                  - 'link "Permalink: 结巴分词 Go 版本" [ref=e919] [cursor=pointer]':
+                    - /url: "#结巴分词-go-版本"
+                    - img [ref=e920]
+                - list [ref=e922]:
+                  - listitem [ref=e923]:
+                    - text: "作者: wangbin 地址:"
+                    - link "https://github.com/wangbin/jiebago" [ref=e924] [cursor=pointer]:
+                      - /url: https://github.com/wangbin/jiebago
+                  - listitem [ref=e925]:
+                    - text: "作者: yanyiwu 地址:"
+                    - link "https://github.com/yanyiwu/gojieba" [ref=e926] [cursor=pointer]:
+                      - /url: https://github.com/yanyiwu/gojieba
+                - generic [ref=e927]:
+                  - heading "结巴分词Android版本" [level=2] [ref=e928]
+                  - 'link "Permalink: 结巴分词Android版本" [ref=e929] [cursor=pointer]':
+                    - /url: "#结巴分词android版本"
+                    - img [ref=e930]
+                - list [ref=e932]:
+                  - listitem [ref=e933]:
+                    - text: 作者 Dongliang.W 地址：
+                    - link "https://github.com/452896915/jieba-android" [ref=e934] [cursor=pointer]:
+                      - /url: https://github.com/452896915/jieba-android
+                - generic [ref=e935]:
+                  - heading "友情链接" [level=1] [ref=e936]
+                  - 'link "Permalink: 友情链接" [ref=e937] [cursor=pointer]':
+                    - /url: "#友情链接"
+                    - img [ref=e938]
+                - list [ref=e940]:
+                  - listitem [ref=e941]:
+                    - link "https://github.com/baidu/lac" [ref=e942] [cursor=pointer]:
+                      - /url: https://github.com/baidu/lac
+                    - text: 百度中文词法分析（分词+词性+专名）系统
+                  - listitem [ref=e943]:
+                    - link "https://github.com/baidu/AnyQ" [ref=e944] [cursor=pointer]:
+                      - /url: https://github.com/baidu/AnyQ
+                    - text: 百度FAQ自动问答系统
+                  - listitem [ref=e945]:
+                    - link "https://github.com/baidu/Senta" [ref=e946] [cursor=pointer]:
+                      - /url: https://github.com/baidu/Senta
+                    - text: 百度情感识别系统
+                - generic [ref=e947]:
+                  - heading "系统集成" [level=1] [ref=e948]
+                  - 'link "Permalink: 系统集成" [ref=e949] [cursor=pointer]':
+                    - /url: "#系统集成"
+                    - img [ref=e950]
+                - list [ref=e952]:
+                  - listitem [ref=e953]:
+                    - text: "Solr:"
+                    - link "https://github.com/sing1ee/jieba-solr" [ref=e954] [cursor=pointer]:
+                      - /url: https://github.com/sing1ee/jieba-solr
+                - generic [ref=e955]:
+                  - heading "分词速度" [level=1] [ref=e956]
+                  - 'link "Permalink: 分词速度" [ref=e957] [cursor=pointer]':
+                    - /url: "#分词速度"
+                    - img [ref=e958]
+                - list [ref=e960]:
+                  - listitem [ref=e961]: 1.5 MB / Second in Full Mode
+                  - listitem [ref=e962]: 400 KB / Second in Default Mode
+                  - listitem [ref=e963]: "测试环境: Intel(R) Core(TM) i7-2600 CPU @ 3.4GHz；《围城》.txt"
+                - generic [ref=e964]:
+                  - heading "常见问题" [level=1] [ref=e965]
+                  - 'link "Permalink: 常见问题" [ref=e966] [cursor=pointer]':
+                    - /url: "#常见问题"
+                    - img [ref=e967]
+                - generic [ref=e969]:
+                  - heading "1. 模型的数据是如何生成的？" [level=2] [ref=e970]
+                  - 'link "Permalink: 1. 模型的数据是如何生成的？" [ref=e971] [cursor=pointer]':
+                    - /url: "#1-模型的数据是如何生成的"
+                    - img [ref=e972]
+                - paragraph [ref=e974]:
+                  - text: 详见：
+                  - link "#7" [ref=e975] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/issues/7
+                - generic [ref=e976]:
+                  - heading "2. “台中”总是被切成“台 中”？（以及类似情况）" [level=2] [ref=e977]
+                  - 'link "Permalink: 2. “台中”总是被切成“台 中”？（以及类似情况）" [ref=e978] [cursor=pointer]':
+                    - /url: "#2-台中总是被切成台-中以及类似情况"
+                    - img [ref=e979]
+                - paragraph [ref=e981]: P(台中) ＜ P(台)×P(中)，“台中”词频不够导致其成词概率较低
+                - paragraph [ref=e982]: 解决方法：强制调高词频
+                - paragraph [ref=e983]:
+                  - code [ref=e984]: jieba.add_word('台中')
+                  - text: 或者
+                  - code [ref=e985]: jieba.suggest_freq('台中', True)
+                - generic [ref=e986]:
+                  - heading "3. “今天天气 不错”应该被切成“今天 天气 不错”？（以及类似情况）" [level=2] [ref=e987]
+                  - 'link "Permalink: 3. “今天天气 不错”应该被切成“今天 天气 不错”？（以及类似情况）" [ref=e988] [cursor=pointer]':
+                    - /url: "#3-今天天气-不错应该被切成今天-天气-不错以及类似情况"
+                    - img [ref=e989]
+                - paragraph [ref=e991]: 解决方法：强制调低词频
+                - paragraph [ref=e992]:
+                  - code [ref=e993]: jieba.suggest_freq(('今天', '天气'), True)
+                - paragraph [ref=e994]:
+                  - text: 或者直接删除该词
+                  - code [ref=e995]: jieba.del_word('今天天气')
+                - generic [ref=e996]:
+                  - heading "4. 切出了词典中没有的词语，效果不理想？" [level=2] [ref=e997]
+                  - 'link "Permalink: 4. 切出了词典中没有的词语，效果不理想？" [ref=e998] [cursor=pointer]':
+                    - /url: "#4-切出了词典中没有的词语效果不理想"
+                    - img [ref=e999]
+                - paragraph [ref=e1001]: 解决方法：关闭新词发现
+                - paragraph [ref=e1002]:
+                  - code [ref=e1003]: jieba.cut('丰田太省了', HMM=False)
+                  - code [ref=e1004]: jieba.cut('我们中出了一个叛徒', HMM=False)
+                - paragraph [ref=e1005]:
+                  - strong [ref=e1006]: 更多问题请点击
+                  - text: ：
+                  - link "https://github.com/fxsjy/jieba/issues?sort=updated&state=closed" [ref=e1007] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/issues?sort=updated&state=closed
+                - generic [ref=e1008]:
+                  - heading "修订历史" [level=1] [ref=e1009]
+                  - 'link "Permalink: 修订历史" [ref=e1010] [cursor=pointer]':
+                    - /url: "#修订历史"
+                    - img [ref=e1011]
+                - paragraph [ref=e1013]:
+                  - link "https://github.com/fxsjy/jieba/blob/master/Changelog" [ref=e1014] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/blob/master/Changelog
+                - separator [ref=e1015]
+                - generic [ref=e1016]:
+                  - heading "jieba" [level=1] [ref=e1017]
+                  - 'link "Permalink: jieba" [ref=e1018] [cursor=pointer]':
+                    - /url: "#jieba-1"
+                    - img [ref=e1019]
+                - paragraph [ref=e1021]: "\"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best Python Chinese word segmentation module."
+                - generic [ref=e1022]:
+                  - heading "Features" [level=1] [ref=e1023]
+                  - 'link "Permalink: Features" [ref=e1024] [cursor=pointer]':
+                    - /url: "#features"
+                    - img [ref=e1025]
+                - list [ref=e1027]:
+                  - listitem [ref=e1028]: "Support three types of segmentation mode:"
+                - list [ref=e1029]:
+                  - listitem [ref=e1030]: Accurate Mode attempts to cut the sentence into the most accurate segmentations, which is suitable for text analysis.
+                  - listitem [ref=e1031]: Full Mode gets all the possible words from the sentence. Fast but not accurate.
+                  - listitem [ref=e1032]: Search Engine Mode, based on the Accurate Mode, attempts to cut long words into several short words, which can raise the recall rate. Suitable for search engines.
+                - list [ref=e1033]:
+                  - listitem [ref=e1034]: Supports Traditional Chinese
+                  - listitem [ref=e1035]: Supports customized dictionaries
+                  - listitem [ref=e1036]: MIT License
+                - generic [ref=e1037]:
+                  - heading "Online demo" [level=1] [ref=e1038]
+                  - 'link "Permalink: Online demo" [ref=e1039] [cursor=pointer]':
+                    - /url: "#online-demo"
+                    - img [ref=e1040]
+                - paragraph [ref=e1042]:
+                  - link "http://jiebademo.ap01.aws.af.cm/" [ref=e1043] [cursor=pointer]:
+                    - /url: http://jiebademo.ap01.aws.af.cm/
+                - paragraph [ref=e1044]: (Powered by Appfog)
+                - generic [ref=e1045]:
+                  - heading "Usage" [level=1] [ref=e1046]
+                  - 'link "Permalink: Usage" [ref=e1047] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e1048]
+                - list [ref=e1050]:
+                  - listitem [ref=e1051]:
+                    - text: "Fully automatic installation:"
+                    - code [ref=e1052]: easy_install jieba
+                    - text: or
+                    - code [ref=e1053]: pip install jieba
+                  - listitem [ref=e1054]:
+                    - text: "Semi-automatic installation: Download"
+                    - link "http://pypi.python.org/pypi/jieba/" [ref=e1055] [cursor=pointer]:
+                      - /url: http://pypi.python.org/pypi/jieba/
+                    - text: ", run"
+                    - code [ref=e1056]: python setup.py install
+                    - text: after extracting.
+                  - listitem [ref=e1057]:
+                    - text: "Manual installation: place the"
+                    - code [ref=e1058]: jieba
+                    - text: directory in the current directory or python
+                    - code [ref=e1059]: site-packages
+                    - text: directory.
+                  - listitem [ref=e1060]:
+                    - code [ref=e1061]: import jieba
+                    - text: .
+                - generic [ref=e1062]:
+                  - heading "Algorithm" [level=1] [ref=e1063]
+                  - 'link "Permalink: Algorithm" [ref=e1064] [cursor=pointer]':
+                    - /url: "#algorithm"
+                    - img [ref=e1065]
+                - list [ref=e1067]:
+                  - listitem [ref=e1068]: Based on a prefix dictionary structure to achieve efficient word graph scanning. Build a directed acyclic graph (DAG) for all possible word combinations.
+                  - listitem [ref=e1069]: Use dynamic programming to find the most probable combination based on the word frequency.
+                  - listitem [ref=e1070]: For unknown words, a HMM-based model is used with the Viterbi algorithm.
+                - generic [ref=e1071]:
+                  - heading "Main Functions" [level=1] [ref=e1072]
+                  - 'link "Permalink: Main Functions" [ref=e1073] [cursor=pointer]':
+                    - /url: "#main-functions"
+                    - img [ref=e1074]
+                - list [ref=e1076]:
+                  - listitem [ref=e1077]: Cut
+                - separator [ref=e1078]
+                - list [ref=e1079]:
+                  - listitem [ref=e1080]:
+                    - text: The
+                    - code [ref=e1081]: jieba.cut
+                    - text: "function accepts three input parameters: the first parameter is the string to be cut; the second parameter is"
+                    - code [ref=e1082]: cut_all
+                    - text: ", controlling the cut mode; the third parameter is to control whether to use the Hidden Markov Model."
+                  - listitem [ref=e1083]:
+                    - code [ref=e1084]: jieba.cut_for_search
+                    - text: "accepts two parameter: the string to be cut; whether to use the Hidden Markov Model. This will cut the sentence into short words suitable for search engines."
+                  - listitem [ref=e1085]: The input string can be an unicode/str object, or a str/bytes object which is encoded in UTF-8 or GBK. Note that using GBK encoding is not recommended because it may be unexpectly decoded as UTF-8.
+                  - listitem [ref=e1086]:
+                    - code [ref=e1087]: jieba.cut
+                    - text: and
+                    - code [ref=e1088]: jieba.cut_for_search
+                    - text: returns an generator, from which you can use a
+                    - code [ref=e1089]: for
+                    - text: loop to get the segmentation result (in unicode).
+                  - listitem [ref=e1090]:
+                    - code [ref=e1091]: jieba.lcut
+                    - text: and
+                    - code [ref=e1092]: jieba.lcut_for_search
+                    - text: returns a list.
+                  - listitem [ref=e1093]:
+                    - code [ref=e1094]: jieba.Tokenizer(dictionary=DEFAULT_DICT)
+                    - text: creates a new customized Tokenizer, which enables you to use different dictionaries at the same time.
+                    - code [ref=e1095]: jieba.dt
+                    - text: is the default Tokenizer, to which almost all global functions are mapped.
+                - paragraph [ref=e1096]:
+                  - strong [ref=e1097]: "Code example: segmentation"
+                - generic [ref=e1098]:
+                  - generic [ref=e1099]: "#encoding=utf-8 import jieba seg_list = jieba.cut(\"我来到北京清华大学\", cut_all=True) print(\"Full Mode: \" + \"/ \".join(seg_list)) # 全模式 seg_list = jieba.cut(\"我来到北京清华大学\", cut_all=False) print(\"Default Mode: \" + \"/ \".join(seg_list)) # 默认模式 seg_list = jieba.cut(\"他来到了网易杭研大厦\") print(\", \".join(seg_list)) seg_list = jieba.cut_for_search(\"小明硕士毕业于中国科学院计算所，后在日本京都大学深造\") # 搜索引擎模式 print(\", \".join(seg_list))"
+                  - button "Copy" [ref=e1101] [cursor=pointer]:
+                    - img [ref=e1102]
+                - paragraph [ref=e1105]: "Output:"
+                - generic [ref=e1106]:
+                  - code [ref=e1108]: "[Full Mode]: 我/ 来到/ 北京/ 清华/ 清华大学/ 华大/ 大学 [Accurate Mode]: 我/ 来到/ 北京/ 清华大学 [Unknown Words Recognize] 他, 来到, 了, 网易, 杭研, 大厦 (In this case, \"杭研\" is not in the dictionary, but is identified by the Viterbi algorithm) [Search Engine Mode]： 小明, 硕士, 毕业, 于, 中国, 科学, 学院, 科学院, 中国科学院, 计算, 计算所, 后, 在, 日本, 京都, 大学, 日本京都大学, 深造"
+                  - button "Copy" [ref=e1110] [cursor=pointer]:
+                    - img [ref=e1111]
+                - list [ref=e1114]:
+                  - listitem [ref=e1115]: Add a custom dictionary
+                - separator [ref=e1116]
+                - generic [ref=e1117]:
+                  - heading "Load dictionary" [level=3] [ref=e1118]
+                  - 'link "Permalink: Load dictionary" [ref=e1119] [cursor=pointer]':
+                    - /url: "#load-dictionary"
+                    - img [ref=e1120]
+                - list [ref=e1122]:
+                  - listitem [ref=e1123]: Developers can specify their own custom dictionary to be included in the jieba default dictionary. Jieba is able to identify new words, but you can add your own new words can ensure a higher accuracy.
+                  - listitem [ref=e1124]:
+                    - text: Usage：
+                    - code [ref=e1125]: jieba.load_userdict(file_name)
+                    - text: "# file_name is a file-like object or the path of the custom dictionary"
+                  - listitem [ref=e1126]:
+                    - text: The dictionary format is the same as that of
+                    - code [ref=e1127]: dict.txt
+                    - text: ": one word per line; each line is divided into three parts separated by a space: word, word frequency, POS tag. If"
+                    - code [ref=e1128]: file_name
+                    - text: is a path or a file opened in binary mode, the dictionary must be UTF-8 encoded.
+                  - listitem [ref=e1129]: The word frequency and POS tag can be omitted respectively. The word frequency will be filled with a suitable value if omitted.
+                - paragraph [ref=e1130]:
+                  - strong [ref=e1131]: "For example:"
+                - generic [ref=e1132]:
+                  - code [ref=e1134]: 创新办 3 i 云计算 5 凱特琳 nz 台中
+                  - button "Copy" [ref=e1136] [cursor=pointer]:
+                    - img [ref=e1137]
+                - list [ref=e1140]:
+                  - listitem [ref=e1141]:
+                    - paragraph [ref=e1142]:
+                      - text: Change a Tokenizer's
+                      - code [ref=e1143]: tmp_dir
+                      - text: and
+                      - code [ref=e1144]: cache_file
+                      - text: to specify the path of the cache file, for using on a restricted file system.
+                  - listitem [ref=e1145]:
+                    - paragraph [ref=e1146]: "Example:"
+                    - generic [ref=e1147]:
+                      - code [ref=e1149]: 云计算 5 李小福 2 创新办 3 [Before]： 李小福 / 是 / 创新 / 办 / 主任 / 也 / 是 / 云 / 计算 / 方面 / 的 / 专家 / [After]： 李小福 / 是 / 创新办 / 主任 / 也 / 是 / 云计算 / 方面 / 的 / 专家 /
+                      - button "Copy" [ref=e1151] [cursor=pointer]:
+                        - img [ref=e1152]
+                - generic [ref=e1155]:
+                  - heading "Modify dictionary" [level=3] [ref=e1156]
+                  - 'link "Permalink: Modify dictionary" [ref=e1157] [cursor=pointer]':
+                    - /url: "#modify-dictionary"
+                    - img [ref=e1158]
+                - list [ref=e1160]:
+                  - listitem [ref=e1161]:
+                    - paragraph [ref=e1162]:
+                      - text: Use
+                      - code [ref=e1163]: add_word(word, freq=None, tag=None)
+                      - text: and
+                      - code [ref=e1164]: del_word(word)
+                      - text: to modify the dictionary dynamically in programs.
+                  - listitem [ref=e1165]:
+                    - paragraph [ref=e1166]:
+                      - text: Use
+                      - code [ref=e1167]: suggest_freq(segment, tune=True)
+                      - text: to adjust the frequency of a single word so that it can (or cannot) be segmented.
+                  - listitem [ref=e1168]:
+                    - paragraph [ref=e1169]: Note that HMM may affect the final result.
+                - paragraph [ref=e1170]: "Example:"
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]:
+                    - text: ">>> print("
+                    - generic [ref=e1173]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e1174]: "'如果放到post中将出错。'"
+                    - text: ", HMM=False))) 如果/放到/post/中将/出错/。 >>> jieba.suggest_freq(("
+                    - generic [ref=e1175]: "'中'"
+                    - text: ","
+                    - generic [ref=e1176]: "'将'"
+                    - text: ), True) 494 >>> print(
+                    - generic [ref=e1177]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e1178]: "'如果放到post中将出错。'"
+                    - text: ", HMM=False))) 如果/放到/post/中/将/出错/。 >>> print("
+                    - generic [ref=e1179]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e1180]: "'「台中」正确应该不会被切开'"
+                    - text: ", HMM=False))) 「/台/中/」/正确/应该/不会/被/切开 >>> jieba.suggest_freq("
+                    - generic [ref=e1181]: "'台中'"
+                    - text: ", True) 69 >>> print("
+                    - generic [ref=e1182]: "'/'"
+                    - text: .join(jieba.cut(
+                    - generic [ref=e1183]: "'「台中」正确应该不会被切开'"
+                    - text: ", HMM=False))) 「/台中/」/正确/应该/不会/被/切开"
+                  - button "Copy" [ref=e1185] [cursor=pointer]:
+                    - img [ref=e1186]
+                - list [ref=e1189]:
+                  - listitem [ref=e1190]: Keyword Extraction
+                - separator [ref=e1191]
+                - paragraph [ref=e1192]:
+                  - code [ref=e1193]: import jieba.analyse
+                - list [ref=e1194]:
+                  - listitem [ref=e1195]:
+                    - code [ref=e1196]: jieba.analyse.extract_tags(sentence, topK=20, withWeight=False, allowPOS=())
+                    - list [ref=e1197]:
+                      - listitem [ref=e1198]:
+                        - code [ref=e1199]: sentence
+                        - text: ": the text to be extracted"
+                      - listitem [ref=e1200]:
+                        - code [ref=e1201]: topK
+                        - text: ": return how many keywords with the highest TF/IDF weights. The default value is 20"
+                      - listitem [ref=e1202]:
+                        - code [ref=e1203]: withWeight
+                        - text: ": whether return TF/IDF weights with the keywords. The default value is False"
+                      - listitem [ref=e1204]:
+                        - code [ref=e1205]: allowPOS
+                        - text: ": filter words with which POSs are included. Empty for no filtering."
+                  - listitem [ref=e1206]:
+                    - code [ref=e1207]: jieba.analyse.TFIDF(idf_path=None)
+                    - text: creates a new TFIDF instance,
+                    - code [ref=e1208]: idf_path
+                    - text: specifies IDF file path.
+                - paragraph [ref=e1209]: Example (keyword extraction)
+                - paragraph [ref=e1210]:
+                  - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags.py" [ref=e1211] [cursor=pointer]:
+                    - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags.py
+                - paragraph [ref=e1212]: Developers can specify their own custom IDF corpus in jieba keyword extraction
+                - list [ref=e1213]:
+                  - listitem [ref=e1214]:
+                    - text: Usage：
+                    - code [ref=e1215]: "jieba.analyse.set_idf_path(file_name) # file_name is the path for the custom corpus"
+                  - listitem [ref=e1216]:
+                    - text: Custom Corpus Sample：
+                    - link "https://github.com/fxsjy/jieba/blob/master/extra_dict/idf.txt.big" [ref=e1217] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/extra_dict/idf.txt.big
+                  - listitem [ref=e1218]:
+                    - text: Sample Code：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags_idfpath.py" [ref=e1219] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags_idfpath.py
+                - paragraph [ref=e1220]: Developers can specify their own custom stop words corpus in jieba keyword extraction
+                - list [ref=e1221]:
+                  - listitem [ref=e1222]:
+                    - text: Usage：
+                    - code [ref=e1223]: "jieba.analyse.set_stop_words(file_name) # file_name is the path for the custom corpus"
+                  - listitem [ref=e1224]:
+                    - text: Custom Corpus Sample：
+                    - link "https://github.com/fxsjy/jieba/blob/master/extra_dict/stop_words.txt" [ref=e1225] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/extra_dict/stop_words.txt
+                  - listitem [ref=e1226]:
+                    - text: Sample Code：
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/extract_tags_stop_words.py" [ref=e1227] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/extract_tags_stop_words.py
+                - paragraph [ref=e1228]:
+                  - text: There's also a
+                  - link "TextRank" [ref=e1229] [cursor=pointer]:
+                    - /url: http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+                  - text: implementation available.
+                - paragraph [ref=e1230]:
+                  - text: "Use:"
+                  - code [ref=e1231]: jieba.analyse.textrank(sentence, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v'))
+                - paragraph [ref=e1232]: Note that it filters POS by default.
+                - paragraph [ref=e1233]:
+                  - code [ref=e1234]: jieba.analyse.TextRank()
+                  - text: creates a new TextRank instance.
+                - list [ref=e1235]:
+                  - listitem [ref=e1236]: Part of Speech Tagging
+                - separator [ref=e1237]
+                - list [ref=e1238]:
+                  - listitem [ref=e1239]:
+                    - code [ref=e1240]: jieba.posseg.POSTokenizer(tokenizer=None)
+                    - text: creates a new customized Tokenizer.
+                    - code [ref=e1241]: tokenizer
+                    - text: specifies the jieba.Tokenizer to internally use.
+                    - code [ref=e1242]: jieba.posseg.dt
+                    - text: is the default POSTokenizer.
+                  - listitem [ref=e1243]: Tags the POS of each word after segmentation, using labels compatible with ictclas.
+                  - listitem [ref=e1244]: "Example:"
+                - generic [ref=e1245]:
+                  - generic [ref=e1246]:
+                    - text: ">>> import jieba.posseg as pseg >>> words = pseg.cut("
+                    - generic [ref=e1247]: "\"我爱北京天安门\""
+                    - text: ") >>> for w in words: ... print("
+                    - generic [ref=e1248]: "'%s %s'"
+                    - text: "% (w.word, w.flag)) ... 我 r 爱 v 北京 ns 天安门 ns"
+                  - button "Copy" [ref=e1250] [cursor=pointer]:
+                    - img [ref=e1251]
+                - list [ref=e1254]:
+                  - listitem [ref=e1255]: Parallel Processing
+                - separator [ref=e1256]
+                - list [ref=e1257]:
+                  - listitem [ref=e1258]:
+                    - paragraph [ref=e1259]: "Principle: Split target text by line, assign the lines into multiple Python processes, and then merge the results, which is considerably faster."
+                  - listitem [ref=e1260]:
+                    - paragraph [ref=e1261]: Based on the multiprocessing module of Python.
+                  - listitem [ref=e1262]:
+                    - paragraph [ref=e1263]: "Usage:"
+                    - list [ref=e1264]:
+                      - listitem [ref=e1265]:
+                        - code [ref=e1266]: jieba.enable_parallel(4)
+                        - text: "# Enable parallel processing. The parameter is the number of processes."
+                      - listitem [ref=e1267]:
+                        - code [ref=e1268]: jieba.disable_parallel()
+                        - text: "# Disable parallel processing."
+                  - listitem [ref=e1269]:
+                    - paragraph [ref=e1270]:
+                      - text: "Example:"
+                      - link "https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py" [ref=e1271] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py
+                  - listitem [ref=e1272]:
+                    - paragraph [ref=e1273]: "Result: On a four-core 3.4GHz Linux machine, do accurate word segmentation on Complete Works of Jin Yong, and the speed reaches 1MB/s, which is 3.3 times faster than the single-process version."
+                  - listitem [ref=e1274]:
+                    - paragraph [ref=e1275]:
+                      - strong [ref=e1276]: Note
+                      - text: that parallel processing supports only default tokenizers,
+                      - code [ref=e1277]: jieba.dt
+                      - text: and
+                      - code [ref=e1278]: jieba.posseg.dt
+                      - text: .
+                - list [ref=e1279]:
+                  - listitem [ref=e1280]: "Tokenize: return words with position"
+                - separator [ref=e1281]
+                - list [ref=e1282]:
+                  - listitem [ref=e1283]: The input must be unicode
+                  - listitem [ref=e1284]: Default mode
+                - generic [ref=e1285]:
+                  - generic [ref=e1286]:
+                    - text: "result = jieba.tokenize(u'永和服装饰品有限公司') for tk in result: print("
+                    - generic [ref=e1287]: "\"word %s\\t\\t start: %d \\t\\t end:%d\""
+                    - text: "% (tk[0],tk[1],tk[2]))"
+                  - button "Copy" [ref=e1289] [cursor=pointer]:
+                    - img [ref=e1290]
+                - generic [ref=e1293]:
+                  - code [ref=e1295]: "word 永和 start: 0 end:2 word 服装 start: 2 end:4 word 饰品 start: 4 end:6 word 有限公司 start: 6 end:10"
+                  - button "Copy" [ref=e1297] [cursor=pointer]:
+                    - img [ref=e1298]
+                - list [ref=e1301]:
+                  - listitem [ref=e1302]: Search mode
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]:
+                    - text: "result = jieba.tokenize(u'永和服装饰品有限公司',mode='search') for tk in result: print("
+                    - generic [ref=e1305]: "\"word %s\\t\\t start: %d \\t\\t end:%d\""
+                    - text: "% (tk[0],tk[1],tk[2]))"
+                  - button "Copy" [ref=e1307] [cursor=pointer]:
+                    - img [ref=e1308]
+                - generic [ref=e1311]:
+                  - code [ref=e1313]: "word 永和 start: 0 end:2 word 服装 start: 2 end:4 word 饰品 start: 4 end:6 word 有限 start: 6 end:8 word 公司 start: 8 end:10 word 有限公司 start: 6 end:10"
+                  - button "Copy" [ref=e1315] [cursor=pointer]:
+                    - img [ref=e1316]
+                - list [ref=e1319]:
+                  - listitem [ref=e1320]: ChineseAnalyzer for Whoosh
+                - separator [ref=e1321]
+                - list [ref=e1322]:
+                  - listitem [ref=e1323]:
+                    - code [ref=e1324]: from jieba.analyse import ChineseAnalyzer
+                  - listitem [ref=e1325]:
+                    - text: "Example:"
+                    - link "https://github.com/fxsjy/jieba/blob/master/test/test_whoosh.py" [ref=e1326] [cursor=pointer]:
+                      - /url: https://github.com/fxsjy/jieba/blob/master/test/test_whoosh.py
+                - list [ref=e1327]:
+                  - listitem [ref=e1328]: Command Line Interface
+                - separator [ref=e1329]
+                - generic [ref=e1330]:
+                  - code [ref=e1332]: "$> python -m jieba --help Jieba command line interface. positional arguments: filename input file optional arguments: -h, --help show this help message and exit -d [DELIM], --delimiter [DELIM] use DELIM instead of ' / ' for word delimiter; or a space if it is used without DELIM -p [DELIM], --pos [DELIM] enable POS tagging; if DELIM is specified, use DELIM instead of '_' for POS delimiter -D DICT, --dict DICT use DICT as dictionary -u USER_DICT, --user-dict USER_DICT use USER_DICT together with the default dictionary or DICT (if specified) -a, --cut-all full pattern cutting (ignored with POS tagging) -n, --no-hmm don't use the Hidden Markov Model -q, --quiet don't print loading messages to stderr -V, --version show program's version number and exit If no filename specified, use STDIN instead."
+                  - button "Copy" [ref=e1334] [cursor=pointer]:
+                    - img [ref=e1335]
+                - generic [ref=e1338]:
+                  - heading "Initialization" [level=2] [ref=e1339]
+                  - 'link "Permalink: Initialization" [ref=e1340] [cursor=pointer]':
+                    - /url: "#initialization"
+                    - img [ref=e1341]
+                - paragraph [ref=e1343]: "By default, Jieba don't build the prefix dictionary unless it's necessary. This takes 1-3 seconds, after which it is not initialized again. If you want to initialize Jieba manually, you can call:"
+                - generic [ref=e1344]:
+                  - code [ref=e1346]: "import jieba jieba.initialize() # (optional)"
+                  - button "Copy" [ref=e1348] [cursor=pointer]:
+                    - img [ref=e1349]
+                - paragraph [ref=e1352]: "You can also specify the dictionary (not supported before version 0.28) :"
+                - generic [ref=e1353]:
+                  - code [ref=e1355]: jieba.set_dictionary('data/dict.txt.big')
+                  - button "Copy" [ref=e1357] [cursor=pointer]:
+                    - img [ref=e1358]
+                - generic [ref=e1361]:
+                  - heading "Using Other Dictionaries" [level=1] [ref=e1362]
+                  - 'link "Permalink: Using Other Dictionaries" [ref=e1363] [cursor=pointer]':
+                    - /url: "#using-other-dictionaries"
+                    - img [ref=e1364]
+                - paragraph [ref=e1366]: "It is possible to use your own dictionary with Jieba, and there are also two dictionaries ready for download:"
+                - list [ref=e1367]:
+                  - listitem [ref=e1368]:
+                    - paragraph [ref=e1369]:
+                      - text: "A smaller dictionary for a smaller memory footprint:"
+                      - link "https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.small" [ref=e1370] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.small
+                  - listitem [ref=e1371]:
+                    - paragraph [ref=e1372]:
+                      - text: "There is also a bigger dictionary that has better support for traditional Chinese (繁體):"
+                      - link "https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.big" [ref=e1373] [cursor=pointer]:
+                        - /url: https://github.com/fxsjy/jieba/raw/master/extra_dict/dict.txt.big
+                - paragraph [ref=e1374]:
+                  - text: By default, an in-between dictionary is used, called
+                  - code [ref=e1375]: dict.txt
+                  - text: and included in the distribution.
+                - paragraph [ref=e1376]:
+                  - text: In either case, download the file you want, and then call
+                  - code [ref=e1377]: jieba.set_dictionary('data/dict.txt.big')
+                  - text: or just replace the existing
+                  - code [ref=e1378]: dict.txt
+                  - text: .
+                - generic [ref=e1379]:
+                  - heading "Segmentation speed" [level=1] [ref=e1380]
+                  - 'link "Permalink: Segmentation speed" [ref=e1381] [cursor=pointer]':
+                    - /url: "#segmentation-speed"
+                    - img [ref=e1382]
+                - list [ref=e1384]:
+                  - listitem [ref=e1385]: 1.5 MB / Second in Full Mode
+                  - listitem [ref=e1386]: 400 KB / Second in Default Mode
+                  - listitem [ref=e1387]: "Test Env: Intel(R) Core(TM) i7-2600 CPU @ 3.4GHz；《围城》.txt"
+        - generic [ref=e1391]:
+          - generic [ref=e1394]:
+            - heading "About" [level=2] [ref=e1395]
+            - paragraph [ref=e1396]: 结巴中文分词
+            - heading "Resources" [level=3] [ref=e1397]
+            - link "Readme" [ref=e1399] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1400]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1402]
+            - link "MIT license" [ref=e1404] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1405]
+              - text: MIT license
+            - link "Activity" [ref=e1408] [cursor=pointer]:
+              - /url: /fxsjy/jieba/activity
+              - img [ref=e1409]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e1411]
+            - link "34.9k stars" [ref=e1413] [cursor=pointer]:
+              - /url: /fxsjy/jieba/stargazers
+              - img [ref=e1414]
+              - strong [ref=e1416]: 34.9k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1417]
+            - link "1.3k watching" [ref=e1419] [cursor=pointer]:
+              - /url: /fxsjy/jieba/watchers
+              - img [ref=e1420]
+              - strong [ref=e1422]: 1.3k
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1423]
+            - link "6.7k forks" [ref=e1425] [cursor=pointer]:
+              - /url: /fxsjy/jieba/forks
+              - img [ref=e1426]
+              - strong [ref=e1428]: 6.7k
+              - text: forks
+            - link "Report repository" [ref=e1430] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ffxsjy%2Fjieba&report=fxsjy+%28user%29
+          - generic [ref=e1432]:
+            - heading "Releases 9" [level=2] [ref=e1433]:
+              - link "Releases 9" [ref=e1434] [cursor=pointer]:
+                - /url: /fxsjy/jieba/releases
+                - text: Releases
+                - generic "9" [ref=e1435]
+            - link "v0.42.1 Released Latest Jan 20, 2020on Jan 20, 2020" [ref=e1436] [cursor=pointer]:
+              - /url: /fxsjy/jieba/releases/tag/v0.42.1
+              - img [ref=e1437]
+              - generic [ref=e1439]:
+                - generic [ref=e1440]:
+                  - generic [ref=e1441]: v0.42.1 Released
+                  - 'generic "Label: Latest" [ref=e1442]': Latest
+                - generic [ref=e1443]: Jan 20, 2020on Jan 20, 2020
+            - link "+ 8 releases" [ref=e1445] [cursor=pointer]:
+              - /url: /fxsjy/jieba/releases
+          - generic "Loading latest packages" [ref=e1448]:
+            - heading "Packages" [level=2] [ref=e1449]:
+              - link "Packages" [ref=e1450] [cursor=pointer]:
+                - /url: /users/fxsjy/packages?repo_name=jieba
+          - generic "Loading contributors" [ref=e1462]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e1463]:
+                - link "Contributors" [ref=e1464] [cursor=pointer]:
+                  - /url: /fxsjy/jieba/graphs/contributors
+              - list [ref=e1465]:
+                - listitem [ref=e1466]
+                - listitem [ref=e1468]
+                - listitem [ref=e1470]
+          - generic [ref=e1473]:
+            - heading "Languages" [level=2] [ref=e1474]
+            - list [ref=e1479]:
+              - listitem [ref=e1480]:
+                - link "Python 52.0%" [ref=e1481] [cursor=pointer]:
+                  - /url: /fxsjy/jieba/search?l=python
+                  - img [ref=e1482]
+                  - generic [ref=e1484]: Python
+                  - generic [ref=e1485]: 52.0%
+              - listitem [ref=e1486]:
+                - link "OpenEdge ABL 48.0%" [ref=e1487] [cursor=pointer]:
+                  - /url: /fxsjy/jieba/search?l=openedge-abl
+                  - img [ref=e1488]
+                  - generic [ref=e1490]: OpenEdge ABL
+                  - generic [ref=e1491]: 48.0%
+  - contentinfo [ref=e1493]:
+    - heading "Footer" [level=2] [ref=e1494]
+    - generic [ref=e1495]:
+      - generic [ref=e1496]:
+        - link "GitHub Homepage" [ref=e1497] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1498]
+        - generic [ref=e1500]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1501]:
+        - heading "Footer navigation" [level=3] [ref=e1502]
+        - list "Footer navigation" [ref=e1503]:
+          - listitem [ref=e1504]:
+            - link "Terms" [ref=e1505] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1506]:
+            - link "Privacy" [ref=e1507] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1508]:
+            - link "Security" [ref=e1509] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1510]:
+            - link "Status" [ref=e1511] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1512]:
+            - link "Community" [ref=e1513] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1514]:
+            - link "Docs" [ref=e1515] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1516]:
+            - link "Contact" [ref=e1517] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1518]:
+            - button "Manage cookies" [ref=e1520] [cursor=pointer]
+          - listitem [ref=e1521]:
+            - button "Do not share my personal information" [ref=e1523] [cursor=pointer]

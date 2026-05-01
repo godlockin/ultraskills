@@ -429,6 +429,160 @@
     "total": 8.8
   },
   {
+    "id": "baoyu-article-illustrator",
+    "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-comic",
+    "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-cover-image",
+    "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-danger-x-to-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-format-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-image-cards",
+    "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-image-gen",
+    "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-imagine",
+    "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-infographic",
+    "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-markdown-to-html",
+    "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-post-to-wechat",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-slide-deck",
+    "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-translate",
+    "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "baoyu-xhs-images",
+    "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
     "id": "writing-hookify-rules",
     "path": "./external/claude-code/plugins/hookify/skills/writing-rules/SKILL.md",
     "cluster": "engineering-testing",
@@ -1353,6 +1507,28 @@
     "total": 8.3
   },
   {
+    "id": "baoyu-danger-gemini-web",
+    "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.3
+  },
+  {
+    "id": "baoyu-url-to-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.3
+  },
+  {
     "id": "command-development",
     "path": "./external/claude-code/plugins/plugin-dev/skills/command-development/SKILL.md",
     "cluster": "skills-mgmt",
@@ -1687,7 +1863,7 @@
     "path": "./external/claude-skills/marketing-skill/social-content/SKILL.md",
     "cluster": "content-social",
     "cluster_name": "内容·社交媒体",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 8,
     "maintainability": 7,
@@ -2194,6 +2370,50 @@
     "cluster": "engineering-qa",
     "cluster_name": "工程·QA",
     "is_winner": true,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "baoyu-compress-image",
+    "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "baoyu-post-to-weibo",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "baoyu-post-to-x",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "baoyu-youtube-transcript",
+    "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,
     "maintainability": 7,
@@ -3385,6 +3605,17 @@
     "doc_quality": 7,
     "func_clarity": 8,
     "maintainability": 7,
+    "total": 7.3
+  },
+  {
+    "id": "baoyu-diagram",
+    "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
     "total": 7.3
   },
   {

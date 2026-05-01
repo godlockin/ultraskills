@@ -1,0 +1,647 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · MediaCrawler" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=code&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories (114) results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: "114"
+                          - generic: (114)
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues (411) results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=issues&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: "411"
+                          - generic: (411)
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests (92) results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=pullrequests&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: "92"
+                          - generic: (92)
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions (10) results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=discussions&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: "10"
+                          - generic: (10)
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users (2) results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler&type=users&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: "2"
+                          - generic: (2)
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]
+              - listitem [ref=e108]:
+                - heading "Languages" [level=3] [ref=e110]
+                - list "Languages" [ref=e111]:
+                  - listitem [ref=e112]:
+                    - link "Python" [ref=e113] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3APython&type=repositories&sort=stars&order=desc
+                      - generic "Python" [ref=e117]
+                  - listitem [ref=e118]:
+                    - link "Java" [ref=e119] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AJava&type=repositories&sort=stars&order=desc
+                      - generic "Java" [ref=e123]
+                  - listitem [ref=e124]:
+                    - link "JavaScript" [ref=e125] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AJavaScript&type=repositories&sort=stars&order=desc
+                      - generic "JavaScript" [ref=e129]
+                  - listitem [ref=e130]:
+                    - link "Go" [ref=e131] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AGo&type=repositories&sort=stars&order=desc
+                      - generic "Go" [ref=e135]
+                  - listitem [ref=e136]:
+                    - link "HTML" [ref=e137] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AHTML&type=repositories&sort=stars&order=desc
+                      - generic "HTML" [ref=e141]
+                  - listitem [ref=e142]:
+                    - link "PHP" [ref=e143] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3APHP&type=repositories&sort=stars&order=desc
+                      - generic "PHP" [ref=e147]
+                  - listitem [ref=e148]:
+                    - link "Shell" [ref=e149] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AShell&type=repositories&sort=stars&order=desc
+                      - generic "Shell" [ref=e153]
+                  - listitem [ref=e154]:
+                    - link "C#" [ref=e155] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AC%23&type=repositories&sort=stars&order=desc
+                      - generic "C#" [ref=e159]
+                  - listitem [ref=e160]:
+                    - link "C++" [ref=e161] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3AC%2B%2B&type=repositories&sort=stars&order=desc
+                      - generic "C++" [ref=e165]
+                  - listitem [ref=e166]:
+                    - link "PowerShell" [ref=e167] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+language%3APowerShell&type=repositories&sort=stars&order=desc
+                      - generic "PowerShell" [ref=e171]
+                  - listitem [ref=e172]:
+                    - button "More languages..." [ref=e173] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "More languages..." [ref=e176]
+                  - listitem [ref=e177]
+              - listitem [ref=e178]:
+                - heading "Advanced" [level=3] [ref=e180]
+                - list "Advanced" [ref=e181]:
+                  - listitem [ref=e182]:
+                    - button "Owner" [ref=e183] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e187]
+                  - listitem [ref=e188]:
+                    - button "Size" [ref=e189] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e193]
+                  - listitem [ref=e194]:
+                    - button "Number of followers" [ref=e195] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e199]
+                  - listitem [ref=e200]:
+                    - button "Number of forks" [ref=e201] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e205]
+                  - listitem [ref=e206]:
+                    - button "Number of stars" [ref=e207] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e211]
+                  - listitem [ref=e212]:
+                    - button "Date created" [ref=e213] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e217]
+                  - listitem [ref=e218]:
+                    - button "Date pushed" [ref=e219] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e223]
+                  - listitem [ref=e224]:
+                    - button "Topic" [ref=e225] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e229]
+                  - listitem [ref=e230]:
+                    - button "License" [ref=e231] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e235]
+                  - listitem [ref=e236]:
+                    - button "Archived" [ref=e237] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e241]
+                  - listitem [ref=e242]:
+                    - link "Public" [ref=e243] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+is%3Apublic&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e247]
+                  - listitem [ref=e248]:
+                    - link "Private" [ref=e249] [cursor=pointer]:
+                      - /url: https://github.com/search?q=MediaCrawler+is%3Aprivate&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e253]
+              - listitem [ref=e254]
+              - listitem [ref=e255]:
+                - link "Advanced search" [ref=e256] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e258]: Advanced search
+          - slider "Draggable pane splitter" [ref=e260]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - generic [ref=e269]: 114 results
+                  - generic [ref=e270]: (161 ms)
+                - heading "114 results" [active] [level=2] [ref=e271]
+              - generic [ref=e272]:
+                - 'button "Sort by: Best match" [ref=e274] [cursor=pointer]':
+                  - generic [ref=e276]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e278] [cursor=pointer]:
+                  - img [ref=e279]
+            - generic [ref=e283]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - heading "NanmiCoder/MediaCrawler" [level=3] [ref=e287]:
+                    - link "NanmiCoder/MediaCrawler" [ref=e291] [cursor=pointer]:
+                      - /url: /NanmiCoder/MediaCrawler
+                      - generic [ref=e292]:
+                        - text: NanmiCoder/
+                        - emphasis [ref=e293]: MediaCrawler
+                  - generic [ref=e294]: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
+                  - list [ref=e295]:
+                    - listitem [ref=e296]:
+                      - generic "Python language" [ref=e299]: Python
+                    - generic [ref=e300]: ·
+                    - listitem [ref=e301]:
+                      - link "48523 stars" [ref=e302] [cursor=pointer]:
+                        - /url: /NanmiCoder/MediaCrawler/stargazers
+                        - img [ref=e303]
+                        - generic [ref=e305]: 48.5k
+                    - generic [ref=e306]: ·
+                    - listitem [ref=e307]:
+                      - generic [ref=e308]:
+                        - text: Updated
+                        - generic "Apr 25, 2026, 10:01 PM GMT+8" [ref=e309]: yesterday
+                - generic [ref=e310]:
+                  - link "Star" [ref=e312] [cursor=pointer]:
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                    - generic [ref=e313]:
+                      - generic:
+                        - img
+                      - generic [ref=e314]: Star
+                  - button "Sponsor NanmiCoder/MediaCrawler" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e319]:
+                      - img [ref=e320]
+                      - text: Sponsor
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - heading "lewis-007/MediaCrawler" [level=3] [ref=e325]:
+                    - link "lewis-007/MediaCrawler" [ref=e329] [cursor=pointer]:
+                      - /url: /lewis-007/MediaCrawler
+                      - generic [ref=e330]:
+                        - text: lewis-007/
+                        - emphasis [ref=e331]: MediaCrawler
+                  - list [ref=e332]:
+                    - listitem [ref=e333]:
+                      - generic "Python language" [ref=e336]: Python
+                    - generic [ref=e337]: ·
+                    - listitem [ref=e338]:
+                      - link "505 stars" [ref=e339] [cursor=pointer]:
+                        - /url: /lewis-007/MediaCrawler/stargazers
+                        - img [ref=e340]
+                        - generic [ref=e342]: "505"
+                    - generic [ref=e343]: ·
+                    - listitem [ref=e344]:
+                      - generic [ref=e345]:
+                        - text: Updated
+                        - generic "Mar 11, 2024, 10:57 AM GMT+8" [ref=e346]: on Mar 11, 2024
+                - link "Star" [ref=e349] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e350]:
+                    - generic:
+                      - img
+                    - generic [ref=e351]: Star
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - heading "zwdzzs1/MediaCrawler" [level=3] [ref=e355]:
+                    - link "zwdzzs1/MediaCrawler" [ref=e359] [cursor=pointer]:
+                      - /url: /zwdzzs1/MediaCrawler
+                      - generic [ref=e360]:
+                        - text: zwdzzs1/
+                        - emphasis [ref=e361]: MediaCrawler
+                  - generic [ref=e363]:
+                    - text: Forked from NanmiCoder/
+                    - emphasis [ref=e364]: MediaCrawler
+                  - list [ref=e365]:
+                    - listitem [ref=e366]:
+                      - generic "Python language" [ref=e369]: Python
+                    - generic [ref=e370]: ·
+                    - listitem [ref=e371]:
+                      - link "54 stars" [ref=e372] [cursor=pointer]:
+                        - /url: /zwdzzs1/MediaCrawler/stargazers
+                        - img [ref=e373]
+                        - generic [ref=e375]: "54"
+                    - generic [ref=e376]: ·
+                    - listitem [ref=e377]:
+                      - generic [ref=e378]:
+                        - text: Updated
+                        - generic "Mar 21, 2024, 1:56 AM GMT+8" [ref=e379]: on Mar 21, 2024
+                - link "Star" [ref=e382] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e383]:
+                    - generic:
+                      - img
+                    - generic [ref=e384]: Star
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - heading "jun5764/MediaCrawler-new" [level=3] [ref=e388]:
+                    - link "jun5764/MediaCrawler-new" [ref=e392] [cursor=pointer]:
+                      - /url: /jun5764/MediaCrawler-new
+                      - generic [ref=e393]:
+                        - text: jun5764/
+                        - emphasis [ref=e394]: MediaCrawler
+                        - text: "-new"
+                  - generic [ref=e395]: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
+                  - list [ref=e396]:
+                    - listitem [ref=e397]:
+                      - generic "Python language" [ref=e400]: Python
+                    - generic [ref=e401]: ·
+                    - listitem [ref=e402]:
+                      - link "24 stars" [ref=e403] [cursor=pointer]:
+                        - /url: /jun5764/MediaCrawler-new/stargazers
+                        - img [ref=e404]
+                        - generic [ref=e406]: "24"
+                    - generic [ref=e407]: ·
+                    - listitem [ref=e408]:
+                      - generic [ref=e409]:
+                        - text: Updated
+                        - generic "Mar 20, 2024, 9:07 PM GMT+8" [ref=e410]: on Mar 20, 2024
+                - link "Star" [ref=e413] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e414]:
+                    - generic:
+                      - img
+                    - generic [ref=e415]: Star
+              - generic [ref=e417]:
+                - generic [ref=e418]:
+                  - heading "mashhoodey123/MediaCrawler" [level=3] [ref=e419]:
+                    - link "mashhoodey123/MediaCrawler" [ref=e423] [cursor=pointer]:
+                      - /url: /mashhoodey123/MediaCrawler
+                      - generic [ref=e424]:
+                        - text: mashhoodey123/
+                        - emphasis [ref=e425]: MediaCrawler
+                  - list [ref=e426]:
+                    - listitem [ref=e427]:
+                      - generic "Python language" [ref=e430]: Python
+                    - generic [ref=e431]: ·
+                    - listitem [ref=e432]:
+                      - link "40 stars" [ref=e433] [cursor=pointer]:
+                        - /url: /mashhoodey123/MediaCrawler/stargazers
+                        - img [ref=e434]
+                        - generic [ref=e436]: "40"
+                    - generic [ref=e437]: ·
+                    - listitem [ref=e438]:
+                      - generic [ref=e439]:
+                        - text: Updated
+                        - generic "Aug 16, 2024, 3:10 PM GMT+8" [ref=e440]: on Aug 16, 2024
+                - link "Star" [ref=e443] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e444]:
+                    - generic:
+                      - img
+                    - generic [ref=e445]: Star
+              - generic [ref=e447]:
+                - generic [ref=e448]:
+                  - heading "Bowenwin/MediaCrawler_MCP_Server" [level=3] [ref=e449]:
+                    - link "Bowenwin/MediaCrawler_MCP_Server" [ref=e453] [cursor=pointer]:
+                      - /url: /Bowenwin/MediaCrawler_MCP_Server
+                      - generic [ref=e454]:
+                        - text: Bowenwin/
+                        - emphasis [ref=e455]: MediaCrawler
+                        - text: _MCP_Server
+                  - generic [ref=e457]:
+                    - text: MCP_Server for
+                    - emphasis [ref=e458]: MediaCrawler
+                    - text: . To Use
+                    - emphasis [ref=e459]: MediaCrawler
+                    - text: conveniently
+                  - list [ref=e460]:
+                    - listitem [ref=e461]:
+                      - generic "Python language" [ref=e464]: Python
+                    - generic [ref=e465]: ·
+                    - listitem [ref=e466]:
+                      - link "36 stars" [ref=e467] [cursor=pointer]:
+                        - /url: /Bowenwin/MediaCrawler_MCP_Server/stargazers
+                        - img [ref=e468]
+                        - generic [ref=e470]: "36"
+                    - generic [ref=e471]: ·
+                    - listitem [ref=e472]:
+                      - generic [ref=e473]:
+                        - text: Updated
+                        - generic "Aug 2, 2025, 10:33 AM GMT+8" [ref=e474]: on Aug 2, 2025
+                - link "Star" [ref=e477] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e478]:
+                    - generic:
+                      - img
+                    - generic [ref=e479]: Star
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - heading "mgz0227/MediaCrawler" [level=3] [ref=e483]:
+                    - link "mgz0227/MediaCrawler" [ref=e487] [cursor=pointer]:
+                      - /url: /mgz0227/MediaCrawler
+                      - generic [ref=e488]:
+                        - text: mgz0227/
+                        - emphasis [ref=e489]: MediaCrawler
+                  - generic [ref=e490]: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
+                  - list [ref=e491]:
+                    - listitem [ref=e492]:
+                      - generic "Python language" [ref=e495]: Python
+                    - generic [ref=e496]: ·
+                    - listitem [ref=e497]:
+                      - link "35 stars" [ref=e498] [cursor=pointer]:
+                        - /url: /mgz0227/MediaCrawler/stargazers
+                        - img [ref=e499]
+                        - generic [ref=e501]: "35"
+                    - generic [ref=e502]: ·
+                    - listitem [ref=e503]:
+                      - generic [ref=e504]:
+                        - text: Updated
+                        - generic "Mar 23, 2024, 1:16 AM GMT+8" [ref=e505]: on Mar 23, 2024
+                - link "Star" [ref=e508] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e509]:
+                    - generic:
+                      - img
+                    - generic [ref=e510]: Star
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - heading "itsharex/MediaCrawlerGo" [level=3] [ref=e514]:
+                    - link "itsharex/MediaCrawlerGo" [ref=e518] [cursor=pointer]:
+                      - /url: /itsharex/MediaCrawlerGo
+                      - generic [ref=e519]:
+                        - text: itsharex/
+                        - emphasis [ref=e520]: MediaCrawlerGo
+                  - generic [ref=e521]: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫 Golang 实现
+                  - list [ref=e522]:
+                    - listitem [ref=e523]:
+                      - generic "Go language" [ref=e526]: Go
+                    - generic [ref=e527]: ·
+                    - listitem [ref=e528]:
+                      - link "20 stars" [ref=e529] [cursor=pointer]:
+                        - /url: /itsharex/MediaCrawlerGo/stargazers
+                        - img [ref=e530]
+                        - generic [ref=e532]: "20"
+                    - generic [ref=e533]: ·
+                    - listitem [ref=e534]:
+                      - generic [ref=e535]:
+                        - text: Updated
+                        - generic "Dec 26, 2023, 11:26 PM GMT+8" [ref=e536]: on Dec 26, 2023
+                - link "Star" [ref=e539] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e540]:
+                    - generic:
+                      - img
+                    - generic [ref=e541]: Star
+              - generic [ref=e543]:
+                - generic [ref=e544]:
+                  - heading "RaidenEI21/MediaCrawler" [level=3] [ref=e545]:
+                    - link "RaidenEI21/MediaCrawler" [ref=e549] [cursor=pointer]:
+                      - /url: /RaidenEI21/MediaCrawler
+                      - generic [ref=e550]:
+                        - text: RaidenEI21/
+                        - emphasis [ref=e551]: MediaCrawler
+                  - generic [ref=e553]:
+                    - emphasis [ref=e554]: MediaCrawler
+                    - text: is a powerful web scraper for self-media platforms. Easily collect and analyze content to enhance your digital strategy. 🌐🕷️
+                  - generic [ref=e555]:
+                    - link "css" [ref=e557] [cursor=pointer]:
+                      - /url: /topics/css
+                    - link "learning" [ref=e559] [cursor=pointer]:
+                      - /url: /topics/learning
+                    - link "flask" [ref=e561] [cursor=pointer]:
+                      - /url: /topics/flask
+                    - link "crawler" [ref=e563] [cursor=pointer]:
+                      - /url: /topics/crawler
+                    - link "social-media" [ref=e565] [cursor=pointer]:
+                      - /url: /topics/social-media
+                  - list [ref=e566]:
+                    - listitem [ref=e567]:
+                      - generic "Python language" [ref=e570]: Python
+                    - generic [ref=e571]: ·
+                    - listitem [ref=e572]:
+                      - link "92 stars" [ref=e573] [cursor=pointer]:
+                        - /url: /RaidenEI21/MediaCrawler/stargazers
+                        - img [ref=e574]
+                        - generic [ref=e576]: "92"
+                    - generic [ref=e577]: ·
+                    - listitem [ref=e578]:
+                      - generic [ref=e579]:
+                        - text: Updated
+                        - generic "Apr 27, 2026, 7:24 AM GMT+8" [ref=e580]: 1 hour ago
+                - link "Star" [ref=e583] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e584]:
+                    - generic:
+                      - img
+                    - generic [ref=e585]: Star
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - heading "persist-1/Visual_MediaCrawler" [level=3] [ref=e589]:
+                    - link "persist-1/Visual_MediaCrawler" [ref=e593] [cursor=pointer]:
+                      - /url: /persist-1/Visual_MediaCrawler
+                      - generic [ref=e594]:
+                        - text: persist-1/Visual_
+                        - emphasis [ref=e595]: MediaCrawler
+                  - generic [ref=e597]:
+                    - text: 可视化爬虫（支持：哔哩哔哩 | 抖音 | 小红书 | 贴吧 | 微博 | 知乎 | 快手），异步、高效、直观地采集国内主流平台的媒体数据的前后端一体项目（Based on "
+                    - emphasis [ref=e598]: MediaCrawler
+                    - text: "\"）。"
+                  - generic [ref=e599]:
+                    - link "mysql" [ref=e601] [cursor=pointer]:
+                      - /url: /topics/mysql
+                    - link "c" [ref=e603] [cursor=pointer]:
+                      - /url: /topics/c
+                    - link "crawler" [ref=e605] [cursor=pointer]:
+                      - /url: /topics/crawler
+                    - link "vue" [ref=e607] [cursor=pointer]:
+                      - /url: /topics/vue
+                    - link "sqlite" [ref=e609] [cursor=pointer]:
+                      - /url: /topics/sqlite
+                  - list [ref=e610]:
+                    - listitem [ref=e611]:
+                      - generic "Python language" [ref=e614]: Python
+                    - generic [ref=e615]: ·
+                    - listitem [ref=e616]:
+                      - link "57 stars" [ref=e617] [cursor=pointer]:
+                        - /url: /persist-1/Visual_MediaCrawler/stargazers
+                        - img [ref=e618]
+                        - generic [ref=e620]: "57"
+                    - generic [ref=e621]: ·
+                    - listitem [ref=e622]:
+                      - generic [ref=e623]:
+                        - text: Updated
+                        - generic "Sep 20, 2025, 3:33 AM GMT+8" [ref=e624]: on Sep 20, 2025
+                - link "Star" [ref=e627] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3DMediaCrawler%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                  - generic [ref=e628]:
+                    - generic:
+                      - img
+                    - generic [ref=e629]: Star
+            - navigation "Pagination" [ref=e632]:
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - img [ref=e635]
+                  - text: Previous
+                - link "Page 1" [ref=e637] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=1
+                  - text: "1"
+                - link "Page 2" [ref=e638] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=2
+                  - text: "2"
+                - link "Page 3" [ref=e639] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=3
+                  - text: "3"
+                - link "Page 4" [ref=e640] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=4
+                  - text: "4"
+                - link "Page 5" [ref=e641] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=5
+                  - text: "5"
+                - link "Page 6" [ref=e642] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=6
+                  - text: "6"
+                - link "Page 7..." [ref=e643] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=7
+                  - text: "7"
+                - text: …
+                - link "Page 12" [ref=e644] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=12
+                  - text: "12"
+                - link "Next Page" [ref=e645] [cursor=pointer]:
+                  - /url: https://github.com/search?q=MediaCrawler&type=repositories&sort=stars&order=desc&p=2
+                  - text: Next
+                  - img [ref=e646]
+          - generic [ref=e649]:
+            - generic [ref=e650]:
+              - img "Package icon" [ref=e652]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e653]
+              - generic [ref=e654]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e655] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e656]
+            - generic [ref=e658]:
+              - generic [ref=e659]:
+                - img [ref=e660]
+                - text: ProTip!
+              - generic [ref=e662]:
+                - text: Press the
+                - generic [ref=e663]: /
+                - text: key to activate the search input again and adjust your query.

@@ -62,6 +62,63 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 49,
+    "winner": "awesome-design-md",
+    "skills": [
+      "awesome-design-md",
+      "deck-that-wins",
+      "mac-tts",
+      "mac-voice-clone",
+      "ui-ux-pro-max-skill",
+      "baoyu-article-illustrator",
+      "baoyu-comic",
+      "baoyu-cover-image",
+      "baoyu-danger-x-to-markdown",
+      "baoyu-format-markdown",
+      "baoyu-image-cards",
+      "baoyu-image-gen",
+      "baoyu-imagine",
+      "baoyu-infographic",
+      "baoyu-markdown-to-html",
+      "baoyu-post-to-wechat",
+      "baoyu-slide-deck",
+      "baoyu-translate",
+      "aso-audit",
+      "mac-whisper",
+      "spreadsheet-formula-helper",
+      "to-prd",
+      "baoyu-danger-gemini-web",
+      "baoyu-url-to-markdown",
+      "community-marketing",
+      "audio-clean",
+      "design-tokens",
+      "figma-to-code",
+      "icon-system",
+      "meeting-notes-and-actions",
+      "motion-design",
+      "poster-print-design",
+      "baoyu-post-to-weibo",
+      "baoyu-post-to-x",
+      "baoyu-youtube-transcript",
+      "baoyu-diagram",
+      "claude-opus-4-5-migration",
+      "dbs-chatroom",
+      "dbs-agent-migration",
+      "dbs-diagnosis",
+      "dbs-hook",
+      "dbs-slowisfast",
+      "dbs-xhs-title",
+      "dbs-ai-check",
+      "dbs-content",
+      "dbs-action",
+      "dbs-chatroom-austrian",
+      "dbs-deconstruct",
+      "dbs"
+    ]
+  },
+  {
     "id": "business-clevel",
     "name": "商业·高管顾问",
     "skill_count": 39,
@@ -231,44 +288,6 @@
       "\"report\"",
       "\"review\"",
       "\"testrail\""
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 30,
-    "winner": "awesome-design-md",
-    "skills": [
-      "awesome-design-md",
-      "deck-that-wins",
-      "mac-tts",
-      "mac-voice-clone",
-      "ui-ux-pro-max-skill",
-      "aso-audit",
-      "mac-whisper",
-      "spreadsheet-formula-helper",
-      "to-prd",
-      "community-marketing",
-      "audio-clean",
-      "design-tokens",
-      "figma-to-code",
-      "icon-system",
-      "meeting-notes-and-actions",
-      "motion-design",
-      "poster-print-design",
-      "claude-opus-4-5-migration",
-      "dbs-chatroom",
-      "dbs-agent-migration",
-      "dbs-diagnosis",
-      "dbs-hook",
-      "dbs-slowisfast",
-      "dbs-xhs-title",
-      "dbs-ai-check",
-      "dbs-content",
-      "dbs-action",
-      "dbs-chatroom-austrian",
-      "dbs-deconstruct",
-      "dbs"
     ]
   },
   {
@@ -564,6 +583,26 @@
     ]
   },
   {
+    "id": "content-social",
+    "name": "内容·社交媒体",
+    "skill_count": 12,
+    "winner": "baoyu-xhs-images",
+    "skills": [
+      "baoyu-xhs-images",
+      "\"social-content\"",
+      "social-content",
+      "mediacrawler",
+      "huashu-agent-swarm",
+      "huashu-article-to-x",
+      "huashu-speech-coach",
+      "huashu-wechat-image",
+      "huashu-xhs-image",
+      "x-mastery-mentor",
+      "huashu-topic-gen",
+      "khazix-writer"
+    ]
+  },
+  {
     "id": "data",
     "name": "数据·分析",
     "skill_count": 12,
@@ -641,25 +680,6 @@
     ]
   },
   {
-    "id": "content-social",
-    "name": "内容·社交媒体",
-    "skill_count": 11,
-    "winner": "\"social-content\"",
-    "skills": [
-      "\"social-content\"",
-      "social-content",
-      "mediacrawler",
-      "huashu-agent-swarm",
-      "huashu-article-to-x",
-      "huashu-speech-coach",
-      "huashu-wechat-image",
-      "huashu-xhs-image",
-      "x-mastery-mentor",
-      "huashu-topic-gen",
-      "khazix-writer"
-    ]
-  },
-  {
     "id": "engineering-testing",
     "name": "工程·测试",
     "skill_count": 9,
@@ -674,6 +694,23 @@
       "\"tdd-guide\"",
       "benchmark",
       "dbs-benchmark"
+    ]
+  },
+  {
+    "id": "productivity",
+    "name": "效率·生产力",
+    "skill_count": 9,
+    "winner": "slack-gif-creator",
+    "skills": [
+      "slack-gif-creator",
+      "baoyu-compress-image",
+      "brainstorming",
+      "dynamic-expert-group",
+      "caveman",
+      "caveman-compress",
+      "caveman-commit",
+      "caveman-review",
+      "compress"
     ]
   },
   {
@@ -722,22 +759,6 @@
       "plan-devex-review",
       "health",
       "qa-only"
-    ]
-  },
-  {
-    "id": "productivity",
-    "name": "效率·生产力",
-    "skill_count": 8,
-    "winner": "slack-gif-creator",
-    "skills": [
-      "slack-gif-creator",
-      "brainstorming",
-      "dynamic-expert-group",
-      "caveman",
-      "caveman-compress",
-      "caveman-commit",
-      "caveman-review",
-      "compress"
     ]
   },
   {

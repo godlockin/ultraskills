@@ -1,0 +1,1392 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMaartenGr%2FBERTopic
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=MaartenGr%2FBERTopic
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "MaartenGr" [ref=e70] [cursor=pointer]:
+            - /url: /MaartenGr
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "BERTopic" [ref=e73] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FMaartenGr%2FBERTopic
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 894" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FMaartenGr%2FBERTopic
+                - img [ref=e82]
+                - text: Fork
+                - generic "894" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FMaartenGr%2FBERTopic
+                - img [ref=e88]
+                - text: Star
+                - generic "7562 users starred this repository" [ref=e90]: 7.6k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 415" [ref=e99] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "415" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 20" [ref=e106] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "20" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "MaartenGr/BERTopic" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "master branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: master
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "6 Branches" [ref=e168] [cursor=pointer]:
+                  - /url: /MaartenGr/BERTopic/branches
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "6"
+                      - text: Branches
+                - link "37 Tags" [ref=e173] [cursor=pointer]:
+                  - /url: /MaartenGr/BERTopic/tags
+                  - generic [ref=e174]:
+                    - generic:
+                      - img
+                    - generic [ref=e176]:
+                      - strong [ref=e177]: "37"
+                      - text: Tags
+            - generic [ref=e178]:
+              - generic [ref=e182]:
+                - img [ref=e184]
+                - combobox "Go to file" [ref=e186]
+              - button "Code" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]:
+                  - generic:
+                    - img
+                  - generic [ref=e189]: Code
+                  - generic:
+                    - img
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - heading "Folders and files" [level=2] [ref=e192]
+              - table "Folders and files" [ref=e193]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e194]:
+                  - row "Latest commit afuetterer commits by afuetterer Enable ruff rule PD (#2461) success Commit b2ce084 · Dec 17, 20254 months ago History 249 Commits" [ref=e195]:
+                    - cell "Latest commit afuetterer commits by afuetterer Enable ruff rule PD (#2461) success Commit b2ce084 · Dec 17, 20254 months ago History 249 Commits" [ref=e196]:
+                      - generic [ref=e197]:
+                        - heading "Latest commit" [level=2] [ref=e198]
+                        - generic [ref=e199]:
+                          - generic [ref=e201]:
+                            - link "afuetterer" [ref=e202] [cursor=pointer]:
+                              - /url: /afuetterer
+                              - img "afuetterer" [ref=e203]
+                            - link "commits by afuetterer" [ref=e204] [cursor=pointer]:
+                              - /url: /MaartenGr/BERTopic/commits?author=afuetterer
+                              - text: afuetterer
+                          - generic [ref=e205]:
+                            - generic [ref=e207]:
+                              - link "Enable ruff rule" [ref=e208] [cursor=pointer]:
+                                - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                              - code [ref=e209]:
+                                - link "PD" [ref=e210] [cursor=pointer]:
+                                  - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                              - link "(" [ref=e211] [cursor=pointer]:
+                                - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                              - link "#2461" [ref=e212] [cursor=pointer]:
+                                - /url: https://github.com/MaartenGr/BERTopic/pull/2461
+                              - link ")" [ref=e213] [cursor=pointer]:
+                                - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                            - button "success" [ref=e214] [cursor=pointer]:
+                              - img [ref=e215]
+                        - generic [ref=e217]:
+                          - generic [ref=e219]:
+                            - link "Commit b2ce084" [ref=e220] [cursor=pointer]:
+                              - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                              - text: b2ce084
+                            - text: ·
+                            - generic "Dec 17, 2025, 4:12 PM GMT+8" [ref=e221]: Dec 17, 20254 months ago
+                          - generic [ref=e222]:
+                            - heading "History" [level=2] [ref=e223]
+                            - link "249 Commits" [ref=e224] [cursor=pointer]:
+                              - /url: /MaartenGr/BERTopic/commits/master/
+                              - generic [ref=e225]:
+                                - generic:
+                                  - img
+                                - generic [ref=e226]: 249 Commits
+                  - 'row ".github, (Directory) ci: switch to uv based project installation (#2445) Nov 11, 20255 months ago" [ref=e227]':
+                    - cell ".github, (Directory)" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - link ".github, (Directory)" [ref=e235] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/tree/master/.github
+                          - text: .github
+                    - 'cell "ci: switch to uv based project installation (#2445)" [ref=e236]':
+                      - generic [ref=e238]:
+                        - 'link "ci: switch to uv based project installation (" [ref=e239] [cursor=pointer]':
+                          - /url: /MaartenGr/BERTopic/commit/92d269aecf263004c4c92577f25e04424bb53980
+                        - link "#2445" [ref=e240] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2445
+                        - link ")" [ref=e241] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/92d269aecf263004c4c92577f25e04424bb53980
+                    - cell "Nov 11, 20255 months ago" [ref=e242]:
+                      - generic [ref=e243]: Nov 11, 20255 months ago
+                  - row "bertopic, (Directory) Enable ruff rule PD (#2461) Dec 17, 20254 months ago" [ref=e244]:
+                    - cell "bertopic, (Directory)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link "bertopic, (Directory)" [ref=e252] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/tree/master/bertopic
+                          - text: bertopic
+                    - cell "Enable ruff rule PD (#2461)" [ref=e253]:
+                      - generic [ref=e255]:
+                        - link "Enable ruff rule" [ref=e256] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - code [ref=e257]:
+                          - link "PD" [ref=e258] [cursor=pointer]:
+                            - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - link "(" [ref=e259] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - link "#2461" [ref=e260] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2461
+                        - link ")" [ref=e261] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                    - cell "Dec 17, 20254 months ago" [ref=e262]:
+                      - generic [ref=e263]: Dec 17, 20254 months ago
+                  - row "docs, (Directory) v0.17.4 (#2459) Dec 3, 20254 months ago" [ref=e264]:
+                    - cell "docs, (Directory)" [ref=e265]:
+                      - generic [ref=e266]:
+                        - img [ref=e267]
+                        - link "docs, (Directory)" [ref=e272] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/tree/master/docs
+                          - text: docs
+                    - cell "v0.17.4 (#2459)" [ref=e273]:
+                      - generic [ref=e275]:
+                        - link "v0.17.4 (" [ref=e276] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/75f2910562f0e372beee29acbbd2a2835ba72cf2
+                        - link "#2459" [ref=e277] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2459
+                        - link ")" [ref=e278] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/75f2910562f0e372beee29acbbd2a2835ba72cf2
+                    - cell "Dec 3, 20254 months ago" [ref=e279]:
+                      - generic [ref=e280]: Dec 3, 20254 months ago
+                  - row "images, (Directory) v0.13 (#840) Jan 4, 20234 years ago" [ref=e281]:
+                    - cell "images, (Directory)" [ref=e282]:
+                      - generic [ref=e283]:
+                        - img [ref=e284]
+                        - link "images, (Directory)" [ref=e289] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/tree/master/images
+                          - text: images
+                    - cell "v0.13 (#840)" [ref=e290]:
+                      - generic [ref=e292]:
+                        - link "v0.13 (" [ref=e293] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/06dcd47a019854185a39146ed693d16dc3a27651
+                        - link "#840" [ref=e294] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/840
+                        - link ")" [ref=e295] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/06dcd47a019854185a39146ed693d16dc3a27651
+                    - cell "Jan 4, 20234 years ago" [ref=e296]:
+                      - generic [ref=e297]: Jan 4, 20234 years ago
+                  - row "tests, (Directory) Enable ruff rule RUF (#2457) Dec 3, 20254 months ago" [ref=e298]:
+                    - cell "tests, (Directory)" [ref=e299]:
+                      - generic [ref=e300]:
+                        - img [ref=e301]
+                        - link "tests, (Directory)" [ref=e306] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/tree/master/tests
+                          - text: tests
+                    - cell "Enable ruff rule RUF (#2457)" [ref=e307]:
+                      - generic [ref=e309]:
+                        - link "Enable ruff rule" [ref=e310] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/adf1bdc7fc843460f2d50373bd28b5b717a0f9bc
+                        - code [ref=e311]:
+                          - link "RUF" [ref=e312] [cursor=pointer]:
+                            - /url: /MaartenGr/BERTopic/commit/adf1bdc7fc843460f2d50373bd28b5b717a0f9bc
+                        - link "(" [ref=e313] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/adf1bdc7fc843460f2d50373bd28b5b717a0f9bc
+                        - link "#2457" [ref=e314] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2457
+                        - link ")" [ref=e315] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/adf1bdc7fc843460f2d50373bd28b5b717a0f9bc
+                    - cell "Dec 3, 20254 months ago" [ref=e316]:
+                      - generic [ref=e317]: Dec 3, 20254 months ago
+                  - 'row ".git-blame-ignore-revs, (File) chore: add git blame ignore for pre-commit pr (#2310) Mar 25, 2025last year" [ref=e318]':
+                    - cell ".git-blame-ignore-revs, (File)" [ref=e319]:
+                      - generic [ref=e320]:
+                        - img [ref=e321]
+                        - link ".git-blame-ignore-revs, (File)" [ref=e326] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/.git-blame-ignore-revs
+                          - text: .git-blame-ignore-revs
+                    - 'cell "chore: add git blame ignore for pre-commit pr (#2310)" [ref=e327]':
+                      - generic [ref=e329]:
+                        - 'link "chore: add git blame ignore for pre-commit pr (" [ref=e330] [cursor=pointer]':
+                          - /url: /MaartenGr/BERTopic/commit/0202a59ee58746d06f9fc6245da4ed52ae07b05e
+                        - link "#2310" [ref=e331] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2310
+                        - link ")" [ref=e332] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/0202a59ee58746d06f9fc6245da4ed52ae07b05e
+                    - cell "Mar 25, 2025last year" [ref=e333]:
+                      - generic [ref=e334]: Mar 25, 2025last year
+                  - row ".gitattributes, (File) Set up pre-commit hooks (#2283) Mar 10, 2025last year" [ref=e335]:
+                    - cell ".gitattributes, (File)" [ref=e336]:
+                      - generic [ref=e337]:
+                        - img [ref=e338]
+                        - link ".gitattributes, (File)" [ref=e343] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/.gitattributes
+                          - text: .gitattributes
+                    - cell "Set up pre-commit hooks (#2283)" [ref=e344]:
+                      - generic [ref=e346]:
+                        - link "Set up pre-commit hooks (" [ref=e347] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                        - link "#2283" [ref=e348] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2283
+                        - link ")" [ref=e349] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                    - cell "Mar 10, 2025last year" [ref=e350]:
+                      - generic [ref=e351]: Mar 10, 2025last year
+                  - row ".gitignore, (File) Add delete_topics (#2322) Aug 5, 20258 months ago" [ref=e352]:
+                    - cell ".gitignore, (File)" [ref=e353]:
+                      - generic [ref=e354]:
+                        - img [ref=e355]
+                        - link ".gitignore, (File)" [ref=e360] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "Add delete_topics (#2322)" [ref=e361]:
+                      - generic [ref=e363]:
+                        - link "Add" [ref=e364] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/32b2dddea3df57e9982b166e5b1847c9fbe7e6da
+                        - code [ref=e365]:
+                          - link "delete_topics" [ref=e366] [cursor=pointer]:
+                            - /url: /MaartenGr/BERTopic/commit/32b2dddea3df57e9982b166e5b1847c9fbe7e6da
+                        - link "(" [ref=e367] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/32b2dddea3df57e9982b166e5b1847c9fbe7e6da
+                        - link "#2322" [ref=e368] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2322
+                        - link ")" [ref=e369] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/32b2dddea3df57e9982b166e5b1847c9fbe7e6da
+                    - cell "Aug 5, 20258 months ago" [ref=e370]:
+                      - generic [ref=e371]: Aug 5, 20258 months ago
+                  - 'row ".pre-commit-config.yaml, (File) chore: update pre-commit hooks (#2443) Nov 11, 20255 months ago" [ref=e372]':
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e373]:
+                      - generic [ref=e374]:
+                        - img [ref=e375]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e380] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - 'cell "chore: update pre-commit hooks (#2443)" [ref=e381]':
+                      - generic [ref=e383]:
+                        - 'link "chore: update pre-commit hooks (" [ref=e384] [cursor=pointer]':
+                          - /url: /MaartenGr/BERTopic/commit/631068be869bec0f2144f320da585f621e63b96f
+                        - link "#2443" [ref=e385] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2443
+                        - link ")" [ref=e386] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/631068be869bec0f2144f320da585f621e63b96f
+                    - cell "Nov 11, 20255 months ago" [ref=e387]:
+                      - generic [ref=e388]: Nov 11, 20255 months ago
+                  - 'row "CONTRIBUTING.md, (File) feat: drop support for python 3.9 (#2419) Sep 25, 20257 months ago" [ref=e389]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e390]:
+                      - generic [ref=e391]:
+                        - img [ref=e392]
+                        - link "CONTRIBUTING.md, (File)" [ref=e397] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "feat: drop support for python 3.9 (#2419)" [ref=e398]':
+                      - generic [ref=e400]:
+                        - 'link "feat: drop support for python 3.9 (" [ref=e401] [cursor=pointer]':
+                          - /url: /MaartenGr/BERTopic/commit/1bef884bcc9eb1b85e9baff68ade734f6857e440
+                        - link "#2419" [ref=e402] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2419
+                        - link ")" [ref=e403] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/1bef884bcc9eb1b85e9baff68ade734f6857e440
+                    - cell "Sep 25, 20257 months ago" [ref=e404]:
+                      - generic [ref=e405]: Sep 25, 20257 months ago
+                  - row "LICENSE, (File) Set up pre-commit hooks (#2283) Mar 10, 2025last year" [ref=e406]:
+                    - cell "LICENSE, (File)" [ref=e407]:
+                      - generic [ref=e408]:
+                        - img [ref=e409]
+                        - link "LICENSE, (File)" [ref=e414] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "Set up pre-commit hooks (#2283)" [ref=e415]:
+                      - generic [ref=e417]:
+                        - link "Set up pre-commit hooks (" [ref=e418] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                        - link "#2283" [ref=e419] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2283
+                        - link ")" [ref=e420] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                    - cell "Mar 10, 2025last year" [ref=e421]:
+                      - generic [ref=e422]: Mar 10, 2025last year
+                  - row "Makefile, (File) Allow execution without plotly (#2401) Aug 17, 20258 months ago" [ref=e423]:
+                    - cell "Makefile, (File)" [ref=e424]:
+                      - generic [ref=e425]:
+                        - img [ref=e426]
+                        - link "Makefile, (File)" [ref=e431] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/Makefile
+                          - text: Makefile
+                    - cell "Allow execution without plotly (#2401)" [ref=e432]:
+                      - generic [ref=e434]:
+                        - link "Allow execution without plotly (" [ref=e435] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/7724551c40e41a4080890f2f6b09e127bf2ace96
+                        - link "#2401" [ref=e436] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2401
+                        - link ")" [ref=e437] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/7724551c40e41a4080890f2f6b09e127bf2ace96
+                    - cell "Aug 17, 20258 months ago" [ref=e438]:
+                      - generic [ref=e439]: Aug 17, 20258 months ago
+                  - 'row "README.md, (File) feat: drop support for python 3.9 (#2419) Sep 25, 20257 months ago" [ref=e440]':
+                    - cell "README.md, (File)" [ref=e441]:
+                      - generic [ref=e442]:
+                        - img [ref=e443]
+                        - link "README.md, (File)" [ref=e448] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/README.md
+                          - text: README.md
+                    - 'cell "feat: drop support for python 3.9 (#2419)" [ref=e449]':
+                      - generic [ref=e451]:
+                        - 'link "feat: drop support for python 3.9 (" [ref=e452] [cursor=pointer]':
+                          - /url: /MaartenGr/BERTopic/commit/1bef884bcc9eb1b85e9baff68ade734f6857e440
+                        - link "#2419" [ref=e453] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2419
+                        - link ")" [ref=e454] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/1bef884bcc9eb1b85e9baff68ade734f6857e440
+                    - cell "Sep 25, 20257 months ago" [ref=e455]:
+                      - generic [ref=e456]: Sep 25, 20257 months ago
+                  - row "mkdocs.yml, (File) Set up pre-commit hooks (#2283) Mar 10, 2025last year" [ref=e457]:
+                    - cell "mkdocs.yml, (File)" [ref=e458]:
+                      - generic [ref=e459]:
+                        - img [ref=e460]
+                        - link "mkdocs.yml, (File)" [ref=e465] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/mkdocs.yml
+                          - text: mkdocs.yml
+                    - cell "Set up pre-commit hooks (#2283)" [ref=e466]:
+                      - generic [ref=e468]:
+                        - link "Set up pre-commit hooks (" [ref=e469] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                        - link "#2283" [ref=e470] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2283
+                        - link ")" [ref=e471] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/6ed123ecc4aec9da26bd48748df670cd5b42b3cd
+                    - cell "Mar 10, 2025last year" [ref=e472]:
+                      - generic [ref=e473]: Mar 10, 2025last year
+                  - row "pyproject.toml, (File) Enable ruff rule PD (#2461) Dec 17, 20254 months ago" [ref=e474]:
+                    - cell "pyproject.toml, (File)" [ref=e475]:
+                      - generic [ref=e476]:
+                        - img [ref=e477]
+                        - link "pyproject.toml, (File)" [ref=e482] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/blob/master/pyproject.toml
+                          - text: pyproject.toml
+                    - cell "Enable ruff rule PD (#2461)" [ref=e483]:
+                      - generic [ref=e485]:
+                        - link "Enable ruff rule" [ref=e486] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - code [ref=e487]:
+                          - link "PD" [ref=e488] [cursor=pointer]:
+                            - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - link "(" [ref=e489] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                        - link "#2461" [ref=e490] [cursor=pointer]:
+                          - /url: https://github.com/MaartenGr/BERTopic/pull/2461
+                        - link ")" [ref=e491] [cursor=pointer]:
+                          - /url: /MaartenGr/BERTopic/commit/b2ce08422250111aedce5019b63c062016f9d109
+                    - cell "Dec 17, 20254 months ago" [ref=e492]:
+                      - generic [ref=e493]: Dec 17, 20254 months ago
+            - generic [ref=e495]:
+              - generic [ref=e496]:
+                - heading "Repository files navigation" [level=2] [ref=e497]
+                - navigation "Repository files" [ref=e498]:
+                  - list [ref=e499]:
+                    - listitem [ref=e500]:
+                      - link "README" [ref=e501] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e503]
+                        - generic [ref=e505]: README
+                    - listitem [ref=e506]:
+                      - link "Contributing" [ref=e507] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e509]
+                        - generic [ref=e511]: Contributing
+                    - listitem [ref=e512]:
+                      - link "MIT license" [ref=e513] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e515]
+                        - generic [ref=e517]: MIT license
+                - button "Outline" [ref=e518] [cursor=pointer]:
+                  - img [ref=e519]
+              - article [ref=e522]:
+                - paragraph [ref=e523]:
+                  - link "PyPI Downloads" [ref=e524] [cursor=pointer]:
+                    - /url: https://pepy.tech/projects/bertopic
+                    - img "PyPI Downloads" [ref=e525]
+                  - link "PyPI - Python" [ref=e526] [cursor=pointer]:
+                    - /url: https://pypi.org/project/bertopic/
+                    - img "PyPI - Python" [ref=e527]
+                  - link "Build" [ref=e528] [cursor=pointer]:
+                    - /url: https://github.com/MaartenGr/BERTopic/actions
+                    - img "Build" [ref=e529]
+                  - link "docs" [ref=e530] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/
+                    - img "docs" [ref=e531]
+                  - link "PyPI - PyPi" [ref=e532] [cursor=pointer]:
+                    - /url: https://pypi.org/project/bertopic/
+                    - img "PyPI - PyPi" [ref=e533]
+                  - link "PyPI - License" [ref=e534] [cursor=pointer]:
+                    - /url: https://github.com/MaartenGr/VLAC/blob/master/LICENSE
+                    - img "PyPI - License" [ref=e535]
+                  - link "arXiv" [ref=e536] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2203.05794
+                    - img "arXiv" [ref=e537]
+                - generic [ref=e538]:
+                  - heading "BERTopic" [level=1] [ref=e539]
+                  - 'link "Permalink: BERTopic" [ref=e540] [cursor=pointer]':
+                    - /url: "#bertopic"
+                    - img [ref=e541]
+                - paragraph:
+                  - link:
+                    - /url: /MaartenGr/BERTopic/blob/master/images/logo.png
+                    - img [ref=e543] [cursor=pointer]
+                - paragraph [ref=e544]: BERTopic is a topic modeling technique that leverages 🤗 transformers and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
+                - paragraph [ref=e545]: "BERTopic supports all kinds of topic modeling techniques:"
+                - table [ref=e547]:
+                  - rowgroup [ref=e548]:
+                    - row "Guided Supervised Semi-supervised" [ref=e549]:
+                      - cell "Guided" [ref=e550]:
+                        - link "Guided" [ref=e551] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/guided/guided.html
+                      - cell "Supervised" [ref=e552]:
+                        - link "Supervised" [ref=e553] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/supervised/supervised.html
+                      - cell "Semi-supervised" [ref=e554]:
+                        - link "Semi-supervised" [ref=e555] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/semisupervised/semisupervised.html
+                    - row "Manual Multi-topic distributions Hierarchical" [ref=e556]:
+                      - cell "Manual" [ref=e557]:
+                        - link "Manual" [ref=e558] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/manual/manual.html
+                      - cell "Multi-topic distributions" [ref=e559]:
+                        - link "Multi-topic distributions" [ref=e560] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/distribution/distribution.html
+                      - cell "Hierarchical" [ref=e561]:
+                        - link "Hierarchical" [ref=e562] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/hierarchicaltopics/hierarchicaltopics.html
+                    - row "Class-based Dynamic Online/Incremental" [ref=e563]:
+                      - cell "Class-based" [ref=e564]:
+                        - link "Class-based" [ref=e565] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/topicsperclass/topicsperclass.html
+                      - cell "Dynamic" [ref=e566]:
+                        - link "Dynamic" [ref=e567] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/topicsovertime/topicsovertime.html
+                      - cell "Online/Incremental" [ref=e568]:
+                        - link "Online/Incremental" [ref=e569] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/online/online.html
+                    - row "Multimodal Multi-aspect Text Generation/LLM" [ref=e570]:
+                      - cell "Multimodal" [ref=e571]:
+                        - link "Multimodal" [ref=e572] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/multimodal/multimodal.html
+                      - cell "Multi-aspect" [ref=e573]:
+                        - link "Multi-aspect" [ref=e574] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/multiaspect/multiaspect.html
+                      - cell "Text Generation/LLM" [ref=e575]:
+                        - link "Text Generation/LLM" [ref=e576] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/representation/llm.html
+                    - row "Zero-shot (new!) Merge Models (new!) Seed Words (new!)" [ref=e577]:
+                      - cell "Zero-shot (new!)" [ref=e578]:
+                        - link "Zero-shot (new!)" [ref=e579] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/zeroshot/zeroshot.html
+                      - cell "Merge Models (new!)" [ref=e580]:
+                        - link "Merge Models (new!)" [ref=e581] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/merge/merge.html
+                      - cell "Seed Words (new!)" [ref=e582]:
+                        - link "Seed Words (new!)" [ref=e583] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/seed_words/seed_words.html
+                - paragraph [ref=e584]:
+                  - text: Corresponding medium posts can be found
+                  - link "here" [ref=e585] [cursor=pointer]:
+                    - /url: https://medium.com/data-science/topic-modeling-with-bert-779f7db187e6?sk=0b5a470c006d1842ad4c8a3057063a99
+                  - text: ","
+                  - link "here" [ref=e586] [cursor=pointer]:
+                    - /url: https://medium.com/data-science/using-whisper-and-bertopic-to-model-kurzgesagts-videos-7d8a63139bdf?sk=b1e0fd46f70cb15e8422b4794a81161d
+                  - text: and
+                  - link "here" [ref=e587] [cursor=pointer]:
+                    - /url: https://medium.com/data-science/interactive-topic-modeling-with-bertopic-1ea55e7d73d8?sk=03c2168e9e74b6bda2a1f3ed953427e4
+                  - text: . For a more detailed overview, you can read the
+                  - link "paper" [ref=e588] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2203.05794
+                  - text: or see a
+                  - link "brief overview" [ref=e589] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/algorithm/algorithm.html
+                  - text: .
+                - generic [ref=e590]:
+                  - heading "Installation" [level=2] [ref=e591]
+                  - 'link "Permalink: Installation" [ref=e592] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e593]
+                - paragraph [ref=e595]:
+                  - text: Installation, with sentence-transformers, can be done using
+                  - link "uv" [ref=e596] [cursor=pointer]:
+                    - /url: https://docs.astral.sh/uv/
+                  - text: ":"
+                - generic [ref=e597]:
+                  - generic [ref=e598]: uv add bertopic
+                  - button "Copy" [ref=e600] [cursor=pointer]:
+                    - img [ref=e601]
+                - paragraph [ref=e604]:
+                  - text: or with
+                  - link "pip" [ref=e605] [cursor=pointer]:
+                    - /url: https://github.com/pypa/pip
+                  - text: ":"
+                - generic [ref=e606]:
+                  - generic [ref=e607]: pip install bertopic
+                  - button "Copy" [ref=e609] [cursor=pointer]:
+                    - img [ref=e610]
+                - paragraph [ref=e613]: "If you want to install BERTopic with other embedding models, you can choose one of the following:"
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: "# Choose an embedding backend"
+                    - text: pip install bertopic[flair,gensim,spacy,use]
+                    - generic [ref=e617]: "# Topic modeling with images"
+                    - text: pip install bertopic[vision]
+                  - button "Copy" [ref=e619] [cursor=pointer]:
+                    - img [ref=e620]
+                - paragraph [ref=e623]:
+                  - text: For a
+                  - emphasis [ref=e624]: light-weight installation
+                  - text: without transformers, UMAP and/or HDBSCAN (for training with Model2Vec or inference), see
+                  - link "this tutorial" [ref=e625] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/getting_started/tips_and_tricks/tips_and_tricks.html#lightweight-installation
+                  - text: .
+                - generic [ref=e626]:
+                  - heading "Getting Started" [level=2] [ref=e627]
+                  - 'link "Permalink: Getting Started" [ref=e628] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e629]
+                - paragraph [ref=e631]:
+                  - text: For an in-depth overview of the features of BERTopic you can check the
+                  - link "full documentation" [ref=e632] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/
+                    - strong [ref=e633]: full documentation
+                  - text: "or you can follow along with one of the examples below:"
+                - table [ref=e635]:
+                  - rowgroup [ref=e636]:
+                    - row "Name Link" [ref=e637]:
+                      - columnheader "Name" [ref=e638]
+                      - columnheader "Link" [ref=e639]
+                  - rowgroup [ref=e640]:
+                    - row "Start Here - Best Practices in BERTopic Open In Colab" [ref=e641]:
+                      - cell "Start Here - Best Practices in BERTopic" [ref=e642]:
+                        - text: Start Here -
+                        - strong [ref=e643]: Best Practices in BERTopic
+                      - cell "Open In Colab" [ref=e644]:
+                        - link "Open In Colab" [ref=e645] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1BoQ_vakEVtojsd2x_U6-_x52OOuqruj2?usp=sharing
+                          - img "Open In Colab" [ref=e646]
+                    - row "🆕 New! - Topic Modeling on Large Data (GPU Acceleration) Open In Colab" [ref=e647]:
+                      - cell "🆕 New! - Topic Modeling on Large Data (GPU Acceleration)" [ref=e648]:
+                        - strong [ref=e649]: 🆕 New!
+                        - text: "- Topic Modeling on Large Data (GPU Acceleration)"
+                      - cell "Open In Colab" [ref=e650]:
+                        - link "Open In Colab" [ref=e651] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1W7aEdDPxC29jP99GGZphUlqjMFFVKtBC?usp=sharing
+                          - img "Open In Colab" [ref=e652]
+                    - row "🆕 New! - Topic Modeling with Llama 2 🦙 Open In Colab" [ref=e653]:
+                      - cell "🆕 New! - Topic Modeling with Llama 2 🦙" [ref=e654]:
+                        - strong [ref=e655]: 🆕 New!
+                        - text: "- Topic Modeling with Llama 2 🦙"
+                      - cell "Open In Colab" [ref=e656]:
+                        - link "Open In Colab" [ref=e657] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1QCERSMUjqGetGGujdrvv_6_EeoIcd_9M?usp=sharing
+                          - img "Open In Colab" [ref=e658]
+                    - row "🆕 New! - Topic Modeling with Quantized LLMs Open In Colab" [ref=e659]:
+                      - cell "🆕 New! - Topic Modeling with Quantized LLMs" [ref=e660]:
+                        - strong [ref=e661]: 🆕 New!
+                        - text: "- Topic Modeling with Quantized LLMs"
+                      - cell "Open In Colab" [ref=e662]:
+                        - link "Open In Colab" [ref=e663] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1DdSHvVPJA3rmNfBWjCo2P1E9686xfxFx?usp=sharing
+                          - img "Open In Colab" [ref=e664]
+                    - row "Topic Modeling with BERTopic Open In Colab" [ref=e665]:
+                      - cell "Topic Modeling with BERTopic" [ref=e666]
+                      - cell "Open In Colab" [ref=e667]:
+                        - link "Open In Colab" [ref=e668] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1FieRA9fLdkQEGDIMYl0I3MCjSUKVF8C-?usp=sharing
+                          - img "Open In Colab" [ref=e669]
+                    - row "(Custom) Embedding Models in BERTopic Open In Colab" [ref=e670]:
+                      - cell "(Custom) Embedding Models in BERTopic" [ref=e671]
+                      - cell "Open In Colab" [ref=e672]:
+                        - link "Open In Colab" [ref=e673] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/18arPPe50szvcCp_Y6xS56H2tY0m-RLqv?usp=sharing
+                          - img "Open In Colab" [ref=e674]
+                    - row "Advanced Customization in BERTopic Open In Colab" [ref=e675]:
+                      - cell "Advanced Customization in BERTopic" [ref=e676]
+                      - cell "Open In Colab" [ref=e677]:
+                        - link "Open In Colab" [ref=e678] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1ClTYut039t-LDtlcd-oQAdXWgcsSGTw9?usp=sharing
+                          - img "Open In Colab" [ref=e679]
+                    - row "(semi-)Supervised Topic Modeling with BERTopic Open In Colab" [ref=e680]:
+                      - cell "(semi-)Supervised Topic Modeling with BERTopic" [ref=e681]
+                      - cell "Open In Colab" [ref=e682]:
+                        - link "Open In Colab" [ref=e683] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1bxizKzv5vfxJEB29sntU__ZC7PBSIPaQ?usp=sharing
+                          - img "Open In Colab" [ref=e684]
+                    - row "Dynamic Topic Modeling with Trump's Tweets Open In Colab" [ref=e685]:
+                      - cell "Dynamic Topic Modeling with Trump's Tweets" [ref=e686]
+                      - cell "Open In Colab" [ref=e687]:
+                        - link "Open In Colab" [ref=e688] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/drive/1un8ooI-7ZNlRoK0maVkYhmNRl0XGK88f?usp=sharing
+                          - img "Open In Colab" [ref=e689]
+                    - row "Topic Modeling arXiv Abstracts Kaggle" [ref=e690]:
+                      - cell "Topic Modeling arXiv Abstracts" [ref=e691]
+                      - cell "Kaggle" [ref=e692]:
+                        - link "Kaggle" [ref=e693] [cursor=pointer]:
+                          - /url: https://www.kaggle.com/maartengr/topic-modeling-arxiv-abstract-with-bertopic
+                          - img "Kaggle" [ref=e694]
+                - generic [ref=e695]:
+                  - heading "Quick Start" [level=2] [ref=e696]
+                  - 'link "Permalink: Quick Start" [ref=e697] [cursor=pointer]':
+                    - /url: "#quick-start"
+                    - img [ref=e698]
+                - paragraph [ref=e700]: "We start by extracting topics from the well-known 20 newsgroups dataset containing English documents:"
+                - generic [ref=e701]:
+                  - generic [ref=e702]: from bertopic import BERTopic from sklearn.datasets import fetch_20newsgroups docs = fetch_20newsgroups(subset='all', remove=('headers', 'footers', 'quotes'))['data'] topic_model = BERTopic() topics, probs = topic_model.fit_transform(docs)
+                  - button "Copy" [ref=e704] [cursor=pointer]:
+                    - img [ref=e705]
+                - paragraph [ref=e708]: "After generating topics and their probabilities, we can access all of the topics together with their topic representations:"
+                - generic [ref=e709]:
+                  - generic [ref=e710]: ">>> topic_model.get_topic_info() Topic Count Name -1 4630 -1_can_your_will_any 0 693 49_windows_drive_dos_file 1 466 32_jesus_bible_christian_faith 2 441 2_space_launch_orbit_lunar 3 381 22_key_encryption_keys_encrypted ..."
+                  - button "Copy" [ref=e712] [cursor=pointer]:
+                    - img [ref=e713]
+                - paragraph [ref=e716]:
+                  - text: The
+                  - code [ref=e717]: "-1"
+                  - text: "topic refers to all outlier documents and are typically ignored. Each word in a topic describes the underlying theme of that topic and can be used for interpreting that topic. Next, let's take a look at the most frequent topic that was generated:"
+                - generic [ref=e718]:
+                  - generic [ref=e719]: ">>> topic_model.get_topic(0) [('windows', 0.006152228076250982), ('drive', 0.004982897610645755), ('dos', 0.004845038866360651), ('file', 0.004140142872194834), ('disk', 0.004131678774810884), ('mac', 0.003624848635985097), ('memory', 0.0034840976976789903), ('software', 0.0034415334250699077), ('email', 0.0034239554442333257), ('pc', 0.003047105930670237)]"
+                  - button "Copy" [ref=e721] [cursor=pointer]:
+                    - img [ref=e722]
+                - paragraph [ref=e725]:
+                  - text: Using
+                  - code [ref=e726]: .get_document_info
+                  - text: ", we can also extract information on a document level, such as their corresponding topics, probabilities, whether they are representative documents for a topic, etc.:"
+                - generic [ref=e727]:
+                  - generic [ref=e728]: ">>> topic_model.get_document_info(docs) Document Topic Name Top_n_words Probability ... I am sure some bashers of Pens... 0 0_game_team_games_season game - team - games... 0.200010 ... My brother is in the market for... -1 -1_can_your_will_any can - your - will... 0.420668 ... Finally you said what you dream... -1 -1_can_your_will_any can - your - will... 0.807259 ... Think! It's the SCSI card doing... 49 49_windows_drive_dos_file windows - drive - docs... 0.071746 ... 1) I have an old Jasmine drive... 49 49_windows_drive_dos_file windows - drive - docs... 0.038983 ..."
+                  - button "Copy" [ref=e730] [cursor=pointer]:
+                    - img [ref=e731]
+                - paragraph [ref=e734]:
+                  - strong [ref=e735]:
+                    - code [ref=e736]: 🔥 Tip
+                  - text: ": Use"
+                  - code [ref=e737]: BERTopic(language="multilingual")
+                  - text: to select a model that supports 50+ languages.
+                - generic [ref=e738]:
+                  - heading "Fine-tune Topic Representations" [level=2] [ref=e739]
+                  - 'link "Permalink: Fine-tune Topic Representations" [ref=e740] [cursor=pointer]':
+                    - /url: "#fine-tune-topic-representations"
+                    - img [ref=e741]
+                - paragraph [ref=e743]:
+                  - text: In BERTopic, there are a number of different
+                  - link "topic representations" [ref=e744] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/getting_started/representation/representation.html
+                  - text: that we can choose from. They are all quite different from one another and give interesting perspectives and variations of topic representations. A great start is
+                  - code [ref=e745]: KeyBERTInspired
+                  - text: ", which for many users increases the coherence and reduces stopwords from the resulting topic representations:"
+                - generic [ref=e746]:
+                  - generic [ref=e747]: "from bertopic.representation import KeyBERTInspired # Fine-tune your topic representations representation_model = KeyBERTInspired() topic_model = BERTopic(representation_model=representation_model)"
+                  - button "Copy" [ref=e749] [cursor=pointer]:
+                    - img [ref=e750]
+                - paragraph [ref=e753]: "However, you might want to use something more powerful to describe your clusters. You can even use ChatGPT or other models from OpenAI to generate labels, summaries, phrases, keywords, and more:"
+                - generic [ref=e754]:
+                  - generic [ref=e755]: "import openai from bertopic.representation import OpenAI # Fine-tune topic representations with GPT client = openai.OpenAI(api_key=\"sk-...\") representation_model = OpenAI(client, model=\"gpt-4o-mini\", chat=True) topic_model = BERTopic(representation_model=representation_model)"
+                  - button "Copy" [ref=e757] [cursor=pointer]:
+                    - img [ref=e758]
+                - paragraph [ref=e761]:
+                  - strong [ref=e762]:
+                    - code [ref=e763]: 🔥 Tip
+                  - text: ": Instead of iterating over all of these different topic representations, you can model them simultaneously with"
+                  - link "multi-aspect topic representations" [ref=e764] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/getting_started/multiaspect/multiaspect.html
+                  - text: in BERTopic.
+                - generic [ref=e765]:
+                  - heading "Visualizations" [level=2] [ref=e766]
+                  - 'link "Permalink: Visualizations" [ref=e767] [cursor=pointer]':
+                    - /url: "#visualizations"
+                    - img [ref=e768]
+                - paragraph [ref=e770]:
+                  - text: After having trained our BERTopic model, we can iteratively go through hundreds of topics to get a good understanding of the topics that were extracted. However, that takes quite some time and lacks a global representation. Instead, we can use one of the
+                  - link "many visualization options" [ref=e771] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/getting_started/visualization/visualization.html
+                  - text: in BERTopic. For example, we can visualize the topics that were generated in a way very similar to
+                  - link "LDAvis" [ref=e772] [cursor=pointer]:
+                    - /url: https://github.com/cpsievert/LDAvis
+                  - text: ":"
+                - generic [ref=e773]:
+                  - generic [ref=e774]: topic_model.visualize_topics()
+                  - button "Copy" [ref=e776] [cursor=pointer]:
+                    - img [ref=e777]
+                - paragraph [ref=e780]:
+                  - link [ref=e782] [cursor=pointer]:
+                    - /url: /MaartenGr/BERTopic/blob/master/images/topic_visualization.gif
+                    - img [ref=e783]
+                - generic [ref=e784]:
+                  - heading "Modularity" [level=2] [ref=e785]
+                  - 'link "Permalink: Modularity" [ref=e786] [cursor=pointer]':
+                    - /url: "#modularity"
+                    - img [ref=e787]
+                - paragraph [ref=e789]:
+                  - text: By default, the
+                  - link "main steps" [ref=e790] [cursor=pointer]:
+                    - /url: https://maartengr.github.io/BERTopic/algorithm/algorithm.html
+                  - text: "for topic modeling with BERTopic are sentence-transformers, UMAP, HDBSCAN, and c-TF-IDF run in sequence. However, it assumes some independence between these steps which makes BERTopic quite modular. In other words, BERTopic not only allows you to build your own topic model but to explore several topic modeling techniques on top of your customized topic model:"
+                - group [ref=e791]:
+                  - generic "BERTopicOverview.mp4" [ref=e792] [cursor=pointer]:
+                    - img [ref=e793]
+                    - text: BERTopicOverview.mp4
+                - paragraph [ref=e797]: "You can swap out any of these models or even remove them entirely. The following steps are completely modular:"
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - link "Embedding" [ref=e800] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/embeddings/embeddings.html
+                    - text: documents
+                  - listitem [ref=e801]:
+                    - link "Reducing dimensionality" [ref=e802] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/dim_reduction/dim_reduction.html
+                    - text: of embeddings
+                  - listitem [ref=e803]:
+                    - link "Clustering" [ref=e804] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/clustering/clustering.html
+                    - text: reduced embeddings into topics
+                  - listitem [ref=e805]:
+                    - link "Tokenization" [ref=e806] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/vectorizers/vectorizers.html
+                    - text: of topics
+                  - listitem [ref=e807]:
+                    - link "Weight" [ref=e808] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/ctfidf/ctfidf.html
+                    - text: tokens
+                  - listitem [ref=e809]:
+                    - link "Represent topics" [ref=e810] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/representation/representation.html
+                    - text: with one or
+                    - link "multiple" [ref=e811] [cursor=pointer]:
+                      - /url: https://maartengr.github.io/BERTopic/getting_started/multiaspect/multiaspect.html
+                    - text: representations
+                - generic [ref=e812]:
+                  - heading "Functionality" [level=2] [ref=e813]
+                  - 'link "Permalink: Functionality" [ref=e814] [cursor=pointer]':
+                    - /url: "#functionality"
+                    - img [ref=e815]
+                - paragraph [ref=e817]: BERTopic has many functions that quickly can become overwhelming. To alleviate this issue, you will find an overview of all methods and a short description of its purpose.
+                - generic [ref=e818]:
+                  - heading "Common" [level=3] [ref=e819]
+                  - 'link "Permalink: Common" [ref=e820] [cursor=pointer]':
+                    - /url: "#common"
+                    - img [ref=e821]
+                - paragraph [ref=e823]: Below, you will find an overview of common functions in BERTopic.
+                - table [ref=e825]:
+                  - rowgroup [ref=e826]:
+                    - row "Method Code" [ref=e827]:
+                      - columnheader "Method" [ref=e828]
+                      - columnheader "Code" [ref=e829]
+                  - rowgroup [ref=e830]:
+                    - row "Fit the model .fit(docs)" [ref=e831]:
+                      - cell "Fit the model" [ref=e832]
+                      - cell ".fit(docs)" [ref=e833]:
+                        - code [ref=e834]: .fit(docs)
+                    - row "Fit the model and predict documents .fit_transform(docs)" [ref=e835]:
+                      - cell "Fit the model and predict documents" [ref=e836]
+                      - cell ".fit_transform(docs)" [ref=e837]:
+                        - code [ref=e838]: .fit_transform(docs)
+                    - row "Predict new documents .transform([new_doc])" [ref=e839]:
+                      - cell "Predict new documents" [ref=e840]
+                      - cell ".transform([new_doc])" [ref=e841]:
+                        - code [ref=e842]: .transform([new_doc])
+                    - row "Access single topic .get_topic(topic=12)" [ref=e843]:
+                      - cell "Access single topic" [ref=e844]
+                      - cell ".get_topic(topic=12)" [ref=e845]:
+                        - code [ref=e846]: .get_topic(topic=12)
+                    - row "Access all topics .get_topics()" [ref=e847]:
+                      - cell "Access all topics" [ref=e848]
+                      - cell ".get_topics()" [ref=e849]:
+                        - code [ref=e850]: .get_topics()
+                    - row "Get topic freq .get_topic_freq()" [ref=e851]:
+                      - cell "Get topic freq" [ref=e852]
+                      - cell ".get_topic_freq()" [ref=e853]:
+                        - code [ref=e854]: .get_topic_freq()
+                    - row "Get all topic information .get_topic_info()" [ref=e855]:
+                      - cell "Get all topic information" [ref=e856]
+                      - cell ".get_topic_info()" [ref=e857]:
+                        - code [ref=e858]: .get_topic_info()
+                    - row "Get all document information .get_document_info(docs)" [ref=e859]:
+                      - cell "Get all document information" [ref=e860]
+                      - cell ".get_document_info(docs)" [ref=e861]:
+                        - code [ref=e862]: .get_document_info(docs)
+                    - row "Get representative docs per topic .get_representative_docs()" [ref=e863]:
+                      - cell "Get representative docs per topic" [ref=e864]
+                      - cell ".get_representative_docs()" [ref=e865]:
+                        - code [ref=e866]: .get_representative_docs()
+                    - row "Update topic representation .update_topics(docs, n_gram_range=(1, 3))" [ref=e867]:
+                      - cell "Update topic representation" [ref=e868]
+                      - cell ".update_topics(docs, n_gram_range=(1, 3))" [ref=e869]:
+                        - code [ref=e870]: .update_topics(docs, n_gram_range=(1, 3))
+                    - row "Generate topic labels .generate_topic_labels()" [ref=e871]:
+                      - cell "Generate topic labels" [ref=e872]
+                      - cell ".generate_topic_labels()" [ref=e873]:
+                        - code [ref=e874]: .generate_topic_labels()
+                    - row "Set topic labels .set_topic_labels(my_custom_labels)" [ref=e875]:
+                      - cell "Set topic labels" [ref=e876]
+                      - cell ".set_topic_labels(my_custom_labels)" [ref=e877]:
+                        - code [ref=e878]: .set_topic_labels(my_custom_labels)
+                    - row "Merge topics .merge_topics(docs, topics_to_merge)" [ref=e879]:
+                      - cell "Merge topics" [ref=e880]
+                      - cell ".merge_topics(docs, topics_to_merge)" [ref=e881]:
+                        - code [ref=e882]: .merge_topics(docs, topics_to_merge)
+                    - row "Reduce nr of topics .reduce_topics(docs, nr_topics=30)" [ref=e883]:
+                      - cell "Reduce nr of topics" [ref=e884]
+                      - cell ".reduce_topics(docs, nr_topics=30)" [ref=e885]:
+                        - code [ref=e886]: .reduce_topics(docs, nr_topics=30)
+                    - row "Reduce outliers .reduce_outliers(docs, topics)" [ref=e887]:
+                      - cell "Reduce outliers" [ref=e888]
+                      - cell ".reduce_outliers(docs, topics)" [ref=e889]:
+                        - code [ref=e890]: .reduce_outliers(docs, topics)
+                    - row "Find topics .find_topics(\"vehicle\")" [ref=e891]:
+                      - cell "Find topics" [ref=e892]
+                      - cell ".find_topics(\"vehicle\")" [ref=e893]:
+                        - code [ref=e894]: .find_topics("vehicle")
+                    - row "Save model .save(\"my_model\", serialization=\"safetensors\")" [ref=e895]:
+                      - cell "Save model" [ref=e896]
+                      - cell ".save(\"my_model\", serialization=\"safetensors\")" [ref=e897]:
+                        - code [ref=e898]: .save("my_model", serialization="safetensors")
+                    - row "Load model BERTopic.load(\"my_model\")" [ref=e899]:
+                      - cell "Load model" [ref=e900]
+                      - cell "BERTopic.load(\"my_model\")" [ref=e901]:
+                        - code [ref=e902]: BERTopic.load("my_model")
+                    - row "Get parameters .get_params()" [ref=e903]:
+                      - cell "Get parameters" [ref=e904]
+                      - cell ".get_params()" [ref=e905]:
+                        - code [ref=e906]: .get_params()
+                - generic [ref=e907]:
+                  - heading "Attributes" [level=3] [ref=e908]
+                  - 'link "Permalink: Attributes" [ref=e909] [cursor=pointer]':
+                    - /url: "#attributes"
+                    - img [ref=e910]
+                - paragraph [ref=e912]:
+                  - text: After having trained your BERTopic model, several attributes are saved within your model. These attributes, in part, refer to how model information is stored on an estimator during fitting. The attributes that you see below all end in
+                  - code [ref=e913]: _
+                  - text: and are public attributes that can be used to access model information.
+                - table [ref=e915]:
+                  - rowgroup [ref=e916]:
+                    - row "Attribute Description" [ref=e917]:
+                      - columnheader "Attribute" [ref=e918]
+                      - columnheader "Description" [ref=e919]
+                  - rowgroup [ref=e920]:
+                    - row ".topics_ The topics that are generated for each document after training or updating the topic model." [ref=e921]:
+                      - cell ".topics_" [ref=e922]:
+                        - code [ref=e923]: .topics_
+                      - cell "The topics that are generated for each document after training or updating the topic model." [ref=e924]
+                    - row ".probabilities_ The probabilities that are generated for each document if HDBSCAN is used." [ref=e925]:
+                      - cell ".probabilities_" [ref=e926]:
+                        - code [ref=e927]: .probabilities_
+                      - cell "The probabilities that are generated for each document if HDBSCAN is used." [ref=e928]
+                    - row ".topic_sizes_ The size of each topic" [ref=e929]:
+                      - cell ".topic_sizes_" [ref=e930]:
+                        - code [ref=e931]: .topic_sizes_
+                      - cell "The size of each topic" [ref=e932]
+                    - row ".topic_mapper_ A class for tracking topics and their mappings anytime they are merged/reduced." [ref=e933]:
+                      - cell ".topic_mapper_" [ref=e934]:
+                        - code [ref=e935]: .topic_mapper_
+                      - cell "A class for tracking topics and their mappings anytime they are merged/reduced." [ref=e936]
+                    - row ".topic_representations_ The top n terms per topic and their respective c-TF-IDF values." [ref=e937]:
+                      - cell ".topic_representations_" [ref=e938]:
+                        - code [ref=e939]: .topic_representations_
+                      - cell "The top n terms per topic and their respective c-TF-IDF values." [ref=e940]:
+                        - text: The top
+                        - emphasis [ref=e941]: "n"
+                        - text: terms per topic and their respective c-TF-IDF values.
+                    - row ".c_tf_idf_ The topic-term matrix as calculated through c-TF-IDF." [ref=e942]:
+                      - cell ".c_tf_idf_" [ref=e943]:
+                        - code [ref=e944]: .c_tf_idf_
+                      - cell "The topic-term matrix as calculated through c-TF-IDF." [ref=e945]
+                    - row ".topic_aspects_ The different aspects, or representations, of each topic." [ref=e946]:
+                      - cell ".topic_aspects_" [ref=e947]:
+                        - code [ref=e948]: .topic_aspects_
+                      - cell "The different aspects, or representations, of each topic." [ref=e949]
+                    - row ".topic_labels_ The default labels for each topic." [ref=e950]:
+                      - cell ".topic_labels_" [ref=e951]:
+                        - code [ref=e952]: .topic_labels_
+                      - cell "The default labels for each topic." [ref=e953]
+                    - row ".custom_labels_ Custom labels for each topic as generated through .set_topic_labels." [ref=e954]:
+                      - cell ".custom_labels_" [ref=e955]:
+                        - code [ref=e956]: .custom_labels_
+                      - cell "Custom labels for each topic as generated through .set_topic_labels." [ref=e957]:
+                        - text: Custom labels for each topic as generated through
+                        - code [ref=e958]: .set_topic_labels
+                        - text: .
+                    - row ".topic_embeddings_ The embeddings for each topic if embedding_model was used." [ref=e959]:
+                      - cell ".topic_embeddings_" [ref=e960]:
+                        - code [ref=e961]: .topic_embeddings_
+                      - cell "The embeddings for each topic if embedding_model was used." [ref=e962]:
+                        - text: The embeddings for each topic if
+                        - code [ref=e963]: embedding_model
+                        - text: was used.
+                    - row ".representative_docs_ The representative documents for each topic if HDBSCAN is used." [ref=e964]:
+                      - cell ".representative_docs_" [ref=e965]:
+                        - code [ref=e966]: .representative_docs_
+                      - cell "The representative documents for each topic if HDBSCAN is used." [ref=e967]
+                - generic [ref=e968]:
+                  - heading "Variations" [level=3] [ref=e969]
+                  - 'link "Permalink: Variations" [ref=e970] [cursor=pointer]':
+                    - /url: "#variations"
+                    - img [ref=e971]
+                - paragraph [ref=e973]: There are many different use cases in which topic modeling can be used. As such, several variations of BERTopic have been developed such that one package can be used across many use cases.
+                - table [ref=e975]:
+                  - rowgroup [ref=e976]:
+                    - row "Method Code" [ref=e977]:
+                      - columnheader "Method" [ref=e978]
+                      - columnheader "Code" [ref=e979]
+                  - rowgroup [ref=e980]:
+                    - row "Topic Distribution Approximation .approximate_distribution(docs)" [ref=e981]:
+                      - cell "Topic Distribution Approximation" [ref=e982]:
+                        - link "Topic Distribution Approximation" [ref=e983] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/distribution/distribution.html
+                      - cell ".approximate_distribution(docs)" [ref=e984]:
+                        - code [ref=e985]: .approximate_distribution(docs)
+                    - row "Online Topic Modeling .partial_fit(doc)" [ref=e986]:
+                      - cell "Online Topic Modeling" [ref=e987]:
+                        - link "Online Topic Modeling" [ref=e988] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/online/online.html
+                      - cell ".partial_fit(doc)" [ref=e989]:
+                        - code [ref=e990]: .partial_fit(doc)
+                    - row "Semi-supervised Topic Modeling .fit(docs, y=y)" [ref=e991]:
+                      - cell "Semi-supervised Topic Modeling" [ref=e992]:
+                        - link "Semi-supervised Topic Modeling" [ref=e993] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/semisupervised/semisupervised.html
+                      - cell ".fit(docs, y=y)" [ref=e994]:
+                        - code [ref=e995]: .fit(docs, y=y)
+                    - row "Supervised Topic Modeling .fit(docs, y=y)" [ref=e996]:
+                      - cell "Supervised Topic Modeling" [ref=e997]:
+                        - link "Supervised Topic Modeling" [ref=e998] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/supervised/supervised.html
+                      - cell ".fit(docs, y=y)" [ref=e999]:
+                        - code [ref=e1000]: .fit(docs, y=y)
+                    - row "Manual Topic Modeling .fit(docs, y=y)" [ref=e1001]:
+                      - cell "Manual Topic Modeling" [ref=e1002]:
+                        - link "Manual Topic Modeling" [ref=e1003] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/manual/manual.html
+                      - cell ".fit(docs, y=y)" [ref=e1004]:
+                        - code [ref=e1005]: .fit(docs, y=y)
+                    - row "Multimodal Topic Modeling .fit(docs, images=images)" [ref=e1006]:
+                      - cell "Multimodal Topic Modeling" [ref=e1007]:
+                        - link "Multimodal Topic Modeling" [ref=e1008] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/multimodal/multimodal.html
+                      - cell ".fit(docs, images=images)" [ref=e1009]:
+                        - code [ref=e1010]: .fit(docs, images=images)
+                    - row "Topic Modeling per Class .topics_per_class(docs, classes)" [ref=e1011]:
+                      - cell "Topic Modeling per Class" [ref=e1012]:
+                        - link "Topic Modeling per Class" [ref=e1013] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/topicsperclass/topicsperclass.html
+                      - cell ".topics_per_class(docs, classes)" [ref=e1014]:
+                        - code [ref=e1015]: .topics_per_class(docs, classes)
+                    - row "Dynamic Topic Modeling .topics_over_time(docs, timestamps)" [ref=e1016]:
+                      - cell "Dynamic Topic Modeling" [ref=e1017]:
+                        - link "Dynamic Topic Modeling" [ref=e1018] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/topicsovertime/topicsovertime.html
+                      - cell ".topics_over_time(docs, timestamps)" [ref=e1019]:
+                        - code [ref=e1020]: .topics_over_time(docs, timestamps)
+                    - row "Hierarchical Topic Modeling .hierarchical_topics(docs)" [ref=e1021]:
+                      - cell "Hierarchical Topic Modeling" [ref=e1022]:
+                        - link "Hierarchical Topic Modeling" [ref=e1023] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/hierarchicaltopics/hierarchicaltopics.html
+                      - cell ".hierarchical_topics(docs)" [ref=e1024]:
+                        - code [ref=e1025]: .hierarchical_topics(docs)
+                    - row "Guided Topic Modeling BERTopic(seed_topic_list=seed_topic_list)" [ref=e1026]:
+                      - cell "Guided Topic Modeling" [ref=e1027]:
+                        - link "Guided Topic Modeling" [ref=e1028] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/guided/guided.html
+                      - cell "BERTopic(seed_topic_list=seed_topic_list)" [ref=e1029]:
+                        - code [ref=e1030]: BERTopic(seed_topic_list=seed_topic_list)
+                    - row "Zero-shot Topic Modeling BERTopic(zeroshot_topic_list=zeroshot_topic_list)" [ref=e1031]:
+                      - cell "Zero-shot Topic Modeling" [ref=e1032]:
+                        - link "Zero-shot Topic Modeling" [ref=e1033] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/zeroshot/zeroshot.html
+                      - cell "BERTopic(zeroshot_topic_list=zeroshot_topic_list)" [ref=e1034]:
+                        - code [ref=e1035]: BERTopic(zeroshot_topic_list=zeroshot_topic_list)
+                    - row "Merge Multiple Models BERTopic.merge_models([topic_model_1, topic_model_2])" [ref=e1036]:
+                      - cell "Merge Multiple Models" [ref=e1037]:
+                        - link "Merge Multiple Models" [ref=e1038] [cursor=pointer]:
+                          - /url: https://maartengr.github.io/BERTopic/getting_started/merge/merge.html
+                      - cell "BERTopic.merge_models([topic_model_1, topic_model_2])" [ref=e1039]:
+                        - code [ref=e1040]: BERTopic.merge_models([topic_model_1, topic_model_2])
+                - generic [ref=e1041]:
+                  - heading "Visualizations" [level=3] [ref=e1042]
+                  - 'link "Permalink: Visualizations" [ref=e1043] [cursor=pointer]':
+                    - /url: "#visualizations-1"
+                    - img [ref=e1044]
+                - paragraph [ref=e1046]: Evaluating topic models can be rather difficult due to the somewhat subjective nature of evaluation. Visualizing different aspects of the topic model helps in understanding the model and makes it easier to tweak the model to your liking.
+                - table [ref=e1048]:
+                  - rowgroup [ref=e1049]:
+                    - row "Method Code" [ref=e1050]:
+                      - columnheader "Method" [ref=e1051]
+                      - columnheader "Code" [ref=e1052]
+                  - rowgroup [ref=e1053]:
+                    - row "Visualize Topics .visualize_topics()" [ref=e1054]:
+                      - cell "Visualize Topics" [ref=e1055]
+                      - cell ".visualize_topics()" [ref=e1056]:
+                        - code [ref=e1057]: .visualize_topics()
+                    - row "Visualize Documents .visualize_documents()" [ref=e1058]:
+                      - cell "Visualize Documents" [ref=e1059]
+                      - cell ".visualize_documents()" [ref=e1060]:
+                        - code [ref=e1061]: .visualize_documents()
+                    - row "Visualize Document Hierarchy .visualize_hierarchical_documents()" [ref=e1062]:
+                      - cell "Visualize Document Hierarchy" [ref=e1063]
+                      - cell ".visualize_hierarchical_documents()" [ref=e1064]:
+                        - code [ref=e1065]: .visualize_hierarchical_documents()
+                    - row "Visualize Topic Hierarchy .visualize_hierarchy()" [ref=e1066]:
+                      - cell "Visualize Topic Hierarchy" [ref=e1067]
+                      - cell ".visualize_hierarchy()" [ref=e1068]:
+                        - code [ref=e1069]: .visualize_hierarchy()
+                    - row "Visualize Topic Tree .get_topic_tree(hierarchical_topics)" [ref=e1070]:
+                      - cell "Visualize Topic Tree" [ref=e1071]
+                      - cell ".get_topic_tree(hierarchical_topics)" [ref=e1072]:
+                        - code [ref=e1073]: .get_topic_tree(hierarchical_topics)
+                    - row "Visualize Topic Terms .visualize_barchart()" [ref=e1074]:
+                      - cell "Visualize Topic Terms" [ref=e1075]
+                      - cell ".visualize_barchart()" [ref=e1076]:
+                        - code [ref=e1077]: .visualize_barchart()
+                    - row "Visualize Topic Similarity .visualize_heatmap()" [ref=e1078]:
+                      - cell "Visualize Topic Similarity" [ref=e1079]
+                      - cell ".visualize_heatmap()" [ref=e1080]:
+                        - code [ref=e1081]: .visualize_heatmap()
+                    - row "Visualize Term Score Decline .visualize_term_rank()" [ref=e1082]:
+                      - cell "Visualize Term Score Decline" [ref=e1083]
+                      - cell ".visualize_term_rank()" [ref=e1084]:
+                        - code [ref=e1085]: .visualize_term_rank()
+                    - row "Visualize Topic Probability Distribution .visualize_distribution(probs[0])" [ref=e1086]:
+                      - cell "Visualize Topic Probability Distribution" [ref=e1087]
+                      - cell ".visualize_distribution(probs[0])" [ref=e1088]:
+                        - code [ref=e1089]: .visualize_distribution(probs[0])
+                    - row "Visualize Topics over Time .visualize_topics_over_time(topics_over_time)" [ref=e1090]:
+                      - cell "Visualize Topics over Time" [ref=e1091]
+                      - cell ".visualize_topics_over_time(topics_over_time)" [ref=e1092]:
+                        - code [ref=e1093]: .visualize_topics_over_time(topics_over_time)
+                    - row "Visualize Topics per Class .visualize_topics_per_class(topics_per_class)" [ref=e1094]:
+                      - cell "Visualize Topics per Class" [ref=e1095]
+                      - cell ".visualize_topics_per_class(topics_per_class)" [ref=e1096]:
+                        - code [ref=e1097]: .visualize_topics_per_class(topics_per_class)
+                - generic [ref=e1098]:
+                  - heading "Citation" [level=2] [ref=e1099]
+                  - 'link "Permalink: Citation" [ref=e1100] [cursor=pointer]':
+                    - /url: "#citation"
+                    - img [ref=e1101]
+                - paragraph [ref=e1103]:
+                  - text: To cite the
+                  - link "BERTopic paper" [ref=e1104] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2203.05794
+                  - text: ", please use the following bibtex reference:"
+                - generic [ref=e1105]:
+                  - code [ref=e1107]: "@article{grootendorst2022bertopic, title={BERTopic: Neural topic modeling with a class-based TF-IDF procedure}, author={Grootendorst, Maarten}, journal={arXiv preprint arXiv:2203.05794}, year={2022} }"
+                  - button "Copy" [ref=e1109] [cursor=pointer]:
+                    - img [ref=e1110]
+        - generic [ref=e1116]:
+          - generic [ref=e1119]:
+            - heading "About" [level=2] [ref=e1120]
+            - paragraph [ref=e1121]: Leveraging BERT and c-TF-IDF to create easily interpretable topics.
+            - generic [ref=e1122]:
+              - img [ref=e1123]
+              - link "maartengr.github.io/BERTopic/" [ref=e1126] [cursor=pointer]:
+                - /url: https://maartengr.github.io/BERTopic/
+            - heading "Topics" [level=3] [ref=e1127]
+            - generic [ref=e1129]:
+              - link "nlp" [ref=e1130] [cursor=pointer]:
+                - /url: /topics/nlp
+              - link "machine-learning" [ref=e1131] [cursor=pointer]:
+                - /url: /topics/machine-learning
+              - link "topic" [ref=e1132] [cursor=pointer]:
+                - /url: /topics/topic
+              - link "transformers" [ref=e1133] [cursor=pointer]:
+                - /url: /topics/transformers
+              - link "topic-modeling" [ref=e1134] [cursor=pointer]:
+                - /url: /topics/topic-modeling
+              - link "bert" [ref=e1135] [cursor=pointer]:
+                - /url: /topics/bert
+              - link "topic-models" [ref=e1136] [cursor=pointer]:
+                - /url: /topics/topic-models
+              - link "sentence-embeddings" [ref=e1137] [cursor=pointer]:
+                - /url: /topics/sentence-embeddings
+              - link "topic-modelling" [ref=e1138] [cursor=pointer]:
+                - /url: /topics/topic-modelling
+              - link "ldavis" [ref=e1139] [cursor=pointer]:
+                - /url: /topics/ldavis
+            - heading "Resources" [level=3] [ref=e1140]
+            - link "Readme" [ref=e1142] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1143]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1145]
+            - link "MIT license" [ref=e1147] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1148]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e1150]
+            - link "Contributing" [ref=e1152] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1153]
+              - text: Contributing
+            - link "Activity" [ref=e1156] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/activity
+              - img [ref=e1157]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e1159]
+            - link "7.6k stars" [ref=e1161] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/stargazers
+              - img [ref=e1162]
+              - strong [ref=e1164]: 7.6k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1165]
+            - link "57 watching" [ref=e1167] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/watchers
+              - img [ref=e1168]
+              - strong [ref=e1170]: "57"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1171]
+            - link "894 forks" [ref=e1173] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/forks
+              - img [ref=e1174]
+              - strong [ref=e1176]: "894"
+              - text: forks
+            - link "Report repository" [ref=e1178] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FMaartenGr%2FBERTopic&report=MaartenGr+%28user%29
+          - generic [ref=e1180]:
+            - heading "Releases 37" [level=2] [ref=e1181]:
+              - link "Releases 37" [ref=e1182] [cursor=pointer]:
+                - /url: /MaartenGr/BERTopic/releases
+                - text: Releases
+                - generic "37" [ref=e1183]
+            - link "v0.17.4 Latest Dec 3, 2025on Dec 3, 2025" [ref=e1184] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/releases/tag/v0.17.4
+              - img [ref=e1185]
+              - generic [ref=e1187]:
+                - generic [ref=e1188]:
+                  - generic [ref=e1189]: v0.17.4
+                  - 'generic "Label: Latest" [ref=e1190]': Latest
+                - generic [ref=e1191]: Dec 3, 2025on Dec 3, 2025
+            - link "+ 36 releases" [ref=e1193] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/releases
+          - generic [ref=e1195]:
+            - heading "Packages" [level=2] [ref=e1196]:
+              - link "Packages" [ref=e1197] [cursor=pointer]:
+                - /url: /users/MaartenGr/packages?repo_name=BERTopic
+            - generic [ref=e1198]: No packages published
+          - generic [ref=e1200]:
+            - heading "Contributors 94" [level=2] [ref=e1201]:
+              - link "Contributors 94" [ref=e1202] [cursor=pointer]:
+                - /url: /MaartenGr/BERTopic/graphs/contributors
+                - text: Contributors
+                - generic "94" [ref=e1203]
+            - list [ref=e1204]:
+              - listitem [ref=e1205]:
+                - link "@MaartenGr" [ref=e1206] [cursor=pointer]:
+                  - /url: https://github.com/MaartenGr
+                  - img "@MaartenGr" [ref=e1207]
+              - listitem [ref=e1208]:
+                - link "@afuetterer" [ref=e1209] [cursor=pointer]:
+                  - /url: https://github.com/afuetterer
+                  - img "@afuetterer" [ref=e1210]
+              - listitem [ref=e1211]:
+                - link "@freddyheppell" [ref=e1212] [cursor=pointer]:
+                  - /url: https://github.com/freddyheppell
+                  - img "@freddyheppell" [ref=e1213]
+              - listitem [ref=e1214]:
+                - link "@zilch42" [ref=e1215] [cursor=pointer]:
+                  - /url: https://github.com/zilch42
+                  - img "@zilch42" [ref=e1216]
+              - listitem [ref=e1217]:
+                - link "@chrisji" [ref=e1218] [cursor=pointer]:
+                  - /url: https://github.com/chrisji
+                  - img "@chrisji" [ref=e1219]
+              - listitem [ref=e1220]:
+                - link "@dschwalm" [ref=e1221] [cursor=pointer]:
+                  - /url: https://github.com/dschwalm
+                  - img "@dschwalm" [ref=e1222]
+              - listitem [ref=e1223]:
+                - link "@azikoss" [ref=e1224] [cursor=pointer]:
+                  - /url: https://github.com/azikoss
+                  - img "@azikoss" [ref=e1225]
+              - listitem [ref=e1226]:
+                - link "@ianrandman" [ref=e1227] [cursor=pointer]:
+                  - /url: https://github.com/ianrandman
+                  - img "@ianrandman" [ref=e1228]
+              - listitem [ref=e1229]:
+                - link "@jakubciszek" [ref=e1230] [cursor=pointer]:
+                  - /url: https://github.com/jakubciszek
+                  - img "@jakubciszek" [ref=e1231]
+              - listitem [ref=e1232]:
+                - link "@saikumaru" [ref=e1233] [cursor=pointer]:
+                  - /url: https://github.com/saikumaru
+                  - img "@saikumaru" [ref=e1234]
+              - listitem [ref=e1235]:
+                - link "@anubhabdaserrr" [ref=e1236] [cursor=pointer]:
+                  - /url: https://github.com/anubhabdaserrr
+                  - img "@anubhabdaserrr" [ref=e1237]
+              - listitem [ref=e1238]:
+                - link "@angelonazzaro" [ref=e1239] [cursor=pointer]:
+                  - /url: https://github.com/angelonazzaro
+                  - img "@angelonazzaro" [ref=e1240]
+              - listitem [ref=e1241]:
+                - link "@joshuasundance-swca" [ref=e1242] [cursor=pointer]:
+                  - /url: https://github.com/joshuasundance-swca
+                  - img "@joshuasundance-swca" [ref=e1243]
+              - listitem [ref=e1244]:
+                - link "@ddicato" [ref=e1245] [cursor=pointer]:
+                  - /url: https://github.com/ddicato
+                  - img "@ddicato" [ref=e1246]
+            - link "+ 80 contributors" [ref=e1248] [cursor=pointer]:
+              - /url: /MaartenGr/BERTopic/graphs/contributors
+          - generic [ref=e1250]:
+            - heading "Languages" [level=2] [ref=e1251]
+            - list [ref=e1256]:
+              - listitem [ref=e1257]:
+                - link "Python 99.9%" [ref=e1258] [cursor=pointer]:
+                  - /url: /MaartenGr/BERTopic/search?l=python
+                  - img [ref=e1259]
+                  - generic [ref=e1261]: Python
+                  - generic [ref=e1262]: 99.9%
+              - listitem [ref=e1263]:
+                - link "Makefile 0.1%" [ref=e1264] [cursor=pointer]:
+                  - /url: /MaartenGr/BERTopic/search?l=makefile
+                  - img [ref=e1265]
+                  - generic [ref=e1267]: Makefile
+                  - generic [ref=e1268]: 0.1%
+  - contentinfo [ref=e1270]:
+    - heading "Footer" [level=2] [ref=e1271]
+    - generic [ref=e1272]:
+      - generic [ref=e1273]:
+        - link "GitHub Homepage" [ref=e1274] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1275]
+        - generic [ref=e1277]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1278]:
+        - heading "Footer navigation" [level=3] [ref=e1279]
+        - list "Footer navigation" [ref=e1280]:
+          - listitem [ref=e1281]:
+            - link "Terms" [ref=e1282] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1283]:
+            - link "Privacy" [ref=e1284] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1285]:
+            - link "Security" [ref=e1286] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1287]:
+            - link "Status" [ref=e1288] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1289]:
+            - link "Community" [ref=e1290] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1291]:
+            - link "Docs" [ref=e1292] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1293]:
+            - link "Contact" [ref=e1294] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1295]:
+            - button "Manage cookies" [ref=e1297] [cursor=pointer]
+          - listitem [ref=e1298]:
+            - button "Do not share my personal information" [ref=e1300] [cursor=pointer]

@@ -1,0 +1,208 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNanmiCoder%2FMediaCrawler%2Fnetwork%2Fdependents
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fnetwork%2Fdependents&source=header-repo&source_repo=NanmiCoder%2FMediaCrawler
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "NanmiCoder" [ref=e70] [cursor=pointer]:
+            - /url: /NanmiCoder
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "MediaCrawler" [ref=e73] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 10.4k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e82]
+                - text: Fork
+                - generic "10,363" [ref=e84]: 10.4k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FNanmiCoder%2FMediaCrawler
+                - img [ref=e88]
+                - text: Star
+                - generic "48523 users starred this repository" [ref=e90]: 48.5k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 145" [ref=e99] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "145" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 9" [ref=e106] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "9" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /NanmiCoder/MediaCrawler/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e137]:
+      - 'heading "Insights: NanmiCoder/MediaCrawler" [level=1] [ref=e138]'
+      - generic [ref=e140]:
+        - navigation "Insights" [ref=e142]:
+          - link "Pulse" [ref=e143] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/pulse
+          - link "Contributors" [ref=e144] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/graphs/contributors
+          - link "Community standards" [ref=e145] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/community
+          - link "Commits" [ref=e146] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/graphs/commit-activity
+          - link "Code frequency" [ref=e147] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/graphs/code-frequency
+          - link "Dependency graph" [ref=e148]:
+            - /url: /NanmiCoder/MediaCrawler/network/dependencies
+          - link "Network" [ref=e149] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/network
+          - link "Forks" [ref=e150] [cursor=pointer]:
+            - /url: /NanmiCoder/MediaCrawler/forks
+        - generic [ref=e152]:
+          - heading "Dependency graph" [level=2] [ref=e154]
+          - navigation "Dependency Insights menu" [ref=e155]:
+            - list [ref=e156]:
+              - listitem [ref=e157]:
+                - link "Dependencies" [ref=e158] [cursor=pointer]:
+                  - /url: /NanmiCoder/MediaCrawler/network/dependencies
+              - listitem [ref=e159]:
+                - link "Dependents" [ref=e160] [cursor=pointer]:
+                  - /url: /NanmiCoder/MediaCrawler/network/dependents
+            - button "Export SBOM" [ref=e163] [cursor=pointer]:
+              - generic [ref=e164]:
+                - generic:
+                  - img
+                - generic [ref=e165]: Export SBOM
+          - status [ref=e166]:
+            - generic [ref=e169]:
+              - link "0 Repositories" [ref=e170] [cursor=pointer]:
+                - /url: /NanmiCoder/MediaCrawler/network/dependents?dependent_type=REPOSITORY
+                - img [ref=e171]
+                - text: 0 Repositories
+              - link "0 Packages" [ref=e173] [cursor=pointer]:
+                - /url: /NanmiCoder/MediaCrawler/network/dependents?dependent_type=PACKAGE
+                - img [ref=e174]
+                - text: 0 Packages
+            - generic [ref=e177]:
+              - img [ref=e178]
+              - heading "We haven’t found any dependents for this repository yet." [level=2] [ref=e181]
+              - paragraph [ref=e182]: We’ll keep looking!
+  - contentinfo [ref=e183]:
+    - heading "Footer" [level=2] [ref=e184]
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - link "GitHub Homepage" [ref=e187] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e188]
+        - generic [ref=e190]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e191]:
+        - heading "Footer navigation" [level=3] [ref=e192]
+        - list "Footer navigation" [ref=e193]:
+          - listitem [ref=e194]:
+            - link "Terms" [ref=e195] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e196]:
+            - link "Privacy" [ref=e197] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e198]:
+            - link "Security" [ref=e199] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e200]:
+            - link "Status" [ref=e201] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e202]:
+            - link "Community" [ref=e203] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e204]:
+            - link "Docs" [ref=e205] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e206]:
+            - link "Contact" [ref=e207] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e208]:
+            - button "Manage cookies" [ref=e210] [cursor=pointer]
+          - listitem [ref=e211]:
+            - button "Do not share my personal information" [ref=e213] [cursor=pointer]

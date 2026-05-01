@@ -1,0 +1,687 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FBowenWin%2FMediaCrawler_MCP_Server
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Bowenwin%2FMediaCrawler_MCP_Server
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "Bowenwin" [ref=e70] [cursor=pointer]:
+            - /url: /Bowenwin
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "MediaCrawler_MCP_Server" [ref=e73] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FBowenwin%2FMediaCrawler_MCP_Server
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 3" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FBowenwin%2FMediaCrawler_MCP_Server
+                - img [ref=e82]
+                - text: Fork
+                - generic "3" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FBowenwin%2FMediaCrawler_MCP_Server
+                - img [ref=e88]
+                - text: Star
+                - generic "36 users starred this repository" [ref=e90]: "36"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "Bowenwin/MediaCrawler_MCP_Server" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "Branches" [ref=e161] [cursor=pointer]:
+                  - /url: /Bowenwin/MediaCrawler_MCP_Server/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e163]: Branches
+                - link "Tags" [ref=e164] [cursor=pointer]:
+                  - /url: /Bowenwin/MediaCrawler_MCP_Server/tags
+                  - generic [ref=e165]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]: Tags
+            - generic [ref=e167]:
+              - generic [ref=e171]:
+                - img [ref=e173]
+                - combobox "Go to file" [ref=e175]
+              - button "Code" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic:
+                    - img
+                  - generic [ref=e178]: Code
+                  - generic:
+                    - img
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - heading "Folders and files" [level=2] [ref=e181]
+              - table "Folders and files" [ref=e182]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e183]:
+                  - row "Latest commit History 8 Commits" [ref=e184]:
+                    - cell "Latest commit History 8 Commits" [ref=e185]:
+                      - generic [ref=e186]:
+                        - heading "Latest commit" [level=2] [ref=e187]
+                        - generic [ref=e190]:
+                          - heading "History" [level=2] [ref=e191]
+                          - link "8 Commits" [ref=e192] [cursor=pointer]:
+                            - /url: /Bowenwin/MediaCrawler_MCP_Server/commits/main/
+                            - generic [ref=e193]:
+                              - generic:
+                                - img
+                              - generic [ref=e194]: 8 Commits
+                  - row "base, (Directory)" [ref=e195]:
+                    - cell "base, (Directory)" [ref=e196]:
+                      - generic [ref=e197]:
+                        - img [ref=e198]
+                        - link "base, (Directory)" [ref=e203] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/base
+                          - text: base
+                    - cell [ref=e204]
+                    - cell [ref=e206]
+                  - row "cache, (Directory)" [ref=e209]:
+                    - cell "cache, (Directory)" [ref=e210]:
+                      - generic [ref=e211]:
+                        - img [ref=e212]
+                        - link "cache, (Directory)" [ref=e217] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/cache
+                          - text: cache
+                    - cell [ref=e218]
+                    - cell [ref=e220]
+                  - row "cmd_arg, (Directory)" [ref=e223]:
+                    - cell "cmd_arg, (Directory)" [ref=e224]:
+                      - generic [ref=e225]:
+                        - img [ref=e226]
+                        - link "cmd_arg, (Directory)" [ref=e231] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/cmd_arg
+                          - text: cmd_arg
+                    - cell [ref=e232]
+                    - cell [ref=e234]
+                  - row "config, (Directory)" [ref=e237]:
+                    - cell "config, (Directory)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link "config, (Directory)" [ref=e245] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/config
+                          - text: config
+                    - cell [ref=e246]
+                    - cell [ref=e248]
+                  - row "constant, (Directory)" [ref=e251]:
+                    - cell "constant, (Directory)" [ref=e252]:
+                      - generic [ref=e253]:
+                        - img [ref=e254]
+                        - link "constant, (Directory)" [ref=e259] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/constant
+                          - text: constant
+                    - cell [ref=e260]
+                    - cell [ref=e262]
+                  - row "docs, (Directory)" [ref=e265]:
+                    - cell "docs, (Directory)" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img [ref=e268]
+                        - link "docs, (Directory)" [ref=e273] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/docs
+                          - text: docs
+                    - cell [ref=e274]
+                    - cell [ref=e276]
+                  - row "libs, (Directory)" [ref=e279]:
+                    - cell "libs, (Directory)" [ref=e280]:
+                      - generic [ref=e281]:
+                        - img [ref=e282]
+                        - link "libs, (Directory)" [ref=e287] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/libs
+                          - text: libs
+                    - cell [ref=e288]
+                    - cell [ref=e290]
+                  - row "media_platform, (Directory)" [ref=e293]:
+                    - cell "media_platform, (Directory)" [ref=e294]:
+                      - generic [ref=e295]:
+                        - img [ref=e296]
+                        - link "media_platform, (Directory)" [ref=e301] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/media_platform
+                          - text: media_platform
+                    - cell [ref=e302]
+                    - cell [ref=e304]
+                  - row "model, (Directory)" [ref=e307]:
+                    - cell "model, (Directory)" [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e310]
+                        - link "model, (Directory)" [ref=e315] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/model
+                          - text: model
+                    - cell [ref=e316]
+                    - cell [ref=e318]
+                  - row "proxy, (Directory)" [ref=e321]:
+                    - cell "proxy, (Directory)" [ref=e322]:
+                      - generic [ref=e323]:
+                        - img [ref=e324]
+                        - link "proxy, (Directory)" [ref=e329] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/proxy
+                          - text: proxy
+                    - cell [ref=e330]
+                    - cell [ref=e332]
+                  - row "schema, (Directory)" [ref=e335]:
+                    - cell "schema, (Directory)" [ref=e336]:
+                      - generic [ref=e337]:
+                        - img [ref=e338]
+                        - link "schema, (Directory)" [ref=e343] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/schema
+                          - text: schema
+                    - cell [ref=e344]
+                    - cell [ref=e346]
+                  - row "store, (Directory)" [ref=e349]:
+                    - cell "store, (Directory)" [ref=e350]:
+                      - generic [ref=e351]:
+                        - img [ref=e352]
+                        - link "store, (Directory)" [ref=e357] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/store
+                          - text: store
+                    - cell [ref=e358]
+                    - cell [ref=e360]
+                  - row "test, (Directory)" [ref=e363]:
+                    - cell "test, (Directory)" [ref=e364]:
+                      - generic [ref=e365]:
+                        - img [ref=e366]
+                        - link "test, (Directory)" [ref=e371] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/test
+                          - text: test
+                    - cell [ref=e372]
+                    - cell [ref=e374]
+                  - row "tools, (Directory)" [ref=e377]:
+                    - cell "tools, (Directory)" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - link "tools, (Directory)" [ref=e385] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/tree/main/tools
+                          - text: tools
+                    - cell [ref=e386]
+                    - cell [ref=e388]
+                  - row ".gitattributes, (File)" [ref=e391]:
+                    - cell ".gitattributes, (File)" [ref=e392]:
+                      - generic [ref=e393]:
+                        - img [ref=e394]
+                        - link ".gitattributes, (File)" [ref=e399] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell [ref=e400]
+                    - cell [ref=e402]
+                  - row ".gitignore, (File)" [ref=e405]:
+                    - cell ".gitignore, (File)" [ref=e406]:
+                      - generic [ref=e407]:
+                        - img [ref=e408]
+                        - link ".gitignore, (File)" [ref=e413] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e414]
+                    - cell [ref=e416]
+                  - row ".python-version, (File)" [ref=e419]:
+                    - cell ".python-version, (File)" [ref=e420]:
+                      - generic [ref=e421]:
+                        - img [ref=e422]
+                        - link ".python-version, (File)" [ref=e427] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/.python-version
+                          - text: .python-version
+                    - cell [ref=e428]
+                    - cell [ref=e430]
+                  - row "LICENSE, (File)" [ref=e433]:
+                    - cell "LICENSE, (File)" [ref=e434]:
+                      - generic [ref=e435]:
+                        - img [ref=e436]
+                        - link "LICENSE, (File)" [ref=e441] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell [ref=e442]
+                    - cell [ref=e444]
+                  - row "README.md, (File)" [ref=e447]:
+                    - cell "README.md, (File)" [ref=e448]:
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - link "README.md, (File)" [ref=e455] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e456]
+                    - cell [ref=e458]
+                  - row "async_db.py, (File)" [ref=e461]:
+                    - cell "async_db.py, (File)" [ref=e462]:
+                      - generic [ref=e463]:
+                        - img [ref=e464]
+                        - link "async_db.py, (File)" [ref=e469] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/async_db.py
+                          - text: async_db.py
+                    - cell [ref=e470]
+                    - cell [ref=e472]
+                  - row "async_sqlite_db.py, (File)" [ref=e475]:
+                    - cell "async_sqlite_db.py, (File)" [ref=e476]:
+                      - generic [ref=e477]:
+                        - img [ref=e478]
+                        - link "async_sqlite_db.py, (File)" [ref=e483] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/async_sqlite_db.py
+                          - text: async_sqlite_db.py
+                    - cell [ref=e484]
+                    - cell [ref=e486]
+                  - row "db.py, (File)" [ref=e489]:
+                    - cell "db.py, (File)" [ref=e490]:
+                      - generic [ref=e491]:
+                        - img [ref=e492]
+                        - link "db.py, (File)" [ref=e497] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/db.py
+                          - text: db.py
+                    - cell [ref=e498]
+                    - cell [ref=e500]
+                  - row "main.py, (File)" [ref=e503]:
+                    - cell "main.py, (File)" [ref=e504]:
+                      - generic [ref=e505]:
+                        - img [ref=e506]
+                        - link "main.py, (File)" [ref=e511] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/main.py
+                          - text: main.py
+                    - cell [ref=e512]
+                    - cell [ref=e514]
+                  - row "mypy.ini, (File)" [ref=e517]:
+                    - cell "mypy.ini, (File)" [ref=e518]:
+                      - generic [ref=e519]:
+                        - img [ref=e520]
+                        - link "mypy.ini, (File)" [ref=e525] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/mypy.ini
+                          - text: mypy.ini
+                    - cell [ref=e526]
+                    - cell [ref=e528]
+                  - row "pyproject.toml, (File)" [ref=e531]:
+                    - cell "pyproject.toml, (File)" [ref=e532]:
+                      - generic [ref=e533]:
+                        - img [ref=e534]
+                        - link "pyproject.toml, (File)" [ref=e539] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell [ref=e540]
+                    - cell [ref=e542]
+                  - row "recv_sms.py, (File)" [ref=e545]:
+                    - cell "recv_sms.py, (File)" [ref=e546]:
+                      - generic [ref=e547]:
+                        - img [ref=e548]
+                        - link "recv_sms.py, (File)" [ref=e553] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/recv_sms.py
+                          - text: recv_sms.py
+                    - cell [ref=e554]
+                    - cell [ref=e556]
+                  - row "uv.lock, (File)" [ref=e559]:
+                    - cell "uv.lock, (File)" [ref=e560]:
+                      - generic [ref=e561]:
+                        - img [ref=e562]
+                        - link "uv.lock, (File)" [ref=e567] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/uv.lock
+                          - text: uv.lock
+                    - cell [ref=e568]
+                    - cell [ref=e570]
+                  - row "var.py, (File)" [ref=e573]:
+                    - cell "var.py, (File)" [ref=e574]:
+                      - generic [ref=e575]:
+                        - img [ref=e576]
+                        - link "var.py, (File)" [ref=e581] [cursor=pointer]:
+                          - /url: /Bowenwin/MediaCrawler_MCP_Server/blob/main/var.py
+                          - text: var.py
+                    - cell [ref=e582]
+                    - cell [ref=e584]
+            - generic [ref=e588]:
+              - generic [ref=e589]:
+                - heading "Repository files navigation" [level=2] [ref=e590]
+                - navigation "Repository files" [ref=e591]:
+                  - list [ref=e592]:
+                    - listitem [ref=e593]:
+                      - link "README" [ref=e594] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e596]
+                        - generic [ref=e598]: README
+                    - listitem [ref=e599]:
+                      - link "MIT license" [ref=e600] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e602]
+                        - generic [ref=e604]: MIT license
+                - button "Outline" [ref=e605] [cursor=pointer]:
+                  - img [ref=e606]
+              - article [ref=e609]:
+                - generic [ref=e610]:
+                  - heading "🔥 MediaCrawler_MCP_Server - MCP for MediaCrawler 🕷️" [level=1] [ref=e611]
+                  - 'link "Permalink: 🔥 MediaCrawler_MCP_Server - MCP for MediaCrawler 🕷️" [ref=e612] [cursor=pointer]':
+                    - /url: "#-mediacrawler_mcp_server---mcp-for-mediacrawler-️"
+                    - img [ref=e613]
+                - generic [ref=e615]:
+                  - heading "🔗 MediaCrawler仓库地址" [level=2] [ref=e616]
+                  - 'link "Permalink: 🔗 MediaCrawler仓库地址" [ref=e617] [cursor=pointer]':
+                    - /url: "#-mediacrawler仓库地址"
+                    - img [ref=e618]
+                - paragraph [ref=e620]:
+                  - link "https://github.com/NanmiCoder/MediaCrawler" [ref=e621] [cursor=pointer]:
+                    - /url: https://github.com/NanmiCoder/MediaCrawler
+                - generic [ref=e622]:
+                  - heading "🔧 基于MediaCrawler改进" [level=2] [ref=e623]
+                  - 'link "Permalink: 🔧 基于MediaCrawler改进" [ref=e624] [cursor=pointer]':
+                    - /url: "#--基于mediacrawler改进"
+                    - img [ref=e625]
+                - list [ref=e627]:
+                  - listitem [ref=e628]:
+                    - strong [ref=e629]: python版本
+                    - text: ：所有包版本可用于python 3.13，以支持mcp的使用
+                  - listitem [ref=e630]:
+                    - strong [ref=e631]: mysql存储
+                    - text: ：如表已经存在，初始化不会覆盖原有数据
+                - paragraph [ref=e632]: ✨ 更多设置（config）可见MediaCrawler仓库
+                - generic [ref=e633]:
+                  - heading "🧰 可使用的MCP工具" [level=2] [ref=e634]
+                  - 'link "Permalink: 🧰 可使用的MCP工具" [ref=e635] [cursor=pointer]':
+                    - /url: "#-可使用的mcp工具"
+                    - img [ref=e636]
+                - list [ref=e638]:
+                  - listitem [ref=e639]:
+                    - strong [ref=e640]: "crawl_search(platform: str, store_type: str, keywords: str)"
+                    - text: "- Start the crawler for the media platform by keywords"
+                  - listitem [ref=e641]:
+                    - strong [ref=e642]: "crawl_detail(platform: str, store_type: str, video_id: list):"
+                    - text: "- Start the crawler for the media platform by video ID"
+                  - listitem [ref=e643]:
+                    - strong [ref=e644]: "crawl_creator(platform: str, store_type: str, creator_id: list)"
+                    - text: "- Start the crawler for the media platform by creator id."
+                - generic [ref=e645]:
+                  - heading "📦 Python包安装" [level=2] [ref=e646]
+                  - 'link "Permalink: 📦 Python包安装" [ref=e647] [cursor=pointer]':
+                    - /url: "#-python包安装"
+                    - img [ref=e648]
+                - generic [ref=e650]:
+                  - generic [ref=e651]:
+                    - generic [ref=e652]: "# 进入项目目录"
+                    - text: cd MediaCrawler_MCP_Server
+                    - generic [ref=e653]: "# 使用 uv sync 命令来保证 python 版本和相关依赖包的一致性"
+                    - text: uv sync
+                  - button "Copy" [ref=e655] [cursor=pointer]:
+                    - img [ref=e656]
+                - generic [ref=e659]:
+                  - heading "🌐 浏览器驱动安装" [level=2] [ref=e660]
+                  - 'link "Permalink: 🌐 浏览器驱动安装" [ref=e661] [cursor=pointer]':
+                    - /url: "#-浏览器驱动安装"
+                    - img [ref=e662]
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: "# 安装浏览器驱动"
+                    - text: uv run playwright install
+                  - button "Copy" [ref=e668] [cursor=pointer]:
+                    - img [ref=e669]
+                - generic [ref=e672]:
+                  - heading "⚙️ 设置" [level=2] [ref=e673]
+                  - 'link "Permalink: ⚙️ 设置" [ref=e674] [cursor=pointer]':
+                    - /url: "#️-设置"
+                    - img [ref=e675]
+                - paragraph [ref=e677]: "设置环境变量:"
+                - generic [ref=e678]:
+                  - generic [ref=e679]:
+                    - text: MYSQL_DB_HOST=localhost
+                    - generic [ref=e680]: "# Database host"
+                    - text: MYSQL_DB_PORT=3306
+                    - generic [ref=e681]: "# Optional: Database port (defaults to 3306 if not specified)"
+                    - text: MYSQL_DB_USER=your_username MYSQL_DB_PWD=your_password MYSQL_DB_NAME=your_database CRAWLER_MAX_NOTES_COUNT=20
+                    - generic [ref=e682]: "# number of notes you want to crawl"
+                    - text: MAX_CONCURRENCY_NUM=1
+                    - generic [ref=e683]: "# number of concurrent crawlers"
+                    - text: ENABLE_GET_COMMENTS=true
+                    - generic [ref=e684]: "# crawl the comments or not"
+                  - button "Copy" [ref=e686] [cursor=pointer]:
+                    - img [ref=e687]
+                - generic [ref=e690]:
+                  - heading "🚀 使用" [level=2] [ref=e691]
+                  - 'link "Permalink: 🚀 使用" [ref=e692] [cursor=pointer]':
+                    - /url: "#-使用"
+                    - img [ref=e693]
+                - paragraph [ref=e695]:
+                  - text: 添加至
+                  - code [ref=e696]: claude_desktop_config.json
+                  - text: or
+                  - code [ref=e697]: cline_mcp_settings.json
+                - generic [ref=e698]:
+                  - generic [ref=e699]:
+                    - text: "\"mediacrawler\": { \"disabled\": false, \"timeout\": 600, \"type\":"
+                    - generic [ref=e700]: "\"stdio\""
+                    - text: ", \"command\":"
+                    - generic [ref=e701]: "\"uv\""
+                    - text: ", \"args\": ["
+                    - generic [ref=e702]: "\"--directory\""
+                    - text: ","
+                    - generic [ref=e703]: "\"path/to/MediaCrawler_MCP_Server\""
+                    - text: ","
+                    - generic [ref=e704]: "\"run\""
+                    - text: ","
+                    - generic [ref=e705]: "\"main.py\""
+                    - text: "], \"env\": { \"MYSQL_DB_HOST\":"
+                    - generic [ref=e706]: "\"localhost\""
+                    - text: ", \"MYSQL_DB_PORT\":"
+                    - generic [ref=e707]: "\"3306\""
+                    - text: ", \"MYSQL_DB_USER\":"
+                    - generic [ref=e708]: "\"your_username\""
+                    - text: ", \"MYSQL_DB_NAME\":"
+                    - generic [ref=e709]: "\"your_database\""
+                    - text: ", \"MYSQL_DB_PWD\":"
+                    - generic [ref=e710]: "\"your_password\""
+                    - text: ", \"CRAWLER_MAX_NOTES_COUNT\":"
+                    - generic [ref=e711]: "\"20\""
+                    - text: ", \"MAX_CONCURRENCY_NUM\":"
+                    - generic [ref=e712]: "\"1\""
+                    - text: ", \"ENABLE_GET_COMMENTS\":"
+                    - generic [ref=e713]: "\"true\""
+                    - text: "} }"
+                  - button "Copy" [ref=e715] [cursor=pointer]:
+                    - img [ref=e716]
+                - generic [ref=e719]:
+                  - heading "🌰 例子" [level=2] [ref=e720]
+                  - 'link "Permalink: 🌰 例子" [ref=e721] [cursor=pointer]':
+                    - /url: "#-例子"
+                    - img [ref=e722]
+                - list [ref=e724]:
+                  - listitem [ref=e725]:
+                    - code [ref=e726]: 帮我爬取b站视频资料，关键词为"钱"，存储模式为mysql。
+                  - listitem [ref=e727]:
+                    - code [ref=e728]: 帮我爬取b站视频号为BV1d54y1g7db,BV1Sz4y1U77N的视频存储模式为json。
+                  - listitem [ref=e729]:
+                    - code [ref=e730]: 帮我爬取b站up主视频资料，其id为20813884,存储模式为csv。
+        - generic [ref=e734]:
+          - generic [ref=e737]:
+            - heading "About" [level=2] [ref=e738]
+            - paragraph [ref=e739]: MCP_Server for MediaCrawler. To Use MediaCrawler conveniently
+            - heading "Resources" [level=3] [ref=e740]
+            - link "Readme" [ref=e742] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e743]
+              - text: Readme
+            - heading "License" [level=3] [ref=e745]
+            - link "MIT license" [ref=e747] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e748]
+              - text: MIT license
+            - link "Activity" [ref=e751] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/activity
+              - img [ref=e752]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e754]
+            - link "36 stars" [ref=e756] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/stargazers
+              - img [ref=e757]
+              - strong [ref=e759]: "36"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e760]
+            - link "0 watching" [ref=e762] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/watchers
+              - img [ref=e763]
+              - strong [ref=e765]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e766]
+            - link "3 forks" [ref=e768] [cursor=pointer]:
+              - /url: /Bowenwin/MediaCrawler_MCP_Server/forks
+              - img [ref=e769]
+              - strong [ref=e771]: "3"
+              - text: forks
+            - link "Report repository" [ref=e773] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FBowenwin%2FMediaCrawler_MCP_Server&report=Bowenwin+%28user%29
+          - generic [ref=e775]:
+            - heading "Releases" [level=2] [ref=e776]:
+              - link "Releases" [ref=e777] [cursor=pointer]:
+                - /url: /Bowenwin/MediaCrawler_MCP_Server/releases
+            - generic [ref=e778]: No releases published
+          - generic "Loading latest packages" [ref=e781]:
+            - heading "Packages" [level=2] [ref=e782]:
+              - link "Packages" [ref=e783] [cursor=pointer]:
+                - /url: /users/Bowenwin/packages?repo_name=MediaCrawler_MCP_Server
+          - generic "Loading contributors" [ref=e795]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e796]:
+                - link "Contributors" [ref=e797] [cursor=pointer]:
+                  - /url: /Bowenwin/MediaCrawler_MCP_Server/graphs/contributors
+              - list [ref=e798]:
+                - listitem [ref=e799]
+                - listitem [ref=e801]
+                - listitem [ref=e803]
+          - generic [ref=e806]:
+            - heading "Languages" [level=2] [ref=e807]
+            - list [ref=e811]:
+              - listitem [ref=e812]:
+                - link "Python 100.0%" [ref=e813] [cursor=pointer]:
+                  - /url: /Bowenwin/MediaCrawler_MCP_Server/search?l=python
+                  - img [ref=e814]
+                  - generic [ref=e816]: Python
+                  - generic [ref=e817]: 100.0%
+  - contentinfo [ref=e819]:
+    - heading "Footer" [level=2] [ref=e820]
+    - generic [ref=e821]:
+      - generic [ref=e822]:
+        - link "GitHub Homepage" [ref=e823] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e824]
+        - generic [ref=e826]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e827]:
+        - heading "Footer navigation" [level=3] [ref=e828]
+        - list "Footer navigation" [ref=e829]:
+          - listitem [ref=e830]:
+            - link "Terms" [ref=e831] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e832]:
+            - link "Privacy" [ref=e833] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e834]:
+            - link "Security" [ref=e835] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e836]:
+            - link "Status" [ref=e837] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e838]:
+            - link "Community" [ref=e839] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e840]:
+            - link "Docs" [ref=e841] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e842]:
+            - link "Contact" [ref=e843] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e844]:
+            - button "Manage cookies" [ref=e846] [cursor=pointer]
+          - listitem [ref=e847]:
+            - button "Do not share my personal information" [ref=e849] [cursor=pointer]

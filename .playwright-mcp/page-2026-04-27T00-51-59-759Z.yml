@@ -1,0 +1,312 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dchinese%2Bsentiment%2Banalysis%2Bkeyword%2Bpython%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · chinese sentiment analysis keyword python" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=code&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories (1) results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: "1"
+                          - generic: (1)
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues (191) results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=issues&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: "191"
+                          - generic: (191)
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests (53) results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=pullrequests&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: "53"
+                          - generic: (53)
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions (12) results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=discussions&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: "12"
+                          - generic: (12)
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users (0) results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python&type=users&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: "0"
+                          - generic: (0)
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]:
+                - heading "Advanced" [level=3] [ref=e109]
+                - list "Advanced" [ref=e110]:
+                  - listitem [ref=e111]:
+                    - button "Owner" [ref=e112] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e116]
+                  - listitem [ref=e117]:
+                    - button "Size" [ref=e118] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e122]
+                  - listitem [ref=e123]:
+                    - button "Number of followers" [ref=e124] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e128]
+                  - listitem [ref=e129]:
+                    - button "Number of forks" [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e134]
+                  - listitem [ref=e135]:
+                    - button "Number of stars" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Date created" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e146]
+                  - listitem [ref=e147]:
+                    - button "Date pushed" [ref=e148] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Topic" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "License" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Archived" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e170]
+                  - listitem [ref=e171]:
+                    - link "Public" [ref=e172] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python+is%3Apublic&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e176]
+                  - listitem [ref=e177]:
+                    - link "Private" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/search?q=chinese+sentiment+analysis+keyword+python+is%3Aprivate&type=repositories&sort=stars&order=desc
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e182]
+              - listitem [ref=e183]
+              - listitem [ref=e184]:
+                - link "Advanced search" [ref=e185] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e187]: Advanced search
+          - slider "Draggable pane splitter" [ref=e189]
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 1 result
+                  - generic [ref=e199]: (113 ms)
+                - heading "1 result" [active] [level=2] [ref=e200]
+              - generic [ref=e201]:
+                - 'button "Sort by: Best match" [ref=e203] [cursor=pointer]':
+                  - generic [ref=e205]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e207] [cursor=pointer]:
+                  - img [ref=e208]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - heading "althea-yuquan-chen/analysis-of-weibo-trending-keywords" [level=3] [ref=e216]:
+                  - link "althea-yuquan-chen/analysis-of-weibo-trending-keywords" [ref=e220] [cursor=pointer]:
+                    - /url: /althea-yuquan-chen/analysis-of-weibo-trending-keywords
+                    - generic [ref=e221]:
+                      - text: althea-yuquan-chen/
+                      - emphasis [ref=e222]: analysis
+                      - text: "-of-weibo-trending-keywords"
+                - generic [ref=e224]:
+                  - text: Empirical
+                  - emphasis [ref=e225]: analysis
+                  - text: of Weibo trending
+                  - emphasis [ref=e226]: keywords
+                  - text: "(2021–2023): hotness factors,"
+                  - emphasis [ref=e227]: sentiment
+                  - text: ", and classification models"
+                - generic [ref=e228]:
+                  - link "python" [ref=e230] [cursor=pointer]:
+                    - /url: /topics/python
+                  - link "nlp" [ref=e232] [cursor=pointer]:
+                    - /url: /topics/nlp
+                  - link "social-media" [ref=e234] [cursor=pointer]:
+                    - /url: /topics/social-media
+                  - link "sentiment-analysis" [ref=e236] [cursor=pointer]:
+                    - /url: /topics/sentiment-analysis
+                  - link "neural-network" [ref=e238] [cursor=pointer]:
+                    - /url: /topics/neural-network
+                - list [ref=e239]:
+                  - listitem [ref=e240]:
+                    - generic "Jupyter Notebook language" [ref=e243]: Jupyter Notebook
+                  - generic [ref=e244]: ·
+                  - listitem [ref=e245]:
+                    - link "2 stars" [ref=e246] [cursor=pointer]:
+                      - /url: /althea-yuquan-chen/analysis-of-weibo-trending-keywords/stargazers
+                      - img [ref=e247]
+                      - generic [ref=e249]: "2"
+                  - generic [ref=e250]: ·
+                  - listitem [ref=e251]:
+                    - generic [ref=e252]:
+                      - text: Updated
+                      - generic "Apr 20, 2026, 7:59 PM UTC" [ref=e253]: 6 days ago
+              - link "Star" [ref=e256] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dchinese%2Bsentiment%2Banalysis%2Bkeyword%2Bpython%26type%3Drepositories%26sort%3Dstars%26order%3Ddesc
+                - generic [ref=e257]:
+                  - generic:
+                    - img
+                  - generic [ref=e258]: Star
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - img "python" [ref=e263]
+                - generic [ref=e264]: Python
+              - generic [ref=e265]: Python is a dynamically typed programming language.
+              - list [ref=e266]:
+                - listitem [ref=e267]:
+                  - link "github.com" [ref=e268] [cursor=pointer]:
+                    - /url: https://github.com/topics/python
+                    - generic:
+                      - img
+                    - generic [ref=e270]: github.com
+                - listitem [ref=e271]:
+                  - link "Wikipedia" [ref=e272] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Python_(programming_language)
+                    - generic:
+                      - img
+                    - generic [ref=e274]: Wikipedia
+                - listitem [ref=e275]:
+                  - link "python" [ref=e276] [cursor=pointer]:
+                    - /url: https://github.com/python
+                    - generic:
+                      - img
+                    - generic [ref=e278]: python
+                - listitem [ref=e279]:
+                  - link "View topic" [ref=e280] [cursor=pointer]:
+                    - /url: /topics/python
+                    - generic:
+                      - img
+                    - generic [ref=e282]: View topic
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - img "Package icon" [ref=e286]
+                - heading "Sponsor open source projects you depend on" [level=2] [ref=e287]
+                - generic [ref=e288]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+                - link "Explore sponsorable projects" [ref=e289] [cursor=pointer]:
+                  - /url: https://github.com/sponsors/explore
+                  - text: Explore sponsorable projects
+                  - img [ref=e290]
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - img [ref=e294]
+                  - text: ProTip!
+                - generic [ref=e296]:
+                  - text: Press the
+                  - generic [ref=e297]: /
+                  - text: key to activate the search input again and adjust your query.

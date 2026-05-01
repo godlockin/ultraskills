@@ -1,91 +1,101 @@
 {
   "template-skill": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.8,
       3.8,
       3.8
     ],
     "cluster": "skills-mgmt",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"browserstack\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"report\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"review\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"migrate\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"runbook-generator\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "engineering-code",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"testrail\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"fix\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "\"coverage\"": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.7,
       3.7,
       3.7
     ],
     "cluster": "skills-browser",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "dbs": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.7,
       3.7
     ],
     "cluster": "misc",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   }
 }
