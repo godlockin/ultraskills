@@ -64,7 +64,7 @@
   {
     "id": "business-clevel",
     "name": "商业·高管顾问",
-    "skill_count": 38,
+    "skill_count": 39,
     "winner": "\"customer-success-manager\"",
     "skills": [
       "\"customer-success-manager\"",
@@ -80,6 +80,7 @@
       "\"coo-advisor\"",
       "\"cpo-advisor\"",
       "\"scenario-war-room\"",
+      "data-viz",
       "revops",
       "\"board-deck-builder\"",
       "\"ceo-advisor\"",
@@ -114,13 +115,13 @@
     "winner": "gh-fix-ci",
     "skills": [
       "gh-fix-ci",
+      "ultraskills-hub",
       "pua-en",
       "\"github-skill-scout\"",
       "github-to-skills",
       "pua",
       "skill-manager",
       "skill-sync-manager",
-      "ultraskills-hub",
       "pua-ja",
       "\"docker-development\"",
       "\"terraform-patterns\"",
@@ -265,13 +266,42 @@
     ]
   },
   {
+    "id": "content-video",
+    "name": "内容·视频",
+    "skill_count": 20,
+    "winner": "remotion",
+    "skills": [
+      "remotion",
+      "video-content-analyzer",
+      "video-analyzer",
+      "\"video-frame-extractor\"",
+      "zero-debt-lint",
+      "video-translate",
+      "video-transcriber",
+      "video-content-strategist",
+      "video-scene-splitter",
+      "\"demo-video\"",
+      "\"image-to-video\"",
+      "\"video-splitter\"",
+      "huashu-video-check",
+      "videocut:剪口播",
+      "videocut:高清化",
+      "huashu-video-outline",
+      "videocut:字幕",
+      "huashu-douyin-script",
+      "videocut:安装",
+      "videocut:自进化"
+    ]
+  },
+  {
     "id": "engineering-arch",
     "name": "工程·架构",
-    "skill_count": 18,
+    "skill_count": 19,
     "winner": "design-an-interface",
     "skills": [
       "design-an-interface",
       "ubiquitous-language",
+      "information-architecture",
       "mcp-builder",
       "mcp-integration",
       "site-architecture",
@@ -288,6 +318,32 @@
       "\"rag-architect\"",
       "\"interview-system-designer\"",
       "\"migration-architect\""
+    ]
+  },
+  {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 18,
+    "winner": "awesome-design-md",
+    "skills": [
+      "awesome-design-md",
+      "deck-that-wins",
+      "mac-tts",
+      "mac-voice-clone",
+      "ui-ux-pro-max-skill",
+      "aso-audit",
+      "mac-whisper",
+      "spreadsheet-formula-helper",
+      "to-prd",
+      "community-marketing",
+      "audio-clean",
+      "design-tokens",
+      "figma-to-code",
+      "icon-system",
+      "meeting-notes-and-actions",
+      "motion-design",
+      "poster-print-design",
+      "claude-opus-4-5-migration"
     ]
   },
   {
@@ -337,6 +393,29 @@
       "huashu-prompt-save",
       "huashu-research",
       "huashu-info-search"
+    ]
+  },
+  {
+    "id": "business-pm",
+    "name": "商业·项目管理",
+    "skill_count": 15,
+    "winner": "learn-from-loss",
+    "skills": [
+      "learn-from-loss",
+      "to-issues",
+      "\"scrum-master\"",
+      "grill-me",
+      "\"confluence-expert\"",
+      "\"senior-pm\"",
+      "\"tc-tracker\"",
+      "\"atlassian-templates\"",
+      "\"jira-expert\"",
+      "meeting-analyzer",
+      "\"pm-skills\"",
+      "\"atlassian-admin\"",
+      "team-communications",
+      "\"skill-tester\"",
+      "sample-skill"
     ]
   },
   {
@@ -409,47 +488,25 @@
     ]
   },
   {
-    "id": "business-pm",
-    "name": "商业·项目管理",
+    "id": "engineering-ml",
+    "name": "工程·ML/AI",
     "skill_count": 14,
-    "winner": "to-issues",
+    "winner": "chinese-text-analysis",
     "skills": [
-      "to-issues",
-      "\"scrum-master\"",
-      "grill-me",
-      "\"confluence-expert\"",
-      "\"senior-pm\"",
-      "\"tc-tracker\"",
-      "\"atlassian-templates\"",
-      "\"jira-expert\"",
-      "meeting-analyzer",
-      "\"pm-skills\"",
-      "\"atlassian-admin\"",
-      "team-communications",
-      "\"skill-tester\"",
-      "sample-skill"
-    ]
-  },
-  {
-    "id": "content-video",
-    "name": "内容·视频",
-    "skill_count": 14,
-    "winner": "remotion",
-    "skills": [
-      "remotion",
-      "\"video-frame-extractor\"",
-      "video-content-strategist",
-      "\"demo-video\"",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
-      "huashu-video-check",
-      "videocut:剪口播",
-      "videocut:高清化",
-      "huashu-video-outline",
-      "videocut:字幕",
-      "huashu-douyin-script",
-      "videocut:安装",
-      "videocut:自进化"
+      "chinese-text-analysis",
+      "llm-wiki",
+      "\"self-improving-agent\"",
+      "llm-cost-optimizer",
+      "\"agenthub\"",
+      "\"senior-computer-vision\"",
+      "\"tech-stack-evaluator\"",
+      "\"agent-designer\"",
+      "\"self-eval\"",
+      "\"extract\"",
+      "\"remember\"",
+      "\"eval\"",
+      "\"board\"",
+      "\"agent-workflow-designer\""
     ]
   },
   {
@@ -471,27 +528,6 @@
       "huashu-article-edit",
       "\"email-template-builder\"",
       "caveman-help"
-    ]
-  },
-  {
-    "id": "engineering-ml",
-    "name": "工程·ML/AI",
-    "skill_count": 13,
-    "winner": "llm-wiki",
-    "skills": [
-      "llm-wiki",
-      "\"self-improving-agent\"",
-      "llm-cost-optimizer",
-      "\"agenthub\"",
-      "\"senior-computer-vision\"",
-      "\"tech-stack-evaluator\"",
-      "\"agent-designer\"",
-      "\"self-eval\"",
-      "\"extract\"",
-      "\"remember\"",
-      "\"eval\"",
-      "\"board\"",
-      "\"agent-workflow-designer\""
     ]
   },
   {
@@ -595,11 +631,12 @@
   {
     "id": "content-social",
     "name": "内容·社交媒体",
-    "skill_count": 10,
+    "skill_count": 11,
     "winner": "\"social-content\"",
     "skills": [
       "\"social-content\"",
       "social-content",
+      "mediacrawler",
       "huashu-agent-swarm",
       "huashu-article-to-x",
       "huashu-speech-coach",
@@ -608,23 +645,6 @@
       "x-mastery-mentor",
       "huashu-topic-gen",
       "khazix-writer"
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 9,
-    "winner": "awesome-design-md",
-    "skills": [
-      "awesome-design-md",
-      "ui-ux-pro-max-skill",
-      "aso-audit",
-      "mac-whisper",
-      "spreadsheet-formula-helper",
-      "to-prd",
-      "community-marketing",
-      "meeting-notes-and-actions",
-      "claude-opus-4-5-migration"
     ]
   },
   {

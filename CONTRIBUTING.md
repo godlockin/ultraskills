@@ -85,8 +85,21 @@ Skill 应该是**原子化**的：
 
 1. **Copy** `_template_skill/` 到目标分类目录（`community/` 或 `engineering/` 等）
 2. **Fill** 填充 SKILL.md 内容，遵循上述标准
-3. **Test** 本地试用：`Skill("my-new-skill")` 或直接 Read SKILL.md
-4. **Index** 更新 `index.json`，或让 Claude 自动更新
+3. **Validate** 校验结构：
+   ```bash
+   python3 devops/skill-manager/scripts/scan_and_check.py community/my-new-skill/
+   ```
+4. **Test** 本地试用：`Skill("my-new-skill")` 或直接 Read SKILL.md
+5. **Index** 重建索引（扫描 → 聚类评分 → 写入 index.json）：
+   ```bash
+   python3 scripts/arena_scan.py && \
+   python3 scripts/arena_cluster_score.py && \
+   python3 scripts/arena_build_index.py
+   ```
+6. **Verify** 验证搜索能找到：
+   ```bash
+   python3 devops/ultraskills-hub/scripts/search.py my new skill
+   ```
 
 ### 引入外部 GitHub Skills 项目
 
@@ -101,7 +114,8 @@ Skill("github-to-skills")
 ```bash
 git clone https://github.com/org/skills-repo external/skills-repo
 # 然后在 SKILL.md 里注入 github_url/github_hash
-# 更新 index.json
+# 重建索引
+python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && python3 scripts/arena_build_index.py
 ```
 
 ### 追踪外部 Skill 更新
@@ -112,7 +126,13 @@ github_url: https://github.com/org/repo
 github_hash: abc1234def   # import 时的 commit hash，用于检测更新
 ```
 
-检查上游更新：`Skill("skill-manager")` → check
+检查并同步上游更新：
+```bash
+python3 devops/skill-sync-manager/scripts/check_updates.py
+python3 devops/skill-sync-manager/scripts/sync_submodules.py
+# 同步后重建索引
+python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && python3 scripts/arena_build_index.py
+```
 
 ---
 
@@ -126,5 +146,37 @@ github_hash: abc1234def   # import 时的 commit hash，用于检测更新
 - [ ] 包含至少一个高质量示例
 - [ ] `index.json` 已更新
 - [ ] 文档清晰、无错别字
+
+---
+
+## 🔧 项目自身强化
+
+### 改进搜索算法
+
+文件：`devops/ultraskills-hub/scripts/search.py` → `search()` 函数
+
+评分链：id 匹配 → tag 匹配 → 描述词频 → arena bonus。
+改进方向：中文分词、fuzzy match、权重调优。
+
+### 添加 Arena 测试套件
+
+目录：`devops/skill-arena/test-suites/<cluster>/`
+```bash
+# 参考已有 tests.yaml 格式新建
+# 运行评测
+cd devops/skill-arena && bash run.sh test
+```
+
+### 改进评分维度
+
+文件：`scripts/arena_cluster_score.py` → `score_skill()`
+扩展新维度后重跑 pipeline。
+
+### 增强 Skill 校验
+
+文件：`devops/skill-manager/scripts/scan_and_check.py`
+可增强：脚本引用检查、examples 内容检查、tag 标准化。
+
+---
 
 让每一个 Skill 都成为精品！🚀

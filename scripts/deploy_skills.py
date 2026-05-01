@@ -226,17 +226,55 @@ def _ensure_dir(path: Path):
 
 
 def cmd_deploy(args):
-    """把所有 skills 软链接到各 IDE 的 skills 目录。"""
+    """
+    把 skills 软链接到各 IDE 的 skills 目录。
+
+    默认 hub-only 模式：只部署 ultraskills-hub 一个入口，
+    AI 工具通过 hub 搜索 index.json 按需加载具体 skill。
+    用 --all 部署全部 skill symlink（不推荐，context 很大）。
+    """
     dry = getattr(args, "dry_run", False)
+    hub_only = not getattr(args, "all", False)
     mode = "DRY RUN" if dry else "DEPLOY"
-    print(f"🔗 {mode}: deploying skills to IDE dirs...")
+    scope = "hub-only" if hub_only else "ALL skills"
+    print(f"🔗 {mode} ({scope}): deploying skills to IDE dirs...")
 
     if not INDEX_PATH.exists():
         print("❌ index.json not found. Run 'scan' first.")
+        print("   Fix: python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && python3 scripts/arena_build_index.py")
         sys.exit(1)
 
-    index = json.loads(INDEX_PATH.read_text())
+    _repair_cmd = (
+        "python3 scripts/arena_scan.py && "
+        "python3 scripts/arena_cluster_score.py && "
+        "python3 scripts/arena_build_index.py"
+    )
+    try:
+        index = json.loads(INDEX_PATH.read_text())
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"❌ index.json is corrupted or incomplete (invalid JSON: {e}). Run:")
+        print(f"   {_repair_cmd}")
+        sys.exit(1)
+
+    if not isinstance(index, dict) or ("version" not in index and "meta" not in index):
+        print("❌ index.json is corrupted or incomplete (missing 'version' or 'meta' key). Run:")
+        print(f"   {_repair_cmd}")
+        sys.exit(1)
+    if "skills" not in index or not isinstance(index.get("skills"), list) or len(index["skills"]) == 0:
+        print("⚠️ index.json is corrupted or incomplete ('skills' must be a non-empty list). Run:")
+        print(f"   {_repair_cmd}")
+        sys.exit(1)
+
     skills = index["skills"]
+
+    # hub-only: only deploy ultraskills-hub
+    if hub_only:
+        hub_skill = next((s for s in skills if s["id"] == "ultraskills-hub"), None)
+        if not hub_skill:
+            print("❌ ultraskills-hub not found in index.json")
+            print("   Fix: Run scan first: python3 scripts/deploy_skills.py scan")
+            sys.exit(1)
+        skills = [hub_skill]
 
     stats = {"created": 0, "updated": 0, "skipped": 0, "error": 0}
 
@@ -245,19 +283,30 @@ def cmd_deploy(args):
             _ensure_dir(target_base)
         print(f"\n  → {target_base}")
 
+        # hub-only mode: clean up old non-hub symlinks first
+        if hub_only and not dry and target_base.exists():
+            for link in target_base.iterdir():
+                if link.is_symlink() and link.name != "ultraskills-hub":
+                    link.unlink()
+
         for skill in skills:
             skill_id = skill["id"]
             skill_path = (PROJECT_ROOT / skill["path"].lstrip("./")).resolve()
 
             if not skill_path.exists():
                 print(f"    ⚠️  Missing: {skill['path']}")
+                print(f"       Fix: Check if skill was moved/deleted. Run: python3 scripts/deploy_skills.py scan")
                 stats["error"] += 1
                 continue
 
             link = target_base / skill_id
 
+            # Claude Code expects skill directories (with SKILL.md inside),
+            # so symlink to the parent directory, not SKILL.md itself
+            skill_dir = skill_path.parent
+
             # Already correct symlink
-            if link.is_symlink() and link.resolve() == skill_path:
+            if link.is_symlink() and link.resolve() == skill_dir:
                 stats["skipped"] += 1
                 continue
 
@@ -278,7 +327,12 @@ def cmd_deploy(args):
             else:
                 stats["created"] += 1
 
-            link.symlink_to(skill_path)
+            try:
+                link.symlink_to(skill_dir)
+            except OSError as e:
+                print(f"    ❌ Symlink failed for {skill_id}: {e}")
+                print(f"       Fix: check permissions with 'ls -la {target_base}' or run with sudo")
+                stats["error"] += 1
 
     print(f"\n✅ Done: {stats['created']} created, {stats['updated']} updated, "
           f"{stats['skipped']} skipped, {stats['error']} errors")
@@ -310,12 +364,13 @@ def cmd_status(args):
         return
 
     index = json.loads(INDEX_PATH.read_text())
-    skills = {s["id"] for s in index["skills"]}
-    stats = index.get("stats", {})
+    all_skills = {s["id"] for s in index["skills"]}
+    meta = index.get("meta", index.get("stats", {}))
+    total = meta.get("total_skills", meta.get("total", len(all_skills)))
 
-    print(f"📊 Index: {stats.get('total', len(skills))} skills "
-          f"(owned: {stats.get('owned', '?')}, external: {stats.get('external', '?')})")
-    print(f"   Generated: {index.get('generated_at', '?')}")
+    print(f"📊 Index: {total} skills, {meta.get('total_clusters', '?')} clusters, "
+          f"{meta.get('total_winners', '?')} winners")
+    print(f"   Arena avg: {meta.get('avg_arena_score', '?')}/10")
 
     for target_base in DEPLOY_TARGETS:
         if not target_base.exists():
@@ -324,18 +379,22 @@ def cmd_status(args):
 
         deployed = {p.name for p in target_base.iterdir() if p.is_symlink()}
         broken   = {p.name for p in target_base.iterdir() if p.is_symlink() and not p.exists()}
-        missing  = skills - deployed
-        extra    = deployed - skills
+        has_hub  = "ultraskills-hub" in deployed
+        extra    = deployed - all_skills
 
+        hub_status = "✓ hub deployed" if has_hub else "✗ hub MISSING"
         print(f"\n  {target_base}")
-        print(f"    deployed: {len(deployed)}  broken: {len(broken)}  "
-              f"missing: {len(missing)}  extra (not in index): {len(extra)}")
+        print(f"    {hub_status}  |  symlinks: {len(deployed)}  broken: {len(broken)}")
+        if has_hub and len(deployed) == 1:
+            print(f"    mode: hub-only (580 skills available via hub search)")
+        elif has_hub and len(deployed) > 1:
+            print(f"    mode: hub + {len(deployed)-1} direct skills")
         if broken:
             for b in sorted(broken)[:5]:
                 print(f"    ⚠️  BROKEN: {b}")
-        if missing:
-            for m in sorted(missing)[:5]:
-                print(f"    ❌ MISSING: {m}")
+        if extra:
+            for e in sorted(extra)[:5]:
+                print(f"    ❓ EXTRA (not in index): {e}")
 
 
 # ─── main ────────────────────────────────────────────────────────────────────
@@ -346,8 +405,9 @@ def main():
 
     sub.add_parser("scan",   help="Scan all skills and update index.json")
 
-    dp = sub.add_parser("deploy", help="Symlink skills to IDE dirs")
+    dp = sub.add_parser("deploy", help="Symlink skills to IDE dirs (default: hub-only)")
     dp.add_argument("--dry-run", action="store_true", help="Preview without changes")
+    dp.add_argument("--all", action="store_true", help="Deploy ALL skills (default: hub-only only)")
 
     sub.add_parser("clean",  help="Remove broken symlinks from IDE dirs")
     sub.add_parser("status", help="Show deployment status")
@@ -362,4 +422,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from pipeline_lock import PipelineLock
+    with PipelineLock("deploy_skills"):
+        main()

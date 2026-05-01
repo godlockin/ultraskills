@@ -19,14 +19,14 @@
     "cluster_name": "其他未分类",
     "winner": "awesome-design-md",
     "score": 10.0,
-    "runner_up": "ui-ux-pro-max-skill",
-    "total_contestants": 9,
+    "runner_up": "deck-that-wins",
+    "total_contestants": 18,
     "defeated": [
+      "deck-that-wins",
+      "mac-tts",
+      "mac-voice-clone",
       "ui-ux-pro-max-skill",
-      "aso-audit",
-      "mac-whisper",
-      "spreadsheet-formula-helper",
-      "to-prd"
+      "aso-audit"
     ]
   },
   {
@@ -34,14 +34,29 @@
     "cluster_name": "内容·视频",
     "winner": "remotion",
     "score": 9.7,
-    "runner_up": "\"video-frame-extractor\"",
-    "total_contestants": 14,
+    "runner_up": "video-content-analyzer",
+    "total_contestants": 20,
     "defeated": [
+      "video-content-analyzer",
+      "video-analyzer",
       "\"video-frame-extractor\"",
-      "video-content-strategist",
-      "\"demo-video\"",
-      "\"image-to-video\"",
-      "\"video-splitter\""
+      "zero-debt-lint",
+      "video-translate"
+    ]
+  },
+  {
+    "cluster": "business-pm",
+    "cluster_name": "商业·项目管理",
+    "winner": "learn-from-loss",
+    "score": 9.5,
+    "runner_up": "to-issues",
+    "total_contestants": 15,
+    "defeated": [
+      "to-issues",
+      "\"scrum-master\"",
+      "grill-me",
+      "\"confluence-expert\"",
+      "\"senior-pm\""
     ]
   },
   {
@@ -50,13 +65,13 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 18,
+    "total_contestants": 19,
     "defeated": [
       "ubiquitous-language",
+      "information-architecture",
       "mcp-builder",
       "mcp-integration",
-      "site-architecture",
-      "\"culture-architect\""
+      "site-architecture"
     ]
   },
   {
@@ -86,48 +101,33 @@
     ]
   },
   {
-    "cluster": "business-pm",
-    "cluster_name": "商业·项目管理",
-    "winner": "to-issues",
-    "score": 9.0,
-    "runner_up": "\"scrum-master\"",
-    "total_contestants": 14,
-    "defeated": [
-      "\"scrum-master\"",
-      "grill-me",
-      "\"confluence-expert\"",
-      "\"senior-pm\"",
-      "\"tc-tracker\""
-    ]
-  },
-  {
     "cluster": "engineering-devops",
     "cluster_name": "工程·DevOps",
     "winner": "gh-fix-ci",
     "score": 9.0,
-    "runner_up": "pua-en",
+    "runner_up": "ultraskills-hub",
     "total_contestants": 36,
     "defeated": [
+      "ultraskills-hub",
       "pua-en",
       "\"github-skill-scout\"",
       "github-to-skills",
-      "pua",
-      "skill-manager"
+      "pua"
     ]
   },
   {
     "cluster": "engineering-ml",
     "cluster_name": "工程·ML/AI",
-    "winner": "llm-wiki",
+    "winner": "chinese-text-analysis",
     "score": 9.0,
-    "runner_up": "\"self-improving-agent\"",
-    "total_contestants": 13,
+    "runner_up": "llm-wiki",
+    "total_contestants": 14,
     "defeated": [
+      "llm-wiki",
       "\"self-improving-agent\"",
       "llm-cost-optimizer",
       "\"agenthub\"",
-      "\"senior-computer-vision\"",
-      "\"tech-stack-evaluator\""
+      "\"senior-computer-vision\""
     ]
   },
   {
@@ -218,7 +218,7 @@
     "winner": "\"customer-success-manager\"",
     "score": 8.8,
     "runner_up": "\"agent-protocol\"",
-    "total_contestants": 38,
+    "total_contestants": 39,
     "defeated": [
       "\"agent-protocol\"",
       "\"chief-of-staff\"",
@@ -462,13 +462,13 @@
     "winner": "\"social-content\"",
     "score": 8.3,
     "runner_up": "social-content",
-    "total_contestants": 10,
+    "total_contestants": 11,
     "defeated": [
       "social-content",
+      "mediacrawler",
       "huashu-agent-swarm",
       "huashu-article-to-x",
-      "huashu-speech-coach",
-      "huashu-wechat-image"
+      "huashu-speech-coach"
     ]
   },
   {

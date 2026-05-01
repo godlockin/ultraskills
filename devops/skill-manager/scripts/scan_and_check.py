@@ -118,6 +118,130 @@ def check_updates(skills: List[Dict]) -> List[Dict]:
     return results
 
 
+##############################################################################
+# Health Check Functions
+##############################################################################
+
+import re
+
+# Project root (ultraskills repo root)
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+
+def _load_known_tags() -> set:
+    """Load all known tags from index.json."""
+    index_path = os.path.join(_PROJECT_ROOT, "index.json")
+    if not os.path.exists(index_path):
+        return set()
+    try:
+        with open(index_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        tags = set()
+        skills = data if isinstance(data, list) else data.get("skills", [])
+        for skill in skills:
+            for tag in skill.get("tags", []):
+                tags.add(tag)
+        return tags
+    except Exception:
+        return set()
+
+
+def _find_skill_dirs(target_dir: str) -> List[str]:
+    """Find all skill directories (contain SKILL.md) under target_dir."""
+    skill_dirs = []
+    # If target_dir itself has SKILL.md, it's a single skill
+    if os.path.isfile(os.path.join(target_dir, "SKILL.md")):
+        skill_dirs.append(target_dir)
+    else:
+        # Walk subdirectories (one level deep for category dirs)
+        for item in os.listdir(target_dir):
+            sub = os.path.join(target_dir, item)
+            if os.path.isdir(sub) and os.path.isfile(os.path.join(sub, "SKILL.md")):
+                skill_dirs.append(sub)
+    return skill_dirs
+
+
+def check_script_references(skill_dir: str, content: str) -> List[str]:
+    """Check that scripts/ references in SKILL.md actually exist."""
+    warnings = []
+    # Match patterns like scripts/xxx.py, scripts/foo.sh etc.
+    refs = re.findall(r'scripts/[\w\-\.]+', content)
+    for ref in set(refs):
+        ref_path = os.path.join(skill_dir, ref)
+        if not os.path.exists(ref_path):
+            warnings.append(f"WARNING: [{os.path.basename(skill_dir)}] referenced '{ref}' not found")
+    return warnings
+
+
+def check_examples_nonempty(skill_dir: str) -> List[str]:
+    """Check that examples/ dir has at least one non-empty file."""
+    warnings = []
+    examples_dir = os.path.join(skill_dir, "examples")
+    if os.path.isdir(examples_dir):
+        has_content = False
+        for f in os.listdir(examples_dir):
+            fp = os.path.join(examples_dir, f)
+            if os.path.isfile(fp) and os.path.getsize(fp) > 0:
+                has_content = True
+                break
+        if not has_content:
+            warnings.append(f"WARNING: [{os.path.basename(skill_dir)}] examples/ is empty or has no non-empty files")
+    return warnings
+
+
+def check_tags_standard(skill_dir: str, frontmatter: Dict, known_tags: set) -> List[str]:
+    """Check if tags are in the known tags set."""
+    infos = []
+    if not known_tags:
+        return infos
+    tags = frontmatter.get("tags", [])
+    if isinstance(tags, list):
+        for tag in tags:
+            if tag and tag not in known_tags:
+                infos.append(f"INFO: [{os.path.basename(skill_dir)}] tag '{tag}' not in known tags set (new or typo?)")
+    return infos
+
+
+def run_health_check(target_dir: str):
+    """Run full health check on all skills under target_dir."""
+    skill_dirs = _find_skill_dirs(target_dir)
+    known_tags = _load_known_tags()
+
+    warnings = []
+    infos = []
+    checked = 0
+
+    for skill_dir in skill_dirs:
+        skill_md = os.path.join(skill_dir, "SKILL.md")
+        try:
+            with open(skill_md, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+
+        checked += 1
+        frontmatter = parse_frontmatter(content) or {}
+
+        # 1. Script reference check
+        warnings.extend(check_script_references(skill_dir, content))
+
+        # 2. Examples non-empty check
+        warnings.extend(check_examples_nonempty(skill_dir))
+
+        # 3. Tags standardization check
+        infos.extend(check_tags_standard(skill_dir, frontmatter, known_tags))
+
+    # Print issues
+    for w in warnings:
+        print(w, file=sys.stderr)
+    for i in infos:
+        print(i, file=sys.stderr)
+
+    # Summary
+    print(f"\nHealth Report: {checked} skills checked, {len(warnings)} warnings, {len(infos)} info",
+          file=sys.stderr)
+
+
 def main():
     if len(sys.argv) < 2:
         # 默认路径
@@ -130,19 +254,27 @@ def main():
             if os.path.exists(path):
                 target_dir = path
                 break
-        
+
         if not target_dir:
             print("Usage: python scan_and_check.py <skills_dir>")
             print("\nExample:")
             print("  python scan_and_check.py ~/.claude/skills/")
+            print("  python scan_and_check.py community/")
+            print("  python scan_and_check.py --health community/")
             sys.exit(1)
     else:
-        target_dir = sys.argv[1]
+        target_dir = sys.argv[-1]
+
+    # Health check mode
+    if "--health" in sys.argv:
+        print(f"Running health check on: {target_dir}", file=sys.stderr)
+        run_health_check(target_dir)
+        return
 
     print(f"Scanning: {target_dir}", file=sys.stderr)
     skills = scan_skills(target_dir)
     print(f"Found {len(skills)} GitHub-based skills", file=sys.stderr)
-    
+
     updates = check_updates(skills)
     print(json.dumps(updates, indent=2, ensure_ascii=False))
 

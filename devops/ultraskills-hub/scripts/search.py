@@ -24,12 +24,93 @@ REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../.."))
 INDEX_FILE = os.path.join(REPO_ROOT, "index.json")
 
 
+def levenshtein(a, b):
+    """Pure-Python Levenshtein edit distance."""
+    if len(a) < len(b):
+        return levenshtein(b, a)
+    if not b:
+        return len(a)
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a):
+        curr = [i + 1]
+        for j, cb in enumerate(b):
+            curr.append(min(prev[j + 1] + 1, curr[j] + 1, prev[j] + (ca != cb)))
+        prev = curr
+    return prev[-1]
+
+
+def chinese_bigrams(text):
+    """Split Chinese text into character bigrams for matching."""
+    chars = [c for c in text if '一' <= c <= '鿿']
+    if len(chars) < 2:
+        return []
+    return [chars[i] + chars[i + 1] for i in range(len(chars) - 1)]
+
+
+def has_chinese(text):
+    return bool(re.search(r'[一-鿿]', text))
+
+
+def expand_query_terms(query_terms):
+    """Expand query terms with Chinese bigrams where applicable."""
+    expanded = []
+    for t in query_terms:
+        expanded.append(t.lower())
+        if has_chinese(t):
+            expanded.extend(chinese_bigrams(t))
+    return expanded
+
+
+def fuzzy_suggest(idx, query_terms, top_n=3):
+    """Return top-N closest skill ids by edit distance for 'did you mean' suggestions."""
+    query = " ".join(query_terms).lower()
+    scored = []
+    for s in idx["skills"]:
+        sid = s["id"].lower()
+        dist = levenshtein(query, sid)
+        scored.append((dist, s["id"]))
+    scored.sort(key=lambda x: x[0])
+    return scored[:top_n]
+
+
+_REPAIR_CMD = (
+    "python3 scripts/arena_scan.py && "
+    "python3 scripts/arena_cluster_score.py && "
+    "python3 scripts/arena_build_index.py"
+)
+
+
+def _validate_index(data):
+    """Validate index.json structure. Exits on failure."""
+    errors = []
+    if not isinstance(data, dict):
+        errors.append("top-level value is not an object")
+    else:
+        if "version" not in data and "meta" not in data:
+            errors.append("missing required key 'version' or 'meta'")
+        if "skills" not in data:
+            errors.append("missing required key 'skills'")
+        elif not isinstance(data["skills"], list) or len(data["skills"]) == 0:
+            errors.append("'skills' must be a non-empty list")
+    if errors:
+        print(f"❌ index.json is corrupted or incomplete ({'; '.join(errors)}). Run:")
+        print(f"   {_REPAIR_CMD}")
+        sys.exit(1)
+
+
 def load_index():
     if not os.path.exists(INDEX_FILE):
         print(json.dumps({"error": f"index.json not found at {INDEX_FILE}"}))
         sys.exit(1)
     with open(INDEX_FILE, encoding="utf-8") as f:
-        return json.load(f)
+        try:
+            data = json.load(f)
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"❌ index.json is corrupted or incomplete (invalid JSON: {e}). Run:")
+            print(f"   {_REPAIR_CMD}")
+            sys.exit(1)
+    _validate_index(data)
+    return data
 
 
 def skill_path(s):
@@ -45,7 +126,12 @@ def skill_path(s):
 
 def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
     skills = idx["skills"]
-    kw = [t.lower() for t in query_terms]
+    kw = []
+    for t in query_terms:
+        kw.extend(t.lower().split())
+        # Chinese bigram expansion
+        if has_chinese(t):
+            kw.extend(chinese_bigrams(t))
 
     results = []
     for s in skills:
@@ -76,6 +162,13 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
                 score += 5
             # Count description hits
             score += desc.count(kw_item) * 2
+
+        # Fuzzy match on skill id: only when no exact/partial match found
+        if score == 0 and kw:
+            for kw_item in kw:
+                if levenshtein(kw_item, sid) <= 2:
+                    score += 8
+                    break
 
         # Arena bonus — heavily weighted, not just tiebreak
         arena = s.get("arena", {})
@@ -233,7 +326,15 @@ def main():
 
     # Default: keyword search
     results = search(idx, args)
-    print(json.dumps(results, ensure_ascii=False, indent=2))
+    if not results:
+        suggestions = fuzzy_suggest(idx, args, top_n=3)
+        output = {
+            "results": [],
+            "did_you_mean": [s[1] for s in suggestions]
+        }
+        print(json.dumps(output, ensure_ascii=False, indent=2))
+    else:
+        print(json.dumps(results, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

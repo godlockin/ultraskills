@@ -309,6 +309,77 @@ def main():
     if misc_count > 0:
         print("  Sample:", cluster_members["misc"][:10])
 
+    # ──────────────────────────────────────────────
+    # 低分统计 + 淘汰建议
+    # ──────────────────────────────────────────────
+    LOW_SCORE_THRESHOLD = 4.0       # 低于此分数视为低质量
+    ELIMINATION_THRESHOLD = 3.0     # 低于此分数建议淘汰
+
+    low_performers = [s for s in scores_list if s["total"] < LOW_SCORE_THRESHOLD]
+    candidates_for_elimination = [s for s in scores_list if s["total"] < ELIMINATION_THRESHOLD]
+
+    print(f"\n⚠️  Low performers (score < {LOW_SCORE_THRESHOLD}): {len(low_performers)}")
+    if low_performers:
+        for s in low_performers[:10]:
+            print(f"  {s['total']:5.2f}  {s['id']:<45} [{s['cluster_name']}]")
+        if len(low_performers) > 10:
+            print(f"  ... and {len(low_performers) - 10} more")
+
+    if candidates_for_elimination:
+        print(f"\n❌ Elimination candidates (score < {ELIMINATION_THRESHOLD}): {len(candidates_for_elimination)}")
+        for s in candidates_for_elimination[:5]:
+            print(f"  {s['total']:5.2f}  {s['id']:<45} → consider removing")
+
+    # 加载历史低分记录，累计连续低分次数
+    low_perf_file = ARENA_DIR / "low_performers.json"
+    history = {}
+    if low_perf_file.exists():
+        try:
+            history = json.loads(low_perf_file.read_text())
+        except Exception:
+            history = {}
+
+    # 更新：低分 +1，脱离低分则重置
+    current_low_ids = {s["id"] for s in low_performers}
+    for sid in current_low_ids:
+        entry = history.get(sid, {"consecutive_low": 0, "scores": []})
+        entry["consecutive_low"] = entry.get("consecutive_low", 0) + 1
+        entry["scores"] = (entry.get("scores", []) + [scores[sid]["total"]])[-5:]  # 保留最近5次
+        entry["cluster"] = skill_cluster_map.get(sid, "misc")
+        history[sid] = entry
+    # 脱离低分的重置
+    for sid in list(history.keys()):
+        if sid not in current_low_ids:
+            del history[sid]
+
+    # 标记建议淘汰（连续3次以上低分）
+    CONSECUTIVE_LOW_LIMIT = 3
+    eliminate_list = []
+    for sid, entry in history.items():
+        if entry["consecutive_low"] >= CONSECUTIVE_LOW_LIMIT:
+            entry["recommendation"] = "eliminate"
+            eliminate_list.append(sid)
+        elif entry["consecutive_low"] >= 2:
+            entry["recommendation"] = "warning"
+        else:
+            entry["recommendation"] = "monitor"
+
+    low_perf_file.write_text(json.dumps(history, ensure_ascii=False, indent=2))
+
+    if eliminate_list:
+        print(f"\n🚨 ELIMINATION RECOMMENDED ({len(eliminate_list)} skills, "
+              f"low score ≥{CONSECUTIVE_LOW_LIMIT} consecutive runs):")
+        for sid in eliminate_list[:10]:
+            h = history[sid]
+            print(f"  {sid:<45} avg={sum(h['scores'])/len(h['scores']):.1f} "
+                  f"runs={h['consecutive_low']}")
+        print(f"\n  To remove: python3 devops/skill-manager/scripts/delete_skill.py <skill-id>")
+        print(f"  Then rebuild: python3 scripts/arena_scan.py && "
+              f"python3 scripts/arena_cluster_score.py && "
+              f"python3 scripts/arena_build_index.py")
+
 
 if __name__ == "__main__":
-    main()
+    from pipeline_lock import PipelineLock
+    with PipelineLock("arena_cluster_score"):
+        main()

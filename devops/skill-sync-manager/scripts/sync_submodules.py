@@ -25,6 +25,7 @@ def get_submodules():
     rc, stdout, stderr = run_cmd("git submodule status")
     if rc != 0:
         print(f"Error getting submodules: {stderr}")
+        print("  Fix: Ensure you're in the repo root. Try: git submodule init")
         return []
 
     submodules = []
@@ -47,6 +48,7 @@ def update_submodule(submodule_path):
 
     if rc != 0:
         print(f"  Warning: {stderr}")
+        print(f"  Fix: Try manually: cd {submodule_path} && git fetch && git pull")
         return False
 
     print(f"  Updated {submodule_path}")
@@ -60,6 +62,7 @@ def main():
     rc, _, _ = run_cmd("git rev-parse --git-dir")
     if rc != 0:
         print("Error: Not in a git repository")
+        print("  Fix: cd to ultraskills repo root first")
         sys.exit(1)
 
     # Get submodules
@@ -97,6 +100,7 @@ def main():
         print("\nFailed submodules:")
         for sm in failed:
             print(f"  - {sm}")
+        print(f"\n  Fix: Retry failed only: git submodule update --remote --merge {' '.join(failed)}")
         sys.exit(1)
 
     # Check for changes

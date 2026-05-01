@@ -1,0 +1,74 @@
+{
+  "template-skill": {
+    "consecutive_low": 1,
+    "scores": [
+      3.8
+    ],
+    "cluster": "skills-mgmt",
+    "recommendation": "monitor"
+  },
+  "\"browserstack\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"report\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"review\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"migrate\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"runbook-generator\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "engineering-code",
+    "recommendation": "monitor"
+  },
+  "\"testrail\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"fix\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  },
+  "\"coverage\"": {
+    "consecutive_low": 1,
+    "scores": [
+      3.7
+    ],
+    "cluster": "skills-browser",
+    "recommendation": "monitor"
+  }
+}

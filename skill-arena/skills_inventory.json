@@ -31,6 +31,25 @@
     "github_url": ""
   },
   {
+    "id": "audio-clean",
+    "path": "./community/audio-clean/SKILL.md",
+    "description": "在 Mac 本地清理音频：人声/伴奏分离 (demucs) + 降噪 (rnnoise/noisereduce) + 响度归一化 (ffmpeg loudnorm EBU R128)。一条命令把粗糙录音变干净播客/配音素材。Trigger on 音频清理 / audio clean / denoise / 降噪 / 去伴奏 / vocal isolate / 分离人声 / 响度归一 / loudness normalize / mastering / 母带处理。",
+    "tags": [
+      "audio",
+      "clean",
+      "denoise",
+      "demucs",
+      "mastering",
+      "loudness",
+      "vocal-isolation",
+      "mac",
+      "apple-silicon",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "awesome-android-ui",
     "path": "./community/awesome-android-ui/SKILL.md",
     "description": "Curated catalog of Android UI/UX libraries (Jetpack Compose, Layout, Button, List/Grid, ViewPager, Form, Image, SeekBar, Progress, Menu, ActionBar, Dialog, Calendar, Graph, Animation, Parallax, Effects). Use when the user asks to recommend, find, or compare Android UI components, animations, or visual libraries — pick from the curated list rather than guessing from memory.",
@@ -203,6 +222,40 @@
     "github_url": ""
   },
   {
+    "id": "data-viz",
+    "path": "./community/data-viz/SKILL.md",
+    "description": "给数据自动选图表类型 + 输出代码（D3 / Recharts / ECharts / Observable Plot / Vega-Lite / matplotlib）。包含图表类型决策树（比较/分布/构成/关系/时序/地理）、配色规范、可访问性。Trigger on chart / dataviz / data visualization / 数据可视化 / 画图 / 图表 / plot / dashboard / 可视化。",
+    "tags": [
+      "data-viz",
+      "charts",
+      "d3",
+      "recharts",
+      "echarts",
+      "vega-lite",
+      "dashboard",
+      "design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "deck-that-wins",
+    "path": "./community/deck-that-wins/SKILL.md",
+    "description": "Build competition-ready presentation decks that win — 6 iron rules, 8 pass criteria, 8 bonus items distilled from WDC 2026 APAC postmortem analysis of winners vs losers",
+    "tags": [
+      "presentation",
+      "competition",
+      "deck",
+      "pitch",
+      "storytelling",
+      "design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "design-an-interface",
     "path": "./community/design-an-interface/SKILL.md",
     "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
@@ -216,6 +269,23 @@
     ],
     "version": "1.0.0",
     "github_url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "id": "design-tokens",
+    "path": "./community/design-tokens/SKILL.md",
+    "description": "一套 tokens → 全栈输出 (CSS vars / Tailwind / SCSS / iOS Swift / Android XML / Flutter / JSON)。基于 W3C Design Tokens Community Group (DTCG) 标准格式。集成 Style Dictionary 或自带轻量构建器。多主题 (light/dark/brand)、$type 严格、引用解析。Trigger on design tokens / 设计token / style dictionary / theme / 主题 / dark mode / DTCG / token。",
+    "tags": [
+      "design-tokens",
+      "dtcg",
+      "style-dictionary",
+      "theming",
+      "css",
+      "tailwind",
+      "design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
   },
   {
     "id": "dispatching-parallel-agents",
@@ -288,6 +358,22 @@
       "photo",
       "new-year",
       "ai",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "figma-to-code",
+    "path": "./community/figma-to-code/SKILL.md",
+    "description": "用 Figma MCP / Figma API 把设计稿转成生产级代码。三档接入：Figma Dev Mode MCP (Figma 官方/Cursor/Claude Code) > Framelink Figma-Context-MCP (开源) > REST API 直拉 (token + node-id)。输出 React/Vue/Tailwind/CSS。Trigger on figma / design to code / 设计稿转代码 / figma to react / figma node。",
+    "tags": [
+      "figma",
+      "design-to-code",
+      "mcp",
+      "ui",
+      "frontend",
+      "design",
       "community"
     ],
     "version": "1.0.0",
@@ -838,6 +924,24 @@
     "github_url": ""
   },
   {
+    "id": "icon-system",
+    "path": "./community/icon-system/SKILL.md",
+    "description": "一站式图标方案：从 100k+ 开源图标库 (Iconify / Lucide / Heroicons / Phosphor / Tabler) 搜图标 → 拉 SVG → 生成 React/Vue 组件 / sprite / icon-font。包含命名规范、size grid、stroke 一致性检查。Trigger on icon / 图标 / svg icon / heroicons / lucide / iconify / icon library / 图标库。",
+    "tags": [
+      "icon",
+      "svg",
+      "design",
+      "ui",
+      "design-system",
+      "lucide",
+      "heroicons",
+      "iconify",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "\"ikea-designer-pro\"",
     "path": "./community/ikea-designer/SKILL.md",
     "description": "\"IKEA Product Developer & Brand Guardian specializing in Product Design, Interior Styling, and Brand Identity\"",
@@ -916,6 +1020,22 @@
     "github_url": "https://github.com/mattpocock/skills"
   },
   {
+    "id": "information-architecture",
+    "path": "./community/information-architecture/SKILL.md",
+    "description": "信息架构 (IA) 工具集：sitemap 生成、用户流 (user flow) 设计、卡片分类 (card sorting) 方法论、navigation pattern 选型 (tab / sidebar / breadcrumb / mega-menu)、URL 命名规范、内容审计 (content audit)。Trigger on IA / sitemap / 信息架构 / user flow / 用户流 / navigation / 导航 / 网站地图 / card sorting。",
+    "tags": [
+      "ia",
+      "information-architecture",
+      "sitemap",
+      "ux",
+      "navigation",
+      "design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "internal-comms",
     "path": "./community/internal-comms/SKILL.md",
     "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
@@ -939,6 +1059,62 @@
     ],
     "version": "1.0.0",
     "github_url": "https://github.com/multica-ai/andrej-karpathy-skills"
+  },
+  {
+    "id": "learn-from-loss",
+    "path": "./community/learn-from-loss/SKILL.md",
+    "description": "Structured postmortem methodology for competition results — multi-expert panel review, 8-dimension scoring, winner-vs-loser gap analysis, and lessons codification",
+    "tags": [
+      "postmortem",
+      "review",
+      "analysis",
+      "competition",
+      "retrospective",
+      "scoring",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "mac-tts",
+    "path": "./community/mac-tts/SKILL.md",
+    "description": "在 Mac 本地把文字合成为高质量语音 (TTS)。三档后端：edge-tts (免费微软神经语音 / 多语种最佳) > kokoro-tts (本地开源 82M / 自然度高) > macOS say (兜底)。输出 wav/mp3。Trigger on TTS / 文字转语音 / 语音合成 / text-to-speech / 配音 / voiceover / read aloud / 朗读。",
+    "tags": [
+      "tts",
+      "text-to-speech",
+      "voice",
+      "audio",
+      "voiceover",
+      "mac",
+      "dubbing",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "mac-voice-clone",
+    "path": "./community/mac-voice-clone/SKILL.md",
+    "description": "在 Mac 本地把\"一段参考音频 + 文字\"合成成\"用参考人声朗读这段文字\"的克隆语音。四档后端：IndexTTS-2 ⭐ (Bilibili/Apache-2.0/最强 prosody) > F5-TTS (轻量/MIT) > VoxCPM2 (openbmb 2B/Apache-2.0/可商用) > GPT-SoVITS (中文最强/few-shot)。Trigger on voice clone / 声音克隆 / 语音克隆 / clone my voice / 模仿声音 / TTS with reference audio / zero-shot TTS / IndexTTS / index-tts。",
+    "tags": [
+      "tts",
+      "voice-clone",
+      "voice-cloning",
+      "zero-shot",
+      "mac",
+      "apple-silicon",
+      "indextts",
+      "indextts2",
+      "f5-tts",
+      "voxcpm",
+      "gpt-sovits",
+      "prosody",
+      "emotion",
+      "community"
+    ],
+    "version": "1.1.0",
+    "github_url": ""
   },
   {
     "id": "mac-whisper",
@@ -1020,6 +1196,23 @@
     "path": "./community/memory-systems/SKILL.md",
     "description": "This skill should be used when the user asks to \"implement agent memory\", \"persist state across sessions\", \"build knowledge graph\", \"track entities\", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "motion-design",
+    "path": "./community/motion-design/SKILL.md",
+    "description": "Web 微交互/动效模式库：何时用动画、用什么 (Framer Motion / Web Animations API / CSS transitions / GSAP)、easing 怎么选、duration 多长、prefers-reduced-motion 怎么处理。包含 12 种常用模式起手代码。Trigger on motion / 动效 / 微交互 / animation / framer motion / transitions / interaction design。",
+    "tags": [
+      "motion",
+      "animation",
+      "ui",
+      "design",
+      "framer-motion",
+      "gsap",
+      "microinteraction",
       "community"
     ],
     "version": "1.0.0",
@@ -1113,6 +1306,22 @@
       "community"
     ],
     "version": "\"2.34.0\"",
+    "github_url": ""
+  },
+  {
+    "id": "poster-print-design",
+    "path": "./community/poster-print-design/SKILL.md",
+    "description": "用 HTML/CSS 出海报、社交卡片 (OG / Twitter card)、印刷品 (A3/A4/名片)。Playwright 截图 → PNG/JPG/PDF（含 CMYK 出血提示）。模板库：博客分享卡、活动海报、Slogan 卡、价格表。Trigger on poster / 海报 / og image / social card / 分享卡 / print / a4 / 名片 / banner。",
+    "tags": [
+      "poster",
+      "print",
+      "social-card",
+      "og-image",
+      "design",
+      "html-to-png",
+      "community"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1424,6 +1633,22 @@
     "github_url": ""
   },
   {
+    "id": "video-analyzer",
+    "path": "./community/video-analyzer/SKILL.md",
+    "description": "把一个本地视频文件拆成\"转录稿 + 关键帧截图 + 章节摘要\"。串联 mac-whisper（语音转文字）+ video-frame-extractor（关键帧/定时抽帧）+ LLM（分章节）。一条命令产出 Markdown 报告。Trigger on 视频拆解 / 视频分析 / video summary / video chapters / 提取视频要点 / video-to-notes / 视频转笔记。",
+    "tags": [
+      "video",
+      "analysis",
+      "summary",
+      "transcription",
+      "chapters",
+      "multimodal",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "\"video-frame-extractor\"",
     "path": "./community/video-frame-extractor/SKILL.md",
     "description": "\"Extract image frames from video files via ffmpeg. Modes: at exact timestamps, at fixed FPS, every N seconds, all frames, keyframes only, or scene changes. Trigger on 抽帧 / extract frames / video to images / screenshot from video / 截图视频帧 / 指定时间抽帧.\"",
@@ -1444,6 +1669,24 @@
     "path": "./community/video-splitter/SKILL.md",
     "description": "\"Splits or trims video files into segments. Invoke when user wants to cut, trim, segment, or extract parts of a video.\"",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "video-translate",
+    "path": "./community/video-translate/SKILL.md",
+    "description": "把视频翻译成另一种语言：抽音轨 → mac-whisper 转录 → LLM 翻译 → mac-tts 配音 (可选 mac-voice-clone 保留原声) → 时间轴对齐 → 字幕烧录回视频。串联 mac-whisper / mac-tts / mac-voice-clone / audio-clean / video-frame-extractor。Trigger on 视频翻译 / video translate / dub video / 视频配音 / 字幕翻译 / 翻译视频 / localize video / 视频本地化 / re-voice / cross-lingual dubbing。",
+    "tags": [
+      "video",
+      "translate",
+      "dubbing",
+      "localization",
+      "subtitles",
+      "cross-lingual",
+      "mac",
+      "apple-silicon",
       "community"
     ],
     "version": "1.0.0",
@@ -1504,6 +1747,23 @@
     "path": "./community/xlsx/SKILL.md",
     "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\"",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "zero-debt-lint",
+    "path": "./community/zero-debt-lint/SKILL.md",
+    "description": "Automated quality gate for presentation decks — text lint (spelling, paths, placeholders) and audio lint (silence ratio, WPM, sample rate) with shell scripts and ffmpeg",
+    "tags": [
+      "lint",
+      "quality",
+      "audio",
+      "video",
+      "ffmpeg",
+      "presentation",
+      "automation",
       "community"
     ],
     "version": "1.0.0",
@@ -1633,15 +1893,17 @@
   {
     "id": "ultraskills-hub",
     "path": "./devops/ultraskills-hub/SKILL.md",
-    "description": "Search engine for 555+ AI skills. Use when you need a specialized skill but don't know which one. Trigger: \"find skill for X\", \"search ultraskills\", or whenever a task might benefit from a specialized skill that isn't already loaded.",
+    "description": "⚡ MUST INVOKE FIRST for ANY specialized task — search engine for 564+ AI skills (TTS, voice clone, video analysis, design, figma, posters, design tokens, motion, icons, data-viz, IA, git workflows, evaluation, marketing, RAG, FastAPI, etc.). Skills are NOT pre-loaded into system-reminder — discover via this hub. Trigger on ANY of: \"find skill\", \"do you have skill for X\", \"search ultraskills\", or whenever a request matches a skill domain (语音克隆 / voice clone / TTS / video / 视频 / 海报 / poster / figma / 设计 / design / icon / 动效 / motion / 图表 / chart / sitemap / 信息架构 / design token / 配色 / palette / git / commit / review / evaluation / RAG / fastapi / marketing / SEO / etc.).",
     "tags": [
       "hub",
       "search",
       "discovery",
       "meta",
+      "routing",
+      "MUST-USE-FIRST",
       "devops"
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
@@ -1754,6 +2016,23 @@
     ],
     "version": "",
     "github_url": ""
+  },
+  {
+    "id": "chinese-text-analysis",
+    "path": "./external/chinese-text-analysis/SKILL.md",
+    "description": "中文文本NLP分析管道 - 情感正负面判断、关键词提取、语义主题聚类，适用于小红书/抖音帖子和评论批量分析",
+    "tags": [
+      "nlp",
+      "sentiment-analysis",
+      "keyword-extraction",
+      "semantic-clustering",
+      "chinese",
+      "text-analysis",
+      "social-media",
+      "chinese-text-analysis"
+    ],
+    "version": "1.0.0",
+    "github_url": "https://github.com/fxsjy/jieba https://github.com/isnowfy/snownlp https://github.com/MaartenGr/BERTopic"
   },
   {
     "id": "claude-opus-4-5-migration",
@@ -5587,6 +5866,25 @@
     "github_url": ""
   },
   {
+    "id": "mediacrawler",
+    "path": "./external/mediacrawler/SKILL.md",
+    "description": "多平台自媒体数据采集 - 小红书/抖音/微博/B站/知乎等关键词搜索、帖子详情、评论爬取、创作者主页，支持CSV/JSON/SQLite/MySQL多种存储",
+    "tags": [
+      "scraping",
+      "social-media",
+      "xiaohongshu",
+      "douyin",
+      "tiktok",
+      "weibo",
+      "bilibili",
+      "crawler",
+      "data-collection",
+      "mediacrawler"
+    ],
+    "version": "0.1.0",
+    "github_url": "https://github.com/NanmiCoder/MediaCrawler"
+  },
+  {
     "id": "huashu-nuwa",
     "path": "./external/nuwa-skill/SKILL.md",
     "description": "|",
@@ -5745,6 +6043,58 @@
     ],
     "version": "",
     "github_url": ""
+  },
+  {
+    "id": "video-content-analyzer",
+    "path": "./external/video-content-analyzer/SKILL.md",
+    "description": "短视频内容深度分析 - 分析前10秒钩子、中段内容簇、结尾5秒，输出完整结构/情感曲线/传达方式报告。配合 video-scene-splitter + video-transcriber 使用",
+    "tags": [
+      "video-analysis",
+      "content-strategy",
+      "short-video",
+      "douyin",
+      "xiaohongshu",
+      "vision",
+      "multimodal",
+      "claude",
+      "video-content-analyzer"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "video-scene-splitter",
+    "path": "./external/video-scene-splitter/SKILL.md",
+    "description": "视频镜头切割与帧提取 - 自动检测场景切换点、切割视频片段、按时间区间抽帧，为视频内容分析提供素材",
+    "tags": [
+      "video",
+      "ffmpeg",
+      "scene-detection",
+      "frame-extraction",
+      "video-processing",
+      "opencv",
+      "video-scene-splitter"
+    ],
+    "version": "0.6.7",
+    "github_url": "https://github.com/Breakthrough/PySceneDetect"
+  },
+  {
+    "id": "video-transcriber",
+    "path": "./external/video-transcriber/SKILL.md",
+    "description": "视频/音频语音转录 - 使用 OpenAI Whisper 生成带时间戳的完整字幕，支持中文/多语言，用于视频内容分析的文本输入",
+    "tags": [
+      "whisper",
+      "transcription",
+      "speech-to-text",
+      "audio",
+      "video",
+      "chinese",
+      "subtitle",
+      "timestamps",
+      "video-transcriber"
+    ],
+    "version": "20231117",
+    "github_url": "https://github.com/openai/whisper"
   },
   {
     "id": "videocut:剪口播",

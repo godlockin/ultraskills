@@ -355,7 +355,7 @@ def cluster_skills(analyzed_skills: List[Dict]) -> List[Dict]:
         # Video subcategories
         "video-editing": {
             "parent": "video",
-            "keywords": ["video", "editing", "剪口播", "剪辑"],
+            "keywords": ["video", "editing", "剪口播", "剪辑", "高清化", "字幕"],
             "experts": ["This Guy Edits"],
             "test_focus": "video editing workflow"
         },
@@ -364,6 +364,56 @@ def cluster_skills(analyzed_skills: List[Dict]) -> List[Dict]:
             "keywords": ["media", "download", "image", "photo"],
             "experts": ["Peter McKinnon"],
             "test_focus": "media handling"
+        },
+        "video-analysis": {
+            "parent": "video",
+            "keywords": ["video-analyzer", "video-frame-extractor", "frame", "scene", "chapter", "video analysis", "拆解", "关键帧"],
+            "experts": ["Casey Neistat"],
+            "test_focus": "video analysis / frame extraction / chapterization"
+        },
+        "video-localization": {
+            "parent": "video",
+            "keywords": ["video-translate", "translate", "dub", "dubbing", "localize", "localization", "subtitle translation", "视频翻译", "配音", "字幕翻译", "本地化", "re-voice"],
+            "experts": ["Netflix Localization"],
+            "test_focus": "video translation, dubbing, cross-lingual"
+        },
+        "video-generation": {
+            "parent": "video",
+            "keywords": ["remotion", "programmatic video", "react video", "generate video"],
+            "experts": ["Remotion team"],
+            "test_focus": "programmatic video generation"
+        },
+        "video-strategy": {
+            "parent": "video",
+            "keywords": ["video script", "video strategy", "video content", "youtube", "video-content-strategist"],
+            "experts": ["MrBeast"],
+            "test_focus": "video content strategy and scripting"
+        },
+
+        # Audio subcategories
+        "audio-tts": {
+            "parent": "audio",
+            "keywords": ["tts", "text-to-speech", "voice synthesis", "voiceover", "edge-tts", "kokoro", "say", "朗读", "配音", "文字转语音", "语音合成", "mac-tts"],
+            "experts": ["Microsoft TTS"],
+            "test_focus": "text-to-speech synthesis"
+        },
+        "audio-voice-clone": {
+            "parent": "audio",
+            "keywords": ["voice clone", "voice cloning", "zero-shot tts", "f5-tts", "voxcpm", "gpt-sovits", "声音克隆", "语音克隆", "mac-voice-clone"],
+            "experts": ["ElevenLabs"],
+            "test_focus": "zero-shot voice cloning"
+        },
+        "audio-asr": {
+            "parent": "audio",
+            "keywords": ["asr", "speech-to-text", "whisper", "transcription", "transcribe", "subtitle", "srt", "vtt", "字幕生成", "语音转文字", "听写", "mac-whisper"],
+            "experts": ["OpenAI Whisper"],
+            "test_focus": "speech recognition / transcription"
+        },
+        "audio-processing": {
+            "parent": "audio",
+            "keywords": ["audio clean", "denoise", "demucs", "loudness", "loudnorm", "mastering", "vocal isolation", "stem separation", "音频清理", "降噪", "响度归一", "母带", "audio-clean"],
+            "experts": ["iZotope"],
+            "test_focus": "audio cleaning, denoise, mastering"
         },
 
         # Sales subcategories

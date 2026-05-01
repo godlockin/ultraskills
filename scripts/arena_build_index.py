@@ -105,4 +105,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from pipeline_lock import PipelineLock
+    with PipelineLock("arena_build_index"):
+        main()

@@ -1,4 +1,4 @@
-# UltraSkills: 556 AI Skills for Claude Code 🚀
+# UltraSkills: 581 AI Skills for Claude Code 🚀
 
 > **定义 AI 协作的新标准** — 模块化、可复用、竞技场排名的 AI Skills 工业级标准库
 
@@ -12,7 +12,7 @@ cd ultraskills
 ./setup.sh          # installs ultraskills-hub into ~/.claude/skills/
 ```
 
-Done. Restart Claude Code — Claude can now search all 556 skills on demand.
+Done. Restart Claude Code — Claude can now search all 581 skills on demand.
 
 ---
 
@@ -32,7 +32,7 @@ Hub 内部使用 `devops/ultraskills-hub/scripts/search.py` 对 `index.json` 做
 ```bash
 ./setup.sh           # 推荐：仅安装 hub（1 个 skill 在 system prompt）
 ./setup.sh --top     # hub + 33 个精选高分 skills
-./setup.sh --all     # 全部 556 个（不推荐，context 很大）
+./setup.sh --all     # 全部 581 个（不推荐，context 很大）
 ./setup.sh --remove  # 卸载
 ```
 
@@ -40,9 +40,51 @@ Hub 内部使用 `devops/ultraskills-hub/scripts/search.py` 对 `index.json` 做
 
 ## 🏆 Arena 竞技场排名
 
-每个 skill 按 **质量 / 速度 / 可维护性** 评分。556 个 skills 中产生 **37 个 Arena Winners**（跨 39 个类别）。
+每个 skill 按 **质量 / 速度 / 可维护性** 评分。在 `SKILLS_INDEX.md` 中，Arena 冠军用 🏆 标记。`index.json` 包含每个 skill 的 arena score。
 
-在 `SKILLS_INDEX.md` 中，Arena 冠军用 🏆 标记。`index.json` 包含每个 skill 的 arena score。
+### Arena Pipeline
+
+```bash
+# 一键执行全量扫描→评分→索引重建
+python3 scripts/arena_scan.py && \
+python3 scripts/arena_cluster_score.py && \
+python3 scripts/arena_build_index.py
+```
+
+**数据流：**
+```
+SKILL.md (各目录)
+    ↓ scripts/arena_scan.py
+skill-arena/skills_inventory.json
+    ↓ scripts/arena_cluster_score.py
+skill-arena/{clusters, scores, winners}.json
+    ↓ scripts/arena_build_index.py
+index.json (主索引，供 hub/CLI 检索)
+```
+
+**脚本说明：**
+
+| 脚本 | 作用 | 输出 |
+|------|------|------|
+| `scripts/arena_scan.py` | 扫描全库 SKILL.md，提取元数据 | `skill-arena/skills_inventory.json` |
+| `scripts/arena_cluster_score.py` | 规则聚类 + 多维度评分 | `skill-arena/{clusters,scores,winners}.json` |
+| `scripts/arena_build_index.py` | 合并 inventory + scores | `index.json` (覆盖) |
+| `scripts/deploy_skills.py` | scan + 软链接部署到 ~/.claude/skills | symlinks |
+| `scripts/sync_skills.py` | 从外部目录/GitHub 同步 skills | index.json 更新 |
+| `scripts/pipeline_lock.py` | 共用文件锁，防止 pipeline 并发冲突 | `.pipeline.lock` |
+
+> ⚠️ **Post-process 强制规则**：任何 skill 内容变更（新增、修改、删除、外部同步）后，**必须**执行 arena pipeline 全量重建。索引未更新 = hub 搜索不到 = 等于没改。
+
+### 搜索功能
+
+```bash
+# 关键词搜索（支持中英文、fuzzy match）
+python3 devops/ultraskills-hub/scripts/search.py 语音克隆
+python3 devops/ultraskills-hub/scripts/search.py review
+
+# 健康巡检（检查脚本引用、examples 非空、tags 标准化）
+python3 devops/skill-manager/scripts/scan_and_check.py --health community/
+```
 
 ---
 
@@ -50,22 +92,45 @@ Hub 内部使用 `devops/ultraskills-hub/scripts/search.py` 对 `index.json` 做
 
 ```text
 ultraskills/
-├── setup.sh                    # 安装脚本
-├── index.json                  # 机器可读索引（556 skills，含 arena 分数）
-├── SKILLS_INDEX.md             # 人类可读索引（556 × 39 类别，冠军标记）
-├── CONTRIBUTING.md             # S-Tier skill 标准
-├── _template_skill/            # 新 skill 模板
+├── setup.sh                         # 安装脚本
+├── index.json                       # 主索引（全量 skills + arena 分数）
+├── SKILLS_INDEX.md                  # 人类可读索引
+├── CONTRIBUTING.md                  # S-Tier skill 标准
+├── _template_skill/                 # 新 skill 模板
 │
-├── devops/
-│   └── ultraskills-hub/        # ⭐ Hub 入口 skill
-│       └── scripts/search.py  # 关键词搜索引擎
+├── bin/ultraskills.js               # Node.js CLI 入口
+├── lib/                             # CLI 核心模块 (search/list/install/update)
 │
-├── engineering/                # 工程类 skills（git, code review, prompt 等）
-├── productivity/               # 效率工具（media downloader, task analysis 等）
-├── devops/                     # 技能管理工具
-├── creative/                   # 创意设计（视频, 图像, 艺术生成等）
-├── community/                  # 社区贡献
-└── external/                   # 外部来源 skills
+├── scripts/                         # ⭐ Arena + 索引主流程 (Python)
+│   ├── arena_scan.py                # Step 1: 扫描 SKILL.md → skills_inventory.json
+│   ├── arena_cluster_score.py       # Step 2: 聚类+打分 → clusters/scores/winners.json
+│   ├── arena_build_index.py         # Step 3: 合并 → index.json
+│   ├── deploy_skills.py             # 部署 skills 到 ~/.claude/skills
+│   ├── sync_skills.py               # 从外部目录/GitHub 同步 skills
+│   └── pipeline_lock.py             # 共用文件锁 (防并发冲突)
+│
+├── skill-arena/                     # Arena 数据 (JSON，被 scripts/ 读写)
+│   ├── skills_inventory.json        # 全量 skill 清单
+│   ├── clusters.json / scores.json / winners.json
+│
+├── community/                       # 社区 skills (~130+)
+├── engineering/                     # 工程 skills
+├── productivity/                    # 生产力 skills
+├── creative/                        # 创意/设计 skills
+├── external/                        # 外部开源 skills (git submodule)
+│
+└── devops/                          # 运维管理工具
+    ├── ultraskills-hub/             # ⭐ Hub 搜索 skill
+    │   └── scripts/search.py
+    ├── skill-arena/                 # Arena 完整测试框架
+    │   ├── run.sh                   # 启动器
+    │   └── scripts/                 # 12 个脚本 (run_benchmarks, score_results 等)
+    ├── skill-manager/               # 技能生命周期管理
+    │   └── scripts/scan_and_check.py, list_skills.py, delete_skill.py
+    ├── skill-evolution-manager/     # Skill 迭代进化
+    ├── skill-loader/                # MCP 动态加载器
+    ├── skill-sync-manager/          # 子模块同步
+    └── github-to-skills/            # GitHub repo → skill 转换
 ```
 
 每个 skill 目录结构：
@@ -73,6 +138,8 @@ ultraskills/
 [skill-name]/
 ├── SKILL.md          # 必需：YAML frontmatter + 指令
 ├── examples/         # 推荐：使用示例
+├── scripts/          # 可选：自动化脚本
+├── references/       # 可选：知识库
 └── resources/        # 可选：辅助文档
 ```
 
@@ -103,12 +170,17 @@ mkdir -p community/my-new-skill
 # 2. 写 SKILL.md（参考 _template_skill/）
 # 必须包含 YAML frontmatter: name, description, version, tags
 
-# 3. 更新索引
-python3 devops/skill-manager/scripts/scan_and_check.py  # 验证结构
-# 然后手动在 index.json 添加条目，或让 Claude 做
+# 3. 验证结构 + 健康检查
+python3 devops/skill-manager/scripts/scan_and_check.py community/my-new-skill/
+python3 devops/skill-manager/scripts/scan_and_check.py --health community/my-new-skill/
 
-# 4. 可选：注册到 ~/.claude/skills/
-ln -sf $(pwd)/community/my-new-skill ~/.claude/skills/my-new-skill
+# 4. [必须] 重建索引（任何 skill 变更后必跑）
+python3 scripts/arena_scan.py && \
+python3 scripts/arena_cluster_score.py && \
+python3 scripts/arena_build_index.py
+
+# 5. 验证搜索能找到
+python3 devops/ultraskills-hub/scripts/search.py my-new-skill
 ```
 
 ### 方式二：引入 GitHub skills 项目（github-to-skills）
@@ -135,15 +207,21 @@ git submodule add https://github.com/org/skills-repo external/skills-repo
 git clone https://github.com/org/skills-repo external/skills-repo
 ```
 
-### 方式三：用 skill-manager 追踪外部更新
+### 方式三：用 skill-sync-manager 同步外部更新
+
+```bash
+# 检查外部 skills 是否有上游更新
+python3 devops/skill-sync-manager/scripts/check_updates.py
+
+# 同步更新
+python3 devops/skill-sync-manager/scripts/sync_submodules.py
+```
 
 引入外部 skill 后，在 SKILL.md frontmatter 加上来源信息：
 ```yaml
 github_url: https://github.com/org/repo
 github_hash: abc1234def   # import 时的 commit hash
 ```
-
-之后可以用 `Skill("skill-manager")` 检查哪些 skills 有上游更新。
 
 ---
 
@@ -187,7 +265,7 @@ done
 ### 验证安装
 
 ```bash
-ls ~/.claude/skills/ultraskills-hub   # 应该是 symlink
+ls ~/.claude/skills/ultraskills-hub       # 应该是 symlink
 python3 devops/ultraskills-hub/scripts/search.py git commit  # 应该返回结果
 ```
 

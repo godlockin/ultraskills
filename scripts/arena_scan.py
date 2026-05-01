@@ -187,19 +187,22 @@ def scan_all_skills() -> list:
 
 
 if __name__ == "__main__":
-    out_dir = ROOT / "skill-arena"
-    out_dir.mkdir(exist_ok=True)
+    from pipeline_lock import PipelineLock
+    with PipelineLock("arena_scan"):
 
-    skills = scan_all_skills()
-    print(f"Scanned: {len(skills)} unique skills")
+        out_dir = ROOT / "skill-arena"
+        out_dir.mkdir(exist_ok=True)
 
-    # 统计 path 分布
-    dist = {}
-    for s in skills:
-        top = s["path"].split("/")[1]
-        dist[top] = dist.get(top, 0) + 1
-    print("Distribution:", json.dumps(dist, ensure_ascii=False))
+        skills = scan_all_skills()
+        print(f"Scanned: {len(skills)} unique skills")
 
-    out_file = out_dir / "skills_inventory.json"
-    out_file.write_text(json.dumps(skills, ensure_ascii=False, indent=2))
-    print(f"Written: {out_file}")
+        # 统计 path 分布
+        dist = {}
+        for s in skills:
+            top = s["path"].split("/")[1]
+            dist[top] = dist.get(top, 0) + 1
+        print("Distribution:", json.dumps(dist, ensure_ascii=False))
+
+        out_file = out_dir / "skills_inventory.json"
+        out_file.write_text(json.dumps(skills, ensure_ascii=False, indent=2))
+        print(f"Written: {out_file}")
