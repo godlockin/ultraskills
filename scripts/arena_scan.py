@@ -112,12 +112,20 @@ def skill_priority(rel_path: str) -> int:
 
 def scan_all_skills() -> list:
     skills = {}  # id -> dict
+    seen_real_paths = set()  # canonical paths to detect symlink/submodule duplicates
 
     skill_mds = sorted(ROOT.rglob("SKILL.md"))
 
     for skill_md in skill_mds:
+        # Deduplicate by real (resolved) path — catches symlinks and submodule overlaps
+        real_path = skill_md.resolve()
+        if real_path in seen_real_paths:
+            continue
+        seen_real_paths.add(real_path)
+
         rel = skill_md.relative_to(ROOT)
-        rel_str = str(rel)
+        # Normalize: strip leading './' so EXCLUDE_PREFIXES checks work correctly
+        rel_str = str(rel).lstrip("./") if str(rel).startswith("./") else str(rel)
 
         # 排除 hidden 目录
         if has_hidden_component(rel):

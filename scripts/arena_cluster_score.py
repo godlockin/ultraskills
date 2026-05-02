@@ -21,111 +21,251 @@ ARENA_DIR = ROOT / "skill-arena"
 
 # ──────────────────────────────────────────────
 # 聚类规则：(cluster_id, cluster_name, 匹配规则)
-# 规则：关键词匹配 id 或 tags 或 description
+# 规则：关键词匹配 id 或 tags (不含 path，避免 devops/ 目录路径误匹配)
+#
+# IMPORTANT: 规则按优先级排列，第一个匹配的生效。
+# 具体规则必须放在宽泛规则之前。
 # ──────────────────────────────────────────────
 CLUSTER_RULES = [
-    # Engineering / Code
-    ("engineering-code",       "工程·代码质量",       ["code-review", "karpathy-coder", "refactor", "simplif", "focused-fix", "code-tour", "senior-security", "senior-frontend", "senior-backend", "senior-ml", "prompt-governance"]),
-    ("engineering-testing",    "工程·测试",            ["tdd", "test-driven", "benchmark", "skill-arena", "gstack-openclaw-retro", "writing-hookify"]),
-    ("engineering-qa",         "工程·QA",              ["-qa", "qa-only", "webapp-test", "devex-review", "health", "verification-before"]),
-    ("engineering-debug",      "工程·调试",            ["systematic-debug", "investigate", "careful", "guard"]),
-    ("engineering-git",        "工程·Git工作流",       ["git-commit-master", "bfg-repo", "clean-gone", "commit-push", "finishing-a-dev", "using-git-worktree", "requesting-code-review", "receiving-code-review"]),
-    ("engineering-frontend",   "工程·前端",            ["frontend-design", "web-artifact", "canvas-design", "theme-factory", "design-html"]),
-    ("engineering-devops",     "工程·DevOps",          ["devops", "deploy", "docker", "k8s", "kubernetes", "setup-deploy", "land-and-deploy", "ship", "canary", "infra", "azure-cloud", "aws", "gcp"]),
-    ("engineering-security",   "工程·安全",            ["security", "cso", "ciso-advisor", "secret", "vuln", "pentest", "ai-security"]),
-    ("engineering-arch",       "工程·架构",            ["architect", "system-design", "ddd", "microservice", "mcp-builder", "mcp-integration", "mcp-cli"]),
-    ("engineering-ml",         "工程·ML/AI",           ["machine-learning", "model-train", "llm-cost", "llm-wiki", "hugging-face", "huggingface", "gradio", "trackio"]),
-    ("engineering-fullstack",  "工程·全栈工程师",      ["fullstack", "full-stack", "karpathy-coder"]),
-    ("engineering-mobile",     "工程·移动",            ["mobile", "ios", "android", "react-native", "flutter"]),
-
-    # Agent / AI Architecture
-    ("agent-arch",             "Agent·架构",           ["multi-agent-pattern", "bdi-mental", "dispatching-parallel", "subagent-driven", "agent-optim"]),
-    ("agent-context",          "Agent·上下文管理",     ["context-compress", "context-optim", "context-degrad", "context-fundament", "latent-brief", "filesystem-context"]),
-    ("agent-memory",           "Agent·记忆系统",       ["memory-system", "checkpoint", "project-develop"]),
-    ("agent-eval",             "Agent·评估",           ["advanced-eval", "evaluation", "agent-eval"]),
-    ("agent-workflow",         "Agent·工作流",         ["executing-plan", "writing-plan", "autoplan", "planning-with-files", "skill-development", "agent-development", "e2e-development"]),
-    ("agent-hosted",           "Agent·托管运行",       ["hosted-agent", "pair-agent", "claude-session-driver", "driving-claude", "tool-design"]),
-    ("agent-pua",              "Agent·激励强化",       ["pua", "pua-en", "pua-ja", "prompt-optim", "prompt-engineer"]),
-
-    # Skills Ecosystem
-    ("skills-mgmt",            "Skills·管理",          ["skill-manager", "skill-sync", "skill-creator", "skill-scout", "skill-evolution", "github-to-skill", "writing-skill", "skill-template", "find-skill", "using-superpowers"]),
+    # ── 先处理 Skills Ecosystem（路径在 devops/，必须先于 engineering-devops）
+    ("skills-mgmt",            "Skills·管理",          ["skill-manager", "skill-sync", "skill-creator", "skill-scout", "skill-evolution", "github-to-skill", "writing-skill", "skill-template", "find-skill", "using-superpowers",
+                                                         "skills-finder", "claude-md-improver", "claude-automation", "claude-opus-migration", "command-develop", "hook-develop", "plugin-setting", "plugin-struct",
+                                                         "context-engineering-collection", "ultraskills-hub", "skill-loader", "gh-fix-ci"]),
     ("skills-browser",         "Skills·浏览器",        ["gstack", "browse", "playwright", "connect-chrome", "setup-browser"]),
     ("skills-web",             "Skills·联网",          ["web-access", "agent-reach", "media-download"]),
 
+    # ── Agent PUA（路径也在 devops/，先于 engineering-devops）
+    ("agent-pua",              "Agent·激励强化",       ["pua", "pua-en", "pua-ja", "prompt-optim", "prompt-engineer"]),
+
+    # ── AgentHub 工作流命令（init/spawn/merge 等，先于 engineering-devops 兜底）
+    ("agent-agenthub",         "Agent·AgentHub协作",   ["agenthub", "dbs-agent-migration", "dbs-chatroom", "dbs-hook", "dbs-action",
+                                                         "dbs-diagnosis", "dbs-slowisfast", "dbs-xhs-title", "dbs-ai-check",
+                                                         "dbs-content", "dbs-chatroom-austrian", "dbs-deconstruct", "dbs-"]),
+
+    # Engineering / Code
+    ("engineering-code",       "工程·代码质量",        ["code-review", "karpathy-coder", "refactor", "simplif", "focused-fix", "code-tour", "senior-security", "senior-frontend", "senior-backend", "senior-ml", "prompt-governance"]),
+    ("engineering-testing",    "工程·测试",             ["tdd", "test-driven", "benchmark", "skill-arena", "gstack-openclaw-retro", "writing-hookify"]),
+    ("engineering-qa",         "工程·QA",               ["-qa", "qa-only", "webapp-test", "devex-review", "health", "verification-before"]),
+    ("engineering-debug",      "工程·调试",             ["systematic-debug", "investigate", "careful", "guard"]),
+    ("engineering-git",        "工程·Git工作流",        ["git-commit-master", "bfg-repo", "clean-gone", "commit-push", "finishing-a-dev", "using-git-worktree", "requesting-code-review", "receiving-code-review"]),
+    ("engineering-frontend",   "工程·前端",             ["frontend-design", "web-artifact", "canvas-design", "theme-factory", "design-html"]),
+    # NOTE: "devops" keyword removed — it matched the devops/ directory PATH causing false positives
+    # (pua, skill-manager etc. all live in devops/ directory)
+    ("engineering-devops",     "工程·DevOps",           ["docker", "k8s", "kubernetes", "setup-deploy", "land-and-deploy", "ship", "canary", "infra", "azure-cloud", "aws-solution", "gcp-cloud",
+                                                          "devops-engineer", "kubernetes-specialist", "senior-devops", "helm-chart", "terraform", "observability",
+                                                          "release-manager", "git-worktree-manager", "ms365", "google-workspace",
+                                                          "incident-response", "gh-fix-ci"]),
+    ("engineering-security",   "工程·安全",             ["security", "cso", "ciso-advisor", "secret", "vuln", "pentest", "ai-security"]),
+    ("engineering-arch",       "工程·架构",             ["architect", "system-design", "ddd", "microservice", "mcp-builder", "mcp-integration", "mcp-cli"]),
+    ("engineering-ml",         "工程·ML/AI",            ["machine-learning", "model-train", "llm-cost", "llm-wiki", "hugging-face", "huggingface", "gradio", "trackio"]),
+    ("engineering-mobile",     "工程·移动",             ["mobile", "react-native", "flutter-expert", "kotlin-specialist", "swift-expert"]),
+
+    # L2-aware fullstack subclusters — specific language/framework specialists
+    ("engineering-lang",       "工程·语言专家",         ["python-pro", "javascript-pro", "typescript-pro", "golang-pro", "rust-engineer", "cpp-pro", "csharp-developer", "php-pro", "kotlin-specialist", "swift-expert"]),
+    ("engineering-framework",  "工程·框架专家",         ["react-expert", "vue-expert", "nextjs-developer", "nestjs-expert", "django-expert", "fastapi-expert", "rails-expert", "spring-boot-engineer", "laravel-specialist"]),
+    ("engineering-platform",   "工程·平台开发",         ["salesforce-developer", "shopify-expert", "wordpress-pro", "atlassian-mcp"]),
+    ("engineering-fullstack",  "工程·全栈工程师",       ["fullstack", "full-stack", "senior-fullstack", "karpathy-coder",
+                                                          "api-designer", "code-documenter", "feature-forge", "spec-miner", "legacy-modernizer",
+                                                          "ml-pipeline", "monitoring-expert", "cli-developer", "game-developer", "fine-tuning-expert",
+                                                          "debugging-wizard", "chaos-engineer", "websocket-engineer", "embedded-systems",
+                                                          "database-optimizer", "test-master", "mcp-developer", "postgres-pro", "sql-pro",
+                                                          "pandas-pro", "spark-engineer", "sre-engineer", "the-fool"]),
+
+    # Agent / AI Architecture
+    ("agent-arch",             "Agent·架构",            ["multi-agent-pattern", "bdi-mental", "dispatching-parallel", "subagent-driven", "agent-optim"]),
+    ("agent-context",          "Agent·上下文管理",      ["context-compress", "context-optim", "context-degrad", "context-fundament", "latent-brief", "filesystem-context"]),
+    ("agent-memory",           "Agent·记忆系统",        ["memory-system", "checkpoint", "project-develop"]),
+    ("agent-eval",             "Agent·评估",            ["advanced-eval", "evaluation", "agent-eval"]),
+    ("agent-workflow",         "Agent·工作流",          ["executing-plan", "writing-plan", "autoplan", "planning-with-files", "skill-development", "agent-development", "e2e-development"]),
+    ("agent-hosted",           "Agent·托管运行",        ["hosted-agent", "pair-agent", "claude-session-driver", "driving-claude", "tool-design"]),
+
     # Content / Writing
-    ("content-writing",        "内容·写作",            ["writing", "doc-coauthor", "document-release", "internal-comm", "copy-edit", "proofreading", "article-edit", "script-polish", "caveman-help"]),
-    ("content-seo",            "内容·SEO",             ["seo", "schema-markup", "programmatic-seo", "ai-seo"]),
-    ("content-social",         "内容·社交媒体",        ["social-content", "x-master", "article-to-x", "xhs-image", "wechat-image", "huashu-xhs", "huashu-wechat", "topic-gen", "khazix-writer", "huashu-article-to-x"]),
-    ("content-video",          "内容·视频",            ["video", "剪", "字幕", "remotion", "image-to-video", "video-frame", "video-split", "video-outline", "video-check", "douyin-script", "huashu-douyin", "huashu-video"]),
-    ("content-image",          "内容·图像设计",        ["image-analyz", "image-audit", "image-review", "face-beautif", "gemini-image", "photo", "visual-expert", "commercial-director", "algorithmic-art", "huashu-design", "huashu-image", "photography"]),
-    ("content-doc",            "内容·文档生成",        ["pdf", "docx", "xlsx", "pptx", "slides", "md-to-pdf", "ikea-style-ppt", "huashu-slides", "huashu-md-to-pdf"]),
+    ("content-writing",        "内容·写作",             ["writing", "doc-coauthor", "document-release", "internal-comm", "copy-edit", "proofreading", "article-edit", "script-polish", "caveman-help"]),
+    ("content-seo",            "内容·SEO",              ["seo", "schema-markup", "programmatic-seo", "ai-seo"]),
+    ("content-social",         "内容·社交媒体",         ["social-content", "x-master", "article-to-x", "xhs-image", "wechat-image", "huashu-xhs", "huashu-wechat", "topic-gen", "khazix-writer", "huashu-article-to-x",
+                                                          "baoyu-post-to-wechat", "baoyu-post-to-weibo", "baoyu-post-to-x", "baoyu-translate", "baoyu-url-to-markdown", "baoyu-danger-x-to-markdown", "baoyu-format-markdown",
+                                                          "baoyu-youtube-transcript", "baoyu-danger-gemini-web"]),
+    ("content-video",          "内容·视频",             ["video", "剪", "字幕", "remotion", "image-to-video", "video-frame", "video-split", "video-outline", "video-check", "douyin-script", "huashu-douyin", "huashu-video"]),
+    ("content-image",          "内容·图像设计",         ["image-analyz", "image-audit", "image-review", "face-beautif", "gemini-image", "photo", "visual-expert", "commercial-director", "algorithmic-art", "huashu-design", "huashu-image", "photography",
+                                                          "baoyu-image-gen", "baoyu-imagine", "baoyu-cover-image", "baoyu-article-illustrator", "baoyu-infographic", "baoyu-image-cards", "baoyu-comic"]),
+    ("content-doc",            "内容·文档生成",         ["pdf", "docx", "xlsx", "pptx", "slides", "md-to-pdf", "ikea-style-ppt", "huashu-slides", "huashu-md-to-pdf",
+                                                          "baoyu-slide-deck", "baoyu-diagram", "baoyu-markdown-to-html"]),
+    ("content-presentation",   "内容·演示设计",         ["deck-that-wins", "awesome-design-md", "poster-print-design", "meeting-notes-and-actions", "spreadsheet-formula-helper", "to-prd"]),
+
+    # Design (including design tool skills from misc)
+    ("design-ux",              "设计·UX/产品设计",      ["design-review", "design-consult", "design-shotgun", "plan-design", "ikea-designer",
+                                                          "ui-ux-pro-max-skill", "design-tokens", "figma-to-code", "icon-system", "motion-design"]),
 
     # Marketing
-    ("marketing-cro",          "营销·转化率优化",      ["page-cro", "signup-flow-cro", "popup-cro", "onboarding-cro", "paywall-upgrade", "form-cro", "cro-advisor"]),
-    ("marketing-email",        "营销·邮件",            ["cold-email", "email-sequence"]),
-    ("marketing-ads",          "营销·广告",            ["ad-creative", "paid-ads", "ab-test-setup"]),
-    ("marketing-analytics",    "营销·增长分析",        ["analytics-tracking", "revenue-op", "churn-prev", "referral-program"]),
-    ("marketing-strategy",     "营销·策略",            ["launch-strateg", "content-strateg", "pricing-strateg", "free-tool-strateg", "competitor-alt", "product-marketing"]),
-    ("marketing-copy",         "营销·文案",            ["copywriting", "marketing-psych", "marketing-ideas"]),
+    ("marketing-cro",          "营销·转化率优化",       ["page-cro", "signup-flow-cro", "popup-cro", "onboarding-cro", "paywall-upgrade", "form-cro", "cro-advisor"]),
+    ("marketing-email",        "营销·邮件",             ["cold-email", "email-sequence"]),
+    ("marketing-ads",          "营销·广告",             ["ad-creative", "paid-ads", "ab-test-setup"]),
+    ("marketing-analytics",    "营销·增长分析",         ["analytics-tracking", "revenue-op", "churn-prev", "referral-program"]),
+    ("marketing-strategy",     "营销·策略",             ["launch-strateg", "content-strateg", "pricing-strateg", "free-tool-strateg", "competitor-alt", "product-marketing", "community-marketing", "aso-audit"]),
+    ("marketing-copy",         "营销·文案",             ["copywriting", "marketing-psych", "marketing-ideas"]),
 
     # Business / C-Level
-    ("business-clevel",        "商业·高管顾问",        ["c-level", "ceo-advisor", "cto-advisor", "cfo-advisor", "cmo-advisor", "coo-advisor", "chro-advisor", "chief-of-staff", "board-deck", "board-meeting", "founder-coach", "executive-mentor", "company-os", "ma-playbook", "intl-expansion"]),
-    ("business-product",       "商业·产品",            ["product-team", "jtbd", "feature", "roadmap", "priorit", "plan-eng-review", "plan-ceo-review", "office-hours"]),
-    ("business-strategy",      "商业·战略分析",        ["war-room", "scenario-war", "competitive-intel", "wardley", "decision-logger", "cs-onboard", "cs-wiki"]),
-    ("business-finance",       "商业·财务",            ["financial", "budget", "forecast", "cs-financial", "hv-analysis"]),
-    ("business-hr",            "商业·人力资源",        ["hiring", "org-health", "change-management", "culture-architect", "internal-narrative", "brand-guidelines"]),
-    ("business-legal",         "商业·法务合规",        ["legal", "compliance", "gdpr", "audit-report", "standards"]),
-    ("business-pm",            "商业·项目管理",        ["project-management", "scrum", "retro", "retrospective", "aar", "postmortem", "stress-test", "hard-call", "board-prep", "decision"]),
-
-    # Design
-    ("design-ux",              "设计·UX/产品设计",     ["design-review", "design-consult", "design-shotgun", "plan-design", "ikea-designer"]),
+    ("business-clevel",        "商业·高管顾问",         ["c-level", "ceo-advisor", "cto-advisor", "cfo-advisor", "cmo-advisor", "coo-advisor", "chro-advisor", "chief-of-staff", "board-deck", "board-meeting", "founder-coach", "executive-mentor", "company-os", "ma-playbook", "intl-expansion"]),
+    ("business-product",       "商业·产品",             ["product-team", "jtbd", "feature", "roadmap", "priorit", "plan-eng-review", "plan-ceo-review", "office-hours"]),
+    ("business-strategy",      "商业·战略分析",         ["war-room", "scenario-war", "competitive-intel", "wardley", "decision-logger", "cs-onboard", "cs-wiki"]),
+    ("business-finance",       "商业·财务",             ["financial", "budget", "forecast", "cs-financial", "hv-analysis"]),
+    ("business-hr",            "商业·人力资源",         ["hiring", "org-health", "change-management", "culture-architect", "internal-narrative", "brand-guidelines"]),
+    ("business-legal",         "商业·法务合规",         ["legal", "compliance", "gdpr", "audit-report", "standards"]),
+    ("business-pm",            "商业·项目管理",         ["project-management", "scrum", "retro", "retrospective", "aar", "postmortem", "stress-test", "hard-call", "board-prep", "decision"]),
 
     # Education
-    ("education",              "教育·学习研究",        ["learn", "feynman", "socratic", "research", "info-search", "material-search", "huashu-research", "huashu-info", "huashu-material", "huashu-prompt-save", "prompt-save"]),
+    ("education",              "教育·学习研究",         ["learn", "feynman", "socratic", "research", "info-search", "material-search", "huashu-research", "huashu-info", "huashu-material", "huashu-prompt-save", "prompt-save"]),
 
     # Persona
-    ("persona",                "人物·视角模拟",        ["perspective", "nuwa-skill", "nuwa", "x-mastery-mentor", "behuman", "blessing-style"]),
+    ("persona",                "人物·视角模拟",         ["perspective", "nuwa-skill", "nuwa", "x-mastery-mentor", "behuman", "blessing-style"]),
 
     # Productivity
-    ("productivity",           "效率·生产力",          ["eisenhower", "rice", "moscow", "task-analyz", "brainstorm", "scamper", "sixhats", "caveman", "compress", "slack-messaging", "slack-gif", "loop", "dynamic-expert"]),
+    ("productivity",           "效率·生产力",           ["eisenhower", "rice", "moscow", "task-analyz", "brainstorm", "scamper", "sixhats", "caveman", "compress", "slack-messaging", "slack-gif", "loop", "dynamic-expert"]),
 
     # Data
-    ("data",                   "数据·分析",            ["data-pro", "huashu-data", "analytic", "report", "pipeline", "revenue-operations", "llm-cost", "data-quality", "statistical", "snowflake", "sql-database", "database-design", "database-schema", "senior-data"]),
+    ("data",                   "数据·分析",             ["data-pro", "huashu-data", "analytic", "report", "pipeline", "revenue-operations", "llm-cost", "data-quality", "statistical", "snowflake", "sql-database", "database-design", "database-schema", "senior-data"]),
+
+    # Voice / Audio (previously scattered in misc)
+    ("media-audio",            "媒体·语音音频",         ["mac-tts", "mac-voice-clone", "mac-whisper", "audio-clean"]),
 
     # 补充兜底规则（宽泛匹配放最后）
-    ("engineering-code",       "工程·代码质量",       ["pr-review", "adversarial-review", "a11y-audit", "codebase-onboard", "dependency-audit", "changelog", "monorepo", "runbook", "tech-debt", "performance-profil", "api-test", "spec-driven", "karpathy", "engineering-skill", "engineering-advanced"]),
-    ("engineering-devops",     "工程·DevOps",          ["helm-chart", "terraform", "observability", "incident", "release-manager", "git-worktree-manager", "ms365", "google-workspace", "deploy", "runbook", "status", "merge", "promote", "run", "spawn", "init"]),
-    ("engineering-security",   "工程·安全",            ["red-team", "threat-detect", "secops", "isms-audit", "risk-management"]),
-    ("engineering-ml",         "工程·ML/AI",           ["senior-computer-vision", "reasoning-trace", "self-improv", "self-eval", "eval", "extract", "agent-designer", "agent-workflow-designer", "agenthub", "spec-driven"]),
-    ("business-clevel",        "商业·高管顾问",        ["board", "business-growth", "business-invest", "saas-metric", "revops", "tech-stack-eval", "epic-design", "digital-brain"]),
-    ("business-hr",            "商业·人力资源",        ["sales-engineer", "sales-enablement", "lead-magnet"]),
-    ("business-legal",         "商业·法务合规",        ["fda-consultant", "mdr-745", "capa-officer", "isms", "qms", "ra-qm", "quality-manager", "quality-doc", "regulatory", "risk-management"]),
-    ("business-pm",            "商业·项目管理",        ["incident-commander", "tc-tracker", "skill-tester", "remember", "status"]),
-    ("marketing-strategy",     "营销·策略",            ["app-store-optim", "marketing-context", "marketing-demand", "marketing-ops", "marketing-strategy-pmm", "marketing-skill", "finance-skill"]),
-    ("content-writing",        "内容·写作",            ["content-creator", "content-humanizer", "content-production", "contract-and-proposal", "email-template", "customer-success"]),
-    ("content-social",         "内容·社交媒体",        ["social-media", "x-twitter", "huashu-agent-swarm", "huashu-speech-coach"]),
-    ("skills-mgmt",            "Skills·管理",          ["skills-finder", "claude-md-improver", "claude-automation", "claude-opus-migration", "command-develop", "hook-develop", "plugin-setting", "plugin-struct", "context-engineering-collection", "playground", "sample-skill", "example-skill", "template-skill", "skill-tester", "remember"]),
-    ("platform-claude-api",    "平台·Claude API",      ["claude-api", "stripe-best", "stripe-integration", "mcp-server-builder"]),
+    ("engineering-code",       "工程·代码质量",         ["pr-review", "adversarial-review", "a11y-audit", "codebase-onboard", "dependency-audit", "changelog", "monorepo", "runbook", "tech-debt", "performance-profil", "api-test", "spec-driven", "karpathy", "engineering-skill", "engineering-advanced"]),
+    ("engineering-devops",     "工程·DevOps",           ["helm-chart-builder", "terraform-patterns", "observability-designer", "incident-commander", "git-worktree-manager"]),
+    ("engineering-security",   "工程·安全",             ["red-team", "threat-detect", "secops", "isms-audit", "risk-management"]),
+    ("engineering-ml",         "工程·ML/AI",            ["senior-computer-vision", "reasoning-trace", "self-improv", "self-eval", "eval", "extract", "agent-designer", "agent-workflow-designer", "spec-driven"]),
+    ("business-clevel",        "商业·高管顾问",         ["board", "business-growth", "business-invest", "saas-metric", "revops", "tech-stack-eval", "epic-design", "digital-brain"]),
+    ("business-hr",            "商业·人力资源",         ["sales-engineer", "sales-enablement", "lead-magnet"]),
+    ("business-legal",         "商业·法务合规",         ["fda-consultant", "mdr-745", "capa-officer", "isms", "qms", "ra-qm", "quality-manager", "quality-doc", "regulatory", "risk-management"]),
+    ("business-pm",            "商业·项目管理",         ["tc-tracker", "skill-tester", "remember"]),
+    ("marketing-strategy",     "营销·策略",             ["app-store-optim", "marketing-context", "marketing-demand", "marketing-ops", "marketing-strategy-pmm", "marketing-skill", "finance-skill"]),
+    ("content-writing",        "内容·写作",             ["content-creator", "content-humanizer", "content-production", "contract-and-proposal", "email-template", "customer-success"]),
+    ("content-social",         "内容·社交媒体",         ["social-media", "x-twitter", "huashu-agent-swarm", "huashu-speech-coach"]),
+    ("skills-mgmt",            "Skills·管理",           ["claude-md-management", "command-development", "hook-development", "plugin-structure", "plugin-settings", "context-engineering", "init-skill", "sample-skill", "example-skill", "template-skill"]),
+    ("platform-claude-api",    "平台·Claude API",       ["claude-api", "stripe-best", "stripe-integration", "mcp-server-builder", "claude-opus-4-5-migration"]),
+    ("agent-agenthub",         "Agent·AgentHub协作",    ["dbs"]),
 ]
 
 # 兜底：未匹配的归到 misc
 MISC_CLUSTER = ("misc", "其他未分类", [])
 
+# ──────────────────────────────────────────────
+# L2 子聚类定义
+# 对大型 L1 cluster 做功能性细分，供 PK 测试使用
+# 格式: cluster_id → list of (subcluster_id, subcluster_name, keyword_list)
+# ──────────────────────────────────────────────
+L2_SUBCLUSTER_RULES: dict = {
+    "engineering-fullstack": [
+        ("engineering-fullstack-api",      "API & 后端设计",      ["api-designer", "feature-forge", "spec-miner", "legacy-modernizer", "monitoring-expert", "sre-engineer"]),
+        ("engineering-fullstack-db",       "数据库 & 存储",       ["postgres-pro", "sql-pro", "database-optimizer", "pandas-pro", "spark-engineer"]),
+        ("engineering-fullstack-tools",    "开发工具 & 基础设施",  ["cli-developer", "mcp-developer", "websocket-engineer", "embedded-systems", "chaos-engineer"]),
+        ("engineering-fullstack-testing",  "测试 & 质量",         ["test-master", "debugging-wizard"]),
+        ("engineering-fullstack-ml",       "ML & AI 工程",        ["ml-pipeline", "fine-tuning-expert"]),
+        ("engineering-fullstack-general",  "通用全栈",            ["the-fool", "code-documenter", "game-developer"]),
+    ],
+    "engineering-devops": [
+        ("engineering-devops-cloud",       "云平台架构",          ["aws-solution", "azure-cloud", "gcp-cloud", "terraform", "helm-chart"]),
+        ("engineering-devops-container",   "容器 & K8s",          ["docker", "k8s", "kubernetes", "kubernetes-specialist"]),
+        ("engineering-devops-cicd",        "CI/CD & 部署",        ["setup-deploy", "land-and-deploy", "ship", "canary", "release-manager", "senior-devops", "devops-engineer"]),
+        ("engineering-devops-observ",      "可观测性 & 事故响应",  ["observability", "incident-response", "monitoring", "incident-commander"]),
+        ("engineering-devops-workspace",   "工作区管理",          ["ms365", "google-workspace", "git-worktree-manager"]),
+    ],
+    "skills-mgmt": [
+        ("skills-mgmt-lifecycle",          "Skill 生命周期",      ["skill-manager", "skill-sync", "skill-creator", "skill-evolution", "skill-scout"]),
+        ("skills-mgmt-search",             "Skill 搜索 & 发现",   ["ultraskills-hub", "skills-finder", "github-to-skill", "find-skill"]),
+        ("skills-mgmt-claude-config",      "Claude 配置工具",     ["claude-md-improver", "claude-automation", "hook-develop", "command-develop", "plugin-setting", "plugin-struct"]),
+    ],
+    "business-clevel": [
+        ("business-clevel-cxo",            "CxO 顾问",            ["ceo-advisor", "cto-advisor", "cfo-advisor", "cmo-advisor", "coo-advisor", "chro-advisor"]),
+        ("business-clevel-strategy",       "战略决策",            ["chief-of-staff", "board-deck", "board-meeting", "founder-coach", "executive-mentor", "board", "business-growth"]),
+        ("business-clevel-ops",            "运营体系",            ["company-os", "ma-playbook", "intl-expansion", "saas-metric", "revops", "tech-stack-eval"]),
+    ],
+    "content-social": [
+        ("content-social-baoyu",           "Baoyu 内容工具",      ["baoyu-post-to-wechat", "baoyu-post-to-weibo", "baoyu-post-to-x", "baoyu-translate", "baoyu-url-to-markdown",
+                                                                    "baoyu-danger-x-to-markdown", "baoyu-format-markdown", "baoyu-youtube-transcript", "baoyu-danger-gemini-web"]),
+        ("content-social-platforms",       "社交平台发布",        ["social-content", "x-master", "article-to-x", "xhs-image", "wechat-image", "topic-gen", "khazix-writer"]),
+        ("content-social-huashu",          "Huashu 社交矩阵",     ["huashu-xhs", "huashu-wechat", "huashu-article-to-x", "huashu-agent-swarm", "huashu-speech-coach"]),
+    ],
+    "content-image": [
+        ("content-image-baoyu",            "Baoyu 图像生成",      ["baoyu-image-gen", "baoyu-imagine", "baoyu-cover-image", "baoyu-article-illustrator", "baoyu-infographic", "baoyu-image-cards", "baoyu-comic"]),
+        ("content-image-analysis",         "图像分析 & 审计",     ["image-analyz", "image-audit", "image-review", "face-beautif", "visual-expert", "photography"]),
+        ("content-image-creation",         "AI 图像创作",         ["gemini-image", "commercial-director", "algorithmic-art", "huashu-design", "huashu-image"]),
+    ],
+    "agent-workflow": [
+        ("agent-workflow-planning",        "规划 & 执行",         ["executing-plan", "writing-plan", "autoplan"]),
+        ("agent-workflow-files",           "文件驱动工作流",      ["planning-with-files"]),
+        ("agent-workflow-development",     "开发辅助工作流",      ["skill-development", "agent-development", "e2e-development"]),
+    ],
+}
+
 
 def match_cluster(skill: dict) -> str:
-    """根据 id/tags/description 匹配最佳 cluster。"""
+    """根据 id/tags 匹配最佳 cluster。
+
+    NOTE: 不再用 path 匹配，因为 path 包含目录名（如 devops/）
+    会导致 pua、skill-manager 等错误归入 engineering-devops。
+    """
     sid = skill.get("id", "").lower().strip('"\'')
     tags = [t.lower() for t in (skill.get("tags") or [])]
-    desc = skill.get("description", "").lower()
-    path = skill.get("path", "").lower()
-    # 只用 id + tags + path 匹配，避免 description 误匹配
-    text = f"{sid} {' '.join(tags)} {path}"
+    # 只用 id + tags 匹配，不包含 path
+    text = f"{sid} {' '.join(tags)}"
 
     for cluster_id, _, keywords in CLUSTER_RULES:
         for kw in keywords:
             if kw in text:
                 return cluster_id
     return MISC_CLUSTER[0]
+
+
+def compute_l2_subclusters(cluster_id: str, skill_ids: list, scores: dict) -> list:
+    """计算 L2 子聚类。
+
+    对给定 cluster 的 skills，按 L2_SUBCLUSTER_RULES 中的规则分组。
+    规则未覆盖的 skills 归入 "{cluster_id}-other" 子类。
+
+    Args:
+        cluster_id: L1 cluster ID
+        skill_ids: 该 cluster 的所有 skill ID 列表
+        scores: skill ID → score dict
+
+    Returns:
+        List of subcluster dicts: [{id, name, skills, winner}]
+    """
+    rules = L2_SUBCLUSTER_RULES.get(cluster_id)
+    if not rules:
+        return []
+
+    remaining = set(skill_ids)
+    subclusters = []
+
+    for sub_id, sub_name, keywords in rules:
+        matched = []
+        for sid in list(remaining):
+            sid_lower = sid.lower().strip('"\'')
+            if any(kw in sid_lower for kw in keywords):
+                matched.append(sid)
+                remaining.discard(sid)
+        if matched:
+            ranked = sorted(matched, key=lambda x: scores.get(x, {}).get("total", 0), reverse=True)
+            subclusters.append({
+                "id": sub_id,
+                "name": sub_name,
+                "skill_count": len(ranked),
+                "winner": ranked[0],
+                "skills": ranked,
+            })
+
+    # Leftover → other subcluster
+    if remaining:
+        ranked = sorted(list(remaining), key=lambda x: scores.get(x, {}).get("total", 0), reverse=True)
+        subclusters.append({
+            "id": f"{cluster_id}-other",
+            "name": "其他",
+            "skill_count": len(ranked),
+            "winner": ranked[0] if ranked else None,
+            "skills": ranked,
+        })
+
+    return subclusters
 
 
 # ──────────────────────────────────────────────
@@ -235,13 +375,17 @@ def main():
     clusters_out = []
     for cid, members in sorted(cluster_members.items()):
         ranked = sorted(members, key=lambda x: scores[x]["total"], reverse=True)
-        clusters_out.append({
+        subclusters = compute_l2_subclusters(cid, members, scores)
+        entry = {
             "id": cid,
             "name": cluster_name_map.get(cid, cid),
             "skill_count": len(members),
             "winner": winners.get(cid),
             "skills": ranked,  # 按分数排序
-        })
+        }
+        if subclusters:
+            entry["subclusters"] = subclusters
+        clusters_out.append(entry)
     clusters_out.sort(key=lambda x: x["skill_count"], reverse=True)
 
     (ARENA_DIR / "clusters.json").write_text(

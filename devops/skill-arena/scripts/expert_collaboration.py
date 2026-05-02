@@ -6,11 +6,18 @@ Orchestrates collaboration between domain experts to design comprehensive test c
 Simulates a roundtable discussion where each expert contributes their perspective.
 """
 
+import re
 import yaml
 import json
 from pathlib import Path
 from typing import Dict, List, Any
 from expert_panels import get_expert_panel, format_expert_panel_for_prompt
+
+try:
+    from llm_invoker import SkillInvoker
+    _LLM_AVAILABLE = True
+except ImportError:
+    _LLM_AVAILABLE = False
 
 
 def summon_experts(cluster: Dict, project_context: Dict = None) -> Dict:
@@ -101,7 +108,7 @@ def generate_expert_test_proposals(expert: Dict, category: str, skills: List) ->
     base_id = len(proposals) + 1
 
     # Each expert proposes 2-3 tests from their perspective
-    proposal_templates = get_proposal_templates_for_category(category)
+    proposal_templates = generate_test_proposals_with_llm(category, skills)
 
     for template in proposal_templates[:3]:
         proposals.append({
@@ -119,124 +126,222 @@ def generate_expert_test_proposals(expert: Dict, category: str, skills: List) ->
     return proposals
 
 
-def get_proposal_templates_for_category(category: str) -> List[Dict]:
-    """Get test proposal templates by category."""
-    templates = {
-        "cro": [
-            {
-                "name": "Landing Page Conversion Audit",
-                "description": "Analyze a landing page and identify conversion barriers",
-                "input": {"type": "url", "value": "https://example.com/landing"},
-                "expected_outputs": [
-                    "Identify 3+ conversion barriers",
-                    "Provide prioritized recommendations",
-                    "Include implementation guidance"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            },
-            {
-                "name": "A/B Test Design Challenge",
-                "description": "Design an A/B test for a given conversion problem",
-                "input": {"type": "scenario", "value": "Problem: 70% cart abandonment"},
-                "expected_outputs": [
-                    "Clear hypothesis",
-                    "Test variant description",
-                    "Success metrics",
-                    "Sample size calculation"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            },
-            {
-                "name": "Copy Optimization Challenge",
-                "description": "Rewrite weak copy to improve conversions",
-                "input": {"type": "copy", "value": "Weak headline and CTA provided"},
-                "expected_outputs": [
-                    "Critique of original copy",
-                    "3 alternative versions",
-                    "Rationale for each version"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            }
-        ],
-        "seo": [
-            {
-                "name": "Technical SEO Audit",
-                "description": "Perform comprehensive technical SEO audit",
-                "input": {"type": "url", "value": "https://example.com"},
-                "expected_outputs": [
-                    "Identify critical technical issues",
-                    "Prioritize by impact",
-                    "Provide fix instructions"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            },
-            {
-                "name": "Content Optimization for AI Search",
-                "description": "Optimize content for AI Overview visibility",
-                "input": {"type": "content", "value": "Article content provided"},
-                "expected_outputs": [
-                    "AI search optimization recommendations",
-                    "Structured data suggestions",
-                    "Entity optimization ideas"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            }
-        ],
-        "engineering": [
-            {
-                "name": "Code Review Challenge",
-                "description": "Review code for bugs, security issues, and quality",
-                "input": {"type": "code", "value": "Sample code snippet provided"},
-                "expected_outputs": [
-                    "Identify bugs and security issues",
-                    "Suggest refactoring improvements",
-                    "Evaluate code style and patterns"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            },
-            {
-                "name": "Architecture Design Review",
-                "description": "Evaluate system architecture and provide recommendations",
-                "input": {"type": "architecture", "value": "System design document"},
-                "expected_outputs": [
-                    "Identify architectural risks",
-                    "Suggest improvements",
-                    "Evaluate scalability and maintainability"
-                ],
-                "scoring": {
-                    "speed": {"weight": 0.3, "max_points": 30},
-                    "quality": {"weight": 0.5, "max_points": 50},
-                    "maintainability": {"weight": 0.2, "max_points": 20}
-                }
-            }
-        ]
-    }
+def generate_test_proposals_with_llm(category: str, skills_context: List[Dict]) -> List[Dict]:
+    """
+    Generate meaningful test proposals using LLM based on real skill descriptions.
+    Falls back to hardcoded templates if LLM unavailable or call fails.
+    """
+    if not _LLM_AVAILABLE:
+        return get_proposal_templates_for_category(category)
 
-    # Default template for categories without specific templates
+    # Check if we have hardcoded templates for this category
+    hardcoded = _HARDCODED_TEMPLATES.get(category)
+    if hardcoded:
+        return hardcoded
+
+    # Build skills description for prompt
+    skills_desc_lines = []
+    for s in skills_context[:10]:  # cap at 10 to avoid huge prompts
+        desc = s.get("description", "").strip()
+        name = s.get("name") or s.get("id", "")
+        tags = ", ".join(s.get("tags", []))
+        skills_desc_lines.append(f"- {name}: {desc}" + (f" [tags: {tags}]" if tags else ""))
+    skills_descriptions = "\n".join(skills_desc_lines) or f"Skills in the {category} category"
+
+    prompt = f"""Design 3 benchmark test cases for AI skills in the "{category}" category.
+
+Skills to test:
+{skills_descriptions}
+
+Return a flat JSON array. Each element must have these fields (ALL values are single-line strings, NO newlines inside values):
+- name: short test name
+- description: what this test evaluates
+- input_type: one of: text, code, scenario, architecture
+- input_value: a specific realistic input (single line, no newlines)
+- criterion_1: first evaluation criterion
+- criterion_2: second evaluation criterion
+- criterion_3: third evaluation criterion
+
+Return ONLY the JSON array. No markdown fences. No newlines inside string values."""
+
+    try:
+        invoker = SkillInvoker(provider="google", model="gemini-2.5-flash")
+        result = invoker.invoke_skill(
+            skill={"id": "test-designer", "name": "Test Case Designer"},
+            test_input={"type": "text", "value": prompt},
+            skill_content=""
+        )
+        if not result.get("success"):
+            raise RuntimeError(result.get("error", "LLM call failed"))
+
+        content = result.get("output", "")
+        # Strip markdown code fences if present
+        content = re.sub(r"^```(?:json)?\s*", "", content.strip())
+        content = re.sub(r"\s*```$", "", content.strip())
+        # Strip markdown fences and extract JSON array
+        _match = re.search(r'\[.*\]', content, re.DOTALL)
+        if _match:
+            content = _match.group(0)
+        # Try strict parse first, then repair trailing commas
+        try:
+            flat_proposals = json.loads(content)
+        except json.JSONDecodeError:
+            content_fixed = re.sub(r',\s*([}\]])', r'\1', content)
+            flat_proposals = json.loads(content_fixed)
+        if not isinstance(flat_proposals, list) or len(flat_proposals) == 0:
+            raise ValueError("Empty or non-list LLM response")
+        # Convert flat schema to expected nested format
+        proposals = []
+        for item in flat_proposals:
+            if not isinstance(item, dict):
+                continue
+            proposals.append({
+                "name": item.get("name", "Test Case"),
+                "description": item.get("description", ""),
+                "input": {
+                    "type": item.get("input_type", "text"),
+                    "value": item.get("input_value", item.get("value", ""))
+                },
+                "expected_outputs": [
+                    item.get("criterion_1", ""),
+                    item.get("criterion_2", ""),
+                    item.get("criterion_3", ""),
+                ],
+                "scoring": {
+                    "speed": {"weight": 0.3, "max_points": 30},
+                    "quality": {"weight": 0.5, "max_points": 50},
+                    "maintainability": {"weight": 0.2, "max_points": 20}
+                }
+            })
+        if proposals:
+            return proposals
+        raise ValueError("No valid proposals after conversion")
+
+    except Exception as e:
+        # Fallback to default template
+        print(f"[expert_collaboration] LLM test generation failed for '{category}': {e}. Using fallback.")
+        return get_proposal_templates_for_category(category)
+
+
+# Internal: hardcoded templates used by get_proposal_templates_for_category
+_HARDCODED_TEMPLATES = {
+    "cro": [
+        {
+            "name": "Landing Page Conversion Audit",
+            "description": "Analyze a landing page and identify conversion barriers",
+            "input": {"type": "url", "value": "https://example.com/landing"},
+            "expected_outputs": [
+                "Identify 3+ conversion barriers",
+                "Provide prioritized recommendations",
+                "Include implementation guidance"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        },
+        {
+            "name": "A/B Test Design Challenge",
+            "description": "Design an A/B test for a given conversion problem",
+            "input": {"type": "scenario", "value": "Problem: 70% cart abandonment"},
+            "expected_outputs": [
+                "Clear hypothesis",
+                "Test variant description",
+                "Success metrics",
+                "Sample size calculation"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        },
+        {
+            "name": "Copy Optimization Challenge",
+            "description": "Rewrite weak copy to improve conversions",
+            "input": {"type": "copy", "value": "Weak headline and CTA provided"},
+            "expected_outputs": [
+                "Critique of original copy",
+                "3 alternative versions",
+                "Rationale for each version"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        }
+    ],
+    "seo": [
+        {
+            "name": "Technical SEO Audit",
+            "description": "Perform comprehensive technical SEO audit",
+            "input": {"type": "url", "value": "https://example.com"},
+            "expected_outputs": [
+                "Identify critical technical issues",
+                "Prioritize by impact",
+                "Provide fix instructions"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        },
+        {
+            "name": "Content Optimization for AI Search",
+            "description": "Optimize content for AI Overview visibility",
+            "input": {"type": "content", "value": "Article content provided"},
+            "expected_outputs": [
+                "AI search optimization recommendations",
+                "Structured data suggestions",
+                "Entity optimization ideas"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        }
+    ],
+    "engineering": [
+        {
+            "name": "Code Review Challenge",
+            "description": "Review code for bugs, security issues, and quality",
+            "input": {"type": "code", "value": "Sample code snippet provided"},
+            "expected_outputs": [
+                "Identify bugs and security issues",
+                "Suggest refactoring improvements",
+                "Evaluate code style and patterns"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        },
+        {
+            "name": "Architecture Design Review",
+            "description": "Evaluate system architecture and provide recommendations",
+            "input": {"type": "architecture", "value": "System design document"},
+            "expected_outputs": [
+                "Identify architectural risks",
+                "Suggest improvements",
+                "Evaluate scalability and maintainability"
+            ],
+            "scoring": {
+                "speed": {"weight": 0.3, "max_points": 30},
+                "quality": {"weight": 0.5, "max_points": 50},
+                "maintainability": {"weight": 0.2, "max_points": 20}
+            }
+        }
+    ]
+}
+
+
+def get_proposal_templates_for_category(category: str) -> List[Dict]:
+    """Get test proposal templates by category. Uses hardcoded set for known categories, generic default otherwise."""
     default = [
         {
             "name": f"Standard {category.title()} Task",
@@ -250,8 +355,7 @@ def get_proposal_templates_for_category(category: str) -> List[Dict]:
             }
         }
     ]
-
-    return templates.get(category, default)
+    return _HARDCODED_TEMPLATES.get(category, default)
 
 
 def refine_tests_collaborative(proposals: List[Dict], panel: Dict, category: str) -> List[Dict]:

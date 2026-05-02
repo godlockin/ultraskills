@@ -1,7 +1,9 @@
 {
   "template-skill": {
-    "consecutive_low": 3,
+    "consecutive_low": 5,
     "scores": [
+      3.8,
+      3.8,
       3.8,
       3.8,
       3.8
@@ -9,93 +11,15 @@
     "cluster": "skills-mgmt",
     "recommendation": "eliminate"
   },
-  "\"browserstack\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"report\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"review\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"migrate\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"runbook-generator\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.5,
-      3.5,
-      3.5
-    ],
-    "cluster": "engineering-code",
-    "recommendation": "eliminate"
-  },
-  "\"testrail\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"fix\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
-  "\"coverage\"": {
-    "consecutive_low": 3,
-    "scores": [
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "skills-browser",
-    "recommendation": "eliminate"
-  },
   "dbs": {
-    "consecutive_low": 2,
+    "consecutive_low": 4,
     "scores": [
+      3.7,
+      3.7,
       3.7,
       3.7
     ],
-    "cluster": "misc",
-    "recommendation": "warning"
+    "cluster": "agent-agenthub",
+    "recommendation": "eliminate"
   }
 }

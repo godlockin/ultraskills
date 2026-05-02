@@ -188,19 +188,20 @@ Evaluate objectively. Provide specific examples from the output to support your 
             creds_path,
             scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
-        # Use urllib3 with proxy to refresh token (requests SSL-through-proxy fails on some setups)
-        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or "http://127.0.0.1:7890"
+        # Refresh token - prefer direct connection, fallback to proxy if env vars set
+        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or ""
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE") if proxy_url else urllib3.PoolManager(cert_reqs="CERT_NONE")
-        auth_req = google_urllib3.Request(_http)
-        for _attempt in range(3):
-            try:
+        import google.auth.transport.requests as google_requests
+        auth_req_direct = google_requests.Request()
+        try:
+            creds.refresh(auth_req_direct)
+        except Exception:
+            if proxy_url:
+                _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE")
+                auth_req = google_urllib3.Request(_http)
                 creds.refresh(auth_req)
-                break
-            except Exception as e:
-                if _attempt == 2:
-                    raise
-                import time as _time; _time.sleep(2 ** _attempt)
+            else:
+                raise
 
         project_id = creds.project_id if creds.project_id else os.environ.get("GOOGLE_PROJECT_ID", "")
         vertex_url = (
@@ -216,7 +217,7 @@ Evaluate objectively. Provide specific examples from the output to support your 
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 2048, "temperature": 0.3}
         }
-        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else {}
         # Retry up to 3 times on network/SSL errors (short timeout to fail fast on dead proxy)
         for _req_attempt in range(3):
             try:

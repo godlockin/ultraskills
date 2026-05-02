@@ -246,7 +246,7 @@ Apply your methodology systematically and provide actionable insights."""
         import google.auth.transport.urllib3 as google_urllib3
         import urllib3
 
-        creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-auth.json")
+        creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "auth/gcp-auth.json")
         # Resolve relative path against project root (4 levels up from scripts/)
         if not os.path.isabs(creds_path):
             project_root = Path(__file__).parent.parent.parent.parent
@@ -255,20 +255,20 @@ Apply your methodology systematically and provide actionable insights."""
             creds_path,
             scopes=["https://www.googleapis.com/auth/cloud-platform"]
         )
-        # Use urllib3 with proxy to refresh token (requests SSL-through-proxy fails on some setups)
-        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or "http://127.0.0.1:7890"
+        # Refresh token - prefer direct connection, fallback to proxy if env vars set
+        proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or ""
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE") if proxy_url else urllib3.PoolManager(cert_reqs="CERT_NONE")
-        auth_req = google_urllib3.Request(_http)
-        # Retry token refresh up to 3 times on network errors
-        for _attempt in range(3):
-            try:
+        import google.auth.transport.requests as google_requests
+        auth_req_direct = google_requests.Request()
+        try:
+            creds.refresh(auth_req_direct)
+        except Exception:
+            if proxy_url:
+                _http = urllib3.ProxyManager(proxy_url, cert_reqs="CERT_NONE")
+                auth_req = google_urllib3.Request(_http)
                 creds.refresh(auth_req)
-                break
-            except Exception as e:
-                if _attempt == 2:
-                    raise
-                import time as _time; _time.sleep(2 ** _attempt)
+            else:
+                raise
         access_token = creds.token
 
         # Get project ID from credentials
@@ -306,7 +306,7 @@ Apply your methodology systematically and provide actionable insights."""
             f"projects/{project_id}/locations/us-central1/publishers/google/"
             f"models/{self.model}:generateContent"
         )
-        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        _proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else {}
         # Retry up to 3 times on network/SSL errors (short timeout to fail fast on dead proxy)
         for _req_attempt in range(3):
             try:
