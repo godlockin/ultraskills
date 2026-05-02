@@ -1,6 +1,6 @@
 {
   "template-skill": {
-    "consecutive_low": 5,
+    "consecutive_low": 7,
     "scores": [
       3.8,
       3.8,
@@ -12,8 +12,9 @@
     "recommendation": "eliminate"
   },
   "dbs": {
-    "consecutive_low": 4,
+    "consecutive_low": 6,
     "scores": [
+      3.7,
       3.7,
       3.7,
       3.7,

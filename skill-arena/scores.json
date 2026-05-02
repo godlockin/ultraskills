@@ -704,6 +704,17 @@
     "total": 8.8
   },
   {
+    "id": "competitor-profiling",
+    "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
     "id": "content-strategy",
     "path": "./external/marketingskills/skills/content-strategy/SKILL.md",
     "cluster": "marketing-strategy",
@@ -719,6 +730,17 @@
     "path": "./external/marketingskills/skills/copy-editing/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "directory-submissions",
+    "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
@@ -1628,6 +1650,17 @@
     "total": 8.0
   },
   {
+    "id": "image",
+    "path": "./external/marketingskills/skills/image/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 8.0
+  },
+  {
     "id": "revops",
     "path": "./external/marketingskills/skills/revops/SKILL.md",
     "cluster": "business-clevel",
@@ -2061,6 +2094,17 @@
     "path": "./engineering/autoresearch/design/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 7.5
+  },
+  {
+    "id": "video",
+    "path": "./external/marketingskills/skills/video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 7,
@@ -3040,7 +3084,7 @@
     "path": "./community/generalist-expert/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 5,
     "func_clarity": 8,
     "maintainability": 9,
@@ -3612,6 +3656,17 @@
     "path": "./external/huashu-skills/huashu-xhs-image/SKILL.md",
     "cluster": "content-social",
     "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "neat-freak",
+    "path": "./external/khazix-skills/neat-freak/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 5,

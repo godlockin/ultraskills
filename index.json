@@ -4,7 +4,7 @@
     "updated_at": "2026-05-02",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-02",
-    "total_skills": 385,
+    "total_skills": 390,
     "total_clusters": 52,
     "avg_arena_score": 7.34,
     "total_winners": 52
@@ -861,7 +861,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "agent-development",
@@ -927,7 +927,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "planning-with-files-de",
@@ -949,7 +949,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "planning-with-files-es",
@@ -971,7 +971,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "planning-with-files-zh",
@@ -993,7 +993,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "planning-with-files-zht",
@@ -1015,7 +1015,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0"
+      "version": "\"2.34.0\""
     },
     {
       "id": "executing-plans",
@@ -2305,7 +2305,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "baoyu-danger-x-to-markdown",
@@ -2465,7 +2465,7 @@
       "id": "social-content",
       "name": "social-content",
       "path": "./external/marketingskills/skills/social-content/SKILL.md",
-      "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.\"",
+      "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' or 'create a reel.' Use this for social media content creation, repurposing, scheduling, and short-form video scripting. For broader content strategy, see content-strategy. For paid video ads, see ad-creative.\"",
       "tags": [
         "marketingskills"
       ],
@@ -2481,7 +2481,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "id": "baoyu-post-to-weibo",
@@ -2984,6 +2984,28 @@
       "github_url": "https://github.com/Breakthrough/PySceneDetect"
     },
     {
+      "id": "video",
+      "name": "video",
+      "path": "./external/marketingskills/skills/video/SKILL.md",
+      "description": "\"When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Runway,' 'Kling,' 'Pika,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social-content. For paid video ad creative, see ad-creative.\"",
+      "tags": [
+        "marketingskills"
+      ],
+      "arena": {
+        "cluster": "content-video",
+        "cluster_name": "内容·视频",
+        "score": 7.5,
+        "doc_quality": 8,
+        "func_clarity": 7,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 9,
+        "test_date": "2026-05-02",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"image-to-video\"",
       "name": "\"image-to-video\"",
       "path": "./community/image-to-video/SKILL.md",
@@ -3000,7 +3022,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
@@ -3022,7 +3044,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
@@ -3044,7 +3066,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3065,7 +3087,7 @@
         "func_clarity": 4,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3086,7 +3108,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3107,7 +3129,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3128,7 +3150,7 @@
         "func_clarity": 4,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3149,7 +3171,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3170,7 +3192,7 @@
         "func_clarity": 4,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -3191,7 +3213,7 @@
         "func_clarity": 4,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       }
@@ -6585,7 +6607,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "analytics-tracking",
@@ -6882,24 +6904,18 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 7,
-        "category": "营销·策略",
-        "score": 38.2,
-        "scores": {
-          "speed": 21.12,
-          "quality": 12.42,
-          "maintainability": 4.67,
-          "total": 38.2
-        },
-        "is_winner": false,
-        "test_date": "2026-03-09",
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "content-strategy",
@@ -6907,29 +6923,21 @@
       "path": "./external/marketingskills/skills/content-strategy/SKILL.md",
       "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
       "tags": [
-        "marketingskills",
-        "arena-winner"
+        "marketingskills"
       ],
       "arena": {
-        "rank": 1,
-        "category": "营销·策略",
-        "score": 50.32,
-        "scores": {
-          "speed": 14.19,
-          "quality": 24.97,
-          "maintainability": 11.17,
-          "total": 50.32
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 1,
-      "recommended_for": [
-        "best-营销·策略-skill",
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "launch-strategy",
@@ -6940,24 +6948,18 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 2,
-        "category": "营销·策略",
-        "score": 45.14,
-        "scores": {
-          "speed": 13.0,
-          "quality": 23.97,
-          "maintainability": 8.17,
-          "total": 45.14
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 3,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 2,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "pricing-strategy",
@@ -6968,24 +6970,18 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 9,
-        "category": "营销·策略",
-        "score": 37.27,
-        "scores": {
-          "speed": 24.58,
-          "quality": 8.69,
-          "maintainability": 4.0,
-          "total": 37.27
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 4,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "product-marketing-context",
@@ -6996,52 +6992,40 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 3,
-        "category": "营销·策略",
-        "score": 44.96,
-        "scores": {
-          "speed": 21.21,
-          "quality": 17.75,
-          "maintainability": 6.0,
-          "total": 44.96
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 5,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 2,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "community-marketing",
       "name": "community-marketing",
       "path": "./external/marketingskills/skills/community-marketing/SKILL.md",
-      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
+      "description": "\"Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\\"\"",
       "tags": [
         "marketingskills"
       ],
       "arena": {
-        "rank": 4,
-        "category": "营销·策略",
-        "score": 43.78,
-        "scores": {
-          "speed": 16.25,
-          "quality": 19.86,
-          "maintainability": 7.67,
-          "total": 43.78
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.3,
+        "doc_quality": 9,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 6,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "competitor-alternatives",
@@ -7052,24 +7036,18 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 5,
-        "category": "营销·策略",
-        "score": 43.26,
-        "scores": {
-          "speed": 24.42,
-          "quality": 14.67,
-          "maintainability": 4.17,
-          "total": 43.26
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.3,
+        "doc_quality": 9,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 7,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "free-tool-strategy",
@@ -7080,24 +7058,18 @@
         "marketingskills"
       ],
       "arena": {
-        "rank": 8,
-        "category": "营销·策略",
-        "score": 38.06,
-        "scores": {
-          "speed": 24.01,
-          "quality": 11.89,
-          "maintainability": 2.17,
-          "total": 38.06
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 8.3,
+        "doc_quality": 9,
+        "func_clarity": 8,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 8,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.1.0"
     },
     {
       "id": "platform-algorithm-reference",
@@ -7112,24 +7084,18 @@
         "platform-algorithm-reference"
       ],
       "arena": {
-        "rank": 6,
-        "category": "营销·策略",
-        "score": 42.76,
-        "scores": {
-          "speed": 5.65,
-          "quality": 24.11,
-          "maintainability": 13.0,
-          "total": 42.76
-        },
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 5.7,
+        "doc_quality": 3,
+        "func_clarity": 8,
+        "maintainability": 9,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 9,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "营销·策略-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "mac-tts",
@@ -7258,6 +7224,72 @@
       "version": "1.0.0"
     },
     {
+      "id": "competitor-profiling",
+      "name": "competitor-profiling",
+      "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
+      "description": "\"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitor-alternatives. For sales-specific battle cards, see sales-enablement.\"",
+      "tags": [
+        "marketingskills"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-02",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "directory-submissions",
+      "name": "directory-submissions",
+      "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
+      "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch-strategy. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+      "tags": [
+        "marketingskills"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.8,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-05-02",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "image",
+      "name": "image",
+      "path": "./external/marketingskills/skills/image/SKILL.md",
+      "description": "\"When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'Ideogram,' 'Gemini image,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.\"",
+      "tags": [
+        "marketingskills"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.0,
+        "doc_quality": 9,
+        "func_clarity": 7,
+        "maintainability": 7,
+        "is_winner": false,
+        "rank": 3,
+        "test_date": "2026-05-02",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "generalist-expert",
       "name": "generalist-expert",
       "path": "./community/generalist-expert/SKILL.md",
@@ -7265,29 +7297,21 @@
       "tags": [
         "community",
         "expert-system",
-        "analysis-framework",
-        "arena-winner"
+        "analysis-framework"
       ],
       "arena": {
-        "rank": 1,
-        "category": "其他未分类",
-        "score": 40.01,
-        "scores": {
-          "speed": 20.51,
-          "quality": 9.5,
-          "maintainability": 10.0,
-          "total": 40.01
-        },
-        "is_winner": true,
-        "test_date": "2026-03-09",
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.7,
+        "doc_quality": 5,
+        "func_clarity": 8,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 4,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 1,
-      "recommended_for": [
-        "best-其他未分类-skill",
-        "其他未分类-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "codex",
@@ -7298,24 +7322,18 @@
         "community"
       ],
       "arena": {
-        "rank": 7,
-        "category": "其他未分类",
-        "score": 28.76,
-        "scores": {
-          "speed": 21.26,
-          "quality": 2.5,
-          "maintainability": 5.0,
-          "total": 28.76
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.2,
+        "doc_quality": 6,
+        "func_clarity": 6,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 5,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "review",
@@ -7326,24 +7344,18 @@
         "community"
       ],
       "arena": {
-        "rank": 9,
-        "category": "其他未分类",
-        "score": 16.99,
-        "scores": {
-          "speed": 7.49,
-          "quality": 2.5,
-          "maintainability": 7.0,
-          "total": 16.99
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.2,
+        "doc_quality": 6,
+        "func_clarity": 6,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 6,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "playground",
@@ -7351,27 +7363,20 @@
       "path": "./external/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
       "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.",
       "tags": [
-        "claude-plugins-official",
-        "arena-winner"
+        "claude-plugins-official"
       ],
       "arena": {
-        "rank": 2,
-        "category": "其他未分类",
-        "score": 38.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 5.0,
-          "maintainability": 3.5,
-          "total": 38.5
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.0,
+        "doc_quality": 7,
+        "func_clarity": 5,
+        "maintainability": 5,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 7,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      }
     },
     {
       "id": "fact-checker",
@@ -7385,24 +7390,18 @@
         "fact-checker"
       ],
       "arena": {
-        "rank": 6,
-        "category": "其他未分类",
-        "score": 29.01,
-        "scores": {
-          "speed": 29.01,
-          "quality": 0.0,
-          "maintainability": 0.0,
-          "total": 29.01
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.7,
+        "doc_quality": 3,
+        "func_clarity": 8,
+        "maintainability": 9,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 8,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "1.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "1.0.0"
     },
     {
       "id": "qa",
@@ -7413,24 +7412,18 @@
         "community"
       ],
       "arena": {
-        "rank": 8,
-        "category": "其他未分类",
-        "score": 27.66,
-        "scores": {
-          "speed": 21.16,
-          "quality": 2.5,
-          "maintainability": 4.0,
-          "total": 27.66
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.6,
+        "doc_quality": 6,
+        "func_clarity": 4,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 9,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "2.0.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "2.0.0"
     },
     {
       "id": "\"status\"",
@@ -7441,23 +7434,38 @@
         "claude"
       ],
       "arena": {
-        "rank": 3,
-        "category": "其他未分类",
-        "score": 32.5,
-        "scores": {
-          "speed": 30.0,
-          "quality": 2.5,
-          "maintainability": 0.0,
-          "total": 32.5
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.5,
+        "doc_quality": 6,
+        "func_clarity": 5,
+        "maintainability": 5,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 10,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
-      },
-      "priority": 2,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      }
+    },
+    {
+      "id": "neat-freak",
+      "name": "neat-freak",
+      "path": "./external/khazix-skills/neat-freak/SKILL.md",
+      "description": ">",
+      "tags": [
+        "khazix"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.5,
+        "doc_quality": 6,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 11,
+        "test_date": "2026-05-02",
+        "test_version": "1.0.0"
+      }
     },
     {
       "id": "freeze",
@@ -7468,24 +7476,18 @@
         "community"
       ],
       "arena": {
-        "rank": 5,
-        "category": "其他未分类",
-        "score": 30.0,
-        "scores": {
-          "speed": 30.0,
-          "quality": 0.0,
-          "maintainability": 0.0,
-          "total": 30.0
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.7,
+        "doc_quality": 3,
+        "func_clarity": 6,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 12,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "0.1.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "0.1.0"
     },
     {
       "id": "unfreeze",
@@ -7496,24 +7498,18 @@
         "community"
       ],
       "arena": {
-        "rank": 4,
-        "category": "其他未分类",
-        "score": 31.25,
-        "scores": {
-          "speed": 30.0,
-          "quality": 1.25,
-          "maintainability": 0.0,
-          "total": 31.25
-        },
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 4.2,
+        "doc_quality": 2,
+        "func_clarity": 6,
+        "maintainability": 7,
         "is_winner": false,
-        "test_date": "2026-03-09",
+        "rank": 13,
+        "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "0.1.0",
-      "priority": 3,
-      "recommended_for": [
-        "其他未分类-related-tasks"
-      ]
+      "version": "0.1.0"
     },
     {
       "id": "huashu-nuwa",
@@ -8894,7 +8890,7 @@
         "test_date": "2026-05-02",
         "test_version": "1.0.0"
       },
-      "version": "\"2.4.3\""
+      "version": "\"2.5.0\""
     }
   ]
 }

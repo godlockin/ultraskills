@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 18,
+    "total_contestants": 19,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -396,6 +396,21 @@
     ]
   },
   {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "competitor-profiling",
+    "score": 8.8,
+    "runner_up": "directory-submissions",
+    "total_contestants": 13,
+    "defeated": [
+      "directory-submissions",
+      "image",
+      "generalist-expert",
+      "codex",
+      "review"
+    ]
+  },
+  {
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
     "winner": "gstack-openclaw-retro",
@@ -641,21 +656,6 @@
     "total_contestants": 2,
     "defeated": [
       "cso"
-    ]
-  },
-  {
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "winner": "generalist-expert",
-    "score": 6.7,
-    "runner_up": "codex",
-    "total_contestants": 9,
-    "defeated": [
-      "codex",
-      "review",
-      "playground",
-      "fact-checker",
-      "qa"
     ]
   },
   {

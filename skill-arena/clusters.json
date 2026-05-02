@@ -38,10 +38,10 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
+          "monitoring-expert",
           "sre-engineer",
           "spec-miner",
           "legacy-modernizer",
-          "monitoring-expert",
           "feature-forge"
         ]
       },
@@ -49,26 +49,26 @@
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "postgres-pro",
           "spark-engineer",
+          "database-optimizer",
           "pandas-pro",
           "sql-pro",
-          "database-optimizer"
+          "postgres-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "cli-developer",
+        "winner": "websocket-engineer",
         "skills": [
+          "websocket-engineer",
+          "embedded-systems",
           "cli-developer",
           "mcp-developer",
-          "chaos-engineer",
-          "embedded-systems",
-          "websocket-engineer"
+          "chaos-engineer"
         ]
       },
       {
@@ -151,8 +151,8 @@
         "skills": [
           "skill-creator",
           "skill-manager",
-          "\"github-skill-scout\"",
           "skill-sync-manager",
+          "\"github-skill-scout\"",
           "skill-evolution-manager"
         ]
       },
@@ -172,11 +172,11 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "plugin-structure",
         "skills": [
-          "plugin-settings",
           "plugin-structure",
           "hook-development",
+          "plugin-settings",
           "command-development",
           "claude-automation-recommender",
           "claude-md-improver"
@@ -191,8 +191,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template",
           "template-skill"
         ]
@@ -231,17 +231,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-translate",
+        "winner": "baoyu-post-to-wechat",
         "skills": [
-          "baoyu-translate",
           "baoyu-post-to-wechat",
+          "baoyu-translate",
           "baoyu-format-markdown",
           "baoyu-danger-x-to-markdown",
           "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
-          "baoyu-post-to-x",
           "baoyu-post-to-weibo",
-          "baoyu-youtube-transcript"
+          "baoyu-youtube-transcript",
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -253,8 +253,8 @@
           "baoyu-xhs-images",
           "social-content",
           "huashu-article-to-x",
-          "x-mastery-mentor",
           "huashu-xhs-image",
+          "x-mastery-mentor",
           "huashu-wechat-image",
           "huashu-topic-gen",
           "khazix-writer"
@@ -279,6 +279,33 @@
           "mediacrawler"
         ]
       }
+    ]
+  },
+  {
+    "id": "content-video",
+    "name": "内容·视频",
+    "skill_count": 19,
+    "winner": "remotion",
+    "skills": [
+      "remotion",
+      "video-content-analyzer",
+      "video-analyzer",
+      "\"video-frame-extractor\"",
+      "zero-debt-lint",
+      "video-translate",
+      "video-transcriber",
+      "video-scene-splitter",
+      "video",
+      "\"image-to-video\"",
+      "\"video-splitter\"",
+      "huashu-video-check",
+      "videocut:剪口播",
+      "videocut:高清化",
+      "huashu-video-outline",
+      "videocut:字幕",
+      "huashu-douyin-script",
+      "videocut:安装",
+      "videocut:自进化"
     ]
   },
   {
@@ -311,15 +338,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-image-cards",
+        "winner": "baoyu-infographic",
         "skills": [
-          "baoyu-image-cards",
           "baoyu-infographic",
-          "baoyu-article-illustrator",
-          "baoyu-comic",
-          "baoyu-imagine",
           "baoyu-image-gen",
-          "baoyu-cover-image"
+          "baoyu-cover-image",
+          "baoyu-article-illustrator",
+          "baoyu-imagine",
+          "baoyu-image-cards",
+          "baoyu-comic"
         ]
       },
       {
@@ -345,36 +372,10 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-design",
-          "huashu-image-upload"
+          "huashu-image-upload",
+          "huashu-design"
         ]
       }
-    ]
-  },
-  {
-    "id": "content-video",
-    "name": "内容·视频",
-    "skill_count": 18,
-    "winner": "remotion",
-    "skills": [
-      "remotion",
-      "video-content-analyzer",
-      "video-analyzer",
-      "\"video-frame-extractor\"",
-      "zero-debt-lint",
-      "video-translate",
-      "video-transcriber",
-      "video-scene-splitter",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
-      "huashu-video-check",
-      "videocut:剪口播",
-      "videocut:高清化",
-      "huashu-video-outline",
-      "videocut:字幕",
-      "huashu-douyin-script",
-      "videocut:安装",
-      "videocut:自进化"
     ]
   },
   {
@@ -463,6 +464,27 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 13,
+    "winner": "competitor-profiling",
+    "skills": [
+      "competitor-profiling",
+      "directory-submissions",
+      "image",
+      "generalist-expert",
+      "codex",
+      "review",
+      "playground",
+      "fact-checker",
+      "qa",
+      "\"status\"",
+      "neat-freak",
+      "freeze",
+      "unfreeze"
+    ]
+  },
+  {
     "id": "agent-workflow",
     "name": "Agent·工作流",
     "skill_count": 11,
@@ -499,11 +521,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-zht",
+          "planning-with-files-zh",
+          "planning-with-files-es",
           "planning-with-files-de",
           "planning-with-files-ar",
-          "planning-with-files-zh",
-          "planning-with-files-es"
+          "planning-with-files-zht"
         ]
       },
       {
@@ -627,23 +649,6 @@
     ]
   },
   {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 9,
-    "winner": "generalist-expert",
-    "skills": [
-      "generalist-expert",
-      "codex",
-      "review",
-      "playground",
-      "fact-checker",
-      "qa",
-      "\"status\"",
-      "freeze",
-      "unfreeze"
-    ]
-  },
-  {
     "id": "productivity",
     "name": "效率·生产力",
     "skill_count": 9,
@@ -761,8 +766,8 @@
         "winner": "devops-engineer",
         "skills": [
           "devops-engineer",
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "ship",
           "canary"
         ]
