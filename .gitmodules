@@ -55,3 +55,18 @@
 [submodule "external/baoyu-skills"]
 	path = external/baoyu-skills
 	url = https://github.com/jimliu/baoyu-skills.git
+[submodule "external/get-shit-done"]
+	path = external/get-shit-done
+	url = https://github.com/gsd-build/get-shit-done
+[submodule "external/claude-scientific-skills"]
+	path = external/claude-scientific-skills
+	url = https://github.com/K-Dense-AI/claude-scientific-skills
+[submodule "external/frontend-slides"]
+	path = external/frontend-slides
+	url = https://github.com/zarazhangrui/frontend-slides
+[submodule "external/skill-seekers"]
+	path = external/skill-seekers
+	url = https://github.com/yusufkaraaslan/Skill_Seekers
+[submodule "external/playwright-skill"]
+	path = external/playwright-skill
+	url = https://github.com/lackeyjb/playwright-skill

@@ -1,6 +1,6 @@
 {
   "template-skill": {
-    "consecutive_low": 7,
+    "consecutive_low": 8,
     "scores": [
       3.8,
       3.8,
@@ -9,18 +9,6 @@
       3.8
     ],
     "cluster": "skills-mgmt",
-    "recommendation": "eliminate"
-  },
-  "dbs": {
-    "consecutive_low": 6,
-    "scores": [
-      3.7,
-      3.7,
-      3.7,
-      3.7,
-      3.7
-    ],
-    "cluster": "agent-agenthub",
     "recommendation": "eliminate"
   }
 }

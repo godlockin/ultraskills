@@ -1980,216 +1980,6 @@
     "github_url": ""
   },
   {
-    "id": "baoyu-article-illustrator",
-    "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
-    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.58.0",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-comic",
-    "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
-    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-compress-image",
-    "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
-    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-cover-image",
-    "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
-    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-danger-gemini-web",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
-    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-danger-x-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
-    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-diagram",
-    "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
-    "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-format-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
-    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.57.0",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-image-cards",
-    "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
-    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-image-gen",
-    "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
-    "description": "\"[Deprecated: use baoyu-imagine] AI image generation with OpenAI, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.\"",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.4",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-imagine",
-    "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
-    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.58.0",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-infographic",
-    "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
-    "description": "Generate professional infographics with 21 layout types and 21 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.57.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-markdown-to-html",
-    "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
-    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-post-to-wechat",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
-    "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-post-to-weibo",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
-    "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-post-to-x",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
-    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-slide-deck",
-    "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
-    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-translate",
-    "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
-    "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.59.0",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-url-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
-    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.61.0",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-xhs-images",
-    "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
-    "description": "\"[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \\\"小红书图片\\\", \\\"XHS images\\\", \\\"RedNote infographics\\\", \\\"小红书种草\\\", \\\"小绿书\\\", \\\"微信图文\\\", \\\"微信贴图\\\", or wants social media infographic series for Chinese platforms.\"",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": ""
-  },
-  {
-    "id": "baoyu-youtube-transcript",
-    "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
-    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.1.0",
-    "github_url": ""
-  },
-  {
     "id": "caveman-compress",
     "path": "./external/caveman/caveman-compress/SKILL.md",
     "description": ">",
@@ -2397,6 +2187,1326 @@
     "github_url": ""
   },
   {
+    "id": "adaptyv",
+    "path": "./external/claude-scientific-skills/scientific-skills/adaptyv/SKILL.md",
+    "description": "\"How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, thermostability assays, or wants to submit protein sequences for experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`, or `FoundryClient`, or references `foundry-api-public.adaptyvbio.com`.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "aeon",
+    "path": "./external/claude-scientific-skills/scientific-skills/aeon/SKILL.md",
+    "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "anndata",
+    "path": "./external/claude-scientific-skills/scientific-skills/anndata/SKILL.md",
+    "description": "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "arboreto",
+    "path": "./external/claude-scientific-skills/scientific-skills/arboreto/SKILL.md",
+    "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "astropy",
+    "path": "./external/claude-scientific-skills/scientific-skills/astropy/SKILL.md",
+    "description": "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "autoskill",
+    "path": "./external/claude-scientific-skills/scientific-skills/autoskill/SKILL.md",
+    "description": "Observe the user's screen via screenpipe, detect repeated research workflows, match them against existing scientific-agent-skills, and draft new skills (or composition recipes that chain existing ones) for the patterns not yet covered. Use when the user asks to analyze their recent work and propose skills based on what they actually do. Requires the screenpipe daemon (https://github.com/screenpipe/screenpipe) running locally on port 3030 — the skill has no other data source and will refuse to run if screenpipe is unreachable. All detection runs locally; only redacted cluster summaries reach the LLM.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "benchling-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/benchling-integration/SKILL.md",
+    "description": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "bgpt-paper-search",
+    "path": "./external/claude-scientific-skills/scientific-skills/bgpt-paper-search/SKILL.md",
+    "description": "Search scientific papers and retrieve structured experimental data extracted from full-text studies via the BGPT MCP server. Returns 25+ fields per paper including methods, results, sample sizes, quality scores, and conclusions. Use for literature reviews, evidence synthesis, and finding experimental details not available in abstracts alone.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "biopython",
+    "path": "./external/claude-scientific-skills/scientific-skills/biopython/SKILL.md",
+    "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "bioservices",
+    "path": "./external/claude-scientific-skills/scientific-skills/bioservices/SKILL.md",
+    "description": "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file manipulation use biopython.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "cellxgene-census",
+    "path": "./external/claude-scientific-skills/scientific-skills/cellxgene-census/SKILL.md",
+    "description": "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "cirq",
+    "path": "./external/claude-scientific-skills/scientific-skills/cirq/SKILL.md",
+    "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics simulations use qutip.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "citation-management",
+    "path": "./external/claude-scientific-skills/scientific-skills/citation-management/SKILL.md",
+    "description": "Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "clinical-decision-support",
+    "path": "./external/claude-scientific-skills/scientific-skills/clinical-decision-support/SKILL.md",
+    "description": "Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with outcomes) and treatment recommendation reports (evidence-based guidelines with decision algorithms). Supports GRADE evidence grading, statistical analysis (hazard ratios, survival curves, waterfall plots), biomarker integration, and regulatory compliance. Outputs publication-ready LaTeX/PDF format optimized for drug development, clinical research, and evidence synthesis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "clinical-reports",
+    "path": "./external/claude-scientific-skills/scientific-skills/clinical-reports/SKILL.md",
+    "description": "Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "cobrapy",
+    "path": "./external/claude-scientific-skills/scientific-skills/cobrapy/SKILL.md",
+    "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "consciousness-council",
+    "path": "./external/claude-scientific-skills/scientific-skills/consciousness-council/SKILL.md",
+    "description": "Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge. Use this skill whenever the user wants diverse viewpoints, needs help making a tough decision, asks for a council/panel/board discussion, wants to explore a problem from multiple angles, requests devil's advocate analysis, or says things like \"what would different experts think about this\", \"help me think through this from all sides\", \"council mode\", \"mind council\", or \"deliberate on this\". Also trigger when the user faces a dilemma, trade-off, or complex choice with no obvious answer.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dask",
+    "path": "./external/claude-scientific-skills/scientific-skills/dask/SKILL.md",
+    "description": "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "database-lookup",
+    "path": "./external/claude-scientific-skills/scientific-skills/database-lookup/SKILL.md",
+    "description": "Search 78 public scientific, biomedical, materials science, and economic databases via REST APIs. Covers physics/astronomy (NASA, NIST, SDSS, SIMBAD), earth/environment (USGS, NOAA, EPA), chemistry/drugs (PubChem, ChEMBL, DrugBank, FDA, KEGG, ZINC, BindingDB), materials (Materials Project, COD), biology/genomics (Reactome, UniProt, STRING, Ensembl, NCBI Gene, GEO, GTEx, PDB, AlphaFold, InterPro, BioGRID, Gene Ontology, dbSNP, gnomAD, ENCODE, Human Protein Atlas, Human Cell Atlas), disease/clinical (COSMIC, Open Targets, ClinicalTrials.gov, OMIM, ClinVar, GDC/TCGA, cBioPortal, DisGeNET, GWAS Catalog), regulatory (FDA, USPTO, SEC EDGAR), economics/finance (FRED, World Bank, US Treasury), demographics (US Census, Eurostat, WHO). Use when looking up compounds, genes, proteins, pathways, variants, clinical trials, patents, economic indicators, or any public database API query.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "datamol",
+    "path": "./external/claude-scientific-skills/scientific-skills/datamol/SKILL.md",
+    "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "deepchem",
+    "path": "./external/claude-scientific-skills/scientific-skills/deepchem/SKILL.md",
+    "description": "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "deeptools",
+    "path": "./external/claude-scientific-skills/scientific-skills/deeptools/SKILL.md",
+    "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "depmap",
+    "path": "./external/claude-scientific-skills/scientific-skills/depmap/SKILL.md",
+    "description": "Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency scores (CRISPR Chronos), drug sensitivity data, and gene effect profiles. Use for identifying cancer-specific vulnerabilities, synthetic lethal interactions, and validating oncology drug targets.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dhdna-profiler",
+    "path": "./external/claude-scientific-skills/scientific-skills/dhdna-profiler/SKILL.md",
+    "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, compare thinking styles between people, asks \"what's my thinking style\", \"analyze how this person reasons\", \"cognitive profile\", \"thinking pattern\", \"DHDNA\", \"digital DNA\", or wants to understand the mind behind any text. Also trigger when the user provides text and wants deeper insight into the author's reasoning patterns, decision-making style, or cognitive signature.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "diffdock",
+    "path": "./external/claude-scientific-skills/scientific-skills/diffdock/SKILL.md",
+    "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "dnanexus-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/dnanexus-integration/SKILL.md",
+    "description": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "esm",
+    "path": "./external/claude-scientific-skills/scientific-skills/esm/SKILL.md",
+    "description": "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "etetoolkit",
+    "path": "./external/claude-scientific-skills/scientific-skills/etetoolkit/SKILL.md",
+    "description": "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "exploratory-data-analysis",
+    "path": "./external/claude-scientific-skills/scientific-skills/exploratory-data-analysis/SKILL.md",
+    "description": "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "flowio",
+    "path": "./external/claude-scientific-skills/scientific-skills/flowio/SKILL.md",
+    "description": "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "fluidsim",
+    "path": "./external/claude-scientific-skills/scientific-skills/fluidsim/SKILL.md",
+    "description": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "generate-image",
+    "path": "./external/claude-scientific-skills/scientific-skills/generate-image/SKILL.md",
+    "description": "Generate or edit images using AI models (FLUX, Nano Banana 2). Use for general-purpose image generation including photos, illustrations, artwork, visual assets, concept art, and any image that is not a technical diagram or schematic. For flowcharts, circuits, pathways, and technical diagrams, use the scientific-schematics skill instead.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "geniml",
+    "path": "./external/claude-scientific-skills/scientific-skills/geniml/SKILL.md",
+    "description": "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "geomaster",
+    "path": "./external/claude-scientific-skills/scientific-skills/geomaster/SKILL.md",
+    "description": "Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains. Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster data operations, spatial statistics, point cloud processing, network analysis, cloud-native workflows (STAC, COG, Planetary Computer), and 8 programming languages (Python, R, Julia, JavaScript, C++, Java, Go, Rust) with 500+ code examples. Use for remote sensing workflows, GIS analysis, spatial ML, Earth observation data processing, terrain analysis, hydrological modeling, marine spatial analysis, atmospheric science, and any geospatial computation task.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "geopandas",
+    "path": "./external/claude-scientific-skills/scientific-skills/geopandas/SKILL.md",
+    "description": "Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, spatial joins, overlay operations, choropleth mapping, or any task involving reading/writing/analyzing vector geographic data. Supports PostGIS databases, interactive maps, and integration with matplotlib/folium/cartopy. Use for tasks like buffer analysis, spatial joins between datasets, dissolving boundaries, clipping data, calculating areas/distances, reprojecting coordinate systems, creating maps, or converting between spatial file formats.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "get-available-resources",
+    "path": "./external/claude-scientific-skills/scientific-skills/get-available-resources/SKILL.md",
+    "description": "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "gget",
+    "path": "./external/claude-scientific-skills/scientific-skills/gget/SKILL.md",
+    "description": "\"Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "ginkgo-cloud-lab",
+    "path": "./external/claude-scientific-skills/scientific-skills/ginkgo-cloud-lab/SKILL.md",
+    "description": "Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio), a web-based interface for autonomous lab execution on Reconfigurable Automation Carts (RACs). Use when the user wants to run cell-free protein expression (validation or optimization), generate fluorescent pixel art, or interact with Ginkgo Cloud Lab services. Covers protocol selection, input preparation, pricing, and ordering workflows.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "glycoengineering",
+    "path": "./external/claude-scientific-skills/scientific-skills/glycoengineering/SKILL.md",
+    "description": "Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation sequons (N-X-S/T), predict O-glycosylation hotspots, and access curated glycoengineering tools (NetOGlyc, GlycoShield, GlycoWorkbench). For glycoprotein engineering, therapeutic antibody optimization, and vaccine design.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "gtars",
+    "path": "./external/claude-scientific-skills/scientific-skills/gtars/SKILL.md",
+    "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "histolab",
+    "path": "./external/claude-scientific-skills/scientific-skills/histolab/SKILL.md",
+    "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "hugging-science",
+    "path": "./external/claude-scientific-skills/scientific-skills/hugging-science/SKILL.md",
+    "description": "Use when the user is doing AI/ML work in a scientific domain — biology, chemistry, physics, astronomy, climate, genomics, materials science, medicine, ecology, energy, conservation, engineering, mathematics, scientific reasoning, drug discovery, protein design, weather modeling, theorem proving, single-cell, PDE solving, or anything similar. Hugging Science (huggingscience.co) is a curated catalog of scientific datasets, models, blog posts, and interactive Spaces; the `hugging-science` org on Hugging Face hosts community datasets, models, and demo Spaces. This skill helps you discover the right resource AND actually use it — loading datasets via `datasets`, running models via `transformers` or the HF Inference API, calling Spaces like BoltzGen via `gradio_client`, and citing blog posts for methodology. Trigger this skill whenever a user mentions a scientific ML task, asks for \"a dataset/model for X\" where X is a scientific topic, wants to fine-tune on scientific data, asks about protein / molecule / genome / climate / materials / astronomy / pathology / weather ML, or needs AI tools for research — even if they never say \"Hugging Science\" explicitly. The catalog is purpose-built for LLM agents (it ships an `llms-full.txt`); prefer it over generic web search for these tasks.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "hypogenic",
+    "path": "./external/claude-scientific-skills/scientific-skills/hypogenic/SKILL.md",
+    "description": "Automated LLM-driven hypothesis generation and testing on tabular datasets. Use when you want to systematically explore hypotheses about patterns in empirical data (e.g., deception detection, content analysis). Combines literature insights with data-driven hypothesis testing. For manual hypothesis formulation use hypothesis-generation; for creative ideation use scientific-brainstorming.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "hypothesis-generation",
+    "path": "./external/claude-scientific-skills/scientific-skills/hypothesis-generation/SKILL.md",
+    "description": "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. For open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis testing on datasets use hypogenic.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "imaging-data-commons",
+    "path": "./external/claude-scientific-skills/scientific-skills/imaging-data-commons/SKILL.md",
+    "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in browser, check licenses.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "1.4.0",
+    "github_url": ""
+  },
+  {
+    "id": "infographics",
+    "path": "./external/claude-scientific-skills/scientific-skills/infographics/SKILL.md",
+    "description": "\"Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "iso-13485-certification",
+    "path": "./external/claude-scientific-skills/scientific-skills/iso-13485-certification/SKILL.md",
+    "description": "Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis of existing documentation, (2) creating Quality Manuals, (3) developing required procedures and work instructions, (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or (6) identifying missing documentation for medical device certification. Also use when users mention medical device regulations, QMS certification, FDA QMSR, EU MDR, or need help with quality system documentation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "labarchive-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/labarchive-integration/SKILL.md",
+    "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "lamindb",
+    "path": "./external/claude-scientific-skills/scientific-skills/lamindb/SKILL.md",
+    "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "latchbio-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/latchbio-integration/SKILL.md",
+    "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "latex-posters",
+    "path": "./external/claude-scientific-skills/scientific-skills/latex-posters/SKILL.md",
+    "description": "\"Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "literature-review",
+    "path": "./external/claude-scientific-skills/scientific-skills/literature-review/SKILL.md",
+    "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "markdown-mermaid-writing",
+    "path": "./external/claude-scientific-skills/scientific-skills/markdown-mermaid-writing/SKILL.md",
+    "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "market-research-reports",
+    "path": "./external/claude-scientific-skills/scientific-skills/market-research-reports/SKILL.md",
+    "description": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "markitdown",
+    "path": "./external/claude-scientific-skills/scientific-skills/markitdown/SKILL.md",
+    "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "matchms",
+    "path": "./external/claude-scientific-skills/scientific-skills/matchms/SKILL.md",
+    "description": "Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "matlab",
+    "path": "./external/claude-scientific-skills/scientific-skills/matlab/SKILL.md",
+    "description": "MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing. Use when writing MATLAB/Octave scripts for linear algebra, signal processing, image processing, differential equations, optimization, statistics, or creating scientific visualizations. Also use when the user needs help with MATLAB syntax, functions, or wants to convert between MATLAB and Python code. Scripts can be executed with MATLAB or the open-source GNU Octave interpreter.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "matplotlib",
+    "path": "./external/claude-scientific-skills/scientific-skills/matplotlib/SKILL.md",
+    "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "medchem",
+    "path": "./external/claude-scientific-skills/scientific-skills/medchem/SKILL.md",
+    "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "modal",
+    "path": "./external/claude-scientific-skills/scientific-skills/modal/SKILL.md",
+    "description": "Cloud computing platform for running Python on GPUs and serverless infrastructure. Use when deploying AI/ML models, running GPU-accelerated workloads, serving web endpoints, scheduling batch jobs, or scaling Python code to the cloud. Use this skill whenever the user mentions Modal, serverless GPU compute, deploying ML models to the cloud, serving inference endpoints, running batch processing in the cloud, or needs to scale Python workloads beyond their local machine. Also use when the user wants to run code on H100s, A100s, or other cloud GPUs, or needs to create a web API for a model.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "molecular-dynamics",
+    "path": "./external/claude-scientific-skills/scientific-skills/molecular-dynamics/SKILL.md",
+    "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "molfeat",
+    "path": "./external/claude-scientific-skills/scientific-skills/molfeat/SKILL.md",
+    "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "networkx",
+    "path": "./external/claude-scientific-skills/scientific-skills/networkx/SKILL.md",
+    "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "neurokit2",
+    "path": "./external/claude-scientific-skills/scientific-skills/neurokit2/SKILL.md",
+    "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "neuropixels-analysis",
+    "path": "./external/claude-scientific-skills/scientific-skills/neuropixels-analysis/SKILL.md",
+    "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "omero-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/omero-integration/SKILL.md",
+    "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "open-notebook",
+    "path": "./external/claude-scientific-skills/scientific-skills/open-notebook/SKILL.md",
+    "description": "Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis. Use when organizing research materials into notebooks, ingesting diverse content sources (PDFs, videos, audio, web pages, Office documents), generating AI-powered notes and summaries, creating multi-speaker podcasts from research, chatting with documents using context-aware AI, searching across materials with full-text and vector search, or running custom content transformations. Supports 16+ AI providers including OpenAI, Anthropic, Google, Ollama, Groq, and Mistral with complete data privacy through self-hosting.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "opentrons-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/opentrons-integration/SKILL.md",
+    "description": "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "optimize-for-gpu",
+    "path": "./external/claude-scientific-skills/scientific-skills/optimize-for-gpu/SKILL.md",
+    "description": "\"GPU-accelerate Python code using CuPy, Numba CUDA, Warp, cuDF, cuML, cuGraph, KvikIO, cuCIM, cuxfilter, cuVS, cuSpatial, and RAFT. Use whenever the user mentions GPU/CUDA/NVIDIA acceleration, or wants to speed up NumPy, pandas, scikit-learn, scikit-image, NetworkX, GeoPandas, or Faiss workloads. Covers physics simulation, differentiable rendering, mesh ray casting, particle systems (DEM/SPH/fluids), vector/similarity search, GPUDirect Storage file IO, interactive dashboards, geospatial analysis, medical imaging, and sparse eigensolvers. Also use when you see CPU-bound Python code (loops, large arrays, ML pipelines, graph analytics, image processing) that would benefit from GPU acceleration, even if not explicitly requested.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "paper-lookup",
+    "path": "./external/claude-scientific-skills/scientific-skills/paper-lookup/SKILL.md",
+    "description": "Search 10 academic paper databases via REST APIs for research papers, preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints, citation graphs, author search, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\" or \"look up this DOI\".",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "paperzilla",
+    "path": "./external/claude-scientific-skills/scientific-skills/paperzilla/SKILL.md",
+    "description": "Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "parallel-web",
+    "path": "./external/claude-scientific-skills/scientific-skills/parallel-web/SKILL.md",
+    "description": "\"All-in-one web toolkit powered by parallel-cli, with a strong emphasis on academic and scientific sources. Use this skill whenever the user needs to search the web, fetch/extract URL content, enrich data with web-sourced fields, or run deep research reports. Covers: web search (fast lookups, research, current info — prioritizing peer-reviewed papers, preprints, and scholarly databases), URL extraction (fetching pages, articles, academic PDFs), bulk data enrichment (adding fields to CSV/lists from the web), and deep research (exhaustive multi-source reports grounded in academic literature). Also handles setup, status checks, and result retrieval. Use this skill for ANY web-related task — even if the user doesn't mention 'parallel' or 'web' explicitly. If they want to look something up, fetch a page, enrich a dataset, investigate a topic, find academic papers, check citations, or review scientific literature, this is the skill to use.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pathml",
+    "path": "./external/claude-scientific-skills/scientific-skills/pathml/SKILL.md",
+    "description": "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For simple tile extraction from H&E slides, histolab may be simpler.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "peer-review",
+    "path": "./external/claude-scientific-skills/scientific-skills/peer-review/SKILL.md",
+    "description": "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pennylane",
+    "path": "./external/claude-scientific-skills/scientific-skills/pennylane/SKILL.md",
+    "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch/JAX/TensorFlow. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "phylogenetics",
+    "path": "./external/claude-scientific-skills/scientific-skills/phylogenetics/SKILL.md",
+    "description": "Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likelihood), and FastTree (fast NJ/ML). Visualize with ETE3 or FigTree. For evolutionary analysis, microbial genomics, viral phylodynamics, protein family analysis, and molecular clock studies.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "polars",
+    "path": "./external/claude-scientific-skills/scientific-skills/polars/SKILL.md",
+    "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "polars-bio",
+    "path": "./external/claude-scientific-skills/scientific-skills/polars-bio/SKILL.md",
+    "description": "High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pptx-posters",
+    "path": "./external/claude-scientific-skills/scientific-skills/pptx-posters/SKILL.md",
+    "description": "Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY when the user explicitly requests PowerPoint/PPTX poster format. For standard research posters, use latex-posters instead. This skill provides modern web-based poster design with responsive layouts and easy visual integration.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "primekg",
+    "path": "./external/claude-scientific-skills/scientific-skills/primekg/SKILL.md",
+    "description": "Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases, phenotypes, and more.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "protocolsio-integration",
+    "path": "./external/claude-scientific-skills/scientific-skills/protocolsio-integration/SKILL.md",
+    "description": "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pufferlib",
+    "path": "./external/claude-scientific-skills/scientific-skills/pufferlib/SKILL.md",
+    "description": "High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Procgen, NetHack). Achieves 2-10x speedups over standard implementations. For quick prototyping or standard algorithm implementations with extensive documentation, use stable-baselines3 instead.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pydeseq2",
+    "path": "./external/claude-scientific-skills/scientific-skills/pydeseq2/SKILL.md",
+    "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pydicom",
+    "path": "./external/claude-scientific-skills/scientific-skills/pydicom/SKILL.md",
+    "description": "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pyhealth",
+    "path": "./external/claude-scientific-skills/scientific-skills/pyhealth/SKILL.md",
+    "description": "Build clinical/healthcare deep-learning pipelines with PyHealth — loading EHR/signal/imaging datasets (MIMIC-III/IV, eICU, OMOP, SleepEDF, ChestXray14, EHRShot), defining tasks (mortality, readmission, length-of-stay, drug recommendation, sleep staging, ICD coding, EEG events), instantiating models (Transformer, RETAIN, GAMENet, SafeDrug, MICRON, StageNet, AdaCare, CNN/RNN/MLP), training with the PyHealth Trainer, computing clinical metrics, and using medical code utilities (ICD/ATC/NDC/RxNorm lookup and cross-mapping). Use this skill whenever the user mentions PyHealth, MIMIC, eICU, OMOP, EHR modeling, clinical prediction, drug recommendation, sleep staging, medical code mapping, ICD/ATC codes, or any healthcare ML pipeline that fits the dataset → task → model → trainer → metrics pattern, even if \"PyHealth\" isn't named explicitly.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pylabrobot",
+    "path": "./external/claude-scientific-skills/scientific-skills/pylabrobot/SKILL.md",
+    "description": "Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workflows, multi-vendor setups, simulation. For Opentrons-only protocols with official API, opentrons-integration may be simpler.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pymatgen",
+    "path": "./external/claude-scientific-skills/scientific-skills/pymatgen/SKILL.md",
+    "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pymc",
+    "path": "./external/claude-scientific-skills/scientific-skills/pymc/SKILL.md",
+    "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pymoo",
+    "path": "./external/claude-scientific-skills/scientific-skills/pymoo/SKILL.md",
+    "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pyopenms",
+    "path": "./external/claude-scientific-skills/scientific-skills/pyopenms/SKILL.md",
+    "description": "Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. Best for proteomics, comprehensive MS data processing. For simple spectral comparison and metabolite ID use matchms.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pysam",
+    "path": "./external/claude-scientific-skills/scientific-skills/pysam/SKILL.md",
+    "description": "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pytdc",
+    "path": "./external/claude-scientific-skills/scientific-skills/pytdc/SKILL.md",
+    "description": "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pytorch-lightning",
+    "path": "./external/claude-scientific-skills/scientific-skills/pytorch-lightning/SKILL.md",
+    "description": "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "pyzotero",
+    "path": "./external/claude-scientific-skills/scientific-skills/pyzotero/SKILL.md",
+    "description": "Interact with Zotero reference management libraries using the pyzotero Python client. Retrieve, create, update, and delete items, collections, tags, and attachments via the Zotero Web API v3. Use this skill when working with Zotero libraries programmatically, managing bibliographic references, exporting citations, searching library contents, uploading PDF attachments, or building research automation workflows that integrate with Zotero.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "qiskit",
+    "path": "./external/claude-scientific-skills/scientific-skills/qiskit/SKILL.md",
+    "description": "IBM quantum computing framework. Use when targeting IBM Quantum hardware, working with Qiskit Runtime for production workloads, or needing IBM optimization tools. Best for IBM hardware execution, quantum error mitigation, and enterprise quantum computing. For Google hardware use cirq; for gradient-based quantum ML use pennylane; for open quantum system simulations use qutip.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "qutip",
+    "path": "./external/claude-scientific-skills/scientific-skills/qutip/SKILL.md",
+    "description": "Quantum physics simulation library for open quantum systems. Use when studying master equations, Lindblad dynamics, decoherence, quantum optics, or cavity QED. Best for physics research, open system dynamics, and educational simulations. NOT for circuit-based quantum computing—use qiskit, cirq, or pennylane for quantum algorithms and hardware execution.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "rdkit",
+    "path": "./external/claude-scientific-skills/scientific-skills/rdkit/SKILL.md",
+    "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "research-grants",
+    "path": "./external/claude-scientific-skills/scientific-skills/research-grants/SKILL.md",
+    "description": "Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "research-lookup",
+    "path": "./external/claude-scientific-skills/scientific-skills/research-lookup/SKILL.md",
+    "description": "Look up current research information using parallel-cli search (primary, fast web search), the Parallel Chat API (deep research), or Perplexity sonar-pro-search (academic paper searches). Automatically routes queries to the best backend. Use for finding papers, gathering research data, and verifying scientific information. Note: query text is transmitted to api.parallel.ai (PARALLEL_API_KEY) and, for academic searches, to openrouter.ai (OPENROUTER_API_KEY).",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "rowan",
+    "path": "./external/claude-scientific-skills/scientific-skills/rowan/SKILL.md",
+    "description": "Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API. Use for pKa and macropKa prediction, conformer and tautomer ensembles, docking and analogue docking, protein-ligand cofolding, MSA generation, molecular dynamics, permeability, descriptor workflows, and related small-molecule or protein modeling tasks. Ideal for programmatic batch screening, multi-step chemistry pipelines, and workflows that would otherwise require maintaining local HPC/GPU infrastructure.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scanpy",
+    "path": "./external/claude-scientific-skills/scientific-skills/scanpy/SKILL.md",
+    "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scholar-evaluation",
+    "path": "./external/claude-scientific-skills/scientific-skills/scholar-evaluation/SKILL.md",
+    "description": "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-brainstorming",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-brainstorming/SKILL.md",
+    "description": "Creative research ideation and exploration. Use for open-ended brainstorming sessions, exploring interdisciplinary connections, challenging assumptions, or identifying research gaps. Best for early-stage research planning when you do not have specific observations yet. For formulating testable hypotheses from data use hypothesis-generation.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-critical-thinking",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-critical-thinking/SKILL.md",
+    "description": "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For formal peer review writing use peer-review.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-schematics",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-schematics/SKILL.md",
+    "description": "Create publication-quality scientific diagrams using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.1 Pro Preview for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-slides",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-slides/SKILL.md",
+    "description": "Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-visualization",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-visualization/SKILL.md",
+    "description": "Meta-skill for publication-ready figures. Use when creating journal submission figures requiring multi-panel layouts, significance annotations, error bars, colorblind-safe palettes, and specific journal formatting (Nature, Science, Cell). Orchestrates matplotlib/seaborn/plotly with publication styles. For quick exploration use seaborn or plotly directly.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scientific-writing",
+    "path": "./external/claude-scientific-skills/scientific-skills/scientific-writing/SKILL.md",
+    "description": "Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scikit-bio",
+    "path": "./external/claude-scientific-skills/scientific-skills/scikit-bio/SKILL.md",
+    "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scikit-learn",
+    "path": "./external/claude-scientific-skills/scientific-skills/scikit-learn/SKILL.md",
+    "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scikit-survival",
+    "path": "./external/claude-scientific-skills/scientific-skills/scikit-survival/SKILL.md",
+    "description": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scvelo",
+    "path": "./external/claude-scientific-skills/scientific-skills/scvelo/SKILL.md",
+    "description": "RNA velocity analysis with scVelo. Estimate cell state transitions from unspliced/spliced mRNA dynamics, infer trajectory directions, compute latent time, and identify driver genes in single-cell RNA-seq data. Complements Scanpy/scVI-tools for trajectory inference.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "scvi-tools",
+    "path": "./external/claude-scientific-skills/scientific-skills/scvi-tools/SKILL.md",
+    "description": "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipelines use scanpy.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "seaborn",
+    "path": "./external/claude-scientific-skills/scientific-skills/seaborn/SKILL.md",
+    "description": "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "shap",
+    "path": "./external/claude-scientific-skills/scientific-skills/shap/SKILL.md",
+    "description": "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "simpy",
+    "path": "./external/claude-scientific-skills/scientific-skills/simpy/SKILL.md",
+    "description": "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "stable-baselines3",
+    "path": "./external/claude-scientific-skills/scientific-skills/stable-baselines3/SKILL.md",
+    "description": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel training, multi-agent systems, or custom vectorized environments, use pufferlib instead.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "statistical-analysis",
+    "path": "./external/claude-scientific-skills/scientific-skills/statistical-analysis/SKILL.md",
+    "description": "Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research reporting, test selection guidance. For implementing specific models programmatically use statsmodels.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "statsmodels",
+    "path": "./external/claude-scientific-skills/scientific-skills/statsmodels/SKILL.md",
+    "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "sympy",
+    "path": "./external/claude-scientific-skills/scientific-skills/sympy/SKILL.md",
+    "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "tiledbvcf",
+    "path": "./external/claude-scientific-skills/scientific-skills/tiledbvcf/SKILL.md",
+    "description": "Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "timesfm-forecasting",
+    "path": "./external/claude-scientific-skills/scientific-skills/timesfm-forecasting/SKILL.md",
+    "description": "Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals. Includes a preflight system checker script to verify RAM/GPU before first use.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "torch-geometric",
+    "path": "./external/claude-scientific-skills/scientific-skills/torch-geometric/SKILL.md",
+    "description": "\"Guide for building Graph Neural Networks with PyTorch Geometric (PyG). Use this skill whenever the user asks about graph neural networks, GNNs, node classification, link prediction, graph classification, message passing networks, heterogeneous graphs, neighbor sampling, or any task involving torch_geometric / PyG. Also trigger when you see imports from torch_geometric, or the user mentions graph convolutions (GCN, GAT, GraphSAGE, GIN), graph data structures, or working with relational/network data. Even if the user just says 'graph learning' or 'geometric deep learning', use this skill.\"",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "torchdrug",
+    "path": "./external/claude-scientific-skills/scientific-skills/torchdrug/SKILL.md",
+    "description": "PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN architectures for drug discovery, protein modeling, or knowledge graph reasoning. Best for custom model development, protein property prediction, retrosynthesis. For pre-trained models and diverse featurizers use deepchem; for benchmark datasets use pytdc.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "transformers",
+    "path": "./external/claude-scientific-skills/scientific-skills/transformers/SKILL.md",
+    "description": "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "treatment-plans",
+    "path": "./external/claude-scientific-skills/scientific-skills/treatment-plans/SKILL.md",
+    "description": "Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management. Includes SMART goal frameworks, evidence-based interventions with minimal text citations, regulatory compliance (HIPAA), and professional formatting. Prioritizes brevity and clinical actionability.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "umap-learn",
+    "path": "./external/claude-scientific-skills/scientific-skills/umap-learn/SKILL.md",
+    "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "usfiscaldata",
+    "path": "./external/claude-scientific-skills/scientific-skills/usfiscaldata/SKILL.md",
+    "description": "Query the U.S. Treasury Fiscal Data API for federal financial data including national debt, government spending, revenue, interest rates, exchange rates, and savings bonds. Access 54 datasets and 182 data tables with no API key required. Use when working with U.S. federal fiscal data, national debt tracking (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates on Treasury securities, foreign exchange rates, savings bonds, or any U.S. government financial statistics.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "vaex",
+    "path": "./external/claude-scientific-skills/scientific-skills/vaex/SKILL.md",
+    "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "venue-templates",
+    "path": "./external/claude-scientific-skills/scientific-skills/venue-templates/SKILL.md",
+    "description": "Access comprehensive LaTeX templates, formatting requirements, and submission guidelines for major scientific publication venues (Nature, Science, PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), research posters, and grant proposals (NSF, NIH, DOE, DARPA). This skill should be used when preparing manuscripts for journal submission, conference papers, research posters, or grant proposals and need venue-specific formatting requirements and templates.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "what-if-oracle",
+    "path": "./external/claude-scientific-skills/scientific-skills/what-if-oracle/SKILL.md",
+    "description": "Run structured What-If scenario analysis with multi-branch possibility exploration. Use this skill when the user asks speculative questions like \"what if...\", \"what would happen if...\", \"what are the possibilities\", \"explore scenarios\", \"scenario analysis\", \"possibility space\", \"what could go wrong\", \"best case / worst case\", \"risk analysis\", \"contingency planning\", \"strategic options\", or any question about uncertain futures. Also trigger when the user faces a fork-in-the-road decision, wants to stress-test an idea, or needs to think through consequences before committing.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "zarr-python",
+    "path": "./external/claude-scientific-skills/scientific-skills/zarr-python/SKILL.md",
+    "description": "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
+    "tags": [
+      "claude-scientific"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
     "id": "\"status\"",
     "path": "./external/claude-skills/engineering/agenthub/skills/status/SKILL.md",
     "description": "\"Show DAG state, agent progress, and branch status for an AgentHub session.\"",
@@ -2477,136 +3587,6 @@
     "github_url": ""
   },
   {
-    "id": "dbs",
-    "path": "./external/dbskill/skills/dbs/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-action",
-    "path": "./external/dbskill/skills/dbs-action/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-agent-migration",
-    "path": "./external/dbskill/skills/dbs-agent-migration/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-ai-check",
-    "path": "./external/dbskill/skills/dbs-ai-check/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-benchmark",
-    "path": "./external/dbskill/skills/dbs-benchmark/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-chatroom",
-    "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
-    "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-chatroom-austrian",
-    "path": "./external/dbskill/skills/dbs-chatroom-austrian/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-content",
-    "path": "./external/dbskill/skills/dbs-content/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-deconstruct",
-    "path": "./external/dbskill/skills/dbs-deconstruct/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-diagnosis",
-    "path": "./external/dbskill/skills/dbs-diagnosis/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-hook",
-    "path": "./external/dbskill/skills/dbs-hook/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-slowisfast",
-    "path": "./external/dbskill/skills/dbs-slowisfast/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "dbs-xhs-title",
-    "path": "./external/dbskill/skills/dbs-xhs-title/SKILL.md",
-    "description": "|",
-    "tags": [
-      "dbskill"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
     "id": "fact-checker",
     "path": "./external/fact-checker/SKILL.md",
     "description": "|",
@@ -2617,6 +3597,16 @@
       "fact-checker"
     ],
     "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "frontend-slides",
+    "path": "./external/frontend-slides/SKILL.md",
+    "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+    "tags": [
+      "frontend-slides"
+    ],
+    "version": "",
     "github_url": ""
   },
   {
@@ -3510,16 +4500,6 @@
     "github_url": ""
   },
   {
-    "id": "neat-freak",
-    "path": "./external/khazix-skills/neat-freak/SKILL.md",
-    "description": ">",
-    "tags": [
-      "khazix"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
     "id": "ab-test-setup",
     "path": "./external/marketingskills/skills/ab-test-setup/SKILL.md",
     "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
@@ -3592,7 +4572,7 @@
   {
     "id": "community-marketing",
     "path": "./external/marketingskills/skills/community-marketing/SKILL.md",
-    "description": "\"Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord community,\\\" \\\"Slack community,\\\" \\\"community-led growth,\\\" \\\"brand advocates,\\\" \\\"user community,\\\" \\\"forum strategy,\\\" \\\"community engagement,\\\" \\\"grow our community,\\\" \\\"ambassador program,\\\" \\\"community flywheel.\\\"\"",
+    "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
     "tags": [
       "marketingskills"
     ],
@@ -3607,16 +4587,6 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
-  },
-  {
-    "id": "competitor-profiling",
-    "path": "./external/marketingskills/skills/competitor-profiling/SKILL.md",
-    "description": "\"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitor-alternatives. For sales-specific battle cards, see sales-enablement.\"",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -3660,16 +4630,6 @@
     "github_url": ""
   },
   {
-    "id": "directory-submissions",
-    "path": "./external/marketingskills/skills/directory-submissions/SKILL.md",
-    "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch-strategy. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
-    "github_url": ""
-  },
-  {
     "id": "email-sequence",
     "path": "./external/marketingskills/skills/email-sequence/SKILL.md",
     "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
@@ -3697,16 +4657,6 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
-  },
-  {
-    "id": "image",
-    "path": "./external/marketingskills/skills/image/SKILL.md",
-    "description": "\"When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'Ideogram,' 'Gemini image,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.\"",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -3776,7 +4726,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.2.0",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
@@ -3876,7 +4826,7 @@
     "tags": [
       "marketingskills"
     ],
-    "version": "1.2.0",
+    "version": "1.1.0",
     "github_url": ""
   },
   {
@@ -3902,21 +4852,11 @@
   {
     "id": "social-content",
     "path": "./external/marketingskills/skills/social-content/SKILL.md",
-    "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' or 'create a reel.' Use this for social media content creation, repurposing, scheduling, and short-form video scripting. For broader content strategy, see content-strategy. For paid video ads, see ad-creative.\"",
+    "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.\"",
     "tags": [
       "marketingskills"
     ],
-    "version": "1.3.0",
-    "github_url": ""
-  },
-  {
-    "id": "video",
-    "path": "./external/marketingskills/skills/video/SKILL.md",
-    "description": "\"When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Runway,' 'Kling,' 'Pika,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social-content. For paid video ad creative, see ad-creative.\"",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "1.0.0",
+    "version": "1.2.0",
     "github_url": ""
   },
   {
@@ -4129,6 +5069,26 @@
     "github_url": ""
   },
   {
+    "id": "playwright-skill",
+    "path": "./external/playwright-skill/skills/playwright-skill/SKILL.md",
+    "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+    "tags": [
+      "playwright"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
+    "id": "skill-builder",
+    "path": "./external/skill-seekers/distribution/claude-plugin/skills/skill-builder/SKILL.md",
+    "description": "Automatically detect source types and build AI skills using Skill Seekers. Use when the user wants to create skills from documentation, repos, PDFs, videos, or other knowledge sources.",
+    "tags": [
+      "skill-seekers"
+    ],
+    "version": "",
+    "github_url": ""
+  },
+  {
     "id": "video-content-analyzer",
     "path": "./external/video-content-analyzer/SKILL.md",
     "description": "短视频内容深度分析 - 分析前10秒钩子、中段内容簇、结尾5秒，输出完整结构/情感曲线/传达方式报告。配合 video-scene-splitter + video-transcriber 使用",
@@ -4237,7 +5197,7 @@
     "tags": [
       "web-access"
     ],
-    "version": "\"2.5.0\"",
+    "version": "\"2.4.3\"",
     "github_url": ""
   },
   {
