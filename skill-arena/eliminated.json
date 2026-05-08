@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "eliminated_skills": [
+    {
+      "id": "template-skill",
+      "name": "Template Skill",
+      "path": "./_template_skill/SKILL.md",
+      "eliminated_at": "2026-05-08",
+      "reason": "Placeholder template, not a functional skill",
+      "final_score": 3.8,
+      "consecutive_low_runs": 10,
+      "usage_data": {
+        "total_invocations": 0,
+        "last_used": null,
+        "success_rate": null
+      },
+      "decision": "removed_from_index",
+      "notes": "Kept in _template_skill/ directory as reference template for creating new skills, but excluded from index.json and arena evaluation"
+    }
+  ],
+  "elimination_criteria": {
+    "static_score_threshold": 4.0,
+    "consecutive_runs_threshold": 3,
+    "usage_threshold": 5,
+    "inactive_period_days": 180
+  }
+}

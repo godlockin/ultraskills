@@ -4,7 +4,7 @@
     "updated_at": "2026-05-08",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-08",
-    "total_skills": 619,
+    "total_skills": 618,
     "total_clusters": 54,
     "avg_arena_score": 7.33,
     "total_winners": 54
@@ -13700,27 +13700,6 @@
         "maintainability": 5,
         "is_winner": false,
         "rank": 22,
-        "test_date": "2026-05-08",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "template-skill",
-      "name": "template-skill",
-      "path": "./external/anthropic-skills/template/SKILL.md",
-      "description": "Replace with description of the skill and when Claude should use it.",
-      "tags": [
-        "anthropic"
-      ],
-      "arena": {
-        "cluster": "skills-mgmt",
-        "cluster_name": "Skills·管理",
-        "score": 3.8,
-        "doc_quality": 2,
-        "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 23,
         "test_date": "2026-05-08",
         "test_version": "1.0.0"
       }
