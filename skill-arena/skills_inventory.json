@@ -1715,6 +1715,25 @@
     "github_url": ""
   },
   {
+    "id": "visual-forge",
+    "path": "./community/visual-forge/SKILL.md",
+    "description": "Professional presentation and web design system combining brand precision (68+ design systems), narrative structure, and 30+ visual styles. Generates PPT decks, landing pages, and infographics with pixel-perfect execution. Use when user asks to create slides, web pages, landing pages, or visual content.",
+    "tags": [
+      "design",
+      "presentation",
+      "web",
+      "ui",
+      "ppt",
+      "slides",
+      "landing-page",
+      "infographic",
+      "visual-design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "web-artifacts-builder",
     "path": "./community/web-artifacts-builder/SKILL.md",
     "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
