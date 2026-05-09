@@ -1,29 +1,40 @@
 {
-    "caveman-stats": {
-        "consecutive_low": 2,
-        "scores": [
-            3.5,
-            3.5
-        ],
-        "cluster": "productivity",
-        "recommendation": "warning"
-    },
-    "cavecrew": {
-        "consecutive_low": 2,
-        "scores": [
-            3.7,
-            3.7
-        ],
-        "cluster": "productivity",
-        "recommendation": "warning"
-    },
-    "\"runbook-generator\"": {
-        "consecutive_low": 2,
-        "scores": [
-            3.5,
-            3.5
-        ],
-        "cluster": "engineering-code",
-        "recommendation": "warning"
-    }
+  "caveman-stats": {
+    "consecutive_low": 3,
+    "scores": [
+      3.5,
+      3.5,
+      3.5
+    ],
+    "cluster": "productivity",
+    "recommendation": "eliminate"
+  },
+  "cavecrew": {
+    "consecutive_low": 3,
+    "scores": [
+      3.7,
+      3.7,
+      3.7
+    ],
+    "cluster": "productivity",
+    "recommendation": "eliminate"
+  },
+  "\"runbook-generator\"": {
+    "consecutive_low": 3,
+    "scores": [
+      3.5,
+      3.5,
+      3.5
+    ],
+    "cluster": "engineering-code",
+    "recommendation": "eliminate"
+  },
+  "template-skill": {
+    "consecutive_low": 1,
+    "scores": [
+      3.8
+    ],
+    "cluster": "skills-mgmt",
+    "recommendation": "monitor"
+  }
 }

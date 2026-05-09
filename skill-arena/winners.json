@@ -75,6 +75,21 @@
     ]
   },
   {
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "winner": "playwright-media-sniffer",
+    "score": 9.5,
+    "runner_up": "gstack-openclaw-retro",
+    "total_contestants": 13,
+    "defeated": [
+      "gstack-openclaw-retro",
+      "gstack-openclaw-ceo-review",
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "playwright-expert"
+    ]
+  },
+  {
     "cluster": "agent-eval",
     "cluster_name": "Agent·评估",
     "winner": "advanced-evaluation",
@@ -661,21 +676,6 @@
       "dynamic-expert-group",
       "caveman",
       "caveman-compress"
-    ]
-  },
-  {
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "winner": "gstack-openclaw-retro",
-    "score": 7.8,
-    "runner_up": "gstack-openclaw-ceo-review",
-    "total_contestants": 12,
-    "defeated": [
-      "gstack-openclaw-ceo-review",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "playwright-expert",
-      "gstack-openclaw-investigate"
     ]
   },
   {

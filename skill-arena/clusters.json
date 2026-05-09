@@ -135,36 +135,36 @@
         "skills": [
           "api-designer",
           "spec-miner",
+          "legacy-modernizer",
           "sre-engineer",
-          "feature-forge",
           "monitoring-expert",
-          "legacy-modernizer"
+          "feature-forge"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "sql-pro",
         "skills": [
-          "postgres-pro",
-          "pandas-pro",
           "sql-pro",
+          "postgres-pro",
           "spark-engineer",
-          "database-optimizer"
+          "database-optimizer",
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "chaos-engineer",
+        "winner": "mcp-developer",
         "skills": [
-          "chaos-engineer",
-          "embedded-systems",
-          "cli-developer",
           "mcp-developer",
-          "websocket-engineer"
+          "chaos-engineer",
+          "websocket-engineer",
+          "cli-developer",
+          "embedded-systems"
         ]
       },
       {
@@ -250,13 +250,13 @@
         "skills": [
           "baoyu-translate",
           "baoyu-format-markdown",
-          "baoyu-post-to-wechat",
           "baoyu-danger-x-to-markdown",
-          "baoyu-danger-gemini-web",
+          "baoyu-post-to-wechat",
           "baoyu-url-to-markdown",
+          "baoyu-danger-gemini-web",
+          "baoyu-youtube-transcript",
           "baoyu-post-to-weibo",
-          "baoyu-post-to-x",
-          "baoyu-youtube-transcript"
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -269,9 +269,9 @@
           "\"social-content\"",
           "social-content",
           "huashu-article-to-x",
+          "huashu-xhs-image",
           "x-mastery-mentor",
           "huashu-wechat-image",
-          "huashu-xhs-image",
           "huashu-topic-gen",
           "khazix-writer"
         ]
@@ -338,8 +338,8 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "\"github-skill-scout\"",
           "skill-sync-manager",
+          "\"github-skill-scout\"",
           "skill-manager",
           "skill-evolution-manager"
         ]
@@ -363,9 +363,9 @@
         "winner": "command-development",
         "skills": [
           "command-development",
-          "plugin-structure",
           "hook-development",
           "plugin-settings",
+          "plugin-structure",
           "claude-md-improver",
           "claude-automation-recommender"
         ]
@@ -426,10 +426,10 @@
         "skills": [
           "\"cto-advisor\"",
           "\"coo-advisor\"",
-          "\"ceo-advisor\"",
+          "\"chro-advisor\"",
           "\"cmo-advisor\"",
-          "\"cfo-advisor\"",
-          "\"chro-advisor\""
+          "\"ceo-advisor\"",
+          "\"cfo-advisor\""
         ]
       },
       {
@@ -440,9 +440,9 @@
         "skills": [
           "\"chief-of-staff\"",
           "\"board-meeting\"",
+          "\"founder-coach\"",
           "\"board-deck-builder\"",
           "\"executive-mentor\"",
-          "\"founder-coach\"",
           "\"business-growth-skills\""
         ]
       },
@@ -539,11 +539,11 @@
         "winner": "\"terraform-patterns\"",
         "skills": [
           "\"terraform-patterns\"",
-          "\"helm-chart-builder\"",
+          "\"azure-cloud-architect\"",
+          "\"gcp-cloud-architect\"",
           "terraform-engineer",
           "\"aws-solution-architect\"",
-          "\"azure-cloud-architect\"",
-          "\"gcp-cloud-architect\""
+          "\"helm-chart-builder\""
         ]
       },
       {
@@ -560,14 +560,14 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 7,
-        "winner": "\"release-manager\"",
+        "winner": "\"senior-devops\"",
         "skills": [
-          "\"release-manager\"",
           "\"senior-devops\"",
+          "\"release-manager\"",
           "devops-engineer",
           "ship",
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "canary"
         ]
       },
@@ -734,15 +734,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-comic",
+        "winner": "baoyu-image-cards",
         "skills": [
-          "baoyu-comic",
-          "baoyu-image-gen",
-          "baoyu-imagine",
-          "baoyu-cover-image",
-          "baoyu-infographic",
           "baoyu-image-cards",
-          "baoyu-article-illustrator"
+          "baoyu-cover-image",
+          "baoyu-article-illustrator",
+          "baoyu-imagine",
+          "baoyu-infographic",
+          "baoyu-image-gen",
+          "baoyu-comic"
         ]
       },
       {
@@ -754,8 +754,8 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-auditor",
           "image-reviewer",
+          "image-auditor",
           "image-analyzer"
         ]
       },
@@ -888,6 +888,27 @@
     ]
   },
   {
+    "id": "skills-browser",
+    "name": "Skills·浏览器",
+    "skill_count": 13,
+    "winner": "playwright-media-sniffer",
+    "skills": [
+      "playwright-media-sniffer",
+      "gstack-openclaw-retro",
+      "gstack-openclaw-ceo-review",
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "playwright-expert",
+      "gstack-openclaw-investigate",
+      "gstack-openclaw-office-hours",
+      "gstack",
+      "browse",
+      "gstack-upgrade",
+      "open-gstack-browser",
+      "setup-browser-cookies"
+    ]
+  },
+  {
     "id": "content-doc",
     "name": "内容·文档生成",
     "skill_count": 12,
@@ -905,26 +926,6 @@
       "huashu-slides",
       "make-pdf",
       "huashu-md-to-pdf"
-    ]
-  },
-  {
-    "id": "skills-browser",
-    "name": "Skills·浏览器",
-    "skill_count": 12,
-    "winner": "gstack-openclaw-retro",
-    "skills": [
-      "gstack-openclaw-retro",
-      "gstack-openclaw-ceo-review",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "playwright-expert",
-      "gstack-openclaw-investigate",
-      "gstack-openclaw-office-hours",
-      "gstack",
-      "browse",
-      "gstack-upgrade",
-      "open-gstack-browser",
-      "setup-browser-cookies"
     ]
   },
   {
@@ -950,10 +951,10 @@
         "id": "agent-workflow-planning",
         "name": "规划 & 执行",
         "skill_count": 3,
-        "winner": "executing-plans",
+        "winner": "writing-plans",
         "skills": [
-          "executing-plans",
           "writing-plans",
+          "executing-plans",
           "autoplan"
         ]
       },
@@ -964,21 +965,21 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-es",
+          "planning-with-files-zh",
           "planning-with-files-de",
-          "planning-with-files-ar",
           "planning-with-files-zht",
-          "planning-with-files-zh"
+          "planning-with-files-ar",
+          "planning-with-files-es"
         ]
       },
       {
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "agent-development",
+        "winner": "skill-development",
         "skills": [
-          "agent-development",
-          "skill-development"
+          "skill-development",
+          "agent-development"
         ]
       }
     ]

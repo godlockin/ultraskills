@@ -66,6 +66,17 @@
     "total": 9.5
   },
   {
+    "id": "playwright-media-sniffer",
+    "path": "./community/playwright-media-sniffer/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "ubiquitous-language",
     "path": "./community/ubiquitous-language/SKILL.md",
     "cluster": "engineering-arch",
@@ -2314,7 +2325,7 @@
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
     "maintainability": 5,

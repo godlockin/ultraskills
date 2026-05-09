@@ -1421,6 +1421,25 @@
     "github_url": ""
   },
   {
+    "id": "playwright-media-sniffer",
+    "path": "./community/playwright-media-sniffer/SKILL.md",
+    "description": "Browser automation-based media sniffer using Playwright to inherit login state, capture M3U8/MPD/MP4 resources from any website (including custom players), and download via yt-dlp/ffmpeg with full cookie support",
+    "tags": [
+      "media",
+      "download",
+      "playwright",
+      "browser-automation",
+      "m3u8",
+      "mpd",
+      "sniffer",
+      "login-state",
+      "cookie-injection",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "poster-print-design",
     "path": "./community/poster-print-design/SKILL.md",
     "description": "用 HTML/CSS 出海报、社交卡片 (OG / Twitter card)、印刷品 (A3/A4/名片)。Playwright 截图 → PNG/JPG/PDF（含 CMYK 出血提示）。模板库：博客分享卡、活动海报、Slogan 卡、价格表。Trigger on poster / 海报 / og image / social card / 分享卡 / print / a4 / 名片 / banner。",
