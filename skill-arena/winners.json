@@ -634,6 +634,21 @@
     ]
   },
   {
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
+    "winner": "user-story-mapper",
+    "score": 8.0,
+    "runner_up": "feature-prioritization",
+    "total_contestants": 6,
+    "defeated": [
+      "feature-prioritization",
+      "office-hours",
+      "plan-ceo-review",
+      "plan-eng-review",
+      "roadmap-communicator"
+    ]
+  },
+  {
     "cluster": "business-legal",
     "cluster_name": "商业·法务合规",
     "winner": "\"capa-officer\"",
@@ -762,19 +777,6 @@
       "salesforce-developer",
       "shopify-expert",
       "wordpress-pro"
-    ]
-  },
-  {
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "winner": "office-hours",
-    "score": 6.5,
-    "runner_up": "plan-ceo-review",
-    "total_contestants": 4,
-    "defeated": [
-      "plan-ceo-review",
-      "plan-eng-review",
-      "roadmap-communicator"
     ]
   }
 ]

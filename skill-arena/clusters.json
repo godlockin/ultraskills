@@ -203,23 +203,23 @@
         "skills": [
           "api-designer",
           "monitoring-expert",
-          "spec-miner",
           "legacy-modernizer",
+          "feature-forge",
           "sre-engineer",
-          "feature-forge"
+          "spec-miner"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "pandas-pro",
+        "winner": "database-optimizer",
         "skills": [
-          "pandas-pro",
-          "sql-pro",
           "database-optimizer",
+          "sql-pro",
+          "spark-engineer",
           "postgres-pro",
-          "spark-engineer"
+          "pandas-pro"
         ]
       },
       {
@@ -229,8 +229,8 @@
         "winner": "websocket-engineer",
         "skills": [
           "websocket-engineer",
-          "chaos-engineer",
           "embedded-systems",
+          "chaos-engineer",
           "cli-developer",
           "mcp-developer"
         ]
@@ -319,8 +319,8 @@
           "\"cto-advisor\"",
           "\"coo-advisor\"",
           "\"ceo-advisor\"",
-          "\"chro-advisor\"",
           "\"cmo-advisor\"",
+          "\"chro-advisor\"",
           "\"cfo-advisor\""
         ]
       },
@@ -407,14 +407,14 @@
         "winner": "baoyu-post-to-wechat",
         "skills": [
           "baoyu-post-to-wechat",
-          "baoyu-format-markdown",
-          "baoyu-translate",
           "baoyu-danger-x-to-markdown",
-          "baoyu-danger-gemini-web",
+          "baoyu-translate",
+          "baoyu-format-markdown",
           "baoyu-url-to-markdown",
+          "baoyu-danger-gemini-web",
           "baoyu-post-to-weibo",
-          "baoyu-post-to-x",
-          "baoyu-youtube-transcript"
+          "baoyu-youtube-transcript",
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -428,8 +428,8 @@
           "social-content",
           "huashu-article-to-x",
           "huashu-xhs-image",
-          "huashu-wechat-image",
           "x-mastery-mentor",
+          "huashu-wechat-image",
           "huashu-topic-gen",
           "khazix-writer"
         ]
@@ -496,8 +496,8 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "skill-sync-manager",
           "\"github-skill-scout\"",
+          "skill-sync-manager",
           "skill-manager",
           "skill-evolution-manager"
         ]
@@ -521,9 +521,9 @@
         "winner": "hook-development",
         "skills": [
           "hook-development",
-          "plugin-settings",
           "command-development",
           "plugin-structure",
+          "plugin-settings",
           "claude-md-improver",
           "claude-automation-recommender"
         ]
@@ -641,11 +641,11 @@
         "winner": "\"terraform-patterns\"",
         "skills": [
           "\"terraform-patterns\"",
-          "\"helm-chart-builder\"",
-          "\"azure-cloud-architect\"",
-          "\"gcp-cloud-architect\"",
           "\"aws-solution-architect\"",
-          "terraform-engineer"
+          "\"helm-chart-builder\"",
+          "terraform-engineer",
+          "\"azure-cloud-architect\"",
+          "\"gcp-cloud-architect\""
         ]
       },
       {
@@ -662,11 +662,11 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 7,
-        "winner": "\"release-manager\"",
+        "winner": "\"senior-devops\"",
         "skills": [
+          "\"senior-devops\"",
           "\"release-manager\"",
           "devops-engineer",
-          "\"senior-devops\"",
           "ship",
           "setup-deploy",
           "land-and-deploy",
@@ -808,15 +808,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-infographic",
+        "winner": "baoyu-image-cards",
         "skills": [
-          "baoyu-infographic",
-          "baoyu-article-illustrator",
-          "baoyu-comic",
           "baoyu-image-cards",
-          "baoyu-imagine",
+          "baoyu-article-illustrator",
           "baoyu-image-gen",
-          "baoyu-cover-image"
+          "baoyu-cover-image",
+          "baoyu-comic",
+          "baoyu-imagine",
+          "baoyu-infographic"
         ]
       },
       {
@@ -828,9 +828,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-analyzer",
           "image-reviewer",
-          "image-auditor",
-          "image-analyzer"
+          "image-auditor"
         ]
       },
       {
@@ -1048,10 +1048,10 @@
         "id": "agent-workflow-planning",
         "name": "规划 & 执行",
         "skill_count": 3,
-        "winner": "writing-plans",
+        "winner": "executing-plans",
         "skills": [
-          "writing-plans",
           "executing-plans",
+          "writing-plans",
           "autoplan"
         ]
       },
@@ -1062,11 +1062,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-ar",
           "planning-with-files-es",
-          "planning-with-files-zht",
+          "planning-with-files-zh",
           "planning-with-files-de",
-          "planning-with-files-zh"
+          "planning-with-files-zht",
+          "planning-with-files-ar"
         ]
       },
       {
@@ -1330,6 +1330,20 @@
     ]
   },
   {
+    "id": "business-product",
+    "name": "商业·产品",
+    "skill_count": 6,
+    "winner": "user-story-mapper",
+    "skills": [
+      "user-story-mapper",
+      "feature-prioritization",
+      "office-hours",
+      "plan-ceo-review",
+      "plan-eng-review",
+      "roadmap-communicator"
+    ]
+  },
+  {
     "id": "marketing-ads",
     "name": "营销·广告",
     "skill_count": 6,
@@ -1392,18 +1406,6 @@
       "bdi-mental-states",
       "dispatching-parallel-agents",
       "subagent-driven-development"
-    ]
-  },
-  {
-    "id": "business-product",
-    "name": "商业·产品",
-    "skill_count": 4,
-    "winner": "office-hours",
-    "skills": [
-      "office-hours",
-      "plan-ceo-review",
-      "plan-eng-review",
-      "roadmap-communicator"
     ]
   },
   {

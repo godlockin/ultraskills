@@ -1,6 +1,6 @@
 {
   "caveman-stats": {
-    "consecutive_low": 9,
+    "consecutive_low": 11,
     "scores": [
       3.5,
       3.5,
@@ -12,7 +12,7 @@
     "recommendation": "eliminate"
   },
   "cavecrew": {
-    "consecutive_low": 9,
+    "consecutive_low": 11,
     "scores": [
       3.7,
       3.7,
@@ -24,7 +24,7 @@
     "recommendation": "eliminate"
   },
   "\"runbook-generator\"": {
-    "consecutive_low": 9,
+    "consecutive_low": 11,
     "scores": [
       3.5,
       3.5,
@@ -36,7 +36,7 @@
     "recommendation": "eliminate"
   },
   "template-skill": {
-    "consecutive_low": 7,
+    "consecutive_low": 9,
     "scores": [
       3.8,
       3.8,

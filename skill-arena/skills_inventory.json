@@ -460,6 +460,23 @@
     "github_url": ""
   },
   {
+    "id": "feature-prioritization",
+    "path": "./community/feature-prioritization/SKILL.md",
+    "description": "Feature prioritization (RICE/ICE/KANO) - rank backlog in 15min, saves 2h",
+    "tags": [
+      "product-management",
+      "prioritization",
+      "rice",
+      "ice",
+      "roadmap",
+      "backlog",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "figma-to-code",
     "path": "./community/figma-to-code/SKILL.md",
     "description": "用 Figma MCP / Figma API 把设计稿转成生产级代码。三档接入：Figma Dev Mode MCP (Figma 官方/Cursor/Claude Code) > Framelink Figma-Context-MCP (开源) > REST API 直拉 (token + node-id)。输出 React/Vue/Tailwind/CSS。Trigger on figma / design to code / 设计稿转代码 / figma to react / figma node。",
@@ -1968,6 +1985,22 @@
       "ltv",
       "burn-rate",
       "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "user-story-mapper",
+    "path": "./community/user-story-mapper/SKILL.md",
+    "description": "User story mapping - visualizes user journeys in 20min, saves 3h planning",
+    "tags": [
+      "product-management",
+      "user-stories",
+      "agile",
+      "roadmap",
+      "backlog",
+      "ROI-8.0",
       "community"
     ],
     "version": "1.0.0",

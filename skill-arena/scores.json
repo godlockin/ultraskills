@@ -2453,6 +2453,17 @@
     "total": 8.0
   },
   {
+    "id": "user-story-mapper",
+    "path": "./community/user-story-mapper/SKILL.md",
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
+    "is_winner": true,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "video-translate",
     "path": "./community/video-translate/SKILL.md",
     "cluster": "content-video",
@@ -4085,6 +4096,17 @@
     "path": "./community/course-outline-generator/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "feature-prioritization",
+    "path": "./community/feature-prioritization/SKILL.md",
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 9,
@@ -5933,7 +5955,7 @@
     "path": "./community/gstack/office-hours/SKILL.md",
     "cluster": "business-product",
     "cluster_name": "商业·产品",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 7,
     "maintainability": 7,

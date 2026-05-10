@@ -4,7 +4,7 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 690,
+    "total_skills": 692,
     "total_clusters": 54,
     "avg_arena_score": 7.39,
     "total_winners": 54
@@ -3554,6 +3554,63 @@
       }
     },
     {
+      "id": "user-story-mapper",
+      "name": "user-story-mapper",
+      "path": "./community/user-story-mapper/SKILL.md",
+      "description": "User story mapping - visualizes user journeys in 20min, saves 3h planning",
+      "tags": [
+        "product-management",
+        "user-stories",
+        "agile",
+        "roadmap",
+        "backlog",
+        "ROI-8.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-product",
+        "cluster_name": "商业·产品",
+        "score": 8.0,
+        "doc_quality": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "feature-prioritization",
+      "name": "feature-prioritization",
+      "path": "./community/feature-prioritization/SKILL.md",
+      "description": "Feature prioritization (RICE/ICE/KANO) - rank backlog in 15min, saves 2h",
+      "tags": [
+        "product-management",
+        "prioritization",
+        "rice",
+        "ice",
+        "roadmap",
+        "backlog",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-product",
+        "cluster_name": "商业·产品",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "office-hours",
       "name": "office-hours",
       "path": "./community/gstack/office-hours/SKILL.md",
@@ -3568,8 +3625,8 @@
         "doc_quality": 6,
         "func_clarity": 7,
         "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -3591,7 +3648,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 2,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -3613,7 +3670,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -3635,7 +3692,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 4,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
