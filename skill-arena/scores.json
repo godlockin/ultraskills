@@ -198,6 +198,17 @@
     "total": 9.0
   },
   {
+    "id": "marketing-roi-calculator",
+    "path": "./community/marketing-roi-calculator/SKILL.md",
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "objection-handler",
     "path": "./community/objection-handler/SKILL.md",
     "cluster": "misc",
@@ -950,7 +961,7 @@
     "path": "./external/claude-skills/marketing-skill/skills/pricing-strategy/SKILL.md",
     "cluster": "marketing-strategy",
     "cluster_name": "营销·策略",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -4015,6 +4026,17 @@
     "total": 7.5
   },
   {
+    "id": "contract-risk-highlighter",
+    "path": "./community/contract-risk-highlighter/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
     "id": "\"media-downloader\"",
     "path": "./community/media-downloader/SKILL.md",
     "cluster": "skills-web",
@@ -5379,6 +5401,17 @@
     "total": 7.2
   },
   {
+    "id": "interview-scorecard-generator",
+    "path": "./community/interview-scorecard-generator/SKILL.md",
+    "cluster": "business-hr",
+    "cluster_name": "商业·人力资源",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.0
+  },
+  {
     "id": "autoresearch:optimize",
     "path": "./engineering/autoresearch/optimize/SKILL.md",
     "cluster": "education",
@@ -5740,6 +5773,17 @@
     "func_clarity": 8,
     "maintainability": 9,
     "total": 6.7
+  },
+  {
+    "id": "customer-health-scorecard",
+    "path": "./community/customer-health-scorecard/SKILL.md",
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 6.5
   },
   {
     "id": "context-save",

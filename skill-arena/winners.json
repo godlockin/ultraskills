@@ -151,7 +151,7 @@
     "winner": "churn-risk-playbook",
     "score": 9.0,
     "runner_up": "sales-funnel-analyzer",
-    "total_contestants": 10,
+    "total_contestants": 11,
     "defeated": [
       "sales-funnel-analyzer",
       "webapp-testing",
@@ -173,6 +173,21 @@
       "test-case-templates",
       "test-driven-development",
       "\"tdd-guide\""
+    ]
+  },
+  {
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "winner": "marketing-roi-calculator",
+    "score": 9.0,
+    "runner_up": "\"pricing-strategy\"",
+    "total_contestants": 22,
+    "defeated": [
+      "\"pricing-strategy\"",
+      "aso-audit",
+      "content-strategy",
+      "launch-strategy",
+      "pricing-strategy"
     ]
   },
   {
@@ -335,7 +350,7 @@
     "winner": "\"internal-narrative\"",
     "score": 8.8,
     "runner_up": "\"brand-guidelines\"",
-    "total_contestants": 7,
+    "total_contestants": 8,
     "defeated": [
       "\"brand-guidelines\"",
       "lead-magnets",
@@ -493,21 +508,6 @@
     ]
   },
   {
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "winner": "\"pricing-strategy\"",
-    "score": 8.8,
-    "runner_up": "aso-audit",
-    "total_contestants": 21,
-    "defeated": [
-      "aso-audit",
-      "content-strategy",
-      "launch-strategy",
-      "pricing-strategy",
-      "product-marketing-context"
-    ]
-  },
-  {
     "cluster": "engineering-debug",
     "cluster_name": "工程·调试",
     "winner": "git-guardrails-claude-code",
@@ -639,7 +639,7 @@
     "winner": "\"capa-officer\"",
     "score": 7.8,
     "runner_up": "\"fda-consultant-specialist\"",
-    "total_contestants": 11,
+    "total_contestants": 12,
     "defeated": [
       "\"fda-consultant-specialist\"",
       "\"gdpr-dsgvo-expert\"",

@@ -239,6 +239,38 @@
     "github_url": ""
   },
   {
+    "id": "contract-risk-highlighter",
+    "path": "./community/contract-risk-highlighter/SKILL.md",
+    "description": "Contract risk analyzer - flags legal landmines in 30min (saves 6h legal review)",
+    "tags": [
+      "legal",
+      "contract-review",
+      "risk-analysis",
+      "compliance",
+      "procurement",
+      "ROI-9.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "customer-health-scorecard",
+    "path": "./community/customer-health-scorecard/SKILL.md",
+    "description": "Customer health scorecard generator - visual QBR-ready reports in 30min",
+    "tags": [
+      "customer-success",
+      "health-score",
+      "qbr",
+      "reporting",
+      "retention",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "data-viz",
     "path": "./community/data-viz/SKILL.md",
     "description": "给数据自动选图表类型 + 输出代码（D3 / Recharts / ECharts / Observable Plot / Vega-Lite / matplotlib）。包含图表类型决策树（比较/分布/构成/关系/时序/地理）、配色规范、可访问性。Trigger on chart / dataviz / data visualization / 数据可视化 / 画图 / 图表 / plot / dashboard / 可视化。",
@@ -1175,6 +1207,22 @@
     "github_url": ""
   },
   {
+    "id": "interview-scorecard-generator",
+    "path": "./community/interview-scorecard-generator/SKILL.md",
+    "description": "Interview scorecard generator - structured hiring assessments in 10min per role",
+    "tags": [
+      "hr",
+      "recruiting",
+      "interview",
+      "hiring",
+      "assessment",
+      "ROI-9.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "karpathy-guidelines",
     "path": "./community/karpathy-guidelines/SKILL.md",
     "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria. Derived from Andrej Karpathy's observations.",
@@ -1281,6 +1329,23 @@
     ],
     "version": "1.0.0",
     "github_url": "https://github.com/op7418/guizang-ppt-skill"
+  },
+  {
+    "id": "marketing-roi-calculator",
+    "path": "./community/marketing-roi-calculator/SKILL.md",
+    "description": "Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min",
+    "tags": [
+      "marketing",
+      "roi-analysis",
+      "cac",
+      "ltv",
+      "attribution",
+      "marketing-ops",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
   },
   {
     "id": "mcp-builder",

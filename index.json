@@ -4,9 +4,9 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 678,
+    "total_skills": 682,
     "total_clusters": 54,
-    "avg_arena_score": 7.38,
+    "avg_arena_score": 7.39,
     "total_winners": 54
   },
   "skills": [
@@ -3041,6 +3041,34 @@
       }
     },
     {
+      "id": "interview-scorecard-generator",
+      "name": "interview-scorecard-generator",
+      "path": "./community/interview-scorecard-generator/SKILL.md",
+      "description": "Interview scorecard generator - structured hiring assessments in 10min per role",
+      "tags": [
+        "hr",
+        "recruiting",
+        "interview",
+        "hiring",
+        "assessment",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-hr",
+        "cluster_name": "商业·人力资源",
+        "score": 7.0,
+        "doc_quality": 5,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 8,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"capa-officer\"",
       "name": "\"capa-officer\"",
       "path": "./external/claude-skills/ra-qm-team/skills/capa-officer/SKILL.md",
@@ -3251,6 +3279,34 @@
       }
     },
     {
+      "id": "contract-risk-highlighter",
+      "name": "contract-risk-highlighter",
+      "path": "./community/contract-risk-highlighter/SKILL.md",
+      "description": "Contract risk analyzer - flags legal landmines in 30min (saves 6h legal review)",
+      "tags": [
+        "legal",
+        "contract-review",
+        "risk-analysis",
+        "compliance",
+        "procurement",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-legal",
+        "cluster_name": "商业·法务合规",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 11,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"ra-qm-skills\"",
       "name": "\"ra-qm-skills\"",
       "path": "./external/claude-skills/ra-qm-team/skills/ra-qm-skills/SKILL.md",
@@ -3266,7 +3322,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10534,6 +10590,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "customer-health-scorecard",
+      "name": "customer-health-scorecard",
+      "path": "./community/customer-health-scorecard/SKILL.md",
+      "description": "Customer health scorecard generator - visual QBR-ready reports in 30min",
+      "tags": [
+        "customer-success",
+        "health-score",
+        "qbr",
+        "reporting",
+        "retention",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "engineering-qa",
+        "cluster_name": "工程·QA",
+        "score": 6.5,
+        "doc_quality": 4,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 7,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "devex-review",
       "name": "devex-review",
       "path": "./community/gstack/devex-review/SKILL.md",
@@ -10549,7 +10633,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10571,7 +10655,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10593,7 +10677,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10615,7 +10699,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11875,6 +11959,35 @@
       "version": "1.1.0"
     },
     {
+      "id": "marketing-roi-calculator",
+      "name": "marketing-roi-calculator",
+      "path": "./community/marketing-roi-calculator/SKILL.md",
+      "description": "Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min",
+      "tags": [
+        "marketing",
+        "roi-analysis",
+        "cac",
+        "ltv",
+        "attribution",
+        "marketing-ops",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "marketing-strategy",
+        "cluster_name": "营销·策略",
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"pricing-strategy\"",
       "name": "\"pricing-strategy\"",
       "path": "./external/claude-skills/marketing-skill/skills/pricing-strategy/SKILL.md",
@@ -11889,8 +12002,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11912,7 +12025,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 2,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11934,7 +12047,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11956,7 +12069,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11978,7 +12091,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12000,7 +12113,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12022,7 +12135,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12044,7 +12157,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12066,7 +12179,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12088,7 +12201,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12110,7 +12223,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12132,7 +12245,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12154,7 +12267,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12176,7 +12289,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12198,7 +12311,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12219,7 +12332,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12241,7 +12354,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12262,7 +12375,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12284,7 +12397,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12306,7 +12419,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12332,7 +12445,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 21,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
