@@ -132,6 +132,17 @@
     "total": 9.0
   },
   {
+    "id": "churn-risk-playbook",
+    "path": "./community/churn-risk-playbook/SKILL.md",
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "gh-fix-ci",
     "path": "./community/gh-fix-ci/SKILL.md",
     "cluster": "skills-mgmt",
@@ -180,6 +191,28 @@
     "path": "./community/mac-voice-clone/SKILL.md",
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "objection-handler",
+    "path": "./community/objection-handler/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "sales-funnel-analyzer",
+    "path": "./community/sales-funnel-analyzer/SKILL.md",
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
@@ -752,7 +785,7 @@
     "path": "./external/claude-skills/c-level-advisor/skills/agent-protocol/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -2332,6 +2365,17 @@
     "total": 8.0
   },
   {
+    "id": "pitch-deck-critic",
+    "path": "./community/pitch-deck-critic/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "poster-print-design",
     "path": "./community/poster-print-design/SKILL.md",
     "cluster": "content-presentation",
@@ -2578,7 +2622,7 @@
     "path": "./community/webapp-testing/SKILL.md",
     "cluster": "engineering-qa",
     "cluster_name": "工程·QA",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,
     "maintainability": 7,

@@ -1,0 +1,218 @@
+{
+  "Product Management": {
+    "existing": [
+      {
+        "name": "Product Manager",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "Full lifecycle PRD/RICE/roadmap"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "competitor-feature-matrix",
+        "roi": 9.0,
+        "saves": "4h\u219215min",
+        "reuse": "Weekly competitive analysis"
+      },
+      {
+        "name": "user-interview-synthesizer",
+        "roi": 8.5,
+        "saves": "6h\u219230min",
+        "reuse": "Post every 5 user interviews"
+      },
+      {
+        "name": "roadmap-stakeholder-comms",
+        "roi": 8.0,
+        "saves": "2h\u219210min",
+        "reuse": "Monthly roadmap updates"
+      }
+    ]
+  },
+  "Sales": {
+    "existing": [
+      {
+        "name": "Sales Strategist",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "Pipeline/BANT/MEDDIC"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "objection-handler",
+        "roi": 9.5,
+        "saves": "1h prep\u21925min",
+        "reuse": "Every sales call"
+      },
+      {
+        "name": "deal-risk-analyzer",
+        "roi": 8.5,
+        "saves": "3h\u219220min",
+        "reuse": "Every enterprise deal"
+      },
+      {
+        "name": "sales-battle-card",
+        "roi": 8.0,
+        "saves": "4h\u219215min",
+        "reuse": "Per competitor"
+      }
+    ]
+  },
+  "HR/Recruiting": {
+    "existing": [
+      {
+        "name": "Recruitment Strategist",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "Sourcing/competency/offers"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "interview-scorecard-generator",
+        "roi": 9.0,
+        "saves": "2h\u219210min",
+        "reuse": "Per role"
+      },
+      {
+        "name": "candidate-redflags-detector",
+        "roi": 8.5,
+        "saves": "1h\u21925min",
+        "reuse": "Per resume"
+      },
+      {
+        "name": "offer-negotiation-framework",
+        "roi": 8.0,
+        "saves": "3h\u219220min",
+        "reuse": "Per offer"
+      }
+    ]
+  },
+  "Customer Success": {
+    "existing": [
+      {
+        "name": "Customer Success Strategist",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "Health scoring/retention/advocacy"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "churn-risk-playbook",
+        "roi": 9.5,
+        "saves": "4h\u219215min",
+        "reuse": "Weekly at-risk accounts"
+      },
+      {
+        "name": "qbr-deck-generator",
+        "roi": 8.5,
+        "saves": "5h\u219230min",
+        "reuse": "Quarterly per account"
+      },
+      {
+        "name": "expansion-opportunity-finder",
+        "roi": 8.0,
+        "saves": "3h\u219220min",
+        "reuse": "Monthly review"
+      }
+    ]
+  },
+  "Legal/Compliance": {
+    "existing": [
+      {
+        "name": "Legal Analyst",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "IRAC/compliance/IP"
+      },
+      {
+        "name": "Compliance Auditor",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "SOC2/ISO/HIPAA"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "contract-risk-highlighter",
+        "roi": 9.0,
+        "saves": "6h\u219230min",
+        "reuse": "Per contract"
+      },
+      {
+        "name": "privacy-policy-generator",
+        "roi": 8.5,
+        "saves": "8h\u21921h",
+        "reuse": "Per product launch"
+      },
+      {
+        "name": "open-source-license-advisor",
+        "roi": 7.5,
+        "saves": "2h\u219210min",
+        "reuse": "Per dependency"
+      }
+    ]
+  },
+  "Finance/Strategy": {
+    "existing": [
+      {
+        "name": "CFO / Financial Strategy",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "FP&A/fundraising/M&A"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "pitch-deck-critic",
+        "roi": 9.0,
+        "saves": "10h\u21921h",
+        "reuse": "Per fundraise"
+      },
+      {
+        "name": "unit-economics-calculator",
+        "roi": 8.5,
+        "saves": "4h\u219220min",
+        "reuse": "Monthly finance review"
+      },
+      {
+        "name": "pricing-strategy-optimizer",
+        "roi": 8.0,
+        "saves": "6h\u219230min",
+        "reuse": "Per pricing change"
+      }
+    ]
+  },
+  "Operations": {
+    "existing": [
+      {
+        "name": "Operations Manager",
+        "source": "ai-boost/awesome-prompts",
+        "stars": 7843,
+        "scope": "Lean/bottleneck analysis"
+      }
+    ],
+    "high_value_gaps": [
+      {
+        "name": "sop-writer",
+        "roi": 8.5,
+        "saves": "3h\u219215min",
+        "reuse": "Per process"
+      },
+      {
+        "name": "process-bottleneck-finder",
+        "roi": 8.0,
+        "saves": "4h\u219230min",
+        "reuse": "Quarterly review"
+      },
+      {
+        "name": "okr-alignment-checker",
+        "roi": 7.5,
+        "saves": "2h\u219210min",
+        "reuse": "Per quarter"
+      }
+    ]
+  }
+}

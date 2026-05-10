@@ -162,6 +162,23 @@
     "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/changelog-generator"
   },
   {
+    "id": "churn-risk-playbook",
+    "path": "./community/churn-risk-playbook/SKILL.md",
+    "description": "Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review",
+    "tags": [
+      "customer-success",
+      "churn-prevention",
+      "health-scoring",
+      "retention",
+      "expansion",
+      "QBR",
+      "ROI-9.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "claude-api",
     "path": "./community/claude-api/SKILL.md",
     "description": "\"Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.\"",
@@ -1341,6 +1358,22 @@
     "github_url": ""
   },
   {
+    "id": "objection-handler",
+    "path": "./community/objection-handler/SKILL.md",
+    "description": "Sales objection handling framework using MEDDIC/BANT - converts 1h prep to 5min per call",
+    "tags": [
+      "sales",
+      "objection-handling",
+      "MEDDIC",
+      "BANT",
+      "deal-acceleration",
+      "ROI-9.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "pdf",
     "path": "./community/pdf/SKILL.md",
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
@@ -1358,6 +1391,22 @@
       "community"
     ],
     "version": "\"3.0\"",
+    "github_url": ""
+  },
+  {
+    "id": "pitch-deck-critic",
+    "path": "./community/pitch-deck-critic/SKILL.md",
+    "description": "Fundraising pitch deck reviewer - saves 10h→1h with VC-grade feedback",
+    "tags": [
+      "fundraising",
+      "pitch-deck",
+      "venture-capital",
+      "startup",
+      "finance",
+      "ROI-9.0",
+      "community"
+    ],
+    "version": "1.0.0",
     "github_url": ""
   },
   {
@@ -1530,6 +1579,22 @@
     "path": "./community/requesting-code-review/SKILL.md",
     "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "sales-funnel-analyzer",
+    "path": "./community/sales-funnel-analyzer/SKILL.md",
+    "description": "Sales funnel efficiency analyzer - diagnoses conversion bottlenecks and calculates pipeline health",
+    "tags": [
+      "sales",
+      "funnel-analysis",
+      "conversion-optimization",
+      "pipeline-health",
+      "sales-ops",
+      "ROI-9.0",
       "community"
     ],
     "version": "1.0.0",

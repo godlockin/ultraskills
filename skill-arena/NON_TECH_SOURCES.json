@@ -1,0 +1,92 @@
+{
+  "high_value_sources": [
+    {
+      "name": "jupyter-naas/awesome-notebooks",
+      "stars": 2991,
+      "url": "https://github.com/jupyter-naas/awesome-notebooks",
+      "value": "2991-star notebook templates for business workflows",
+      "categories": [
+        "Sales Funnel",
+        "Marketing ROI",
+        "Sales Metrics",
+        "Data Quality"
+      ],
+      "roi_note": "实战模板，可直接转为 skills"
+    },
+    {
+      "name": "ai-boost/awesome-prompts",
+      "stars": 7843,
+      "url": "https://github.com/ai-boost/awesome-prompts",
+      "value": "7843-star curated prompts from GPT Store",
+      "categories": [
+        "Product Manager",
+        "Sales Strategist",
+        "CFO",
+        "HR/Talent",
+        "Legal Analyst"
+      ],
+      "roi_note": "顶级 GPTs 提炼，质量验证"
+    },
+    {
+      "name": "majiayu000/claude-skill-registry",
+      "url": "https://github.com/majiayu000/claude-skill-registry",
+      "value": "Existing customer-success-playbook skill",
+      "categories": [
+        "Customer Success"
+      ],
+      "roi_note": "参考结构，但内容较浅"
+    }
+  ],
+  "additional_searches": [
+    {
+      "domain": "Video/Content Creation",
+      "gap": "现有仅 4 content skills",
+      "opportunity": "YouTube script optimizer, podcast show notes generator, social media repurposing",
+      "roi": "8.0/10, 创作者高需求"
+    },
+    {
+      "domain": "Education/Training",
+      "gap": "完全空白",
+      "opportunity": "Course outline generator, learning objective mapper, assessment designer",
+      "roi": "7.5/10, 教育科技市场"
+    },
+    {
+      "domain": "Data Analysis",
+      "gap": "技术偏重，缺商业分析",
+      "opportunity": "Business metrics dashboard designer, cohort analysis explainer, attribution modeling",
+      "roi": "8.5/10, 数据驱动决策通用"
+    }
+  ],
+  "implementation_priority": [
+    {
+      "rank": 1,
+      "skill": "objection-handler",
+      "source": "ai-boost prompts",
+      "roi": 9.5
+    },
+    {
+      "rank": 2,
+      "skill": "churn-risk-playbook",
+      "source": "Naas notebooks + ai-boost",
+      "roi": 9.5
+    },
+    {
+      "rank": 3,
+      "skill": "sales-funnel-analyzer",
+      "source": "Naas: Analyze_Sales_Funnel_Efficiency",
+      "roi": 9.0
+    },
+    {
+      "rank": 4,
+      "skill": "marketing-roi-calculator",
+      "source": "Naas: Analyze_Marketing_ROI",
+      "roi": 8.5
+    },
+    {
+      "rank": 5,
+      "skill": "pitch-deck-critic",
+      "source": "ai-boost: CFO/Financial Strategy",
+      "roi": 9.0
+    }
+  ]
+}

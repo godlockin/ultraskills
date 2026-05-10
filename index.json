@@ -4,7 +4,7 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 674,
+    "total_skills": 678,
     "total_clusters": 54,
     "avg_arena_score": 7.38,
     "total_winners": 54
@@ -10390,6 +10390,63 @@
       "version": "\"1.0.0\""
     },
     {
+      "id": "churn-risk-playbook",
+      "name": "churn-risk-playbook",
+      "path": "./community/churn-risk-playbook/SKILL.md",
+      "description": "Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review",
+      "tags": [
+        "customer-success",
+        "churn-prevention",
+        "health-scoring",
+        "retention",
+        "expansion",
+        "QBR",
+        "ROI-9.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "engineering-qa",
+        "cluster_name": "工程·QA",
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "sales-funnel-analyzer",
+      "name": "sales-funnel-analyzer",
+      "path": "./community/sales-funnel-analyzer/SKILL.md",
+      "description": "Sales funnel efficiency analyzer - diagnoses conversion bottlenecks and calculates pipeline health",
+      "tags": [
+        "sales",
+        "funnel-analysis",
+        "conversion-optimization",
+        "pipeline-health",
+        "sales-ops",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "engineering-qa",
+        "cluster_name": "工程·QA",
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "webapp-testing",
       "name": "webapp-testing",
       "path": "./community/webapp-testing/SKILL.md",
@@ -10404,8 +10461,8 @@
         "doc_quality": 8,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10427,7 +10484,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 2,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10449,7 +10506,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 3,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -10470,7 +10527,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10492,7 +10549,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10514,7 +10571,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10536,7 +10593,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -10558,7 +10615,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12408,6 +12465,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "objection-handler",
+      "name": "objection-handler",
+      "path": "./community/objection-handler/SKILL.md",
+      "description": "Sales objection handling framework using MEDDIC/BANT - converts 1h prep to 5min per call",
+      "tags": [
+        "sales",
+        "objection-handling",
+        "MEDDIC",
+        "BANT",
+        "deal-acceleration",
+        "ROI-9.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"agent-protocol\"",
       "name": "\"agent-protocol\"",
       "path": "./external/claude-skills/c-level-advisor/skills/agent-protocol/SKILL.md",
@@ -12422,8 +12507,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12445,7 +12530,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 2,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12467,7 +12552,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12489,7 +12574,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12511,7 +12596,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12533,7 +12618,35 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "pitch-deck-critic",
+      "name": "pitch-deck-critic",
+      "path": "./community/pitch-deck-critic/SKILL.md",
+      "description": "Fundraising pitch deck reviewer - saves 10h→1h with VC-grade feedback",
+      "tags": [
+        "fundraising",
+        "pitch-deck",
+        "venture-capital",
+        "startup",
+        "finance",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.0,
+        "doc_quality": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12555,7 +12668,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12577,7 +12690,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12599,7 +12712,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12620,7 +12733,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 10,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12641,7 +12754,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 11,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12662,7 +12775,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 12,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12683,7 +12796,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12704,7 +12817,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12725,7 +12838,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12746,7 +12859,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12767,7 +12880,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12788,7 +12901,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12809,7 +12922,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 19,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12831,7 +12944,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12852,7 +12965,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12873,7 +12986,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 24,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12894,7 +13007,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 25,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12915,7 +13028,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 26,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12936,7 +13049,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 27,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12957,7 +13070,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 26,
+        "rank": 28,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12979,7 +13092,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 29,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13000,7 +13113,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 28,
+        "rank": 30,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13024,7 +13137,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 29,
+        "rank": 31,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13046,7 +13159,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 30,
+        "rank": 32,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13068,7 +13181,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 31,
+        "rank": 33,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13090,7 +13203,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 32,
+        "rank": 34,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13111,7 +13224,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 33,
+        "rank": 35,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13132,7 +13245,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 34,
+        "rank": 36,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13154,7 +13267,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 35,
+        "rank": 37,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13176,7 +13289,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 36,
+        "rank": 38,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13198,7 +13311,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 37,
+        "rank": 39,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13220,7 +13333,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 38,
+        "rank": 40,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13242,7 +13355,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 39,
+        "rank": 41,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13264,7 +13377,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 40,
+        "rank": 42,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13286,7 +13399,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 41,
+        "rank": 43,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13307,7 +13420,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 42,
+        "rank": 44,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13332,7 +13445,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 43,
+        "rank": 45,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13354,7 +13467,7 @@
         "func_clarity": 4,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 44,
+        "rank": 46,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13376,7 +13489,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 45,
+        "rank": 47,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13397,7 +13510,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 46,
+        "rank": 48,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13418,7 +13531,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 47,
+        "rank": 49,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13439,7 +13552,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 48,
+        "rank": 50,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13461,7 +13574,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 49,
+        "rank": 51,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },

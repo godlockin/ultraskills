@@ -146,6 +146,21 @@
     ]
   },
   {
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "winner": "churn-risk-playbook",
+    "score": 9.0,
+    "runner_up": "sales-funnel-analyzer",
+    "total_contestants": 10,
+    "defeated": [
+      "sales-funnel-analyzer",
+      "webapp-testing",
+      "\"org-health-diagnostic\"",
+      "\"senior-qa\"",
+      "verification-before-completion"
+    ]
+  },
+  {
     "cluster": "engineering-testing",
     "cluster_name": "工程·测试",
     "winner": "triage-issue",
@@ -171,6 +186,21 @@
       "mac-voice-clone",
       "mac-whisper",
       "audio-clean"
+    ]
+  },
+  {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "objection-handler",
+    "score": 9.0,
+    "runner_up": "\"agent-protocol\"",
+    "total_contestants": 51,
+    "defeated": [
+      "\"agent-protocol\"",
+      "\"strategic-alignment\"",
+      "co-marketing",
+      "competitor-profiling",
+      "directory-submissions"
     ]
   },
   {
@@ -478,21 +508,6 @@
     ]
   },
   {
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "winner": "\"agent-protocol\"",
-    "score": 8.8,
-    "runner_up": "\"strategic-alignment\"",
-    "total_contestants": 49,
-    "defeated": [
-      "\"strategic-alignment\"",
-      "co-marketing",
-      "competitor-profiling",
-      "directory-submissions",
-      "\"cpo-advisor\""
-    ]
-  },
-  {
     "cluster": "engineering-debug",
     "cluster_name": "工程·调试",
     "winner": "git-guardrails-claude-code",
@@ -646,21 +661,6 @@
       "golang-pro",
       "javascript-pro",
       "php-pro"
-    ]
-  },
-  {
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "winner": "webapp-testing",
-    "score": 7.8,
-    "runner_up": "\"org-health-diagnostic\"",
-    "total_contestants": 8,
-    "defeated": [
-      "\"org-health-diagnostic\"",
-      "\"senior-qa\"",
-      "verification-before-completion",
-      "devex-review",
-      "plan-devex-review"
     ]
   },
   {
