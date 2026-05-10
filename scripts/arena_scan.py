@@ -30,6 +30,36 @@ EXCLUDE_SKILL_IDS = [
     "runbook-generator",  # 与 sop-writer 重叠，质量低
     '"runbook-generator"',  # 带引号版本
     "template-skill",     # 空模板，无价值
+    # === External duplicates (quoted versions from claude-skills) ===
+    # Marketing skills: keep marketingskills/ (bare), exclude claude-skills/marketing-skill/ (quoted)
+    '"ab-test-setup"', '"ad-creative"', '"copy-editing"', '"onboarding-cro"',
+    '"paid-ads"', '"pricing-strategy"', '"programmatic-seo"', '"referral-program"',
+    '"competitor-alternatives"', '"free-tool-strategy"', '"marketing-ideas"',
+    '"marketing-psychology"', '"page-cro"', '"social-content"', '"copywriting"',
+    '"email-sequence"', '"paywall-upgrade-cro"',
+    '"ai-seo"', '"analytics-tracking"', '"churn-prevention"', '"cold-email"',
+    '"content-strategy"', '"form-cro"', '"launch-strategy"', '"schema-markup"',
+    '"seo-audit"', '"signup-flow-cro"', '"site-architecture"', '"popup-cro"',
+    # Brand guidelines: EXCEPTION - keep quoted (8.8), exclude bare (7.3)
+    'brand-guidelines',
+    # Engineering skills: keep fullstack-dev-skills/ (bare), exclude claude-skills/engineering/ (quoted)
+    '"code-reviewer"', '"rag-architect"',
+    # Changelog: keep community (9.0), exclude claude-skills (4.5)
+    '"changelog-generator"',
+    # Prompt engineer: keep fullstack-dev-skills (7.8), exclude community (6.8)
+    '"prompt-engineer"',
+    # Media downloader: keep external/media-downloader (bare), exclude community copy
+    '"media-downloader"',
+]
+
+# 配套/辅助 skills (标记为 auxiliary，不参与竞技场评分但保留索引)
+AUXILIARY_SKILL_PATTERNS = [
+    'caveman-stats',     # Token stats (hook-driven)
+    'caveman-compress',  # Compress sub-skill
+    'cavecrew',          # Subagent dispatch
+    'caveman-commit',    # Commit variant
+    'caveman-review',    # Review variant
+    'caveman-help',      # Help card
 ]
 
 # 排除路径中包含 hidden 目录（任意层级以 . 开头的目录）
@@ -177,6 +207,9 @@ def scan_all_skills() -> list:
         version = fm.get("version", "")
         github_url = fm.get("github_url", "")
 
+        # 标记配套 skills (不参与竞技场评分)
+        is_auxiliary = any(pattern in skill_id for pattern in AUXILIARY_SKILL_PATTERNS)
+
         entry = {
             "id": skill_id,
             "path": f"./{skill_dir_rel}/SKILL.md",
@@ -184,6 +217,7 @@ def scan_all_skills() -> list:
             "tags": tags if isinstance(tags, list) else [],
             "version": str(version) if version else "",
             "github_url": str(github_url) if github_url else "",
+            "auxiliary": is_auxiliary,  # 配套 skill 标记
             "_priority": skill_priority(skill_dir_rel),
             "_rel_path": skill_dir_rel,
         }

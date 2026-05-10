@@ -65,7 +65,7 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 19,
+    "total_contestants": 17,
     "defeated": [
       "ubiquitous-language",
       "information-architecture",
@@ -106,7 +106,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 29,
+    "total_contestants": 27,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -180,14 +180,14 @@
     "cluster_name": "营销·策略",
     "winner": "marketing-roi-calculator",
     "score": 9.0,
-    "runner_up": "\"pricing-strategy\"",
-    "total_contestants": 22,
+    "runner_up": "aso-audit",
+    "total_contestants": 17,
     "defeated": [
-      "\"pricing-strategy\"",
       "aso-audit",
       "content-strategy",
       "launch-strategy",
-      "pricing-strategy"
+      "pricing-strategy",
+      "product-marketing-context"
     ]
   },
   {
@@ -290,7 +290,7 @@
     "winner": "pua-en",
     "score": 8.8,
     "runner_up": "pua",
-    "total_contestants": 9,
+    "total_contestants": 8,
     "defeated": [
       "pua",
       "pua-ja",
@@ -350,13 +350,13 @@
     "winner": "\"internal-narrative\"",
     "score": 8.8,
     "runner_up": "\"brand-guidelines\"",
-    "total_contestants": 8,
+    "total_contestants": 7,
     "defeated": [
       "\"brand-guidelines\"",
       "lead-magnets",
       "sales-enablement",
       "\"change-management\"",
-      "brand-guidelines"
+      "\"sales-engineer\""
     ]
   },
   {
@@ -377,16 +377,14 @@
   {
     "cluster": "content-seo",
     "cluster_name": "内容·SEO",
-    "winner": "\"programmatic-seo\"",
+    "winner": "ai-seo",
     "score": 8.8,
-    "runner_up": "ai-seo",
-    "total_contestants": 8,
+    "runner_up": "programmatic-seo",
+    "total_contestants": 4,
     "defeated": [
-      "ai-seo",
       "programmatic-seo",
       "schema-markup",
-      "seo-audit",
-      "\"ai-seo\""
+      "seo-audit"
     ]
   },
   {
@@ -395,7 +393,7 @@
     "winner": "baoyu-danger-x-to-markdown",
     "score": 8.8,
     "runner_up": "baoyu-format-markdown",
-    "total_contestants": 24,
+    "total_contestants": 23,
     "defeated": [
       "baoyu-format-markdown",
       "baoyu-post-to-wechat",
@@ -410,13 +408,13 @@
     "winner": "doc-coauthoring",
     "score": 8.8,
     "runner_up": "\"customer-success-manager\"",
-    "total_contestants": 21,
+    "total_contestants": 19,
     "defeated": [
       "\"customer-success-manager\"",
       "\"content-production\"",
-      "\"copy-editing\"",
       "copy-editing",
-      "\"content-humanizer\""
+      "\"content-humanizer\"",
+      "support-ticket-triage"
     ]
   },
   {
@@ -452,14 +450,11 @@
   {
     "cluster": "marketing-ads",
     "cluster_name": "营销·广告",
-    "winner": "\"ab-test-setup\"",
+    "winner": "ab-test-setup",
     "score": 8.8,
-    "runner_up": "\"ad-creative\"",
-    "total_contestants": 6,
+    "runner_up": "ad-creative",
+    "total_contestants": 3,
     "defeated": [
-      "\"ad-creative\"",
-      "\"paid-ads\"",
-      "ab-test-setup",
       "ad-creative",
       "paid-ads"
     ]
@@ -467,31 +462,29 @@
   {
     "cluster": "marketing-analytics",
     "cluster_name": "营销·增长分析",
-    "winner": "\"referral-program\"",
+    "winner": "analytics-tracking",
     "score": 8.8,
-    "runner_up": "analytics-tracking",
-    "total_contestants": 7,
+    "runner_up": "churn-prevention",
+    "total_contestants": 4,
     "defeated": [
-      "analytics-tracking",
       "churn-prevention",
       "referral-program",
-      "\"analytics-tracking\"",
-      "\"churn-prevention\""
+      "\"revenue-operations\""
     ]
   },
   {
     "cluster": "marketing-cro",
     "cluster_name": "营销·转化率优化",
-    "winner": "\"onboarding-cro\"",
+    "winner": "form-cro",
     "score": 8.8,
-    "runner_up": "form-cro",
-    "total_contestants": 13,
+    "runner_up": "onboarding-cro",
+    "total_contestants": 7,
     "defeated": [
-      "form-cro",
       "onboarding-cro",
       "signup-flow-cro",
-      "\"page-cro\"",
-      "page-cro"
+      "page-cro",
+      "popup-cro",
+      "\"cro-advisor\""
     ]
   },
   {
@@ -499,11 +492,9 @@
     "cluster_name": "营销·邮件",
     "winner": "cold-email",
     "score": 8.8,
-    "runner_up": "\"cold-email\"",
-    "total_contestants": 4,
+    "runner_up": "email-sequence",
+    "total_contestants": 2,
     "defeated": [
-      "\"cold-email\"",
-      "\"email-sequence\"",
       "email-sequence"
     ]
   },
@@ -609,13 +600,11 @@
   {
     "cluster": "marketing-copy",
     "cluster_name": "营销·文案",
-    "winner": "\"marketing-ideas\"",
+    "winner": "marketing-ideas",
     "score": 8.3,
-    "runner_up": "\"marketing-psychology\"",
-    "total_contestants": 4,
+    "runner_up": "marketing-psychology",
+    "total_contestants": 2,
     "defeated": [
-      "\"marketing-psychology\"",
-      "marketing-ideas",
       "marketing-psychology"
     ]
   },
@@ -741,12 +730,11 @@
   {
     "cluster": "skills-web",
     "cluster_name": "Skills·联网",
-    "winner": "\"media-downloader\"",
+    "winner": "media-downloader",
     "score": 7.5,
-    "runner_up": "media-downloader",
-    "total_contestants": 4,
+    "runner_up": "agent-reach",
+    "total_contestants": 3,
     "defeated": [
-      "media-downloader",
       "agent-reach",
       "web-access"
     ]

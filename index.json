@@ -4,9 +4,9 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 696,
+    "total_skills": 661,
     "total_clusters": 54,
-    "avg_arena_score": 7.36,
+    "avg_arena_score": 7.33,
     "total_winners": 54
   },
   "skills": [
@@ -941,28 +941,6 @@
         "maintainability": 9,
         "is_winner": false,
         "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"prompt-engineer\"",
-      "name": "\"prompt-engineer\"",
-      "path": "./community/prompt-engineer/SKILL.md",
-      "description": "\"Simulates the 'Prompt Engineer' role. Invoke when structuring, optimizing, or refining prompts for AI models to ensure high-quality outputs.\"",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "agent-pua",
-        "cluster_name": "Agent·激励强化",
-        "score": 6.8,
-        "doc_quality": 6,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -3054,28 +3032,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "brand-guidelines",
-      "name": "brand-guidelines",
-      "path": "./community/brand-guidelines/SKILL.md",
-      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "business-hr",
-        "cluster_name": "商业·人力资源",
-        "score": 7.3,
-        "doc_quality": 7,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 6,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "\"sales-engineer\"",
       "name": "\"sales-engineer\"",
       "path": "./external/claude-skills/business-growth/skills/sales-engineer/SKILL.md",
@@ -3091,7 +3047,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -3118,7 +3074,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 8,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -4708,28 +4664,6 @@
       }
     },
     {
-      "id": "\"programmatic-seo\"",
-      "name": "\"programmatic-seo\"",
-      "path": "./external/claude-skills/marketing-skill/skills/programmatic-seo/SKILL.md",
-      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-seo",
-        "cluster_name": "内容·SEO",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "ai-seo",
       "name": "ai-seo",
       "path": "./external/marketingskills/skills/ai-seo/SKILL.md",
@@ -4744,8 +4678,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -4767,7 +4701,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -4789,7 +4723,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -4811,77 +4745,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.2.0"
-    },
-    {
-      "id": "\"ai-seo\"",
-      "name": "\"ai-seo\"",
-      "path": "./external/claude-skills/marketing-skill/skills/ai-seo/SKILL.md",
-      "description": "\"Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links. Triggers: 'optimize for AI search', 'get cited by ChatGPT', 'AI Overviews', 'Perplexity citations', 'AI SEO', 'generative search', 'LLM visibility', 'GEO' (generative engine optimization). NOT for traditional SEO ranking (use seo-audit). NOT for content creation (use content-production).\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-seo",
-        "cluster_name": "内容·SEO",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 6,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"schema-markup\"",
-      "name": "\"schema-markup\"",
-      "path": "./external/claude-skills/marketing-skill/skills/schema-markup/SKILL.md",
-      "description": "\"When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture).\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-seo",
-        "cluster_name": "内容·SEO",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 7,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"seo-audit\"",
-      "name": "\"seo-audit\"",
-      "path": "./external/claude-skills/marketing-skill/skills/seo-audit/SKILL.md",
-      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-seo",
-        "cluster_name": "内容·SEO",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "baoyu-danger-x-to-markdown",
@@ -5060,28 +4928,6 @@
       "version": "1.61.0"
     },
     {
-      "id": "\"social-content\"",
-      "name": "\"social-content\"",
-      "path": "./external/claude-skills/marketing-skill/skills/social-content/SKILL.md",
-      "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-social",
-        "cluster_name": "内容·社交媒体",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "\"x-twitter-growth\"",
       "name": "\"x-twitter-growth\"",
       "path": "./external/claude-skills/marketing-skill/skills/x-twitter-growth/SKILL.md",
@@ -5097,7 +4943,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5119,7 +4965,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5141,7 +4987,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5163,7 +5009,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5185,7 +5031,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 14,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5207,7 +5053,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5237,7 +5083,7 @@
         "func_clarity": 9,
         "maintainability": 10,
         "is_winner": false,
-        "rank": 16,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -5260,7 +5106,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5281,7 +5127,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5302,7 +5148,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5323,7 +5169,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5344,7 +5190,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5365,7 +5211,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5386,7 +5232,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5407,7 +5253,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -5990,28 +5836,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "\"copy-editing\"",
-      "name": "\"copy-editing\"",
-      "path": "./external/claude-skills/marketing-skill/skills/copy-editing/SKILL.md",
-      "description": "\"When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-writing",
-        "cluster_name": "内容·写作",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 4,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "copy-editing",
       "name": "copy-editing",
       "path": "./external/marketingskills/skills/copy-editing/SKILL.md",
@@ -6027,7 +5851,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6049,7 +5873,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6075,7 +5899,7 @@
         "func_clarity": 10,
         "maintainability": 10,
         "is_winner": false,
-        "rank": 7,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6103,29 +5927,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"copywriting\"",
-      "name": "\"copywriting\"",
-      "path": "./external/claude-skills/marketing-skill/skills/copywriting/SKILL.md",
-      "description": "\"When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \\\"write copy for,\\\" \\\"improve this copy,\\\" \\\"rewrite this page,\\\" \\\"marketing copy,\\\" \\\"headline help,\\\" or \\\"CTA copy.\\\" For email copy, see email-sequence. For popup copy, see popup-cro.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "content-writing",
-        "cluster_name": "内容·写作",
-        "score": 8.0,
-        "doc_quality": 9,
-        "func_clarity": 7,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6147,7 +5949,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6175,7 +5977,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 11,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6197,7 +5999,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6219,7 +6021,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6245,7 +6047,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 14,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6267,7 +6069,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 15,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6289,7 +6091,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6310,7 +6112,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6331,7 +6133,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6352,7 +6154,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6373,7 +6175,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6394,7 +6196,7 @@
         "func_clarity": 0,
         "maintainability": 0,
         "is_winner": false,
-        "rank": 21,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7548,28 +7350,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "\"site-architecture\"",
-      "name": "\"site-architecture\"",
-      "path": "./external/claude-skills/marketing-skill/skills/site-architecture/SKILL.md",
-      "description": "\"When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pages,' 'silo structure,' 'information architecture,' or 'website reorganization.' Also use when someone has SEO problems and the root cause is structural (not content or schema). NOT for content strategy decisions about what to write (use content-strategy) or for schema markup (use schema-markup).\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "engineering-arch",
-        "cluster_name": "工程·架构",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "\"senior-architect\"",
       "name": "\"senior-architect\"",
       "path": "./external/claude-skills/engineering-team/skills/senior-architect/SKILL.md",
@@ -7585,7 +7365,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7606,7 +7386,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7628,7 +7408,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7650,7 +7430,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7672,7 +7452,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7694,7 +7474,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 14,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7716,7 +7496,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 15,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7738,32 +7518,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 16,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "\"1.0.0\""
-    },
-    {
-      "id": "\"rag-architect\"",
-      "name": "\"rag-architect\"",
-      "path": "./external/claude-skills/engineering/skills/rag-architect/SKILL.md",
-      "description": "\"Use when the user asks to design RAG pipelines, optimize retrieval strategies, choose embedding models, implement vector search, or build knowledge retrieval systems.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "engineering-arch",
-        "cluster_name": "工程·架构",
-        "score": 6.8,
-        "doc_quality": 8,
-        "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 17,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
     },
     {
       "id": "\"interview-system-designer\"",
@@ -7781,7 +7540,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7802,7 +7561,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8205,27 +7964,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "\"code-reviewer\"",
-      "name": "\"code-reviewer\"",
-      "path": "./external/claude-skills/engineering-team/skills/code-reviewer/SKILL.md",
-      "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "engineering-code",
-        "cluster_name": "工程·代码质量",
-        "score": 7.3,
-        "doc_quality": 9,
-        "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 18,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
       "id": "prompt-governance",
       "name": "prompt-governance",
       "path": "./external/claude-skills/engineering/prompt-governance/skills/prompt-governance/SKILL.md",
@@ -8241,7 +7979,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8262,7 +8000,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 20,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -8284,7 +8022,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8305,7 +8043,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8326,7 +8064,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8347,28 +8085,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "\"changelog-generator\"",
-      "name": "\"changelog-generator\"",
-      "path": "./external/claude-skills/engineering/skills/changelog-generator/SKILL.md",
-      "description": "\"Changelog Generator\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "engineering-code",
-        "cluster_name": "工程·代码质量",
-        "score": 4.5,
-        "doc_quality": 4,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 25,
+        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8389,7 +8106,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 24,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8410,7 +8127,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 25,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8431,7 +8148,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 26,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -8452,7 +8169,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 27,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -11415,72 +11132,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "\"ab-test-setup\"",
-      "name": "\"ab-test-setup\"",
-      "path": "./external/claude-skills/marketing-skill/skills/ab-test-setup/SKILL.md",
-      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"conversion experiment,\" \"statistical significance,\" or \"test this.\" For tracking implementation, see analytics-tracking.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-ads",
-        "cluster_name": "营销·广告",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"ad-creative\"",
-      "name": "\"ad-creative\"",
-      "path": "./external/claude-skills/marketing-skill/skills/ad-creative/SKILL.md",
-      "description": "\"When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' This is pure creative production — distinct from paid-ads (campaign strategy). Use ad-creative when you need the copy, not the campaign plan.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-ads",
-        "cluster_name": "营销·广告",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"paid-ads\"",
-      "name": "\"paid-ads\"",
-      "path": "./external/claude-skills/marketing-skill/skills/paid-ads/SKILL.md",
-      "description": "\"When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-ads",
-        "cluster_name": "营销·广告",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 3,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "ab-test-setup",
       "name": "ab-test-setup",
       "path": "./external/marketingskills/skills/ab-test-setup/SKILL.md",
@@ -11495,8 +11146,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": false,
-        "rank": 4,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11518,7 +11169,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11540,33 +11191,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.2.0"
-    },
-    {
-      "id": "\"referral-program\"",
-      "name": "\"referral-program\"",
-      "path": "./external/claude-skills/marketing-skill/skills/referral-program/SKILL.md",
-      "description": "\"When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through referrals.' Covers program mechanics, incentive design, and optimization — not just the idea of referrals but the actual system.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-analytics",
-        "cluster_name": "营销·增长分析",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "analytics-tracking",
@@ -11583,8 +11212,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11606,7 +11235,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11628,55 +11257,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.1.0"
-    },
-    {
-      "id": "\"analytics-tracking\"",
-      "name": "\"analytics-tracking\"",
-      "path": "./external/claude-skills/marketing-skill/skills/analytics-tracking/SKILL.md",
-      "description": "\"Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: GA4 setup, Google Tag Manager, GTM, event tracking, analytics implementation, conversion tracking, tracking plan, event taxonomy, custom dimensions, UTM tracking, analytics audit, missing events, tracking broken. NOT for analyzing marketing campaign data — use campaign-analytics for that. NOT for BI dashboards — use product-analytics for in-product event analysis.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-analytics",
-        "cluster_name": "营销·增长分析",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 5,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"churn-prevention\"",
-      "name": "\"churn-prevention\"",
-      "path": "./external/claude-skills/marketing-skill/skills/churn-prevention/SKILL.md",
-      "description": "\"Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, save offers, dunning, exit survey, payment recovery, win-back, involuntary churn, failed payments, cancel page. NOT for customer health scoring or expansion revenue — use customer-success-manager for that.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-analytics",
-        "cluster_name": "营销·增长分析",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 6,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "\"revenue-operations\"",
@@ -11694,54 +11279,10 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
-    },
-    {
-      "id": "\"marketing-ideas\"",
-      "name": "\"marketing-ideas\"",
-      "path": "./external/claude-skills/marketing-skill/skills/marketing-ideas/SKILL.md",
-      "description": "\"When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-copy",
-        "cluster_name": "营销·文案",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"marketing-psychology\"",
-      "name": "\"marketing-psychology\"",
-      "path": "./external/claude-skills/marketing-skill/skills/marketing-psychology/SKILL.md",
-      "description": "\"When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-copy",
-        "cluster_name": "营销·文案",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.1.0"
     },
     {
       "id": "marketing-ideas",
@@ -11758,8 +11299,8 @@
         "doc_quality": 9,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": false,
-        "rank": 3,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11781,33 +11322,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.1.0"
-    },
-    {
-      "id": "\"onboarding-cro\"",
-      "name": "\"onboarding-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/onboarding-cro/SKILL.md",
-      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "form-cro",
@@ -11824,8 +11343,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11847,7 +11366,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11869,33 +11388,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.1.0"
-    },
-    {
-      "id": "\"page-cro\"",
-      "name": "\"page-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/page-cro/SKILL.md",
-      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 5,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "page-cro",
@@ -11913,7 +11410,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11935,7 +11432,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -11957,95 +11454,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"form-cro\"",
-      "name": "\"form-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/form-cro/SKILL.md",
-      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"paywall-upgrade-cro\"",
-      "name": "\"paywall-upgrade-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/paywall-upgrade-cro/SKILL.md",
-      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 10,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"popup-cro\"",
-      "name": "\"popup-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/popup-cro/SKILL.md",
-      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 11,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"signup-flow-cro\"",
-      "name": "\"signup-flow-cro\"",
-      "path": "./external/claude-skills/marketing-skill/skills/signup-flow-cro/SKILL.md",
-      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-cro",
-        "cluster_name": "营销·转化率优化",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 12,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12067,7 +11476,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12096,50 +11505,6 @@
       "version": "1.1.0"
     },
     {
-      "id": "\"cold-email\"",
-      "name": "\"cold-email\"",
-      "path": "./external/claude-skills/marketing-skill/skills/cold-email/SKILL.md",
-      "description": "\"When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. Distinct from email-sequence (lifecycle/nurture to opted-in subscribers) — this is unsolicited outreach to new prospects. NOT for lifecycle emails, newsletters, or drip campaigns (use email-sequence).\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-email",
-        "cluster_name": "营销·邮件",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"email-sequence\"",
-      "name": "\"email-sequence\"",
-      "path": "./external/claude-skills/marketing-skill/skills/email-sequence/SKILL.md",
-      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-email",
-        "cluster_name": "营销·邮件",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 3,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "email-sequence",
       "name": "email-sequence",
       "path": "./external/marketingskills/skills/email-sequence/SKILL.md",
@@ -12155,7 +11520,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12191,28 +11556,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "\"pricing-strategy\"",
-      "name": "\"pricing-strategy\"",
-      "path": "./external/claude-skills/marketing-skill/skills/pricing-strategy/SKILL.md",
-      "description": "\"Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page. Trigger keywords: pricing tiers, pricing page, price increase, packaging, value metric, per seat pricing, usage-based pricing, freemium, good-better-best, pricing strategy, monetization, pricing page conversion, Van Westendorp. NOT for broader product strategy — use product-strategist for that. NOT for customer success or renewals — use customer-success-manager for expansion revenue.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-strategy",
-        "cluster_name": "营销·策略",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 2,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "aso-audit",
       "name": "aso-audit",
       "path": "./external/marketingskills/skills/aso-audit/SKILL.md",
@@ -12228,7 +11571,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12250,7 +11593,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12272,7 +11615,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 4,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12294,7 +11637,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 5,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12316,55 +11659,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 6,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
       "version": "1.1.0"
-    },
-    {
-      "id": "\"competitor-alternatives\"",
-      "name": "\"competitor-alternatives\"",
-      "path": "./external/claude-skills/marketing-skill/skills/competitor-alternatives/SKILL.md",
-      "description": "\"When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch from competitor,' or 'comparison content.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-strategy",
-        "cluster_name": "营销·策略",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "\"free-tool-strategy\"",
-      "name": "\"free-tool-strategy\"",
-      "path": "./external/claude-skills/marketing-skill/skills/free-tool-strategy/SKILL.md",
-      "description": "\"When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive tool,' or 'free resource.' Covers idea evaluation, tool design, and launch strategy. For pure SEO content strategy (no tool), use seo-audit or content-strategy instead.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-strategy",
-        "cluster_name": "营销·策略",
-        "score": 8.3,
-        "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "\"marketing-context\"",
@@ -12382,7 +11681,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12404,7 +11703,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12426,7 +11725,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12448,7 +11747,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12470,7 +11769,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 14,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12492,7 +11791,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 15,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12514,32 +11813,10 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
-    },
-    {
-      "id": "\"content-strategy\"",
-      "name": "\"content-strategy\"",
-      "path": "./external/claude-skills/marketing-skill/skills/content-strategy/SKILL.md",
-      "description": "\"When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \\\"content strategy,\\\" \\\"what should I write about,\\\" \\\"content ideas,\\\" \\\"blog strategy,\\\" \\\"topic clusters,\\\" or \\\"content planning.\\\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-strategy",
-        "cluster_name": "营销·策略",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 17,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "\"marketing-strategy-pmm\"",
@@ -12557,32 +11834,10 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
-    },
-    {
-      "id": "\"launch-strategy\"",
-      "name": "\"launch-strategy\"",
-      "path": "./external/claude-skills/marketing-skill/skills/launch-strategy/SKILL.md",
-      "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launch momentum.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "marketing-strategy",
-        "cluster_name": "营销·策略",
-        "score": 7.3,
-        "doc_quality": 7,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 19,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
     },
     {
       "id": "\"marketing-skills\"",
@@ -12600,7 +11855,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 20,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12622,7 +11877,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 21,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12648,7 +11903,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 22,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -15574,32 +14829,6 @@
       }
     },
     {
-      "id": "\"media-downloader\"",
-      "name": "\"media-downloader\"",
-      "path": "./community/media-downloader/SKILL.md",
-      "description": "\"Downloads high-quality video and audio from YouTube, Bilibili, and 1000+ other sites using yt-dlp. Invoke when user wants to archive media content.\"",
-      "tags": [
-        "productivity",
-        "media",
-        "archiving",
-        "automation",
-        "community"
-      ],
-      "arena": {
-        "cluster": "skills-web",
-        "cluster_name": "Skills·联网",
-        "score": 7.5,
-        "doc_quality": 6,
-        "func_clarity": 9,
-        "maintainability": 9,
-        "is_winner": true,
-        "rank": 1,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "media-downloader",
       "name": "media-downloader",
       "path": "./external/media-downloader/SKILL.md",
@@ -15620,8 +14849,8 @@
         "doc_quality": 6,
         "func_clarity": 9,
         "maintainability": 9,
-        "is_winner": false,
-        "rank": 2,
+        "is_winner": true,
+        "rank": 1,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -15643,7 +14872,7 @@
         "func_clarity": 9,
         "maintainability": 8,
         "is_winner": false,
-        "rank": 3,
+        "rank": 2,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -15666,7 +14895,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },

@@ -131,7 +131,7 @@
   {
     "id": "engineering-code",
     "name": "工程·代码质量",
-    "skill_count": 29,
+    "skill_count": 27,
     "winner": "receiving-code-review",
     "skills": [
       "receiving-code-review",
@@ -151,14 +151,12 @@
       "\"spec-driven-workflow\"",
       "code-reviewer",
       "requesting-code-review",
-      "\"code-reviewer\"",
       "prompt-governance",
       "\"engineering-advanced-skills\"",
       "\"focused-fix\"",
       "\"pr-review-expert\"",
       "\"api-test-suite-builder\"",
       "tech-debt-tracker",
-      "\"changelog-generator\"",
       "\"codebase-onboarding\"",
       "\"dependency-auditor\"",
       "\"monorepo-navigator\"",
@@ -205,47 +203,47 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "sre-engineer",
+          "monitoring-expert",
           "feature-forge",
           "spec-miner",
-          "legacy-modernizer",
-          "monitoring-expert"
+          "sre-engineer",
+          "legacy-modernizer"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "spark-engineer",
+        "winner": "database-optimizer",
         "skills": [
-          "spark-engineer",
-          "postgres-pro",
-          "pandas-pro",
+          "database-optimizer",
           "sql-pro",
-          "database-optimizer"
+          "pandas-pro",
+          "postgres-pro",
+          "spark-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "embedded-systems",
+        "winner": "websocket-engineer",
         "skills": [
-          "embedded-systems",
-          "chaos-engineer",
-          "mcp-developer",
+          "websocket-engineer",
           "cli-developer",
-          "websocket-engineer"
+          "chaos-engineer",
+          "embedded-systems",
+          "mcp-developer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
@@ -322,9 +320,9 @@
           "\"cto-advisor\"",
           "\"coo-advisor\"",
           "\"cmo-advisor\"",
-          "\"ceo-advisor\"",
           "\"chro-advisor\"",
-          "\"cfo-advisor\""
+          "\"cfo-advisor\"",
+          "\"ceo-advisor\""
         ]
       },
       {
@@ -335,9 +333,9 @@
         "skills": [
           "\"chief-of-staff\"",
           "\"board-meeting\"",
-          "\"executive-mentor\"",
           "\"founder-coach\"",
           "\"board-deck-builder\"",
+          "\"executive-mentor\"",
           "onboarding-checklist-generator",
           "\"business-growth-skills\""
         ]
@@ -374,7 +372,7 @@
   {
     "id": "content-social",
     "name": "内容·社交媒体",
-    "skill_count": 24,
+    "skill_count": 23,
     "winner": "baoyu-danger-x-to-markdown",
     "skills": [
       "baoyu-danger-x-to-markdown",
@@ -385,7 +383,6 @@
       "\"social-media-manager\"",
       "baoyu-danger-gemini-web",
       "baoyu-url-to-markdown",
-      "\"social-content\"",
       "\"x-twitter-growth\"",
       "social-content",
       "baoyu-post-to-weibo",
@@ -407,31 +404,30 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-format-markdown",
+        "winner": "baoyu-danger-x-to-markdown",
         "skills": [
-          "baoyu-format-markdown",
-          "baoyu-translate",
-          "baoyu-post-to-wechat",
           "baoyu-danger-x-to-markdown",
+          "baoyu-format-markdown",
+          "baoyu-post-to-wechat",
+          "baoyu-translate",
           "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
+          "baoyu-post-to-x",
           "baoyu-youtube-transcript",
-          "baoyu-post-to-weibo",
-          "baoyu-post-to-x"
+          "baoyu-post-to-weibo"
         ]
       },
       {
         "id": "content-social-platforms",
         "name": "社交平台发布",
-        "skill_count": 9,
+        "skill_count": 8,
         "winner": "baoyu-xhs-images",
         "skills": [
           "baoyu-xhs-images",
           "social-content",
-          "\"social-content\"",
           "huashu-article-to-x",
-          "x-mastery-mentor",
           "huashu-xhs-image",
+          "x-mastery-mentor",
           "huashu-wechat-image",
           "huashu-topic-gen",
           "khazix-writer"
@@ -459,36 +455,6 @@
           "mediacrawler"
         ]
       }
-    ]
-  },
-  {
-    "id": "marketing-strategy",
-    "name": "营销·策略",
-    "skill_count": 22,
-    "winner": "marketing-roi-calculator",
-    "skills": [
-      "marketing-roi-calculator",
-      "\"pricing-strategy\"",
-      "aso-audit",
-      "content-strategy",
-      "launch-strategy",
-      "pricing-strategy",
-      "product-marketing-context",
-      "\"competitor-alternatives\"",
-      "\"free-tool-strategy\"",
-      "\"marketing-context\"",
-      "\"marketing-demand-acquisition\"",
-      "\"marketing-ops\"",
-      "community-marketing",
-      "competitor-alternatives",
-      "free-tool-strategy",
-      "\"app-store-optimization\"",
-      "\"content-strategy\"",
-      "\"marketing-strategy-pmm\"",
-      "\"launch-strategy\"",
-      "\"marketing-skills\"",
-      "\"finance-skills\"",
-      "platform-algorithm-reference"
     ]
   },
   {
@@ -553,9 +519,9 @@
         "winner": "command-development",
         "skills": [
           "command-development",
-          "plugin-settings",
-          "hook-development",
           "plugin-structure",
+          "hook-development",
+          "plugin-settings",
           "claude-automation-recommender",
           "claude-md-improver"
         ]
@@ -607,35 +573,6 @@
     ]
   },
   {
-    "id": "content-writing",
-    "name": "内容·写作",
-    "skill_count": 21,
-    "winner": "doc-coauthoring",
-    "skills": [
-      "doc-coauthoring",
-      "\"customer-success-manager\"",
-      "\"content-production\"",
-      "\"copy-editing\"",
-      "copy-editing",
-      "\"content-humanizer\"",
-      "support-ticket-triage",
-      "youtube-script-optimizer",
-      "\"copywriting\"",
-      "copywriting",
-      "persuasion-framework",
-      "internal-comms",
-      "\"content-creator\"",
-      "blessing-styles",
-      "document-release",
-      "huashu-proofreading",
-      "huashu-script-polish",
-      "huashu-article-edit",
-      "\"contract-and-proposal-writer\"",
-      "\"email-template-builder\"",
-      "caveman-help"
-    ]
-  },
-  {
     "id": "engineering-devops",
     "name": "工程·DevOps",
     "skill_count": 21,
@@ -671,9 +608,9 @@
         "winner": "\"terraform-patterns\"",
         "skills": [
           "\"terraform-patterns\"",
-          "\"azure-cloud-architect\"",
-          "\"gcp-cloud-architect\"",
           "\"helm-chart-builder\"",
+          "\"gcp-cloud-architect\"",
+          "\"azure-cloud-architect\"",
           "terraform-engineer",
           "\"aws-solution-architect\""
         ]
@@ -692,10 +629,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 7,
-        "winner": "\"release-manager\"",
+        "winner": "devops-engineer",
         "skills": [
-          "\"release-manager\"",
           "devops-engineer",
+          "\"release-manager\"",
           "\"senior-devops\"",
           "ship",
           "land-and-deploy",
@@ -710,8 +647,8 @@
         "winner": "\"incident-response\"",
         "skills": [
           "\"incident-response\"",
-          "\"observability-designer\"",
-          "\"incident-commander\""
+          "\"incident-commander\"",
+          "\"observability-designer\""
         ]
       },
       {
@@ -728,30 +665,30 @@
     ]
   },
   {
-    "id": "engineering-arch",
-    "name": "工程·架构",
+    "id": "content-writing",
+    "name": "内容·写作",
     "skill_count": 19,
-    "winner": "design-an-interface",
+    "winner": "doc-coauthoring",
     "skills": [
-      "design-an-interface",
-      "ubiquitous-language",
-      "information-architecture",
-      "mcp-builder",
-      "mcp-integration",
-      "site-architecture",
-      "\"culture-architect\"",
-      "\"site-architecture\"",
-      "\"senior-architect\"",
-      "graphql-architect",
-      "rag-architect",
-      "angular-architect",
-      "architecture-designer",
-      "cloud-architect",
-      "java-architect",
-      "microservices-architect",
-      "\"rag-architect\"",
-      "\"interview-system-designer\"",
-      "\"migration-architect\""
+      "doc-coauthoring",
+      "\"customer-success-manager\"",
+      "\"content-production\"",
+      "copy-editing",
+      "\"content-humanizer\"",
+      "support-ticket-triage",
+      "youtube-script-optimizer",
+      "copywriting",
+      "persuasion-framework",
+      "internal-comms",
+      "\"content-creator\"",
+      "blessing-styles",
+      "document-release",
+      "huashu-proofreading",
+      "huashu-script-polish",
+      "huashu-article-edit",
+      "\"contract-and-proposal-writer\"",
+      "\"email-template-builder\"",
+      "caveman-help"
     ]
   },
   {
@@ -810,15 +747,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-image-gen",
+        "winner": "baoyu-comic",
         "skills": [
-          "baoyu-image-gen",
           "baoyu-comic",
           "baoyu-cover-image",
-          "baoyu-imagine",
-          "baoyu-article-illustrator",
+          "baoyu-image-cards",
           "baoyu-infographic",
-          "baoyu-image-cards"
+          "baoyu-article-illustrator",
+          "baoyu-imagine",
+          "baoyu-image-gen"
         ]
       },
       {
@@ -830,9 +767,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-reviewer",
           "image-analyzer",
-          "image-auditor",
-          "image-reviewer"
+          "image-auditor"
         ]
       },
       {
@@ -874,6 +811,56 @@
       "huashu-prompt-save",
       "huashu-research",
       "huashu-info-search"
+    ]
+  },
+  {
+    "id": "engineering-arch",
+    "name": "工程·架构",
+    "skill_count": 17,
+    "winner": "design-an-interface",
+    "skills": [
+      "design-an-interface",
+      "ubiquitous-language",
+      "information-architecture",
+      "mcp-builder",
+      "mcp-integration",
+      "site-architecture",
+      "\"culture-architect\"",
+      "\"senior-architect\"",
+      "graphql-architect",
+      "rag-architect",
+      "angular-architect",
+      "architecture-designer",
+      "cloud-architect",
+      "java-architect",
+      "microservices-architect",
+      "\"interview-system-designer\"",
+      "\"migration-architect\""
+    ]
+  },
+  {
+    "id": "marketing-strategy",
+    "name": "营销·策略",
+    "skill_count": 17,
+    "winner": "marketing-roi-calculator",
+    "skills": [
+      "marketing-roi-calculator",
+      "aso-audit",
+      "content-strategy",
+      "launch-strategy",
+      "pricing-strategy",
+      "product-marketing-context",
+      "\"marketing-context\"",
+      "\"marketing-demand-acquisition\"",
+      "\"marketing-ops\"",
+      "community-marketing",
+      "competitor-alternatives",
+      "free-tool-strategy",
+      "\"app-store-optimization\"",
+      "\"marketing-strategy-pmm\"",
+      "\"marketing-skills\"",
+      "\"finance-skills\"",
+      "platform-algorithm-reference"
     ]
   },
   {
@@ -967,27 +954,6 @@
     ]
   },
   {
-    "id": "marketing-cro",
-    "name": "营销·转化率优化",
-    "skill_count": 13,
-    "winner": "\"onboarding-cro\"",
-    "skills": [
-      "\"onboarding-cro\"",
-      "form-cro",
-      "onboarding-cro",
-      "signup-flow-cro",
-      "\"page-cro\"",
-      "page-cro",
-      "popup-cro",
-      "\"cro-advisor\"",
-      "\"form-cro\"",
-      "\"paywall-upgrade-cro\"",
-      "\"popup-cro\"",
-      "\"signup-flow-cro\"",
-      "paywall-upgrade-cro"
-    ]
-  },
-  {
     "id": "skills-browser",
     "name": "Skills·浏览器",
     "skill_count": 13,
@@ -1065,10 +1031,10 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-ar",
+          "planning-with-files-zht",
           "planning-with-files-de",
           "planning-with-files-es",
-          "planning-with-files-zht",
+          "planning-with-files-ar",
           "planning-with-files-zh"
         ]
       },
@@ -1076,10 +1042,10 @@
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "skill-development",
+        "winner": "agent-development",
         "skills": [
-          "skill-development",
-          "agent-development"
+          "agent-development",
+          "skill-development"
         ]
       }
     ]
@@ -1180,7 +1146,7 @@
   {
     "id": "agent-pua",
     "name": "Agent·激励强化",
-    "skill_count": 9,
+    "skill_count": 8,
     "winner": "pua-en",
     "skills": [
       "pua-en",
@@ -1190,40 +1156,7 @@
       "\"senior-prompt-engineer\"",
       "prompt-engineer",
       "prompt-optimizer",
-      "task-analyzer",
-      "\"prompt-engineer\""
-    ]
-  },
-  {
-    "id": "business-hr",
-    "name": "商业·人力资源",
-    "skill_count": 8,
-    "winner": "\"internal-narrative\"",
-    "skills": [
-      "\"internal-narrative\"",
-      "\"brand-guidelines\"",
-      "lead-magnets",
-      "sales-enablement",
-      "\"change-management\"",
-      "brand-guidelines",
-      "\"sales-engineer\"",
-      "interview-scorecard-generator"
-    ]
-  },
-  {
-    "id": "content-seo",
-    "name": "内容·SEO",
-    "skill_count": 8,
-    "winner": "\"programmatic-seo\"",
-    "skills": [
-      "\"programmatic-seo\"",
-      "ai-seo",
-      "programmatic-seo",
-      "schema-markup",
-      "seo-audit",
-      "\"ai-seo\"",
-      "\"schema-markup\"",
-      "\"seo-audit\""
+      "task-analyzer"
     ]
   },
   {
@@ -1256,6 +1189,21 @@
       "\"tdd-guide\"",
       "benchmark-models",
       "benchmark"
+    ]
+  },
+  {
+    "id": "business-hr",
+    "name": "商业·人力资源",
+    "skill_count": 7,
+    "winner": "\"internal-narrative\"",
+    "skills": [
+      "\"internal-narrative\"",
+      "\"brand-guidelines\"",
+      "lead-magnets",
+      "sales-enablement",
+      "\"change-management\"",
+      "\"sales-engineer\"",
+      "interview-scorecard-generator"
     ]
   },
   {
@@ -1304,18 +1252,18 @@
     ]
   },
   {
-    "id": "marketing-analytics",
-    "name": "营销·增长分析",
+    "id": "marketing-cro",
+    "name": "营销·转化率优化",
     "skill_count": 7,
-    "winner": "\"referral-program\"",
+    "winner": "form-cro",
     "skills": [
-      "\"referral-program\"",
-      "analytics-tracking",
-      "churn-prevention",
-      "referral-program",
-      "\"analytics-tracking\"",
-      "\"churn-prevention\"",
-      "\"revenue-operations\""
+      "form-cro",
+      "onboarding-cro",
+      "signup-flow-cro",
+      "page-cro",
+      "popup-cro",
+      "\"cro-advisor\"",
+      "paywall-upgrade-cro"
     ]
   },
   {
@@ -1344,20 +1292,6 @@
       "plan-ceo-review",
       "plan-eng-review",
       "roadmap-communicator"
-    ]
-  },
-  {
-    "id": "marketing-ads",
-    "name": "营销·广告",
-    "skill_count": 6,
-    "winner": "\"ab-test-setup\"",
-    "skills": [
-      "\"ab-test-setup\"",
-      "\"ad-creative\"",
-      "\"paid-ads\"",
-      "ab-test-setup",
-      "ad-creative",
-      "paid-ads"
     ]
   },
   {
@@ -1424,6 +1358,18 @@
     ]
   },
   {
+    "id": "content-seo",
+    "name": "内容·SEO",
+    "skill_count": 4,
+    "winner": "ai-seo",
+    "skills": [
+      "ai-seo",
+      "programmatic-seo",
+      "schema-markup",
+      "seo-audit"
+    ]
+  },
+  {
     "id": "engineering-git",
     "name": "工程·Git工作流",
     "skill_count": 4,
@@ -1448,27 +1394,15 @@
     ]
   },
   {
-    "id": "marketing-copy",
-    "name": "营销·文案",
+    "id": "marketing-analytics",
+    "name": "营销·增长分析",
     "skill_count": 4,
-    "winner": "\"marketing-ideas\"",
+    "winner": "analytics-tracking",
     "skills": [
-      "\"marketing-ideas\"",
-      "\"marketing-psychology\"",
-      "marketing-ideas",
-      "marketing-psychology"
-    ]
-  },
-  {
-    "id": "marketing-email",
-    "name": "营销·邮件",
-    "skill_count": 4,
-    "winner": "cold-email",
-    "skills": [
-      "cold-email",
-      "\"cold-email\"",
-      "\"email-sequence\"",
-      "email-sequence"
+      "analytics-tracking",
+      "churn-prevention",
+      "referral-program",
+      "\"revenue-operations\""
     ]
   },
   {
@@ -1484,18 +1418,6 @@
     ]
   },
   {
-    "id": "skills-web",
-    "name": "Skills·联网",
-    "skill_count": 4,
-    "winner": "\"media-downloader\"",
-    "skills": [
-      "\"media-downloader\"",
-      "media-downloader",
-      "agent-reach",
-      "web-access"
-    ]
-  },
-  {
     "id": "agent-hosted",
     "name": "Agent·托管运行",
     "skill_count": 3,
@@ -1504,6 +1426,28 @@
       "tool-design",
       "hosted-agents",
       "pair-agent"
+    ]
+  },
+  {
+    "id": "marketing-ads",
+    "name": "营销·广告",
+    "skill_count": 3,
+    "winner": "ab-test-setup",
+    "skills": [
+      "ab-test-setup",
+      "ad-creative",
+      "paid-ads"
+    ]
+  },
+  {
+    "id": "skills-web",
+    "name": "Skills·联网",
+    "skill_count": 3,
+    "winner": "media-downloader",
+    "skills": [
+      "media-downloader",
+      "agent-reach",
+      "web-access"
     ]
   },
   {
@@ -1524,6 +1468,26 @@
     "skills": [
       "memory-systems",
       "project-development"
+    ]
+  },
+  {
+    "id": "marketing-copy",
+    "name": "营销·文案",
+    "skill_count": 2,
+    "winner": "marketing-ideas",
+    "skills": [
+      "marketing-ideas",
+      "marketing-psychology"
+    ]
+  },
+  {
+    "id": "marketing-email",
+    "name": "营销·邮件",
+    "skill_count": 2,
+    "winner": "cold-email",
+    "skills": [
+      "cold-email",
+      "email-sequence"
     ]
   }
 ]

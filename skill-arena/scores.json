@@ -869,28 +869,6 @@
     "total": 8.8
   },
   {
-    "id": "\"ab-test-setup\"",
-    "path": "./external/claude-skills/marketing-skill/skills/ab-test-setup/SKILL.md",
-    "cluster": "marketing-ads",
-    "cluster_name": "营销·广告",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"ad-creative\"",
-    "path": "./external/claude-skills/marketing-skill/skills/ad-creative/SKILL.md",
-    "cluster": "marketing-ads",
-    "cluster_name": "营销·广告",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
     "id": "\"brand-guidelines\"",
     "path": "./external/claude-skills/marketing-skill/skills/brand-guidelines/SKILL.md",
     "cluster": "business-hr",
@@ -918,72 +896,6 @@
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
     "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"copy-editing\"",
-    "path": "./external/claude-skills/marketing-skill/skills/copy-editing/SKILL.md",
-    "cluster": "content-writing",
-    "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"onboarding-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/onboarding-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"paid-ads\"",
-    "path": "./external/claude-skills/marketing-skill/skills/paid-ads/SKILL.md",
-    "cluster": "marketing-ads",
-    "cluster_name": "营销·广告",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"pricing-strategy\"",
-    "path": "./external/claude-skills/marketing-skill/skills/pricing-strategy/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"programmatic-seo\"",
-    "path": "./external/claude-skills/marketing-skill/skills/programmatic-seo/SKILL.md",
-    "cluster": "content-seo",
-    "cluster_name": "内容·SEO",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "\"referral-program\"",
-    "path": "./external/claude-skills/marketing-skill/skills/referral-program/SKILL.md",
-    "cluster": "marketing-analytics",
-    "cluster_name": "营销·增长分析",
-    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1049,7 +961,7 @@
     "path": "./external/marketingskills/skills/ab-test-setup/SKILL.md",
     "cluster": "marketing-ads",
     "cluster_name": "营销·广告",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1071,7 +983,7 @@
     "path": "./external/marketingskills/skills/ai-seo/SKILL.md",
     "cluster": "content-seo",
     "cluster_name": "内容·SEO",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1082,7 +994,7 @@
     "path": "./external/marketingskills/skills/analytics-tracking/SKILL.md",
     "cluster": "marketing-analytics",
     "cluster_name": "营销·增长分析",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1181,7 +1093,7 @@
     "path": "./external/marketingskills/skills/form-cro/SKILL.md",
     "cluster": "marketing-cro",
     "cluster_name": "营销·转化率优化",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1947,76 +1859,10 @@
     "total": 8.3
   },
   {
-    "id": "\"ai-seo\"",
-    "path": "./external/claude-skills/marketing-skill/skills/ai-seo/SKILL.md",
-    "cluster": "content-seo",
-    "cluster_name": "内容·SEO",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"analytics-tracking\"",
-    "path": "./external/claude-skills/marketing-skill/skills/analytics-tracking/SKILL.md",
-    "cluster": "marketing-analytics",
-    "cluster_name": "营销·增长分析",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"churn-prevention\"",
-    "path": "./external/claude-skills/marketing-skill/skills/churn-prevention/SKILL.md",
-    "cluster": "marketing-analytics",
-    "cluster_name": "营销·增长分析",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"cold-email\"",
-    "path": "./external/claude-skills/marketing-skill/skills/cold-email/SKILL.md",
-    "cluster": "marketing-email",
-    "cluster_name": "营销·邮件",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"competitor-alternatives\"",
-    "path": "./external/claude-skills/marketing-skill/skills/competitor-alternatives/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
     "id": "\"content-humanizer\"",
     "path": "./external/claude-skills/marketing-skill/skills/content-humanizer/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"free-tool-strategy\"",
-    "path": "./external/claude-skills/marketing-skill/skills/free-tool-strategy/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 8,
@@ -2046,17 +1892,6 @@
     "total": 8.3
   },
   {
-    "id": "\"marketing-ideas\"",
-    "path": "./external/claude-skills/marketing-skill/skills/marketing-ideas/SKILL.md",
-    "cluster": "marketing-copy",
-    "cluster_name": "营销·文案",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
     "id": "\"marketing-ops\"",
     "path": "./external/claude-skills/marketing-skill/skills/marketing-ops/SKILL.md",
     "cluster": "marketing-strategy",
@@ -2068,76 +1903,10 @@
     "total": 8.3
   },
   {
-    "id": "\"marketing-psychology\"",
-    "path": "./external/claude-skills/marketing-skill/skills/marketing-psychology/SKILL.md",
-    "cluster": "marketing-copy",
-    "cluster_name": "营销·文案",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"page-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/page-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
     "id": "\"prompt-engineer-toolkit\"",
     "path": "./external/claude-skills/marketing-skill/skills/prompt-engineer-toolkit/SKILL.md",
     "cluster": "agent-pua",
     "cluster_name": "Agent·激励强化",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"schema-markup\"",
-    "path": "./external/claude-skills/marketing-skill/skills/schema-markup/SKILL.md",
-    "cluster": "content-seo",
-    "cluster_name": "内容·SEO",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"seo-audit\"",
-    "path": "./external/claude-skills/marketing-skill/skills/seo-audit/SKILL.md",
-    "cluster": "content-seo",
-    "cluster_name": "内容·SEO",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"site-architecture\"",
-    "path": "./external/claude-skills/marketing-skill/skills/site-architecture/SKILL.md",
-    "cluster": "engineering-arch",
-    "cluster_name": "工程·架构",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "\"social-content\"",
-    "path": "./external/claude-skills/marketing-skill/skills/social-content/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 8,
@@ -2226,7 +1995,7 @@
     "path": "./external/marketingskills/skills/marketing-ideas/SKILL.md",
     "cluster": "marketing-copy",
     "cluster_name": "营销·文案",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 8,
     "maintainability": 7,
@@ -2501,17 +2270,6 @@
     "path": "./engineering/autoresearch/execute/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 8.0
-  },
-  {
-    "id": "\"copywriting\"",
-    "path": "./external/claude-skills/marketing-skill/skills/copywriting/SKILL.md",
-    "cluster": "content-writing",
-    "cluster_name": "内容·写作",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 7,
@@ -3542,39 +3300,6 @@
     "total": 7.8
   },
   {
-    "id": "\"content-strategy\"",
-    "path": "./external/claude-skills/marketing-skill/skills/content-strategy/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "\"email-sequence\"",
-    "path": "./external/claude-skills/marketing-skill/skills/email-sequence/SKILL.md",
-    "cluster": "marketing-email",
-    "cluster_name": "营销·邮件",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "\"form-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/form-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
     "id": "\"marketing-strategy-pmm\"",
     "path": "./external/claude-skills/marketing-skill/skills/marketing-strategy-pmm/SKILL.md",
     "cluster": "marketing-strategy",
@@ -3583,39 +3308,6 @@
     "doc_quality": 10,
     "func_clarity": 6,
     "maintainability": 5,
-    "total": 7.8
-  },
-  {
-    "id": "\"paywall-upgrade-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/paywall-upgrade-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "\"popup-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/popup-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "\"signup-flow-cro\"",
-    "path": "./external/claude-skills/marketing-skill/skills/signup-flow-cro/SKILL.md",
-    "cluster": "marketing-cro",
-    "cluster_name": "营销·转化率优化",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
     "total": 7.8
   },
   {
@@ -4125,17 +3817,6 @@
     "total": 7.5
   },
   {
-    "id": "\"media-downloader\"",
-    "path": "./community/media-downloader/SKILL.md",
-    "cluster": "skills-web",
-    "cluster_name": "Skills·联网",
-    "is_winner": true,
-    "doc_quality": 6,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 7.5
-  },
-  {
     "id": "onboarding-checklist-generator",
     "path": "./community/onboarding-checklist-generator/SKILL.md",
     "cluster": "business-clevel",
@@ -4250,7 +3931,7 @@
     "path": "./external/media-downloader/SKILL.md",
     "cluster": "skills-web",
     "cluster_name": "Skills·联网",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 6,
     "func_clarity": 9,
     "maintainability": 9,
@@ -4265,17 +3946,6 @@
     "doc_quality": 6,
     "func_clarity": 9,
     "maintainability": 8,
-    "total": 7.3
-  },
-  {
-    "id": "brand-guidelines",
-    "path": "./community/brand-guidelines/SKILL.md",
-    "cluster": "business-hr",
-    "cluster_name": "商业·人力资源",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 8,
-    "maintainability": 7,
     "total": 7.3
   },
   {
@@ -4481,17 +4151,6 @@
     "path": "./external/claude-skills/engineering-team/playwright-pro/skills/pw/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "\"code-reviewer\"",
-    "path": "./external/claude-skills/engineering-team/skills/code-reviewer/SKILL.md",
-    "cluster": "engineering-code",
-    "cluster_name": "工程·代码质量",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 6,
@@ -4745,17 +4404,6 @@
     "path": "./external/claude-skills/marketing-skill/skills/content-creator/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.3
-  },
-  {
-    "id": "\"launch-strategy\"",
-    "path": "./external/claude-skills/marketing-skill/skills/launch-strategy/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 8,
@@ -5621,17 +5269,6 @@
     "total": 6.8
   },
   {
-    "id": "\"prompt-engineer\"",
-    "path": "./community/prompt-engineer/SKILL.md",
-    "cluster": "agent-pua",
-    "cluster_name": "Agent·激励强化",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 6.8
-  },
-  {
     "id": "\"video-splitter\"",
     "path": "./community/video-splitter/SKILL.md",
     "cluster": "content-video",
@@ -5735,17 +5372,6 @@
     "path": "./external/claude-skills/engineering/skills/api-test-suite-builder/SKILL.md",
     "cluster": "engineering-code",
     "cluster_name": "工程·代码质量",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "\"rag-architect\"",
-    "path": "./external/claude-skills/engineering/skills/rag-architect/SKILL.md",
-    "cluster": "engineering-arch",
-    "cluster_name": "工程·架构",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 6,
@@ -7357,17 +6983,6 @@
     "func_clarity": 4,
     "maintainability": 5,
     "total": 4.7
-  },
-  {
-    "id": "\"changelog-generator\"",
-    "path": "./external/claude-skills/engineering/skills/changelog-generator/SKILL.md",
-    "cluster": "engineering-code",
-    "cluster_name": "工程·代码质量",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 4.5
   },
   {
     "id": "\"ci-cd-pipeline-builder\"",
