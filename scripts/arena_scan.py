@@ -25,6 +25,13 @@ EXCLUDE_PREFIXES = [
     "external/anthropic-quickstarts",
 ]
 
+# 排除特定低价值 skills (保持 external/ 完整性，但从索引剔除)
+EXCLUDE_SKILL_IDS = [
+    "runbook-generator",  # 与 sop-writer 重叠，质量低
+    '"runbook-generator"',  # 带引号版本
+    "template-skill",     # 空模板，无价值
+]
+
 # 排除路径中包含 hidden 目录（任意层级以 . 开头的目录）
 def has_hidden_component(path: Path) -> bool:
     for part in path.parts:
@@ -146,6 +153,10 @@ def scan_all_skills() -> list:
         skill_id = fm.get("name", "").strip() or skill_dir.name
         # 规范化：小写，去空格
         skill_id = skill_id.lower().replace(" ", "-")
+
+        # 排除特定低价值 skills (保持 external/ 完整性)
+        if skill_id in EXCLUDE_SKILL_IDS:
+            continue
 
         description = fm.get("description", "") or ""
         if isinstance(description, list):

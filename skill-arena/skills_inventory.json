@@ -3031,16 +3031,6 @@
     "github_url": ""
   },
   {
-    "id": "template-skill",
-    "path": "./external/anthropic-skills/template/SKILL.md",
-    "description": "Replace with description of the skill and when Claude should use it.",
-    "tags": [
-      "anthropic"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
     "id": "baoyu-article-illustrator",
     "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
     "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
@@ -4586,16 +4576,6 @@
     "id": "\"release-manager\"",
     "path": "./external/claude-skills/engineering/skills/release-manager/SKILL.md",
     "description": "\"Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning.\"",
-    "tags": [
-      "claude"
-    ],
-    "version": "",
-    "github_url": ""
-  },
-  {
-    "id": "\"runbook-generator\"",
-    "path": "./external/claude-skills/engineering/skills/runbook-generator/SKILL.md",
-    "description": "\"Runbook Generator\"",
     "tags": [
       "claude"
     ],

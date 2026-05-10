@@ -4,9 +4,9 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 698,
+    "total_skills": 696,
     "total_clusters": 54,
-    "avg_arena_score": 7.39,
+    "avg_arena_score": 7.4,
     "total_winners": 54
   },
   "skills": [
@@ -8458,27 +8458,6 @@
       }
     },
     {
-      "id": "\"runbook-generator\"",
-      "name": "\"runbook-generator\"",
-      "path": "./external/claude-skills/engineering/skills/runbook-generator/SKILL.md",
-      "description": "\"Runbook Generator\"",
-      "tags": [
-        "claude"
-      ],
-      "arena": {
-        "cluster": "engineering-code",
-        "cluster_name": "工程·代码质量",
-        "score": 3.5,
-        "doc_quality": 2,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 30,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
       "id": "git-guardrails-claude-code",
       "name": "git-guardrails-claude-code",
       "path": "./community/git-guardrails-claude-code/SKILL.md",
@@ -15590,27 +15569,6 @@
         "maintainability": 5,
         "is_winner": false,
         "rank": 22,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "template-skill",
-      "name": "template-skill",
-      "path": "./external/anthropic-skills/template/SKILL.md",
-      "description": "Replace with description of the skill and when Claude should use it.",
-      "tags": [
-        "anthropic"
-      ],
-      "arena": {
-        "cluster": "skills-mgmt",
-        "cluster_name": "Skills·管理",
-        "score": 3.8,
-        "doc_quality": 2,
-        "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }

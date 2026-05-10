@@ -106,7 +106,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 30,
+    "total_contestants": 29,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -224,7 +224,7 @@
     "winner": "gh-fix-ci",
     "score": 9.0,
     "runner_up": "ultraskills-hub",
-    "total_contestants": 23,
+    "total_contestants": 22,
     "defeated": [
       "ultraskills-hub",
       "skill-creator",

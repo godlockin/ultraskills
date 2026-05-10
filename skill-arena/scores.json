@@ -7634,17 +7634,6 @@
     "total": 4.0
   },
   {
-    "id": "template-skill",
-    "path": "./external/anthropic-skills/template/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
-    "is_winner": false,
-    "doc_quality": 2,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 3.8
-  },
-  {
     "id": "cavecrew",
     "path": "./external/caveman/plugins/caveman/skills/cavecrew/SKILL.md",
     "cluster": "productivity",
@@ -7660,17 +7649,6 @@
     "path": "./external/caveman/plugins/caveman/skills/caveman-stats/SKILL.md",
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 2,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 3.5
-  },
-  {
-    "id": "\"runbook-generator\"",
-    "path": "./external/claude-skills/engineering/skills/runbook-generator/SKILL.md",
-    "cluster": "engineering-code",
-    "cluster_name": "工程·代码质量",
     "is_winner": false,
     "doc_quality": 2,
     "func_clarity": 5,

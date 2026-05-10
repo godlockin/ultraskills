@@ -1,6 +1,6 @@
 {
   "caveman-stats": {
-    "consecutive_low": 12,
+    "consecutive_low": 14,
     "scores": [
       3.5,
       3.5,
@@ -12,7 +12,7 @@
     "recommendation": "eliminate"
   },
   "cavecrew": {
-    "consecutive_low": 12,
+    "consecutive_low": 14,
     "scores": [
       3.7,
       3.7,
@@ -21,30 +21,6 @@
       3.7
     ],
     "cluster": "productivity",
-    "recommendation": "eliminate"
-  },
-  "\"runbook-generator\"": {
-    "consecutive_low": 12,
-    "scores": [
-      3.5,
-      3.5,
-      3.5,
-      3.5,
-      3.5
-    ],
-    "cluster": "engineering-code",
-    "recommendation": "eliminate"
-  },
-  "template-skill": {
-    "consecutive_low": 10,
-    "scores": [
-      3.8,
-      3.8,
-      3.8,
-      3.8,
-      3.8
-    ],
-    "cluster": "skills-mgmt",
     "recommendation": "eliminate"
   }
 }
