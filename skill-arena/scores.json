@@ -7359,39 +7359,6 @@
     "total": 4.7
   },
   {
-    "id": "caveman-compress",
-    "path": "./external/caveman/caveman-compress/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 4.5
-  },
-  {
-    "id": "caveman-commit",
-    "path": "./external/caveman/skills/caveman-commit/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 4.5
-  },
-  {
-    "id": "caveman-review",
-    "path": "./external/caveman/skills/caveman-review/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 4.5
-  },
-  {
     "id": "\"changelog-generator\"",
     "path": "./external/claude-skills/engineering/skills/changelog-generator/SKILL.md",
     "cluster": "engineering-code",
@@ -7535,17 +7502,6 @@
     "total": 4.2
   },
   {
-    "id": "caveman-help",
-    "path": "./external/caveman/skills/caveman-help/SKILL.md",
-    "cluster": "content-writing",
-    "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 3,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 4.0
-  },
-  {
     "id": "\"agent-workflow-designer\"",
     "path": "./external/claude-skills/engineering/skills/agent-workflow-designer/SKILL.md",
     "cluster": "engineering-ml",
@@ -7634,15 +7590,30 @@
     "total": 4.0
   },
   {
+    "id": "caveman-compress",
+    "path": "./external/caveman/caveman-compress/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
+  },
+  {
     "id": "cavecrew",
     "path": "./external/caveman/plugins/caveman/skills/cavecrew/SKILL.md",
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
     "is_winner": false,
-    "doc_quality": 3,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 3.7
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
   },
   {
     "id": "caveman-stats",
@@ -7650,9 +7621,50 @@
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
     "is_winner": false,
-    "doc_quality": 2,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 3.5
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
+  },
+  {
+    "id": "caveman-commit",
+    "path": "./external/caveman/skills/caveman-commit/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
+  },
+  {
+    "id": "caveman-help",
+    "path": "./external/caveman/skills/caveman-help/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
+  },
+  {
+    "id": "caveman-review",
+    "path": "./external/caveman/skills/caveman-review/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "auxiliary": true
   }
 ]

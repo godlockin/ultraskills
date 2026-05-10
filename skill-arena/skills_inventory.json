@@ -8,7 +8,8 @@
       "arena-winner"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "agent-reach",
@@ -18,7 +19,8 @@
       "community"
     ],
     "version": "v1.2.0",
-    "github_url": "https://github.com/Panniantong/Agent-Reach"
+    "github_url": "https://github.com/Panniantong/Agent-Reach",
+    "auxiliary": false
   },
   {
     "id": "algorithmic-art",
@@ -28,7 +30,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "audio-clean",
@@ -47,7 +50,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "awesome-android-ui",
@@ -64,7 +68,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": "https://github.com/wasabeef/awesome-android-ui"
+    "github_url": "https://github.com/wasabeef/awesome-android-ui",
+    "auxiliary": false
   },
   {
     "id": "awesome-design-md",
@@ -80,7 +85,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/VoltAgent/awesome-design-md"
+    "github_url": "https://github.com/VoltAgent/awesome-design-md",
+    "auxiliary": false
   },
   {
     "id": "bdi-mental-states",
@@ -91,7 +97,8 @@
       "arena-winner"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "blessing-styles",
@@ -105,7 +112,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "brainstorming",
@@ -115,7 +123,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "brand-guidelines",
@@ -125,7 +134,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "brand-messaging-framework",
@@ -141,7 +151,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "canvas-design",
@@ -151,7 +162,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "caveman",
@@ -161,7 +173,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "changelog-generator",
@@ -175,7 +188,8 @@
       "release-notes"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/changelog-generator"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/changelog-generator",
+    "auxiliary": false
   },
   {
     "id": "churn-risk-playbook",
@@ -192,7 +206,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "claude-api",
@@ -202,7 +217,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"commercial-director-pro\"",
@@ -212,7 +228,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "content-calendar-generator",
@@ -227,7 +244,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-compression",
@@ -237,7 +255,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-degradation",
@@ -247,7 +266,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-fundamentals",
@@ -257,7 +277,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-optimization",
@@ -267,7 +288,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "contract-risk-highlighter",
@@ -283,7 +305,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "course-outline-generator",
@@ -299,7 +322,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "crisis-comms-playbook",
@@ -315,7 +339,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "customer-health-scorecard",
@@ -331,7 +356,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "data-storytelling-framework",
@@ -346,7 +372,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "data-viz",
@@ -364,7 +391,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "deck-that-wins",
@@ -380,7 +408,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "design-an-interface",
@@ -395,7 +424,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "design-tokens",
@@ -412,7 +442,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dispatching-parallel-agents",
@@ -422,7 +453,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "doc-coauthoring",
@@ -432,7 +464,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "docx",
@@ -442,7 +475,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dynamic-expert-group",
@@ -452,7 +486,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "evaluation",
@@ -462,7 +497,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "executing-plans",
@@ -472,7 +508,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "face-beautification",
@@ -488,7 +525,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "feature-prioritization",
@@ -505,7 +543,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "figma-to-code",
@@ -521,7 +560,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "filesystem-context",
@@ -531,7 +571,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "finishing-a-development-branch",
@@ -541,7 +582,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "frontend-design",
@@ -551,7 +593,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"gemini-image-optimizer\"",
@@ -561,7 +604,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "generalist-expert",
@@ -573,7 +617,8 @@
       "analysis-framework"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gh-address-comments",
@@ -587,7 +632,8 @@
       "code-review"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-address-comments"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-address-comments",
+    "auxiliary": false
   },
   {
     "id": "gh-fix-ci",
@@ -601,7 +647,8 @@
       "devops"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-fix-ci"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/gh-fix-ci",
+    "auxiliary": false
   },
   {
     "id": "git-commit-master",
@@ -614,7 +661,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "git-guardrails-claude-code",
@@ -629,7 +677,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "\"github-skill-scout\"",
@@ -643,7 +692,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "grill-me",
@@ -657,7 +707,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "gstack",
@@ -667,7 +718,8 @@
       "community"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoplan",
@@ -677,7 +729,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "benchmark",
@@ -687,7 +740,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "benchmark-models",
@@ -697,7 +751,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "browse",
@@ -707,7 +762,8 @@
       "community"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "hackernews-frontpage",
@@ -717,7 +773,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "canary",
@@ -727,7 +784,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "careful",
@@ -737,7 +795,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "codex",
@@ -747,7 +806,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-restore",
@@ -757,7 +817,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-save",
@@ -767,7 +828,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cso",
@@ -777,7 +839,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "design-consultation",
@@ -787,7 +850,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "design-html",
@@ -797,7 +861,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "design-review",
@@ -807,7 +872,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "design-shotgun",
@@ -817,7 +883,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "devex-review",
@@ -827,7 +894,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "document-release",
@@ -837,7 +905,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "freeze",
@@ -847,7 +916,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gstack-upgrade",
@@ -857,7 +927,8 @@
       "community"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "guard",
@@ -867,7 +938,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "health",
@@ -877,7 +949,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "investigate",
@@ -887,7 +960,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "land-and-deploy",
@@ -897,7 +971,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "landing-report",
@@ -907,7 +982,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "learn",
@@ -917,7 +993,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "make-pdf",
@@ -927,7 +1004,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "office-hours",
@@ -937,7 +1015,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "open-gstack-browser",
@@ -947,7 +1026,8 @@
       "community"
     ],
     "version": "0.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gstack-openclaw-ceo-review",
@@ -957,7 +1037,8 @@
       "community"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gstack-openclaw-investigate",
@@ -967,7 +1048,8 @@
       "community"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gstack-openclaw-office-hours",
@@ -977,7 +1059,8 @@
       "community"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gstack-openclaw-retro",
@@ -987,7 +1070,8 @@
       "community"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pair-agent",
@@ -997,7 +1081,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plan-ceo-review",
@@ -1007,7 +1092,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plan-design-review",
@@ -1017,7 +1103,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plan-devex-review",
@@ -1027,7 +1114,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plan-eng-review",
@@ -1037,7 +1125,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plan-tune",
@@ -1047,7 +1136,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "qa",
@@ -1057,7 +1147,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "qa-only",
@@ -1067,7 +1158,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "retro",
@@ -1077,7 +1169,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "review",
@@ -1087,7 +1180,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "scrape",
@@ -1097,7 +1191,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "setup-browser-cookies",
@@ -1107,7 +1202,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "setup-deploy",
@@ -1117,7 +1213,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "setup-gbrain",
@@ -1127,7 +1224,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ship",
@@ -1137,7 +1235,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skillify",
@@ -1147,7 +1246,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sync-gbrain",
@@ -1157,7 +1257,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "unfreeze",
@@ -1167,7 +1268,8 @@
       "community"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "hosted-agents",
@@ -1177,7 +1279,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "icon-system",
@@ -1195,7 +1298,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ikea-designer-pro\"",
@@ -1205,7 +1309,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "image-analyzer",
@@ -1219,7 +1324,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "image-auditor",
@@ -1233,7 +1339,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "image-reviewer",
@@ -1247,7 +1354,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"image-to-video\"",
@@ -1258,7 +1366,8 @@
       "arena-winner"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "improve-codebase-architecture",
@@ -1273,7 +1382,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "information-architecture",
@@ -1289,7 +1399,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "internal-comms",
@@ -1299,7 +1410,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "interview-scorecard-generator",
@@ -1315,7 +1427,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "karpathy-guidelines",
@@ -1330,7 +1443,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    "github_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "auxiliary": false
   },
   {
     "id": "learn-from-loss",
@@ -1346,7 +1460,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mac-tts",
@@ -1363,7 +1478,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mac-voice-clone",
@@ -1386,7 +1502,8 @@
       "community"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mac-whisper",
@@ -1405,7 +1522,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "magazine-web-ppt",
@@ -1423,7 +1541,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/op7418/guizang-ppt-skill"
+    "github_url": "https://github.com/op7418/guizang-ppt-skill",
+    "auxiliary": false
   },
   {
     "id": "marketing-roi-calculator",
@@ -1440,7 +1559,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mcp-builder",
@@ -1450,7 +1570,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"media-downloader\"",
@@ -1464,7 +1585,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "meeting-notes-and-actions",
@@ -1478,7 +1600,8 @@
       "notes"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/meeting-notes-and-actions"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/meeting-notes-and-actions",
+    "auxiliary": false
   },
   {
     "id": "memory-systems",
@@ -1488,7 +1611,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "motion-design",
@@ -1505,7 +1629,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "multi-agent-patterns",
@@ -1515,7 +1640,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "objection-handler",
@@ -1531,7 +1657,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "okr-alignment-checker",
@@ -1547,7 +1674,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "onboarding-checklist-generator",
@@ -1562,7 +1690,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pdf",
@@ -1572,7 +1701,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "persuasion-framework",
@@ -1588,7 +1718,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"photography-expert-pro\"",
@@ -1598,7 +1729,8 @@
       "community"
     ],
     "version": "\"3.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pitch-deck-critic",
@@ -1614,7 +1746,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files",
@@ -1624,7 +1757,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files-ar",
@@ -1634,7 +1768,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files-de",
@@ -1644,7 +1779,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files-es",
@@ -1654,7 +1790,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files-zh",
@@ -1664,7 +1801,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "planning-with-files-zht",
@@ -1674,7 +1812,8 @@
       "community"
     ],
     "version": "\"2.37.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "playwright-media-sniffer",
@@ -1693,7 +1832,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "poster-print-design",
@@ -1709,7 +1849,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pptx",
@@ -1719,7 +1860,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "project-development",
@@ -1729,7 +1871,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"prompt-engineer\"",
@@ -1739,7 +1882,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "prompt-optimizer",
@@ -1752,7 +1896,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "receiving-code-review",
@@ -1763,7 +1908,8 @@
       "arena-winner"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "remotion",
@@ -1779,7 +1925,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": "https://github.com/remotion-dev/remotion"
+    "github_url": "https://github.com/remotion-dev/remotion",
+    "auxiliary": false
   },
   {
     "id": "requesting-code-review",
@@ -1789,7 +1936,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "retail-merchandising-planner",
@@ -1805,7 +1953,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sales-funnel-analyzer",
@@ -1821,7 +1970,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-creator",
@@ -1831,7 +1981,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skills-finder",
@@ -1841,7 +1992,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "slack-gif-creator",
@@ -1851,7 +2003,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sop-writer",
@@ -1866,7 +2019,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "spreadsheet-formula-helper",
@@ -1880,7 +2034,8 @@
       "formulas"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/spreadsheet-formula-helper"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/spreadsheet-formula-helper",
+    "auxiliary": false
   },
   {
     "id": "strategy-consulting-framework",
@@ -1896,7 +2051,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "subagent-driven-development",
@@ -1906,7 +2062,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "support-ticket-triage",
@@ -1920,7 +2077,8 @@
       "customer-success"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/support-ticket-triage"
+    "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/support-ticket-triage",
+    "auxiliary": false
   },
   {
     "id": "systematic-debugging",
@@ -1930,7 +2088,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "task-analyzer",
@@ -1944,7 +2103,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "test-driven-development",
@@ -1954,7 +2114,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "theme-factory",
@@ -1964,7 +2125,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "to-issues",
@@ -1979,7 +2141,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "to-prd",
@@ -1993,7 +2156,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "tool-design",
@@ -2003,7 +2167,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "triage-issue",
@@ -2018,7 +2183,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "ubiquitous-language",
@@ -2033,7 +2199,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/mattpocock/skills"
+    "github_url": "https://github.com/mattpocock/skills",
+    "auxiliary": false
   },
   {
     "id": "ui-ux-pro-max-skill",
@@ -2050,7 +2217,8 @@
       "community"
     ],
     "version": "2.0.0",
-    "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "auxiliary": false
   },
   {
     "id": "unit-economics-calculator",
@@ -2067,7 +2235,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "user-persona-generator",
@@ -2083,7 +2252,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "user-story-mapper",
@@ -2099,7 +2269,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "using-git-worktrees",
@@ -2109,7 +2280,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "using-superpowers",
@@ -2119,7 +2291,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "verification-before-completion",
@@ -2129,7 +2302,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video-analyzer",
@@ -2145,7 +2319,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"video-frame-extractor\"",
@@ -2161,7 +2336,8 @@
       "community"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"video-splitter\"",
@@ -2171,7 +2347,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video-translate",
@@ -2189,7 +2366,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"visual-expert-pro-(gemini-3.0-edition)\"",
@@ -2199,7 +2377,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "visual-forge",
@@ -2218,7 +2397,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "web-artifacts-builder",
@@ -2228,7 +2408,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "webapp-testing",
@@ -2238,7 +2419,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "writing-plans",
@@ -2248,7 +2430,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "writing-skills",
@@ -2258,7 +2441,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "xlsx",
@@ -2268,7 +2452,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "youtube-script-optimizer",
@@ -2283,7 +2468,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "zero-debt-lint",
@@ -2300,7 +2486,8 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "bfg-repo-cleaner",
@@ -2310,7 +2497,8 @@
       "devops"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "github-to-skills",
@@ -2323,7 +2511,8 @@
       "skill-creation"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pua",
@@ -2333,7 +2522,8 @@
       "devops"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pua-en",
@@ -2343,7 +2533,8 @@
       "devops"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pua-ja",
@@ -2353,7 +2544,8 @@
       "devops"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-arena",
@@ -2367,7 +2559,8 @@
       "skill-management"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "test-case-templates",
@@ -2380,7 +2573,8 @@
       "templates"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-evolution-manager",
@@ -2394,7 +2588,8 @@
       "learning"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-manager",
@@ -2407,7 +2602,8 @@
       "management"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-sync-manager",
@@ -2421,7 +2617,8 @@
       "update"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ultraskills-hub",
@@ -2437,7 +2634,8 @@
       "devops"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoresearch",
@@ -2448,7 +2646,8 @@
       "arena-winner"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoresearch:analyze",
@@ -2458,7 +2657,8 @@
       "engineering"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoresearch:design",
@@ -2468,7 +2668,8 @@
       "engineering"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoresearch:execute",
@@ -2478,7 +2679,8 @@
       "engineering"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "autoresearch:optimize",
@@ -2488,7 +2690,8 @@
       "engineering"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "3-statement-model",
@@ -2498,7 +2701,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "accrual-schedule",
@@ -2508,7 +2712,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ai-readiness",
@@ -2518,7 +2723,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "audit-xls",
@@ -2528,7 +2734,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "break-trace",
@@ -2538,7 +2745,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "buyer-list",
@@ -2548,7 +2756,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "catalyst-calendar",
@@ -2558,7 +2767,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cim-builder",
@@ -2568,7 +2778,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "clean-data-xls",
@@ -2578,7 +2789,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "client-report",
@@ -2588,7 +2800,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "client-review",
@@ -2598,7 +2811,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "competitive-analysis",
@@ -2608,7 +2822,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "comps-analysis",
@@ -2618,7 +2833,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "datapack-builder",
@@ -2628,7 +2844,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dcf-model",
@@ -2638,7 +2855,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dd-checklist",
@@ -2648,7 +2866,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dd-meeting-prep",
@@ -2658,7 +2877,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "deal-screening",
@@ -2668,7 +2888,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "deal-sourcing",
@@ -2678,7 +2899,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "deal-tracker",
@@ -2688,7 +2910,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "deck-refresh",
@@ -2698,7 +2921,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "earnings-analysis",
@@ -2708,7 +2932,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "earnings-preview",
@@ -2718,7 +2943,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "financial-plan",
@@ -2728,7 +2954,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "gl-recon",
@@ -2738,7 +2965,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ib-check-deck",
@@ -2748,7 +2976,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ic-memo",
@@ -2758,7 +2987,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "idea-generation",
@@ -2768,7 +2998,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "initiating-coverage",
@@ -2778,7 +3009,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "investment-proposal",
@@ -2788,7 +3020,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "kyc-doc-parse",
@@ -2798,7 +3031,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "kyc-rules",
@@ -2808,7 +3042,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "lbo-model",
@@ -2818,7 +3053,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "merger-model",
@@ -2828,7 +3064,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "model-update",
@@ -2838,7 +3075,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "morning-note",
@@ -2848,7 +3086,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "nav-tieout",
@@ -2858,7 +3097,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pitch-deck",
@@ -2868,7 +3108,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "portfolio-monitoring",
@@ -2878,7 +3119,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "portfolio-rebalance",
@@ -2888,7 +3130,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ppt-template-creator",
@@ -2898,7 +3141,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pptx-author",
@@ -2908,7 +3152,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "process-letter",
@@ -2918,7 +3163,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "returns-analysis",
@@ -2928,7 +3174,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "roll-forward",
@@ -2938,7 +3185,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sector-overview",
@@ -2948,7 +3196,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "fsi-strip-profile",
@@ -2958,7 +3207,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "tax-loss-harvesting",
@@ -2968,7 +3218,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "teaser",
@@ -2978,7 +3229,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "thesis-tracker",
@@ -2988,7 +3240,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "unit-economics",
@@ -2998,7 +3251,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "value-creation-plan",
@@ -3008,7 +3262,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "variance-commentary",
@@ -3018,7 +3273,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "xlsx-author",
@@ -3028,7 +3284,8 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-article-illustrator",
@@ -3038,7 +3295,8 @@
       "baoyu"
     ],
     "version": "1.58.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-comic",
@@ -3048,7 +3306,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-compress-image",
@@ -3058,7 +3317,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-cover-image",
@@ -3068,7 +3328,8 @@
       "baoyu"
     ],
     "version": "1.56.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-danger-gemini-web",
@@ -3078,7 +3339,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-danger-x-to-markdown",
@@ -3088,7 +3350,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-diagram",
@@ -3098,7 +3361,8 @@
       "baoyu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-format-markdown",
@@ -3108,7 +3372,8 @@
       "baoyu"
     ],
     "version": "1.57.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-image-cards",
@@ -3118,7 +3383,8 @@
       "baoyu"
     ],
     "version": "1.56.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-image-gen",
@@ -3128,7 +3394,8 @@
       "baoyu"
     ],
     "version": "1.56.4",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-imagine",
@@ -3138,7 +3405,8 @@
       "baoyu"
     ],
     "version": "1.58.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-infographic",
@@ -3148,7 +3416,8 @@
       "baoyu"
     ],
     "version": "1.58.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-markdown-to-html",
@@ -3158,7 +3427,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-post-to-wechat",
@@ -3168,7 +3438,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-post-to-weibo",
@@ -3178,7 +3449,8 @@
       "baoyu"
     ],
     "version": "1.56.1",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-post-to-x",
@@ -3188,7 +3460,8 @@
       "baoyu"
     ],
     "version": "1.56.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-slide-deck",
@@ -3198,7 +3471,8 @@
       "baoyu"
     ],
     "version": "1.56.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-translate",
@@ -3208,7 +3482,8 @@
       "baoyu"
     ],
     "version": "1.59.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-url-to-markdown",
@@ -3218,7 +3493,8 @@
       "baoyu"
     ],
     "version": "1.61.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-xhs-images",
@@ -3228,7 +3504,8 @@
       "baoyu"
     ],
     "version": "1.56.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "baoyu-youtube-transcript",
@@ -3238,7 +3515,8 @@
       "baoyu"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "caveman-compress",
@@ -3248,7 +3526,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "cavecrew",
@@ -3258,7 +3537,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "caveman-stats",
@@ -3268,7 +3548,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "compress",
@@ -3278,7 +3559,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "caveman-commit",
@@ -3288,7 +3570,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "caveman-help",
@@ -3298,7 +3581,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "caveman-review",
@@ -3308,7 +3592,8 @@
       "caveman"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": true
   },
   {
     "id": "chinese-text-analysis",
@@ -3325,7 +3610,8 @@
       "chinese-text-analysis"
     ],
     "version": "1.0.0",
-    "github_url": "https://github.com/fxsjy/jieba https://github.com/isnowfy/snownlp https://github.com/MaartenGr/BERTopic"
+    "github_url": "https://github.com/fxsjy/jieba https://github.com/isnowfy/snownlp https://github.com/MaartenGr/BERTopic",
+    "auxiliary": false
   },
   {
     "id": "claude-opus-4-5-migration",
@@ -3335,7 +3621,8 @@
       "claude-code"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "writing-hookify-rules",
@@ -3345,7 +3632,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "agent-development",
@@ -3355,7 +3643,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "command-development",
@@ -3365,7 +3654,8 @@
       "claude-code"
     ],
     "version": "0.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "hook-development",
@@ -3375,7 +3665,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mcp-integration",
@@ -3385,7 +3676,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plugin-settings",
@@ -3395,7 +3687,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "plugin-structure",
@@ -3405,7 +3698,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-development",
@@ -3415,7 +3709,8 @@
       "claude-code"
     ],
     "version": "0.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "stripe-best-practices",
@@ -3425,7 +3720,8 @@
       "claude-plugins-official"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "claude-automation-recommender",
@@ -3435,7 +3731,8 @@
       "claude-plugins-official"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "claude-md-improver",
@@ -3445,7 +3742,8 @@
       "claude-plugins-official"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "example-skill",
@@ -3455,7 +3753,8 @@
       "claude-plugins-official"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "playground",
@@ -3465,7 +3764,8 @@
       "claude-plugins-official"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"business-growth-skills\"",
@@ -3475,7 +3775,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"contract-and-proposal-writer\"",
@@ -3485,7 +3786,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"customer-success-manager\"",
@@ -3495,7 +3797,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"revenue-operations\"",
@@ -3505,7 +3808,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"sales-engineer\"",
@@ -3515,7 +3819,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"executive-mentor\"",
@@ -3525,7 +3830,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"agent-protocol\"",
@@ -3535,7 +3841,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"board-deck-builder\"",
@@ -3545,7 +3852,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"board-meeting\"",
@@ -3555,7 +3863,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"c-level-advisor\"",
@@ -3565,7 +3874,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ceo-advisor\"",
@@ -3575,7 +3885,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cfo-advisor\"",
@@ -3585,7 +3896,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"change-management\"",
@@ -3595,7 +3907,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"chief-of-staff\"",
@@ -3605,7 +3918,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"chro-advisor\"",
@@ -3615,7 +3929,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ciso-advisor\"",
@@ -3625,7 +3940,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cmo-advisor\"",
@@ -3635,7 +3951,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"company-os\"",
@@ -3645,7 +3962,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"competitive-intel\"",
@@ -3655,7 +3973,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"context-engine\"",
@@ -3665,7 +3984,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"coo-advisor\"",
@@ -3675,7 +3995,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cpo-advisor\"",
@@ -3685,7 +4006,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cro-advisor\"",
@@ -3695,7 +4017,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cs-onboard\"",
@@ -3705,7 +4028,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cto-advisor\"",
@@ -3715,7 +4039,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"culture-architect\"",
@@ -3725,7 +4050,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"decision-logger\"",
@@ -3735,7 +4061,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"founder-coach\"",
@@ -3745,7 +4072,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"internal-narrative\"",
@@ -3755,7 +4083,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"intl-expansion\"",
@@ -3765,7 +4094,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ma-playbook\"",
@@ -3775,7 +4105,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"org-health-diagnostic\"",
@@ -3785,7 +4116,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"scenario-war-room\"",
@@ -3795,7 +4127,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"strategic-alignment\"",
@@ -3805,7 +4138,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"a11y-audit\"",
@@ -3815,7 +4149,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"google-workspace-cli\"",
@@ -3825,7 +4160,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"playwright-pro\"",
@@ -3835,7 +4171,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"self-improving-agent\"",
@@ -3845,7 +4182,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"adversarial-reviewer\"",
@@ -3855,7 +4193,8 @@
       "claude"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ai-security\"",
@@ -3865,7 +4204,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"aws-solution-architect\"",
@@ -3875,7 +4215,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"azure-cloud-architect\"",
@@ -3885,7 +4226,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cloud-security\"",
@@ -3895,7 +4237,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"code-reviewer\"",
@@ -3905,7 +4248,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"email-template-builder\"",
@@ -3915,7 +4259,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"engineering-skills\"",
@@ -3925,7 +4270,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "epic-design",
@@ -3935,7 +4281,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"gcp-cloud-architect\"",
@@ -3945,7 +4292,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"incident-commander\"",
@@ -3955,7 +4303,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"incident-response\"",
@@ -3965,7 +4314,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ms365-tenant-manager\"",
@@ -3975,7 +4325,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"red-team\"",
@@ -3985,7 +4336,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"security-pen-testing\"",
@@ -3995,7 +4347,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-architect\"",
@@ -4005,7 +4358,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-backend\"",
@@ -4015,7 +4369,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-computer-vision\"",
@@ -4025,7 +4380,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-data-engineer\"",
@@ -4035,7 +4391,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-data-scientist\"",
@@ -4045,7 +4402,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-devops\"",
@@ -4055,7 +4413,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-frontend\"",
@@ -4065,7 +4424,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-fullstack\"",
@@ -4075,7 +4435,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-ml-engineer\"",
@@ -4085,7 +4446,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-prompt-engineer\"",
@@ -4095,7 +4457,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-qa\"",
@@ -4105,7 +4468,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-secops\"",
@@ -4115,7 +4479,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-security\"",
@@ -4125,7 +4490,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"stripe-integration-expert\"",
@@ -4135,7 +4501,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"tdd-guide\"",
@@ -4145,7 +4512,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"tech-stack-evaluator\"",
@@ -4155,7 +4523,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"threat-detection\"",
@@ -4165,7 +4534,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"snowflake-development\"",
@@ -4175,7 +4545,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"agenthub\"",
@@ -4185,7 +4556,8 @@
       "claude"
     ],
     "version": "2.1.2",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"status\"",
@@ -4195,7 +4567,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"autoresearch-agent\"",
@@ -4205,7 +4578,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"behuman\"",
@@ -4215,7 +4589,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"code-tour\"",
@@ -4225,7 +4600,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "data-quality-auditor",
@@ -4235,7 +4611,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"demo-video\"",
@@ -4245,7 +4622,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"docker-development\"",
@@ -4255,7 +4633,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"helm-chart-builder\"",
@@ -4265,7 +4644,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "karpathy-coder",
@@ -4282,7 +4662,8 @@
       "claude"
     ],
     "version": "2.3.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "llm-cost-optimizer",
@@ -4292,7 +4673,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "llm-wiki",
@@ -4310,7 +4692,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "prompt-governance",
@@ -4320,7 +4703,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"agent-designer\"",
@@ -4330,7 +4714,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"agent-workflow-designer\"",
@@ -4340,7 +4725,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"api-design-reviewer\"",
@@ -4350,7 +4736,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"api-test-suite-builder\"",
@@ -4360,7 +4747,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"browser-automation\"",
@@ -4370,7 +4758,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"changelog-generator\"",
@@ -4380,7 +4769,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ci-cd-pipeline-builder\"",
@@ -4390,7 +4780,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"codebase-onboarding\"",
@@ -4400,7 +4791,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"command-guide\"",
@@ -4410,7 +4802,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"database-designer\"",
@@ -4420,7 +4813,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"database-schema-designer\"",
@@ -4430,7 +4824,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"dependency-auditor\"",
@@ -4440,7 +4835,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"engineering-advanced-skills\"",
@@ -4450,7 +4846,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"env-secrets-manager\"",
@@ -4460,7 +4857,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"focused-fix\"",
@@ -4470,7 +4868,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"full-page-screenshot\"",
@@ -4480,7 +4879,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"git-worktree-manager\"",
@@ -4490,7 +4890,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"interview-system-designer\"",
@@ -4500,7 +4901,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"mcp-server-builder\"",
@@ -4510,7 +4912,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"migration-architect\"",
@@ -4520,7 +4923,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"monorepo-navigator\"",
@@ -4530,7 +4934,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"observability-designer\"",
@@ -4540,7 +4945,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"performance-profiler\"",
@@ -4550,7 +4956,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"pr-review-expert\"",
@@ -4560,7 +4967,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"rag-architect\"",
@@ -4570,7 +4978,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"release-manager\"",
@@ -4580,7 +4989,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"secrets-vault-manager\"",
@@ -4590,7 +5000,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"self-eval\"",
@@ -4600,7 +5011,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"skill-security-auditor\"",
@@ -4610,7 +5022,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"skill-tester\"",
@@ -4620,7 +5033,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sample-skill",
@@ -4630,7 +5044,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"spec-driven-workflow\"",
@@ -4640,7 +5055,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"sql-database-assistant\"",
@@ -4650,7 +5066,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"tc-tracker\"",
@@ -4660,7 +5077,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "tech-debt-tracker",
@@ -4670,7 +5088,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "statistical-analyst",
@@ -4680,7 +5099,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"terraform-patterns\"",
@@ -4690,7 +5110,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "business-investment-advisor",
@@ -4700,7 +5121,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"finance-skills\"",
@@ -4710,7 +5132,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"financial-analyst\"",
@@ -4720,7 +5143,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "saas-metrics-coach",
@@ -4730,7 +5154,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ab-test-setup\"",
@@ -4740,7 +5165,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ad-creative\"",
@@ -4750,7 +5176,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ai-seo\"",
@@ -4760,7 +5187,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"analytics-tracking\"",
@@ -4770,7 +5198,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"app-store-optimization\"",
@@ -4780,7 +5209,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"brand-guidelines\"",
@@ -4790,7 +5220,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"campaign-analytics\"",
@@ -4800,7 +5231,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"churn-prevention\"",
@@ -4810,7 +5242,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"cold-email\"",
@@ -4820,7 +5253,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"competitor-alternatives\"",
@@ -4830,7 +5264,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"content-creator\"",
@@ -4840,7 +5275,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"content-humanizer\"",
@@ -4850,7 +5286,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"content-production\"",
@@ -4860,7 +5297,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"content-strategy\"",
@@ -4870,7 +5308,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"copy-editing\"",
@@ -4880,7 +5319,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"copywriting\"",
@@ -4890,7 +5330,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"email-sequence\"",
@@ -4900,7 +5341,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"form-cro\"",
@@ -4910,7 +5352,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"free-tool-strategy\"",
@@ -4920,7 +5363,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"launch-strategy\"",
@@ -4930,7 +5374,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-context\"",
@@ -4940,7 +5385,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-demand-acquisition\"",
@@ -4950,7 +5396,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-ideas\"",
@@ -4960,7 +5407,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-ops\"",
@@ -4970,7 +5418,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-psychology\"",
@@ -4980,7 +5429,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-skills\"",
@@ -4990,7 +5440,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"marketing-strategy-pmm\"",
@@ -5000,7 +5451,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"onboarding-cro\"",
@@ -5010,7 +5462,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"page-cro\"",
@@ -5020,7 +5473,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"paid-ads\"",
@@ -5030,7 +5484,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"paywall-upgrade-cro\"",
@@ -5040,7 +5495,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"popup-cro\"",
@@ -5050,7 +5506,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"pricing-strategy\"",
@@ -5060,7 +5517,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"programmatic-seo\"",
@@ -5070,7 +5528,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"prompt-engineer-toolkit\"",
@@ -5080,7 +5539,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"referral-program\"",
@@ -5090,7 +5550,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"schema-markup\"",
@@ -5100,7 +5561,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"seo-audit\"",
@@ -5110,7 +5572,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"signup-flow-cro\"",
@@ -5120,7 +5583,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"site-architecture\"",
@@ -5130,7 +5594,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"social-content\"",
@@ -5140,7 +5605,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"social-media-analyzer\"",
@@ -5150,7 +5616,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"social-media-manager\"",
@@ -5160,7 +5627,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"x-twitter-growth\"",
@@ -5170,7 +5638,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video-content-strategist",
@@ -5180,7 +5649,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"agile-product-owner\"",
@@ -5190,7 +5660,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "apple-hig-expert",
@@ -5200,7 +5671,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "code-to-prd",
@@ -5210,7 +5682,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"research-summarizer\"",
@@ -5220,7 +5693,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"competitive-teardown\"",
@@ -5230,7 +5704,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "experiment-designer",
@@ -5240,7 +5715,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"landing-page-generator\"",
@@ -5250,7 +5726,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "product-analytics",
@@ -5260,7 +5737,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "product-discovery",
@@ -5270,7 +5748,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"product-manager-toolkit\"",
@@ -5280,7 +5759,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"product-skills\"",
@@ -5290,7 +5770,8 @@
       "claude"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"product-strategist\"",
@@ -5300,7 +5781,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "roadmap-communicator",
@@ -5310,7 +5792,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"saas-scaffolder\"",
@@ -5320,7 +5803,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "spec-to-repo",
@@ -5330,7 +5814,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ui-design-system\"",
@@ -5340,7 +5825,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ux-researcher-designer\"",
@@ -5350,7 +5836,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"atlassian-admin\"",
@@ -5360,7 +5847,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"atlassian-templates\"",
@@ -5370,7 +5858,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"confluence-expert\"",
@@ -5380,7 +5869,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"jira-expert\"",
@@ -5390,7 +5880,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "meeting-analyzer",
@@ -5400,7 +5891,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"pm-skills\"",
@@ -5410,7 +5902,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"scrum-master\"",
@@ -5420,7 +5913,8 @@
       "claude"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"senior-pm\"",
@@ -5430,7 +5924,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "team-communications",
@@ -5440,7 +5935,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"capa-officer\"",
@@ -5450,7 +5946,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"fda-consultant-specialist\"",
@@ -5460,7 +5957,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"gdpr-dsgvo-expert\"",
@@ -5470,7 +5968,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"information-security-manager-iso27001\"",
@@ -5480,7 +5979,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"isms-audit-expert\"",
@@ -5490,7 +5990,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"mdr-745-specialist\"",
@@ -5500,7 +6001,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"qms-audit-expert\"",
@@ -5510,7 +6012,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"quality-documentation-manager\"",
@@ -5520,7 +6023,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"quality-manager-qmr\"",
@@ -5530,7 +6034,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"quality-manager-qms-iso13485\"",
@@ -5540,7 +6045,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"ra-qm-skills\"",
@@ -5550,7 +6056,8 @@
       "claude"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"regulatory-affairs-head\"",
@@ -5560,7 +6067,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"risk-management-specialist\"",
@@ -5570,7 +6078,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "\"soc2-compliance\"",
@@ -5580,7 +6089,8 @@
       "claude"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "context-engineering-collection",
@@ -5590,7 +6100,8 @@
       "context-engineering"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "book-sft-pipeline",
@@ -5600,7 +6111,8 @@
       "context-engineering"
     ],
     "version": "2.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "digital-brain",
@@ -5610,7 +6122,8 @@
       "context-engineering"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "reasoning-trace-optimizer",
@@ -5620,7 +6133,8 @@
       "context-engineering"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "comprehensive-research-agent",
@@ -5630,7 +6144,8 @@
       "context-engineering"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "latent-briefing",
@@ -5640,7 +6155,8 @@
       "context-engineering"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "skill-template",
@@ -5650,7 +6166,8 @@
       "context-engineering"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs",
@@ -5660,7 +6177,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-action",
@@ -5670,7 +6188,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-agent-migration",
@@ -5680,7 +6199,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-ai-check",
@@ -5690,7 +6210,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-benchmark",
@@ -5700,7 +6221,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-chatroom",
@@ -5710,7 +6232,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-chatroom-austrian",
@@ -5720,7 +6243,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-content",
@@ -5730,7 +6254,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-deconstruct",
@@ -5740,7 +6265,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-diagnosis",
@@ -5750,7 +6276,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-goal",
@@ -5760,7 +6287,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-hook",
@@ -5770,7 +6298,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-report",
@@ -5780,7 +6309,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-restore",
@@ -5790,7 +6320,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-save",
@@ -5800,7 +6331,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-slowisfast",
@@ -5810,7 +6342,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dbs-xhs-title",
@@ -5820,7 +6353,8 @@
       "dbskill"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "fact-checker",
@@ -5833,7 +6367,8 @@
       "fact-checker"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "angular-architect",
@@ -5843,7 +6378,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "api-designer",
@@ -5853,7 +6389,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "architecture-designer",
@@ -5863,7 +6400,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "atlassian-mcp",
@@ -5873,7 +6411,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "chaos-engineer",
@@ -5883,7 +6422,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cli-developer",
@@ -5893,7 +6433,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cloud-architect",
@@ -5903,7 +6444,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "code-documenter",
@@ -5913,7 +6455,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "code-reviewer",
@@ -5923,7 +6466,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cpp-pro",
@@ -5933,7 +6477,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "csharp-developer",
@@ -5943,7 +6488,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "database-optimizer",
@@ -5953,7 +6499,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "debugging-wizard",
@@ -5963,7 +6510,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "devops-engineer",
@@ -5973,7 +6521,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "django-expert",
@@ -5983,7 +6532,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "dotnet-core-expert",
@@ -5993,7 +6543,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "embedded-systems",
@@ -6003,7 +6554,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "fastapi-expert",
@@ -6013,7 +6565,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "feature-forge",
@@ -6023,7 +6576,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "fine-tuning-expert",
@@ -6033,7 +6587,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "flutter-expert",
@@ -6043,7 +6598,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "fullstack-guardian",
@@ -6053,7 +6609,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "game-developer",
@@ -6063,7 +6620,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "golang-pro",
@@ -6073,7 +6631,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "graphql-architect",
@@ -6083,7 +6642,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "java-architect",
@@ -6093,7 +6653,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "javascript-pro",
@@ -6103,7 +6664,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "kotlin-specialist",
@@ -6113,7 +6675,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "kubernetes-specialist",
@@ -6123,7 +6686,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "laravel-specialist",
@@ -6133,7 +6697,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "legacy-modernizer",
@@ -6143,7 +6708,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mcp-developer",
@@ -6153,7 +6719,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "microservices-architect",
@@ -6163,7 +6730,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ml-pipeline",
@@ -6173,7 +6741,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "monitoring-expert",
@@ -6183,7 +6752,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "nestjs-expert",
@@ -6193,7 +6763,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "nextjs-developer",
@@ -6203,7 +6774,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pandas-pro",
@@ -6213,7 +6785,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "php-pro",
@@ -6223,7 +6796,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "playwright-expert",
@@ -6233,7 +6807,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "postgres-pro",
@@ -6243,7 +6818,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "prompt-engineer",
@@ -6253,7 +6829,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "python-pro",
@@ -6263,7 +6840,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "rag-architect",
@@ -6273,7 +6851,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "rails-expert",
@@ -6283,7 +6862,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "react-expert",
@@ -6293,7 +6873,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "react-native-expert",
@@ -6303,7 +6884,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "rust-engineer",
@@ -6313,7 +6895,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "salesforce-developer",
@@ -6323,7 +6906,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "secure-code-guardian",
@@ -6333,7 +6917,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "security-reviewer",
@@ -6343,7 +6928,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "shopify-expert",
@@ -6353,7 +6939,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "spark-engineer",
@@ -6363,7 +6950,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "spec-miner",
@@ -6373,7 +6961,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "spring-boot-engineer",
@@ -6383,7 +6972,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sql-pro",
@@ -6393,7 +6983,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sre-engineer",
@@ -6403,7 +6994,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "swift-expert",
@@ -6413,7 +7005,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "terraform-engineer",
@@ -6423,7 +7016,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "test-master",
@@ -6433,7 +7027,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "the-fool",
@@ -6443,7 +7038,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "typescript-pro",
@@ -6453,7 +7049,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "vue-expert",
@@ -6463,7 +7060,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "vue-expert-js",
@@ -6473,7 +7071,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "websocket-engineer",
@@ -6483,7 +7082,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "wordpress-pro",
@@ -6493,7 +7093,8 @@
       "fullstack-dev"
     ],
     "version": "\"1.0.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-agent-swarm",
@@ -6503,7 +7104,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-article-edit",
@@ -6513,7 +7115,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-article-to-x",
@@ -6523,7 +7126,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-data-pro",
@@ -6533,7 +7137,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-design",
@@ -6543,7 +7148,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-douyin-script",
@@ -6553,7 +7159,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-image-upload",
@@ -6563,7 +7170,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-info-search",
@@ -6573,7 +7181,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-material-search",
@@ -6583,7 +7192,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-md-to-pdf",
@@ -6593,7 +7203,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-prompt-save",
@@ -6603,7 +7214,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-proofreading",
@@ -6613,7 +7225,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-research",
@@ -6623,7 +7236,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-script-polish",
@@ -6633,7 +7247,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-slides",
@@ -6643,7 +7258,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-speech-coach",
@@ -6653,7 +7269,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-topic-gen",
@@ -6663,7 +7280,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-video-check",
@@ -6673,7 +7291,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-video-outline",
@@ -6683,7 +7302,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-wechat-image",
@@ -6693,7 +7313,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "huashu-xhs-image",
@@ -6703,7 +7324,8 @@
       "huashu"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "aihot",
@@ -6713,7 +7335,8 @@
       "khazix"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "hv-analysis",
@@ -6723,7 +7346,8 @@
       "khazix"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "khazix-writer",
@@ -6733,7 +7357,8 @@
       "khazix"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "neat-freak",
@@ -6743,7 +7368,8 @@
       "khazix"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ab-test-setup",
@@ -6753,7 +7379,8 @@
       "marketingskills"
     ],
     "version": "1.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ad-creative",
@@ -6763,7 +7390,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ai-seo",
@@ -6773,7 +7401,8 @@
       "marketingskills"
     ],
     "version": "1.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "analytics-tracking",
@@ -6783,7 +7412,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "aso-audit",
@@ -6793,7 +7423,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "churn-prevention",
@@ -6803,7 +7434,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "co-marketing",
@@ -6813,7 +7445,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "cold-email",
@@ -6823,7 +7456,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "community-marketing",
@@ -6833,7 +7467,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "competitor-alternatives",
@@ -6843,7 +7478,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "competitor-profiling",
@@ -6853,7 +7489,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "content-strategy",
@@ -6863,7 +7500,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "copy-editing",
@@ -6873,7 +7511,8 @@
       "marketingskills"
     ],
     "version": "1.3.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "copywriting",
@@ -6883,7 +7522,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "customer-research",
@@ -6893,7 +7533,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "directory-submissions",
@@ -6903,7 +7544,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "email-sequence",
@@ -6913,7 +7555,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "form-cro",
@@ -6923,7 +7566,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "free-tool-strategy",
@@ -6933,7 +7577,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "image",
@@ -6943,7 +7588,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "launch-strategy",
@@ -6953,7 +7599,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "lead-magnets",
@@ -6963,7 +7610,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "marketing-ideas",
@@ -6973,7 +7621,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "marketing-psychology",
@@ -6983,7 +7632,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "onboarding-cro",
@@ -6993,7 +7643,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "page-cro",
@@ -7003,7 +7654,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "paid-ads",
@@ -7013,7 +7665,8 @@
       "marketingskills"
     ],
     "version": "1.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "paywall-upgrade-cro",
@@ -7023,7 +7676,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "popup-cro",
@@ -7033,7 +7687,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "pricing-strategy",
@@ -7043,7 +7698,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "product-marketing-context",
@@ -7053,7 +7709,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "programmatic-seo",
@@ -7063,7 +7720,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "referral-program",
@@ -7073,7 +7731,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "revops",
@@ -7083,7 +7742,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sales-enablement",
@@ -7093,7 +7753,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "schema-markup",
@@ -7103,7 +7764,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "seo-audit",
@@ -7113,7 +7775,8 @@
       "marketingskills"
     ],
     "version": "1.2.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "signup-flow-cro",
@@ -7123,7 +7786,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "site-architecture",
@@ -7133,7 +7797,8 @@
       "marketingskills"
     ],
     "version": "1.1.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "social-content",
@@ -7143,7 +7808,8 @@
       "marketingskills"
     ],
     "version": "1.3.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video",
@@ -7153,7 +7819,8 @@
       "marketingskills"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "media-downloader",
@@ -7169,7 +7836,8 @@
       "media-downloader"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mediacrawler",
@@ -7188,7 +7856,8 @@
       "mediacrawler"
     ],
     "version": "0.1.0",
-    "github_url": "https://github.com/NanmiCoder/MediaCrawler"
+    "github_url": "https://github.com/NanmiCoder/MediaCrawler",
+    "auxiliary": false
   },
   {
     "id": "huashu-nuwa",
@@ -7198,7 +7867,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "andrej-karpathy-perspective",
@@ -7208,7 +7878,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "elon-musk-perspective",
@@ -7218,7 +7889,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "feynman-perspective",
@@ -7228,7 +7900,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "ilya-sutskever-perspective",
@@ -7238,7 +7911,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "mrbeast-perspective",
@@ -7248,7 +7922,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "munger-perspective",
@@ -7258,7 +7933,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "naval-perspective",
@@ -7268,7 +7944,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "paul-graham-perspective",
@@ -7278,7 +7955,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "steve-jobs-perspective",
@@ -7288,7 +7966,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "sun-yuchen-perspective",
@@ -7298,7 +7977,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "taleb-perspective",
@@ -7308,7 +7988,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "trump-perspective",
@@ -7318,7 +7999,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "x-mastery-mentor",
@@ -7328,7 +8010,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "zhang-yiming-perspective",
@@ -7338,7 +8021,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "zhangxuefeng-perspective",
@@ -7348,7 +8032,8 @@
       "nuwa"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "platform-algorithm-reference",
@@ -7362,7 +8047,8 @@
       "platform-algorithm-reference"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video-content-analyzer",
@@ -7380,7 +8066,8 @@
       "video-content-analyzer"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "video-scene-splitter",
@@ -7396,7 +8083,8 @@
       "video-scene-splitter"
     ],
     "version": "0.6.7",
-    "github_url": "https://github.com/Breakthrough/PySceneDetect"
+    "github_url": "https://github.com/Breakthrough/PySceneDetect",
+    "auxiliary": false
   },
   {
     "id": "video-transcriber",
@@ -7414,7 +8102,8 @@
       "video-transcriber"
     ],
     "version": "20231117",
-    "github_url": "https://github.com/openai/whisper"
+    "github_url": "https://github.com/openai/whisper",
+    "auxiliary": false
   },
   {
     "id": "videocut:剪口播",
@@ -7424,7 +8113,8 @@
       "videocut"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "videocut:字幕",
@@ -7434,7 +8124,8 @@
       "videocut"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "videocut:安装",
@@ -7444,7 +8135,8 @@
       "videocut"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "videocut:自进化",
@@ -7454,7 +8146,8 @@
       "videocut"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "videocut:高清化",
@@ -7464,7 +8157,8 @@
       "videocut"
     ],
     "version": "",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "web-access",
@@ -7474,7 +8168,8 @@
       "web-access"
     ],
     "version": "\"2.5.0\"",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   },
   {
     "id": "find-skills",
@@ -7486,6 +8181,7 @@
       "skill-generation"
     ],
     "version": "1.0.0",
-    "github_url": ""
+    "github_url": "",
+    "auxiliary": false
   }
 ]

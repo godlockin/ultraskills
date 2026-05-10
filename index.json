@@ -6,7 +6,7 @@
     "arena_updated_at": "2026-05-10",
     "total_skills": 696,
     "total_clusters": 54,
-    "avg_arena_score": 7.4,
+    "avg_arena_score": 7.36,
     "total_winners": 54
   },
   "skills": [
@@ -6389,10 +6389,10 @@
       "arena": {
         "cluster": "content-writing",
         "cluster_name": "内容·写作",
-        "score": 4.0,
-        "doc_quality": 3,
-        "func_clarity": 5,
-        "maintainability": 5,
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
         "is_winner": false,
         "rank": 21,
         "test_date": "2026-05-10",
@@ -14649,69 +14649,6 @@
       "version": "1.0.0"
     },
     {
-      "id": "caveman-compress",
-      "name": "caveman-compress",
-      "path": "./external/caveman/caveman-compress/SKILL.md",
-      "description": ">",
-      "tags": [
-        "caveman"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 4.5,
-        "doc_quality": 4,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 6,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "caveman-commit",
-      "name": "caveman-commit",
-      "path": "./external/caveman/skills/caveman-commit/SKILL.md",
-      "description": ">",
-      "tags": [
-        "caveman"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 4.5,
-        "doc_quality": 4,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 7,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "caveman-review",
-      "name": "caveman-review",
-      "path": "./external/caveman/skills/caveman-review/SKILL.md",
-      "description": ">",
-      "tags": [
-        "caveman"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 4.5,
-        "doc_quality": 4,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-05-10",
-        "test_version": "1.0.0"
-      }
-    },
-    {
       "id": "compress",
       "name": "compress",
       "path": "./external/caveman/plugins/caveman/skills/compress/SKILL.md",
@@ -14727,7 +14664,28 @@
         "func_clarity": 4,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 6,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "caveman-compress",
+      "name": "caveman-compress",
+      "path": "./external/caveman/caveman-compress/SKILL.md",
+      "description": ">",
+      "tags": [
+        "caveman"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
+        "is_winner": false,
+        "rank": 7,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -14743,12 +14701,12 @@
       "arena": {
         "cluster": "productivity",
         "cluster_name": "效率·生产力",
-        "score": 3.7,
-        "doc_quality": 3,
-        "func_clarity": 4,
-        "maintainability": 5,
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
         "is_winner": false,
-        "rank": 10,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -14764,10 +14722,52 @@
       "arena": {
         "cluster": "productivity",
         "cluster_name": "效率·生产力",
-        "score": 3.5,
-        "doc_quality": 2,
-        "func_clarity": 5,
-        "maintainability": 5,
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
+        "is_winner": false,
+        "rank": 9,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "caveman-commit",
+      "name": "caveman-commit",
+      "path": "./external/caveman/skills/caveman-commit/SKILL.md",
+      "description": ">",
+      "tags": [
+        "caveman"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
+        "is_winner": false,
+        "rank": 10,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "caveman-review",
+      "name": "caveman-review",
+      "path": "./external/caveman/skills/caveman-review/SKILL.md",
+      "description": ">",
+      "tags": [
+        "caveman"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 0,
+        "doc_quality": 0,
+        "func_clarity": 0,
+        "maintainability": 0,
         "is_winner": false,
         "rank": 11,
         "test_date": "2026-05-10",

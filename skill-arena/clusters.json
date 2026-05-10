@@ -205,24 +205,24 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "legacy-modernizer",
-          "feature-forge",
           "sre-engineer",
-          "monitoring-expert",
-          "spec-miner"
+          "feature-forge",
+          "spec-miner",
+          "legacy-modernizer",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "sql-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "sql-pro",
+          "spark-engineer",
           "postgres-pro",
-          "database-optimizer",
           "pandas-pro",
-          "spark-engineer"
+          "sql-pro",
+          "database-optimizer"
         ]
       },
       {
@@ -232,30 +232,30 @@
         "winner": "embedded-systems",
         "skills": [
           "embedded-systems",
-          "websocket-engineer",
           "chaos-engineer",
+          "mcp-developer",
           "cli-developer",
-          "mcp-developer"
+          "websocket-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -321,10 +321,10 @@
         "skills": [
           "\"cto-advisor\"",
           "\"coo-advisor\"",
-          "\"cfo-advisor\"",
-          "\"ceo-advisor\"",
           "\"cmo-advisor\"",
-          "\"chro-advisor\""
+          "\"ceo-advisor\"",
+          "\"chro-advisor\"",
+          "\"cfo-advisor\""
         ]
       },
       {
@@ -407,17 +407,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-danger-x-to-markdown",
+        "winner": "baoyu-format-markdown",
         "skills": [
-          "baoyu-danger-x-to-markdown",
-          "baoyu-translate",
           "baoyu-format-markdown",
+          "baoyu-translate",
           "baoyu-post-to-wechat",
-          "baoyu-danger-gemini-web",
+          "baoyu-danger-x-to-markdown",
           "baoyu-url-to-markdown",
+          "baoyu-danger-gemini-web",
+          "baoyu-youtube-transcript",
           "baoyu-post-to-weibo",
-          "baoyu-post-to-x",
-          "baoyu-youtube-transcript"
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -427,8 +427,8 @@
         "winner": "baoyu-xhs-images",
         "skills": [
           "baoyu-xhs-images",
-          "\"social-content\"",
           "social-content",
+          "\"social-content\"",
           "huashu-article-to-x",
           "x-mastery-mentor",
           "huashu-xhs-image",
@@ -528,8 +528,8 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "\"github-skill-scout\"",
           "skill-sync-manager",
+          "\"github-skill-scout\"",
           "skill-manager",
           "skill-evolution-manager"
         ]
@@ -550,12 +550,12 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "command-development",
         "skills": [
+          "command-development",
+          "plugin-settings",
           "hook-development",
           "plugin-structure",
-          "plugin-settings",
-          "command-development",
           "claude-automation-recommender",
           "claude-md-improver"
         ]
@@ -671,10 +671,10 @@
         "winner": "\"terraform-patterns\"",
         "skills": [
           "\"terraform-patterns\"",
-          "\"helm-chart-builder\"",
-          "terraform-engineer",
           "\"azure-cloud-architect\"",
           "\"gcp-cloud-architect\"",
+          "\"helm-chart-builder\"",
+          "terraform-engineer",
           "\"aws-solution-architect\""
         ]
       },
@@ -810,15 +810,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-comic",
+        "winner": "baoyu-image-gen",
         "skills": [
-          "baoyu-comic",
-          "baoyu-article-illustrator",
-          "baoyu-image-cards",
           "baoyu-image-gen",
-          "baoyu-infographic",
+          "baoyu-comic",
+          "baoyu-cover-image",
           "baoyu-imagine",
-          "baoyu-cover-image"
+          "baoyu-article-illustrator",
+          "baoyu-infographic",
+          "baoyu-image-cards"
         ]
       },
       {
@@ -831,8 +831,8 @@
           "\"photography-expert-pro\"",
           "face-beautification",
           "image-analyzer",
-          "image-reviewer",
-          "image-auditor"
+          "image-auditor",
+          "image-reviewer"
         ]
       },
       {
@@ -1051,10 +1051,10 @@
         "id": "agent-workflow-planning",
         "name": "规划 & 执行",
         "skill_count": 3,
-        "winner": "writing-plans",
+        "winner": "executing-plans",
         "skills": [
-          "writing-plans",
           "executing-plans",
+          "writing-plans",
           "autoplan"
         ]
       },
@@ -1067,8 +1067,8 @@
           "planning-with-files",
           "planning-with-files-ar",
           "planning-with-files-de",
-          "planning-with-files-zht",
           "planning-with-files-es",
+          "planning-with-files-zht",
           "planning-with-files-zh"
         ]
       },
@@ -1076,10 +1076,10 @@
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "agent-development",
+        "winner": "skill-development",
         "skills": [
-          "agent-development",
-          "skill-development"
+          "skill-development",
+          "agent-development"
         ]
       }
     ]
@@ -1133,12 +1133,12 @@
       "brainstorming",
       "dynamic-expert-group",
       "caveman",
-      "caveman-compress",
-      "caveman-commit",
-      "caveman-review",
       "compress",
+      "caveman-compress",
       "cavecrew",
-      "caveman-stats"
+      "caveman-stats",
+      "caveman-commit",
+      "caveman-review"
     ]
   },
   {

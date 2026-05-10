@@ -278,7 +278,20 @@ def score_skill(skill: dict, skill_md_text: str) -> dict:
       文档质量 (50%): description 长度、有无示例、有无 tags、body 长度
       功能明确性 (30%): id 清晰、有版本、有 github_url、有 tags
       可维护性 (20%): 有 frontmatter、有 path、有 version
+
+    配套 skills (auxiliary=True) 跳过评分，返回 score=0
     """
+    # 跳过配套 skills
+    if skill.get("auxiliary", False):
+        return {
+            "score": 0,
+            "doc": 0,
+            "func": 0,
+            "maint": 0,
+            "total": 0,
+            "auxiliary": True  # 标记为配套
+        }
+
     desc = skill.get("description", "") or ""
     tags = skill.get("tags") or []
     version = skill.get("version") or ""
