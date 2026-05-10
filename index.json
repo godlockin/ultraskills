@@ -4,7 +4,7 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 692,
+    "total_skills": 698,
     "total_clusters": 54,
     "avg_arena_score": 7.39,
     "total_winners": 54
@@ -6154,6 +6154,34 @@
       "version": "1.1.0"
     },
     {
+      "id": "persuasion-framework",
+      "name": "persuasion-framework",
+      "path": "./community/persuasion-framework/SKILL.md",
+      "description": "Persuasion psychology framework - Cialdini's 6 principles applied in 15min",
+      "tags": [
+        "psychology",
+        "persuasion",
+        "behavioral",
+        "copywriting",
+        "marketing",
+        "ROI-8.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-writing",
+        "cluster_name": "内容·写作",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 11,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "internal-comms",
       "name": "internal-comms",
       "path": "./community/internal-comms/SKILL.md",
@@ -6169,7 +6197,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6191,7 +6219,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6217,7 +6245,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6239,7 +6267,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -6261,7 +6289,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6282,7 +6310,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6303,7 +6331,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6324,7 +6352,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6345,7 +6373,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -6366,7 +6394,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7214,6 +7242,34 @@
       }
     },
     {
+      "id": "user-persona-generator",
+      "name": "user-persona-generator",
+      "path": "./community/user-persona-generator/SKILL.md",
+      "description": "User persona generator - research-based personas in 30min, saves 4h",
+      "tags": [
+        "user-research",
+        "persona",
+        "ux",
+        "product",
+        "customer-insights",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "education",
+        "cluster_name": "教育·学习研究",
+        "score": 6.5,
+        "doc_quality": 4,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 13,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "learn",
       "name": "learn",
       "path": "./community/gstack/learn/SKILL.md",
@@ -7229,7 +7285,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -7251,7 +7307,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7272,7 +7328,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7293,7 +7349,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -7314,7 +7370,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13271,6 +13327,62 @@
       }
     },
     {
+      "id": "brand-messaging-framework",
+      "name": "brand-messaging-framework",
+      "path": "./community/brand-messaging-framework/SKILL.md",
+      "description": "Brand messaging framework - positioning + message hierarchy in 1h",
+      "tags": [
+        "brand",
+        "messaging",
+        "positioning",
+        "marketing",
+        "strategy",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 24,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "strategy-consulting-framework",
+      "name": "strategy-consulting-framework",
+      "path": "./community/strategy-consulting-framework/SKILL.md",
+      "description": "Strategy consulting framework - McKinsey/BCG problem-solving in 1h",
+      "tags": [
+        "consulting",
+        "strategy",
+        "problem-solving",
+        "framework",
+        "advisory",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 25,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "apple-hig-expert",
       "name": "apple-hig-expert",
       "path": "./external/claude-skills/product-team/apple-hig-expert/skills/apple-hig-expert/SKILL.md",
@@ -13286,7 +13398,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 24,
+        "rank": 26,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13308,7 +13420,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 27,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13329,7 +13441,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 28,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13350,7 +13462,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 29,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13371,7 +13483,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 30,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13392,7 +13504,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 31,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13418,7 +13530,34 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 30,
+        "rank": 32,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-storytelling-framework",
+      "name": "data-storytelling-framework",
+      "path": "./community/data-storytelling-framework/SKILL.md",
+      "description": "Data storytelling - turns analysis into narratives in 30min",
+      "tags": [
+        "data-analysis",
+        "storytelling",
+        "visualization",
+        "business-intelligence",
+        "ROI-8.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.0,
+        "doc_quality": 5,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 33,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13440,7 +13579,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 34,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13461,7 +13600,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 32,
+        "rank": 35,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13483,7 +13622,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 33,
+        "rank": 36,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13504,7 +13643,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 34,
+        "rank": 37,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13528,7 +13667,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 35,
+        "rank": 38,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13550,7 +13689,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 36,
+        "rank": 39,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13572,7 +13711,35 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 37,
+        "rank": 40,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "retail-merchandising-planner",
+      "name": "retail-merchandising-planner",
+      "path": "./community/retail-merchandising-planner/SKILL.md",
+      "description": "Retail merchandising planner - assortment + inventory in 45min",
+      "tags": [
+        "retail",
+        "merchandising",
+        "inventory",
+        "assortment",
+        "planning",
+        "ROI-7.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.5,
+        "doc_quality": 4,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 41,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13594,7 +13761,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 38,
+        "rank": 42,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13615,7 +13782,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 39,
+        "rank": 43,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13636,7 +13803,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 40,
+        "rank": 44,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13658,7 +13825,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 41,
+        "rank": 45,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13680,7 +13847,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 42,
+        "rank": 46,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13702,7 +13869,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 43,
+        "rank": 47,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13724,7 +13891,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 44,
+        "rank": 48,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13746,7 +13913,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 45,
+        "rank": 49,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13768,7 +13935,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 46,
+        "rank": 50,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13790,7 +13957,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 47,
+        "rank": 51,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13811,7 +13978,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 48,
+        "rank": 52,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13836,7 +14003,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 49,
+        "rank": 53,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13858,7 +14025,7 @@
         "func_clarity": 4,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 50,
+        "rank": 54,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13880,7 +14047,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 51,
+        "rank": 55,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13901,7 +14068,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 52,
+        "rank": 56,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13922,7 +14089,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 53,
+        "rank": 57,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13943,7 +14110,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 54,
+        "rank": 58,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13965,7 +14132,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 55,
+        "rank": 59,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },

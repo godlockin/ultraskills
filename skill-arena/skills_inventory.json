@@ -128,6 +128,22 @@
     "github_url": ""
   },
   {
+    "id": "brand-messaging-framework",
+    "path": "./community/brand-messaging-framework/SKILL.md",
+    "description": "Brand messaging framework - positioning + message hierarchy in 1h",
+    "tags": [
+      "brand",
+      "messaging",
+      "positioning",
+      "marketing",
+      "strategy",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "canvas-design",
     "path": "./community/canvas-design/SKILL.md",
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
@@ -312,6 +328,21 @@
       "reporting",
       "retention",
       "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "data-storytelling-framework",
+    "path": "./community/data-storytelling-framework/SKILL.md",
+    "description": "Data storytelling - turns analysis into narratives in 30min",
+    "tags": [
+      "data-analysis",
+      "storytelling",
+      "visualization",
+      "business-intelligence",
+      "ROI-8.0",
       "community"
     ],
     "version": "1.0.0",
@@ -1544,6 +1575,22 @@
     "github_url": ""
   },
   {
+    "id": "persuasion-framework",
+    "path": "./community/persuasion-framework/SKILL.md",
+    "description": "Persuasion psychology framework - Cialdini's 6 principles applied in 15min",
+    "tags": [
+      "psychology",
+      "persuasion",
+      "behavioral",
+      "copywriting",
+      "marketing",
+      "ROI-8.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "\"photography-expert-pro\"",
     "path": "./community/photography-expert/SKILL.md",
     "description": "\"Director of Photography (DoP) & Architectural Photographer specializing in High-End Interior & Product Photography\"",
@@ -1745,6 +1792,22 @@
     "github_url": ""
   },
   {
+    "id": "retail-merchandising-planner",
+    "path": "./community/retail-merchandising-planner/SKILL.md",
+    "description": "Retail merchandising planner - assortment + inventory in 45min",
+    "tags": [
+      "retail",
+      "merchandising",
+      "inventory",
+      "assortment",
+      "planning",
+      "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "sales-funnel-analyzer",
     "path": "./community/sales-funnel-analyzer/SKILL.md",
     "description": "Sales funnel efficiency analyzer - diagnoses conversion bottlenecks and calculates pipeline health",
@@ -1818,6 +1881,22 @@
     ],
     "version": "1.0.0",
     "github_url": "https://github.com/ComposioHQ/awesome-codex-skills/tree/711ee69d724457093d52f685d729917f5389c686/spreadsheet-formula-helper"
+  },
+  {
+    "id": "strategy-consulting-framework",
+    "path": "./community/strategy-consulting-framework/SKILL.md",
+    "description": "Strategy consulting framework - McKinsey/BCG problem-solving in 1h",
+    "tags": [
+      "consulting",
+      "strategy",
+      "problem-solving",
+      "framework",
+      "advisory",
+      "ROI-9.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
   },
   {
     "id": "subagent-driven-development",
@@ -1984,6 +2063,22 @@
       "cac",
       "ltv",
       "burn-rate",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "user-persona-generator",
+    "path": "./community/user-persona-generator/SKILL.md",
+    "description": "User persona generator - research-based personas in 30min, saves 4h",
+    "tags": [
+      "user-research",
+      "persona",
+      "ux",
+      "product",
+      "customer-insights",
       "ROI-8.5",
       "community"
     ],

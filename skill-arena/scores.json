@@ -4081,6 +4081,17 @@
     "total": 7.5
   },
   {
+    "id": "brand-messaging-framework",
+    "path": "./community/brand-messaging-framework/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
     "id": "contract-risk-highlighter",
     "path": "./community/contract-risk-highlighter/SKILL.md",
     "cluster": "business-legal",
@@ -4129,6 +4140,28 @@
     "path": "./community/onboarding-checklist-generator/SKILL.md",
     "cluster": "business-clevel",
     "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "persuasion-framework",
+    "path": "./community/persuasion-framework/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "strategy-consulting-framework",
+    "path": "./community/strategy-consulting-framework/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 9,
@@ -5511,6 +5544,17 @@
     "total": 7.0
   },
   {
+    "id": "data-storytelling-framework",
+    "path": "./community/data-storytelling-framework/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.0
+  },
+  {
     "id": "interview-scorecard-generator",
     "path": "./community/interview-scorecard-generator/SKILL.md",
     "cluster": "business-hr",
@@ -6025,6 +6069,28 @@
     "doc_quality": 6,
     "func_clarity": 7,
     "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "retail-merchandising-planner",
+    "path": "./community/retail-merchandising-planner/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 6.5
+  },
+  {
+    "id": "user-persona-generator",
+    "path": "./community/user-persona-generator/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 6.5
   },
   {
