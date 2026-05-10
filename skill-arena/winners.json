@@ -209,7 +209,7 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "\"agent-protocol\"",
-    "total_contestants": 53,
+    "total_contestants": 55,
     "defeated": [
       "\"agent-protocol\"",
       "\"strategic-alignment\"",
@@ -320,7 +320,7 @@
     "winner": "\"chief-of-staff\"",
     "score": 8.8,
     "runner_up": "\"cto-advisor\"",
-    "total_contestants": 22,
+    "total_contestants": 24,
     "defeated": [
       "\"cto-advisor\"",
       "saas-metrics-coach",

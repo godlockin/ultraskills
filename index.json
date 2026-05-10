@@ -4,7 +4,7 @@
     "updated_at": "2026-05-10",
     "arena_version": "1.0.0",
     "arena_updated_at": "2026-05-10",
-    "total_skills": 686,
+    "total_skills": 690,
     "total_clusters": 54,
     "avg_arena_score": 7.39,
     "total_winners": 54
@@ -1615,6 +1615,62 @@
       "version": "1.0.0"
     },
     {
+      "id": "onboarding-checklist-generator",
+      "name": "onboarding-checklist-generator",
+      "path": "./community/onboarding-checklist-generator/SKILL.md",
+      "description": "Employee onboarding checklist generator - 15min per hire, saves 2h",
+      "tags": [
+        "hr",
+        "onboarding",
+        "employee-experience",
+        "people-ops",
+        "ROI-7.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-clevel",
+        "cluster_name": "商业·高管顾问",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 19,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "unit-economics-calculator",
+      "name": "unit-economics-calculator",
+      "path": "./community/unit-economics-calculator/SKILL.md",
+      "description": "Unit economics calculator - CAC payback, LTV:CAC, burn multiple in 30min",
+      "tags": [
+        "finance",
+        "unit-economics",
+        "saas-metrics",
+        "cac",
+        "ltv",
+        "burn-rate",
+        "ROI-8.5",
+        "community"
+      ],
+      "arena": {
+        "cluster": "business-clevel",
+        "cluster_name": "商业·高管顾问",
+        "score": 7.5,
+        "doc_quality": 6,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 20,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "\"ma-playbook\"",
       "name": "\"ma-playbook\"",
       "path": "./external/claude-skills/c-level-advisor/skills/ma-playbook/SKILL.md",
@@ -1630,7 +1686,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 19,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -1652,7 +1708,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 20,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -1674,7 +1730,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -1695,7 +1751,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 22,
+        "rank": 24,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12771,6 +12827,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "crisis-comms-playbook",
+      "name": "crisis-comms-playbook",
+      "path": "./community/crisis-comms-playbook/SKILL.md",
+      "description": "Crisis communications playbook - 1-hour response framework saves 8h chaos",
+      "tags": [
+        "pr",
+        "crisis-management",
+        "communications",
+        "media",
+        "public-relations",
+        "ROI-9.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.5,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 7,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "sop-writer",
       "name": "sop-writer",
       "path": "./community/sop-writer/SKILL.md",
@@ -12791,7 +12875,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12813,7 +12897,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12841,7 +12925,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12869,7 +12953,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12891,7 +12975,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12913,7 +12997,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -12935,7 +13019,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12956,7 +13040,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12977,7 +13061,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -12998,7 +13082,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13019,7 +13103,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13040,7 +13124,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13061,7 +13145,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13082,7 +13166,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13103,7 +13187,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 22,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13124,7 +13208,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 23,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13145,7 +13229,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 23,
+        "rank": 24,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13167,7 +13251,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 25,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13188,7 +13272,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 26,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13209,7 +13293,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 27,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13230,7 +13314,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 28,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13251,10 +13335,37 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 29,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
+    },
+    {
+      "id": "content-calendar-generator",
+      "name": "content-calendar-generator",
+      "path": "./community/content-calendar-generator/SKILL.md",
+      "description": "Content calendar generator - 3-month editorial plan in 20min",
+      "tags": [
+        "content-marketing",
+        "content-calendar",
+        "editorial",
+        "planning",
+        "ROI-8.0",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.0,
+        "doc_quality": 5,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 30,
+        "test_date": "2026-05-10",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
     },
     {
       "id": "product-discovery",
@@ -13272,7 +13383,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 31,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13293,7 +13404,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 30,
+        "rank": 32,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13315,7 +13426,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 33,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13336,7 +13447,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 32,
+        "rank": 34,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13360,7 +13471,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 33,
+        "rank": 35,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13382,7 +13493,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 34,
+        "rank": 36,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13404,7 +13515,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 35,
+        "rank": 37,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13426,7 +13537,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 36,
+        "rank": 38,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13447,7 +13558,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 37,
+        "rank": 39,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13468,7 +13579,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 38,
+        "rank": 40,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13490,7 +13601,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 39,
+        "rank": 41,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13512,7 +13623,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 40,
+        "rank": 42,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13534,7 +13645,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 41,
+        "rank": 43,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13556,7 +13667,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 42,
+        "rank": 44,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13578,7 +13689,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 43,
+        "rank": 45,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13600,7 +13711,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 44,
+        "rank": 46,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13622,7 +13733,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 45,
+        "rank": 47,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13643,7 +13754,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 46,
+        "rank": 48,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13668,7 +13779,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 47,
+        "rank": 49,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13690,7 +13801,7 @@
         "func_clarity": 4,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 48,
+        "rank": 50,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13712,7 +13823,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 49,
+        "rank": 51,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13733,7 +13844,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 50,
+        "rank": 52,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13754,7 +13865,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 51,
+        "rank": 53,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       }
@@ -13775,7 +13886,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 52,
+        "rank": 54,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },
@@ -13797,7 +13908,7 @@
         "func_clarity": 6,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 53,
+        "rank": 55,
         "test_date": "2026-05-10",
         "test_version": "1.0.0"
       },

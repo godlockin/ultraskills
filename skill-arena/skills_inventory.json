@@ -199,6 +199,21 @@
     "github_url": ""
   },
   {
+    "id": "content-calendar-generator",
+    "path": "./community/content-calendar-generator/SKILL.md",
+    "description": "Content calendar generator - 3-month editorial plan in 20min",
+    "tags": [
+      "content-marketing",
+      "content-calendar",
+      "editorial",
+      "planning",
+      "ROI-8.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "context-compression",
     "path": "./community/context-compression/SKILL.md",
     "description": "This skill should be used when the user asks to \"compress context\", \"summarize conversation history\", \"implement compaction\", \"reduce token usage\", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.",
@@ -265,6 +280,22 @@
       "learning",
       "edtech",
       "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "crisis-comms-playbook",
+    "path": "./community/crisis-comms-playbook/SKILL.md",
+    "description": "Crisis communications playbook - 1-hour response framework saves 8h chaos",
+    "tags": [
+      "pr",
+      "crisis-management",
+      "communications",
+      "media",
+      "public-relations",
+      "ROI-9.0",
       "community"
     ],
     "version": "1.0.0",
@@ -1471,6 +1502,21 @@
     "github_url": ""
   },
   {
+    "id": "onboarding-checklist-generator",
+    "path": "./community/onboarding-checklist-generator/SKILL.md",
+    "description": "Employee onboarding checklist generator - 15min per hire, saves 2h",
+    "tags": [
+      "hr",
+      "onboarding",
+      "employee-experience",
+      "people-ops",
+      "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "pdf",
     "path": "./community/pdf/SKILL.md",
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
@@ -1909,6 +1955,23 @@
     ],
     "version": "2.0.0",
     "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  {
+    "id": "unit-economics-calculator",
+    "path": "./community/unit-economics-calculator/SKILL.md",
+    "description": "Unit economics calculator - CAC payback, LTV:CAC, burn multiple in 30min",
+    "tags": [
+      "finance",
+      "unit-economics",
+      "saas-metrics",
+      "cac",
+      "ltv",
+      "burn-rate",
+      "ROI-8.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
   },
   {
     "id": "using-git-worktrees",

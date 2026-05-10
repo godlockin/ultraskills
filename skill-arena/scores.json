@@ -1331,6 +1331,17 @@
     "total": 8.5
   },
   {
+    "id": "crisis-comms-playbook",
+    "path": "./community/crisis-comms-playbook/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "evaluation",
     "path": "./community/evaluation/SKILL.md",
     "cluster": "agent-eval",
@@ -4092,6 +4103,28 @@
     "total": 7.5
   },
   {
+    "id": "onboarding-checklist-generator",
+    "path": "./community/onboarding-checklist-generator/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "unit-economics-calculator",
+    "path": "./community/unit-economics-calculator/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
     "id": "autoresearch:analyze",
     "path": "./engineering/autoresearch/analyze/SKILL.md",
     "cluster": "education",
@@ -5443,6 +5476,17 @@
     "func_clarity": 8,
     "maintainability": 9,
     "total": 7.2
+  },
+  {
+    "id": "content-calendar-generator",
+    "path": "./community/content-calendar-generator/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.0
   },
   {
     "id": "interview-scorecard-generator",
