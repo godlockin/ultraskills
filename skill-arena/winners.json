@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 12,
+    "total_contestants": 14,
     "defeated": [
       "visual-forge",
       "baoyu-markdown-to-html",
@@ -282,6 +282,21 @@
       "digital-brain",
       "\"board-meeting\"",
       "\"c-level-advisor\""
+    ]
+  },
+  {
+    "cluster": "business-finance",
+    "cluster_name": "商业·财务",
+    "winner": "comps-analysis",
+    "score": 8.8,
+    "runner_up": "datapack-builder",
+    "total_contestants": 54,
+    "defeated": [
+      "datapack-builder",
+      "dcf-model",
+      "earnings-analysis",
+      "initiating-coverage",
+      "lbo-model"
     ]
   },
   {
@@ -747,17 +762,6 @@
       "salesforce-developer",
       "shopify-expert",
       "wordpress-pro"
-    ]
-  },
-  {
-    "cluster": "business-finance",
-    "cluster_name": "商业·财务",
-    "winner": "\"financial-analyst\"",
-    "score": 6.8,
-    "runner_up": "hv-analysis",
-    "total_contestants": 2,
-    "defeated": [
-      "hv-analysis"
     ]
   },
   {
