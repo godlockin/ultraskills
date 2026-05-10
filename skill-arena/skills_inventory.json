@@ -255,6 +255,22 @@
     "github_url": ""
   },
   {
+    "id": "course-outline-generator",
+    "path": "./community/course-outline-generator/SKILL.md",
+    "description": "Course outline generator - structures learning content in 30min, saves 4h",
+    "tags": [
+      "education",
+      "training",
+      "course-design",
+      "learning",
+      "edtech",
+      "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "customer-health-scorecard",
     "path": "./community/customer-health-scorecard/SKILL.md",
     "description": "Customer health scorecard generator - visual QBR-ready reports in 30min",
@@ -1439,6 +1455,22 @@
     "github_url": ""
   },
   {
+    "id": "okr-alignment-checker",
+    "path": "./community/okr-alignment-checker/SKILL.md",
+    "description": "OKR alignment validator - checks goal cascading in 10min, saves 2h quarterly",
+    "tags": [
+      "okr",
+      "goals",
+      "strategy",
+      "planning",
+      "alignment",
+      "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
     "id": "pdf",
     "path": "./community/pdf/SKILL.md",
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
@@ -1690,6 +1722,21 @@
     "path": "./community/slack-gif-creator/SKILL.md",
     "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "sop-writer",
+    "path": "./community/sop-writer/SKILL.md",
+    "description": "SOP (Standard Operating Procedure) generator - documents processes in 15min, saves 3h",
+    "tags": [
+      "operations",
+      "sop",
+      "process-documentation",
+      "knowledge-management",
+      "ROI-8.5",
       "community"
     ],
     "version": "1.0.0",
@@ -2027,6 +2074,21 @@
     "path": "./community/xlsx/SKILL.md",
     "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\"",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": ""
+  },
+  {
+    "id": "youtube-script-optimizer",
+    "path": "./community/youtube-script-optimizer/SKILL.md",
+    "description": "YouTube script optimizer - hooks, pacing, CTA in 20min, saves 2h",
+    "tags": [
+      "content-creation",
+      "youtube",
+      "video-scripts",
+      "copywriting",
+      "ROI-8.0",
       "community"
     ],
     "version": "1.0.0",

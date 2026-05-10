@@ -1397,6 +1397,17 @@
     "total": 8.5
   },
   {
+    "id": "sop-writer",
+    "path": "./community/sop-writer/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "spreadsheet-formula-helper",
     "path": "./community/spreadsheet-formula-helper/SKILL.md",
     "cluster": "content-presentation",
@@ -2365,6 +2376,17 @@
     "total": 8.0
   },
   {
+    "id": "okr-alignment-checker",
+    "path": "./community/okr-alignment-checker/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "pdf",
     "path": "./community/pdf/SKILL.md",
     "cluster": "content-doc",
@@ -2424,6 +2446,17 @@
     "path": "./community/video-translate/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "youtube-script-optimizer",
+    "path": "./community/youtube-script-optimizer/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 9,
@@ -4030,6 +4063,17 @@
     "path": "./community/contract-risk-highlighter/SKILL.md",
     "cluster": "business-legal",
     "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "course-outline-generator",
+    "path": "./community/course-outline-generator/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 9,
