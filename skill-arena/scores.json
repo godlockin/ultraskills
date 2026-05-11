@@ -55,6 +55,17 @@
     "total": 9.5
   },
   {
+    "id": "gstack-openclaw-retro",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "learn-from-loss",
     "path": "./community/learn-from-loss/SKILL.md",
     "cluster": "business-pm",
@@ -66,11 +77,22 @@
     "total": 9.5
   },
   {
+    "id": "planning-with-files",
+    "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "playwright-media-sniffer",
     "path": "./community/playwright-media-sniffer/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 9,
     "maintainability": 9,
@@ -154,6 +176,17 @@
     "total": 9.0
   },
   {
+    "id": "gstack-openclaw-ceo-review",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "improve-codebase-architecture",
     "path": "./community/improve-codebase-architecture/SKILL.md",
     "cluster": "engineering-code",
@@ -214,6 +247,61 @@
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "planning-with-files-ar",
+    "path": "./community/planning-with-files/skills/planning-with-files-ar/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "planning-with-files-de",
+    "path": "./community/planning-with-files/skills/planning-with-files-de/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "planning-with-files-es",
+    "path": "./community/planning-with-files/skills/planning-with-files-es/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "planning-with-files-zh",
+    "path": "./community/planning-with-files/skills/planning-with-files-zh/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "planning-with-files-zht",
+    "path": "./community/planning-with-files/skills/planning-with-files-zht/SKILL.md",
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -422,17 +510,6 @@
     "path": "./community/multi-agent-patterns/SKILL.md",
     "cluster": "agent-arch",
     "cluster_name": "Agent·架构",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "planning-with-files",
-    "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
     "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
@@ -1298,6 +1375,28 @@
     "total": 8.5
   },
   {
+    "id": "gstack-openclaw-investigate",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "gstack-openclaw-office-hours",
+    "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "karpathy-guidelines",
     "path": "./community/karpathy-guidelines/SKILL.md",
     "cluster": "engineering-code",
@@ -1500,61 +1599,6 @@
     "path": "./community/hosted-agents/SKILL.md",
     "cluster": "agent-hosted",
     "cluster_name": "Agent·托管运行",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "planning-with-files-ar",
-    "path": "./community/planning-with-files/skills/planning-with-files-ar/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "planning-with-files-de",
-    "path": "./community/planning-with-files/skills/planning-with-files-de/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "planning-with-files-es",
-    "path": "./community/planning-with-files/skills/planning-with-files-es/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "planning-with-files-zh",
-    "path": "./community/planning-with-files/skills/planning-with-files-zh/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "planning-with-files-zht",
-    "path": "./community/planning-with-files/skills/planning-with-files-zht/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 8,
@@ -2362,17 +2406,6 @@
     "doc_quality": 8,
     "func_clarity": 8,
     "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "gstack-openclaw-retro",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 6,
-    "maintainability": 5,
     "total": 7.8
   },
   {
@@ -3817,6 +3850,17 @@
     "total": 7.5
   },
   {
+    "id": "md-renderer",
+    "path": "./community/md-renderer/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
     "id": "onboarding-checklist-generator",
     "path": "./community/onboarding-checklist-generator/SKILL.md",
     "cluster": "business-clevel",
@@ -3957,17 +4001,6 @@
     "doc_quality": 7,
     "func_clarity": 8,
     "maintainability": 7,
-    "total": 7.3
-  },
-  {
-    "id": "gstack-openclaw-ceo-review",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
     "total": 7.3
   },
   {
@@ -5159,6 +5192,138 @@
     "total": 7.2
   },
   {
+    "id": "context-save",
+    "path": "./community/gstack/context-save/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "design-consultation",
+    "path": "./community/gstack/design-consultation/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "design-review",
+    "path": "./community/gstack/design-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "devex-review",
+    "path": "./community/gstack/devex-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "document-release",
+    "path": "./community/gstack/document-release/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "office-hours",
+    "path": "./community/gstack/office-hours/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "plan-ceo-review",
+    "path": "./community/gstack/plan-ceo-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "plan-design-review",
+    "path": "./community/gstack/plan-design-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "plan-devex-review",
+    "path": "./community/gstack/plan-devex-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "plan-eng-review",
+    "path": "./community/gstack/plan-eng-review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "plan-tune",
+    "path": "./community/gstack/plan-tune/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
+    "id": "qa-only",
+    "path": "./community/gstack/qa-only/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.2
+  },
+  {
     "id": "\"image-to-video\"",
     "path": "./community/image-to-video/SKILL.md",
     "cluster": "content-video",
@@ -5225,6 +5390,127 @@
     "total": 7.0
   },
   {
+    "id": "gstack",
+    "path": "./community/gstack/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "autoplan",
+    "path": "./community/gstack/autoplan/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "browse",
+    "path": "./community/gstack/browse/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "codex",
+    "path": "./community/gstack/codex/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "cso",
+    "path": "./community/gstack/cso/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "health",
+    "path": "./community/gstack/health/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "retro",
+    "path": "./community/gstack/retro/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "review",
+    "path": "./community/gstack/review/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "scrape",
+    "path": "./community/gstack/scrape/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "ship",
+    "path": "./community/gstack/ship/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
+    "id": "skillify",
+    "path": "./community/gstack/skillify/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.9
+  },
+  {
     "id": "\"gemini-image-optimizer\"",
     "path": "./community/gemini-image-optimizer/SKILL.md",
     "cluster": "content-image",
@@ -5233,28 +5519,6 @@
     "doc_quality": 6,
     "func_clarity": 8,
     "maintainability": 7,
-    "total": 6.8
-  },
-  {
-    "id": "gstack-openclaw-investigate",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "gstack-openclaw-office-hours",
-    "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
     "total": 6.8
   },
   {
@@ -5555,6 +5819,160 @@
     "total": 6.7
   },
   {
+    "id": "benchmark-models",
+    "path": "./community/gstack/benchmark-models/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "context-restore",
+    "path": "./community/gstack/context-restore/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "design-html",
+    "path": "./community/gstack/design-html/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "design-shotgun",
+    "path": "./community/gstack/design-shotgun/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "gstack-upgrade",
+    "path": "./community/gstack/gstack-upgrade/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "land-and-deploy",
+    "path": "./community/gstack/land-and-deploy/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "landing-report",
+    "path": "./community/gstack/landing-report/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "make-pdf",
+    "path": "./community/gstack/make-pdf/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "open-gstack-browser",
+    "path": "./community/gstack/open-gstack-browser/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "pair-agent",
+    "path": "./community/gstack/pair-agent/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "setup-browser-cookies",
+    "path": "./community/gstack/setup-browser-cookies/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "setup-deploy",
+    "path": "./community/gstack/setup-deploy/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "setup-gbrain",
+    "path": "./community/gstack/setup-gbrain/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
+    "id": "sync-gbrain",
+    "path": "./community/gstack/sync-gbrain/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 6.7
+  },
+  {
     "id": "customer-health-scorecard",
     "path": "./community/customer-health-scorecard/SKILL.md",
     "cluster": "engineering-qa",
@@ -5566,135 +5984,14 @@
     "total": 6.5
   },
   {
-    "id": "context-save",
-    "path": "./community/gstack/context-save/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
+    "id": "hackernews-frontpage",
+    "path": "./community/gstack/browser-skills/hackernews-frontpage/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
     "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "design-consultation",
-    "path": "./community/gstack/design-consultation/SKILL.md",
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "design-review",
-    "path": "./community/gstack/design-review/SKILL.md",
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "devex-review",
-    "path": "./community/gstack/devex-review/SKILL.md",
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "document-release",
-    "path": "./community/gstack/document-release/SKILL.md",
-    "cluster": "content-writing",
-    "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "office-hours",
-    "path": "./community/gstack/office-hours/SKILL.md",
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "plan-ceo-review",
-    "path": "./community/gstack/plan-ceo-review/SKILL.md",
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "plan-design-review",
-    "path": "./community/gstack/plan-design-review/SKILL.md",
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "plan-devex-review",
-    "path": "./community/gstack/plan-devex-review/SKILL.md",
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "plan-eng-review",
-    "path": "./community/gstack/plan-eng-review/SKILL.md",
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "plan-tune",
-    "path": "./community/gstack/plan-tune/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.5
-  },
-  {
-    "id": "qa-only",
-    "path": "./community/gstack/qa-only/SKILL.md",
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 7,
-    "maintainability": 7,
+    "doc_quality": 4,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 6.5
   },
   {
@@ -5751,6 +6048,61 @@
     "func_clarity": 7,
     "maintainability": 7,
     "total": 6.5
+  },
+  {
+    "id": "benchmark",
+    "path": "./community/gstack/benchmark/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.4
+  },
+  {
+    "id": "canary",
+    "path": "./community/gstack/canary/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.4
+  },
+  {
+    "id": "investigate",
+    "path": "./community/gstack/investigate/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.4
+  },
+  {
+    "id": "learn",
+    "path": "./community/gstack/learn/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 6.4
+  },
+  {
+    "id": "qa",
+    "path": "./community/gstack/qa/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 9,
+    "total": 6.3
   },
   {
     "id": "pptx-author",
@@ -5863,127 +6215,6 @@
     "total": 6.3
   },
   {
-    "id": "gstack",
-    "path": "./community/gstack/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "autoplan",
-    "path": "./community/gstack/autoplan/SKILL.md",
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "browse",
-    "path": "./community/gstack/browse/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "codex",
-    "path": "./community/gstack/codex/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "cso",
-    "path": "./community/gstack/cso/SKILL.md",
-    "cluster": "engineering-security",
-    "cluster_name": "工程·安全",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "health",
-    "path": "./community/gstack/health/SKILL.md",
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "retro",
-    "path": "./community/gstack/retro/SKILL.md",
-    "cluster": "business-pm",
-    "cluster_name": "商业·项目管理",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "review",
-    "path": "./community/gstack/review/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "scrape",
-    "path": "./community/gstack/scrape/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "ship",
-    "path": "./community/gstack/ship/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
-    "id": "skillify",
-    "path": "./community/gstack/skillify/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 6.2
-  },
-  {
     "id": "image-analyzer",
     "path": "./community/image-analyzer/SKILL.md",
     "cluster": "content-image",
@@ -6028,160 +6259,6 @@
     "total": 6.2
   },
   {
-    "id": "benchmark-models",
-    "path": "./community/gstack/benchmark-models/SKILL.md",
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "context-restore",
-    "path": "./community/gstack/context-restore/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "design-html",
-    "path": "./community/gstack/design-html/SKILL.md",
-    "cluster": "engineering-frontend",
-    "cluster_name": "工程·前端",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "design-shotgun",
-    "path": "./community/gstack/design-shotgun/SKILL.md",
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "gstack-upgrade",
-    "path": "./community/gstack/gstack-upgrade/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "land-and-deploy",
-    "path": "./community/gstack/land-and-deploy/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "landing-report",
-    "path": "./community/gstack/landing-report/SKILL.md",
-    "cluster": "data",
-    "cluster_name": "数据·分析",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "make-pdf",
-    "path": "./community/gstack/make-pdf/SKILL.md",
-    "cluster": "content-doc",
-    "cluster_name": "内容·文档生成",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "open-gstack-browser",
-    "path": "./community/gstack/open-gstack-browser/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "pair-agent",
-    "path": "./community/gstack/pair-agent/SKILL.md",
-    "cluster": "agent-hosted",
-    "cluster_name": "Agent·托管运行",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "setup-browser-cookies",
-    "path": "./community/gstack/setup-browser-cookies/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "setup-deploy",
-    "path": "./community/gstack/setup-deploy/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "setup-gbrain",
-    "path": "./community/gstack/setup-gbrain/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
-    "id": "sync-gbrain",
-    "path": "./community/gstack/sync-gbrain/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 6.0
-  },
-  {
     "id": "playground",
     "path": "./external/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
     "cluster": "misc",
@@ -6193,15 +6270,15 @@
     "total": 6.0
   },
   {
-    "id": "hackernews-frontpage",
-    "path": "./community/gstack/browser-skills/hackernews-frontpage/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
+    "id": "careful",
+    "path": "./community/gstack/careful/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
     "is_winner": false,
     "doc_quality": 4,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 5.8
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 5.9
   },
   {
     "id": "huashu-agent-swarm",
@@ -6237,50 +6314,6 @@
     "total": 5.8
   },
   {
-    "id": "benchmark",
-    "path": "./community/gstack/benchmark/SKILL.md",
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 5.7
-  },
-  {
-    "id": "canary",
-    "path": "./community/gstack/canary/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 5.7
-  },
-  {
-    "id": "investigate",
-    "path": "./community/gstack/investigate/SKILL.md",
-    "cluster": "engineering-debug",
-    "cluster_name": "工程·调试",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 5.7
-  },
-  {
-    "id": "learn",
-    "path": "./community/gstack/learn/SKILL.md",
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 5.7
-  },
-  {
     "id": "fact-checker",
     "path": "./external/fact-checker/SKILL.md",
     "cluster": "misc",
@@ -6301,17 +6334,6 @@
     "func_clarity": 8,
     "maintainability": 9,
     "total": 5.7
-  },
-  {
-    "id": "qa",
-    "path": "./community/gstack/qa/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 4,
-    "maintainability": 7,
-    "total": 5.6
   },
   {
     "id": "dynamic-expert-group",
@@ -6611,6 +6633,28 @@
     "total": 5.5
   },
   {
+    "id": "freeze",
+    "path": "./community/gstack/freeze/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 5.4
+  },
+  {
+    "id": "guard",
+    "path": "./community/gstack/guard/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 5.4
+  },
+  {
     "id": "dbs-chatroom",
     "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
     "cluster": "agent-agenthub",
@@ -6681,17 +6725,6 @@
     "path": "./community/caveman/SKILL.md",
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 4,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 5.2
-  },
-  {
-    "id": "careful",
-    "path": "./community/gstack/careful/SKILL.md",
-    "cluster": "engineering-debug",
-    "cluster_name": "工程·调试",
     "is_winner": false,
     "doc_quality": 4,
     "func_clarity": 6,
@@ -6930,6 +6963,17 @@
     "total": 5.0
   },
   {
+    "id": "unfreeze",
+    "path": "./community/gstack/unfreeze/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 7,
+    "maintainability": 9,
+    "total": 4.9
+  },
+  {
     "id": "huashu-info-search",
     "path": "./external/huashu-skills/huashu-info-search/SKILL.md",
     "cluster": "education",
@@ -6939,28 +6983,6 @@
     "func_clarity": 6,
     "maintainability": 5,
     "total": 4.8
-  },
-  {
-    "id": "freeze",
-    "path": "./community/gstack/freeze/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 3,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 4.7
-  },
-  {
-    "id": "guard",
-    "path": "./community/gstack/guard/SKILL.md",
-    "cluster": "engineering-debug",
-    "cluster_name": "工程·调试",
-    "is_winner": false,
-    "doc_quality": 3,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 4.7
   },
   {
     "id": "videocut:安装",
@@ -7082,17 +7104,6 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 4.5
-  },
-  {
-    "id": "unfreeze",
-    "path": "./community/gstack/unfreeze/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 2,
-    "func_clarity": 6,
-    "maintainability": 7,
-    "total": 4.2
   },
   {
     "id": "compress",

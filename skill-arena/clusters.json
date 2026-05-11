@@ -1,68 +1,64 @@
 [
   {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 59,
-    "winner": "objection-handler",
+    "id": "skills-browser",
+    "name": "Skills·浏览器",
+    "skill_count": 55,
+    "winner": "gstack-openclaw-retro",
     "skills": [
-      "objection-handler",
-      "\"agent-protocol\"",
-      "\"strategic-alignment\"",
-      "co-marketing",
-      "competitor-profiling",
-      "directory-submissions",
-      "crisis-comms-playbook",
-      "sop-writer",
-      "\"cpo-advisor\"",
-      "okr-alignment-checker",
-      "pitch-deck-critic",
-      "image",
-      "\"context-engine\"",
-      "\"full-page-screenshot\"",
-      "\"agile-product-owner\"",
-      "\"landing-page-generator\"",
-      "\"product-manager-toolkit\"",
-      "\"product-strategist\"",
-      "\"saas-scaffolder\"",
-      "spec-to-repo",
-      "\"ui-design-system\"",
-      "\"confluence-expert\"",
-      "\"senior-pm\"",
-      "brand-messaging-framework",
-      "strategy-consulting-framework",
-      "apple-hig-expert",
-      "\"competitive-teardown\"",
-      "experiment-designer",
-      "\"atlassian-templates\"",
-      "\"jira-expert\"",
-      "meeting-analyzer",
-      "content-calendar-generator",
-      "data-storytelling-framework",
-      "product-discovery",
-      "\"product-skills\"",
-      "\"atlassian-admin\"",
-      "\"pm-skills\"",
-      "generalist-expert",
+      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
+      "gstack-openclaw-ceo-review",
+      "gstack-openclaw-investigate",
+      "gstack-openclaw-office-hours",
+      "\"playwright-pro\"",
+      "\"browser-automation\"",
+      "playwright-expert",
       "context-save",
+      "design-consultation",
+      "design-review",
+      "devex-review",
+      "document-release",
+      "office-hours",
+      "plan-ceo-review",
+      "plan-design-review",
+      "plan-devex-review",
+      "plan-eng-review",
       "plan-tune",
-      "retail-merchandising-planner",
-      "aihot",
-      "team-communications",
+      "qa-only",
+      "gstack",
+      "autoplan",
+      "browse",
       "codex",
+      "cso",
+      "health",
+      "retro",
       "review",
       "scrape",
+      "ship",
       "skillify",
+      "benchmark-models",
       "context-restore",
+      "design-html",
+      "design-shotgun",
+      "gstack-upgrade",
+      "land-and-deploy",
+      "landing-report",
+      "make-pdf",
+      "open-gstack-browser",
+      "pair-agent",
+      "setup-browser-cookies",
+      "setup-deploy",
       "setup-gbrain",
       "sync-gbrain",
-      "playground",
       "hackernews-frontpage",
-      "fact-checker",
+      "benchmark",
+      "canary",
+      "investigate",
+      "learn",
       "qa",
-      "\"status\"",
-      "neat-freak",
-      "\"command-guide\"",
+      "careful",
       "freeze",
+      "guard",
       "unfreeze"
     ]
   },
@@ -126,6 +122,61 @@
       "variance-commentary",
       "\"financial-analyst\"",
       "hv-analysis"
+    ]
+  },
+  {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 47,
+    "winner": "objection-handler",
+    "skills": [
+      "objection-handler",
+      "\"agent-protocol\"",
+      "\"strategic-alignment\"",
+      "co-marketing",
+      "competitor-profiling",
+      "directory-submissions",
+      "crisis-comms-playbook",
+      "sop-writer",
+      "\"cpo-advisor\"",
+      "okr-alignment-checker",
+      "pitch-deck-critic",
+      "image",
+      "\"context-engine\"",
+      "\"full-page-screenshot\"",
+      "\"agile-product-owner\"",
+      "\"landing-page-generator\"",
+      "\"product-manager-toolkit\"",
+      "\"product-strategist\"",
+      "\"saas-scaffolder\"",
+      "spec-to-repo",
+      "\"ui-design-system\"",
+      "\"confluence-expert\"",
+      "\"senior-pm\"",
+      "brand-messaging-framework",
+      "md-renderer",
+      "strategy-consulting-framework",
+      "apple-hig-expert",
+      "\"competitive-teardown\"",
+      "experiment-designer",
+      "\"atlassian-templates\"",
+      "\"jira-expert\"",
+      "meeting-analyzer",
+      "content-calendar-generator",
+      "data-storytelling-framework",
+      "product-discovery",
+      "\"product-skills\"",
+      "\"atlassian-admin\"",
+      "\"pm-skills\"",
+      "generalist-expert",
+      "retail-merchandising-planner",
+      "aihot",
+      "team-communications",
+      "playground",
+      "fact-checker",
+      "\"status\"",
+      "neat-freak",
+      "\"command-guide\""
     ]
   },
   {
@@ -203,37 +254,37 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "monitoring-expert",
-          "feature-forge",
-          "spec-miner",
           "sre-engineer",
-          "legacy-modernizer"
+          "spec-miner",
+          "feature-forge",
+          "legacy-modernizer",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "spark-engineer",
         "skills": [
-          "database-optimizer",
-          "sql-pro",
-          "pandas-pro",
+          "spark-engineer",
           "postgres-pro",
-          "spark-engineer"
+          "pandas-pro",
+          "database-optimizer",
+          "sql-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "websocket-engineer",
+        "winner": "cli-developer",
         "skills": [
-          "websocket-engineer",
           "cli-developer",
           "chaos-engineer",
+          "mcp-developer",
           "embedded-systems",
-          "mcp-developer"
+          "websocket-engineer"
         ]
       },
       {
@@ -250,10 +301,10 @@
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -319,10 +370,10 @@
         "skills": [
           "\"cto-advisor\"",
           "\"coo-advisor\"",
-          "\"cmo-advisor\"",
-          "\"chro-advisor\"",
+          "\"ceo-advisor\"",
           "\"cfo-advisor\"",
-          "\"ceo-advisor\""
+          "\"cmo-advisor\"",
+          "\"chro-advisor\""
         ]
       },
       {
@@ -404,16 +455,16 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-danger-x-to-markdown",
+        "winner": "baoyu-post-to-wechat",
         "skills": [
-          "baoyu-danger-x-to-markdown",
-          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
+          "baoyu-format-markdown",
+          "baoyu-danger-x-to-markdown",
           "baoyu-translate",
-          "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
-          "baoyu-post-to-x",
+          "baoyu-url-to-markdown",
           "baoyu-youtube-transcript",
+          "baoyu-post-to-x",
           "baoyu-post-to-weibo"
         ]
       },
@@ -426,9 +477,9 @@
           "baoyu-xhs-images",
           "social-content",
           "huashu-article-to-x",
-          "huashu-xhs-image",
           "x-mastery-mentor",
           "huashu-wechat-image",
+          "huashu-xhs-image",
           "huashu-topic-gen",
           "khazix-writer"
         ]
@@ -494,9 +545,9 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "skill-sync-manager",
-          "\"github-skill-scout\"",
           "skill-manager",
+          "\"github-skill-scout\"",
+          "skill-sync-manager",
           "skill-evolution-manager"
         ]
       },
@@ -516,14 +567,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "command-development",
+        "winner": "hook-development",
         "skills": [
-          "command-development",
-          "plugin-structure",
           "hook-development",
+          "plugin-structure",
           "plugin-settings",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "command-development",
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -570,125 +621,6 @@
       "huashu-douyin-script",
       "videocut:安装",
       "videocut:自进化"
-    ]
-  },
-  {
-    "id": "engineering-devops",
-    "name": "工程·DevOps",
-    "skill_count": 21,
-    "winner": "\"docker-development\"",
-    "skills": [
-      "\"docker-development\"",
-      "\"terraform-patterns\"",
-      "\"google-workspace-cli\"",
-      "\"aws-solution-architect\"",
-      "\"azure-cloud-architect\"",
-      "\"gcp-cloud-architect\"",
-      "\"incident-response\"",
-      "\"ms365-tenant-manager\"",
-      "\"helm-chart-builder\"",
-      "terraform-engineer",
-      "\"senior-devops\"",
-      "\"release-manager\"",
-      "devops-engineer",
-      "kubernetes-specialist",
-      "ship",
-      "land-and-deploy",
-      "setup-deploy",
-      "canary",
-      "\"incident-commander\"",
-      "\"observability-designer\"",
-      "\"git-worktree-manager\""
-    ],
-    "subclusters": [
-      {
-        "id": "engineering-devops-cloud",
-        "name": "云平台架构",
-        "skill_count": 6,
-        "winner": "\"terraform-patterns\"",
-        "skills": [
-          "\"terraform-patterns\"",
-          "\"helm-chart-builder\"",
-          "\"gcp-cloud-architect\"",
-          "\"azure-cloud-architect\"",
-          "terraform-engineer",
-          "\"aws-solution-architect\""
-        ]
-      },
-      {
-        "id": "engineering-devops-container",
-        "name": "容器 & K8s",
-        "skill_count": 2,
-        "winner": "\"docker-development\"",
-        "skills": [
-          "\"docker-development\"",
-          "kubernetes-specialist"
-        ]
-      },
-      {
-        "id": "engineering-devops-cicd",
-        "name": "CI/CD & 部署",
-        "skill_count": 7,
-        "winner": "devops-engineer",
-        "skills": [
-          "devops-engineer",
-          "\"release-manager\"",
-          "\"senior-devops\"",
-          "ship",
-          "land-and-deploy",
-          "setup-deploy",
-          "canary"
-        ]
-      },
-      {
-        "id": "engineering-devops-observ",
-        "name": "可观测性 & 事故响应",
-        "skill_count": 3,
-        "winner": "\"incident-response\"",
-        "skills": [
-          "\"incident-response\"",
-          "\"incident-commander\"",
-          "\"observability-designer\""
-        ]
-      },
-      {
-        "id": "engineering-devops-workspace",
-        "name": "工作区管理",
-        "skill_count": 3,
-        "winner": "\"google-workspace-cli\"",
-        "skills": [
-          "\"google-workspace-cli\"",
-          "\"ms365-tenant-manager\"",
-          "\"git-worktree-manager\""
-        ]
-      }
-    ]
-  },
-  {
-    "id": "content-writing",
-    "name": "内容·写作",
-    "skill_count": 19,
-    "winner": "doc-coauthoring",
-    "skills": [
-      "doc-coauthoring",
-      "\"customer-success-manager\"",
-      "\"content-production\"",
-      "copy-editing",
-      "\"content-humanizer\"",
-      "support-ticket-triage",
-      "youtube-script-optimizer",
-      "copywriting",
-      "persuasion-framework",
-      "internal-comms",
-      "\"content-creator\"",
-      "blessing-styles",
-      "document-release",
-      "huashu-proofreading",
-      "huashu-script-polish",
-      "huashu-article-edit",
-      "\"contract-and-proposal-writer\"",
-      "\"email-template-builder\"",
-      "caveman-help"
     ]
   },
   {
@@ -747,15 +679,15 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 7,
-        "winner": "baoyu-comic",
+        "winner": "baoyu-cover-image",
         "skills": [
-          "baoyu-comic",
           "baoyu-cover-image",
-          "baoyu-image-cards",
           "baoyu-infographic",
           "baoyu-article-illustrator",
+          "baoyu-image-cards",
+          "baoyu-image-gen",
           "baoyu-imagine",
-          "baoyu-image-gen"
+          "baoyu-comic"
         ]
       },
       {
@@ -767,9 +699,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-reviewer",
+          "image-auditor",
           "image-analyzer",
-          "image-auditor"
+          "image-reviewer"
         ]
       },
       {
@@ -788,9 +720,35 @@
     ]
   },
   {
+    "id": "content-writing",
+    "name": "内容·写作",
+    "skill_count": 18,
+    "winner": "doc-coauthoring",
+    "skills": [
+      "doc-coauthoring",
+      "\"customer-success-manager\"",
+      "\"content-production\"",
+      "copy-editing",
+      "\"content-humanizer\"",
+      "support-ticket-triage",
+      "youtube-script-optimizer",
+      "copywriting",
+      "persuasion-framework",
+      "internal-comms",
+      "\"content-creator\"",
+      "blessing-styles",
+      "huashu-proofreading",
+      "huashu-script-polish",
+      "huashu-article-edit",
+      "\"contract-and-proposal-writer\"",
+      "\"email-template-builder\"",
+      "caveman-help"
+    ]
+  },
+  {
     "id": "education",
     "name": "教育·学习研究",
-    "skill_count": 18,
+    "skill_count": 17,
     "winner": "\"research-summarizer\"",
     "skills": [
       "\"research-summarizer\"",
@@ -806,7 +764,6 @@
       "comprehensive-research-agent",
       "huashu-material-search",
       "user-persona-generator",
-      "learn",
       "feynman-perspective",
       "huashu-prompt-save",
       "huashu-research",
@@ -839,6 +796,90 @@
     ]
   },
   {
+    "id": "engineering-devops",
+    "name": "工程·DevOps",
+    "skill_count": 17,
+    "winner": "\"docker-development\"",
+    "skills": [
+      "\"docker-development\"",
+      "\"terraform-patterns\"",
+      "\"google-workspace-cli\"",
+      "\"aws-solution-architect\"",
+      "\"azure-cloud-architect\"",
+      "\"gcp-cloud-architect\"",
+      "\"incident-response\"",
+      "\"ms365-tenant-manager\"",
+      "\"helm-chart-builder\"",
+      "terraform-engineer",
+      "\"senior-devops\"",
+      "\"release-manager\"",
+      "devops-engineer",
+      "kubernetes-specialist",
+      "\"incident-commander\"",
+      "\"observability-designer\"",
+      "\"git-worktree-manager\""
+    ],
+    "subclusters": [
+      {
+        "id": "engineering-devops-cloud",
+        "name": "云平台架构",
+        "skill_count": 6,
+        "winner": "\"terraform-patterns\"",
+        "skills": [
+          "\"terraform-patterns\"",
+          "terraform-engineer",
+          "\"gcp-cloud-architect\"",
+          "\"helm-chart-builder\"",
+          "\"aws-solution-architect\"",
+          "\"azure-cloud-architect\""
+        ]
+      },
+      {
+        "id": "engineering-devops-container",
+        "name": "容器 & K8s",
+        "skill_count": 2,
+        "winner": "\"docker-development\"",
+        "skills": [
+          "\"docker-development\"",
+          "kubernetes-specialist"
+        ]
+      },
+      {
+        "id": "engineering-devops-cicd",
+        "name": "CI/CD & 部署",
+        "skill_count": 3,
+        "winner": "\"release-manager\"",
+        "skills": [
+          "\"release-manager\"",
+          "devops-engineer",
+          "\"senior-devops\""
+        ]
+      },
+      {
+        "id": "engineering-devops-observ",
+        "name": "可观测性 & 事故响应",
+        "skill_count": 3,
+        "winner": "\"incident-response\"",
+        "skills": [
+          "\"incident-response\"",
+          "\"incident-commander\"",
+          "\"observability-designer\""
+        ]
+      },
+      {
+        "id": "engineering-devops-workspace",
+        "name": "工作区管理",
+        "skill_count": 3,
+        "winner": "\"ms365-tenant-manager\"",
+        "skills": [
+          "\"ms365-tenant-manager\"",
+          "\"google-workspace-cli\"",
+          "\"git-worktree-manager\""
+        ]
+      }
+    ]
+  },
+  {
     "id": "marketing-strategy",
     "name": "营销·策略",
     "skill_count": 17,
@@ -861,29 +902,6 @@
       "\"marketing-skills\"",
       "\"finance-skills\"",
       "platform-algorithm-reference"
-    ]
-  },
-  {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 15,
-    "winner": "\"ciso-advisor\"",
-    "skills": [
-      "\"ciso-advisor\"",
-      "\"ai-security\"",
-      "\"cloud-security\"",
-      "\"red-team\"",
-      "\"threat-detection\"",
-      "\"information-security-manager-iso27001\"",
-      "\"isms-audit-expert\"",
-      "\"risk-management-specialist\"",
-      "\"security-pen-testing\"",
-      "\"senior-secops\"",
-      "\"secrets-vault-manager\"",
-      "security-reviewer",
-      "cso",
-      "\"env-secrets-manager\"",
-      "\"skill-security-auditor\""
     ]
   },
   {
@@ -910,9 +928,31 @@
     ]
   },
   {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 14,
+    "winner": "\"ciso-advisor\"",
+    "skills": [
+      "\"ciso-advisor\"",
+      "\"ai-security\"",
+      "\"cloud-security\"",
+      "\"red-team\"",
+      "\"threat-detection\"",
+      "\"information-security-manager-iso27001\"",
+      "\"isms-audit-expert\"",
+      "\"risk-management-specialist\"",
+      "\"security-pen-testing\"",
+      "\"senior-secops\"",
+      "\"secrets-vault-manager\"",
+      "security-reviewer",
+      "\"env-secrets-manager\"",
+      "\"skill-security-auditor\""
+    ]
+  },
+  {
     "id": "content-doc",
     "name": "内容·文档生成",
-    "skill_count": 14,
+    "skill_count": 13,
     "winner": "magazine-web-ppt",
     "skills": [
       "magazine-web-ppt",
@@ -927,14 +967,13 @@
       "huashu-slides",
       "pptx-author",
       "xlsx-author",
-      "make-pdf",
       "huashu-md-to-pdf"
     ]
   },
   {
     "id": "data",
     "name": "数据·分析",
-    "skill_count": 14,
+    "skill_count": 13,
     "winner": "\"campaign-analytics\"",
     "skills": [
       "\"campaign-analytics\"",
@@ -948,30 +987,8 @@
       "data-quality-auditor",
       "statistical-analyst",
       "product-analytics",
-      "landing-report",
       "\"ci-cd-pipeline-builder\"",
       "huashu-data-pro"
-    ]
-  },
-  {
-    "id": "skills-browser",
-    "name": "Skills·浏览器",
-    "skill_count": 13,
-    "winner": "playwright-media-sniffer",
-    "skills": [
-      "playwright-media-sniffer",
-      "gstack-openclaw-retro",
-      "gstack-openclaw-ceo-review",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "playwright-expert",
-      "gstack-openclaw-investigate",
-      "gstack-openclaw-office-hours",
-      "gstack",
-      "browse",
-      "gstack-upgrade",
-      "open-gstack-browser",
-      "setup-browser-cookies"
     ]
   },
   {
@@ -995,100 +1012,6 @@
     ]
   },
   {
-    "id": "agent-workflow",
-    "name": "Agent·工作流",
-    "skill_count": 11,
-    "winner": "planning-with-files",
-    "skills": [
-      "planning-with-files",
-      "agent-development",
-      "skill-development",
-      "planning-with-files-ar",
-      "planning-with-files-de",
-      "planning-with-files-es",
-      "planning-with-files-zh",
-      "planning-with-files-zht",
-      "executing-plans",
-      "writing-plans",
-      "autoplan"
-    ],
-    "subclusters": [
-      {
-        "id": "agent-workflow-planning",
-        "name": "规划 & 执行",
-        "skill_count": 3,
-        "winner": "executing-plans",
-        "skills": [
-          "executing-plans",
-          "writing-plans",
-          "autoplan"
-        ]
-      },
-      {
-        "id": "agent-workflow-files",
-        "name": "文件驱动工作流",
-        "skill_count": 6,
-        "winner": "planning-with-files",
-        "skills": [
-          "planning-with-files",
-          "planning-with-files-zht",
-          "planning-with-files-de",
-          "planning-with-files-es",
-          "planning-with-files-ar",
-          "planning-with-files-zh"
-        ]
-      },
-      {
-        "id": "agent-workflow-development",
-        "name": "开发辅助工作流",
-        "skill_count": 2,
-        "winner": "agent-development",
-        "skills": [
-          "agent-development",
-          "skill-development"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "design-ux",
-    "name": "设计·UX/产品设计",
-    "skill_count": 11,
-    "winner": "ui-ux-pro-max-skill",
-    "skills": [
-      "ui-ux-pro-max-skill",
-      "design-tokens",
-      "figma-to-code",
-      "icon-system",
-      "motion-design",
-      "\"ikea-designer-pro\"",
-      "design-consultation",
-      "design-review",
-      "plan-design-review",
-      "design-shotgun",
-      "\"api-design-reviewer\""
-    ]
-  },
-  {
-    "id": "engineering-qa",
-    "name": "工程·QA",
-    "skill_count": 11,
-    "winner": "churn-risk-playbook",
-    "skills": [
-      "churn-risk-playbook",
-      "sales-funnel-analyzer",
-      "webapp-testing",
-      "\"org-health-diagnostic\"",
-      "\"senior-qa\"",
-      "verification-before-completion",
-      "customer-health-scorecard",
-      "devex-review",
-      "plan-devex-review",
-      "qa-only",
-      "health"
-    ]
-  },
-  {
     "id": "productivity",
     "name": "效率·生产力",
     "skill_count": 11,
@@ -1105,6 +1028,60 @@
       "caveman-stats",
       "caveman-commit",
       "caveman-review"
+    ]
+  },
+  {
+    "id": "agent-workflow",
+    "name": "Agent·工作流",
+    "skill_count": 10,
+    "winner": "planning-with-files",
+    "skills": [
+      "planning-with-files",
+      "planning-with-files-ar",
+      "planning-with-files-de",
+      "planning-with-files-es",
+      "planning-with-files-zh",
+      "planning-with-files-zht",
+      "agent-development",
+      "skill-development",
+      "executing-plans",
+      "writing-plans"
+    ],
+    "subclusters": [
+      {
+        "id": "agent-workflow-planning",
+        "name": "规划 & 执行",
+        "skill_count": 2,
+        "winner": "executing-plans",
+        "skills": [
+          "executing-plans",
+          "writing-plans"
+        ]
+      },
+      {
+        "id": "agent-workflow-files",
+        "name": "文件驱动工作流",
+        "skill_count": 6,
+        "winner": "planning-with-files",
+        "skills": [
+          "planning-with-files",
+          "planning-with-files-ar",
+          "planning-with-files-zht",
+          "planning-with-files-de",
+          "planning-with-files-zh",
+          "planning-with-files-es"
+        ]
+      },
+      {
+        "id": "agent-workflow-development",
+        "name": "开发辅助工作流",
+        "skill_count": 2,
+        "winner": "skill-development",
+        "skills": [
+          "skill-development",
+          "agent-development"
+        ]
+      }
     ]
   },
   {
@@ -1176,22 +1153,6 @@
     ]
   },
   {
-    "id": "engineering-testing",
-    "name": "工程·测试",
-    "skill_count": 8,
-    "winner": "triage-issue",
-    "skills": [
-      "triage-issue",
-      "skill-arena",
-      "writing-hookify-rules",
-      "test-case-templates",
-      "test-driven-development",
-      "\"tdd-guide\"",
-      "benchmark-models",
-      "benchmark"
-    ]
-  },
-  {
     "id": "business-hr",
     "name": "商业·人力资源",
     "skill_count": 7,
@@ -1204,21 +1165,6 @@
       "\"change-management\"",
       "\"sales-engineer\"",
       "interview-scorecard-generator"
-    ]
-  },
-  {
-    "id": "business-pm",
-    "name": "商业·项目管理",
-    "skill_count": 7,
-    "winner": "learn-from-loss",
-    "skills": [
-      "learn-from-loss",
-      "to-issues",
-      "\"scrum-master\"",
-      "grill-me",
-      "\"tc-tracker\"",
-      "retro",
-      "\"skill-tester\""
     ]
   },
   {
@@ -1237,18 +1183,33 @@
     ]
   },
   {
-    "id": "engineering-debug",
-    "name": "工程·调试",
+    "id": "design-ux",
+    "name": "设计·UX/产品设计",
     "skill_count": 7,
-    "winner": "git-guardrails-claude-code",
+    "winner": "ui-ux-pro-max-skill",
     "skills": [
-      "git-guardrails-claude-code",
-      "systematic-debugging",
-      "fullstack-guardian",
-      "secure-code-guardian",
-      "investigate",
-      "careful",
-      "guard"
+      "ui-ux-pro-max-skill",
+      "design-tokens",
+      "figma-to-code",
+      "icon-system",
+      "motion-design",
+      "\"ikea-designer-pro\"",
+      "\"api-design-reviewer\""
+    ]
+  },
+  {
+    "id": "engineering-qa",
+    "name": "工程·QA",
+    "skill_count": 7,
+    "winner": "churn-risk-playbook",
+    "skills": [
+      "churn-risk-playbook",
+      "sales-funnel-analyzer",
+      "webapp-testing",
+      "\"org-health-diagnostic\"",
+      "\"senior-qa\"",
+      "verification-before-completion",
+      "customer-health-scorecard"
     ]
   },
   {
@@ -1281,30 +1242,31 @@
     ]
   },
   {
-    "id": "business-product",
-    "name": "商业·产品",
+    "id": "business-pm",
+    "name": "商业·项目管理",
     "skill_count": 6,
-    "winner": "user-story-mapper",
+    "winner": "learn-from-loss",
     "skills": [
-      "user-story-mapper",
-      "feature-prioritization",
-      "office-hours",
-      "plan-ceo-review",
-      "plan-eng-review",
-      "roadmap-communicator"
+      "learn-from-loss",
+      "to-issues",
+      "\"scrum-master\"",
+      "grill-me",
+      "\"tc-tracker\"",
+      "\"skill-tester\""
     ]
   },
   {
-    "id": "engineering-frontend",
-    "name": "工程·前端",
-    "skill_count": 5,
-    "winner": "canvas-design",
+    "id": "engineering-testing",
+    "name": "工程·测试",
+    "skill_count": 6,
+    "winner": "triage-issue",
     "skills": [
-      "canvas-design",
-      "frontend-design",
-      "web-artifacts-builder",
-      "theme-factory",
-      "design-html"
+      "triage-issue",
+      "skill-arena",
+      "writing-hookify-rules",
+      "test-case-templates",
+      "test-driven-development",
+      "\"tdd-guide\""
     ]
   },
   {
@@ -1370,6 +1332,30 @@
     ]
   },
   {
+    "id": "engineering-debug",
+    "name": "工程·调试",
+    "skill_count": 4,
+    "winner": "git-guardrails-claude-code",
+    "skills": [
+      "git-guardrails-claude-code",
+      "systematic-debugging",
+      "fullstack-guardian",
+      "secure-code-guardian"
+    ]
+  },
+  {
+    "id": "engineering-frontend",
+    "name": "工程·前端",
+    "skill_count": 4,
+    "winner": "canvas-design",
+    "skills": [
+      "canvas-design",
+      "frontend-design",
+      "web-artifacts-builder",
+      "theme-factory"
+    ]
+  },
+  {
     "id": "engineering-git",
     "name": "工程·Git工作流",
     "skill_count": 4,
@@ -1418,14 +1404,14 @@
     ]
   },
   {
-    "id": "agent-hosted",
-    "name": "Agent·托管运行",
+    "id": "business-product",
+    "name": "商业·产品",
     "skill_count": 3,
-    "winner": "tool-design",
+    "winner": "user-story-mapper",
     "skills": [
-      "tool-design",
-      "hosted-agents",
-      "pair-agent"
+      "user-story-mapper",
+      "feature-prioritization",
+      "roadmap-communicator"
     ]
   },
   {
@@ -1458,6 +1444,16 @@
     "skills": [
       "advanced-evaluation",
       "evaluation"
+    ]
+  },
+  {
+    "id": "agent-hosted",
+    "name": "Agent·托管运行",
+    "skill_count": 2,
+    "winner": "tool-design",
+    "skills": [
+      "tool-design",
+      "hosted-agents"
     ]
   },
   {

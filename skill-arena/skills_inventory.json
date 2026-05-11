@@ -704,6 +704,8 @@
     "path": "./community/gstack/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.1.0",
@@ -715,6 +717,8 @@
     "path": "./community/gstack/autoplan/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -726,6 +730,8 @@
     "path": "./community/gstack/benchmark/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -737,6 +743,8 @@
     "path": "./community/gstack/benchmark-models/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -748,6 +756,8 @@
     "path": "./community/gstack/browse/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.1.0",
@@ -759,6 +769,8 @@
     "path": "./community/gstack/browser-skills/hackernews-frontpage/SKILL.md",
     "description": "Scrape the Hacker News front page (titles, points, comment counts).",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -770,6 +782,8 @@
     "path": "./community/gstack/canary/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -781,6 +795,8 @@
     "path": "./community/gstack/careful/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -792,6 +808,8 @@
     "path": "./community/gstack/codex/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -803,6 +821,8 @@
     "path": "./community/gstack/context-restore/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -814,6 +834,8 @@
     "path": "./community/gstack/context-save/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -825,6 +847,8 @@
     "path": "./community/gstack/cso/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -836,6 +860,8 @@
     "path": "./community/gstack/design-consultation/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -847,6 +873,8 @@
     "path": "./community/gstack/design-html/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -858,6 +886,8 @@
     "path": "./community/gstack/design-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -869,6 +899,8 @@
     "path": "./community/gstack/design-shotgun/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -880,6 +912,8 @@
     "path": "./community/gstack/devex-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -891,6 +925,8 @@
     "path": "./community/gstack/document-release/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -902,6 +938,8 @@
     "path": "./community/gstack/freeze/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -913,6 +951,8 @@
     "path": "./community/gstack/gstack-upgrade/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.1.0",
@@ -924,6 +964,8 @@
     "path": "./community/gstack/guard/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -935,6 +977,8 @@
     "path": "./community/gstack/health/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -946,6 +990,8 @@
     "path": "./community/gstack/investigate/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -957,6 +1003,8 @@
     "path": "./community/gstack/land-and-deploy/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -968,6 +1016,8 @@
     "path": "./community/gstack/landing-report/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -979,6 +1029,8 @@
     "path": "./community/gstack/learn/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -990,6 +1042,8 @@
     "path": "./community/gstack/make-pdf/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1001,6 +1055,8 @@
     "path": "./community/gstack/office-hours/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -1012,6 +1068,8 @@
     "path": "./community/gstack/open-gstack-browser/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.2.0",
@@ -1023,9 +1081,11 @@
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-ceo-review/SKILL.md",
     "description": "Use when asked to review a plan, challenge a proposal, run a CEO review, poke holes in an approach, think bigger about scope, or decide whether to expand or reduce the plan.",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1034,9 +1094,11 @@
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-investigate/SKILL.md",
     "description": "Use when asked to debug, fix a bug, investigate an error, or do root cause analysis, and when users report errors, stack traces, unexpected behavior, or say something stopped working.",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1045,9 +1107,11 @@
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-office-hours/SKILL.md",
     "description": "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written.",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1056,9 +1120,11 @@
     "path": "./community/gstack/openclaw/skills/gstack-openclaw-retro/SKILL.md",
     "description": "\"Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.\"",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1067,6 +1133,8 @@
     "path": "./community/gstack/pair-agent/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -1078,6 +1146,8 @@
     "path": "./community/gstack/plan-ceo-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1089,6 +1159,8 @@
     "path": "./community/gstack/plan-design-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -1100,6 +1172,8 @@
     "path": "./community/gstack/plan-devex-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -1111,6 +1185,8 @@
     "path": "./community/gstack/plan-eng-review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1122,6 +1198,8 @@
     "path": "./community/gstack/plan-tune/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1133,6 +1211,8 @@
     "path": "./community/gstack/qa/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -1144,6 +1224,8 @@
     "path": "./community/gstack/qa-only/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1155,6 +1237,8 @@
     "path": "./community/gstack/retro/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "2.0.0",
@@ -1166,6 +1250,8 @@
     "path": "./community/gstack/review/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1177,6 +1263,8 @@
     "path": "./community/gstack/scrape/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1188,6 +1276,8 @@
     "path": "./community/gstack/setup-browser-cookies/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1199,6 +1289,8 @@
     "path": "./community/gstack/setup-deploy/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1210,6 +1302,8 @@
     "path": "./community/gstack/setup-gbrain/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1221,6 +1315,8 @@
     "path": "./community/gstack/ship/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1232,6 +1328,8 @@
     "path": "./community/gstack/skillify/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1243,6 +1341,8 @@
     "path": "./community/gstack/sync-gbrain/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "1.0.0",
@@ -1254,6 +1354,8 @@
     "path": "./community/gstack/unfreeze/SKILL.md",
     "description": "|",
     "tags": [
+      "gstack",
+      "productivity",
       "community"
     ],
     "version": "0.1.0",
@@ -1563,6 +1665,22 @@
     "auxiliary": false
   },
   {
+    "id": "md-renderer",
+    "path": "./community/md-renderer/SKILL.md",
+    "description": "Render Markdown to HTML with SVG diagram support (Mermaid, Graphviz)",
+    "tags": [
+      "markdown",
+      "html",
+      "svg",
+      "rendering",
+      "documentation",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "meeting-notes-and-actions",
     "path": "./community/meeting-notes-and-actions/SKILL.md",
     "description": "Turn meeting transcripts or rough notes into crisp summaries with decisions, risks, and owner-tagged action items; use for Zoom/Meet/Teams transcripts, call notes, or long meeting chats to generate share-ready outputs.",
@@ -1728,6 +1846,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
     "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",
@@ -1739,6 +1860,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files-ar/SKILL.md",
     "description": "\"نظام تخطيط الملفات بنمط Manus لتنظيم وتتبع تقدم المهام المعقدة. ينشئ ملفات task_plan.md و findings.md و progress.md. يُستخدم عند طلب التخطيط أو تحليل المهام أو تنظيم المشاريع أو تتبع التقدم أو الخطط متعددة الخطوات. يدعم الاستعادة التلقائية للجلسة بعد /clear. كلمات التشغيل: تخطيط المهام، إدارة المشاريع، خطة العمل، تحليل المهام، تنظيم المشروع، تتبع التقدم، خطة متعددة الخطوات، ساعدني في التخطيط، تحليل المشروع\"",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",
@@ -1750,6 +1874,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files-de/SKILL.md",
     "description": "\"Manus-artiges Dateiplanungssystem zur Organisation und Verfolgung des Fortschritts komplexer Aufgaben. Erstellt task_plan.md, findings.md und progress.md. Wird verwendet, wenn der Benutzer plant, zerlegt oder organisiert: mehrstufige Projekte, Forschungsaufgaben oder Arbeiten mit über 5 Tool-Aufrufen. Unterstützt automatische Sitzungswiederherstellung nach /clear. Auslöser: Aufgabenplanung, Projektplanung, Arbeitsplan erstellen, Aufgaben analysieren, Projekt organisieren, Fortschritt verfolgen, Mehrstufige Planung, Hilf mir bei der Planung, Projekt zerlegen\"",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",
@@ -1761,6 +1888,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files-es/SKILL.md",
     "description": "\"Sistema de planificación basado en archivos estilo Manus para organizar y rastrear el progreso de tareas complejas. Crea task_plan.md, findings.md y progress.md. Cuando el usuario solicita planificación, desglose u organización de proyectos multipaso, tareas de investigación o trabajos que requieren más de 5 llamadas a herramientas. Soporta recuperación automática de sesión tras /clear. Palabras clave: planificación de tareas, planificación de proyecto, crear plan de trabajo, analizar tareas, organizar proyecto, seguimiento de progreso, planificación multipaso, ayúdame a planificar, desglosar proyecto\"",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",
@@ -1772,6 +1902,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files-zh/SKILL.md",
     "description": "基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",
@@ -1783,6 +1916,9 @@
     "path": "./community/planning-with-files/skills/planning-with-files-zht/SKILL.md",
     "description": "基於 Manus 風格的檔案規劃系統，用於組織和追蹤複雜任務的進度。建立 task_plan.md、findings.md 和 progress.md 三個檔案。當使用者要求規劃、拆解或組織多步驟專案、研究任務或需要超過5次工具呼叫的工作時使用。支援 /clear 後的自動會話恢復。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
     "tags": [
+      "planning",
+      "workflow",
+      "agent",
       "community"
     ],
     "version": "\"2.37.0\"",

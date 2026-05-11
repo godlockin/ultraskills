@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 14,
+    "total_contestants": 13,
     "defeated": [
       "visual-forge",
       "baoyu-markdown-to-html",
@@ -45,18 +45,33 @@
     ]
   },
   {
+    "cluster": "agent-workflow",
+    "cluster_name": "Agent·工作流",
+    "winner": "planning-with-files",
+    "score": 9.5,
+    "runner_up": "planning-with-files-ar",
+    "total_contestants": 10,
+    "defeated": [
+      "planning-with-files-ar",
+      "planning-with-files-de",
+      "planning-with-files-es",
+      "planning-with-files-zh",
+      "planning-with-files-zht"
+    ]
+  },
+  {
     "cluster": "business-pm",
     "cluster_name": "商业·项目管理",
     "winner": "learn-from-loss",
     "score": 9.5,
     "runner_up": "to-issues",
-    "total_contestants": 7,
+    "total_contestants": 6,
     "defeated": [
       "to-issues",
       "\"scrum-master\"",
       "grill-me",
       "\"tc-tracker\"",
-      "retro"
+      "\"skill-tester\""
     ]
   },
   {
@@ -77,16 +92,16 @@
   {
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "winner": "playwright-media-sniffer",
+    "winner": "gstack-openclaw-retro",
     "score": 9.5,
-    "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 13,
+    "runner_up": "playwright-media-sniffer",
+    "total_contestants": 55,
     "defeated": [
-      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
       "gstack-openclaw-ceo-review",
-      "\"playwright-pro\"",
-      "\"browser-automation\"",
-      "playwright-expert"
+      "gstack-openclaw-investigate",
+      "gstack-openclaw-office-hours",
+      "\"playwright-pro\""
     ]
   },
   {
@@ -121,7 +136,7 @@
     "winner": "ui-ux-pro-max-skill",
     "score": 9.0,
     "runner_up": "design-tokens",
-    "total_contestants": 11,
+    "total_contestants": 7,
     "defeated": [
       "design-tokens",
       "figma-to-code",
@@ -151,7 +166,7 @@
     "winner": "churn-risk-playbook",
     "score": 9.0,
     "runner_up": "sales-funnel-analyzer",
-    "total_contestants": 11,
+    "total_contestants": 7,
     "defeated": [
       "sales-funnel-analyzer",
       "webapp-testing",
@@ -166,7 +181,7 @@
     "winner": "triage-issue",
     "score": 9.0,
     "runner_up": "skill-arena",
-    "total_contestants": 8,
+    "total_contestants": 6,
     "defeated": [
       "skill-arena",
       "writing-hookify-rules",
@@ -209,7 +224,7 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "\"agent-protocol\"",
-    "total_contestants": 59,
+    "total_contestants": 47,
     "defeated": [
       "\"agent-protocol\"",
       "\"strategic-alignment\"",
@@ -267,10 +282,9 @@
     "winner": "tool-design",
     "score": 8.8,
     "runner_up": "hosted-agents",
-    "total_contestants": 3,
+    "total_contestants": 2,
     "defeated": [
-      "hosted-agents",
-      "pair-agent"
+      "hosted-agents"
     ]
   },
   {
@@ -297,21 +311,6 @@
       "\"prompt-engineer-toolkit\"",
       "\"senior-prompt-engineer\"",
       "prompt-engineer"
-    ]
-  },
-  {
-    "cluster": "agent-workflow",
-    "cluster_name": "Agent·工作流",
-    "winner": "planning-with-files",
-    "score": 8.8,
-    "runner_up": "agent-development",
-    "total_contestants": 11,
-    "defeated": [
-      "agent-development",
-      "skill-development",
-      "planning-with-files-ar",
-      "planning-with-files-de",
-      "planning-with-files-es"
     ]
   },
   {
@@ -408,7 +407,7 @@
     "winner": "doc-coauthoring",
     "score": 8.8,
     "runner_up": "\"customer-success-manager\"",
-    "total_contestants": 19,
+    "total_contestants": 18,
     "defeated": [
       "\"customer-success-manager\"",
       "\"content-production\"",
@@ -423,7 +422,7 @@
     "winner": "\"campaign-analytics\"",
     "score": 8.8,
     "runner_up": "book-sft-pipeline",
-    "total_contestants": 14,
+    "total_contestants": 13,
     "defeated": [
       "book-sft-pipeline",
       "\"senior-data-engineer\"",
@@ -438,7 +437,7 @@
     "winner": "\"research-summarizer\"",
     "score": 8.8,
     "runner_up": "autoresearch",
-    "total_contestants": 18,
+    "total_contestants": 17,
     "defeated": [
       "autoresearch",
       "customer-research",
@@ -504,13 +503,11 @@
     "winner": "git-guardrails-claude-code",
     "score": 8.5,
     "runner_up": "systematic-debugging",
-    "total_contestants": 7,
+    "total_contestants": 4,
     "defeated": [
       "systematic-debugging",
       "fullstack-guardian",
-      "secure-code-guardian",
-      "investigate",
-      "careful"
+      "secure-code-guardian"
     ]
   },
   {
@@ -546,7 +543,7 @@
     "winner": "\"docker-development\"",
     "score": 8.3,
     "runner_up": "\"terraform-patterns\"",
-    "total_contestants": 21,
+    "total_contestants": 17,
     "defeated": [
       "\"terraform-patterns\"",
       "\"google-workspace-cli\"",
@@ -561,12 +558,11 @@
     "winner": "canvas-design",
     "score": 8.3,
     "runner_up": "frontend-design",
-    "total_contestants": 5,
+    "total_contestants": 4,
     "defeated": [
       "frontend-design",
       "web-artifacts-builder",
-      "theme-factory",
-      "design-html"
+      "theme-factory"
     ]
   },
   {
@@ -628,12 +624,9 @@
     "winner": "user-story-mapper",
     "score": 8.0,
     "runner_up": "feature-prioritization",
-    "total_contestants": 6,
+    "total_contestants": 3,
     "defeated": [
       "feature-prioritization",
-      "office-hours",
-      "plan-ceo-review",
-      "plan-eng-review",
       "roadmap-communicator"
     ]
   },
@@ -673,7 +666,7 @@
     "winner": "\"ciso-advisor\"",
     "score": 7.8,
     "runner_up": "\"ai-security\"",
-    "total_contestants": 15,
+    "total_contestants": 14,
     "defeated": [
       "\"ai-security\"",
       "\"cloud-security\"",
