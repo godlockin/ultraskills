@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enhanced Markdown Document">
+    <title>Markdown Document</title>
+    <style>
+    :root {
+        /* Theme colors */
+        --ink: #0a1f3d;
+        --ink-rgb: 10,31,61;
+        --paper: #f1f3f5;
+        --paper-rgb: 241,243,245;
+        --paper-tint: #e4e8ec;
+        --ink-tint: #152a4a;
+
+        /* Typography */
+        --font-serif: "Noto Serif SC", "Playfair Display", Georgia, serif;
+        --font-sans: "Noto Sans SC", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+        /* Layout */
+        --content-width: 900px;
+        --sidebar-width: 280px;
+        --gap: 24px;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        line-height: 1.7;
+        color: var(--ink);
+        background: var(--paper);
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* Reading progress bar */
+    .reading-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(90deg,
+            rgba(var(--ink-rgb), 0.3),
+            rgba(var(--ink-rgb), 0.6));
+        z-index: 1000;
+        transition: width 0.1s ease-out;
+    }
+
+    /* Main layout */
+    .container {
+        display: flex;
+        max-width: calc(var(--content-width) + var(--sidebar-width) + var(--gap) * 2);
+        margin: 0 auto;
+        padding: 40px 20px;
+        gap: var(--gap);
+    }
+
+    /* Sidebar TOC */
+    .toc-sidebar {
+        position: sticky;
+        top: 60px;
+        width: var(--sidebar-width);
+        height: fit-content;
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
+        padding: 20px;
+        background: rgba(var(--paper-tint-rgb, 232, 229, 222), 0.5);
+        border-radius: 8px;
+        font-size: 14px;
+        display: block;
+    }
+
+    .toc-sidebar::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .toc-sidebar::-webkit-scrollbar-thumb {
+        background: rgba(var(--ink-rgb), 0.2);
+        border-radius: 2px;
+    }
+
+    .toc-sidebar h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: rgba(var(--ink-rgb), 0.5);
+        margin-bottom: 12px;
+    }
+
+    .toc-sidebar ul {
+        list-style: none;
+    }
+
+    .toc-sidebar li {
+        margin: 8px 0;
+    }
+
+    .toc-sidebar a {
+        color: rgba(var(--ink-rgb), 0.7);
+        text-decoration: none;
+        transition: color 0.2s;
+        display: block;
+    }
+
+    .toc-sidebar a:hover {
+        color: var(--ink);
+    }
+
+    .toc-sidebar a.active {
+        color: var(--ink);
+        font-weight: 500;
+    }
+
+    /* Main content */
+    .content {
+        flex: 1;
+        min-width: 0;
+        max-width: var(--content-width);
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-serif);
+        font-weight: 600;
+        line-height: 1.3;
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+        color: var(--ink);
+    }
+
+    h1 {
+        font-size: 2.5em;
+        border-bottom: 2px solid rgba(var(--ink-rgb), 0.15);
+        padding-bottom: 0.4em;
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 2em;
+        border-bottom: 1px solid rgba(var(--ink-rgb), 0.1);
+        padding-bottom: 0.3em;
+    }
+
+    h3 { font-size: 1.5em; }
+    h4 { font-size: 1.25em; }
+
+    p {
+        margin: 1.2em 0;
+        text-align: justify;
+    }
+
+    /* Links */
+    a {
+        color: rgba(var(--ink-rgb), 0.8);
+        text-decoration: underline;
+        text-decoration-color: rgba(var(--ink-rgb), 0.3);
+        text-underline-offset: 2px;
+        transition: all 0.2s;
+    }
+
+    a:hover {
+        color: var(--ink);
+        text-decoration-color: rgba(var(--ink-rgb), 0.6);
+    }
+
+    /* Code blocks */
+    code {
+        font-family: var(--font-mono);
+        font-size: 0.9em;
+        background: var(--paper-tint);
+        padding: 0.2em 0.5em;
+        border-radius: 4px;
+        color: var(--ink);
+    }
+
+    pre {
+        position: relative;
+        background: var(--paper-tint);
+        padding: 20px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 1.5em 0;
+        border: 1px solid rgba(var(--ink-rgb), 0.1);
+    }
+
+    pre code {
+        background: none;
+        padding: 0;
+        font-size: 0.95em;
+    }
+
+    /* Copy button */
+    .code-block-wrapper {
+        position: relative;
+    }
+
+    .copy-button {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        padding: 6px 12px;
+        font-size: 12px;
+        font-family: var(--font-sans);
+        background: rgba(var(--paper-rgb), 0.9);
+        border: 1px solid rgba(var(--ink-rgb), 0.2);
+        border-radius: 4px;
+        color: var(--ink);
+        cursor: pointer;
+        transition: all 0.2s;
+        opacity: 0;
+    }
+
+    .code-block-wrapper:hover .copy-button {
+        opacity: 1;
+    }
+
+    .copy-button:hover {
+        background: var(--paper);
+        border-color: rgba(var(--ink-rgb), 0.4);
+    }
+
+    .copy-button.copied {
+        background: var(--ink);
+        color: var(--paper);
+    }
+
+    /* Tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5em 0;
+        font-size: 0.95em;
+    }
+
+    th, td {
+        padding: 12px 16px;
+        text-align: left;
+        border: 1px solid rgba(var(--ink-rgb), 0.15);
+    }
+
+    th {
+        background: var(--paper-tint);
+        font-weight: 600;
+        font-family: var(--font-sans);
+    }
+
+    tr:nth-child(even) {
+        background: rgba(var(--paper-tint-rgb, 232, 229, 222), 0.3);
+    }
+
+    /* Blockquotes */
+    blockquote {
+        border-left: 4px solid rgba(var(--ink-rgb), 0.3);
+        padding-left: 20px;
+        margin: 1.5em 0;
+        color: rgba(var(--ink-rgb), 0.8);
+        font-style: italic;
+    }
+
+    /* Lists */
+    ul, ol {
+        margin: 1em 0;
+        padding-left: 2em;
+    }
+
+    li {
+        margin: 0.5em 0;
+    }
+
+    /* Diagrams */
+    .diagram {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 2em auto;
+        padding: 20px;
+        background: rgba(var(--paper-tint-rgb, 232, 229, 222), 0.3);
+        border-radius: 8px;
+    }
+
+    .diagram svg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Print styles */
+    @media print {
+        .reading-progress,
+        .toc-sidebar,
+        .copy-button {
+            display: none !important;
+        }
+
+        .container {
+            display: block;
+            max-width: 100%;
+        }
+
+        body {
+            background: white;
+            color: black;
+        }
+
+        pre {
+            page-break-inside: avoid;
+        }
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 1200px) {
+        .toc-sidebar {
+            display: none;
+        }
+
+        .container {
+            padding: 20px 16px;
+        }
+
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.6em; }
+    }
+    
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.codehilite .hll { background-color: #ffffcc }
+.codehilite { background: #f8f8f8; }
+.codehilite .c { color: #3D7B7B; font-style: italic } /* Comment */
+.codehilite .err { border: 1px solid #F00 } /* Error */
+.codehilite .k { color: #008000; font-weight: bold } /* Keyword */
+.codehilite .o { color: #666 } /* Operator */
+.codehilite .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.codehilite .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.codehilite .cp { color: #9C6500 } /* Comment.Preproc */
+.codehilite .cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.codehilite .c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.codehilite .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
+.codehilite .gd { color: #A00000 } /* Generic.Deleted */
+.codehilite .ge { font-style: italic } /* Generic.Emph */
+.codehilite .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.codehilite .gr { color: #E40000 } /* Generic.Error */
+.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codehilite .gi { color: #008400 } /* Generic.Inserted */
+.codehilite .go { color: #717171 } /* Generic.Output */
+.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.codehilite .gs { font-weight: bold } /* Generic.Strong */
+.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite .gt { color: #04D } /* Generic.Traceback */
+.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.codehilite .kp { color: #008000 } /* Keyword.Pseudo */
+.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.codehilite .kt { color: #B00040 } /* Keyword.Type */
+.codehilite .m { color: #666 } /* Literal.Number */
+.codehilite .s { color: #BA2121 } /* Literal.String */
+.codehilite .na { color: #687822 } /* Name.Attribute */
+.codehilite .nb { color: #008000 } /* Name.Builtin */
+.codehilite .nc { color: #00F; font-weight: bold } /* Name.Class */
+.codehilite .no { color: #800 } /* Name.Constant */
+.codehilite .nd { color: #A2F } /* Name.Decorator */
+.codehilite .ni { color: #717171; font-weight: bold } /* Name.Entity */
+.codehilite .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
+.codehilite .nf { color: #00F } /* Name.Function */
+.codehilite .nl { color: #767600 } /* Name.Label */
+.codehilite .nn { color: #00F; font-weight: bold } /* Name.Namespace */
+.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.codehilite .nv { color: #19177C } /* Name.Variable */
+.codehilite .ow { color: #A2F; font-weight: bold } /* Operator.Word */
+.codehilite .w { color: #BBB } /* Text.Whitespace */
+.codehilite .mb { color: #666 } /* Literal.Number.Bin */
+.codehilite .mf { color: #666 } /* Literal.Number.Float */
+.codehilite .mh { color: #666 } /* Literal.Number.Hex */
+.codehilite .mi { color: #666 } /* Literal.Number.Integer */
+.codehilite .mo { color: #666 } /* Literal.Number.Oct */
+.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */
+.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */
+.codehilite .sc { color: #BA2121 } /* Literal.String.Char */
+.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */
+.codehilite .se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
+.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.codehilite .si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
+.codehilite .sx { color: #008000 } /* Literal.String.Other */
+.codehilite .sr { color: #A45A77 } /* Literal.String.Regex */
+.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */
+.codehilite .ss { color: #19177C } /* Literal.String.Symbol */
+.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.codehilite .fm { color: #00F } /* Name.Function.Magic */
+.codehilite .vc { color: #19177C } /* Name.Variable.Class */
+.codehilite .vg { color: #19177C } /* Name.Variable.Global */
+.codehilite .vi { color: #19177C } /* Name.Variable.Instance */
+.codehilite .vm { color: #19177C } /* Name.Variable.Magic */
+.codehilite .il { color: #666 } /* Literal.Number.Integer.Long */</style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <div class="container">
+        
+        <aside class="toc-sidebar">
+            <h3>目录</h3>
+            <div class="toc">
+<ul>
+<li><a href="#magazine-themes-showcase">Magazine Themes Showcase</a><ul>
+<li><a href="#monocle">🖋 墨水经典 (Monocle)</a></li>
+<li><a href="#indigo-porcelain">🌊 靛蓝瓷 (Indigo Porcelain)</a></li>
+<li><a href="#forest-ink">🌿 森林墨 (Forest Ink)</a></li>
+<li><a href="#kraft-paper">🍂 牛皮纸 (Kraft Paper)</a></li>
+<li><a href="#dune">🌙 沙丘 (Dune)</a></li>
+<li><a href="#_1">快速选择指南</a></li>
+<li><a href="#interactive-features">Interactive Features</a></li>
+<li><a href="#typography">Typography</a></li>
+<li><a href="#demo">Demo</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+        </aside>
+        
+
+        <main class="content">
+            <h1 id="magazine-themes-showcase">Magazine Themes Showcase</h1>
+<p>Enhanced md-renderer now includes <strong>5 精心调配的杂志主题</strong>，每套主题都经过配色优化，适合不同场景。</p>
+<hr />
+<h2 id="monocle">🖋 墨水经典 (Monocle)</h2>
+<p><strong>适合场景:</strong> 通用分享、商业发布、科技产品</p>
+<p><strong>特点:</strong> 纯墨黑 + 暖米白，杂志感最强</p>
+<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>doc.md<span class="w"> </span>--theme<span class="w"> </span>monocle
+</code></pre></div>
+
+<p><strong>配色:</strong><br />
+- 主色: <code>#0a0a0b</code> (墨黑)<br />
+- 背景: <code>#f1efea</code> (暖米白)<br />
+- 风格: Monocle / Apricot / A Book Apart</p>
+<hr />
+<h2 id="indigo-porcelain">🌊 靛蓝瓷 (Indigo Porcelain)</h2>
+<p><strong>适合场景:</strong> 科技/研究/数据分享、工程师文化、深度内容</p>
+<p><strong>特点:</strong> 深靛蓝 + 瓷白，冷静、理性、有深度</p>
+<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>doc.md<span class="w"> </span>--theme<span class="w"> </span>indigo
+</code></pre></div>
+
+<p><strong>配色:</strong><br />
+- 主色: <code>#0a1f3d</code> (深靛蓝)<br />
+- 背景: <code>#f1f3f5</code> (瓷白)<br />
+- 风格: 学术期刊 / 蓝印花瓷器</p>
+<hr />
+<h2 id="forest-ink">🌿 森林墨 (Forest Ink)</h2>
+<p><strong>适合场景:</strong> 自然/可持续/文化/非虚构内容、户外品牌</p>
+<p><strong>特点:</strong> 深森林绿 + 象牙，沉稳、有呼吸感</p>
+<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>doc.md<span class="w"> </span>--theme<span class="w"> </span>forest
+</code></pre></div>
+
+<p><strong>配色:</strong><br />
+- 主色: <code>#1a2e1f</code> (森林绿)<br />
+- 背景: <code>#f5f1e8</code> (象牙)<br />
+- 风格: 《国家地理》旧版</p>
+<hr />
+<h2 id="kraft-paper">🍂 牛皮纸 (Kraft Paper)</h2>
+<p><strong>适合场景:</strong> 怀旧/人文/阅读/历史/文学分享、独立杂志</p>
+<p><strong>特点:</strong> 深棕 + 暖米，温暖、有年代感</p>
+<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>doc.md<span class="w"> </span>--theme<span class="w"> </span>kraft
+</code></pre></div>
+
+<p><strong>配色:</strong><br />
+- 主色: <code>#2a1e13</code> (深棕)<br />
+- 背景: <code>#eedfc7</code> (暖米)<br />
+- 风格: 牛皮信封 / 老笔记本</p>
+<hr />
+<h2 id="dune">🌙 沙丘 (Dune)</h2>
+<p><strong>适合场景:</strong> 艺术/设计/创意/时尚分享、画廊手册</p>
+<p><strong>特点:</strong> 炭灰 + 沙色，克制、高级、中性</p>
+<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>doc.md<span class="w"> </span>--theme<span class="w"> </span>dune
+</code></pre></div>
+
+<p><strong>配色:</strong><br />
+- 主色: <code>#1f1a14</code> (炭灰)<br />
+- 背景: <code>#f0e6d2</code> (沙色)<br />
+- 风格: 沙漠黄昏 / 建筑设计图册</p>
+<hr />
+<h2 id="_1">快速选择指南</h2>
+<table>
+<thead>
+<tr>
+<th>内容类型</th>
+<th>推荐主题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>不知道选啥 / 第一次用</td>
+<td>🖋 墨水经典</td>
+</tr>
+<tr>
+<td>AI / 技术 / 产品发布</td>
+<td>🌊 靛蓝瓷</td>
+</tr>
+<tr>
+<td>内容 / 行业观察 / 文化</td>
+<td>🌿 森林墨</td>
+</tr>
+<tr>
+<td>书评 / 生活方式 / 人文</td>
+<td>🍂 牛皮纸</td>
+</tr>
+<tr>
+<td>设计 / 艺术 / 品牌</td>
+<td>🌙 沙丘</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="interactive-features">Interactive Features</h2>
+<p>All themes include:</p>
+<ul>
+<li><strong>Sidebar TOC</strong> — Auto-generated from headings, sticky positioning</li>
+<li><strong>Reading Progress Bar</strong> — Top of page, smooth animation</li>
+<li><strong>Copy Code Buttons</strong> — Hover to reveal, click to copy</li>
+<li><strong>Active State Tracking</strong> — TOC highlights current section</li>
+<li><strong>Responsive Layout</strong> — Mobile-friendly</li>
+<li><strong>Print-Optimized</strong> — Clean print CSS</li>
+</ul>
+<hr />
+<h2 id="typography">Typography</h2>
+<p><strong>Headings:</strong> Noto Serif SC + Playfair Display (衬线，典雅)<br />
+<strong>Body:</strong> Noto Sans SC + Inter (非衬线，易读)<br />
+<strong>Code:</strong> IBM Plex Mono (等宽，专业)</p>
+<hr />
+<h2 id="demo">Demo</h2>
+<p>See <code>examples/demo_*.html</code> for all 5 themes applied to the same content.</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Generate all themes</span>
+<span class="k">for</span><span class="w"> </span>theme<span class="w"> </span><span class="k">in</span><span class="w"> </span>monocle<span class="w"> </span>indigo<span class="w"> </span>forest<span class="w"> </span>kraft<span class="w"> </span>dune<span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span>python3<span class="w"> </span>scripts/md_render_enhanced.py<span class="w"> </span>examples/demo.md<span class="w"> </span><span class="se">\</span>
+<span class="w">      </span>-o<span class="w"> </span><span class="s2">&quot;examples/demo_</span><span class="si">${</span><span class="nv">theme</span><span class="si">}</span><span class="s2">.html&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">      </span>--theme<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$theme</span><span class="s2">&quot;</span>
+<span class="k">done</span>
+</code></pre></div>
+        </main>
+    </div>
+
+    <script>
+    // Reading progress bar
+    window.addEventListener('scroll', () => {
+        const winHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
+        document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+    });
+
+    // Copy code buttons
+    document.querySelectorAll('pre').forEach(pre => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'code-block-wrapper';
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+
+        const button = document.createElement('button');
+        button.className = 'copy-button';
+        button.textContent = 'Copy';
+        wrapper.appendChild(button);
+
+        button.addEventListener('click', async () => {
+            const code = pre.querySelector('code').textContent;
+            await navigator.clipboard.writeText(code);
+            button.textContent = 'Copied!';
+            button.classList.add('copied');
+            setTimeout(() => {
+                button.textContent = 'Copy';
+                button.classList.remove('copied');
+            }, 2000);
+        });
+    });
+
+    // TOC active state tracking
+    
+    const headings = document.querySelectorAll('h1, h2, h3, h4');
+    const tocLinks = document.querySelectorAll('.toc-sidebar a');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.id;
+                tocLinks.forEach(link => link.classList.remove('active'));
+                const activeLink = document.querySelector(`.toc-sidebar a[href="#${id}"]`);
+                if (activeLink) activeLink.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-20% 0px -80% 0px' });
+
+    headings.forEach(h => observer.observe(h));
+    
+    </script>
+</body>
+</html>

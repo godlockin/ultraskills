@@ -11,6 +11,7 @@ Convert Markdown files to beautiful HTML with embedded or external SVG diagrams.
 
 ## Quick Start
 
+### Basic Rendering
 ```bash
 # Basic rendering
 python3 scripts/md_render.py input.md
@@ -24,6 +25,31 @@ python3 scripts/md_render.py input.md --inline-svg
 # Dark theme
 python3 scripts/md_render.py input.md --theme dark
 ```
+
+### Enhanced Rendering (Magazine Themes + Interactive)
+```bash
+# Use magazine-style themes (5 options)
+python3 scripts/md_render_enhanced.py input.md --theme indigo
+
+# List available themes
+python3 scripts/md_render_enhanced.py --list-themes
+
+# With sidebar TOC + reading progress
+python3 scripts/md_render_enhanced.py input.md --theme forest
+
+# Disable TOC
+python3 scripts/md_render_enhanced.py input.md --no-toc
+```
+
+**Enhanced features:**
+- 📚 **5 Magazine Themes**: Monocle (墨水经典), Indigo (靛蓝瓷), Forest (森林墨), Kraft (牛皮纸), Dune (沙丘)
+- 📖 **Sidebar TOC**: Auto-generated, sticky, with active state tracking
+- 📊 **Reading Progress Bar**: Top of page
+- 📋 **Copy Code Buttons**: Hover on code blocks
+- 🎨 **Serif Headings + Sans Body**: Typography hierarchy
+- 📱 **Responsive**: Mobile-friendly
+- 🖨️ **Print-Ready**: Clean print CSS
+
 
 ## Features
 

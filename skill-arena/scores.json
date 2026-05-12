@@ -2178,6 +2178,17 @@
     "total": 8.0
   },
   {
+    "id": "md-renderer",
+    "path": "./community/md-renderer/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "meeting-notes-and-actions",
     "path": "./community/meeting-notes-and-actions/SKILL.md",
     "cluster": "content-presentation",
@@ -3843,17 +3854,6 @@
     "path": "./community/feature-prioritization/SKILL.md",
     "cluster": "business-product",
     "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 7.5
-  },
-  {
-    "id": "md-renderer",
-    "path": "./community/md-renderer/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 9,
