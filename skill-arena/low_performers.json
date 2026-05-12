@@ -1,6 +1,6 @@
 {
   "caveman-stats": {
-    "consecutive_low": 19,
+    "consecutive_low": 20,
     "scores": [
       0,
       0,
@@ -12,7 +12,7 @@
     "recommendation": "eliminate"
   },
   "cavecrew": {
-    "consecutive_low": 19,
+    "consecutive_low": 20,
     "scores": [
       0,
       0,
@@ -24,7 +24,7 @@
     "recommendation": "eliminate"
   },
   "caveman-review": {
-    "consecutive_low": 5,
+    "consecutive_low": 6,
     "scores": [
       0,
       0,
@@ -36,7 +36,7 @@
     "recommendation": "eliminate"
   },
   "caveman-compress": {
-    "consecutive_low": 5,
+    "consecutive_low": 6,
     "scores": [
       0,
       0,
@@ -48,7 +48,7 @@
     "recommendation": "eliminate"
   },
   "caveman-help": {
-    "consecutive_low": 5,
+    "consecutive_low": 6,
     "scores": [
       0,
       0,
@@ -60,7 +60,7 @@
     "recommendation": "eliminate"
   },
   "caveman-commit": {
-    "consecutive_low": 5,
+    "consecutive_low": 6,
     "scores": [
       0,
       0,
