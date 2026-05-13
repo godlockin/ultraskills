@@ -248,10 +248,10 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
-          "legacy-modernizer",
           "sre-engineer",
+          "feature-forge",
           "monitoring-expert",
+          "legacy-modernizer",
           "spec-miner"
         ]
       },
@@ -259,26 +259,26 @@
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "pandas-pro",
+        "winner": "postgres-pro",
         "skills": [
-          "pandas-pro",
+          "postgres-pro",
           "spark-engineer",
           "database-optimizer",
-          "sql-pro",
-          "postgres-pro"
+          "pandas-pro",
+          "sql-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "websocket-engineer",
         "skills": [
-          "mcp-developer",
           "websocket-engineer",
           "chaos-engineer",
+          "cli-developer",
           "embedded-systems",
-          "cli-developer"
+          "mcp-developer"
         ]
       },
       {
@@ -295,10 +295,10 @@
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -359,8 +359,8 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "skill-sync-manager",
           "skill-manager",
+          "skill-sync-manager",
           "\"github-skill-scout\"",
           "skill-evolution-manager"
         ]
@@ -381,12 +381,12 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "command-development",
+        "winner": "hook-development",
         "skills": [
-          "command-development",
-          "plugin-settings",
-          "plugin-structure",
           "hook-development",
+          "plugin-settings",
+          "command-development",
+          "plugin-structure",
           "claude-md-improver",
           "claude-automation-recommender"
         ]
@@ -591,10 +591,10 @@
         "id": "agent-workflow-planning",
         "name": "规划 & 执行",
         "skill_count": 3,
-        "winner": "executing-plans",
+        "winner": "writing-plans",
         "skills": [
-          "executing-plans",
           "writing-plans",
+          "executing-plans",
           "autoplan"
         ]
       },
@@ -605,11 +605,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-de",
-          "planning-with-files-es",
-          "planning-with-files-zht",
           "planning-with-files-ar",
-          "planning-with-files-zh"
+          "planning-with-files-zh",
+          "planning-with-files-es",
+          "planning-with-files-de",
+          "planning-with-files-zht"
         ]
       },
       {
@@ -652,9 +652,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-auditor",
           "image-analyzer",
-          "image-reviewer"
+          "image-reviewer",
+          "image-auditor"
         ]
       },
       {
@@ -666,8 +666,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-design",
-          "huashu-image-upload"
+          "huashu-image-upload",
+          "huashu-design"
         ]
       }
     ]
@@ -901,10 +901,10 @@
         "winner": "devops-engineer",
         "skills": [
           "devops-engineer",
-          "land-and-deploy",
           "setup-deploy",
-          "ship",
-          "canary"
+          "land-and-deploy",
+          "canary",
+          "ship"
         ]
       }
     ]

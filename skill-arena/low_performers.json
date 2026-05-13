@@ -1,34 +1,38 @@
 {
   "caveman-commit": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      0,
       0
     ],
     "cluster": "productivity",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "caveman-help": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      0,
       0
     ],
     "cluster": "content-writing",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "caveman-review": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      0,
       0
     ],
     "cluster": "productivity",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "caveman-compress": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      0,
       0
     ],
     "cluster": "productivity",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   }
 }
