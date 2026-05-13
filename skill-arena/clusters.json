@@ -248,35 +248,35 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
-          "sre-engineer",
-          "legacy-modernizer",
+          "monitoring-expert",
           "spec-miner",
-          "monitoring-expert"
+          "legacy-modernizer",
+          "sre-engineer",
+          "feature-forge"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "spark-engineer",
+        "winner": "database-optimizer",
         "skills": [
-          "spark-engineer",
-          "pandas-pro",
           "database-optimizer",
+          "pandas-pro",
+          "postgres-pro",
           "sql-pro",
-          "postgres-pro"
+          "spark-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "cli-developer",
+        "winner": "mcp-developer",
         "skills": [
-          "cli-developer",
           "mcp-developer",
           "chaos-engineer",
+          "cli-developer",
           "websocket-engineer",
           "embedded-systems"
         ]
@@ -285,10 +285,10 @@
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
@@ -359,9 +359,9 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "\"github-skill-scout\"",
           "skill-sync-manager",
           "skill-manager",
+          "\"github-skill-scout\"",
           "skill-evolution-manager"
         ]
       },
@@ -381,14 +381,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "plugin-structure",
         "skills": [
-          "plugin-settings",
+          "plugin-structure",
           "command-development",
           "hook-development",
-          "plugin-structure",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "plugin-settings",
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -400,8 +400,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "using-superpowers",
           "context-engineering-collection",
+          "using-superpowers",
           "skill-template"
         ]
       }
@@ -606,10 +606,10 @@
         "skills": [
           "planning-with-files",
           "planning-with-files-es",
-          "planning-with-files-zht",
-          "planning-with-files-de",
+          "planning-with-files-zh",
           "planning-with-files-ar",
-          "planning-with-files-zh"
+          "planning-with-files-zht",
+          "planning-with-files-de"
         ]
       },
       {
@@ -652,8 +652,8 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
           "image-auditor",
+          "image-analyzer",
           "image-reviewer"
         ]
       },
@@ -699,8 +699,8 @@
           "social-content",
           "huashu-article-to-x",
           "x-mastery-mentor",
-          "huashu-wechat-image",
           "huashu-xhs-image",
+          "huashu-wechat-image",
           "huashu-topic-gen",
           "khazix-writer"
         ]
@@ -901,10 +901,10 @@
         "winner": "devops-engineer",
         "skills": [
           "devops-engineer",
-          "land-and-deploy",
           "setup-deploy",
-          "canary",
-          "ship"
+          "land-and-deploy",
+          "ship",
+          "canary"
         ]
       }
     ]
