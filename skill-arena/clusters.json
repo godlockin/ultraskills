@@ -248,57 +248,57 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "sre-engineer",
           "feature-forge",
-          "monitoring-expert",
+          "sre-engineer",
           "legacy-modernizer",
-          "spec-miner"
+          "spec-miner",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "postgres-pro",
           "spark-engineer",
-          "database-optimizer",
           "pandas-pro",
-          "sql-pro"
+          "database-optimizer",
+          "sql-pro",
+          "postgres-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "websocket-engineer",
+        "winner": "cli-developer",
         "skills": [
-          "websocket-engineer",
-          "chaos-engineer",
           "cli-developer",
-          "embedded-systems",
-          "mcp-developer"
+          "mcp-developer",
+          "chaos-engineer",
+          "websocket-engineer",
+          "embedded-systems"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -359,9 +359,9 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "skill-manager",
-          "skill-sync-manager",
           "\"github-skill-scout\"",
+          "skill-sync-manager",
+          "skill-manager",
           "skill-evolution-manager"
         ]
       },
@@ -381,14 +381,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "plugin-settings",
         "skills": [
-          "hook-development",
           "plugin-settings",
           "command-development",
+          "hook-development",
           "plugin-structure",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -400,8 +400,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template"
         ]
       }
@@ -591,10 +591,10 @@
         "id": "agent-workflow-planning",
         "name": "规划 & 执行",
         "skill_count": 3,
-        "winner": "writing-plans",
+        "winner": "executing-plans",
         "skills": [
-          "writing-plans",
           "executing-plans",
+          "writing-plans",
           "autoplan"
         ]
       },
@@ -605,11 +605,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
-          "planning-with-files-ar",
-          "planning-with-files-zh",
           "planning-with-files-es",
+          "planning-with-files-zht",
           "planning-with-files-de",
-          "planning-with-files-zht"
+          "planning-with-files-ar",
+          "planning-with-files-zh"
         ]
       },
       {
@@ -653,8 +653,8 @@
           "\"photography-expert-pro\"",
           "face-beautification",
           "image-analyzer",
-          "image-reviewer",
-          "image-auditor"
+          "image-auditor",
+          "image-reviewer"
         ]
       },
       {
@@ -901,8 +901,8 @@
         "winner": "devops-engineer",
         "skills": [
           "devops-engineer",
-          "setup-deploy",
           "land-and-deploy",
+          "setup-deploy",
           "canary",
           "ship"
         ]

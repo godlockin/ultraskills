@@ -467,13 +467,15 @@ def main():
         print("  Sample:", cluster_members["misc"][:10])
 
     # ──────────────────────────────────────────────
-    # 低分统计 + 淘汰建议
+    # 低分统计 + 淘汰建议（排除 auxiliary skills）
     # ──────────────────────────────────────────────
     LOW_SCORE_THRESHOLD = 4.0       # 低于此分数视为低质量
     ELIMINATION_THRESHOLD = 3.0     # 低于此分数建议淘汰
 
-    low_performers = [s for s in scores_list if s["total"] < LOW_SCORE_THRESHOLD]
-    candidates_for_elimination = [s for s in scores_list if s["total"] < ELIMINATION_THRESHOLD]
+    # 过滤掉配套 skills（不参与竞技场）
+    main_skills = [s for s in scores_list if not s.get("auxiliary", False)]
+    low_performers = [s for s in main_skills if s["total"] < LOW_SCORE_THRESHOLD]
+    candidates_for_elimination = [s for s in main_skills if s["total"] < ELIMINATION_THRESHOLD]
 
     print(f"\n⚠️  Low performers (score < {LOW_SCORE_THRESHOLD}): {len(low_performers)}")
     if low_performers:
