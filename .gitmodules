@@ -70,3 +70,6 @@
 [submodule "external/playwright-skill"]
 	path = external/playwright-skill
 	url = https://github.com/lackeyjb/playwright-skill
+[submodule "external/color-theory-skill"]
+	path = external/color-theory-skill
+	url = https://github.com/projectnamedate/color-theory-skill

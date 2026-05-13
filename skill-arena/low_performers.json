@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "caveman-stats": {
     "consecutive_low": 20,
     "scores": [
@@ -25,47 +26,75 @@
   },
   "caveman-review": {
     "consecutive_low": 6,
+=======
+  "caveman-review": {
+    "consecutive_low": 4,
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
     "scores": [
       0,
       0,
       0,
+<<<<<<< HEAD
       0,
+=======
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
       0
     ],
     "cluster": "productivity",
     "recommendation": "eliminate"
   },
   "caveman-compress": {
+<<<<<<< HEAD
     "consecutive_low": 6,
+=======
+    "consecutive_low": 4,
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
     "scores": [
       0,
       0,
       0,
+<<<<<<< HEAD
       0,
+=======
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
       0
     ],
     "cluster": "productivity",
     "recommendation": "eliminate"
   },
   "caveman-help": {
+<<<<<<< HEAD
     "consecutive_low": 6,
+=======
+    "consecutive_low": 4,
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
     "scores": [
       0,
       0,
       0,
+<<<<<<< HEAD
       0,
+=======
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
       0
     ],
     "cluster": "content-writing",
     "recommendation": "eliminate"
   },
   "caveman-commit": {
+<<<<<<< HEAD
     "consecutive_low": 6,
+=======
+    "consecutive_low": 4,
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
     "scores": [
       0,
       0,
       0,
+<<<<<<< HEAD
       0,
+=======
+>>>>>>> 9803189 (feat: add color-theory-skill (projectnamedate))
       0
     ],
     "cluster": "productivity",
