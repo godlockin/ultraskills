@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 18,
+    "total_contestants": 19,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -205,7 +205,7 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "crisis-comms-playbook",
-    "total_contestants": 140,
+    "total_contestants": 154,
     "defeated": [
       "crisis-comms-playbook",
       "sop-writer",

@@ -2640,6 +2640,28 @@
     "total": 7.8
   },
   {
+    "id": "contribute-catalog",
+    "path": "./external/hyperframes/skills/contribute-catalog/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "remotion-to-hyperframes",
+    "path": "./external/hyperframes/skills/remotion-to-hyperframes/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
     "id": "email-sequence",
     "path": "./external/marketingskills/skills/email-sequence/SKILL.md",
     "cluster": "marketing-email",
@@ -2983,6 +3005,17 @@
   {
     "id": "tiledbvcf",
     "path": "./external/claude-scientific-skills/scientific-skills/tiledbvcf/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.5
+  },
+  {
+    "id": "hyperframes",
+    "path": "./external/hyperframes/skills/hyperframes/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -4037,6 +4070,17 @@
     "total": 7.3
   },
   {
+    "id": "hyperframes-cli",
+    "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "git-commit-master",
     "path": "./community/git-commit-master/SKILL.md",
     "cluster": "engineering-git",
@@ -4939,6 +4983,28 @@
     "total": 6.8
   },
   {
+    "id": "hyperframes-media",
+    "path": "./external/hyperframes/skills/hyperframes-media/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "hyperframes-registry",
+    "path": "./external/hyperframes/skills/hyperframes-registry/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
     "id": "skill-builder",
     "path": "./external/skill-seekers/distribution/claude-plugin/skills/skill-builder/SKILL.md",
     "cluster": "misc",
@@ -5269,6 +5335,50 @@
     "total": 6.5
   },
   {
+    "id": "animejs",
+    "path": "./external/hyperframes/skills/animejs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "gsap",
+    "path": "./external/hyperframes/skills/gsap/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "tailwind",
+    "path": "./external/hyperframes/skills/tailwind/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "typegpu",
+    "path": "./external/hyperframes/skills/typegpu/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
     "id": "aihot",
     "path": "./external/khazix-skills/aihot/SKILL.md",
     "cluster": "misc",
@@ -5372,6 +5482,17 @@
     "path": "./external/huashu-skills/huashu-proofreading/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "css-animations",
+    "path": "./external/hyperframes/skills/css-animations/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 6,
@@ -5546,6 +5667,39 @@
   {
     "id": "pyzotero",
     "path": "./external/claude-scientific-skills/scientific-skills/pyzotero/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "lottie",
+    "path": "./external/hyperframes/skills/lottie/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "three",
+    "path": "./external/hyperframes/skills/three/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "waapi",
+    "path": "./external/hyperframes/skills/waapi/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -6054,6 +6208,17 @@
     "path": "./external/huashu-skills/huashu-douyin-script/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "website-to-hyperframes",
+    "path": "./external/hyperframes/skills/website-to-hyperframes/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 5,
     "func_clarity": 5,

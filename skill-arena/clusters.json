@@ -2,7 +2,7 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 140,
+    "skill_count": 154,
     "winner": "objection-handler",
     "skills": [
       "objection-handler",
@@ -27,6 +27,7 @@
       "scientific-visualization",
       "treatment-plans",
       "venue-templates",
+      "contribute-catalog",
       "brand-messaging-framework",
       "strategy-consulting-framework",
       "adaptyv",
@@ -41,6 +42,7 @@
       "shap",
       "simpy",
       "tiledbvcf",
+      "hyperframes",
       "benchling-integration",
       "consciousness-council",
       "generate-image",
@@ -57,6 +59,7 @@
       "torch-geometric",
       "zarr-python",
       "color-expert",
+      "hyperframes-cli",
       "content-calendar-generator",
       "data-storytelling-framework",
       "aeon",
@@ -119,6 +122,8 @@
       "scvi-tools",
       "stable-baselines3",
       "what-if-oracle",
+      "hyperframes-media",
+      "hyperframes-registry",
       "skill-builder",
       "generalist-expert",
       "retail-merchandising-planner",
@@ -131,18 +136,27 @@
       "qutip",
       "scvelo",
       "transformers",
+      "animejs",
+      "gsap",
+      "tailwind",
+      "typegpu",
       "aihot",
       "bgpt-paper-search",
       "ginkgo-cloud-lab",
+      "css-animations",
       "codex",
       "review",
       "playground",
       "pyzotero",
+      "lottie",
+      "three",
+      "waapi",
       "fact-checker",
       "qa",
       "primekg",
       "\"status\"",
       "neat-freak",
+      "website-to-hyperframes",
       "freeze",
       "unfreeze"
     ]
@@ -249,10 +263,10 @@
         "skills": [
           "api-designer",
           "monitoring-expert",
-          "spec-miner",
-          "legacy-modernizer",
+          "feature-forge",
           "sre-engineer",
-          "feature-forge"
+          "legacy-modernizer",
+          "spec-miner"
         ]
       },
       {
@@ -262,9 +276,9 @@
         "winner": "database-optimizer",
         "skills": [
           "database-optimizer",
+          "sql-pro",
           "pandas-pro",
           "postgres-pro",
-          "sql-pro",
           "spark-engineer"
         ]
       },
@@ -272,13 +286,13 @@
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "embedded-systems",
         "skills": [
-          "mcp-developer",
+          "embedded-systems",
+          "websocket-engineer",
           "chaos-engineer",
           "cli-developer",
-          "websocket-engineer",
-          "embedded-systems"
+          "mcp-developer"
         ]
       },
       {
@@ -381,14 +395,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-structure",
+        "winner": "plugin-settings",
         "skills": [
-          "plugin-structure",
-          "command-development",
-          "hook-development",
           "plugin-settings",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "hook-development",
+          "command-development",
+          "plugin-structure",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -400,8 +414,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template"
         ]
       }
@@ -438,7 +452,7 @@
   {
     "id": "content-video",
     "name": "内容·视频",
-    "skill_count": 18,
+    "skill_count": 19,
     "winner": "remotion",
     "skills": [
       "remotion",
@@ -448,6 +462,7 @@
       "zero-debt-lint",
       "video-translate",
       "video-transcriber",
+      "remotion-to-hyperframes",
       "video-scene-splitter",
       "\"image-to-video\"",
       "\"video-splitter\"",
@@ -605,11 +620,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
+          "planning-with-files-de",
           "planning-with-files-es",
-          "planning-with-files-zh",
           "planning-with-files-ar",
           "planning-with-files-zht",
-          "planning-with-files-de"
+          "planning-with-files-zh"
         ]
       },
       {

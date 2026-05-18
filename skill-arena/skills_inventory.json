@@ -5917,6 +5917,171 @@
     "auxiliary": false
   },
   {
+    "id": "animejs",
+    "path": "./external/hyperframes/skills/animejs/SKILL.md",
+    "description": "Anime.js adapter patterns for HyperFrames. Use when writing Anime.js animations or timelines inside HyperFrames compositions, registering animations on window.__hfAnime, making Anime.js seek-driven and deterministic, or translating Anime.js examples into render-safe HyperFrames HTML.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contribute-catalog",
+    "path": "./external/hyperframes/skills/contribute-catalog/SKILL.md",
+    "description": "Author a new HyperFrames registry block (caption style, VFX block, transition, lower third) or component (text effect, overlay, snippet) and ship it as an upstream PR to the hyperframes repo. Use ONLY when the user wants to CONTRIBUTE to the public catalog — for in-project caption/transition authoring use the `hyperframes` skill, for installing existing registry items use the `hyperframes-registry` skill.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "css-animations",
+    "path": "./external/hyperframes/skills/css-animations/SKILL.md",
+    "description": "CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gsap",
+    "path": "./external/hyperframes/skills/gsap/SKILL.md",
+    "description": "GSAP animation reference for HyperFrames. Covers gsap.to(), from(), fromTo(), easing, stagger, defaults, timelines (gsap.timeline(), position parameter, labels, nesting, playback), and performance (transforms, will-change, quickTo). Use when writing GSAP animations in HyperFrames compositions.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes",
+    "path": "./external/hyperframes/skills/hyperframes/SKILL.md",
+    "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For dev-loop CLI commands (init, lint, inspect, preview, render) see the hyperframes-cli skill; for asset preprocessing commands (tts, transcribe, remove-background) see the hyperframes-media skill.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-cli",
+    "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
+    "description": "HyperFrames CLI dev loop — `npx hyperframes` for scaffolding (init), validation (lint, inspect), preview, render, and environment troubleshooting (doctor, browser, info, upgrade). Use when running any of these commands or troubleshooting the HyperFrames build/render environment. For asset preprocessing commands (`tts`, `transcribe`, `remove-background`), invoke the `hyperframes-media` skill instead.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-media",
+    "path": "./external/hyperframes/skills/hyperframes-media/SKILL.md",
+    "description": "Asset preprocessing for HyperFrames compositions — text-to-speech narration (Kokoro), audio/video transcription (Whisper), and background removal for transparent overlays (u2net). Use when generating voiceover from text, transcribing speech for captions, removing the background from a video or image to use as a transparent overlay, choosing a TTS voice or whisper model, or chaining these (TTS → transcribe → captions). Each command downloads its own model on first run.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-registry",
+    "path": "./external/hyperframes/skills/hyperframes-registry/SKILL.md",
+    "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "lottie",
+    "path": "./external/hyperframes/skills/lottie/SKILL.md",
+    "description": "Lottie and dotLottie adapter patterns for HyperFrames. Use when embedding lottie-web JSON animations, .lottie files, @lottiefiles/dotlottie-web players, registering instances on window.__hfLottie, or making After Effects exports deterministic in HyperFrames.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "remotion-to-hyperframes",
+    "path": "./external/hyperframes/skills/remotion-to-hyperframes/SKILL.md",
+    "description": "Translate an existing Remotion (React-based) video composition into a HyperFrames HTML composition. Use ONLY when the user explicitly asks to port, convert, migrate, translate, or rewrite a Remotion composition as HyperFrames (e.g. \"port my Remotion project to HyperFrames\"). Do NOT use when (a) authoring a NEW HyperFrames composition (even if A/B-testing a Remotion video); (b) Remotion is mentioned in passing; (c) Remotion code is shared as reference, not for translation; (d) the user wants \"the same video as my Remotion one\" without explicitly asking to migrate the source — treat as a fresh HyperFrames build. When in doubt, default to the `hyperframes` skill. Detects unsupported patterns (useState, useEffect side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda`) and recommends the runtime interop escape hatch instead of a lossy translation.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "tailwind",
+    "path": "./external/hyperframes/skills/tailwind/SKILL.md",
+    "description": "Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions. Use when scaffolding or editing projects created with `hyperframes init --tailwind`, writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind to CSS instead of using the browser runtime.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "three",
+    "path": "./external/hyperframes/skills/three/SKILL.md",
+    "description": "Three.js and WebGL adapter patterns for HyperFrames. Use when creating deterministic Three.js scenes, WebGL canvas layers, AnimationMixer timelines, camera motion, shader-driven visuals, or canvas renders that respond to HyperFrames hf-seek events.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "typegpu",
+    "path": "./external/hyperframes/skills/typegpu/SKILL.md",
+    "description": "TypeGPU and raw WebGPU adapter patterns for HyperFrames. Use when creating GPU-rendered compositions with TypeGPU, raw WebGPU, WGSL fragment shaders, compute pipelines, liquid glass effects, particle systems, or any canvas layer driven by navigator.gpu that responds to HyperFrames hf-seek events.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waapi",
+    "path": "./external/hyperframes/skills/waapi/SKILL.md",
+    "description": "Web Animations API adapter patterns for HyperFrames. Use when authoring element.animate() motion, Animation currentTime seeking, document.getAnimations(), KeyframeEffect timing, fill modes, or native browser animations that must render deterministically in HyperFrames.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "website-to-hyperframes",
+    "path": "./external/hyperframes/skills/website-to-hyperframes/SKILL.md",
+    "description": "|",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "aihot",
     "path": "./external/khazix-skills/aihot/SKILL.md",
     "description": "AI HOT (aihot.virxact.com) 中文 AI 资讯查询 Skill。当用户想知道\"今天 AI 圈有什么\"、\"AI 日报\"、\"AI HOT\"、\"AI 资讯\"、\"AI 热点\"、\"最近 AI\"、\"OpenAI/Anthropic/Google 最近发布了什么\"、\"AI hot today\"、\"AI news today\"、\"看一下 AI 行业动态\"、\"今天有什么大模型发布\"、\"昨天 AI 圈\"、\"看下精选条目\"、\"AI HOT 精选\"、\"最近一周的 AI 论文\"、\"AI 模型发布\"、\"AI 产品发布\"、\"AI 行业动态\"、\"AI 技巧与观点\" 等任何中文 AI 资讯查询时使用。即使用户只说\"AI 圈\"、\"AI 新闻\"、\"AI 日报\"，或者只是问\"今天发生了什么\"且上下文是 AI / 大模型 / LLM / 创业领域，也应该触发本 Skill。Skill 会直接 curl 公开 REST API 拉数据并整理成中文 markdown 简报，不需要用户配置任何 API Key 或 MCP server。**不要 undertrigger**——用户问 AI 资讯而你不调本 Skill 就是把过时的训练数据当作今日新闻，对用户有害。",

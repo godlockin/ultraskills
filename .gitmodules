@@ -73,3 +73,6 @@
 [submodule "external/color-expert"]
 	path = external/color-expert
 	url = https://github.com/meodai/skill.color-expert
+[submodule "external/hyperframes"]
+	path = external/hyperframes
+	url = https://github.com/heygen-com/hyperframes.git
