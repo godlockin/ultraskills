@@ -1,81 +1,69 @@
-[submodule "external/claude-code"]
-	path = external/claude-code
-	url = https://github.com/anthropics/claude-code.git
-[submodule "external/anthropic-skills"]
-	path = external/anthropic-skills
-	url = https://github.com/anthropics/skills.git
-[submodule "external/anthropic-quickstarts"]
-	path = external/anthropic-quickstarts
-	url = https://github.com/anthropics/anthropic-quickstarts.git
-[submodule "external/context-engineering-skills"]
-	path = external/context-engineering-skills
-	url = https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git
-[submodule "external/khazix-skills"]
-	path = external/khazix-skills
-	url = https://github.com/KKKKhazix/Khazix-Skills.git
-[submodule "external/superpowers"]
-	path = external/superpowers
-	url = https://github.com/obra/superpowers.git
-[submodule "external/videocut-skills"]
-	path = external/videocut-skills
-	url = https://github.com/Ceeon/videocut-skills.git
-[submodule "external/marketingskills"]
-	path = external/marketingskills
-	url = https://github.com/coreyhaines31/marketingskills.git
-[submodule "external/claude-skills"]
-	path = external/claude-skills
-	url = https://github.com/alirezarezvani/claude-skills.git
-[submodule "community/planning-with-files"]
-	path = community/planning-with-files
-	url = https://github.com/OthmanAdi/planning-with-files.git
-[submodule "external/claude-code-official"]
-	path = external/claude-code-official
-	url = https://github.com/anthropics/claude-code.git
-[submodule "community/gstack"]
-	path = community/gstack
-	url = https://github.com/garrytan/gstack.git
-[submodule "external/caveman"]
-	path = external/caveman
-	url = https://github.com/JuliusBrussee/caveman.git
-[submodule "external/autoresearch"]
-	path = external/autoresearch
-	url = https://github.com/karpathy/autoresearch.git
-[submodule "external/web-access"]
-	path = external/web-access
-	url = https://github.com/eze-is/web-access.git
-[submodule "external/huashu-skills"]
-	path = external/huashu-skills
-	url = https://github.com/alchaincyf/huashu-skills.git
-[submodule "external/nuwa-skill"]
-	path = external/nuwa-skill
-	url = https://github.com/alchaincyf/nuwa-skill.git
-[submodule "external/dbskill"]
-	path = external/dbskill
-	url = https://github.com/dontbesilent2025/dbskill.git
-[submodule "external/baoyu-skills"]
-	path = external/baoyu-skills
-	url = https://github.com/jimliu/baoyu-skills.git
-[submodule "external/get-shit-done"]
-	path = external/get-shit-done
-	url = https://github.com/gsd-build/get-shit-done
+[submodule "external/awesome-chatgpt-prompts"]
+	path = external/awesome-chatgpt-prompts
+	url = https://github.com/f/awesome-chatgpt-prompts.git
 [submodule "external/claude-scientific-skills"]
 	path = external/claude-scientific-skills
-	url = https://github.com/K-Dense-AI/claude-scientific-skills
-[submodule "external/frontend-slides"]
-	path = external/frontend-slides
-	url = https://github.com/zarazhangrui/frontend-slides
-[submodule "external/skill-seekers"]
-	path = external/skill-seekers
-	url = https://github.com/yusufkaraaslan/Skill_Seekers
+	url = https://github.com/eternalgooner/claude-scientific-skills.git
 [submodule "external/playwright-skill"]
 	path = external/playwright-skill
-	url = https://github.com/lackeyjb/playwright-skill
+	url = https://github.com/saoudrizwan/playwright-skill.git
+[submodule "external/get-shit-done"]
+	path = external/get-shit-done
+	url = https://github.com/xrehpicx/get-shit-done.git
+[submodule "external/frontend-slides"]
+	path = external/frontend-slides
+	url = https://github.com/xrehpicx/frontend-slides.git
+[submodule "external/skill-seekers"]
+	path = external/skill-seekers
+	url = https://github.com/abelpz/skill-seekers.git
+[submodule "external/context-engineering-skills"]
+	path = external/context-engineering-skills
+	url = https://github.com/abelpz/context-engineering-skills.git
+[submodule "external/claude-skills"]
+	path = external/claude-skills
+	url = https://github.com/replayio/claude-skills.git
+[submodule "community/gstack"]
+	path = community/gstack
+	url = https://github.com/gvasilei/gstack.git
+[submodule "community/planning-with-files"]
+	path = community/planning-with-files
+	url = https://github.com/ralphschaefer/planning-with-files.git
 [submodule "external/color-expert"]
 	path = external/color-expert
-	url = https://github.com/meodai/skill.color-expert
+	url = https://github.com/meodai/skill.color-expert.git
 [submodule "external/hyperframes"]
 	path = external/hyperframes
 	url = https://github.com/heygen-com/hyperframes.git
+[submodule "external/chinese-text-analysis"]
+	path = external/chinese-text-analysis
+	url = https://github.com/chenzhenguo/chinese-text-analysis.git
+[submodule "external/mediacrawler"]
+	path = external/mediacrawler
+	url = https://github.com/chenzhenguo/mediacrawler.git
+[submodule "external/video-content-analyzer"]
+	path = external/video-content-analyzer
+	url = https://github.com/chenzhenguo/video-content-analyzer.git
+[submodule "external/video-scene-splitter"]
+	path = external/video-scene-splitter
+	url = https://github.com/chenzhenguo/video-scene-splitter.git
+[submodule "external/video-transcriber"]
+	path = external/video-transcriber
+	url = https://github.com/chenzhenguo/video-transcriber.git
+[submodule "external/media-downloader"]
+	path = external/media-downloader
+	url = https://github.com/chenzhenguo/media-downloader.git
+[submodule "external/baoyu-skills"]
+	path = external/baoyu-skills
+	url = https://github.com/BaoYu-HIT/baoyu-skills.git
+[submodule "external/fullstack-dev-skills"]
+	path = external/fullstack-dev-skills
+	url = https://github.com/JakubK/fullstack-dev-skills.git
+[submodule "external/marketingskills"]
+	path = external/marketingskills
+	url = https://github.com/mattvanston/marketingskills.git
 [submodule "external/html-anything"]
 	path = external/html-anything
 	url = https://github.com/nexu-io/html-anything.git
+[submodule "external/anysearch"]
+	path = external/anysearch
+	url = https://github.com/anysearch-ai/anysearch-skill.git

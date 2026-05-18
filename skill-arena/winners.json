@@ -5,13 +5,13 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 14,
+    "total_contestants": 16,
     "defeated": [
       "visual-forge",
+      "baoyu-markdown-to-html",
+      "baoyu-slide-deck",
       "xlsx",
-      "docx",
-      "pdf",
-      "pptx"
+      "docx"
     ]
   },
   {
@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 21,
+    "total_contestants": 19,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -64,7 +64,7 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 14,
+    "total_contestants": 13,
     "defeated": [
       "ubiquitous-language",
       "information-architecture",
@@ -106,7 +106,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 8,
+    "total_contestants": 7,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -205,7 +205,7 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "crisis-comms-playbook",
-    "total_contestants": 210,
+    "total_contestants": 155,
     "defeated": [
       "crisis-comms-playbook",
       "sop-writer",
@@ -317,13 +317,12 @@
     "winner": "digital-brain",
     "score": 8.8,
     "runner_up": "data-viz",
-    "total_contestants": 10,
+    "total_contestants": 5,
     "defeated": [
       "data-viz",
       "revops",
       "onboarding-checklist-generator",
-      "unit-economics-calculator",
-      "frame-flowchart-sticky"
+      "unit-economics-calculator"
     ]
   },
   {
@@ -332,13 +331,28 @@
     "winner": "comps-analysis",
     "score": 8.8,
     "runner_up": "datapack-builder",
-    "total_contestants": 55,
+    "total_contestants": 54,
     "defeated": [
       "datapack-builder",
       "dcf-model",
       "earnings-analysis",
       "initiating-coverage",
       "lbo-model"
+    ]
+  },
+  {
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "winner": "baoyu-article-illustrator",
+    "score": 8.8,
+    "runner_up": "baoyu-comic",
+    "total_contestants": 18,
+    "defeated": [
+      "baoyu-comic",
+      "baoyu-cover-image",
+      "baoyu-image-cards",
+      "baoyu-image-gen",
+      "baoyu-imagine"
     ]
   },
   {
@@ -352,6 +366,21 @@
       "programmatic-seo",
       "schema-markup",
       "seo-audit"
+    ]
+  },
+  {
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "winner": "baoyu-danger-x-to-markdown",
+    "score": 8.8,
+    "runner_up": "baoyu-format-markdown",
+    "total_contestants": 20,
+    "defeated": [
+      "baoyu-format-markdown",
+      "baoyu-post-to-wechat",
+      "baoyu-translate",
+      "baoyu-xhs-images",
+      "baoyu-danger-gemini-web"
     ]
   },
   {
@@ -375,13 +404,11 @@
     "winner": "book-sft-pipeline",
     "score": 8.8,
     "runner_up": "clinical-reports",
-    "total_contestants": 8,
+    "total_contestants": 4,
     "defeated": [
       "clinical-reports",
       "statistical-analysis",
-      "doc-kami-parchment",
-      "data-report",
-      "social-media-dashboard"
+      "huashu-data-pro"
     ]
   },
   {
@@ -455,13 +482,12 @@
     "winner": "awesome-android-ui",
     "score": 8.5,
     "runner_up": "flutter-expert",
-    "total_contestants": 7,
+    "total_contestants": 5,
     "defeated": [
       "flutter-expert",
       "kotlin-specialist",
       "react-native-expert",
-      "swift-expert",
-      "mobile-app"
+      "swift-expert"
     ]
   },
   {
@@ -489,36 +515,6 @@
     "defeated": [
       "sales-enablement",
       "interview-scorecard-generator"
-    ]
-  },
-  {
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "winner": "algorithmic-art",
-    "score": 8.3,
-    "runner_up": "\"visual-expert-pro-(gemini-3.0-edition)\"",
-    "total_contestants": 11,
-    "defeated": [
-      "\"visual-expert-pro-(gemini-3.0-edition)\"",
-      "\"commercial-director-pro\"",
-      "\"photography-expert-pro\"",
-      "face-beautification",
-      "\"gemini-image-optimizer\""
-    ]
-  },
-  {
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "winner": "social-content",
-    "score": 8.3,
-    "runner_up": "mediacrawler",
-    "total_contestants": 11,
-    "defeated": [
-      "mediacrawler",
-      "huashu-agent-swarm",
-      "huashu-article-to-x",
-      "huashu-speech-coach",
-      "huashu-wechat-image"
     ]
   },
   {
@@ -635,14 +631,14 @@
     "cluster_name": "效率·生产力",
     "winner": "slack-gif-creator",
     "score": 7.8,
-    "runner_up": "brainstorming",
-    "total_contestants": 9,
+    "runner_up": "baoyu-compress-image",
+    "total_contestants": 10,
     "defeated": [
+      "baoyu-compress-image",
       "brainstorming",
       "scientific-brainstorming",
       "dynamic-expert-group",
-      "caveman",
-      "compress"
+      "caveman"
     ]
   },
   {
@@ -700,10 +696,24 @@
     "winner": "security-reviewer",
     "score": 7.3,
     "runner_up": "cso",
-    "total_contestants": 3,
+    "total_contestants": 2,
     "defeated": [
-      "cso",
-      "deck-safety-alert"
+      "cso"
+    ]
+  },
+  {
+    "cluster": "agent-agenthub",
+    "cluster_name": "Agent·AgentHub协作",
+    "winner": "dbs-goal",
+    "score": 5.5,
+    "runner_up": "dbs-chatroom",
+    "total_contestants": 17,
+    "defeated": [
+      "dbs-chatroom",
+      "dbs-agent-migration",
+      "dbs-diagnosis",
+      "dbs-hook",
+      "dbs-slowisfast"
     ]
   },
   {
