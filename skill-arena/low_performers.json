@@ -1,42 +1,47 @@
 {
   "docs-page": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.2,
       3.2
     ],
     "cluster": "misc",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "invoice": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.9,
       3.9
     ],
     "cluster": "misc",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "pricing-page": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.2,
       3.2
     ],
     "cluster": "misc",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "waitlist-page": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      3.2,
       3.2
     ],
     "cluster": "misc",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   },
   "dashboard": {
-    "consecutive_low": 1,
+    "consecutive_low": 2,
     "scores": [
+      2.9,
       2.9
     ],
     "cluster": "data",
-    "recommendation": "monitor"
+    "recommendation": "warning"
   }
 }
