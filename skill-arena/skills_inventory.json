@@ -8458,6 +8458,72 @@
     "auxiliary": false
   },
   {
+    "id": "xiaohongshu-skills",
+    "path": "./external/xiaohongshu-skills/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-auth",
+    "path": "./external/xiaohongshu-skills/skills/xhs-auth/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "2.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-content-ops",
+    "path": "./external/xiaohongshu-skills/skills/xhs-content-ops/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-explore",
+    "path": "./external/xiaohongshu-skills/skills/xhs-explore/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-interact",
+    "path": "./external/xiaohongshu-skills/skills/xhs-interact/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-publish",
+    "path": "./external/xiaohongshu-skills/skills/xhs-publish/SKILL.md",
+    "description": "|",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "find-skills",
     "path": "./meta/find-skills/SKILL.md",
     "description": "根据任务描述搜索最匹配的 Skills，或在无匹配时自动生成新的 Skill",

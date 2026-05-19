@@ -5731,6 +5731,17 @@
     "total": 6.5
   },
   {
+    "id": "xhs-publish",
+    "path": "./external/xiaohongshu-skills/skills/xhs-publish/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
     "id": "pptx-author",
     "path": "./external/anthropic-financial-services/pptx-author/SKILL.md",
     "cluster": "content-doc",
@@ -6710,6 +6721,28 @@
     "total": 5.5
   },
   {
+    "id": "xiaohongshu-skills",
+    "path": "./external/xiaohongshu-skills/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "xhs-content-ops",
+    "path": "./external/xiaohongshu-skills/skills/xhs-content-ops/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
     "id": "dbs-chatroom",
     "path": "./external/dbskill/skills/dbs-chatroom/SKILL.md",
     "cluster": "agent-agenthub",
@@ -7092,6 +7125,39 @@
     "doc_quality": 5,
     "func_clarity": 5,
     "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "xhs-auth",
+    "path": "./external/xiaohongshu-skills/skills/xhs-auth/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.0
+  },
+  {
+    "id": "xhs-explore",
+    "path": "./external/xiaohongshu-skills/skills/xhs-explore/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.0
+  },
+  {
+    "id": "xhs-interact",
+    "path": "./external/xiaohongshu-skills/skills/xhs-interact/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 5.0
   },
   {

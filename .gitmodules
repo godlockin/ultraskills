@@ -67,3 +67,6 @@
 [submodule "external/anysearch"]
 	path = external/anysearch
 	url = https://github.com/anysearch-ai/anysearch-skill.git
+[submodule "external/xiaohongshu-skills"]
+	path = external/xiaohongshu-skills
+	url = https://github.com/autoclaw-cc/xiaohongshu-skills.git
