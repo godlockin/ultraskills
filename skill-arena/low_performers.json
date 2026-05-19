@@ -1,1 +1,42 @@
-{}
+{
+  "docs-page": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "invoice": {
+    "consecutive_low": 1,
+    "scores": [
+      3.9
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "pricing-page": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "waitlist-page": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "dashboard": {
+    "consecutive_low": 1,
+    "scores": [
+      2.9
+    ],
+    "cluster": "data",
+    "recommendation": "monitor"
+  }
+}

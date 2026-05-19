@@ -2,7 +2,7 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 154,
+    "skill_count": 210,
     "winner": "objection-handler",
     "skills": [
       "objection-handler",
@@ -111,6 +111,8 @@
       "torchdrug",
       "usfiscaldata",
       "vaex",
+      "deck-guizang-editorial",
+      "deck-swiss-international",
       "dhdna-profiler",
       "molecular-dynamics",
       "neuropixels-analysis",
@@ -136,6 +138,11 @@
       "qutip",
       "scvelo",
       "transformers",
+      "frame-light-leak-cinema",
+      "frame-liquid-bg-hero",
+      "frame-logo-outro",
+      "frame-macos-notification",
+      "mockup-device-3d",
       "animejs",
       "gsap",
       "tailwind",
@@ -146,25 +153,74 @@
       "css-animations",
       "codex",
       "review",
+      "deck-open-slide-canvas",
+      "frame-data-chart-nyt",
+      "frame-glitch-title",
+      "prototype-web",
       "playground",
       "pyzotero",
+      "deck-replit",
+      "social-spotify-card",
+      "social-x-post-card",
       "lottie",
       "three",
       "waapi",
       "fact-checker",
+      "article-magazine",
+      "digital-eguide",
+      "social-reddit-card",
+      "vfx-text-cursor",
       "qa",
       "primekg",
       "\"status\"",
+      "deck-pitch",
+      "magazine-poster",
+      "saas-landing",
+      "web-proto-brutalist",
+      "web-proto-soft",
+      "wireframe-sketch",
       "neat-freak",
+      "blog-post",
+      "deck-dir-key-nav",
+      "deck-hermes-cyber",
+      "deck-magazine-web",
+      "deck-obsidian-claude",
+      "deck-presenter-mode",
+      "email-marketing",
+      "gamified-app",
+      "social-carousel",
+      "sprite-animation",
       "website-to-hyperframes",
       "freeze",
-      "unfreeze"
+      "card-twitter",
+      "card-xiaohongshu",
+      "poster-hero",
+      "resume-modern",
+      "deck-tech-sharing",
+      "web-proto-editorial",
+      "unfreeze",
+      "dating-web",
+      "deck-course-module",
+      "deck-graphify-dark",
+      "deck-product-launch",
+      "deck-simple",
+      "deck-xhs-pastel",
+      "deck-xhs-post",
+      "deck-xhs-white",
+      "meeting-notes",
+      "pm-spec",
+      "team-okrs",
+      "weekly-update",
+      "invoice",
+      "docs-page",
+      "pricing-page",
+      "waitlist-page"
     ]
   },
   {
     "id": "business-finance",
     "name": "商业·财务",
-    "skill_count": 54,
+    "skill_count": 55,
     "winner": "comps-analysis",
     "skills": [
       "comps-analysis",
@@ -220,6 +276,7 @@
       "nav-tieout",
       "roll-forward",
       "variance-commentary",
+      "finance-report",
       "hv-analysis"
     ]
   },
@@ -262,47 +319,47 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "monitoring-expert",
-          "feature-forge",
           "sre-engineer",
+          "monitoring-expert",
+          "spec-miner",
           "legacy-modernizer",
-          "spec-miner"
+          "feature-forge"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "spark-engineer",
         "skills": [
-          "database-optimizer",
-          "sql-pro",
-          "pandas-pro",
+          "spark-engineer",
           "postgres-pro",
-          "spark-engineer"
+          "sql-pro",
+          "database-optimizer",
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "embedded-systems",
+        "winner": "mcp-developer",
         "skills": [
+          "mcp-developer",
           "embedded-systems",
-          "websocket-engineer",
           "chaos-engineer",
           "cli-developer",
-          "mcp-developer"
+          "websocket-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
@@ -335,6 +392,35 @@
           "dotnet-core-expert"
         ]
       }
+    ]
+  },
+  {
+    "id": "content-video",
+    "name": "内容·视频",
+    "skill_count": 21,
+    "winner": "remotion",
+    "skills": [
+      "remotion",
+      "video-content-analyzer",
+      "video-analyzer",
+      "\"video-frame-extractor\"",
+      "zero-debt-lint",
+      "video-translate",
+      "video-transcriber",
+      "remotion-to-hyperframes",
+      "video-scene-splitter",
+      "\"image-to-video\"",
+      "\"video-splitter\"",
+      "huashu-video-check",
+      "videocut:剪口播",
+      "video-hyperframes",
+      "videocut:高清化",
+      "huashu-video-outline",
+      "videocut:字幕",
+      "huashu-douyin-script",
+      "videocut:安装",
+      "videocut:自进化",
+      "motion-frames"
     ]
   },
   {
@@ -374,8 +460,8 @@
         "skills": [
           "skill-creator",
           "skill-sync-manager",
-          "skill-manager",
           "\"github-skill-scout\"",
+          "skill-manager",
           "skill-evolution-manager"
         ]
       },
@@ -395,11 +481,11 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "command-development",
         "skills": [
-          "plugin-settings",
-          "hook-development",
           "command-development",
+          "hook-development",
+          "plugin-settings",
           "plugin-structure",
           "claude-automation-recommender",
           "claude-md-improver"
@@ -414,8 +500,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "using-superpowers",
           "context-engineering-collection",
+          "using-superpowers",
           "skill-template"
         ]
       }
@@ -450,33 +536,6 @@
     ]
   },
   {
-    "id": "content-video",
-    "name": "内容·视频",
-    "skill_count": 19,
-    "winner": "remotion",
-    "skills": [
-      "remotion",
-      "video-content-analyzer",
-      "video-analyzer",
-      "\"video-frame-extractor\"",
-      "zero-debt-lint",
-      "video-translate",
-      "video-transcriber",
-      "remotion-to-hyperframes",
-      "video-scene-splitter",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
-      "huashu-video-check",
-      "videocut:剪口播",
-      "videocut:高清化",
-      "huashu-video-outline",
-      "videocut:字幕",
-      "huashu-douyin-script",
-      "videocut:安装",
-      "videocut:自进化"
-    ]
-  },
-  {
     "id": "content-writing",
     "name": "内容·写作",
     "skill_count": 15,
@@ -500,6 +559,50 @@
     ]
   },
   {
+    "id": "content-doc",
+    "name": "内容·文档生成",
+    "skill_count": 14,
+    "winner": "magazine-web-ppt",
+    "skills": [
+      "magazine-web-ppt",
+      "visual-forge",
+      "xlsx",
+      "docx",
+      "pdf",
+      "pptx",
+      "pptx-posters",
+      "scientific-slides",
+      "frontend-slides",
+      "huashu-slides",
+      "pptx-author",
+      "xlsx-author",
+      "ppt-keynote",
+      "huashu-md-to-pdf"
+    ]
+  },
+  {
+    "id": "engineering-arch",
+    "name": "工程·架构",
+    "skill_count": 14,
+    "winner": "design-an-interface",
+    "skills": [
+      "design-an-interface",
+      "ubiquitous-language",
+      "information-architecture",
+      "mcp-builder",
+      "mcp-integration",
+      "site-architecture",
+      "graphql-architect",
+      "rag-architect",
+      "angular-architect",
+      "architecture-designer",
+      "cloud-architect",
+      "java-architect",
+      "microservices-architect",
+      "deck-blueprint"
+    ]
+  },
+  {
     "id": "persona",
     "name": "人物·视角模拟",
     "skill_count": 14,
@@ -519,48 +622,6 @@
       "trump-perspective",
       "zhang-yiming-perspective",
       "zhangxuefeng-perspective"
-    ]
-  },
-  {
-    "id": "content-doc",
-    "name": "内容·文档生成",
-    "skill_count": 13,
-    "winner": "magazine-web-ppt",
-    "skills": [
-      "magazine-web-ppt",
-      "visual-forge",
-      "xlsx",
-      "docx",
-      "pdf",
-      "pptx",
-      "pptx-posters",
-      "scientific-slides",
-      "frontend-slides",
-      "huashu-slides",
-      "pptx-author",
-      "xlsx-author",
-      "huashu-md-to-pdf"
-    ]
-  },
-  {
-    "id": "engineering-arch",
-    "name": "工程·架构",
-    "skill_count": 13,
-    "winner": "design-an-interface",
-    "skills": [
-      "design-an-interface",
-      "ubiquitous-language",
-      "information-architecture",
-      "mcp-builder",
-      "mcp-integration",
-      "site-architecture",
-      "graphql-architect",
-      "rag-architect",
-      "angular-architect",
-      "architecture-designer",
-      "cloud-architect",
-      "java-architect",
-      "microservices-architect"
     ]
   },
   {
@@ -620,11 +681,11 @@
         "winner": "planning-with-files",
         "skills": [
           "planning-with-files",
+          "planning-with-files-zh",
           "planning-with-files-de",
           "planning-with-files-es",
-          "planning-with-files-ar",
           "planning-with-files-zht",
-          "planning-with-files-zh"
+          "planning-with-files-ar"
         ]
       },
       {
@@ -667,9 +728,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-auditor",
+          "image-reviewer",
           "image-analyzer",
-          "image-reviewer"
+          "image-auditor"
         ]
       },
       {
@@ -681,8 +742,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-image-upload",
-          "huashu-design"
+          "huashu-design",
+          "huashu-image-upload"
         ]
       }
     ]
@@ -690,7 +751,7 @@
   {
     "id": "content-social",
     "name": "内容·社交媒体",
-    "skill_count": 10,
+    "skill_count": 11,
     "winner": "social-content",
     "skills": [
       "social-content",
@@ -702,6 +763,7 @@
       "huashu-xhs-image",
       "x-mastery-mentor",
       "huashu-topic-gen",
+      "social-media-matrix",
       "khazix-writer"
     ],
     "subclusters": [
@@ -713,9 +775,9 @@
         "skills": [
           "social-content",
           "huashu-article-to-x",
+          "huashu-wechat-image",
           "x-mastery-mentor",
           "huashu-xhs-image",
-          "huashu-wechat-image",
           "huashu-topic-gen",
           "khazix-writer"
         ]
@@ -733,10 +795,65 @@
       {
         "id": "content-social-other",
         "name": "其他",
-        "skill_count": 1,
+        "skill_count": 2,
         "winner": "mediacrawler",
         "skills": [
-          "mediacrawler"
+          "mediacrawler",
+          "social-media-matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business-clevel",
+    "name": "商业·高管顾问",
+    "skill_count": 10,
+    "winner": "digital-brain",
+    "skills": [
+      "digital-brain",
+      "data-viz",
+      "revops",
+      "onboarding-checklist-generator",
+      "unit-economics-calculator",
+      "frame-flowchart-sticky",
+      "kanban-board",
+      "live-dashboard",
+      "flowai-team-dashboard",
+      "hr-onboarding"
+    ],
+    "subclusters": [
+      {
+        "id": "business-clevel-strategy",
+        "name": "战略决策",
+        "skill_count": 5,
+        "winner": "onboarding-checklist-generator",
+        "skills": [
+          "onboarding-checklist-generator",
+          "kanban-board",
+          "live-dashboard",
+          "flowai-team-dashboard",
+          "hr-onboarding"
+        ]
+      },
+      {
+        "id": "business-clevel-ops",
+        "name": "运营体系",
+        "skill_count": 1,
+        "winner": "revops",
+        "skills": [
+          "revops"
+        ]
+      },
+      {
+        "id": "business-clevel-other",
+        "name": "其他",
+        "skill_count": 4,
+        "winner": "digital-brain",
+        "skills": [
+          "digital-brain",
+          "data-viz",
+          "unit-economics-calculator",
+          "frame-flowchart-sticky"
         ]
       }
     ]
@@ -831,6 +948,38 @@
     ]
   },
   {
+    "id": "data",
+    "name": "数据·分析",
+    "skill_count": 8,
+    "winner": "book-sft-pipeline",
+    "skills": [
+      "book-sft-pipeline",
+      "clinical-reports",
+      "statistical-analysis",
+      "doc-kami-parchment",
+      "data-report",
+      "social-media-dashboard",
+      "huashu-data-pro",
+      "dashboard"
+    ]
+  },
+  {
+    "id": "engineering-code",
+    "name": "工程·代码质量",
+    "skill_count": 8,
+    "winner": "receiving-code-review",
+    "skills": [
+      "receiving-code-review",
+      "changelog-generator",
+      "improve-codebase-architecture",
+      "gh-address-comments",
+      "karpathy-guidelines",
+      "code-reviewer",
+      "requesting-code-review",
+      "eng-runbook"
+    ]
+  },
+  {
     "id": "engineering-lang",
     "name": "工程·语言专家",
     "skill_count": 8,
@@ -844,21 +993,6 @@
       "php-pro",
       "python-pro",
       "typescript-pro"
-    ]
-  },
-  {
-    "id": "engineering-code",
-    "name": "工程·代码质量",
-    "skill_count": 7,
-    "winner": "receiving-code-review",
-    "skills": [
-      "receiving-code-review",
-      "changelog-generator",
-      "improve-codebase-architecture",
-      "gh-address-comments",
-      "karpathy-guidelines",
-      "code-reviewer",
-      "requesting-code-review"
     ]
   },
   {
@@ -918,10 +1052,25 @@
           "devops-engineer",
           "setup-deploy",
           "land-and-deploy",
-          "ship",
-          "canary"
+          "canary",
+          "ship"
         ]
       }
+    ]
+  },
+  {
+    "id": "engineering-mobile",
+    "name": "工程·移动",
+    "skill_count": 7,
+    "winner": "awesome-android-ui",
+    "skills": [
+      "awesome-android-ui",
+      "flutter-expert",
+      "kotlin-specialist",
+      "react-native-expert",
+      "swift-expert",
+      "mobile-app",
+      "mobile-onboarding"
     ]
   },
   {
@@ -995,50 +1144,6 @@
     ]
   },
   {
-    "id": "business-clevel",
-    "name": "商业·高管顾问",
-    "skill_count": 5,
-    "winner": "digital-brain",
-    "skills": [
-      "digital-brain",
-      "data-viz",
-      "revops",
-      "onboarding-checklist-generator",
-      "unit-economics-calculator"
-    ],
-    "subclusters": [
-      {
-        "id": "business-clevel-strategy",
-        "name": "战略决策",
-        "skill_count": 1,
-        "winner": "onboarding-checklist-generator",
-        "skills": [
-          "onboarding-checklist-generator"
-        ]
-      },
-      {
-        "id": "business-clevel-ops",
-        "name": "运营体系",
-        "skill_count": 1,
-        "winner": "revops",
-        "skills": [
-          "revops"
-        ]
-      },
-      {
-        "id": "business-clevel-other",
-        "name": "其他",
-        "skill_count": 3,
-        "winner": "digital-brain",
-        "skills": [
-          "digital-brain",
-          "data-viz",
-          "unit-economics-calculator"
-        ]
-      }
-    ]
-  },
-  {
     "id": "business-pm",
     "name": "商业·项目管理",
     "skill_count": 5,
@@ -1078,19 +1183,6 @@
     ]
   },
   {
-    "id": "engineering-mobile",
-    "name": "工程·移动",
-    "skill_count": 5,
-    "winner": "awesome-android-ui",
-    "skills": [
-      "awesome-android-ui",
-      "flutter-expert",
-      "kotlin-specialist",
-      "react-native-expert",
-      "swift-expert"
-    ]
-  },
-  {
     "id": "agent-arch",
     "name": "Agent·架构",
     "skill_count": 4,
@@ -1112,18 +1204,6 @@
       "programmatic-seo",
       "schema-markup",
       "seo-audit"
-    ]
-  },
-  {
-    "id": "data",
-    "name": "数据·分析",
-    "skill_count": 4,
-    "winner": "book-sft-pipeline",
-    "skills": [
-      "book-sft-pipeline",
-      "clinical-reports",
-      "statistical-analysis",
-      "huashu-data-pro"
     ]
   },
   {
@@ -1207,6 +1287,17 @@
     ]
   },
   {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 3,
+    "winner": "security-reviewer",
+    "skills": [
+      "security-reviewer",
+      "cso",
+      "deck-safety-alert"
+    ]
+  },
+  {
     "id": "marketing-ads",
     "name": "营销·广告",
     "skill_count": 3,
@@ -1258,16 +1349,6 @@
     "skills": [
       "chinese-text-analysis",
       "reasoning-trace-optimizer"
-    ]
-  },
-  {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 2,
-    "winner": "security-reviewer",
-    "skills": [
-      "security-reviewer",
-      "cso"
     ]
   },
   {

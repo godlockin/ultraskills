@@ -4708,6 +4708,28 @@
     "total": 7.0
   },
   {
+    "id": "deck-guizang-editorial",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-guizang-editorial/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 7.0
+  },
+  {
+    "id": "deck-swiss-international",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-swiss-international/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 7.0
+  },
+  {
     "id": "\"gemini-image-optimizer\"",
     "path": "./community/gemini-image-optimizer/SKILL.md",
     "cluster": "content-image",
@@ -5335,6 +5357,72 @@
     "total": 6.5
   },
   {
+    "id": "doc-kami-parchment",
+    "path": "./external/html-anything/next/src/lib/templates/skills/doc-kami-parchment/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "frame-light-leak-cinema",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-light-leak-cinema/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "frame-liquid-bg-hero",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-liquid-bg-hero/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "frame-logo-outro",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-logo-outro/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "frame-macos-notification",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-macos-notification/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
+    "id": "mockup-device-3d",
+    "path": "./external/html-anything/next/src/lib/templates/skills/mockup-device-3d/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.5
+  },
+  {
     "id": "animejs",
     "path": "./external/hyperframes/skills/animejs/SKILL.md",
     "cluster": "misc",
@@ -5621,6 +5709,50 @@
     "total": 6.2
   },
   {
+    "id": "deck-open-slide-canvas",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-open-slide-canvas/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 6.2
+  },
+  {
+    "id": "frame-data-chart-nyt",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-data-chart-nyt/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 6.2
+  },
+  {
+    "id": "frame-glitch-title",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-glitch-title/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 6.2
+  },
+  {
+    "id": "prototype-web",
+    "path": "./external/html-anything/next/src/lib/templates/skills/prototype-web/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 6.2
+  },
+  {
     "id": "videocut:剪口播",
     "path": "./external/videocut-skills/剪口播/SKILL.md",
     "cluster": "content-video",
@@ -5673,6 +5805,39 @@
     "doc_quality": 7,
     "func_clarity": 5,
     "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "deck-replit",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-replit/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.0
+  },
+  {
+    "id": "social-spotify-card",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-spotify-card/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 6.0
+  },
+  {
+    "id": "social-x-post-card",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-x-post-card/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 6.0
   },
   {
@@ -5808,6 +5973,94 @@
     "total": 5.7
   },
   {
+    "id": "article-magazine",
+    "path": "./external/html-anything/next/src/lib/templates/skills/article-magazine/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "data-report",
+    "path": "./external/html-anything/next/src/lib/templates/skills/data-report/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "digital-eguide",
+    "path": "./external/html-anything/next/src/lib/templates/skills/digital-eguide/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "frame-flowchart-sticky",
+    "path": "./external/html-anything/next/src/lib/templates/skills/frame-flowchart-sticky/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "ppt-keynote",
+    "path": "./external/html-anything/next/src/lib/templates/skills/ppt-keynote/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "social-reddit-card",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-reddit-card/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "vfx-text-cursor",
+    "path": "./external/html-anything/next/src/lib/templates/skills/vfx-text-cursor/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
+    "id": "video-hyperframes",
+    "path": "./external/html-anything/next/src/lib/templates/skills/video-hyperframes/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.7
+  },
+  {
     "id": "platform-algorithm-reference",
     "path": "./external/platform-algorithm-reference/SKILL.md",
     "cluster": "marketing-strategy",
@@ -5871,6 +6124,105 @@
     "doc_quality": 6,
     "func_clarity": 5,
     "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "deck-pitch",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-pitch/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "eng-runbook",
+    "path": "./external/html-anything/next/src/lib/templates/skills/eng-runbook/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "kanban-board",
+    "path": "./external/html-anything/next/src/lib/templates/skills/kanban-board/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "live-dashboard",
+    "path": "./external/html-anything/next/src/lib/templates/skills/live-dashboard/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "magazine-poster",
+    "path": "./external/html-anything/next/src/lib/templates/skills/magazine-poster/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "saas-landing",
+    "path": "./external/html-anything/next/src/lib/templates/skills/saas-landing/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "web-proto-brutalist",
+    "path": "./external/html-anything/next/src/lib/templates/skills/web-proto-brutalist/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "web-proto-soft",
+    "path": "./external/html-anything/next/src/lib/templates/skills/web-proto-soft/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 5.5
+  },
+  {
+    "id": "wireframe-sketch",
+    "path": "./external/html-anything/next/src/lib/templates/skills/wireframe-sketch/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 5.5
   },
   {
@@ -6193,6 +6545,182 @@
     "total": 5.2
   },
   {
+    "id": "blog-post",
+    "path": "./external/html-anything/next/src/lib/templates/skills/blog-post/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-dir-key-nav",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-dir-key-nav/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-hermes-cyber",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-hermes-cyber/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-magazine-web",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-magazine-web/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-obsidian-claude",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-obsidian-claude/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-presenter-mode",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-presenter-mode/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "deck-safety-alert",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-safety-alert/SKILL.md",
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "email-marketing",
+    "path": "./external/html-anything/next/src/lib/templates/skills/email-marketing/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "finance-report",
+    "path": "./external/html-anything/next/src/lib/templates/skills/finance-report/SKILL.md",
+    "cluster": "business-finance",
+    "cluster_name": "商业·财务",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "flowai-team-dashboard",
+    "path": "./external/html-anything/next/src/lib/templates/skills/flowai-team-dashboard/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "gamified-app",
+    "path": "./external/html-anything/next/src/lib/templates/skills/gamified-app/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "mobile-app",
+    "path": "./external/html-anything/next/src/lib/templates/skills/mobile-app/SKILL.md",
+    "cluster": "engineering-mobile",
+    "cluster_name": "工程·移动",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "social-carousel",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-carousel/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "social-media-dashboard",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-media-dashboard/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "social-media-matrix",
+    "path": "./external/html-anything/next/src/lib/templates/skills/social-media-matrix/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
+    "id": "sprite-animation",
+    "path": "./external/html-anything/next/src/lib/templates/skills/sprite-animation/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 5.2
+  },
+  {
     "id": "videocut:字幕",
     "path": "./external/videocut-skills/字幕/SKILL.md",
     "cluster": "content-video",
@@ -6281,6 +6809,61 @@
     "total": 4.7
   },
   {
+    "id": "card-twitter",
+    "path": "./external/html-anything/next/src/lib/templates/skills/card-twitter/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.7
+  },
+  {
+    "id": "card-xiaohongshu",
+    "path": "./external/html-anything/next/src/lib/templates/skills/card-xiaohongshu/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.7
+  },
+  {
+    "id": "deck-blueprint",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-blueprint/SKILL.md",
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.7
+  },
+  {
+    "id": "poster-hero",
+    "path": "./external/html-anything/next/src/lib/templates/skills/poster-hero/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.7
+  },
+  {
+    "id": "resume-modern",
+    "path": "./external/html-anything/next/src/lib/templates/skills/resume-modern/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.7
+  },
+  {
     "id": "videocut:安装",
     "path": "./external/videocut-skills/安装/SKILL.md",
     "cluster": "content-video",
@@ -6301,6 +6884,28 @@
     "func_clarity": 4,
     "maintainability": 5,
     "total": 4.7
+  },
+  {
+    "id": "deck-tech-sharing",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-tech-sharing/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 4.5
+  },
+  {
+    "id": "web-proto-editorial",
+    "path": "./external/html-anything/next/src/lib/templates/skills/web-proto-editorial/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 4.5
   },
   {
     "id": "huashu-md-to-pdf",
@@ -6336,6 +6941,171 @@
     "total": 4.2
   },
   {
+    "id": "dating-web",
+    "path": "./external/html-anything/next/src/lib/templates/skills/dating-web/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-course-module",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-course-module/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-graphify-dark",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-graphify-dark/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-product-launch",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-product-launch/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-simple",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-simple/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-xhs-pastel",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-xhs-pastel/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-xhs-post",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-xhs-post/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "deck-xhs-white",
+    "path": "./external/html-anything/next/src/lib/templates/skills/deck-xhs-white/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "hr-onboarding",
+    "path": "./external/html-anything/next/src/lib/templates/skills/hr-onboarding/SKILL.md",
+    "cluster": "business-clevel",
+    "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "meeting-notes",
+    "path": "./external/html-anything/next/src/lib/templates/skills/meeting-notes/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "mobile-onboarding",
+    "path": "./external/html-anything/next/src/lib/templates/skills/mobile-onboarding/SKILL.md",
+    "cluster": "engineering-mobile",
+    "cluster_name": "工程·移动",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "motion-frames",
+    "path": "./external/html-anything/next/src/lib/templates/skills/motion-frames/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "pm-spec",
+    "path": "./external/html-anything/next/src/lib/templates/skills/pm-spec/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "team-okrs",
+    "path": "./external/html-anything/next/src/lib/templates/skills/team-okrs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
+    "id": "weekly-update",
+    "path": "./external/html-anything/next/src/lib/templates/skills/weekly-update/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 4.2
+  },
+  {
     "id": "huashu-data-pro",
     "path": "./external/huashu-skills/huashu-data-pro/SKILL.md",
     "cluster": "data",
@@ -6345,6 +7115,61 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 4.0
+  },
+  {
+    "id": "invoice",
+    "path": "./external/html-anything/next/src/lib/templates/skills/invoice/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 5,
+    "maintainability": 7,
+    "total": 3.9
+  },
+  {
+    "id": "docs-page",
+    "path": "./external/html-anything/next/src/lib/templates/skills/docs-page/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 3.2
+  },
+  {
+    "id": "pricing-page",
+    "path": "./external/html-anything/next/src/lib/templates/skills/pricing-page/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 3.2
+  },
+  {
+    "id": "waitlist-page",
+    "path": "./external/html-anything/next/src/lib/templates/skills/waitlist-page/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 6,
+    "maintainability": 7,
+    "total": 3.2
+  },
+  {
+    "id": "dashboard",
+    "path": "./external/html-anything/next/src/lib/templates/skills/dashboard/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 5,
+    "maintainability": 7,
+    "total": 2.9
   },
   {
     "id": "caveman-compress",

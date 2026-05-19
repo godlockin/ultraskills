@@ -76,3 +76,6 @@
 [submodule "external/hyperframes"]
 	path = external/hyperframes
 	url = https://github.com/heygen-com/hyperframes.git
+[submodule "external/html-anything"]
+	path = external/html-anything
+	url = https://github.com/nexu-io/html-anything.git

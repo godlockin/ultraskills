@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 13,
+    "total_contestants": 14,
     "defeated": [
       "visual-forge",
       "xlsx",
@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 19,
+    "total_contestants": 21,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -64,7 +64,7 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 13,
+    "total_contestants": 14,
     "defeated": [
       "ubiquitous-language",
       "information-architecture",
@@ -106,7 +106,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 7,
+    "total_contestants": 8,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -205,7 +205,7 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "crisis-comms-playbook",
-    "total_contestants": 154,
+    "total_contestants": 210,
     "defeated": [
       "crisis-comms-playbook",
       "sop-writer",
@@ -317,12 +317,13 @@
     "winner": "digital-brain",
     "score": 8.8,
     "runner_up": "data-viz",
-    "total_contestants": 5,
+    "total_contestants": 10,
     "defeated": [
       "data-viz",
       "revops",
       "onboarding-checklist-generator",
-      "unit-economics-calculator"
+      "unit-economics-calculator",
+      "frame-flowchart-sticky"
     ]
   },
   {
@@ -331,7 +332,7 @@
     "winner": "comps-analysis",
     "score": 8.8,
     "runner_up": "datapack-builder",
-    "total_contestants": 54,
+    "total_contestants": 55,
     "defeated": [
       "datapack-builder",
       "dcf-model",
@@ -374,11 +375,13 @@
     "winner": "book-sft-pipeline",
     "score": 8.8,
     "runner_up": "clinical-reports",
-    "total_contestants": 4,
+    "total_contestants": 8,
     "defeated": [
       "clinical-reports",
       "statistical-analysis",
-      "huashu-data-pro"
+      "doc-kami-parchment",
+      "data-report",
+      "social-media-dashboard"
     ]
   },
   {
@@ -452,12 +455,13 @@
     "winner": "awesome-android-ui",
     "score": 8.5,
     "runner_up": "flutter-expert",
-    "total_contestants": 5,
+    "total_contestants": 7,
     "defeated": [
       "flutter-expert",
       "kotlin-specialist",
       "react-native-expert",
-      "swift-expert"
+      "swift-expert",
+      "mobile-app"
     ]
   },
   {
@@ -508,7 +512,7 @@
     "winner": "social-content",
     "score": 8.3,
     "runner_up": "mediacrawler",
-    "total_contestants": 10,
+    "total_contestants": 11,
     "defeated": [
       "mediacrawler",
       "huashu-agent-swarm",
@@ -696,9 +700,10 @@
     "winner": "security-reviewer",
     "score": 7.3,
     "runner_up": "cso",
-    "total_contestants": 2,
+    "total_contestants": 3,
     "defeated": [
-      "cso"
+      "cso",
+      "deck-safety-alert"
     ]
   },
   {
