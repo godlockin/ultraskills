@@ -1771,7 +1771,7 @@
   {
     "id": "quark-pan-downloader",
     "path": "./community/quark-pan-downloader/SKILL.md",
-    "description": "夸克网盘批量转存、分享和下载工具 - 基于 Playwright 自动登录，支持批量转存分享文件、生成分享链接、下载网盘文件（绕过大文件限制，无需VIP）",
+    "description": "夸克网盘批量转存、分享和下载工具 - Chrome CDP 自动登录监控，一键获取 cookie 并下载，绕过大文件限制，无需VIP",
     "tags": [
       "quark",
       "netdisk",
@@ -1779,9 +1779,11 @@
       "playwright",
       "batch",
       "file-transfer",
+      "chrome-cdp",
+      "auto-login",
       "community"
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "github_url": "",
     "auxiliary": false
   },

@@ -82,8 +82,8 @@
     "total_contestants": 13,
     "defeated": [
       "gstack-openclaw-retro",
-      "gstack-openclaw-ceo-review",
       "quark-pan-downloader",
+      "gstack-openclaw-ceo-review",
       "gstack-openclaw-investigate",
       "gstack-openclaw-office-hours"
     ]

@@ -1122,6 +1122,17 @@
     "total": 8.5
   },
   {
+    "id": "quark-pan-downloader",
+    "path": "./community/quark-pan-downloader/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "sop-writer",
     "path": "./community/sop-writer/SKILL.md",
     "cluster": "misc",
@@ -1878,17 +1889,6 @@
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 7,
-    "total": 8.0
-  },
-  {
-    "id": "quark-pan-downloader",
-    "path": "./community/quark-pan-downloader/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
     "total": 8.0
   },
   {

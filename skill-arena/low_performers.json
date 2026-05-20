@@ -1,7 +1,8 @@
 {
   "docs-page": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.2,
       3.2,
       3.2,
       3.2,
@@ -11,8 +12,9 @@
     "recommendation": "eliminate"
   },
   "invoice": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.9,
       3.9,
       3.9,
       3.9,
@@ -22,8 +24,9 @@
     "recommendation": "eliminate"
   },
   "pricing-page": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.2,
       3.2,
       3.2,
       3.2,
@@ -33,8 +36,9 @@
     "recommendation": "eliminate"
   },
   "waitlist-page": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.2,
       3.2,
       3.2,
       3.2,
@@ -44,8 +48,9 @@
     "recommendation": "eliminate"
   },
   "dashboard": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      2.9,
       2.9,
       2.9,
       2.9,
