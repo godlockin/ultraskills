@@ -1,20 +1,26 @@
 ---
 name: quark-pan-downloader
-description: 夸克网盘批量转存、分享和下载工具 - 基于 Playwright 自动登录，支持批量转存分享文件、生成分享链接、下载网盘文件（绕过大文件限制，无需VIP）
-version: 1.0.0
-tags: [quark, netdisk, download, playwright, batch, file-transfer, community]
+description: 夸克网盘批量转存、分享和下载工具 - Chrome CDP 自动登录监控，一键获取 cookie 并下载，绕过大文件限制，无需VIP
+version: 1.1.0
+tags: [quark, netdisk, download, playwright, batch, file-transfer, chrome-cdp, auto-login, community]
 upstream: https://github.com/ihmily/QuarkPanTool
 ---
 
 # 夸克网盘批量下载工具
 
-> 基于 Playwright 的夸克网盘自动化工具，支持批量转存、分享、下载，无需 VIP 即可下载大文件。
+> 基于 Playwright 的夸克网盘自动化工具，支持 Chrome CDP 自动登录监控、批量转存、分享、下载，无需 VIP 即可下载大文件。
 
 ---
 
 ## 🎯 核心功能
 
-### 1. 批量转存分享文件
+### 1. Chrome CDP 自动登录（新增 v1.1.0）
+- ✨ 自动打开 Chrome 浏览器
+- ✨ 实时监控登录状态
+- ✨ 登录成功后自动获取 cookie
+- ✨ 一键下载，无需手动配置
+
+### 2. 批量转存分享文件
 - 一次性转存多个夸克网盘分享链接
 - 自动处理提取码
 - 保持原文件夹结构
@@ -52,6 +58,37 @@ upstream: https://github.com/ihmily/QuarkPanTool
 ---
 
 ## 📋 使用流程
+
+### 🆕 快速模式：Chrome CDP 自动下载（v1.1.0）
+
+**一键下载，无需手动配置 cookie！**
+
+```bash
+cd community/quark-pan-downloader/scripts
+
+# 自动打开 Chrome → 等待登录 → 获取 cookie → 下载
+python auto_download_cdp.py \
+  "https://pan.quark.cn/s/ce476b55ec2a" \
+  "~/Documents/videos/沈弈斐" \
+  "7efe3YeNNj"
+```
+
+**工作流程：**
+1. ✅ 自动启动 Chrome 浏览器
+2. ✅ 打开夸克网盘登录页
+3. ⏳ **等待你在浏览器中登录**（扫码或密码）
+4. ✅ 检测到登录成功后自动获取 cookie
+5. ✅ 保存 cookie 到 `config/cookies.txt`
+6. ✅ 跳转到分享页面并提示转存/下载
+
+**参数：**
+- 参数 1: 分享链接
+- 参数 2: 保存目录（自动创建）
+- 参数 3: 提取码（可选）
+
+---
+
+### 传统模式：交互式操作
 
 ### Step 1: 安装依赖
 

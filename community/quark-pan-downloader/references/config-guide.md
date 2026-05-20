@@ -71,18 +71,34 @@ scripts/config/cookies.txt
 3. Application → Cookies → https://pan.quark.cn
 4. 复制所有 cookie（或使用扩展导出）
 
-**格式转换：**
-```
-原始格式（Chrome DevTools）:
-__pus=abc123; __puus=def456; ...
+**格式要求（Python list）：**
 
-目标格式（cookies.txt）:
-__pus=abc123; __puus=def456; ...
+cookies.txt 必须是 Playwright cookie 格式（Python list）：
+```python
+[{'name': 'ctoken', 'value': 'xxx', 'domain': '.quark.cn', 'path': '/'}, {'name': '__uid', 'value': 'yyy', 'domain': '.quark.cn', 'path': '/'}, ...]
 ```
 
-**保存到：**
-```bash
-echo "__pus=abc123; __puus=def456; ..." > scripts/config/cookies.txt
+**从浏览器 cookie 字符串转换：**
+
+如果你从 Chrome Console 获取的是：
+```
+ctoken=A-xxx; __uid=yyy; __kp=zzz; ...
+```
+
+需要转换成：
+```python
+[{'name': 'ctoken', 'value': 'A-xxx', 'domain': '.quark.cn', 'path': '/'}, {'name': '__uid', 'value': 'yyy', 'domain': '.quark.cn', 'path': '/'}, {'name': '__kp', 'value': 'zzz', 'domain': '.quark.cn', 'path': '/'}, ...]
+```
+
+**快速转换脚本：**
+```python
+# 将浏览器 cookie 字符串转换为 Playwright 格式
+cookie_str = "ctoken=A-xxx; __uid=yyy; __kp=zzz"
+cookies = []
+for item in cookie_str.split('; '):
+    k, v = item.split('=', 1)
+    cookies.append({'name': k, 'value': v, 'domain': '.quark.cn', 'path': '/'})
+print(cookies)
 ```
 
 ---
