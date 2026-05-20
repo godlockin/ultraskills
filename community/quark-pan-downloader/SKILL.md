@@ -1,26 +1,39 @@
 ---
 name: quark-pan-downloader
-description: 夸克网盘批量转存、分享和下载工具 - Chrome CDP 自动登录监控，一键获取 cookie 并下载，绕过大文件限制，无需VIP
-version: 1.1.0
-tags: [quark, netdisk, download, playwright, batch, file-transfer, chrome-cdp, auto-login, community]
+description: 夸克网盘一键下载 - 直接使用系统 Chrome cookie，无需启动新浏览器，用户仅需登录+链接+目录三步即可完成转存和下载
+version: 2.0.0
+tags: [quark, netdisk, download, chrome-cookies, browser-cookie3, one-click, community]
 upstream: https://github.com/ihmily/QuarkPanTool
 ---
 
-# 夸克网盘批量下载工具
+# 夸克网盘一键下载工具
 
-> 基于 Playwright 的夸克网盘自动化工具，支持 Chrome CDP 自动登录监控、批量转存、分享、下载，无需 VIP 即可下载大文件。
+> 直接使用系统 Chrome 的 cookie，无需启动新浏览器。用户仅需 3 步：Chrome 登录 + 分享链接 + 目标目录。
 
 ---
 
-## 🎯 核心功能
+## 🎯 核心功能（v2.0.0 简化版）
 
-### 1. Chrome CDP 自动登录（新增 v1.1.0）
-- ✨ 自动打开 Chrome 浏览器
-- ✨ 实时监控登录状态
-- ✨ 登录成功后自动获取 cookie
-- ✨ 一键下载，无需手动配置
+### ⭐ 一键下载（推荐）
+```bash
+python scripts/simple_download.py <分享链接> <保存目录> [提取码]
+```
 
-### 2. 批量转存分享文件
+**用户仅需：**
+1. ✅ 在 Chrome 中登录夸克网盘（一次性）
+2. ✅ 提供分享链接
+3. ✅ 指定保存目录
+
+**脚本自动：**
+- 从系统 Chrome 读取 cookie（35+ 个）
+- 保存 cookie（Playwright 格式）
+- 打开分享页面
+- 提示手动点击"保存到网盘"
+
+**依赖：**
+```bash
+pip install browser-cookie3
+```
 - 一次性转存多个夸克网盘分享链接
 - 自动处理提取码
 - 保持原文件夹结构
@@ -58,6 +71,38 @@ upstream: https://github.com/ihmily/QuarkPanTool
 ---
 
 ## 📋 使用流程
+
+### ⭐ 最简单：直接使用系统 Chrome Cookie（v1.1.0 推荐）
+
+**无需启动新浏览器，直接读取你已登录的 Chrome！**
+
+```bash
+cd community/quark-pan-downloader/scripts
+
+# 一键提取 cookie + 批量转存
+python use_chrome_cookies.py \
+  "https://pan.quark.cn/s/ce476b55ec2a" \
+  "~/Downloads" \
+  "7efe3YeNNj"
+
+# Cookie 提取后，运行原工具
+python quark.py
+# 选择: 1 (转存) 或 3 (下载)
+```
+
+**优势：**
+- ✅ 使用系统 Chrome（已登录状态）
+- ✅ 自动提取 31+ cookie
+- ✅ 无需手动复制粘贴
+- ✅ 无需启动新浏览器
+- ✅ 类似 yt-dlp `--cookies-from-browser chrome`
+
+**依赖：**
+```bash
+pip install browser-cookie3
+```
+
+---
 
 ### 🆕 快速模式：Chrome CDP 自动下载（v1.1.0）
 
