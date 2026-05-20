@@ -51,21 +51,64 @@ pip install browser-cookie3
 
 ---
 
-## 🚀 快速开始
+## 🚀 快速开始（3 步完成）
 
-### 触发方式
+### Step 1: 在 Chrome 中登录夸克网盘（一次性）
+访问 https://pan.quark.cn 并登录（扫码或密码）
 
-```
-"从夸克网盘下载这个分享链接的文件"
-"批量转存这些夸克网盘链接"
-"生成夸克网盘分享链接"
-"quark pan download"
-"夸克网盘批量操作"
-```
-
-或直接调用：
+### Step 2: 运行下载命令
 ```bash
-/quark-pan-downloader
+cd community/quark-pan-downloader/scripts
+
+python simple_download.py \
+  "<分享链接>" \
+  "<保存目录>" \
+  "[提取码]"
+```
+
+**示例：**
+```bash
+python simple_download.py \
+  "https://pan.quark.cn/s/ce476b55ec2a" \
+  "~/Documents/videos/沈弈斐" \
+  "7efe3YeNNj"
+```
+
+### Step 3: 在浏览器中完成（自动打开）
+1. 点击"保存到网盘"
+2. 等待转存完成
+3. 打开网盘下载到本地
+4. 移动到目标目录
+
+**仅此而已！**
+
+---
+
+## 💡 工作原理
+
+```
+系统 Chrome (已登录)
+    ↓ browser-cookie3.chrome()
+提取 35+ cookies
+    ↓
+保存到 config/cookies.txt
+    ↓
+打开分享页面（浏览器）
+    ↓
+【你点击"保存到网盘"】
+    ↓
+【你从网盘下载】
+    ↓
+完成！
+```
+
+**类似 yt-dlp 的设计：**
+```bash
+# yt-dlp
+yt-dlp --cookies-from-browser chrome <url>
+
+# quark-pan v2.0
+python simple_download.py <url> <dir> [pwd]
 ```
 
 ---
