@@ -79,13 +79,13 @@
     "winner": "playwright-media-sniffer",
     "score": 9.5,
     "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 12,
+    "total_contestants": 13,
     "defeated": [
       "gstack-openclaw-retro",
       "gstack-openclaw-ceo-review",
+      "quark-pan-downloader",
       "gstack-openclaw-investigate",
-      "gstack-openclaw-office-hours",
-      "playwright-skill"
+      "gstack-openclaw-office-hours"
     ]
   },
   {

@@ -1881,6 +1881,17 @@
     "total": 8.0
   },
   {
+    "id": "quark-pan-downloader",
+    "path": "./community/quark-pan-downloader/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "support-ticket-triage",
     "path": "./community/support-ticket-triage/SKILL.md",
     "cluster": "content-writing",

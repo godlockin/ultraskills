@@ -1769,6 +1769,23 @@
     "auxiliary": false
   },
   {
+    "id": "quark-pan-downloader",
+    "path": "./community/quark-pan-downloader/SKILL.md",
+    "description": "夸克网盘批量转存、分享和下载工具 - 基于 Playwright 自动登录，支持批量转存分享文件、生成分享链接、下载网盘文件（绕过大文件限制，无需VIP）",
+    "tags": [
+      "quark",
+      "netdisk",
+      "download",
+      "playwright",
+      "batch",
+      "file-transfer",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "receiving-code-review",
     "path": "./community/receiving-code-review/SKILL.md",
     "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
