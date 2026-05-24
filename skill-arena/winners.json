@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 17,
+    "total_contestants": 16,
     "defeated": [
       "visual-forge",
       "baoyu-markdown-to-html",
@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 21,
+    "total_contestants": 19,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -64,7 +64,7 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 14,
+    "total_contestants": 13,
     "defeated": [
       "ubiquitous-language",
       "information-architecture",
@@ -79,7 +79,7 @@
     "winner": "playwright-media-sniffer",
     "score": 9.5,
     "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 13,
+    "total_contestants": 14,
     "defeated": [
       "gstack-openclaw-retro",
       "quark-pan-downloader",
@@ -106,7 +106,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 8,
+    "total_contestants": 7,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -205,13 +205,13 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "crisis-comms-playbook",
-    "total_contestants": 217,
+    "total_contestants": 162,
     "defeated": [
       "crisis-comms-playbook",
       "sop-writer",
+      "codegraph-booster",
       "imaging-data-commons",
-      "md-renderer",
-      "okr-alignment-checker"
+      "md-renderer"
     ]
   },
   {
@@ -317,13 +317,12 @@
     "winner": "digital-brain",
     "score": 8.8,
     "runner_up": "data-viz",
-    "total_contestants": 10,
+    "total_contestants": 5,
     "defeated": [
       "data-viz",
       "revops",
       "onboarding-checklist-generator",
-      "unit-economics-calculator",
-      "frame-flowchart-sticky"
+      "unit-economics-calculator"
     ]
   },
   {
@@ -332,7 +331,7 @@
     "winner": "comps-analysis",
     "score": 8.8,
     "runner_up": "datapack-builder",
-    "total_contestants": 55,
+    "total_contestants": 54,
     "defeated": [
       "datapack-builder",
       "dcf-model",
@@ -347,13 +346,13 @@
     "winner": "baoyu-article-illustrator",
     "score": 8.8,
     "runner_up": "baoyu-comic",
-    "total_contestants": 18,
+    "total_contestants": 17,
     "defeated": [
       "baoyu-comic",
       "baoyu-cover-image",
       "baoyu-image-cards",
-      "baoyu-image-gen",
-      "baoyu-imagine"
+      "baoyu-imagine",
+      "baoyu-infographic"
     ]
   },
   {
@@ -375,7 +374,7 @@
     "winner": "baoyu-danger-x-to-markdown",
     "score": 8.8,
     "runner_up": "baoyu-format-markdown",
-    "total_contestants": 21,
+    "total_contestants": 20,
     "defeated": [
       "baoyu-format-markdown",
       "baoyu-post-to-wechat",
@@ -405,13 +404,11 @@
     "winner": "book-sft-pipeline",
     "score": 8.8,
     "runner_up": "clinical-reports",
-    "total_contestants": 8,
+    "total_contestants": 4,
     "defeated": [
       "clinical-reports",
       "statistical-analysis",
-      "doc-kami-parchment",
-      "data-report",
-      "social-media-dashboard"
+      "huashu-data-pro"
     ]
   },
   {
@@ -485,13 +482,12 @@
     "winner": "awesome-android-ui",
     "score": 8.5,
     "runner_up": "flutter-expert",
-    "total_contestants": 7,
+    "total_contestants": 5,
     "defeated": [
       "flutter-expert",
       "kotlin-specialist",
       "react-native-expert",
-      "swift-expert",
-      "mobile-app"
+      "swift-expert"
     ]
   },
   {
@@ -700,10 +696,9 @@
     "winner": "security-reviewer",
     "score": 7.3,
     "runner_up": "cso",
-    "total_contestants": 3,
+    "total_contestants": 2,
     "defeated": [
-      "cso",
-      "deck-safety-alert"
+      "cso"
     ]
   },
   {

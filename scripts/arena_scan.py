@@ -23,6 +23,8 @@ EXCLUDE_PREFIXES = [
     "_template_skill",
     "external/autoresearch",
     "external/anthropic-quickstarts",
+    # html-anything 内部模板 (低分，不适合作为独立 skill)
+    "external/html-anything/next/src/lib/templates/skills",
 ]
 
 # 排除特定低价值 skills (保持 external/ 完整性，但从索引剔除)
