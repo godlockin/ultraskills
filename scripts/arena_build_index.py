@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-arena_build_index.py - 重建 index.json（全量 skills + arena scores）
+arena_build_index.py - 重建 index.json（全量 skills + arena scores + cluster 元数据）
 
-输入:  skill-arena/skills_inventory.json, scores.json, clusters.json
+输入:  skill-arena/skills_inventory.json, scores.json, clusters.json, clusters_metadata.json
 输出: index.json (覆盖写入)
 """
 
@@ -18,6 +18,16 @@ def main():
     inventory  = json.loads((ARENA_DIR / "skills_inventory.json").read_text())
     scores_raw = json.loads((ARENA_DIR / "scores.json").read_text())
     clusters   = json.loads((ARENA_DIR / "clusters.json").read_text())
+
+    # 加载 cluster 元数据（层级、关联图、描述）
+    metadata_path = ARENA_DIR / "clusters_metadata.json"
+    if metadata_path.exists():
+        metadata = json.loads(metadata_path.read_text())
+        hierarchy = metadata.get("hierarchy", {})
+        cluster_meta = metadata.get("clusters", {})
+    else:
+        hierarchy = {}
+        cluster_meta = {}
 
     # id -> score entry
     score_map = {s["id"]: s for s in scores_raw}
@@ -78,19 +88,45 @@ def main():
     avg_score   = sum(s["arena"]["score"] for s in skills_out) / len(skills_out)
     cluster_cnt = len(cluster_map)
 
+    # 构建增强版 clusters 列表（含元数据）
+    clusters_out = []
+    for c in clusters:
+        cid = c["id"]
+        meta = cluster_meta.get(cid, {})
+        entry = {
+            "id":              cid,
+            "name":            c.get("name", cid),
+            "skill_count":     c.get("skill_count", 0),
+            "winner":          c.get("winner"),
+            "winner_score":    c.get("winner_score"),
+            # 元数据增强字段
+            "description":     meta.get("description", ""),
+            "triggers":        meta.get("triggers", []),
+            "suitable_for":    meta.get("suitable_for", []),
+            "not_suitable_for": meta.get("not_suitable_for", []),
+            "parent":          meta.get("parent"),
+            "related":         meta.get("related", []),
+        }
+        clusters_out.append(entry)
+
+    # 按 skill_count 降序排序
+    clusters_out.sort(key=lambda x: x["skill_count"], reverse=True)
+
     # 构建 index.json
     index = {
         "meta": {
-            "version":           "2.0.0",
+            "version":           "2.1.0",  # 升级版本号
             "updated_at":        str(date.today()),
-            "arena_version":     "1.0.0",
+            "arena_version":     "1.1.0",
             "arena_updated_at":  str(date.today()),
             "total_skills":      len(skills_out),
             "total_clusters":    cluster_cnt,
             "avg_arena_score":   round(avg_score, 2),
             "total_winners":     len(winners),
         },
-        "skills": skills_out,
+        "hierarchy":  hierarchy,    # 层级树
+        "clusters":   clusters_out, # 增强版 clusters
+        "skills":     skills_out,
     }
 
     out_path = ROOT / "index.json"
@@ -98,6 +134,7 @@ def main():
 
     print(f"✅ index.json written: {len(skills_out)} skills, {cluster_cnt} clusters")
     print(f"   avg score: {avg_score:.2f} | winners: {len(winners)}")
+    print(f"   hierarchy: {len(hierarchy.get('root', []))} root categories")
     print(f"\nTop winners by cluster:")
     winners_sorted = sorted(winners, key=lambda x: x["arena"]["score"], reverse=True)
     for w in winners_sorted[:20]:

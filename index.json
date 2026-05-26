@@ -1,14 +1,2361 @@
 {
   "meta": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "updated_at": "2026-05-27",
-    "arena_version": "1.0.0",
+    "arena_version": "1.1.0",
     "arena_updated_at": "2026-05-27",
     "total_skills": 828,
     "total_clusters": 75,
     "avg_arena_score": 7.43,
     "total_winners": 75
   },
+  "hierarchy": {
+    "root": [
+      "scientific",
+      "engineering",
+      "business",
+      "content",
+      "marketing",
+      "agent",
+      "platform",
+      "skills",
+      "design",
+      "data",
+      "media",
+      "productivity",
+      "education",
+      "persona"
+    ],
+    "scientific": [
+      "scientific-bioinformatics",
+      "scientific-computing",
+      "scientific-publishing",
+      "scientific-databases",
+      "chemistry-pharma",
+      "medical-clinical"
+    ],
+    "engineering": [
+      "engineering-code",
+      "engineering-fullstack",
+      "engineering-framework",
+      "engineering-lang",
+      "engineering-platform",
+      "engineering-arch",
+      "engineering-devops",
+      "engineering-security",
+      "engineering-testing",
+      "engineering-qa",
+      "engineering-debug",
+      "engineering-git",
+      "engineering-frontend",
+      "engineering-mobile",
+      "engineering-ml",
+      "dev-tools"
+    ],
+    "business": [
+      "business-clevel",
+      "business-finance",
+      "business-product",
+      "business-strategy",
+      "business-hr",
+      "business-legal",
+      "business-pm",
+      "business-operations",
+      "small-business-ops",
+      "sales-marketing",
+      "finance-accounting",
+      "hr-talent",
+      "legal-compliance"
+    ],
+    "content": [
+      "content-writing",
+      "content-doc",
+      "content-presentation",
+      "content-video",
+      "content-image",
+      "content-social",
+      "content-seo",
+      "social-media-cn",
+      "video-production"
+    ],
+    "marketing": [
+      "marketing-strategy",
+      "marketing-cro",
+      "marketing-email",
+      "marketing-ads",
+      "marketing-analytics",
+      "marketing-copy"
+    ],
+    "agent": [
+      "agent-arch",
+      "agent-context",
+      "agent-memory",
+      "agent-eval",
+      "agent-workflow",
+      "agent-hosted",
+      "agent-pua",
+      "agent-agenthub"
+    ],
+    "platform": [
+      "platform-claude-api",
+      "zoom-integration",
+      "partner-integration",
+      "enterprise-search"
+    ],
+    "skills": [
+      "skills-mgmt",
+      "skills-browser",
+      "skills-web"
+    ],
+    "design": [
+      "design-ux",
+      "product-design"
+    ],
+    "data": [
+      "data",
+      "data-analytics"
+    ],
+    "media": [
+      "media-audio"
+    ],
+    "productivity": [
+      "productivity",
+      "productivity-tools"
+    ],
+    "education": [
+      "education"
+    ],
+    "persona": [
+      "persona"
+    ]
+  },
+  "clusters": [
+    {
+      "id": "business-finance",
+      "name": "商业·财务",
+      "skill_count": 56,
+      "winner": "comps-analysis",
+      "winner_score": null,
+      "description": "财务分析、预算、预测、投资分析",
+      "triggers": [
+        "财务",
+        "预算",
+        "预测",
+        "投资",
+        "ROI",
+        "财报",
+        "成本"
+      ],
+      "suitable_for": [
+        "财务分析",
+        "预算规划",
+        "投资决策支持"
+      ],
+      "not_suitable_for": [
+        "技术开发",
+        "产品设计"
+      ],
+      "parent": "business",
+      "related": [
+        "finance-accounting",
+        "business-clevel",
+        "data-analytics"
+      ]
+    },
+    {
+      "id": "scientific-bioinformatics",
+      "name": "科学·生物信息学",
+      "skill_count": 45,
+      "winner": "cellxgene-census",
+      "winner_score": null,
+      "description": "基因组学、蛋白质组学、单细胞RNA分析、序列比对、Nextflow流程等生物信息学工具",
+      "triggers": [
+        "基因",
+        "基因组",
+        "蛋白质",
+        "测序",
+        "NGS",
+        "单细胞",
+        "scRNA",
+        "cellxgene",
+        "scanpy",
+        "biopython",
+        "nextflow",
+        "DNA",
+        "RNA",
+        "序列"
+      ],
+      "suitable_for": [
+        "基因组数据分析",
+        "单细胞测序分析",
+        "生物信息学流程开发",
+        "科研论文复现",
+        "实验室数据处理"
+      ],
+      "not_suitable_for": [
+        "通用数据分析",
+        "商业BI报表",
+        "非生物领域"
+      ],
+      "parent": "scientific",
+      "related": [
+        "chemistry-pharma",
+        "medical-clinical",
+        "scientific-databases"
+      ]
+    },
+    {
+      "id": "zoom-integration",
+      "name": "平台·Zoom集成",
+      "skill_count": 42,
+      "winner": "zoom-general",
+      "winner_score": null,
+      "description": "Zoom Meeting SDK、REST API、Webhooks、Bot",
+      "triggers": [
+        "zoom",
+        "会议SDK",
+        "视频会议"
+      ],
+      "suitable_for": [
+        "Zoom集成开发",
+        "视频会议自动化"
+      ],
+      "not_suitable_for": [
+        "非Zoom平台"
+      ],
+      "parent": "platform",
+      "related": [
+        "partner-integration",
+        "engineering-fullstack"
+      ]
+    },
+    {
+      "id": "misc",
+      "name": "其他未分类",
+      "skill_count": 29,
+      "winner": "review",
+      "winner_score": null,
+      "description": "暂未归类的技能",
+      "triggers": [],
+      "suitable_for": [
+        "需要进一步分类的技能"
+      ],
+      "not_suitable_for": [],
+      "parent": null,
+      "related": []
+    },
+    {
+      "id": "content-video",
+      "name": "内容·视频",
+      "skill_count": 28,
+      "winner": "remotion",
+      "winner_score": null,
+      "description": "视频制作、字幕、剪辑、Remotion",
+      "triggers": [
+        "视频",
+        "字幕",
+        "剪辑",
+        "remotion",
+        "抖音",
+        "短视频"
+      ],
+      "suitable_for": [
+        "视频制作",
+        "字幕生成",
+        "视频脚本"
+      ],
+      "not_suitable_for": [
+        "静态内容",
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "video-production",
+        "content-image"
+      ]
+    },
+    {
+      "id": "small-business-ops",
+      "name": "商业·小微企业",
+      "skill_count": 26,
+      "winner": "customer-pulse",
+      "winner_score": null,
+      "description": "小型企业运营：发票、CRM、税务、排班",
+      "triggers": [
+        "小企业",
+        "发票",
+        "CRM",
+        "税务",
+        "排班",
+        "现金流",
+        "月结"
+      ],
+      "suitable_for": [
+        "小企业日常运营",
+        "财务管理",
+        "客户管理"
+      ],
+      "not_suitable_for": [
+        "大企业流程",
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "business-operations",
+        "finance-accounting"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "教育·学习研究",
+      "skill_count": 25,
+      "winner": "autoresearch",
+      "winner_score": null,
+      "description": "学习方法、费曼技巧、苏格拉底问答、研究",
+      "triggers": [
+        "学习",
+        "教育",
+        "费曼",
+        "研究",
+        "搜索",
+        "苏格拉底"
+      ],
+      "suitable_for": [
+        "学习辅导",
+        "研究方法",
+        "知识探索"
+      ],
+      "not_suitable_for": [
+        "商业任务"
+      ],
+      "parent": "education",
+      "related": [
+        "scientific-publishing",
+        "content-writing"
+      ]
+    },
+    {
+      "id": "engineering-fullstack",
+      "name": "工程·全栈工程师",
+      "skill_count": 24,
+      "winner": "the-fool",
+      "winner_score": null,
+      "description": "全栈开发、API设计、数据库优化、测试策略",
+      "triggers": [
+        "全栈",
+        "fullstack",
+        "API",
+        "后端",
+        "前端",
+        "数据库",
+        "full-stack"
+      ],
+      "suitable_for": [
+        "全栈项目开发",
+        "API设计",
+        "数据库优化",
+        "端到端开发"
+      ],
+      "not_suitable_for": [
+        "专业领域如ML",
+        "纯前端设计",
+        "运维部署"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-framework",
+        "engineering-lang",
+        "engineering-arch"
+      ]
+    },
+    {
+      "id": "scientific-computing",
+      "name": "科学·计算仿真",
+      "skill_count": 23,
+      "winner": "get-available-resources",
+      "winner_score": null,
+      "description": "数值模拟、量子计算、地理空间分析、深度学习框架、科学可视化",
+      "triggers": [
+        "仿真",
+        "模拟",
+        "量子",
+        "qiskit",
+        "cirq",
+        "pytorch",
+        "流体",
+        "CFD",
+        "有限元",
+        "astropy",
+        "geopandas"
+      ],
+      "suitable_for": [
+        "物理仿真",
+        "量子算法开发",
+        "地理信息系统",
+        "科学计算",
+        "GPU加速"
+      ],
+      "not_suitable_for": [
+        "业务数据分析",
+        "前端开发",
+        "营销"
+      ],
+      "parent": "scientific",
+      "related": [
+        "scientific-bioinformatics",
+        "engineering-ml",
+        "data-analytics"
+      ]
+    },
+    {
+      "id": "skills-mgmt",
+      "name": "Skills·管理",
+      "skill_count": 21,
+      "winner": "gh-fix-ci",
+      "winner_score": null,
+      "description": "Skill创建、同步、搜索、生命周期管理",
+      "triggers": [
+        "skill",
+        "技能",
+        "ultraskills",
+        "hub",
+        "skill管理"
+      ],
+      "suitable_for": [
+        "Skill开发",
+        "Skill搜索",
+        "配置管理"
+      ],
+      "not_suitable_for": [
+        "非Skill相关"
+      ],
+      "parent": "skills",
+      "related": [
+        "agent-pua",
+        "dev-tools"
+      ]
+    },
+    {
+      "id": "content-social",
+      "name": "内容·社交媒体",
+      "skill_count": 20,
+      "winner": "baoyu-danger-x-to-markdown",
+      "winner_score": null,
+      "description": "社交媒体运营、X/微博/微信发布",
+      "triggers": [
+        "社交媒体",
+        "X",
+        "Twitter",
+        "微博",
+        "微信",
+        "小红书",
+        "公众号"
+      ],
+      "suitable_for": [
+        "社交媒体内容",
+        "平台运营",
+        "内容分发"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "social-media-cn",
+        "marketing-copy"
+      ]
+    },
+    {
+      "id": "agent-agenthub",
+      "name": "Agent·AgentHub协作",
+      "skill_count": 17,
+      "winner": "dbs-goal",
+      "winner_score": null,
+      "description": "AgentHub工作流、DBS系列、聊天室",
+      "triggers": [
+        "agenthub",
+        "DBS",
+        "协作",
+        "chatroom"
+      ],
+      "suitable_for": [
+        "多Agent协作",
+        "DBS工具链"
+      ],
+      "not_suitable_for": [
+        "单Agent任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "agent-workflow"
+      ]
+    },
+    {
+      "id": "content-doc",
+      "name": "内容·文档生成",
+      "skill_count": 17,
+      "winner": "magazine-web-ppt",
+      "winner_score": null,
+      "description": "PDF/DOCX/PPT生成、Markdown转换",
+      "triggers": [
+        "PDF",
+        "DOCX",
+        "PPT",
+        "幻灯片",
+        "文档生成",
+        "Markdown"
+      ],
+      "suitable_for": [
+        "文档自动生成",
+        "格式转换",
+        "报告生成"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "content-presentation",
+        "content-writing"
+      ]
+    },
+    {
+      "id": "content-image",
+      "name": "内容·图像设计",
+      "skill_count": 17,
+      "winner": "baoyu-article-illustrator",
+      "winner_score": null,
+      "description": "图像分析、AI图像生成、摄影、视觉设计",
+      "triggers": [
+        "图像",
+        "图片",
+        "设计",
+        "摄影",
+        "AI生成",
+        "封面"
+      ],
+      "suitable_for": [
+        "图像生成",
+        "视觉设计",
+        "图像分析"
+      ],
+      "not_suitable_for": [
+        "代码开发",
+        "文字内容"
+      ],
+      "parent": "content",
+      "related": [
+        "design-ux",
+        "content-video"
+      ]
+    },
+    {
+      "id": "content-writing",
+      "name": "内容·写作",
+      "skill_count": 15,
+      "winner": "doc-coauthoring",
+      "winner_score": null,
+      "description": "文档写作、内部沟通、文案润色",
+      "triggers": [
+        "写作",
+        "文档",
+        "文案",
+        "润色",
+        "内部沟通",
+        "邮件"
+      ],
+      "suitable_for": [
+        "文档撰写",
+        "内部通讯",
+        "内容编辑"
+      ],
+      "not_suitable_for": [
+        "代码开发",
+        "视觉设计"
+      ],
+      "parent": "content",
+      "related": [
+        "content-doc",
+        "marketing-copy"
+      ]
+    },
+    {
+      "id": "engineering-arch",
+      "name": "工程·架构",
+      "skill_count": 15,
+      "winner": "design-an-interface",
+      "winner_score": null,
+      "description": "系统设计、DDD、微服务、MCP集成",
+      "triggers": [
+        "架构",
+        "系统设计",
+        "DDD",
+        "微服务",
+        "microservice",
+        "MCP",
+        "设计模式"
+      ],
+      "suitable_for": [
+        "系统架构设计",
+        "技术选型",
+        "微服务拆分",
+        "高可用设计"
+      ],
+      "not_suitable_for": [
+        "具体编码实现",
+        "UI设计",
+        "营销"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-fullstack",
+        "engineering-devops",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "skills-browser",
+      "name": "Skills·浏览器",
+      "skill_count": 15,
+      "winner": "playwright-media-sniffer",
+      "winner_score": null,
+      "description": "浏览器自动化、Playwright、Chrome连接",
+      "triggers": [
+        "浏览器",
+        "browser",
+        "playwright",
+        "chrome",
+        "爬虫"
+      ],
+      "suitable_for": [
+        "浏览器自动化",
+        "网页爬取",
+        "UI测试"
+      ],
+      "not_suitable_for": [
+        "非Web任务"
+      ],
+      "parent": "skills",
+      "related": [
+        "engineering-testing",
+        "skills-web"
+      ]
+    },
+    {
+      "id": "persona",
+      "name": "人物·视角模拟",
+      "skill_count": 14,
+      "winner": "huashu-nuwa",
+      "winner_score": null,
+      "description": "视角模拟、Nuwa技能、X大师、风格模拟",
+      "triggers": [
+        "人物",
+        "视角",
+        "模拟",
+        "nuwa",
+        "风格"
+      ],
+      "suitable_for": [
+        "角色扮演",
+        "视角切换",
+        "风格模仿"
+      ],
+      "not_suitable_for": [
+        "技术任务"
+      ],
+      "parent": "persona",
+      "related": [
+        "content-writing",
+        "agent-pua"
+      ]
+    },
+    {
+      "id": "video-production",
+      "name": "内容·视频制作",
+      "skill_count": 14,
+      "winner": "contribute-catalog",
+      "winner_score": null,
+      "description": "HyperFrames视频框架、动画、特效",
+      "triggers": [
+        "hyperframes",
+        "动画",
+        "特效",
+        "GSAP",
+        "Lottie",
+        "Three.js"
+      ],
+      "suitable_for": [
+        "Web动画",
+        "视频特效",
+        "动效设计"
+      ],
+      "not_suitable_for": [
+        "静态内容"
+      ],
+      "parent": "content",
+      "related": [
+        "content-video",
+        "engineering-frontend"
+      ]
+    },
+    {
+      "id": "business-operations",
+      "name": "商业·业务运营",
+      "skill_count": 13,
+      "winner": "crisis-comms-playbook",
+      "winner_score": null,
+      "description": "SOP编写、流程优化、客服支持、危机公关",
+      "triggers": [
+        "运营",
+        "SOP",
+        "流程",
+        "客服",
+        "危机",
+        "工单"
+      ],
+      "suitable_for": [
+        "流程文档",
+        "客服流程",
+        "危机处理"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "small-business-ops",
+        "business-pm"
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "效率·生产力",
+      "skill_count": 13,
+      "winner": "slack-gif-creator",
+      "winner_score": null,
+      "description": "优先级框架、头脑风暴、任务分析",
+      "triggers": [
+        "效率",
+        "生产力",
+        "优先级",
+        "头脑风暴",
+        "eisenhower",
+        "RICE"
+      ],
+      "suitable_for": [
+        "任务规划",
+        "优先级排序",
+        "头脑风暴"
+      ],
+      "not_suitable_for": [
+        "技术实现"
+      ],
+      "parent": "productivity",
+      "related": [
+        "business-pm",
+        "agent-workflow"
+      ]
+    },
+    {
+      "id": "sales-marketing",
+      "name": "商业·销售增长",
+      "skill_count": 13,
+      "winner": "objection-handler",
+      "winner_score": null,
+      "description": "销售流程、异议处理、品牌营销、竞品分析",
+      "triggers": [
+        "销售",
+        "成交",
+        "异议",
+        "品牌",
+        "营销",
+        "获客",
+        "pipeline"
+      ],
+      "suitable_for": [
+        "销售策略",
+        "异议处理",
+        "品牌定位"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "marketing-strategy",
+        "business-clevel"
+      ]
+    },
+    {
+      "id": "scientific-databases",
+      "name": "科学·数据库API",
+      "skill_count": 13,
+      "winner": "database-lookup",
+      "winner_score": null,
+      "description": "科学数据库集成：protocols.io、LabArchive、Zarr存储、实验室自动化API",
+      "triggers": [
+        "protocols.io",
+        "labarchive",
+        "zarr",
+        "opentrons",
+        "实验室",
+        "科学数据库",
+        "LIMS"
+      ],
+      "suitable_for": [
+        "实验室数据管理",
+        "科学数据存储",
+        "实验协议集成"
+      ],
+      "not_suitable_for": [
+        "商业数据库",
+        "CRM",
+        "ERP"
+      ],
+      "parent": "scientific",
+      "related": [
+        "scientific-bioinformatics",
+        "scientific-computing"
+      ]
+    },
+    {
+      "id": "scientific-publishing",
+      "name": "科学·学术出版",
+      "skill_count": 13,
+      "winner": "citation-management",
+      "winner_score": null,
+      "description": "LaTeX排版、期刊投稿、引用管理、同行评审、文献综述",
+      "triggers": [
+        "论文",
+        "投稿",
+        "LaTeX",
+        "引用",
+        "文献",
+        "期刊",
+        "peer review",
+        "zotero",
+        "学术"
+      ],
+      "suitable_for": [
+        "论文写作",
+        "学术海报制作",
+        "文献管理",
+        "期刊投稿准备"
+      ],
+      "not_suitable_for": [
+        "商业文档",
+        "营销内容",
+        "代码开发"
+      ],
+      "parent": "scientific",
+      "related": [
+        "education",
+        "content-writing",
+        "scientific-bioinformatics"
+      ]
+    },
+    {
+      "id": "partner-integration",
+      "name": "平台·SaaS集成",
+      "skill_count": 12,
+      "winner": "compose-outreach",
+      "winner_score": null,
+      "description": "Common Room/Apollo/Slack等第三方SaaS集成",
+      "triggers": [
+        "集成",
+        "integration",
+        "SaaS",
+        "API",
+        "第三方"
+      ],
+      "suitable_for": [
+        "SaaS平台集成",
+        "自动化连接"
+      ],
+      "not_suitable_for": [
+        "原生开发"
+      ],
+      "parent": "platform",
+      "related": [
+        "zoom-integration",
+        "engineering-platform"
+      ]
+    },
+    {
+      "id": "agent-workflow",
+      "name": "Agent·工作流",
+      "skill_count": 11,
+      "winner": "agent-development",
+      "winner_score": null,
+      "description": "计划执行、自动规划、文件驱动工作流",
+      "triggers": [
+        "工作流",
+        "workflow",
+        "计划",
+        "plan",
+        "自动化"
+      ],
+      "suitable_for": [
+        "任务编排",
+        "自动化流程",
+        "计划执行"
+      ],
+      "not_suitable_for": [
+        "简单单步任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "productivity"
+      ]
+    },
+    {
+      "id": "data-analytics",
+      "name": "数据·商业智能",
+      "skill_count": 10,
+      "winner": "generalist-expert",
+      "winner_score": null,
+      "description": "数据探索、SQL查询、可视化、BI",
+      "triggers": [
+        "BI",
+        "商业智能",
+        "SQL",
+        "可视化",
+        "dashboard"
+      ],
+      "suitable_for": [
+        "商业分析",
+        "数据可视化",
+        "报表"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "data",
+      "related": [
+        "data",
+        "marketing-analytics"
+      ]
+    },
+    {
+      "id": "design-ux",
+      "name": "设计·UX/产品设计",
+      "skill_count": 10,
+      "winner": "ui-ux-pro-max-skill",
+      "winner_score": null,
+      "description": "设计评审、设计咨询、UI/UX设计",
+      "triggers": [
+        "UX",
+        "UI",
+        "设计评审",
+        "用户体验",
+        "交互设计"
+      ],
+      "suitable_for": [
+        "设计评审",
+        "用户体验优化",
+        "UI设计"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "design",
+      "related": [
+        "product-design",
+        "content-image"
+      ]
+    },
+    {
+      "id": "engineering-code",
+      "name": "工程·代码质量",
+      "skill_count": 10,
+      "winner": "receiving-code-review",
+      "winner_score": null,
+      "description": "代码审查、重构、安全审计、技术债务管理",
+      "triggers": [
+        "code review",
+        "代码审查",
+        "重构",
+        "refactor",
+        "技术债务",
+        "代码质量",
+        "PR review"
+      ],
+      "suitable_for": [
+        "代码审查",
+        "PR评审",
+        "安全漏洞扫描",
+        "代码重构"
+      ],
+      "not_suitable_for": [
+        "新功能开发",
+        "架构设计",
+        "产品规划"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-testing",
+        "engineering-qa",
+        "engineering-debug"
+      ]
+    },
+    {
+      "id": "engineering-framework",
+      "name": "工程·框架专家",
+      "skill_count": 10,
+      "winner": "django-expert",
+      "winner_score": null,
+      "description": "React/Vue/Next.js/Django/FastAPI等主流框架专家",
+      "triggers": [
+        "react",
+        "vue",
+        "nextjs",
+        "django",
+        "fastapi",
+        "rails",
+        "spring",
+        "laravel",
+        "nestjs"
+      ],
+      "suitable_for": [
+        "框架选型",
+        "框架最佳实践",
+        "框架迁移",
+        "框架疑难问题"
+      ],
+      "not_suitable_for": [
+        "底层系统开发",
+        "算法优化",
+        "通用设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-fullstack",
+        "engineering-frontend"
+      ]
+    },
+    {
+      "id": "engineering-qa",
+      "name": "工程·QA",
+      "skill_count": 10,
+      "winner": "churn-risk-playbook",
+      "winner_score": null,
+      "description": "质量保证、Web应用测试、DevEx评审",
+      "triggers": [
+        "QA",
+        "质量",
+        "webapp测试",
+        "回归测试",
+        "验收测试"
+      ],
+      "suitable_for": [
+        "QA流程建立",
+        "自动化测试",
+        "质量度量"
+      ],
+      "not_suitable_for": [
+        "开发实现",
+        "架构设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-testing",
+        "engineering-code"
+      ]
+    },
+    {
+      "id": "marketing-strategy",
+      "name": "营销·策略",
+      "skill_count": 10,
+      "winner": "marketing-roi-calculator",
+      "winner_score": null,
+      "description": "营销策略、定价、竞品分析、社区营销",
+      "triggers": [
+        "营销策略",
+        "定价",
+        "竞品",
+        "PMM",
+        "GTM",
+        "增长"
+      ],
+      "suitable_for": [
+        "营销规划",
+        "定价策略",
+        "竞品分析"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "marketing",
+      "related": [
+        "sales-marketing",
+        "business-strategy"
+      ]
+    },
+    {
+      "id": "product-design",
+      "name": "设计·产品UX",
+      "skill_count": 10,
+      "winner": "design-system",
+      "winner_score": null,
+      "description": "设计系统、PRD编写、无障碍审查",
+      "triggers": [
+        "产品设计",
+        "设计系统",
+        "PRD",
+        "无障碍",
+        "a11y"
+      ],
+      "suitable_for": [
+        "产品设计",
+        "设计系统",
+        "无障碍审查"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "design",
+      "related": [
+        "design-ux",
+        "business-product"
+      ]
+    },
+    {
+      "id": "business-clevel",
+      "name": "商业·高管顾问",
+      "skill_count": 9,
+      "winner": "digital-brain",
+      "winner_score": null,
+      "description": "CEO/CTO/CFO等C-Level顾问、董事会准备、战略决策",
+      "triggers": [
+        "CEO",
+        "CTO",
+        "CFO",
+        "高管",
+        "董事会",
+        "战略",
+        "C-level",
+        "融资"
+      ],
+      "suitable_for": [
+        "高管决策支持",
+        "董事会材料",
+        "战略规划"
+      ],
+      "not_suitable_for": [
+        "执行层任务",
+        "技术实现"
+      ],
+      "parent": "business",
+      "related": [
+        "business-strategy",
+        "business-finance",
+        "business-product"
+      ]
+    },
+    {
+      "id": "data",
+      "name": "数据·分析",
+      "skill_count": 9,
+      "winner": "book-sft-pipeline",
+      "winner_score": null,
+      "description": "数据分析、报表、管道、数据质量",
+      "triggers": [
+        "数据分析",
+        "报表",
+        "ETL",
+        "数据质量",
+        "数据管道"
+      ],
+      "suitable_for": [
+        "数据处理",
+        "报表生成",
+        "数据质量"
+      ],
+      "not_suitable_for": [
+        "业务逻辑"
+      ],
+      "parent": "data",
+      "related": [
+        "data-analytics",
+        "engineering-ml"
+      ]
+    },
+    {
+      "id": "dev-tools",
+      "name": "工程·开发工具",
+      "skill_count": 8,
+      "winner": "codex",
+      "winner_score": null,
+      "description": "Codex、代码图谱、Markdown渲染、部署检查",
+      "triggers": [
+        "codex",
+        "codegraph",
+        "md-renderer",
+        "开发工具",
+        "CLI"
+      ],
+      "suitable_for": [
+        "开发效率提升",
+        "代码分析",
+        "文档生成"
+      ],
+      "not_suitable_for": [
+        "业务逻辑开发"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-code",
+        "skills-mgmt"
+      ]
+    },
+    {
+      "id": "engineering-devops",
+      "name": "工程·DevOps",
+      "skill_count": 8,
+      "winner": "land-and-deploy",
+      "winner_score": null,
+      "description": "Docker/K8s/CI/CD/云平台/可观测性",
+      "triggers": [
+        "docker",
+        "kubernetes",
+        "k8s",
+        "CI/CD",
+        "部署",
+        "deploy",
+        "terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "运维"
+      ],
+      "suitable_for": [
+        "容器化部署",
+        "CI/CD流水线",
+        "云架构",
+        "监控告警"
+      ],
+      "not_suitable_for": [
+        "业务逻辑开发",
+        "UI设计",
+        "产品规划"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-arch",
+        "engineering-security"
+      ]
+    },
+    {
+      "id": "engineering-lang",
+      "name": "工程·语言专家",
+      "skill_count": 8,
+      "winner": "rust-engineer",
+      "winner_score": null,
+      "description": "Python/JavaScript/Rust/Go等编程语言专家",
+      "triggers": [
+        "python",
+        "javascript",
+        "typescript",
+        "rust",
+        "golang",
+        "cpp",
+        "kotlin",
+        "swift"
+      ],
+      "suitable_for": [
+        "语言最佳实践",
+        "语言特性使用",
+        "跨语言迁移"
+      ],
+      "not_suitable_for": [
+        "架构设计",
+        "产品需求"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-fullstack",
+        "engineering-framework"
+      ]
+    },
+    {
+      "id": "engineering-debug",
+      "name": "工程·调试",
+      "skill_count": 7,
+      "winner": "git-guardrails-claude-code",
+      "winner_score": null,
+      "description": "系统化调试、问题排查、根因分析",
+      "triggers": [
+        "调试",
+        "debug",
+        "排查",
+        "bug",
+        "问题定位",
+        "根因"
+      ],
+      "suitable_for": [
+        "疑难bug排查",
+        "性能问题定位",
+        "系统故障分析"
+      ],
+      "not_suitable_for": [
+        "新功能开发",
+        "架构设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-code",
+        "engineering-testing"
+      ]
+    },
+    {
+      "id": "engineering-mobile",
+      "name": "工程·移动",
+      "skill_count": 7,
+      "winner": "awesome-android-ui",
+      "winner_score": null,
+      "description": "移动端开发：React Native/Flutter/原生",
+      "triggers": [
+        "移动",
+        "mobile",
+        "iOS",
+        "Android",
+        "React Native",
+        "Flutter",
+        "App"
+      ],
+      "suitable_for": [
+        "移动应用开发",
+        "跨平台方案",
+        "原生开发"
+      ],
+      "not_suitable_for": [
+        "Web开发",
+        "后端服务"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-framework",
+        "engineering-fullstack"
+      ]
+    },
+    {
+      "id": "finance-accounting",
+      "name": "商业·财务会计",
+      "skill_count": 7,
+      "winner": "variance-analysis",
+      "winner_score": null,
+      "description": "会计、审计、SOX合规、差异分析",
+      "triggers": [
+        "会计",
+        "审计",
+        "SOX",
+        "日记账",
+        "对账",
+        "月结"
+      ],
+      "suitable_for": [
+        "会计处理",
+        "审计支持",
+        "合规检查"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "business-finance",
+        "business-legal"
+      ]
+    },
+    {
+      "id": "agent-context",
+      "name": "Agent·上下文管理",
+      "skill_count": 6,
+      "winner": "context-compression",
+      "winner_score": null,
+      "description": "上下文压缩、优化、退化处理",
+      "triggers": [
+        "上下文",
+        "context",
+        "压缩",
+        "优化",
+        "token"
+      ],
+      "suitable_for": [
+        "上下文工程",
+        "长会话管理",
+        "token优化"
+      ],
+      "not_suitable_for": [
+        "短任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-memory",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "agent-pua",
+      "name": "Agent·激励强化",
+      "skill_count": 6,
+      "winner": "pua-en",
+      "winner_score": null,
+      "description": "PUA激励、提示词优化",
+      "triggers": [
+        "PUA",
+        "激励",
+        "prompt优化",
+        "提示词"
+      ],
+      "suitable_for": [
+        "提示词优化",
+        "Agent行为调优"
+      ],
+      "not_suitable_for": [
+        "非AI任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "skills-mgmt"
+      ]
+    },
+    {
+      "id": "business-product",
+      "name": "商业·产品",
+      "skill_count": 6,
+      "winner": "office-hours",
+      "winner_score": null,
+      "description": "产品规划、JTBD、特性优先级、路线图",
+      "triggers": [
+        "产品",
+        "PRD",
+        "路线图",
+        "优先级",
+        "特性",
+        "JTBD",
+        "backlog"
+      ],
+      "suitable_for": [
+        "产品规划",
+        "需求分析",
+        "优先级排序"
+      ],
+      "not_suitable_for": [
+        "技术实现",
+        "视觉设计"
+      ],
+      "parent": "business",
+      "related": [
+        "product-design",
+        "business-pm",
+        "design-ux"
+      ]
+    },
+    {
+      "id": "chemistry-pharma",
+      "name": "科学·化学药物",
+      "skill_count": 6,
+      "winner": "datamol",
+      "winner_score": null,
+      "description": "化学信息学、药物设计、分子特征、材料科学",
+      "triggers": [
+        "化学",
+        "药物",
+        "分子",
+        "RDKit",
+        "DeepChem",
+        "材料",
+        "SMILES",
+        "药理"
+      ],
+      "suitable_for": [
+        "药物发现",
+        "分子设计",
+        "化学信息学",
+        "材料科学研究"
+      ],
+      "not_suitable_for": [
+        "通用编程",
+        "商业分析",
+        "营销"
+      ],
+      "parent": "scientific",
+      "related": [
+        "scientific-bioinformatics",
+        "medical-clinical"
+      ]
+    },
+    {
+      "id": "content-presentation",
+      "name": "内容·演示设计",
+      "skill_count": 6,
+      "winner": "awesome-design-md",
+      "winner_score": null,
+      "description": "演示文稿设计、品牌设计系统、会议纪要",
+      "triggers": [
+        "演示",
+        "PPT",
+        "品牌",
+        "设计系统",
+        "deck",
+        "幻灯片"
+      ],
+      "suitable_for": [
+        "演示文稿设计",
+        "品牌资产",
+        "会议材料"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "content-doc",
+        "design-ux"
+      ]
+    },
+    {
+      "id": "engineering-testing",
+      "name": "工程·测试",
+      "skill_count": 6,
+      "winner": "triage-issue",
+      "winner_score": null,
+      "description": "TDD、单元测试、集成测试、基准测试",
+      "triggers": [
+        "测试",
+        "test",
+        "TDD",
+        "单元测试",
+        "集成测试",
+        "benchmark",
+        "jest",
+        "pytest"
+      ],
+      "suitable_for": [
+        "测试策略制定",
+        "测试用例编写",
+        "TDD开发",
+        "性能基准"
+      ],
+      "not_suitable_for": [
+        "架构设计",
+        "产品需求"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-code",
+        "engineering-qa"
+      ]
+    },
+    {
+      "id": "hr-talent",
+      "name": "商业·人才管理",
+      "skill_count": 6,
+      "winner": "performance-review",
+      "winner_score": null,
+      "description": "绩效评估、薪酬分析、面试准备、入职",
+      "triggers": [
+        "绩效",
+        "薪酬",
+        "面试",
+        "入职",
+        "Offer",
+        "招聘"
+      ],
+      "suitable_for": [
+        "绩效管理",
+        "薪酬设计",
+        "招聘流程"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "business-hr",
+        "business-clevel"
+      ]
+    },
+    {
+      "id": "legal-compliance",
+      "name": "商业·法务合规",
+      "skill_count": 6,
+      "winner": "review-contract",
+      "winner_score": null,
+      "description": "合同审查、NDA分类、法律简报、供应商审查",
+      "triggers": [
+        "合同",
+        "NDA",
+        "法律",
+        "供应商",
+        "合规"
+      ],
+      "suitable_for": [
+        "合同审查",
+        "法律风险评估"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "business-legal",
+        "business-operations"
+      ]
+    },
+    {
+      "id": "marketing-cro",
+      "name": "营销·转化率优化",
+      "skill_count": 6,
+      "winner": "form-cro",
+      "winner_score": null,
+      "description": "页面CRO、注册流程、弹窗优化",
+      "triggers": [
+        "CRO",
+        "转化率",
+        "落地页",
+        "注册流程",
+        "弹窗",
+        "AB测试"
+      ],
+      "suitable_for": [
+        "转化优化",
+        "用户体验改善",
+        "漏斗分析"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "marketing",
+      "related": [
+        "marketing-analytics",
+        "design-ux"
+      ]
+    },
+    {
+      "id": "medical-clinical",
+      "name": "科学·医疗临床",
+      "skill_count": 6,
+      "winner": "iso-13485-certification",
+      "winner_score": null,
+      "description": "ISO 13485认证、DICOM影像、临床统计、医疗设备合规",
+      "triggers": [
+        "医疗",
+        "临床",
+        "DICOM",
+        "ISO 13485",
+        "FDA",
+        "医疗器械",
+        "影像",
+        "合规"
+      ],
+      "suitable_for": [
+        "医疗设备认证",
+        "临床数据分析",
+        "医学影像处理",
+        "法规合规"
+      ],
+      "not_suitable_for": [
+        "非医疗领域",
+        "通用软件开发"
+      ],
+      "parent": "scientific",
+      "related": [
+        "chemistry-pharma",
+        "business-legal"
+      ]
+    },
+    {
+      "id": "social-media-cn",
+      "name": "内容·中文社交",
+      "skill_count": 6,
+      "winner": "xhs-publish",
+      "winner_score": null,
+      "description": "小红书、微信公众号等中文社交平台运营",
+      "triggers": [
+        "小红书",
+        "XHS",
+        "微信",
+        "公众号",
+        "抖音",
+        "B站"
+      ],
+      "suitable_for": [
+        "中文社交平台运营",
+        "内容本地化"
+      ],
+      "not_suitable_for": [
+        "国际平台",
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "content-social",
+        "content-video"
+      ]
+    },
+    {
+      "id": "business-legal",
+      "name": "商业·法务合规",
+      "skill_count": 5,
+      "winner": "compliance-check",
+      "winner_score": null,
+      "description": "法律合规、GDPR、审计、标准认证",
+      "triggers": [
+        "法务",
+        "合规",
+        "GDPR",
+        "审计",
+        "法律",
+        "隐私"
+      ],
+      "suitable_for": [
+        "合规审查",
+        "法律风险评估",
+        "隐私政策"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "legal-compliance",
+        "engineering-security"
+      ]
+    },
+    {
+      "id": "business-pm",
+      "name": "商业·项目管理",
+      "skill_count": 5,
+      "winner": "learn-from-loss",
+      "winner_score": null,
+      "description": "Scrum、回顾、事后分析、项目跟踪",
+      "triggers": [
+        "项目管理",
+        "scrum",
+        "敏捷",
+        "回顾",
+        "retro",
+        "sprint",
+        "站会"
+      ],
+      "suitable_for": [
+        "项目规划",
+        "敏捷实践",
+        "团队协作"
+      ],
+      "not_suitable_for": [
+        "技术实现"
+      ],
+      "parent": "business",
+      "related": [
+        "business-product",
+        "productivity"
+      ]
+    },
+    {
+      "id": "engineering-frontend",
+      "name": "工程·前端",
+      "skill_count": 5,
+      "winner": "design-html",
+      "winner_score": null,
+      "description": "前端开发、UI组件、主题系统",
+      "triggers": [
+        "前端",
+        "frontend",
+        "CSS",
+        "HTML",
+        "组件",
+        "UI",
+        "主题"
+      ],
+      "suitable_for": [
+        "前端开发",
+        "UI组件设计",
+        "主题定制"
+      ],
+      "not_suitable_for": [
+        "后端开发",
+        "数据库设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "design-ux",
+        "engineering-framework"
+      ]
+    },
+    {
+      "id": "enterprise-search",
+      "name": "平台·企业搜索",
+      "skill_count": 5,
+      "winner": "search-strategy",
+      "winner_score": null,
+      "description": "搜索策略、知识整合、来源管理",
+      "triggers": [
+        "企业搜索",
+        "知识管理",
+        "搜索",
+        "RAG"
+      ],
+      "suitable_for": [
+        "企业知识库",
+        "搜索系统",
+        "RAG应用"
+      ],
+      "not_suitable_for": [
+        "简单查询"
+      ],
+      "parent": "platform",
+      "related": [
+        "data-analytics",
+        "agent-memory"
+      ]
+    },
+    {
+      "id": "agent-arch",
+      "name": "Agent·架构",
+      "skill_count": 4,
+      "winner": "multi-agent-patterns",
+      "winner_score": null,
+      "description": "多智能体模式、BDI心智模型、并行调度",
+      "triggers": [
+        "多智能体",
+        "multi-agent",
+        "BDI",
+        "并行调度",
+        "agent架构"
+      ],
+      "suitable_for": [
+        "Agent系统设计",
+        "多智能体协作",
+        "架构选型"
+      ],
+      "not_suitable_for": [
+        "单次任务执行"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-workflow",
+        "agent-context",
+        "engineering-arch"
+      ]
+    },
+    {
+      "id": "content-seo",
+      "name": "内容·SEO",
+      "skill_count": 4,
+      "winner": "ai-seo",
+      "winner_score": null,
+      "description": "SEO优化、Schema标记、程序化SEO",
+      "triggers": [
+        "SEO",
+        "搜索优化",
+        "Schema",
+        "关键词",
+        "排名"
+      ],
+      "suitable_for": [
+        "SEO审计",
+        "内容优化",
+        "技术SEO"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "marketing-strategy",
+        "content-writing"
+      ]
+    },
+    {
+      "id": "engineering-git",
+      "name": "工程·Git工作流",
+      "skill_count": 4,
+      "winner": "using-git-worktrees",
+      "winner_score": null,
+      "description": "Git分支策略、代码审查流程、合并策略",
+      "triggers": [
+        "git",
+        "分支",
+        "PR",
+        "merge",
+        "rebase",
+        "commit",
+        "worktree"
+      ],
+      "suitable_for": [
+        "Git工作流设计",
+        "PR流程",
+        "版本管理策略"
+      ],
+      "not_suitable_for": [
+        "代码实现",
+        "产品设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-code",
+        "engineering-devops"
+      ]
+    },
+    {
+      "id": "engineering-platform",
+      "name": "工程·平台开发",
+      "skill_count": 4,
+      "winner": "atlassian-mcp",
+      "winner_score": null,
+      "description": "Salesforce/Shopify/WordPress等平台开发",
+      "triggers": [
+        "salesforce",
+        "shopify",
+        "wordpress",
+        "atlassian",
+        "jira",
+        "confluence"
+      ],
+      "suitable_for": [
+        "平台定制开发",
+        "插件开发",
+        "平台集成"
+      ],
+      "not_suitable_for": [
+        "原生应用开发",
+        "底层系统"
+      ],
+      "parent": "engineering",
+      "related": [
+        "partner-integration",
+        "engineering-fullstack"
+      ]
+    },
+    {
+      "id": "media-audio",
+      "name": "媒体·语音音频",
+      "skill_count": 4,
+      "winner": "mac-tts",
+      "winner_score": null,
+      "description": "TTS、语音克隆、Whisper转录",
+      "triggers": [
+        "TTS",
+        "语音",
+        "音频",
+        "whisper",
+        "转录",
+        "配音"
+      ],
+      "suitable_for": [
+        "语音合成",
+        "音频处理",
+        "转录"
+      ],
+      "not_suitable_for": [
+        "视频",
+        "图像"
+      ],
+      "parent": "media",
+      "related": [
+        "content-video"
+      ]
+    },
+    {
+      "id": "productivity-tools",
+      "name": "效率·生产力工具",
+      "skill_count": 4,
+      "winner": "neat-freak",
+      "winner_score": null,
+      "description": "任务管理、记忆管理、文档整理",
+      "triggers": [
+        "任务管理",
+        "TODO",
+        "整理",
+        "清理"
+      ],
+      "suitable_for": [
+        "个人效率",
+        "工作流优化"
+      ],
+      "not_suitable_for": [
+        "团队流程"
+      ],
+      "parent": "productivity",
+      "related": [
+        "productivity",
+        "agent-memory"
+      ]
+    },
+    {
+      "id": "agent-eval",
+      "name": "Agent·评估",
+      "skill_count": 3,
+      "winner": "advanced-evaluation",
+      "winner_score": null,
+      "description": "Agent评估、高级评估方法",
+      "triggers": [
+        "评估",
+        "evaluation",
+        "benchmark",
+        "测试"
+      ],
+      "suitable_for": [
+        "Agent性能评估",
+        "质量度量"
+      ],
+      "not_suitable_for": [
+        "开发实现"
+      ],
+      "parent": "agent",
+      "related": [
+        "engineering-testing",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "agent-hosted",
+      "name": "Agent·托管运行",
+      "skill_count": 3,
+      "winner": "pair-agent",
+      "winner_score": null,
+      "description": "托管Agent、Pair编程、会话驱动",
+      "triggers": [
+        "托管",
+        "pair",
+        "协作",
+        "session"
+      ],
+      "suitable_for": [
+        "结对编程",
+        "远程Agent",
+        "会话管理"
+      ],
+      "not_suitable_for": [
+        "本地简单任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-workflow",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "name": "Agent·记忆系统",
+      "skill_count": 3,
+      "winner": "memory-systems",
+      "winner_score": null,
+      "description": "记忆管理、检查点、项目开发",
+      "triggers": [
+        "记忆",
+        "memory",
+        "checkpoint",
+        "持久化"
+      ],
+      "suitable_for": [
+        "长期记忆",
+        "会话恢复",
+        "知识积累"
+      ],
+      "not_suitable_for": [
+        "短任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-context",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "business-hr",
+      "name": "商业·人力资源",
+      "skill_count": 3,
+      "winner": "lead-magnets",
+      "winner_score": null,
+      "description": "招聘、组织健康、文化建设",
+      "triggers": [
+        "HR",
+        "招聘",
+        "组织",
+        "文化",
+        "人力"
+      ],
+      "suitable_for": [
+        "招聘流程",
+        "组织设计",
+        "文化建设"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "business",
+      "related": [
+        "hr-talent",
+        "business-clevel"
+      ]
+    },
+    {
+      "id": "engineering-ml",
+      "name": "工程·ML/AI",
+      "skill_count": 3,
+      "winner": "chinese-text-analysis",
+      "winner_score": null,
+      "description": "机器学习、模型训练、LLM成本优化",
+      "triggers": [
+        "机器学习",
+        "ML",
+        "模型",
+        "训练",
+        "LLM",
+        "AI",
+        "huggingface",
+        "深度学习"
+      ],
+      "suitable_for": [
+        "ML模型开发",
+        "模型训练优化",
+        "LLM应用"
+      ],
+      "not_suitable_for": [
+        "传统软件开发",
+        "UI设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "scientific-computing",
+        "agent-arch",
+        "data-analytics"
+      ]
+    },
+    {
+      "id": "marketing-ads",
+      "name": "营销·广告",
+      "skill_count": 3,
+      "winner": "ab-test-setup",
+      "winner_score": null,
+      "description": "付费广告、AB测试",
+      "triggers": [
+        "广告",
+        "投放",
+        "SEM",
+        "信息流",
+        "创意",
+        "AB测试"
+      ],
+      "suitable_for": [
+        "广告投放",
+        "创意设计",
+        "效果优化"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "marketing",
+      "related": [
+        "marketing-analytics",
+        "marketing-strategy"
+      ]
+    },
+    {
+      "id": "marketing-analytics",
+      "name": "营销·增长分析",
+      "skill_count": 3,
+      "winner": "analytics-tracking",
+      "winner_score": null,
+      "description": "数据追踪、留存分析、推荐系统",
+      "triggers": [
+        "数据分析",
+        "留存",
+        "增长",
+        "漏斗",
+        "归因"
+      ],
+      "suitable_for": [
+        "增长分析",
+        "用户行为分析",
+        "数据驱动决策"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "marketing",
+      "related": [
+        "data-analytics",
+        "marketing-cro"
+      ]
+    },
+    {
+      "id": "platform-claude-api",
+      "name": "平台·Claude API",
+      "skill_count": 3,
+      "winner": "claude-api",
+      "winner_score": null,
+      "description": "Claude API开发、Stripe集成、MCP服务器",
+      "triggers": [
+        "claude api",
+        "anthropic",
+        "MCP",
+        "stripe"
+      ],
+      "suitable_for": [
+        "Claude应用开发",
+        "API集成"
+      ],
+      "not_suitable_for": [
+        "其他LLM"
+      ],
+      "parent": "platform",
+      "related": [
+        "engineering-arch",
+        "agent-arch"
+      ]
+    },
+    {
+      "id": "skills-web",
+      "name": "Skills·联网",
+      "skill_count": 3,
+      "winner": "media-downloader",
+      "winner_score": null,
+      "description": "网络访问、媒体下载",
+      "triggers": [
+        "联网",
+        "web",
+        "下载",
+        "抓取"
+      ],
+      "suitable_for": [
+        "网络请求",
+        "内容抓取",
+        "媒体下载"
+      ],
+      "not_suitable_for": [
+        "离线任务"
+      ],
+      "parent": "skills",
+      "related": [
+        "skills-browser",
+        "content-social"
+      ]
+    },
+    {
+      "id": "engineering-security",
+      "name": "工程·安全",
+      "skill_count": 2,
+      "winner": "cso",
+      "winner_score": null,
+      "description": "安全审计、渗透测试、漏洞扫描、合规",
+      "triggers": [
+        "安全",
+        "security",
+        "渗透",
+        "漏洞",
+        "pentest",
+        "OWASP",
+        "加密"
+      ],
+      "suitable_for": [
+        "安全审计",
+        "渗透测试",
+        "漏洞修复",
+        "安全架构评审"
+      ],
+      "not_suitable_for": [
+        "功能开发",
+        "UI设计"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-code",
+        "business-legal"
+      ]
+    },
+    {
+      "id": "marketing-copy",
+      "name": "营销·文案",
+      "skill_count": 2,
+      "winner": "marketing-ideas",
+      "winner_score": null,
+      "description": "营销文案、心理学、创意策划",
+      "triggers": [
+        "文案",
+        "copywriting",
+        "创意",
+        "slogan",
+        "品牌文案"
+      ],
+      "suitable_for": [
+        "营销文案",
+        "品牌故事",
+        "广告创意"
+      ],
+      "not_suitable_for": [
+        "技术文档"
+      ],
+      "parent": "marketing",
+      "related": [
+        "content-writing",
+        "marketing-strategy"
+      ]
+    },
+    {
+      "id": "marketing-email",
+      "name": "营销·邮件",
+      "skill_count": 2,
+      "winner": "cold-email",
+      "winner_score": null,
+      "description": "冷邮件、邮件序列",
+      "triggers": [
+        "邮件",
+        "email",
+        "冷邮件",
+        "EDM",
+        "邮件序列"
+      ],
+      "suitable_for": [
+        "邮件营销",
+        "外联邮件",
+        "自动化序列"
+      ],
+      "not_suitable_for": [
+        "技术开发"
+      ],
+      "parent": "marketing",
+      "related": [
+        "marketing-strategy",
+        "sales-marketing"
+      ]
+    },
+    {
+      "id": "business-strategy",
+      "name": "商业·战略分析",
+      "skill_count": 1,
+      "winner": "competitive-intelligence",
+      "winner_score": null,
+      "description": "竞争分析、Wardley地图、决策日志",
+      "triggers": [
+        "战略",
+        "竞争",
+        "wardley",
+        "决策",
+        "市场分析"
+      ],
+      "suitable_for": [
+        "竞争分析",
+        "战略规划",
+        "市场研究"
+      ],
+      "not_suitable_for": [
+        "执行层任务"
+      ],
+      "parent": "business",
+      "related": [
+        "business-clevel",
+        "marketing-strategy"
+      ]
+    }
+  ],
   "skills": [
     {
       "id": "dbs-goal",

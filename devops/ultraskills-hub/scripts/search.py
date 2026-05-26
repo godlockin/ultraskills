@@ -9,6 +9,10 @@ Usage:
   search.py --id <skill-id>        # exact lookup, returns path
   search.py --winners              # list arena winners only
   search.py --compare <skill-id-a> <skill-id-b>  # side-by-side comparison
+  search.py --cluster <cluster-id> # list skills in a cluster
+  search.py --clusters             # list all clusters with metadata
+  search.py --hierarchy            # show category tree
+  search.py --related <cluster-id> # show related clusters
 
 Output: JSON array of matches with id, path, description, score, tags
 """
@@ -250,6 +254,22 @@ def main():
         print(json.dumps(results, ensure_ascii=False, indent=2))
         return
 
+    if args[0] == "--clusters":
+        cmd_clusters(idx)
+        return
+
+    if args[0] == "--cluster" and len(args) >= 2:
+        cmd_cluster_skills(idx, args[1])
+        return
+
+    if args[0] == "--hierarchy":
+        cmd_hierarchy(idx)
+        return
+
+    if args[0] == "--related" and len(args) >= 2:
+        cmd_related(idx, args[1])
+        return
+
     if args[0] == "--tag" and len(args) >= 2:
         results = search(idx, [], limit=30, tag_filter=args[1])
         print(json.dumps(results, ensure_ascii=False, indent=2))
@@ -335,6 +355,123 @@ def main():
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
         print(json.dumps(results, ensure_ascii=False, indent=2))
+
+
+def cmd_clusters(idx):
+    """List all clusters with metadata (sorted by skill_count desc)."""
+    clusters = idx.get("clusters", [])
+    if not clusters:
+        print(json.dumps({"error": "no clusters in index (v2.1.0+ required)"}))
+        return
+    # 简化输出，移除空字段
+    out = []
+    for c in clusters:
+        entry = {
+            "id": c["id"],
+            "name": c["name"],
+            "skill_count": c["skill_count"],
+            "winner": c.get("winner"),
+        }
+        if c.get("description"):
+            entry["description"] = c["description"]
+        if c.get("triggers"):
+            entry["triggers"] = c["triggers"][:5]  # 前5个触发词
+        if c.get("parent"):
+            entry["parent"] = c["parent"]
+        out.append(entry)
+    print(json.dumps(out, ensure_ascii=False, indent=2))
+
+
+def cmd_cluster_skills(idx, cluster_id):
+    """List skills in a specific cluster."""
+    skills = idx["skills"]
+    cluster_id = cluster_id.lower()
+    matches = [s for s in skills if s.get("arena", {}).get("cluster", "").lower() == cluster_id]
+    if not matches:
+        # fuzzy match cluster name
+        clusters = idx.get("clusters", [])
+        possible = [c for c in clusters if cluster_id in c["id"].lower() or cluster_id in c.get("name", "").lower()]
+        if possible:
+            print(json.dumps({"error": f"cluster '{cluster_id}' not found", "did_you_mean": [c["id"] for c in possible[:5]]}))
+        else:
+            print(json.dumps({"error": f"cluster '{cluster_id}' not found"}))
+        return
+
+    matches.sort(key=lambda x: x.get("arena", {}).get("rank", 999))
+    out = []
+    for s in matches:
+        arena = s.get("arena", {})
+        out.append({
+            "id": s["id"],
+            "description": s.get("description", "")[:100],
+            "arena_score": arena.get("score", 0),
+            "rank": arena.get("rank", 999),
+            "is_winner": arena.get("is_winner", False),
+        })
+    print(json.dumps(out, ensure_ascii=False, indent=2))
+
+
+def cmd_hierarchy(idx):
+    """Show category hierarchy tree."""
+    hierarchy = idx.get("hierarchy", {})
+    if not hierarchy:
+        print(json.dumps({"error": "no hierarchy in index (v2.1.0+ required)"}))
+        return
+
+    clusters = {c["id"]: c for c in idx.get("clusters", [])}
+
+    # 层级只有两层：root -> clusters，不需要递归
+    tree = []
+    for root_id in hierarchy.get("root", []):
+        child_ids = hierarchy.get(root_id, [])
+        children = []
+        for child_id in child_ids:
+            c = clusters.get(child_id, {})
+            children.append({
+                "id": child_id,
+                "name": c.get("name", child_id),
+                "skill_count": c.get("skill_count", 0),
+                "winner": c.get("winner"),
+            })
+        # 按 skill_count 降序
+        children.sort(key=lambda x: x["skill_count"], reverse=True)
+        total = sum(ch["skill_count"] for ch in children)
+        tree.append({
+            "id": root_id,
+            "name": root_id.title(),
+            "total_skills": total,
+            "cluster_count": len(children),
+            "children": children,
+        })
+    # 按 total_skills 降序
+    tree.sort(key=lambda x: x["total_skills"], reverse=True)
+    print(json.dumps(tree, ensure_ascii=False, indent=2))
+
+
+def cmd_related(idx, cluster_id):
+    """Show related clusters for a given cluster."""
+    clusters = {c["id"]: c for c in idx.get("clusters", [])}
+    cluster_id = cluster_id.lower()
+    c = clusters.get(cluster_id)
+    if not c:
+        possible = [cid for cid in clusters if cluster_id in cid.lower()]
+        if possible:
+            print(json.dumps({"error": f"cluster '{cluster_id}' not found", "did_you_mean": possible[:5]}))
+        else:
+            print(json.dumps({"error": f"cluster '{cluster_id}' not found"}))
+        return
+
+    related_ids = c.get("related", [])
+    parent_id = c.get("parent")
+
+    out = {
+        "cluster": {"id": c["id"], "name": c["name"], "description": c.get("description", "")},
+        "parent": clusters.get(parent_id, {"id": parent_id}) if parent_id else None,
+        "related": [{"id": rid, "name": clusters.get(rid, {}).get("name", rid), "skill_count": clusters.get(rid, {}).get("skill_count", 0)} for rid in related_ids if rid in clusters],
+        "suitable_for": c.get("suitable_for", []),
+        "not_suitable_for": c.get("not_suitable_for", []),
+    }
+    print(json.dumps(out, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
