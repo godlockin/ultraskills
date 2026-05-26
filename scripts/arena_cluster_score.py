@@ -143,6 +143,102 @@ CLUSTER_RULES = [
     ("skills-mgmt",            "Skills·管理",           ["claude-md-management", "command-development", "hook-development", "plugin-structure", "plugin-settings", "context-engineering", "init-skill", "sample-skill", "example-skill", "template-skill"]),
     ("platform-claude-api",    "平台·Claude API",       ["claude-api", "stripe-best", "stripe-integration", "mcp-server-builder", "claude-opus-4-5-migration"]),
     ("agent-agenthub",         "Agent·AgentHub协作",    ["dbs"]),
+
+    # ══════════════════════════════════════════════════════════════════════════════
+    # 新增 Clusters（来自 misc 重分类专家组分析，2026-05-27）
+    # ══════════════════════════════════════════════════════════════════════════════
+
+    # 科学计算与生物信息学
+    ("scientific-bioinformatics", "科学·生物信息学",    ["cellxgene", "dnanexus", "nextflow", "scvi-tools", "single-cell", "scanpy", "anndata",
+                                                          "biopython", "bioservices", "cobrapy", "deeptools", "depmap", "etetoolkit", "gget",
+                                                          "glycoengineering", "histolab", "lamindb", "matchms", "neurokit", "phylogenetics",
+                                                          "pysam", "rdkit", "scvelo", "torchdrug", "molecular-dynamics", "neuropixels",
+                                                          "instrument-data-to-allotrope", "benchling", "latchbio", "polars-bio", "scikit-bio",
+                                                          "torch-geometric", "adaptyv", "diffdock", "esm", "geniml", "gtars", "hypogenic",
+                                                          "pydeseq2", "rowan", "shap", "tiledbvcf", "arboreto", "primekg", "ginkgo-cloud"]),
+    ("scientific-computing",     "科学·计算仿真",       ["fluidsim", "simpy", "cirq", "qiskit", "qutip", "pennylane", "pytorch-lightning",
+                                                          "astropy", "geopandas", "vaex", "modal", "pathml", "polars", "pylabrobot",
+                                                          "pymoo", "flowio", "geomaster", "scikit-survival", "matlab", "hypothesis-generation",
+                                                          "consciousness-council", "get-available-resources", "optimize-for-gpu"]),
+    ("scientific-publishing",    "科学·学术出版",       ["latex-poster", "peer-review", "scientific-critical", "pymc", "seaborn",
+                                                          "paperzilla", "bgpt-paper-search", "pyzotero", "parallel-web", "usfiscaldata",
+                                                          "literature-review", "citation-management", "venue-templates"]),
+    ("scientific-databases",     "科学·数据库API",      ["imaging-data-commons", "labarchive", "opentrons", "zarr-python", "aeon",
+                                                          "dask", "pufferlib", "stable-baselines3", "autoskill", "database-lookup",
+                                                          "protocolsio", "omero-integration", "infographics"]),
+    ("chemistry-pharma",         "科学·化学药物",       ["datamol", "deepchem", "medchem", "molfeat", "pymatgen", "pytdc"]),
+    ("medical-clinical",         "科学·医疗临床",       ["iso-13485", "pydicom", "statsmodels", "treatment-plans", "scientific-schematics",
+                                                          "scientific-visualization"]),
+
+    # Zoom 集成生态
+    ("zoom-integration",         "平台·Zoom集成",       ["zoom-general", "zoom-meeting-sdk", "zoom-oauth", "zoom-rest-api", "zoom-team-chat",
+                                                          "zoom-apps-sdk", "zoom-mcp", "zoom-contact-center", "zoom-phone", "zoom-virtual-agent",
+                                                          "zoom-webhooks", "zoom-bot", "scribe", "probe-sdk", "rivet-sdk", "zoom-rtms",
+                                                          "ui-toolkit", "video-sdk", "meeting-sdk", "contact-center", "virtual-agent",
+                                                          "debug-zoom", "plan-zoom", "setup-zoom", "choose-zoom", "design-mcp-workflow"]),
+
+    # 小微企业运营
+    ("small-business-ops",       "商业·小微企业",       ["customer-pulse", "invoice-chase", "lead-triage", "canva-creator", "cash-flow",
+                                                          "crm-maintenance", "margin-analyzer", "month-end-prep", "tax-season", "business-pulse",
+                                                          "job-post-builder", "smb-router", "ticket-deflector", "call-list", "close-month",
+                                                          "crm-cleanup", "handle-complaint", "monday-brief", "month-heads-up", "plan-payroll",
+                                                          "quarterly-review", "sales-brief", "tax-prep", "run-campaign", "friday-brief", "smb-onboard"]),
+
+    # 视频制作（HyperFrames 生态）
+    ("video-production",         "内容·视频制作",       ["hyperframes", "website-to-hyperframes", "hyperframes-media", "hyperframes-registry",
+                                                          "hyperframes-cli", "animejs", "gsap", "tailwind", "typegpu", "css-animations",
+                                                          "lottie", "three", "waapi", "contribute-catalog", "remotion-to-hyperframes"]),
+
+    # 业务运营与客服
+    ("business-operations",      "商业·业务运营",       ["crisis-comms", "sop-writer", "customer-escalation", "draft-response", "kb-article",
+                                                          "ticket-triage", "strategy-consulting", "capacity-plan", "change-request",
+                                                          "process-doc", "vendor-review", "process-optimization", "risk-assessment"]),
+
+    # 开发工具（从 misc 提取）
+    ("dev-tools",                "工程·开发工具",       ["codex", "codegraph-booster", "skills-audit", "md-renderer", "deploy-checklist",
+                                                          "standup", "testing-strategy", "documentation"]),
+
+    # 第三方 SaaS 集成
+    ("partner-integration",      "平台·SaaS集成",       ["compose-outreach", "cowork-plugin-customizer", "create-cowork-plugin", "enrich-lead",
+                                                          "sequence-load", "brand-voice-enforcement", "guideline-generation", "call-prep",
+                                                          "weekly-prep-brief", "prospect", "discover-brand", "slack-search", "common-room", "apollo"]),
+
+    # 数据分析
+    ("data-analytics",           "数据·商业智能",       ["generalist-expert", "explore-data", "validate-data", "fact-checker", "create-viz",
+                                                          "data-visualization", "sql-queries", "data-storytelling", "write-query", "analyze",
+                                                          "build-dashboard", "statistical-analysis"]),
+
+    # 产品设计
+    ("product-design",           "设计·产品UX",         ["design-system", "write-spec", "color-expert", "metrics-review", "stakeholder-update",
+                                                          "design-critique", "design-handoff", "sprint-planning", "accessibility-review",
+                                                          "ux-copy", "research-synthesis", "user-research", "product-brainstorm", "roadmap-update"]),
+
+    # 销售营销
+    ("sales-marketing",          "商业·销售增长",       ["objection-handler", "okr-alignment", "pitch-deck-critic", "create-an-asset",
+                                                          "draft-outreach", "brand-messaging", "campaign-plan", "competitive-brief",
+                                                          "content-creation", "call-summary", "daily-briefing", "content-calendar",
+                                                          "retail-merchandising", "account-research", "pipeline-review", "forecast"]),
+
+    # 企业搜索
+    ("enterprise-search",        "平台·企业搜索",       ["search-strategy", "anysearch", "knowledge-synthesis", "digest", "source-management"]),
+
+    # 法务合规（补充）
+    ("legal-compliance",         "商业·法务合规",       ["review-contract", "meeting-briefing", "triage-nda", "vendor-check", "brief",
+                                                          "signature-request", "legal-response", "legal-risk"]),
+
+    # 社交媒体（中文平台）
+    ("social-media-cn",          "内容·中文社交",       ["xhs-publish", "xiaohongshu", "xhs-content", "xhs-auth", "xhs-explore", "xhs-interact"]),
+
+    # HR 人才
+    ("hr-talent",                "商业·人才管理",       ["performance-review", "comp-analysis", "draft-offer", "policy-lookup",
+                                                          "interview-prep", "org-planning", "people-report", "recruiting-pipeline", "onboarding"]),
+
+    # 财务会计
+    ("finance-accounting",       "商业·财务会计",       ["variance-analysis", "audit-support", "close-management", "journal-entry",
+                                                          "sox-testing", "reconciliation", "financial-statements"]),
+
+    # 生产力工具
+    ("productivity-tools",       "效率·生产力工具",     ["neat-freak", "memory-management", "task-management", "aihot"]),
 ]
 
 # 兜底：未匹配的归到 misc
