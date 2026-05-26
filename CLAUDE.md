@@ -355,6 +355,7 @@ The skill has specialized workflows that produce better results than ad-hoc answ
 
 Key routing rules:
 - Search for skills, find what skill to use → invoke ultraskills-hub
+- Explore architecture, trace calls, impact analysis → invoke codegraph-booster
 - Code review, check my diff → invoke review
 - Save progress, checkpoint, resume → invoke checkpoint
 - Code quality, health check → invoke health
@@ -362,3 +363,30 @@ Key routing rules:
 - Design system, brand → invoke design-consultation
 - Visual audit, design polish → invoke design-review
 - Weekly retro → invoke retro
+
+---
+
+## Skill Auto-Discovery
+
+When user request contains trigger keywords but no explicit skill name, auto-search ultraskills-hub first.
+
+| Trigger Keywords (EN/中文) | Search Query |
+|---------------------------|--------------|
+| marketing, 营销, 推广, 增长, growth | `marketing` |
+| design, UI, UX, 界面, 设计 | `design` |
+| security, 安全, 漏洞, 渗透, pentest | `security` |
+| test, 测试, TDD, 单元测试, unit test | `test` |
+| agent, 多智能体, 编排, orchestration | `agent` |
+| prompt, 提示词, 优化 | `prompt` |
+| browser, 爬虫, 反爬, 自动化, stealth | `browser stealth` |
+| debug, 调试, 排错, troubleshoot | `debug` |
+| review, 审查, 代码审查, code review | `review` |
+| deploy, 部署, 发布, CI/CD | `deploy` |
+| api, 接口, REST, GraphQL | `api` |
+| database, 数据库, SQL, 查询优化 | `database` |
+
+**Workflow:**
+1. Detect trigger keyword in user request
+2. Invoke `ultraskills-hub` with mapped search query
+3. If relevant skill found → invoke that skill
+4. If no match → proceed with direct answer

@@ -14,8 +14,12 @@ deploy_skills.py - Skills 部署脚本
 
 用法:
   python3 deploy_skills.py scan
-  python3 deploy_skills.py deploy
-  python3 deploy_skills.py deploy --dry-run
+  python3 deploy_skills.py deploy                    # hub-only (default)
+  python3 deploy_skills.py deploy --winners          # hub + arena winners
+  python3 deploy_skills.py deploy --winners-only     # only arena winners
+  python3 deploy_skills.py deploy --all              # all skills
+  python3 deploy_skills.py deploy --dry-run          # preview mode
+  python3 deploy_skills.py deploy --winners --dry-run
   python3 deploy_skills.py status
   python3 deploy_skills.py clean
 """
@@ -232,11 +236,25 @@ def cmd_deploy(args):
     默认 hub-only 模式：只部署 ultraskills-hub 一个入口，
     AI 工具通过 hub 搜索 index.json 按需加载具体 skill。
     用 --all 部署全部 skill symlink（不推荐，context 很大）。
+    用 --winners 部署 arena winners（cluster 内最高分 skills）。
+    用 --winners-only 只部署 winners，清理非 winner skills。
     """
     dry = getattr(args, "dry_run", False)
-    hub_only = not getattr(args, "all", False)
+    deploy_all = getattr(args, "all", False)
+    deploy_winners = getattr(args, "winners", False)
+    winners_only = getattr(args, "winners_only", False)
+
+    # Determine mode
+    if winners_only:
+        scope = "winners-only"
+    elif deploy_winners:
+        scope = "hub + winners"
+    elif deploy_all:
+        scope = "ALL skills"
+    else:
+        scope = "hub-only"
+
     mode = "DRY RUN" if dry else "DEPLOY"
-    scope = "hub-only" if hub_only else "ALL skills"
     print(f"🔗 {mode} ({scope}): deploying skills to IDE dirs...")
 
     if not INDEX_PATH.exists():
@@ -265,16 +283,35 @@ def cmd_deploy(args):
         print(f"   {_repair_cmd}")
         sys.exit(1)
 
-    skills = index["skills"]
+    all_skills = index["skills"]
 
-    # hub-only: only deploy ultraskills-hub
-    if hub_only:
-        hub_skill = next((s for s in skills if s["id"] == "ultraskills-hub"), None)
-        if not hub_skill:
-            print("❌ ultraskills-hub not found in index.json")
-            print("   Fix: Run scan first: python3 scripts/deploy_skills.py scan")
-            sys.exit(1)
+    # Determine which skills to deploy based on mode
+    hub_skill = next((s for s in all_skills if s["id"] == "ultraskills-hub"), None)
+    if not hub_skill:
+        print("❌ ultraskills-hub not found in index.json")
+        print("   Fix: Run scan first: python3 scripts/deploy_skills.py scan")
+        sys.exit(1)
+
+    # Collect winner skills
+    winner_skills = [s for s in all_skills if s.get("arena", {}).get("is_winner", False)]
+    winner_ids = {s["id"] for s in winner_skills}
+
+    if winners_only:
+        # Only winners (no hub, clean non-winners)
+        skills = winner_skills
+        print(f"  📊 Found {len(winner_skills)} arena winners")
+    elif deploy_winners:
+        # Hub + winners
+        skills = [hub_skill] + [s for s in winner_skills if s["id"] != "ultraskills-hub"]
+        print(f"  📊 Deploying hub + {len(winner_skills)} arena winners")
+    elif deploy_all:
+        # All skills
+        skills = all_skills
+    else:
+        # Default: hub-only
         skills = [hub_skill]
+
+    skills_to_deploy_ids = {s["id"] for s in skills}
 
     stats = {"created": 0, "updated": 0, "skipped": 0, "error": 0}
 
@@ -283,11 +320,26 @@ def cmd_deploy(args):
             _ensure_dir(target_base)
         print(f"\n  → {target_base}")
 
-        # hub-only mode: clean up old non-hub symlinks first
-        if hub_only and not dry and target_base.exists():
+        # Clean up mode logic:
+        # - hub-only: remove all non-hub symlinks
+        # - winners-only: remove non-winner symlinks
+        # - winners (hub + winners): remove non-hub, non-winner symlinks
+        if not dry and target_base.exists():
             for link in target_base.iterdir():
-                if link.is_symlink() and link.name != "ultraskills-hub":
-                    link.unlink()
+                if link.is_symlink():
+                    link_name = link.name
+                    should_remove = False
+
+                    if winners_only and link_name not in winner_ids:
+                        should_remove = True
+                    elif deploy_winners and link_name != "ultraskills-hub" and link_name not in winner_ids:
+                        should_remove = True
+                    elif not deploy_all and not deploy_winners and not winners_only and link_name != "ultraskills-hub":
+                        # hub-only mode
+                        should_remove = True
+
+                    if should_remove:
+                        link.unlink()
 
         for skill in skills:
             skill_id = skill["id"]
@@ -408,6 +460,8 @@ def main():
     dp = sub.add_parser("deploy", help="Symlink skills to IDE dirs (default: hub-only)")
     dp.add_argument("--dry-run", action="store_true", help="Preview without changes")
     dp.add_argument("--all", action="store_true", help="Deploy ALL skills (default: hub-only only)")
+    dp.add_argument("--winners", action="store_true", help="Deploy hub + arena winners (cluster top scorers)")
+    dp.add_argument("--winners-only", action="store_true", help="Deploy ONLY arena winners (clean non-winners)")
 
     sub.add_parser("clean",  help="Remove broken symlinks from IDE dirs")
     sub.add_parser("status", help="Show deployment status")
