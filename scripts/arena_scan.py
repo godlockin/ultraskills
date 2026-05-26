@@ -55,13 +55,10 @@ EXCLUDE_SKILL_IDS = [
 ]
 
 # 配套/辅助 skills (标记为 auxiliary，不参与竞技场评分但保留索引)
+# 注: caveman 子 skills 已证明有价值，移除 auxiliary 标记
 AUXILIARY_SKILL_PATTERNS = [
-    'caveman-stats',     # Token stats (hook-driven)
-    'caveman-compress',  # Compress sub-skill
-    'cavecrew',          # Subagent dispatch
-    'caveman-commit',    # Commit variant
-    'caveman-review',    # Review variant
-    'caveman-help',      # Help card
+    'caveman-stats',     # Token stats (hook-driven, 纯统计)
+    'cavecrew',          # Subagent dispatch (内部用)
 ]
 
 # 排除路径中包含 hidden 目录（任意层级以 . 开头的目录）
@@ -73,7 +70,7 @@ def has_hidden_component(path: Path) -> bool:
 
 
 def parse_frontmatter(text: str) -> dict:
-    """提取 YAML frontmatter（简单解析，不依赖 yaml 库）。"""
+    """提取 YAML frontmatter（简单解析，支持多行字符串）。"""
     if not text.startswith("---"):
         return {}
     end = text.find("\n---", 3)
@@ -81,18 +78,61 @@ def parse_frontmatter(text: str) -> dict:
         return {}
     fm_text = text[3:end].strip()
     result = {}
-    for line in fm_text.splitlines():
+    lines = fm_text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         if ":" in line:
             key, _, val = line.partition(":")
             key = key.strip()
             val = val.strip()
+
+            # YAML 多行字符串: > (folded) 或 | (literal)
+            if val in (">", "|", ">-", "|-"):
+                # 收集后续缩进行
+                multiline_parts = []
+                i += 1
+                while i < len(lines):
+                    next_line = lines[i]
+                    # 缩进行属于多行内容
+                    if next_line.startswith("  ") or next_line.startswith("\t"):
+                        multiline_parts.append(next_line.strip())
+                        i += 1
+                    elif next_line.strip() == "":
+                        # 空行也属于多行内容
+                        i += 1
+                    else:
+                        # 遇到非缩进行，结束多行
+                        break
+                # folded (>) 用空格连接，literal (|) 用换行
+                if val.startswith(">"):
+                    val = " ".join(multiline_parts)
+                else:
+                    val = "\n".join(multiline_parts)
+                result[key] = val
+                continue  # 不要 i += 1，已在 while 中处理
+
             # 处理 tags: [a, b] 或 tags:\n  - a
-            if val.startswith("[") and val.endswith("]"):
+            elif val.startswith("[") and val.endswith("]"):
                 val = [t.strip().strip('"\'') for t in val[1:-1].split(",") if t.strip()]
             elif val == "":
-                # 可能是多行 list，跳过（后续补充）
-                val = []
+                # 可能是多行 list (tags:\n  - a\n  - b)
+                list_items = []
+                i += 1
+                while i < len(lines):
+                    next_line = lines[i]
+                    if next_line.strip().startswith("- "):
+                        list_items.append(next_line.strip()[2:].strip().strip('"\''))
+                        i += 1
+                    elif next_line.startswith("  ") or next_line.startswith("\t"):
+                        i += 1
+                    else:
+                        break
+                val = list_items if list_items else []
+                result[key] = val
+                continue
             result[key] = val
+        i += 1
     return result
 
 
