@@ -67,7 +67,9 @@ SKIP_NAMES = {".git", ".cache", "__pycache__", "node_modules", ".DS_Store",
 
 # 强制部署的 skills (非 winner 但必须部署，如有 preamble 依赖)
 FORCE_DEPLOY_IDS = {
-    "gstack",  # 多个子 skills 依赖 gstack/bin/ 脚本
+    "gstack",           # 多个子 skills 依赖 gstack/bin/ 脚本
+    "web-access",       # mediacrawler, hv-analysis 等依赖
+    "playwright-skill", # 浏览器自动化基础设施
 }
 
 # ─── 工具函数 ─────────────────────────────────────────────────────────────────
