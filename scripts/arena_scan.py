@@ -32,6 +32,9 @@ EXCLUDE_SKILL_IDS = [
     "runbook-generator",  # 与 sop-writer 重叠，质量低
     '"runbook-generator"',  # 带引号版本
     "template-skill",     # 空模板，无价值
+    # === Low-quality videocut skills ===
+    "videocut:安装",      # 环境安装说明，非 skill
+    "videocut:自进化",    # 自我迭代说明，非 skill
     # === External duplicates (quoted versions from claude-skills) ===
     # Marketing skills: keep marketingskills/ (bare), exclude claude-skills/marketing-skill/ (quoted)
     '"ab-test-setup"', '"ad-creative"', '"copy-editing"', '"onboarding-cro"',
