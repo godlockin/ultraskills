@@ -5,13 +5,13 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 17,
+    "total_contestants": 13,
     "defeated": [
       "visual-forge",
-      "baoyu-markdown-to-html",
-      "baoyu-slide-deck",
       "xlsx",
-      "docx"
+      "docx",
+      "pdf",
+      "pptx"
     ]
   },
   {
@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 23,
+    "total_contestants": 14,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -50,7 +50,7 @@
     "winner": "comps-analysis",
     "score": 9.5,
     "runner_up": "datapack-builder",
-    "total_contestants": 56,
+    "total_contestants": 54,
     "defeated": [
       "datapack-builder",
       "dcf-model",
@@ -79,7 +79,7 @@
     "winner": "design-an-interface",
     "score": 9.5,
     "runner_up": "ubiquitous-language",
-    "total_contestants": 15,
+    "total_contestants": 13,
     "defeated": [
       "ubiquitous-language",
       "information-architecture",
@@ -94,7 +94,7 @@
     "winner": "playwright-media-sniffer",
     "score": 9.5,
     "runner_up": "open-gstack-browser",
-    "total_contestants": 15,
+    "total_contestants": 14,
     "defeated": [
       "open-gstack-browser",
       "gstack-openclaw-retro",
@@ -121,7 +121,7 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 10,
+    "total_contestants": 7,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
@@ -135,14 +135,11 @@
     "cluster_name": "数据·商业智能",
     "winner": "generalist-expert",
     "score": 9.0,
-    "runner_up": "explore-data",
-    "total_contestants": 10,
+    "runner_up": "fact-checker",
+    "total_contestants": 3,
     "defeated": [
-      "explore-data",
-      "validate-data",
       "fact-checker",
-      "create-viz",
-      "data-visualization"
+      "data-storytelling-framework"
     ]
   },
   {
@@ -166,10 +163,9 @@
     "winner": "chinese-text-analysis",
     "score": 9.0,
     "runner_up": "reasoning-trace-optimizer",
-    "total_contestants": 3,
+    "total_contestants": 2,
     "defeated": [
-      "reasoning-trace-optimizer",
-      "data-context-extractor"
+      "reasoning-trace-optimizer"
     ]
   },
   {
@@ -207,11 +203,11 @@
     "cluster_name": "营销·策略",
     "winner": "marketing-roi-calculator",
     "score": 9.0,
-    "runner_up": "content-strategy",
+    "runner_up": "aso-audit",
     "total_contestants": 10,
     "defeated": [
-      "content-strategy",
       "aso-audit",
+      "content-strategy",
       "launch-strategy",
       "pricing-strategy",
       "product-marketing-context"
@@ -236,13 +232,13 @@
     "winner": "objection-handler",
     "score": 9.0,
     "runner_up": "okr-alignment-checker",
-    "total_contestants": 13,
+    "total_contestants": 6,
     "defeated": [
       "okr-alignment-checker",
       "pitch-deck-critic",
-      "create-an-asset",
-      "draft-outreach",
-      "brand-messaging-framework"
+      "brand-messaging-framework",
+      "content-calendar-generator",
+      "retail-merchandising-planner"
     ]
   },
   {
@@ -348,13 +344,12 @@
     "winner": "digital-brain",
     "score": 8.8,
     "runner_up": "data-viz",
-    "total_contestants": 9,
+    "total_contestants": 5,
     "defeated": [
       "data-viz",
-      "smb-onboard",
       "onboarding-checklist-generator",
       "unit-economics-calculator",
-      "build-dashboard"
+      "revops"
     ]
   },
   {
@@ -363,43 +358,12 @@
     "winner": "office-hours",
     "score": 8.8,
     "runner_up": "plan-ceo-review",
-    "total_contestants": 6,
+    "total_contestants": 5,
     "defeated": [
       "plan-ceo-review",
       "plan-eng-review",
       "user-story-mapper",
-      "feature-prioritization",
-      "roadmap-update"
-    ]
-  },
-  {
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "winner": "baoyu-article-illustrator",
-    "score": 8.8,
-    "runner_up": "baoyu-comic",
-    "total_contestants": 17,
-    "defeated": [
-      "baoyu-comic",
-      "baoyu-cover-image",
-      "baoyu-image-cards",
-      "baoyu-imagine",
-      "baoyu-infographic"
-    ]
-  },
-  {
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "winner": "baoyu-danger-x-to-markdown",
-    "score": 8.8,
-    "runner_up": "baoyu-format-markdown",
-    "total_contestants": 20,
-    "defeated": [
-      "baoyu-format-markdown",
-      "baoyu-post-to-wechat",
-      "baoyu-translate",
-      "baoyu-xhs-images",
-      "baoyu-danger-gemini-web"
+      "feature-prioritization"
     ]
   },
   {
@@ -423,13 +387,11 @@
     "winner": "book-sft-pipeline",
     "score": 8.8,
     "runner_up": "clinical-reports",
-    "total_contestants": 9,
+    "total_contestants": 4,
     "defeated": [
       "clinical-reports",
       "statistical-analysis",
-      "people-report",
-      "performance-report",
-      "status-report"
+      "huashu-data-pro"
     ]
   },
   {
@@ -438,13 +400,13 @@
     "winner": "land-and-deploy",
     "score": 8.8,
     "runner_up": "setup-deploy",
-    "total_contestants": 8,
+    "total_contestants": 7,
     "defeated": [
       "setup-deploy",
       "canary",
       "ship",
-      "incident-response",
-      "terraform-engineer"
+      "terraform-engineer",
+      "devops-engineer"
     ]
   },
   {
@@ -467,13 +429,10 @@
     "winner": "crisis-comms-playbook",
     "score": 8.5,
     "runner_up": "sop-writer",
-    "total_contestants": 13,
+    "total_contestants": 3,
     "defeated": [
       "sop-writer",
-      "customer-escalation",
-      "draft-response",
-      "kb-article",
-      "ticket-triage"
+      "strategy-consulting-framework"
     ]
   },
   {
@@ -481,14 +440,11 @@
     "cluster_name": "工程·开发工具",
     "winner": "codex",
     "score": 8.5,
-    "runner_up": "codegraph-booster",
-    "total_contestants": 8,
+    "runner_up": "skills-audit",
+    "total_contestants": 3,
     "defeated": [
-      "codegraph-booster",
       "skills-audit",
-      "md-renderer",
-      "deploy-checklist",
-      "standup"
+      "md-renderer"
     ]
   },
   {
@@ -511,14 +467,13 @@
     "cluster_name": "工程·移动",
     "winner": "awesome-android-ui",
     "score": 8.5,
-    "runner_up": "zoom-meeting-sdk-react-native",
-    "total_contestants": 7,
+    "runner_up": "flutter-expert",
+    "total_contestants": 5,
     "defeated": [
-      "zoom-meeting-sdk-react-native",
-      "zoom-video-sdk-react-native",
       "flutter-expert",
       "kotlin-specialist",
-      "react-native-expert"
+      "react-native-expert",
+      "swift-expert"
     ]
   },
   {
@@ -527,7 +482,7 @@
     "winner": "review",
     "score": 8.5,
     "runner_up": "qa",
-    "total_contestants": 29,
+    "total_contestants": 20,
     "defeated": [
       "qa",
       "exploratory-data-analysis",
@@ -542,13 +497,28 @@
     "winner": "autoresearch",
     "score": 8.4,
     "runner_up": "learn",
-    "total_contestants": 25,
+    "total_contestants": 20,
     "defeated": [
       "learn",
       "autoresearch:execute",
       "market-research-reports",
       "feynman-perspective",
       "course-outline-generator"
+    ]
+  },
+  {
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "winner": "algorithmic-art",
+    "score": 8.3,
+    "runner_up": "\"visual-expert-pro-(gemini-3.0-edition)\"",
+    "total_contestants": 11,
+    "defeated": [
+      "\"visual-expert-pro-(gemini-3.0-edition)\"",
+      "\"commercial-director-pro\"",
+      "\"photography-expert-pro\"",
+      "face-beautification",
+      "\"gemini-image-optimizer\""
     ]
   },
   {
@@ -574,21 +544,6 @@
     "defeated": [
       "stripe-best-practices",
       "claude-opus-4-5-migration"
-    ]
-  },
-  {
-    "cluster": "small-business-ops",
-    "cluster_name": "商业·小微企业",
-    "winner": "customer-pulse",
-    "score": 8.3,
-    "runner_up": "invoice-chase",
-    "total_contestants": 26,
-    "defeated": [
-      "invoice-chase",
-      "lead-triage",
-      "canva-creator",
-      "cash-flow-snapshot",
-      "crm-maintenance"
     ]
   },
   {
@@ -618,20 +573,6 @@
     ]
   },
   {
-    "cluster": "business-legal",
-    "cluster_name": "商业·法务合规",
-    "winner": "compliance-check",
-    "score": 7.8,
-    "runner_up": "legal-response",
-    "total_contestants": 5,
-    "defeated": [
-      "legal-response",
-      "legal-risk-assessment",
-      "contract-risk-highlighter",
-      "compliance-tracking"
-    ]
-  },
-  {
     "cluster": "content-seo",
     "cluster_name": "内容·SEO",
     "winner": "ai-seo",
@@ -645,47 +586,18 @@
     ]
   },
   {
-    "cluster": "enterprise-search",
-    "cluster_name": "平台·企业搜索",
-    "winner": "search-strategy",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "winner": "x-mastery-mentor",
     "score": 7.8,
-    "runner_up": "anysearch",
-    "total_contestants": 5,
+    "runner_up": "mediacrawler",
+    "total_contestants": 10,
     "defeated": [
-      "anysearch",
-      "knowledge-synthesis",
-      "digest",
-      "source-management"
-    ]
-  },
-  {
-    "cluster": "finance-accounting",
-    "cluster_name": "商业·财务会计",
-    "winner": "variance-analysis",
-    "score": 7.8,
-    "runner_up": "audit-support",
-    "total_contestants": 7,
-    "defeated": [
-      "audit-support",
-      "close-management",
-      "journal-entry",
-      "journal-entry-prep",
-      "sox-testing"
-    ]
-  },
-  {
-    "cluster": "legal-compliance",
-    "cluster_name": "商业·法务合规",
-    "winner": "review-contract",
-    "score": 7.8,
-    "runner_up": "meeting-briefing",
-    "total_contestants": 6,
-    "defeated": [
-      "meeting-briefing",
-      "triage-nda",
-      "vendor-check",
-      "brief",
-      "signature-request"
+      "mediacrawler",
+      "huashu-speech-coach",
+      "huashu-wechat-image",
+      "huashu-xhs-image",
+      "khazix-writer"
     ]
   },
   {
@@ -754,21 +666,6 @@
     ]
   },
   {
-    "cluster": "partner-integration",
-    "cluster_name": "平台·SaaS集成",
-    "winner": "compose-outreach",
-    "score": 7.8,
-    "runner_up": "cowork-plugin-customizer",
-    "total_contestants": 12,
-    "defeated": [
-      "cowork-plugin-customizer",
-      "create-cowork-plugin",
-      "enrich-lead",
-      "sequence-load",
-      "brand-voice-enforcement"
-    ]
-  },
-  {
     "cluster": "persona",
     "cluster_name": "人物·视角模拟",
     "winner": "huashu-nuwa",
@@ -784,33 +681,18 @@
     ]
   },
   {
-    "cluster": "product-design",
-    "cluster_name": "设计·产品UX",
-    "winner": "design-system",
-    "score": 7.8,
-    "runner_up": "write-spec",
-    "total_contestants": 10,
-    "defeated": [
-      "write-spec",
-      "color-expert",
-      "metrics-review",
-      "stakeholder-update",
-      "design-critique"
-    ]
-  },
-  {
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
     "winner": "slack-gif-creator",
     "score": 7.8,
-    "runner_up": "baoyu-compress-image",
-    "total_contestants": 13,
+    "runner_up": "brainstorming",
+    "total_contestants": 9,
     "defeated": [
-      "baoyu-compress-image",
       "brainstorming",
       "caveman",
       "dynamic-expert-group",
-      "scientific-brainstorming"
+      "scientific-brainstorming",
+      "caveman-compress"
     ]
   },
   {
@@ -818,11 +700,9 @@
     "cluster_name": "效率·生产力工具",
     "winner": "neat-freak",
     "score": 7.8,
-    "runner_up": "memory-management",
-    "total_contestants": 4,
+    "runner_up": "aihot",
+    "total_contestants": 2,
     "defeated": [
-      "memory-management",
-      "task-management",
       "aihot"
     ]
   },
@@ -832,13 +712,13 @@
     "winner": "cellxgene-census",
     "score": 7.8,
     "runner_up": "dnanexus-integration",
-    "total_contestants": 45,
+    "total_contestants": 42,
     "defeated": [
       "dnanexus-integration",
-      "nextflow-development",
       "adaptyv",
       "diffdock",
-      "esm"
+      "esm",
+      "geniml"
     ]
   },
   {
@@ -887,21 +767,6 @@
     ]
   },
   {
-    "cluster": "social-media-cn",
-    "cluster_name": "内容·中文社交",
-    "winner": "xhs-publish",
-    "score": 7.8,
-    "runner_up": "xiaohongshu-skills",
-    "total_contestants": 6,
-    "defeated": [
-      "xiaohongshu-skills",
-      "xhs-content-ops",
-      "xhs-auth",
-      "xhs-explore",
-      "xhs-interact"
-    ]
-  },
-  {
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
     "winner": "contribute-catalog",
@@ -917,19 +782,13 @@
     ]
   },
   {
-    "cluster": "zoom-integration",
-    "cluster_name": "平台·Zoom集成",
-    "winner": "zoom-general",
-    "score": 7.8,
-    "runner_up": "zoom-meeting-sdk-web",
-    "total_contestants": 42,
-    "defeated": [
-      "zoom-meeting-sdk-web",
-      "zoom-meeting-sdk-windows",
-      "zoom-oauth",
-      "build-zoom-rest-api-app",
-      "build-zoom-team-chat-app"
-    ]
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "winner": "contract-risk-highlighter",
+    "score": 7.5,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
   },
   {
     "cluster": "skills-web",
@@ -971,21 +830,6 @@
     ]
   },
   {
-    "cluster": "hr-talent",
-    "cluster_name": "商业·人才管理",
-    "winner": "performance-review",
-    "score": 7.3,
-    "runner_up": "comp-analysis",
-    "total_contestants": 6,
-    "defeated": [
-      "comp-analysis",
-      "draft-offer",
-      "policy-lookup",
-      "interview-prep",
-      "org-planning"
-    ]
-  },
-  {
     "cluster": "marketing-copy",
     "cluster_name": "营销·文案",
     "winner": "marketing-ideas",
@@ -995,6 +839,15 @@
     "defeated": [
       "marketing-psychology"
     ]
+  },
+  {
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "winner": "color-expert",
+    "score": 7.3,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
   },
   {
     "cluster": "chemistry-pharma",
@@ -1010,15 +863,6 @@
       "pymatgen",
       "pytdc"
     ]
-  },
-  {
-    "cluster": "business-strategy",
-    "cluster_name": "商业·战略分析",
-    "winner": "competitive-intelligence",
-    "score": 6.8,
-    "runner_up": null,
-    "total_contestants": 1,
-    "defeated": []
   },
   {
     "cluster": "engineering-lang",

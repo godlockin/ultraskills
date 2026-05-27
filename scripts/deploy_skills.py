@@ -65,6 +65,11 @@ SKIP_NAMES = {".git", ".cache", "__pycache__", "node_modules", ".DS_Store",
               "templates", "examples", "resources", "scripts", "reports",
               "test-suites", "plans", "plugins", ".codex", ".gemini", ".cursor"}
 
+# 强制部署的 skills (非 winner 但必须部署，如有 preamble 依赖)
+FORCE_DEPLOY_IDS = {
+    "gstack",  # 多个子 skills 依赖 gstack/bin/ 脚本
+}
+
 # ─── 工具函数 ─────────────────────────────────────────────────────────────────
 
 def parse_frontmatter(text: str) -> Optional[Dict]:
@@ -296,14 +301,19 @@ def cmd_deploy(args):
     winner_skills = [s for s in all_skills if s.get("arena", {}).get("is_winner", False)]
     winner_ids = {s["id"] for s in winner_skills}
 
+    # Collect force-deploy skills (non-winners that must be deployed)
+    force_skills = [s for s in all_skills if s["id"] in FORCE_DEPLOY_IDS]
+    force_ids = {s["id"] for s in force_skills}
+
     if winners_only:
-        # Only winners (no hub, clean non-winners)
-        skills = winner_skills
-        print(f"  📊 Found {len(winner_skills)} arena winners")
+        # Only winners + force (no hub, clean non-winners)
+        skills = winner_skills + [s for s in force_skills if s["id"] not in winner_ids]
+        print(f"  📊 Found {len(winner_skills)} arena winners + {len(force_skills)} force-deploy")
     elif deploy_winners:
-        # Hub + winners
-        skills = [hub_skill] + [s for s in winner_skills if s["id"] != "ultraskills-hub"]
-        print(f"  📊 Deploying hub + {len(winner_skills)} arena winners")
+        # Hub + winners + force
+        combined = winner_skills + [s for s in force_skills if s["id"] not in winner_ids]
+        skills = [hub_skill] + [s for s in combined if s["id"] != "ultraskills-hub"]
+        print(f"  📊 Deploying hub + {len(winner_skills)} arena winners + {len(force_skills)} force-deploy")
     elif deploy_all:
         # All skills
         skills = all_skills
@@ -322,13 +332,17 @@ def cmd_deploy(args):
 
         # Clean up mode logic:
         # - hub-only: remove all non-hub symlinks
-        # - winners-only: remove non-winner symlinks
-        # - winners (hub + winners): remove non-hub, non-winner symlinks
+        # - winners-only: remove non-winner symlinks (keep force-deploy)
+        # - winners (hub + winners): remove non-hub, non-winner symlinks (keep force-deploy)
         if not dry and target_base.exists():
             for link in target_base.iterdir():
                 if link.is_symlink():
                     link_name = link.name
                     should_remove = False
+
+                    # Never remove force-deploy skills
+                    if link_name in force_ids:
+                        continue
 
                     if winners_only and link_name not in winner_ids:
                         should_remove = True
