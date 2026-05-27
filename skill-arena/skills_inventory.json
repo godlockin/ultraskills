@@ -9828,61 +9828,6 @@
     "auxiliary": false
   },
   {
-    "id": "videocut:剪口播",
-    "path": "./external/videocut-skills/剪口播/SKILL.md",
-    "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-    "tags": [
-      "videocut"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "videocut:字幕",
-    "path": "./external/videocut-skills/字幕/SKILL.md",
-    "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
-    "tags": [
-      "videocut"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "videocut:安装",
-    "path": "./external/videocut-skills/安装/SKILL.md",
-    "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
-    "tags": [
-      "videocut"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "videocut:自进化",
-    "path": "./external/videocut-skills/自进化/SKILL.md",
-    "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-    "tags": [
-      "videocut"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "videocut:高清化",
-    "path": "./external/videocut-skills/高清化/SKILL.md",
-    "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
-    "tags": [
-      "videocut"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "web-access",
     "path": "./external/web-access/SKILL.md",
     "description": "在开始联网操作前，先检查 CDP 模式可用性：",

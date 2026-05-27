@@ -8701,17 +8701,6 @@
     "total": 6.2
   },
   {
-    "id": "videocut:剪口播",
-    "path": "./external/videocut-skills/剪口播/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 6.2
-  },
-  {
     "id": "playground",
     "path": "./external/claude-plugins-official/plugins/playground/skills/playground/SKILL.md",
     "cluster": "misc",
@@ -8976,17 +8965,6 @@
     "total": 5.5
   },
   {
-    "id": "videocut:高清化",
-    "path": "./external/videocut-skills/高清化/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 5.5
-  },
-  {
     "id": "web-access",
     "path": "./external/web-access/SKILL.md",
     "cluster": "skills-web",
@@ -9064,17 +9042,6 @@
     "total": 5.3
   },
   {
-    "id": "videocut:字幕",
-    "path": "./external/videocut-skills/字幕/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 5.2
-  },
-  {
     "id": "huashu-info-search",
     "path": "./external/huashu-skills/huashu-info-search/SKILL.md",
     "cluster": "education",
@@ -9084,27 +9051,5 @@
     "func_clarity": 6,
     "maintainability": 5,
     "total": 4.8
-  },
-  {
-    "id": "videocut:安装",
-    "path": "./external/videocut-skills/安装/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 4.7
-  },
-  {
-    "id": "videocut:自进化",
-    "path": "./external/videocut-skills/自进化/SKILL.md",
-    "cluster": "content-video",
-    "cluster_name": "内容·视频",
-    "is_winner": false,
-    "doc_quality": 5,
-    "func_clarity": 4,
-    "maintainability": 5,
-    "total": 4.7
   }
 ]

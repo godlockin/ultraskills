@@ -4,9 +4,9 @@
     "updated_at": "2026-05-27",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-05-27",
-    "total_skills": 828,
+    "total_skills": 823,
     "total_clusters": 75,
-    "avg_arena_score": 7.43,
+    "avg_arena_score": 7.44,
     "total_winners": 75
   },
   "hierarchy": {
@@ -245,36 +245,6 @@
       "related": []
     },
     {
-      "id": "content-video",
-      "name": "内容·视频",
-      "skill_count": 28,
-      "winner": "remotion",
-      "winner_score": null,
-      "description": "视频制作、字幕、剪辑、Remotion",
-      "triggers": [
-        "视频",
-        "字幕",
-        "剪辑",
-        "remotion",
-        "抖音",
-        "短视频"
-      ],
-      "suitable_for": [
-        "视频制作",
-        "字幕生成",
-        "视频脚本"
-      ],
-      "not_suitable_for": [
-        "静态内容",
-        "代码开发"
-      ],
-      "parent": "content",
-      "related": [
-        "video-production",
-        "content-image"
-      ]
-    },
-    {
       "id": "small-business-ops",
       "name": "商业·小微企业",
       "skill_count": 26,
@@ -366,6 +336,36 @@
         "engineering-framework",
         "engineering-lang",
         "engineering-arch"
+      ]
+    },
+    {
+      "id": "content-video",
+      "name": "内容·视频",
+      "skill_count": 23,
+      "winner": "remotion",
+      "winner_score": null,
+      "description": "视频制作、字幕、剪辑、Remotion",
+      "triggers": [
+        "视频",
+        "字幕",
+        "剪辑",
+        "remotion",
+        "抖音",
+        "短视频"
+      ],
+      "suitable_for": [
+        "视频制作",
+        "字幕生成",
+        "视频脚本"
+      ],
+      "not_suitable_for": [
+        "静态内容",
+        "代码开发"
+      ],
+      "parent": "content",
+      "related": [
+        "video-production",
+        "content-image"
       ]
     },
     {
@@ -8167,48 +8167,6 @@
       }
     },
     {
-      "id": "videocut:剪口播",
-      "name": "videocut:剪口播",
-      "path": "./external/videocut-skills/剪口播/SKILL.md",
-      "description": "口播视频转录和口误识别。生成审查稿和删除任务清单。触发词：剪口播、处理视频、识别口误",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "cluster": "content-video",
-        "cluster_name": "内容·视频",
-        "score": 6.2,
-        "doc_quality": 8,
-        "func_clarity": 4,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 23,
-        "test_date": "2026-05-27",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "videocut:高清化",
-      "name": "videocut:高清化",
-      "path": "./external/videocut-skills/高清化/SKILL.md",
-      "description": "视频高清导出。2-pass编码+锐化，匹配或超越原片画质。触发词：高清化、高清导出、导出高清、渲染高清",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "cluster": "content-video",
-        "cluster_name": "内容·视频",
-        "score": 5.5,
-        "doc_quality": 6,
-        "func_clarity": 5,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 24,
-        "test_date": "2026-05-27",
-        "test_version": "1.0.0"
-      }
-    },
-    {
       "id": "huashu-video-outline",
       "name": "huashu-video-outline",
       "path": "./external/huashu-skills/huashu-video-outline/SKILL.md",
@@ -8224,70 +8182,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
-        "test_date": "2026-05-27",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "videocut:字幕",
-      "name": "videocut:字幕",
-      "path": "./external/videocut-skills/字幕/SKILL.md",
-      "description": "字幕生成与烧录。火山引擎转录→词典纠错→审核→烧录。触发词：加字幕、生成字幕、字幕",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "cluster": "content-video",
-        "cluster_name": "内容·视频",
-        "score": 5.2,
-        "doc_quality": 6,
-        "func_clarity": 4,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 26,
-        "test_date": "2026-05-27",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "videocut:安装",
-      "name": "videocut:安装",
-      "path": "./external/videocut-skills/安装/SKILL.md",
-      "description": "环境准备。安装依赖、配置 API Key、验证环境。触发词：安装、环境准备、初始化",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "cluster": "content-video",
-        "cluster_name": "内容·视频",
-        "score": 4.7,
-        "doc_quality": 5,
-        "func_clarity": 4,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 27,
-        "test_date": "2026-05-27",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "videocut:自进化",
-      "name": "videocut:自进化",
-      "path": "./external/videocut-skills/自进化/SKILL.md",
-      "description": "自进化 skills。记录用户反馈，更新方法论和规则。触发词：更新规则、记录反馈、改进skill",
-      "tags": [
-        "videocut"
-      ],
-      "arena": {
-        "cluster": "content-video",
-        "cluster_name": "内容·视频",
-        "score": 4.7,
-        "doc_quality": 5,
-        "func_clarity": 4,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 28,
+        "rank": 23,
         "test_date": "2026-05-27",
         "test_version": "1.0.0"
       }
