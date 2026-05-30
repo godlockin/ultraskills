@@ -2351,6 +2351,24 @@
     "auxiliary": false
   },
   {
+    "id": "xhs-operator",
+    "path": "./community/xhs-operator/SKILL.md",
+    "description": "小红书账号运营助手——Cookie 保活检测、多账号健康巡检、过期通知。依赖 xhs-skills 子模块（external/xhs-skills）提供 API 能力。",
+    "tags": [
+      "xhs",
+      "小红书",
+      "cookie",
+      "保活",
+      "运营",
+      "账号管理",
+      "social-media",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "xlsx",
     "path": "./community/xlsx/SKILL.md",
     "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\"",
@@ -9833,6 +9851,17 @@
     "description": "在开始联网操作前，先检查 CDP 模式可用性：",
     "tags": [
       "web-access"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-apis",
+    "path": "./external/xhs-skills/skills/xhs-apis/SKILL.md",
+    "description": "Use this skill when you need to call the vendored Xiaohongshu/XHS APIs from Spider_XHS for PC web data or creator-platform publishing data. This skill only wraps the APIs in xhs_pc_apis.py and xhs_creator_apis.py, including note, user, search, comment, topic, location, media upload, note publishing, and creator published-note queries.",
+    "tags": [
+      "xhs"
     ],
     "version": "",
     "github_url": "",

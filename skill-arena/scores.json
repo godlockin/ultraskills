@@ -2233,6 +2233,17 @@
     "total": 8.0
   },
   {
+    "id": "xhs-operator",
+    "path": "./community/xhs-operator/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "youtube-script-optimizer",
     "path": "./community/youtube-script-optimizer/SKILL.md",
     "cluster": "content-writing",
@@ -8628,6 +8639,17 @@
     "path": "./external/knowledge-work-plugins/small-business/skills/run-campaign/SKILL.md",
     "cluster": "small-business-ops",
     "cluster_name": "商业·小微企业",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "xhs-apis",
+    "path": "./external/xhs-skills/skills/xhs-apis/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 6,

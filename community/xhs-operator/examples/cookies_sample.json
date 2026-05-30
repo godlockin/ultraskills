@@ -1,0 +1,12 @@
+[
+  {
+    "name": "账号A_PC",
+    "type": "pc",
+    "cookies_str": "a1=xxxxxxx; web_session=xxxxxxx; webId=xxxxxxx"
+  },
+  {
+    "name": "账号B_PC",
+    "type": "pc",
+    "cookies_str": "a1=yyyyyyy; web_session=yyyyyyy; webId=yyyyyyy"
+  }
+]

@@ -393,7 +393,7 @@
     "winner": "baoyu-danger-x-to-markdown",
     "score": 8.8,
     "runner_up": "baoyu-format-markdown",
-    "total_contestants": 20,
+    "total_contestants": 21,
     "defeated": [
       "baoyu-format-markdown",
       "baoyu-post-to-wechat",
@@ -527,7 +527,7 @@
     "winner": "review",
     "score": 8.5,
     "runner_up": "qa",
-    "total_contestants": 29,
+    "total_contestants": 30,
     "defeated": [
       "qa",
       "exploratory-data-analysis",
