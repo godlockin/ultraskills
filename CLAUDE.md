@@ -347,6 +347,34 @@ python3 devops/skill-sync-manager/scripts/sync_submodules.py # 同步更新
 
 ---
 
+## Skill Fallback — 按需加载未部署 Skill（BLOCKING）
+
+> **MUST**: 当你觉得用户的请求可能需要某个专业 skill 来辅助，但该 skill 不在已加载列表中时，
+> **你必须先执行以下搜索流程，再决定是否直接回答。不要跳过搜索直接回答。**
+
+ultraskills 仓库有 826+ skills，但只有一部分部署到 `~/.claude/skills/`。
+
+**Fallback 流程：**
+```
+1. 运行: python3 devops/ultraskills-hub/scripts/search.py <关键词>
+2. 取返回结果中 match_score 最高且相关的 skill 的 path 字段
+3. 用 Read 工具读取该 path（SKILL.md 绝对路径）
+4. 将读到的 SKILL.md 内容作为当前任务的指导直接执行
+```
+
+**触发条件**（满足任一即触发）：
+- 用户请求的 skill name 不在 available skills 列表中
+- 用户描述的任务涉及特定领域/工具/方法论，但你不确定用哪个 skill
+- Skill Auto-Discovery 表中的 trigger keyword 命中
+- 用户明确说"找个 skill"/"有没有相关的 skill"
+
+**注意**：
+- 不要创建 symlink，直接 Read + 执行即可
+- 搜索结果的 `path` 是 SKILL.md 的绝对路径，直接传给 Read 工具
+- 如果搜索无结果或无相关匹配，正常回答即可
+
+---
+
 ## Skill routing
 
 When the user's request matches an available skill, ALWAYS invoke it using the Skill
@@ -363,30 +391,6 @@ Key routing rules:
 - Design system, brand → invoke design-consultation
 - Visual audit, design polish → invoke design-review
 - Weekly retro → invoke retro
-
----
-
-## Skill Fallback — 按需加载未部署 Skill
-
-ultraskills 仓库有 826+ skills，但只有一部分部署到 `~/.claude/skills/`。
-**当你需要某个 skill 但它不在已加载列表中时**，执行以下 fallback：
-
-```
-1. 运行: python3 devops/ultraskills-hub/scripts/search.py <关键词>
-2. 取返回结果中 match_score 最高且相关的 skill 的 path 字段
-3. 用 Read 工具读取该 path 下的 SKILL.md
-4. 将读到的 SKILL.md 内容作为当前任务的指导直接执行
-```
-
-**触发条件**（满足任一即触发 fallback）：
-- 用户请求的 skill name 不在 available skills 列表中
-- 用户描述的任务明确需要特定 skill，但你不确定哪个最合适
-- Skill Auto-Discovery 表中的 trigger keyword 命中
-
-**注意**：
-- 不要创建 symlink，直接 Read + 执行即可
-- 搜索结果的 `path` 是 SKILL.md 的绝对路径，直接传给 Read 工具
-- 如果搜索无结果，正常回答即可
 
 ---
 
