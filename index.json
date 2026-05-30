@@ -4,7 +4,7 @@
     "updated_at": "2026-05-30",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-05-30",
-    "total_skills": 825,
+    "total_skills": 826,
     "total_clusters": 75,
     "avg_arena_score": 7.44,
     "total_winners": 75
@@ -1699,6 +1699,35 @@
       ]
     },
     {
+      "id": "agent-arch",
+      "name": "Agent·架构",
+      "skill_count": 5,
+      "winner": "multi-agent-patterns",
+      "winner_score": null,
+      "description": "多智能体模式、BDI心智模型、并行调度",
+      "triggers": [
+        "多智能体",
+        "multi-agent",
+        "BDI",
+        "并行调度",
+        "agent架构"
+      ],
+      "suitable_for": [
+        "Agent系统设计",
+        "多智能体协作",
+        "架构选型"
+      ],
+      "not_suitable_for": [
+        "单次任务执行"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-workflow",
+        "agent-context",
+        "engineering-arch"
+      ]
+    },
+    {
       "id": "business-legal",
       "name": "商业·法务合规",
       "skill_count": 5,
@@ -1813,35 +1842,6 @@
       "related": [
         "data-analytics",
         "agent-memory"
-      ]
-    },
-    {
-      "id": "agent-arch",
-      "name": "Agent·架构",
-      "skill_count": 4,
-      "winner": "multi-agent-patterns",
-      "winner_score": null,
-      "description": "多智能体模式、BDI心智模型、并行调度",
-      "triggers": [
-        "多智能体",
-        "multi-agent",
-        "BDI",
-        "并行调度",
-        "agent架构"
-      ],
-      "suitable_for": [
-        "Agent系统设计",
-        "多智能体协作",
-        "架构选型"
-      ],
-      "not_suitable_for": [
-        "单次任务执行"
-      ],
-      "parent": "agent",
-      "related": [
-        "agent-workflow",
-        "agent-context",
-        "engineering-arch"
       ]
     },
     {
@@ -2802,6 +2802,27 @@
         "test_version": "1.0.0"
       },
       "version": "1.0.0"
+    },
+    {
+      "id": "agent-optimizer-loop",
+      "name": "agent-optimizer-loop",
+      "path": "./community/agent-optimizer-loop/SKILL.md",
+      "description": "\"Use when designing or running an autonomous Agent optimization loop — where an Agent iteratively modifies an 'experiment unit', evaluates a metric, and keeps or discards changes. Based on the autoresearch pattern by Karpathy. Trigger when: user wants to auto-optimize prompts, code, configs, or any artifact via repeated Agent experimentation.\"",
+      "tags": [
+        "community"
+      ],
+      "arena": {
+        "cluster": "agent-arch",
+        "cluster_name": "Agent·架构",
+        "score": 6.8,
+        "doc_quality": 8,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 5,
+        "test_date": "2026-05-30",
+        "test_version": "1.0.0"
+      }
     },
     {
       "id": "context-compression",

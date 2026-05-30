@@ -114,7 +114,8 @@ def validate_all():
                 else:
                     errors.append(msg)
                 continue
-            is_external = rel.startswith("external/")
+            norm_root = os.path.normpath(root)
+            is_external = rel.startswith("external/") or is_under_submodule(norm_root, submodule_roots)
             for req in REQUIRED_FRONTMATTER:
                 if req not in fields:
                     msg = f"[MISSING_FIELD:{req}] {rel}/SKILL.md"
@@ -127,7 +128,6 @@ def validate_all():
                     else:
                         errors.append(msg)
             # Check if indexed
-            norm_root = os.path.normpath(root)
             if norm_root not in indexed_paths:
                 warnings.append(f"[NOT_INDEXED] {rel}/SKILL.md — skill exists but not in index.json")
 

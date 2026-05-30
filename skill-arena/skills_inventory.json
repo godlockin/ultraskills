@@ -12,6 +12,17 @@
     "auxiliary": false
   },
   {
+    "id": "agent-optimizer-loop",
+    "path": "./community/agent-optimizer-loop/SKILL.md",
+    "description": "\"Use when designing or running an autonomous Agent optimization loop — where an Agent iteratively modifies an 'experiment unit', evaluates a metric, and keeps or discards changes. Based on the autoresearch pattern by Karpathy. Trigger when: user wants to auto-optimize prompts, code, configs, or any artifact via repeated Agent experimentation.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "agent-reach",
     "path": "./community/agent-reach/SKILL.md",
     "description": "给 AI Agent 一键装上互联网能力 - 读取网页、搜索 Twitter/YouTube/GitHub、解析小红书/抖音等",

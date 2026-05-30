@@ -266,11 +266,12 @@
     "winner": "multi-agent-patterns",
     "score": 8.8,
     "runner_up": "bdi-mental-states",
-    "total_contestants": 4,
+    "total_contestants": 5,
     "defeated": [
       "bdi-mental-states",
       "dispatching-parallel-agents",
-      "subagent-driven-development"
+      "subagent-driven-development",
+      "agent-optimizer-loop"
     ]
   },
   {
