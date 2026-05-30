@@ -366,6 +366,30 @@ Key routing rules:
 
 ---
 
+## Skill Fallback — 按需加载未部署 Skill
+
+ultraskills 仓库有 826+ skills，但只有一部分部署到 `~/.claude/skills/`。
+**当你需要某个 skill 但它不在已加载列表中时**，执行以下 fallback：
+
+```
+1. 运行: python3 devops/ultraskills-hub/scripts/search.py <关键词>
+2. 取返回结果中 match_score 最高且相关的 skill 的 path 字段
+3. 用 Read 工具读取该 path 下的 SKILL.md
+4. 将读到的 SKILL.md 内容作为当前任务的指导直接执行
+```
+
+**触发条件**（满足任一即触发 fallback）：
+- 用户请求的 skill name 不在 available skills 列表中
+- 用户描述的任务明确需要特定 skill，但你不确定哪个最合适
+- Skill Auto-Discovery 表中的 trigger keyword 命中
+
+**注意**：
+- 不要创建 symlink，直接 Read + 执行即可
+- 搜索结果的 `path` 是 SKILL.md 的绝对路径，直接传给 Read 工具
+- 如果搜索无结果，正常回答即可
+
+---
+
 ## Skill Auto-Discovery
 
 When user request contains trigger keywords but no explicit skill name, auto-search ultraskills-hub first.
