@@ -117,6 +117,57 @@
     ]
   },
   {
+    "id": "misc",
+    "name": "其他未分类",
+    "skill_count": 43,
+    "winner": "llm-model-selector",
+    "skills": [
+      "llm-model-selector",
+      "review",
+      "qa",
+      "exploratory-data-analysis",
+      "design-taste-frontend",
+      "generate-image",
+      "hugging-science",
+      "paper-lookup",
+      "brand-review",
+      "contract-review",
+      "gpt-taste",
+      "image-to-code",
+      "imagegen-frontend-web",
+      "high-end-visual-design",
+      "stitch-design-taste",
+      "design-taste-frontend-v1",
+      "freeze",
+      "markitdown",
+      "matplotlib",
+      "networkx",
+      "sympy",
+      "search",
+      "update",
+      "brandkit",
+      "dhdna-profiler",
+      "open-notebook",
+      "what-if-oracle",
+      "scientific-problem-selection",
+      "draft-content",
+      "skill-builder",
+      "industrial-brutalist-ui",
+      "full-output-enforcement",
+      "redesign-existing-projects",
+      "unfreeze",
+      "pyopenms",
+      "transformers",
+      "start",
+      "debug",
+      "build-zoom-meeting-app",
+      "minimalist-ui",
+      "xhs-apis",
+      "playground",
+      "\"status\""
+    ]
+  },
+  {
     "id": "zoom-integration",
     "name": "平台·Zoom集成",
     "skill_count": 42,
@@ -164,45 +215,6 @@
       "virtual-agent/web",
       "choose-zoom-approach",
       "design-mcp-workflow"
-    ]
-  },
-  {
-    "id": "misc",
-    "name": "其他未分类",
-    "skill_count": 31,
-    "winner": "llm-model-selector",
-    "skills": [
-      "llm-model-selector",
-      "review",
-      "qa",
-      "exploratory-data-analysis",
-      "generate-image",
-      "hugging-science",
-      "paper-lookup",
-      "brand-review",
-      "contract-review",
-      "freeze",
-      "markitdown",
-      "matplotlib",
-      "networkx",
-      "sympy",
-      "search",
-      "update",
-      "dhdna-profiler",
-      "open-notebook",
-      "what-if-oracle",
-      "scientific-problem-selection",
-      "draft-content",
-      "skill-builder",
-      "unfreeze",
-      "pyopenms",
-      "transformers",
-      "start",
-      "debug",
-      "build-zoom-meeting-app",
-      "xhs-apis",
-      "playground",
-      "\"status\""
     ]
   },
   {
@@ -311,10 +323,10 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "legacy-modernizer",
-          "spec-miner",
-          "sre-engineer",
           "monitoring-expert",
+          "sre-engineer",
+          "spec-miner",
+          "legacy-modernizer",
           "feature-forge"
         ]
       },
@@ -322,36 +334,36 @@
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "sql-pro",
+        "winner": "database-optimizer",
         "skills": [
-          "sql-pro",
+          "database-optimizer",
           "postgres-pro",
           "spark-engineer",
-          "pandas-pro",
-          "database-optimizer"
+          "sql-pro",
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "chaos-engineer",
+        "winner": "cli-developer",
         "skills": [
-          "chaos-engineer",
-          "websocket-engineer",
+          "cli-developer",
           "embedded-systems",
+          "chaos-engineer",
           "mcp-developer",
-          "cli-developer"
+          "websocket-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
@@ -484,14 +496,14 @@
         "winner": "baoyu-post-to-wechat",
         "skills": [
           "baoyu-post-to-wechat",
-          "baoyu-format-markdown",
-          "baoyu-danger-x-to-markdown",
           "baoyu-translate",
+          "baoyu-danger-x-to-markdown",
+          "baoyu-format-markdown",
           "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
           "baoyu-youtube-transcript",
-          "baoyu-post-to-x",
-          "baoyu-post-to-weibo"
+          "baoyu-post-to-weibo",
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -503,9 +515,9 @@
           "baoyu-xhs-images",
           "x-mastery-mentor",
           "huashu-xhs-image",
+          "khazix-writer",
           "social-content",
           "huashu-wechat-image",
-          "khazix-writer",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -569,8 +581,8 @@
         "skills": [
           "skill-creator",
           "skill-manager",
-          "skill-sync-manager",
           "\"github-skill-scout\"",
+          "skill-sync-manager",
           "skill-evolution-manager"
         ]
       },
@@ -593,11 +605,11 @@
         "winner": "plugin-structure",
         "skills": [
           "plugin-structure",
-          "plugin-settings",
           "command-development",
+          "plugin-settings",
           "hook-development",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -695,14 +707,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-image-cards",
+        "winner": "baoyu-cover-image",
         "skills": [
-          "baoyu-image-cards",
           "baoyu-cover-image",
-          "baoyu-imagine",
-          "baoyu-article-illustrator",
+          "baoyu-comic",
           "baoyu-infographic",
-          "baoyu-comic"
+          "baoyu-image-cards",
+          "baoyu-article-illustrator",
+          "baoyu-imagine"
         ]
       },
       {
@@ -714,9 +726,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-reviewer",
           "image-analyzer",
-          "image-auditor"
+          "image-auditor",
+          "image-reviewer"
         ]
       },
       {
@@ -997,8 +1009,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "executing-plans",
-          "writing-plans"
+          "writing-plans",
+          "executing-plans"
         ]
       },
       {
@@ -1011,8 +1023,8 @@
           "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-ar",
-          "planning-with-files-de",
-          "planning-with-files-es"
+          "planning-with-files-es",
+          "planning-with-files-de"
         ]
       },
       {
@@ -1178,8 +1190,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "zoom-mcp/whiteboard",
           "build-dashboard",
+          "zoom-mcp/whiteboard",
           "onboarding"
         ]
       },
@@ -1313,6 +1325,22 @@
     ]
   },
   {
+    "id": "engineering-mobile",
+    "name": "工程·移动",
+    "skill_count": 8,
+    "winner": "awesome-android-ui",
+    "skills": [
+      "awesome-android-ui",
+      "zoom-meeting-sdk-react-native",
+      "zoom-video-sdk-react-native",
+      "imagegen-frontend-mobile",
+      "flutter-expert",
+      "kotlin-specialist",
+      "react-native-expert",
+      "swift-expert"
+    ]
+  },
+  {
     "id": "engineering-debug",
     "name": "工程·调试",
     "skill_count": 7,
@@ -1325,21 +1353,6 @@
       "guard",
       "fullstack-guardian",
       "secure-code-guardian"
-    ]
-  },
-  {
-    "id": "engineering-mobile",
-    "name": "工程·移动",
-    "skill_count": 7,
-    "winner": "awesome-android-ui",
-    "skills": [
-      "awesome-android-ui",
-      "zoom-meeting-sdk-react-native",
-      "zoom-video-sdk-react-native",
-      "flutter-expert",
-      "kotlin-specialist",
-      "react-native-expert",
-      "swift-expert"
     ]
   },
   {

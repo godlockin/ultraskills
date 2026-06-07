@@ -236,13 +236,13 @@
     "winner": "llm-model-selector",
     "score": 9.0,
     "runner_up": "review",
-    "total_contestants": 31,
+    "total_contestants": 43,
     "defeated": [
       "review",
       "qa",
       "exploratory-data-analysis",
-      "generate-image",
-      "hugging-science"
+      "design-taste-frontend",
+      "generate-image"
     ]
   },
   {
@@ -528,13 +528,13 @@
     "winner": "awesome-android-ui",
     "score": 8.5,
     "runner_up": "zoom-meeting-sdk-react-native",
-    "total_contestants": 7,
+    "total_contestants": 8,
     "defeated": [
       "zoom-meeting-sdk-react-native",
       "zoom-video-sdk-react-native",
+      "imagegen-frontend-mobile",
       "flutter-expert",
-      "kotlin-specialist",
-      "react-native-expert"
+      "kotlin-specialist"
     ]
   },
   {

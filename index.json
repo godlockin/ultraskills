@@ -4,7 +4,7 @@
     "updated_at": "2026-06-07",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-06-07",
-    "total_skills": 826,
+    "total_skills": 839,
     "total_clusters": 75,
     "avg_arena_score": 7.44,
     "total_winners": 75
@@ -205,6 +205,21 @@
       ]
     },
     {
+      "id": "misc",
+      "name": "其他未分类",
+      "skill_count": 43,
+      "winner": "llm-model-selector",
+      "winner_score": null,
+      "description": "暂未归类的技能",
+      "triggers": [],
+      "suitable_for": [
+        "需要进一步分类的技能"
+      ],
+      "not_suitable_for": [],
+      "parent": null,
+      "related": []
+    },
+    {
       "id": "zoom-integration",
       "name": "平台·Zoom集成",
       "skill_count": 42,
@@ -228,21 +243,6 @@
         "partner-integration",
         "engineering-fullstack"
       ]
-    },
-    {
-      "id": "misc",
-      "name": "其他未分类",
-      "skill_count": 31,
-      "winner": "llm-model-selector",
-      "winner_score": null,
-      "description": "暂未归类的技能",
-      "triggers": [],
-      "suitable_for": [
-        "需要进一步分类的技能"
-      ],
-      "not_suitable_for": [],
-      "parent": null,
-      "related": []
     },
     {
       "id": "small-business-ops",
@@ -1280,6 +1280,37 @@
       ]
     },
     {
+      "id": "engineering-mobile",
+      "name": "工程·移动",
+      "skill_count": 8,
+      "winner": "awesome-android-ui",
+      "winner_score": null,
+      "description": "移动端开发：React Native/Flutter/原生",
+      "triggers": [
+        "移动",
+        "mobile",
+        "iOS",
+        "Android",
+        "React Native",
+        "Flutter",
+        "App"
+      ],
+      "suitable_for": [
+        "移动应用开发",
+        "跨平台方案",
+        "原生开发"
+      ],
+      "not_suitable_for": [
+        "Web开发",
+        "后端服务"
+      ],
+      "parent": "engineering",
+      "related": [
+        "engineering-framework",
+        "engineering-fullstack"
+      ]
+    },
+    {
       "id": "engineering-debug",
       "name": "工程·调试",
       "skill_count": 7,
@@ -1307,37 +1338,6 @@
       "related": [
         "engineering-code",
         "engineering-testing"
-      ]
-    },
-    {
-      "id": "engineering-mobile",
-      "name": "工程·移动",
-      "skill_count": 7,
-      "winner": "awesome-android-ui",
-      "winner_score": null,
-      "description": "移动端开发：React Native/Flutter/原生",
-      "triggers": [
-        "移动",
-        "mobile",
-        "iOS",
-        "Android",
-        "React Native",
-        "Flutter",
-        "App"
-      ],
-      "suitable_for": [
-        "移动应用开发",
-        "跨平台方案",
-        "原生开发"
-      ],
-      "not_suitable_for": [
-        "Web开发",
-        "后端服务"
-      ],
-      "parent": "engineering",
-      "related": [
-        "engineering-framework",
-        "engineering-fullstack"
       ]
     },
     {
@@ -12119,6 +12119,27 @@
       }
     },
     {
+      "id": "imagegen-frontend-mobile",
+      "name": "imagegen-frontend-mobile",
+      "path": "./external/taste-skill/skills/imagegen-frontend-mobile/SKILL.md",
+      "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "engineering-mobile",
+        "cluster_name": "工程·移动",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 4,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
       "id": "flutter-expert",
       "name": "flutter-expert",
       "path": "./external/fullstack-dev-skills/skills/flutter-expert/SKILL.md",
@@ -12134,7 +12155,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 4,
+        "rank": 5,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -12155,7 +12176,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -12176,7 +12197,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -12197,7 +12218,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14121,6 +14142,27 @@
       }
     },
     {
+      "id": "design-taste-frontend",
+      "name": "design-taste-frontend",
+      "path": "./external/taste-skill/skills/taste-skill/SKILL.md",
+      "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.8,
+        "doc_quality": 10,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 5,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
       "id": "generate-image",
       "name": "generate-image",
       "path": "./external/claude-scientific-skills/scientific-skills/generate-image/SKILL.md",
@@ -14136,7 +14178,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14157,7 +14199,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14178,7 +14220,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14199,7 +14241,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14220,7 +14262,133 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "gpt-taste",
+      "name": "gpt-taste",
+      "path": "./external/taste-skill/skills/gpt-tasteskill/SKILL.md",
+      "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 11,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "image-to-code",
+      "name": "image-to-code",
+      "path": "./external/taste-skill/skills/image-to-code-skill/SKILL.md",
+      "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 12,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "imagegen-frontend-web",
+      "name": "imagegen-frontend-web",
+      "path": "./external/taste-skill/skills/imagegen-frontend-web/SKILL.md",
+      "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 13,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "high-end-visual-design",
+      "name": "high-end-visual-design",
+      "path": "./external/taste-skill/skills/soft-skill/SKILL.md",
+      "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 14,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "stitch-design-taste",
+      "name": "stitch-design-taste",
+      "path": "./external/taste-skill/skills/stitch-skill/SKILL.md",
+      "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 15,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "design-taste-frontend-v1",
+      "name": "design-taste-frontend-v1",
+      "path": "./external/taste-skill/skills/taste-skill-v1/SKILL.md",
+      "description": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 16,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14241,7 +14409,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 17,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       },
@@ -14263,7 +14431,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 11,
+        "rank": 18,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14284,7 +14452,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 12,
+        "rank": 19,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14305,7 +14473,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 20,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14326,7 +14494,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 21,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14347,7 +14515,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 22,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14368,7 +14536,28 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 23,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "brandkit",
+      "name": "brandkit",
+      "path": "./external/taste-skill/skills/brandkit/SKILL.md",
+      "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.0,
+        "doc_quality": 9,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 24,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14389,7 +14578,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 25,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14410,7 +14599,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 26,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14431,7 +14620,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 27,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14452,7 +14641,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 28,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14473,7 +14662,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 29,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14494,7 +14683,70 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 30,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "industrial-brutalist-ui",
+      "name": "industrial-brutalist-ui",
+      "path": "./external/taste-skill/skills/brutalist-skill/SKILL.md",
+      "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.8,
+        "doc_quality": 8,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 31,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "full-output-enforcement",
+      "name": "full-output-enforcement",
+      "path": "./external/taste-skill/skills/output-skill/SKILL.md",
+      "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.8,
+        "doc_quality": 8,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 32,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "redesign-existing-projects",
+      "name": "redesign-existing-projects",
+      "path": "./external/taste-skill/skills/redesign-skill/SKILL.md",
+      "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.8,
+        "doc_quality": 8,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 33,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14515,7 +14767,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 23,
+        "rank": 34,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       },
@@ -14537,7 +14789,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 35,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14558,7 +14810,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 36,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14579,7 +14831,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 37,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14600,7 +14852,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 38,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14621,7 +14873,28 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 39,
+        "test_date": "2026-06-07",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "minimalist-ui",
+      "name": "minimalist-ui",
+      "path": "./external/taste-skill/skills/minimalist-skill/SKILL.md",
+      "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+      "tags": [
+        "taste"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.3,
+        "doc_quality": 7,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 40,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14642,7 +14915,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 41,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14663,7 +14936,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 30,
+        "rank": 42,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }
@@ -14684,7 +14957,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 43,
         "test_date": "2026-06-07",
         "test_version": "1.0.0"
       }

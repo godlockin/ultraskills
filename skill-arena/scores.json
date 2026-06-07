@@ -3663,6 +3663,17 @@
     "total": 7.8
   },
   {
+    "id": "design-taste-frontend",
+    "path": "./external/taste-skill/skills/taste-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
     "id": "xhs-publish",
     "path": "./external/xiaohongshu-skills/skills/xhs-publish/SKILL.md",
     "cluster": "social-media-cn",
@@ -5588,6 +5599,83 @@
     "total": 7.3
   },
   {
+    "id": "gpt-taste",
+    "path": "./external/taste-skill/skills/gpt-tasteskill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "image-to-code",
+    "path": "./external/taste-skill/skills/image-to-code-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "imagegen-frontend-mobile",
+    "path": "./external/taste-skill/skills/imagegen-frontend-mobile/SKILL.md",
+    "cluster": "engineering-mobile",
+    "cluster_name": "工程·移动",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "imagegen-frontend-web",
+    "path": "./external/taste-skill/skills/imagegen-frontend-web/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "high-end-visual-design",
+    "path": "./external/taste-skill/skills/soft-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "stitch-design-taste",
+    "path": "./external/taste-skill/skills/stitch-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "design-taste-frontend-v1",
+    "path": "./external/taste-skill/skills/taste-skill-v1/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "git-commit-master",
     "path": "./community/git-commit-master/SKILL.md",
     "cluster": "engineering-git",
@@ -6351,6 +6439,17 @@
     "path": "./external/marketingskills/skills/revops/SKILL.md",
     "cluster": "business-clevel",
     "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "brandkit",
+    "path": "./external/taste-skill/skills/brandkit/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 5,
@@ -7350,6 +7449,39 @@
   {
     "id": "skill-builder",
     "path": "./external/skill-seekers/distribution/claude-plugin/skills/skill-builder/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "industrial-brutalist-ui",
+    "path": "./external/taste-skill/skills/brutalist-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "full-output-enforcement",
+    "path": "./external/taste-skill/skills/output-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "redesign-existing-projects",
+    "path": "./external/taste-skill/skills/redesign-skill/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -8650,6 +8782,17 @@
     "path": "./external/knowledge-work-plugins/small-business/skills/run-campaign/SKILL.md",
     "cluster": "small-business-ops",
     "cluster_name": "商业·小微企业",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "minimalist-ui",
+    "path": "./external/taste-skill/skills/minimalist-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 6,
