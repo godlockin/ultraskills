@@ -236,7 +236,7 @@
     "winner": "llm-model-selector",
     "score": 9.0,
     "runner_up": "review",
-    "total_contestants": 43,
+    "total_contestants": 42,
     "defeated": [
       "review",
       "qa",

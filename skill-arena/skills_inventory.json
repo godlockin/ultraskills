@@ -10015,17 +10015,6 @@
     "auxiliary": false
   },
   {
-    "id": "xhs-apis",
-    "path": "./external/xhs-skills/skills/xhs-apis/SKILL.md",
-    "description": "Use this skill when you need to call the vendored Xiaohongshu/XHS APIs from Spider_XHS for PC web data or creator-platform publishing data. This skill only wraps the APIs in xhs_pc_apis.py and xhs_creator_apis.py, including note, user, search, comment, topic, location, media upload, note publishing, and creator published-note queries.",
-    "tags": [
-      "xhs"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "xiaohongshu-skills",
     "path": "./external/xiaohongshu-skills/SKILL.md",
     "description": "小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。\n当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。",

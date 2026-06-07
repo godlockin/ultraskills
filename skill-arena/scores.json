@@ -8800,17 +8800,6 @@
     "total": 6.3
   },
   {
-    "id": "xhs-apis",
-    "path": "./external/xhs-skills/skills/xhs-apis/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.3
-  },
-  {
     "id": "xhs-auth",
     "path": "./external/xiaohongshu-skills/skills/xhs-auth/SKILL.md",
     "cluster": "social-media-cn",

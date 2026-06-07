@@ -73,9 +73,6 @@
 [submodule "external/knowledge-work-plugins"]
 	path = external/knowledge-work-plugins
 	url = https://github.com/anthropics/knowledge-work-plugins.git
-[submodule "external/xhs-skills"]
-	path = external/xhs-skills
-	url = https://github.com/cv-cat/XhsSkills.git
 [submodule "external/taste-skill"]
 	path = external/taste-skill
 	url = https://github.com/Leonxlnx/taste-skill.git
