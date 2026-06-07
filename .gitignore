@@ -54,3 +54,7 @@ auth/
 
 # Pipeline lock
 .pipeline.lock
+
+# Test outputs
+antibot_test_results.json
+test_antibot_*.json

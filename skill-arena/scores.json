@@ -1034,6 +1034,17 @@
     "total": 8.7
   },
   {
+    "id": "agent-optimizer-loop",
+    "path": "./community/agent-optimizer-loop/SKILL.md",
+    "cluster": "agent-arch",
+    "cluster_name": "Agent·架构",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "awesome-android-ui",
     "path": "./community/awesome-android-ui/SKILL.md",
     "cluster": "engineering-mobile",
@@ -1203,17 +1214,6 @@
     "path": "./community/mac-whisper/SKILL.md",
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
-    "id": "quark-pan-downloader",
-    "path": "./community/quark-pan-downloader/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 9,
@@ -6345,17 +6345,6 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 7.0
-  },
-  {
-    "id": "agent-optimizer-loop",
-    "path": "./community/agent-optimizer-loop/SKILL.md",
-    "cluster": "agent-arch",
-    "cluster_name": "Agent·架构",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
   },
   {
     "id": "\"gemini-image-optimizer\"",

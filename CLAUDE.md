@@ -110,6 +110,7 @@ ultraskills/
 │   │       ├── create_github_skill.py
 │   │       └── fetch_github_info.py
 │   ├── bfg-repo-cleaner/            # Git 仓库清理
+│   ├── codegraph-booster/           # 代码图谱加速器 — MCP Server 自动部署,项目≥500文件时初始化CodeGraph
 │   └── pua/ pua-en/ pua-ja/         # PUA 系列 skills
 │
 ├── meta/                            # Meta-skills (find-skills 等)
@@ -284,6 +285,7 @@ node bin/ultraskills.js install <skill>
 | `scripts/arena_build_index.py` | 竞技场 Step3: 重建 index.json |
 | `devops/ultraskills-hub/scripts/search.py` | Hub 搜索引擎 |
 | `devops/skill-manager/scripts/scan_and_check.py` | 结构合规校验 |
+| `devops/codegraph-booster/scripts/setup.sh` | CodeGraph MCP 自动部署 + 索引初始化 |
 | `devops/skill-arena/run.sh` | Arena 测试框架启动器 |
 
 ---

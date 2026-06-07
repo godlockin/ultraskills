@@ -94,13 +94,13 @@
     "winner": "playwright-media-sniffer",
     "score": 9.5,
     "runner_up": "open-gstack-browser",
-    "total_contestants": 15,
+    "total_contestants": 14,
     "defeated": [
       "open-gstack-browser",
       "gstack-openclaw-retro",
-      "quark-pan-downloader",
       "gstack-upgrade",
-      "gstack-openclaw-ceo-review"
+      "gstack-openclaw-ceo-review",
+      "cloakbrowser"
     ]
   },
   {
@@ -269,9 +269,9 @@
     "total_contestants": 5,
     "defeated": [
       "bdi-mental-states",
+      "agent-optimizer-loop",
       "dispatching-parallel-agents",
-      "subagent-driven-development",
-      "agent-optimizer-loop"
+      "subagent-driven-development"
     ]
   },
   {

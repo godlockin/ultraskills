@@ -16,9 +16,14 @@
     "path": "./community/agent-optimizer-loop/SKILL.md",
     "description": "\"Use when designing or running an autonomous Agent optimization loop — where an Agent iteratively modifies an 'experiment unit', evaluates a metric, and keeps or discards changes. Based on the autoresearch pattern by Karpathy. Trigger when: user wants to auto-optimize prompts, code, configs, or any artifact via repeated Agent experimentation.\"",
     "tags": [
+      "agent",
+      "optimization",
+      "autonomous",
+      "loop",
+      "experiment",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1796,23 +1801,6 @@
       "community"
     ],
     "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "quark-pan-downloader",
-    "path": "./community/quark-pan-downloader/SKILL.md",
-    "description": "夸克网盘一键下载 - 直接使用系统 Chrome cookie，无需启动新浏览器，用户仅需登录+链接+目录三步即可完成转存和下载",
-    "tags": [
-      "quark",
-      "netdisk",
-      "download",
-      "chrome-cookies",
-      "browser-cookie3",
-      "one-click",
-      "community"
-    ],
-    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
