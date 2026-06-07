@@ -231,6 +231,21 @@
     ]
   },
   {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "llm-model-selector",
+    "score": 9.0,
+    "runner_up": "review",
+    "total_contestants": 31,
+    "defeated": [
+      "review",
+      "qa",
+      "exploratory-data-analysis",
+      "generate-image",
+      "hugging-science"
+    ]
+  },
+  {
     "cluster": "sales-marketing",
     "cluster_name": "商业·销售增长",
     "winner": "objection-handler",
@@ -520,21 +535,6 @@
       "flutter-expert",
       "kotlin-specialist",
       "react-native-expert"
-    ]
-  },
-  {
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "winner": "review",
-    "score": 8.5,
-    "runner_up": "qa",
-    "total_contestants": 30,
-    "defeated": [
-      "qa",
-      "exploratory-data-analysis",
-      "generate-image",
-      "hugging-science",
-      "paper-lookup"
     ]
   },
   {

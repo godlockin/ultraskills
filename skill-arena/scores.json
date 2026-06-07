@@ -396,6 +396,17 @@
     "total": 9.0
   },
   {
+    "id": "llm-model-selector",
+    "path": "./engineering/llm-model-selector/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "3-statement-model",
     "path": "./external/anthropic-financial-services/3-statement-model/SKILL.md",
     "cluster": "business-finance",
@@ -1181,7 +1192,7 @@
     "path": "./community/gstack/review/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 7,
     "maintainability": 7,

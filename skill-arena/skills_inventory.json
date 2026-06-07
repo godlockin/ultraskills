@@ -2646,6 +2646,22 @@
     "auxiliary": false
   },
   {
+    "id": "llm-model-selector",
+    "path": "./engineering/llm-model-selector/SKILL.md",
+    "description": "根据任务类型/上下文/成本/延迟/隐私 5 维度推荐 LLM provider + model，输出 top-3 + fallback 链。Triggers: \"选个模型\", \"推荐 LLM\", \"用 GPT 还是 Claude\", \"哪个 model 适合 X 任务\", \"用哪个 model 跑这个 agent\", \"ultraskills arena 用哪个\"",
+    "tags": [
+      "llm",
+      "model-selection",
+      "provider",
+      "api",
+      "ranking",
+      "engineering"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "3-statement-model",
     "path": "./external/anthropic-financial-services/3-statement-model/SKILL.md",
     "description": "Complete, populate and fill out 3-statement financial model templates (Income Statement, Balance Sheet, Cash Flow Statement) . Use when asked to fill out model templates, complete existing model frameworks, populate financial models with data, complete a partially filled IS/BS/CF framework, or link integrated financial statements within an existing template structure. Triggers include requests to fill in, complete, or populate a 3-statement model template",
