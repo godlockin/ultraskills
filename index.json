@@ -13865,8 +13865,12 @@
       "id": "mac-whisper",
       "name": "mac-whisper",
       "path": "./community/mac-whisper/SKILL.md",
-      "description": "在 Apple Silicon Mac (M1/M2/M3/M4) 本地跑 SOTA 语音转文字（Whisper large-v3-turbo via MLX）。用于将音频/视频转成文本/SRT/VTT/JSON。10-20× 实时速度，99 语言（含中英文），完全离线。Trigger on 语音转文字 / transcribe / audio to text / SRT / 字幕生成 / speech-to-text / ASR / 听写。",
+      "description": "本地语音转文字(Whisper)。自动选 backend: mlx-whisper (M 系列最快,需原生 arm64) → faster-whisper (跨平台,x86_64/Linux/老 Mac 兜底) → whisper.cpp (低内存离线)。输出 txt/srt/vtt/json。CLI 支持 --backend/--compute-type/--model/--lang/--prompt。Trigger on 语音转文字 / transcribe / audio to text / SRT / 字幕生成 / speech-to-text / ASR / 听写。",
       "tags": [
+        "faster-whisper",
+        "cross-platform",
+        "whisper-cpp",
+        "mlx-whisper",
         "asr",
         "speech-to-text",
         "whisper",
@@ -13881,16 +13885,16 @@
       "arena": {
         "cluster": "media-audio",
         "cluster_name": "媒体·语音音频",
-        "score": 8.5,
-        "doc_quality": 8,
+        "score": 8.8,
+        "doc_quality": 9,
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
         "rank": 3,
-        "test_date": "2026-06-07",
-        "test_version": "1.0.0"
+        "test_date": "2026-06-12",
+        "test_version": "1.1.0"
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "audio-clean",
