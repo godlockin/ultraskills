@@ -76,3 +76,6 @@
 [submodule "external/taste-skill"]
 	path = external/taste-skill
 	url = https://github.com/Leonxlnx/taste-skill.git
+[submodule "external/impeccable"]
+	path = external/impeccable
+	url = https://github.com/pbakaus/impeccable.git

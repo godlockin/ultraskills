@@ -236,13 +236,13 @@
     "winner": "llm-model-selector",
     "score": 9.0,
     "runner_up": "review",
-    "total_contestants": 42,
+    "total_contestants": 43,
     "defeated": [
       "review",
       "qa",
       "exploratory-data-analysis",
       "design-taste-frontend",
-      "generate-image"
+      "impeccable"
     ]
   },
   {
