@@ -8800,6 +8800,17 @@
     "total": 6.3
   },
   {
+    "id": "skillopt-sleep",
+    "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
     "id": "minimalist-ui",
     "path": "./external/taste-skill/skills/minimalist-skill/SKILL.md",
     "cluster": "misc",
