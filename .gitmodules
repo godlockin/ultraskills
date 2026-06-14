@@ -79,3 +79,6 @@
 [submodule "external/impeccable"]
 	path = external/impeccable
 	url = https://github.com/pbakaus/impeccable.git
+[submodule "external/microsoft-skillopt"]
+	path = external/microsoft-skillopt
+	url = https://github.com/microsoft/SkillOpt.git
