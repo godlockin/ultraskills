@@ -5610,6 +5610,28 @@
     "total": 7.3
   },
   {
+    "id": "code-explainer",
+    "path": "./external/microsoft-waza/examples/code-explainer/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "waza-runner",
+    "path": "./external/microsoft-waza/waza-runner/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "gpt-taste",
     "path": "./external/taste-skill/skills/gpt-tasteskill/SKILL.md",
     "cluster": "misc",
@@ -6450,6 +6472,17 @@
     "path": "./external/marketingskills/skills/revops/SKILL.md",
     "cluster": "business-clevel",
     "cluster_name": "商业·高管顾问",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "waza",
+    "path": "./external/microsoft-waza/skills/waza/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 5,
@@ -7451,6 +7484,17 @@
     "path": "./external/marketingskills/skills/paywall-upgrade-cro/SKILL.md",
     "cluster": "marketing-cro",
     "cluster_name": "营销·转化率优化",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "waza-interactive",
+    "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 6,
@@ -8811,6 +8855,28 @@
     "total": 6.3
   },
   {
+    "id": "pdf-processor",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "profile-test-skill",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/profile/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
     "id": "minimalist-ui",
     "path": "./external/taste-skill/skills/minimalist-skill/SKILL.md",
     "cluster": "misc",
@@ -9229,6 +9295,39 @@
     "total": 5.3
   },
   {
+    "id": "all-pass",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/all-pass/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
+    "id": "some-exceed",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/some-exceed/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
+    "id": "count",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/count/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
     "id": "huashu-info-search",
     "path": "./external/huashu-skills/huashu-info-search/SKILL.md",
     "cluster": "education",
@@ -9238,5 +9337,49 @@
     "func_clarity": 6,
     "maintainability": 5,
     "total": 4.8
+  },
+  {
+    "id": "no-frontmatter",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/no-frontmatter/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 2,
+    "total": 3.2
+  },
+  {
+    "id": "legacy-json-only",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/legacy-json-only/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 6,
+    "maintainability": 2,
+    "total": 3.2
+  },
+  {
+    "id": "my-tool",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/minimal/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 2.5
+  },
+  {
+    "id": "no-config",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/no-config/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 0,
+    "func_clarity": 5,
+    "maintainability": 2,
+    "total": 1.9
   }
 ]

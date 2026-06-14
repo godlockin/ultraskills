@@ -1,1 +1,34 @@
-{}
+{
+  "my-tool": {
+    "consecutive_low": 1,
+    "scores": [
+      2.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "no-frontmatter": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "no-config": {
+    "consecutive_low": 1,
+    "scores": [
+      1.9
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "legacy-json-only": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  }
+}

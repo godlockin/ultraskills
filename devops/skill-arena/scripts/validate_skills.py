@@ -98,7 +98,7 @@ def validate_all():
     scanned = 0
     for root, dirs, files in os.walk(REPO_ROOT):
         # skip hidden dirs and node_modules
-        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "node_modules"]
+        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "node_modules" and d != "testdata"]
         if "SKILL.md" in files:
             skill_path = os.path.join(root, "SKILL.md")
             scanned += 1

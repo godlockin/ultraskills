@@ -4,9 +4,9 @@
     "updated_at": "2026-06-14",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-06-14",
-    "total_skills": 840,
+    "total_skills": 853,
     "total_clusters": 75,
-    "avg_arena_score": 7.44,
+    "avg_arena_score": 7.4,
     "total_winners": 75
   },
   "hierarchy": {
@@ -163,6 +163,21 @@
       ]
     },
     {
+      "id": "misc",
+      "name": "其他未分类",
+      "skill_count": 56,
+      "winner": "llm-model-selector",
+      "winner_score": null,
+      "description": "暂未归类的技能",
+      "triggers": [],
+      "suitable_for": [
+        "需要进一步分类的技能"
+      ],
+      "not_suitable_for": [],
+      "parent": null,
+      "related": []
+    },
+    {
       "id": "scientific-bioinformatics",
       "name": "科学·生物信息学",
       "skill_count": 45,
@@ -203,21 +218,6 @@
         "medical-clinical",
         "scientific-databases"
       ]
-    },
-    {
-      "id": "misc",
-      "name": "其他未分类",
-      "skill_count": 44,
-      "winner": "llm-model-selector",
-      "winner_score": null,
-      "description": "暂未归类的技能",
-      "triggers": [],
-      "suitable_for": [
-        "需要进一步分类的技能"
-      ],
-      "not_suitable_for": [],
-      "parent": null,
-      "related": []
     },
     {
       "id": "zoom-integration",
@@ -466,35 +466,9 @@
       ]
     },
     {
-      "id": "agent-agenthub",
-      "name": "Agent·AgentHub协作",
-      "skill_count": 17,
-      "winner": "dbs-goal",
-      "winner_score": null,
-      "description": "AgentHub工作流、DBS系列、聊天室",
-      "triggers": [
-        "agenthub",
-        "DBS",
-        "协作",
-        "chatroom"
-      ],
-      "suitable_for": [
-        "多Agent协作",
-        "DBS工具链"
-      ],
-      "not_suitable_for": [
-        "单Agent任务"
-      ],
-      "parent": "agent",
-      "related": [
-        "agent-arch",
-        "agent-workflow"
-      ]
-    },
-    {
       "id": "content-doc",
       "name": "内容·文档生成",
-      "skill_count": 17,
+      "skill_count": 18,
       "winner": "magazine-web-ppt",
       "winner_score": null,
       "description": "PDF/DOCX/PPT生成、Markdown转换",
@@ -518,6 +492,32 @@
       "related": [
         "content-presentation",
         "content-writing"
+      ]
+    },
+    {
+      "id": "agent-agenthub",
+      "name": "Agent·AgentHub协作",
+      "skill_count": 17,
+      "winner": "dbs-goal",
+      "winner_score": null,
+      "description": "AgentHub工作流、DBS系列、聊天室",
+      "triggers": [
+        "agenthub",
+        "DBS",
+        "协作",
+        "chatroom"
+      ],
+      "suitable_for": [
+        "多Agent协作",
+        "DBS工具链"
+      ],
+      "not_suitable_for": [
+        "单Agent任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "agent-workflow"
       ]
     },
     {
@@ -6577,6 +6577,27 @@
         "maintainability": 5,
         "is_winner": false,
         "rank": 17,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "pdf-processor",
+      "name": "pdf-processor",
+      "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
+      "description": "**WORKFLOW SKILL** - Process PDF files including text extraction, rotation, and merging.\nUSE FOR: \"extract PDF text\", \"rotate PDF\", \"merge PDFs\", \"split PDF pages\", \"convert PDF to text\".\nDO NOT USE FOR: creating PDFs from scratch (use document-creator), editing PDF forms (use form-filler).\nINVOKES: pdf-tools MCP for extraction, file-system for I/O.\nFOR SINGLE OPERATIONS: Use pdf-tools MCP directly for simple extractions.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "content-doc",
+        "cluster_name": "内容·文档生成",
+        "score": 6.3,
+        "doc_quality": 7,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 18,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14290,6 +14311,48 @@
       }
     },
     {
+      "id": "code-explainer",
+      "name": "code-explainer",
+      "path": "./external/microsoft-waza/examples/code-explainer/SKILL.md",
+      "description": "**UTILITY SKILL** - Explain code snippets, functions, and algorithms in plain language.\nUSE FOR: explain code, what does this code do, break down this function,\nhelp me understand this, walk through this algorithm, clarify this logic,\nexplain this snippet, describe what happens here.\nDO NOT USE FOR: writing new code (use code generation), fixing bugs (use debugging),\nrefactoring (use refactoring skills), code review with action items.\nINVOKES: file reading tools to access code, language detection for tailored explanations.\nFOR SINGLE OPERATIONS: If the user just needs to see file contents, use file reading tools directly.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 12,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "waza-runner",
+      "name": "waza-runner",
+      "path": "./external/microsoft-waza/waza-runner/SKILL.md",
+      "description": "Run evaluations on Agent Skills to measure their effectiveness.\nUSE FOR: \"run skill evals\", \"evaluate my skill\", \"test skill quality\",\n\"check skill triggers\", \"skill compliance check\", \"measure skill performance\",\n\"run evals on [skill-name]\", \"grade skill execution\".\nDO NOT USE FOR: writing skills (use skill-authoring), improving frontmatter\n(use sensei), or general testing unrelated to skills.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.3,
+        "doc_quality": 9,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 13,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
       "id": "gpt-taste",
       "name": "gpt-taste",
       "path": "./external/taste-skill/skills/gpt-tasteskill/SKILL.md",
@@ -14305,7 +14368,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 12,
+        "rank": 14,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14326,7 +14389,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 15,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14347,7 +14410,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 16,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14368,7 +14431,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 17,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14389,7 +14452,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 18,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14410,7 +14473,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 19,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14431,7 +14494,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 18,
+        "rank": 20,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       },
@@ -14453,7 +14516,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 21,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14474,7 +14537,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 22,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14495,7 +14558,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 23,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14516,7 +14579,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 24,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14537,7 +14600,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 25,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14558,7 +14621,28 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 26,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "waza",
+      "name": "waza",
+      "path": "./external/microsoft-waza/skills/waza/SKILL.md",
+      "description": "\"**WORKFLOW SKILL** - Evaluate AI agent skills using structured benchmarks with YAML specs, fixture isolation, and pluggable validators. USE FOR: run waza, waza help, run eval, run benchmark, evaluate skill, test agent, generate eval suite, init eval, compare results, score agent, agent evaluation, skill testing, cross-model comparison. DO NOT USE FOR: improving skill frontmatter (use waza dev), creating new skills from scratch (use skill-creator), token counting or budget checks (use waza tokens). INVOKES: Copilot SDK executor, mock engine, code/regex validators. FOR SINGLE OPERATIONS: use waza run directly for a single benchmark.\"",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 7.0,
+        "doc_quality": 9,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 27,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14579,7 +14663,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 28,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14600,7 +14684,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 29,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14621,7 +14705,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 30,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14642,7 +14726,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 31,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14663,7 +14747,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 32,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14684,7 +14768,28 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 30,
+        "rank": 33,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "waza-interactive",
+      "name": "waza-interactive",
+      "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
+      "description": "\"Interactive workflow partner for creating, testing, and improving AI agent skills with waza. USE FOR: run my evals, check my skill, compare models, create eval suite, debug failing tests, is my skill ready, ship readiness, interpret results, improve score. DO NOT USE FOR: general coding, non-skill work, writing skill content (use skill-authoring), improving frontmatter only (use sensei).\"",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.8,
+        "doc_quality": 8,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 34,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14705,7 +14810,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 35,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14726,7 +14831,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 32,
+        "rank": 36,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14747,7 +14852,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 33,
+        "rank": 37,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14768,7 +14873,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 34,
+        "rank": 38,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14789,7 +14894,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 35,
+        "rank": 39,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       },
@@ -14811,7 +14916,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 36,
+        "rank": 40,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14832,7 +14937,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 37,
+        "rank": 41,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14853,7 +14958,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 38,
+        "rank": 42,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14874,7 +14979,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 39,
+        "rank": 43,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14895,7 +15000,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 40,
+        "rank": 44,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14916,7 +15021,28 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 41,
+        "rank": 45,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "profile-test-skill",
+      "name": "profile-test-skill",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/profile/SKILL.md",
+      "description": "**PROFILE TEST** - A skill for testing the profile command.\nUSE FOR: testing profile analysis, verifying structural metrics.\nDO NOT USE FOR: production use.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 6.3,
+        "doc_quality": 7,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 46,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14937,7 +15063,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 42,
+        "rank": 47,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14958,7 +15084,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 43,
+        "rank": 48,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }
@@ -14979,7 +15105,154 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 44,
+        "rank": 49,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "all-pass",
+      "name": "all-pass",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/all-pass/SKILL.md",
+      "description": "A demonstration skill used for testing the waza tokens command suite.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.3,
+        "doc_quality": 5,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 50,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "some-exceed",
+      "name": "some-exceed",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/some-exceed/SKILL.md",
+      "description": "A demonstration skill used for testing the waza tokens command suite.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.3,
+        "doc_quality": 5,
+        "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 51,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "count",
+      "name": "count",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/count/SKILL.md",
+      "description": "A demonstration skill used for testing the waza tokens command suite.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 5.0,
+        "doc_quality": 5,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 52,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "no-frontmatter",
+      "name": "no-frontmatter",
+      "path": "./external/microsoft-waza/cmd/waza/dev/testdata/no-frontmatter/SKILL.md",
+      "description": "This SKILL.md has no YAML frontmatter at all. It's just plain markdown.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 3.2,
+        "doc_quality": 2,
+        "func_clarity": 6,
+        "maintainability": 2,
+        "is_winner": false,
+        "rank": 53,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "legacy-json-only",
+      "name": "legacy-json-only",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/legacy-json-only/SKILL.md",
+      "description": "A minimal skill for testing legacy .token-limits.json deprecation warning.",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 3.2,
+        "doc_quality": 2,
+        "func_clarity": 6,
+        "maintainability": 2,
+        "is_winner": false,
+        "rank": 54,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "my-tool",
+      "name": "my-tool",
+      "path": "./external/microsoft-waza/cmd/waza/dev/testdata/minimal/SKILL.md",
+      "description": "my-tool skill",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 2.5,
+        "doc_quality": 0,
+        "func_clarity": 5,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 55,
+        "test_date": "2026-06-14",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "no-config",
+      "name": "no-config",
+      "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/no-config/SKILL.md",
+      "description": "no-config skill",
+      "tags": [
+        "microsoft-waza"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 1.9,
+        "doc_quality": 0,
+        "func_clarity": 5,
+        "maintainability": 2,
+        "is_winner": false,
+        "rank": 56,
         "test_date": "2026-06-14",
         "test_version": "1.0.0"
       }

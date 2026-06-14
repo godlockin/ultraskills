@@ -82,3 +82,6 @@
 [submodule "external/microsoft-skillopt"]
 	path = external/microsoft-skillopt
 	url = https://github.com/microsoft/SkillOpt.git
+[submodule "external/microsoft-waza"]
+	path = external/microsoft-waza
+	url = https://github.com/microsoft/waza.git

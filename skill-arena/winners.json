@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 17,
+    "total_contestants": 18,
     "defeated": [
       "visual-forge",
       "baoyu-markdown-to-html",
@@ -236,7 +236,7 @@
     "winner": "llm-model-selector",
     "score": 9.0,
     "runner_up": "review",
-    "total_contestants": 44,
+    "total_contestants": 56,
     "defeated": [
       "review",
       "qa",

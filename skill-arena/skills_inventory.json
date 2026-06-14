@@ -9615,6 +9615,149 @@
     "auxiliary": false
   },
   {
+    "id": "pdf-processor",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
+    "description": "**WORKFLOW SKILL** - Process PDF files including text extraction, rotation, and merging.\nUSE FOR: \"extract PDF text\", \"rotate PDF\", \"merge PDFs\", \"split PDF pages\", \"convert PDF to text\".\nDO NOT USE FOR: creating PDFs from scratch (use document-creator), editing PDF forms (use form-filler).\nINVOKES: pdf-tools MCP for extraction, file-system for I/O.\nFOR SINGLE OPERATIONS: Use pdf-tools MCP directly for simple extractions.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "my-tool",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/minimal/SKILL.md",
+    "description": "my-tool skill",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "no-frontmatter",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/no-frontmatter/SKILL.md",
+    "description": "This SKILL.md has no YAML frontmatter at all. It's just plain markdown.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "all-pass",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/all-pass/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "legacy-json-only",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/legacy-json-only/SKILL.md",
+    "description": "A minimal skill for testing legacy .token-limits.json deprecation warning.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "no-config",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/no-config/SKILL.md",
+    "description": "no-config skill",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "some-exceed",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/some-exceed/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "count",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/count/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "profile-test-skill",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/profile/SKILL.md",
+    "description": "**PROFILE TEST** - A skill for testing the profile command.\nUSE FOR: testing profile analysis, verifying structural metrics.\nDO NOT USE FOR: production use.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "code-explainer",
+    "path": "./external/microsoft-waza/examples/code-explainer/SKILL.md",
+    "description": "**UTILITY SKILL** - Explain code snippets, functions, and algorithms in plain language.\nUSE FOR: explain code, what does this code do, break down this function,\nhelp me understand this, walk through this algorithm, clarify this logic,\nexplain this snippet, describe what happens here.\nDO NOT USE FOR: writing new code (use code generation), fixing bugs (use debugging),\nrefactoring (use refactoring skills), code review with action items.\nINVOKES: file reading tools to access code, language detection for tailored explanations.\nFOR SINGLE OPERATIONS: If the user just needs to see file contents, use file reading tools directly.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza",
+    "path": "./external/microsoft-waza/skills/waza/SKILL.md",
+    "description": "\"**WORKFLOW SKILL** - Evaluate AI agent skills using structured benchmarks with YAML specs, fixture isolation, and pluggable validators. USE FOR: run waza, waza help, run eval, run benchmark, evaluate skill, test agent, generate eval suite, init eval, compare results, score agent, agent evaluation, skill testing, cross-model comparison. DO NOT USE FOR: improving skill frontmatter (use waza dev), creating new skills from scratch (use skill-creator), token counting or budget checks (use waza tokens). INVOKES: Copilot SDK executor, mock engine, code/regex validators. FOR SINGLE OPERATIONS: use waza run directly for a single benchmark.\"",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza-interactive",
+    "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
+    "description": "\"Interactive workflow partner for creating, testing, and improving AI agent skills with waza. USE FOR: run my evals, check my skill, compare models, create eval suite, debug failing tests, is my skill ready, ship readiness, interpret results, improve score. DO NOT USE FOR: general coding, non-skill work, writing skill content (use skill-authoring), improving frontmatter only (use sensei).\"",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza-runner",
+    "path": "./external/microsoft-waza/waza-runner/SKILL.md",
+    "description": "Run evaluations on Agent Skills to measure their effectiveness.\nUSE FOR: \"run skill evals\", \"evaluate my skill\", \"test skill quality\",\n\"check skill triggers\", \"skill compliance check\", \"measure skill performance\",\n\"run evals on [skill-name]\", \"grade skill execution\".\nDO NOT USE FOR: writing skills (use skill-authoring), improving frontmatter\n(use sensei), or general testing unrelated to skills.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "huashu-nuwa",
     "path": "./external/nuwa-skill/SKILL.md",
     "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。\n两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。\n触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。\n模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。",
