@@ -58,6 +58,13 @@ SECTION
   echo "  ultraskills 路径: $REPO_DIR"
   echo ""
   echo "  下次新开 Claude Code session 即生效。"
+
+  # 安装 lightpanda headless browser (本地用, 不提交到 git)
+  if [ -d "$REPO_DIR/external/lightpanda" ]; then
+    echo ""
+    echo "→ 下载 lightpanda 二进制 (本地使用)..."
+    bash "$REPO_DIR/scripts/setup_lightpanda.sh" || echo "  ⚠ lightpanda 下载失败, 可手动: bash scripts/setup_lightpanda.sh"
+  fi
 }
 
 do_remove() {

@@ -58,3 +58,6 @@ auth/
 # Test outputs
 antibot_test_results.json
 test_antibot_*.json
+
+# lightpanda submodule - cloned for local use, downloaded binary, but not tracked
+external/lightpanda/
