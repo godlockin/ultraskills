@@ -85,3 +85,6 @@
 [submodule "external/microsoft-waza"]
 	path = external/microsoft-waza
 	url = https://github.com/microsoft/waza.git
+[submodule "external/skillspector"]
+	path = external/skillspector
+	url = https://github.com/NVIDIA/SkillSpector.git

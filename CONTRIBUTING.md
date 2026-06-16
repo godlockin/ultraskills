@@ -145,6 +145,7 @@ python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && pytho
 - [ ] 外部来源 skill 包含 `github_url` 和 `github_hash`
 - [ ] 包含至少一个高质量示例
 - [ ] `index.json` 已更新
+- [ ] 通过 `skill-security-scan` 安全检查（community/external skills 必需）
 - [ ] 文档清晰、无错别字
 
 ---
@@ -176,6 +177,33 @@ cd devops/skill-arena && bash run.sh test
 
 文件：`devops/skill-manager/scripts/scan_and_check.py`
 可增强：脚本引用检查、examples 内容检查、tag 标准化。
+
+### 安全扫描 (SkillSpector)
+
+所有 `community/` 和 `external/` skills 在合并前必须通过 NVIDIA SkillSpector 安全检查。
+工具位于 `devops/skill-security-scan/`，底层依赖 `external/skillspector/` 子模块（Apache 2.0）。
+
+```bash
+# 一次性安装（需要 Python 3.12+）
+git submodule update --init --recursive
+pip install -e external/skillspector/
+
+# 扫描单个 skill（CI 安全模式，无需 API key）
+python3 devops/skill-security-scan/scripts/run_skillspector.py <skill-path> --no-llm
+
+# 全量健康检查（自动包含 Stage 2.5 安全门）
+python3 devops/skill-manager/scripts/scan_and_check.py --health community/
+```
+
+判定标准（与 SKILL.md 一致）：
+
+| 等级 | 风险分 | 处理 |
+|------|--------|------|
+| SAFE | 0-29 | 通过合并 |
+| CAUTION | 30-69 | 人工 review，PR 中说明 |
+| DO NOT INSTALL | ≥70 或含 critical 模式 | 拒绝合并，要求上游修复 |
+
+64 个检测模式覆盖 16 个类别：prompt 注入、MCP 工具投毒、记忆投毒、数据外泄、供应链 CVE、凭据泄漏等。详细分类见 `devops/skill-security-scan/references/skillspector-patterns.md`。
 
 ---
 

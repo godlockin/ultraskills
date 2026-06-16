@@ -12,6 +12,7 @@ import yaml
 import json
 import subprocess
 import concurrent.futures
+from pathlib import Path
 from typing import List, Dict, Optional
 
 
@@ -202,6 +203,23 @@ def check_tags_standard(skill_dir: str, frontmatter: Dict, known_tags: set) -> L
     return infos
 
 
+def check_security_scan(skill_dir: str) -> List[str]:
+    """
+    Stage 2.5 security gate. Delegates to the SkillSpector wrapper at
+    devops/skill-security-scan/scripts/health_gate.py.
+
+    Scans community/ and external/ skills for prompt injection, MCP tool
+    poisoning, data exfiltration, supply-chain CVEs, etc. Returns 0+ warnings.
+    Never raises — graceful fallback if SkillSpector is not installed.
+    """
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "skill-security-scan" / "scripts"))
+        from health_gate import check_security_scan as _gate
+        return _gate(skill_dir)
+    except Exception as e:
+        return [f"WARN: [{os.path.basename(skill_dir)}] security gate error: {e}"]
+
+
 def run_health_check(target_dir: str):
     """Run full health check on all skills under target_dir."""
     skill_dirs = _find_skill_dirs(target_dir)
@@ -227,6 +245,10 @@ def run_health_check(target_dir: str):
 
         # 2. Examples non-empty check
         warnings.extend(check_examples_nonempty(skill_dir))
+
+        # 2.5 Security scan (skillspector) — community/external skills only
+        if "community" in skill_dir or "/external/" in skill_dir or skill_dir.startswith("external/"):
+            warnings.extend(check_security_scan(skill_dir))
 
         # 3. Tags standardization check
         infos.extend(check_tags_standard(skill_dir, frontmatter, known_tags))
