@@ -88,3 +88,6 @@
 [submodule "external/skillspector"]
 	path = external/skillspector
 	url = https://github.com/NVIDIA/SkillSpector.git
+[submodule "external/cua"]
+	path = external/cua
+	url = https://github.com/trycua/cua.git

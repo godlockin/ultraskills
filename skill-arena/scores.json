@@ -385,6 +385,17 @@
     "total": 9.0
   },
   {
+    "id": "cua-mcp",
+    "path": "./devops/cua-mcp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "skill-arena",
     "path": "./devops/skill-arena/SKILL.md",
     "cluster": "engineering-testing",
@@ -422,7 +433,7 @@
     "path": "./engineering/llm-model-selector/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -3931,6 +3942,39 @@
     "path": "./external/context-engineering-skills/examples/interleaved-thinking/SKILL.md",
     "cluster": "engineering-ml",
     "cluster_name": "工程·ML/AI",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "cua-driver-rs",
+    "path": "./external/cua/libs/cua-driver/rust/Skills/cua-driver/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "cua-driver",
+    "path": "./external/cua/libs/cua-driver/swift/Skills/cua-driver/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "gui-automation",
+    "path": "./external/cua/skills/gui-automation/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 6,

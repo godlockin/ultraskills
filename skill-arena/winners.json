@@ -241,16 +241,16 @@
   {
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "winner": "llm-model-selector",
+    "winner": "cua-mcp",
     "score": 9.0,
-    "runner_up": "review",
-    "total_contestants": 37,
+    "runner_up": "llm-model-selector",
+    "total_contestants": 41,
     "defeated": [
+      "llm-model-selector",
       "review",
       "qa",
       "exploratory-data-analysis",
-      "generate-image",
-      "hugging-science"
+      "generate-image"
     ]
   },
   {

@@ -2439,6 +2439,21 @@
     "auxiliary": false
   },
   {
+    "id": "cua-mcp",
+    "path": "./devops/cua-mcp/SKILL.md",
+    "description": "Computer-use MCP server for native desktop automation. Wraps trycua/cua to drive macOS, Windows, Linux, and Android GUIs via screenshot/mouse/keyboard — exposes tools for Claude Code through `cua-mcp-server`. Use when browser automation (Playwright) can't reach the target, for OSWorld-style benchmarks, or for driving legacy native apps. Triggers: \"computer use\", \"desktop automation\", \"screenshot and click\", \"OSWorld\", \"sandbox VM\".",
+    "tags": [
+      "devops",
+      "mcp-server",
+      "computer-use",
+      "sandbox",
+      "desktop-automation"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "github-to-skills",
     "path": "./devops/github-to-skills/SKILL.md",
     "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
@@ -2589,7 +2604,7 @@
   {
     "id": "ultraskills-hub",
     "path": "./devops/ultraskills-hub/SKILL.md",
-    "description": "⚡ MUST INVOKE FIRST for ANY specialized task — search engine for 564+ AI skills (TTS, voice clone, video analysis, design, figma, posters, design tokens, motion, icons, data-viz, IA, git workflows, evaluation, marketing, RAG, FastAPI, code intelligence, etc.). Skills are NOT pre-loaded into system-reminder — discover via this hub. Trigger on ANY of: \"find skill\", \"do you have skill for X\", \"search ultraskills\", or whenever a request matches a skill domain (语音克隆 / voice clone / TTS / video / 视频 / 海报 / poster / figma / 设计 / design / icon / 动效 / motion / 图表 / chart / sitemap / 信息架构 / design token / 配色 / palette / git / commit / review / evaluation / RAG / fastapi / marketing / SEO / architecture / 架构探索 / explore / call chain / 调用链 / impact analysis / 影响分析 / semantic search / 代码图谱 / etc.).",
+    "description": "⚡ MUST INVOKE FIRST for ANY specialized task — search engine for 564+ AI skills (TTS, voice clone, video analysis, design, figma, posters, design tokens, motion, icons, data-viz, IA, git workflows, evaluation, marketing, RAG, FastAPI, code intelligence, etc.). Skills are NOT pre-loaded into system-reminder — discover via this hub. Trigger on ANY of: \"find skill\", \"do you have skill for X\", \"search ultraskills\", or whenever a request matches a skill domain (语音克隆 / voice clone / TTS / video / 视频 / 海报 / poster / figma / 设计 / design / icon / 动效 / motion / 图表 / chart / sitemap / 信息架构 / design token / 配色 / palette / git / commit / review / evaluation / RAG / fastapi / marketing / SEO / architecture / 架构探索 / explore / call chain / 调用链 / impact analysis / 影响分析 / semantic search / 代码图谱 / computer use / desktop automation / OSWorld / sandbox VM / cua / etc.).",
     "tags": [
       "hub",
       "search",
@@ -5370,6 +5385,39 @@
     "description": "Template for creating new Agent Skills for context engineering. Use this template when adding new skills to the collection.",
     "tags": [
       "context-engineering"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "cua-driver-rs",
+    "path": "./external/cua/libs/cua-driver/rust/Skills/cua-driver/SKILL.md",
+    "description": "Drive a native GUI app (macOS, Windows, Linux) via the cua-driver CLI (default) or MCP server — snapshot its accessibility tree, click/type/scroll by element_index or pixel coords, verify via re-snapshot, all without bringing the target to the foreground. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real application on the host.",
+    "tags": [
+      "cua"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "cua-driver",
+    "path": "./external/cua/libs/cua-driver/swift/Skills/cua-driver/SKILL.md",
+    "description": "Drive a native macOS app via the cua-driver CLI (default) or MCP server — snapshot its AX tree, click/type/scroll by element_index, verify via re-snapshot. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real macOS application on the host (e.g. \"open a file in TextEdit\", \"navigate to /Applications in Finder\", \"click the Save button in Numbers\").",
+    "tags": [
+      "cua"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gui-automation",
+    "path": "./external/cua/skills/gui-automation/SKILL.md",
+    "description": "Use when you need to visually interact with a GUI — test buttons, fill forms, verify visual layouts, fuzz web pages, automate user flows, take screenshots, or perform end-to-end QA on any application. Works on cloud VMs, Docker containers, local machines, and sandboxes. Install: pip install cua.",
+    "tags": [
+      "cua"
     ],
     "version": "",
     "github_url": "",

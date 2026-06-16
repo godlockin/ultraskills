@@ -114,9 +114,10 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 37,
-    "winner": "llm-model-selector",
+    "skill_count": 41,
+    "winner": "cua-mcp",
     "skills": [
+      "cua-mcp",
       "llm-model-selector",
       "review",
       "qa",
@@ -124,6 +125,9 @@
       "generate-image",
       "hugging-science",
       "paper-lookup",
+      "cua-driver-rs",
+      "cua-driver",
+      "gui-automation",
       "freeze",
       "markitdown",
       "matplotlib",
@@ -195,57 +199,57 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "monitoring-expert",
           "feature-forge",
-          "sre-engineer",
           "spec-miner",
-          "legacy-modernizer"
+          "legacy-modernizer",
+          "monitoring-expert",
+          "sre-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "sql-pro",
+        "winner": "postgres-pro",
         "skills": [
-          "sql-pro",
-          "spark-engineer",
+          "postgres-pro",
           "pandas-pro",
           "database-optimizer",
-          "postgres-pro"
+          "spark-engineer",
+          "sql-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "cli-developer",
+        "winner": "mcp-developer",
         "skills": [
-          "cli-developer",
-          "websocket-engineer",
           "mcp-developer",
+          "websocket-engineer",
           "chaos-engineer",
-          "embedded-systems"
+          "embedded-systems",
+          "cli-developer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -337,8 +341,8 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "skill-manager",
           "skill-sync-manager",
+          "skill-manager",
           "\"github-skill-scout\"",
           "skill-evolution-manager"
         ]
@@ -359,12 +363,12 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "command-development",
         "skills": [
-          "plugin-settings",
-          "plugin-structure",
           "command-development",
+          "plugin-settings",
           "hook-development",
+          "plugin-structure",
           "claude-md-improver",
           "claude-automation-recommender"
         ]
@@ -378,8 +382,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template"
         ]
       }
@@ -717,8 +721,8 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-reviewer",
           "image-analyzer",
+          "image-reviewer",
           "image-auditor"
         ]
       },
@@ -763,10 +767,10 @@
         "winner": "x-mastery-mentor",
         "skills": [
           "x-mastery-mentor",
-          "khazix-writer",
-          "social-content",
           "huashu-xhs-image",
           "huashu-wechat-image",
+          "khazix-writer",
+          "social-content",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -921,10 +925,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 5,
-        "winner": "land-and-deploy",
+        "winner": "setup-deploy",
         "skills": [
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "ship",
           "canary",
           "devops-engineer"

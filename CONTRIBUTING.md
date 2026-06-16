@@ -134,7 +134,28 @@ python3 devops/skill-sync-manager/scripts/sync_submodules.py
 python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && python3 scripts/arena_build_index.py
 ```
 
+### Computer-Use (trycua/cua)
+
+涉及原生桌面 GUI 自动化（macOS / Windows / Linux / Android）的 skill 必须配套 cua-mcp：
+
+```bash
+# 一次性安装
+git submodule update --init --recursive
+uv venv --python 3.12 external/cua/.venv
+external/cua/.venv/bin/pip install external/cua/libs/python/cua external/cua/libs/python/mcp-server
+bash devops/cua-mcp/install-global-mcp.sh
+
+# 验证
+python3 devops/cua-mcp/scripts/check_install.py
+```
+
+**⚠️ AGPL 警告**：禁止安装 `cua-agent[omni]`（含 ultralytics/AGPL-3.0，会污染整个项目）。仅安装 MIT 核心包：`cua` + `cua-mcp-server` + `cua-computer`。
+
+**平台限制**：`lume`（本地 macOS VM）仅支持 Apple Silicon。非 M 系列 Mac 用户只能使用 `cloud` 模式（需 `CUA_API_KEY`）或 `docker` 模式（Linux-only）。
+
 ---
+
+## 🔧 项目自身强化
 
 ## ✅ 自查清单
 
@@ -146,6 +167,7 @@ python3 scripts/arena_scan.py && python3 scripts/arena_cluster_score.py && pytho
 - [ ] 包含至少一个高质量示例
 - [ ] `index.json` 已更新
 - [ ] 通过 `skill-security-scan` 安全检查（community/external skills 必需）
+- [ ] cua-mcp 注册成功（涉及桌面自动化的 skill 必需）
 - [ ] 文档清晰、无错别字
 
 ---
