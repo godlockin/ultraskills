@@ -199,37 +199,37 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "spec-miner",
-          "feature-forge",
           "sre-engineer",
           "legacy-modernizer",
-          "monitoring-expert"
+          "monitoring-expert",
+          "spec-miner",
+          "feature-forge"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "spark-engineer",
+        "winner": "postgres-pro",
         "skills": [
-          "spark-engineer",
           "postgres-pro",
+          "sql-pro",
           "database-optimizer",
-          "pandas-pro",
-          "sql-pro"
+          "spark-engineer",
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "chaos-engineer",
+        "winner": "cli-developer",
         "skills": [
-          "chaos-engineer",
+          "cli-developer",
+          "embedded-systems",
           "mcp-developer",
           "websocket-engineer",
-          "embedded-systems",
-          "cli-developer"
+          "chaos-engineer"
         ]
       },
       {
@@ -411,11 +411,11 @@
         "winner": "plugin-settings",
         "skills": [
           "plugin-settings",
-          "plugin-structure",
           "hook-development",
+          "plugin-structure",
           "command-development",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -655,18 +655,18 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "writing-plans",
-          "executing-plans"
+          "executing-plans",
+          "writing-plans"
         ]
       },
       {
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zht",
+        "winner": "planning-with-files-zh",
         "skills": [
-          "planning-with-files-zht",
           "planning-with-files-zh",
+          "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-de",
           "planning-with-files-es",
@@ -713,9 +713,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-analyzer",
           "image-auditor",
-          "image-reviewer",
-          "image-analyzer"
+          "image-reviewer"
         ]
       },
       {
@@ -727,8 +727,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-design",
-          "huashu-image-upload"
+          "huashu-image-upload",
+          "huashu-design"
         ]
       }
     ]
@@ -760,9 +760,9 @@
         "skills": [
           "x-mastery-mentor",
           "huashu-wechat-image",
+          "huashu-xhs-image",
           "khazix-writer",
           "social-content",
-          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -917,10 +917,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 5,
-        "winner": "setup-deploy",
+        "winner": "land-and-deploy",
         "skills": [
-          "setup-deploy",
           "land-and-deploy",
+          "setup-deploy",
           "ship",
           "canary",
           "devops-engineer"
