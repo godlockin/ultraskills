@@ -22,6 +22,10 @@
 [submodule "external/claude-skills"]
 	path = external/claude-skills
 	url = https://github.com/replayio/claude-skills.git
+[submodule "external/anthropic-quickstarts"]
+	path = external/anthropic-quickstarts
+	url = https://github.com/anthropics/anthropic-quickstarts.git
+
 [submodule "community/gstack"]
 	path = community/gstack
 	url = https://github.com/gvasilei/gstack.git
