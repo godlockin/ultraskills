@@ -1,7 +1,8 @@
 {
   "text-summarizer": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8
@@ -10,8 +11,9 @@
     "recommendation": "eliminate"
   },
   "code-formatter": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -20,8 +22,9 @@
     "recommendation": "eliminate"
   },
   "friendly-greeter": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8
@@ -30,8 +33,9 @@
     "recommendation": "eliminate"
   },
   "config-reader": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -40,8 +44,9 @@
     "recommendation": "eliminate"
   },
   "markdown-formatter": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -50,8 +55,9 @@
     "recommendation": "eliminate"
   },
   "over-privileged-helper": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      2.5,
       2.5,
       2.5,
       2.5
@@ -60,8 +66,9 @@
     "recommendation": "eliminate"
   },
   "general-assistant": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -70,8 +77,9 @@
     "recommendation": "eliminate"
   },
   "underdeclared-agent": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      2.5,
       2.5,
       2.5,
       2.5
@@ -80,8 +88,9 @@
     "recommendation": "eliminate"
   },
   "file-indexer": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8
@@ -90,8 +99,9 @@
     "recommendation": "eliminate"
   },
   "file-organizer": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -100,8 +110,9 @@
     "recommendation": "eliminate"
   },
   "data-processor": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5
@@ -110,8 +121,9 @@
     "recommendation": "eliminate"
   },
   "report-generator": {
-    "consecutive_low": 3,
+    "consecutive_low": 4,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5

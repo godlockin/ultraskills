@@ -171,17 +171,6 @@
     "auxiliary": false
   },
   {
-    "id": "caveman",
-    "path": "./community/caveman/SKILL.md",
-    "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.",
-    "tags": [
-      "community"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "changelog-generator",
     "path": "./community/changelog-generator/SKILL.md",
     "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
@@ -3507,6 +3496,17 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "caveman",
+    "path": "./external/caveman/caveman/SKILL.md",
+    "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.",
+    "tags": [
+      "caveman"
+    ],
+    "version": "",
     "github_url": "",
     "auxiliary": false
   },

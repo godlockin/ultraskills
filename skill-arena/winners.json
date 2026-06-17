@@ -693,10 +693,10 @@
     "total_contestants": 9,
     "defeated": [
       "brainstorming",
-      "caveman",
       "dynamic-expert-group",
       "scientific-brainstorming",
-      "caveman-compress"
+      "caveman-compress",
+      "caveman-commit"
     ]
   },
   {

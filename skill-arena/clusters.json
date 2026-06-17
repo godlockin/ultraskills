@@ -198,11 +198,11 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
           "monitoring-expert",
+          "legacy-modernizer",
           "sre-engineer",
           "spec-miner",
-          "legacy-modernizer"
+          "feature-forge"
         ]
       },
       {
@@ -212,8 +212,8 @@
         "winner": "database-optimizer",
         "skills": [
           "database-optimizer",
-          "postgres-pro",
           "sql-pro",
+          "postgres-pro",
           "spark-engineer",
           "pandas-pro"
         ]
@@ -222,13 +222,13 @@
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "embedded-systems",
+        "winner": "mcp-developer",
         "skills": [
-          "embedded-systems",
           "mcp-developer",
+          "embedded-systems",
           "websocket-engineer",
-          "cli-developer",
-          "chaos-engineer"
+          "chaos-engineer",
+          "cli-developer"
         ]
       },
       {
@@ -245,10 +245,10 @@
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -407,14 +407,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-structure",
+        "winner": "hook-development",
         "skills": [
-          "plugin-structure",
           "hook-development",
-          "plugin-settings",
           "command-development",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "plugin-structure",
+          "plugin-settings",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -662,14 +662,14 @@
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zh",
+        "winner": "planning-with-files-zht",
         "skills": [
-          "planning-with-files-zh",
           "planning-with-files-zht",
+          "planning-with-files-zh",
           "planning-with-files",
-          "planning-with-files-ar",
           "planning-with-files-de",
-          "planning-with-files-es"
+          "planning-with-files-es",
+          "planning-with-files-ar"
         ]
       },
       {
@@ -713,8 +713,8 @@
           "\"photography-expert-pro\"",
           "face-beautification",
           "image-reviewer",
-          "image-auditor",
-          "image-analyzer"
+          "image-analyzer",
+          "image-auditor"
         ]
       },
       {
@@ -758,10 +758,10 @@
         "winner": "x-mastery-mentor",
         "skills": [
           "x-mastery-mentor",
-          "huashu-xhs-image",
+          "social-content",
           "huashu-wechat-image",
           "khazix-writer",
-          "social-content",
+          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -868,12 +868,12 @@
     "skills": [
       "slack-gif-creator",
       "brainstorming",
-      "caveman",
       "dynamic-expert-group",
       "scientific-brainstorming",
       "caveman-compress",
       "caveman-commit",
       "caveman-review",
+      "caveman",
       "compress"
     ]
   },

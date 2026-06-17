@@ -12926,28 +12926,6 @@
       "version": "2.0.0"
     },
     {
-      "id": "caveman",
-      "name": "caveman",
-      "path": "./community/caveman/SKILL.md",
-      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.",
-      "tags": [
-        "community"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 7.5,
-        "doc_quality": 8,
-        "func_clarity": 7,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 3,
-        "test_date": "2026-06-17",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
       "id": "dynamic-expert-group",
       "name": "dynamic-expert-group",
       "path": "./community/dynamic-expert-group/SKILL.md",
@@ -12963,7 +12941,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 4,
+        "rank": 3,
         "test_date": "2026-06-17",
         "test_version": "1.0.0"
       },
@@ -12985,7 +12963,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 4,
         "test_date": "2026-06-17",
         "test_version": "1.0.0"
       }
@@ -13006,7 +12984,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 5,
         "test_date": "2026-06-17",
         "test_version": "1.0.0"
       }
@@ -13027,7 +13005,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 6,
         "test_date": "2026-06-17",
         "test_version": "1.0.0"
       }
@@ -13046,6 +13024,27 @@
         "score": 6.8,
         "doc_quality": 8,
         "func_clarity": 6,
+        "maintainability": 5,
+        "is_winner": false,
+        "rank": 7,
+        "test_date": "2026-06-17",
+        "test_version": "1.0.0"
+      }
+    },
+    {
+      "id": "caveman",
+      "name": "caveman",
+      "path": "./external/caveman/caveman/SKILL.md",
+      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.",
+      "tags": [
+        "caveman"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 6.5,
+        "doc_quality": 8,
+        "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
         "rank": 8,

@@ -198,6 +198,28 @@ PY
 }
 
 
+# ── RTK hook setup (PreToolUse Bash rewriter for token savings) ─────────────
+setup_rtk_hook() {
+  if [[ "${INSTALL_MODE}" == "--no-rtk" ]]; then
+    return 0
+  fi
+
+  if [ ! -x "$REPO_DIR/devops/rtk-bridge/scripts/install-hook.sh" ]; then
+    return 0
+  fi
+
+  # Quick check: rtk + jq must exist
+  if ! command -v rtk >/dev/null 2>&1 || ! command -v jq >/dev/null 2>&1; then
+    echo "  ⚠️  rtk or jq not in PATH — skipping RTK hook install"
+    echo "     Install: brew install rtk-ai/tap/rtk jq"
+    return 0
+  fi
+
+  bash "$REPO_DIR/devops/rtk-bridge/scripts/install-hook.sh" || \
+    echo "  ⚠️  RTK hook install failed (run devops/rtk-bridge/scripts/install-hook.sh manually)"
+}
+
+
 # ── Python venv setup (skillspector, cua — created on first run) ──────────────
 setup_python_venvs() {
   if [[ "${INSTALL_MODE}" == "--no-venvs" ]]; then
@@ -245,6 +267,7 @@ for s in idx["skills"]:
 print(f"  + {count} individual skills")
 PY
   setup_hooks
+  setup_rtk_hook
   exit 0
 fi
 
@@ -258,6 +281,7 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   echo ""
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
   setup_hooks
+  setup_rtk_hook
   exit 0
 fi
 
@@ -266,6 +290,7 @@ echo "Installing ultraskills-hub → $SKILLS_DIR"
 echo ""
 install_hub
 setup_hooks
+setup_rtk_hook
 echo ""
 echo "Done. Claude can now search all 555 ultraskills on demand."
 echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
