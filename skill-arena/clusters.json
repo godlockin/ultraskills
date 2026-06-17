@@ -114,11 +114,12 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 40,
+    "skill_count": 41,
     "winner": "llm-model-selector",
     "skills": [
       "llm-model-selector",
       "review",
+      "rtk-bridge",
       "qa",
       "exploratory-data-analysis",
       "generate-image",
@@ -198,36 +199,36 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "monitoring-expert",
-          "legacy-modernizer",
-          "sre-engineer",
           "spec-miner",
-          "feature-forge"
+          "feature-forge",
+          "sre-engineer",
+          "legacy-modernizer",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "spark-engineer",
         "skills": [
-          "database-optimizer",
-          "sql-pro",
-          "postgres-pro",
           "spark-engineer",
-          "pandas-pro"
+          "postgres-pro",
+          "database-optimizer",
+          "pandas-pro",
+          "sql-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "chaos-engineer",
         "skills": [
-          "mcp-developer",
-          "embedded-systems",
-          "websocket-engineer",
           "chaos-engineer",
+          "mcp-developer",
+          "websocket-engineer",
+          "embedded-systems",
           "cli-developer"
         ]
       },
@@ -245,10 +246,10 @@
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -407,14 +408,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "plugin-settings",
         "skills": [
+          "plugin-settings",
+          "plugin-structure",
           "hook-development",
           "command-development",
-          "plugin-structure",
-          "plugin-settings",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -676,10 +677,10 @@
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "skill-development",
+        "winner": "agent-development",
         "skills": [
-          "skill-development",
-          "agent-development"
+          "agent-development",
+          "skill-development"
         ]
       }
     ]
@@ -712,9 +713,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-auditor",
           "image-reviewer",
-          "image-analyzer",
-          "image-auditor"
+          "image-analyzer"
         ]
       },
       {
@@ -758,9 +759,9 @@
         "winner": "x-mastery-mentor",
         "skills": [
           "x-mastery-mentor",
-          "social-content",
           "huashu-wechat-image",
           "khazix-writer",
+          "social-content",
           "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
@@ -920,8 +921,8 @@
         "skills": [
           "setup-deploy",
           "land-and-deploy",
-          "canary",
           "ship",
+          "canary",
           "devops-engineer"
         ]
       }

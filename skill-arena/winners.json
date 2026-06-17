@@ -231,13 +231,13 @@
     "winner": "llm-model-selector",
     "score": 9.0,
     "runner_up": "review",
-    "total_contestants": 40,
+    "total_contestants": 41,
     "defeated": [
       "review",
+      "rtk-bridge",
       "qa",
       "exploratory-data-analysis",
-      "generate-image",
-      "hugging-science"
+      "generate-image"
     ]
   },
   {

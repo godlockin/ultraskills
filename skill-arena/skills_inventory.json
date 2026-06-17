@@ -2461,6 +2461,21 @@
     "auxiliary": false
   },
   {
+    "id": "rtk-bridge",
+    "path": "./devops/rtk-bridge/SKILL.md",
+    "description": "Track and install the RTK (Rust Token Killer) PreToolUse hook for Claude Code. RTK transparently rewrites shell commands (git status → rtk git status) to save 60-90% output tokens. This skill provides a tracked copy of the hook installer so any clone of UltraSkills gets the same setup.",
+    "tags": [
+      "devops",
+      "token-saver",
+      "hook",
+      "rtk",
+      "bash"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "test-case-templates",
     "path": "./devops/skill-arena/templates/test-case-templates/SKILL.md",
     "description": "Template library for skill arena test cases - 5-10 comprehensive tests per category",

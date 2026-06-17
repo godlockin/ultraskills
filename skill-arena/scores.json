@@ -2024,6 +2024,17 @@
     "total": 8.0
   },
   {
+    "id": "rtk-bridge",
+    "path": "./devops/rtk-bridge/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "autoresearch:execute",
     "path": "./engineering/autoresearch/execute/SKILL.md",
     "cluster": "education",
