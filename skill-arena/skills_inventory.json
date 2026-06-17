@@ -2439,35 +2439,6 @@
     "auxiliary": false
   },
   {
-    "id": "cua-mcp",
-    "path": "./devops/cua-mcp/SKILL.md",
-    "description": "Computer-use MCP server for native desktop automation. Wraps trycua/cua to drive macOS, Windows, Linux, and Android GUIs via screenshot/mouse/keyboard — exposes tools for Claude Code through `cua-mcp-server`. Use when browser automation (Playwright) can't reach the target, for OSWorld-style benchmarks, or for driving legacy native apps. Triggers: \"computer use\", \"desktop automation\", \"screenshot and click\", \"OSWorld\", \"sandbox VM\".",
-    "tags": [
-      "devops",
-      "mcp-server",
-      "computer-use",
-      "sandbox",
-      "desktop-automation"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "github-to-skills",
-    "path": "./devops/github-to-skills/SKILL.md",
-    "description": "将 GitHub 仓库自动转换为标准化 AI Skills 的工厂工具。当用户提供 GitHub URL 并希望将其\"打包\"、\"封装\"或\"创建 Skill\"时触发。",
-    "tags": [
-      "devops",
-      "automation",
-      "github",
-      "skill-creation"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "pua",
     "path": "./devops/pua/SKILL.md",
     "description": "\"Forces high-agency exhaustive problem-solving with corporate PUA pressure. Triggers on user frustration, repeated failures (2+), passive behavior, or quality complaints. Common triggers across Reddit/LinuxDo/HN/X: 'try harder', 'figure it out', 'stop giving up', 'you keep failing', '加油', '别偷懒', '你再试试', '为什么还不行', '你怎么又失败了', '你怎么搞的', '又错了', '能不能靠谱点', '认真点', '不行啊', '降智了', '你又在原地打转', '你把之前的改坏了', '别让我手动处理', '换个方法', 'stop spinning', 'you broke it', 'why does this still not work', 'this is the third time', '/pua', 'PUA模式'. Applies to ALL task types: code, config, debug, deploy, research.\"",
@@ -2501,21 +2472,6 @@
     "auxiliary": false
   },
   {
-    "id": "skill-arena",
-    "path": "./devops/skill-arena/SKILL.md",
-    "description": "自动扫描项目 skills，通过 LLM 自主聚类分组，设计测试用例并执行 PK 测试，基于速度 + 质量 + 可维护性加权打分选出胜者，持续迭代测试用例并更新 index.json 添加优先级和适用场景标签",
-    "tags": [
-      "devops",
-      "automation",
-      "testing",
-      "benchmark",
-      "skill-management"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "test-case-templates",
     "path": "./devops/skill-arena/templates/test-case-templates/SKILL.md",
     "description": "Template library for skill arena test cases - 5-10 comprehensive tests per category",
@@ -2524,64 +2480,6 @@
       "testing",
       "benchmark",
       "templates"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "skill-evolution-manager",
-    "path": "./devops/skill-evolution-manager/SKILL.md",
-    "description": "Skills 进化管理器。在对话结束时根据用户反馈持续优化 Skills。触发词：/evolve, \"复盘一下\", \"把这个经验保存到 Skill\"",
-    "tags": [
-      "devops",
-      "automation",
-      "evolution",
-      "feedback",
-      "learning"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "skill-manager",
-    "path": "./devops/skill-manager/SKILL.md",
-    "description": "Skills 生命周期管理器。用于批量扫描 Skills 目录、检查 GitHub 更新、执行升级引导。触发词：/skill-manager check, list, delete",
-    "tags": [
-      "devops",
-      "automation",
-      "lifecycle",
-      "management"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "skill-security-scan",
-    "path": "./devops/skill-security-scan/SKILL.md",
-    "description": "Pre-install security gate for community and external skills. Wraps NVIDIA SkillSpector (64 patterns / 16 categories: prompt injection, MCP tool poisoning, memory poisoning, supply-chain CVEs) to score 0-100 with SAFE / CAUTION / DO NOT INSTALL bands. Run before merging any community/ or external/ skill. Triggers: \"scan skill security\", \"check skill safety\", \"security gate\", \"skill audit\".",
-    "tags": [
-      "devops",
-      "security",
-      "gate",
-      "audit"
-    ],
-    "version": "1.0.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "skill-sync-manager",
-    "path": "./devops/skill-sync-manager/SKILL.md",
-    "description": "全量更新 Skills。用于批量更新所有 submodules，检查更新，并同步到社区 skills。触发词：/skill-sync, 同步 skills, 更新所有 skills",
-    "tags": [
-      "devops",
-      "automation",
-      "sync",
-      "submodule",
-      "update"
     ],
     "version": "1.0.0",
     "github_url": "",

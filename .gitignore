@@ -61,3 +61,71 @@ test_antibot_*.json
 
 # lightpanda submodule - cloned for local use, downloaded binary, but not tracked
 external/lightpanda/
+
+# =============================================================================
+# Python venvs and compiled extensions (created at setup time, never tracked)
+# =============================================================================
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.eggs/
+wheels/
+*.egg-info/
+*.egg
+*.whl
+*.so
+*.dylib
+*.dll
+
+# =============================================================================
+# Rust / compiled binaries
+# =============================================================================
+target/
+Cargo.lock
+
+# =============================================================================
+# Downloaded packages and archives
+# =============================================================================
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# =============================================================================
+# VM / sandbox images (lume macOS, qemu, etc. — multi-GB, never track)
+# =============================================================================
+*.qcow2
+*.qcow2c
+*.vmdk
+*.vdi
+*.img
+*.iso
+lume/
+.qemu/
+
+# =============================================================================
+# Submodule build artifacts (auto-created by setup scripts)
+# =============================================================================
+# skillspector venv
+external/skillspector/.venv/
+external/skillspector/gcp-auth.json
+# cua venv
+external/cua/.venv/
+external/cua/lume/
+# nuwa / huashu models (large ML model files)
+**/weights/
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.safetensors
+

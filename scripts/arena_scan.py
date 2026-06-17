@@ -217,8 +217,13 @@ def scan_all_skills() -> list:
         if any(rel_str.startswith(p) for p in EXCLUDE_PREFIXES):
             continue
 
-        # skill 目录 = SKILL.md 的父目录
+        # 排除含 .no-skill marker 的目录（marker 存在即跳过整棵树，包括其下所有子目录）
+        # 与 scripts/deploy_skills.py:102 行为对齐
         skill_dir = skill_md.parent
+        if (skill_dir / ".no-skill").exists():
+            continue
+
+        # skill 目录 = SKILL.md 的父目录
         skill_dir_rel = str(skill_dir.relative_to(ROOT))
 
         text = skill_md.read_text(encoding="utf-8", errors="ignore")

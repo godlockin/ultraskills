@@ -184,26 +184,13 @@
     ]
   },
   {
-    "cluster": "engineering-security",
-    "cluster_name": "工程·安全",
-    "winner": "skill-security-scan",
-    "score": 9.0,
-    "runner_up": "cso",
-    "total_contestants": 3,
-    "defeated": [
-      "cso",
-      "security-reviewer"
-    ]
-  },
-  {
     "cluster": "engineering-testing",
     "cluster_name": "工程·测试",
     "winner": "triage-issue",
     "score": 9.0,
-    "runner_up": "skill-arena",
-    "total_contestants": 6,
+    "runner_up": "writing-hookify-rules",
+    "total_contestants": 5,
     "defeated": [
-      "skill-arena",
       "writing-hookify-rules",
       "test-case-templates",
       "test-driven-development",
@@ -241,16 +228,16 @@
   {
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "winner": "cua-mcp",
+    "winner": "llm-model-selector",
     "score": 9.0,
-    "runner_up": "llm-model-selector",
-    "total_contestants": 41,
+    "runner_up": "review",
+    "total_contestants": 40,
     "defeated": [
-      "llm-model-selector",
       "review",
       "qa",
       "exploratory-data-analysis",
-      "generate-image"
+      "generate-image",
+      "hugging-science"
     ]
   },
   {
@@ -274,13 +261,13 @@
     "winner": "gh-fix-ci",
     "score": 9.0,
     "runner_up": "ultraskills-hub",
-    "total_contestants": 21,
+    "total_contestants": 17,
     "defeated": [
       "ultraskills-hub",
       "skill-creator",
       "\"github-skill-scout\"",
-      "github-to-skills",
-      "skill-manager"
+      "writing-skills",
+      "command-development"
     ]
   },
   {
@@ -576,6 +563,17 @@
       "huashu-speech-coach",
       "huashu-wechat-image",
       "huashu-xhs-image"
+    ]
+  },
+  {
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "winner": "cso",
+    "score": 8.0,
+    "runner_up": "security-reviewer",
+    "total_contestants": 2,
+    "defeated": [
+      "security-reviewer"
     ]
   },
   {

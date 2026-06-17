@@ -385,39 +385,6 @@
     "total": 9.0
   },
   {
-    "id": "cua-mcp",
-    "path": "./devops/cua-mcp/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "skill-arena",
-    "path": "./devops/skill-arena/SKILL.md",
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "skill-security-scan",
-    "path": "./devops/skill-security-scan/SKILL.md",
-    "cluster": "engineering-security",
-    "cluster_name": "工程·安全",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
     "id": "ultraskills-hub",
     "path": "./devops/ultraskills-hub/SKILL.md",
     "cluster": "skills-mgmt",
@@ -433,7 +400,7 @@
     "path": "./engineering/llm-model-selector/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -1199,17 +1166,6 @@
     "total": 8.5
   },
   {
-    "id": "github-to-skills",
-    "path": "./devops/github-to-skills/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
     "id": "pua",
     "path": "./devops/pua/SKILL.md",
     "cluster": "agent-pua",
@@ -1225,28 +1181,6 @@
     "path": "./devops/skill-arena/templates/test-case-templates/SKILL.md",
     "cluster": "engineering-testing",
     "cluster_name": "工程·测试",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
-    "id": "skill-manager",
-    "path": "./devops/skill-manager/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
-    "id": "skill-sync-manager",
-    "path": "./devops/skill-sync-manager/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 9,
@@ -1907,7 +1841,7 @@
     "path": "./community/gstack/cso/SKILL.md",
     "cluster": "engineering-security",
     "cluster_name": "工程·安全",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 7,
@@ -2083,17 +2017,6 @@
     "path": "./community/youtube-script-optimizer/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "skill-evolution-manager",
-    "path": "./devops/skill-evolution-manager/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 9,

@@ -198,6 +198,22 @@ PY
 }
 
 
+# ── Python venv setup (skillspector, cua — created on first run) ──────────────
+setup_python_venvs() {
+  if [[ "${INSTALL_MODE}" == "--no-venvs" ]]; then
+    return 0
+  fi
+
+  if [ -x "$REPO_DIR/scripts/setup_cua.sh" ]; then
+    bash "$REPO_DIR/scripts/setup_cua.sh" || echo "  ⚠️  cua venv setup failed (run scripts/setup_cua.sh manually)"
+  fi
+  if [ -x "$REPO_DIR/devops/skill-security-scan/scripts/setup_skillspector.sh" ]; then
+    bash "$REPO_DIR/devops/skill-security-scan/scripts/setup_skillspector.sh" || \
+      echo "  ⚠️  skillspector venv setup failed (run manually if needed)"
+  fi
+}
+
+
 # ── Dispatch ──────────────────────────────────────────────────────────────────
 
 if [ "$INSTALL_MODE" = "--remove" ]; then

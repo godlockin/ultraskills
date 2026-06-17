@@ -114,10 +114,9 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 41,
-    "winner": "cua-mcp",
+    "skill_count": 40,
+    "winner": "llm-model-selector",
     "skills": [
-      "cua-mcp",
       "llm-model-selector",
       "review",
       "qa",
@@ -200,36 +199,36 @@
         "skills": [
           "api-designer",
           "feature-forge",
-          "spec-miner",
-          "legacy-modernizer",
           "monitoring-expert",
-          "sre-engineer"
+          "sre-engineer",
+          "spec-miner",
+          "legacy-modernizer"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "database-optimizer",
         "skills": [
-          "postgres-pro",
-          "pandas-pro",
           "database-optimizer",
+          "postgres-pro",
+          "sql-pro",
           "spark-engineer",
-          "sql-pro"
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "embedded-systems",
         "skills": [
+          "embedded-systems",
           "mcp-developer",
           "websocket-engineer",
-          "chaos-engineer",
-          "embedded-systems",
-          "cli-developer"
+          "cli-developer",
+          "chaos-engineer"
         ]
       },
       {
@@ -246,10 +245,10 @@
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -306,90 +305,6 @@
     ]
   },
   {
-    "id": "skills-mgmt",
-    "name": "Skills·管理",
-    "skill_count": 21,
-    "winner": "gh-fix-ci",
-    "skills": [
-      "gh-fix-ci",
-      "ultraskills-hub",
-      "skill-creator",
-      "\"github-skill-scout\"",
-      "github-to-skills",
-      "skill-manager",
-      "skill-sync-manager",
-      "writing-skills",
-      "command-development",
-      "hook-development",
-      "plugin-settings",
-      "plugin-structure",
-      "skill-evolution-manager",
-      "skills-finder",
-      "example-skill",
-      "using-superpowers",
-      "claude-automation-recommender",
-      "claude-md-improver",
-      "context-engineering-collection",
-      "find-skills",
-      "skill-template"
-    ],
-    "subclusters": [
-      {
-        "id": "skills-mgmt-lifecycle",
-        "name": "Skill 生命周期",
-        "skill_count": 5,
-        "winner": "skill-creator",
-        "skills": [
-          "skill-creator",
-          "skill-sync-manager",
-          "skill-manager",
-          "\"github-skill-scout\"",
-          "skill-evolution-manager"
-        ]
-      },
-      {
-        "id": "skills-mgmt-search",
-        "name": "Skill 搜索 & 发现",
-        "skill_count": 4,
-        "winner": "ultraskills-hub",
-        "skills": [
-          "ultraskills-hub",
-          "github-to-skills",
-          "skills-finder",
-          "find-skills"
-        ]
-      },
-      {
-        "id": "skills-mgmt-claude-config",
-        "name": "Claude 配置工具",
-        "skill_count": 6,
-        "winner": "command-development",
-        "skills": [
-          "command-development",
-          "plugin-settings",
-          "hook-development",
-          "plugin-structure",
-          "claude-md-improver",
-          "claude-automation-recommender"
-        ]
-      },
-      {
-        "id": "skills-mgmt-other",
-        "name": "其他",
-        "skill_count": 6,
-        "winner": "gh-fix-ci",
-        "skills": [
-          "gh-fix-ci",
-          "writing-skills",
-          "example-skill",
-          "using-superpowers",
-          "context-engineering-collection",
-          "skill-template"
-        ]
-      }
-    ]
-  },
-  {
     "id": "education",
     "name": "教育·学习研究",
     "skill_count": 20,
@@ -440,6 +355,82 @@
       "dbs-chatroom-austrian",
       "dbs-deconstruct",
       "dbs-chatroom"
+    ]
+  },
+  {
+    "id": "skills-mgmt",
+    "name": "Skills·管理",
+    "skill_count": 17,
+    "winner": "gh-fix-ci",
+    "skills": [
+      "gh-fix-ci",
+      "ultraskills-hub",
+      "skill-creator",
+      "\"github-skill-scout\"",
+      "writing-skills",
+      "command-development",
+      "hook-development",
+      "plugin-settings",
+      "plugin-structure",
+      "skills-finder",
+      "example-skill",
+      "using-superpowers",
+      "claude-automation-recommender",
+      "claude-md-improver",
+      "context-engineering-collection",
+      "find-skills",
+      "skill-template"
+    ],
+    "subclusters": [
+      {
+        "id": "skills-mgmt-lifecycle",
+        "name": "Skill 生命周期",
+        "skill_count": 2,
+        "winner": "skill-creator",
+        "skills": [
+          "skill-creator",
+          "\"github-skill-scout\""
+        ]
+      },
+      {
+        "id": "skills-mgmt-search",
+        "name": "Skill 搜索 & 发现",
+        "skill_count": 3,
+        "winner": "ultraskills-hub",
+        "skills": [
+          "ultraskills-hub",
+          "skills-finder",
+          "find-skills"
+        ]
+      },
+      {
+        "id": "skills-mgmt-claude-config",
+        "name": "Claude 配置工具",
+        "skill_count": 6,
+        "winner": "plugin-structure",
+        "skills": [
+          "plugin-structure",
+          "hook-development",
+          "plugin-settings",
+          "command-development",
+          "claude-md-improver",
+          "claude-automation-recommender"
+        ]
+      },
+      {
+        "id": "skills-mgmt-other",
+        "name": "其他",
+        "skill_count": 6,
+        "winner": "gh-fix-ci",
+        "skills": [
+          "gh-fix-ci",
+          "writing-skills",
+          "example-skill",
+          "context-engineering-collection",
+          "using-superpowers",
+          "skill-template"
+        ]
+      }
     ]
   },
   {
@@ -677,8 +668,8 @@
           "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-ar",
-          "planning-with-files-es",
-          "planning-with-files-de"
+          "planning-with-files-de",
+          "planning-with-files-es"
         ]
       },
       {
@@ -721,9 +712,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
           "image-reviewer",
-          "image-auditor"
+          "image-auditor",
+          "image-analyzer"
         ]
       },
       {
@@ -929,8 +920,8 @@
         "skills": [
           "setup-deploy",
           "land-and-deploy",
-          "ship",
           "canary",
+          "ship",
           "devops-engineer"
         ]
       }
@@ -1099,20 +1090,6 @@
     ]
   },
   {
-    "id": "engineering-testing",
-    "name": "工程·测试",
-    "skill_count": 6,
-    "winner": "triage-issue",
-    "skills": [
-      "triage-issue",
-      "skill-arena",
-      "writing-hookify-rules",
-      "test-case-templates",
-      "test-driven-development",
-      "benchmark"
-    ]
-  },
-  {
     "id": "marketing-cro",
     "name": "营销·转化率优化",
     "skill_count": 6,
@@ -1217,6 +1194,19 @@
       "kotlin-specialist",
       "react-native-expert",
       "swift-expert"
+    ]
+  },
+  {
+    "id": "engineering-testing",
+    "name": "工程·测试",
+    "skill_count": 5,
+    "winner": "triage-issue",
+    "skills": [
+      "triage-issue",
+      "writing-hookify-rules",
+      "test-case-templates",
+      "test-driven-development",
+      "benchmark"
     ]
   },
   {
@@ -1346,17 +1336,6 @@
     ]
   },
   {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 3,
-    "winner": "skill-security-scan",
-    "skills": [
-      "skill-security-scan",
-      "cso",
-      "security-reviewer"
-    ]
-  },
-  {
     "id": "marketing-ads",
     "name": "营销·广告",
     "skill_count": 3,
@@ -1418,6 +1397,16 @@
     "skills": [
       "chinese-text-analysis",
       "reasoning-trace-optimizer"
+    ]
+  },
+  {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 2,
+    "winner": "cso",
+    "skills": [
+      "cso",
+      "security-reviewer"
     ]
   },
   {
