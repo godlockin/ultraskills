@@ -95,3 +95,6 @@
 [submodule "external/cua"]
 	path = external/cua
 	url = https://github.com/trycua/cua.git
+[submodule "external/phuryn-pm-skills"]
+	path = external/phuryn-pm-skills
+	url = https://github.com/phuryn/pm-skills.git
