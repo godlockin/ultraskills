@@ -1741,6 +1741,269 @@
     "auxiliary": false
   },
   {
+    "id": "pm-skills",
+    "path": "./community/pm-skills/SKILL.md",
+    "description": "\"Product management workflow collection (22 skills across the full PM lifecycle — discovery, strategy, execution, GTM, data analytics) from phuryn/pm-skills v2.1.0. Encodes proven frameworks from Teresa Torres (Continuous Discovery), Marty Cagan (Inspired), Alberto Savoia (assumption testing), Geoffrey Moore (beachhead segment). Use when doing product discovery, writing a PRD, mapping opportunities, running pre-mortems, prioritizing features, building growth loops, designing experiments, analyzing cohorts or A/B tests, creating competitive battlecards, drafting product vision, or any PM lifecycle task. Triggers: 'product discovery', 'opportunity solution tree', 'OST', 'write a PRD', 'product requirements', 'user interview', 'pre-mortem', 'red team strategy', 'growth loops', 'beachhead segment', 'lean canvas', 'SWOT', 'Porter five forces', 'value proposition', 'cohort analysis', 'A/B test analysis', 'competitive battlecard', 'stakeholder map', 'prioritization framework', 'release notes', 'product vision', 'product strategy'.\"",
+    "tags": [
+      "product-management",
+      "pm",
+      "discovery",
+      "strategy",
+      "execution",
+      "gtm",
+      "prd",
+      "okr",
+      "growth",
+      "marketing",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ab-test-analysis",
+    "path": "./community/pm-skills/data/ab-test-analysis/SKILL.md",
+    "description": "\"Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "cohort-analysis",
+    "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
+    "description": "\"Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brainstorm-ideas-new",
+    "path": "./community/pm-skills/discovery/brainstorm-ideas-new/SKILL.md",
+    "description": "\"Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "identify-assumptions-new",
+    "path": "./community/pm-skills/discovery/identify-assumptions-new/SKILL.md",
+    "description": "\"Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "interview-script",
+    "path": "./community/pm-skills/discovery/interview-script/SKILL.md",
+    "description": "\"Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "opportunity-solution-tree",
+    "path": "./community/pm-skills/discovery/opportunity-solution-tree/SKILL.md",
+    "description": "\"Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "prioritize-assumptions",
+    "path": "./community/pm-skills/discovery/prioritize-assumptions/SKILL.md",
+    "description": "\"Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "summarize-interview",
+    "path": "./community/pm-skills/discovery/summarize-interview/SKILL.md",
+    "description": "\"Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "create-prd",
+    "path": "./community/pm-skills/execution/create-prd/SKILL.md",
+    "description": "\"Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "pre-mortem",
+    "path": "./community/pm-skills/execution/pre-mortem/SKILL.md",
+    "description": "\"Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "prioritization-frameworks",
+    "path": "./community/pm-skills/execution/prioritization-frameworks/SKILL.md",
+    "description": "\"Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "release-notes",
+    "path": "./community/pm-skills/execution/release-notes/SKILL.md",
+    "description": "\"Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "stakeholder-map",
+    "path": "./community/pm-skills/execution/stakeholder-map/SKILL.md",
+    "description": "\"Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "beachhead-segment",
+    "path": "./community/pm-skills/gtm/beachhead-segment/SKILL.md",
+    "description": "\"Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "competitive-battlecard",
+    "path": "./community/pm-skills/gtm/competitive-battlecard/SKILL.md",
+    "description": "\"Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?'\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "growth-loops",
+    "path": "./community/pm-skills/gtm/growth-loops/SKILL.md",
+    "description": "\"Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "lean-canvas",
+    "path": "./community/pm-skills/strategy/lean-canvas/SKILL.md",
+    "description": "\"Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "porters-five-forces",
+    "path": "./community/pm-skills/strategy/porters-five-forces/SKILL.md",
+    "description": "\"Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "product-vision",
+    "path": "./community/pm-skills/strategy/product-vision/SKILL.md",
+    "description": "\"Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "swot-analysis",
+    "path": "./community/pm-skills/strategy/swot-analysis/SKILL.md",
+    "description": "\"Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "value-proposition",
+    "path": "./community/pm-skills/strategy/value-proposition/SKILL.md",
+    "description": "\"Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "dummy-dataset",
+    "path": "./community/pm-skills/toolkit/dummy-dataset/SKILL.md",
+    "description": "\"Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.\"",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "poster-print-design",
     "path": "./community/poster-print-design/SKILL.md",
     "description": "用 HTML/CSS 出海报、社交卡片 (OG / Twitter card)、印刷品 (A3/A4/名片)。Playwright 截图 → PNG/JPG/PDF（含 CMYK 出血提示）。模板库：博客分享卡、活动海报、Slogan 卡、价格表。Trigger on poster / 海报 / og image / social card / 分享卡 / print / a4 / 名片 / banner。",
@@ -3511,6 +3774,237 @@
       "anthropic-financial-services"
     ],
     "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "anysearch",
+    "path": "./external/anysearch/SKILL.md",
+    "description": "Real-time search engine supporting web search, vertical domain search (23 domains), parallel batch search, and URL content extraction.",
+    "tags": [
+      "anysearch"
+    ],
+    "version": "2.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-article-illustrator",
+    "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
+    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-comic",
+    "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
+    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-compress-image",
+    "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
+    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-cover-image",
+    "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
+    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-danger-gemini-web",
+    "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
+    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-danger-x-to-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
+    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-diagram",
+    "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
+    "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-format-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
+    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.57.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-image-cards",
+    "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
+    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-imagine",
+    "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
+    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-infographic",
+    "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
+    "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-markdown-to-html",
+    "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
+    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-wechat",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
+    "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-weibo",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
+    "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-x",
+    "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
+    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-slide-deck",
+    "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
+    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-translate",
+    "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
+    "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.59.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-url-to-markdown",
+    "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
+    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.61.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-xhs-images",
+    "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
+    "description": "\"[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \\\"小红书图片\\\", \\\"XHS images\\\", \\\"RedNote infographics\\\", \\\"小红书种草\\\", \\\"小绿书\\\", \\\"微信图文\\\", \\\"微信贴图\\\", or wants social media infographic series for Chinese platforms.\"",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-youtube-transcript",
+    "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
+    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
+    "tags": [
+      "baoyu"
+    ],
+    "version": "1.1.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -5304,39 +5798,6 @@
     "auxiliary": false
   },
   {
-    "id": "cua-driver-rs",
-    "path": "./external/cua/libs/cua-driver/rust/Skills/cua-driver/SKILL.md",
-    "description": "Drive a native GUI app (macOS, Windows, Linux) via the cua-driver CLI (default) or MCP server — snapshot its accessibility tree, click/type/scroll by element_index or pixel coords, verify via re-snapshot, all without bringing the target to the foreground. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real application on the host.",
-    "tags": [
-      "cua"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "cua-driver",
-    "path": "./external/cua/libs/cua-driver/swift/Skills/cua-driver/SKILL.md",
-    "description": "Drive a native macOS app via the cua-driver CLI (default) or MCP server — snapshot its AX tree, click/type/scroll by element_index, verify via re-snapshot. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real macOS application on the host (e.g. \"open a file in TextEdit\", \"navigate to /Applications in Finder\", \"click the Save button in Numbers\").",
-    "tags": [
-      "cua"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "gui-automation",
-    "path": "./external/cua/skills/gui-automation/SKILL.md",
-    "description": "Use when you need to visually interact with a GUI — test buttons, fill forms, verify visual layouts, fuzz web pages, automate user flows, take screenshots, or perform end-to-end QA on any application. Works on cloud VMs, Docker containers, local machines, and sandboxes. Install: pip install cua.",
-    "tags": [
-      "cua"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "dbs",
     "path": "./external/dbskill/skills/dbs/SKILL.md",
     "description": "dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。\n触发方式：/dbs、/商业、「帮我看看」\nMain entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.\nTrigger: /dbs, \"help me with my business\"",
@@ -6671,6 +7132,17 @@
     "auxiliary": false
   },
   {
+    "id": "impeccable",
+    "path": "./external/impeccable/plugin/skills/impeccable/SKILL.md",
+    "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+    "tags": [
+      "impeccable"
+    ],
+    "version": "3.5.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "aihot",
     "path": "./external/khazix-skills/aihot/SKILL.md",
     "description": "AI HOT (aihot.virxact.com) 中文 AI 资讯查询 Skill。当用户想知道\"今天 AI 圈有什么\"、\"AI 日报\"、\"AI HOT\"、\"AI 资讯\"、\"AI 热点\"、\"最近 AI\"、\"OpenAI/Anthropic/Google 最近发布了什么\"、\"AI hot today\"、\"AI news today\"、\"看一下 AI 行业动态\"、\"今天有什么大模型发布\"、\"昨天 AI 圈\"、\"看下精选条目\"、\"AI HOT 精选\"、\"最近一周的 AI 论文\"、\"AI 模型发布\"、\"AI 产品发布\"、\"AI 行业动态\"、\"AI 技巧与观点\" 等任何中文 AI 资讯查询时使用。即使用户只说\"AI 圈\"、\"AI 新闻\"、\"AI 日报\"，或者只是问\"今天发生了什么\"且上下文是 AI / 大模型 / LLM / 创业领域，也应该触发本 Skill。Skill 会直接 curl 公开 REST API 拉数据并整理成中文 markdown 简报，不需要用户配置任何 API Key 或 MCP server。**不要 undertrigger**——用户问 AI 资讯而你不调本 Skill 就是把过时的训练数据当作今日新闻，对用户有害。",
@@ -6709,6 +7181,2239 @@
     "description": "End-of-session knowledge cleanup with OCD-level rigor — reconciles project docs (CLAUDE.md, README.md, docs/) and agent memory against the code so nothing rots. 会话结束后对项目文档和记忆进行洁癖级审查与同步。MUST trigger when the user says: \"sync up\", \"tidy up docs\", \"update memory\", \"clean up docs\", \"/sync\", \"/neat\", \"同步一下\", \"整理文档\", \"整理一下\", \"更新记忆\", \"梳理一下\", \"收尾\", \"这个阶段做完了\", \"新人能直接上手\", or any phrase suggesting a dev milestone where knowledge needs reconciliation. Also trigger when the user reports stale docs, conflicting memories, or wants a clean handoff to teammates or other agents. Bare \"整理\" / \"tidy\" with prior dev context counts — do not under-trigger. Cross-platform: works on Claude Code, OpenAI Codex, OpenCode, and OpenClaw.",
     "tags": [
       "khazix"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "instrument-data-to-allotrope",
+    "path": "./external/knowledge-work-plugins/bio-research/skills/instrument-data-to-allotrope/SKILL.md",
+    "description": "Convert laboratory instrument output files (PDF, CSV, Excel, TXT) to Allotrope Simple Model (ASM) JSON format or flattened 2D CSV. Use this skill when scientists need to standardize instrument data for LIMS systems, data lakes, or downstream analysis. Supports auto-detection of instrument types. Outputs include full ASM JSON, flattened CSV for easy import, and exportable Python code for data engineers. Common triggers include converting instrument files, standardizing lab data, preparing data for upload to LIMS/ELN systems, or generating parser code for production pipelines.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "nextflow-development",
+    "path": "./external/knowledge-work-plugins/bio-research/skills/nextflow-development/SKILL.md",
+    "description": "Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on sequencing data. Use when analyzing RNA-seq, WGS/WES, or ATAC-seq data—either local FASTQs or public datasets from GEO/SRA. Triggers on nf-core, Nextflow, FASTQ analysis, variant calling, gene expression, differential expression, GEO reanalysis, GSE/GSM/SRR accessions, or samplesheet creation.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "scientific-problem-selection",
+    "path": "./external/knowledge-work-plugins/bio-research/skills/scientific-problem-selection/SKILL.md",
+    "description": "This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions. Use this skill when users ask to pitch a new research idea, work through a project problem, evaluate project risks, plan research strategy, navigate decision trees, or get help choosing what scientific problem to work on. Typical requests include \"I have an idea for a project\", \"I'm stuck on my research\", \"help me evaluate this project\", \"what should I work on\", or \"I need strategic advice about my research\".",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "single-cell-rna-qc",
+    "path": "./external/knowledge-work-plugins/bio-research/skills/single-cell-rna-qc/SKILL.md",
+    "description": "Performs quality control on single-cell RNA-seq data (.h5ad or .h5 files) using scverse best practices with MAD-based filtering and comprehensive visualizations. Use when users request QC analysis, filtering low-quality cells, assessing data quality, or following scverse/scanpy best practices for single-cell analysis.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "start",
+    "path": "./external/knowledge-work-plugins/bio-research/skills/start/SKILL.md",
+    "description": "Set up your bio-research environment and explore available tools. Use when first getting oriented with the plugin, checking which literature, drug-discovery, or visualization MCP servers are connected, or surveying available analysis skills before starting a new project.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "cowork-plugin-customizer",
+    "path": "./external/knowledge-work-plugins/cowork-plugin-management/skills/cowork-plugin-customizer/SKILL.md",
+    "description": "Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, set up plugin, configure plugin, tailor plugin, adjust plugin settings, customize plugin connectors, customize plugin skill, tweak plugin, modify plugin configuration.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "create-cowork-plugin",
+    "path": "./external/knowledge-work-plugins/cowork-plugin-management/skills/create-cowork-plugin/SKILL.md",
+    "description": "Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin, start a plugin from scratch, or design a plugin. This skill requires Cowork mode with access to the outputs directory for delivering the final .plugin file.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "customer-escalation",
+    "path": "./external/knowledge-work-plugins/customer-support/skills/customer-escalation/SKILL.md",
+    "description": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "customer-research",
+    "path": "./external/knowledge-work-plugins/customer-support/skills/customer-research/SKILL.md",
+    "description": "Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously told to a specific account, or gathering background before drafting a response.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "draft-response",
+    "path": "./external/knowledge-work-plugins/customer-support/skills/draft-response/SKILL.md",
+    "description": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "kb-article",
+    "path": "./external/knowledge-work-plugins/customer-support/skills/kb-article/SKILL.md",
+    "description": "Draft a knowledge base article from a resolved issue or common question. Use when a ticket resolution is worth documenting for self-service, the same question keeps coming up, a workaround needs to be published, or a known issue should be communicated to customers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ticket-triage",
+    "path": "./external/knowledge-work-plugins/customer-support/skills/ticket-triage/SKILL.md",
+    "description": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "analyze",
+    "path": "./external/knowledge-work-plugins/data/skills/analyze/SKILL.md",
+    "description": "Answer data questions -- from quick lookups to full analyses. Use when looking up a single metric, investigating what's driving a trend or drop, comparing segments over time, or preparing a formal data report for stakeholders.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-dashboard",
+    "path": "./external/knowledge-work-plugins/data/skills/build-dashboard/SKILL.md",
+    "description": "Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview with KPI cards, turning query results into a shareable self-contained report, building a team monitoring snapshot, or needing multiple charts with filters in one browser-openable file.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "create-viz",
+    "path": "./external/knowledge-work-plugins/data/skills/create-viz/SKILL.md",
+    "description": "Create publication-quality visualizations with Python. Use when turning query results or a DataFrame into a chart, selecting the right chart type for a trend or comparison, generating a plot for a report or presentation, or needing an interactive chart with hover and zoom.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "data-context-extractor",
+    "path": "./external/knowledge-work-plugins/data/skills/data-context-extractor/SKILL.md",
+    "description": "Generate or improve a company-specific data analysis skill by extracting tribal knowledge from analysts. BOOTSTRAP MODE - Triggers: \"Create a data context skill\", \"Set up data analysis for our warehouse\", \"Help me create a skill for our database\", \"Generate a data skill for [company]\" → Discovers schemas, asks key questions, generates initial skill with reference files ITERATION MODE - Triggers: \"Add context about [domain]\", \"The skill needs more info about [topic]\", \"Update the data skill with [metrics/tables/terminology]\", \"Improve the [domain] reference\" → Loads existing skill, asks targeted questions, appends/updates reference files Use when data analysts want Claude to understand their company's specific data warehouse, terminology, metrics definitions, and common query patterns.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "data-visualization",
+    "path": "./external/knowledge-work-plugins/data/skills/data-visualization/SKILL.md",
+    "description": "Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choosing the right chart type for a dataset, creating publication-quality figures, or applying design principles like accessibility and color theory.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "explore-data",
+    "path": "./external/knowledge-work-plugins/data/skills/explore-data/SKILL.md",
+    "description": "Profile and explore a dataset to understand its shape, quality, and patterns. Use when encountering a new table or file, checking null rates and column distributions, spotting data quality issues like duplicates or suspicious values, or deciding which dimensions and metrics to analyze.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sql-queries",
+    "path": "./external/knowledge-work-plugins/data/skills/sql-queries/SKILL.md",
+    "description": "Write correct, performant SQL across all major data warehouse dialects (Snowflake, BigQuery, Databricks, PostgreSQL, etc.). Use when writing queries, optimizing slow SQL, translating between dialects, or building complex analytical queries with CTEs, window functions, or aggregations.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "validate-data",
+    "path": "./external/knowledge-work-plugins/data/skills/validate-data/SKILL.md",
+    "description": "QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and aggregation logic, verifying a SQL query's results look right, or assessing whether conclusions are actually supported by the data.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "write-query",
+    "path": "./external/knowledge-work-plugins/data/skills/write-query/SKILL.md",
+    "description": "Write optimized SQL for your dialect with best practices. Use when translating a natural-language data need into SQL, building a multi-CTE query with joins and aggregations, optimizing a query against a large partitioned table, or getting dialect-specific syntax for Snowflake, BigQuery, Postgres, etc.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "accessibility-review",
+    "path": "./external/knowledge-work-plugins/design/skills/accessibility-review/SKILL.md",
+    "description": "Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with \"audit accessibility\", \"check a11y\", \"is this accessible?\", or when reviewing a design for color contrast, keyboard navigation, touch target size, or screen reader behavior before handoff.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-critique",
+    "path": "./external/knowledge-work-plugins/design/skills/design-critique/SKILL.md",
+    "description": "Get structured design feedback on usability, hierarchy, and consistency. Trigger with \"review this design\", \"critique this mockup\", \"what do you think of this screen?\", or when sharing a Figma link or screenshot for feedback at any stage from exploration to final polish.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-handoff",
+    "path": "./external/knowledge-work-plugins/design/skills/design-handoff/SKILL.md",
+    "description": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases, and animation details.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-system",
+    "path": "./external/knowledge-work-plugins/design/skills/design-system/SKILL.md",
+    "description": "Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, and accessibility notes, or designing a new pattern that fits the existing system.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "research-synthesis",
+    "path": "./external/knowledge-work-plugins/design/skills/research-synthesis/SKILL.md",
+    "description": "Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that need to be distilled into patterns, user segments, and prioritized next steps.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "user-research",
+    "path": "./external/knowledge-work-plugins/design/skills/user-research/SKILL.md",
+    "description": "Plan, conduct, and synthesize user research. Trigger with \"user research plan\", \"interview guide\", \"usability test\", \"survey design\", \"research questions\", or when the user needs help with any aspect of understanding their users through research.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ux-copy",
+    "path": "./external/knowledge-work-plugins/design/skills/ux-copy/SKILL.md",
+    "description": "Write or review UX copy — microcopy, error messages, empty states, CTAs. Trigger with \"write copy for\", \"what should this button say?\", \"review this error message\", or when naming a CTA, wording a confirmation dialog, filling an empty state, or writing onboarding text.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "architecture",
+    "path": "./external/knowledge-work-plugins/engineering/skills/architecture/SKILL.md",
+    "description": "Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka vs SQS), documenting a design decision with trade-offs and consequences, reviewing a system design proposal, or designing a new component from requirements and constraints.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "code-review",
+    "path": "./external/knowledge-work-plugins/engineering/skills/code-review/SKILL.md",
+    "description": "Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, \"review this before I merge\", \"is this code safe?\", or when checking a change for N+1 queries, injection risks, missing edge cases, or error handling gaps.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "debug",
+    "path": "./external/knowledge-work-plugins/engineering/skills/debug/SKILL.md",
+    "description": "Structured debugging session — reproduce, isolate, diagnose, and fix. Trigger with an error message or stack trace, \"this works in staging but not prod\", \"something broke after the deploy\", or when behavior diverges from expected and the cause isn't obvious.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "deploy-checklist",
+    "path": "./external/knowledge-work-plugins/engineering/skills/deploy-checklist/SKILL.md",
+    "description": "Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals before going to production, or documenting rollback triggers ahead of time.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "documentation",
+    "path": "./external/knowledge-work-plugins/engineering/skills/documentation/SKILL.md",
+    "description": "Write and maintain technical documentation. Trigger with \"write docs for\", \"document this\", \"create a README\", \"write a runbook\", \"onboarding guide\", or when the user needs help with any form of technical writing — API docs, architecture docs, or operational runbooks.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "incident-response",
+    "path": "./external/knowledge-work-plugins/engineering/skills/incident-response/SKILL.md",
+    "description": "Run an incident response workflow — triage, communicate, and write postmortem. Trigger with \"we have an incident\", \"production is down\", an alert that needs severity assessment, a status update mid-incident, or when writing a blameless postmortem after resolution.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "standup",
+    "path": "./external/knowledge-work-plugins/engineering/skills/standup/SKILL.md",
+    "description": "Generate a standup update from recent activity. Use when preparing for daily standup, summarizing yesterday's commits and PRs and ticket moves, formatting work into yesterday/today/blockers, or structuring a few rough notes into a shareable update.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "system-design",
+    "path": "./external/knowledge-work-plugins/engineering/skills/system-design/SKILL.md",
+    "description": "Design systems, services, and architectures. Trigger with \"design a system for\", \"how should we architect\", \"system design for\", \"what's the right architecture for\", or when the user needs help with API design, data modeling, or service boundaries.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "tech-debt",
+    "path": "./external/knowledge-work-plugins/engineering/skills/tech-debt/SKILL.md",
+    "description": "Identify, categorize, and prioritize technical debt. Trigger with \"tech debt\", \"technical debt audit\", \"what should we refactor\", \"code health\", or when the user asks about code quality, refactoring priorities, or maintenance backlog.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "testing-strategy",
+    "path": "./external/knowledge-work-plugins/engineering/skills/testing-strategy/SKILL.md",
+    "description": "Design test strategies and test plans. Trigger with \"how should we test\", \"test strategy for\", \"write tests for\", \"test plan\", \"what tests do we need\", or when the user needs help with testing approaches, coverage, or test architecture.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "digest",
+    "path": "./external/knowledge-work-plugins/enterprise-search/skills/digest/SKILL.md",
+    "description": "Generate a daily or weekly digest of activity across all connected sources. Use when catching up after time away, starting the day and wanting a summary of mentions and action items, or reviewing a week's decisions and document updates grouped by project.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "knowledge-synthesis",
+    "path": "./external/knowledge-work-plugins/enterprise-search/skills/knowledge-synthesis/SKILL.md",
+    "description": "Combines search results from multiple sources into coherent, deduplicated answers with source attribution. Handles confidence scoring based on freshness and authority, and summarizes large result sets effectively.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "search",
+    "path": "./external/knowledge-work-plugins/enterprise-search/skills/search/SKILL.md",
+    "description": "Search across all connected sources in one query. Trigger with \"find that doc about...\", \"what did we decide on...\", \"where was the conversation about...\", or when looking for a decision, document, or discussion that could live in chat, email, cloud storage, or a project tracker.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "search-strategy",
+    "path": "./external/knowledge-work-plugins/enterprise-search/skills/search-strategy/SKILL.md",
+    "description": "Query decomposition and multi-source search orchestration. Breaks natural language questions into targeted searches per source, translates queries into source-specific syntax, ranks results by relevance, and handles ambiguity and fallback strategies.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "source-management",
+    "path": "./external/knowledge-work-plugins/enterprise-search/skills/source-management/SKILL.md",
+    "description": "Manages connected MCP sources for enterprise search. Detects available sources, guides users to connect new ones, handles source priority ordering, and manages rate limiting awareness.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "audit-support",
+    "path": "./external/knowledge-work-plugins/finance/skills/audit-support/SKILL.md",
+    "description": "Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards. Use when generating testing workpapers, selecting audit samples, classifying control deficiencies, or preparing for internal or external audits.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "close-management",
+    "path": "./external/knowledge-work-plugins/finance/skills/close-management/SKILL.md",
+    "description": "Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing close activities by day.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "financial-statements",
+    "path": "./external/knowledge-work-plugins/finance/skills/financial-statements/SKILL.md",
+    "description": "Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis. Use when preparing a monthly or quarterly P&L, closing the books and need to flag material variances, comparing actuals to budget, building a financial summary for leadership review, or looking up GAAP presentation requirements and period-end adjustments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "journal-entry",
+    "path": "./external/knowledge-work-plugins/finance/skills/journal-entry/SKILL.md",
+    "description": "Prepare journal entries with proper debits, credits, and supporting detail. Use when booking month-end accruals (AP, payroll, prepaid), recording depreciation or amortization, posting revenue recognition or deferred revenue adjustments, or documenting an entry for audit review.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "journal-entry-prep",
+    "path": "./external/knowledge-work-plugins/finance/skills/journal-entry-prep/SKILL.md",
+    "description": "Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or any manual journal entry.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "reconciliation",
+    "path": "./external/knowledge-work-plugins/finance/skills/reconciliation/SKILL.md",
+    "description": "Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercompany reconciliations, or identifying and categorizing reconciling items.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sox-testing",
+    "path": "./external/knowledge-work-plugins/finance/skills/sox-testing/SKILL.md",
+    "description": "Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close), building a testing workpaper template, or evaluating and classifying a control deficiency.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "variance-analysis",
+    "path": "./external/knowledge-work-plugins/finance/skills/variance-analysis/SKILL.md",
+    "description": "Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "comp-analysis",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/comp-analysis/SKILL.md",
+    "description": "Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \"what should we pay a [role]\", \"is this offer competitive\", \"model this equity grant\", or when uploading comp data to find outliers and retention risks.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "draft-offer",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/draft-offer/SKILL.md",
+    "description": "Draft an offer letter with comp details and terms. Use when a candidate is ready for an offer, assembling a total comp package (base, equity, signing bonus), writing the offer letter text itself, or prepping negotiation guidance for the hiring manager.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "interview-prep",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/interview-prep/SKILL.md",
+    "description": "Create structured interview plans with competency-based questions and scorecards. Trigger with \"interview plan for\", \"interview questions for\", \"how should we interview\", \"scorecard for\", or when the user is preparing to interview candidates.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "onboarding",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/onboarding/SKILL.md",
+    "description": "Generate an onboarding checklist and first-week plan for a new hire. Use when someone has a start date coming up, building the pre-start task list (accounts, equipment, buddy), scheduling Day 1 and Week 1, or setting 30/60/90-day goals for a new team member.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "org-planning",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/org-planning/SKILL.md",
+    "description": "Headcount planning, org design, and team structure optimization. Trigger with \"org planning\", \"headcount plan\", \"team structure\", \"reorg\", \"who should we hire next\", or when the user is thinking about team size, reporting structure, or organizational design.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "people-report",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/people-report/SKILL.md",
+    "description": "Generate headcount, attrition, diversity, or org health reports. Use when pulling a headcount snapshot for leadership, analyzing turnover trends by team, preparing diversity representation metrics, or assessing span of control and flight risk across the org.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "performance-review",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/performance-review/SKILL.md",
+    "description": "Structure a performance review with self-assessment, manager template, and calibration prep. Use when review season kicks off and you need a self-assessment template, writing a manager review for a direct report, prepping rating distributions and promotion cases for calibration, or turning vague feedback into specific behavioral examples.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "policy-lookup",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/policy-lookup/SKILL.md",
+    "description": "Find and explain company policies in plain language. Trigger with \"what's our PTO policy\", \"can I work remotely from another country\", \"how do expenses work\", or any plain-language question about benefits, travel, leave, or handbook rules.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "recruiting-pipeline",
+    "path": "./external/knowledge-work-plugins/human-resources/skills/recruiting-pipeline/SKILL.md",
+    "description": "Track and manage recruiting pipeline stages. Trigger with \"recruiting update\", \"candidate pipeline\", \"how many candidates\", \"hiring status\", or when the user discusses sourcing, screening, interviewing, or extending offers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brief",
+    "path": "./external/knowledge-work-plugins/legal/skills/brief/SKILL.md",
+    "description": "Generate contextual briefings for legal work — daily summary, topic research, or incident response. Use when starting your day and need a scan of legal-relevant items across email, calendar, and contracts, when researching a specific legal question across internal sources, or when a developing situation (data breach, litigation threat, regulatory inquiry) needs rapid context.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "compliance-check",
+    "path": "./external/knowledge-work-plugins/legal/skills/compliance-check/SKILL.md",
+    "description": "Run a compliance check on a proposed action, product feature, or business initiative, surfacing applicable regulations, required approvals, and risk areas. Use when launching a feature that touches personal data, when marketing or product proposes something with regulatory implications, or when you need to know which approvals and jurisdictional requirements apply before proceeding.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "legal-response",
+    "path": "./external/knowledge-work-plugins/legal/skills/legal-response/SKILL.md",
+    "description": "Generate a response to a common legal inquiry using configured templates, with built-in escalation checks for situations that shouldn't use a templated reply. Use when responding to data subject requests, litigation hold notices, vendor legal questions, NDA requests from business teams, or subpoenas.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "legal-risk-assessment",
+    "path": "./external/knowledge-work-plugins/legal/skills/legal-risk-assessment/SKILL.md",
+    "description": "Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating contract risk, assessing deal exposure, classifying issues by severity, or determining whether a matter needs senior counsel or outside legal review.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "meeting-briefing",
+    "path": "./external/knowledge-work-plugins/legal/skills/meeting-briefing/SKILL.md",
+    "description": "Prepare structured briefings for meetings with legal relevance and track resulting action items. Use when preparing for contract negotiations, board meetings, compliance reviews, or any meeting where legal context, background research, or action tracking is needed.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "review-contract",
+    "path": "./external/knowledge-work-plugins/legal/skills/review-contract/SKILL.md",
+    "description": "Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "signature-request",
+    "path": "./external/knowledge-work-plugins/legal/skills/signature-request/SKILL.md",
+    "description": "Prepare and route a document for e-signature — run a pre-signature checklist, configure signing order, and send for execution. Use when a contract is finalized and ready to sign, when verifying entity names, exhibits, and signature blocks before sending, or when setting up an envelope with sequential or parallel signers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "triage-nda",
+    "path": "./external/knowledge-work-plugins/legal/skills/triage-nda/SKILL.md",
+    "description": "Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review). Use when a new NDA arrives from sales or business development, when screening for embedded non-solicits, non-competes, or missing carveouts, or when deciding whether an NDA can be signed under standard delegation.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "vendor-check",
+    "path": "./external/knowledge-work-plugins/legal/skills/vendor-check/SKILL.md",
+    "description": "Check the status of existing agreements with a vendor across all connected systems — CLM, CRM, email, and document storage — with gap analysis and upcoming deadlines. Use when onboarding or renewing a vendor, when you need a consolidated view of what's signed and what's missing (MSA, DPA, SOW), or when checking for approaching expirations and surviving obligations.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brand-review",
+    "path": "./external/knowledge-work-plugins/marketing/skills/brand-review/SKILL.md",
+    "description": "Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes. Use when checking a draft before it ships, when auditing copy for voice consistency and terminology, or when screening for unsubstantiated claims, missing disclaimers, and other legal flags.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "campaign-plan",
+    "path": "./external/knowledge-work-plugins/marketing/skills/campaign-plan/SKILL.md",
+    "description": "Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics. Use when planning a product launch, lead-gen push, or awareness campaign, when you need a week-by-week content calendar with dependencies, or when translating a marketing goal into a structured, executable plan.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "competitive-brief",
+    "path": "./external/knowledge-work-plugins/marketing/skills/competitive-brief/SKILL.md",
+    "description": "Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats. Use when building sales battlecards, when finding positioning gaps and messaging angles competitors haven't claimed, or when a competitor makes a move and you need to assess the impact.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "content-creation",
+    "path": "./external/knowledge-work-plugins/marketing/skills/content-creation/SKILL.md",
+    "description": "Draft marketing content across channels — blog posts, social media, email newsletters, landing pages, press releases, and case studies. Use when writing any marketing content, when you need channel-specific formatting, SEO-optimized copy, headline options, or calls to action.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "draft-content",
+    "path": "./external/knowledge-work-plugins/marketing/skills/draft-content/SKILL.md",
+    "description": "Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations. Use when writing any marketing content, when you need headline or subject line options, or when adapting a message for a specific platform, audience, and brand voice.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "email-sequence",
+    "path": "./external/knowledge-work-plugins/marketing/skills/email-sequence/SKILL.md",
+    "description": "Design and draft multi-email sequences with full copy, timing, branching logic, exit conditions, and performance benchmarks. Use when building onboarding, lead nurture, re-engagement, win-back, or product launch flows, when you need a complete drip campaign with A/B test suggestions, or when mapping a sequence end-to-end with a flow diagram.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "performance-report",
+    "path": "./external/knowledge-work-plugins/marketing/skills/performance-report/SKILL.md",
+    "description": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summary with next-period priorities.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "seo-audit",
+    "path": "./external/knowledge-work-plugins/marketing/skills/seo-audit/SKILL.md",
+    "description": "Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison. Use when assessing a site's SEO health, when finding keyword opportunities and content gaps competitors own, or when you need a prioritized action plan split into quick wins and strategic investments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "capacity-plan",
+    "path": "./external/knowledge-work-plugins/operations/skills/capacity-plan/SKILL.md",
+    "description": "Plan resource capacity — workload analysis and utilization forecasting. Use when heading into quarterly planning, the team feels overallocated and you need the numbers, deciding whether to hire or deprioritize, or stress-testing whether upcoming projects fit the people you have.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "change-request",
+    "path": "./external/knowledge-work-plugins/operations/skills/change-request/SKILL.md",
+    "description": "Create a change management request with impact analysis and rollback plan. Use when proposing a system or process change that needs approval, preparing a change record for CAB review, documenting risk and rollback steps before a deployment, or planning stakeholder communications for a rollout.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "compliance-tracking",
+    "path": "./external/knowledge-work-plugins/operations/skills/compliance-tracking/SKILL.md",
+    "description": "Track compliance requirements and audit readiness. Trigger with \"compliance\", \"audit prep\", \"SOC 2\", \"ISO 27001\", \"GDPR\", \"regulatory requirement\", or when the user needs help tracking, preparing for, or documenting compliance activities.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "process-doc",
+    "path": "./external/knowledge-work-plugins/operations/skills/process-doc/SKILL.md",
+    "description": "Document a business process — flowcharts, RACI, and SOPs. Use when formalizing a process that lives in someone's head, building a RACI to clarify who owns what, writing an SOP for a handoff or audit, or capturing the exceptions and edge cases of how work actually gets done.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "process-optimization",
+    "path": "./external/knowledge-work-plugins/operations/skills/process-optimization/SKILL.md",
+    "description": "Analyze and improve business processes. Trigger with \"this process is slow\", \"how can we improve\", \"streamline this workflow\", \"too many steps\", \"bottleneck\", or when the user describes an inefficient process they want to fix.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "risk-assessment",
+    "path": "./external/knowledge-work-plugins/operations/skills/risk-assessment/SKILL.md",
+    "description": "Identify, assess, and mitigate operational risks. Trigger with \"what are the risks\", \"risk assessment\", \"risk register\", \"what could go wrong\", or when the user is evaluating risks associated with a project, vendor, process, or decision.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "runbook",
+    "path": "./external/knowledge-work-plugins/operations/skills/runbook/SKILL.md",
+    "description": "Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on-call or ops needs to run repeatably, turning tribal knowledge into exact step-by-step commands, adding troubleshooting and rollback steps to an existing procedure, or writing escalation paths for when things go wrong.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "status-report",
+    "path": "./external/knowledge-work-plugins/operations/skills/status-report/SKILL.md",
+    "description": "Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for leadership, summarizing project health with green/yellow/red status, surfacing risks and decisions that need stakeholder attention, or turning a pile of project tracker activity into a readable narrative.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "vendor-review",
+    "path": "./external/knowledge-work-plugins/operations/skills/vendor-review/SKILL.md",
+    "description": "Evaluate a vendor — cost analysis, risk assessment, and recommendation. Use when reviewing a new vendor proposal, deciding whether to renew or replace a contract, comparing two vendors side-by-side, or building a TCO breakdown and negotiation points before procurement sign-off.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "enrich-lead",
+    "path": "./external/knowledge-work-plugins/partner-built/apollo/skills/enrich-lead/SKILL.md",
+    "description": "\"Instant lead enrichment. Drop a name, company, LinkedIn URL, or email and get the full contact card with email, phone, title, company intel, and next actions.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "prospect",
+    "path": "./external/knowledge-work-plugins/partner-built/apollo/skills/prospect/SKILL.md",
+    "description": "\"Full ICP-to-leads pipeline. Describe your ideal customer in plain English and get a ranked table of enriched decision-maker leads with emails and phone numbers.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sequence-load",
+    "path": "./external/knowledge-work-plugins/partner-built/apollo/skills/sequence-load/SKILL.md",
+    "description": "\"Find leads matching criteria and bulk-add them to an Apollo outreach sequence. Handles enrichment, contact creation, deduplication, and enrollment in one flow.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brand-voice-enforcement",
+    "path": "./external/knowledge-work-plugins/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md",
+    "description": "This skill applies brand guidelines to content creation. It should be used when the user asks to \"write an email\", \"draft a proposal\", \"create a pitch deck\", \"write a LinkedIn post\", \"draft a presentation\", \"write a Slack message\", \"draft sales content\", or any content creation request where brand voice should be applied. Also triggers on \"on-brand\", \"brand voice\", \"enforce voice\", \"apply brand guidelines\", \"brand-aligned content\", \"write in our voice\", \"use our brand tone\", \"make this sound like us\", \"rewrite this in our tone\", or \"this doesn't sound on-brand\". Not for generating guidelines from scratch (use guideline-generation) or discovering brand materials (use discover-brand).",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "discover-brand",
+    "path": "./external/knowledge-work-plugins/partner-built/brand-voice/skills/discover-brand/SKILL.md",
+    "description": "This skill orchestrates autonomous discovery of brand materials across enterprise platforms (Notion, Confluence, Google Drive, Box, SharePoint, Figma, Gong, Granola, Slack). It should be used when the user asks to \"discover brand materials\", \"find brand documents\", \"search for brand guidelines\", \"audit brand content\", \"what brand materials do we have\", \"find our style guide\", \"where are our brand docs\", \"do we have a style guide\", \"discover brand voice\", \"brand content audit\", or \"find brand assets\".",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "guideline-generation",
+    "path": "./external/knowledge-work-plugins/partner-built/brand-voice/skills/guideline-generation/SKILL.md",
+    "description": "This skill generates, creates, or builds brand voice guidelines from source materials. It should be used when the user asks to \"generate brand guidelines\", \"create a style guide\", \"extract brand voice\", \"create guidelines from calls\", \"consolidate brand materials\", \"analyze my sales calls for brand voice\", \"build a brand playbook from documents\", \"synthesize a voice and tone guide\", or uploads brand documents, transcripts, or meeting recordings for brand analysis. Also triggers when the user has a discovery report and wants to convert it into actionable guidelines.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "account-research",
+    "path": "./external/knowledge-work-plugins/partner-built/common-room/skills/account-research/SKILL.md",
+    "description": "\"Research a company using Common Room data. Triggers on 'research [company]', 'tell me about [domain]', 'pull up signals for [account]', 'what's going on with [company]', or any account-level question.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "call-prep",
+    "path": "./external/knowledge-work-plugins/partner-built/common-room/skills/call-prep/SKILL.md",
+    "description": "\"Prepare for a customer or prospect call using Common Room signals. Triggers on 'prep me for my call with [company]', 'prepare for a meeting with [company]', 'what should I know before talking to [company]', or any call preparation request.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "compose-outreach",
+    "path": "./external/knowledge-work-plugins/partner-built/common-room/skills/compose-outreach/SKILL.md",
+    "description": "\"Generate personalized outreach messages using Common Room signals. Triggers on 'draft outreach to [person]', 'write an email to [name]', 'compose a message for [contact]', or any outreach drafting request.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contact-research",
+    "path": "./external/knowledge-work-plugins/partner-built/common-room/skills/contact-research/SKILL.md",
+    "description": "\"Research a specific person using Common Room data. Triggers on 'who is [name]', 'look up [email]', 'research [contact]', 'is [name] a warm lead', or any contact-level question.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "weekly-prep-brief",
+    "path": "./external/knowledge-work-plugins/partner-built/common-room/skills/weekly-prep-brief/SKILL.md",
+    "description": "\"Generate a comprehensive weekly briefing for all external calls in the next 7 days. Triggers on 'weekly prep brief', 'prepare my week', 'what calls do I have this week', 'Monday prep', or any weekly planning request.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "slack-messaging",
+    "path": "./external/knowledge-work-plugins/partner-built/slack/skills/slack-messaging/SKILL.md",
+    "description": "Guidance for composing well-formatted, effective Slack messages using mrkdwn syntax",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "slack-search",
+    "path": "./external/knowledge-work-plugins/partner-built/slack/skills/slack-search/SKILL.md",
+    "description": "Guidance for effectively searching Slack to find messages, files, channels, and people",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-bot",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/build-zoom-bot/SKILL.md",
+    "description": "Build a Zoom meeting bot, recorder, or real-time media workflow. Use when joining meetings programmatically, processing live media or transcripts, or combining Meeting SDK, RTMS, and backend services.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-meeting-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/build-zoom-meeting-app/SKILL.md",
+    "description": "Build or embed a Zoom meeting flow. Use when implementing Meeting SDK joins, web or mobile meeting embeds, meeting lifecycle flows, or when deciding between Meeting SDK and Video SDK.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "choose-zoom-approach",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/choose-zoom-approach/SKILL.md",
+    "description": "Choose the right Zoom architecture for a use case. Use when deciding between REST API, Webhooks, WebSockets, Meeting SDK, Video SDK, Zoom Apps SDK, Zoom MCP, Phone, Contact Center, or a hybrid approach.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-cobrowse-sdk",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/cobrowse-sdk/SKILL.md",
+    "description": "\"Reference skill for Zoom Cobrowse SDK. Use after routing to a collaborative-support workflow when implementing browser co-browsing, annotation tools, privacy masking, remote assist, or PIN-based session sharing.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-contact-center-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/contact-center/SKILL.md",
+    "description": "\"Reference skill for Zoom Contact Center. Use after routing to a contact-center workflow when implementing app, web, or native integrations; engagement context and state handling; campaigns; callbacks; or version-drift troubleshooting.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contact-center/android",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/contact-center/android/SKILL.md",
+    "description": "\"Zoom Contact Center SDK for Android. Use for native Android chat/video/ZVA/scheduled callback integrations, campaign mode, service lifecycle, and rejoin handling.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contact-center/ios",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/contact-center/ios/SKILL.md",
+    "description": "\"Zoom Contact Center SDK for iOS. Use for native iOS chat/video/ZVA/scheduled callback integrations, app lifecycle bridging, rejoin flow, and callback handling.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contact-center/web",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/contact-center/web/SKILL.md",
+    "description": "\"Zoom Contact Center SDK for Web. Use for web chat/video/campaign embeds, engagement event handling, app-context integrations, and Smart Embed postMessage workflows.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "debug-zoom",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/debug-zoom/SKILL.md",
+    "description": "Debug a broken Zoom integration by isolating the failure point and routing into the right Zoom references. Use when auth, API, webhook, SDK, or MCP behavior is failing and you need a ranked hypothesis list plus verification steps.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "debug-zoom-integration",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/debug-zoom-integration/SKILL.md",
+    "description": "Debug broken Zoom implementations quickly. Use when auth, webhooks, SDK joins, MCP transport, or real-time media workflows are failing and you need to isolate the layer before proposing a fix.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-mcp-workflow",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/design-mcp-workflow/SKILL.md",
+    "description": "Design a Zoom MCP workflow for Claude. Use when deciding whether Zoom MCP fits a task, when planning tool-based AI workflows, or when separating MCP responsibilities from REST API responsibilities.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-general",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/general/SKILL.md",
+    "description": "Cross-product Zoom reference skill. Use after the workflow is clear when you need shared platform guidance, app-model comparisons, authentication context, scopes, marketplace considerations, or API-vs-MCP routing.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-meeting-sdk-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/SKILL.md",
+    "description": "Reference skill for Zoom Meeting SDK. Use after routing to a meeting-embed workflow when implementing real Zoom meeting joins, platform-specific SDK behavior, auth and join flows, waiting room issues, or meeting bot patterns.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-android",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/android/SKILL.md",
+    "description": "Zoom Meeting SDK for Android native apps. Use when embedding Zoom meetings in Android with\ndefault/custom UI, PKCE + SDK auth, join/start flows, and Meeting SDK API integration.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-electron",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/electron/SKILL.md",
+    "description": "Zoom Meeting SDK for Electron desktop applications. Use when embedding Zoom meetings in an Electron app\nwith the Node addon wrapper, JWT auth, join/start flows, settings controllers, and raw data integration.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-ios",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/ios/SKILL.md",
+    "description": "Zoom Meeting SDK for iOS native apps. Use when embedding Zoom meetings in iOS with\ndefault/custom UI, PKCE + SDK auth, host start with ZAK, and mobile lifecycle handling.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "meeting-sdk/linux",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/linux/SKILL.md",
+    "description": "\"Zoom Meeting SDK for Linux - C++ headless meeting bots with raw audio/video access, transcription, recording, and AI integration for server-side automation\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-macos",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/macos/SKILL.md",
+    "description": "Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in macOS with\ndefault/custom UI, PKCE + SDK auth, host start/join flows, and desktop meeting feature controllers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-react-native",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/react-native/SKILL.md",
+    "description": "Zoom Meeting SDK for React Native. Use when embedding Zoom meetings in React Native iOS/Android apps with @zoom/meetingsdk-react-native, JWT auth, join/start flows, platform setup, and native bridge troubleshooting.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-unreal",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/unreal/SKILL.md",
+    "description": "Zoom Meeting SDK for Unreal Engine wrapper integrations. Use when building Unreal projects that\nembed Zoom meetings with C++ and Blueprint wrappers, including wrapper-to-SDK mapping concerns.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-web",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/web/SKILL.md",
+    "description": "Zoom Meeting SDK for Web - Embed Zoom meeting capabilities into web applications. Two integration\noptions: Client View (full-page, familiar Zoom UI) and Component View (embeddable, Promise-based API).\nIncludes SharedArrayBuffer setup for HD video, gallery view, and virtual backgrounds.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-web-client-view",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/web/client-view/SKILL.md",
+    "description": "Zoom Meeting SDK Web - Client View. Full-page Zoom meeting experience with the familiar Zoom interface.\nUses ZoomMtg global singleton with callback-based API. Ideal for quick integration with minimal\ncustomization. Provides the same UI as Zoom Web Client.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-web-component-view",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/web/component-view/SKILL.md",
+    "description": "Zoom Meeting SDK Web - Component View. Embeddable Zoom meeting components with Promise-based API\nfor flexible integration. Ideal for React/Vue/Angular apps and custom layouts. Uses ZoomMtgEmbedded\nwith async/await patterns and embeddable UI containers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-meeting-sdk-windows",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/meeting-sdk/windows/SKILL.md",
+    "description": "Zoom Meeting SDK for Windows - Native C++ SDK for embedding Zoom meetings into Windows desktop\napplications. Supports custom UI architecture with raw video/audio data, headless bots, and deep\nintegration with meeting features. Includes SDK architecture patterns and Windows message loop handling.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-oauth",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/oauth/SKILL.md",
+    "description": "Reference skill for Zoom authentication. Use after routing to an auth workflow when choosing app credentials, grant types, scopes, token refresh behavior, or debugging Zoom OAuth failures.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-phone-integration",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/phone/SKILL.md",
+    "description": "\"Reference skill for Zoom Phone. Use after routing to a phone workflow when implementing OAuth, Phone APIs, webhooks, Smart Embed events, URI schemes, CRM or CTI dialers, or call handling automation.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "plan-zoom-integration",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/plan-zoom-integration/SKILL.md",
+    "description": "Turn a Zoom integration idea into an implementation plan with architecture, auth, and delivery milestones. Use when you need a practical build plan, phased delivery sequence, risk list, and next-step recommendation.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "plan-zoom-product",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/plan-zoom-product/SKILL.md",
+    "description": "Choose the right Zoom building surface for a use case and explain the tradeoffs clearly. Use when deciding between REST API, Webhooks, WebSockets, Meeting SDK, Video SDK, Zoom Apps SDK, Phone, Contact Center, or MCP for a specific product idea or integration goal.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "probe-sdk",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/probe-sdk/SKILL.md",
+    "description": "\"Reference skill for Zoom Probe SDK. Use after routing to a preflight workflow when testing browser compatibility, media permissions, audio or video diagnostics, and network readiness before users join.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-rest-api-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/rest-api/SKILL.md",
+    "description": "\"Reference skill for Zoom REST API. Use after choosing an API-based workflow when you need endpoint selection, resource-management patterns, OAuth requirements, rate-limit awareness, or API error debugging.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "rivet-sdk",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/rivet-sdk/SKILL.md",
+    "description": "\"Reference skill for Zoom Rivet SDK. Use after routing to a Rivet-based server workflow when implementing auth handling, webhook consumers, API wrappers, multi-module composition, or Lambda receiver patterns.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-rtms",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/rtms/SKILL.md",
+    "description": "Reference skill for Zoom RTMS. Use after routing to a live-media workflow when processing real-time audio, video, chat, transcripts, screen share, or contact-center voice streams.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "scribe",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/scribe/SKILL.md",
+    "description": "\"Reference skill for Zoom AI Services Scribe. Use after routing to a transcription workflow when handling uploaded or stored media, Build-platform JWT auth, fast mode transcription, batch jobs, or transcript pipeline design.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "setup-zoom-mcp",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/setup-zoom-mcp/SKILL.md",
+    "description": "Decide when Zoom MCP is the right fit and produce a safe setup plan for Claude. Use when planning AI workflows over Zoom data, deciding between MCP and REST, or defining a hybrid MCP architecture.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "setup-zoom-oauth",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/setup-zoom-oauth/SKILL.md",
+    "description": "Implement Zoom authentication correctly. Use when setting up app credentials, choosing an OAuth grant, requesting scopes, handling token refresh, or debugging auth failures.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-team-chat-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/team-chat/SKILL.md",
+    "description": "\"Reference skill for Zoom Team Chat. Use after routing to a chat workflow when building user-scoped messaging integrations, chatbot experiences, rich cards, buttons, slash commands, or chat webhooks.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ui-toolkit/web",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/ui-toolkit/SKILL.md",
+    "description": "\"Reference skill for Zoom Video SDK UI Toolkit. Use after routing to a web video workflow when you want prebuilt React UI instead of building a fully custom Video SDK interface.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-video-sdk-app",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/SKILL.md",
+    "description": "Reference skill for Zoom Video SDK. Use after routing to a custom-session workflow when the user needs full control over the video experience rather than an actual Zoom meeting.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-android",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/android/SKILL.md",
+    "description": "Zoom Video SDK for Android native apps. Use when building custom Android video experiences\nwith full UI control, session tokens, raw media options, and event-driven participant state.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-flutter",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/flutter/SKILL.md",
+    "description": "Zoom Video SDK for Flutter. Use when building custom video session apps in Flutter with\nflutter_zoom_videosdk, event-driven architecture, session lifecycle handling, and mobile\nplatform integration patterns.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-ios",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/ios/SKILL.md",
+    "description": "Zoom Video SDK for iOS native apps. Use when building custom iOS video sessions with\nfull UI control, token-based session auth, and event-driven media/participant flows.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "video-sdk/linux",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/linux/SKILL.md",
+    "description": "\"Zoom Video SDK for Linux - C++ headless bots, raw audio/video capture/injection, Qt/GTK integration, Docker support\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-macos",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/macos/SKILL.md",
+    "description": "Zoom Video SDK for macOS native desktop apps. Use when building custom macOS video sessions\nwith native UI control, tokenized join, and desktop-oriented media/device workflows.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-react-native",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/react-native/SKILL.md",
+    "description": "Zoom Video SDK for React Native. Use when building custom mobile video session experiences\nwith @zoom/react-native-videosdk, event listeners, helper-based APIs, and backend JWT token flows.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-video-sdk-unity",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/unity/SKILL.md",
+    "description": "Zoom Video SDK for Unity wrapper integrations. Use when building custom Unity-based\nvideo session experiences and mapping Unity scene/UI state to Video SDK events.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "video-sdk/web",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/web/SKILL.md",
+    "description": "\"Zoom Video SDK for Web - JavaScript/TypeScript integration for browser-based video sessions, real-time communication, screen sharing, recording, and live transcription\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "video-sdk/windows",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/video-sdk/windows/SKILL.md",
+    "description": "\"Zoom Video SDK for Windows - C++ integration for video sessions, raw audio/video capture, screen sharing, recording, and real-time communication\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "build-zoom-virtual-agent",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/virtual-agent/SKILL.md",
+    "description": "\"Reference skill for Zoom Virtual Agent. Use after routing to a virtual-agent workflow when implementing web embeds, Android or iOS wrapper integrations, knowledge-base sync, lifecycle handling, or troubleshooting.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "virtual-agent/android",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/virtual-agent/android/SKILL.md",
+    "description": "\"Zoom Virtual Agent Android integration via WebView. Use for Java/Kotlin bridge callbacks, native URL handling, support_handoff relay, and lifecycle-safe embedding.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "virtual-agent/ios",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/virtual-agent/ios/SKILL.md",
+    "description": "\"Zoom Virtual Agent iOS integration via WKWebView. Use for Swift/Objective-C script injection, message handlers, support_handoff relay, and URL routing policies.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "virtual-agent/web",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/virtual-agent/web/SKILL.md",
+    "description": "\"Zoom Virtual Agent SDK for web embeds. Use for campaign or entry ID chat launch, event-driven controls, user context updates, and CSP-safe deployment.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "setup-zoom-webhooks",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/webhooks/SKILL.md",
+    "description": "Reference skill for Zoom webhooks. Use after routing to an event-driven workflow when implementing subscriptions, signature verification, delivery handling, retries, or event-type selection.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "setup-zoom-websockets",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/websockets/SKILL.md",
+    "description": "Reference skill for Zoom WebSockets. Use after routing to a low-latency event workflow when persistent connections, faster event delivery, or security constraints make WebSockets preferable to webhooks.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-apps-sdk",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/zoom-apps-sdk/SKILL.md",
+    "description": "Reference skill for Zoom Apps SDK. Use after routing to an in-client app workflow when building web apps that run inside Zoom meetings, webinars, the main client, or Zoom Phone.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-mcp",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/zoom-mcp/SKILL.md",
+    "description": "Guidance for the bundled Zoom MCP connectors. Use after routing to an MCP workflow when planning or troubleshooting tool-based access to meetings, recordings, meeting assets, or transcripts. Route Zoom Docs requests to the dedicated Docs MCP server and Whiteboard-specific requests to `zoom-mcp/whiteboard`.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "zoom-mcp/whiteboard",
+    "path": "./external/knowledge-work-plugins/partner-built/zoom-plugin/skills/zoom-mcp/whiteboard/SKILL.md",
+    "description": "Guidance for the bundled Zoom Whiteboard MCP connector. Use for Whiteboard MCP auth,\nendpoints, ID mapping, and tool workflows such as list_whiteboards and get_a_whiteboard.\nPrefer this skill when the request is specifically about Whiteboard MCP rather than general Zoom MCP.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "view-pdf",
+    "path": "./external/knowledge-work-plugins/pdf-viewer/skills/view-pdf/SKILL.md",
+    "description": "Interactive PDF viewer. Use when the user wants to open, show, or view a PDF and collaborate on it visually — annotate, highlight, stamp, fill form fields, place signature/initials, or review markup together. Not for summarization or text extraction (use native Read instead).",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "metrics-review",
+    "path": "./external/knowledge-work-plugins/product-management/skills/metrics-review/SKILL.md",
+    "description": "Review and analyze product metrics with trend analysis and actionable insights. Use when running a weekly, monthly, or quarterly metrics review, investigating a sudden spike or drop, comparing performance against targets, or turning raw numbers into a scorecard with recommended actions.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "product-brainstorming",
+    "path": "./external/knowledge-work-plugins/product-management/skills/product-brainstorming/SKILL.md",
+    "description": "Brainstorm product ideas, explore problem spaces, and challenge assumptions as a thinking partner. Use when exploring a new opportunity, generating solutions to a product problem, stress-testing an idea, or when a PM needs to think out loud with a sharp sparring partner before converging on a direction.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "roadmap-update",
+    "path": "./external/knowledge-work-plugins/product-management/skills/roadmap-update/SKILL.md",
+    "description": "Update, create, or reprioritize your product roadmap. Use when adding a new initiative and deciding what moves to make room, shifting priorities after new information comes in, moving timelines due to a dependency slip, or building a Now/Next/Later view from scratch.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sprint-planning",
+    "path": "./external/knowledge-work-plugins/product-management/skills/sprint-planning/SKILL.md",
+    "description": "Plan a sprint — scope work, estimate capacity, set goals, and draft a sprint plan. Use when kicking off a new sprint, sizing a backlog against team availability (accounting for PTO and meetings), deciding what's P0 vs. stretch, or handling carryover from the last sprint.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "stakeholder-update",
+    "path": "./external/knowledge-work-plugins/product-management/skills/stakeholder-update/SKILL.md",
+    "description": "Generate a stakeholder update tailored to audience and cadence. Use when writing a weekly or monthly status for leadership, announcing a launch, escalating a risk or blocker, or translating the same progress into exec-brief, engineering-detail, or customer-facing versions.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "synthesize-research",
+    "path": "./external/knowledge-work-plugins/product-management/skills/synthesize-research/SKILL.md",
+    "description": "Synthesize user research from interviews, surveys, and feedback into structured insights. Use when you have a pile of interview notes, survey responses, or support tickets to make sense of, need to extract themes and rank findings by frequency and impact, or want to turn raw feedback into roadmap recommendations.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "write-spec",
+    "path": "./external/knowledge-work-plugins/product-management/skills/write-spec/SKILL.md",
+    "description": "Write a feature spec or PRD from a problem statement or feature idea. Use when turning a vague idea or user request into a structured document, scoping a feature with goals and non-goals, defining success metrics and acceptance criteria, or breaking a big ask into a phased spec.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "memory-management",
+    "path": "./external/knowledge-work-plugins/productivity/skills/memory-management/SKILL.md",
+    "description": "Two-tier memory system that makes Claude a true workplace collaborator. Decodes shorthand, acronyms, nicknames, and internal language so Claude understands requests like a colleague would. CLAUDE.md for working memory, memory/ directory for the full knowledge base.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "task-management",
+    "path": "./external/knowledge-work-plugins/productivity/skills/task-management/SKILL.md",
+    "description": "Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, wants to add/complete tasks, or needs help tracking commitments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "update",
+    "path": "./external/knowledge-work-plugins/productivity/skills/update/SKILL.md",
+    "description": "Sync tasks and refresh memory from your current activity. Use when pulling new assignments from your project tracker into TASKS.md, triaging stale or overdue tasks, filling memory gaps for unknown people or projects, or running a comprehensive scan to catch todos buried in chat and email.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "call-summary",
+    "path": "./external/knowledge-work-plugins/sales/skills/call-summary/SKILL.md",
+    "description": "Process call notes or a transcript — extract action items, draft follow-up email, generate internal summary. Use when pasting rough notes or a transcript after a discovery, demo, or negotiation call, drafting a customer follow-up, logging the activity for your CRM, or capturing objections and next steps for your team.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "competitive-intelligence",
+    "path": "./external/knowledge-work-plugins/sales/skills/competitive-intelligence/SKILL.md",
+    "description": "Research your competitors and build an interactive battlecard. Outputs an HTML artifact with clickable competitor cards and a comparison matrix. Trigger with \"competitive intel\", \"research competitors\", \"how do we compare to [competitor]\", \"battlecard for [competitor]\", or \"what's new with [competitor]\".",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "create-an-asset",
+    "path": "./external/knowledge-work-plugins/sales/skills/create-an-asset/SKILL.md",
+    "description": "Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos) from your deal context. Describe your prospect, audience, and goal — get a polished, branded asset ready to share with customers.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "daily-briefing",
+    "path": "./external/knowledge-work-plugins/sales/skills/daily-briefing/SKILL.md",
+    "description": "Start your day with a prioritized sales briefing. Works standalone when you tell me your meetings and priorities, supercharged when you connect your calendar, CRM, and email. Trigger with \"morning briefing\", \"daily brief\", \"what's on my plate today\", \"prep my day\", or \"start my day\".",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "draft-outreach",
+    "path": "./external/knowledge-work-plugins/sales/skills/draft-outreach/SKILL.md",
+    "description": "Research a prospect then draft personalized outreach. Uses web research by default, supercharged with enrichment and CRM. Trigger with \"draft outreach to [person/company]\", \"write cold email to [prospect]\", \"reach out to [name]\".",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "forecast",
+    "path": "./external/knowledge-work-plugins/sales/skills/forecast/SKILL.md",
+    "description": "Generate a weighted sales forecast with best/likely/worst scenarios, commit vs. upside breakdown, and gap analysis. Use when preparing a quarterly forecast call, assessing gap-to-quota from a pipeline CSV, deciding which deals to commit vs. call upside, or checking pipeline coverage against your number.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "pipeline-review",
+    "path": "./external/knowledge-work-plugins/sales/skills/pipeline-review/SKILL.md",
+    "description": "Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan. Use when running a weekly pipeline review, deciding which deals to focus on this week, spotting stale or stuck opportunities, auditing for hygiene issues like bad close dates, or identifying single-threaded deals.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "business-pulse",
+    "path": "./external/knowledge-work-plugins/small-business/skills/business-pulse/SKILL.md",
+    "description": "Produces a one-page cross-functional business snapshot for SMB owners — cash position (QuickBooks), sales trend (PayPal/Square), pipeline movement (HubSpot), this week's commitments (Calendar), urgent watch-list items (Gmail/Slack), and the single most important thing needing attention today. Proactively tries every available connector and gracefully scopes to whatever is connected — one connector gives a partial pulse; the full stack gives the full picture. Trigger when the user asks how the business is doing, wants a snapshot, a weekly summary, a Monday brief, or says anything like \"what am I missing\" or \"catch me up on the business.\"",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "call-list",
+    "path": "./external/knowledge-work-plugins/small-business/skills/call-list/SKILL.md",
+    "description": "Ranks the top-5 leads most worth calling today, supplies talking points from email history, blocks time on the calendar, and drafts follow-up messages. Accepts optional count and date arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "canva-creator",
+    "path": "./external/knowledge-work-plugins/small-business/skills/canva-creator/SKILL.md",
+    "description": "Takes an approved content brief and executes a campaign end-to-end: builds the posting calendar, generates Canva designs for social posts, drafts caption and email copy, and stages social sends in HubSpot. Canva is used for social posts only (Instagram, Facebook, X, LinkedIn) — email content is drafted as plain text and surfaced inline for the owner to send from their own tool. Every step requires explicit owner approval. Use when the user says \"make the content,\" \"generate the posts,\" \"create the assets,\" \"turn this into a campaign,\" or hands off an approved brief for execution.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "cash-flow-snapshot",
+    "path": "./external/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/SKILL.md",
+    "description": "Reads AR/AP, historical cash timing, and known fixed costs from QuickBooks, PayPal, Stripe, or Square — or a CSV upload — and produces a 30/60/90-day cash flow forecast with percentage-variance confidence bands and named risk flags. Delivers a chat summary and a downloadable XLSX. Use when the user asks \"forecast my cash flow,\" \"will I make payroll,\" mentions \"runway,\" or says \"cash crunch.\" Falls back to CSV upload when no connector is live.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "close-month",
+    "path": "./external/knowledge-work-plugins/small-business/skills/close-month/SKILL.md",
+    "description": "Closes the month — reconciles QB vs payment processors, flags gaps, writes P&L narrative, exports close packet. Accepts optional month and save-to arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "content-strategy",
+    "path": "./external/knowledge-work-plugins/small-business/skills/content-strategy/SKILL.md",
+    "description": "Analyzes sales data from PayPal and QuickBooks to find top performers and slow movers, layers in seasonality, and produces a prioritized 30-day content brief: what to push, what offers to run, what to hold. Strategic output only — no calendars or assets. Use when the user asks what to post, wants a content plan, asks what's selling, or what to promote this month.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "contract-review",
+    "path": "./external/knowledge-work-plugins/small-business/skills/contract-review/SKILL.md",
+    "description": "Lightweight NDA, MSA, and vendor contract review for SMBs without legal on staff. Reads contracts from local files, Gmail attachments, or DocuSign envelopes; flags non-standard terms; explains risks in plain English; and outputs a marked-up redline as a separate DOCX. Use when the user says \"review this contract,\" \"what am I signing,\" \"red flags,\" \"flag any concerns,\" \"check the payment terms,\" or uploads/forwards a contract or legal agreement.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "crm-cleanup",
+    "path": "./external/knowledge-work-plugins/small-business/skills/crm-cleanup/SKILL.md",
+    "description": "Scans HubSpot for stale deals, duplicate contacts, and missing fields, then fixes what the owner approves. Accepts optional scope argument for deals, contacts, or all.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "crm-maintenance",
+    "path": "./external/knowledge-work-plugins/small-business/skills/crm-maintenance/SKILL.md",
+    "description": "Keeps HubSpot current without the owner opening it: creates and updates contacts and deals from email and calendar context, logs notes and calls, and flags stale records. The \"stop doing data entry\" skill. Use when the user asks to update the CRM, log a call, clean up HubSpot, or add context to a deal.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "customer-pulse",
+    "path": "./external/knowledge-work-plugins/small-business/skills/customer-pulse/SKILL.md",
+    "description": "Aggregates PayPal disputes, HubSpot feedback and tickets, and email sentiment (plus pasted or exported Google/Yelp reviews) into a themes report with verbatim evidence and a \"do these three things this week\" list. Use when the user asks how customers are feeling, for review analysis, what people are saying, or about disputes.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "0.2.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "customer-pulse-check",
+    "path": "./external/knowledge-work-plugins/small-business/skills/customer-pulse-check/SKILL.md",
+    "description": "Synthesizes themes from PayPal disputes, HubSpot tickets, and review exports into a top-3 fixable issues list with drafted response templates. Accepts optional since-date argument.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "friday-brief",
+    "path": "./external/knowledge-work-plugins/small-business/skills/friday-brief/SKILL.md",
+    "description": "Delivers the Friday end-of-week pulse — revenue vs prior week, top sellers, wins and watches. Accepts optional lookback window of 7 or 14 days.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "handle-complaint",
+    "path": "./external/knowledge-work-plugins/small-business/skills/handle-complaint/SKILL.md",
+    "description": "Handles an incoming customer complaint end-to-end — pulls context, drafts a response, and suggests an operational fix. Accepts optional email or ticket ID argument.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "invoice-chase",
+    "path": "./external/knowledge-work-plugins/small-business/skills/invoice-chase/SKILL.md",
+    "description": "Drafts overdue-invoice reminder emails from QuickBooks and PayPal data, matched to each customer's payment history and tone (gentle for good customers, firm for repeat late payers). Sends via PayPal with owner approval; non-PayPal invoices queue as mail drafts. Use when the user asks \"who owes me money,\" mentions overdue invoices, or wants to follow up on unpaid invoices.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "0.2.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "job-post-builder",
+    "path": "./external/knowledge-work-plugins/small-business/skills/job-post-builder/SKILL.md",
+    "description": "Builds end-to-end hiring packets — job post, structured interview guide with scoring rubric, and offer letter template — from a hiring brief. Triggers on: \"help me hire\", \"we're hiring for\", \"write a job post\", \"job description\", \"JD\", \"open role\", \"create a job ad\", \"interview questions\", \"scoring rubric\", \"draft an offer letter\", \"send an offer\", \"make a hiring packet\", or any request to recruit for a position. When in doubt, trigger — covers the full hiring workflow from job post through DocuSign envelope creation via browser. Does NOT screen or rank applicants.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "lead-triage",
+    "path": "./external/knowledge-work-plugins/small-business/skills/lead-triage/SKILL.md",
+    "description": "Scores inbound HubSpot leads by engagement signals, company fit, and urgency markers to produce a \"call these 5 today\" list with talking points, drafts the follow-ups, and blocks Calendar time. Use when the user asks to prioritize leads, who to call first, or about their pipeline.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "0.1.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "margin-analyzer",
+    "path": "./external/knowledge-work-plugins/small-business/skills/margin-analyzer/SKILL.md",
+    "description": "Analyzes unit economics by product or service using PayPal merchant insights and QuickBooks cost data, benchmarks against inflation and cost changes, and shows pricing-scenario data (e.g. \"a 5% increase historically correlates with ~3% volume drop\"). Surfaces analysis only — does not recommend a price. Use when the user asks about raising prices, pricing, margin analysis, what to charge, whether costs are eating into profit, or how a price change might affect their business. Trigger even if the user doesn't say \"margin\" explicitly — phrases like \"am I making enough?\", \"should I charge more?\", or \"my costs are going up\" all call for this skill.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "monday-brief",
+    "path": "./external/knowledge-work-plugins/small-business/skills/monday-brief/SKILL.md",
+    "description": "Generates a one-page Monday morning briefing — cash, sales, pipeline, week ahead, top three to-dos. Accepts optional post destination and save-to arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "month-end-prep",
+    "path": "./external/knowledge-work-plugins/small-business/skills/month-end-prep/SKILL.md",
+    "description": "Walks an SMB owner through month-end close: reconciles QuickBooks against PayPal (and Square/Stripe) settlements, flags uncategorized transactions, suspicious duplicates, and missing receipts, then writes a plain-English P&L narrative and exports a close packet (xlsx + one-page PDF). Use when the user says \"close the month,\" \"month-end,\" \"reconcile,\" \"what's missing,\" \"P&L,\" or asks why revenue or margin changed this month.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "month-heads-up",
+    "path": "./external/knowledge-work-plugins/small-business/skills/month-heads-up/SKILL.md",
+    "description": "Runs on the 25th — shows the next 30-day cash-flow outlook and flags anything that needs attention before month-end. Accepts optional 30 or 60 day horizon.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "plan-payroll",
+    "path": "./external/knowledge-work-plugins/small-business/skills/plan-payroll/SKILL.md",
+    "description": "Forecasts cash, ranks overdue invoices, and stages PayPal reminders so the owner can confidently run payroll. Accepts optional horizon and payroll-date arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "price-check",
+    "path": "./external/knowledge-work-plugins/small-business/skills/price-check/SKILL.md",
+    "description": "Produces a margin-by-product table and three pricing-scenario data views so the owner can see the full financial picture before making a pricing decision. Accepts optional product name argument.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "quarterly-review",
+    "path": "./external/knowledge-work-plugins/small-business/skills/quarterly-review/SKILL.md",
+    "description": "Generates a full QBR narrative — revenue trend, margin trend, customer health, top opportunities and risks — as a presentation-ready PDF or deck. Accepts optional quarter and save-to arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "run-campaign",
+    "path": "./external/knowledge-work-plugins/small-business/skills/run-campaign/SKILL.md",
+    "description": "Runs an end-to-end marketing campaign — sales analysis, content brief, Canva assets, HubSpot send. Accepts optional lookback and channel arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sales-brief",
+    "path": "./external/knowledge-work-plugins/small-business/skills/sales-brief/SKILL.md",
+    "description": "Surfaces top and bottom sellers, identifies seasonality patterns, and produces a 2-week content brief to push winners and clear slow movers. Accepts optional lookback window of 30, 60, or 90 days.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "smb-onboard",
+    "path": "./external/knowledge-work-plugins/small-business/skills/smb-onboard/SKILL.md",
+    "description": "Claude as the trainer. Walks an SMB owner through connecting their first two tools, runs one recipe to prove immediate value, interviews them about their business (industry, size, top three headaches), stores that context persistently so every other skill benefits, and sets a weekly check-in cadence. Use when the owner is getting started or says any of: \"set me up,\" \"setup,\" \"help me get set up,\" \"get started,\" \"help me get started,\" \"get me started,\" \"what can you do,\" \"I'm new to this,\" or is in their first session.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "smb-router",
+    "path": "./external/knowledge-work-plugins/small-business/skills/smb-router/SKILL.md",
+    "description": "The front door to the Small Business plugin. Listens to what the owner needs right now — vague or specific — and routes them to the best skill or slash command for the moment. Also serves as a guide: explains what's available, suggests what to try next, and adapts recommendations based on stored business context. Trigger whenever the owner asks \"what can you do,\" \"help me with my business,\" \"what should I focus on,\" \"I don't know where to start,\" or any open-ended business request that doesn't clearly match a single skill.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "tax-prep",
+    "path": "./external/knowledge-work-plugins/small-business/skills/tax-prep/SKILL.md",
+    "description": "Prepares tax-season materials — quarterly estimated tax calculation or year-end 1099 prep — and produces an accountant handoff packet. Accepts optional mode and year arguments.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "tax-season-organizer",
+    "path": "./external/knowledge-work-plugins/small-business/skills/tax-season-organizer/SKILL.md",
+    "description": "Prepares tax-season materials for small business owners — framed as deliverables for their accountant, not tax advice. Two modes: (1) quarterly estimated tax calculation — pulls YTD net income from QuickBooks and calculates the federal income tax + self-employment tax liability and quarterly payment due; (2) year-end 1099 prep — scans QuickBooks, PayPal, and Stripe for contractors paid over $600, builds a 1099-NEC candidate list with missing W-9 flags, and produces a plain-English summary a CPA can work from directly. Trigger this skill whenever the user mentions: quarterly taxes, estimated tax payment, how much to set aside for taxes, 1099s, 1099-NEC, year-end tax prep, contractor payments, W-9s, or any phrase suggesting they are preparing for a tax deadline or handing materials to an accountant. Also trigger proactively when a user asks about net profit or YTD income in a context that suggests they are worried about their tax bill.",
+    "tags": [
+      "knowledge-work-plugins"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ticket-deflector",
+    "path": "./external/knowledge-work-plugins/small-business/skills/ticket-deflector/SKILL.md",
+    "description": "Reads a forwarded customer email or ticket, pulls order/refund status from PayPal and account history from HubSpot, drafts a tone-matched reply in the owner's writing voice, and can issue a PayPal refund with explicit owner approval. Use when the user says \"draft a response,\" \"answer this customer,\" \"where's my order,\" or \"I want a refund.\"",
+    "tags": [
+      "knowledge-work-plugins"
     ],
     "version": "",
     "github_url": "",
@@ -6814,17 +9519,6 @@
     "auxiliary": false
   },
   {
-    "id": "content-strategy",
-    "path": "./external/marketingskills/skills/content-strategy/SKILL.md",
-    "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "copy-editing",
     "path": "./external/marketingskills/skills/copy-editing/SKILL.md",
     "description": "\"When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.\"",
@@ -6839,28 +9533,6 @@
     "id": "copywriting",
     "path": "./external/marketingskills/skills/copywriting/SKILL.md",
     "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "customer-research",
-    "path": "./external/marketingskills/skills/customer-research/SKILL.md",
-    "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "email-sequence",
-    "path": "./external/marketingskills/skills/email-sequence/SKILL.md",
-    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
     "tags": [
       "marketingskills"
     ],
@@ -7067,17 +9739,6 @@
     "auxiliary": false
   },
   {
-    "id": "seo-audit",
-    "path": "./external/marketingskills/skills/seo-audit/SKILL.md",
-    "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
-    "tags": [
-      "marketingskills"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
     "id": "signup-flow-cro",
     "path": "./external/marketingskills/skills/signup-flow-cro/SKILL.md",
     "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
@@ -7145,6 +9806,160 @@
     ],
     "version": "0.1.0",
     "github_url": "https://github.com/NanmiCoder/MediaCrawler",
+    "auxiliary": false
+  },
+  {
+    "id": "skillopt-sleep",
+    "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
+    "description": "\"Use when the user wants their Claude agent to self-improve from past usage, asks about a nightly/offline 'sleep' or 'dream' cycle, memory/skill consolidation, or says things like 'make my agent better the more I use it', 'review my past sessions', 'learn my preferences', 'consolidate what you learned', 'run the sleep cycle', or wants to schedule offline self-optimization. Drives the skillopt_sleep engine: harvest past sessions -> mine recurring tasks -> replay offline -> consolidate validated CLAUDE.md/SKILL.md behind a held-out gate.\"",
+    "tags": [
+      "microsoftopt"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "pdf-processor",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
+    "description": "**WORKFLOW SKILL** - Process PDF files including text extraction, rotation, and merging.\nUSE FOR: \"extract PDF text\", \"rotate PDF\", \"merge PDFs\", \"split PDF pages\", \"convert PDF to text\".\nDO NOT USE FOR: creating PDFs from scratch (use document-creator), editing PDF forms (use form-filler).\nINVOKES: pdf-tools MCP for extraction, file-system for I/O.\nFOR SINGLE OPERATIONS: Use pdf-tools MCP directly for simple extractions.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "my-tool",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/minimal/SKILL.md",
+    "description": "my-tool skill",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "no-frontmatter",
+    "path": "./external/microsoft-waza/cmd/waza/dev/testdata/no-frontmatter/SKILL.md",
+    "description": "This SKILL.md has no YAML frontmatter at all. It's just plain markdown.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "all-pass",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/all-pass/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "legacy-json-only",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/legacy-json-only/SKILL.md",
+    "description": "A minimal skill for testing legacy .token-limits.json deprecation warning.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "no-config",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/no-config/SKILL.md",
+    "description": "no-config skill",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "some-exceed",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/some-exceed/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "count",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/count/SKILL.md",
+    "description": "A demonstration skill used for testing the waza tokens command suite.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "profile-test-skill",
+    "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/profile/SKILL.md",
+    "description": "**PROFILE TEST** - A skill for testing the profile command.\nUSE FOR: testing profile analysis, verifying structural metrics.\nDO NOT USE FOR: production use.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "code-explainer",
+    "path": "./external/microsoft-waza/examples/code-explainer/SKILL.md",
+    "description": "**UTILITY SKILL** - Explain code snippets, functions, and algorithms in plain language.\nUSE FOR: explain code, what does this code do, break down this function,\nhelp me understand this, walk through this algorithm, clarify this logic,\nexplain this snippet, describe what happens here.\nDO NOT USE FOR: writing new code (use code generation), fixing bugs (use debugging),\nrefactoring (use refactoring skills), code review with action items.\nINVOKES: file reading tools to access code, language detection for tailored explanations.\nFOR SINGLE OPERATIONS: If the user just needs to see file contents, use file reading tools directly.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza",
+    "path": "./external/microsoft-waza/skills/waza/SKILL.md",
+    "description": "\"**WORKFLOW SKILL** - Evaluate AI agent skills using structured benchmarks with YAML specs, fixture isolation, and pluggable validators. USE FOR: run waza, waza help, run eval, run benchmark, evaluate skill, test agent, generate eval suite, init eval, compare results, score agent, agent evaluation, skill testing, cross-model comparison. DO NOT USE FOR: improving skill frontmatter (use waza dev), creating new skills from scratch (use skill-creator), token counting or budget checks (use waza tokens). INVOKES: Copilot SDK executor, mock engine, code/regex validators. FOR SINGLE OPERATIONS: use waza run directly for a single benchmark.\"",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza-interactive",
+    "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
+    "description": "\"Interactive workflow partner for creating, testing, and improving AI agent skills with waza. USE FOR: run my evals, check my skill, compare models, create eval suite, debug failing tests, is my skill ready, ship readiness, interpret results, improve score. DO NOT USE FOR: general coding, non-skill work, writing skill content (use skill-authoring), improving frontmatter only (use sensei).\"",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "waza-runner",
+    "path": "./external/microsoft-waza/waza-runner/SKILL.md",
+    "description": "Run evaluations on Agent Skills to measure their effectiveness.\nUSE FOR: \"run skill evals\", \"evaluate my skill\", \"test skill quality\",\n\"check skill triggers\", \"skill compliance check\", \"measure skill performance\",\n\"run evals on [skill-name]\", \"grade skill execution\".\nDO NOT USE FOR: writing skills (use skill-authoring), improving frontmatter\n(use sensei), or general testing unrelated to skills.",
+    "tags": [
+      "microsoft-waza"
+    ],
+    "version": "",
+    "github_url": "",
     "auxiliary": false
   },
   {
@@ -7318,6 +10133,468 @@
     "description": "张雪峰的思维框架与表达方式。基于5本著作、15+篇权威媒体深度采访、\n30+条一手语录、11个关键决策记录和完整人生时间线的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用张雪峰的视角分析教育选择、职业规划、阶层流动等问题。\n当用户提到「用张雪峰的视角」「张雪峰会怎么看」「张雪峰模式」「雪峰视角」时使用。\n即使用户只是说「帮我用张雪峰的角度想想」「如果张雪峰会怎么说」「切换到张雪峰」也应触发。",
     "tags": [
       "nuwa"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "intended-vs-implemented",
+    "path": "./external/phuryn-pm-skills/pm-ai-shipping/skills/intended-vs-implemented/SKILL.md",
+    "description": "\"The method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented intent, what counts as implementation evidence, which mismatches matter, and how to avoid hand-wavy findings. Use when auditing AI-built code, reviewing access control against documented permissions, or checking whether a codebase matches its own documentation.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "shipping-artifacts",
+    "path": "./external/phuryn-pm-skills/pm-ai-shipping/skills/shipping-artifacts/SKILL.md",
+    "description": "\"The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. A small core every app needs — architecture, user/permission flows, permissions, variables/secrets, and a test-coverage map — plus conditional docs added only when they apply: emails, scheduled work, SEO, and embedded agents/automation. Defines what each doc must capture and how a reviewer or auditor uses it. Use when documenting a codebase for handoff, mapping user journeys and trust-boundary crossings, planning test coverage, or preparing for a security or performance audit.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brainstorm-okrs",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/brainstorm-okrs/SKILL.md",
+    "description": "\"Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "job-stories",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/job-stories/SKILL.md",
+    "description": "\"Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "outcome-roadmap",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/outcome-roadmap/SKILL.md",
+    "description": "\"Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sprint-plan",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/sprint-plan/SKILL.md",
+    "description": "\"Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "strategy-red-team",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/strategy-red-team/SKILL.md",
+    "description": "\"Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the cheapest test and kill criteria for each. Use when stress-testing a plan, pressure-testing a strategy, challenging assumptions, or preparing a doc for executive review.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "summarize-meeting",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/summarize-meeting/SKILL.md",
+    "description": "\"Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "test-scenarios",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/test-scenarios/SKILL.md",
+    "description": "\"Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "user-stories",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/user-stories/SKILL.md",
+    "description": "\"Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "wwas",
+    "path": "./external/phuryn-pm-skills/pm-execution/skills/wwas/SKILL.md",
+    "description": "\"Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gtm-motions",
+    "path": "./external/phuryn-pm-skills/pm-go-to-market/skills/gtm-motions/SKILL.md",
+    "description": "\"Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gtm-strategy",
+    "path": "./external/phuryn-pm-skills/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+    "description": "\"Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ideal-customer-profile",
+    "path": "./external/phuryn-pm-skills/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+    "description": "\"Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "competitor-analysis",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/competitor-analysis/SKILL.md",
+    "description": "\"Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "customer-journey-map",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/customer-journey-map/SKILL.md",
+    "description": "\"Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "market-segments",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/market-segments/SKILL.md",
+    "description": "\"Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "market-sizing",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/market-sizing/SKILL.md",
+    "description": "\"Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "sentiment-analysis",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/sentiment-analysis/SKILL.md",
+    "description": "\"Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "user-personas",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/user-personas/SKILL.md",
+    "description": "\"Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "user-segmentation",
+    "path": "./external/phuryn-pm-skills/pm-market-research/skills/user-segmentation/SKILL.md",
+    "description": "\"Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "north-star-metric",
+    "path": "./external/phuryn-pm-skills/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+    "description": "\"Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "positioning-ideas",
+    "path": "./external/phuryn-pm-skills/pm-marketing-growth/skills/positioning-ideas/SKILL.md",
+    "description": "\"Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "product-name",
+    "path": "./external/phuryn-pm-skills/pm-marketing-growth/skills/product-name/SKILL.md",
+    "description": "\"Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "value-prop-statements",
+    "path": "./external/phuryn-pm-skills/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+    "description": "\"Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "analyze-feature-requests",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/analyze-feature-requests/SKILL.md",
+    "description": "\"Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brainstorm-experiments-existing",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+    "description": "\"Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brainstorm-experiments-new",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+    "description": "\"Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "brainstorm-ideas-existing",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+    "description": "\"Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "identify-assumptions-existing",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/identify-assumptions-existing/SKILL.md",
+    "description": "\"Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "metrics-dashboard",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/metrics-dashboard/SKILL.md",
+    "description": "\"Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "prioritize-features",
+    "path": "./external/phuryn-pm-skills/pm-product-discovery/skills/prioritize-features/SKILL.md",
+    "description": "\"Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "ansoff-matrix",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+    "description": "\"Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "business-model",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/business-model/SKILL.md",
+    "description": "\"Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "monetization-strategy",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+    "description": "\"Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "pestle-analysis",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+    "description": "\"Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "product-strategy",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/product-strategy/SKILL.md",
+    "description": "\"Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "startup-canvas",
+    "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/startup-canvas/SKILL.md",
+    "description": "\"Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when launching a new product or evaluating a startup concept.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "draft-nda",
+    "path": "./external/phuryn-pm-skills/pm-toolkit/skills/draft-nda/SKILL.md",
+    "description": "\"Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "grammar-check",
+    "path": "./external/phuryn-pm-skills/pm-toolkit/skills/grammar-check/SKILL.md",
+    "description": "\"Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "privacy-policy",
+    "path": "./external/phuryn-pm-skills/pm-toolkit/skills/privacy-policy/SKILL.md",
+    "description": "\"Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.\"",
+    "tags": [
+      "phuryn-pm"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "review-resume",
+    "path": "./external/phuryn-pm-skills/pm-toolkit/skills/review-resume/SKILL.md",
+    "description": "\"Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact.\"",
+    "tags": [
+      "phuryn-pm"
     ],
     "version": "",
     "github_url": "",
@@ -7603,6 +10880,149 @@
     "auxiliary": false
   },
   {
+    "id": "brandkit",
+    "path": "./external/taste-skill/skills/brandkit/SKILL.md",
+    "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "industrial-brutalist-ui",
+    "path": "./external/taste-skill/skills/brutalist-skill/SKILL.md",
+    "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gpt-taste",
+    "path": "./external/taste-skill/skills/gpt-tasteskill/SKILL.md",
+    "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "image-to-code",
+    "path": "./external/taste-skill/skills/image-to-code-skill/SKILL.md",
+    "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "imagegen-frontend-mobile",
+    "path": "./external/taste-skill/skills/imagegen-frontend-mobile/SKILL.md",
+    "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "imagegen-frontend-web",
+    "path": "./external/taste-skill/skills/imagegen-frontend-web/SKILL.md",
+    "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "minimalist-ui",
+    "path": "./external/taste-skill/skills/minimalist-skill/SKILL.md",
+    "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "full-output-enforcement",
+    "path": "./external/taste-skill/skills/output-skill/SKILL.md",
+    "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "redesign-existing-projects",
+    "path": "./external/taste-skill/skills/redesign-skill/SKILL.md",
+    "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "high-end-visual-design",
+    "path": "./external/taste-skill/skills/soft-skill/SKILL.md",
+    "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "stitch-design-taste",
+    "path": "./external/taste-skill/skills/stitch-skill/SKILL.md",
+    "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-taste-frontend",
+    "path": "./external/taste-skill/skills/taste-skill/SKILL.md",
+    "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "design-taste-frontend-v1",
+    "path": "./external/taste-skill/skills/taste-skill-v1/SKILL.md",
+    "description": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.",
+    "tags": [
+      "taste"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "video-content-analyzer",
     "path": "./external/video-content-analyzer/SKILL.md",
     "description": "短视频内容深度分析 - 分析前10秒钩子、中段内容簇、结尾5秒，输出完整结构/情感曲线/传达方式报告。配合 video-scene-splitter + video-transcriber 使用",
@@ -7665,6 +11085,72 @@
       "web-access"
     ],
     "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xiaohongshu-skills",
+    "path": "./external/xiaohongshu-skills/SKILL.md",
+    "description": "小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。\n当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-auth",
+    "path": "./external/xiaohongshu-skills/skills/xhs-auth/SKILL.md",
+    "description": "小红书认证管理技能。检查登录状态、登录（二维码或手机号）、退出登录。\n当用户要求登录小红书、检查登录状态、退出登录时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "2.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-content-ops",
+    "path": "./external/xiaohongshu-skills/skills/xhs-content-ops/SKILL.md",
+    "description": "小红书复合内容运营技能。组合搜索、详情、发布、互动等能力完成运营工作流。\n当用户要求竞品分析、热点追踪、内容创作、互动管理等复合任务时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-explore",
+    "path": "./external/xiaohongshu-skills/skills/xhs-explore/SKILL.md",
+    "description": "小红书内容发现与分析技能。搜索笔记、浏览首页、查看详情、获取用户资料。\n当用户要求搜索小红书、查看笔记详情、浏览首页、查看用户主页时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-interact",
+    "path": "./external/xiaohongshu-skills/skills/xhs-interact/SKILL.md",
+    "description": "小红书社交互动技能。发表评论、回复评论、点赞、收藏。\n当用户要求评论、回复、点赞或收藏小红书帖子时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "xhs-publish",
+    "path": "./external/xiaohongshu-skills/skills/xhs-publish/SKILL.md",
+    "description": "小红书内容发布技能。支持图文发布、视频发布、长文发布、定时发布、标签、可见性设置。\n当用户要求发布内容到小红书、上传图文、上传视频、发长文时触发。",
+    "tags": [
+      "xiaohongshu"
+    ],
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
