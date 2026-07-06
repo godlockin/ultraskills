@@ -4,9 +4,9 @@
     "updated_at": "2026-07-06",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-07-06",
-    "total_skills": 946,
+    "total_skills": 945,
     "total_clusters": 75,
-    "avg_arena_score": 7.37,
+    "avg_arena_score": 7.36,
     "total_winners": 75
   },
   "hierarchy": {
@@ -496,9 +496,35 @@
       ]
     },
     {
+      "id": "agent-agenthub",
+      "name": "Agent·AgentHub协作",
+      "skill_count": 17,
+      "winner": "dbs-goal",
+      "winner_score": null,
+      "description": "AgentHub工作流、DBS系列、聊天室",
+      "triggers": [
+        "agenthub",
+        "DBS",
+        "协作",
+        "chatroom"
+      ],
+      "suitable_for": [
+        "多Agent协作",
+        "DBS工具链"
+      ],
+      "not_suitable_for": [
+        "单Agent任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "agent-workflow"
+      ]
+    },
+    {
       "id": "content-image",
       "name": "内容·图像设计",
-      "skill_count": 18,
+      "skill_count": 17,
       "winner": "baoyu-article-illustrator",
       "winner_score": null,
       "description": "图像分析、AI图像生成、摄影、视觉设计",
@@ -523,32 +549,6 @@
       "related": [
         "design-ux",
         "content-video"
-      ]
-    },
-    {
-      "id": "agent-agenthub",
-      "name": "Agent·AgentHub协作",
-      "skill_count": 17,
-      "winner": "dbs-goal",
-      "winner_score": null,
-      "description": "AgentHub工作流、DBS系列、聊天室",
-      "triggers": [
-        "agenthub",
-        "DBS",
-        "协作",
-        "chatroom"
-      ],
-      "suitable_for": [
-        "多Agent协作",
-        "DBS工具链"
-      ],
-      "not_suitable_for": [
-        "单Agent任务"
-      ],
-      "parent": "agent",
-      "related": [
-        "agent-arch",
-        "agent-workflow"
       ]
     },
     {
@@ -6969,28 +6969,6 @@
       "version": "1.58.0"
     },
     {
-      "id": "baoyu-image-gen",
-      "name": "baoyu-image-gen",
-      "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
-      "description": "\"[Deprecated: use baoyu-imagine] AI image generation with OpenAI, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.\"",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-image",
-        "cluster_name": "内容·图像设计",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 7,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.56.4"
-    },
-    {
       "id": "algorithmic-art",
       "name": "algorithmic-art",
       "path": "./community/algorithmic-art/SKILL.md",
@@ -7006,7 +6984,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 7,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7028,7 +7006,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 9,
+        "rank": 8,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7050,7 +7028,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 9,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7072,7 +7050,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 11,
+        "rank": 10,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7100,7 +7078,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 12,
+        "rank": 11,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7122,7 +7100,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 13,
+        "rank": 12,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7144,7 +7122,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 13,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -7165,7 +7143,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 14,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -7190,7 +7168,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 16,
+        "rank": 15,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7216,7 +7194,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 17,
+        "rank": 16,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7242,7 +7220,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 18,
+        "rank": 17,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },

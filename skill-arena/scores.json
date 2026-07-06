@@ -1100,17 +1100,6 @@
     "total": 8.8
   },
   {
-    "id": "baoyu-image-gen",
-    "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
     "id": "writing-hookify-rules",
     "path": "./external/claude-code/plugins/hookify/skills/writing-rules/SKILL.md",
     "cluster": "engineering-testing",
