@@ -105,6 +105,322 @@
     "auxiliary": false
   },
   {
+    "id": "baoyu-skills",
+    "path": "./community/baoyu-skills/SKILL.md",
+    "description": "\"Curated content + social publishing toolkit (20 skills) — image generation, illustration, document formatting, social posting. Originally by JimLiu/baoyu-skills (now archived), migrated to community/ for local maintenance. Triggers: 'illustrate article', 'add images to article', 'make infographic', 'generate cover', 'comic strip', 'image cards', 'post to WeChat', 'post to Weibo', 'post to X', 'XHS images', 'X to markdown', 'URL to markdown', 'YouTube transcript', 'translate article', 'markdown to HTML', 'slide deck', 'diagram', 'compress image', 'format markdown'.\"",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "image",
+      "doc",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-article-illustrator",
+    "path": "./community/baoyu-skills/baoyu-article-illustrator/SKILL.md",
+    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "illustration",
+      "community"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-comic",
+    "path": "./community/baoyu-skills/baoyu-comic/SKILL.md",
+    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "comic",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-compress-image",
+    "path": "./community/baoyu-skills/baoyu-compress-image/SKILL.md",
+    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+    "tags": [
+      "baoyu",
+      "productivity",
+      "image",
+      "compression",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-cover-image",
+    "path": "./community/baoyu-skills/baoyu-cover-image/SKILL.md",
+    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "cover",
+      "community"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-danger-gemini-web",
+    "path": "./community/baoyu-skills/baoyu-danger-gemini-web/SKILL.md",
+    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "danger",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-danger-x-to-markdown",
+    "path": "./community/baoyu-skills/baoyu-danger-x-to-markdown/SKILL.md",
+    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "danger",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-diagram",
+    "path": "./community/baoyu-skills/baoyu-diagram/SKILL.md",
+    "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
+    "tags": [
+      "baoyu",
+      "content",
+      "doc",
+      "diagram",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-format-markdown",
+    "path": "./community/baoyu-skills/baoyu-format-markdown/SKILL.md",
+    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "markdown",
+      "community"
+    ],
+    "version": "1.57.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-image-cards",
+    "path": "./community/baoyu-skills/baoyu-image-cards/SKILL.md",
+    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "cards",
+      "community"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-imagine",
+    "path": "./community/baoyu-skills/baoyu-imagine/SKILL.md",
+    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "generation",
+      "community"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-infographic",
+    "path": "./community/baoyu-skills/baoyu-infographic/SKILL.md",
+    "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "infographic",
+      "community"
+    ],
+    "version": "1.58.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-markdown-to-html",
+    "path": "./community/baoyu-skills/baoyu-markdown-to-html/SKILL.md",
+    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+    "tags": [
+      "baoyu",
+      "content",
+      "doc",
+      "html",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-wechat",
+    "path": "./community/baoyu-skills/baoyu-post-to-wechat/SKILL.md",
+    "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "wechat",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-weibo",
+    "path": "./community/baoyu-skills/baoyu-post-to-weibo/SKILL.md",
+    "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "weibo",
+      "community"
+    ],
+    "version": "1.56.1",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-post-to-x",
+    "path": "./community/baoyu-skills/baoyu-post-to-x/SKILL.md",
+    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "x",
+      "community"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-slide-deck",
+    "path": "./community/baoyu-skills/baoyu-slide-deck/SKILL.md",
+    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+    "tags": [
+      "baoyu",
+      "content",
+      "doc",
+      "slides",
+      "community"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-translate",
+    "path": "./community/baoyu-skills/baoyu-translate/SKILL.md",
+    "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "translation",
+      "community"
+    ],
+    "version": "1.59.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-url-to-markdown",
+    "path": "./community/baoyu-skills/baoyu-url-to-markdown/SKILL.md",
+    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "scraping",
+      "community"
+    ],
+    "version": "1.61.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-xhs-images",
+    "path": "./community/baoyu-skills/baoyu-xhs-images/SKILL.md",
+    "description": "\"[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \\\"小红书图片\\\", \\\"XHS images\\\", \\\"RedNote infographics\\\", \\\"小红书种草\\\", \\\"小绿书\\\", \\\"微信图文\\\", \\\"微信贴图\\\", or wants social media infographic series for Chinese platforms.\"",
+    "tags": [
+      "baoyu",
+      "content",
+      "image",
+      "xhs",
+      "community"
+    ],
+    "version": "1.56.2",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "baoyu-youtube-transcript",
+    "path": "./community/baoyu-skills/baoyu-youtube-transcript/SKILL.md",
+    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
+    "tags": [
+      "baoyu",
+      "content",
+      "social",
+      "youtube",
+      "community"
+    ],
+    "version": "1.1.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "bdi-mental-states",
     "path": "./community/bdi-mental-states/SKILL.md",
     "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
@@ -3858,222 +4174,13 @@
     "auxiliary": false
   },
   {
-    "id": "baoyu-article-illustrator",
-    "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
-    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
+    "id": "baoyu-image-gen",
+    "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
+    "description": "\"[Deprecated: use baoyu-imagine] AI image generation with OpenAI, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.\"",
     "tags": [
       "baoyu"
     ],
-    "version": "1.58.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-comic",
-    "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
-    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-compress-image",
-    "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
-    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-cover-image",
-    "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
-    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-danger-gemini-web",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
-    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-danger-x-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
-    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-diagram",
-    "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
-    "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-format-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
-    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.57.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-image-cards",
-    "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
-    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-imagine",
-    "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
-    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.58.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-infographic",
-    "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
-    "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.58.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-markdown-to-html",
-    "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
-    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-post-to-wechat",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
-    "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-post-to-weibo",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
-    "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.1",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-post-to-x",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
-    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-slide-deck",
-    "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
-    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-translate",
-    "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
-    "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.59.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-url-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
-    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.61.0",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-xhs-images",
-    "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
-    "description": "\"[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \\\"小红书图片\\\", \\\"XHS images\\\", \\\"RedNote infographics\\\", \\\"小红书种草\\\", \\\"小绿书\\\", \\\"微信图文\\\", \\\"微信贴图\\\", or wants social media infographic series for Chinese platforms.\"",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.56.2",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "baoyu-youtube-transcript",
-    "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
-    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
-    "tags": [
-      "baoyu"
-    ],
-    "version": "1.1.0",
+    "version": "1.56.4",
     "github_url": "",
     "auxiliary": false
   },

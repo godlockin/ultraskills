@@ -33,6 +33,149 @@
     "total": 9.7
   },
   {
+    "id": "baoyu-article-illustrator",
+    "path": "./community/baoyu-skills/baoyu-article-illustrator/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-comic",
+    "path": "./community/baoyu-skills/baoyu-comic/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-cover-image",
+    "path": "./community/baoyu-skills/baoyu-cover-image/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-danger-x-to-markdown",
+    "path": "./community/baoyu-skills/baoyu-danger-x-to-markdown/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-format-markdown",
+    "path": "./community/baoyu-skills/baoyu-format-markdown/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-image-cards",
+    "path": "./community/baoyu-skills/baoyu-image-cards/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-imagine",
+    "path": "./community/baoyu-skills/baoyu-imagine/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-infographic",
+    "path": "./community/baoyu-skills/baoyu-infographic/SKILL.md",
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-markdown-to-html",
+    "path": "./community/baoyu-skills/baoyu-markdown-to-html/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-post-to-wechat",
+    "path": "./community/baoyu-skills/baoyu-post-to-wechat/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-slide-deck",
+    "path": "./community/baoyu-skills/baoyu-slide-deck/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-translate",
+    "path": "./community/baoyu-skills/baoyu-translate/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "baoyu-xhs-images",
+    "path": "./community/baoyu-skills/baoyu-xhs-images/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "deck-that-wins",
     "path": "./community/deck-that-wins/SKILL.md",
     "cluster": "content-presentation",
@@ -251,6 +394,39 @@
     "func_clarity": 8,
     "maintainability": 9,
     "total": 9.2
+  },
+  {
+    "id": "baoyu-danger-gemini-web",
+    "path": "./community/baoyu-skills/baoyu-danger-gemini-web/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "baoyu-diagram",
+    "path": "./community/baoyu-skills/baoyu-diagram/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "baoyu-url-to-markdown",
+    "path": "./community/baoyu-skills/baoyu-url-to-markdown/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
   },
   {
     "id": "changelog-generator",
@@ -924,142 +1100,10 @@
     "total": 8.8
   },
   {
-    "id": "baoyu-article-illustrator",
-    "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
+    "id": "baoyu-image-gen",
+    "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-comic",
-    "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-cover-image",
-    "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-danger-x-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-format-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-image-cards",
-    "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-imagine",
-    "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-infographic",
-    "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-markdown-to-html",
-    "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
-    "cluster": "content-doc",
-    "cluster_name": "内容·文档生成",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-post-to-wechat",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-slide-deck",
-    "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
-    "cluster": "content-doc",
-    "cluster_name": "内容·文档生成",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-translate",
-    "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.8
-  },
-  {
-    "id": "baoyu-xhs-images",
-    "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
@@ -1163,6 +1207,50 @@
     "doc_quality": 7,
     "func_clarity": 10,
     "maintainability": 10,
+    "total": 8.5
+  },
+  {
+    "id": "baoyu-compress-image",
+    "path": "./community/baoyu-skills/baoyu-compress-image/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "baoyu-post-to-weibo",
+    "path": "./community/baoyu-skills/baoyu-post-to-weibo/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "baoyu-post-to-x",
+    "path": "./community/baoyu-skills/baoyu-post-to-x/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "baoyu-youtube-transcript",
+    "path": "./community/baoyu-skills/baoyu-youtube-transcript/SKILL.md",
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 8.5
   },
   {
@@ -2068,28 +2156,6 @@
     "total": 8.3
   },
   {
-    "id": "baoyu-danger-gemini-web",
-    "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
-    "id": "baoyu-url-to-markdown",
-    "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
     "id": "command-development",
     "path": "./external/claude-code/plugins/plugin-dev/skills/command-development/SKILL.md",
     "cluster": "skills-mgmt",
@@ -2193,6 +2259,17 @@
     "path": "./community/audio-clean/SKILL.md",
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "baoyu-skills",
+    "path": "./community/baoyu-skills/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 9,
@@ -2699,50 +2776,6 @@
     "path": "./community/webapp-testing/SKILL.md",
     "cluster": "engineering-qa",
     "cluster_name": "工程·QA",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "baoyu-compress-image",
-    "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "baoyu-post-to-weibo",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "baoyu-post-to-x",
-    "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 7.8
-  },
-  {
-    "id": "baoyu-youtube-transcript",
-    "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,
@@ -4628,17 +4661,6 @@
     "doc_quality": 7,
     "func_clarity": 8,
     "maintainability": 7,
-    "total": 7.3
-  },
-  {
-    "id": "baoyu-diagram",
-    "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
-    "cluster": "content-doc",
-    "cluster_name": "内容·文档生成",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
     "total": 7.3
   },
   {

@@ -4,9 +4,9 @@
     "updated_at": "2026-07-06",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-07-06",
-    "total_skills": 944,
+    "total_skills": 946,
     "total_clusters": 75,
-    "avg_arena_score": 7.35,
+    "avg_arena_score": 7.37,
     "total_winners": 75
   },
   "hierarchy": {
@@ -133,7 +133,7 @@
     {
       "id": "misc",
       "name": "其他未分类",
-      "skill_count": 121,
+      "skill_count": 122,
       "winner": "value-proposition",
       "winner_score": null,
       "description": "暂未归类的技能",
@@ -496,35 +496,9 @@
       ]
     },
     {
-      "id": "agent-agenthub",
-      "name": "Agent·AgentHub协作",
-      "skill_count": 17,
-      "winner": "dbs-goal",
-      "winner_score": null,
-      "description": "AgentHub工作流、DBS系列、聊天室",
-      "triggers": [
-        "agenthub",
-        "DBS",
-        "协作",
-        "chatroom"
-      ],
-      "suitable_for": [
-        "多Agent协作",
-        "DBS工具链"
-      ],
-      "not_suitable_for": [
-        "单Agent任务"
-      ],
-      "parent": "agent",
-      "related": [
-        "agent-arch",
-        "agent-workflow"
-      ]
-    },
-    {
       "id": "content-image",
       "name": "内容·图像设计",
-      "skill_count": 17,
+      "skill_count": 18,
       "winner": "baoyu-article-illustrator",
       "winner_score": null,
       "description": "图像分析、AI图像生成、摄影、视觉设计",
@@ -549,6 +523,32 @@
       "related": [
         "design-ux",
         "content-video"
+      ]
+    },
+    {
+      "id": "agent-agenthub",
+      "name": "Agent·AgentHub协作",
+      "skill_count": 17,
+      "winner": "dbs-goal",
+      "winner_score": null,
+      "description": "AgentHub工作流、DBS系列、聊天室",
+      "triggers": [
+        "agenthub",
+        "DBS",
+        "协作",
+        "chatroom"
+      ],
+      "suitable_for": [
+        "多Agent协作",
+        "DBS工具链"
+      ],
+      "not_suitable_for": [
+        "单Agent任务"
+      ],
+      "parent": "agent",
+      "related": [
+        "agent-arch",
+        "agent-workflow"
       ]
     },
     {
@@ -6393,6 +6393,58 @@
       "github_url": "https://github.com/op7418/guizang-ppt-skill"
     },
     {
+      "id": "baoyu-markdown-to-html",
+      "name": "baoyu-markdown-to-html",
+      "path": "./community/baoyu-skills/baoyu-markdown-to-html/SKILL.md",
+      "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+      "tags": [
+        "baoyu",
+        "content",
+        "doc",
+        "html",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-doc",
+        "cluster_name": "内容·文档生成",
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.56.1"
+    },
+    {
+      "id": "baoyu-slide-deck",
+      "name": "baoyu-slide-deck",
+      "path": "./community/baoyu-skills/baoyu-slide-deck/SKILL.md",
+      "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+      "tags": [
+        "baoyu",
+        "content",
+        "doc",
+        "slides",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-doc",
+        "cluster_name": "内容·文档生成",
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 3,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.56.2"
+    },
+    {
       "id": "visual-forge",
       "name": "visual-forge",
       "path": "./community/visual-forge/SKILL.md",
@@ -6417,55 +6469,37 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 2,
+        "rank": 4,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
       "version": "1.0.0"
     },
     {
-      "id": "baoyu-markdown-to-html",
-      "name": "baoyu-markdown-to-html",
-      "path": "./external/baoyu-skills/skills/baoyu-markdown-to-html/SKILL.md",
-      "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+      "id": "baoyu-diagram",
+      "name": "baoyu-diagram",
+      "path": "./community/baoyu-skills/baoyu-diagram/SKILL.md",
+      "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "doc",
+        "diagram",
+        "community"
       ],
       "arena": {
         "cluster": "content-doc",
         "cluster_name": "内容·文档生成",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
-        "rank": 3,
+        "rank": 5,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
-      "version": "1.56.1"
-    },
-    {
-      "id": "baoyu-slide-deck",
-      "name": "baoyu-slide-deck",
-      "path": "./external/baoyu-skills/skills/baoyu-slide-deck/SKILL.md",
-      "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-doc",
-        "cluster_name": "内容·文档生成",
-        "score": 8.8,
-        "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 4,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.56.2"
+      "version": "1.0.0"
     },
     {
       "id": "xlsx",
@@ -6483,7 +6517,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6505,7 +6539,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6527,7 +6561,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6549,7 +6583,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6571,7 +6605,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -6592,7 +6626,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -6610,27 +6644,6 @@
         "cluster_name": "内容·文档生成",
         "score": 7.8,
         "doc_quality": 10,
-        "func_clarity": 6,
-        "maintainability": 5,
-        "is_winner": false,
-        "rank": 11,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      }
-    },
-    {
-      "id": "baoyu-diagram",
-      "name": "baoyu-diagram",
-      "path": "./external/baoyu-skills/skills/baoyu-diagram/SKILL.md",
-      "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-doc",
-        "cluster_name": "内容·文档生成",
-        "score": 7.3,
-        "doc_quality": 9,
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
@@ -6802,18 +6815,22 @@
     {
       "id": "baoyu-article-illustrator",
       "name": "baoyu-article-illustrator",
-      "path": "./external/baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-article-illustrator/SKILL.md",
       "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "illustration",
+        "community"
       ],
       "arena": {
         "cluster": "content-image",
         "cluster_name": "内容·图像设计",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": true,
         "rank": 1,
         "test_date": "2026-07-06",
@@ -6824,18 +6841,22 @@
     {
       "id": "baoyu-comic",
       "name": "baoyu-comic",
-      "path": "./external/baoyu-skills/skills/baoyu-comic/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-comic/SKILL.md",
       "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "comic",
+        "community"
       ],
       "arena": {
         "cluster": "content-image",
         "cluster_name": "内容·图像设计",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 2,
         "test_date": "2026-07-06",
@@ -6846,18 +6867,22 @@
     {
       "id": "baoyu-cover-image",
       "name": "baoyu-cover-image",
-      "path": "./external/baoyu-skills/skills/baoyu-cover-image/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-cover-image/SKILL.md",
       "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "cover",
+        "community"
       ],
       "arena": {
         "cluster": "content-image",
         "cluster_name": "内容·图像设计",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 3,
         "test_date": "2026-07-06",
@@ -6868,18 +6893,22 @@
     {
       "id": "baoyu-image-cards",
       "name": "baoyu-image-cards",
-      "path": "./external/baoyu-skills/skills/baoyu-image-cards/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-image-cards/SKILL.md",
       "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "cards",
+        "community"
       ],
       "arena": {
         "cluster": "content-image",
         "cluster_name": "内容·图像设计",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 4,
         "test_date": "2026-07-06",
@@ -6890,18 +6919,22 @@
     {
       "id": "baoyu-imagine",
       "name": "baoyu-imagine",
-      "path": "./external/baoyu-skills/skills/baoyu-imagine/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-imagine/SKILL.md",
       "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "generation",
+        "community"
       ],
       "arena": {
         "cluster": "content-image",
         "cluster_name": "内容·图像设计",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 5,
         "test_date": "2026-07-06",
@@ -6912,8 +6945,34 @@
     {
       "id": "baoyu-infographic",
       "name": "baoyu-infographic",
-      "path": "./external/baoyu-skills/skills/baoyu-infographic/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-infographic/SKILL.md",
       "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
+      "tags": [
+        "baoyu",
+        "content",
+        "image",
+        "infographic",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-image",
+        "cluster_name": "内容·图像设计",
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 6,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.58.0"
+    },
+    {
+      "id": "baoyu-image-gen",
+      "name": "baoyu-image-gen",
+      "path": "./external/baoyu-skills/skills/baoyu-image-gen/SKILL.md",
+      "description": "\"[Deprecated: use baoyu-imagine] AI image generation with OpenAI, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.\"",
       "tags": [
         "baoyu"
       ],
@@ -6925,11 +6984,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
-      "version": "1.58.0"
+      "version": "1.56.4"
     },
     {
       "id": "algorithmic-art",
@@ -6947,7 +7006,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6969,7 +7028,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -6991,7 +7050,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7013,7 +7072,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7041,7 +7100,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7063,7 +7122,7 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7085,7 +7144,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -7106,7 +7165,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -7131,7 +7190,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7157,7 +7216,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7183,7 +7242,7 @@
         "func_clarity": 8,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -7442,18 +7501,22 @@
     {
       "id": "baoyu-danger-x-to-markdown",
       "name": "baoyu-danger-x-to-markdown",
-      "path": "./external/baoyu-skills/skills/baoyu-danger-x-to-markdown/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-danger-x-to-markdown/SKILL.md",
       "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "danger",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": true,
         "rank": 1,
         "test_date": "2026-07-06",
@@ -7464,18 +7527,22 @@
     {
       "id": "baoyu-format-markdown",
       "name": "baoyu-format-markdown",
-      "path": "./external/baoyu-skills/skills/baoyu-format-markdown/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-format-markdown/SKILL.md",
       "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "markdown",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 2,
         "test_date": "2026-07-06",
@@ -7486,18 +7553,22 @@
     {
       "id": "baoyu-post-to-wechat",
       "name": "baoyu-post-to-wechat",
-      "path": "./external/baoyu-skills/skills/baoyu-post-to-wechat/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-post-to-wechat/SKILL.md",
       "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "wechat",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 3,
         "test_date": "2026-07-06",
@@ -7508,18 +7579,22 @@
     {
       "id": "baoyu-translate",
       "name": "baoyu-translate",
-      "path": "./external/baoyu-skills/skills/baoyu-translate/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-translate/SKILL.md",
       "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "translation",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 4,
         "test_date": "2026-07-06",
@@ -7530,18 +7605,22 @@
     {
       "id": "baoyu-xhs-images",
       "name": "baoyu-xhs-images",
-      "path": "./external/baoyu-skills/skills/baoyu-xhs-images/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-xhs-images/SKILL.md",
       "description": "\"[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \\\"小红书图片\\\", \\\"XHS images\\\", \\\"RedNote infographics\\\", \\\"小红书种草\\\", \\\"小绿书\\\", \\\"微信图文\\\", \\\"微信贴图\\\", or wants social media infographic series for Chinese platforms.\"",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "image",
+        "xhs",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.8,
+        "score": 9.5,
         "doc_quality": 10,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 5,
         "test_date": "2026-07-06",
@@ -7552,18 +7631,22 @@
     {
       "id": "baoyu-danger-gemini-web",
       "name": "baoyu-danger-gemini-web",
-      "path": "./external/baoyu-skills/skills/baoyu-danger-gemini-web/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-danger-gemini-web/SKILL.md",
       "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "danger",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.3,
+        "score": 9.0,
         "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 6,
         "test_date": "2026-07-06",
@@ -7574,24 +7657,106 @@
     {
       "id": "baoyu-url-to-markdown",
       "name": "baoyu-url-to-markdown",
-      "path": "./external/baoyu-skills/skills/baoyu-url-to-markdown/SKILL.md",
+      "path": "./community/baoyu-skills/baoyu-url-to-markdown/SKILL.md",
       "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown.",
       "tags": [
-        "baoyu"
+        "baoyu",
+        "content",
+        "social",
+        "scraping",
+        "community"
       ],
       "arena": {
         "cluster": "content-social",
         "cluster_name": "内容·社交媒体",
-        "score": 8.3,
+        "score": 9.0,
         "doc_quality": 9,
-        "func_clarity": 8,
-        "maintainability": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
         "is_winner": false,
         "rank": 7,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
       "version": "1.61.0"
+    },
+    {
+      "id": "baoyu-post-to-weibo",
+      "name": "baoyu-post-to-weibo",
+      "path": "./community/baoyu-skills/baoyu-post-to-weibo/SKILL.md",
+      "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
+      "tags": [
+        "baoyu",
+        "content",
+        "social",
+        "weibo",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-social",
+        "cluster_name": "内容·社交媒体",
+        "score": 8.5,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 8,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.56.1"
+    },
+    {
+      "id": "baoyu-post-to-x",
+      "name": "baoyu-post-to-x",
+      "path": "./community/baoyu-skills/baoyu-post-to-x/SKILL.md",
+      "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
+      "tags": [
+        "baoyu",
+        "content",
+        "social",
+        "x",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-social",
+        "cluster_name": "内容·社交媒体",
+        "score": 8.5,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 9,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.56.2"
+    },
+    {
+      "id": "baoyu-youtube-transcript",
+      "name": "baoyu-youtube-transcript",
+      "path": "./community/baoyu-skills/baoyu-youtube-transcript/SKILL.md",
+      "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
+      "tags": [
+        "baoyu",
+        "content",
+        "social",
+        "youtube",
+        "community"
+      ],
+      "arena": {
+        "cluster": "content-social",
+        "cluster_name": "内容·社交媒体",
+        "score": 8.5,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 10,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.1.0"
     },
     {
       "id": "xhs-operator",
@@ -7616,77 +7781,11 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 8,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "baoyu-post-to-weibo",
-      "name": "baoyu-post-to-weibo",
-      "path": "./external/baoyu-skills/skills/baoyu-post-to-weibo/SKILL.md",
-      "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-social",
-        "cluster_name": "内容·社交媒体",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 9,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.56.1"
-    },
-    {
-      "id": "baoyu-post-to-x",
-      "name": "baoyu-post-to-x",
-      "path": "./external/baoyu-skills/skills/baoyu-post-to-x/SKILL.md",
-      "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-social",
-        "cluster_name": "内容·社交媒体",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
-        "rank": 10,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.56.2"
-    },
-    {
-      "id": "baoyu-youtube-transcript",
-      "name": "baoyu-youtube-transcript",
-      "path": "./external/baoyu-skills/skills/baoyu-youtube-transcript/SKILL.md",
-      "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "content-social",
-        "cluster_name": "内容·社交媒体",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
         "rank": 11,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
-      "version": "1.1.0"
+      "version": "1.0.0"
     },
     {
       "id": "x-mastery-mentor",
@@ -14982,6 +15081,33 @@
       "version": "1.0.0"
     },
     {
+      "id": "baoyu-skills",
+      "name": "baoyu-skills",
+      "path": "./community/baoyu-skills/SKILL.md",
+      "description": "\"Curated content + social publishing toolkit (20 skills) — image generation, illustration, document formatting, social posting. Originally by JimLiu/baoyu-skills (now archived), migrated to community/ for local maintenance. Triggers: 'illustrate article', 'add images to article', 'make infographic', 'generate cover', 'comic strip', 'image cards', 'post to WeChat', 'post to Weibo', 'post to X', 'XHS images', 'X to markdown', 'URL to markdown', 'YouTube transcript', 'translate article', 'markdown to HTML', 'slide deck', 'diagram', 'compress image', 'format markdown'.\"",
+      "tags": [
+        "baoyu",
+        "content",
+        "social",
+        "image",
+        "doc",
+        "community"
+      ],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 8.0,
+        "doc_quality": 7,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 16,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "swot-analysis",
       "name": "swot-analysis",
       "path": "./community/pm-skills/strategy/swot-analysis/SKILL.md",
@@ -15000,7 +15126,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -15026,7 +15152,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -15048,7 +15174,7 @@
         "func_clarity": 5,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -15070,7 +15196,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15091,7 +15217,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15112,7 +15238,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 22,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15133,7 +15259,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 23,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15154,7 +15280,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 24,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15175,7 +15301,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 25,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15196,7 +15322,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 26,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15217,7 +15343,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 27,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15238,7 +15364,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 28,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15259,7 +15385,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 28,
+        "rank": 29,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -15281,7 +15407,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 30,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15302,7 +15428,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 30,
+        "rank": 31,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15323,7 +15449,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 32,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15344,7 +15470,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 32,
+        "rank": 33,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15365,7 +15491,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 33,
+        "rank": 34,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15386,7 +15512,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 34,
+        "rank": 35,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15407,7 +15533,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 35,
+        "rank": 36,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15428,7 +15554,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 36,
+        "rank": 37,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15449,7 +15575,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 37,
+        "rank": 38,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15470,7 +15596,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 38,
+        "rank": 39,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15491,7 +15617,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 39,
+        "rank": 40,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15512,7 +15638,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 40,
+        "rank": 41,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15533,7 +15659,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 41,
+        "rank": 42,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15554,7 +15680,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 42,
+        "rank": 43,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15575,7 +15701,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 43,
+        "rank": 44,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15596,7 +15722,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 44,
+        "rank": 45,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15617,7 +15743,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 45,
+        "rank": 46,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15638,7 +15764,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 46,
+        "rank": 47,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15659,7 +15785,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 47,
+        "rank": 48,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15680,7 +15806,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 48,
+        "rank": 49,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15701,7 +15827,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 49,
+        "rank": 50,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15722,7 +15848,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 50,
+        "rank": 51,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15743,7 +15869,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 51,
+        "rank": 52,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15764,7 +15890,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 52,
+        "rank": 53,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15785,7 +15911,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 53,
+        "rank": 54,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15806,7 +15932,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 54,
+        "rank": 55,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15827,7 +15953,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 55,
+        "rank": 56,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -15849,7 +15975,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 56,
+        "rank": 57,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15870,7 +15996,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 57,
+        "rank": 58,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15891,7 +16017,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 58,
+        "rank": 59,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15912,7 +16038,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 59,
+        "rank": 60,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15933,7 +16059,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 60,
+        "rank": 61,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15954,7 +16080,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 61,
+        "rank": 62,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15975,7 +16101,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 62,
+        "rank": 63,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -15996,7 +16122,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 63,
+        "rank": 64,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16017,7 +16143,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 64,
+        "rank": 65,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16038,7 +16164,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 65,
+        "rank": 66,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16059,7 +16185,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 66,
+        "rank": 67,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16080,7 +16206,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 67,
+        "rank": 68,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16101,7 +16227,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 68,
+        "rank": 69,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16122,7 +16248,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 69,
+        "rank": 70,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16143,7 +16269,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 70,
+        "rank": 71,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16164,7 +16290,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 71,
+        "rank": 72,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16185,7 +16311,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 72,
+        "rank": 73,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16206,7 +16332,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 73,
+        "rank": 74,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16227,7 +16353,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 74,
+        "rank": 75,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16248,7 +16374,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 75,
+        "rank": 76,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16269,7 +16395,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 76,
+        "rank": 77,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16290,7 +16416,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 77,
+        "rank": 78,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16311,7 +16437,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 78,
+        "rank": 79,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16332,7 +16458,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 79,
+        "rank": 80,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16353,7 +16479,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 80,
+        "rank": 81,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16374,7 +16500,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 81,
+        "rank": 82,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16395,7 +16521,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 82,
+        "rank": 83,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16416,7 +16542,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 83,
+        "rank": 84,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16437,7 +16563,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 84,
+        "rank": 85,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16458,7 +16584,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 85,
+        "rank": 86,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16479,7 +16605,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 86,
+        "rank": 87,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16500,7 +16626,7 @@
         "func_clarity": 7,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 87,
+        "rank": 88,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -16522,7 +16648,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 88,
+        "rank": 89,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16543,7 +16669,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 89,
+        "rank": 90,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16564,7 +16690,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 90,
+        "rank": 91,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16585,7 +16711,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 91,
+        "rank": 92,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16606,7 +16732,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 92,
+        "rank": 93,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16627,7 +16753,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 93,
+        "rank": 94,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16648,7 +16774,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 94,
+        "rank": 95,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16669,7 +16795,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 95,
+        "rank": 96,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16690,7 +16816,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 96,
+        "rank": 97,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16711,7 +16837,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 97,
+        "rank": 98,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16732,7 +16858,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 98,
+        "rank": 99,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16753,7 +16879,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 99,
+        "rank": 100,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16774,7 +16900,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 100,
+        "rank": 101,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16795,7 +16921,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 101,
+        "rank": 102,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16816,7 +16942,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 102,
+        "rank": 103,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16837,7 +16963,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 103,
+        "rank": 104,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16858,7 +16984,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 104,
+        "rank": 105,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16879,7 +17005,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 105,
+        "rank": 106,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16900,7 +17026,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 106,
+        "rank": 107,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16921,7 +17047,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 107,
+        "rank": 108,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16942,7 +17068,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 108,
+        "rank": 109,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16963,7 +17089,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 109,
+        "rank": 110,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -16984,7 +17110,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 110,
+        "rank": 111,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17005,7 +17131,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 111,
+        "rank": 112,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17026,7 +17152,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 112,
+        "rank": 113,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17047,7 +17173,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 113,
+        "rank": 114,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17068,7 +17194,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 114,
+        "rank": 115,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17089,7 +17215,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 115,
+        "rank": 116,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17110,7 +17236,7 @@
         "func_clarity": 6,
         "maintainability": 2,
         "is_winner": false,
-        "rank": 116,
+        "rank": 117,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17131,7 +17257,7 @@
         "func_clarity": 6,
         "maintainability": 2,
         "is_winner": false,
-        "rank": 117,
+        "rank": 118,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17152,7 +17278,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 118,
+        "rank": 119,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17173,7 +17299,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 119,
+        "rank": 120,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17194,7 +17320,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 120,
+        "rank": 121,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -17215,7 +17341,7 @@
         "func_clarity": 5,
         "maintainability": 2,
         "is_winner": false,
-        "rank": 121,
+        "rank": 122,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       }
@@ -18066,6 +18192,32 @@
       "version": "1.0.0"
     },
     {
+      "id": "baoyu-compress-image",
+      "name": "baoyu-compress-image",
+      "path": "./community/baoyu-skills/baoyu-compress-image/SKILL.md",
+      "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+      "tags": [
+        "baoyu",
+        "productivity",
+        "image",
+        "compression",
+        "community"
+      ],
+      "arena": {
+        "cluster": "productivity",
+        "cluster_name": "效率·生产力",
+        "score": 8.5,
+        "doc_quality": 8,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 2,
+        "test_date": "2026-07-06",
+        "test_version": "1.0.0"
+      },
+      "version": "1.56.1"
+    },
+    {
       "id": "brainstorm-ideas-new",
       "name": "brainstorm-ideas-new",
       "path": "./community/pm-skills/discovery/brainstorm-ideas-new/SKILL.md",
@@ -18084,7 +18236,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 2,
+        "rank": 3,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
@@ -18106,33 +18258,11 @@
         "func_clarity": 8,
         "maintainability": 7,
         "is_winner": false,
-        "rank": 3,
-        "test_date": "2026-07-06",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "baoyu-compress-image",
-      "name": "baoyu-compress-image",
-      "path": "./external/baoyu-skills/skills/baoyu-compress-image/SKILL.md",
-      "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
-      "tags": [
-        "baoyu"
-      ],
-      "arena": {
-        "cluster": "productivity",
-        "cluster_name": "效率·生产力",
-        "score": 7.8,
-        "doc_quality": 8,
-        "func_clarity": 8,
-        "maintainability": 7,
-        "is_winner": false,
         "rank": 4,
         "test_date": "2026-07-06",
         "test_version": "1.0.0"
       },
-      "version": "1.56.1"
+      "version": "1.0.0"
     },
     {
       "id": "brainstorming",
