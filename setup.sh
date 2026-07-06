@@ -121,6 +121,37 @@ install_hub() {
   echo "  ✓ ultraskills-hub (search engine for all 555 skills)"
 }
 
+# Register ultraskills-hub MCP server in ~/.claude/settings.json so Claude Code
+# can call search_skills/get_skill/list_winners without copying SKILL.md frontmatter
+# into context. Idempotent — replaces existing entry on re-run.
+register_mcp_server() {
+  local settings="$HOME/.claude/settings.json"
+  local hub_py="$REPO_DIR/devops/ultraskills-hub/mcp_server.py"
+
+  [ -f "$hub_py" ] || { echo "  ⚠️  mcp_server.py not found, skipping MCP registration"; return 0; }
+
+  if [ ! -f "$settings" ]; then
+    echo "  ⚠️  $settings not found, skipping MCP registration"
+    return 0
+  fi
+
+  python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" <<'PYEOF'
+import json, sys
+settings_path, hub_py, hub_cwd = sys.argv[1], sys.argv[2], sys.argv[3]
+with open(settings_path, encoding="utf-8") as f:
+    s = json.load(f)
+mcp = s.setdefault("mcpServers", {})
+mcp["ultraskills-hub"] = {
+    "command": "python3",
+    "args": [hub_py],
+    "cwd": hub_cwd,
+}
+with open(settings_path, "w", encoding="utf-8") as f:
+    json.dump(s, f, indent=2, ensure_ascii=False)
+print(f"  ✓ registered ultraskills-hub MCP server")
+PYEOF
+}
+
 remove_ultraskills() {
   echo "Removing ultraskills symlinks from $SKILLS_DIR..."
   local count=0
@@ -136,6 +167,22 @@ remove_ultraskills() {
     fi
   done
   echo "Done. Removed $count symlinks."
+
+  # Also remove MCP server registration
+  local settings="$HOME/.claude/settings.json"
+  if [ -f "$settings" ]; then
+    python3 - "$settings" <<'PYEOF'
+import json, sys
+with open(sys.argv[1], encoding="utf-8") as f:
+    s = json.load(f)
+mcp = s.get("mcpServers", {})
+if "ultraskills-hub" in mcp:
+    del mcp["ultraskills-hub"]
+    with open(sys.argv[1], "w", encoding="utf-8") as f:
+        json.dump(s, f, indent=2, ensure_ascii=False)
+    print(f"  ✓ removed ultraskills-hub MCP server entry")
+PYEOF
+  fi
   exit 0
 }
 
@@ -268,6 +315,7 @@ print(f"  + {count} individual skills")
 PY
   setup_hooks
   setup_rtk_hook
+  register_mcp_server
   exit 0
 fi
 
@@ -282,6 +330,7 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
   setup_hooks
   setup_rtk_hook
+  register_mcp_server
   exit 0
 fi
 
@@ -291,9 +340,11 @@ echo ""
 install_hub
 setup_hooks
 setup_rtk_hook
+register_mcp_server
 echo ""
 echo "Done. Claude can now search all 555 ultraskills on demand."
 echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
+echo "  MCP server 'ultraskills-hub' exposes search_skills/get_skill/list_winners/etc."
 echo ""
 echo "Other modes:"
 echo "  ./setup.sh --top     # also pre-load 33 curated skills"
