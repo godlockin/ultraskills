@@ -2,16 +2,27 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 124,
-    "winner": "llm-model-selector",
+    "skill_count": 121,
+    "winner": "value-proposition",
     "skills": [
+      "value-proposition",
+      "beachhead-segment",
+      "porters-five-forces",
+      "dummy-dataset",
       "llm-model-selector",
       "review",
       "pm-skills",
+      "identify-assumptions-new",
+      "opportunity-solution-tree",
+      "create-prd",
+      "release-notes",
+      "stakeholder-map",
+      "competitive-battlecard",
+      "lean-canvas",
+      "product-vision",
+      "swot-analysis",
       "rtk-bridge",
       "qa",
-      "cohort-analysis",
-      "value-proposition",
       "exploratory-data-analysis",
       "ansoff-matrix",
       "business-model",
@@ -22,15 +33,11 @@
       "review-resume",
       "design-taste-frontend",
       "impeccable",
-      "ab-test-analysis",
-      "interview-script",
-      "pre-mortem",
-      "beachhead-segment",
-      "porters-five-forces",
-      "dummy-dataset",
       "generate-image",
       "hugging-science",
       "paper-lookup",
+      "cua-driver-rs",
+      "gui-automation",
       "brand-review",
       "contract-review",
       "code-explainer",
@@ -62,20 +69,12 @@
       "waza",
       "wwas",
       "brandkit",
-      "identify-assumptions-new",
-      "opportunity-solution-tree",
-      "summarize-interview",
-      "create-prd",
-      "release-notes",
-      "stakeholder-map",
-      "competitive-battlecard",
-      "lean-canvas",
-      "product-vision",
       "dhdna-profiler",
       "open-notebook",
       "what-if-oracle",
       "scientific-problem-selection",
       "draft-content",
+      "skillopt-sleep",
       "waza-interactive",
       "sprint-plan",
       "summarize-meeting",
@@ -97,9 +96,7 @@
       "transformers",
       "start",
       "debug",
-      "swot-analysis",
       "build-zoom-meeting-app",
-      "skillopt-sleep",
       "profile-test-skill",
       "intended-vs-implemented",
       "product-name",
@@ -299,6 +296,77 @@
     ]
   },
   {
+    "id": "content-video",
+    "name": "内容·视频",
+    "skill_count": 28,
+    "winner": "remotion",
+    "skills": [
+      "remotion",
+      "video-content-analyzer",
+      "video-analyzer",
+      "\"video-frame-extractor\"",
+      "zero-debt-lint",
+      "video-translate",
+      "video-transcriber",
+      "music-to-video",
+      "pr-to-video",
+      "product-launch-video",
+      "remotion-to-hyperframes",
+      "build-zoom-video-sdk-app",
+      "video-sdk/web",
+      "video-scene-splitter",
+      "general-video",
+      "website-to-video",
+      "zoom-video-sdk-flutter",
+      "video-sdk/linux",
+      "video-sdk/windows",
+      "\"image-to-video\"",
+      "\"video-splitter\"",
+      "huashu-douyin-script",
+      "huashu-video-check",
+      "zoom-video-sdk-android",
+      "zoom-video-sdk-ios",
+      "zoom-video-sdk-macos",
+      "zoom-video-sdk-unity",
+      "huashu-video-outline"
+    ]
+  },
+  {
+    "id": "education",
+    "name": "教育·学习研究",
+    "skill_count": 27,
+    "winner": "interview-script",
+    "skills": [
+      "interview-script",
+      "summarize-interview",
+      "autoresearch",
+      "learn",
+      "autoresearch:execute",
+      "market-research-reports",
+      "feynman-perspective",
+      "course-outline-generator",
+      "autoresearch:analyze",
+      "autoresearch:design",
+      "research-lookup",
+      "scikit-learn",
+      "umap-learn",
+      "customer-research",
+      "account-research",
+      "contact-research",
+      "autoresearch:optimize",
+      "research-grants",
+      "comprehensive-research-agent",
+      "huashu-material-search",
+      "research-synthesis",
+      "synthesize-research",
+      "user-persona-generator",
+      "user-research",
+      "huashu-prompt-save",
+      "huashu-research",
+      "huashu-info-search"
+    ]
+  },
+  {
     "id": "small-business-ops",
     "name": "商业·小微企业",
     "skill_count": 26,
@@ -330,39 +398,6 @@
       "tax-prep",
       "run-campaign",
       "friday-brief"
-    ]
-  },
-  {
-    "id": "education",
-    "name": "教育·学习研究",
-    "skill_count": 25,
-    "winner": "autoresearch",
-    "skills": [
-      "autoresearch",
-      "learn",
-      "autoresearch:execute",
-      "market-research-reports",
-      "feynman-perspective",
-      "course-outline-generator",
-      "autoresearch:analyze",
-      "autoresearch:design",
-      "research-lookup",
-      "scikit-learn",
-      "umap-learn",
-      "customer-research",
-      "account-research",
-      "contact-research",
-      "autoresearch:optimize",
-      "research-grants",
-      "comprehensive-research-agent",
-      "huashu-material-search",
-      "research-synthesis",
-      "synthesize-research",
-      "user-persona-generator",
-      "user-research",
-      "huashu-prompt-save",
-      "huashu-research",
-      "huashu-info-search"
     ]
   },
   {
@@ -405,36 +440,36 @@
         "skills": [
           "api-designer",
           "spec-miner",
-          "sre-engineer",
-          "feature-forge",
           "legacy-modernizer",
-          "monitoring-expert"
+          "monitoring-expert",
+          "feature-forge",
+          "sre-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "pandas-pro",
+        "winner": "sql-pro",
         "skills": [
-          "pandas-pro",
-          "postgres-pro",
           "sql-pro",
+          "database-optimizer",
+          "pandas-pro",
           "spark-engineer",
-          "database-optimizer"
+          "postgres-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "cli-developer",
+        "winner": "websocket-engineer",
         "skills": [
-          "cli-developer",
-          "embedded-systems",
           "websocket-engineer",
-          "chaos-engineer",
-          "mcp-developer"
+          "embedded-systems",
+          "cli-developer",
+          "mcp-developer",
+          "chaos-engineer"
         ]
       },
       {
@@ -477,37 +512,6 @@
           "dotnet-core-expert"
         ]
       }
-    ]
-  },
-  {
-    "id": "content-video",
-    "name": "内容·视频",
-    "skill_count": 23,
-    "winner": "remotion",
-    "skills": [
-      "remotion",
-      "video-content-analyzer",
-      "video-analyzer",
-      "\"video-frame-extractor\"",
-      "zero-debt-lint",
-      "video-translate",
-      "video-transcriber",
-      "remotion-to-hyperframes",
-      "build-zoom-video-sdk-app",
-      "video-sdk/web",
-      "video-scene-splitter",
-      "zoom-video-sdk-flutter",
-      "video-sdk/linux",
-      "video-sdk/windows",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
-      "huashu-douyin-script",
-      "huashu-video-check",
-      "zoom-video-sdk-android",
-      "zoom-video-sdk-ios",
-      "zoom-video-sdk-macos",
-      "zoom-video-sdk-unity",
-      "huashu-video-outline"
     ]
   },
   {
@@ -577,14 +581,14 @@
         "winner": "baoyu-post-to-wechat",
         "skills": [
           "baoyu-post-to-wechat",
+          "baoyu-danger-x-to-markdown",
           "baoyu-translate",
           "baoyu-format-markdown",
-          "baoyu-danger-x-to-markdown",
-          "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
-          "baoyu-post-to-x",
+          "baoyu-url-to-markdown",
+          "baoyu-youtube-transcript",
           "baoyu-post-to-weibo",
-          "baoyu-youtube-transcript"
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -595,10 +599,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
-          "social-content",
+          "huashu-xhs-image",
           "huashu-wechat-image",
           "khazix-writer",
-          "huashu-xhs-image",
+          "social-content",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -626,36 +630,9 @@
     ]
   },
   {
-    "id": "productivity",
-    "name": "效率·生产力",
-    "skill_count": 19,
-    "winner": "growth-loops",
-    "skills": [
-      "growth-loops",
-      "slack-gif-creator",
-      "baoyu-compress-image",
-      "brainstorming",
-      "dynamic-expert-group",
-      "scientific-brainstorming",
-      "product-brainstorming",
-      "brainstorm-okrs",
-      "brainstorm-ideas-new",
-      "caveman-compress",
-      "caveman-commit",
-      "caveman-review",
-      "price-check",
-      "brainstorm-experiments-existing",
-      "brainstorm-experiments-new",
-      "brainstorm-ideas-existing",
-      "caveman",
-      "compress",
-      "slack-messaging"
-    ]
-  },
-  {
     "id": "content-doc",
     "name": "内容·文档生成",
-    "skill_count": 18,
+    "skill_count": 19,
     "winner": "magazine-web-ppt",
     "skills": [
       "magazine-web-ppt",
@@ -673,9 +650,37 @@
       "huashu-slides",
       "pptx-author",
       "xlsx-author",
+      "slideshow",
       "view-pdf",
       "huashu-md-to-pdf",
       "pdf-processor"
+    ]
+  },
+  {
+    "id": "productivity",
+    "name": "效率·生产力",
+    "skill_count": 19,
+    "winner": "growth-loops",
+    "skills": [
+      "growth-loops",
+      "brainstorm-ideas-new",
+      "slack-gif-creator",
+      "baoyu-compress-image",
+      "brainstorming",
+      "dynamic-expert-group",
+      "scientific-brainstorming",
+      "product-brainstorming",
+      "brainstorm-okrs",
+      "caveman-compress",
+      "caveman-commit",
+      "caveman-review",
+      "price-check",
+      "brainstorm-experiments-existing",
+      "brainstorm-experiments-new",
+      "brainstorm-ideas-existing",
+      "caveman",
+      "compress",
+      "slack-messaging"
     ]
   },
   {
@@ -735,11 +740,11 @@
         "winner": "baoyu-article-illustrator",
         "skills": [
           "baoyu-article-illustrator",
-          "baoyu-image-cards",
-          "baoyu-infographic",
-          "baoyu-cover-image",
+          "baoyu-imagine",
           "baoyu-comic",
-          "baoyu-imagine"
+          "baoyu-cover-image",
+          "baoyu-infographic",
+          "baoyu-image-cards"
         ]
       },
       {
@@ -751,9 +756,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
+          "image-reviewer",
           "image-auditor",
-          "image-reviewer"
+          "image-analyzer"
         ]
       },
       {
@@ -765,8 +770,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-image-upload",
-          "huashu-design"
+          "huashu-design",
+          "huashu-image-upload"
         ]
       }
     ]
@@ -821,12 +826,12 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "command-development",
+        "winner": "plugin-structure",
         "skills": [
-          "command-development",
-          "hook-development",
-          "plugin-settings",
           "plugin-structure",
+          "command-development",
+          "plugin-settings",
+          "hook-development",
           "claude-md-improver",
           "claude-automation-recommender"
         ]
@@ -942,22 +947,22 @@
     "id": "video-production",
     "name": "内容·视频制作",
     "skill_count": 14,
-    "winner": "contribute-catalog",
+    "winner": "faceless-explainer",
     "skills": [
-      "contribute-catalog",
-      "hyperframes",
+      "faceless-explainer",
       "hyperframes-cli",
-      "website-to-hyperframes",
+      "motion-graphics",
+      "talking-head-recut",
+      "embedded-captions",
+      "hyperframes-core",
+      "hyperframes-creative",
+      "hyperframes-keyframes",
+      "media-use",
+      "hyperframes-animation",
       "hyperframes-media",
       "hyperframes-registry",
-      "animejs",
-      "gsap",
-      "tailwind",
-      "typegpu",
-      "css-animations",
-      "lottie",
-      "three",
-      "waapi"
+      "figma",
+      "hyperframes"
     ]
   },
   {
@@ -979,6 +984,27 @@
       "vendor-review",
       "process-optimization",
       "risk-assessment"
+    ]
+  },
+  {
+    "id": "data",
+    "name": "数据·分析",
+    "skill_count": 13,
+    "winner": "cohort-analysis",
+    "skills": [
+      "cohort-analysis",
+      "ab-test-analysis",
+      "book-sft-pipeline",
+      "clinical-reports",
+      "statistical-analysis",
+      "people-report",
+      "performance-report",
+      "status-report",
+      "pipeline-review",
+      "huashu-data-pro",
+      "recruiting-pipeline",
+      "data-processor",
+      "report-generator"
     ]
   },
   {
@@ -1090,8 +1116,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "executing-plans",
-          "writing-plans"
+          "writing-plans",
+          "executing-plans"
         ]
       },
       {
@@ -1104,18 +1130,18 @@
           "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-ar",
-          "planning-with-files-es",
-          "planning-with-files-de"
+          "planning-with-files-de",
+          "planning-with-files-es"
         ]
       },
       {
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "skill-development",
+        "winner": "agent-development",
         "skills": [
-          "skill-development",
-          "agent-development"
+          "agent-development",
+          "skill-development"
         ]
       }
     ]
@@ -1147,9 +1173,9 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "build-dashboard",
           "zoom-mcp/whiteboard",
           "metrics-dashboard",
+          "build-dashboard",
           "onboarding",
           "onboarding-guide"
         ]
@@ -1185,33 +1211,14 @@
       "office-hours",
       "plan-ceo-review",
       "plan-eng-review",
+      "prioritize-assumptions",
+      "prioritization-frameworks",
       "user-story-mapper",
       "feature-prioritization",
       "outcome-roadmap",
-      "prioritize-assumptions",
-      "prioritization-frameworks",
       "roadmap-update",
       "analyze-feature-requests",
       "prioritize-features"
-    ]
-  },
-  {
-    "id": "data",
-    "name": "数据·分析",
-    "skill_count": 11,
-    "winner": "book-sft-pipeline",
-    "skills": [
-      "book-sft-pipeline",
-      "clinical-reports",
-      "statistical-analysis",
-      "people-report",
-      "performance-report",
-      "status-report",
-      "pipeline-review",
-      "huashu-data-pro",
-      "recruiting-pipeline",
-      "data-processor",
-      "report-generator"
     ]
   },
   {
@@ -1313,8 +1320,8 @@
         "skills": [
           "setup-deploy",
           "land-and-deploy",
-          "ship",
           "canary",
+          "ship",
           "shipping-artifacts",
           "devops-engineer"
         ]
@@ -1676,10 +1683,10 @@
     "id": "enterprise-search",
     "name": "平台·企业搜索",
     "skill_count": 5,
-    "winner": "search-strategy",
+    "winner": "anysearch",
     "skills": [
-      "search-strategy",
       "anysearch",
+      "search-strategy",
       "knowledge-synthesis",
       "digest",
       "source-management"
@@ -1719,6 +1726,18 @@
       "salesforce-developer",
       "shopify-expert",
       "wordpress-pro"
+    ]
+  },
+  {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 4,
+    "winner": "pre-mortem",
+    "skills": [
+      "pre-mortem",
+      "cso",
+      "strategy-red-team",
+      "security-reviewer"
     ]
   },
   {
@@ -1798,17 +1817,6 @@
       "chinese-text-analysis",
       "reasoning-trace-optimizer",
       "data-context-extractor"
-    ]
-  },
-  {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 3,
-    "winner": "cso",
-    "skills": [
-      "cso",
-      "strategy-red-team",
-      "security-reviewer"
     ]
   },
   {

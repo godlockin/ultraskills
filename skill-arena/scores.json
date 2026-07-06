@@ -77,6 +77,39 @@
     "total": 9.5
   },
   {
+    "id": "cohort-analysis",
+    "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "growth-loops",
+    "path": "./community/pm-skills/gtm/growth-loops/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "value-proposition",
+    "path": "./community/pm-skills/strategy/value-proposition/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "ubiquitous-language",
     "path": "./community/ubiquitous-language/SKILL.md",
     "cluster": "engineering-arch",
@@ -341,6 +374,72 @@
     "total": 9.0
   },
   {
+    "id": "ab-test-analysis",
+    "path": "./community/pm-skills/data/ab-test-analysis/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "interview-script",
+    "path": "./community/pm-skills/discovery/interview-script/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "pre-mortem",
+    "path": "./community/pm-skills/execution/pre-mortem/SKILL.md",
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "beachhead-segment",
+    "path": "./community/pm-skills/gtm/beachhead-segment/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "porters-five-forces",
+    "path": "./community/pm-skills/strategy/porters-five-forces/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "dummy-dataset",
+    "path": "./community/pm-skills/toolkit/dummy-dataset/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "sales-funnel-analyzer",
     "path": "./community/sales-funnel-analyzer/SKILL.md",
     "cluster": "engineering-qa",
@@ -400,7 +499,7 @@
     "path": "./engineering/llm-model-selector/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -1016,7 +1115,7 @@
     "path": "./external/context-engineering-skills/examples/book-sft-pipeline/SKILL.md",
     "cluster": "data",
     "cluster_name": "数据·分析",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1223,6 +1322,138 @@
   {
     "id": "pm-skills",
     "path": "./community/pm-skills/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "brainstorm-ideas-new",
+    "path": "./community/pm-skills/discovery/brainstorm-ideas-new/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "identify-assumptions-new",
+    "path": "./community/pm-skills/discovery/identify-assumptions-new/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "opportunity-solution-tree",
+    "path": "./community/pm-skills/discovery/opportunity-solution-tree/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "prioritize-assumptions",
+    "path": "./community/pm-skills/discovery/prioritize-assumptions/SKILL.md",
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "summarize-interview",
+    "path": "./community/pm-skills/discovery/summarize-interview/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "create-prd",
+    "path": "./community/pm-skills/execution/create-prd/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "prioritization-frameworks",
+    "path": "./community/pm-skills/execution/prioritization-frameworks/SKILL.md",
+    "cluster": "business-product",
+    "cluster_name": "商业·产品",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "release-notes",
+    "path": "./community/pm-skills/execution/release-notes/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "stakeholder-map",
+    "path": "./community/pm-skills/execution/stakeholder-map/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "competitive-battlecard",
+    "path": "./community/pm-skills/gtm/competitive-battlecard/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "lean-canvas",
+    "path": "./community/pm-skills/strategy/lean-canvas/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "product-vision",
+    "path": "./community/pm-skills/strategy/product-vision/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -1676,7 +1907,7 @@
     "path": "./engineering/autoresearch/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 9,
@@ -2050,7 +2281,7 @@
     "path": "./community/gstack/cso/SKILL.md",
     "cluster": "engineering-security",
     "cluster_name": "工程·安全",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 7,
@@ -2149,6 +2380,17 @@
     "path": "./community/pitch-deck-critic/SKILL.md",
     "cluster": "sales-marketing",
     "cluster_name": "商业·销售增长",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "swot-analysis",
+    "path": "./community/pm-skills/strategy/swot-analysis/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 9,
@@ -2266,6 +2508,17 @@
     "total": 8.0
   },
   {
+    "id": "anysearch",
+    "path": "./external/anysearch/SKILL.md",
+    "cluster": "enterprise-search",
+    "cluster_name": "平台·企业搜索",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 8.0
+  },
+  {
     "id": "video-transcriber",
     "path": "./external/video-transcriber/SKILL.md",
     "cluster": "content-video",
@@ -2380,39 +2633,6 @@
     "path": "./community/planning-with-files/skills/planning-with-files/SKILL.md",
     "cluster": "agent-workflow",
     "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.8
-  },
-  {
-    "id": "cohort-analysis",
-    "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.8
-  },
-  {
-    "id": "growth-loops",
-    "path": "./community/pm-skills/gtm/growth-loops/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.8
-  },
-  {
-    "id": "value-proposition",
-    "path": "./community/pm-skills/strategy/value-proposition/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
@@ -2827,11 +3047,66 @@
     "total": 7.8
   },
   {
-    "id": "contribute-catalog",
-    "path": "./external/hyperframes/skills/contribute-catalog/SKILL.md",
+    "id": "faceless-explainer",
+    "path": "./external/hyperframes/skills/faceless-explainer/SKILL.md",
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
     "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "hyperframes-cli",
+    "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "motion-graphics",
+    "path": "./external/hyperframes/skills/motion-graphics/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "music-to-video",
+    "path": "./external/hyperframes/skills/music-to-video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "pr-to-video",
+    "path": "./external/hyperframes/skills/pr-to-video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "product-launch-video",
+    "path": "./external/hyperframes/skills/product-launch-video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
     "maintainability": 5,
@@ -2842,6 +3117,17 @@
     "path": "./external/hyperframes/skills/remotion-to-hyperframes/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "talking-head-recut",
+    "path": "./external/hyperframes/skills/talking-head-recut/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
@@ -2952,7 +3238,7 @@
     "path": "./external/knowledge-work-plugins/enterprise-search/skills/search-strategy/SKILL.md",
     "cluster": "enterprise-search",
     "cluster_name": "平台·企业搜索",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
     "maintainability": 5,
@@ -4015,17 +4301,6 @@
     "total": 7.5
   },
   {
-    "id": "anysearch",
-    "path": "./external/anysearch/SKILL.md",
-    "cluster": "enterprise-search",
-    "cluster_name": "平台·企业搜索",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 7.5
-  },
-  {
     "id": "adaptyv",
     "path": "./external/claude-scientific-skills/scientific-skills/adaptyv/SKILL.md",
     "cluster": "scientific-bioinformatics",
@@ -4169,17 +4444,6 @@
     "total": 7.5
   },
   {
-    "id": "hyperframes",
-    "path": "./external/hyperframes/skills/hyperframes/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 7.5
-  },
-  {
     "id": "impeccable",
     "path": "./external/impeccable/plugin/skills/impeccable/SKILL.md",
     "cluster": "misc",
@@ -4294,72 +4558,6 @@
     "path": "./community/planning-with-files/skills/planning-with-files-es/SKILL.md",
     "cluster": "agent-workflow",
     "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "ab-test-analysis",
-    "path": "./community/pm-skills/data/ab-test-analysis/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "interview-script",
-    "path": "./community/pm-skills/discovery/interview-script/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "pre-mortem",
-    "path": "./community/pm-skills/execution/pre-mortem/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "beachhead-segment",
-    "path": "./community/pm-skills/gtm/beachhead-segment/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "porters-five-forces",
-    "path": "./community/pm-skills/strategy/porters-five-forces/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "dummy-dataset",
-    "path": "./community/pm-skills/toolkit/dummy-dataset/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 6,
@@ -4752,6 +4950,28 @@
     "total": 7.3
   },
   {
+    "id": "cua-driver-rs",
+    "path": "./external/cua/libs/cua-driver/rust/Skills/cua-driver/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "gui-automation",
+    "path": "./external/cua/skills/gui-automation/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "dbs-agent-migration",
     "path": "./external/dbskill/skills/dbs-agent-migration/SKILL.md",
     "cluster": "agent-agenthub",
@@ -4862,8 +5082,8 @@
     "total": 7.3
   },
   {
-    "id": "hyperframes-cli",
-    "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
+    "id": "embedded-captions",
+    "path": "./external/hyperframes/skills/embedded-captions/SKILL.md",
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
     "is_winner": false,
@@ -4873,10 +5093,65 @@
     "total": 7.3
   },
   {
-    "id": "website-to-hyperframes",
-    "path": "./external/hyperframes/skills/website-to-hyperframes/SKILL.md",
+    "id": "general-video",
+    "path": "./external/hyperframes/skills/general-video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "hyperframes-core",
+    "path": "./external/hyperframes/skills/hyperframes-core/SKILL.md",
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "hyperframes-creative",
+    "path": "./external/hyperframes/skills/hyperframes-creative/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "hyperframes-keyframes",
+    "path": "./external/hyperframes/skills/hyperframes-keyframes/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "media-use",
+    "path": "./external/hyperframes/skills/media-use/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "website-to-video",
+    "path": "./external/hyperframes/skills/website-to-video/SKILL.md",
+    "cluster": "content-video",
+    "cluster_name": "内容·视频",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 6,
@@ -6677,6 +6952,17 @@
     "total": 7.0
   },
   {
+    "id": "slideshow",
+    "path": "./external/hyperframes/skills/slideshow/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
     "id": "digest",
     "path": "./external/knowledge-work-plugins/enterprise-search/skills/digest/SKILL.md",
     "cluster": "enterprise-search",
@@ -6828,138 +7114,6 @@
     "doc_quality": 6,
     "func_clarity": 8,
     "maintainability": 7,
-    "total": 6.8
-  },
-  {
-    "id": "brainstorm-ideas-new",
-    "path": "./community/pm-skills/discovery/brainstorm-ideas-new/SKILL.md",
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "identify-assumptions-new",
-    "path": "./community/pm-skills/discovery/identify-assumptions-new/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "opportunity-solution-tree",
-    "path": "./community/pm-skills/discovery/opportunity-solution-tree/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "prioritize-assumptions",
-    "path": "./community/pm-skills/discovery/prioritize-assumptions/SKILL.md",
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "summarize-interview",
-    "path": "./community/pm-skills/discovery/summarize-interview/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "create-prd",
-    "path": "./community/pm-skills/execution/create-prd/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "prioritization-frameworks",
-    "path": "./community/pm-skills/execution/prioritization-frameworks/SKILL.md",
-    "cluster": "business-product",
-    "cluster_name": "商业·产品",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "release-notes",
-    "path": "./community/pm-skills/execution/release-notes/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "stakeholder-map",
-    "path": "./community/pm-skills/execution/stakeholder-map/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "competitive-battlecard",
-    "path": "./community/pm-skills/gtm/competitive-battlecard/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "lean-canvas",
-    "path": "./community/pm-skills/strategy/lean-canvas/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "product-vision",
-    "path": "./community/pm-skills/strategy/product-vision/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
     "total": 6.8
   },
   {
@@ -7330,6 +7484,17 @@
     "path": "./external/huashu-skills/huashu-video-check/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "hyperframes-animation",
+    "path": "./external/hyperframes/skills/hyperframes-animation/SKILL.md",
+    "cluster": "video-production",
+    "cluster_name": "内容·视频制作",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 6,
@@ -7931,6 +8096,17 @@
     "total": 6.8
   },
   {
+    "id": "skillopt-sleep",
+    "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
     "id": "waza-interactive",
     "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
     "cluster": "misc",
@@ -8382,8 +8558,8 @@
     "total": 6.5
   },
   {
-    "id": "animejs",
-    "path": "./external/hyperframes/skills/animejs/SKILL.md",
+    "id": "figma",
+    "path": "./external/hyperframes/skills/figma/SKILL.md",
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
     "is_winner": false,
@@ -8393,30 +8569,8 @@
     "total": 6.5
   },
   {
-    "id": "gsap",
-    "path": "./external/hyperframes/skills/gsap/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.5
-  },
-  {
-    "id": "tailwind",
-    "path": "./external/hyperframes/skills/tailwind/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.5
-  },
-  {
-    "id": "typegpu",
-    "path": "./external/hyperframes/skills/typegpu/SKILL.md",
+    "id": "hyperframes",
+    "path": "./external/hyperframes/skills/hyperframes/SKILL.md",
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
     "is_winner": false,
@@ -8512,17 +8666,6 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 6.5
-  },
-  {
-    "id": "swot-analysis",
-    "path": "./community/pm-skills/strategy/swot-analysis/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.3
   },
   {
     "id": "caveman-help",
@@ -9284,17 +9427,6 @@
     "total": 6.3
   },
   {
-    "id": "css-animations",
-    "path": "./external/hyperframes/skills/css-animations/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.3
-  },
-  {
     "id": "accessibility-review",
     "path": "./external/knowledge-work-plugins/design/skills/accessibility-review/SKILL.md",
     "cluster": "product-design",
@@ -9493,17 +9625,6 @@
     "total": 6.3
   },
   {
-    "id": "skillopt-sleep",
-    "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.3
-  },
-  {
     "id": "pdf-processor",
     "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
     "cluster": "content-doc",
@@ -9640,39 +9761,6 @@
     "path": "./external/claude-scientific-skills/scientific-skills/pyzotero/SKILL.md",
     "cluster": "scientific-publishing",
     "cluster_name": "科学·学术出版",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.0
-  },
-  {
-    "id": "lottie",
-    "path": "./external/hyperframes/skills/lottie/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.0
-  },
-  {
-    "id": "three",
-    "path": "./external/hyperframes/skills/three/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.0
-  },
-  {
-    "id": "waapi",
-    "path": "./external/hyperframes/skills/waapi/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 5,

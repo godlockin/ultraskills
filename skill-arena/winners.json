@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "visual-forge",
-    "total_contestants": 18,
+    "total_contestants": 19,
     "defeated": [
       "visual-forge",
       "baoyu-markdown-to-html",
@@ -35,7 +35,7 @@
     "winner": "remotion",
     "score": 9.7,
     "runner_up": "video-content-analyzer",
-    "total_contestants": 23,
+    "total_contestants": 28,
     "defeated": [
       "video-content-analyzer",
       "video-analyzer",
@@ -74,6 +74,21 @@
     ]
   },
   {
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "winner": "cohort-analysis",
+    "score": 9.5,
+    "runner_up": "ab-test-analysis",
+    "total_contestants": 13,
+    "defeated": [
+      "ab-test-analysis",
+      "book-sft-pipeline",
+      "clinical-reports",
+      "statistical-analysis",
+      "people-report"
+    ]
+  },
+  {
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
     "winner": "design-an-interface",
@@ -86,6 +101,36 @@
       "mcp-builder",
       "mcp-integration",
       "site-architecture"
+    ]
+  },
+  {
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "winner": "value-proposition",
+    "score": 9.5,
+    "runner_up": "beachhead-segment",
+    "total_contestants": 121,
+    "defeated": [
+      "beachhead-segment",
+      "porters-five-forces",
+      "dummy-dataset",
+      "llm-model-selector",
+      "review"
+    ]
+  },
+  {
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "winner": "growth-loops",
+    "score": 9.5,
+    "runner_up": "brainstorm-ideas-new",
+    "total_contestants": 19,
+    "defeated": [
+      "brainstorm-ideas-new",
+      "slack-gif-creator",
+      "baoyu-compress-image",
+      "brainstorming",
+      "dynamic-expert-group"
     ]
   },
   {
@@ -161,6 +206,21 @@
     ]
   },
   {
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "winner": "interview-script",
+    "score": 9.0,
+    "runner_up": "summarize-interview",
+    "total_contestants": 27,
+    "defeated": [
+      "summarize-interview",
+      "autoresearch",
+      "learn",
+      "autoresearch:execute",
+      "market-research-reports"
+    ]
+  },
+  {
     "cluster": "engineering-ml",
     "cluster_name": "工程·ML/AI",
     "winner": "chinese-text-analysis",
@@ -185,6 +245,19 @@
       "plan-devex-review",
       "health",
       "qa-only"
+    ]
+  },
+  {
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "winner": "pre-mortem",
+    "score": 9.0,
+    "runner_up": "cso",
+    "total_contestants": 4,
+    "defeated": [
+      "cso",
+      "strategy-red-team",
+      "security-reviewer"
     ]
   },
   {
@@ -227,21 +300,6 @@
       "mac-voice-clone",
       "mac-whisper",
       "audio-clean"
-    ]
-  },
-  {
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "winner": "llm-model-selector",
-    "score": 9.0,
-    "runner_up": "review",
-    "total_contestants": 124,
-    "defeated": [
-      "review",
-      "pm-skills",
-      "rtk-bridge",
-      "qa",
-      "cohort-analysis"
     ]
   },
   {
@@ -382,9 +440,9 @@
     "defeated": [
       "plan-ceo-review",
       "plan-eng-review",
-      "user-story-mapper",
-      "feature-prioritization",
-      "outcome-roadmap"
+      "prioritize-assumptions",
+      "prioritization-frameworks",
+      "user-story-mapper"
     ]
   },
   {
@@ -430,21 +488,6 @@
       "youtube-script-optimizer",
       "markdown-mermaid-writing",
       "copy-editing"
-    ]
-  },
-  {
-    "cluster": "data",
-    "cluster_name": "数据·分析",
-    "winner": "book-sft-pipeline",
-    "score": 8.8,
-    "runner_up": "clinical-reports",
-    "total_contestants": 11,
-    "defeated": [
-      "clinical-reports",
-      "statistical-analysis",
-      "people-report",
-      "performance-report",
-      "status-report"
     ]
   },
   {
@@ -537,21 +580,6 @@
     ]
   },
   {
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "winner": "autoresearch",
-    "score": 8.4,
-    "runner_up": "learn",
-    "total_contestants": 25,
-    "defeated": [
-      "learn",
-      "autoresearch:execute",
-      "market-research-reports",
-      "feynman-perspective",
-      "course-outline-generator"
-    ]
-  },
-  {
     "cluster": "engineering-git",
     "cluster_name": "工程·Git工作流",
     "winner": "using-git-worktrees",
@@ -592,15 +620,17 @@
     ]
   },
   {
-    "cluster": "engineering-security",
-    "cluster_name": "工程·安全",
-    "winner": "cso",
+    "cluster": "enterprise-search",
+    "cluster_name": "平台·企业搜索",
+    "winner": "anysearch",
     "score": 8.0,
-    "runner_up": "strategy-red-team",
-    "total_contestants": 3,
+    "runner_up": "search-strategy",
+    "total_contestants": 5,
     "defeated": [
-      "strategy-red-team",
-      "security-reviewer"
+      "search-strategy",
+      "knowledge-synthesis",
+      "digest",
+      "source-management"
     ]
   },
   {
@@ -644,20 +674,6 @@
       "programmatic-seo",
       "schema-markup",
       "seo-audit"
-    ]
-  },
-  {
-    "cluster": "enterprise-search",
-    "cluster_name": "平台·企业搜索",
-    "winner": "search-strategy",
-    "score": 7.8,
-    "runner_up": "anysearch",
-    "total_contestants": 5,
-    "defeated": [
-      "anysearch",
-      "knowledge-synthesis",
-      "digest",
-      "source-management"
     ]
   },
   {
@@ -801,21 +817,6 @@
     ]
   },
   {
-    "cluster": "productivity",
-    "cluster_name": "效率·生产力",
-    "winner": "growth-loops",
-    "score": 7.8,
-    "runner_up": "slack-gif-creator",
-    "total_contestants": 19,
-    "defeated": [
-      "slack-gif-creator",
-      "baoyu-compress-image",
-      "brainstorming",
-      "dynamic-expert-group",
-      "scientific-brainstorming"
-    ]
-  },
-  {
     "cluster": "productivity-tools",
     "cluster_name": "效率·生产力工具",
     "winner": "neat-freak",
@@ -906,16 +907,16 @@
   {
     "cluster": "video-production",
     "cluster_name": "内容·视频制作",
-    "winner": "contribute-catalog",
+    "winner": "faceless-explainer",
     "score": 7.8,
-    "runner_up": "hyperframes",
+    "runner_up": "hyperframes-cli",
     "total_contestants": 14,
     "defeated": [
-      "hyperframes",
       "hyperframes-cli",
-      "website-to-hyperframes",
-      "hyperframes-media",
-      "hyperframes-registry"
+      "motion-graphics",
+      "talking-head-recut",
+      "embedded-captions",
+      "hyperframes-core"
     ]
   },
   {

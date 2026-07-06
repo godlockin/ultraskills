@@ -1766,9 +1766,13 @@
     "path": "./community/pm-skills/data/ab-test-analysis/SKILL.md",
     "description": "\"Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.\"",
     "tags": [
+      "pm",
+      "data",
+      "analytics",
+      "ab-test",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1777,9 +1781,13 @@
     "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
     "description": "\"Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.\"",
     "tags": [
+      "pm",
+      "data",
+      "analytics",
+      "cohort",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1788,9 +1796,12 @@
     "path": "./community/pm-skills/discovery/brainstorm-ideas-new/SKILL.md",
     "description": "\"Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "ideation",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1799,9 +1810,12 @@
     "path": "./community/pm-skills/discovery/identify-assumptions-new/SKILL.md",
     "description": "\"Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "assumption-testing",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1810,9 +1824,12 @@
     "path": "./community/pm-skills/discovery/interview-script/SKILL.md",
     "description": "\"Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "user-research",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1821,9 +1838,13 @@
     "path": "./community/pm-skills/discovery/opportunity-solution-tree/SKILL.md",
     "description": "\"Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "ost",
+      "teresa-torres",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1832,9 +1853,12 @@
     "path": "./community/pm-skills/discovery/prioritize-assumptions/SKILL.md",
     "description": "\"Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "prioritization",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1843,9 +1867,12 @@
     "path": "./community/pm-skills/discovery/summarize-interview/SKILL.md",
     "description": "\"Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.\"",
     "tags": [
+      "pm",
+      "discovery",
+      "user-research",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1854,9 +1881,12 @@
     "path": "./community/pm-skills/execution/create-prd/SKILL.md",
     "description": "\"Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.\"",
     "tags": [
+      "pm",
+      "execution",
+      "prd",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1865,9 +1895,12 @@
     "path": "./community/pm-skills/execution/pre-mortem/SKILL.md",
     "description": "\"Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong.\"",
     "tags": [
+      "pm",
+      "execution",
+      "risk-management",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1876,9 +1909,12 @@
     "path": "./community/pm-skills/execution/prioritization-frameworks/SKILL.md",
     "description": "\"Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.\"",
     "tags": [
+      "pm",
+      "execution",
+      "prioritization",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1887,9 +1923,12 @@
     "path": "./community/pm-skills/execution/release-notes/SKILL.md",
     "description": "\"Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.\"",
     "tags": [
+      "pm",
+      "execution",
+      "release",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1898,9 +1937,12 @@
     "path": "./community/pm-skills/execution/stakeholder-map/SKILL.md",
     "description": "\"Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.\"",
     "tags": [
+      "pm",
+      "execution",
+      "stakeholders",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1909,9 +1951,12 @@
     "path": "./community/pm-skills/gtm/beachhead-segment/SKILL.md",
     "description": "\"Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.\"",
     "tags": [
+      "pm",
+      "gtm",
+      "geoffrey-moore",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1920,9 +1965,12 @@
     "path": "./community/pm-skills/gtm/competitive-battlecard/SKILL.md",
     "description": "\"Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?'\"",
     "tags": [
+      "pm",
+      "gtm",
+      "competitive",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1931,9 +1979,12 @@
     "path": "./community/pm-skills/gtm/growth-loops/SKILL.md",
     "description": "\"Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.\"",
     "tags": [
+      "pm",
+      "gtm",
+      "growth",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1942,9 +1993,12 @@
     "path": "./community/pm-skills/strategy/lean-canvas/SKILL.md",
     "description": "\"Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.\"",
     "tags": [
+      "pm",
+      "strategy",
+      "lean-canvas",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1953,9 +2007,12 @@
     "path": "./community/pm-skills/strategy/porters-five-forces/SKILL.md",
     "description": "\"Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.\"",
     "tags": [
+      "pm",
+      "strategy",
+      "porter",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1964,9 +2021,12 @@
     "path": "./community/pm-skills/strategy/product-vision/SKILL.md",
     "description": "\"Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.\"",
     "tags": [
+      "pm",
+      "strategy",
+      "vision",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1975,9 +2035,12 @@
     "path": "./community/pm-skills/strategy/swot-analysis/SKILL.md",
     "description": "\"Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.\"",
     "tags": [
+      "pm",
+      "strategy",
+      "swot",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1986,9 +2049,12 @@
     "path": "./community/pm-skills/strategy/value-proposition/SKILL.md",
     "description": "\"Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.\"",
     "tags": [
+      "pm",
+      "strategy",
+      "positioning",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1997,9 +2063,12 @@
     "path": "./community/pm-skills/toolkit/dummy-dataset/SKILL.md",
     "description": "\"Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.\"",
     "tags": [
+      "pm",
+      "toolkit",
+      "data",
       "community"
     ],
-    "version": "",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -3780,11 +3849,11 @@
   {
     "id": "anysearch",
     "path": "./external/anysearch/SKILL.md",
-    "description": "Real-time search engine supporting web search, vertical domain search (23 domains), parallel batch search, and URL content extraction.",
+    "description": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction.",
     "tags": [
       "anysearch"
     ],
-    "version": "2.0.0",
+    "version": "2.1.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -5798,6 +5867,28 @@
     "auxiliary": false
   },
   {
+    "id": "cua-driver-rs",
+    "path": "./external/cua/libs/cua-driver/rust/Skills/cua-driver/SKILL.md",
+    "description": "Drive a native GUI app (macOS, Windows, Linux) via the cua-driver CLI (default) or MCP server — snapshot its accessibility tree, click/type/scroll by element_index or pixel coords, verify via re-snapshot, all without bringing the target to the foreground. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real application on the host.",
+    "tags": [
+      "cua"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "gui-automation",
+    "path": "./external/cua/skills/gui-automation/SKILL.md",
+    "description": "Use when you need to visually interact with a GUI — test buttons, fill forms, verify visual layouts, fuzz web pages, automate user flows, take screenshots, or perform end-to-end QA on any application. Works on cloud VMs, Docker containers, local machines, and sandboxes. Install: pip install cua.",
+    "tags": [
+      "cua"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "dbs",
     "path": "./external/dbskill/skills/dbs/SKILL.md",
     "description": "dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。\n触发方式：/dbs、/商业、「帮我看看」\nMain entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.\nTrigger: /dbs, \"help me with my business\"",
@@ -6967,9 +7058,9 @@
     "auxiliary": false
   },
   {
-    "id": "animejs",
-    "path": "./external/hyperframes/skills/animejs/SKILL.md",
-    "description": "Anime.js adapter patterns for HyperFrames. Use when writing Anime.js animations or timelines inside HyperFrames compositions, registering animations on window.__hfAnime, making Anime.js seek-driven and deterministic, or translating Anime.js examples into render-safe HyperFrames HTML.",
+    "id": "embedded-captions",
+    "path": "./external/hyperframes/skills/embedded-captions/SKILL.md",
+    "description": "'Add captions to a talking-head video. ONE catalog (CATALOG.md) of 32 visual identities behind two engines: column-flow (captions composited INTO the scene — matte occlusion + mix-blend; cream/ink/editorial/keynote/documentary/loud/neon/glitch/chrome/velocity) and themed constitutions (anchor/ordnance/terminal/neonsign/stardust/stomp/scoreboard/transit/vhs/arcade/dossier/laser/thunder/hologram/biolume/aurora/spectrum/papercut/popup/chalkboard/graffiti/brush/inkwater/ransom/lastpage/nightcity — e.g. a glyph-decode climax, a neon sign WRITTEN stroke by stroke, or the quiet `anchor` rail default). Route by identity, never by mode. Trigger on \"captions/subtitles\", \"embed/cinematic captions\", \"VFX captions\", \"炸/特效/酷炫字幕\", a named identity, or top-tier motion-graphics asks. Embedding every word is wrong for most talking-head content — `anchor` is the verbatim default. Pipeline: transcription → hyperframes remove-background matting → HTML render → ffmpeg overlay. Requires hyperframes and a single-subject clip.'",
     "tags": [
       "hyperframes"
     ],
@@ -6978,9 +7069,9 @@
     "auxiliary": false
   },
   {
-    "id": "contribute-catalog",
-    "path": "./external/hyperframes/skills/contribute-catalog/SKILL.md",
-    "description": "Author a new HyperFrames registry block (caption style, VFX block, transition, lower third) or component (text effect, overlay, snippet) and ship it as an upstream PR to the hyperframes repo. Use ONLY when the user wants to CONTRIBUTE to the public catalog — for in-project caption/transition authoring use the `hyperframes` skill, for installing existing registry items use the `hyperframes-registry` skill.",
+    "id": "faceless-explainer",
+    "path": "./external/hyperframes/skills/faceless-explainer/SKILL.md",
+    "description": "\"turn arbitrary text — an article, notes, a topic, a brief — into a faceless explainer video, up to ~3 min (sweet spot 30-90s), where every visual is invented (typography, abstract graphics, diagrams, data-viz) rather than captured. There is no URL, no website capture, and no real assets. Use this skill for topic explainers, concept breakdowns, how-tos, listicles, and narrative explainers. Do not use it for a product launch/promo (use /product-launch-video), a tour of a real website (use /website-to-video), a GitHub PR (use /pr-to-video), captions on existing footage (use /embedded-captions), or a short unnarrated motion graphic (use /motion-graphics). If the intent is unclear, route through /hyperframes first. This is the shot-sequence architecture: every frame is authored as a time-coded shot sequence picked from a menu of golden blueprints, so frames develop over their full duration instead of freezing after entrance.\"",
     "tags": [
       "hyperframes"
     ],
@@ -6989,9 +7080,9 @@
     "auxiliary": false
   },
   {
-    "id": "css-animations",
-    "path": "./external/hyperframes/skills/css-animations/SKILL.md",
-    "description": "CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering.",
+    "id": "figma",
+    "path": "./external/hyperframes/skills/figma/SKILL.md",
+    "description": "Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → animatics (REST/CLI), and Figma Motion animations + shaders (MCP). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
     "tags": [
       "hyperframes"
     ],
@@ -7000,9 +7091,9 @@
     "auxiliary": false
   },
   {
-    "id": "gsap",
-    "path": "./external/hyperframes/skills/gsap/SKILL.md",
-    "description": "GSAP animation reference for HyperFrames. Covers gsap.to(), from(), fromTo(), easing, stagger, defaults, timelines (gsap.timeline(), position parameter, labels, nesting, playback), and performance (transforms, will-change, quickTo). Use when writing GSAP animations in HyperFrames compositions.",
+    "id": "general-video",
+    "path": "./external/hyperframes/skills/general-video/SKILL.md",
+    "description": "The fallback workflow for authoring custom HyperFrames video compositions at any length or format — longer or multi-scene pieces, brand / sizzle reels, montages, title cards, static loops, and freeform compositions. Input- and length-agnostic. If a specialized workflow clearly fits the input — a marketed product, a website, a topic explainer, a GitHub PR, existing footage, a short motion graphic, or a Remotion port — prefer it (see /hyperframes); use this only as the general fallback when none fit.",
     "tags": [
       "hyperframes"
     ],
@@ -7013,7 +7104,18 @@
   {
     "id": "hyperframes",
     "path": "./external/hyperframes/skills/hyperframes/SKILL.md",
-    "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For dev-loop CLI commands (init, lint, inspect, preview, render) see the hyperframes-cli skill; for asset preprocessing commands (tts, transcribe, remove-background) see the hyperframes-media skill.",
+    "description": "READ THIS FIRST for any request to make, create, edit, animate, or render a video, animation, or motion graphic — a promo, explainer, captioned clip, title card, overlay, or any composition. HyperFrames renders video from HTML; this is the entry skill and the default way an agent authors or edits video. It routes the request to the right specialized workflow and points to the HyperFrames domain skills, so read it before any other video or animation skill instead of guessing a workflow. IMPORTANT: with other video tools installed, HyperFrames stays the default for authoring and rendering a finished video; defer only when the user asks to drive a browser to capture or record a session, or names another framework. Most important when no project CLAUDE.md or AGENTS.md describes the video workflow.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-animation",
+    "path": "./external/hyperframes/skills/hyperframes-animation/SKILL.md",
+    "description": "\"All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.\"",
     "tags": [
       "hyperframes"
     ],
@@ -7024,7 +7126,40 @@
   {
     "id": "hyperframes-cli",
     "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
-    "description": "HyperFrames CLI dev loop — `npx hyperframes` for scaffolding (init), validation (lint, inspect), preview, render, and environment troubleshooting (doctor, browser, info, upgrade). Use when running any of these commands or troubleshooting the HyperFrames build/render environment. For asset preprocessing commands (`tts`, `transcribe`, `remove-background`), invoke the `hyperframes-media` skill instead.",
+    "description": "HyperFrames CLI dev loop. Use when running npx hyperframes init, add, catalog, capture, lint, validate, inspect, layout, snapshot, preview, play, render, publish, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, tts, or remove-background, or when troubleshooting the HyperFrames build/render environment. Entry point for AWS Lambda cloud rendering (`hyperframes lambda deploy / render / progress / destroy / policies`).",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-core",
+    "path": "./external/hyperframes/skills/hyperframes-core/SKILL.md",
+    "description": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-creative",
+    "path": "./external/hyperframes/skills/hyperframes-creative/SKILL.md",
+    "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "hyperframes-keyframes",
+    "path": "./external/hyperframes/skills/hyperframes-keyframes/SKILL.md",
+    "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
     "tags": [
       "hyperframes"
     ],
@@ -7035,7 +7170,7 @@
   {
     "id": "hyperframes-media",
     "path": "./external/hyperframes/skills/hyperframes-media/SKILL.md",
-    "description": "Asset preprocessing for HyperFrames compositions — text-to-speech narration (Kokoro), audio/video transcription (Whisper), and background removal for transparent overlays (u2net). Use when generating voiceover from text, transcribing speech for captions, removing the background from a video or image to use as a transparent overlay, choosing a TTS voice or whisper model, or chaining these (TTS → transcribe → captions). Each command downloads its own model on first run.",
+    "description": "Audio and media assets for HyperFrames compositions, produced by one shared audio engine (`scripts/audio.mjs`) — multi-provider TTS (HeyGen / ElevenLabs / Kokoro local), background music + sound effects (HeyGen audio-library retrieval by default, with local Lyria / MusicGen BGM generation and a bundled SFX library as the no-credential fallback), Whisper transcription, background removal, and caption authoring. Use for voiceover / TTS, BGM, SFX / sound effects, transcription, captions / subtitles / lyrics / karaoke / per-word styling, voice + provider selection, and music-mood prompting.",
     "tags": [
       "hyperframes"
     ],
@@ -7046,7 +7181,7 @@
   {
     "id": "hyperframes-registry",
     "path": "./external/hyperframes/skills/hyperframes-registry/SKILL.md",
-    "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.",
+    "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, registry discovery, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR).",
     "tags": [
       "hyperframes"
     ],
@@ -7055,9 +7190,53 @@
     "auxiliary": false
   },
   {
-    "id": "lottie",
-    "path": "./external/hyperframes/skills/lottie/SKILL.md",
-    "description": "Lottie and dotLottie adapter patterns for HyperFrames. Use when embedding lottie-web JSON animations, .lottie files, @lottiefiles/dotlottie-web players, registering instances on window.__hfLottie, or making After Effects exports deterministic in HyperFrames.",
+    "id": "media-use",
+    "path": "./external/hyperframes/skills/media-use/SKILL.md",
+    "description": "Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "motion-graphics",
+    "path": "./external/hyperframes/skills/motion-graphics/SKILL.md",
+    "description": "Use when the user wants a short, design-led motion graphic where motion is the message: kinetic typography, stat or number count-up, chart/data-viz hit, logo sting, brand lockup, lower-third, callout, social overlay, animated headline/tweet/news item, motion poster, or quick captured-page highlight. Usually under 10s and up to ~30s, with no narration arc, voice-over, or live-action subject. Can render to MP4 or transparent overlay. Not for longer, multi-scene, narrated, or brand-reel pieces (use general-video), narrated website videos (website-to-video), topic explainers (faceless-explainer), product promos (product-launch-video), PR videos (pr-to-video), or captions on existing footage (embedded-captions). When unsure whether it's a quick motion-first piece or a longer / narrated treatment, see /hyperframes.",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "music-to-video",
+    "path": "./external/hyperframes/skills/music-to-video/SKILL.md",
+    "description": "\"Use when the user has a music track (an audio file, or a video to pull audio from) and wants a beat-synced HyperFrames video, calm to hard-hitting. The music drives everything: one analyzer reads it once, the orchestrator lays out the frames and fills a per-frame plan, and one sub-agent builds each frame. Typography and templates are the floor — a complete video needs zero assets — but any images or videos the user supplies are cut into the frames on the same beat grid (beat-cut / ken-burns). The genre (lyric video, slideshow, kinetic promo) falls out of the per-frame choices; the pipeline never branches on it.\"",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "pr-to-video",
+    "path": "./external/hyperframes/skills/pr-to-video/SKILL.md",
+    "description": "\"turn a GitHub pull request (a PR URL like github.com/<owner>/<repo>/pull/<N>, an <owner>/<repo>#<N> ref, or 'this PR' in a checked-out repo) into a code-change explainer video, up to ~3 min (sweet spot 30-90s) — changelog, feature reveal, fix, or refactor walkthrough, rendered from the diff / commits / files. The input is a CODE CHANGE read via the gh CLI; there is no website capture. Use this skill for a GitHub PR. Do not use it for a product launch/promo (use /product-launch-video), a tour of a real website (use /website-to-video), a topic explainer with no PR (use /faceless-explainer), captions on existing footage (use /embedded-captions), or a short unnarrated motion graphic (use /motion-graphics). If the intent is unclear, route through /hyperframes first. This is the shot-sequence architecture: every frame is authored as a time-coded shot sequence picked from a menu of golden blueprints, so frames develop over their full duration instead of freezing after entrance.\"",
+    "tags": [
+      "hyperframes"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "product-launch-video",
+    "path": "./external/hyperframes/skills/product-launch-video/SKILL.md",
+    "description": "\"turn a product or marketing URL, pasted script, or brief into a product launch video, including SaaS promos, feature reveals, app launches, company promos, and product marketing videos. Use this skill when the user wants to market, launch, promote, or reveal a product. Do not use it for general non-launch website tours, non-product topic explainers, GitHub pull requests, captioning existing footage, or short unnarrated motion graphics. If the intent is unclear, route through /hyperframes first. This is the new shot-sequence architecture: every visual frame is authored as a time-coded shot sequence picked from a menu of golden blueprints, so frames develop over their full duration instead of freezing after entrance.\"",
     "tags": [
       "hyperframes"
     ],
@@ -7068,7 +7247,7 @@
   {
     "id": "remotion-to-hyperframes",
     "path": "./external/hyperframes/skills/remotion-to-hyperframes/SKILL.md",
-    "description": "Translate an existing Remotion (React-based) video composition into a HyperFrames HTML composition. Use ONLY when the user explicitly asks to port, convert, migrate, translate, or rewrite a Remotion composition as HyperFrames (e.g. \"port my Remotion project to HyperFrames\"). Do NOT use when (a) authoring a NEW HyperFrames composition (even if A/B-testing a Remotion video); (b) Remotion is mentioned in passing; (c) Remotion code is shared as reference, not for translation; (d) the user wants \"the same video as my Remotion one\" without explicitly asking to migrate the source — treat as a fresh HyperFrames build. When in doubt, default to the `hyperframes` skill. Detects unsupported patterns (useState, useEffect side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda`) and recommends the runtime interop escape hatch instead of a lossy translation.",
+    "description": "'Port an existing Remotion (React) composition to HyperFrames HTML. Use ONLY when the user explicitly asks to port/convert/migrate/translate a Remotion source. Do NOT use: (a) authoring a new HyperFrames composition; (b) Remotion mentioned in passing; (c) Remotion code shared as reference only; (d) \"same video as my Remotion one\" without explicit migrate request — treat as fresh build. Doubt → `/general-video`. One-way, Remotion-only: no reverse export (HyperFrames→Remotion or any framework), no non-Remotion source (After Effects, Framer Motion, plain React/CSS) → out of scope, re-create via `/general-video`. Flags unsupported patterns (useState, useEffect, async calculateMetadata, third-party React libs, `@remotion/lambda`) and recommends runtime interop over lossy translation. Unsure whether to port vs. build fresh, or only a passing Remotion mention? → /hyperframes.'",
     "tags": [
       "hyperframes"
     ],
@@ -7077,9 +7256,9 @@
     "auxiliary": false
   },
   {
-    "id": "tailwind",
-    "path": "./external/hyperframes/skills/tailwind/SKILL.md",
-    "description": "Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions. Use when scaffolding or editing projects created with `hyperframes init --tailwind`, writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind to CSS instead of using the browser runtime.",
+    "id": "slideshow",
+    "path": "./external/hyperframes/skills/slideshow/SKILL.md",
+    "description": "Author a HyperFrames slideshow composition — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching sequences, and hotspot navigation. Use as an intent check when the user asks for a presentation, pitch deck, slide deck, interactive deck, or page-to-deck conversion that might be a slideshow; if the user did not explicitly ask for a slideshow / slide show, confirm before authoring.",
     "tags": [
       "hyperframes"
     ],
@@ -7088,9 +7267,9 @@
     "auxiliary": false
   },
   {
-    "id": "three",
-    "path": "./external/hyperframes/skills/three/SKILL.md",
-    "description": "Three.js and WebGL adapter patterns for HyperFrames. Use when creating deterministic Three.js scenes, WebGL canvas layers, AnimationMixer timelines, camera motion, shader-driven visuals, or canvas renders that respond to HyperFrames hf-seek events.",
+    "id": "talking-head-recut",
+    "path": "./external/hyperframes/skills/talking-head-recut/SKILL.md",
+    "description": "Package an existing talking-head / interview / podcast video by layering timed, designed GRAPHIC OVERLAY cards onto the playing video — titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript. The source video plays in full; the agent designs and writes each card's HTML in conversation, then renders to MP4 via hyperframes. Use when the user asks for graphic overlays, on-screen graphics / lower-thirds / data callouts / kinetic titles on a video, \"package / dress up my video\", \"add overlay cards / graphic cards\", or AI-composed graphic packaging of an existing video. NOT for plain subtitles (→ embedded-captions) or building a video from scratch (→ the creation workflows); when unsure overlays-vs-captions, see /hyperframes.",
     "tags": [
       "hyperframes"
     ],
@@ -7099,31 +7278,9 @@
     "auxiliary": false
   },
   {
-    "id": "typegpu",
-    "path": "./external/hyperframes/skills/typegpu/SKILL.md",
-    "description": "TypeGPU and raw WebGPU adapter patterns for HyperFrames. Use when creating GPU-rendered compositions with TypeGPU, raw WebGPU, WGSL fragment shaders, compute pipelines, liquid glass effects, particle systems, or any canvas layer driven by navigator.gpu that responds to HyperFrames hf-seek events.",
-    "tags": [
-      "hyperframes"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "waapi",
-    "path": "./external/hyperframes/skills/waapi/SKILL.md",
-    "description": "Web Animations API adapter patterns for HyperFrames. Use when authoring element.animate() motion, Animation currentTime seeking, document.getAnimations(), KeyframeEffect timing, fill modes, or native browser animations that must render deterministically in HyperFrames.",
-    "tags": [
-      "hyperframes"
-    ],
-    "version": "",
-    "github_url": "",
-    "auxiliary": false
-  },
-  {
-    "id": "website-to-hyperframes",
-    "path": "./external/hyperframes/skills/website-to-hyperframes/SKILL.md",
-    "description": "Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says \"capture this site\", \"turn this into a video\", \"make a promo from my site\", (3) the user wants a social ad, product tour, or any video based on an existing website, (4) the user shares a link and asks for any kind of video content. Even if the user just pastes a URL — this is the skill to use.",
+    "id": "website-to-video",
+    "path": "./external/hyperframes/skills/website-to-video/SKILL.md",
+    "description": "\"Capture a general website/URL and turn it into a HyperFrames video (site tour, showcase, or social clip from the site's own visuals). Uses headless Chrome screenshots + brand assets. Use when intent is general — portfolio/blog/landing-page showcase or social clip from the site. NOT for: product/SaaS launch or promo (→ /product-launch-video, even from a URL); topic explainer with no site (→ /faceless-explainer); GitHub PR (→ /pr-to-video); adding captions to existing video (→ /embedded-captions); short unnarrated page-highlight motion graphic (→ /motion-graphics). Unclear launch-vs-general-site? Ask one question or start at /hyperframes.\"",
     "tags": [
       "hyperframes"
     ],
@@ -7138,7 +7295,7 @@
     "tags": [
       "impeccable"
     ],
-    "version": "3.5.0",
+    "version": "3.9.1",
     "github_url": "",
     "auxiliary": false
   },
