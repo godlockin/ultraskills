@@ -102,14 +102,17 @@ install_hub() {
 # can call search_skills/get_skill/list_winners without copying SKILL.md frontmatter
 # into context. Idempotent — replaces existing entry on re-run.
 register_mcp_server() {
-  local settings="$HOME/.claude/settings.json"
+  local settings_dir="$HOME/.claude"
+  local settings="$settings_dir/settings.json"
   local hub_py="$REPO_DIR/devops/ultraskills-hub/mcp_server.py"
 
   [ -f "$hub_py" ] || { echo "  ⚠️  mcp_server.py not found, skipping MCP registration"; return 0; }
 
+  # Create $HOME/.claude + settings.json if missing (fresh install scenario)
   if [ ! -f "$settings" ]; then
-    echo "  ⚠️  $settings not found, skipping MCP registration"
-    return 0
+    mkdir -p "$settings_dir"
+    echo '{}' > "$settings"
+    echo "  ✓ created $settings"
   fi
 
   python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" <<'PYEOF'
@@ -261,67 +264,15 @@ setup_python_venvs() {
 
 
 # ── Phase 2: Maintain submodules + arena index ──────────────────────────────
-# Lists configured submodule paths from .gitmodules.
-# Skips paths that have no .gitmodules entry (orphan .git/config mappings).
-_list_submodule_paths() {
-  git -C "$REPO_DIR" config --file .gitmodules --get-regexp 'submodule\..*\.path' 2>/dev/null \
-    | awk '{print $2}' || true
-}
+# Implementation lives in scripts/ (Python) so it can be unit-tested and
+# invoked directly without bash. setup.sh just dispatches.
 
-# Update every configured submodule individually. Skips orphans (no .gitmodules
-# entry → would fatal) and failures (e.g. upstream 404). Prints summary.
 update_submodules() {
-  echo "Updating submodules..."
-  local ok=0 fail=0
-  local failed_paths=()
-  while IFS= read -r path; do
-    [ -z "$path" ] && continue
-    printf "  %-50s " "$path"
-    if out=$(git -C "$REPO_DIR" submodule update --init --remote --recursive "$path" 2>&1); then
-      echo "✓"
-      ok=$((ok + 1))
-    else
-      # Last line of error is the most informative
-      local err
-      err=$(echo "$out" | grep -E "fatal|error" | tail -1)
-      echo "✗ ${err:-failed}"
-      fail=$((fail + 1))
-      failed_paths+=("$path")
-    fi
-  done < <(_list_submodule_paths)
-
-  echo ""
-  echo "Submodules: $ok updated, $fail failed."
-  if [ $fail -gt 0 ]; then
-    echo "Failed paths (often upstream archived/renamed — repo debt, not blockers):"
-    for p in "${failed_paths[@]}"; do echo "  - $p"; done
-  fi
-  return 0  # never fail the script on submodule issues
+  python3 "$REPO_DIR/scripts/sync_submodules.py"
 }
 
-# Rebuild arena index.json from current SKILL.md tree.
-# Always runs all 3 stages; safe to invoke repeatedly.
 update_arena_index() {
-  local scripts_dir="$REPO_DIR/scripts"
-  if [ ! -d "$scripts_dir" ]; then
-    echo "  ⚠️  $scripts_dir not found — cannot rebuild"
-    return 1
-  fi
-  echo "Rebuilding arena index..."
-  local log="/tmp/claude-tasks/arena-rebuild-$(date +%Y%m%d-%H%M%S).log"
-  mkdir -p "$(dirname "$log")"
-  if bash -c "
-      python3 $scripts_dir/arena_scan.py && \
-      python3 $scripts_dir/arena_cluster_score.py && \
-      python3 $scripts_dir/arena_build_index.py
-    " > "$log" 2>&1; then
-    grep -E "index.json written" "$log" | tail -1 | sed 's/^/  /'
-    echo "  Log: $log"
-  else
-    echo "  ✗ arena rebuild failed (see $log)"
-    tail -n 20 "$log" | sed 's/^/    /'
-    return 1
-  fi
+  python3 "$REPO_DIR/scripts/build_arena_index.py"
 }
 
 # ── Dispatch ──────────────────────────────────────────────────────────────────

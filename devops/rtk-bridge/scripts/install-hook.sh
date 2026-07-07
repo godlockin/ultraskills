@@ -8,7 +8,8 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+# SCRIPT_DIR = devops/rtk-bridge/scripts → up 3 levels reaches repo root
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
 HOOK_SRC="$REPO_ROOT/devops/rtk-bridge/references/hook-source.md"
 HOOK_DST_DIR="$HOME/.claude/hooks"
 HOOK_DST="$HOOK_DST_DIR/rtk-rewrite.sh"
