@@ -440,10 +440,10 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "spec-miner",
           "sre-engineer",
-          "monitoring-expert",
           "feature-forge",
+          "spec-miner",
+          "monitoring-expert",
           "legacy-modernizer"
         ]
       },
@@ -451,46 +451,46 @@
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "pandas-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "pandas-pro",
-          "database-optimizer",
-          "postgres-pro",
           "spark-engineer",
-          "sql-pro"
+          "pandas-pro",
+          "sql-pro",
+          "postgres-pro",
+          "database-optimizer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "chaos-engineer",
+        "winner": "websocket-engineer",
         "skills": [
-          "chaos-engineer",
           "websocket-engineer",
           "mcp-developer",
           "embedded-systems",
-          "cli-developer"
+          "cli-developer",
+          "chaos-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -582,14 +582,14 @@
         "winner": "baoyu-translate",
         "skills": [
           "baoyu-translate",
-          "baoyu-danger-x-to-markdown",
           "baoyu-post-to-wechat",
+          "baoyu-danger-x-to-markdown",
           "baoyu-format-markdown",
           "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
           "baoyu-youtube-transcript",
-          "baoyu-post-to-x",
-          "baoyu-post-to-weibo"
+          "baoyu-post-to-weibo",
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -601,9 +601,9 @@
           "baoyu-xhs-images",
           "x-mastery-mentor",
           "huashu-xhs-image",
+          "social-content",
           "khazix-writer",
           "huashu-wechat-image",
-          "social-content",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -742,10 +742,10 @@
         "skills": [
           "baoyu-article-illustrator",
           "baoyu-comic",
-          "baoyu-imagine",
-          "baoyu-infographic",
           "baoyu-image-cards",
-          "baoyu-cover-image"
+          "baoyu-infographic",
+          "baoyu-cover-image",
+          "baoyu-imagine"
         ]
       },
       {
@@ -757,9 +757,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-reviewer",
           "image-analyzer",
-          "image-auditor",
-          "image-reviewer"
+          "image-auditor"
         ]
       },
       {
@@ -827,14 +827,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "command-development",
         "skills": [
-          "plugin-settings",
+          "command-development",
           "plugin-structure",
           "hook-development",
-          "command-development",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "plugin-settings",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -945,28 +945,6 @@
     ]
   },
   {
-    "id": "video-production",
-    "name": "内容·视频制作",
-    "skill_count": 14,
-    "winner": "faceless-explainer",
-    "skills": [
-      "faceless-explainer",
-      "hyperframes-cli",
-      "motion-graphics",
-      "talking-head-recut",
-      "embedded-captions",
-      "hyperframes-core",
-      "hyperframes-creative",
-      "hyperframes-keyframes",
-      "media-use",
-      "hyperframes-animation",
-      "hyperframes-media",
-      "hyperframes-registry",
-      "figma",
-      "hyperframes"
-    ]
-  },
-  {
     "id": "business-operations",
     "name": "商业·业务运营",
     "skill_count": 13,
@@ -1072,6 +1050,27 @@
     ]
   },
   {
+    "id": "video-production",
+    "name": "内容·视频制作",
+    "skill_count": 13,
+    "winner": "faceless-explainer",
+    "skills": [
+      "faceless-explainer",
+      "hyperframes-cli",
+      "motion-graphics",
+      "talking-head-recut",
+      "embedded-captions",
+      "hyperframes-core",
+      "hyperframes-creative",
+      "hyperframes-keyframes",
+      "media-use",
+      "hyperframes-animation",
+      "hyperframes-registry",
+      "figma",
+      "hyperframes"
+    ]
+  },
+  {
     "id": "partner-integration",
     "name": "平台·SaaS集成",
     "skill_count": 12,
@@ -1130,8 +1129,8 @@
           "planning-with-files-zh",
           "planning-with-files-zht",
           "planning-with-files",
-          "planning-with-files-de",
           "planning-with-files-es",
+          "planning-with-files-de",
           "planning-with-files-ar"
         ]
       },
@@ -1317,10 +1316,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "setup-deploy",
+        "winner": "land-and-deploy",
         "skills": [
-          "setup-deploy",
           "land-and-deploy",
+          "setup-deploy",
           "canary",
           "ship",
           "shipping-artifacts",

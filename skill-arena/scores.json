@@ -7513,17 +7513,6 @@
     "total": 6.8
   },
   {
-    "id": "hyperframes-media",
-    "path": "./external/hyperframes/skills/hyperframes-media/SKILL.md",
-    "cluster": "video-production",
-    "cluster_name": "内容·视频制作",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
     "id": "hyperframes-registry",
     "path": "./external/hyperframes/skills/hyperframes-registry/SKILL.md",
     "cluster": "video-production",

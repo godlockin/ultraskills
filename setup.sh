@@ -1,59 +1,36 @@
 #!/usr/bin/env bash
-# setup.sh — Install ultraskills into ~/.claude/skills/
+# setup.sh — Install + maintain ultraskills into ~/.claude/skills/
 #
-# Usage:
-#   ./setup.sh           # Hub-only (recommended): 1 entry point + search engine
-#   ./setup.sh --top     # Hub + 33 top/curated skills pre-loaded
-#   ./setup.sh --all     # Hub + ALL 555 skills (floods system-reminder)
-#   ./setup.sh --remove  # Remove all ultraskills symlinks from ~/.claude/skills/
+# Two-phase model:
 #
-# Recommended: hub-only
-#   - Only "ultraskills-hub" skill appears in system-reminder (1 entry)
-#   - Claude searches index on demand → loads specific SKILL.md when needed
-#   - Zero bloat, full access to all 555 skills
+#   PHASE 1 — First-time install (zero dependencies):
+#     ./setup.sh                  # hub-only (recommended) — 1 entry point + MCP server
+#     ./setup.sh --top            # hub + 33 curated skills pre-loaded as symlinks
+#     ./setup.sh --all            # hub + ALL skills (floods system-reminder)
+#     ./setup.sh --remove         # uninstall — remove all ultraskills symlinks + MCP entry
+#
+#     These run WITHOUT touching submodules or arena index. Just installs the
+#     client-side hub so Claude can search/load skills on demand.
+#
+#   PHASE 2 — Maintain (after git pull / when adding new skills):
+#     ./setup.sh --update-submodules   # git submodule update --init --remote
+#     ./setup.sh --update-arena        # rebuild index.json (scan + cluster + build)
+#     ./setup.sh --update              # both of the above
+#
+# Use cases:
+#   - Fresh checkout:    ./setup.sh                 # install client only
+#   - Repo dev workflow: ./setup.sh --update        # after pull / before commit
+#   - Restore baseline:  ./setup.sh --remove && ./setup.sh
+#
+# Why split: fresh install shouldn't fail on upstream-submodule 404s (13 of
+# ours are gone). Maintain step is explicit so the user knows when network
+# fetches happen.
 
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="$HOME/.claude/skills"
 INSTALL_MODE="${1:-}"
-
-# ── Submodule check ───────────────────────────────────────────────────────────
-check_submodules() {
-  # Detect uninitialized submodules: registered in .gitmodules but empty dirs
-  local uninitialized=()
-  while IFS= read -r path; do
-    local full="$REPO_DIR/$path"
-    if [ -d "$full" ] && [ -z "$(ls -A "$full" 2>/dev/null)" ]; then
-      uninitialized+=("$path")
-    elif [ ! -d "$full" ]; then
-      uninitialized+=("$path")
-    fi
-  done < <(git -C "$REPO_DIR" config --file .gitmodules --get-regexp 'submodule\..*\.path' | awk '{print $2}')
-
-  if [ ${#uninitialized[@]} -eq 0 ]; then
-    return 0
-  fi
-
-  echo ""
-  echo "⚠️  Uninitialized submodules detected (${#uninitialized[@]}):"
-  for p in "${uninitialized[@]}"; do
-    echo "    - $p"
-  done
-  echo ""
-
-  # Auto-init by default; skip only if --no-submodules passed
-  if [[ "${INSTALL_MODE}" == "--no-submodules" ]]; then
-    echo "Skipping submodule init (--no-submodules). Some skills may be unavailable."
-    return 0
-  fi
-
-  echo "Initializing submodules... (pass --no-submodules to skip)"
-  git -C "$REPO_DIR" submodule update --init --recursive
-  echo "✓ Submodules initialized"
-}
-
-check_submodules
 
 # Curated top skills: arena winners + community picks
 TOP_SKILLS=(
@@ -283,7 +260,96 @@ setup_python_venvs() {
 }
 
 
+# ── Phase 2: Maintain submodules + arena index ──────────────────────────────
+# Lists configured submodule paths from .gitmodules.
+# Skips paths that have no .gitmodules entry (orphan .git/config mappings).
+_list_submodule_paths() {
+  git -C "$REPO_DIR" config --file .gitmodules --get-regexp 'submodule\..*\.path' 2>/dev/null \
+    | awk '{print $2}' || true
+}
+
+# Update every configured submodule individually. Skips orphans (no .gitmodules
+# entry → would fatal) and failures (e.g. upstream 404). Prints summary.
+update_submodules() {
+  echo "Updating submodules..."
+  local ok=0 fail=0
+  local failed_paths=()
+  while IFS= read -r path; do
+    [ -z "$path" ] && continue
+    printf "  %-50s " "$path"
+    if out=$(git -C "$REPO_DIR" submodule update --init --remote --recursive "$path" 2>&1); then
+      echo "✓"
+      ok=$((ok + 1))
+    else
+      # Last line of error is the most informative
+      local err
+      err=$(echo "$out" | grep -E "fatal|error" | tail -1)
+      echo "✗ ${err:-failed}"
+      fail=$((fail + 1))
+      failed_paths+=("$path")
+    fi
+  done < <(_list_submodule_paths)
+
+  echo ""
+  echo "Submodules: $ok updated, $fail failed."
+  if [ $fail -gt 0 ]; then
+    echo "Failed paths (often upstream archived/renamed — repo debt, not blockers):"
+    for p in "${failed_paths[@]}"; do echo "  - $p"; done
+  fi
+  return 0  # never fail the script on submodule issues
+}
+
+# Rebuild arena index.json from current SKILL.md tree.
+# Always runs all 3 stages; safe to invoke repeatedly.
+update_arena_index() {
+  local scripts_dir="$REPO_DIR/scripts"
+  if [ ! -d "$scripts_dir" ]; then
+    echo "  ⚠️  $scripts_dir not found — cannot rebuild"
+    return 1
+  fi
+  echo "Rebuilding arena index..."
+  local log="/tmp/claude-tasks/arena-rebuild-$(date +%Y%m%d-%H%M%S).log"
+  mkdir -p "$(dirname "$log")"
+  if bash -c "
+      python3 $scripts_dir/arena_scan.py && \
+      python3 $scripts_dir/arena_cluster_score.py && \
+      python3 $scripts_dir/arena_build_index.py
+    " > "$log" 2>&1; then
+    grep -E "index.json written" "$log" | tail -1 | sed 's/^/  /'
+    echo "  Log: $log"
+  else
+    echo "  ✗ arena rebuild failed (see $log)"
+    tail -n 20 "$log" | sed 's/^/    /'
+    return 1
+  fi
+}
+
 # ── Dispatch ──────────────────────────────────────────────────────────────────
+
+# Phase 2 dispatch (maintain) — handled FIRST so --update flags exit before
+# install runs (avoids touching ~/.claude/skills/ during a maintain session).
+case "$INSTALL_MODE" in
+  --update)
+    echo "=== Phase 2: full maintain ==="
+    echo ""
+    update_submodules
+    echo ""
+    update_arena_index
+    exit 0
+    ;;
+  --update-submodules)
+    echo "=== Phase 2: submodule sync ==="
+    echo ""
+    update_submodules
+    exit 0
+    ;;
+  --update-arena)
+    echo "=== Phase 2: arena rebuild ==="
+    echo ""
+    update_arena_index
+    exit 0
+    ;;
+esac
 
 if [ "$INSTALL_MODE" = "--remove" ]; then
   remove_ultraskills
@@ -342,11 +408,16 @@ setup_hooks
 setup_rtk_hook
 register_mcp_server
 echo ""
-echo "Done. Claude can now search all 555 ultraskills on demand."
+echo "Done. Claude can now search all ultraskills on demand."
 echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
 echo "  MCP server 'ultraskills-hub' exposes search_skills/get_skill/list_winners/etc."
 echo ""
-echo "Other modes:"
-echo "  ./setup.sh --top     # also pre-load 33 curated skills"
-echo "  ./setup.sh --all     # pre-load all 555 (high token overhead)"
-echo "  ./setup.sh --remove  # uninstall everything"
+echo "Phase 1 (install) options:"
+echo "  ./setup.sh --top        # also pre-load 33 curated skills"
+echo "  ./setup.sh --all        # pre-load all skills (high token overhead)"
+echo "  ./setup.sh --remove     # uninstall everything"
+echo ""
+echo "Phase 2 (maintain — run after git pull / when adding skills):"
+echo "  ./setup.sh --update-submodules   # fetch latest submodule commits"
+echo "  ./setup.sh --update-arena        # rebuild index.json from current SKILL.md"
+echo "  ./setup.sh --update              # both of the above"
