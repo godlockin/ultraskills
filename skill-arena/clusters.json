@@ -440,36 +440,36 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
+          "legacy-modernizer",
           "feature-forge",
-          "sre-engineer",
           "spec-miner",
-          "monitoring-expert",
-          "legacy-modernizer"
+          "sre-engineer",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "postgres-pro",
-          "pandas-pro",
           "spark-engineer",
           "database-optimizer",
-          "sql-pro"
+          "pandas-pro",
+          "sql-pro",
+          "postgres-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "websocket-engineer",
+        "winner": "cli-developer",
         "skills": [
-          "websocket-engineer",
-          "chaos-engineer",
-          "embedded-systems",
           "cli-developer",
+          "chaos-engineer",
+          "websocket-engineer",
+          "embedded-systems",
           "mcp-developer"
         ]
       },
@@ -477,10 +477,10 @@
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
@@ -579,17 +579,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-danger-x-to-markdown",
+        "winner": "baoyu-translate",
         "skills": [
-          "baoyu-danger-x-to-markdown",
           "baoyu-translate",
-          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
-          "baoyu-danger-gemini-web",
+          "baoyu-format-markdown",
+          "baoyu-danger-x-to-markdown",
           "baoyu-url-to-markdown",
-          "baoyu-youtube-transcript",
+          "baoyu-danger-gemini-web",
           "baoyu-post-to-weibo",
-          "baoyu-post-to-x"
+          "baoyu-post-to-x",
+          "baoyu-youtube-transcript"
         ]
       },
       {
@@ -600,10 +600,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
-          "social-content",
           "huashu-xhs-image",
-          "khazix-writer",
           "huashu-wechat-image",
+          "social-content",
+          "khazix-writer",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -741,11 +741,11 @@
         "winner": "baoyu-imagine",
         "skills": [
           "baoyu-imagine",
-          "baoyu-infographic",
-          "baoyu-image-cards",
           "baoyu-comic",
-          "baoyu-cover-image",
-          "baoyu-article-illustrator"
+          "baoyu-image-cards",
+          "baoyu-article-illustrator",
+          "baoyu-infographic",
+          "baoyu-cover-image"
         ]
       },
       {
@@ -757,9 +757,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
+          "image-analyzer",
           "image-reviewer",
-          "image-auditor",
-          "image-analyzer"
+          "image-auditor"
         ]
       },
       {
@@ -831,8 +831,8 @@
         "skills": [
           "command-development",
           "plugin-settings",
-          "hook-development",
           "plugin-structure",
+          "hook-development",
           "claude-automation-recommender",
           "claude-md-improver"
         ]
@@ -846,8 +846,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template"
         ]
       }
@@ -1124,14 +1124,14 @@
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zht",
+        "winner": "planning-with-files-zh",
         "skills": [
-          "planning-with-files-zht",
           "planning-with-files-zh",
+          "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-ar",
-          "planning-with-files-de",
-          "planning-with-files-es"
+          "planning-with-files-es",
+          "planning-with-files-de"
         ]
       },
       {
@@ -1173,8 +1173,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "build-dashboard",
           "zoom-mcp/whiteboard",
+          "build-dashboard",
           "metrics-dashboard",
           "onboarding",
           "onboarding-guide"

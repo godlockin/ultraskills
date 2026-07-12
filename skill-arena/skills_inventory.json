@@ -7222,7 +7222,7 @@
   {
     "id": "hyperframes-cli",
     "path": "./external/hyperframes/skills/hyperframes-cli/SKILL.md",
-    "description": "HyperFrames CLI dev loop. Use when running npx hyperframes init, add, catalog, capture, lint, validate, inspect, layout, snapshot, preview, play, render, publish, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, tts, or remove-background, or when troubleshooting the HyperFrames build/render environment. Entry point for AWS Lambda cloud rendering (`hyperframes lambda deploy / render / progress / destroy / policies / sites`).",
+    "description": "HyperFrames CLI dev loop. Use when running npx hyperframes init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, render, publish, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, tts, or remove-background (validate/inspect/layout are deprecated aliases covered by check), or when troubleshooting the HyperFrames build/render environment. Entry point for AWS Lambda cloud rendering (`hyperframes lambda deploy / render / progress / destroy / policies / sites`).",
     "tags": [
       "hyperframes"
     ],
@@ -7277,7 +7277,7 @@
   {
     "id": "media-use",
     "path": "./external/hyperframes/skills/media-use/SKILL.md",
-    "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, or voice into a frozen local file + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Keeps search noise on disk, hands the agent a path. Use for any audio, image, icon, voiceover, caption, or media-asset need.",
+    "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Keeps search noise on disk, hands the agent one path or block. Use for any audio, image, icon, logo, voiceover, caption, color-grading, or media-asset need.",
     "tags": [
       "hyperframes"
     ],
