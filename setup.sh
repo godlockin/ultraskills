@@ -4,10 +4,13 @@
 # Two-phase model:
 #
 #   PHASE 1 — First-time install (zero dependencies):
-#     ./setup.sh                  # hub-only (recommended) — 1 entry point + MCP server
-#     ./setup.sh --top            # hub + 33 curated skills pre-loaded as symlinks
-#     ./setup.sh --all            # hub + ALL skills (floods system-reminder)
-#     ./setup.sh --remove         # uninstall — remove all ultraskills symlinks + MCP entry
+#     ./setup.sh                            # hub-only on Claude Code (recommended)
+#     ./setup.sh --top                      # hub + 33 curated skills pre-loaded
+#     ./setup.sh --all                      # hub + ALL skills (floods system-reminder)
+#     ./setup.sh --platform <name>          # deploy to specific AI tool (claude-code | cursor | windsurf | codex | gemini | cline | trae | all)
+#     ./setup.sh --platform list            # show supported platforms
+#     ./setup.sh --mode symlink|copy|both   # link strategy (default symlink)
+#     ./setup.sh --remove                   # uninstall — remove all ultraskills symlinks + MCP entry
 #
 #     These run WITHOUT touching submodules or arena index. Just installs the
 #     client-side hub so Claude can search/load skills on demand.
@@ -18,8 +21,10 @@
 #     ./setup.sh --update              # both of the above
 #
 # Use cases:
-#   - Fresh checkout:    ./setup.sh                 # install client only
-#   - Repo dev workflow: ./setup.sh --update        # after pull / before commit
+#   - Fresh checkout:    ./setup.sh                          # Claude Code only
+#   - Multi-tool user:   ./setup.sh --platform all           # all detected AI tools
+#   - Forked skill:      ./setup.sh --platform claude-code --mode copy
+#   - Repo dev workflow: ./setup.sh --update                 # after pull / before commit
 #   - Restore baseline:  ./setup.sh --remove && ./setup.sh
 #
 # Why split: fresh install shouldn't fail on upstream-submodule 404s (13 of
@@ -31,6 +36,26 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="$HOME/.claude/skills"
 INSTALL_MODE="${1:-}"
+
+# Multi-flag support: scan all args, allow --flag VALUE pairs
+PLATFORM="claude-code"
+LINK_MODE="symlink"
+declare -a REMAINING_ARGS=()
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --platform=*) PLATFORM="${1#--platform=}"; shift ;;
+    --mode=*)     LINK_MODE="${1#--mode=}"; shift ;;
+    --platform)   shift; PLATFORM="${1:-claude-code}"; shift ;;
+    --mode)       shift; LINK_MODE="${1:-symlink}"; shift ;;
+    *)            REMAINING_ARGS+=("$1"); shift ;;
+  esac
+done
+# Restore positional for downstream (handle empty array safely under set -u)
+if [ ${#REMAINING_ARGS[@]} -gt 0 ]; then
+  set -- "${REMAINING_ARGS[@]}"
+else
+  set --
+fi
 
 # Curated top skills: arena winners + community picks
 TOP_SKILLS=(
@@ -93,6 +118,8 @@ symlink_skill() {
 install_hub() {
   local hub_src="$REPO_DIR/devops/ultraskills-hub"
   local hub_dst="$SKILLS_DIR/ultraskills-hub"
+  # Snapshot any locally-edited skills BEFORE we touch anything
+  python3 "$REPO_DIR/scripts/snapshot.py" 2>&1 | sed 's/^/    /' || true
   [ -L "$hub_dst" ] && rm "$hub_dst"
   ln -sf "$hub_src" "$hub_dst"
   echo "  ✓ ultraskills-hub (search engine for all 555 skills)"
@@ -300,36 +327,34 @@ case "$INSTALL_MODE" in
     update_arena_index
     exit 0
     ;;
+  --restore)
+    echo "=== Restore snapshot ==="
+    shift
+    python3 "$REPO_DIR/scripts/snapshot.py" --restore "$@"
+    exit $?
+    ;;
+  --snapshot)
+    python3 "$REPO_DIR/scripts/snapshot.py"
+    exit $?
+    ;;
 esac
 
 if [ "$INSTALL_MODE" = "--remove" ]; then
   remove_ultraskills
+  # Also remove from all platforms
+  python3 "$REPO_DIR/scripts/distribute.py" --remove --platform all
+  exit 0
 fi
 
+# All install modes now delegate to distribute.py for skill deployment.
+# Claude-Code-specific concerns (hooks, RTK, MCP register) still happen here.
+
 if [ "$INSTALL_MODE" = "--all" ]; then
-  echo "Installing hub + ALL skills → $SKILLS_DIR"
-  echo "⚠️  555 skills will appear in system-reminder. Expect token overhead."
+  echo "Installing hub + ALL skills → all detected platforms (mode=$LINK_MODE)"
+  echo "⚠️  945 skills will appear in system-reminder. Expect token overhead."
   echo ""
   install_hub
-  python3 - "$REPO_DIR" "$SKILLS_DIR" << 'PY'
-import json, os, sys
-repo_dir, skills_dir = sys.argv[1], sys.argv[2]
-idx = json.load(open(os.path.join(repo_dir, "index.json")))
-count = 0
-for s in idx["skills"]:
-    sid = s["id"]
-    src = os.path.join(repo_dir, s["path"].lstrip("./"))
-    dst = os.path.join(skills_dir, sid)
-    if not os.path.isdir(src):
-        continue
-    if os.path.islink(dst):
-        os.remove(dst)
-    elif os.path.isdir(dst):
-        continue
-    os.symlink(src, dst)
-    count += 1
-print(f"  + {count} individual skills")
-PY
+  python3 "$REPO_DIR/scripts/distribute.py" --platform all --mode "$LINK_MODE"
   setup_hooks
   setup_rtk_hook
   register_mcp_server
@@ -337,12 +362,22 @@ PY
 fi
 
 if [ "$INSTALL_MODE" = "--top" ]; then
-  echo "Installing hub + top 33 curated skills → $SKILLS_DIR"
+  echo "Installing hub + top 33 curated skills → $PLATFORM (mode=$LINK_MODE)"
   echo ""
   install_hub
-  for entry in "${TOP_SKILLS[@]}"; do
-    symlink_skill "${entry%%|*}" "${entry##*|}"
-  done
+  # Deploy only the curated top skills (not the whole index) — overlay a
+  # filtered distribute. Implemented via filter: distribute reads index.json
+  # and creates links for ALL. For --top we create only TOP_SKILLS symlinks
+  # using the legacy per-skill symlink_skill function, scoped to PLATFORM.
+  if [ "$PLATFORM" = "claude-code" ]; then
+    for entry in "${TOP_SKILLS[@]}"; do
+      symlink_skill "${entry%%|*}" "${entry##*|}"
+    done
+  else
+    # For other platforms we still deploy everything (--top only meaningful
+    # for Claude Code where system-reminder cost matters)
+    python3 "$REPO_DIR/scripts/distribute.py" --platform "$PLATFORM" --mode "$LINK_MODE"
+  fi
   echo ""
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
   setup_hooks
@@ -351,7 +386,21 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   exit 0
 fi
 
-# Default: hub only
+# Default: hub only on Claude Code (unless --platform specified)
+if [ "$PLATFORM" != "claude-code" ] || [ "$LINK_MODE" != "symlink" ]; then
+  # User asked for non-default platform or mode → deploy via distribute
+  echo "Deploying to $PLATFORM (mode=$LINK_MODE, hub-only otherwise)..."
+  install_hub
+  python3 "$REPO_DIR/scripts/distribute.py" --platform "$PLATFORM" --mode "$LINK_MODE"
+  setup_hooks
+  setup_rtk_hook
+  register_mcp_server
+  echo ""
+  echo "Done. Deployed to $PLATFORM with hub + MCP."
+  exit 0
+fi
+
+# Pure default: hub only
 echo "Installing ultraskills-hub → $SKILLS_DIR"
 echo ""
 install_hub
@@ -364,9 +413,11 @@ echo "  In session: Skill('ultraskills-hub') → search → load specific skill"
 echo "  MCP server 'ultraskills-hub' exposes search_skills/get_skill/list_winners/etc."
 echo ""
 echo "Phase 1 (install) options:"
-echo "  ./setup.sh --top        # also pre-load 33 curated skills"
-echo "  ./setup.sh --all        # pre-load all skills (high token overhead)"
-echo "  ./setup.sh --remove     # uninstall everything"
+echo "  ./setup.sh --top                                  # also pre-load 33 curated skills"
+echo "  ./setup.sh --all                                  # pre-load all skills (high token overhead)"
+echo "  ./setup.sh --platform <name>                      # deploy to specific AI tool (claude-code | cursor | windsurf | codex | gemini | cline | trae | all)"
+echo "  ./setup.sh --mode symlink|copy                    # link strategy (default symlink)"
+echo "  ./setup.sh --remove                               # uninstall everything"
 echo ""
 echo "Phase 2 (maintain — run after git pull / when adding skills):"
 echo "  ./setup.sh --update-submodules   # fetch latest submodule commits"
