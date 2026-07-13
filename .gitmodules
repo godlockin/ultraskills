@@ -1,6 +1,39 @@
 [submodule "external/awesome-chatgpt-prompts"]
 	path = external/awesome-chatgpt-prompts
 	url = https://github.com/f/awesome-chatgpt-prompts.git
+[submodule "external/autoresearch"]
+	path = external/autoresearch
+	url = https://github.com/karpathy/autoresearch.git
+[submodule "external/caveman"]
+	path = external/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+[submodule "external/claude-code"]
+	path = external/claude-code
+	url = https://github.com/anthropics/claude-code.git
+[submodule "external/claude-code-official"]
+	path = external/claude-code-official
+	url = https://github.com/anthropics/claude-code.git
+[submodule "external/dbskill"]
+	path = external/dbskill
+	url = https://github.com/dontbesilent2025/dbskill.git
+[submodule "external/huashu-skills"]
+	path = external/huashu-skills
+	url = https://github.com/alchaincyf/huashu-skills.git
+[submodule "external/khazix-skills"]
+	path = external/khazix-skills
+	url = https://github.com/KKKKhazix/Khazix-Skills.git
+[submodule "external/nuwa-skill"]
+	path = external/nuwa-skill
+	url = https://github.com/alchaincyf/nuwa-skill.git
+[submodule "external/superpowers"]
+	path = external/superpowers
+	url = https://github.com/obra/superpowers.git
+[submodule "external/videocut-skills"]
+	path = external/videocut-skills
+	url = https://github.com/Ceeon/videocut-skills.git
+[submodule "external/web-access"]
+	path = external/web-access
+	url = https://github.com/eze-is/web-access.git
 [submodule "external/claude-scientific-skills"]
 	path = external/claude-scientific-skills
 	url = https://github.com/eternalgooner/claude-scientific-skills.git
@@ -25,6 +58,9 @@
 [submodule "external/anthropic-quickstarts"]
 	path = external/anthropic-quickstarts
 	url = https://github.com/anthropics/anthropic-quickstarts.git
+[submodule "external/anthropic-skills"]
+	path = external/anthropic-skills
+	url = https://github.com/anthropics/skills.git
 
 [submodule "community/gstack"]
 	path = community/gstack

@@ -94,6 +94,94 @@ TOP_SKILLS=(
   "triage-issue|community/triage-issue"
 )
 
+# ── Environment doctor — print a one-shot health report at startup ─────────
+# Detects: python3 / uv / pip / git / jq / rtk / mcp SDK / network / disk
+# Skipped silently under --quiet or --no-doctor.
+doctor() {
+  if [[ "${INSTALL_MODE}" == "--no-doctor" ]] || [[ "${INSTALL_MODE}" == "--quiet" ]]; then
+    return 0
+  fi
+
+  local ok="✓" warn="⚠" fail="✗"
+  local out=()
+
+  out+=("=== Environment doctor ===")
+
+  # Required
+  command -v git >/dev/null 2>&1 \
+    && out+=("  $ok git      : $(git --version | head -1)") \
+    || out+=("  $fail git      : not found (required)")
+
+  command -v python3 >/dev/null 2>&1 \
+    && out+=("  $ok python3  : $(python3 --version | head -1) @ $(command -v python3)") \
+    || out+=("  $fail python3  : not found (required for setup_hub_venv / snapshot / distribute)")
+
+  command -v jq >/dev/null 2>&1 \
+    && out+=("  $ok jq       : $(jq --version)") \
+    || out+=("  $warn jq       : not found (RTK hook will be skipped)")
+
+  # Recommended
+  command -v rtk >/dev/null 2>&1 \
+    && out+=("  $ok rtk      : $(rtk --version | head -1) @ $(command -v rtk)") \
+    || out+=("  $warn rtk      : not found (Bash hook rewrite disabled — install: brew install rtk-ai/tap/rtk)")
+
+  command -v uv >/dev/null 2>&1 \
+    && out+=("  $ok uv       : $(uv --version | head -1)") \
+    || out+=("  $warn uv       : not found (will fall back to pip — slower)")
+
+  # Optional — only if already on PATH
+  command -v brew >/dev/null 2>&1 && out+=("  $ok brew     : $(brew --version | head -1)")
+  command -v node  >/dev/null 2>&1 && out+=("  $ok node     : $(node --version | head -1)")
+
+  # mcp SDK — only relevant if hub is being installed
+  local mcp_ok=0
+  if [ -x "$REPO_DIR/devops/ultraskills-hub/.venv/bin/python" ]; then
+    if "$REPO_DIR/devops/ultraskills-hub/.venv/bin/python" -c "import mcp" 2>/dev/null; then
+      out+=("  $ok mcp SDK  : installed in hub venv")
+      mcp_ok=1
+    fi
+  fi
+  if [ $mcp_ok -eq 0 ] && [ -d "$REPO_DIR/devops/ultraskills-hub" ]; then
+    out+=("  $warn mcp SDK  : not installed (will be created by setup_hub_venv if Python 3.11+ available)")
+  fi
+
+  # Network — short probe, non-fatal
+  if command -v curl >/dev/null 2>&1; then
+    if curl -sS --max-time 3 -o /dev/null -w '%{http_code}' https://api.github.com 2>/dev/null | grep -qE '^(200|301|302)$'; then
+      out+=("  $ok network  : github.com reachable")
+    else
+      out+=("  $warn network  : github.com probe failed (submodule update may stall)")
+    fi
+  fi
+
+  # Disk
+  local free_mb
+  free_mb=$(df -m "$REPO_DIR" 2>/dev/null | awk 'NR==2 {print $4}')
+  if [ -n "$free_mb" ]; then
+    if [ "$free_mb" -lt 200 ]; then
+      out+=("  $fail disk     : ${free_mb}MB free in $REPO_DIR (need ≥200MB for venvs + cache)")
+    else
+      out+=("  $ok disk     : ${free_mb}MB free")
+    fi
+  fi
+
+  # Submodule count + drift
+  local sm_total sm_dirty
+  sm_total=$(git -C "$REPO_DIR" submodule status 2>/dev/null | wc -l | tr -d ' ')
+  sm_dirty=$(git -C "$REPO_DIR" submodule status 2>/dev/null | grep -cE '^[+-]' || true)
+  if [ "$sm_total" -gt 0 ]; then
+    if [ "$sm_dirty" -gt 0 ]; then
+      out+=("  $warn submod  : $sm_total registered, $sm_dirty drift (run ./setup.sh --update-submodules)")
+    else
+      out+=("  $ok submod  : $sm_total initialized, clean")
+    fi
+  fi
+
+  echo ""
+  printf '%s\n' "${out[@]}"
+  echo ""
+}
+
 mkdir -p "$SKILLS_DIR"
 
 symlink_skill() {
@@ -132,6 +220,7 @@ register_mcp_server() {
   local settings_dir="$HOME/.claude"
   local settings="$settings_dir/settings.json"
   local hub_py="$REPO_DIR/devops/ultraskills-hub/mcp_server.py"
+  local hub_venv_py="$REPO_DIR/devops/ultraskills-hub/.venv/bin/python"
 
   [ -f "$hub_py" ] || { echo "  ⚠️  mcp_server.py not found, skipping MCP registration"; return 0; }
 
@@ -142,20 +231,29 @@ register_mcp_server() {
     echo "  ✓ created $settings"
   fi
 
-  python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" <<'PYEOF'
+  # Prefer hub venv python (has mcp SDK); fall back to system python3
+  local py_bin="python3"
+  if [ -x "$hub_venv_py" ] && "$hub_venv_py" -c "import mcp" 2>/dev/null; then
+    py_bin="$hub_venv_py"
+    echo "  → using hub venv python: $py_bin"
+  else
+    echo "  ⚠️  hub venv missing — run scripts/setup_hub_venv.sh first"
+  fi
+
+  python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" "$py_bin" <<'PYEOF'
 import json, sys
-settings_path, hub_py, hub_cwd = sys.argv[1], sys.argv[2], sys.argv[3]
+settings_path, hub_py, hub_cwd, py_bin = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
 with open(settings_path, encoding="utf-8") as f:
     s = json.load(f)
 mcp = s.setdefault("mcpServers", {})
 mcp["ultraskills-hub"] = {
-    "command": "python3",
+    "command": py_bin,
     "args": [hub_py],
     "cwd": hub_cwd,
 }
 with open(settings_path, "w", encoding="utf-8") as f:
     json.dump(s, f, indent=2, ensure_ascii=False)
-print(f"  ✓ registered ultraskills-hub MCP server")
+print(f"  ✓ registered ultraskills-hub MCP server (python: {py_bin})")
 PYEOF
 }
 
@@ -253,6 +351,19 @@ PY
 
 
 # ── RTK hook setup (PreToolUse Bash rewriter for token savings) ─────────────
+# ── Hub Python venv setup (mcp SDK for ultraskills-hub MCP server) ──────────
+setup_hub_venv() {
+  if [[ "${INSTALL_MODE}" == "--no-venvs" ]]; then
+    return 0
+  fi
+
+  if [ -x "$REPO_DIR/scripts/setup_hub_venv.sh" ]; then
+    bash "$REPO_DIR/scripts/setup_hub_venv.sh" || \
+      echo "  ⚠️  hub venv setup failed (run scripts/setup_hub_venv.sh manually)"
+  fi
+}
+
+
 setup_rtk_hook() {
   if [[ "${INSTALL_MODE}" == "--no-rtk" ]]; then
     return 0
@@ -340,11 +451,15 @@ case "$INSTALL_MODE" in
 esac
 
 if [ "$INSTALL_MODE" = "--remove" ]; then
+  doctor  # still report even when removing — captures pre-removal state
   remove_ultraskills
   # Also remove from all platforms
   python3 "$REPO_DIR/scripts/distribute.py" --remove --platform all
   exit 0
 fi
+
+# Print environment doctor report (skipped under --no-doctor / --quiet)
+doctor
 
 # All install modes now delegate to distribute.py for skill deployment.
 # Claude-Code-specific concerns (hooks, RTK, MCP register) still happen here.
@@ -356,6 +471,7 @@ if [ "$INSTALL_MODE" = "--all" ]; then
   install_hub
   python3 "$REPO_DIR/scripts/distribute.py" --platform all --mode "$LINK_MODE"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   exit 0
@@ -381,6 +497,7 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   echo ""
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   exit 0
@@ -393,6 +510,7 @@ if [ "$PLATFORM" != "claude-code" ] || [ "$LINK_MODE" != "symlink" ]; then
   install_hub
   python3 "$REPO_DIR/scripts/distribute.py" --platform "$PLATFORM" --mode "$LINK_MODE"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   echo ""
@@ -405,6 +523,7 @@ echo "Installing ultraskills-hub → $SKILLS_DIR"
 echo ""
 install_hub
 setup_hooks
+setup_hub_venv
 setup_rtk_hook
 register_mcp_server
 echo ""
