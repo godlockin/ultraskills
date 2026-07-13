@@ -26,3 +26,9 @@ external/skillspector                      # upstream gone
 external/anthropic-quickstarts             # local lock conflict (resolved by fresh clone)
 external/xiaohongshu-skills                # upstream gone
 external/impeccable                        # upstream gone
+
+# Commit SHA no longer exists on upstream (force-pushed / rewritten history)
+external/caveman                           # upstream force-pushed, old SHA missing
+external/claude-code-official              # upstream force-pushed, old SHA missing
+external/dbskill                           # upstream force-pushed, old SHA missing
+external/videocut-skills                   # not in git index (orphan)
