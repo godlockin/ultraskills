@@ -25,6 +25,7 @@ import difflib
 import shutil
 import sys
 from pathlib import Path
+from typing import Optional
 
 REPO_ROOT = Path(__file__).parent.parent
 SNAPSHOT_ROOT = Path.home() / ".ultraskills" / "snapshots"
@@ -88,7 +89,7 @@ def find_local_edits(platform_dir: Path) -> list[dict]:
     return out
 
 
-def find_upstream_skill_md(skill_id: str) -> Path | None:
+def find_upstream_skill_md(skill_id: str) -> Optional[Path]:
     """Find SKILL.md for a given skill id in US repo. Used by copy mode."""
     index_file = REPO_ROOT / "index.json"
     if not index_file.exists():
