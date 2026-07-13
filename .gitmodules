@@ -56,9 +56,6 @@
 [submodule "external/media-downloader"]
 	path = external/media-downloader
 	url = https://github.com/chenzhenguo/media-downloader.git
-[submodule "external/baoyu-skills"]
-	path = external/baoyu-skills
-	url = https://github.com/BaoYu-HIT/baoyu-skills.git
 [submodule "external/fullstack-dev-skills"]
 	path = external/fullstack-dev-skills
 	url = https://github.com/JakubK/fullstack-dev-skills.git

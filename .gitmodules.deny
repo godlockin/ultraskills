@@ -1,0 +1,28 @@
+# .gitmodules.deny — submodules silently skipped by update scripts
+#
+# Format: one path per line, matching the value after `path = ` in
+# `.gitmodules`. Comments (#) and blank lines ignored.
+#
+# Use this for submodules whose upstream is archived/renamed/private so
+# the maintain step (`./setup.sh --update-submodules`) doesn't drown
+# the output in noise. Each entry should be paired with a comment
+# explaining why (and ideally a tracker issue or follow-up owner).
+#
+# To restore a submodule: remove its line from this file.
+
+# Upstream repository archived/deleted (404 on fetch)
+external/awesome-chatgpt-prompts          # not in git index (orphan)
+external/claude-scientific-skills          # upstream gone
+external/playwright-skill                  # upstream gone
+external/get-shit-done                     # upstream gone
+external/frontend-slides                   # upstream gone
+external/skill-seekers                     # upstream gone
+external/context-engineering-skills        # upstream gone
+external/claude-skills                     # upstream gone
+community/gstack                           # upstream gone
+community/planning-with-files              # upstream gone
+external/marketingskills                   # upstream gone
+external/skillspector                      # upstream gone
+external/anthropic-quickstarts             # local lock conflict (resolved by fresh clone)
+external/xiaohongshu-skills                # upstream gone
+external/impeccable                        # upstream gone

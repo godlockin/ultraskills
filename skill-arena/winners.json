@@ -4,14 +4,14 @@
     "cluster_name": "内容·文档生成",
     "winner": "magazine-web-ppt",
     "score": 10.0,
-    "runner_up": "visual-forge",
+    "runner_up": "baoyu-markdown-to-html",
     "total_contestants": 19,
     "defeated": [
-      "visual-forge",
       "baoyu-markdown-to-html",
       "baoyu-slide-deck",
-      "xlsx",
-      "docx"
+      "visual-forge",
+      "baoyu-diagram",
+      "xlsx"
     ]
   },
   {
@@ -74,6 +74,36 @@
     ]
   },
   {
+    "cluster": "content-image",
+    "cluster_name": "内容·图像设计",
+    "winner": "baoyu-article-illustrator",
+    "score": 9.5,
+    "runner_up": "baoyu-comic",
+    "total_contestants": 17,
+    "defeated": [
+      "baoyu-comic",
+      "baoyu-cover-image",
+      "baoyu-image-cards",
+      "baoyu-imagine",
+      "baoyu-infographic"
+    ]
+  },
+  {
+    "cluster": "content-social",
+    "cluster_name": "内容·社交媒体",
+    "winner": "baoyu-danger-x-to-markdown",
+    "score": 9.5,
+    "runner_up": "baoyu-format-markdown",
+    "total_contestants": 21,
+    "defeated": [
+      "baoyu-format-markdown",
+      "baoyu-post-to-wechat",
+      "baoyu-translate",
+      "baoyu-xhs-images",
+      "baoyu-danger-gemini-web"
+    ]
+  },
+  {
     "cluster": "data",
     "cluster_name": "数据·分析",
     "winner": "cohort-analysis",
@@ -109,7 +139,7 @@
     "winner": "value-proposition",
     "score": 9.5,
     "runner_up": "beachhead-segment",
-    "total_contestants": 121,
+    "total_contestants": 122,
     "defeated": [
       "beachhead-segment",
       "porters-five-forces",
@@ -123,12 +153,12 @@
     "cluster_name": "效率·生产力",
     "winner": "growth-loops",
     "score": 9.5,
-    "runner_up": "brainstorm-ideas-new",
+    "runner_up": "baoyu-compress-image",
     "total_contestants": 19,
     "defeated": [
+      "baoyu-compress-image",
       "brainstorm-ideas-new",
       "slack-gif-creator",
-      "baoyu-compress-image",
       "brainstorming",
       "dynamic-expert-group"
     ]
@@ -443,36 +473,6 @@
       "prioritize-assumptions",
       "prioritization-frameworks",
       "user-story-mapper"
-    ]
-  },
-  {
-    "cluster": "content-image",
-    "cluster_name": "内容·图像设计",
-    "winner": "baoyu-article-illustrator",
-    "score": 8.8,
-    "runner_up": "baoyu-comic",
-    "total_contestants": 17,
-    "defeated": [
-      "baoyu-comic",
-      "baoyu-cover-image",
-      "baoyu-image-cards",
-      "baoyu-imagine",
-      "baoyu-infographic"
-    ]
-  },
-  {
-    "cluster": "content-social",
-    "cluster_name": "内容·社交媒体",
-    "winner": "baoyu-danger-x-to-markdown",
-    "score": 8.8,
-    "runner_up": "baoyu-format-markdown",
-    "total_contestants": 21,
-    "defeated": [
-      "baoyu-format-markdown",
-      "baoyu-post-to-wechat",
-      "baoyu-translate",
-      "baoyu-xhs-images",
-      "baoyu-danger-gemini-web"
     ]
   },
   {
@@ -910,7 +910,7 @@
     "winner": "faceless-explainer",
     "score": 7.8,
     "runner_up": "hyperframes-cli",
-    "total_contestants": 14,
+    "total_contestants": 13,
     "defeated": [
       "hyperframes-cli",
       "motion-graphics",
