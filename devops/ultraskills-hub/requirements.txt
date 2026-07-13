@@ -1,0 +1,11 @@
+# ultraskills-hub MCP server dependencies
+# Required for devops/ultraskills-hub/mcp_server.py
+#
+# Install (handled automatically by scripts/setup_hub_venv.sh):
+#   uv venv devops/ultraskills-hub/.venv
+#   uv pip install --python devops/ultraskills-hub/.venv/bin/python -r devops/ultraskills-hub/requirements.txt
+#
+# Or manually:
+#   pip3 install -r devops/ultraskills-hub/requirements.txt
+
+mcp>=1.0.0,<2.0.0

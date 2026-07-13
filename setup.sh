@@ -132,6 +132,7 @@ register_mcp_server() {
   local settings_dir="$HOME/.claude"
   local settings="$settings_dir/settings.json"
   local hub_py="$REPO_DIR/devops/ultraskills-hub/mcp_server.py"
+  local hub_venv_py="$REPO_DIR/devops/ultraskills-hub/.venv/bin/python"
 
   [ -f "$hub_py" ] || { echo "  ⚠️  mcp_server.py not found, skipping MCP registration"; return 0; }
 
@@ -142,20 +143,29 @@ register_mcp_server() {
     echo "  ✓ created $settings"
   fi
 
-  python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" <<'PYEOF'
+  # Prefer hub venv python (has mcp SDK); fall back to system python3
+  local py_bin="python3"
+  if [ -x "$hub_venv_py" ] && "$hub_venv_py" -c "import mcp" 2>/dev/null; then
+    py_bin="$hub_venv_py"
+    echo "  → using hub venv python: $py_bin"
+  else
+    echo "  ⚠️  hub venv missing — run scripts/setup_hub_venv.sh first"
+  fi
+
+  python3 - "$settings" "$hub_py" "$REPO_DIR/devops/ultraskills-hub" "$py_bin" <<'PYEOF'
 import json, sys
-settings_path, hub_py, hub_cwd = sys.argv[1], sys.argv[2], sys.argv[3]
+settings_path, hub_py, hub_cwd, py_bin = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
 with open(settings_path, encoding="utf-8") as f:
     s = json.load(f)
 mcp = s.setdefault("mcpServers", {})
 mcp["ultraskills-hub"] = {
-    "command": "python3",
+    "command": py_bin,
     "args": [hub_py],
     "cwd": hub_cwd,
 }
 with open(settings_path, "w", encoding="utf-8") as f:
     json.dump(s, f, indent=2, ensure_ascii=False)
-print(f"  ✓ registered ultraskills-hub MCP server")
+print(f"  ✓ registered ultraskills-hub MCP server (python: {py_bin})")
 PYEOF
 }
 
@@ -253,6 +263,19 @@ PY
 
 
 # ── RTK hook setup (PreToolUse Bash rewriter for token savings) ─────────────
+# ── Hub Python venv setup (mcp SDK for ultraskills-hub MCP server) ──────────
+setup_hub_venv() {
+  if [[ "${INSTALL_MODE}" == "--no-venvs" ]]; then
+    return 0
+  fi
+
+  if [ -x "$REPO_DIR/scripts/setup_hub_venv.sh" ]; then
+    bash "$REPO_DIR/scripts/setup_hub_venv.sh" || \
+      echo "  ⚠️  hub venv setup failed (run scripts/setup_hub_venv.sh manually)"
+  fi
+}
+
+
 setup_rtk_hook() {
   if [[ "${INSTALL_MODE}" == "--no-rtk" ]]; then
     return 0
@@ -356,6 +379,7 @@ if [ "$INSTALL_MODE" = "--all" ]; then
   install_hub
   python3 "$REPO_DIR/scripts/distribute.py" --platform all --mode "$LINK_MODE"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   exit 0
@@ -381,6 +405,7 @@ if [ "$INSTALL_MODE" = "--top" ]; then
   echo ""
   echo "Installed hub + ${#TOP_SKILLS[@]} top skills"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   exit 0
@@ -393,6 +418,7 @@ if [ "$PLATFORM" != "claude-code" ] || [ "$LINK_MODE" != "symlink" ]; then
   install_hub
   python3 "$REPO_DIR/scripts/distribute.py" --platform "$PLATFORM" --mode "$LINK_MODE"
   setup_hooks
+  setup_hub_venv
   setup_rtk_hook
   register_mcp_server
   echo ""
@@ -405,6 +431,7 @@ echo "Installing ultraskills-hub → $SKILLS_DIR"
 echo ""
 install_hub
 setup_hooks
+setup_hub_venv
 setup_rtk_hook
 register_mcp_server
 echo ""
