@@ -210,14 +210,14 @@
     "cluster_name": "数据·商业智能",
     "winner": "generalist-expert",
     "score": 9.0,
-    "runner_up": "explore-data",
-    "total_contestants": 10,
+    "runner_up": "storage-analyzer",
+    "total_contestants": 11,
     "defeated": [
+      "storage-analyzer",
       "explore-data",
       "validate-data",
       "fact-checker",
-      "create-viz",
-      "data-visualization"
+      "create-viz"
     ]
   },
   {

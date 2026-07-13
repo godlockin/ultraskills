@@ -3168,6 +3168,17 @@
     "total": 7.8
   },
   {
+    "id": "storage-analyzer",
+    "path": "./external/khazix-skills/storage-analyzer/SKILL.md",
+    "cluster": "data-analytics",
+    "cluster_name": "数据·商业智能",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
     "id": "nextflow-development",
     "path": "./external/knowledge-work-plugins/bio-research/skills/nextflow-development/SKILL.md",
     "cluster": "scientific-bioinformatics",
@@ -8580,17 +8591,6 @@
     "total": 6.5
   },
   {
-    "id": "aihot",
-    "path": "./external/khazix-skills/aihot/SKILL.md",
-    "cluster": "productivity-tools",
-    "cluster_name": "效率·生产力工具",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.5
-  },
-  {
     "id": "start",
     "path": "./external/knowledge-work-plugins/bio-research/skills/start/SKILL.md",
     "cluster": "misc",
@@ -9761,6 +9761,17 @@
     "path": "./external/claude-scientific-skills/scientific-skills/pyzotero/SKILL.md",
     "cluster": "scientific-publishing",
     "cluster_name": "科学·学术出版",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "aihot",
+    "path": "./external/khazix-skills/aihot/SKILL.md",
+    "cluster": "productivity-tools",
+    "cluster_name": "效率·生产力工具",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 5,
