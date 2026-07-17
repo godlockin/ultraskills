@@ -22,8 +22,10 @@ import json
 import os
 import re
 
-# Auto-detect repo root relative to this script
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Auto-detect repo root relative to this script.
+# Use os.path.realpath to resolve symlinks (e.g. ~/.claude/skills/ultraskills-hub
+# is a symlink into this repo — without realpath, ../.. lands in ~/.claude).
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../.."))
 INDEX_FILE = os.path.join(REPO_ROOT, "index.json")
 
