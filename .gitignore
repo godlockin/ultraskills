@@ -4,6 +4,9 @@ node_modules/
 # Cache
 .cache/
 .design-orch-version-cache.json
+.business-orch-version-cache.json
+.engineering-orch-version-cache.json
+.content-orch-version-cache.json
 __pycache__/
 *.pyc
 *.pyo
