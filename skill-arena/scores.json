@@ -198,6 +198,17 @@
     "total": 9.5
   },
   {
+    "id": "design-orchestrator",
+    "path": "./community/design-orchestrator/SKILL.md",
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "learn-from-loss",
     "path": "./community/learn-from-loss/SKILL.md",
     "cluster": "business-pm",
@@ -389,7 +400,7 @@
     "path": "./community/hallmark/SKILL.md",
     "cluster": "product-design",
     "cluster_name": "设计·产品UX",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 9,

@@ -149,6 +149,21 @@
     ]
   },
   {
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "winner": "design-orchestrator",
+    "score": 9.5,
+    "runner_up": "hallmark",
+    "total_contestants": 12,
+    "defeated": [
+      "hallmark",
+      "design-system",
+      "write-spec",
+      "color-expert",
+      "metrics-review"
+    ]
+  },
+  {
     "cluster": "productivity",
     "cluster_name": "效率·生产力",
     "winner": "growth-loops",
@@ -203,21 +218,6 @@
       "gh-address-comments",
       "karpathy-guidelines",
       "requesting-code-review"
-    ]
-  },
-  {
-    "cluster": "product-design",
-    "cluster_name": "设计·产品UX",
-    "winner": "hallmark",
-    "score": 9.2,
-    "runner_up": "design-system",
-    "total_contestants": 11,
-    "defeated": [
-      "design-system",
-      "write-spec",
-      "color-expert",
-      "metrics-review",
-      "stakeholder-update"
     ]
   },
   {

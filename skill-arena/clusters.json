@@ -445,9 +445,9 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
+          "feature-forge",
           "monitoring-expert",
           "sre-engineer",
-          "feature-forge",
           "legacy-modernizer",
           "spec-miner"
         ]
@@ -459,9 +459,9 @@
         "winner": "sql-pro",
         "skills": [
           "sql-pro",
+          "postgres-pro",
           "database-optimizer",
           "spark-engineer",
-          "postgres-pro",
           "pandas-pro"
         ]
       },
@@ -469,13 +469,13 @@
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "embedded-systems",
+        "winner": "mcp-developer",
         "skills": [
-          "embedded-systems",
-          "cli-developer",
-          "websocket-engineer",
           "mcp-developer",
-          "chaos-engineer"
+          "websocket-engineer",
+          "embedded-systems",
+          "chaos-engineer",
+          "cli-developer"
         ]
       },
       {
@@ -593,8 +593,8 @@
           "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
           "baoyu-post-to-weibo",
-          "baoyu-post-to-x",
-          "baoyu-youtube-transcript"
+          "baoyu-youtube-transcript",
+          "baoyu-post-to-x"
         ]
       },
       {
@@ -605,10 +605,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
+          "social-content",
           "huashu-wechat-image",
           "khazix-writer",
           "huashu-xhs-image",
-          "social-content",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -743,14 +743,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-comic",
+        "winner": "baoyu-article-illustrator",
         "skills": [
-          "baoyu-comic",
-          "baoyu-cover-image",
-          "baoyu-infographic",
           "baoyu-article-illustrator",
+          "baoyu-infographic",
           "baoyu-imagine",
-          "baoyu-image-cards"
+          "baoyu-cover-image",
+          "baoyu-image-cards",
+          "baoyu-comic"
         ]
       },
       {
@@ -763,8 +763,8 @@
           "\"photography-expert-pro\"",
           "face-beautification",
           "image-auditor",
-          "image-reviewer",
-          "image-analyzer"
+          "image-analyzer",
+          "image-reviewer"
         ]
       },
       {
@@ -776,8 +776,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-image-upload",
-          "huashu-design"
+          "huashu-design",
+          "huashu-image-upload"
         ]
       }
     ]
@@ -832,14 +832,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "command-development",
+        "winner": "hook-development",
         "skills": [
-          "command-development",
           "hook-development",
-          "plugin-structure",
+          "command-development",
           "plugin-settings",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "plugin-structure",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -1096,6 +1096,26 @@
     ]
   },
   {
+    "id": "product-design",
+    "name": "设计·产品UX",
+    "skill_count": 12,
+    "winner": "design-orchestrator",
+    "skills": [
+      "design-orchestrator",
+      "hallmark",
+      "design-system",
+      "write-spec",
+      "color-expert",
+      "metrics-review",
+      "stakeholder-update",
+      "design-critique",
+      "design-handoff",
+      "sprint-planning",
+      "accessibility-review",
+      "ux-copy"
+    ]
+  },
+  {
     "id": "agent-workflow",
     "name": "Agent·工作流",
     "skill_count": 11,
@@ -1129,10 +1149,10 @@
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zht",
+        "winner": "planning-with-files-zh",
         "skills": [
-          "planning-with-files-zht",
           "planning-with-files-zh",
+          "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-de",
           "planning-with-files-ar",
@@ -1143,10 +1163,10 @@
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "agent-development",
+        "winner": "skill-development",
         "skills": [
-          "agent-development",
-          "skill-development"
+          "skill-development",
+          "agent-development"
         ]
       }
     ]
@@ -1178,8 +1198,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "zoom-mcp/whiteboard",
           "build-dashboard",
+          "zoom-mcp/whiteboard",
           "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
@@ -1243,25 +1263,6 @@
       "data-storytelling-framework",
       "write-query",
       "analyze"
-    ]
-  },
-  {
-    "id": "product-design",
-    "name": "设计·产品UX",
-    "skill_count": 11,
-    "winner": "hallmark",
-    "skills": [
-      "hallmark",
-      "design-system",
-      "write-spec",
-      "color-expert",
-      "metrics-review",
-      "stakeholder-update",
-      "design-critique",
-      "design-handoff",
-      "sprint-planning",
-      "accessibility-review",
-      "ux-copy"
     ]
   },
   {
@@ -1345,8 +1346,8 @@
         "skills": [
           "setup-deploy",
           "land-and-deploy",
-          "ship",
           "canary",
+          "ship",
           "shipping-artifacts",
           "devops-engineer"
         ]

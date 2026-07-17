@@ -3,6 +3,7 @@ node_modules/
 
 # Cache
 .cache/
+.design-orch-version-cache.json
 __pycache__/
 *.pyc
 *.pyo

@@ -824,6 +824,27 @@
     "auxiliary": false
   },
   {
+    "id": "design-orchestrator",
+    "path": "./community/design-orchestrator/SKILL.md",
+    "description": "\"Routes design requests to the right skill in the 22-skill design cluster, and composes them into end-to-end pipelines. Three orchestration paths (greenfield / existing / inspiration) cover 80% of design requests. Includes routing decision table, anti-slop index cross-referencing hallmark 53 gates + ui-ux-pro-max 161 rules + awwwards anti-patterns. Trigger on 'build a new design from scratch', 'redesign this site', 'extract DNA from URL/screenshot', 'audit the design', 'I want a SaaS landing page', or any design brief that does not map to a single skill.\"",
+    "tags": [
+      "design",
+      "orchestrator",
+      "router",
+      "design-system",
+      "ui",
+      "ux",
+      "anti-slop",
+      "greenfield",
+      "redesign",
+      "inspiration",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "design-tokens",
     "path": "./community/design-tokens/SKILL.md",
     "description": "一套 tokens → 全栈输出 (CSS vars / Tailwind / SCSS / iOS Swift / Android XML / Flutter / JSON)。基于 W3C Design Tokens Community Group (DTCG) 标准格式。集成 Style Dictionary 或自带轻量构建器。多主题 (light/dark/brand)、$type 严格、引用解析。Trigger on design tokens / 设计token / style dictionary / theme / 主题 / dark mode / DTCG / token。",

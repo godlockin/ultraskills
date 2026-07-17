@@ -4,9 +4,9 @@
     "updated_at": "2026-07-17",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-07-17",
-    "total_skills": 951,
+    "total_skills": 952,
     "total_clusters": 75,
-    "avg_arena_score": 7.37,
+    "avg_arena_score": 7.38,
     "total_winners": 75
   },
   "hierarchy": {
@@ -911,6 +911,34 @@
       ]
     },
     {
+      "id": "product-design",
+      "name": "设计·产品UX",
+      "skill_count": 12,
+      "winner": "design-orchestrator",
+      "winner_score": null,
+      "description": "设计系统、PRD编写、无障碍审查",
+      "triggers": [
+        "产品设计",
+        "设计系统",
+        "PRD",
+        "无障碍",
+        "a11y"
+      ],
+      "suitable_for": [
+        "产品设计",
+        "设计系统",
+        "无障碍审查"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "design",
+      "related": [
+        "design-ux",
+        "business-product"
+      ]
+    },
+    {
       "id": "agent-workflow",
       "name": "Agent·工作流",
       "skill_count": 11,
@@ -1029,34 +1057,6 @@
       "related": [
         "data",
         "marketing-analytics"
-      ]
-    },
-    {
-      "id": "product-design",
-      "name": "设计·产品UX",
-      "skill_count": 11,
-      "winner": "hallmark",
-      "winner_score": null,
-      "description": "设计系统、PRD编写、无障碍审查",
-      "triggers": [
-        "产品设计",
-        "设计系统",
-        "PRD",
-        "无障碍",
-        "a11y"
-      ],
-      "suitable_for": [
-        "产品设计",
-        "设计系统",
-        "无障碍审查"
-      ],
-      "not_suitable_for": [
-        "代码开发"
-      ],
-      "parent": "design",
-      "related": [
-        "design-ux",
-        "business-product"
       ]
     },
     {
@@ -18123,6 +18123,38 @@
       }
     },
     {
+      "id": "design-orchestrator",
+      "name": "design-orchestrator",
+      "path": "./community/design-orchestrator/SKILL.md",
+      "description": "\"Routes design requests to the right skill in the 22-skill design cluster, and composes them into end-to-end pipelines. Three orchestration paths (greenfield / existing / inspiration) cover 80% of design requests. Includes routing decision table, anti-slop index cross-referencing hallmark 53 gates + ui-ux-pro-max 161 rules + awwwards anti-patterns. Trigger on 'build a new design from scratch', 'redesign this site', 'extract DNA from URL/screenshot', 'audit the design', 'I want a SaaS landing page', or any design brief that does not map to a single skill.\"",
+      "tags": [
+        "design",
+        "orchestrator",
+        "router",
+        "design-system",
+        "ui",
+        "ux",
+        "anti-slop",
+        "greenfield",
+        "redesign",
+        "inspiration",
+        "community"
+      ],
+      "arena": {
+        "cluster": "product-design",
+        "cluster_name": "设计·产品UX",
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-07-17",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "id": "hallmark",
       "name": "hallmark",
       "path": "./community/hallmark/SKILL.md",
@@ -18146,8 +18178,8 @@
         "doc_quality": 10,
         "func_clarity": 8,
         "maintainability": 9,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 2,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       },
@@ -18169,7 +18201,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 2,
+        "rank": 3,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18190,7 +18222,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 3,
+        "rank": 4,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18211,7 +18243,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 4,
+        "rank": 5,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18232,7 +18264,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18253,7 +18285,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18274,7 +18306,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18295,7 +18327,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18316,7 +18348,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18337,7 +18369,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18358,7 +18390,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
