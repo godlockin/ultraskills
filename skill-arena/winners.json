@@ -138,14 +138,14 @@
     "cluster_name": "其他未分类",
     "winner": "value-proposition",
     "score": 9.5,
-    "runner_up": "beachhead-segment",
-    "total_contestants": 122,
+    "runner_up": "face-reading",
+    "total_contestants": 127,
     "defeated": [
+      "face-reading",
+      "palm-reading",
       "beachhead-segment",
       "porters-five-forces",
-      "dummy-dataset",
-      "llm-model-selector",
-      "review"
+      "dummy-dataset"
     ]
   },
   {

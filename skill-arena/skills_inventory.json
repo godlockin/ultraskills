@@ -105,6 +105,23 @@
     "auxiliary": false
   },
   {
+    "id": "awwwards-design-intelligence",
+    "path": "./community/awwwards-design-intelligence/SKILL.md",
+    "description": "基于 Awwwards 高分网站的设计鉴赏与趋势洞察，拆解决策背后的设计逻辑",
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "awwwards",
+      "trend-analysis",
+      "visual-design",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "baoyu-skills",
     "path": "./community/baoyu-skills/SKILL.md",
     "description": "\"Curated content + social publishing toolkit (20 skills) — image generation, illustration, document formatting, social posting. Originally by JimLiu/baoyu-skills (now archived), migrated to community/ for local maintenance. Triggers: 'illustrate article', 'add images to article', 'make infographic', 'generate cover', 'comic strip', 'image cards', 'post to WeChat', 'post to Weibo', 'post to X', 'XHS images', 'X to markdown', 'URL to markdown', 'YouTube transcript', 'translate article', 'markdown to HTML', 'slide deck', 'diagram', 'compress image', 'format markdown'.\"",
@@ -421,6 +438,31 @@
     "auxiliary": false
   },
   {
+    "id": "bazi-fortune",
+    "path": "./community/bazi-fortune/SKILL.md",
+    "description": "四柱八字排盘与命运分析 — 用户给出生辰(年/月/日/时 或 8 字符),问\"八字 / 排盘 / 论命 / 命格 / 神煞 / 十神 / 大运流年 / 合婚\"时使用。本 skill 知识来源于荀太虚《面相八字手相全系统教学》视频转写(2026)。",
+    "tags": [
+      "bazi",
+      "八字",
+      "四柱",
+      "命理",
+      "排盘",
+      "命格",
+      "神煞",
+      "十神",
+      "大运",
+      "流年",
+      "合婚",
+      "道家",
+      "four-pillars",
+      "fortune-telling",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "bdi-mental-states",
     "path": "./community/bdi-mental-states/SKILL.md",
     "description": "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.",
@@ -690,6 +732,30 @@
     "auxiliary": false
   },
   {
+    "id": "daoist-cosmology-basics",
+    "path": "./community/daoist-cosmology-basics/SKILL.md",
+    "description": "道家命理哲学与术语统一 — 上游 stub。当用户问\"五行/天干/地支/阴阳/相生相克/十神/神煞/三庭/五眼/十二宫/命理基础/玄学/子平术\"等概念时调用此 skill。其他三个命理 skill(bazi-fortune / face-reading / palm-reading)都以本 skill 为前置知识。",
+    "tags": [
+      "daoist",
+      "cosmology",
+      "五行",
+      "天干",
+      "地支",
+      "yin-yang",
+      "五行生克",
+      "子平术",
+      "metaphysics",
+      "李虚中",
+      "徐子平",
+      "九紫",
+      "离火",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "data-storytelling-framework",
     "path": "./community/data-storytelling-framework/SKILL.md",
     "description": "Data storytelling - turns analysis into narratives in 30min",
@@ -852,6 +918,27 @@
       "photo",
       "new-year",
       "ai",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "face-reading",
+    "path": "./community/face-reading/SKILL.md",
+    "description": "面相学(三庭五眼 + 十二宫 + 五官五行 + 气色流年) — 当用户描述面部特征(眉毛稀、鼻梁歪、印堂暗、五官比例)或问\"面相 / 五官 / 三庭 / 五眼 / 印堂 / 山根 / 十二宫 / 气色 / 流年\",要求解读时使用。本 skill 知识来源于荀太虚《面相八字手相全系统教学》视频转写(2026)。",
+    "tags": [
+      "face-reading",
+      "面相",
+      "三庭",
+      "五眼",
+      "十二宫",
+      "五官",
+      "气色",
+      "流年",
+      "道家",
+      "physiognomy",
       "community"
     ],
     "version": "1.0.0",
@@ -1908,6 +1995,31 @@
       "employee-experience",
       "people-ops",
       "ROI-7.5",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "palm-reading",
+    "path": "./community/palm-reading/SKILL.md",
+    "description": "手相学(五大手型 + 五大主线 + 九宫位 + 双手对比) — 当用户描述手掌(手型、生命线、智慧线、感情线、事业线、命运线、八丘、九宫)或问\"手相 / 掌纹 / 手诊 / 生命线 / 智慧线 / 感情线 / 八丘 / 木形手 / 火形手 / 金形手 / 水形手 / 土形手\",要求解读时使用。本 skill 知识来源于荀太虚《面相八字手相全系统教学》视频转写(2026)。",
+    "tags": [
+      "palm-reading",
+      "手相",
+      "掌纹",
+      "手诊",
+      "生命线",
+      "智慧线",
+      "感情线",
+      "事业线",
+      "命运线",
+      "八丘",
+      "九宫位",
+      "五行手",
+      "道家",
+      "chiromancy",
       "community"
     ],
     "version": "1.0.0",

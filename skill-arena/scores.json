@@ -451,6 +451,17 @@
     "total": 9.0
   },
   {
+    "id": "face-reading",
+    "path": "./community/face-reading/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "generalist-expert",
     "path": "./community/generalist-expert/SKILL.md",
     "cluster": "data-analytics",
@@ -544,6 +555,17 @@
     "cluster": "sales-marketing",
     "cluster_name": "商业·销售增长",
     "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "palm-reading",
+    "path": "./community/palm-reading/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -1243,11 +1265,33 @@
     "total": 8.5
   },
   {
+    "id": "bazi-fortune",
+    "path": "./community/bazi-fortune/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "crisis-comms-playbook",
     "path": "./community/crisis-comms-playbook/SKILL.md",
     "cluster": "business-operations",
     "cluster_name": "商业·业务运营",
     "is_winner": true,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "daoist-cosmology-basics",
+    "path": "./community/daoist-cosmology-basics/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 9,
     "maintainability": 9,
@@ -4079,6 +4123,17 @@
     "func_clarity": 8,
     "maintainability": 7,
     "total": 7.8
+  },
+  {
+    "id": "awwwards-design-intelligence",
+    "path": "./community/awwwards-design-intelligence/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.7
   },
   {
     "id": "face-beautification",
