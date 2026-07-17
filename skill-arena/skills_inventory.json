@@ -518,6 +518,30 @@
     "auxiliary": false
   },
   {
+    "id": "business-orchestrator",
+    "path": "./community/business-orchestrator/SKILL.md",
+    "description": "\"Routes business/finance/sales/HR/legal requests to the right skill in the 164-skill business cluster, and composes them into end-to-end pipelines. Four orchestration paths (equity coverage / M&A transaction / pitch & investor materials / SMB operations) cover ~80% of business requests. Includes routing decision table, cross-reference index to comps/DCF/LBO/3-statement methods, and version-sync mechanism. Trigger on 'analyze this company', 'model the deal', 'build a pitch deck', 'help me close this month', 'draft my fundraising', or any business brief that does not map to a single skill.\"",
+    "tags": [
+      "business",
+      "finance",
+      "orchestrator",
+      "router",
+      "sales",
+      "marketing",
+      "hr",
+      "legal",
+      "operations",
+      "equity-research",
+      "ma",
+      "pitch-deck",
+      "smb",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "canvas-design",
     "path": "./community/canvas-design/SKILL.md",
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
@@ -613,6 +637,28 @@
       "editorial",
       "planning",
       "ROI-8.0",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "content-orchestrator",
+    "path": "./community/content-orchestrator/SKILL.md",
+    "description": "\"Routes content creation requests to the right skill in the 130-skill content cluster, and composes them into end-to-end pipelines. Four orchestration paths (doc/writing, visual/image/deck, video/audio, social/SEO/distribution) cover ~80% of content requests. Includes routing decision table, cross-reference index to writing/visual/video/social methods, and version-sync mechanism. Trigger on 'write a blog post', 'build a deck', 'make a video', 'post to social media', 'optimize for SEO', or any content brief that does not map to a single skill.\"",
+    "tags": [
+      "content",
+      "orchestrator",
+      "router",
+      "writing",
+      "document",
+      "video",
+      "image",
+      "social",
+      "seo",
+      "presentation",
+      "deck",
       "community"
     ],
     "version": "1.0.0",
@@ -900,6 +946,27 @@
     "path": "./community/dynamic-expert-group/SKILL.md",
     "description": "动态组建专家组技能。根据任务目标、状态、进度、挑战动态创建、定义、细化专家设定，\n并组建专家组协同推进任务完成。\n触发场景：\n- 需要多角度分析任务\n- 需要不同领域专业知识\n- 需要专家讨论和决策\n- 用户请求\"专家组\"、\"专家团队\"、\"多个专家\"等\n不适用：简单明确的单一任务、纯执行类任务",
     "tags": [
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
+    "id": "engineering-orchestrator",
+    "path": "./community/engineering-orchestrator/SKILL.md",
+    "description": "\"Routes engineering requests to the right skill in the 135-skill engineering cluster, and composes them into end-to-end pipelines. Five orchestration paths (code quality / build feature / production debug / deploy & operate / security audit) cover ~80% of engineering requests. Includes routing decision table, cross-reference index to testing/deployment/debug/security patterns, and version-sync mechanism. Trigger on 'review this code', 'build this feature', 'production is down', 'ship this', 'audit security', or any engineering brief that does not map to a single skill.\"",
+    "tags": [
+      "engineering",
+      "orchestrator",
+      "router",
+      "code-quality",
+      "build",
+      "debug",
+      "deploy",
+      "security",
+      "devops",
+      "architecture",
       "community"
     ],
     "version": "1.0.0",

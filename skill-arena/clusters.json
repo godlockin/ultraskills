@@ -445,37 +445,37 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
-          "monitoring-expert",
-          "sre-engineer",
           "legacy-modernizer",
-          "spec-miner"
+          "sre-engineer",
+          "spec-miner",
+          "feature-forge",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "sql-pro",
+        "winner": "database-optimizer",
         "skills": [
+          "database-optimizer",
+          "pandas-pro",
           "sql-pro",
           "postgres-pro",
-          "database-optimizer",
-          "spark-engineer",
-          "pandas-pro"
+          "spark-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "websocket-engineer",
         "skills": [
-          "mcp-developer",
           "websocket-engineer",
-          "embedded-systems",
+          "cli-developer",
           "chaos-engineer",
-          "cli-developer"
+          "mcp-developer",
+          "embedded-systems"
         ]
       },
       {
@@ -584,14 +584,14 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-format-markdown",
+        "winner": "baoyu-translate",
         "skills": [
-          "baoyu-format-markdown",
           "baoyu-translate",
           "baoyu-danger-x-to-markdown",
+          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
-          "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
+          "baoyu-danger-gemini-web",
           "baoyu-post-to-weibo",
           "baoyu-youtube-transcript",
           "baoyu-post-to-x"
@@ -607,8 +607,8 @@
           "x-mastery-mentor",
           "social-content",
           "huashu-wechat-image",
-          "khazix-writer",
           "huashu-xhs-image",
+          "khazix-writer",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -746,10 +746,10 @@
         "winner": "baoyu-article-illustrator",
         "skills": [
           "baoyu-article-illustrator",
-          "baoyu-infographic",
-          "baoyu-imagine",
           "baoyu-cover-image",
+          "baoyu-infographic",
           "baoyu-image-cards",
+          "baoyu-imagine",
           "baoyu-comic"
         ]
       },
@@ -762,8 +762,8 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-auditor",
           "image-analyzer",
+          "image-auditor",
           "image-reviewer"
         ]
       },
@@ -780,6 +780,31 @@
           "huashu-image-upload"
         ]
       }
+    ]
+  },
+  {
+    "id": "content-writing",
+    "name": "内容·写作",
+    "skill_count": 17,
+    "winner": "content-orchestrator",
+    "skills": [
+      "content-orchestrator",
+      "doc-coauthoring",
+      "document-release",
+      "support-ticket-triage",
+      "youtube-script-optimizer",
+      "markdown-mermaid-writing",
+      "copy-editing",
+      "persuasion-framework",
+      "internal-comms",
+      "scientific-writing",
+      "copywriting",
+      "blessing-styles",
+      "caveman-help",
+      "huashu-proofreading",
+      "huashu-script-polish",
+      "huashu-article-edit",
+      "creative-writing-coach"
     ]
   },
   {
@@ -832,11 +857,11 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "plugin-settings",
         "skills": [
-          "hook-development",
-          "command-development",
           "plugin-settings",
+          "command-development",
+          "hook-development",
           "plugin-structure",
           "claude-automation-recommender",
           "claude-md-improver"
@@ -851,35 +876,11 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "context-engineering-collection",
           "using-superpowers",
+          "context-engineering-collection",
           "skill-template"
         ]
       }
-    ]
-  },
-  {
-    "id": "content-writing",
-    "name": "内容·写作",
-    "skill_count": 16,
-    "winner": "doc-coauthoring",
-    "skills": [
-      "doc-coauthoring",
-      "document-release",
-      "support-ticket-triage",
-      "youtube-script-optimizer",
-      "markdown-mermaid-writing",
-      "copy-editing",
-      "persuasion-framework",
-      "internal-comms",
-      "scientific-writing",
-      "copywriting",
-      "blessing-styles",
-      "caveman-help",
-      "huashu-proofreading",
-      "huashu-script-polish",
-      "huashu-article-edit",
-      "creative-writing-coach"
     ]
   },
   {
@@ -1141,8 +1142,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "writing-plans",
-          "executing-plans"
+          "executing-plans",
+          "writing-plans"
         ]
       },
       {
@@ -1154,19 +1155,19 @@
           "planning-with-files-zh",
           "planning-with-files-zht",
           "planning-with-files",
-          "planning-with-files-de",
           "planning-with-files-ar",
-          "planning-with-files-es"
+          "planning-with-files-es",
+          "planning-with-files-de"
         ]
       },
       {
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "skill-development",
+        "winner": "agent-development",
         "skills": [
-          "skill-development",
-          "agent-development"
+          "agent-development",
+          "skill-development"
         ]
       }
     ]
@@ -1198,8 +1199,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "build-dashboard",
           "zoom-mcp/whiteboard",
+          "build-dashboard",
           "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
@@ -1342,12 +1343,12 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "setup-deploy",
+        "winner": "land-and-deploy",
         "skills": [
-          "setup-deploy",
           "land-and-deploy",
-          "canary",
+          "setup-deploy",
           "ship",
+          "canary",
           "shipping-artifacts",
           "devops-engineer"
         ]
@@ -1466,6 +1467,21 @@
     ]
   },
   {
+    "id": "business-legal",
+    "name": "商业·法务合规",
+    "skill_count": 7,
+    "winner": "business-orchestrator",
+    "skills": [
+      "business-orchestrator",
+      "compliance-check",
+      "legal-response",
+      "legal-risk-assessment",
+      "contract-risk-highlighter",
+      "compliance-tracking",
+      "jp-compliance-reporter"
+    ]
+  },
+  {
     "id": "engineering-debug",
     "name": "工程·调试",
     "skill_count": 7,
@@ -1521,20 +1537,6 @@
       "prompt-optimizer",
       "task-analyzer",
       "prompt-engineer"
-    ]
-  },
-  {
-    "id": "business-legal",
-    "name": "商业·法务合规",
-    "skill_count": 6,
-    "winner": "compliance-check",
-    "skills": [
-      "compliance-check",
-      "legal-response",
-      "legal-risk-assessment",
-      "contract-risk-highlighter",
-      "compliance-tracking",
-      "jp-compliance-reporter"
     ]
   },
   {
@@ -1675,6 +1677,19 @@
     ]
   },
   {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 5,
+    "winner": "engineering-orchestrator",
+    "skills": [
+      "engineering-orchestrator",
+      "pre-mortem",
+      "cso",
+      "strategy-red-team",
+      "security-reviewer"
+    ]
+  },
+  {
     "id": "engineering-testing",
     "name": "工程·测试",
     "skill_count": 5,
@@ -1734,18 +1749,6 @@
       "salesforce-developer",
       "shopify-expert",
       "wordpress-pro"
-    ]
-  },
-  {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 4,
-    "winner": "pre-mortem",
-    "skills": [
-      "pre-mortem",
-      "cso",
-      "strategy-red-team",
-      "security-reviewer"
     ]
   },
   {
