@@ -206,6 +206,21 @@
     ]
   },
   {
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "winner": "hallmark",
+    "score": 9.2,
+    "runner_up": "design-system",
+    "total_contestants": 11,
+    "defeated": [
+      "design-system",
+      "write-spec",
+      "color-expert",
+      "metrics-review",
+      "stakeholder-update"
+    ]
+  },
+  {
     "cluster": "data-analytics",
     "cluster_name": "数据·商业智能",
     "winner": "generalist-expert",
@@ -799,21 +814,6 @@
       "ilya-sutskever-perspective",
       "mrbeast-perspective",
       "munger-perspective"
-    ]
-  },
-  {
-    "cluster": "product-design",
-    "cluster_name": "设计·产品UX",
-    "winner": "design-system",
-    "score": 7.8,
-    "runner_up": "write-spec",
-    "total_contestants": 10,
-    "defeated": [
-      "write-spec",
-      "color-expert",
-      "metrics-review",
-      "stakeholder-update",
-      "design-critique"
     ]
   },
   {

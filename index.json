@@ -4,7 +4,7 @@
     "updated_at": "2026-07-17",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-07-17",
-    "total_skills": 950,
+    "total_skills": 951,
     "total_clusters": 75,
     "avg_arena_score": 7.37,
     "total_winners": 75
@@ -1032,6 +1032,34 @@
       ]
     },
     {
+      "id": "product-design",
+      "name": "设计·产品UX",
+      "skill_count": 11,
+      "winner": "hallmark",
+      "winner_score": null,
+      "description": "设计系统、PRD编写、无障碍审查",
+      "triggers": [
+        "产品设计",
+        "设计系统",
+        "PRD",
+        "无障碍",
+        "a11y"
+      ],
+      "suitable_for": [
+        "产品设计",
+        "设计系统",
+        "无障碍审查"
+      ],
+      "not_suitable_for": [
+        "代码开发"
+      ],
+      "parent": "design",
+      "related": [
+        "design-ux",
+        "business-product"
+      ]
+    },
+    {
       "id": "design-ux",
       "name": "设计·UX/产品设计",
       "skill_count": 10,
@@ -1221,34 +1249,6 @@
       "related": [
         "sales-marketing",
         "business-strategy"
-      ]
-    },
-    {
-      "id": "product-design",
-      "name": "设计·产品UX",
-      "skill_count": 10,
-      "winner": "design-system",
-      "winner_score": null,
-      "description": "设计系统、PRD编写、无障碍审查",
-      "triggers": [
-        "产品设计",
-        "设计系统",
-        "PRD",
-        "无障碍",
-        "a11y"
-      ],
-      "suitable_for": [
-        "产品设计",
-        "设计系统",
-        "无障碍审查"
-      ],
-      "not_suitable_for": [
-        "代码开发"
-      ],
-      "parent": "design",
-      "related": [
-        "design-ux",
-        "business-product"
       ]
     },
     {
@@ -18123,6 +18123,37 @@
       }
     },
     {
+      "id": "hallmark",
+      "name": "hallmark",
+      "path": "./community/hallmark/SKILL.md",
+      "description": "\"Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Uses 4 verbs (default/audit/redesign/study), 4 genres (editorial/modern-minimal/atmospheric/playful), 20 named themes, 53+ slop-test gates, and 8-state component discipline. Triggers on build a new app, landing page, redesign, audit, study, design extraction, or visual slop detection.\"",
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "anti-slop",
+        "design-system",
+        "anti-pattern",
+        "audit",
+        "redesign",
+        "study",
+        "community"
+      ],
+      "arena": {
+        "cluster": "product-design",
+        "cluster_name": "设计·产品UX",
+        "score": 9.2,
+        "doc_quality": 10,
+        "func_clarity": 8,
+        "maintainability": 9,
+        "is_winner": true,
+        "rank": 1,
+        "test_date": "2026-07-17",
+        "test_version": "1.0.0"
+      },
+      "version": "1.1.0"
+    },
+    {
       "id": "design-system",
       "name": "design-system",
       "path": "./external/knowledge-work-plugins/design/skills/design-system/SKILL.md",
@@ -18137,8 +18168,8 @@
         "doc_quality": 10,
         "func_clarity": 6,
         "maintainability": 5,
-        "is_winner": true,
-        "rank": 1,
+        "is_winner": false,
+        "rank": 2,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18159,7 +18190,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 2,
+        "rank": 3,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18180,7 +18211,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 3,
+        "rank": 4,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18201,7 +18232,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 4,
+        "rank": 5,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18222,7 +18253,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18243,7 +18274,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18264,7 +18295,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18285,7 +18316,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18306,7 +18337,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }
@@ -18327,7 +18358,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-07-17",
         "test_version": "1.0.0"
       }

@@ -1579,6 +1579,26 @@
     "auxiliary": false
   },
   {
+    "id": "hallmark",
+    "path": "./community/hallmark/SKILL.md",
+    "description": "\"Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Uses 4 verbs (default/audit/redesign/study), 4 genres (editorial/modern-minimal/atmospheric/playful), 20 named themes, 53+ slop-test gates, and 8-state component discipline. Triggers on build a new app, landing page, redesign, audit, study, design extraction, or visual slop detection.\"",
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "anti-slop",
+      "design-system",
+      "anti-pattern",
+      "audit",
+      "redesign",
+      "study",
+      "community"
+    ],
+    "version": "1.1.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "hosted-agents",
     "path": "./community/hosted-agents/SKILL.md",
     "description": "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.",

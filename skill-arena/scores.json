@@ -385,6 +385,17 @@
     "total": 9.2
   },
   {
+    "id": "hallmark",
+    "path": "./community/hallmark/SKILL.md",
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 9.2
+  },
+  {
     "id": "receiving-code-review",
     "path": "./community/receiving-code-review/SKILL.md",
     "cluster": "engineering-code",
@@ -3304,7 +3315,7 @@
     "path": "./external/knowledge-work-plugins/design/skills/design-system/SKILL.md",
     "cluster": "product-design",
     "cluster_name": "设计·产品UX",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
     "maintainability": 5,
