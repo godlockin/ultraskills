@@ -4,6 +4,7 @@ ultraskills search — find relevant skills by keyword/intent.
 
 Usage:
   search.py <query terms...>
+  search.py <query terms...> --explain  # show per-result score breakdown
   search.py --tag <tag>
   search.py --list-tags
   search.py --id <skill-id>        # exact lookup, returns path
@@ -65,6 +66,90 @@ def expand_query_terms(query_terms):
         if has_chinese(t):
             expanded.extend(chinese_bigrams(t))
     return expanded
+
+
+# 查询扩展词典 - 把用户口语化输入映射到 skill description 里更规范的词
+# 双向都加,让用户随手输哪种都能命中.
+# 只加"用户可能输,但 index 里罕见"的组合,避免过度扩展稀释权重.
+QUERY_SYNONYMS = {
+    # 通用动作词
+    "转 md": ["转 markdown", "to markdown", "to md"],
+    "转成 md": ["转成 markdown", "to markdown"],
+    "写测试": ["单元测试", "unit test", "TDD"],
+    "写单元测试": ["TDD", "test-driven", "unit test"],
+    "调 bug": ["debug", "debugging", "调试", "排错"],
+    "找 bug": ["debug", "调试"],
+    "排错": ["debug", "troubleshoot", "调试"],
+    "评审": ["review", "审查"],
+    "审查": ["review"],
+    "review 代码": ["code review", "代码审查"],
+    "代码 review": ["code review", "代码审查"],
+    # 中文情绪 → 英文场景词
+    "卷不动": ["burnout", "职场"],
+    "内耗": ["burnout", "焦虑", "职场"],
+    "emo": ["低落", "焦虑", "职场"],
+    "躺平": ["burnout", "职场"],
+    "润": ["跳槽", "出海", "career"],
+    "35 岁": ["中年", "career", "职场"],
+    "35 岁危机": ["中年危机", "career", "职场"],
+    "跳槽": ["career", "换工作", "job change"],
+    "被优化": ["被裁", "layoff"],
+    "被裁": ["layoff", "裁员"],
+    "面相": ["face", "五官"],
+    "手相": ["palm", "掌纹"],
+    "八字": ["bazi", "命理"],
+    "命理": ["bazi", "八字"],
+    "风水": ["feng shui", "堪舆"],
+    # 文件转换
+    "文件转 md": ["转 markdown", "file to markdown", "convert"],
+    "文档转 md": ["转 markdown", "document to markdown", "convert"],
+    "PDF 转 md": ["PDF to markdown", "PDF 转 markdown"],
+    "docx 转 md": ["docx to markdown", "docx 转 markdown"],
+    "图片 ocr": ["OCR", "文字识别", "image OCR"],
+    "视频转文字": ["transcript", "transcription", "字幕"],
+    # 常用编程语言
+    "写 django": ["Django", "DRF", "Python Web"],
+    "写 rust": ["Rust", "所有权"],
+    "画图表": ["chart", "data visualization", "可视化", "graph"],
+    "画 chart": ["chart", "data visualization"],
+    # 演示
+    "宜家风": ["IKEA"],
+    "杂志风": ["magazine", "editorial"],
+    # 搜索意图 - 元
+    "找一个 skill": ["skill 搜索", "search skill", "ultraskills-hub"],
+    "找 skill": ["skill 搜索", "search skill"],
+    "帮我找": ["搜索", "search"],
+    "头脑风暴": ["brainstorm", "brainstorming", "创意"],
+    "深度调研": ["deep research", "研究报告"],
+    # 工具类
+    "yt-dlp": ["youtube-dl", "视频下载"],
+    "抓取视频": ["视频下载", "sniffer", "抓包"],
+    "TTS": ["文字转语音", "text-to-speech", "语音合成"],
+    "文本转语音": ["TTS", "text-to-speech"],
+}
+
+
+def apply_query_synonyms(kw: list[str]) -> list[str]:
+    """把 kw 里能命中的同义词键都展开进结果.
+
+    保留原词; 只追加同义词. 避免 dedup 破坏权重.
+    匹配采用: raw query 完整包含 key (case-insensitive, 空格不敏感).
+    """
+    joined = " ".join(kw).lower()
+    extra: list[str] = []
+    for key, syns in QUERY_SYNONYMS.items():
+        key_norm = key.lower()
+        # 松匹配: 字符逐个出现顺序保留
+        if key_norm in joined:
+            extra.extend(s.lower() for s in syns)
+    if extra:
+        # 加进来但打去重(保留顺序)
+        seen = set(kw)
+        for e in extra:
+            if e not in seen:
+                seen.add(e)
+                kw.append(e)
+    return kw
 
 
 def fuzzy_suggest(idx, query_terms, top_n=3):
@@ -130,7 +215,7 @@ def skill_path(s):
     return resolved
 
 
-def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
+def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None, explain=False):
     skills = idx["skills"]
     kw = []
     for t in query_terms:
@@ -138,6 +223,9 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
         # Chinese bigram expansion
         if has_chinese(t):
             kw.extend(chinese_bigrams(t))
+
+    # 应用查询同义词扩展 - 把口语化查询转成 index 里更常见的词
+    kw = apply_query_synonyms(kw)
 
     results = []
     for s in skills:
@@ -152,28 +240,51 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
 
         # Scoring: exact id match > tags > description keyword hits
         score = 0
+        breakdown: list[str] = []  # only populated when explain=True
         sid = s["id"].lower()
         desc = s.get("description", "").lower()
+        body = s.get("body_summary", "").lower()
         tags = [t.lower() for t in s.get("tags", [])]
         rec = [r.lower() for r in s.get("recommended_for", [])]
 
         for kw_item in kw:
             if kw_item == sid:
                 score += 20
+                if explain: breakdown.append(f"id-exact({kw_item})+20")
             elif kw_item in sid:
                 score += 5  # reduced from 10: prevent id-substring from beating winners
+                if explain: breakdown.append(f"id-part({kw_item})+5")
             if any(kw_item in t for t in tags):
                 score += 6
-            if any(kw_item in r for r in rec):
-                score += 5
+                if explain: breakdown.append(f"tag({kw_item})+6")
+            # alias 匹配: 只算"完整短语"命中 - alias 里包含 kw_item 或反之,
+            # 但要求 kw_item 长度 >= 2 (中文单字或 1 字英文不算,防止"怎么""了""的"这类词误伤)
+            if len(kw_item) >= 2 and any(kw_item in r or r in kw_item for r in rec if len(r) >= 2):
+                # 进一步过滤: kw_item 应该占 alias 相当长度
+                for r in rec:
+                    if len(r) >= 2 and (kw_item == r or (kw_item in r and len(kw_item) / len(r) >= 0.4) or (r in kw_item and len(r) / len(kw_item) >= 0.5)):
+                        score += 5
+                        if explain: breakdown.append(f"alias({kw_item}~{r})+5")
+                        break
             # Count description hits
-            score += desc.count(kw_item) * 2
+            d_hits = desc.count(kw_item)
+            if d_hits:
+                score += d_hits * 2
+                if explain: breakdown.append(f"desc({kw_item})x{d_hits}+{d_hits*2}")
+            # body_summary hits — 权重比 description 低,但让正文关键词也能命中
+            b_hits = body.count(kw_item)
+            if b_hits:
+                # cap 单个词最多 +3,避免刷分
+                bonus = min(b_hits, 3)
+                score += bonus
+                if explain: breakdown.append(f"body({kw_item})x{b_hits}+{bonus}")
 
         # Fuzzy match on skill id: only when no exact/partial match found
         if score == 0 and kw:
             for kw_item in kw:
                 if levenshtein(kw_item, sid) <= 2:
                     score += 8
+                    if explain: breakdown.append(f"fuzzy({kw_item}~{sid})+8")
                     break
 
         # Arena bonus — heavily weighted, not just tiebreak
@@ -191,16 +302,20 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
             # Prevents unrelated winners from outranking relevant non-winners
             if is_winner and score >= 10:
                 score += 15
+                if explain: breakdown.append("winner-strong+15")
             elif is_winner:
                 score += 5  # small boost for marginal matches
+                if explain: breakdown.append("winner-weak+5")
             # Arena score bonus: 0-100 → 0-10 pts
             score += arena_score * 0.10
+            if explain and arena_score: breakdown.append(f"arena_score({arena_score:.1f})+{arena_score*0.10:.2f}")
             # Quality dimension bonus
             score += a_scores.get("quality", 0) * 0.15
             score += a_scores.get("maintainability", 0) * 0.10
             # Category match bonus
             if any(kw_item in arena_cat for kw_item in kw):
                 score += 4
+                if explain: breakdown.append(f"category-match+4")
 
         # Browse modes (--winners, --tag): no query terms → seed score from arena data
         no_query = not kw
@@ -230,6 +345,7 @@ def search(idx, query_terms, limit=8, winners_only=False, tag_filter=None):
                 "is_winner": is_winner,
                 "winner_reason": winner_reason,
                 "match_score": round(score, 2),
+                **({"breakdown": breakdown} if explain else {}),
             })
 
     results.sort(key=lambda x: -x["match_score"])
@@ -347,7 +463,13 @@ def main():
         return
 
     # Default: keyword search
-    results = search(idx, args)
+    # 支持 --explain 输出打分明细
+    explain = False
+    query_args = list(args)
+    if "--explain" in query_args:
+        explain = True
+        query_args.remove("--explain")
+    results = search(idx, query_args, explain=explain)
     if not results:
         suggestions = fuzzy_suggest(idx, args, top_n=3)
         output = {

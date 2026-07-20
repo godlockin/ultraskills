@@ -192,6 +192,72 @@ def skill_priority(rel_path: str) -> int:
     return 9
 
 
+def extract_body_summary(text: str, max_len: int = 600) -> str:
+    """从 SKILL.md 主体抽取最有信号的短摘要,给搜索用。
+
+    策略:
+      - 去掉 frontmatter
+      - 去掉 markdown 代码块 (```...```)
+      - 去掉 HTML 注释
+      - 去掉链接 / 图片 markdown 语法保留可见文本
+      - 逐行扫描,收集 h1/h2/h3 标题 + 非空段落首句
+      - 最终裁到 max_len
+
+    返回一个空格分隔的短字符串,专给搜索关键词命中用,不是给人读的.
+    """
+    # strip frontmatter
+    body = text
+    if text.startswith("---"):
+        end = text.find("\n---", 3)
+        if end != -1:
+            body = text[end + 4:]
+    # strip code blocks
+    body = re.sub(r"```[\s\S]*?```", " ", body)
+    # strip inline code
+    body = re.sub(r"`[^`\n]+`", " ", body)
+    # strip HTML comments + tags
+    body = re.sub(r"<!--[\s\S]*?-->", " ", body)
+    body = re.sub(r"</?[a-zA-Z][^>]*>", " ", body)
+    # strip images (保留 alt 文字), links (保留可见文字)
+    body = re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", body)
+    body = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", body)
+
+    pieces: list[str] = []
+    seen: set[str] = set()
+    for line in body.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        # markdown 标题
+        m = re.match(r"^#{1,4}\s+(.+)", line)
+        if m:
+            snippet = m.group(1).strip("# ").strip()
+        elif line.startswith(("- ", "* ", "+ ", "> ")):
+            # 列表/引用首句
+            snippet = line.lstrip("-*+> ").strip()
+        elif line[0].isalnum() or "一" <= line[0] <= "鿿":
+            snippet = line
+        else:
+            continue
+        # 只取前一句
+        for sep in ["。", ". ", "\n", "?", "?", "!", "!"]:
+            if sep in snippet:
+                snippet = snippet.split(sep)[0]
+                break
+        snippet = snippet.strip(" *_`")
+        if len(snippet) < 3 or snippet in seen:
+            continue
+        seen.add(snippet)
+        pieces.append(snippet)
+        if sum(len(p) for p in pieces) > max_len:
+            break
+
+    summary = " · ".join(pieces)
+    if len(summary) > max_len:
+        summary = summary[:max_len] + "…"
+    return summary
+
+
 def scan_all_skills() -> list:
     skills = {}  # id -> dict
     seen_real_paths = set()  # canonical paths to detect symlink/submodule duplicates
@@ -264,6 +330,7 @@ def scan_all_skills() -> list:
             "id": skill_id,
             "path": f"./{skill_dir_rel}/SKILL.md",
             "description": description,
+            "body_summary": extract_body_summary(text),
             "tags": tags if isinstance(tags, list) else [],
             "version": str(version) if version else "",
             "github_url": str(github_url) if github_url else "",

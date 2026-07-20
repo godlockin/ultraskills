@@ -88,6 +88,7 @@ def main():
             "name":        sid,
             "path":        s["path"],
             "description": s["description"],
+            "body_summary": s.get("body_summary", ""),
             "tags":        s.get("tags") or [],
             "recommended_for": aliases.get(sid, []),
             "arena": {
