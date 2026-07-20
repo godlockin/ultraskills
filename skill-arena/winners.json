@@ -180,16 +180,16 @@
   {
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "winner": "value-proposition",
+    "winner": "career-coach",
     "score": 9.5,
-    "runner_up": "face-reading",
-    "total_contestants": 127,
+    "runner_up": "value-proposition",
+    "total_contestants": 129,
     "defeated": [
+      "value-proposition",
+      "bazi-fortune",
       "face-reading",
-      "palm-reading",
-      "beachhead-segment",
-      "porters-five-forces",
-      "dummy-dataset"
+      "feng-shui",
+      "palm-reading"
     ]
   },
   {

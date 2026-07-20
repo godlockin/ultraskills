@@ -2,17 +2,19 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 127,
-    "winner": "value-proposition",
+    "skill_count": 129,
+    "winner": "career-coach",
     "skills": [
+      "career-coach",
       "value-proposition",
+      "bazi-fortune",
       "face-reading",
+      "feng-shui",
       "palm-reading",
       "beachhead-segment",
       "porters-five-forces",
       "dummy-dataset",
       "llm-model-selector",
-      "bazi-fortune",
       "daoist-cosmology-basics",
       "review",
       "pm-skills",
@@ -445,10 +447,10 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "legacy-modernizer",
-          "sre-engineer",
-          "spec-miner",
           "feature-forge",
+          "spec-miner",
+          "sre-engineer",
+          "legacy-modernizer",
           "monitoring-expert"
         ]
       },
@@ -456,46 +458,46 @@
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "sql-pro",
         "skills": [
-          "database-optimizer",
-          "pandas-pro",
           "sql-pro",
+          "spark-engineer",
           "postgres-pro",
-          "spark-engineer"
+          "pandas-pro",
+          "database-optimizer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "websocket-engineer",
+        "winner": "chaos-engineer",
         "skills": [
-          "websocket-engineer",
-          "cli-developer",
           "chaos-engineer",
+          "cli-developer",
+          "embedded-systems",
           "mcp-developer",
-          "embedded-systems"
+          "websocket-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -584,17 +586,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-translate",
+        "winner": "baoyu-format-markdown",
         "skills": [
+          "baoyu-format-markdown",
           "baoyu-translate",
           "baoyu-danger-x-to-markdown",
-          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
           "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
           "baoyu-post-to-weibo",
-          "baoyu-youtube-transcript",
-          "baoyu-post-to-x"
+          "baoyu-post-to-x",
+          "baoyu-youtube-transcript"
         ]
       },
       {
@@ -605,10 +607,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
-          "social-content",
-          "huashu-wechat-image",
-          "huashu-xhs-image",
           "khazix-writer",
+          "social-content",
+          "huashu-xhs-image",
+          "huashu-wechat-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -743,14 +745,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-article-illustrator",
+        "winner": "baoyu-image-cards",
         "skills": [
-          "baoyu-article-illustrator",
-          "baoyu-cover-image",
-          "baoyu-infographic",
           "baoyu-image-cards",
-          "baoyu-imagine",
-          "baoyu-comic"
+          "baoyu-comic",
+          "baoyu-article-illustrator",
+          "baoyu-infographic",
+          "baoyu-cover-image",
+          "baoyu-imagine"
         ]
       },
       {
@@ -762,9 +764,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
+          "image-reviewer",
           "image-auditor",
-          "image-reviewer"
+          "image-analyzer"
         ]
       },
       {
@@ -776,8 +778,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-design",
-          "huashu-image-upload"
+          "huashu-image-upload",
+          "huashu-design"
         ]
       }
     ]
@@ -857,14 +859,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "plugin-settings",
+        "winner": "hook-development",
         "skills": [
-          "plugin-settings",
-          "command-development",
           "hook-development",
           "plugin-structure",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "plugin-settings",
+          "command-development",
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -876,8 +878,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "using-superpowers",
           "context-engineering-collection",
+          "using-superpowers",
           "skill-template"
         ]
       }
@@ -1199,9 +1201,9 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
+          "metrics-dashboard",
           "zoom-mcp/whiteboard",
           "build-dashboard",
-          "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
         ]
@@ -1347,8 +1349,8 @@
         "skills": [
           "land-and-deploy",
           "setup-deploy",
-          "ship",
           "canary",
+          "ship",
           "shipping-artifacts",
           "devops-engineer"
         ]
