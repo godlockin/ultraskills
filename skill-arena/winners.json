@@ -183,7 +183,7 @@
     "winner": "career-coach",
     "score": 9.5,
     "runner_up": "value-proposition",
-    "total_contestants": 129,
+    "total_contestants": 128,
     "defeated": [
       "value-proposition",
       "bazi-fortune",
@@ -1014,6 +1014,15 @@
       "pymatgen",
       "pytdc"
     ]
+  },
+  {
+    "cluster": "file-conversion",
+    "cluster_name": "文件·转换与解析",
+    "winner": "markitdown",
+    "score": 7.0,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
   },
   {
     "cluster": "business-strategy",

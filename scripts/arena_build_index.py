@@ -3,6 +3,7 @@
 arena_build_index.py - 重建 index.json（全量 skills + arena scores + cluster 元数据）
 
 输入:  skill-arena/skills_inventory.json, scores.json, clusters.json, clusters_metadata.json
+       devops/ultraskills-hub/aliases.yaml  (外部 skill 别名覆盖,可选)
 输出: index.json (覆盖写入)
 """
 
@@ -12,12 +13,51 @@ from datetime import date
 
 ROOT = Path(__file__).parent.parent
 ARENA_DIR = ROOT / "skill-arena"
+ALIASES_FILE = ROOT / "devops" / "ultraskills-hub" / "aliases.yaml"
+
+
+def load_aliases() -> dict:
+    """加载别名覆盖表。轻量 YAML 解析(不依赖 pyyaml),支持嵌套 aliases: 数组。
+
+    格式:
+      skill-id:
+        aliases:
+          - "别名 1"
+          - "别名 2"
+
+    返回: {skill_id: [alias, ...], ...}
+    """
+    if not ALIASES_FILE.exists():
+        return {}
+    result: dict = {}
+    current_skill = None
+    in_aliases = False
+    for raw in ALIASES_FILE.read_text(encoding="utf-8").splitlines():
+        line = raw.rstrip()
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        # 顶层 skill key: 无缩进 + 以冒号结尾
+        if not line.startswith(" ") and stripped.endswith(":"):
+            current_skill = stripped[:-1].strip()
+            result.setdefault(current_skill, [])
+            in_aliases = False
+        # 子块开始: 缩进 + "aliases:"
+        elif current_skill and stripped == "aliases:":
+            in_aliases = True
+        # 数组元素: 缩进 + "- ..."
+        elif current_skill and in_aliases and stripped.startswith("- "):
+            val = stripped[2:].strip().strip('"').strip("'")
+            if val:
+                result[current_skill].append(val)
+    return {k: v for k, v in result.items() if v}
 
 
 def main():
     inventory  = json.loads((ARENA_DIR / "skills_inventory.json").read_text())
     scores_raw = json.loads((ARENA_DIR / "scores.json").read_text())
     clusters   = json.loads((ARENA_DIR / "clusters.json").read_text())
+    aliases    = load_aliases()
 
     # 加载 cluster 元数据（层级、关联图、描述）
     metadata_path = ARENA_DIR / "clusters_metadata.json"
@@ -49,6 +89,7 @@ def main():
             "path":        s["path"],
             "description": s["description"],
             "tags":        s.get("tags") or [],
+            "recommended_for": aliases.get(sid, []),
             "arena": {
                 "cluster":          cid,
                 "cluster_name":     c.get("name", cid),

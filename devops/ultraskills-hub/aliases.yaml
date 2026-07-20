@@ -1,0 +1,57 @@
+# ultraskills-hub · Skill 别名与触发词覆盖表
+#
+# 目的:
+#   为外部 skill (external/, submodule 里的) 提供本地中文/口语化触发词,
+#   让 hub 搜索能命中,而不需要 fork 或修改上游。
+#
+# 生效机制:
+#   arena_build_index.py 读取本文件,将 aliases 合并到目标 skill 的 recommended_for 字段。
+#   search.py 已经会对 recommended_for 加 +5 分/命中(见 search.py line 168)。
+#
+# 规则:
+#   - 顶层 key = skill_id
+#   - 每个 skill 下 aliases 字段是字符串数组
+#   - 只加"用户可能用来搜索但 description 里没有"的表达
+#   - 精确、口语化、场景化 > 学术化
+
+markitdown:
+  aliases:
+    # 中文核心动作词
+    - "文件转 markdown"
+    - "文档转 markdown"
+    - "转成 markdown"
+    - "转成 md"
+    - "转 markdown"
+    - "转 md"
+    - "转成 md 格式"
+    - "格式转换"
+    # 具体输入类型
+    - "PDF 转 markdown"
+    - "PDF 转 md"
+    - "docx 转 markdown"
+    - "docx 转 md"
+    - "word 转 markdown"
+    - "excel 转 markdown"
+    - "xlsx 转 markdown"
+    - "pptx 转 markdown"
+    - "ppt 转 markdown"
+    - "HTML 转 markdown"
+    - "网页转 markdown"
+    - "图片 OCR"
+    - "图片文字识别"
+    - "音频转文字"
+    - "YouTube 转文字"
+    - "YouTube 字幕"
+    - "EPub 转 markdown"
+    # 通用场景
+    - "anything to markdown"
+    - "any to md"
+    - "文件解析"
+    - "文档解析"
+    - "office 文档解析"
+    - "文档提取"
+    - "抽取文本"
+    - "文件内容抽取"
+    # 微软 markitdown 相关搜索
+    - "microsoft markitdown"
+    - "markitdown Python"

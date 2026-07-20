@@ -6767,9 +6767,9 @@
   {
     "id": "markitdown",
     "path": "./external/claude-scientific-skills/scientific-skills/markitdown/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
+    "cluster": "file-conversion",
+    "cluster_name": "文件·转换与解析",
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 5,
     "maintainability": 5,

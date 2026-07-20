@@ -128,6 +128,15 @@ CLUSTER_RULES = [
     # Voice / Audio (previously scattered in misc)
     ("media-audio",            "媒体·语音音频",         ["mac-tts", "mac-voice-clone", "mac-whisper", "audio-clean"]),
 
+    # 文件转换与解析 (anything → markdown / 文档格式互转 / OCR / 抽取)
+    # 独立成 cluster 避免被 misc 兜底吞掉。
+    # 保守策略: 只匹配明确的文件转换工具名,不用宽泛的 "-extractor"(会误吃 data-context-extractor 等)。
+    # 未来 markitdown 类新 skill 加名字进来即可参与竞争。
+    ("file-conversion",        "文件·转换与解析",       ["markitdown", "docling", "unstructured-io",
+                                                          "file-to-markdown", "-to-markdown", "-to-md",
+                                                          "office-parser", "document-parser",
+                                                          "anything-to-markdown", "any-to-markdown"]),
+
     # 补充兜底规则（宽泛匹配放最后）
     ("engineering-code",       "工程·代码质量",         ["pr-review", "adversarial-review", "a11y-audit", "codebase-onboard", "dependency-audit", "changelog", "monorepo", "runbook", "tech-debt", "performance-profil", "api-test", "spec-driven", "karpathy", "engineering-skill", "engineering-advanced"]),
     ("engineering-devops",     "工程·DevOps",           ["helm-chart-builder", "terraform-patterns", "observability-designer", "incident-commander", "git-worktree-manager"]),
