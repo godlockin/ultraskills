@@ -1838,11 +1838,11 @@
     "id": "ship",
     "path": "./community/gstack/ship/SKILL.md",
     "description": "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION,\nupdate CHANGELOG, commit, push, create PR. Use when asked to \"ship\", \"deploy\",\n\"push to main\", \"create a PR\", \"merge and push\", or \"get it deployed\".\nProactively invoke this skill (do NOT push/PR directly) when the user says code\nis ready, asks about deploying, wants to push code up, or asks to create a PR. (gstack)",
-    "body_summary": "Preamble (run first) · If   is  , do not proactively suggest gstack skills AND do not · auto-invoke skills based on conversation context · types (e.g., /qa, /ship) · The user opted out of proactive behavior. · If   is  , the user has namespaced skill names · or invoking other gstack skills, use the   prefix (e.g.,   instead · of  ,   instead of  ) · for reading skill files. · If output shows  : read   and follow the \"Inline upgrade flow\" (auto-upgrade if configured, otherwise AskUserQuestion with 4 options, write snooze state if declined) · If   is  : Before continuing, introduce the Completen…",
+    "body_summary": "Ship · 拆版/上线 工作流 · 把\"代码已经写好\"变成\"已发版且文档同步\" · 📌 何时触发(Skill Routing) · ⚙️ Preamble · 必跑一次 · 详细 preamble 解释 + 协议段(Skill routing / Voice / Context Recovery / AskUserQuestion Format / Completeness / Repo Ownership / Search Before Building / Completion Status / Self-Improvement / Telemetry / Plan Mode Safe Operations / Plan Status Footer) → · 🚨 必守 12 条 Hard Rules · 🚂 10 步工作流索引 · 每个 Step 是 1-2 行 + 1 个 references 文件 · 📋 PR Summary 模板(必读) · PR body 必填以下章节(详细模板见  ): · 🔄 Quick Recovery · Preamble 失败** → 检查 gstack 是否安装,见 preamble 注释 · Tests 跑不过** → 不要 push;见   T1-T4 Triage · Review Army 出 critical** → 不进 St…",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -2493,21 +2493,12 @@
   {
     "id": "playwright-media-sniffer",
     "path": "./community/playwright-media-sniffer/SKILL.md",
-    "description": "Browser automation-based media sniffer using Playwright to inherit login state, capture M3U8/MPD/MP4 resources from any website (including custom players), and download via yt-dlp/ffmpeg with full cookie support",
-    "body_summary": "Playwright Media Sniffer · 模拟人类操作，继承浏览器登录态，自动嗅探并下载任意网站的媒体资源（包括会员内容） · 🎯 目标 (Goal) · 浏览器层嗅探**：监听所有网络请求，捕获 M3U8/MPD/MP4/音频资源 · 登录态继承**：从用户已登录的浏览器复用 cookies/localStorage · 人类行为模拟**：随机延迟、鼠标移动、滚动，绕过反爬检测 · 智能下载**：资源URL提取后，调用 yt-dlp/ffmpeg 高效下载合并 · 全格式支持**：HLS (M3U8)、DASH (MPD)、直接MP4、音频流 · yt-dlp 不支持的小众视频网站 · 自定义播放器（非标准嵌入） · 需登录才能观看的会员内容 · 动态加密/签名的视频URL · iframe 多层嵌套的资源 · 🧠 核心理念 (Core Concepts) · 嗅探原理 · 登录态继承方式 · 反爬绕过 · 🚀 使用流程 (Workflow) · 触发方式 · 或直接： · Step 1: 准备浏览器状态 · Step 2: 嗅探媒体资源 · Step 3: 智能筛选 · Step 4: 下载 · 💡 最佳实践 (Best Practices) · Do ✅ · Don't ❌ · 使用  （可见浏览器） · 或使用   插件 · 某些 CDN 强制校验 · 必须传递…",
+    "description": "Browser automation-based media sniffer using Playwright to inherit login state, capture M3U8/MPD/MP4 resources from any website (including custom players), and download via yt-dlp/ffmpeg with full cookie support. Use when user wants to \"download video from site\", \"抓取视频\", \"下载 M3U8\", \"M3U8 下载\", \"video sniffer\", \"抓包下载\", \"登录态下载视频\", \"B站大会员视频下载\", \"登录后下视频\", \"继承 cookie 下视频\", \"嗅探网页视频\", \"抓包 m3u8\", \"继承登录态抓视频\", \"video download with login\", or needs to bypass anti-bot for download.",
+    "body_summary": "Playwright Media Sniffer · 用 Playwright 继承登录态 → 嗅探 M3U8/MPD/MP4 → 用 yt-dlp/ffmpeg 下载 · 主体只保留:触发 + 4 步索引 + 硬约束 · 📌 何时该用 · 🚀 4 步工作流索引 · 按需读 references/: · 🧠 核心机制速览 · 3 个机制** 决定了为什么 Playwright 比 yt-dlp 强 · 浏览器自动加载所有   /   / 加密流,Playwright 通过   拦截所有   /   /   请求 · Playwright   注入 yt-dlp 后续使用的 cookies → 等于在已登录的浏览器里下载 · 真实 Chromium 跑在用户态,JS 引擎完整 → Cloudflare / 指纹检测看不到 bot 特征 · 🚨 必守 6 条 Hard Rules · 💡 最佳实践速览(详细见 references/best-practices.md) · ✅ 先让用户登录,导出 cookies 再下载 · ✅ 用   确保版本一致 · ✅ 超时设置合理(嗅探 30s / 下载 5min) · ✅ 大文件用 M3U8 + 并发切片下载 · ✅ 失败时保留 cookie,可重试 · ❌ 不要用  (Chromium 在 root 环境失效) · ❌ 不要在 cookie …",
     "tags": [
-      "media",
-      "download",
-      "playwright",
-      "browser-automation",
-      "m3u8",
-      "mpd",
-      "sniffer",
-      "login-state",
-      "cookie-injection",
       "community"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -3500,11 +3491,11 @@
     "id": "writing-skills",
     "path": "./community/writing-skills/SKILL.md",
     "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
-    "body_summary": "Writing Skills · Overview · You write test cases (pressure scenarios with subagents), watch them fail (baseline behavior), write the skill (documentation), watch tests pass (agents comply), and refactor (close loopholes). · What is a Skill · A **skill** is a reference guide for proven techniques, patterns, or tools · TDD Mapping for Skills · The entire skill creation process follows RED-GREEN-REFACTOR. · When to Create a Skill · Technique wasn't intuitively obvious to you · You'd reference this again across projects · Pattern applies broadly (not project-specific) · Others would benefit · One-…",
+    "body_summary": "Writing Skills · Writing skills IS Test-Driven Development applied to process documentation. · 主体只保留:触发条件 + 核心铁律 + 高层索引 · 📌 何时该用本 skill · 🎯 核心铁律 (Iron Law) · 「先写测试,再写 skill · If you didn't watch an agent fail WITHOUT the skill, you don't know if the skill teaches the right thing. · 🧩 Skill 3 大类型(决定写多深) · 🏗️ 目录结构标准 · 🔍 Claude Search Optimization (CSO) · 4 大要素 · CSO 是 skill 被 Claude 正确触发的关键 · 🧪 TDD 流程 · Skill 测试模板 · Testing All Skill Types** — 不同类型 skill 的测试重点不同 · 4 类 skill 测试侧重点 · 🚨 Anti-Patterns · 红线 · 📚 资源引用 · 🛠 主体自检 Checklist(每个新 skill 完成前) · [ ] 写了 3+ combined pressure scenarios · [ ] 跑了 RE…",
     "tags": [
       "community"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },

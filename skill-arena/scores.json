@@ -308,17 +308,6 @@
     "total": 9.5
   },
   {
-    "id": "playwright-media-sniffer",
-    "path": "./community/playwright-media-sniffer/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": true,
-    "doc_quality": 10,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.5
-  },
-  {
     "id": "cohort-analysis",
     "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
     "cluster": "data",
@@ -1060,7 +1049,7 @@
     "path": "./community/gstack/open-gstack-browser/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1171,6 +1160,17 @@
     "cluster": "agent-arch",
     "cluster_name": "Agent·架构",
     "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 8.8
+  },
+  {
+    "id": "playwright-media-sniffer",
+    "path": "./community/playwright-media-sniffer/SKILL.md",
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1500,17 +1500,6 @@
     "path": "./community/gstack/review/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 8.5
-  },
-  {
-    "id": "ship",
-    "path": "./community/gstack/ship/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 7,
@@ -2255,17 +2244,6 @@
     "total": 8.3
   },
   {
-    "id": "writing-skills",
-    "path": "./community/writing-skills/SKILL.md",
-    "cluster": "skills-mgmt",
-    "cluster_name": "Skills·管理",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 8,
-    "maintainability": 7,
-    "total": 8.3
-  },
-  {
     "id": "pua-ja",
     "path": "./devops/pua-ja/SKILL.md",
     "cluster": "agent-pua",
@@ -2501,6 +2479,17 @@
     "path": "./community/gstack/learn/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 8.0
+  },
+  {
+    "id": "ship",
+    "path": "./community/gstack/ship/SKILL.md",
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 7,
@@ -2897,6 +2886,17 @@
     "path": "./community/webapp-testing/SKILL.md",
     "cluster": "engineering-qa",
     "cluster_name": "工程·QA",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "writing-skills",
+    "path": "./community/writing-skills/SKILL.md",
+    "cluster": "skills-mgmt",
+    "cluster_name": "Skills·管理",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,

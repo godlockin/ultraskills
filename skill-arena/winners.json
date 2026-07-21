@@ -298,21 +298,6 @@
     ]
   },
   {
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "winner": "playwright-media-sniffer",
-    "score": 9.5,
-    "runner_up": "open-gstack-browser",
-    "total_contestants": 14,
-    "defeated": [
-      "open-gstack-browser",
-      "gstack-openclaw-retro",
-      "gstack-upgrade",
-      "gstack-openclaw-ceo-review",
-      "cloakbrowser"
-    ]
-  },
-  {
     "cluster": "agent-eval",
     "cluster_name": "Agent·评估",
     "winner": "advanced-evaluation",
@@ -419,8 +404,8 @@
       "ultraskills-hub",
       "skill-creator",
       "\"github-skill-scout\"",
-      "writing-skills",
-      "command-development"
+      "command-development",
+      "hook-development"
     ]
   },
   {
@@ -563,6 +548,21 @@
       "frontend-design",
       "web-artifacts-builder",
       "theme-factory"
+    ]
+  },
+  {
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "winner": "open-gstack-browser",
+    "score": 8.8,
+    "runner_up": "gstack-openclaw-retro",
+    "total_contestants": 14,
+    "defeated": [
+      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
+      "gstack-upgrade",
+      "gstack-openclaw-ceo-review",
+      "cloakbrowser"
     ]
   },
   {
