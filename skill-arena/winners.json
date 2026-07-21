@@ -75,6 +75,21 @@
     ]
   },
   {
+    "cluster": "business-operations",
+    "cluster_name": "商业·业务运营",
+    "winner": "strategy-consulting-framework",
+    "score": 9.5,
+    "runner_up": "crisis-comms-playbook",
+    "total_contestants": 13,
+    "defeated": [
+      "crisis-comms-playbook",
+      "sop-writer",
+      "customer-escalation",
+      "draft-response",
+      "kb-article"
+    ]
+  },
+  {
     "cluster": "business-pm",
     "cluster_name": "商业·项目管理",
     "winner": "learn-from-loss",
@@ -149,6 +164,21 @@
     ]
   },
   {
+    "cluster": "data-analytics",
+    "cluster_name": "数据·商业智能",
+    "winner": "generalist-expert",
+    "score": 9.5,
+    "runner_up": "storage-analyzer",
+    "total_contestants": 11,
+    "defeated": [
+      "storage-analyzer",
+      "explore-data",
+      "validate-data",
+      "fact-checker",
+      "create-viz"
+    ]
+  },
+  {
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
     "winner": "design-an-interface",
@@ -164,6 +194,21 @@
     ]
   },
   {
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "winner": "churn-risk-playbook",
+    "score": 9.5,
+    "runner_up": "sales-funnel-analyzer",
+    "total_contestants": 10,
+    "defeated": [
+      "sales-funnel-analyzer",
+      "devex-review",
+      "plan-devex-review",
+      "health",
+      "qa-only"
+    ]
+  },
+  {
     "cluster": "engineering-security",
     "cluster_name": "工程·安全",
     "winner": "engineering-orchestrator",
@@ -175,6 +220,21 @@
       "cso",
       "strategy-red-team",
       "security-reviewer"
+    ]
+  },
+  {
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "winner": "marketing-roi-calculator",
+    "score": 9.5,
+    "runner_up": "content-strategy",
+    "total_contestants": 10,
+    "defeated": [
+      "content-strategy",
+      "aso-audit",
+      "launch-strategy",
+      "pricing-strategy",
+      "product-marketing-context"
     ]
   },
   {
@@ -223,6 +283,21 @@
     ]
   },
   {
+    "cluster": "sales-marketing",
+    "cluster_name": "商业·销售增长",
+    "winner": "objection-handler",
+    "score": 9.5,
+    "runner_up": "okr-alignment-checker",
+    "total_contestants": 13,
+    "defeated": [
+      "okr-alignment-checker",
+      "pitch-deck-critic",
+      "create-an-asset",
+      "draft-outreach",
+      "brand-messaging-framework"
+    ]
+  },
+  {
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
     "winner": "playwright-media-sniffer",
@@ -262,21 +337,6 @@
       "gh-address-comments",
       "karpathy-guidelines",
       "requesting-code-review"
-    ]
-  },
-  {
-    "cluster": "data-analytics",
-    "cluster_name": "数据·商业智能",
-    "winner": "generalist-expert",
-    "score": 9.0,
-    "runner_up": "storage-analyzer",
-    "total_contestants": 11,
-    "defeated": [
-      "storage-analyzer",
-      "explore-data",
-      "validate-data",
-      "fact-checker",
-      "create-viz"
     ]
   },
   {
@@ -322,21 +382,6 @@
     ]
   },
   {
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "winner": "churn-risk-playbook",
-    "score": 9.0,
-    "runner_up": "sales-funnel-analyzer",
-    "total_contestants": 10,
-    "defeated": [
-      "sales-funnel-analyzer",
-      "devex-review",
-      "plan-devex-review",
-      "health",
-      "qa-only"
-    ]
-  },
-  {
     "cluster": "engineering-testing",
     "cluster_name": "工程·测试",
     "winner": "triage-issue",
@@ -351,21 +396,6 @@
     ]
   },
   {
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "winner": "marketing-roi-calculator",
-    "score": 9.0,
-    "runner_up": "content-strategy",
-    "total_contestants": 10,
-    "defeated": [
-      "content-strategy",
-      "aso-audit",
-      "launch-strategy",
-      "pricing-strategy",
-      "product-marketing-context"
-    ]
-  },
-  {
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
     "winner": "mac-tts",
@@ -376,21 +406,6 @@
       "mac-voice-clone",
       "mac-whisper",
       "audio-clean"
-    ]
-  },
-  {
-    "cluster": "sales-marketing",
-    "cluster_name": "商业·销售增长",
-    "winner": "objection-handler",
-    "score": 9.0,
-    "runner_up": "okr-alignment-checker",
-    "total_contestants": 13,
-    "defeated": [
-      "okr-alignment-checker",
-      "pitch-deck-critic",
-      "create-an-asset",
-      "draft-outreach",
-      "brand-messaging-framework"
     ]
   },
   {
@@ -548,21 +563,6 @@
       "frontend-design",
       "web-artifacts-builder",
       "theme-factory"
-    ]
-  },
-  {
-    "cluster": "business-operations",
-    "cluster_name": "商业·业务运营",
-    "winner": "crisis-comms-playbook",
-    "score": 8.5,
-    "runner_up": "sop-writer",
-    "total_contestants": 13,
-    "defeated": [
-      "sop-writer",
-      "customer-escalation",
-      "draft-response",
-      "kb-article",
-      "ticket-triage"
     ]
   },
   {

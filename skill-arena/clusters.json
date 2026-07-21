@@ -446,57 +446,57 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
-          "monitoring-expert",
-          "legacy-modernizer",
           "spec-miner",
-          "sre-engineer"
+          "feature-forge",
+          "sre-engineer",
+          "legacy-modernizer",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "postgres-pro",
         "skills": [
+          "postgres-pro",
           "database-optimizer",
           "spark-engineer",
-          "pandas-pro",
           "sql-pro",
-          "postgres-pro"
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "websocket-engineer",
         "skills": [
-          "mcp-developer",
-          "chaos-engineer",
-          "cli-developer",
+          "websocket-engineer",
           "embedded-systems",
-          "websocket-engineer"
+          "mcp-developer",
+          "cli-developer",
+          "chaos-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -589,10 +589,10 @@
         "skills": [
           "baoyu-danger-x-to-markdown",
           "baoyu-format-markdown",
-          "baoyu-post-to-wechat",
           "baoyu-translate",
-          "baoyu-danger-gemini-web",
+          "baoyu-post-to-wechat",
           "baoyu-url-to-markdown",
+          "baoyu-danger-gemini-web",
           "baoyu-youtube-transcript",
           "baoyu-post-to-x",
           "baoyu-post-to-weibo"
@@ -607,9 +607,9 @@
           "baoyu-xhs-images",
           "x-mastery-mentor",
           "social-content",
-          "huashu-xhs-image",
-          "huashu-wechat-image",
           "khazix-writer",
+          "huashu-wechat-image",
+          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -744,11 +744,11 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-cover-image",
+        "winner": "baoyu-image-cards",
         "skills": [
-          "baoyu-cover-image",
           "baoyu-image-cards",
           "baoyu-comic",
+          "baoyu-cover-image",
           "baoyu-article-illustrator",
           "baoyu-infographic",
           "baoyu-imagine"
@@ -763,9 +763,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
           "image-auditor",
-          "image-reviewer"
+          "image-reviewer",
+          "image-analyzer"
         ]
       },
       {
@@ -777,8 +777,8 @@
           "algorithmic-art",
           "\"commercial-director-pro\"",
           "\"gemini-image-optimizer\"",
-          "huashu-design",
-          "huashu-image-upload"
+          "huashu-image-upload",
+          "huashu-design"
         ]
       }
     ]
@@ -862,8 +862,8 @@
         "skills": [
           "plugin-structure",
           "plugin-settings",
-          "hook-development",
           "command-development",
+          "hook-development",
           "claude-automation-recommender",
           "claude-md-improver"
         ]
@@ -877,8 +877,8 @@
           "gh-fix-ci",
           "writing-skills",
           "example-skill",
-          "using-superpowers",
           "context-engineering-collection",
+          "using-superpowers",
           "skill-template"
         ]
       }
@@ -955,15 +955,15 @@
     "id": "business-operations",
     "name": "商业·业务运营",
     "skill_count": 13,
-    "winner": "crisis-comms-playbook",
+    "winner": "strategy-consulting-framework",
     "skills": [
+      "strategy-consulting-framework",
       "crisis-comms-playbook",
       "sop-writer",
       "customer-escalation",
       "draft-response",
       "kb-article",
       "ticket-triage",
-      "strategy-consulting-framework",
       "capacity-plan",
       "change-request",
       "process-doc",
@@ -1143,8 +1143,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "writing-plans",
-          "executing-plans"
+          "executing-plans",
+          "writing-plans"
         ]
       },
       {
@@ -1200,8 +1200,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "zoom-mcp/whiteboard",
           "metrics-dashboard",
+          "zoom-mcp/whiteboard",
           "build-dashboard",
           "onboarding",
           "onboarding-guide"

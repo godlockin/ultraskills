@@ -198,6 +198,17 @@
     "total": 9.5
   },
   {
+    "id": "churn-risk-playbook",
+    "path": "./community/churn-risk-playbook/SKILL.md",
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "content-orchestrator",
     "path": "./community/content-orchestrator/SKILL.md",
     "cluster": "content-writing",
@@ -253,10 +264,43 @@
     "total": 9.5
   },
   {
+    "id": "generalist-expert",
+    "path": "./community/generalist-expert/SKILL.md",
+    "cluster": "data-analytics",
+    "cluster_name": "数据·商业智能",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "learn-from-loss",
     "path": "./community/learn-from-loss/SKILL.md",
     "cluster": "business-pm",
     "cluster_name": "商业·项目管理",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "marketing-roi-calculator",
+    "path": "./community/marketing-roi-calculator/SKILL.md",
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "objection-handler",
+    "path": "./community/objection-handler/SKILL.md",
+    "cluster": "sales-marketing",
+    "cluster_name": "商业·销售增长",
     "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 9,
@@ -302,6 +346,17 @@
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "strategy-consulting-framework",
+    "path": "./community/strategy-consulting-framework/SKILL.md",
+    "cluster": "business-operations",
+    "cluster_name": "商业·业务运营",
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 9,
     "maintainability": 9,
@@ -517,17 +572,6 @@
     "total": 9.0
   },
   {
-    "id": "churn-risk-playbook",
-    "path": "./community/churn-risk-playbook/SKILL.md",
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
     "id": "face-reading",
     "path": "./community/face-reading/SKILL.md",
     "cluster": "misc",
@@ -544,17 +588,6 @@
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "generalist-expert",
-    "path": "./community/generalist-expert/SKILL.md",
-    "cluster": "data-analytics",
-    "cluster_name": "数据·商业智能",
-    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -621,28 +654,6 @@
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
     "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "marketing-roi-calculator",
-    "path": "./community/marketing-roi-calculator/SKILL.md",
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "objection-handler",
-    "path": "./community/objection-handler/SKILL.md",
-    "cluster": "sales-marketing",
-    "cluster_name": "商业·销售增长",
-    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -1357,7 +1368,7 @@
     "path": "./community/crisis-comms-playbook/SKILL.md",
     "cluster": "business-operations",
     "cluster_name": "商业·业务运营",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 9,
     "maintainability": 9,
@@ -4360,17 +4371,6 @@
     "path": "./community/persuasion-framework/SKILL.md",
     "cluster": "content-writing",
     "cluster_name": "内容·写作",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 7.5
-  },
-  {
-    "id": "strategy-consulting-framework",
-    "path": "./community/strategy-consulting-framework/SKILL.md",
-    "cluster": "business-operations",
-    "cluster_name": "商业·业务运营",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 9,

@@ -642,8 +642,8 @@
   {
     "id": "churn-risk-playbook",
     "path": "./community/churn-risk-playbook/SKILL.md",
-    "description": "Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review",
-    "body_summary": "Churn Risk Playbook · Systematic churn prevention framework using health scoring, leading indicators, and intervention playbooks · When to Use · Weekly at-risk review**: Identify + triage churn risks · QBR prep**: Build exec-ready account health reports · Expansion qualification**: Spot upsell-ready accounts · Team onboarding**: Train CSMs on churn signals · Executive reporting**: Quantify retention metrics · Core Framework · Health Score Model (0-100) · Usage decline >20% MoM · No exec contact >45 days · Support escalations · Champion turnover · Competitive eval signals · Churn Risk Tiers · T…",
+    "description": "Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review. Use when user wants to \"save a churn account\", \"客户要流失\", \"客户用得越来越少\", \"续约谈判\", \"降级信号\", \"QBR prep\", \"客户要降级\", \"客户要退出\", \"客户健康度低\", \"客户没回应\", \"客户用了下个月就停了\", \"save churn\", \"renewal negotiation\", \"account at risk\", \"expansion qualification\", \"executive intervention\". Distinguishes from objection-handler (mid-deal objections) — this is post-sale retention.",
+    "body_summary": "Churn Risk Playbook · Systematic churn prevention framework using health scoring, leading indicators, and intervention playbooks · 🎯 适用场景与触发 · 6 类典型场景 · 6 类常见痛点 · 事后救火** — 客户走了才知道 · 健康分拍脑袋** — 没有量化指标 · 预警不到位** — 续约前 30 天才发现 · 救火动作随机** — 凭直觉联系客户 · 预防动作缺失** — 只救火不防 · 原因分析不深** — 不知道「为什么走」 · 8 类期望效果 · 健康分量化(0-100 + 4 pillar 加权) · 风险分级(Tier 1 红 / Tier 2 黄 / Tier 3 绿) · 提前 90 天预警(leading indicators) · 标准 Playbook A/B/C 干预 · Executive intervention 触发条件明确 · 主动扩张机会识别 · 季度复盘 + 流失原因统计 · 可视化 account health dashboard · 🚨 边界 · 📥 启动前信息收集 · 🔗 后续落地动作 · 🔁 人机迭代闭环 · 主公 → skill 反馈通道 · skill → 主公主动迭代 · 🛠 自检 Checkli…",
     "tags": [
       "customer-success",
       "churn-prevention",
@@ -652,9 +652,10 @@
       "expansion",
       "QBR",
       "ROI-9.5",
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -1257,14 +1258,15 @@
   {
     "id": "generalist-expert",
     "path": "./community/generalist-expert/SKILL.md",
-    "description": "通用领域专家分析框架。通过变量注入（{expert_role}, {expert_domain}, {expert_focus}）激活\n特定领域专家的分析视角，强制5维度评估：事实准确性、可行性、隐含假设、反驳视角、领域风险。\n配合动态专家招募使用（dynamic-expert-group），为每个被招募专家提供分析骨架，防止泛泛而谈。",
-    "body_summary": "Generalist Expert Analyst — Universal Domain Framework · Purpose · This skill is the **analytical backbone** for every dynamically recruited expert · Expert Identity Protocol · You are **{expert_role}**, a domain authority in **{expert_domain}**. · Your analytical lens: **{expert_focus}**. · Use domain-native vocabulary and frameworks (not layman paraphrases) · Apply epistemology of your domain: how is truth established here · Reference domain-standard evidence hierarchies (e.g., RCTs for medicine, benchmarks for ML, P&L for business) · Name the mental models your domain uses (e.g., Porter's F…",
+    "description": "通用领域专家分析框架(变量注入模板)。当用户需要分析某领域问题但不知道该找谁 / 想召集团队视角 / 想让 AI 用专业语言而非通用话术说话时触发。\n通过变量注入 ({expert_role}, {expert_domain}, {expert_focus}) 激活特定领域专家的分析视角,\n强制 5 维度评估:事实准确性、可行性、隐含假设、反驳视角、领域风险。\n触发词:分析这个领域问题 / 找专家视角 / 召集团队评审 / dynamic expert group / 跨领域 review /\nreview 这个方案 / 评估这个观点 / 多角度看下 / 谁懂这块 / 懂的人怎么看 / 专家怎么分析。\n与 general-purpose 不同:这是模板 skill,每次按 context 注入不同专家身份。",
+    "body_summary": "Generalist Expert Analyst — Universal Domain Framework · 🎯 适用场景与触发 · 6 类典型场景 · 4 类常见痛点 · AI 回答太**泛** — 任何问题都给「最佳实践」框架,听不出是哪行哪业 · 不知道找谁** — 跨领域问题不知道该问哪个专家 · 评估缺**反驳视角** — 没人指出论点的盲区 · 领域风险看不见** — 非专家不会想到的坑 · 6 类期望效果 · 每个 claim 必须能用「只有 {expert_domain} 专家才会这么说」检验 · 5 维度评估(事实/可行性/假设/反驳/风险)覆盖所有内容 · depth chain(Surface → Mechanism → Evidence → Implication)贯穿 · 主动标注 [HIGH] / [MED] / [LOW] / [CONTESTED] / [LOW confidence] · 主动说「这超出我的领域边界」 · 用领域标准证据层级(医学 RCT / ML 基准 / 商业 P&L) · Purpose · This skill is the **analytical backbone** for every dynamically recruited expert · Expert Identity Protocol · You are…",
     "tags": [
       "community",
       "expert-system",
-      "analysis-framework"
+      "analysis-framework",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -2067,8 +2069,8 @@
   {
     "id": "learn-from-loss",
     "path": "./community/learn-from-loss/SKILL.md",
-    "description": "Structured postmortem methodology for competition results — multi-expert panel review, 8-dimension scoring, winner-vs-loser gap analysis, and lessons codification",
-    "body_summary": "Postmortem Review — Learn More from Losing Than Winning · Overview · A structured postmortem turns a loss into a reusable playbook · When to Use · After a competition result (win or loss — both have lessons) · When preparing a retrospective for a high-stakes presentation · When comparing your deliverable against competitors · When codifying team knowledge into reusable playbooks · Phase 1: Winner Analysis (Day 0–1) · Collect All Winners · Don't just look at 1st place · 8-Dimension Scoring Matrix · Score yourself AND each winner on the same 8 dimensions (1–10 scale): · Gap Identification · For …",
+    "description": "Postmortem methodology for competition results — multi-expert panel review, 8-dimension scoring, winner-vs-loser gap analysis, lessons codification, iron-rules bank. Use when user wants to \"postmortem a competition\", \"review why we lost\", \"recover lessons from failure\", \"team retrospective after losing\", \"WDC postmortem\", \"WDC debrief\", \"我做得不错但没赢\", \"输在哪了\", \"赛后复盘\", \"给团队复盘\", \"比赛结果复盘\", \"disagree with judging\", \"validate deliverable vs competitors\", or mentions winning/losing/competition/赛后复盘/复盘/输赢复盘. Distinguishes from career-coach (emotional support) — this is structured methodology.",
+    "body_summary": "Postmortem Review — Learn More from Losing Than Winning · 🎯 适用场景与触发 · 6 类典型场景 · 6 类常见痛点 · 输给谁 / 差在哪 / 哪里可以更好 — **没有结构化拆解,只有模糊感觉 · 评委判断和我不一样 — **觉得是运气差/有黑幕,不肯直视自己 · 复盘完写不出可执行规则 — **流于感性感叹 · 下次还会犯同样的错 — **没有 Day-0 checklist · 团队每个人复盘结论不一样 — **没有统一打分维度 · 跨团队/跨项目经验无法复用 — **没有 Iron Rules 沉淀机制 · 8 类期望效果 · 多维度打分矩阵(自己 + 至少 3 个赢家/标杆) · Gap 表(每维度:自己 vs 标杆 vs 差值 vs 根因 vs 修复) · 3-agent 独立 panel(内容/设计/工艺 3 视角) · 5-7 条 Iron Rules(绝对不能犯) · Pass Criteria 二元门(每条带验证方法) · Bonus Items(从\"合格\"到\"难忘\"的细节) · Day-0 Checklist(下次开始 1 小时内要做的) · Iron Rules Bank 长期沉淀(团队共用,跨项目复用) · Overview · A structured postmortem turns a lo…",
     "tags": [
       "postmortem",
       "review",
@@ -2076,9 +2078,10 @@
       "competition",
       "retrospective",
       "scoring",
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -2170,8 +2173,8 @@
   {
     "id": "marketing-roi-calculator",
     "path": "./community/marketing-roi-calculator/SKILL.md",
-    "description": "Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min",
-    "body_summary": "Marketing ROI Calculator · Systematic marketing ROI framework covering CAC, LTV, channel attribution, and campaign effectiveness · When to Use · Monthly reporting**: Executive marketing performance review · Budget planning**: Allocate next quarter's spend · Channel optimization**: Double down or cut underperformers · Campaign analysis**: Post-mortem on what worked · Board decks**: Investor-grade metrics · Core Metrics Framework · Q1 spend: $50K marketing + $30K sales = $80K · New customers: 40 · CAC: $2,000 · SaaS B2B: $200-500 (SMB), $1K-5K (mid-market), $10K+ (enterprise) · Ecommerce: $10-50…",
+    "description": "Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min. Use when user wants to \"算 CAC\", \"看哪个渠道投入产出高\", \"营销月报\", \"老板问投入产出比\", \"ROI review\", \"channel attribution\", \"campaign analysis\", \"marketing budget allocation\", \"看下个月预算怎么分\", \"广告费没效果\", \"SEO 还是 SEM\", \"看每条渠道 ROI\", \"看获客成本\", \"LTV 是多少\", \"payback period\", \"marketing ops\", \"marketing metrics\". Frequency: monthly + per campaign.",
+    "body_summary": "Marketing ROI Calculator · Systematic marketing ROI framework covering CAC, LTV, channel attribution, and campaign effectiveness · 🎯 适用场景与触发 · 6 类典型场景 · 5 类常见痛点 · 数据散落** — 多个平台各自有数据,没法整合 · 算不出 CAC** — 不知道把销售成本放哪 · 不知道对不对** — 算出来但不确定数字是否合理 · 拆不到渠道** — 总 CAC 知道,但分不出每条渠道 · 看不到回收期** — 不知道几个月回本 · 6 类期望效果 · CAC + LTV + Payback 三件套(分渠道 + 分产品) · 行业 benchmark 对比(自动提醒偏离) · Attribution 模型选择(首次/末次/线性) · 行动建议(加预算 / 砍渠道 / 重分配) · Executive 1 页纸(可视化 + Insight) · 季度 trend(同比环比) · 🚨 边界 · 📥 启动前信息收集 · 🔗 后续落地动作 · 🔁 人机迭代闭环 · 主公 → skill 反馈通道 · skill → 主公主动迭代 · 🛠 自检 Checklist · [ ] CAC 口径明示(分子包含哪些项) · [ ] LTV 计算口径合理(…",
     "tags": [
       "marketing",
       "roi-analysis",
@@ -2180,9 +2183,10 @@
       "attribution",
       "marketing-ops",
       "ROI-8.5",
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -2277,8 +2281,8 @@
   {
     "id": "objection-handler",
     "path": "./community/objection-handler/SKILL.md",
-    "description": "Sales objection handling framework using MEDDIC/BANT - converts 1h prep to 5min per call",
-    "body_summary": "Objection Handler · High-frequency sales skill that instantly generates objection responses using proven frameworks (MEDDIC, BANT, SPIN) · When to Use · Pre-call prep**: Anticipate objections for upcoming sales calls · Live call recovery**: Real-time objection response during demos · Proposal defense**: Handle pricing/contract pushback · Deal rescue**: Unstick stalled opportunities · Team training**: Build objection handling playbooks · Core Frameworks · MEDDIC Qualification · M**etrics: Quantify business impact (\"reduce churn 15% → save $2M/yr\") · E**conomic Buyer: Identify budget authority ·…",
+    "description": "Sales objection handling framework using MEDDIC/BANT - converts 1h prep → 5min per call. Use when user wants to handle \"client says too expensive\", \"client hesitates\", \"delays signing\", \"client wants to downgrade\", \"competitor named\", \"need to check with boss\", \"not a priority right now\", \"call us next quarter\", \"price too high\", \"需要降价\", \"客户犹豫\", \"客户要降级\", \"客户拖延\", \"客户质疑 ROI\", \"提案被驳回\", \"call us back later\", \"deal rescue\", \"proposal defense\", \"needs to consult\", or any sales objection during deal cycle. Frequency: every sales interaction.",
+    "body_summary": "Objection Handler · High-frequency sales skill that instantly generates objection responses using proven frameworks (MEDDIC, BANT, SPIN) · 🎯 适用场景与触发 · 6 类典型场景 · 5 类常见痛点 · 5 分钟内想不出怎么回应 — **话到嘴边变废话 · 越辩越被动 — **给完方案对方提新疑点 · 价格被压得过低 — **底线没守住,成交了反而亏 · 客户说「我再想想」就再也联系不上 — **没设 next step · 团队每个人应对方法不一致 — **没有统一框架 · 6 类期望效果 · 3-tier 响应(Acknowledge / Reframe / Advance)标准化输出 · MEDDIC 6 元素对齐(清晰度 ≥ 70%) · 1 个具体 next step(会议/试用/参考客户) · 应对时间 ≤ 5 分钟(从 objection 到方案) · 不直接降价 — 用价值重构换价格 · 每次响应可复用为团队 playbook · 🚨 边界 · 📥 启动前信息收集 · 🔗 后续落地动作 · 🔁 人机迭代闭环 · 主公 → skill 反馈通道 · skill → 主公主动迭代 · 🛠 自检 Checklist · [ ] Obje…",
     "tags": [
       "sales",
       "objection-handling",
@@ -2286,9 +2290,10 @@
       "BANT",
       "deal-acceleration",
       "ROI-9.5",
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
@@ -3069,8 +3074,8 @@
   {
     "id": "strategy-consulting-framework",
     "path": "./community/strategy-consulting-framework/SKILL.md",
-    "description": "Strategy consulting framework - McKinsey/BCG problem-solving in 1h",
-    "body_summary": "Strategy Consulting Framework · Uses McKinsey/BCG/Bain problem-solving methods for business decisions. · Problem Structuring (MECE Principle) · Revenue issues: Product, Sales, Marketing, Go-to-Market · Revenue issues: Acquisition, Retention, Expansion · Issue Tree (Break Down Problem) · Hypothesis-Driven Approach · 80/20 Analysis (Pareto) · 80% of churn comes from 3 issues: · BCG 2x2 Matrix · Recommendation Format · References · McKinsey Problem Solving Test · BCG 2x2 Matrix frameworks · Pyramid Principle (Barbara Minto)",
+    "description": "Strategy consulting framework - McKinsey/BCG problem-solving in 1h. Use when user wants to \"decide whether to do X\", \"diagnose growth block\", \"prioritize backlog\", \"strategic plan\", \"resource allocation\", \"BCG matrix\", \"issue tree\", \"hypothesis-driven\", \"Pareto analysis\", \"quarterly review\", \"SCR framework\", \"GRAI retrospective\", \"year-end planning\", \"negotiation prep\", \"health check for business\", \"decide whether to take partnership\", \"MECE\", \"pyramid principle\", or feels stuck on a business decision and needs structured framework. Triggers: 要不要做X / 该不该接 / 值不值得 / 战略卡点 / 增长卡住 / 转化掉了 / 复盘 / BCG / 麦肯锡 / 贝恩 / 季度规划 / 优先级 / GRAI.",
+    "body_summary": "Strategy Consulting Framework · 1 小时闭环的战略决策** — 用 MBB(McKinsey/BCG/Bain)方法论解决独立创作者面对的中等及以上复杂度商业/产品决策 · 🎯 适用场景与触发 · 8 类典型场景 · 7 类常见痛点(对话时主动识别) · 抓不住核心问题 — 眉毛胡子一把抓 · 把症状当病因 — 急于打补丁,忽略根本结构 · 证据不足就拍板 — 直觉决策,事后发现方向就错 · 结论没人能听懂 — 自我说服但解释不清 · 事后无法复用 — 决策纯靠感觉,下次又从头来 · 价值无法量化 — 「+20%」这种主观估算 · 犹豫错过窗口 — 信息不全拖到机会溜走 · 8 类期望效果 · 10-15 分钟把模糊问题拆成 MECE issue tree · 假设先行 + 数据验证,而不是先堆数据再想结论 · 金字塔结论:一句话 + 3 个支撑 + 1 个行动 · 80/20 识别杠杆点(20% 动作出 80% 结果) · 自动列出反方观点(\"如果我错了会怎样\") · 决策可追溯(每一步为什么这么想) · 1 小时内闭环 · 建议带量化预期(+X% 收入 / 节省 Y 小时 / 降低 Z% 风险) · 🚨 边界(Boundaries) · ⚙️ 6 步主流程(强约束时间盒) · 总时间盒:60 分钟 · Stage 0 · 契约 (5 min) ·…",
     "tags": [
       "consulting",
       "strategy",
@@ -3078,9 +3083,10 @@
       "framework",
       "advisory",
       "ROI-9.0",
-      "community"
+      "community",
+      "arena-winner"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "github_url": "",
     "auxiliary": false
   },
