@@ -1,0 +1,572 @@
+# ultraskills-hub · Skill 别名与触发词覆盖表
+#
+# 目的:
+#   为外部 skill 或英文 description 的 skill 提供本地中文/口语化触发词,
+#   让 hub 搜索能命中,而不需要 fork 或修改上游。
+#
+# 生效机制:
+#   arena_build_index.py 读取本文件,将 aliases 合并到目标 skill 的 recommended_for 字段。
+#   search.py 已经会对 recommended_for 加 +5 分/命中(见 search.py line 168)。
+#
+# 规则:
+#   - 顶层 key = skill_id
+#   - 每个 skill 下 aliases 字段是字符串数组
+#   - 只加"用户可能用来搜索但 description 里没有"的表达
+#   - 精确、口语化、场景化 > 学术化
+#   - 每个 skill 15-40 条触发词即可,过多反而稀释权重
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 文件转换与解析
+# ═══════════════════════════════════════════════════════════════════════════════
+
+markitdown:
+  aliases:
+    - "文件转 markdown"
+    - "文档转 markdown"
+    - "转成 markdown"
+    - "转成 md"
+    - "转 markdown"
+    - "转 md"
+    - "PDF 转 markdown"
+    - "PDF 转 md"
+    - "docx 转 markdown"
+    - "docx 转 md"
+    - "word 转 markdown"
+    - "excel 转 markdown"
+    - "xlsx 转 markdown"
+    - "pptx 转 markdown"
+    - "ppt 转 markdown"
+    - "HTML 转 markdown"
+    - "网页转 markdown"
+    - "图片 OCR"
+    - "图片文字识别"
+    - "音频转文字"
+    - "YouTube 转文字"
+    - "YouTube 字幕"
+    - "EPub 转 markdown"
+    - "anything to markdown"
+    - "any to md"
+    - "文件解析"
+    - "文档解析"
+    - "office 文档解析"
+    - "文档提取"
+    - "抽取文本"
+    - "文件内容抽取"
+    - "microsoft markitdown"
+    - "markitdown Python"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 测试与代码质量
+# ═══════════════════════════════════════════════════════════════════════════════
+
+test-driven-development:
+  aliases:
+    - "写单元测试"
+    - "帮我写测试"
+    - "单元测试"
+    - "TDD"
+    - "测试驱动开发"
+    - "先写测试"
+    - "写测试用例"
+    - "test case"
+    - "unit test"
+    - "integration test"
+    - "写完代码补测试"
+
+code-review:
+  aliases:
+    - "代码审查"
+    - "code review"
+    - "review 代码"
+    - "帮我 review"
+    - "看看我的代码"
+    - "PR 审查"
+    - "review 我的 PR"
+    - "diff 审查"
+    - "代码走查"
+
+receiving-code-review:
+  aliases:
+    - "收到 code review"
+    - "review 反馈"
+    - "review 意见"
+    - "怎么回应 code review"
+    - "review 反馈处理"
+
+requesting-code-review:
+  aliases:
+    - "请人 review"
+    - "找人 review"
+    - "提交 review"
+    - "PR 前自检"
+
+verification-before-completion:
+  aliases:
+    - "完工前验证"
+    - "任务完成前检查"
+    - "自检"
+    - "交付前检查"
+
+systematic-debugging:
+  aliases:
+    - "系统性调试"
+    - "debug 方法"
+    - "怎么调 bug"
+    - "找 bug 思路"
+    - "排错"
+    - "troubleshoot"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 营销 / 文案
+# ═══════════════════════════════════════════════════════════════════════════════
+
+cold-email:
+  aliases:
+    - "商务邮件"
+    - "冷启动邮件"
+    - "冷邮件"
+    - "B2B 邮件"
+    - "sales email"
+    - "找客户邮件"
+    - "outbound"
+    - "开发信"
+    - "sdr email"
+    - "跟进邮件"
+
+ai-seo:
+  aliases:
+    - "AI SEO"
+    - "让 AI 引用我"
+    - "AI 引用"
+    - "GEO"
+    - "AEO"
+    - "LLM 优化"
+    - "被 ChatGPT 引用"
+    - "被 Claude 引用"
+    - "被 AI 提及"
+    - "AI 时代 SEO"
+
+marketing-psychology:
+  aliases:
+    - "营销心理学"
+    - "说服心理学"
+    - "Cialdini"
+    - "行为设计"
+    - "行为经济学"
+
+marketing-ideas:
+  aliases:
+    - "营销点子"
+    - "推广创意"
+    - "growth 创意"
+    - "怎么推广我的产品"
+    - "如何做增长"
+
+analytics-tracking:
+  aliases:
+    - "埋点"
+    - "GA4"
+    - "google analytics"
+    - "GTM"
+    - "转化追踪"
+    - "事件追踪"
+    - "UTM 参数"
+
+lead-magnets:
+  aliases:
+    - "获客素材"
+    - "邮件订阅诱饵"
+    - "免费下载"
+    - "白皮书获客"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PPT / 演示 / 设计
+# ═══════════════════════════════════════════════════════════════════════════════
+
+ikea-style-ppt:
+  aliases:
+    - "IKEA 风格 PPT"
+    - "宜家风 PPT"
+    - "北欧风 PPT"
+    - "IKEA 演示文稿"
+    - "IKEA 商业报告"
+    - "IKEA 幻灯片"
+    - "IKEA FY26"
+    - "宜家式演示"
+
+magazine-web-ppt:
+  aliases:
+    - "杂志风 PPT"
+    - "电子杂志 PPT"
+    - "editorial deck"
+    - "网页版 PPT"
+    - "翻页 PPT"
+    - "封面 PPT"
+    - "海报风演示"
+
+ui-ux-pro-max-skill:
+  aliases:
+    - "UI 设计"
+    - "UX 设计"
+    - "落地页设计"
+    - "设计系统生成"
+    - "landing page"
+    - "配色方案"
+    - "字体搭配"
+
+frontend-design:
+  aliases:
+    - "前端设计"
+    - "前端页面"
+    - "React 组件设计"
+    - "网页组件"
+
+design-an-interface:
+  aliases:
+    - "接口设计"
+    - "API 接口设计"
+    - "模块接口设计"
+
+hallmark:
+  aliases:
+    - "反 AI 味设计"
+    - "anti AI slop"
+    - "去除 AI 感"
+    - "高级感设计"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 数据可视化
+# ═══════════════════════════════════════════════════════════════════════════════
+
+dataviz:
+  aliases:
+    - "画图表"
+    - "数据可视化"
+    - "画 chart"
+    - "画 graph"
+    - "配色 数据"
+    - "dashboard 设计"
+    - "sparkline"
+    - "heatmap"
+    - "chart 颜色"
+    - "统计图"
+    - "折线图 柱状图 饼图"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 命理 / 玄学
+# ═══════════════════════════════════════════════════════════════════════════════
+
+bazi-fortune:
+  aliases:
+    - "生辰八字"
+    - "八字排盘"
+    - "命理"
+    - "论命"
+    - "神煞十神"
+    - "大运流年"
+    - "身强身弱"
+    - "格局"
+    - "合婚"
+    - "命理咨询"
+    - "从零学八字"
+    - "四柱预测"
+
+face-reading:
+  aliases:
+    - "面相"
+    - "看面相"
+    - "五官"
+    - "三庭五眼"
+    - "印堂"
+    - "山根"
+    - "十二宫"
+    - "气色"
+    - "流年"
+    - "五官五行"
+
+palm-reading:
+  aliases:
+    - "手相"
+    - "看手相"
+    - "掌纹"
+    - "生命线"
+    - "智慧线"
+    - "感情线"
+    - "事业线"
+    - "命运线"
+    - "手诊"
+
+feng-shui:
+  aliases:
+    - "风水"
+    - "堪舆"
+    - "户型"
+    - "户型分析"
+    - "缺角"
+    - "八卦"
+    - "罗盘"
+    - "阳宅"
+    - "阴宅"
+    - "四灵兽"
+    - "外煞"
+    - "路冲"
+    - "反弓煞"
+    - "搬家风水"
+    - "装修风水"
+
+daoist-cosmology-basics:
+  aliases:
+    - "五行"
+    - "天干地支"
+    - "阴阳"
+    - "相生相克"
+    - "十神"
+    - "命理基础"
+    - "玄学基础"
+    - "子平术"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 学习 / 研究 / brainstorm
+# ═══════════════════════════════════════════════════════════════════════════════
+
+brainstorming:
+  aliases:
+    - "头脑风暴"
+    - "brainstorm"
+    - "想创意"
+    - "创意会"
+    - "点子发散"
+    - "需求探索"
+    - "explore idea"
+    - "先聊清楚再写代码"
+    - "brainstorm ideas"
+
+deep-research:
+  aliases:
+    - "深度调研"
+    - "深度研究"
+    - "多源调研"
+    - "fact-check 报告"
+    - "调查性研究"
+    - "深挖一个话题"
+    - "多轮搜索合成"
+    - "研究报告"
+    - "研究综述"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# Skill 元管理
+# ═══════════════════════════════════════════════════════════════════════════════
+
+ultraskills-hub:
+  aliases:
+    - "找 skill"
+    - "找一个 skill"
+    - "有没有 skill"
+    - "搜索 skill"
+    - "skill 搜索"
+    - "search skill"
+    - "帮我找个 skill"
+    - "有相关的 skill 吗"
+
+skill-creator:
+  aliases:
+    - "写一个 skill"
+    - "创建 skill"
+    - "skill 模板"
+    - "新增 skill"
+    - "skill 开发"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# arkcli 生态
+# ═══════════════════════════════════════════════════════════════════════════════
+
+arkcli-auth:
+  aliases:
+    - "arkcli 登录"
+    - "火山方舟登录"
+    - "arkcli 认证"
+    - "arkcli SSO"
+    - "volc SSO"
+    - "arkcli API key"
+    - "生成 API key"
+    - "arkcli init-volc"
+    - "arkcli apikey"
+    - "arkcli 鉴权"
+    - "登录 ark"
+
+arkcli-chat:
+  aliases:
+    - "arkcli 对话"
+    - "arkcli chat"
+    - "方舟对话"
+    - "arkcli 多模态"
+    - "arkcli 流式"
+
+arkcli-deploy:
+  aliases:
+    - "arkcli 部署"
+    - "创建 endpoint"
+    - "接入点"
+    - "部署模型"
+    - "上线模型"
+
+arkcli-models:
+  aliases:
+    - "arkcli 模型"
+    - "查模型"
+    - "方舟模型列表"
+    - "基础模型"
+
+arkcli-billing:
+  aliases:
+    - "arkcli 账单"
+    - "方舟账单"
+    - "结算金额"
+    - "费用查询"
+    - "拆账"
+
+arkcli-usage:
+  aliases:
+    - "arkcli 用量"
+    - "token 用量"
+    - "还剩多少额度"
+    - "套餐用了几成"
+    - "seat 用量"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 媒体处理
+# ═══════════════════════════════════════════════════════════════════════════════
+
+playwright-media-sniffer:
+  aliases:
+    - "抓取视频"
+    - "M3U8 下载"
+    - "视频嗅探"
+    - "M3U8 抓取"
+    - "视频反爬"
+    - "带 cookie 下视频"
+    - "登录后下视频"
+
+media-downloader:
+  aliases:
+    - "yt-dlp"
+    - "下载视频"
+    - "B 站下载"
+    - "YouTube 下载"
+    - "youtube-dl"
+    - "视频音频下载"
+
+mac-tts:
+  aliases:
+    - "文本转语音"
+    - "文字转语音"
+    - "text-to-speech"
+    - "TTS"
+    - "读文字"
+    - "朗读文本"
+    - "配音"
+    - "edge-tts"
+    - "kokoro-tts"
+
+remotion:
+  aliases:
+    - "程序化视频"
+    - "代码生成视频"
+    - "React 视频"
+    - "视频动画"
+    - "数据可视化视频"
+
+faceless-explainer:
+  aliases:
+    - "无脸视频"
+    - "解说视频"
+    - "配音视频"
+    - "科普视频"
+    - "话题解说"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 语言 / 框架专家
+# ═══════════════════════════════════════════════════════════════════════════════
+
+django-expert:
+  aliases:
+    - "Django 开发"
+    - "写 Django API"
+    - "DRF 序列化"
+    - "django REST"
+    - "Python Web 框架"
+
+rust-engineer:
+  aliases:
+    - "Rust 开发"
+    - "写 Rust"
+    - "所有权 借用"
+    - "async tokio"
+    - "系统编程 Rust"
+    - "内存安全 Rust"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 内容 / 中文分析
+# ═══════════════════════════════════════════════════════════════════════════════
+
+chinese-text-analysis:
+  aliases:
+    - "中文情感分析"
+    - "小红书情感"
+    - "抖音评论分析"
+    - "中文 NLP"
+    - "关键词提取"
+    - "语义聚类"
+    - "情感正负面"
+
+xhs-publish:
+  aliases:
+    - "小红书发布"
+    - "小红书发帖"
+    - "小红书图文"
+    - "xhs 发帖"
+    - "小红书视频发布"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 事务型 skill
+# ═══════════════════════════════════════════════════════════════════════════════
+
+interview-script:
+  aliases:
+    - "用户访谈"
+    - "客户访谈"
+    - "访谈脚本"
+    - "JTBD 访谈"
+    - "discovery 研究"
+
+churn-risk-playbook:
+  aliases:
+    - "客户流失"
+    - "流失预警"
+    - "健康度评分"
+    - "at-risk 账户"
+
+performance-review:
+  aliases:
+    - "绩效评估"
+    - "绩效自评"
+    - "review 季度"
+    - "写自评"
+    - "写下属绩效"
+    - "calibration"
+
+review-contract:
+  aliases:
+    - "合同审查"
+    - "合同 review"
+    - "合同风险"
+    - "redline"
+    - "谈判 playbook"
+
+digital-brain:
+  aliases:
+    - "个人数字大脑"
+    - "个人品牌"
+    - "voice 一致性"
+    - "写帖子"
+    - "网络个人管理"

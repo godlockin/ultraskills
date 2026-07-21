@@ -1,0 +1,441 @@
+{
+  "total": 30,
+  "top1_target": 19,
+  "top1_hit": 19,
+  "top1_rate": 1.0,
+  "top3_hit": 30,
+  "top3_rate": 1.0,
+  "details": [
+    {
+      "query": "把 PDF 转成 markdown",
+      "expected": [
+        "pdf",
+        "markitdown"
+      ],
+      "must_top1": "markitdown",
+      "top_ids": [
+        "markitdown",
+        "pdf",
+        "baoyu-danger-x-to-markdown"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "docx 转 md",
+      "expected": [
+        "markitdown",
+        "docx"
+      ],
+      "must_top1": "markitdown",
+      "top_ids": [
+        "markitdown",
+        "awesome-design-md",
+        "baoyu-danger-x-to-markdown"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "图片 OCR 识别文字",
+      "expected": [
+        "markitdown"
+      ],
+      "must_top1": "markitdown",
+      "top_ids": [
+        "markitdown",
+        "mac-tts",
+        "image-auditor"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "YouTube 视频转文字",
+      "expected": [
+        "baoyu-youtube-transcript",
+        "markitdown"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "markitdown",
+        "media-downloader",
+        "baoyu-youtube-transcript"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "我最近想跳槽,不知道选哪个 offer",
+      "expected": [
+        "career-coach"
+      ],
+      "must_top1": "career-coach",
+      "top_ids": [
+        "career-coach",
+        "draft-offer",
+        "job-post-builder"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "被老板穿小鞋了怎么办",
+      "expected": [
+        "career-coach"
+      ],
+      "must_top1": "career-coach",
+      "top_ids": [
+        "career-coach",
+        "qa",
+        "mrbeast-perspective"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "卷不动了想润",
+      "expected": [
+        "career-coach"
+      ],
+      "must_top1": "career-coach",
+      "top_ids": [
+        "career-coach",
+        "qa",
+        "dbs-goal"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "35 岁危机 中年焦虑",
+      "expected": [
+        "career-coach"
+      ],
+      "must_top1": "career-coach",
+      "top_ids": [
+        "career-coach",
+        "engineering-orchestrator",
+        "qa"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "帮我写单元测试",
+      "expected": [
+        "test-driven-development"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "test-driven-development",
+        "triage-issue",
+        "hv-analysis"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "写商务邮件冷启动客户",
+      "expected": [
+        "cold-email"
+      ],
+      "must_top1": "cold-email",
+      "top_ids": [
+        "cold-email",
+        "interview-script",
+        "churn-risk-playbook"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "code review 代码审查",
+      "expected": [
+        "receiving-code-review",
+        "code-review",
+        "requesting-code-review"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "code-review",
+        "codex",
+        "receiving-code-review"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "SEO 优化 让 AI 引用我",
+      "expected": [
+        "ai-seo",
+        "seo-audit"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "ai-seo",
+        "cold-email",
+        "dbs-ai-check"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "小红书 帖子 分析情感",
+      "expected": [
+        "chinese-text-analysis",
+        "xhs-publish"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "chinese-text-analysis",
+        "xhs-publish",
+        "huashu-xhs-image"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "用 Playwright 抓取 M3U8 视频",
+      "expected": [
+        "playwright-media-sniffer"
+      ],
+      "must_top1": "playwright-media-sniffer",
+      "top_ids": [
+        "playwright-media-sniffer",
+        "media-downloader",
+        "remotion"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "yt-dlp 下载 B 站视频",
+      "expected": [
+        "media-downloader"
+      ],
+      "must_top1": "media-downloader",
+      "top_ids": [
+        "media-downloader",
+        "database-lookup",
+        "business-orchestrator"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "生成 IKEA 风格 PPT",
+      "expected": [
+        "\"ikea-designer-pro\"",
+        "magazine-web-ppt"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "magazine-web-ppt",
+        "huashu-design",
+        "huashu-data-pro"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "PPT 电子杂志风",
+      "expected": [
+        "magazine-web-ppt"
+      ],
+      "must_top1": "magazine-web-ppt",
+      "top_ids": [
+        "magazine-web-ppt",
+        "ppt-template-creator",
+        "pptx-author"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "写 django REST API",
+      "expected": [
+        "django-expert"
+      ],
+      "must_top1": "django-expert",
+      "top_ids": [
+        "django-expert",
+        "khazix-writer",
+        "build-zoom-rest-api-app"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "Rust 内存安全 系统编程",
+      "expected": [
+        "rust-engineer"
+      ],
+      "must_top1": "rust-engineer",
+      "top_ids": [
+        "rust-engineer",
+        "storage-analyzer",
+        "qa"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "画图表 chart dataviz",
+      "expected": [
+        "data-viz"
+      ],
+      "must_top1": "data-viz",
+      "top_ids": [
+        "data-viz",
+        "ui-ux-pro-max-skill",
+        "baoyu-infographic"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "从零学八字命理",
+      "expected": [
+        "daoist-cosmology-basics",
+        "bazi-fortune"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "bazi-fortune",
+        "daoist-cosmology-basics",
+        "qa"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "生辰八字 排盘",
+      "expected": [
+        "bazi-fortune"
+      ],
+      "must_top1": "bazi-fortune",
+      "top_ids": [
+        "bazi-fortune",
+        "daoist-cosmology-basics",
+        "qa"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "看面相 五官 三庭五眼",
+      "expected": [
+        "face-reading"
+      ],
+      "must_top1": "face-reading",
+      "top_ids": [
+        "face-reading",
+        "design-an-interface",
+        "faceless-explainer"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "手相 掌纹 生命线",
+      "expected": [
+        "palm-reading"
+      ],
+      "must_top1": "palm-reading",
+      "top_ids": [
+        "palm-reading",
+        "face-reading",
+        "qa"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "户型风水 阳宅 缺角",
+      "expected": [
+        "feng-shui"
+      ],
+      "must_top1": "feng-shui",
+      "top_ids": [
+        "feng-shui",
+        "qa"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "文本转语音 tts",
+      "expected": [
+        "mac-tts"
+      ],
+      "must_top1": "mac-tts",
+      "top_ids": [
+        "mac-tts",
+        "mac-voice-clone",
+        "markitdown"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "query": "brainstorm 头脑风暴 想创意",
+      "expected": [
+        "brainstorming"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "brainstorming",
+        "scientific-brainstorming",
+        "product-brainstorming"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "深度调研 一个话题 fact-check",
+      "expected": [
+        "research-lookup",
+        "hv-analysis",
+        "market-research-reports"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "huashu-nuwa",
+        "hv-analysis",
+        "mrbeast-perspective"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "找一个 skill 帮我处理这事",
+      "expected": [
+        "ultraskills-hub"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "ultraskills-hub",
+        "huashu-nuwa",
+        "waza-runner"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    },
+    {
+      "query": "帮我把网页保存成 markdown",
+      "expected": [
+        "baoyu-url-to-markdown",
+        "markitdown"
+      ],
+      "must_top1": null,
+      "top_ids": [
+        "baoyu-danger-x-to-markdown",
+        "markitdown",
+        "baoyu-format-markdown"
+      ],
+      "top1_ok": null,
+      "top3_ok": true
+    }
+  ]
+}

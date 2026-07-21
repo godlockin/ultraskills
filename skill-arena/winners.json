@@ -60,6 +60,21 @@
     ]
   },
   {
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "winner": "business-orchestrator",
+    "score": 9.5,
+    "runner_up": "compliance-check",
+    "total_contestants": 7,
+    "defeated": [
+      "compliance-check",
+      "legal-response",
+      "legal-risk-assessment",
+      "contract-risk-highlighter",
+      "compliance-tracking"
+    ]
+  },
+  {
     "cluster": "business-pm",
     "cluster_name": "商业·项目管理",
     "winner": "learn-from-loss",
@@ -104,6 +119,21 @@
     ]
   },
   {
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "winner": "content-orchestrator",
+    "score": 9.5,
+    "runner_up": "doc-coauthoring",
+    "total_contestants": 17,
+    "defeated": [
+      "doc-coauthoring",
+      "document-release",
+      "support-ticket-triage",
+      "youtube-script-optimizer",
+      "markdown-mermaid-writing"
+    ]
+  },
+  {
     "cluster": "data",
     "cluster_name": "数据·分析",
     "winner": "cohort-analysis",
@@ -134,18 +164,47 @@
     ]
   },
   {
+    "cluster": "engineering-security",
+    "cluster_name": "工程·安全",
+    "winner": "engineering-orchestrator",
+    "score": 9.5,
+    "runner_up": "pre-mortem",
+    "total_contestants": 5,
+    "defeated": [
+      "pre-mortem",
+      "cso",
+      "strategy-red-team",
+      "security-reviewer"
+    ]
+  },
+  {
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "winner": "value-proposition",
+    "winner": "career-coach",
     "score": 9.5,
-    "runner_up": "beachhead-segment",
-    "total_contestants": 122,
+    "runner_up": "value-proposition",
+    "total_contestants": 128,
     "defeated": [
-      "beachhead-segment",
-      "porters-five-forces",
-      "dummy-dataset",
-      "llm-model-selector",
-      "review"
+      "value-proposition",
+      "bazi-fortune",
+      "face-reading",
+      "feng-shui",
+      "palm-reading"
+    ]
+  },
+  {
+    "cluster": "product-design",
+    "cluster_name": "设计·产品UX",
+    "winner": "design-orchestrator",
+    "score": 9.5,
+    "runner_up": "hallmark",
+    "total_contestants": 12,
+    "defeated": [
+      "hallmark",
+      "design-system",
+      "write-spec",
+      "color-expert",
+      "metrics-review"
     ]
   },
   {
@@ -210,14 +269,14 @@
     "cluster_name": "数据·商业智能",
     "winner": "generalist-expert",
     "score": 9.0,
-    "runner_up": "explore-data",
-    "total_contestants": 10,
+    "runner_up": "storage-analyzer",
+    "total_contestants": 11,
     "defeated": [
+      "storage-analyzer",
       "explore-data",
       "validate-data",
       "fact-checker",
-      "create-viz",
-      "data-visualization"
+      "create-viz"
     ]
   },
   {
@@ -275,19 +334,6 @@
       "plan-devex-review",
       "health",
       "qa-only"
-    ]
-  },
-  {
-    "cluster": "engineering-security",
-    "cluster_name": "工程·安全",
-    "winner": "pre-mortem",
-    "score": 9.0,
-    "runner_up": "cso",
-    "total_contestants": 4,
-    "defeated": [
-      "cso",
-      "strategy-red-team",
-      "security-reviewer"
     ]
   },
   {
@@ -476,21 +522,6 @@
     ]
   },
   {
-    "cluster": "content-writing",
-    "cluster_name": "内容·写作",
-    "winner": "doc-coauthoring",
-    "score": 8.8,
-    "runner_up": "document-release",
-    "total_contestants": 16,
-    "defeated": [
-      "document-release",
-      "support-ticket-triage",
-      "youtube-script-optimizer",
-      "markdown-mermaid-writing",
-      "copy-editing"
-    ]
-  },
-  {
     "cluster": "engineering-devops",
     "cluster_name": "工程·DevOps",
     "winner": "land-and-deploy",
@@ -649,21 +680,6 @@
     ]
   },
   {
-    "cluster": "business-legal",
-    "cluster_name": "商业·法务合规",
-    "winner": "compliance-check",
-    "score": 7.8,
-    "runner_up": "legal-response",
-    "total_contestants": 6,
-    "defeated": [
-      "legal-response",
-      "legal-risk-assessment",
-      "contract-risk-highlighter",
-      "compliance-tracking",
-      "jp-compliance-reporter"
-    ]
-  },
-  {
     "cluster": "content-seo",
     "cluster_name": "内容·SEO",
     "winner": "ai-seo",
@@ -799,21 +815,6 @@
       "ilya-sutskever-perspective",
       "mrbeast-perspective",
       "munger-perspective"
-    ]
-  },
-  {
-    "cluster": "product-design",
-    "cluster_name": "设计·产品UX",
-    "winner": "design-system",
-    "score": 7.8,
-    "runner_up": "write-spec",
-    "total_contestants": 10,
-    "defeated": [
-      "write-spec",
-      "color-expert",
-      "metrics-review",
-      "stakeholder-update",
-      "design-critique"
     ]
   },
   {
@@ -1013,6 +1014,15 @@
       "pymatgen",
       "pytdc"
     ]
+  },
+  {
+    "cluster": "file-conversion",
+    "cluster_name": "文件·转换与解析",
+    "winner": "markitdown",
+    "score": 7.0,
+    "runner_up": null,
+    "total_contestants": 1,
+    "defeated": []
   },
   {
     "cluster": "business-strategy",
