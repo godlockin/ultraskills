@@ -1351,6 +1351,24 @@
     "auxiliary": false
   },
   {
+    "id": "goal-management",
+    "path": "./community/goal-management/SKILL.md",
+    "description": "目标管理 Skill — 工作场景下的目标拆解、资源协调、防甩锅、月度复盘闭环。Use when 领导布置工作 / 经营会后拆目标 / 跨团队对齐 / 周月会议准备 / 进度汇报 / 申请资源 / 防范背锅 / 月度复盘 / OKR 拆解 / KPI 分解 / Sprint 排期 / 50 万业绩怎么做 / 帮我做目标拆解方案 等。调用 SMART / OKR / KPI / 平衡积分卡 / Sprint / ART(目标-资源-时间不可能三角)/ PDCA / GRAI 复盘 8 个模型。前置需补齐 4 项情境信息(组织战略 / 领导风格 / 个人优劣 / 同事关系),后置产出 5 项沉淀(周报 / 项目追踪 / 复盘 / 作品集 / 知识库)。月度生成目标管理学习报告(长板/弱点/待提升/需注意)并双向迭代了解你。",
+    "body_summary": "目标管理 Skill · 「领导没说清,我没拆明,事太多,资源不够,怕背锅,不会汇报 — 一个闭环解 · 📌 何时该用本 skill · 🧠 核心信念 (Core Stance) · 1. **领导没说的不等于不存在** — 反复追问 5 Why,目标才显形 · 2. **不可能三角永远存在** — 目标(A)、资源(R)、时间(T),三者必舍一 · 3. **汇报 ≠ 表功** — 准时 + 风险前置 + 解决方案,比完美结果更让领导安心 · 4. **背锅 90% 是因为没留痕** — 关键决策书面化、抄送关键人、日期戳记 · 5. **沉淀 > 完成** — 单一项目结束不算数,经验进入知识库才算闭环 · 🧩 8 个思维模型(速查) · 完整说明 + 模板 → · 🚀 5 步工作流 (Workflow) · 严格按 5 步走,**任何一步没做完都不进下一步 · 每步必出物(括号内),缺一不可 · Step 1 · 目标理解 (Understand) · 一句话目标陈述(主语 + 动作 + 量化 + 时间) · 隐藏目标识别(领导没说但其实想要的) · 5 Why 链 — 至少问 3 层\"为什么\" · SMART 检查清单 · 5 Why 追问表 · 隐藏目标识别清单(老板没说的 6 件事) · Step 2 · 关键动作拆解 (Decompose) · MECE 动作树(最多…",
+    "tags": [
+      "productivity",
+      "leadership",
+      "management",
+      "goal",
+      "okr",
+      "kpi",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false
+  },
+  {
     "id": "grill-me",
     "path": "./community/grill-me/SKILL.md",
     "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
@@ -1838,11 +1856,11 @@
     "id": "ship",
     "path": "./community/gstack/ship/SKILL.md",
     "description": "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION,\nupdate CHANGELOG, commit, push, create PR. Use when asked to \"ship\", \"deploy\",\n\"push to main\", \"create a PR\", \"merge and push\", or \"get it deployed\".\nProactively invoke this skill (do NOT push/PR directly) when the user says code\nis ready, asks about deploying, wants to push code up, or asks to create a PR. (gstack)",
-    "body_summary": "Ship · 拆版/上线 工作流 · 把\"代码已经写好\"变成\"已发版且文档同步\" · 📌 何时触发(Skill Routing) · ⚙️ Preamble · 必跑一次 · 详细 preamble 解释 + 协议段(Skill routing / Voice / Context Recovery / AskUserQuestion Format / Completeness / Repo Ownership / Search Before Building / Completion Status / Self-Improvement / Telemetry / Plan Mode Safe Operations / Plan Status Footer) → · 🚨 必守 12 条 Hard Rules · 🚂 10 步工作流索引 · 每个 Step 是 1-2 行 + 1 个 references 文件 · 📋 PR Summary 模板(必读) · PR body 必填以下章节(详细模板见  ): · 🔄 Quick Recovery · Preamble 失败** → 检查 gstack 是否安装,见 preamble 注释 · Tests 跑不过** → 不要 push;见   T1-T4 Triage · Review Army 出 critical** → 不进 St…",
+    "body_summary": "Preamble (run first) · If   is  , do not proactively suggest gstack skills AND do not · auto-invoke skills based on conversation context · types (e.g., /qa, /ship) · The user opted out of proactive behavior. · If   is  , the user has namespaced skill names · or invoking other gstack skills, use the   prefix (e.g.,   instead · of  ,   instead of  ) · for reading skill files. · If output shows  : read   and follow the \"Inline upgrade flow\" (auto-upgrade if configured, otherwise AskUserQuestion with 4 options, write snooze state if declined) · If   is  : Before continuing, introduce the Completen…",
     "tags": [
       "community"
     ],
-    "version": "2.0.0",
+    "version": "1.0.0",
     "github_url": "",
     "auxiliary": false
   },

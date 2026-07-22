@@ -194,6 +194,21 @@
     ]
   },
   {
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
+    "winner": "goal-management",
+    "score": 9.5,
+    "runner_up": "land-and-deploy",
+    "total_contestants": 11,
+    "defeated": [
+      "land-and-deploy",
+      "setup-deploy",
+      "canary",
+      "ship",
+      "incident-response"
+    ]
+  },
+  {
     "cluster": "engineering-qa",
     "cluster_name": "工程·QA",
     "winner": "churn-risk-playbook",
@@ -519,21 +534,6 @@
       "prioritize-assumptions",
       "prioritization-frameworks",
       "user-story-mapper"
-    ]
-  },
-  {
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "winner": "land-and-deploy",
-    "score": 8.8,
-    "runner_up": "setup-deploy",
-    "total_contestants": 10,
-    "defeated": [
-      "setup-deploy",
-      "canary",
-      "ship",
-      "incident-response",
-      "shipping-artifacts"
     ]
   },
   {

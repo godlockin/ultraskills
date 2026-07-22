@@ -275,6 +275,17 @@
     "total": 9.5
   },
   {
+    "id": "goal-management",
+    "path": "./community/goal-management/SKILL.md",
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "learn-from-loss",
     "path": "./community/learn-from-loss/SKILL.md",
     "cluster": "business-pm",
@@ -1027,7 +1038,7 @@
     "path": "./community/gstack/land-and-deploy/SKILL.md",
     "cluster": "engineering-devops",
     "cluster_name": "工程·DevOps",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1500,6 +1511,17 @@
     "path": "./community/gstack/review/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 8.5
+  },
+  {
+    "id": "ship",
+    "path": "./community/gstack/ship/SKILL.md",
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 7,
@@ -2479,17 +2501,6 @@
     "path": "./community/gstack/learn/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 7,
-    "maintainability": 7,
-    "total": 8.0
-  },
-  {
-    "id": "ship",
-    "path": "./community/gstack/ship/SKILL.md",
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 7,
