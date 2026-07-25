@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "baoyu-markdown-to-html",
-    "total_contestants": 19,
+    "total_contestants": 20,
     "defeated": [
       "baoyu-markdown-to-html",
       "baoyu-slide-deck",
@@ -65,13 +65,13 @@
     "winner": "business-orchestrator",
     "score": 9.5,
     "runner_up": "compliance-check",
-    "total_contestants": 7,
+    "total_contestants": 8,
     "defeated": [
       "compliance-check",
       "legal-response",
       "legal-risk-assessment",
       "contract-risk-highlighter",
-      "compliance-tracking"
+      "master-claude-for-legal"
     ]
   },
   {
@@ -169,7 +169,7 @@
     "winner": "generalist-expert",
     "score": 9.5,
     "runner_up": "storage-analyzer",
-    "total_contestants": 11,
+    "total_contestants": 12,
     "defeated": [
       "storage-analyzer",
       "explore-data",
@@ -258,7 +258,7 @@
     "winner": "career-coach",
     "score": 9.5,
     "runner_up": "value-proposition",
-    "total_contestants": 128,
+    "total_contestants": 211,
     "defeated": [
       "value-proposition",
       "bazi-fortune",
@@ -288,7 +288,7 @@
     "winner": "growth-loops",
     "score": 9.5,
     "runner_up": "baoyu-compress-image",
-    "total_contestants": 19,
+    "total_contestants": 20,
     "defeated": [
       "baoyu-compress-image",
       "brainstorm-ideas-new",
@@ -318,10 +318,11 @@
     "winner": "advanced-evaluation",
     "score": 9.2,
     "runner_up": "evaluation",
-    "total_contestants": 3,
+    "total_contestants": 4,
     "defeated": [
       "evaluation",
-      "scholar-evaluation"
+      "scholar-evaluation",
+      "agent-evaluation"
     ]
   },
   {
@@ -360,7 +361,7 @@
     "winner": "interview-script",
     "score": 9.0,
     "runner_up": "summarize-interview",
-    "total_contestants": 27,
+    "total_contestants": 29,
     "defeated": [
       "summarize-interview",
       "autoresearch",
@@ -414,7 +415,7 @@
     "winner": "gh-fix-ci",
     "score": 9.0,
     "runner_up": "ultraskills-hub",
-    "total_contestants": 17,
+    "total_contestants": 18,
     "defeated": [
       "ultraskills-hub",
       "skill-creator",
@@ -482,13 +483,13 @@
     "winner": "pua-en",
     "score": 8.8,
     "runner_up": "pua",
-    "total_contestants": 6,
+    "total_contestants": 7,
     "defeated": [
       "pua",
       "pua-ja",
       "prompt-optimizer",
       "task-analyzer",
-      "prompt-engineer"
+      "prompt-engineering"
     ]
   },
   {
@@ -571,13 +572,13 @@
     "winner": "codex",
     "score": 8.5,
     "runner_up": "codegraph-booster",
-    "total_contestants": 8,
+    "total_contestants": 9,
     "defeated": [
       "codegraph-booster",
       "skills-audit",
       "md-renderer",
-      "deploy-checklist",
-      "standup"
+      "design-testing-strategy",
+      "deploy-checklist"
     ]
   },
   {

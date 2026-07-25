@@ -131,3 +131,21 @@
 [submodule "external/phuryn-pm-skills"]
 	path = external/phuryn-pm-skills
 	url = https://github.com/phuryn/pm-skills.git
+[submodule "external/sanjay3290-ai-skills"]
+	path = external/sanjay3290-ai-skills
+	url = https://github.com/sanjay3290/ai-skills.git
+[submodule "external/recursive-research"]
+	path = external/recursive-research
+	url = https://github.com/Anjos2/recursive-research.git
+[submodule "external/claude-overkill"]
+	path = external/claude-overkill
+	url = https://github.com/santiago-vargas-de-kruijf/claude-overkill.git
+[submodule "external/full-page-screenshot"]
+	path = external/full-page-screenshot
+	url = https://github.com/LewisLiu007/full-page-screenshot.git
+[submodule "external/master-claude-for-legal"]
+	path = external/master-claude-for-legal
+	url = https://github.com/sboghossian/master-claude-for-legal.git
+[submodule "external/neolabhq-kit"]
+	path = external/neolabhq-kit
+	url = https://github.com/NeoLabHQ/context-engineering-kit.git

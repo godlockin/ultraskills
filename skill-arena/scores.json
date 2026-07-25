@@ -3938,6 +3938,193 @@
     "total": 7.8
   },
   {
+    "id": "agent-evaluation",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/agent-evaluation/SKILL.md",
+    "cluster": "agent-eval",
+    "cluster_name": "Agent·评估",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "context-engineering",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/context-engineering/SKILL.md",
+    "cluster": "skills-mgmt",
+    "cluster_name": "Skills·管理",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "create-agent",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-agent/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "create-rule",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-rule/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "create-skill",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "test-prompt",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/test-prompt/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "test-skill",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/test-skill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "thought-based-reasoning",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/thought-based-reasoning/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "update-docs",
+    "path": "./external/neolabhq-kit/plugins/docs/skills/update-docs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "git-worktrees",
+    "path": "./external/neolabhq-kit/plugins/git/skills/git-worktrees/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "resolve-fixed-pr-comments",
+    "path": "./external/neolabhq-kit/plugins/git/skills/resolve-fixed-pr-comments/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "build-mcp",
+    "path": "./external/neolabhq-kit/plugins/mcp/skills/build-mcp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "review-local-changes",
+    "path": "./external/neolabhq-kit/plugins/review/skills/review-local-changes/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "do-in-parallel",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/do-in-parallel/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "do-in-steps",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/do-in-steps/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "launch-sub-agent",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/launch-sub-agent/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "tree-of-thoughts",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/tree-of-thoughts/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
     "id": "huashu-nuwa",
     "path": "./external/nuwa-skill/SKILL.md",
     "cluster": "persona",
@@ -4195,6 +4382,28 @@
     "path": "./external/playwright-skill/skills/playwright-skill/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.8
+  },
+  {
+    "id": "recursive-research",
+    "path": "./external/recursive-research/plugins/recursive-research/skills/recursive-research/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 7.8
+  },
+  {
+    "id": "grok-build",
+    "path": "./external/sanjay3290-ai-skills/skills/grok-build/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 6,
@@ -4661,6 +4870,17 @@
     "doc_quality": 6,
     "func_clarity": 9,
     "maintainability": 9,
+    "total": 7.5
+  },
+  {
+    "id": "jules",
+    "path": "./external/sanjay3290-ai-skills/skills/jules/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 5,
+    "maintainability": 5,
     "total": 7.5
   },
   {
@@ -6204,6 +6424,171 @@
     "total": 7.3
   },
   {
+    "id": "apply-anthropic-skill-best-practices",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/apply-anthropic-skill-best-practices/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "create-command",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-command/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "create-hook",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-hook/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "create-workflow-command",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/create-workflow-command/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "prompt-engineering",
+    "path": "./external/neolabhq-kit/plugins/customaize-agent/skills/prompt-engineering/SKILL.md",
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "write-concisely",
+    "path": "./external/neolabhq-kit/plugins/docs/skills/write-concisely/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "git-notes",
+    "path": "./external/neolabhq-kit/plugins/git/skills/git-notes/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "root-cause-tracing",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/root-cause-tracing/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "review-pr",
+    "path": "./external/neolabhq-kit/plugins/review/skills/review-pr/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "do-competitively",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/do-competitively/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "judge-with-debate",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/judge-with-debate/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "plan-task",
+    "path": "./external/neolabhq-kit/plugins/sdd/skills/plan-task/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "design-testing-strategy",
+    "path": "./external/neolabhq-kit/plugins/tdd/skills/design-testing-strategy/SKILL.md",
+    "cluster": "dev-tools",
+    "cluster_name": "工程·开发工具",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "test-coverage",
+    "path": "./external/neolabhq-kit/plugins/tdd/skills/test-coverage/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "write-tests",
+    "path": "./external/neolabhq-kit/plugins/tdd/skills/write-tests/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "shipping-artifacts",
     "path": "./external/phuryn-pm-skills/pm-ai-shipping/skills/shipping-artifacts/SKILL.md",
     "cluster": "engineering-devops",
@@ -6360,6 +6745,28 @@
   {
     "id": "privacy-policy",
     "path": "./external/phuryn-pm-skills/pm-toolkit/skills/privacy-policy/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "apple-container",
+    "path": "./external/sanjay3290-ai-skills/skills/apple-container/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "azure-devops",
+    "path": "./external/sanjay3290-ai-skills/skills/azure-devops/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -6564,6 +6971,17 @@
     "doc_quality": 5,
     "func_clarity": 9,
     "maintainability": 9,
+    "total": 7.0
+  },
+  {
+    "id": "overkill",
+    "path": "./external/claude-overkill/plugins/overkill/skills/overkill/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
     "total": 7.0
   },
   {
@@ -7238,8 +7656,85 @@
     "total": 7.0
   },
   {
+    "id": "decay",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/decay/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "kaizen",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/kaizen/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "critique",
+    "path": "./external/neolabhq-kit/plugins/reflexion/skills/critique/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "memorize",
+    "path": "./external/neolabhq-kit/plugins/reflexion/skills/memorize/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "reflect",
+    "path": "./external/neolabhq-kit/plugins/reflexion/skills/reflect/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
     "id": "wwas",
     "path": "./external/phuryn-pm-skills/pm-execution/skills/wwas/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "atlassian",
+    "path": "./external/sanjay3290-ai-skills/skills/atlassian/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "manus",
+    "path": "./external/sanjay3290-ai-skills/skills/manus/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -8250,6 +8745,17 @@
     "total": 6.8
   },
   {
+    "id": "master-claude-for-legal",
+    "path": "./external/master-claude-for-legal/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
     "id": "skillopt-sleep",
     "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
     "cluster": "misc",
@@ -8263,6 +8769,72 @@
   {
     "id": "waza-interactive",
     "path": "./external/microsoft-waza/skills/waza-interactive/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "attach-review-to-pr",
+    "path": "./external/neolabhq-kit/plugins/git/skills/attach-review-to-pr/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "load-pr-comments",
+    "path": "./external/neolabhq-kit/plugins/git/skills/load-pr-comments/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "setup-codemap-cli",
+    "path": "./external/neolabhq-kit/plugins/mcp/skills/setup-codemap-cli/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "do-and-judge",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/do-and-judge/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "add-task",
+    "path": "./external/neolabhq-kit/plugins/sdd/skills/add-task/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "implement-task",
+    "path": "./external/neolabhq-kit/plugins/sdd/skills/implement-task/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -8450,6 +9022,50 @@
   {
     "id": "pestle-analysis",
     "path": "./external/phuryn-pm-skills/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "google-calendar",
+    "path": "./external/sanjay3290-ai-skills/skills/google-calendar/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "google-chat",
+    "path": "./external/sanjay3290-ai-skills/skills/google-chat/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "google-drive",
+    "path": "./external/sanjay3290-ai-skills/skills/google-drive/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "google-sheets",
+    "path": "./external/sanjay3290-ai-skills/skills/google-sheets/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -8811,6 +9427,94 @@
     "total": 6.5
   },
   {
+    "id": "analyse",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/analyse/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "gmail",
+    "path": "./external/sanjay3290-ai-skills/skills/gmail/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "imagen",
+    "path": "./external/sanjay3290-ai-skills/skills/imagen/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "mssql",
+    "path": "./external/sanjay3290-ai-skills/skills/mssql/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "mysql",
+    "path": "./external/sanjay3290-ai-skills/skills/mysql/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "notebooklm",
+    "path": "./external/sanjay3290-ai-skills/skills/notebooklm/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "outline",
+    "path": "./external/sanjay3290-ai-skills/skills/outline/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "postgres",
+    "path": "./external/sanjay3290-ai-skills/skills/postgres/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
     "id": "caveman-help",
     "path": "./external/caveman/skills/caveman-help/SKILL.md",
     "cluster": "content-writing",
@@ -8892,6 +9596,17 @@
     "path": "./external/dbskill/skills/dbs-deconstruct/SKILL.md",
     "cluster": "agent-agenthub",
     "cluster_name": "Agent·AgentHub协作",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "full-page-screenshot",
+    "path": "./external/full-page-screenshot/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 6,
@@ -9790,6 +10505,83 @@
     "total": 6.3
   },
   {
+    "id": "propose-hypotheses",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/propose-hypotheses/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "analyze-issue",
+    "path": "./external/neolabhq-kit/plugins/git/skills/analyze-issue/SKILL.md",
+    "cluster": "data-analytics",
+    "cluster_name": "数据·商业智能",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "create-pr",
+    "path": "./external/neolabhq-kit/plugins/git/skills/create-pr/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "analyse-problem",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/analyse-problem/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "cause-and-effect",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/cause-and-effect/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "plan-do-check-act",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/plan-do-check-act/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "traiage-review",
+    "path": "./external/neolabhq-kit/plugins/review/skills/traiage-review/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
     "id": "intended-vs-implemented",
     "path": "./external/phuryn-pm-skills/pm-ai-shipping/skills/intended-vs-implemented/SKILL.md",
     "cluster": "misc",
@@ -9803,6 +10595,50 @@
   {
     "id": "product-name",
     "path": "./external/phuryn-pm-skills/pm-marketing-growth/skills/product-name/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "deep-research",
+    "path": "./external/sanjay3290-ai-skills/skills/deep-research/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "google-docs",
+    "path": "./external/sanjay3290-ai-skills/skills/google-docs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "google-slides",
+    "path": "./external/sanjay3290-ai-skills/skills/google-slides/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "google-tts",
+    "path": "./external/sanjay3290-ai-skills/skills/google-tts/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -9926,6 +10762,105 @@
     "path": "./external/knowledge-work-plugins/engineering/skills/documentation/SKILL.md",
     "cluster": "dev-tools",
     "cluster_name": "工程·开发工具",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "actualize",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/actualize/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "query",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/query/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "status",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/status/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "commit",
+    "path": "./external/neolabhq-kit/plugins/git/skills/commit/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "judge",
+    "path": "./external/neolabhq-kit/plugins/sadd/skills/judge/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "brainstorm",
+    "path": "./external/neolabhq-kit/plugins/sdd/skills/brainstorm/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "elevenlabs",
+    "path": "./external/sanjay3290-ai-skills/skills/elevenlabs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "telegram",
+    "path": "./external/sanjay3290-ai-skills/skills/telegram/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "whatsapp",
+    "path": "./external/sanjay3290-ai-skills/skills/whatsapp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 5,
@@ -10109,6 +11044,39 @@
     "total": 5.8
   },
   {
+    "id": "setup-context7-mcp",
+    "path": "./external/neolabhq-kit/plugins/mcp/skills/setup-context7-mcp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
+    "id": "setup-serena-mcp",
+    "path": "./external/neolabhq-kit/plugins/mcp/skills/setup-serena-mcp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
+    "id": "fix-tests",
+    "path": "./external/neolabhq-kit/plugins/tdd/skills/fix-tests/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
     "id": "chef-assistant",
     "path": "./external/skillspector/tests/fixtures/malicious_skill/SKILL.md",
     "cluster": "misc",
@@ -10133,6 +11101,17 @@
   {
     "id": "\"status\"",
     "path": "./external/claude-skills/engineering/agenthub/skills/status/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "why",
+    "path": "./external/neolabhq-kit/plugins/kaizen/skills/why/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -10241,6 +11220,28 @@
     "total": 5.3
   },
   {
+    "id": "load-issues",
+    "path": "./external/neolabhq-kit/plugins/git/skills/load-issues/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
+    "id": "setup-arxiv-mcp",
+    "path": "./external/neolabhq-kit/plugins/mcp/skills/setup-arxiv-mcp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
     "id": "personal-assistant",
     "path": "./external/skillspector/tests/fixtures/ssd/ssd3_nl_exfiltration/SKILL.md",
     "cluster": "misc",
@@ -10296,6 +11297,17 @@
     "total": 4.8
   },
   {
+    "id": "create-ideas",
+    "path": "./external/neolabhq-kit/plugins/sdd/skills/create-ideas/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 4.8
+  },
+  {
     "id": "deploy-service",
     "path": "./external/skillspector/tests/fixtures/sqp/sqp2_clean/SKILL.md",
     "cluster": "misc",
@@ -10327,6 +11339,17 @@
     "func_clarity": 6,
     "maintainability": 5,
     "total": 4.8
+  },
+  {
+    "id": "reset",
+    "path": "./external/neolabhq-kit/plugins/fpf/skills/reset/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 4,
+    "maintainability": 5,
+    "total": 4.7
   },
   {
     "id": "\"reаd_data\"",

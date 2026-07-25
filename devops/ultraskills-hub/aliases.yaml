@@ -835,3 +835,287 @@ goal-management:
     - "50 万怎么做"
     - "50 万业绩方案"
     - "下周业绩冲刺"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 外部拉取:awesome-claude-skills 精选 (2026-07-23)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+kaizen:
+  aliases:
+    - "改善"
+    - "持续改进"
+    - "kaizen"
+    - "小步迭代"
+    - "避免过度工程"
+    - "iterative improvement"
+    - "quality mindset"
+
+root-cause-tracing:
+  aliases:
+    - "根因追溯"
+    - "root cause"
+    - "追溯 bug 源头"
+    - "调用栈回溯"
+    - "找 bug 触发点"
+    - "定位错误源头"
+    - "回溯 stack"
+    - "5 Why 深挖"
+
+cause-and-effect:
+  aliases:
+    - "因果分析"
+    - "cause and effect"
+    - "鱼骨图"
+    - "问题因果"
+
+plan-do-check-act:
+  aliases:
+    - "PDCA"
+    - "戴明环"
+    - "plan do check act"
+    - "计划执行检查行动"
+
+analyse-problem:
+  aliases:
+    - "问题拆解"
+    - "分析问题"
+    - "结构化拆解"
+
+recursive-research:
+  aliases:
+    - "递归研究"
+    - "recursive research"
+    - "博士级研究"
+    - "深度递归"
+    - "多层研究"
+    - "跨域研究"
+    - "WDM"
+    - "Munger 反转"
+    - "PhD level research"
+
+overkill:
+  aliases:
+    - "极致方案"
+    - "overkill"
+    - "advanced version"
+    - "enterprise 级方案"
+    - "极致进阶"
+    - "maximalist solution"
+    - "前沿方案对比"
+
+full-page-screenshot:
+  aliases:
+    - "全页截图"
+    - "整页截图"
+    - "网页长截图"
+    - "long screenshot"
+    - "full page capture"
+    - "浏览器长图"
+    - "网页完整截图"
+    - "Chrome DevTools 截图"
+
+master-claude-for-legal:
+  aliases:
+    - "法务 skill"
+    - "NDA 审查"
+    - "NDA triage"
+    - "NDA 三级审查"
+    - "合同 redline"
+    - "attorney client privilege"
+    - "律师用 Claude"
+    - "法律团队"
+    - "legal team"
+    - "M&A diligence"
+    - "版本 diff"
+    - "citation verification"
+    - "法务用 Claude"
+    - "法律 skill 入口"
+    - "律所用 Claude"
+    - "in-house legal"
+    - "diligence 尽调"
+
+prompt-engineering:
+  aliases:
+    - "提示词工程"
+    - "prompt engineering"
+    - "写提示词"
+    - "prompt 优化"
+    - "few shot"
+    - "prompt template"
+
+context-engineering:
+  aliases:
+    - "上下文工程"
+    - "context engineering"
+    - "context 优化"
+    - "上下文管理"
+
+agent-evaluation:
+  aliases:
+    - "agent 评估"
+    - "agent evaluation"
+    - "评估 AI 代理"
+    - "评测 agent"
+
+# sanjay3290/ai-skills 家族
+postgres:
+  aliases:
+    - "PostgreSQL"
+    - "postgres 查询"
+    - "只读 SQL"
+    - "数据库查询"
+    - "SQL 查询"
+    - "psql"
+
+imagen:
+  aliases:
+    - "Gemini 生图"
+    - "imagen"
+    - "google 图像生成"
+    - "imagen API"
+
+jules:
+  aliases:
+    - "Google Jules"
+    - "jules ai agent"
+    - "代码委托 agent"
+    - "async coding agent"
+
+outline:
+  aliases:
+    - "Outline wiki"
+    - "outline 文档"
+    - "wiki 搜索"
+    - "团队知识库 Outline"
+
+notebooklm:
+  aliases:
+    - "NotebookLM"
+    - "notebooklm"
+    - "笔记 LM"
+    - "有源答案"
+    - "notebook 检索"
+
+gmail:
+  aliases:
+    - "Gmail"
+    - "邮件查询"
+    - "gmail api"
+    - "谷歌邮箱"
+    - "读邮件"
+    - "发邮件"
+
+google-calendar:
+  aliases:
+    - "Google Calendar"
+    - "谷歌日历"
+    - "日程安排"
+    - "创建日历事件"
+    - "会议邀请"
+
+google-docs:
+  aliases:
+    - "Google Docs"
+    - "谷歌文档"
+    - "在线文档"
+    - "docs 协作"
+
+google-sheets:
+  aliases:
+    - "Google Sheets"
+    - "谷歌表格"
+    - "在线表格"
+    - "sheets 数据"
+
+google-slides:
+  aliases:
+    - "Google Slides"
+    - "谷歌幻灯片"
+    - "在线 PPT"
+
+google-drive:
+  aliases:
+    - "Google Drive"
+    - "谷歌云盘"
+    - "drive 文件"
+    - "云盘文件管理"
+
+google-chat:
+  aliases:
+    - "Google Chat"
+    - "谷歌聊天"
+    - "google chat 消息"
+
+google-tts:
+  aliases:
+    - "Google TTS"
+    - "谷歌语音合成"
+    - "google 文本转语音"
+
+elevenlabs:
+  aliases:
+    - "ElevenLabs"
+    - "eleven labs"
+    - "AI 配音"
+    - "语音克隆 elevenlabs"
+
+telegram:
+  aliases:
+    - "Telegram"
+    - "电报"
+    - "tg 消息"
+
+whatsapp:
+  aliases:
+    - "WhatsApp"
+    - "whatsapp 消息"
+    - "海外 IM"
+
+atlassian:
+  aliases:
+    - "Atlassian"
+    - "Jira Confluence"
+    - "atlassian 集成"
+
+azure-devops:
+  aliases:
+    - "Azure DevOps"
+    - "微软 DevOps"
+
+apple-container:
+  aliases:
+    - "Apple Container"
+    - "Mac 容器"
+    - "苹果容器"
+
+grok-build:
+  aliases:
+    - "Grok"
+    - "xAI Grok"
+    - "grok build"
+
+manus:
+  aliases:
+    - "Manus"
+    - "manus ai"
+
+mysql:
+  aliases:
+    - "MySQL"
+    - "mysql 查询"
+    - "mysql 只读"
+
+mssql:
+  aliases:
+    - "MSSQL"
+    - "SQL Server"
+    - "微软 SQL"
+
+skill-builder:
+  aliases:
+    - "skill seekers"
+    - "文档转 skill"
+    - "生成 skill"
+    - "skill 自动构建"
+    - "从 repo 造 skill"
+    - "从 PDF 造 skill"
