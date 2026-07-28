@@ -64,14 +64,14 @@
     "cluster_name": "商业·法务合规",
     "winner": "business-orchestrator",
     "score": 9.5,
-    "runner_up": "法律事实要素提取",
-    "total_contestants": 123,
+    "runner_up": "案镜-—-案件分诊镜",
+    "total_contestants": 124,
     "defeated": [
-      "法律事实要素提取",
-      "法条效力验证",
-      "法律三段论推理",
-      "worker-classification",
-      "compliance-check"
+      "案镜-—-案件分诊镜",
+      "鉴枢-—-镜鉴中枢（编排入口）",
+      "法镜-—-规范活检镜",
+      "理镜-—-要件推理镜",
+      "worker-classification"
     ]
   },
   {

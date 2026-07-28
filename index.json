@@ -4,9 +4,9 @@
     "updated_at": "2026-07-28",
     "arena_version": "1.1.0",
     "arena_updated_at": "2026-07-28",
-    "total_skills": 1175,
+    "total_skills": 1176,
     "total_clusters": 76,
-    "avg_arena_score": 7.23,
+    "avg_arena_score": 7.24,
     "total_winners": 76
   },
   "hierarchy": {
@@ -148,7 +148,7 @@
     {
       "id": "business-legal",
       "name": "商业·法务合规",
-      "skill_count": 123,
+      "skill_count": 124,
       "winner": "business-orchestrator",
       "winner_score": null,
       "description": "法律合规、GDPR、审计、标准认证",
@@ -5819,17 +5819,19 @@
       "version": "1.0.0"
     },
     {
-      "id": "法律事实要素提取",
-      "name": "法律事实要素提取",
-      "path": "./community/legal-cn-atomic/legal-fact-extraction/SKILL.md",
-      "description": "从非结构化文本（案件描述、聊天记录、新闻报道、合同文本、起诉状、答辩状、合同条款等）中系统化提取具有法律意义的事实要素。\n输出结构化「要素清单 + 时间线 + 当事人 + 法律关系」四件套，作为后续法律推理、案例检索、文书起草的「事实地基」。\n触发场景：用户丢来一段案件描述说\"分析一下\"、\"提取要素\"、\"梳理事实\"、\"先看看有什么事实\"、\"整理一下案情\"、\"写起诉状前先理清事实\"、\n\"这份合同有哪些关键事实\"、\"案情摘要\"、\"案件事实梳理\"。也适用于：合同审查前的事实清单、判决书校对的事实一致性检查、类案检索前的事实标准化。\n不适用于：纯学术理论讨论（无具体事实）、已经结构化的事实清单（直接用）、仅需法律概念解释（用 legal-concept-clarification）。\n综合自公知法学方法论（要素分析方法论），非任何特定作品的衍生品。",
-      "body_summary": "法律事实要素提取 (legal-fact-extraction) · 法学方法论基础 skill：所有后续推理、判断、检索、文书都依赖准确的事实提取 · 何时触发 · 用户给一段文字描述（含起诉状、答辩状、聊天记录、新闻、合同条款等），要求\"梳理\"、\"提取\"、\"分析\"事实要素 · 准备进入法律推理或文书起草前的「事实地基」构建 · 审查已写法律文书时核对事实一致性 · 类案检索前需要把案件事实标准化 · 何时不触发 · 纯法理讨论 / 概念解释（用  ） · 已有结构化事实清单（直接处理，不重复提取） · 仅需检索法条 / 案例（用上游   或  ） · 工作流：5 步法 · 步骤 1：当事人识别 · 识别**所有**参与法律关系的当事人，按主体类型分类： · 步骤 2：行为 / 事件时间线 · 按**时间先后**列出所有具有法律意义的行为或事件： · 识别要点： · 行为类型：作为 / 不作为 / 意思表示 / 事实行为 · 行为时点：合同签订日、违约日、侵权日、通知到达日、付款日 · 行为地点（涉及管辖） · 行为方式（书面 / 口头 / 电子数据 / 默示） · 步骤 3：标的 / 客体识别 · 识别法律关系涉及的**标的物**： · 步骤 4：法律关系初判 · 基于上述三步，**初步判断**可能涉及的法律关系： · 步骤 5：缺口标记 + 进一步取证建议 · 对每一步提取结…",
+      "id": "案镜-—-案件分诊镜",
+      "name": "案镜-—-案件分诊镜",
+      "path": "./community/legal-cn-core/anmirror/SKILL.md",
+      "description": "案件事实分诊与法律关系初判的\"第一镜\"。从非结构化文本（起诉状、答辩状、聊天记录、新闻、合同条款、咨询对话等）\n系统化提取事实要素，识别可能涉及的法律关系，评估案件复杂度，并推荐下游 skill 路径。\n\n触发场景：用户给一段案件材料说\"分析案情\"、\"梳理事实\"、\"这案子属于什么\"、\"先看看\"、\"评估复杂度\"、\"判断要走哪条线\"、\n\"整理一下\"、\"写起诉状前先理清\"、\"这份合同可能涉及哪些法律关系\"。也适用于：律师接到新案时的初步评估、\n客户咨询的快速分类、研究助理读判决书时的事实抽取。\n\n不适用于：纯法理讨论（无具体事实）；已结构化的案件材料；仅需单一事实点查询。\n\n综合自公知法学方法论（要素分析方法论 + 案件分诊思维）+ 借鉴 CSlawyer1985/claude-for-legal-ZH 的 6 维风险评估框架\n（Apache 2.0 公开架构）+ 公知法学教材内容。不复制任何上游具体文本。",
+      "body_summary": "案镜 (cn-anmirror) — 案件分诊镜 · 镜鉴 suite · 第一镜**：在所有法律工作开始前，先看清案件的全貌 · 与其他\"案\"类 skill 的本质区别 · 何时触发 · 用户丢来一段案件材料，要求\"分析\"、\"梳理\"、\"评估\" · 律师接到新咨询 / 新案，需要快速分诊 · 任何后续 skill（  /   / 上游 plugins）开始前的**事实地基**构建 · 何时不触发 · 纯法理 / 政策讨论（无具体事实） · 已结构化的事实清单（直接处理） · 仅需单一事实点 / 数据点查询 · 工作流：7 步分诊法 · 步骤 1：当事人全识别 · 识别**所有**参与法律关系的当事人，按主体类型 + 在关系中的角色双维度分类： · 步骤 2：行为时间线（带证据链） · 按时间先后列出所有具有法律意义的行为，**每条标注证据来源**： · 证据来源标识： · 原始文件 / 合同文本 · 微信 / 邮件 / 短信 · 录音录像 · 证人证言 · 事实存在但缺证据 · 当事人陈述待对方确认 · 步骤 3：标的三层识别 · 按主从标的**三层**识别： · 步骤 4：法律关系并行识别（概率排序） · 识别**所有可能**涉及的法律关系，按概率排序： · 每个关系标注**识别信号词**（合同关系：合同/协议/约定/违约；侵权关系：损害/过错/因果关系...） · 步骤 5：复…",
       "tags": [
         "legal-cn",
-        "atomic-reasoning",
+        "jingjian",
+        "case-analysis",
         "fact-extraction",
+        "triage",
         "prc-civil-law",
-        "evidence-gathering",
+        "prc-criminal-law",
         "foundational",
         "community"
       ],
@@ -5837,9 +5839,9 @@
       "arena": {
         "cluster": "business-legal",
         "cluster_name": "商业·法务合规",
-        "score": 8.2,
-        "doc_quality": 8,
-        "func_clarity": 8,
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
         "rank": 2,
@@ -5849,28 +5851,29 @@
       "version": "1.0.0"
     },
     {
-      "id": "法条效力验证",
-      "name": "法条效力验证",
-      "path": "./community/legal-cn-atomic/norm-validity-check/SKILL.md",
-      "description": "验证所引用的法律规范（法律、司法解释、行政法规、地方性法规、规章、规范性文件）是否**现行有效**，\n是否存在效力位阶冲突、是否被废止 / 修改 / 失效、是否在时间效力范围内。\n\n任何涉及具体法条引用的法律推理（特别是 `syllogistic-reasoning`）都必须先调用本 skill 做前置验证。\n\n触发场景：用户引用法条要求\"验证\"、\"看看现行有效吗\"、\"这个条文是不是废止了\"、\"这个司法解释还能用吗\"、\n\"上位法有没有\"、\"位阶冲突\"、\"时效\"、\"还有效吗\"。也适用于：案件准备阶段的全套法条清单筛查；\n类案检索时核对案件判决所引法条是否仍现行；学术写作前核对引用准确性。\n\n不适用于：判断法律适用是否合理（用 syllogistic-reasoning）；判断法律内容是否公平（这是价值判断，非效力问题）；\n不引用具体法条的法律讨论（无须验证）。\n\n综合自公知法学方法论（规范审查 / 效力位阶 / 法律时效力），非任何特定作品的衍生品。",
-      "body_summary": "法条效力验证 (norm-validity-check) · 所有法律推理的前提 — 法条必须现行有效 · 何时触发 · 任何   之前 · 案件准备阶段的全套法条清单筛查 · 类案研究时核对判决所引法条 · 学术 / 文书写作前核对引用准确性 · 何时不触发 · 法律适用是否合理 → 用 · 法律价值判断 → 哲学 / 政策分析层面，非效力问题 · 不引用具体法条的纯概念讨论 · 工作流：4 维效力审查 · 维度 1：时间效力（是否仍现行有效） · 数据库：北大法宝 / 威科先行 / 国务院公报 / 最高法公报 · 官方网站：人大网（npc.gov.cn）、国务院网（gov.cn）、最高法官网（court.gov.cn） · 若无数据库连接 → 标注「**待人工核对**」，不臆测 · 维度 2：空间效力（适用地域范围） · 维度 3：位阶效力（是否与上位法冲突） · 中国法效力位阶（从高到低）： · 冲突规则： · 上位法优于下位法**：下位法与上位法冲突 = 下位法无效（在该冲突点上） · 新法优于旧法**：同位阶法冲突，新法优于旧法 · 特别法优于一般法**：同位阶法冲突，特别规定优先 · 变通规定 vs 原规定**：经授权的变通规定优先于原规定 · 引用 X 法条 → 是否存在同主题的上位法？ · 该上位法是否已覆盖 / 修改 / 替代 X 的内容？ · 是否存在\"特别法\"…",
+      "id": "鉴枢-—-镜鉴中枢（编排入口）",
+      "name": "鉴枢-—-镜鉴中枢（编排入口）",
+      "path": "./community/legal-cn-core/jianshu/SKILL.md",
+      "description": "\"镜鉴\" suite 的编排入口。接收用户的法律任务,根据任务类型路由到合适的子镜（anmirror / limirror / famirror）,\n并与 CSlawyer1985/claude-for-legal-ZH 的 13 个 practice-area plugins 协同。\n\n触发场景：用户说\"帮我处理一个法律问题\"、\"有个案子\"、\"客户咨询\"、\"综合法律分析\"、\"全套法律服务\"、\n\"完整评估\"、\"法律服务流程\"、\"我要做 X,涉及合同/诉讼/...\",或案镜输出\"极复杂\"分档时自动调用。\n\n不适用于：单一原子任务（直接调对应镜）；纯信息查询；非法律领域问题。\n\n综合自公知法律服务流程 + 借鉴 CSlawyer1985 的 plugin 编排架构（Apache 2.0 公开）+ 公知项目管理实践。\n不复制任何上游具体文本。",
+      "body_summary": "鉴枢 (cn-jianshu) — 镜鉴中枢 · 镜鉴 suite · 第四镜（编排层）**：让 3 面镜子 + 13 个上游 plugin 协同工作 · 角色定位 · 何时触发 · 用户提交**完整法律任务**,需多步协调 · 案镜输出\"极复杂\"分档（4.5-5.0 分）时**自动**接管 · 用户明确要求\"全套\"、\"综合\"、\"流程化\"法律服务 · 何时不触发 · 单一原子任务 → 直接调对应镜 · 纯信息查询（\"民法典第 X 条是什么\"）→ 直接调法镜 · 非法律领域问题 · 工作流：5 阶段编排 · 阶段 0：任务意图识别 · 判断用户任务的真实意图,选择编排模板： · 阶段 1：案镜初始化 · 输出关键参数： · 法律关系列表 + 概率 · 复杂度分档 · MCP 数据需求 · 阶段 2：路由决策矩阵 · 根据案镜输出,选择编排路径： · 阶段 3：plugin 调度 · 按模板调用对应 CSlawyer1985 plugin： · 仅在用户需求**确实涉及**对应领域时调用 · 不要\"全套调用\"以避免 token 浪费 · plugin 输出的实务工作（合同起草 / 诉状撰写 / 合规报告）**优先于**镜鉴 suite 的结构化输出 · 阶段 4：MCP 数据流编排 · 按任务需要,**并行调度** MCP 数据源： · 阶段 5：输出汇总 · 最终输出含： · 输出模…",
       "tags": [
         "legal-cn",
-        "atomic-reasoning",
-        "norm-validity",
+        "jingjian",
+        "orchestrator",
+        "routing",
+        "multi-agent",
         "prc-civil-law",
         "prc-criminal-law",
-        "prc-administrative",
-        "foundational",
+        "full-pipeline",
         "community"
       ],
       "recommended_for": [],
       "arena": {
         "cluster": "business-legal",
         "cluster_name": "商业·法务合规",
-        "score": 8.2,
-        "doc_quality": 8,
-        "func_clarity": 8,
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
         "rank": 3,
@@ -5880,31 +5883,65 @@
       "version": "1.0.0"
     },
     {
-      "id": "法律三段论推理",
-      "name": "法律三段论推理",
-      "path": "./community/legal-cn-atomic/syllogistic-reasoning/SKILL.md",
-      "description": "将法律规范与案件事实通过形式化的「大前提 - 小前提 - 结论」（Premise-Fact-Conclusion, P-F-C）三段论结构，\n推导出具体法律后果。是法律推理的最核心方法论，覆盖演绎推理的绝大多数场景。\n\n触发场景：用户要求\"推理\"、\"论证\"、\"套法条\"、\"法律分析\"、\"为什么构成违约\"、\"能不能主张 X\"、\"法律逻辑推导\"、\n\"按法条推导\"、\"演绎推理\"、\"大前提小前提\"。也适用于：审查他人推理是否严密、补充推理链条、\n把模糊法律意见转化为形式化推理。\n\n不适用于：类推、归纳、溯因等非演绎方法（用 analogical-reasoning）；概念解释（用 legal-concept-clarification）；\n仅描述事实（用 legal-fact-extraction）；案件胜诉率预测（高阶 skill，须先做完本步骤）。\n\n综合自公知法学方法论（三段论 / 法律演绎推理），非任何特定作品的衍生品。",
-      "body_summary": "法律三段论推理 (syllogistic-reasoning) · 法律推理的核心方法 · 何时触发 · 用户问\"为什么构成 X\"、\"能不能主张 Y\"、\"是不是违约\"、\"按法条推一下\" · 已有事实清单（来自  ）+ 法条引用，需要**形式化推导 · 审查律师 / AI 给出的法律意见是否逻辑严密 · 何时不触发 · 类推 / 类比推理（用  ） · 概念解释（用  ） · 事实提取（用  ） · 案件胜诉率预测（用更高阶 compound skill，须先做完本步骤） · 工作流：P-F-C 三段论 · 步骤 1：识别 / 构建大前提（P） · 来源： · 法律（宪法 → 法律 → 行政法规 → 地方性法规 → 规章） · 司法解释（最高法 / 最高检） · 习惯法（极少，仅在民商事领域补缺） · [ ] 法条现行有效？（调  ） · [ ] 法条是否被司法解释细化？ · [ ] 是否存在但书 / 例外条款？ · [ ] 法条是否有兜底条款需要补充？ · 步骤 2：核对小前提（F） · 要件 1 → 事实 X 是否满足？ · 要件 2 → 事实 Y 是否满足？ · 要件 3 → 事实 Z 是否满足？ · 但书 / 例外 → 本案是否落入例外情形？ · 步骤 3：推出结论（C） · 法律效果的发生（如「成立合同关系」「承担违约责任」「构成侵权」） · 法律效果的消灭（如「合同解除」…",
+      "id": "法镜-—-规范活检镜",
+      "name": "法镜-—-规范活检镜",
+      "path": "./community/legal-cn-core/famirror/SKILL.md",
+      "description": "法律规范\"生命体征\"检查的\"第三镜\"。验证所引用的法条 / 司法解释 / 行政法规是否现行有效,\n并追踪修订历史、识别司法解释配套、扫描上下位冲突、计算时效倒计时。\n\n任何涉及具体法条引用的法律推理（特别是 limirror）都必须先调用本 skill 做前置验证。\n\n触发场景：用户引用法条要求\"看看现行有效吗\"、\"有没有被废止\"、\"这个司法解释还能用吗\"、\"上位法有没有冲突\"、\n\"有时效限制吗\"、\"司法解释配套\"、\"修订过几次\"、\"位阶扫描\"、\"标准化引用\"。\n\n不适用于：判断法律适用是否合理（用 limirror）；判断法律价值是否公平（哲学/政策层面）；不引用具体法条的讨论。\n\n综合自公知法学方法论（规范审查 + 效力位阶 + 法律时效力）+ 借鉴 CSlawyer1985 的来源标注和修订追踪模式\n（Apache 2.0 公开架构）+ 公知立法法教材。不复制任何上游具体文本。",
+      "body_summary": "法镜 (cn-famirror) — 规范活检镜 · 镜鉴 suite · 第三镜**：在用任何法条之前,先看清它的\"生命体征\" · 与其他\"法条审查\"类 skill 的本质区别 · 何时触发 · 任何   推理之前 — 验证大前提现行有效 · 案件准备阶段的全套法条清单筛查 · 类案研究时核对判决所引法条 · 学术 / 文书写作前核对引用准确性 · 何时不触发 · 法律适用合理性 → 用 limirror · 价值判断 → 哲学 / 政策分析 · 不引用具体法条的纯概念讨论 · 工作流：6 维生命体征检查 · 维度 1：时间效力（现行状态） · 维度 2：空间效力（适用地域 / 主体） · 维度 3：位阶效力（冲突扫描） · 中国法效力位阶（从高到低）： · 维度 4：修订链追踪 · 输出形式： · 维度 5：司法解释 + 配套规范识别 · 最高法 / 最高检司法解释 · 国务院实施细则 · 部门规章 / 规范性文件 · 最高法指导性案例 · 维度 6：时效倒计时 · 对涉及时效的法条 / 制度,**计算**时效倒计时： · 输出模板 · 标准化引用格式 · 输出**机器可读**的引用规范： · 常见错误（自查清单） · 关于指导性案例 / 典型案例 · 指导性案例**（最高法发布）：各级法院**应当参照**（《最高法关于案例指导工作的规定》） · 典型案例**（最高法 / 最高…",
       "tags": [
         "legal-cn",
-        "atomic-reasoning",
-        "deductive",
-        "syllogism",
+        "jingjian",
+        "norm-validity",
         "prc-civil-law",
         "prc-criminal-law",
+        "prc-administrative",
         "foundational",
+        "citation",
         "community"
       ],
       "recommended_for": [],
       "arena": {
         "cluster": "business-legal",
         "cluster_name": "商业·法务合规",
-        "score": 8.2,
-        "doc_quality": 8,
-        "func_clarity": 8,
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
         "rank": 4,
+        "test_date": "2026-07-28",
+        "test_version": "1.0.0"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "id": "理镜-—-要件推理镜",
+      "name": "理镜-—-要件推理镜",
+      "path": "./community/legal-cn-core/limirror/SKILL.md",
+      "description": "形式化法律要件推理的\"第二镜\"。将大前提（法条）、小前提（案件事实）通过三段论结构推导出具体法律后果，\n并自动进行反方观点预演、推理漏洞检测、类案回链建议、多维强度评分。\n\n触发场景：用户问\"为什么构成 X\"、\"能不能主张 Y\"、\"按法条推一下\"、\"法律论证\"、\"演绎推理\"、\"反驳一下\"、\n\"反方观点\"、\"漏洞检测\"、\"推理强度\"、\"类案建议\"、\"我的论证站得住吗\"。\n\n不适用于：纯概念解释（用案镜的概念补充）；单纯事实提取（用案镜）；非演绎推理（类比/归纳/溯因需后续扩展 skill）。\n\n综合自公知法学方法论（三段论 + 法律演绎推理）+ 借鉴 CSlawyer1985 的 3-tier 来源标注框架（Apache 2.0）+\nTHUYRan-style benchmark-aligned 推理质量评估思路（不复制具体文本）。",
+      "body_summary": "理镜 (cn-limirror) — 要件推理镜 · 镜鉴 suite · 第二镜**：让每个法律论证站得住、经得起反驳 · 与其他\"推理\"类 skill 的本质区别 · 何时触发 · 已有案镜输出（事实清单 + 法律关系）+ famirror 输出（法条现行有效） · 用户问\"按法条推一下\"、\"能不能主张 X\"、\"为什么构成\" · 审查他人 / AI 给出的法律意见是否逻辑严密 · 何时不触发 · 仅做概念解释 → 用案镜的概念补充 · 仅做事实提取 → 用案镜 · 类比 / 归纳 / 溯因等非演绎推理（未来扩展 skill） · 胜诉率预测 → 需更高阶 compound skill · 工作流：主线 + 反线 双链推理 · 步骤 1：识别 / 构建大前提（P） · 来源优先级（3-tier 来源标注）： · 法律正文中的但书 · 司法解释中的例外 · 特别法的优先条款 · 步骤 2：核对小前提（F）—— 逐要件 · 步骤 3：推出结论（C） · 按结论类型分类： · 法律效果发生**：成立 / 生效 / 取得 / 承担 · 法律效果消灭**：解除 / 撤销 / 失效 / 消灭 · 法律效果变更**：变更 / 调整 / 部分无效 · 程序效果**：立案 / 受理 / 移送 / 中止 · 步骤 4：反方观点预演（关键创新） · 每条反方观点需评估： · 攻击强度：[致命 / 严重…",
+      "tags": [
+        "legal-cn",
+        "jingjian",
+        "reasoning",
+        "syllogism",
+        "deductive",
+        "prc-civil-law",
+        "prc-criminal-law",
+        "foundational",
+        "argument",
+        "community"
+      ],
+      "recommended_for": [],
+      "arena": {
+        "cluster": "business-legal",
+        "cluster_name": "商业·法务合规",
+        "score": 9.0,
+        "doc_quality": 9,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 5,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       },
@@ -5928,7 +5965,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 5,
+        "rank": 6,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -5951,7 +5988,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -5974,7 +6011,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -5997,7 +6034,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6026,7 +6063,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       },
@@ -6050,7 +6087,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6073,7 +6110,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6096,7 +6133,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 12,
+        "rank": 13,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6119,7 +6156,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 13,
+        "rank": 14,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6142,7 +6179,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 14,
+        "rank": 15,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6165,7 +6202,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 15,
+        "rank": 16,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6188,7 +6225,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 16,
+        "rank": 17,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6211,7 +6248,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 17,
+        "rank": 18,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6234,7 +6271,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 18,
+        "rank": 19,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6257,7 +6294,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 19,
+        "rank": 20,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6280,7 +6317,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 20,
+        "rank": 21,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6303,7 +6340,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 21,
+        "rank": 22,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6326,7 +6363,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 22,
+        "rank": 23,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6349,7 +6386,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 23,
+        "rank": 24,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6372,7 +6409,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 24,
+        "rank": 25,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6395,7 +6432,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 25,
+        "rank": 26,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6418,7 +6455,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 26,
+        "rank": 27,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6441,7 +6478,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 27,
+        "rank": 28,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6464,7 +6501,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 28,
+        "rank": 29,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6487,7 +6524,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 29,
+        "rank": 30,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6510,7 +6547,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 30,
+        "rank": 31,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6533,7 +6570,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 31,
+        "rank": 32,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6556,7 +6593,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 32,
+        "rank": 33,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6579,7 +6616,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 33,
+        "rank": 34,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6602,7 +6639,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 34,
+        "rank": 35,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6625,7 +6662,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 35,
+        "rank": 36,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6648,7 +6685,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 36,
+        "rank": 37,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6671,7 +6708,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 37,
+        "rank": 38,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6694,7 +6731,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 38,
+        "rank": 39,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6717,7 +6754,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 39,
+        "rank": 40,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6740,7 +6777,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 40,
+        "rank": 41,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6763,7 +6800,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 41,
+        "rank": 42,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6786,7 +6823,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 42,
+        "rank": 43,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6809,7 +6846,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 43,
+        "rank": 44,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6832,7 +6869,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 44,
+        "rank": 45,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6855,7 +6892,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 45,
+        "rank": 46,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6878,7 +6915,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 46,
+        "rank": 47,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6901,7 +6938,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 47,
+        "rank": 48,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6924,7 +6961,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 48,
+        "rank": 49,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6947,7 +6984,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 49,
+        "rank": 50,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -6988,7 +7025,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 50,
+        "rank": 51,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7011,7 +7048,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 51,
+        "rank": 52,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7034,7 +7071,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 52,
+        "rank": 53,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7057,7 +7094,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 53,
+        "rank": 54,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7080,7 +7117,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 54,
+        "rank": 55,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7103,7 +7140,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 55,
+        "rank": 56,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7126,7 +7163,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 56,
+        "rank": 57,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7149,7 +7186,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 57,
+        "rank": 58,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7172,7 +7209,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 58,
+        "rank": 59,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7195,7 +7232,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 59,
+        "rank": 60,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7218,7 +7255,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 60,
+        "rank": 61,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7241,7 +7278,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 61,
+        "rank": 62,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7264,7 +7301,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 62,
+        "rank": 63,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7287,7 +7324,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 63,
+        "rank": 64,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7310,7 +7347,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 64,
+        "rank": 65,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7333,7 +7370,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 65,
+        "rank": 66,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7356,7 +7393,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 66,
+        "rank": 67,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7379,7 +7416,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 67,
+        "rank": 68,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7402,7 +7439,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 68,
+        "rank": 69,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7425,7 +7462,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 69,
+        "rank": 70,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7448,7 +7485,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 70,
+        "rank": 71,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7471,7 +7508,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 71,
+        "rank": 72,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7494,7 +7531,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 72,
+        "rank": 73,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7517,7 +7554,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 73,
+        "rank": 74,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7540,7 +7577,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 74,
+        "rank": 75,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7563,7 +7600,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 75,
+        "rank": 76,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7586,7 +7623,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 76,
+        "rank": 77,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7609,7 +7646,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 77,
+        "rank": 78,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7632,7 +7669,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 78,
+        "rank": 79,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7655,7 +7692,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 79,
+        "rank": 80,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7678,7 +7715,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 80,
+        "rank": 81,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7701,7 +7738,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 81,
+        "rank": 82,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7724,7 +7761,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 82,
+        "rank": 83,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7747,7 +7784,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 83,
+        "rank": 84,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7770,7 +7807,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 84,
+        "rank": 85,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7793,7 +7830,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 85,
+        "rank": 86,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7816,7 +7853,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 86,
+        "rank": 87,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7839,7 +7876,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 87,
+        "rank": 88,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7862,7 +7899,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 88,
+        "rank": 89,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7885,7 +7922,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 89,
+        "rank": 90,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7908,7 +7945,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 90,
+        "rank": 91,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7931,7 +7968,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 91,
+        "rank": 92,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7954,7 +7991,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 92,
+        "rank": 93,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -7977,7 +8014,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 93,
+        "rank": 94,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8000,7 +8037,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 94,
+        "rank": 95,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8023,7 +8060,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 95,
+        "rank": 96,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8046,7 +8083,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 96,
+        "rank": 97,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8069,7 +8106,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 97,
+        "rank": 98,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8092,7 +8129,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 98,
+        "rank": 99,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8115,7 +8152,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 99,
+        "rank": 100,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8138,7 +8175,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 100,
+        "rank": 101,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8161,7 +8198,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 101,
+        "rank": 102,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8184,7 +8221,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 102,
+        "rank": 103,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8207,7 +8244,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 103,
+        "rank": 104,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8230,7 +8267,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 104,
+        "rank": 105,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8253,7 +8290,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 105,
+        "rank": 106,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8276,7 +8313,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 106,
+        "rank": 107,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8299,7 +8336,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 107,
+        "rank": 108,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8322,7 +8359,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 108,
+        "rank": 109,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8345,7 +8382,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 109,
+        "rank": 110,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8368,7 +8405,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 110,
+        "rank": 111,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8391,7 +8428,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 111,
+        "rank": 112,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8414,7 +8451,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 112,
+        "rank": 113,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8437,7 +8474,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 113,
+        "rank": 114,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8460,7 +8497,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 114,
+        "rank": 115,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8483,7 +8520,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 115,
+        "rank": 116,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8506,7 +8543,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 116,
+        "rank": 117,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8529,7 +8566,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 117,
+        "rank": 118,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8552,7 +8589,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 118,
+        "rank": 119,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8575,7 +8612,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 119,
+        "rank": 120,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8598,7 +8635,7 @@
         "func_clarity": 5,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 120,
+        "rank": 121,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8621,7 +8658,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 121,
+        "rank": 122,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8644,7 +8681,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 122,
+        "rank": 123,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }
@@ -8667,7 +8704,7 @@
         "func_clarity": 6,
         "maintainability": 5,
         "is_winner": false,
-        "rank": 123,
+        "rank": 124,
         "test_date": "2026-07-28",
         "test_version": "1.0.0"
       }

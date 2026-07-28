@@ -297,6 +297,28 @@
     "total": 9.5
   },
   {
+    "id": "案镜-—-案件分诊镜",
+    "path": "./community/legal-cn-core/anmirror/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "鉴枢-—-镜鉴中枢（编排入口）",
+    "path": "./community/legal-cn-core/jianshu/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "marketing-roi-calculator",
     "path": "./community/marketing-roi-calculator/SKILL.md",
     "cluster": "marketing-strategy",
@@ -620,6 +642,28 @@
     "path": "./community/information-architecture/SKILL.md",
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "法镜-—-规范活检镜",
+    "path": "./community/legal-cn-core/famirror/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "理镜-—-要件推理镜",
+    "path": "./community/legal-cn-core/limirror/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
@@ -2358,39 +2402,6 @@
     "path": "./community/cloakbrowser/SKILL.md",
     "cluster": "skills-browser",
     "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 9,
-    "total": 8.2
-  },
-  {
-    "id": "法律事实要素提取",
-    "path": "./community/legal-cn-atomic/legal-fact-extraction/SKILL.md",
-    "cluster": "business-legal",
-    "cluster_name": "商业·法务合规",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 9,
-    "total": 8.2
-  },
-  {
-    "id": "法条效力验证",
-    "path": "./community/legal-cn-atomic/norm-validity-check/SKILL.md",
-    "cluster": "business-legal",
-    "cluster_name": "商业·法务合规",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 8,
-    "maintainability": 9,
-    "total": 8.2
-  },
-  {
-    "id": "法律三段论推理",
-    "path": "./community/legal-cn-atomic/syllogistic-reasoning/SKILL.md",
-    "cluster": "business-legal",
-    "cluster_name": "商业·法务合规",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 8,
