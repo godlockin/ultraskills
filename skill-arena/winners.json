@@ -50,7 +50,7 @@
     "winner": "comps-analysis",
     "score": 9.5,
     "runner_up": "datapack-builder",
-    "total_contestants": 56,
+    "total_contestants": 57,
     "defeated": [
       "datapack-builder",
       "dcf-model",
@@ -64,14 +64,14 @@
     "cluster_name": "商业·法务合规",
     "winner": "business-orchestrator",
     "score": 9.5,
-    "runner_up": "compliance-check",
-    "total_contestants": 8,
+    "runner_up": "法律事实要素提取",
+    "total_contestants": 123,
     "defeated": [
-      "compliance-check",
-      "legal-response",
-      "legal-risk-assessment",
-      "contract-risk-highlighter",
-      "master-claude-for-legal"
+      "法律事实要素提取",
+      "法条效力验证",
+      "法律三段论推理",
+      "worker-classification",
+      "compliance-check"
     ]
   },
   {
@@ -139,7 +139,7 @@
     "winner": "content-orchestrator",
     "score": 9.5,
     "runner_up": "doc-coauthoring",
-    "total_contestants": 17,
+    "total_contestants": 18,
     "defeated": [
       "doc-coauthoring",
       "document-release",
@@ -214,7 +214,7 @@
     "winner": "churn-risk-playbook",
     "score": 9.5,
     "runner_up": "sales-funnel-analyzer",
-    "total_contestants": 10,
+    "total_contestants": 12,
     "defeated": [
       "sales-funnel-analyzer",
       "devex-review",
@@ -258,7 +258,7 @@
     "winner": "career-coach",
     "score": 9.5,
     "runner_up": "value-proposition",
-    "total_contestants": 211,
+    "total_contestants": 210,
     "defeated": [
       "value-proposition",
       "bazi-fortune",
@@ -415,7 +415,7 @@
     "winner": "gh-fix-ci",
     "score": 9.0,
     "runner_up": "ultraskills-hub",
-    "total_contestants": 18,
+    "total_contestants": 19,
     "defeated": [
       "ultraskills-hub",
       "skill-creator",
@@ -528,7 +528,7 @@
     "winner": "office-hours",
     "score": 8.8,
     "runner_up": "plan-ceo-review",
-    "total_contestants": 11,
+    "total_contestants": 12,
     "defeated": [
       "plan-ceo-review",
       "plan-eng-review",
@@ -557,7 +557,7 @@
     "winner": "open-gstack-browser",
     "score": 8.8,
     "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 14,
+    "total_contestants": 17,
     "defeated": [
       "gstack-openclaw-retro",
       "playwright-media-sniffer",
@@ -951,11 +951,12 @@
   {
     "cluster": "business-hr",
     "cluster_name": "商业·人力资源",
-    "winner": "lead-magnets",
+    "winner": "hiring-review",
     "score": 7.3,
-    "runner_up": "sales-enablement",
-    "total_contestants": 3,
+    "runner_up": "lead-magnets",
+    "total_contestants": 4,
     "defeated": [
+      "lead-magnets",
       "sales-enablement",
       "interview-scorecard-generator"
     ]

@@ -149,3 +149,6 @@
 [submodule "external/neolabhq-kit"]
 	path = external/neolabhq-kit
 	url = https://github.com/NeoLabHQ/context-engineering-kit.git
+[submodule "external/claude-for-legal-ZH"]
+	path = external/claude-for-legal-ZH
+	url = https://github.com/CSlawyer1985/claude-for-legal-ZH.git
