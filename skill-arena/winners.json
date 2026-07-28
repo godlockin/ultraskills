@@ -5,7 +5,7 @@
     "winner": "magazine-web-ppt",
     "score": 10.0,
     "runner_up": "baoyu-markdown-to-html",
-    "total_contestants": 19,
+    "total_contestants": 20,
     "defeated": [
       "baoyu-markdown-to-html",
       "baoyu-slide-deck",
@@ -65,13 +65,28 @@
     "winner": "business-orchestrator",
     "score": 9.5,
     "runner_up": "compliance-check",
-    "total_contestants": 7,
+    "total_contestants": 8,
     "defeated": [
       "compliance-check",
       "legal-response",
       "legal-risk-assessment",
       "contract-risk-highlighter",
-      "compliance-tracking"
+      "master-claude-for-legal"
+    ]
+  },
+  {
+    "cluster": "business-operations",
+    "cluster_name": "商业·业务运营",
+    "winner": "strategy-consulting-framework",
+    "score": 9.5,
+    "runner_up": "crisis-comms-playbook",
+    "total_contestants": 13,
+    "defeated": [
+      "crisis-comms-playbook",
+      "sop-writer",
+      "customer-escalation",
+      "draft-response",
+      "kb-article"
     ]
   },
   {
@@ -149,6 +164,21 @@
     ]
   },
   {
+    "cluster": "data-analytics",
+    "cluster_name": "数据·商业智能",
+    "winner": "generalist-expert",
+    "score": 9.5,
+    "runner_up": "storage-analyzer",
+    "total_contestants": 12,
+    "defeated": [
+      "storage-analyzer",
+      "explore-data",
+      "validate-data",
+      "fact-checker",
+      "create-viz"
+    ]
+  },
+  {
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
     "winner": "design-an-interface",
@@ -161,6 +191,36 @@
       "mcp-builder",
       "mcp-integration",
       "site-architecture"
+    ]
+  },
+  {
+    "cluster": "engineering-devops",
+    "cluster_name": "工程·DevOps",
+    "winner": "goal-management",
+    "score": 9.5,
+    "runner_up": "land-and-deploy",
+    "total_contestants": 11,
+    "defeated": [
+      "land-and-deploy",
+      "setup-deploy",
+      "canary",
+      "ship",
+      "incident-response"
+    ]
+  },
+  {
+    "cluster": "engineering-qa",
+    "cluster_name": "工程·QA",
+    "winner": "churn-risk-playbook",
+    "score": 9.5,
+    "runner_up": "sales-funnel-analyzer",
+    "total_contestants": 10,
+    "defeated": [
+      "sales-funnel-analyzer",
+      "devex-review",
+      "plan-devex-review",
+      "health",
+      "qa-only"
     ]
   },
   {
@@ -178,12 +238,27 @@
     ]
   },
   {
+    "cluster": "marketing-strategy",
+    "cluster_name": "营销·策略",
+    "winner": "marketing-roi-calculator",
+    "score": 9.5,
+    "runner_up": "content-strategy",
+    "total_contestants": 10,
+    "defeated": [
+      "content-strategy",
+      "aso-audit",
+      "launch-strategy",
+      "pricing-strategy",
+      "product-marketing-context"
+    ]
+  },
+  {
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "winner": "career-coach",
     "score": 9.5,
     "runner_up": "value-proposition",
-    "total_contestants": 128,
+    "total_contestants": 211,
     "defeated": [
       "value-proposition",
       "bazi-fortune",
@@ -213,7 +288,7 @@
     "winner": "growth-loops",
     "score": 9.5,
     "runner_up": "baoyu-compress-image",
-    "total_contestants": 19,
+    "total_contestants": 20,
     "defeated": [
       "baoyu-compress-image",
       "brainstorm-ideas-new",
@@ -223,18 +298,18 @@
     ]
   },
   {
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "winner": "playwright-media-sniffer",
+    "cluster": "sales-marketing",
+    "cluster_name": "商业·销售增长",
+    "winner": "objection-handler",
     "score": 9.5,
-    "runner_up": "open-gstack-browser",
-    "total_contestants": 14,
+    "runner_up": "okr-alignment-checker",
+    "total_contestants": 13,
     "defeated": [
-      "open-gstack-browser",
-      "gstack-openclaw-retro",
-      "gstack-upgrade",
-      "gstack-openclaw-ceo-review",
-      "cloakbrowser"
+      "okr-alignment-checker",
+      "pitch-deck-critic",
+      "create-an-asset",
+      "draft-outreach",
+      "brand-messaging-framework"
     ]
   },
   {
@@ -243,10 +318,11 @@
     "winner": "advanced-evaluation",
     "score": 9.2,
     "runner_up": "evaluation",
-    "total_contestants": 3,
+    "total_contestants": 4,
     "defeated": [
       "evaluation",
-      "scholar-evaluation"
+      "scholar-evaluation",
+      "agent-evaluation"
     ]
   },
   {
@@ -262,21 +338,6 @@
       "gh-address-comments",
       "karpathy-guidelines",
       "requesting-code-review"
-    ]
-  },
-  {
-    "cluster": "data-analytics",
-    "cluster_name": "数据·商业智能",
-    "winner": "generalist-expert",
-    "score": 9.0,
-    "runner_up": "storage-analyzer",
-    "total_contestants": 11,
-    "defeated": [
-      "storage-analyzer",
-      "explore-data",
-      "validate-data",
-      "fact-checker",
-      "create-viz"
     ]
   },
   {
@@ -300,7 +361,7 @@
     "winner": "interview-script",
     "score": 9.0,
     "runner_up": "summarize-interview",
-    "total_contestants": 27,
+    "total_contestants": 29,
     "defeated": [
       "summarize-interview",
       "autoresearch",
@@ -322,21 +383,6 @@
     ]
   },
   {
-    "cluster": "engineering-qa",
-    "cluster_name": "工程·QA",
-    "winner": "churn-risk-playbook",
-    "score": 9.0,
-    "runner_up": "sales-funnel-analyzer",
-    "total_contestants": 10,
-    "defeated": [
-      "sales-funnel-analyzer",
-      "devex-review",
-      "plan-devex-review",
-      "health",
-      "qa-only"
-    ]
-  },
-  {
     "cluster": "engineering-testing",
     "cluster_name": "工程·测试",
     "winner": "triage-issue",
@@ -348,21 +394,6 @@
       "test-case-templates",
       "test-driven-development",
       "benchmark"
-    ]
-  },
-  {
-    "cluster": "marketing-strategy",
-    "cluster_name": "营销·策略",
-    "winner": "marketing-roi-calculator",
-    "score": 9.0,
-    "runner_up": "content-strategy",
-    "total_contestants": 10,
-    "defeated": [
-      "content-strategy",
-      "aso-audit",
-      "launch-strategy",
-      "pricing-strategy",
-      "product-marketing-context"
     ]
   },
   {
@@ -379,33 +410,18 @@
     ]
   },
   {
-    "cluster": "sales-marketing",
-    "cluster_name": "商业·销售增长",
-    "winner": "objection-handler",
-    "score": 9.0,
-    "runner_up": "okr-alignment-checker",
-    "total_contestants": 13,
-    "defeated": [
-      "okr-alignment-checker",
-      "pitch-deck-critic",
-      "create-an-asset",
-      "draft-outreach",
-      "brand-messaging-framework"
-    ]
-  },
-  {
     "cluster": "skills-mgmt",
     "cluster_name": "Skills·管理",
     "winner": "gh-fix-ci",
     "score": 9.0,
     "runner_up": "ultraskills-hub",
-    "total_contestants": 17,
+    "total_contestants": 18,
     "defeated": [
       "ultraskills-hub",
       "skill-creator",
       "\"github-skill-scout\"",
-      "writing-skills",
-      "command-development"
+      "command-development",
+      "hook-development"
     ]
   },
   {
@@ -467,13 +483,13 @@
     "winner": "pua-en",
     "score": 8.8,
     "runner_up": "pua",
-    "total_contestants": 6,
+    "total_contestants": 7,
     "defeated": [
       "pua",
       "pua-ja",
       "prompt-optimizer",
       "task-analyzer",
-      "prompt-engineer"
+      "prompt-engineering"
     ]
   },
   {
@@ -522,21 +538,6 @@
     ]
   },
   {
-    "cluster": "engineering-devops",
-    "cluster_name": "工程·DevOps",
-    "winner": "land-and-deploy",
-    "score": 8.8,
-    "runner_up": "setup-deploy",
-    "total_contestants": 10,
-    "defeated": [
-      "setup-deploy",
-      "canary",
-      "ship",
-      "incident-response",
-      "shipping-artifacts"
-    ]
-  },
-  {
     "cluster": "engineering-frontend",
     "cluster_name": "工程·前端",
     "winner": "design-html",
@@ -551,18 +552,18 @@
     ]
   },
   {
-    "cluster": "business-operations",
-    "cluster_name": "商业·业务运营",
-    "winner": "crisis-comms-playbook",
-    "score": 8.5,
-    "runner_up": "sop-writer",
-    "total_contestants": 13,
+    "cluster": "skills-browser",
+    "cluster_name": "Skills·浏览器",
+    "winner": "open-gstack-browser",
+    "score": 8.8,
+    "runner_up": "gstack-openclaw-retro",
+    "total_contestants": 14,
     "defeated": [
-      "sop-writer",
-      "customer-escalation",
-      "draft-response",
-      "kb-article",
-      "ticket-triage"
+      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
+      "gstack-upgrade",
+      "gstack-openclaw-ceo-review",
+      "cloakbrowser"
     ]
   },
   {
@@ -571,13 +572,13 @@
     "winner": "codex",
     "score": 8.5,
     "runner_up": "codegraph-booster",
-    "total_contestants": 8,
+    "total_contestants": 9,
     "defeated": [
       "codegraph-booster",
       "skills-audit",
       "md-renderer",
-      "deploy-checklist",
-      "standup"
+      "design-testing-strategy",
+      "deploy-checklist"
     ]
   },
   {

@@ -1,8 +1,8 @@
 ---
 name: churn-risk-playbook
-description: Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review
-version: 1.0.0
-tags: [customer-success, churn-prevention, health-scoring, retention, expansion, QBR, ROI-9.5]
+description: Customer churn prevention playbook with health scoring - saves 4h→15min weekly at-risk account review. Use when user wants to "save a churn account", "客户要流失", "客户用得越来越少", "续约谈判", "降级信号", "QBR prep", "客户要降级", "客户要退出", "客户健康度低", "客户没回应", "客户用了下个月就停了", "save churn", "renewal negotiation", "account at risk", "expansion qualification", "executive intervention". Distinguishes from objection-handler (mid-deal objections) — this is post-sale retention.
+version: 2.0.0
+tags: [customer-success, churn-prevention, health-scoring, retention, expansion, QBR, ROI-9.5, community, arena-winner]
 ---
 
 # Churn Risk Playbook
@@ -10,6 +10,109 @@ tags: [customer-success, churn-prevention, health-scoring, retention, expansion,
 **ROI:** 9.5/10 - Saves 4h → 15min for weekly at-risk account review
 
 Systematic churn prevention framework using health scoring, leading indicators, and intervention playbooks. Turns reactive firefighting into proactive retention.
+
+---
+
+## 🎯 适用场景与触发
+
+### 6 类典型场景
+
+| # | 场景 | 触发词 |
+|---|---|---|
+| 1 | **客户流失预警** | 客户要流失 / 客户要退出 / 客户用得越来越少 / save churn |
+| 2 | **续约谈判** | 续约谈判 / 续签 / 续约前评估 / renewal negotiation |
+| 3 | **降级信号** | 客户要降级 / 客户预算减半 / 客户说用不到那么多 |
+| 4 | **健康度体检** | 客户健康度低 / 客户没回应 / health check 账户 |
+| 5 | **扩张机会** | 客户用得好要 upsell / 客户预算增 / expansion qualification |
+| 6 | **QBR 准备** | QBR prep / 季度业务回顾 / 高管对话 |
+
+### 6 类常见痛点
+
+- **事后救火** — 客户走了才知道
+- **健康分拍脑袋** — 没有量化指标
+- **预警不到位** — 续约前 30 天才发现
+- **救火动作随机** — 凭直觉联系客户
+- **预防动作缺失** — 只救火不防
+- **原因分析不深** — 不知道「为什么走」
+
+### 8 类期望效果
+
+- 健康分量化(0-100 + 4 pillar 加权)
+- 风险分级(Tier 1 红 / Tier 2 黄 / Tier 3 绿)
+- 提前 90 天预警(leading indicators)
+- 标准 Playbook A/B/C 干预
+- Executive intervention 触发条件明确
+- 主动扩张机会识别
+- 季度复盘 + 流失原因统计
+- 可视化 account health dashboard
+
+---
+
+## 🚨 边界
+
+| 类型 | 触发 | 动作 |
+|---|---|---|
+| **未成交客户** | 用户问「如何赢得新客户」 | 不接,转 objection-handler / sales-orchestrator |
+| **纯产品 bug** | 客户要走是因为产品功能缺失 | 转 engineering-orchestrator 排期 + 本 skill 维护 |
+| **法律/合规原因** | 客户走是因为合规问题 | 转律师 + 内部流程 audit |
+
+---
+
+## 📥 启动前信息收集
+
+| 信息 | 必要性 | 缺失时默认 |
+|---|---|---|
+| **账户名 + 历史合同** | 必须 | 不开始,问 |
+| **客户关系图**(Exec / Champion / 用户) | 强烈推荐 | 假设 1 个 Exec + 2-3 用户 |
+| **过去 90 天使用数据** | 强烈推荐 | 假设 4 个 pillar 数据都有 |
+| **竞品动态**(若知道) | 推荐 | 不假设 |
+| **已尝试过的救火动作** | 推荐 | 假设 0 |
+
+---
+
+## 🔗 后续落地动作
+
+| 动作 | 触发 | 默认 |
+|---|---|---|
+| **存档案例** | 救火成功/失败 | 询问「这次流失复盘要不要存到 `references/churn-cases.md`?」 |
+| **更新健康分阈值** | 3 次使用后 | 建议「根据流失实际原因,调整 4 pillar 权重」 |
+| **预防 vs 救火比例** | 季度复盘 | 主动建议「本季度救火 80% / 预防 20%,是不是要倒过来?」 |
+| **跨团队升级** | 多账户同时流失 | 主动建议「要不要触发 product/engineering 走 [通用流程]?」 |
+
+---
+
+## 🔁 人机迭代闭环
+
+### 主公 → skill 反馈通道
+
+| 反馈 | skill 动作 |
+|---|---|
+| 「健康分不对」 | 询问「哪个 pillar 高估/低估?」调整权重 |
+| 「Playbook 没用」 | 询问「尝试了哪一步? 客户反应?」重做诊断 |
+| 「没救回来」 | 询问「最后流失原因?」更新 leading indicators |
+| 「救回来了」 | 询问「关键动作是哪个?」提炼为新 Playbook |
+
+### skill → 主公主动迭代
+
+| 周期 | 内容 |
+|---|---|
+| 每周 | 「本周 at-risk 账户 Top 3」 |
+| 每月 | 「本月 Tier 1 数量趋势 + 救火成功率」 |
+| 每季度 | 「本季度流失原因 Top 5 + 建议调整的权重」 |
+| 半年 | 「健康分模型是否仍 calibration? 重新评估指标权重」 |
+
+---
+
+## 🛠 自检 Checklist(每次输出前)
+
+- [ ] 健康分量化了?(4 pillar + 权重)
+- [ ] Tier 分级明确?(Tier 1/2/3)
+- [ ] 救火动作对应 Playbook 编号?
+- [ ] 时间窗明确?(48h/1 周/2 周)
+- [ ] Executive intervention 触发条件满足?
+- [ ] Expansion 机会识别?
+- [ ] Next step 有 Owner + 日期?
+- [ ] 数据能驱动复盘(流失原因分类)?
 
 ---
 

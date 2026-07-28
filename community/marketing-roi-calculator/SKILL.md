@@ -1,8 +1,8 @@
 ---
 name: marketing-roi-calculator
-description: Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min
-version: 1.0.0
-tags: [marketing, roi-analysis, cac, ltv, attribution, marketing-ops, ROI-8.5]
+description: Marketing ROI calculator - calculates CAC, LTV, payback, attribution across channels in 20min. Use when user wants to "算 CAC", "看哪个渠道投入产出高", "营销月报", "老板问投入产出比", "ROI review", "channel attribution", "campaign analysis", "marketing budget allocation", "看下个月预算怎么分", "广告费没效果", "SEO 还是 SEM", "看每条渠道 ROI", "看获客成本", "LTV 是多少", "payback period", "marketing ops", "marketing metrics". Frequency: monthly + per campaign.
+version: 2.0.0
+tags: [marketing, roi-analysis, cac, ltv, attribution, marketing-ops, ROI-8.5, community, arena-winner]
 ---
 
 # Marketing ROI Calculator
@@ -13,7 +13,105 @@ Systematic marketing ROI framework covering CAC, LTV, channel attribution, and c
 
 ---
 
-## When to Use
+## 🎯 适用场景与触发
+
+### 6 类典型场景
+
+| # | 场景 | 触发词 |
+|---|---|---|
+| 1 | **月度营销复盘** | 营销月报 / 月度 ROI / monthly reporting |
+| 2 | **预算分配** | 下个月预算怎么分 / budget allocation / 把预算挪给哪条渠道 |
+| 3 | **渠道优化** | 看哪个渠道投入产出高 / channel optimization / SEO 还是 SEM |
+| 4 | **Campaign 复盘** | 这次 campaign 值不值 / campaign analysis |
+| 5 | **老板汇报** | 老板问投入产出比 / board decks / investor metrics |
+| 6 | **LTV 健康度** | LTV 是多少 / payback period / 投资回收期 |
+
+### 5 类常见痛点
+
+- **数据散落** — 多个平台各自有数据,没法整合
+- **算不出 CAC** — 不知道把销售成本放哪
+- **不知道对不对** — 算出来但不确定数字是否合理
+- **拆不到渠道** — 总 CAC 知道,但分不出每条渠道
+- **看不到回收期** — 不知道几个月回本
+
+### 6 类期望效果
+
+- CAC + LTV + Payback 三件套(分渠道 + 分产品)
+- 行业 benchmark 对比(自动提醒偏离)
+- Attribution 模型选择(首次/末次/线性)
+- 行动建议(加预算 / 砍渠道 / 重分配)
+- Executive 1 页纸(可视化 + Insight)
+- 季度 trend(同比环比)
+
+---
+
+## 🚨 边界
+
+| 类型 | 触发 | 动作 |
+|---|---|---|
+| **品牌广告** | 用户问「品牌曝光 ROI」 | 短期不接(品牌曝光非 attribution 友好),建议改问「品牌 recall」 |
+| **纯自然流量** | 用户问「SEO 多少 ROI」 | 可算但口径需明示(SEO 长期归因,不要混在月度报表) |
+| **B2B 大单销售** | 用户问「单笔 100 万合同的 ROI」 | 转 strategy-consulting-framework(决策级,非营销级) |
+
+---
+
+## 📥 启动前信息收集
+
+| 信息 | 必要性 | 缺失时默认 |
+|---|---|---|
+| **渠道列表 + 各渠道 spend** | 必须 | 不开始,问 |
+| **新客数**(同期) | 必须 | 不开始,问 |
+| **收入数据**(ARPA / LTV) | 强烈推荐 | 用行业默认,后续提醒 |
+| **产品类型**(SaaS / 电商 / App) | 强烈推荐 | 假设 SaaS B2B |
+| **Cohort 数据**(若算 payback) | 推荐 | 不假设 |
+
+---
+
+## 🔗 后续落地动作
+
+| 动作 | 触发 | 默认 |
+|---|---|---|
+| **预算调整建议** | 计算完成后 | 主动建议「要不要给具体预算调整建议?」 |
+| **A/B 测试联动** | 渠道 ROI 差异大 | 主动建议「要不要给那条高 ROI 渠道跑 A/B test?」 |
+| **季度 trend** | 累计 3 次使用 | 主动建议「要不要做同比环比趋势图?」 |
+| **行业 benchmark 对比** | 数字算出后 | 主动对比行业基准,标偏离 |
+
+---
+
+## 🔁 人机迭代闭环
+
+### 主公 → skill 反馈通道
+
+| 反馈 | skill 动作 |
+|---|---|
+| 「CAC 算错」 | 询问「分子包含哪些项?」回到原始口径 |
+| 「数字不对」 | 检查 attribution 模型 + 时间窗(7/14/30 天) |
+| 「拆不到渠道」 | 检查 utm 标记 + 数据管道 |
+| 「benchmark 偏离大」 | 询问业务阶段(早期 vs 成熟)调整 |
+
+### skill → 主公主动迭代
+
+| 周期 | 内容 |
+|---|---|
+| 每月 | 「本月 Top 3 渠道 + Bottom 3 渠道 + 建议动作」 |
+| 季度 | 「本季度 CAC trend + LTV:CAC 趋势」 |
+| 半年 | 「Attribution 模型是否需要切换(首次→末次→线性)?」 |
+| 一年 | 「CAC 偏离行业基准的复盘 + 修正建议」 |
+
+---
+
+## 🛠 自检 Checklist
+
+- [ ] CAC 口径明示(分子包含哪些项)?
+- [ ] LTV 计算口径合理(月费 / 毛利 / 流失周期)?
+- [ ] 渠道细分(至少分 3-5 条渠道)?
+- [ ] 产品/客群细分(B2B / SMB / Enterprise)?
+- [ ] 时间窗明示(7/14/30 天)?
+- [ ] Attribution 模型选定?
+- [ ] 行业 benchmark 对比?
+- [ ] 1 页纸 executive summary 有建议?
+
+---
 
 - **Monthly reporting**: Executive marketing performance review
 - **Budget planning**: Allocate next quarter's spend
