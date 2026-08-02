@@ -179,6 +179,21 @@
     ]
   },
   {
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "winner": "deep-concept-analyzer",
+    "score": 9.5,
+    "runner_up": "interview-script",
+    "total_contestants": 30,
+    "defeated": [
+      "interview-script",
+      "summarize-interview",
+      "autoresearch",
+      "learn",
+      "autoresearch:execute"
+    ]
+  },
+  {
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
     "winner": "design-an-interface",
@@ -255,16 +270,16 @@
   {
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "winner": "career-coach",
+    "winner": "ai-techbook-translation",
     "score": 9.5,
-    "runner_up": "value-proposition",
-    "total_contestants": 211,
+    "runner_up": "career-coach",
+    "total_contestants": 213,
     "defeated": [
+      "career-coach",
       "value-proposition",
+      "ai-techbook-translation-review",
       "bazi-fortune",
-      "face-reading",
-      "feng-shui",
-      "palm-reading"
+      "face-reading"
     ]
   },
   {
@@ -353,21 +368,6 @@
       "design-shotgun",
       "plan-design-review",
       "design-tokens"
-    ]
-  },
-  {
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "winner": "interview-script",
-    "score": 9.0,
-    "runner_up": "summarize-interview",
-    "total_contestants": 29,
-    "defeated": [
-      "summarize-interview",
-      "autoresearch",
-      "learn",
-      "autoresearch:execute",
-      "market-research-reports"
     ]
   },
   {
@@ -557,7 +557,7 @@
     "winner": "open-gstack-browser",
     "score": 8.8,
     "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 16,
+    "total_contestants": 14,
     "defeated": [
       "gstack-openclaw-retro",
       "playwright-media-sniffer",

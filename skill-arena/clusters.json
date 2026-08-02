@@ -2,11 +2,13 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 211,
-    "winner": "career-coach",
+    "skill_count": 213,
+    "winner": "ai-techbook-translation",
     "skills": [
+      "ai-techbook-translation",
       "career-coach",
       "value-proposition",
+      "ai-techbook-translation-review",
       "bazi-fortune",
       "face-reading",
       "feng-shui",
@@ -388,9 +390,10 @@
   {
     "id": "education",
     "name": "教育·学习研究",
-    "skill_count": 29,
-    "winner": "interview-script",
+    "skill_count": 30,
+    "winner": "deep-concept-analyzer",
     "skills": [
+      "deep-concept-analyzer",
       "interview-script",
       "summarize-interview",
       "autoresearch",
@@ -531,47 +534,47 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "legacy-modernizer",
-          "feature-forge",
-          "spec-miner",
           "monitoring-expert",
-          "sre-engineer"
+          "legacy-modernizer",
+          "sre-engineer",
+          "feature-forge",
+          "spec-miner"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "database-optimizer",
         "skills": [
-          "postgres-pro",
-          "pandas-pro",
-          "sql-pro",
           "database-optimizer",
-          "spark-engineer"
+          "pandas-pro",
+          "postgres-pro",
+          "spark-engineer",
+          "sql-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "mcp-developer",
+        "winner": "cli-developer",
         "skills": [
-          "mcp-developer",
           "cli-developer",
           "websocket-engineer",
           "chaos-engineer",
-          "embedded-systems"
+          "embedded-systems",
+          "mcp-developer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
@@ -691,10 +694,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
+          "huashu-xhs-image",
+          "khazix-writer",
           "huashu-wechat-image",
           "social-content",
-          "khazix-writer",
-          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -828,14 +831,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "command-development",
+        "winner": "plugin-structure",
         "skills": [
-          "command-development",
           "plugin-structure",
-          "hook-development",
           "plugin-settings",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "hook-development",
+          "command-development",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -848,8 +851,8 @@
           "writing-skills",
           "context-engineering",
           "example-skill",
-          "using-superpowers",
           "context-engineering-collection",
+          "using-superpowers",
           "skill-template"
         ]
       }
@@ -909,14 +912,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-infographic",
+        "winner": "baoyu-comic",
         "skills": [
-          "baoyu-infographic",
           "baoyu-comic",
           "baoyu-article-illustrator",
           "baoyu-imagine",
-          "baoyu-image-cards",
-          "baoyu-cover-image"
+          "baoyu-infographic",
+          "baoyu-cover-image",
+          "baoyu-image-cards"
         ]
       },
       {
@@ -974,30 +977,6 @@
     ]
   },
   {
-    "id": "skills-browser",
-    "name": "Skills·浏览器",
-    "skill_count": 16,
-    "winner": "open-gstack-browser",
-    "skills": [
-      "open-gstack-browser",
-      "gstack-openclaw-retro",
-      "playwright-media-sniffer",
-      "gstack-upgrade",
-      "gstack-openclaw-ceo-review",
-      "cloakbrowser",
-      "gstack",
-      "browse",
-      "gstack-openclaw-investigate",
-      "gstack-openclaw-office-hours",
-      "setup-browser-cookies",
-      "zoom-cobrowse-sdk",
-      "playwright-skill",
-      "playwright-expert",
-      "playwright-cli",
-      "playwright-trace"
-    ]
-  },
-  {
     "id": "engineering-arch",
     "name": "工程·架构",
     "skill_count": 15,
@@ -1040,6 +1019,28 @@
       "trump-perspective",
       "zhang-yiming-perspective",
       "zhangxuefeng-perspective"
+    ]
+  },
+  {
+    "id": "skills-browser",
+    "name": "Skills·浏览器",
+    "skill_count": 14,
+    "winner": "open-gstack-browser",
+    "skills": [
+      "open-gstack-browser",
+      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
+      "gstack-upgrade",
+      "gstack-openclaw-ceo-review",
+      "cloakbrowser",
+      "gstack",
+      "browse",
+      "gstack-openclaw-investigate",
+      "gstack-openclaw-office-hours",
+      "setup-browser-cookies",
+      "zoom-cobrowse-sdk",
+      "playwright-skill",
+      "playwright-expert"
     ]
   },
   {
@@ -1254,22 +1255,22 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "writing-plans",
-          "executing-plans"
+          "executing-plans",
+          "writing-plans"
         ]
       },
       {
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zht",
+        "winner": "planning-with-files-zh",
         "skills": [
-          "planning-with-files-zht",
           "planning-with-files-zh",
+          "planning-with-files-zht",
           "planning-with-files",
-          "planning-with-files-de",
           "planning-with-files-es",
-          "planning-with-files-ar"
+          "planning-with-files-ar",
+          "planning-with-files-de"
         ]
       },
       {
@@ -1312,8 +1313,8 @@
           "smb-onboard",
           "onboarding-checklist-generator",
           "build-dashboard",
-          "metrics-dashboard",
           "zoom-mcp/whiteboard",
+          "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
         ]
@@ -1401,10 +1402,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "land-and-deploy",
+        "winner": "setup-deploy",
         "skills": [
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "ship",
           "canary",
           "shipping-artifacts",

@@ -33,6 +33,17 @@
     "total": 9.7
   },
   {
+    "id": "ai-techbook-translation",
+    "path": "./community/ai-techbook-translation/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "baoyu-article-illustrator",
     "path": "./community/baoyu-skills/baoyu-article-illustrator/SKILL.md",
     "cluster": "content-image",
@@ -191,7 +202,7 @@
     "path": "./community/career-coach/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 9,
     "maintainability": 9,
@@ -225,6 +236,17 @@
     "cluster": "content-presentation",
     "cluster_name": "内容·演示设计",
     "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "deep-concept-analyzer",
+    "path": "./community/deep-concept-analyzer/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 9,
     "maintainability": 9,
@@ -517,6 +539,17 @@
     "total": 9.2
   },
   {
+    "id": "ai-techbook-translation-review",
+    "path": "./community/ai-techbook-translation-review/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "baoyu-danger-gemini-web",
     "path": "./community/baoyu-skills/baoyu-danger-gemini-web/SKILL.md",
     "cluster": "content-social",
@@ -686,7 +719,7 @@
     "path": "./community/pm-skills/discovery/interview-script/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
     "maintainability": 9,
@@ -10604,17 +10637,6 @@
     "total": 6.3
   },
   {
-    "id": "playwright-cli",
-    "path": "./external/playwright-skill/skills/playwright-skill/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.3
-  },
-  {
     "id": "deep-research",
     "path": "./external/sanjay3290-ai-skills/skills/deep-research/SKILL.md",
     "cluster": "education",
@@ -11081,17 +11103,6 @@
     "path": "./external/neolabhq-kit/plugins/tdd/skills/fix-tests/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 6,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 5.8
-  },
-  {
-    "id": "playwright-trace",
-    "path": "./external/playwright-skill/skills/playwright-skill/node_modules/playwright-core/lib/tools/trace/SKILL.md",
-    "cluster": "skills-browser",
-    "cluster_name": "Skills·浏览器",
     "is_winner": false,
     "doc_quality": 6,
     "func_clarity": 6,
