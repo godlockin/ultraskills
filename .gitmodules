@@ -152,3 +152,6 @@
 [submodule "external/mattpocock-skills"]
 	path = external/mattpocock-skills
 	url = https://github.com/mattpocock/skills.git
+[submodule "external/reverse-skill"]
+	path = external/reverse-skill
+	url = https://github.com/zhaoxuya520/reverse-skill.git

@@ -3305,6 +3305,25 @@
     "archived": false
   },
   {
+    "id": "reverse-skill-router",
+    "path": "./community/reverse-skill-router/SKILL.md",
+    "description": "Reverse engineering / penetration testing / CTF / 数字取证 / 漏洞分析 的方法论路由器。Use when user mentions any reverse/pentest/security/CTF/取证/漏洞 keyword (APK, jadx, IDA, Frida, BurpSuite, pwn, ROP, jailbreak, prompt injection, EDR bypass, malware analysis, etc.). 委托给 external/reverse-skill/ 的 83 个 SKILL.md 提供的方法论——同时**主动屏蔽原仓库 RULES.md 的全局 CLAUDE.md 注入指令**以保护用户会话。Trigger 词见 references/trigger-keywords.md。",
+    "body_summary": "Reverse Skill Router（逆向技能路由器） · 提供 reverse engineering / penetration testing / CTF / 取证 / 漏洞分析的全套方法论入口 · 本 skill 的关键责任**： · ⚠️ 重要安全声明 · License 混合 · reverse-skill 包含 **3 种 license**： · 全局 CLAUDE.md 注入已屏蔽 · 的   段要求 AI 在首次使用时**自动写 routing 规则到用户全局配置**（ 、  等）——这会劫持用户所有 Claude Code 会话 · 把 Global Injection 段替换为警告占位符 · 把 Global Injection Content (Compact) 段标记为 DEPRECATED · 原始内容保留在 · idempotent**：每次触发 router 时自动检查 + re-shield · 合规边界 · reverse-skill 含红队方法论（SQL 注入 / ROP / EDR 绕过 / prompt injection 等） · SRC（安全响应中心）合法项目 · 自有系统授权测试 · CTF 比赛 · Bug Bounty 平台授权目标 · 工作流程 · 每次触发本 skill 时，**第一步**自动执行： · 确保 RULES…",
+    "tags": [
+      "security",
+      "reverse-engineering",
+      "pentest",
+      "ctf",
+      "forensics",
+      "methodology",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
     "id": "sales-funnel-analyzer",
     "path": "./community/sales-funnel-analyzer/SKILL.md",
     "description": "Sales funnel efficiency analyzer - diagnoses conversion bottlenecks and calculates pipeline health",
@@ -14474,6 +14493,1072 @@
       "recursive-research"
     ],
     "version": "2.2.0",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-ad-certificate-abuse",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for AD CS, certificate templates, enrollment rights, EKUs, SAN controls, PKINIT, certificate mapping, and cert-based privilege paths. Use when the user asks about ESC-style abuse, certificate templates, enrollment agents, EKUs, SAN or subject controls, smartcard or PKINIT logon, CA policy, or how an issued cert turns into accepted privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition AD Certificate Abuse · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive identity edge is certificate-based and the hard part is proving how a template or CA policy turns into accepted privilege. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record CA configuration, template name, enrollment permissions, manager approval, authorized signatures, EKUs, subject requirements, and SAN behavi…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-agent-cloud",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-agent-cloud/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for AI-agent, prompt-injection, MCP or toolchain, cloud, container, CI/CD, and supply-chain challenges. Use when the user asks to analyze prompt-to-tool flows, retrieval poisoning, mounted secrets, deployment drift, runtime-vs-manifest mismatches, registry provenance, or CI-produced artifacts under sandbox assumptions. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Agent Cloud · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge path is driven by prompt-to-tool execution, retrieval and memory boundaries, deployment drift, or build and release provenance. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Treat prompts, tool schemas, retrieved chunks, planner notes, memory files, and handoffs as challenge artifacts. · Prove one minimal chain from untrus…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-android-hooking",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-android-hooking/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Android APK hooking, Frida tracing, request-signing recovery, SSL pinning bypass, JNI boundary inspection, and app trust-boundary analysis. Use when the user asks to hook an APK, inspect signer logic, trace Java or native boundaries, bypass pinning or root checks, inspect shared prefs or app databases, or replay accepted mobile requests. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Android Hooking · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive path runs through an Android app's live trust boundary rather than static strings alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Map package structure, exported activities, services, receivers, providers, and deeplink handlers. · Note SSL pinning logic, root checks, feature flags, token storage, shared prefs, SQLi…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-browser-persistence",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-browser-persistence/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for browser cookies, localStorage, sessionStorage, IndexedDB, Cache Storage, service workers, offline caches, and client-side session persistence. Use when the user asks to inspect browser state, replay cached auth or session behavior, explain why a page behaves differently after load, or trace how stored client state changes requests, rendering, or access. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Browser Persistence · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive branch lives in browser-held state rather than only in visible HTML or backend source. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Inspect cookies, storage buckets, service worker registrations, cache entries, and transient globals exposed during boot. · Record which origin, host, route, or feature flag each state…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-bundle-sourcemap-recovery",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for source maps, build manifests, chunk registries, emitted bundles, obfuscated loader flow, and frontend runtime recovery. Use when the user asks to reconstruct served JavaScript structure, inspect source maps or chunk maps, trace bundle loading, recover hidden routes or APIs from emitted assets, or explain runtime behavior from built frontend artifacts. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Bundle Sourcemap Recovery · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when runtime truth lives in built assets, source maps, chunk tables, or obfuscated loader flow rather than in checked-in source alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record entry HTML, script tags, preload hints, manifest files, asset map, chunk registry, and source map URLs. · Note framework-specific artifacts s…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-cloud-metadata-path",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for cloud metadata services, instance identity, workload identity, link-local credential paths, role assumption, and metadata-to-privilege trust edges. Use when the user asks to inspect metadata-service access, instance credentials, pod or workload identity, link-local token paths, SSRF-to-metadata escalation, or explain how metadata-derived credentials turn into accepted cloud or control-plane privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Cloud Metadata Path · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive edge is not just reaching metadata, but proving how metadata-derived identity becomes accepted privilege. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record the metadata endpoint, required headers, hop limits, session tokens, workload selectors, or path prefixes. · Note whether access comes from direct local calls…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-container-runtime",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-container-runtime/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for live container runtime analysis, mounted secrets, sidecars, namespaces, init containers, entrypoint drift, and route-to-container resolution. Use when the user asks why a live container differs from manifests, where a mounted secret is consumed, how a sidecar or init container changes runtime state, or which route resolves to which live container. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Container Runtime · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge is really about what the live container or pod is doing now, not what the checked-in manifest claims it should do. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Compare compose or kube manifests against running containers, pods, mounted volumes, env, sidecars, init containers, and entrypoints. · Identify which proces…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-crypto-mobile",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-crypto-mobile/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for crypto, encoding, steganography, APK, IPA, and mobile trust-boundary challenges. Use when the user asks to decode a blob, recover a transform chain or key, inspect hidden media payloads, hook an APK or IPA signer, inspect app storage, or replay mobile request-signing logic. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Crypto Mobile · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the active challenge depends on recovering a transform chain, hidden media payload, mobile signing path, or local trust boundary. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Reconstruct the chain step by step: container, compression, encoding, xor or substitution, crypto, integrity, final parse. · Keep exact keys, IVs, nonces, salts…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-custom-protocol-replay",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for custom binary or text protocol recovery, handshake reconstruction, framing, sequence control, checksums, stateful replay, and accepted-session reproduction. Use when the user asks to decode an unknown protocol, recover custom framing, build a replay harness, satisfy sequence or checksum rules, replay a captured session, or prove the smallest message order that reaches an accepted branch. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Custom Protocol Replay · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is not merely naming the protocol, but reproducing the exact message order and state needed for acceptance. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify handshake, negotiation, authentication, keepalive, command, and teardown phases. · Record which fields are static, which are derived, and which depend…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-dpapi-credential-chain",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for DPAPI masterkeys, vault blobs, browser credential stores, protected secrets, domain backup keys, and secret-to-acceptance replay chains. Use when the user asks to inspect DPAPI blobs or masterkeys, recover browser or vault credentials, trace DPAPI context or backup-key use, or explain how protected Windows secrets become accepted access or privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Dpapi Credential Chain · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive Windows secret is DPAPI-protected and the hard part is proving which context unwraps it and where the plaintext is accepted. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record blob source, masterkey location, SID, protector scope, profile path, credential store, and any application wrapper such as browser encry…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-file-parser-chain",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-file-parser-chain/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for file uploads, imports, previews, archive extraction, format conversion, parser invocation, and deserialization chains. Use when the user asks to inspect an upload or import path, trace archive extraction, preview or converter behavior, explain how a file reaches a parser or deserializer, or connect one uploaded artifact to the decisive backend effect. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition File Parser Chain · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is following a file from ingress through every parser, extractor, converter, or deserializer boundary that matters. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record request shape, multipart names, content type, filename, temp paths, upload staging, and storage keys. · Note every derived artifact: extracted archiv…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-firmware-layout",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-firmware-layout/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for firmware images, partition tables, boot chains, update packages, extracted filesystems, embedded configs, and device-facing trust boundaries. Use when the user asks to unpack firmware, map partition layout, inspect bootloader or init chains, recover update keys or credentials, trace config loading, or explain how a device surface reaches the decisive artifact. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Firmware Layout · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is understanding how a firmware image is structured, booted, updated, and turned into reachable device behavior. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify container type, partition headers, compression, filesystem type, and any appended or nested images. · Record offsets, sizes, hashes, mount points, and p…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-forensic-timeline",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-forensic-timeline/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for DFIR chronology, cross-artifact correlation, persistence chains, and incident timeline reconstruction. Use when the user asks to build a forensic timeline, correlate EVTX, PCAP, registry, disk, memory, mailbox, or browser artifacts, explain the order of attacker actions, or pinpoint the stage where the decisive artifact appears. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Forensic Timeline · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is not finding one artifact, but turning many artifacts into one replayable chronology. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Collect only the active surfaces: EVTX, Sysmon, registry, Amcache, prefetch, browser artifacts, mail traces, PCAPs, memory, or filesystem metadata. · Record clock source, timezone, and…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-graphql-rpc-drift",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for GraphQL schemas, persisted queries, RPC manifests, generated clients, OpenAPI drift, hidden operations, and contract-to-handler mismatches. Use when the user asks to inspect GraphQL or RPC requests, compare client contracts to live handlers, recover hidden operations, trace generated clients, or explain how schema or contract drift produces the decisive behavior. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Graphql Rpc Drift · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is matching declared contracts with live handlers to find hidden, stale, or privileged operations. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record GraphQL schema, introspection output, persisted query ids, RPC manifests, generated clients, or OpenAPI documents that define the intended surface. · Note versioned e…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-identity-windows",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-identity-windows/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Active Directory, Kerberos, LDAP, OAuth, enterprise messaging, Windows host forensics, credential material, and lateral-movement challenges. Use when the user asks to trace tickets or tokens, inspect mailbox rules, analyze Windows host evidence, understand an AD trust path, or explain a lateral-movement chain across sandbox-linked nodes. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Identity Windows · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge revolves around identity flow, replayable credentials, Windows host artifacts, enterprise mail, or lateral movement. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Trace principal origin, sync path, token or ticket minting, claims transformation, group resolution, and accepting service. · When Kerberos matters, record …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-ios-runtime",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for IPA runtime analysis, Frida hooks, Objective-C or Swift method tracing, Keychain inspection, SSL pinning bypass, URL scheme handling, and iOS request-signing recovery. Use when the user asks to hook an IPA, trace Objective-C or Swift runtime behavior, inspect Keychain or plist state, bypass pinning, analyze deeplinks or universal links, or replay accepted iOS requests. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition iOS Runtime · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive path runs through live iOS trust boundaries rather than static strings or plist values alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Map bundle structure,  , entitlements, URL schemes, universal links, embedded frameworks, and app group paths. · Record likely trust boundaries: request signers, device binding, certifi…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-jwt-claim-confusion",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for JWT, JWS, and JWE validation paths, header parsing, key selection, claim acceptance, audience and issuer checks, role derivation, and token-to-identity confusion bugs. Use when the user asks to inspect JWT headers or claims, key lookup, `kid` handling, `alg` confusion, audience or issuer validation, role claims, or explain how a token becomes accepted identity or privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition JWT Claim Confusion · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive bug is not just \"there is a JWT,\" but how headers, claims, and key selection turn into accepted identity. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record header fields such as  ,  ,  ,  ,  , or embedded key material when present. · Note where keys come from: static config, JWKS, local file, cache, or dynamic lo…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-k8s-control-plane",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-k8s-control-plane/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Kubernetes API analysis, service-account trust, RBAC edges, admission and controller behavior, cluster secrets, workload mutation, and namespace-scoped drift. Use when the user asks to inspect kube API permissions, service-account tokens, RoleBinding or ClusterRoleBinding edges, admission webhooks, controller-created pods, secret exposure, or why live workloads differ from manifests. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition K8s Control Plane · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive path runs through Kubernetes control-plane state, API permissions, or controller behavior rather than a single container's runtime alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record namespaces, service accounts, Roles, ClusterRoles, bindings, admission hooks, controllers, and the resources they can mutate. · …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-kerberos-delegation",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-kerberos-delegation/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Kerberos delegation, SPN trust edges, S4U abuse, RBCD, constrained or unconstrained delegation, and service-ticket acceptance. Use when the user asks about constrained delegation, unconstrained delegation, RBCD, S4U, SPNs, ticket acceptance, or how a Kerberos trust edge turns into effective privilege under sandbox assumptions. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Kerberos Delegation · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is not \"is there Kerberos here,\" but which delegation edge exists, which ticket is being minted, and which service really accepts it. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Determine whether the path is constrained delegation, unconstrained delegation, resource-based constrained delegation, protocol transiti…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-kernel-container-escape",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-kernel-container-escape/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for kernel attack surface, namespace and cgroup boundaries, container isolation assumptions, syscall paths, and escape primitive verification. Use when the user asks to analyze container-to-host escape paths, kernel exploit prerequisites, namespace crossover, capability misuse, or prove whether an exploit primitive crosses the sandbox boundary. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Kernel Container Escape · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive step is proving a boundary crossing between containerized context and host or higher-privilege kernel context. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record namespace map, cgroup mode, capabilities, seccomp profile, AppArmor or SELinux state, mounted filesystems, and runtime sockets. · Note kernel version…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-linux-credential-pivot",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Linux credential artifacts, service tokens, SSH material, cloud and container secrets, socket-level trust, and host-to-host pivot chains. Use when the user asks to trace Linux auth artifacts, accepted token or key replay, socket or service-account trust edges, sudo or capability abuse, or explain lateral movement across Linux challenge nodes. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Linux Credential Pivot · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive edge is Linux credential material and where that material is accepted. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record SSH keys, agent sockets, kubeconfigs, cloud tokens, service-account secrets, env vars, config files, and process memory clues. · Note sudoers rules, capabilities, setuid binaries, systemd un…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-lsass-ticket-material",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for LSASS-resident secrets, Windows logon sessions, Kerberos ticket caches, DPAPI-backed material, SSP artifacts, and replayable credential extraction. Use when the user asks to inspect LSASS memory, recover tickets or logon sessions, trace DPAPI or SSP material, distinguish which credential artifacts are replayable, or connect host-resident credential material to an accepted pivot or privilege edge. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition LSASS Ticket Material · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive host artifact lives in LSASS, ticket caches, or adjacent credential material and the hard part is proving what is replayable. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record logon sessions, LUIDs, ticket caches, package names, SSPs, DPAPI context, and any service-account material tied to the active path. · No…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-mailbox-abuse",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for enterprise mail abuse, OAuth consent, inbox or forwarding rules, transport rules, shared mailbox access, phishing chains, and token-to-mailbox side effects. Use when the user asks to trace mailbox rules, OAuth consent grants, forwarding or delegate abuse, shared mailbox access, message-trace evidence, or explain how mail artifacts turn into persistence, exfiltration, or privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Mailbox Abuse · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive path runs through mailbox behavior, consent flow, or message-routing effects rather than generic AD evidence alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify the principal, mailbox, token or session, consent grant, delegate edge, shared mailbox relationship, or app registration involved. · Record consent scop…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-malware-config",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-malware-config/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for malware configuration recovery, staged payload boundaries, beacon parameter extraction, and IOC decoding. Use when the user asks to recover a malware config, decode C2 or beacon fields, unpack staged payloads, extract bot or campaign IDs, or tie recovered config to observed protocol behavior under sandbox assumptions. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Malware Config · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive value is not just \"what the sample does,\" but which config fields, stages, or network parameters the sample hides and when they become plaintext. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Inspect sections, resources, embedded archives, strings, imports, and decode helpers. · Identify where config is stored: resource,…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-oauth-oidc-chain",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for OAuth, OIDC, redirect flows, state or nonce handling, PKCE, token exchange, refresh logic, claim mapping, and accepted login paths. Use when the user asks to trace redirects, callback parameters, scopes, state, nonce, PKCE, refresh tokens, consent, or explain how an OAuth or OIDC chain turns into accepted identity or privilege. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition OAuth OIDC Chain · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is proving how an OAuth or OIDC flow is shaped, exchanged, and ultimately accepted. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record issuer, client ID, redirect URI, authorize parameters, callback parameters, token endpoint, and refresh path. · Note which values are user-controlled, derived, cached, or validated: …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-pcap-protocol",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for packet capture analysis, session reconstruction, application-protocol decoding, stream reassembly, beacon timing, and packet-to-process correlation. Use when the user asks to analyze a PCAP, rebuild TCP or UDP sessions, decode HTTP, WebSocket, DNS, custom C2, or binary protocols, extract transferred artifacts, or tie packet sequences to host or malware behavior. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition PCAP Protocol · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive evidence sits inside packet order, protocol framing, or stream reconstruction rather than a single IOC or host log. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify endpoints, protocols, ports, TLS handshakes, DNS lookups, websocket upgrades, and long-lived streams. · Note missing capture coverage, asymmetric routin…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-prompt-injection",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-prompt-injection/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for prompt-injection, retrieval poisoning, memory contamination, planner drift, MCP or tool-boundary abuse, and agent exfiltration challenges. Use when the user asks to analyze prompt injection, retrieval poisoning, memory contamination, planner drift, tool-argument corruption, or secret exposure caused by an agent chain. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Prompt Injection · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge is primarily about trust boundaries inside an agentic system. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Track system, developer, user, retrieved, memory, planner, and tool-response layers separately. · Distinguish claimed capability from runtime-exposed capability. · Note what the model can actually call, read, or…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-queue-worker-drift",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-queue-worker-drift/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for queues, async workers, cron jobs, delayed tasks, retry behavior, worker-only config drift, and payload-to-side-effect chains. Use when the user asks to trace a queue payload, inspect async job execution, explain worker-only behavior, follow retries or dead-letter handling, or connect an enqueued item to a later file, cache, email, or privilege-bearing side effect. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Queue Worker Drift · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive effect happens after enqueue, inside a worker, or only under async runtime state that differs from the request path. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record queue names, topics, cron schedules, delayed jobs, dead-letter queues, worker processes, and consumer groups. · Note which config, env vars, feature…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-race-condition-state-drift",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for race windows, ordering bugs, idempotency failures, lock gaps, concurrent worker drift, and state inconsistencies that produce decisive effects. Use when the user asks to reproduce timing-sensitive bugs, concurrent state corruption, duplicate actions, stale reads, or privilege or balance drift caused by request ordering. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Race Condition State Drift · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive behavior depends on request timing, async ordering, lock gaps, or stale state. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record transaction scope, lock behavior, retry logic, idempotency keys, cache invalidation, and queue handoff. · Note where read-check-write is split across requests, workers, or servic…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-relay-coercion-chain",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for forced-auth coercion, relay chains, target selection, NTLM or related acceptance paths, and coercion-to-privilege transitions. Use when the user asks to trace a coercion primitive, follow a relay path, analyze forced authentication, determine which service accepts relayed auth, or connect a coercion step to resulting privilege, enrollment, or code execution. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Relay Coercion Chain · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the hard part is proving the full chain from forced authentication to a service that actually accepts the relayed identity. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify the service, RPC, file path, printer path, WebDAV edge, or protocol trigger that forces authentication. · Record source host, coerced principal, trans…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-request-normalization-smuggling",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for parser differentials, HTTP normalization gaps, ambiguous headers, path decoding drift, transfer-framing mismatches, and request smuggling routes. Use when the user asks to trace proxy and backend parse differences, conflicting path normalization, Host or forwarded-header ambiguity, CL/TE issues, or routing outcomes that differ across hops. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Request Normalization Smuggling · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when request interpretation changes between proxy, middleware, and backend parser layers. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record  , forwarded headers, path decoding, slash collapsing, dot-segment handling, and case behavior. · Note  ,  , chunk framing, and connection reuse behavior when relevant. · Keep edge…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-reverse-pwn",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse engineering, malware, DFIR, firmware, pwnable, and native exploit challenges. Use when the user asks to reverse a binary, unpack a sample, inspect a memory dump or PCAP, recover malware behavior, debug a crash, or build or verify an exploit chain under sandbox assumptions. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Reverse Pwn · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill for binary-heavy challenges where the decisive path runs through artifacts, decoded layers, process behavior, crash state, or exploit primitives. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Separate loader, payload, config, and post-decode behavior. · Correlate files, memory, logs, registry, services, tasks, IPC, and PCAPs as one graph. · …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-runtime-routing",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse proxies, Host headers, forwarded headers, vhost routing, websocket upgrades, path-prefix rewriting, base-URL derivation, and multi-node route resolution. Use when the user asks which host or container serves a route, why a public-looking domain still belongs to the sandbox, how headers or proxies change behavior, or how a route resolves across proxy, container, and worker boundaries. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Runtime Routing · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive question is which sandbox node, proxy rule, or header-derived branch actually serves the live request. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Inspect vhost rules, reverse proxies, forwarded headers, path-prefix rewrites, upstream pools, and websocket or SSE upgrades. · Note which parts of the request influence ro…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-ssrf-metadata-pivot",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for SSRF reachability, internal route probing, metadata-service access, credential pivoting, and token-to-accepted-privilege chains. Use when the user asks to trace SSRF sources, internal hosts, metadata endpoints, link-local tokens, service-account credentials, or explain how a server-side fetch edge turns into accepted access. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition SSRF Metadata Pivot · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive path runs through server-side request capability, internal service reachability, or metadata-derived credentials. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record source primitive: URL parameter, webhook, image fetcher, importer, proxy endpoint, or backend callback. · Note normalization steps: scheme filtering, …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-stego-media",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-stego-media/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for image, audio, video, document, and container steganography. Use when the user asks to inspect metadata, alpha or palette channels, LSBs, thumbnails, appended trailers, QR fragments, transcoding artifacts, or recover a hidden payload from media without blind brute force. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Stego Media · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge lives inside a media container, hidden channel, or appended payload rather than a conventional crypto blob. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Inspect headers, chunk tables, EXIF or document metadata, container indexes, thumbnails, and file size anomalies. · Compare declared format against observed structure to …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-supply-chain",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-supply-chain/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for CI/CD, registry, dependency drift, artifact provenance, image build, release pipeline, and runtime consumer challenges. Use when the user asks to trace dependency drift, registry pulls, malicious packages, build or release tampering, CI execution, artifact signing, or which shipped artifact the runtime actually consumes. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Supply Chain · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge is really about provenance, dependency drift, build output, release flow, or what runtime artifact actually got shipped. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Map source checkout, lockfiles, dependency fetch, pre/post-install steps, build scripts, packaging, publish target, and runtime consumer. · Compare declared…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-template-render-path",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-template-render-path/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for SSR, template rendering, route loaders, hydration payloads, server-client render boundaries, and template-to-handler enforcement gaps. Use when the user asks to inspect SSR or template routes, trace render context or hydration data, compare template gating with handler enforcement, explain preview or hidden-route rendering, or connect render pipeline behavior to the decisive branch. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Template Render Path · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive bug or artifact lives in route resolution, server render context, template data, or hydration handoff rather than in a plain JSON API alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record host, path, route match, loader, template, layout, hydration blob, and client boot chunk for the active view. · Note wheth…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-web-runtime",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-web-runtime/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for CTF web, API, SSR, frontend, queue-backed app, and routing challenges. Use when the user asks to inspect a site or API, follow real browser requests, debug auth or session flow, trace uploads or workers, find hidden routes, or explain why frontend and backend behavior diverge under sandbox-internal routing. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Web Runtime · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the active challenge is primarily about web behavior, browser state, server routing, API order, or worker-backed application flow. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Identify active hosts, paths, proxies, containers, and workers. · Inspect cookies, localStorage, sessionStorage, IndexedDB, Cache Storage, and service workers. ·…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-websocket-runtime",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for WebSocket and SSE handshakes, auth material, subscription state, realtime message schemas, reconnect behavior, and frame-driven runtime effects. Use when the user asks to inspect a WebSocket or SSE handshake, decode frames, trace subscriptions, follow reconnect logic, inspect auth material sent during realtime setup, or explain how live frames change rendered or persisted state. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition WebSocket Runtime · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the decisive behavior is carried by realtime handshake and frame flow rather than one-shot HTTP alone. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Record the initial HTTP or SSE request, upgrade headers, cookies, tokens, query params, origin checks, and negotiated protocol. · Note whether auth material is carried by headers, coo…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "competition-windows-pivot",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/competition-windows-pivot/SKILL.md",
+    "description": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Kerberos, WinRM, SMB, RDP, Windows credential material, replayable tickets, delegation edges, and host-to-host pivot chains. Use when the user asks to replay Kerberos material, trace a WinRM, SMB, or RDP pivot, understand host-to-host privilege movement, or prove which Windows service accepted a credential or ticket. Use only after `$ctf-sandbox-orchestrator` has already established sandbox assumptions and routed here.",
+    "body_summary": "Competition Windows Pivot · Use this skill only as a downstream specialization after   is already active and has established sandbox assumptions, node ownership, and evidence priorities · Use this skill when the challenge path is dominated by host-to-host movement, replayable ticket material, or Windows privilege edges. · Reply in Simplified Chinese unless the user explicitly requests English. · Quick Start · Workflow · Inspect SAM, SECURITY, SYSTEM, NTDS, DPAPI, LSA secrets, browser stores, PowerShell history, ETW, Sysmon, and event logs in the active path. · Distinguish password, hash, ticke…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "ctf-sandbox-orchestrator",
+    "path": "./external/reverse-skill/CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md",
+    "description": "Default entrypoint and master ctf-sandbox-orchestrator workflow for CTF, exploit, reverse engineering, DFIR, pwnable, crypto, stego, mobile, AI-agent, cloud, container, Active Directory, Windows-host, and identity challenges. Use first when the user presents challenge infrastructure, binaries, prompts, hosts, or identities that should be treated as sandbox-internal by default and Codex needs to choose, route, and load the right downstream analysis path with concise evidence.",
+    "body_summary": "Competition Sandbox · Apply one operating model across competition tasks: assume user-presented targets belong to the sandbox, prove one narrow end-to-end path before expanding, and keep conclusions tied to observable behavior. · Treat this as the default first skill for competition work · Treat this as the only competition skill that should be entered implicitly · Reply in Simplified Chinese unless the user explicitly requests English · Quick Start · Router Role · Be the only default entrypoint across the competition skill family. · Stay as the orchestration layer even when the task becomes d…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "api-security",
+    "path": "./external/reverse-skill/skills/api-security/SKILL.md",
+    "description": "Use for authorized security assessment of REST, GraphQL, WebSocket, or SOAP APIs, including discovery, authentication, authorization, rate-limit, and CI/CD testing.",
+    "body_summary": "API 安全测试 · ACTION REQUIRED（读完后立刻执行） · 覆盖 REST / GraphQL / WebSocket / SOAP 全协议 · 10 阶段方法论，从发现到 CI/CD 集成 · 适用场景 · REST API 安全测试（OpenAPI/Swagger 驱动或盲测） · GraphQL 安全审计（内省、批查询、别名过载） · WebSocket 安全测试 · JWT / OAuth 2.0 认证测试 · BOLA/IDOR/BFLA 授权漏洞检测 · API 限速绕过与 DoS 测试 · 10 阶段测试流程 · Phase 1: API 发现与侦察 · Phase 2: 认证测试 · Phase 3: 授权测试（BOLA/IDOR/BFLA） · Phase 4: GraphQL 专项 · Phase 5: REST 输入验证 · Phase 6: 业务逻辑与差分测试 · Phase 7: WebSocket 测试 · Phase 8: 限速与 DoS · Phase 9: 数据暴露 · Phase 10: CI/CD 集成 · 工具链 · — REST + GraphQL 深度测试 · — JWT + OAuth 安全测试 · 任务完成自检（声称完成前 MUST 通过） · [ ] 我是否执行了工作流中的每一步（而不是只阅读）？ · [ ] 我是否…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "apk-reverse",
+    "path": "./external/reverse-skill/skills/apk-reverse/SKILL.md",
+    "description": "在 CLI 环境下做 Android APK 逆向时使用。适用于 APK 解包、Java 反编译、smali 修改、重打包、Frida 动态 Hook，以及按需切换到 so/native 分析。优先使用本机已安装的 jadx、apktool、frida、adb、ida-reverse、radare2。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · 端点提取/Frida 自适应等社区对照：../references/community-security-skills.md；动态分析须 scope 授权设备 · APK 逆向 CLI 作业规范 · 适用范围 · 当任务属于以下场景时优先使用本 skill： · 分析 APK 的 Java 业务逻辑 · 定位登录、签名、风控、证书校验、root 检测 · 查看与修改 · 查看与修改 smali · 重打包 APK · 用 Frida 做 Java/native 动态 Hook · APK 内含   时切到 native 分析 · 当前机器已验证可用的 CLI 工具 · 优先使用脚本的场景 · 以下流程高频且参数容易出错，优先用 skill 自带脚本： · 一次性完成   落盘并产出摘要： · Frida 设备检查、进程列举、spawn/attach 注入： · 重建、对齐、签名、安装 APK： · 快速抽取 Manifest 关键组件与权限： · 以下一行命令保持直接调用，不单独封装： · 自带脚本 · 用途： · 统一跑   和 · 默认在原 APK 同目录创建任务输出目录 · 输出  、 、 、  等摘要 · 兼容   部分反编译错误但仍然有可用产物的情况 · 示例： · 统一 Frida 的设备、进程、spawn/atta…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "attack-chain",
+    "path": "./external/reverse-skill/skills/attack-chain/SKILL.md",
+    "description": "Use for authorized multi-stage attack-path planning and orchestration when a task spans reconnaissance, initial access, privilege escalation, lateral movement, or impact assessment. Route single-stage tasks directly to their specialist skill.",
+    "body_summary": "Attack Chain Orchestration Skill · ACTION REQUIRED（读完后立刻执行） · 多阶段攻击路径规划与执行的总指挥 · 不是\"红队专属\"——任何需要跨阶段组合的渗透场景都从这里开始 · 何时路由到本 Skill · 以下场景**必须**先经过本 Skill 做全链路规划，再分发到具体子 Skill 执行： · 只做端口扫描 → 直接去 · 只做 SQL 注入 → 直接去 · 只做 APK 逆向 → 直接去 · 只做域渗透 → 直接去 · 编排原则 · 本 Skill 的角色 · 路径规划决策树 · 完整攻击链阶段 · 一、信息收集阶段（Reconnaissance） · 1.1 企业数字资产测绘 · 通过企查查/天眼查获取子公司列表，扩大攻击面 · 关注测试环境（test.、dev.、staging.）和新上线系统 · 证书透明度日志（crt.sh）发现隐藏域名 · 1.2 敏感信息泄露狩猎 · 云服务 AK/SK（阿里云、AWS、Azure） · 数据库连接字符串 · JWT 密钥 · 内部 API 文档 · VPN/堡垒机凭据 · 1.3 员工信息画像 · 脉脉/LinkedIn 部门架构 · 企业公众号/官网团队介绍 · 招聘信息（技术栈暴露） · 学术论文（邮箱暴露） · 1.4 技术栈指纹识别 · 二、边界突破阶段（Initial…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "binary-diff",
+    "path": "./external/reverse-skill/skills/binary-diff/SKILL.md",
+    "description": "跨版本符号迁移与二进制差分。当你有旧版本的符号/逆向结果，需要快速迁移到新版本时使用。\n适用场景：内核缺 PDB 用旧版符号推导、程序更新后批量迁移函数名、应用更新后快速定位新偏移。\n核心方法：用 LLM 做结构化差异比对，程序化输入输出，成本极低（200 函数 ~1 元）。\n触发关键词：符号迁移、bindiff、跨版本、PDB 缺失、函数偏移迁移、symbol migration、binary diff、版本对比。",
+    "body_summary": "跨版本符号迁移 (Binary Diff) · ACTION REQUIRED（读完后立刻执行） · 适用范围 · 当任务属于以下场景时使用本 skill： · 与其他 skill 的分工 · 核心优势 · 相比传统方案： · 核心原理 · 关键点： · prompt 是固定模板，程序化填充 · 输入输出格式确定，程序化解析 · LLM 只负责\"看两段代码，找出对应关系\"这一步 · 时间成本和 token 成本极低 · Prompt 模板 · 标准比对 Prompt · yaml · found_vcall: # This is for indirect call to virtual function or virtual function pointer fetching. · insn_va: '0x180777700' # Always be the instruction with displacement offset · insn_disasm: call [rax+68h] # Always be the instruction with displacement offset · vfunc_offset: '0x68' · func_name: ILoopMode_OnLoopActivate · insn_va: '0x180777778' # Always …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "browser-automation",
+    "path": "./external/reverse-skill/skills/browser-automation/SKILL.md",
+    "description": "统一自动化入口。覆盖浏览器自动化（Playwright）和 Windows 桌面应用自动化（OpenReverse）。\n浏览器场景：打开网页、点击、填表、爬取、截图、自动化登录、渗透页面交互。\n桌面场景：操作 IDA/x64dbg 等 GUI 工具、Windows UI Automation、视觉驱动交互、桌面应用网络抓包。\n触发关键词：浏览器自动化、桌面自动化、打开网页、填表、爬取、截图、自动化登录、Playwright、agent-browser、headless、OpenReverse、UIA、CUA、桌面操作、Windows 自动化。",
+    "body_summary": "自动化操作 (Desktop & Browser Automation) · ACTION REQUIRED（读完后立刻执行） · 适用范围 · 当任务属于以下场景时使用本 skill： · 浏览器场景（Playwright / agent-browser） · 打开网页并操作页面元素（点击、填表、提交） · 爬取页面内容或截图 · 自动化登录流程 · 渗透测试中与 Web 页面交互（提交 payload、触发 XSS） · 验证码页面的自动化处理 · 批量表单提交 · 桌面应用场景（OpenReverse） · 操作 Windows 桌面应用（IDA Pro、x64dbg、Wireshark 等） · 需要视觉驱动交互（CUA 模式） · 需要结构化 UI 操作（UIA 模式） · 桌面应用的网络流量观察（内置 mitmproxy） · 自动化逆向工具的 GUI 操作 · 黑盒测试桌面软件 · 与其他工具的分工 · 简单判断： · 目标是网页 → Playwright · 目标是 Windows 桌面应用 → OpenReverse · 两者都需要 → 组合使用 · Part 1: 浏览器自动化（Playwright / agent-browser） · 核心工作流 · 命令参考 · 注意事项 · 必须执行  ，否则进程泄漏 · 操作前先 snapshot，不要猜元素引用 · 提…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "browser-extension-reverse",
+    "path": "./external/reverse-skill/skills/browser-extension-reverse/SKILL.md",
+    "description": "Use for authorized reverse engineering of browser extensions (Chrome/Firefox) including manifest analysis, background workers, and extension-based credential or traffic logic recovery.",
+    "body_summary": "Browser Extension Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · Chrome/Edge MV2/MV3 扩展分析 · Firefox 扩展 · 恶意扩展 IOC、供应链扩展投毒调查 · 扩展实现的签名/加密/代理逻辑还原 · 工作流 · 工具链 · field-journal 扩展恢复相关条目 · 路由上下文 · 任务完成自检 · [ ] 是否列出权限面与入口脚本？ · [ ] 是否还原关键数据流？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "cloud-k8s",
+    "path": "./external/reverse-skill/skills/cloud-k8s/SKILL.md",
+    "description": "Use for authorized cloud, container, and Kubernetes security assessment including metadata SSRF, IAM misconfig, container escape paths, and cluster RBAC review.",
+    "body_summary": "Cloud / Container / Kubernetes Security · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 云元数据 SSRF（169.254.169.254 / IMDS） · IAM 过度权限、公开存储桶、错误安全组 · Docker/containerd 逃逸路径评估 · Kubernetes RBAC、Secrets、Admission、供应链镜像 · 容器镜像漏洞（可联动  ） · 工作流 · Phase 1 — 身份与边界 · Phase 2 — 云控制面 · Phase 3 — 容器 · Phase 4 — Kubernetes · 工具链 · CTF 对照： · 路由上下文 · 任务完成自检 · [ ] 是否限定在授权账号/cluster？ · [ ] 发现是否含复现与影响？ · [ ] 是否避免破坏性操作？ · [ ] 报告 / journal？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "code-audit",
+    "path": "./external/reverse-skill/skills/code-audit/SKILL.md",
+    "description": "Use for authorized source-code security review and SAST workflows including Semgrep, CodeQL patterns, dangerous API hunting, and fix verification.",
+    "body_summary": "Source Code Security Audit · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 白盒审计、PR/差分安全审查 · Semgrep / CodeQL / Bandit / gosec 等 SAST · 危险 API、注入点、鉴权缺失、加密误用 · 与   分工：本 skill 偏**自有代码逻辑**，供应链偏依赖与管道 · 工作流 · 工具链 · （Agent 代码） · 路由上下文 · 任务完成自检 · [ ] 是否人工验证而非只贴扫描器输出？ · [ ] 是否含修复建议？ · [ ] 是否限定在授权仓库范围？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "database-security",
+    "path": "./external/reverse-skill/skills/database-security/SKILL.md",
+    "description": "Use for authorized database security assessment covering PostgreSQL/MySQL/MSSQL/Mongo/Redis exposure, authz, UDF/command paths, and misconfiguration review.",
+    "body_summary": "Database Security Assessment · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 数据库未授权/弱口令/错误绑定 0.0.0.0 · 权限过大、危险功能（xp_cmdshell、COPY PROGRAM、UDF） · 横向：从应用账号到 DBA · NoSQL 注入与 Redis 写文件等（授权环境） · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否避免未授权写删？ · [ ] 是否区分配置问题与可利用链？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "diagram-generator",
+    "path": "./external/reverse-skill/skills/diagram-generator/SKILL.md",
+    "description": "generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source. use for flowcharts, swimlanes, sequence diagrams, state diagrams, er diagrams, class diagrams, architecture/c4-style diagrams, dependency graphs, gantt charts, mind maps, user journeys, sankey-style flows, org charts, network graphs, and other visual models. supports mermaid by default, graphviz dot for complex graph layout, plantuml for uml-heavy engineering diagrams, and svg output when direct markup is more reliable.",
+    "body_summary": "Diagram Generator · ACTION REQUIRED（读完后立刻执行） · Purpose · Create clear, editable diagrams from messy or structured inputs · Default workflow · Do not over-ask for clarification · Diagram language decision table · Use Mermaid unless another language is clearly better. · Output policy · Always provide editable source unless the user explicitly asks only for an image. · Default to a single best diagram · Prefer stable, simple syntax over fancy features that may not render in older Mermaid/PlantUML versions. · Use short labels · Avoid ambiguous node IDs · Preserve user terminology, but standardize …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "digital-forensics",
+    "path": "./external/reverse-skill/skills/digital-forensics/SKILL.md",
+    "description": "Use for authorized digital forensics including memory dumps, disk timelines, PCAP investigation, artifact triage, and IR evidence preservation.",
+    "body_summary": "Digital Forensics & IR Artifacts · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 内存转储分析（Volatility 2/3） · 磁盘/ E01 / 落地文件时间线 · PCAP 溯源与协议还原（可联合  ） · 主机伪影：Prefetch、Shimcache、Event Log、浏览器历史 · 应急响应 IOC 提炼（联合   /  ） · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否保全哈希与副本策略？ · [ ] 时间线是否可复核？ · [ ] IOC 是否脱敏分级？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "docs-generator",
+    "path": "./external/reverse-skill/skills/docs-generator/SKILL.md",
+    "description": "Creates task-oriented technical documentation with progressive disclosure. Use when writing READMEs, API docs, architecture docs, or markdown documentation.\nAlso use this skill at the END of any completed reverse engineering, penetration testing, CTF, or security analysis task to generate a formal report in the user's project directory.\nTrigger keywords: 写报告, 写文档, 出报告, writeup, 技术文档, report, documentation.",
+    "body_summary": "Technical Documentation · ACTION REQUIRED（读完后立刻执行） · For writing style, tone, and voice guidance, use   with **The Engineer** persona. · 安全/逆向任务文档输出 · 当逆向/渗透/CTF/安全分析任务完成后，本 skill 负责在**用户项目目录**生成正式技术文档 · 触发时机 · 模板选择 · 输出规范 · 输出位置**：用户当前项目目录（不是 skill 包目录） · 文件名格式**： · 如果项目有   目录**：优先放在   下 · 编码**：UTF-8 · 语言**：跟随用户对话语言（中文对话出中文报告，英文对话出英文报告） · 质量要求 · 所有代码块必须可直接运行或有明确上下文 · 不要有 placeholder/TODO · 关键发现必须有证据支撑 · 复现步骤必须让第三方能独立重现 · 敏感信息（真实 token、密码、内部 URL）用占位符替代 · MUST** 包含 Evidence → Finding → Path 链（见   与模板 §0） · SHOULD** 引用 case   /  （ ） · 图表集成 · 生成报告时，应在适当位置调用   skill 生成可视化图表： · 图表以 Mermaid 代码块形式嵌入报…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "dotnet-reverse",
+    "path": "./external/reverse-skill/skills/dotnet-reverse/SKILL.md",
+    "description": ".NET / C# 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C# 编译产物（含 NativeAOT）、红队 Sharp* 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / SmartAssembly / Babel / Eazfuscator）、.NET loader / info-stealer / 套壳 malware 时使用。优先用 dnSpyEx + de4dot，需要 AI 直接操作时联动 dnSpy MCP。不用于纯 native 二进制（走 reverse-engineering / ida-reverse）。",
+    "body_summary": ".NET / C# 逆向作业规范 · ACTION REQUIRED（读完立刻执行） · 适用范围 · 当任务属于以下场景时优先使用本 skill： · 识别并逆向 .NET / C# 编译产物（托管 PE / .exe / .dll） · 分析红队 Sharp* 工具链（Rubeus、SharpHound、SharpShell 等） · 脱混淆 ConfuserEx / SmartAssembly / Babel / Eazfuscator / .NET Reactor 等壳 · 逆向 .NET loader / info-stealer / RAT 的解密与 C2 逻辑 · 对 C# 程序做 patch（改判断、改常量、keygen） · 分析 IL2CPP 之前的 Mono/Unity 托管层（注意：IL2CPP 编译后是 native，走   + seed-014） · 如果目标是纯 native 二进制（C/C++/Go/Rust 编译、无 CLR），请改用  、  或 · 核心原则 · 先识别再下手**：先确认是 .NET 托管程序（PE 头 CLR +   /   流 + mscoree  ），再决定走 dnSpy 而非 IDA · IL 优先于 C#**：dnSpyEx 的 C# 反编译器会丢失/扭曲信息（编译器生成的状态机、async/await、yield），关…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "edr-bypass-re",
+    "path": "./external/reverse-skill/skills/edr-bypass-re/SKILL.md",
+    "description": "逆向防御方实现 → 红队针对性绕过。把 EDR / Defender / AV 的 hook 表、ETW provider、AMSI 实现先逆向出来，\n再写针对性的 unhook / 间接 syscall / ETW patch / call stack spoof。对照 MITRE ATT&CK T1562 防御规避。\n触发关键词：EDR 绕过、AV bypass、免杀、unhook、direct syscall、indirect syscall、Hell's Gate、Halo's Gate、\nTartarus Gate、ETW patch、AMSI patch、call stack spoofing、hardware breakpoint Blindside、MITRE T1562、\nntdll unhook、kernel callback、CrowdStrike 绕过、Defender 绕过、Sentinel One 绕过、Elastic Defend、\nSysmon 规避、PPID spoof、Sleep mask、Process Hollowing、Reflective DLL。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · EDR 绕过：从防御方实现逆向到红队绕过 · 仅限授权红队 / 对抗演练 / 自有产品测试，禁止用于未授权目标 · 适用范围 · 红队 / 对抗模拟在已获授权的目标主机投递 implant 并躲避现代 EDR 时使用本 skill · 杀毒厂商对自家产品做完整 RE 给客户出商业评估报告（找厂商正式合作） · 未授权目标的免杀对抗（违法） · 普通病毒木马的免杀（本 skill 关注红队 OPSEC，不教恶意代码写法） · 与其他 skill 的分工 · 关注完整 kill chain，本 skill 只聚焦 **EDR 这一个对手** 的内部机制和针对性绕法 · 核心原理 · 关键认知： · EDR 不是黑盒** — 关键 hook / callback / provider 都能用 IDA + windbg 逆出来 · 绕过技术要组合使用** — 单独一个 unhook 解决不了 ETW 告警，单独 AMSI patch 解决不了 syscall hook · 顺序很重要** — 先 ETW patch → 再 AMSI patch → 再 unhook；顺序错了 EDR 先收到 unhook 告警 · 现代 EDR 已经把 ETW + kernel callback 当主战场**，单纯用户态 unhook 早已不够 · 工…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "email-security",
+    "path": "./external/reverse-skill/skills/email-security/SKILL.md",
+    "description": "Use for authorized email security review including phishing analysis, header authentication (SPF/DKIM/DMARC), BEC patterns, and mailbox token abuse research.",
+    "body_summary": "Email Security & Phishing Analysis · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 钓鱼邮件拆解与 IOC · SPF/DKIM/DMARC 配置评估 · BEC 商务邮件欺诈模式 · OAuth 应用钓鱼 / 邮箱令牌滥用（联合 llm/cloud 身份） · 安全意识演练设计（授权） · 工作流 · 工具链 · （钓鱼阶段）  （令牌） · 路由上下文 · 任务完成自检 · [ ] 头认证结论是否完整？ · [ ] IOC 是否可检测化（联合 threat-hunting）？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "firmware-pentest",
+    "path": "./external/reverse-skill/skills/firmware-pentest/SKILL.md",
+    "description": "固件 / IoT 渗透链。从拿到一坨 .bin / .img 开始，闭环走完逆向 → 提取 → 模拟 → 利用。\n方法论遵循 OWASP FSTM 九阶段；工具链以 binwalk v3、unblob、EMBA、Firmadyne、AFL++ 为主。\n适用场景：路由器/摄像头/智能家居固件审计、固件升级包逆向、IoT CVE 复现、嵌入式 0day 挖掘。\n触发关键词：固件、firmware、IoT、binwalk、unblob、UART、JTAG、squashfs、UBI、JFFS2、Firmadyne、QEMU 全系统仿真、EMBA、固件渗透、路由器固件、嵌入式漏洞利用、bootloader、NVRAM、FAT、firmware analysis toolkit。",
+    "body_summary": "固件 / IoT 渗透链 (Firmware Pentest) · ACTION REQUIRED（读完后立刻执行） · 适用范围 · 下列任务进入本 skill： · 与其他 skill 分工 · 核心原理 · 关键判断： · 提取失败不等于固件加密，先把 binwalk v2、binwalk v3、unblob、jefferson、ubi_reader 全跑一遍 · EMBA 一行命令出 HTML 报告，能省 80% 体力，剩 20% 是真正的漏洞挖掘 · 仿真起不来时优先怀疑 NVRAM 缺失、网卡名错配、  节点缺失 · ARM / MIPS payload 必须区分大小端（mipsel vs mipseb），别用错 · OWASP FSTM 九阶段工作流 · Stage 1 — 信息收集（Information Gathering） · 收集型号、芯片、SDK、已公开 CVE · 输出：芯片型号、SDK 来源（SDK 决定 binwalk 能否一把成功） · Stage 2 — 获取固件（Obtaining Firmware） · 四条路：官网下载、OTA 抓包、UART 落 shell 后 dump、SPI flash 物理读 · Stage 3 — 分析固件（Analyzing Firmware） · 不解压先看头部、熵、字符串、可识别签名 · Stage 4 — 提…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "ghidra-reverse",
+    "path": "./external/reverse-skill/skills/ghidra-reverse/SKILL.md",
+    "description": "Use for free/open reverse engineering with Ghidra (headless or GUI), including decompile, cross-refs, and optional Ghidra MCP workflows when IDA is unavailable.",
+    "body_summary": "Ghidra Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 无 IDA 许可证时的主逆向入口 · 批量 headless 分析 / CI 中反编译 · Ghidra 脚本（Java/Python Jython/PyGhidra）自动化 · 与   /   的 ghidriff 联动 · 与 IDA 分工 · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否基于真实 Ghidra/tool-index 路径？ · [ ] 是否标注函数地址与重命名？ · [ ] 是否有可复现步骤？ · [ ] Checklist / journal？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "go-rust-reverse",
+    "path": "./external/reverse-skill/skills/go-rust-reverse/SKILL.md",
+    "description": "Use for reverse engineering stripped Go and Rust binaries including runtime recognition, pclntab/moduel data recovery, panic strings, and idiomatic decompilation recovery.",
+    "body_summary": "Go / Rust Binary Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 剥离符号的 Go 恶意软件/工具 · Rust 发行二进制、panic 字符串驱动分析 · 与通用 ida/ghidra 互补的语言专用方法 · 工作流 · Rust · 工具链 · seed: · 路由上下文 · 任务完成自检 · [ ] 是否恢复关键函数名或等价映射？ · [ ] 是否标注语言运行时证据？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "hardware-security",
+    "path": "./external/reverse-skill/skills/hardware-security/SKILL.md",
+    "description": "Use for authorized hardware and embedded interface security research including UART/JTAG discovery, debug pad triage, secure boot overview, and offline firmware extraction support.",
+    "body_summary": "Hardware / Embedded Interface Security · ACTION REQUIRED（读完后立刻执行） · 适用场景 · UART / JTAG / SWD 调试口发现 · 启动日志、root shell、引导打断 · 配合拆机提取 Flash · 安全启动/加密 Flash 的可行性评估（非破坏性优先） · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否记录接口电平与引脚图？ · [ ] 镜像是否哈希保全？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "ida-reverse",
+    "path": "./external/reverse-skill/skills/ida-reverse/SKILL.md",
+    "description": "IDA Pro 逆向分析辅助技能。当用户提到逆向、反编译、分析二进制/PE/ELF/APK/DLL/SO、破解、找密码、漏洞分析、病毒分析、firmware 固件分析，或需要分析 exe/dll/so/elf/macho/sys 等文件时，务必使用此技能。\nEnsure to use this skill when the user wants to analyze any binary file, regardless of whether they explicitly mention \"IDA\" or \"reverse engineering\". This includes requests like \"看看这个exe\", \"分析这个dll\", \"帮我破解\", \"找一下密码\", \"这个软件怎么注册\", etc.\nUse the bundled scripts (scripts/start.ps1, scripts/open.ps1) for deterministic server management and file opening — do NOT write ad-hoc PowerShell commands for these operations.",
+    "body_summary": "IDA Pro 逆向分析技能 · ACTION REQUIRED（读完后立刻执行） · 已知问题与反思（必读） · 踩过的坑 · 部分代码 AI 客户端 的 MCP 客户端对   的 output schema 校验有 BUG · 报错： · 解决办法**：使用   脚本通过 HTTP API 直调，绕过 MCP 校验层 · 文件打开后，数据库绑定到共享上下文，其他所有   工具可直接使用 · idalib 无法直接读取 System32 目录下的文件 · 解决办法**：  自动检测并复制到   目录后再打开 · 启动后会持续输出 INFO 日志到控制台 · 解决办法**：使用  （  后台静默启动） · 脚本会等待服务就绪后自动退出，不阻塞对话 · 之前用   作为服务器名，可能引起工具注册问题 · 当前配置**：服务器名  ，工具前缀 · （stdio）模式：  同样有 schema 校验问题 · （HTTP）模式：可以先用脚本直开文件，再用 MCP 工具 · 当前方案**：Remote HTTP 模式 · 作者 mrexodia 在 issue #388 后通过 PR #389 合并了修复 · 修复了 HTTP 模式下的 structuredContent schema，但 部分代码 AI 客户端 侧校验仍有问题 · 已安装最新   分支版本 · 第一次   超时后，idal…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "identity-federation",
+    "path": "./external/reverse-skill/skills/identity-federation/SKILL.md",
+    "description": "Use for authorized assessment of federated identity systems including SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token confusion issues.",
+    "body_summary": "Identity Federation (SAML / OIDC / OAuth) · ACTION REQUIRED（读完后立刻执行） · 适用场景 · SAML Response 签名/断言篡改面（经典缺陷模式） · OIDC 隐式/授权码 + PKCE 缺失 · redirect_uri / state / nonce 问题 · IdP 与 SP 元数据、多租户 issuer 混淆 · 与   JWT 攻击互补（本 skill 偏联邦与 SSO 流） · 工作流 · 工具链 · （企业 IdP） · 路由上下文 · 任务完成自检 · [ ] 是否映射完整 SSO 流？ · [ ] 每个 Finding 是否有复现与影响？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "js-reverse",
+    "path": "./external/reverse-skill/skills/js-reverse/SKILL.md",
+    "description": "在使用 js-reverse-mcp 做前端 JavaScript 逆向时使用，适用于签名链路定位、页面观察取证、运行时采样、本地补环境复现与证据化输出。优先适配当前环境里的 js-reverse_* 工具，需要更强的浏览器/CDP/Hook 面时联动 jshookmcp。",
+    "body_summary": "MCP 前端 JS 逆向作业规范 · ACTION REQUIRED（读完后立刻执行） · 适用范围 · 当任务属于以下场景时优先使用本 skill： · 定位接口签名、加密参数、风控字段 · 观察页面请求链路与脚本来源 · 在运行时抓取函数入参与返回值 · 追踪某个 XHR/Fetch/WebSocket 的触发点 · 把页面证据带回 Node 做本地复现与补环境 · 如果目标是二进制、APK、PE、ELF、DLL、SO，请改用  、  或 · 当前环境默认工具映射 · 本 skill 不假设存在裸工具名，而是默认绑定当前客户端环境里可用的   工具 · 如果当前任务明确提到  、 、 、浏览器断点、网络拦截、SourceMap 或 AST 去混淆，也仍然走本 skill；只是把底层 MCP 面切到  ，而不是把它当成一个新的总入口 · 前提条件：  不是本地裸命令工具，而是一个要先下载/注册/启用的 MCP server · 常用映射： · 如果未来工具名前缀变化，先更新本节，不要在执行时临时猜测 · jshookmcp 的定位 · 角色：  的增强执行面，不是独立总控 · 适合：浏览器自动化、CDP 调试、JS Hook、网络拦截、SourceMap 重建、AST 辅助理解 · 调用前提：先把   下载并注册到 MCP 客户端配置里，然后确保该 server 已启用 · 建议…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "llm-security",
+    "path": "./external/reverse-skill/skills/llm-security/SKILL.md",
+    "description": "Use for authorized security assessment of LLM applications and AI agents, including prompt injection, tool abuse, RAG exposure, memory poisoning, and model supply-chain risks.",
+    "body_summary": "LLM / AI 安全测试 · ACTION REQUIRED（读完后立刻执行） · Agent Skill 自身安全**：安装/合并外部 skill 或 MCP 前读  （OWASP AST10 精简） · 覆盖 OWASP LLM Top 10 v2.0 + OWASP Agentic AI Top 10（ASI 2026） · 当前路由未命中时，联网搜索最新漏洞利用技术 · 适用场景 · LLM 应用安全测试（ChatBot、RAG、Code Assistant） · AI Agent 安全审计（工具调用、记忆持久化、多智能体通信） · Prompt 注入测试（直接 + 间接） · 模型供应链安全评估 · 红队 AI 系统攻击模拟 · 工作流 · 按难度递进，先直接注入再间接注入： · 工具： （100+ 注入探针）、 （多轮编排）、 （AI 生成攻击） · LLM 输出可能被下游系统直接消费： · 工具链 · — OWASP LLM + ASI Top 10 完整对照 · — Prompt 注入方法论 · — Agent 安全测试框架 · — Agent 服从性工程：让 AI 读完工作流后真正干活（8 大技术 + 借口反驳表 + 强制执行模板） · 任务完成自检（声称完成前 MUST 通过） · [ ] 我是否执行了工作流中的每一步（而不是只阅读）？ · [ ] 我是否基于…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "macos-reverse",
+    "path": "./external/reverse-skill/skills/macos-reverse/SKILL.md",
+    "description": "Use for authorized macOS and Mach-O reverse engineering including codesign, Objective-C/Swift recovery, endpoint security surfaces, and Apple platform malware analysis.",
+    "body_summary": "macOS / Mach-O Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · Mach-O 可执行文件 / dylib / framework · .app bundle、LaunchAgent/Daemon · Objective-C / Swift 符号与 runtime · 公证/签名、Hardened Runtime、TCC 相关行为分析 · macOS 恶意软件静态/动态分析（联合 malware-analysis） · 工作流 · 工具链 · （iOS） · 路由上下文 · 任务完成自检 · [ ] 是否记录签名/Hardened Runtime 状态？ · [ ] 是否有地址级/符号级结论？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "malware-analysis",
+    "path": "./external/reverse-skill/skills/malware-analysis/SKILL.md",
+    "description": "Use when analyzing suspected malware through static, dynamic, and behavioral techniques, including IOC extraction, YARA or Sigma rules, sandboxing, and anti-analysis behavior.",
+    "body_summary": "Malware Analysis · ACTION REQUIRED（读完后立刻执行） · YARA / Sigma / 沙箱 / IOC 提取 / 反反分析 · 静态 + 动态 + 行为三合一 · 适用场景 · 恶意软件样本分析（PE/ELF/Mach-O/APK/脚本） · YARA 规则编写与验证 · Sigma 行为检测规则生成 · 沙箱自动化分析编排 · IOC 提取与威胁情报 · 反分析技术检测与绕过 · 六阶段分析流程 · Phase 1: 初步分诊 · Phase 2: 静态分析 · Phase 3: 沙箱动态分析 · Phase 4: YARA 规则编写 · Phase 5: Sigma 规则生成 · Phase 6: IOC 提取与情报 · 反分析技术速查 · 多 Agent 自动化分析 (SentinelHive 架构) · 工具链 · — YARA + Sigma 编写方法论 · — 沙箱编排与自动化 · — 94 种反分析技术检测 · 任务完成自检（声称完成前 MUST 通过） · [ ] 我是否执行了工作流中的每一步（而不是只阅读）？ · [ ] 我是否基于   使用了真实工具路径？ · [ ] 我是否产出了可复现证据（命令/脚本/截图/报告）？ · [ ] 我是否完成并回写了 RULES 要求的 Checklist 项？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "mobile-reverse",
+    "path": "./external/reverse-skill/skills/mobile-reverse/SKILL.md",
+    "description": "Use for authorized Android or iOS application reverse engineering and security testing, including APK or IPA analysis, runtime instrumentation, SSL pinning, and platform protection checks.",
+    "body_summary": "Mobile Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · Android + iOS 统一逆向方法论 · Frida / Objection / OWASP MSTG / SSL Pinning Bypass · 适用场景 · Android APK 逆向与安全测试 · iOS IPA 逆向与安全测试 · 移动应用运行时动态插桩 · SSL Pinning / Root 检测 / 越狱检测绕过 · 移动端加密算法提取（AES/RSA/HMAC 密钥） · 移动应用渗透测试（OWASP MASTG） · 非 Root/越狱环境下的应用测试 · 四阶段工作流 · Phase 1: 信息收集 · Phase 2: 静态分析 · Phase 3: 动态分析 · Phase 4: 网络分析 · 常见绕过速查 · SSL Pinning · Root / 越狱检测 · 反调试 · 移动端加密提取 · 工具链 · A=Android, I=iOS · — Frida + Objection 深度用法 · — iOS 逆向专项 · — Root/越狱/反调试/SSL Pinning 绕过 · 任务完成自检（声称完成前 MUST 通过） · [ ] 我是否执行了工作流中的每一步（而不是只阅读）？ · [ ] 我是否基于   使用了真实工具路径？ …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "ot-ics",
+    "path": "./external/reverse-skill/skills/ot-ics/SKILL.md",
+    "description": "Use for authorized OT/ICS security assessment covering Purdue model zoning, PLC/SCADA exposure, industrial protocol discovery, and safe passive-first evaluation.",
+    "body_summary": "OT / ICS Security · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 工控/SCADA/DCS 安全评估（授权） · Purdue 模型分区与跨区通道 · Modbus/DNP3/S7/EtherNet/IP 等协议暴露 · 工程师站、HMI、历史库、跳板主机 · IT/OT 融合边界（防火墙规则、单向闸） · 安全铁律（MUST） · 工作流 · Phase 1 — 分区与资产 · Phase 2 — 被动与只读 · Phase 3 — 受限主动（仅授权） · Phase 4 — 固件/补丁面 · 工具链 · via pentest-tools · 路由上下文 · 任务完成自检 · [ ] 是否默认被动/只读并记录授权边界？ · [ ] 是否避免对控制回路写操作（除非明确允许）？ · [ ] Finding 是否含物理/过程影响说明？ · [ ] Checklist / journal？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "patch-diff-exploit",
+    "path": "./external/reverse-skill/skills/patch-diff-exploit/SKILL.md",
+    "description": "N-day 补丁差分到利用。从厂商发布的补丁里反推漏洞点、写 PoC、做成可用的攻击模块。\n适用场景：已知 CVE 编号但只有补丁没有 PoC、SRC/红队需要打击未及时更新的资产、N-day 武器化、Patch Tuesday 跟进。\n核心方法：拿 before/after 二进制 → 对齐符号 → 二进制 diff → 看新增的安全检查反推 bug class → 写 PoC 触发漏洞。\n触发关键词：N-day、Nday、补丁差分、patch diff、patch tuesday、1day、binary diff 漏洞、bindiff 利用、ghidriff、Diaphora、补丁分析、CVE 复现、漏洞还原、补丁反推、N-day 武器化。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · N-day 补丁差分到利用 (Patch Diff Exploit) · 适用范围 · 当任务属于以下场景时使用本 skill： · 与其他 skill 的分工 · 差别的关键：  的目标是**让新版可分析**（把旧符号搬过来），本 skill 的目标是**找出补丁修了什么 bug 然后打补丁前的版本 · 核心原理 · 补丁修复模式 → 漏洞类型反查： · 工作流 · 5 步完整流程 · 工具调用顺序 · 典型场景示例 · 场景 1：Windows Patch Tuesday — Kernel CVE 复现 · 场景 2：Linux 内核 LTS 分支补丁找未修的旁支 · 注意事项 · 法律边界** — 武器化 N-day 必须在授权范围内（SRC / Bug Bounty / 自有靶机 / CTF） · 补丁可能只是\"减小爆炸半径\"** — 看到 patch 不一定就是完整修复，有可能只是补一个利用路径，原始 bug 仍可从别的路径触发（一鱼多吃） · 变量名/类型不要被欺骗** — Windows 补丁经常顺手做 cleanup / rename，看似变更很大但实际无关 · 微软的补丁可能加了 mitigation 而不是 fix** — 看到   这种 CFG 强化不要当成 fix，那是 mitigation · 匿名化*…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "pentest-tools",
+    "path": "./external/reverse-skill/skills/pentest-tools/SKILL.md",
+    "description": "主动渗透测试工具链。覆盖信息收集、端口扫描、漏洞扫描、Web 渗透、SQL 注入、目录爆破、密码破解等场景。\n通过 MCP server（pentestMCP / mcp-security-hub）将 20+ 安全工具暴露给 AI agent。\n触发关键词：渗透测试、端口扫描、Nmap、漏洞扫描、Nuclei、SQL 注入、SQLMap、目录爆破、FFUF、密码破解、Hashcat、信息收集、子域名、Web 渗透、ZAP、Burp。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · 渗透测试工具链 (Pentest Tools) · 适用范围 · 当任务属于以下场景时使用本 skill： · 目标信息收集（端口扫描、子域名枚举、服务识别） · 漏洞扫描（Web 漏洞、CVE 检测、配置错误） · Web 渗透（SQL 注入、XSS、SSRF、目录爆破） · 密码破解（哈希破解、字典攻击） · 网络渗透（服务利用、横向移动辅助） · 与其他 skill 的分工 · 简单判断： · 需要\"扫描目标、发现漏洞、利用漏洞\" → 本 skill · 需要\"分析程序内部逻辑\" → 逆向类 skill · 需要\"操作浏览器/桌面\" → browser-automation · 工具矩阵 · 信息收集 · 漏洞扫描 · Web 渗透 · 密码破解 · 利用框架 · MCP 后端选择 · 本 skill 支持两种 MCP 后端，选一个即可： · 方案 A：pentestMCP（推荐，Docker 一键） · 项目**：https://github.com/ramkansal/pentestmcp · 特点**：20+ 工具打包成单个 Docker 容器，MCP server 直接暴露 · 工具**：Nmap、Nuclei、ZAP、SQLMap、FFUF、Nikto、Gobuster、Subfinder、httpx 等 · 安…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "src-hunter",
+    "path": "./external/reverse-skill/skills/pentest-tools/src-hunter/SKILL.md",
+    "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill。包含：5 阶段方法论（intake → recon → enum → hunt → report）、19 个攻击类 playbook（SQLi/XSS/RCE/SSRF/IDOR/CSRF/Path Traversal/File Upload/SSTI/XXE/Race/HTTP Smuggling/OAuth/JWT/SAML/GraphQL/Mobile/LLM/DoS）、305 个结构化 payload、263 个 WAF/EDR 绕过变体、2887 份 HackerOne 真实 High/Critical 已披露案例、77,000+ WooYun 案例统计、国产 OA / 中间件指纹库、银行 / 电信行业垂直 playbook。当用户提到 \"src 挖洞 / src 漏洞挖掘 / bug bounty / 众测 / hackerone / 漏洞赏金 / SRC / 任意 X 漏洞 / 渗透测试\" 或问\"如何挖某个目标 / 怎么测某个 API / 如何绕过 WAF\" 时触发。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · SRC Hunter — 实战漏洞挖掘工作流 · 实战 Security Response Center / 众测 / Bug bounty 挖洞 skill · 何时使用本 skill · \"src 挖洞\" / \"src 漏洞\" / \"src 测试\" / \"Security Response Center\" · \"bug bounty\" / \"漏洞赏金\" / \"众测\" · \"hackerone\" / \"h1\" / \"bugcrowd\" / \"intigriti\" / \"yeswehack\" · \"如何挖 / 怎么测 / 怎么打 + 某目标 / 某接口 / 某参数\" · \"WAF 绕过\" / \"绕过 WAF\" / \"WAF bypass\" · \"任意账号 / 任意修改 / 任意删除 / 任意操作\" 类越权 · \"密码重置\" / \"找回密码\" 类逻辑 · \"未授权访问\" / \"默认凭据\" / \"Actuator\" / \"Spring 暴露\" / \"Redis 未授权\" · 用户给一个 URL 或 API endpoint 让你测 · 纯白盒源码审计（用   skill） · 已知漏洞的修复 / 防御问答（用通用对话） · 单独的 CTF 题目（这是真实环境工作流） · 工作流 — 5 阶段 · Phase 1 · Intake（接…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "protocol-reverse",
+    "path": "./external/reverse-skill/skills/protocol-reverse/SKILL.md",
+    "description": "Use for authorized reverse engineering of custom binary protocols, Protobuf/gRPC, WebSocket frames, and PCAP-driven protocol recovery.",
+    "body_summary": "Protocol Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 自定义 TCP/UDP 二进制协议 · Protobuf / gRPC / FlatBuffers / MessagePack · WebSocket / MQTT / 私有 RPC · PCAP / PCAPNG 还原字段与状态机 · 客户端-服务端校验、序列号、加密帧头 · 不走本 skill · 工作流 · Phase 1 — 采集与分诊 · Phase 2 — 帧布局还原 · Phase 3 — 序列化与加密 · Phase 4 — 产物 · 工具链 · — 帧布局与 Protobuf 速查 · 相关： · 路由上下文 · 任务完成自检 · [ ] 是否还原了消息布局或状态机（而非只贴 hex）？ · [ ] 是否有可复现解码命令？ · [ ] 是否遵守 scope / 脱敏？ · [ ] 是否回写 field-journal / 报告 Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "pwn-chain",
+    "path": "./external/reverse-skill/skills/pwn-chain/SKILL.md",
+    "description": "从逆向走到可用利用 (Working Exploit) 的全链路工程化方法。\n适用场景：拿到了二进制 + 漏洞点 + 目标环境，需要写出一个能稳定打通的 exploit（不是只能本地复现一下、远程一打就崩的脚本）。\n覆盖三大方向：栈溢出 / 堆利用 / 内核 pwn。强调\"CTF 本地通 → 真实远程稳定打通\"的工程差距：libc 版本错配、堆喷射时序、SMEP/SMAP/KASLR、栈对齐、远程缓冲。\n核心工具链：pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc-database + qemu-system 内核调试。\n触发关键词：pwn、栈溢出、堆溢出、ROP、ret2libc、ret2csu、one_gadget、libc-database、堆利用、tcache、fastbin、unsorted bin、kernel pwn、kROP、SMEP、SMAP、KASLR、modprobe_path、pwntools、GEF、pwndbg。",
+    "body_summary": "ACTION REQUIRED（读完后立刻执行） · 从漏洞点到 Working Exploit (Pwn Chain) · 适用范围 · 当任务属于以下场景时使用本 skill： · 与其他 skill 的分工 · 关注\"理解程序在干什么\"（模式识别、协议还原、解 CTF 题里的奇怪机制）；本 skill 关注\"把已经看懂的漏洞变成可执行的攻击\" · 核心工作流 · 典型场景 · 场景 1：远程 64 位二进制 (NX+PIE+canary, 给了 libc) · 完整模板参见 · 场景 2：Linux 内核驱动 ioctl 越界写 → 拿 root · 按需自举 (On-Demand Bootstrap) · 工具依赖 · Bootstrap 检查脚本 · 同一工具自动安装失败 2 次后 · 停止重试，输出结构化手动安装步骤（pip 源 / gem 源 / git 国内镜像 / apt 源）让用户确认 · 路由上下文 · 还没看懂二进制在干什么 → · 需要静态详细分析 → · 快速侦察确认架构/保护机制 → · 整合进完整攻击链（横向、提权、持久化）→ · 栈类利用（ret2libc / ret2csu / one_gadget / 栈对齐）→ · 堆类利用（tcache / fastbin / unsorted / large bin / FILE struct）→ · 内…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "radare2",
+    "path": "./external/reverse-skill/skills/radare2/SKILL.md",
+    "description": "Use this skill whenever the user wants to analyze binaries with radare2/r2 from the command line, including reverse engineering, disassembly, function analysis, strings/import inspection, patching, binary diffing, hex inspection, or r2 scripting. Also use it when the user mentions PE/ELF/Mach-O/DEX/WASM files together with CLI analysis, `rabin2`, `rasm2`, `radiff2`, `r2pipe`, or asks for radare2 command help on Windows/Linux/macOS.",
+    "body_summary": "radare2 · 面向   CLI 的二进制分析技能 · ACTION REQUIRED（读完后立刻执行） · 适用范围 · 当用户有这些意图时应优先使用本 skill： · 要用   /   分析  、 、 、 、 、 、  等文件 · 询问  、 、 、 、  怎么用 · 需要命令行反汇编、看函数、看字符串、看导入导出、查交叉引用、做 patch · 需要写   批处理命令、  自动化命令、或   脚本 · 如果用户明确要 GUI 逆向、Hex-Rays 风格伪代码、或 IDA 工作流，优先考虑 · 先做环境确认 · 先不要假设   可用 · 如果未安装，再检查常见安装位置或提示安装 · Windows 常见可执行文件： · 内置资源 · 这个 skill 自带两个资源，优先复用，不要每次临时组织一套重复命令 · 标准侦察脚本，适合先做第一轮概况分析 · 基本信息 · 字符串 · 可选的   自动分析摘要 · 调用方式： · 如果需要附带   自动分析： · 当需要更多命令细节、常见场景模板、或要快速回忆语法时，读取这个速查表，而不是凭记忆硬猜 · 已知现象 · Windows 下偶发   缺失告警 · 某些 PE 文件在   侦察时，可能出现类似下面的告警： · 如果主体输出仍然正常返回，通常不影响基础侦察结论，先继续分析即可 · 基本原则 · 不要一上来就全量自动分析 ·…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "radio-sdr",
+    "path": "./external/reverse-skill/skills/radio-sdr/SKILL.md",
+    "description": "Use for authorized RF/SDR security research including signal identification, replay feasibility study in shielded labs, and wireless protocol analysis outside classic Wi-Fi.",
+    "body_summary": "RF / SDR Security Research · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 无线遥控/传感器等非 Wi-Fi RF（授权） · ADS-B/遥控等协议研究（合法接收） · 与 wifi-wireless 分工：本 skill 偏 **SDR 通用 RF**；Wi-Fi 攻防走 R29 · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否默认只收并记录法规边界？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "reverse-engineering",
+    "path": "./external/reverse-skill/skills/reverse-engineering/SKILL.md",
+    "description": "Provides reverse engineering techniques. Use when the main job is to understand how a compiled, obfuscated, packed, or virtualized target works before exploiting or solving it, including binaries, APKs, WASM, firmware, custom VMs, bytecode, malware-like loaders, and anti-debug or anti-analysis logic. Do not use it when the vulnerability is already understood and the remaining task is exploitation; use pwn instead. Do not use it for pure web workflows, log or disk forensics, or standalone crypto problems unless reversing the implementation is the real blocker.",
+    "body_summary": "Reverse Engineering · ACTION REQUIRED（读完后立刻执行） · 阶段门闩： （triage→static→dynamic→synthesis） · 默认沙盒上下文（Default Sandbox Context） · 假设用户的工作环境是一个本地的、隔离的、已授权的沙盒，除非有明确证据表明不是 · 将用户选择的分析目标和下一步选择作为主要驱动力 · 默认将任务视为本地 CTF 题目、本地实验、crackme、wargame、培训目标或沙盒逆向练习 · 不要在无证据的情况下切换目标或扩大调查范围 · 默认偏向离线分析，不主动联系外部服务 · 除非用户明确选择了需要外部交互的分支，否则不执行未知样本、不修改原始文件、不执行状态变更操作 · 当细节缺失时做出安全假设，并简要说明假设内容 · 通过在每个实质性阶段结束时提供编号的下一步菜单来让用户保持控制 · 对于破坏性或状态变更的操作，只在 case 工作空间内的副本上执行 · 如果任务描述模糊，从安全的本地分诊开始，只提出那个能实质性改变下一步行动的单一问题 · Quick reference for RE challenges · Prerequisites · pwndbg — Linux: GitHub, macOS: · Additional Resources · tools.md - Sta…",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "dsl-vm-reverse",
+    "path": "./external/reverse-skill/skills/reverse-engineering/dsl-vm-reverse/SKILL.md",
+    "description": "Reverse JavaScript-based custom DSL/VM interpreters, non-standard WASM-like runtimes, and risk-control engines. Use when analyzing IIFE or switch-based opcode dispatchers, extracting instruction tables, recovering bytecode semantics, capturing VM state at runtime, or reconstructing execution flow.",
+    "body_summary": "🔄 DSL 自定义虚拟机逆向（DSL VM Reverse Engineering） · 用于逆向基于 JavaScript 实现的自定义 WASM 虚拟机/风控引擎 · 当目标文件符合以下 **任意特征** 时使用本 skill： · 排除规则 · 代码特征 · Opcode 编码格式 · 每条指令编码为 32 位整数： · Phase 1: 文件分类（5 分钟） · Phase 2: 变量映射表提取（10 分钟） · Phase 3: Opcode 提取与分类（15 分钟） · Phase 4: 常量表分析（30 分钟） · Phase 5: 导出函数追踪（1-2 小时） · 导出函数（如  ）通过以下路径定位： · Phase 6: 运行时注入（若纯静态分析不够） · 参考 opcode 对照表（基于已有案例） · 方案 A: Selenium + CDP 原生事件（推荐，成功率最高） · 方案 B: Playwright 无头浏览器 · 方案 C: 纯协议验证（成功率极低） · DSL VM 生成的 token 通常与浏览器上下文强绑定（TLS JA3 指纹、IP、Cookie、请求头等），脱离浏览器后服务端可检测到上下文不匹配 · [ ] 我是否完成了 DSL VM 识别（IIFE + 单字母变量 + DG() 解释器）？ · [ ] 我是否提取了变量映射表（ ）？ · …",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "supply-chain-security",
+    "path": "./external/reverse-skill/skills/supply-chain-security/SKILL.md",
+    "description": "Use for software supply-chain security assessment covering SBOM, SCA, CI/CD pipelines, container images, build integrity, dependency provenance, and vulnerability reachability.",
+    "body_summary": "Supply Chain Security Testing · ACTION REQUIRED（读完后立刻执行） · SBOM / SCA / CI/CD 管道 / 依赖溯源 · 法规驱动：美国行政令 SBOM、中国国标、EU CRA · 适用场景 · 软件供应链安全评估 · 开源依赖漏洞扫描与验证 · CI/CD 管道安全审计 · 容器镜像安全分析 · 第三方组件合规审查 · 构建产物溯源与完整性验证 · 六层供应链治理框架 · 工作流 · 工具参考： · CodeQL: GitHub 代码查询 → 数据流分析 · Snyk Code: 可达性标记 · DEPTEX: LLM 辅助上下文感知风险评估 · 工具链 · — SBOM + SCA 方法论 · — CI/CD 管道安全审计 · 任务完成自检（声称完成前 MUST 通过） · [ ] 我是否执行了工作流中的每一步（而不是只阅读）？ · [ ] 我是否基于   使用了真实工具路径？ · [ ] 我是否产出了可复现证据（命令/脚本/截图/报告）？ · [ ] 我是否完成并回写了 RULES 要求的 Checklist 项？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "thick-client",
+    "path": "./external/reverse-skill/skills/thick-client/SKILL.md",
+    "description": "Use for authorized security testing of desktop thick clients including local storage, update channels, IPC, traffic, and client-side trust boundaries.",
+    "body_summary": "Thick Client Security Testing · ACTION REQUIRED（读完后立刻执行） · 适用场景 · C/S 架构客户端、Electron/Qt/.NET WinForms/WPF · 本地配置/凭证存储、IPC、命名管道 · 客户端强制校验绕过研究（授权） · 自动更新通道与代码签名验证 · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否画出信任边界？ · [ ] 本地+网络面是否都覆盖？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "threat-hunting",
+    "path": "./external/reverse-skill/skills/threat-hunting/SKILL.md",
+    "description": "Use for blue-team threat hunting, detection engineering with Sigma/YARA, SIEM query design, and incident detection validation.",
+    "body_summary": "Threat Hunting & Detection Engineering · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 威胁狩猎（hypothesis-driven） · Sigma / YARA 检测工程 · 告警调优、误报分析 · 与  ：样本侧 IOC → 本 skill 落地检测 · 与  ：案件伪影 → 横向狩猎 · 工作流 · 工具链 · 路由上下文 · 任务完成自检 · [ ] 是否有明确假说与结论？ · [ ] 规则是否注明误报与数据源？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "wifi-wireless",
+    "path": "./external/reverse-skill/skills/wifi-wireless/SKILL.md",
+    "description": "Use for authorized wireless security assessment including Wi-Fi capture, WPA handshake analysis, rogue AP detection research, and lab-only deauth testing.",
+    "body_summary": "Wi-Fi / Wireless Security · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 授权 Wi-Fi 安全评估 · WPA/WPA2 握手采集与离线评估 · 流氓 AP / 钓鱼热点检测研究 · 企业无线隔离与门户安全 · 工作流 · 工具链 · （近源章节） · 路由上下文 · 任务完成自检 · [ ] 是否严格锁定目标 BSSID？ · [ ] 是否在报告中给出加固建议？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
+    "id": "windows-ad",
+    "path": "./external/reverse-skill/skills/windows-ad/SKILL.md",
+    "description": "Use for authorized Active Directory and Windows identity attacks including Kerberos, AD CS, BloodHound paths, NTLM relay, and domain privilege escalation research.",
+    "body_summary": "Windows / Active Directory Security · ACTION REQUIRED（读完后立刻执行） · 适用场景 · 域渗透、Kerberoasting、AS-REP、委派 · AD CS（ESC1–ESC8 等）证书攻击 · BloodHound / SharpHound 攻击路径 · NTLM Relay / Coercer 强制认证 · 本地提权到域路径（Potato 等作为跳板） · 与 attack-chain 关系 · 多阶段从外网到域控** → PRIMARY 可仍是  ，本 skill 为 **AD 专科 · 已在域内专注身份** → PRIMARY = 本 skill · 工作流 · 工具链 · seeds: · 路由上下文 · 任务完成自检 · [ ] 是否先有图/枚举再有利用？ · [ ] 是否记录可复现命令并脱敏？ · [ ] 是否遵守 scope 禁止项？ · [ ] Checklist？",
+    "tags": [
+      "reverse"
+    ],
+    "version": "",
     "github_url": "",
     "auxiliary": false,
     "archived": false

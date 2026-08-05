@@ -2,7 +2,7 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 240,
+    "skill_count": 307,
     "winner": "ai-techbook-translation",
     "skills": [
       "ai-techbook-translation",
@@ -57,10 +57,16 @@
       "draft-nda",
       "grammar-check",
       "review-resume",
+      "apk-reverse",
+      "binary-diff",
+      "diagram-generator",
+      "malware-analysis",
+      "patch-diff-exploit",
       "grok-build",
       "design-taste-frontend",
       "awwwards-design-intelligence",
       "impeccable",
+      "radare2",
       "jules",
       "generate-image",
       "hugging-science",
@@ -99,6 +105,15 @@
       "value-prop-statements",
       "product-strategy",
       "privacy-policy",
+      "attack-chain",
+      "docs-generator",
+      "dotnet-reverse",
+      "edr-bypass-re",
+      "ida-reverse",
+      "src-hunter",
+      "pwn-chain",
+      "reverse-engineering",
+      "dsl-vm-reverse",
       "apple-container",
       "azure-devops",
       "gpt-taste",
@@ -155,6 +170,11 @@
       "positioning-ideas",
       "identify-assumptions-existing",
       "pestle-analysis",
+      "competition-web-runtime",
+      "ctf-sandbox-orchestrator",
+      "ghidra-reverse",
+      "js-reverse",
+      "windows-ad",
       "google-calendar",
       "google-chat",
       "google-drive",
@@ -191,6 +211,49 @@
       "traiage-review",
       "intended-vs-implemented",
       "product-name",
+      "competition-ad-certificate-abuse",
+      "competition-agent-cloud",
+      "competition-android-hooking",
+      "competition-bundle-sourcemap-recovery",
+      "competition-cloud-metadata-path",
+      "competition-container-runtime",
+      "competition-custom-protocol-replay",
+      "competition-dpapi-credential-chain",
+      "competition-file-parser-chain",
+      "competition-firmware-layout",
+      "competition-forensic-timeline",
+      "competition-graphql-rpc-drift",
+      "competition-identity-windows",
+      "competition-ios-runtime",
+      "competition-jwt-claim-confusion",
+      "competition-kerberos-delegation",
+      "competition-kernel-container-escape",
+      "competition-linux-credential-pivot",
+      "competition-lsass-ticket-material",
+      "competition-mailbox-abuse",
+      "competition-malware-config",
+      "competition-oauth-oidc-chain",
+      "competition-pcap-protocol",
+      "competition-prompt-injection",
+      "competition-queue-worker-drift",
+      "competition-race-condition-state-drift",
+      "competition-relay-coercion-chain",
+      "competition-request-normalization-smuggling",
+      "competition-reverse-pwn",
+      "competition-runtime-routing",
+      "competition-ssrf-metadata-pivot",
+      "competition-stego-media",
+      "competition-supply-chain",
+      "competition-template-render-path",
+      "competition-websocket-runtime",
+      "competition-windows-pivot",
+      "go-rust-reverse",
+      "macos-reverse",
+      "ot-ics",
+      "protocol-reverse",
+      "radio-sdr",
+      "thick-client",
+      "wifi-wireless",
       "google-docs",
       "google-tts",
       "minimalist-ui",
@@ -209,6 +272,10 @@
       "setup-context7-mcp",
       "setup-serena-mcp",
       "fix-tests",
+      "code-audit",
+      "digital-forensics",
+      "identity-federation",
+      "threat-hunting",
       "chef-assistant",
       "\"status\"",
       "grilling",
@@ -562,57 +629,57 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "spec-miner",
-          "feature-forge",
-          "monitoring-expert",
           "legacy-modernizer",
-          "sre-engineer"
+          "sre-engineer",
+          "feature-forge",
+          "spec-miner",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "sql-pro",
         "skills": [
-          "postgres-pro",
-          "pandas-pro",
-          "spark-engineer",
           "sql-pro",
-          "database-optimizer"
+          "postgres-pro",
+          "database-optimizer",
+          "pandas-pro",
+          "spark-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "websocket-engineer",
+        "winner": "chaos-engineer",
         "skills": [
+          "chaos-engineer",
           "websocket-engineer",
-          "mcp-developer",
           "cli-developer",
           "embedded-systems",
-          "chaos-engineer"
+          "mcp-developer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -701,17 +768,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-danger-x-to-markdown",
+        "winner": "baoyu-post-to-wechat",
         "skills": [
+          "baoyu-post-to-wechat",
           "baoyu-danger-x-to-markdown",
           "baoyu-translate",
           "baoyu-format-markdown",
-          "baoyu-post-to-wechat",
           "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
-          "baoyu-youtube-transcript",
+          "baoyu-post-to-weibo",
           "baoyu-post-to-x",
-          "baoyu-post-to-weibo"
+          "baoyu-youtube-transcript"
         ]
       },
       {
@@ -724,8 +791,8 @@
           "x-mastery-mentor",
           "social-content",
           "huashu-wechat-image",
-          "khazix-writer",
           "huashu-xhs-image",
+          "khazix-writer",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -892,11 +959,11 @@
         "winner": "plugin-structure",
         "skills": [
           "plugin-structure",
-          "hook-development",
           "command-development",
           "plugin-settings",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "hook-development",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -906,9 +973,9 @@
         "winner": "gh-fix-ci",
         "skills": [
           "gh-fix-ci",
-          "writing-skills",
-          "example-skill",
           "context-engineering",
+          "example-skill",
+          "writing-skills",
           "context-engineering-collection",
           "using-superpowers",
           "skill-template"
@@ -970,14 +1037,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-comic",
+        "winner": "baoyu-cover-image",
         "skills": [
-          "baoyu-comic",
-          "baoyu-imagine",
           "baoyu-cover-image",
           "baoyu-article-illustrator",
+          "baoyu-imagine",
+          "baoyu-image-cards",
           "baoyu-infographic",
-          "baoyu-image-cards"
+          "baoyu-comic"
         ]
       },
       {
@@ -989,8 +1056,8 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-analyzer",
           "image-auditor",
+          "image-analyzer",
           "image-reviewer"
         ]
       },
@@ -1007,6 +1074,31 @@
           "huashu-design"
         ]
       }
+    ]
+  },
+  {
+    "id": "skills-browser",
+    "name": "Skills·浏览器",
+    "skill_count": 17,
+    "winner": "open-gstack-browser",
+    "skills": [
+      "open-gstack-browser",
+      "gstack-openclaw-retro",
+      "playwright-media-sniffer",
+      "gstack-upgrade",
+      "gstack-openclaw-ceo-review",
+      "cloakbrowser",
+      "gstack",
+      "browse",
+      "gstack-openclaw-investigate",
+      "gstack-openclaw-office-hours",
+      "setup-browser-cookies",
+      "zoom-cobrowse-sdk",
+      "playwright-skill",
+      "browser-automation",
+      "playwright-expert",
+      "competition-browser-persistence",
+      "browser-extension-reverse"
     ]
   },
   {
@@ -1033,6 +1125,28 @@
     ]
   },
   {
+    "id": "engineering-security",
+    "name": "工程·安全",
+    "skill_count": 14,
+    "winner": "engineering-orchestrator",
+    "skills": [
+      "engineering-orchestrator",
+      "pre-mortem",
+      "reverse-skill-router",
+      "cso",
+      "firmware-pentest",
+      "pentest-tools",
+      "strategy-red-team",
+      "api-security",
+      "llm-security",
+      "supply-chain-security",
+      "security-reviewer",
+      "database-security",
+      "email-security",
+      "hardware-security"
+    ]
+  },
+  {
     "id": "persona",
     "name": "人物·视角模拟",
     "skill_count": 14,
@@ -1052,28 +1166,6 @@
       "trump-perspective",
       "zhang-yiming-perspective",
       "zhangxuefeng-perspective"
-    ]
-  },
-  {
-    "id": "skills-browser",
-    "name": "Skills·浏览器",
-    "skill_count": 14,
-    "winner": "open-gstack-browser",
-    "skills": [
-      "open-gstack-browser",
-      "gstack-openclaw-retro",
-      "playwright-media-sniffer",
-      "gstack-upgrade",
-      "gstack-openclaw-ceo-review",
-      "cloakbrowser",
-      "gstack",
-      "browse",
-      "gstack-openclaw-investigate",
-      "gstack-openclaw-office-hours",
-      "setup-browser-cookies",
-      "zoom-cobrowse-sdk",
-      "playwright-skill",
-      "playwright-expert"
     ]
   },
   {
@@ -1116,6 +1208,82 @@
       "recruiting-pipeline",
       "data-processor",
       "report-generator"
+    ]
+  },
+  {
+    "id": "engineering-devops",
+    "name": "工程·DevOps",
+    "skill_count": 13,
+    "winner": "goal-management",
+    "skills": [
+      "goal-management",
+      "land-and-deploy",
+      "setup-deploy",
+      "canary",
+      "ship",
+      "incident-response",
+      "shipping-artifacts",
+      "cloud-k8s",
+      "terraform-engineer",
+      "devops-engineer",
+      "kubernetes-specialist",
+      "competition-k8s-control-plane",
+      "terraform-deployer"
+    ],
+    "subclusters": [
+      {
+        "id": "engineering-devops-cloud",
+        "name": "云平台架构",
+        "skill_count": 2,
+        "winner": "terraform-engineer",
+        "skills": [
+          "terraform-engineer",
+          "terraform-deployer"
+        ]
+      },
+      {
+        "id": "engineering-devops-container",
+        "name": "容器 & K8s",
+        "skill_count": 3,
+        "winner": "cloud-k8s",
+        "skills": [
+          "cloud-k8s",
+          "competition-k8s-control-plane",
+          "kubernetes-specialist"
+        ]
+      },
+      {
+        "id": "engineering-devops-cicd",
+        "name": "CI/CD & 部署",
+        "skill_count": 6,
+        "winner": "land-and-deploy",
+        "skills": [
+          "land-and-deploy",
+          "setup-deploy",
+          "canary",
+          "ship",
+          "shipping-artifacts",
+          "devops-engineer"
+        ]
+      },
+      {
+        "id": "engineering-devops-observ",
+        "name": "可观测性 & 事故响应",
+        "skill_count": 1,
+        "winner": "incident-response",
+        "skills": [
+          "incident-response"
+        ]
+      },
+      {
+        "id": "engineering-devops-other",
+        "name": "其他",
+        "skill_count": 1,
+        "winner": "goal-management",
+        "skills": [
+          "goal-management"
+        ]
+      }
     ]
   },
   {
@@ -1308,8 +1476,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "executing-plans",
-          "writing-plans"
+          "writing-plans",
+          "executing-plans"
         ]
       },
       {
@@ -1321,9 +1489,9 @@
           "planning-with-files-zht",
           "planning-with-files-zh",
           "planning-with-files",
-          "planning-with-files-es",
+          "planning-with-files-ar",
           "planning-with-files-de",
-          "planning-with-files-ar"
+          "planning-with-files-es"
         ]
       },
       {
@@ -1365,8 +1533,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "zoom-mcp/whiteboard",
           "build-dashboard",
+          "zoom-mcp/whiteboard",
           "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
@@ -1414,78 +1582,6 @@
     ]
   },
   {
-    "id": "engineering-devops",
-    "name": "工程·DevOps",
-    "skill_count": 11,
-    "winner": "goal-management",
-    "skills": [
-      "goal-management",
-      "land-and-deploy",
-      "setup-deploy",
-      "canary",
-      "ship",
-      "incident-response",
-      "shipping-artifacts",
-      "terraform-engineer",
-      "devops-engineer",
-      "kubernetes-specialist",
-      "terraform-deployer"
-    ],
-    "subclusters": [
-      {
-        "id": "engineering-devops-cloud",
-        "name": "云平台架构",
-        "skill_count": 2,
-        "winner": "terraform-engineer",
-        "skills": [
-          "terraform-engineer",
-          "terraform-deployer"
-        ]
-      },
-      {
-        "id": "engineering-devops-container",
-        "name": "容器 & K8s",
-        "skill_count": 1,
-        "winner": "kubernetes-specialist",
-        "skills": [
-          "kubernetes-specialist"
-        ]
-      },
-      {
-        "id": "engineering-devops-cicd",
-        "name": "CI/CD & 部署",
-        "skill_count": 6,
-        "winner": "land-and-deploy",
-        "skills": [
-          "land-and-deploy",
-          "setup-deploy",
-          "ship",
-          "canary",
-          "shipping-artifacts",
-          "devops-engineer"
-        ]
-      },
-      {
-        "id": "engineering-devops-observ",
-        "name": "可观测性 & 事故响应",
-        "skill_count": 1,
-        "winner": "incident-response",
-        "skills": [
-          "incident-response"
-        ]
-      },
-      {
-        "id": "engineering-devops-other",
-        "name": "其他",
-        "skill_count": 1,
-        "winner": "goal-management",
-        "skills": [
-          "goal-management"
-        ]
-      }
-    ]
-  },
-  {
     "id": "design-ux",
     "name": "设计·UX/产品设计",
     "skill_count": 10,
@@ -1519,6 +1615,24 @@
       "spring-boot-engineer",
       "vue-expert",
       "vue-expert-js"
+    ]
+  },
+  {
+    "id": "engineering-mobile",
+    "name": "工程·移动",
+    "skill_count": 10,
+    "winner": "awesome-android-ui",
+    "skills": [
+      "awesome-android-ui",
+      "zoom-meeting-sdk-react-native",
+      "zoom-video-sdk-react-native",
+      "mobile-reverse",
+      "imagegen-frontend-mobile",
+      "flutter-expert",
+      "kotlin-specialist",
+      "react-native-expert",
+      "swift-expert",
+      "competition-crypto-mobile"
     ]
   },
   {
@@ -1620,22 +1734,6 @@
       "php-pro",
       "python-pro",
       "typescript-pro"
-    ]
-  },
-  {
-    "id": "engineering-mobile",
-    "name": "工程·移动",
-    "skill_count": 8,
-    "winner": "awesome-android-ui",
-    "skills": [
-      "awesome-android-ui",
-      "zoom-meeting-sdk-react-native",
-      "zoom-video-sdk-react-native",
-      "imagegen-frontend-mobile",
-      "flutter-expert",
-      "kotlin-specialist",
-      "react-native-expert",
-      "swift-expert"
     ]
   },
   {
@@ -1832,19 +1930,6 @@
       "frontend-design",
       "web-artifacts-builder",
       "theme-factory"
-    ]
-  },
-  {
-    "id": "engineering-security",
-    "name": "工程·安全",
-    "skill_count": 5,
-    "winner": "engineering-orchestrator",
-    "skills": [
-      "engineering-orchestrator",
-      "pre-mortem",
-      "cso",
-      "strategy-red-team",
-      "security-reviewer"
     ]
   },
   {

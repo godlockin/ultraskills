@@ -214,7 +214,7 @@
     "winner": "goal-management",
     "score": 9.5,
     "runner_up": "land-and-deploy",
-    "total_contestants": 11,
+    "total_contestants": 13,
     "defeated": [
       "land-and-deploy",
       "setup-deploy",
@@ -244,12 +244,13 @@
     "winner": "engineering-orchestrator",
     "score": 9.5,
     "runner_up": "pre-mortem",
-    "total_contestants": 5,
+    "total_contestants": 14,
     "defeated": [
       "pre-mortem",
+      "reverse-skill-router",
       "cso",
-      "strategy-red-team",
-      "security-reviewer"
+      "firmware-pentest",
+      "pentest-tools"
     ]
   },
   {
@@ -273,7 +274,7 @@
     "winner": "ai-techbook-translation",
     "score": 9.5,
     "runner_up": "career-coach",
-    "total_contestants": 240,
+    "total_contestants": 307,
     "defeated": [
       "career-coach",
       "value-proposition",
@@ -558,7 +559,7 @@
     "winner": "open-gstack-browser",
     "score": 8.8,
     "runner_up": "gstack-openclaw-retro",
-    "total_contestants": 14,
+    "total_contestants": 17,
     "defeated": [
       "gstack-openclaw-retro",
       "playwright-media-sniffer",
@@ -603,13 +604,13 @@
     "winner": "awesome-android-ui",
     "score": 8.5,
     "runner_up": "zoom-meeting-sdk-react-native",
-    "total_contestants": 8,
+    "total_contestants": 10,
     "defeated": [
       "zoom-meeting-sdk-react-native",
       "zoom-video-sdk-react-native",
+      "mobile-reverse",
       "imagegen-frontend-mobile",
-      "flutter-expert",
-      "kotlin-specialist"
+      "flutter-expert"
     ]
   },
   {
