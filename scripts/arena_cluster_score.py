@@ -385,6 +385,7 @@ def score_skill(skill: dict, skill_md_text: str) -> dict:
       可维护性 (20%): 有 frontmatter、有 path、有 version
 
     配套 skills (auxiliary=True) 跳过评分，返回 score=0
+    archived skills (archived=True) 也跳过评分，返回 score=0
     """
     # 跳过配套 skills
     if skill.get("auxiliary", False):
@@ -395,6 +396,17 @@ def score_skill(skill: dict, skill_md_text: str) -> dict:
             "maint": 0,
             "total": 0,
             "auxiliary": True  # 标记为配套
+        }
+
+    # 跳过 archived skills (已被新 skill 替代,不参与竞技场评分)
+    if skill.get("archived", False):
+        return {
+            "score": 0,
+            "doc": 0,
+            "func": 0,
+            "maint": 0,
+            "total": 0,
+            "archived": True  # 标记为已归档
         }
 
     desc = skill.get("description", "") or ""
@@ -469,10 +481,14 @@ def main():
     # 聚类
     cluster_members = defaultdict(list)
     skill_cluster_map = {}
+    skills_by_id = {s["id"]: s for s in skills}
     for s in skills:
         cid = match_cluster(s)
         cluster_members[cid].append(s["id"])
         skill_cluster_map[s["id"]] = cid
+
+    def skills_lookup(sid):
+        return skills_by_id.get(sid, {})
 
     # 评分
     scores = {}
@@ -480,10 +496,16 @@ def main():
         sid = s["id"]
         scores[sid] = score_skill(s, skill_texts[sid])
 
-    # 每个 cluster 排名找 winner
+    # 每个 cluster 排名找 winner (跳过 archived 和 auxiliary)
     winners = {}
     for cid, members in cluster_members.items():
-        ranked = sorted(members, key=lambda x: scores[x]["total"], reverse=True)
+        # 过滤 archived / auxiliary，不参与 winner 评选
+        eligible = [
+            m for m in members
+            if not skills_lookup(m).get("archived", False)
+            and not skills_lookup(m).get("auxiliary", False)
+        ]
+        ranked = sorted(eligible, key=lambda x: scores[x]["total"], reverse=True)
         winners[cid] = ranked[0] if ranked else None
 
     # 生成 clusters.json
@@ -578,7 +600,7 @@ def main():
     ELIMINATION_THRESHOLD = 3.0     # 低于此分数建议淘汰
 
     # 过滤掉配套 skills（不参与竞技场）
-    main_skills = [s for s in scores_list if not s.get("auxiliary", False)]
+    main_skills = [s for s in scores_list if not s.get("auxiliary", False) and not s.get("archived", False)]
     low_performers = [s for s in main_skills if s["total"] < LOW_SCORE_THRESHOLD]
     candidates_for_elimination = [s for s in main_skills if s["total"] < ELIMINATION_THRESHOLD]
 

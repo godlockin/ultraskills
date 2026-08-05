@@ -2,7 +2,7 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 213,
+    "skill_count": 240,
     "winner": "ai-techbook-translation",
     "skills": [
       "ai-techbook-translation",
@@ -10,6 +10,7 @@
       "value-proposition",
       "ai-techbook-translation-review",
       "bazi-fortune",
+      "diagnostic-debugging",
       "face-reading",
       "feng-shui",
       "palm-reading",
@@ -18,6 +19,7 @@
       "dummy-dataset",
       "llm-model-selector",
       "daoist-cosmology-basics",
+      "deep-module-design",
       "review",
       "pm-skills",
       "identify-assumptions-new",
@@ -67,6 +69,10 @@
       "gui-automation",
       "brand-review",
       "contract-review",
+      "diagnosing-bugs",
+      "setup-matt-pocock-skills",
+      "to-tickets",
+      "setup-ts-deep-modules",
       "code-explainer",
       "waza-runner",
       "apply-anthropic-skill-best-practices",
@@ -108,6 +114,8 @@
       "sympy",
       "search",
       "update",
+      "triage",
+      "wayfinder",
       "waza",
       "decay",
       "kaizen",
@@ -123,6 +131,11 @@
       "what-if-oracle",
       "scientific-problem-selection",
       "draft-content",
+      "codebase-design",
+      "to-spec",
+      "migrate-to-shoehorn",
+      "scaffold-exercises",
+      "setup-pre-commit",
       "skillopt-sleep",
       "waza-interactive",
       "attach-review-to-pr",
@@ -155,6 +168,7 @@
       "transformers",
       "start",
       "debug",
+      "wizard",
       "analyse",
       "gmail",
       "imagen",
@@ -165,6 +179,9 @@
       "postgres",
       "full-page-screenshot",
       "build-zoom-meeting-app",
+      "ask-matt",
+      "domain-modeling",
+      "to-questionnaire",
       "profile-test-skill",
       "propose-hypotheses",
       "create-pr",
@@ -178,6 +195,7 @@
       "google-tts",
       "minimalist-ui",
       "playground",
+      "prototype",
       "actualize",
       "query",
       "status",
@@ -186,27 +204,36 @@
       "elevenlabs",
       "telegram",
       "whatsapp",
+      "edit-article",
+      "obsidian-vault",
       "setup-context7-mcp",
       "setup-serena-mcp",
       "fix-tests",
       "chef-assistant",
       "\"status\"",
+      "grilling",
+      "teach",
       "why",
+      "claude-handoff",
       "all-pass",
       "some-exceed",
       "load-issues",
       "setup-arxiv-mcp",
       "personal-assistant",
+      "handoff",
       "count",
       "safe-greeting",
+      "resolving-merge-conflicts",
       "create-ideas",
       "deploy-service",
       "reset",
       "\"reаd_data\"",
       "helpful-formatter",
+      "grill-with-docs",
       "friendly-greeter",
       "text-summarizer",
       "file-indexer",
+      "implement",
       "code-formatter",
       "markdown-formatter",
       "config-reader",
@@ -390,7 +417,7 @@
   {
     "id": "education",
     "name": "教育·学习研究",
-    "skill_count": 30,
+    "skill_count": 31,
     "winner": "deep-concept-analyzer",
     "skills": [
       "deep-concept-analyzer",
@@ -420,6 +447,7 @@
       "user-persona-generator",
       "deep-research",
       "user-research",
+      "research",
       "huashu-prompt-save",
       "huashu-research",
       "huashu-info-search"
@@ -534,47 +562,47 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
+          "spec-miner",
+          "feature-forge",
           "monitoring-expert",
           "legacy-modernizer",
-          "sre-engineer",
-          "feature-forge",
-          "spec-miner"
+          "sre-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "postgres-pro",
         "skills": [
-          "database-optimizer",
-          "pandas-pro",
           "postgres-pro",
+          "pandas-pro",
           "spark-engineer",
-          "sql-pro"
+          "sql-pro",
+          "database-optimizer"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "cli-developer",
+        "winner": "websocket-engineer",
         "skills": [
-          "cli-developer",
           "websocket-engineer",
-          "chaos-engineer",
+          "mcp-developer",
+          "cli-developer",
           "embedded-systems",
-          "mcp-developer"
+          "chaos-engineer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
@@ -676,14 +704,14 @@
         "winner": "baoyu-danger-x-to-markdown",
         "skills": [
           "baoyu-danger-x-to-markdown",
-          "baoyu-format-markdown",
           "baoyu-translate",
+          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
-          "baoyu-url-to-markdown",
           "baoyu-danger-gemini-web",
+          "baoyu-url-to-markdown",
+          "baoyu-youtube-transcript",
           "baoyu-post-to-x",
-          "baoyu-post-to-weibo",
-          "baoyu-youtube-transcript"
+          "baoyu-post-to-weibo"
         ]
       },
       {
@@ -694,10 +722,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
-          "huashu-xhs-image",
-          "khazix-writer",
-          "huashu-wechat-image",
           "social-content",
+          "huashu-wechat-image",
+          "khazix-writer",
+          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -722,6 +750,64 @@
           "mediacrawler"
         ]
       }
+    ]
+  },
+  {
+    "id": "content-writing",
+    "name": "内容·写作",
+    "skill_count": 21,
+    "winner": "content-orchestrator",
+    "skills": [
+      "content-orchestrator",
+      "doc-coauthoring",
+      "document-release",
+      "support-ticket-triage",
+      "youtube-script-optimizer",
+      "markdown-mermaid-writing",
+      "copy-editing",
+      "persuasion-framework",
+      "internal-comms",
+      "scientific-writing",
+      "copywriting",
+      "blessing-styles",
+      "caveman-help",
+      "huashu-proofreading",
+      "writing-beats",
+      "writing-shape",
+      "writing-for-agents",
+      "huashu-script-polish",
+      "writing-fragments",
+      "huashu-article-edit",
+      "creative-writing-coach"
+    ]
+  },
+  {
+    "id": "productivity",
+    "name": "效率·生产力",
+    "skill_count": 21,
+    "winner": "growth-loops",
+    "skills": [
+      "growth-loops",
+      "baoyu-compress-image",
+      "brainstorm-ideas-new",
+      "slack-gif-creator",
+      "brainstorming",
+      "dynamic-expert-group",
+      "scientific-brainstorming",
+      "product-brainstorming",
+      "brainstorm-okrs",
+      "caveman-compress",
+      "caveman-commit",
+      "caveman-review",
+      "price-check",
+      "brainstorm-experiments-existing",
+      "brainstorm-experiments-new",
+      "brainstorm-ideas-existing",
+      "caveman",
+      "compress",
+      "brainstorm",
+      "slack-messaging",
+      "loop-me"
     ]
   },
   {
@@ -750,34 +836,6 @@
       "huashu-md-to-pdf",
       "pdf-processor",
       "google-slides"
-    ]
-  },
-  {
-    "id": "productivity",
-    "name": "效率·生产力",
-    "skill_count": 20,
-    "winner": "growth-loops",
-    "skills": [
-      "growth-loops",
-      "baoyu-compress-image",
-      "brainstorm-ideas-new",
-      "slack-gif-creator",
-      "brainstorming",
-      "dynamic-expert-group",
-      "scientific-brainstorming",
-      "product-brainstorming",
-      "brainstorm-okrs",
-      "caveman-compress",
-      "caveman-commit",
-      "caveman-review",
-      "price-check",
-      "brainstorm-experiments-existing",
-      "brainstorm-experiments-new",
-      "brainstorm-ideas-existing",
-      "caveman",
-      "compress",
-      "brainstorm",
-      "slack-messaging"
     ]
   },
   {
@@ -834,11 +892,11 @@
         "winner": "plugin-structure",
         "skills": [
           "plugin-structure",
-          "plugin-settings",
           "hook-development",
           "command-development",
-          "claude-automation-recommender",
-          "claude-md-improver"
+          "plugin-settings",
+          "claude-md-improver",
+          "claude-automation-recommender"
         ]
       },
       {
@@ -849,8 +907,8 @@
         "skills": [
           "gh-fix-ci",
           "writing-skills",
-          "context-engineering",
           "example-skill",
+          "context-engineering",
           "context-engineering-collection",
           "using-superpowers",
           "skill-template"
@@ -915,10 +973,10 @@
         "winner": "baoyu-comic",
         "skills": [
           "baoyu-comic",
-          "baoyu-article-illustrator",
           "baoyu-imagine",
-          "baoyu-infographic",
           "baoyu-cover-image",
+          "baoyu-article-illustrator",
+          "baoyu-infographic",
           "baoyu-image-cards"
         ]
       },
@@ -931,9 +989,9 @@
           "\"visual-expert-pro-(gemini-3.0-edition)\"",
           "\"photography-expert-pro\"",
           "face-beautification",
-          "image-reviewer",
+          "image-analyzer",
           "image-auditor",
-          "image-analyzer"
+          "image-reviewer"
         ]
       },
       {
@@ -952,37 +1010,11 @@
     ]
   },
   {
-    "id": "content-writing",
-    "name": "内容·写作",
-    "skill_count": 17,
-    "winner": "content-orchestrator",
-    "skills": [
-      "content-orchestrator",
-      "doc-coauthoring",
-      "document-release",
-      "support-ticket-triage",
-      "youtube-script-optimizer",
-      "markdown-mermaid-writing",
-      "copy-editing",
-      "persuasion-framework",
-      "internal-comms",
-      "scientific-writing",
-      "copywriting",
-      "blessing-styles",
-      "caveman-help",
-      "huashu-proofreading",
-      "huashu-script-polish",
-      "huashu-article-edit",
-      "creative-writing-coach"
-    ]
-  },
-  {
     "id": "engineering-arch",
     "name": "工程·架构",
     "skill_count": 15,
-    "winner": "design-an-interface",
+    "winner": "ubiquitous-language",
     "skills": [
-      "design-an-interface",
       "ubiquitous-language",
       "information-architecture",
       "mcp-builder",
@@ -996,7 +1028,8 @@
       "cloud-architect",
       "java-architect",
       "microservices-architect",
-      "system-design"
+      "system-design",
+      "design-an-interface"
     ]
   },
   {
@@ -1190,6 +1223,26 @@
     ]
   },
   {
+    "id": "engineering-code",
+    "name": "工程·代码质量",
+    "skill_count": 12,
+    "winner": "receiving-code-review",
+    "skills": [
+      "receiving-code-review",
+      "changelog-generator",
+      "improve-codebase-architecture",
+      "gh-address-comments",
+      "karpathy-guidelines",
+      "two-axis-code-review",
+      "requesting-code-review",
+      "code-review",
+      "code-reviewer",
+      "runbook",
+      "tech-debt",
+      "request-refactor-plan"
+    ]
+  },
+  {
     "id": "partner-integration",
     "name": "平台·SaaS集成",
     "skill_count": 12,
@@ -1263,14 +1316,14 @@
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zh",
+        "winner": "planning-with-files-zht",
         "skills": [
-          "planning-with-files-zh",
           "planning-with-files-zht",
+          "planning-with-files-zh",
           "planning-with-files",
           "planning-with-files-es",
-          "planning-with-files-ar",
-          "planning-with-files-de"
+          "planning-with-files-de",
+          "planning-with-files-ar"
         ]
       },
       {
@@ -1312,8 +1365,8 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
-          "build-dashboard",
           "zoom-mcp/whiteboard",
+          "build-dashboard",
           "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
@@ -1402,10 +1455,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "setup-deploy",
+        "winner": "land-and-deploy",
         "skills": [
-          "setup-deploy",
           "land-and-deploy",
+          "setup-deploy",
           "ship",
           "canary",
           "shipping-artifacts",
@@ -1448,24 +1501,6 @@
       "icon-system",
       "motion-design",
       "\"ikea-designer-pro\""
-    ]
-  },
-  {
-    "id": "engineering-code",
-    "name": "工程·代码质量",
-    "skill_count": 10,
-    "winner": "receiving-code-review",
-    "skills": [
-      "receiving-code-review",
-      "changelog-generator",
-      "improve-codebase-architecture",
-      "gh-address-comments",
-      "karpathy-guidelines",
-      "requesting-code-review",
-      "code-review",
-      "code-reviewer",
-      "runbook",
-      "tech-debt"
     ]
   },
   {
@@ -1540,6 +1575,22 @@
     ]
   },
   {
+    "id": "agent-pua",
+    "name": "Agent·激励强化",
+    "skill_count": 8,
+    "winner": "agent-docs-writing",
+    "skills": [
+      "agent-docs-writing",
+      "pua-en",
+      "pua",
+      "pua-ja",
+      "prompt-optimizer",
+      "task-analyzer",
+      "prompt-engineering",
+      "prompt-engineer"
+    ]
+  },
+  {
     "id": "business-legal",
     "name": "商业·法务合规",
     "skill_count": 8,
@@ -1588,21 +1639,6 @@
     ]
   },
   {
-    "id": "agent-pua",
-    "name": "Agent·激励强化",
-    "skill_count": 7,
-    "winner": "pua-en",
-    "skills": [
-      "pua-en",
-      "pua",
-      "pua-ja",
-      "prompt-optimizer",
-      "task-analyzer",
-      "prompt-engineering",
-      "prompt-engineer"
-    ]
-  },
-  {
     "id": "engineering-debug",
     "name": "工程·调试",
     "skill_count": 7,
@@ -1615,6 +1651,21 @@
       "guard",
       "fullstack-guardian",
       "secure-code-guardian"
+    ]
+  },
+  {
+    "id": "engineering-testing",
+    "name": "工程·测试",
+    "skill_count": 7,
+    "winner": "triage-issue",
+    "skills": [
+      "triage-issue",
+      "writing-hookify-rules",
+      "seam-driven-tdd",
+      "test-case-templates",
+      "test-driven-development",
+      "benchmark",
+      "tdd"
     ]
   },
   {
@@ -1794,19 +1845,6 @@
       "cso",
       "strategy-red-team",
       "security-reviewer"
-    ]
-  },
-  {
-    "id": "engineering-testing",
-    "name": "工程·测试",
-    "skill_count": 5,
-    "winner": "triage-issue",
-    "skills": [
-      "triage-issue",
-      "writing-hookify-rules",
-      "test-case-templates",
-      "test-driven-development",
-      "benchmark"
     ]
   },
   {

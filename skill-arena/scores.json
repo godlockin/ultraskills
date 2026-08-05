@@ -253,17 +253,6 @@
     "total": 9.5
   },
   {
-    "id": "design-an-interface",
-    "path": "./community/design-an-interface/SKILL.md",
-    "cluster": "engineering-arch",
-    "cluster_name": "工程·架构",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 10,
-    "maintainability": 10,
-    "total": 9.5
-  },
-  {
     "id": "design-orchestrator",
     "path": "./community/design-orchestrator/SKILL.md",
     "cluster": "product-design",
@@ -389,7 +378,7 @@
     "path": "./community/ubiquitous-language/SKILL.md",
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
-    "is_winner": false,
+    "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 10,
     "maintainability": 10,
@@ -539,6 +528,17 @@
     "total": 9.2
   },
   {
+    "id": "agent-docs-writing",
+    "path": "./community/agent-docs-writing/SKILL.md",
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "is_winner": true,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
     "id": "ai-techbook-translation-review",
     "path": "./community/ai-techbook-translation-review/SKILL.md",
     "cluster": "misc",
@@ -602,6 +602,17 @@
     "doc_quality": 8,
     "func_clarity": 10,
     "maintainability": 10,
+    "total": 9.0
+  },
+  {
+    "id": "diagnostic-debugging",
+    "path": "./community/diagnostic-debugging/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 9.0
   },
   {
@@ -1258,7 +1269,7 @@
     "path": "./devops/pua-en/SKILL.md",
     "cluster": "agent-pua",
     "cluster_name": "Agent·激励强化",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 7,
@@ -1421,6 +1432,17 @@
   {
     "id": "daoist-cosmology-basics",
     "path": "./community/daoist-cosmology-basics/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "deep-module-design",
+    "path": "./community/deep-module-design/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -1716,6 +1738,17 @@
     "total": 8.5
   },
   {
+    "id": "seam-driven-tdd",
+    "path": "./community/seam-driven-tdd/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "sop-writer",
     "path": "./community/sop-writer/SKILL.md",
     "cluster": "business-operations",
@@ -1746,6 +1779,17 @@
     "doc_quality": 7,
     "func_clarity": 10,
     "maintainability": 10,
+    "total": 8.5
+  },
+  {
+    "id": "two-axis-code-review",
+    "path": "./community/two-axis-code-review/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 8.5
   },
   {
@@ -6435,6 +6479,50 @@
     "total": 7.3
   },
   {
+    "id": "diagnosing-bugs",
+    "path": "./external/mattpocock-skills/skills/engineering/diagnosing-bugs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "setup-matt-pocock-skills",
+    "path": "./external/mattpocock-skills/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "to-tickets",
+    "path": "./external/mattpocock-skills/skills/engineering/to-tickets/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
+    "id": "setup-ts-deep-modules",
+    "path": "./external/mattpocock-skills/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "code-explainer",
     "path": "./external/microsoft-waza/examples/code-explainer/SKILL.md",
     "cluster": "misc",
@@ -7678,6 +7766,28 @@
     "total": 7.0
   },
   {
+    "id": "triage",
+    "path": "./external/mattpocock-skills/skills/engineering/triage/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
+    "id": "wayfinder",
+    "path": "./external/mattpocock-skills/skills/engineering/wayfinder/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 7.0
+  },
+  {
     "id": "waza",
     "path": "./external/microsoft-waza/skills/waza/SKILL.md",
     "cluster": "misc",
@@ -8789,6 +8899,61 @@
     "total": 6.8
   },
   {
+    "id": "codebase-design",
+    "path": "./external/mattpocock-skills/skills/engineering/codebase-design/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "to-spec",
+    "path": "./external/mattpocock-skills/skills/engineering/to-spec/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "migrate-to-shoehorn",
+    "path": "./external/mattpocock-skills/skills/misc/migrate-to-shoehorn/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "scaffold-exercises",
+    "path": "./external/mattpocock-skills/skills/misc/scaffold-exercises/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
+    "id": "setup-pre-commit",
+    "path": "./external/mattpocock-skills/skills/misc/setup-pre-commit/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.8
+  },
+  {
     "id": "skillopt-sleep",
     "path": "./external/microsoft-skillopt/plugins/claude-code/skills/skillopt-sleep/SKILL.md",
     "cluster": "misc",
@@ -9453,6 +9618,17 @@
     "path": "./external/knowledge-work-plugins/operations/skills/runbook/SKILL.md",
     "cluster": "engineering-code",
     "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.5
+  },
+  {
+    "id": "wizard",
+    "path": "./external/mattpocock-skills/skills/engineering/wizard/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 5,
@@ -10516,6 +10692,83 @@
     "total": 6.3
   },
   {
+    "id": "request-refactor-plan",
+    "path": "./external/mattpocock-skills/skills/deprecated/request-refactor-plan/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "ask-matt",
+    "path": "./external/mattpocock-skills/skills/engineering/ask-matt/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "domain-modeling",
+    "path": "./external/mattpocock-skills/skills/engineering/domain-modeling/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "writing-beats",
+    "path": "./external/mattpocock-skills/skills/in-progress/writing-beats/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "writing-shape",
+    "path": "./external/mattpocock-skills/skills/in-progress/writing-shape/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "to-questionnaire",
+    "path": "./external/mattpocock-skills/skills/productivity/to-questionnaire/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
+    "id": "writing-for-agents",
+    "path": "./external/mattpocock-skills/skills/productivity/writing-for-agents/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 6.3
+  },
+  {
     "id": "pdf-processor",
     "path": "./external/microsoft-waza/cmd/waza/dev/testdata/high/SKILL.md",
     "cluster": "content-doc",
@@ -10802,6 +11055,28 @@
     "total": 6.0
   },
   {
+    "id": "prototype",
+    "path": "./external/mattpocock-skills/skills/engineering/prototype/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
+    "id": "tdd",
+    "path": "./external/mattpocock-skills/skills/engineering/tdd/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 6.0
+  },
+  {
     "id": "actualize",
     "path": "./external/neolabhq-kit/plugins/fpf/skills/actualize/SKILL.md",
     "cluster": "misc",
@@ -11077,6 +11352,39 @@
     "total": 5.8
   },
   {
+    "id": "writing-fragments",
+    "path": "./external/mattpocock-skills/skills/in-progress/writing-fragments/SKILL.md",
+    "cluster": "content-writing",
+    "cluster_name": "内容·写作",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
+    "id": "edit-article",
+    "path": "./external/mattpocock-skills/skills/personal/edit-article/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
+    "id": "obsidian-vault",
+    "path": "./external/mattpocock-skills/skills/personal/obsidian-vault/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.8
+  },
+  {
     "id": "setup-context7-mcp",
     "path": "./external/neolabhq-kit/plugins/mcp/skills/setup-context7-mcp/SKILL.md",
     "cluster": "misc",
@@ -11134,6 +11442,39 @@
   {
     "id": "\"status\"",
     "path": "./external/claude-skills/engineering/agenthub/skills/status/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "research",
+    "path": "./external/mattpocock-skills/skills/engineering/research/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "grilling",
+    "path": "./external/mattpocock-skills/skills/productivity/grilling/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
+    "id": "teach",
+    "path": "./external/mattpocock-skills/skills/productivity/teach/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -11231,6 +11572,28 @@
     "total": 5.3
   },
   {
+    "id": "claude-handoff",
+    "path": "./external/mattpocock-skills/skills/in-progress/claude-handoff/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
+    "id": "loop-me",
+    "path": "./external/mattpocock-skills/skills/in-progress/loop-me/SKILL.md",
+    "cluster": "productivity",
+    "cluster_name": "效率·生产力",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 5.3
+  },
+  {
     "id": "all-pass",
     "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/check/all-pass/SKILL.md",
     "cluster": "misc",
@@ -11297,6 +11660,17 @@
     "total": 5.3
   },
   {
+    "id": "handoff",
+    "path": "./external/mattpocock-skills/skills/productivity/handoff/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
     "id": "count",
     "path": "./external/microsoft-waza/cmd/waza/tokens/testdata/count/SKILL.md",
     "cluster": "misc",
@@ -11323,6 +11697,17 @@
     "path": "./external/huashu-skills/huashu-info-search/SKILL.md",
     "cluster": "education",
     "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 4.8
+  },
+  {
+    "id": "resolving-merge-conflicts",
+    "path": "./external/mattpocock-skills/skills/engineering/resolving-merge-conflicts/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 4,
     "func_clarity": 6,
@@ -11418,6 +11803,17 @@
     "total": 4.5
   },
   {
+    "id": "grill-with-docs",
+    "path": "./external/mattpocock-skills/skills/engineering/grill-with-docs/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 3,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 4.3
+  },
+  {
     "id": "friendly-greeter",
     "path": "./external/skillspector/tests/fixtures/mcp_mismatched_skill/SKILL.md",
     "cluster": "misc",
@@ -11449,6 +11845,17 @@
     "func_clarity": 6,
     "maintainability": 5,
     "total": 3.8
+  },
+  {
+    "id": "implement",
+    "path": "./external/mattpocock-skills/skills/engineering/implement/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 2,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 3.5
   },
   {
     "id": "code-formatter",
@@ -11592,5 +11999,18 @@
     "func_clarity": 5,
     "maintainability": 2,
     "total": 1.9
+  },
+  {
+    "id": "design-an-interface",
+    "path": "./community/_archive-design-an-interface/SKILL.md",
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
+    "is_winner": false,
+    "score": 0,
+    "doc": 0,
+    "func": 0,
+    "maint": 0,
+    "total": 0,
+    "archived": true
   }
 ]

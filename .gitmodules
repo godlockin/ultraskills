@@ -149,3 +149,6 @@
 [submodule "external/neolabhq-kit"]
 	path = external/neolabhq-kit
 	url = https://github.com/NeoLabHQ/context-engineering-kit.git
+[submodule "external/mattpocock-skills"]
+	path = external/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git

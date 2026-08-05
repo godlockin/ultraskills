@@ -139,7 +139,7 @@
     "winner": "content-orchestrator",
     "score": 9.5,
     "runner_up": "doc-coauthoring",
-    "total_contestants": 17,
+    "total_contestants": 21,
     "defeated": [
       "doc-coauthoring",
       "document-release",
@@ -184,7 +184,7 @@
     "winner": "deep-concept-analyzer",
     "score": 9.5,
     "runner_up": "interview-script",
-    "total_contestants": 30,
+    "total_contestants": 31,
     "defeated": [
       "interview-script",
       "summarize-interview",
@@ -196,16 +196,16 @@
   {
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
-    "winner": "design-an-interface",
+    "winner": "ubiquitous-language",
     "score": 9.5,
-    "runner_up": "ubiquitous-language",
+    "runner_up": "information-architecture",
     "total_contestants": 15,
     "defeated": [
-      "ubiquitous-language",
       "information-architecture",
       "mcp-builder",
       "mcp-integration",
-      "site-architecture"
+      "site-architecture",
+      "graphql-architect"
     ]
   },
   {
@@ -273,13 +273,13 @@
     "winner": "ai-techbook-translation",
     "score": 9.5,
     "runner_up": "career-coach",
-    "total_contestants": 213,
+    "total_contestants": 240,
     "defeated": [
       "career-coach",
       "value-proposition",
       "ai-techbook-translation-review",
       "bazi-fortune",
-      "face-reading"
+      "diagnostic-debugging"
     ]
   },
   {
@@ -303,7 +303,7 @@
     "winner": "growth-loops",
     "score": 9.5,
     "runner_up": "baoyu-compress-image",
-    "total_contestants": 20,
+    "total_contestants": 21,
     "defeated": [
       "baoyu-compress-image",
       "brainstorm-ideas-new",
@@ -346,13 +346,28 @@
     "winner": "receiving-code-review",
     "score": 9.2,
     "runner_up": "changelog-generator",
-    "total_contestants": 10,
+    "total_contestants": 12,
     "defeated": [
       "changelog-generator",
       "improve-codebase-architecture",
       "gh-address-comments",
       "karpathy-guidelines",
-      "requesting-code-review"
+      "two-axis-code-review"
+    ]
+  },
+  {
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "winner": "agent-docs-writing",
+    "score": 9.0,
+    "runner_up": "pua-en",
+    "total_contestants": 8,
+    "defeated": [
+      "pua-en",
+      "pua",
+      "pua-ja",
+      "prompt-optimizer",
+      "task-analyzer"
     ]
   },
   {
@@ -388,9 +403,10 @@
     "winner": "triage-issue",
     "score": 9.0,
     "runner_up": "writing-hookify-rules",
-    "total_contestants": 5,
+    "total_contestants": 7,
     "defeated": [
       "writing-hookify-rules",
+      "seam-driven-tdd",
       "test-case-templates",
       "test-driven-development",
       "benchmark"
@@ -475,21 +491,6 @@
     "defeated": [
       "project-development",
       "checkpoint"
-    ]
-  },
-  {
-    "cluster": "agent-pua",
-    "cluster_name": "Agent·激励强化",
-    "winner": "pua-en",
-    "score": 8.8,
-    "runner_up": "pua",
-    "total_contestants": 7,
-    "defeated": [
-      "pua",
-      "pua-ja",
-      "prompt-optimizer",
-      "task-analyzer",
-      "prompt-engineering"
     ]
   },
   {
