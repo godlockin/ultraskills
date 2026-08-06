@@ -74,6 +74,35 @@ FORCE_DEPLOY_IDS = {
 
 # ─── 工具函数 ─────────────────────────────────────────────────────────────────
 
+SAFE_SKILL_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
+def safe_skill_id(value: object) -> str:
+    """Validate an index skill id as one safe directory name."""
+    if not isinstance(value, str) or not SAFE_SKILL_ID.fullmatch(value) or value in {".", ".."}:
+        raise ValueError(f"unsafe skill id: {value!r}")
+    return value
+
+
+def resolve_within(root: Path, *parts: str) -> Path:
+    """Resolve path and reject anything outside root."""
+    root_resolved = root.resolve()
+    candidate = (root_resolved.joinpath(*parts)).resolve()
+    try:
+        candidate.relative_to(root_resolved)
+    except ValueError as exc:
+        raise ValueError(f"path escapes root: {candidate}") from exc
+    return candidate
+
+
+def index_source_path(raw_path: object) -> Path:
+    """Resolve index source path while enforcing PROJECT_ROOT containment."""
+    if not isinstance(raw_path, str) or not raw_path:
+        raise ValueError("missing source path")
+    relative = raw_path[2:] if raw_path.startswith("./") else raw_path
+    return resolve_within(PROJECT_ROOT, relative)
+
+
 def parse_frontmatter(text: str) -> Optional[Dict]:
     """解析 YAML frontmatter。"""
     m = re.match(r'^---\s*\n(.*?)\n---', text, re.DOTALL)
@@ -358,16 +387,20 @@ def cmd_deploy(args):
                         link.unlink()
 
         for skill in skills:
-            skill_id = skill["id"]
-            skill_path = (PROJECT_ROOT / skill["path"].lstrip("./")).resolve()
+            try:
+                skill_id = safe_skill_id(skill.get("id"))
+                skill_path = index_source_path(skill.get("path"))
+                link = resolve_within(target_base, skill_id)
+            except (TypeError, ValueError) as exc:
+                print(f"    ❌ Unsafe index entry: {exc}")
+                stats["error"] += 1
+                continue
 
             if not skill_path.exists():
                 print(f"    ⚠️  Missing: {skill['path']}")
                 print(f"       Fix: Check if skill was moved/deleted. Run: python3 scripts/deploy_skills.py scan")
                 stats["error"] += 1
                 continue
-
-            link = target_base / skill_id
 
             # Claude Code expects skill directories (with SKILL.md inside),
             # so symlink to the parent directory, not SKILL.md itself

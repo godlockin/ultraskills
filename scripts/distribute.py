@@ -20,12 +20,37 @@ Usage:
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 INDEX_FILE = REPO_ROOT / "index.json"
+SAFE_SKILL_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
+def safe_skill_id(value: object) -> str:
+    if not isinstance(value, str) or not SAFE_SKILL_ID.fullmatch(value) or value in {".", ".."}:
+        raise ValueError(f"unsafe skill id: {value!r}")
+    return value
+
+
+def resolve_within(root: Path, *parts: str) -> Path:
+    root_resolved = root.resolve()
+    candidate = root_resolved.joinpath(*parts).resolve()
+    try:
+        candidate.relative_to(root_resolved)
+    except ValueError as exc:
+        raise ValueError(f"path escapes root: {candidate}") from exc
+    return candidate
+
+
+def index_source_path(raw_path: object) -> Path:
+    if not isinstance(raw_path, str) or not raw_path:
+        raise ValueError("missing source path")
+    relative = raw_path[2:] if raw_path.startswith("./") else raw_path
+    return resolve_within(REPO_ROOT, relative)
 
 # Platform table — known AI tool conventions.
 # Add new platforms by appending; tests should cover each.
@@ -117,15 +142,17 @@ def load_skills_from_index() -> list[dict]:
         idx = json.load(f)
     out = []
     for s in idx.get("skills", []):
-        rel = (s.get("path") or "").lstrip("./")
-        if not rel:
+        try:
+            skill_id = safe_skill_id(s.get("id"))
+            src_file = index_source_path(s.get("path"))
+        except (TypeError, ValueError) as exc:
+            print(f"  ✗ skipping unsafe index entry: {exc}", file=sys.stderr)
             continue
-        src_file = REPO_ROOT / rel
         if not src_file.exists():
             continue
         # index.json path points to SKILL.md file — use parent as the skill root
         src_dir = src_file if src_file.is_dir() else src_file.parent
-        out.append({"id": s["id"], "src": src_dir, "dst_name": s["id"]})
+        out.append({"id": skill_id, "src": src_dir, "dst_name": skill_id})
     return out
 
 
@@ -135,7 +162,12 @@ def deploy_symlink(skills: list[dict], dst_root: Path) -> tuple[int, int]:
     dst_root.mkdir(parents=True, exist_ok=True)
     ok = skip = 0
     for s in skills:
-        dst = dst_root / s["dst_name"]
+        try:
+            dst = resolve_within(dst_root, safe_skill_id(s["dst_name"]))
+        except (TypeError, ValueError) as exc:
+            print(f"    ✗ skip unsafe destination {s.get('id')}: {exc}")
+            skip += 1
+            continue
         if dst.is_symlink():
             dst.unlink()
         elif dst.exists():
@@ -153,7 +185,12 @@ def deploy_copy(skills: list[dict], dst_root: Path) -> tuple[int, int]:
     dst_root.mkdir(parents=True, exist_ok=True)
     ok = skip = 0
     for s in skills:
-        dst = dst_root / s["dst_name"]
+        try:
+            dst = resolve_within(dst_root, safe_skill_id(s["dst_name"]))
+        except (TypeError, ValueError) as exc:
+            print(f"    ✗ skip unsafe destination {s.get('id')}: {exc}")
+            skip += 1
+            continue
         if dst.exists():
             print(f"    ⚠ skip {s['id']} (already exists — remove first)")
             skip += 1
