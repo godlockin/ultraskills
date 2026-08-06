@@ -194,19 +194,23 @@ def fetch_github_skills(dry_run: bool = False) -> List[str]:
                 # Pull latest
                 print(f"  🔄 Updating {repo_name}...")
                 if not dry_run:
-                    subprocess.run(
+                    result = subprocess.run(
                         ["git", "-C", str(repo_cache), "pull", "--ff-only"],
                         capture_output=True, timeout=30
                     )
+                    if result.returncode != 0:
+                        raise RuntimeError(f"git pull failed for {repo_name}: {result.stderr.decode(errors='replace').strip()}")
             else:
                 # Clone
                 print(f"  📦 Cloning {repo_name}...")
                 if not dry_run:
                     cache_dir.mkdir(parents=True, exist_ok=True)
-                    subprocess.run(
+                    result = subprocess.run(
                         ["git", "clone", "--depth", "1", "-b", branch, repo_url, str(repo_cache)],
                         capture_output=True, timeout=60
                     )
+                    if result.returncode != 0:
+                        raise RuntimeError(f"git clone failed for {repo_name}: {result.stderr.decode(errors='replace').strip()}")
             
             if dry_run:
                 print(f"  📋 Would scan {repo_name}")
@@ -319,53 +323,13 @@ def sync_global_links(skills: List[Dict], dry_run: bool = False) -> dict:
 
 
 def update_index(skills: List[Dict]):
-    """更新 index.json。"""
-    index_path = PROJECT_ROOT / "index.json"
-    
-    existing_meta = {"version": "1.0.0", "updated_at": str(date.today())}
-    if index_path.exists():
-        try:
-            existing = json.loads(index_path.read_text(encoding="utf-8"))
-            existing_meta = existing.get("meta", existing_meta)
-            version_parts = existing_meta.get("version", "1.0.0").split(".")
-            version_parts[-1] = str(int(version_parts[-1]) + 1)
-            existing_meta["version"] = ".".join(version_parts)
-        except Exception:
-            pass
-    
-    existing_meta["updated_at"] = str(date.today())
-    
-    # 清理 source 字段（不写入 index）
-    clean_skills = []
-    for s in skills:
-        clean = {k: v for k, v in s.items() if k != "source"}
-        clean_skills.append(clean)
-    
-    # Detect duplicates
-    seen_ids = {}
-    duplicates = []
-    for s in clean_skills:
-        skill_id = s.get("id")
-        if skill_id in seen_ids:
-            duplicates.append(skill_id)
-        seen_ids[skill_id] = s.get("path")
-    
-    if duplicates:
-        print(f"\n⚠️  Warning: Duplicate skill IDs detected: {', '.join(set(duplicates))}")
-        print("   Consider renaming directories to avoid conflicts.")
-
-    index_data = {
-        "meta": existing_meta,
-        "skills": clean_skills
-    }
-    
-    index_path.write_text(
-        json.dumps(index_data, indent=2, ensure_ascii=False),
-        encoding="utf-8"
-    )
-    
-    print(f"\n📝 Updated index.json (v{existing_meta['version']})")
-    print(f"   Total skills: {len(skills)}")
+    """Rebuild the canonical index through the full Arena pipeline."""
+    script = PROJECT_ROOT / "scripts" / "build_arena_index.py"
+    env = os.environ.copy()
+    env["ULTRASKILLS_PIPELINE_LOCK_HELD"] = "1"
+    result = subprocess.run([sys.executable, str(script)], cwd=PROJECT_ROOT, env=env)
+    if result.returncode != 0:
+        raise RuntimeError(f"Arena pipeline failed with exit {result.returncode}")
 
 
 def main():
@@ -423,5 +387,7 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    from pipeline_lock import PipelineLock
+    with PipelineLock("sync_skills"):
+        sys.exit(main())
 

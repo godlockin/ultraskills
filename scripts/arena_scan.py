@@ -362,6 +362,7 @@ def scan_all_skills() -> list:
 
 if __name__ == "__main__":
     from pipeline_lock import PipelineLock
+    from atomic_json import atomic_write_json
     with PipelineLock("arena_scan"):
 
         out_dir = ROOT / "skill-arena"
@@ -378,5 +379,5 @@ if __name__ == "__main__":
         print("Distribution:", json.dumps(dist, ensure_ascii=False))
 
         out_file = out_dir / "skills_inventory.json"
-        out_file.write_text(json.dumps(skills, ensure_ascii=False, indent=2))
+        atomic_write_json(out_file, skills)
         print(f"Written: {out_file}")

@@ -172,7 +172,8 @@ def main():
     }
 
     out_path = ROOT / "index.json"
-    out_path.write_text(json.dumps(index, ensure_ascii=False, indent=2))
+    from atomic_json import atomic_write_json
+    atomic_write_json(out_path, index)
 
     print(f"✅ index.json written: {len(skills_out)} skills, {cluster_cnt} clusters")
     print(f"   avg score: {avg_score:.2f} | winners: {len(winners)}")
