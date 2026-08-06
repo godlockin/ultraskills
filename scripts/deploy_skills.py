@@ -28,6 +28,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -73,6 +74,35 @@ FORCE_DEPLOY_IDS = {
 }
 
 # ─── 工具函数 ─────────────────────────────────────────────────────────────────
+
+SAFE_SKILL_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
+def safe_skill_id(value: object) -> str:
+    """Validate an index skill id as one safe directory name."""
+    if not isinstance(value, str) or not SAFE_SKILL_ID.fullmatch(value) or value in {".", ".."}:
+        raise ValueError(f"unsafe skill id: {value!r}")
+    return value
+
+
+def resolve_within(root: Path, *parts: str) -> Path:
+    """Resolve path and reject anything outside root."""
+    root_resolved = root.resolve()
+    candidate = (root_resolved.joinpath(*parts)).resolve()
+    try:
+        candidate.relative_to(root_resolved)
+    except ValueError as exc:
+        raise ValueError(f"path escapes root: {candidate}") from exc
+    return candidate
+
+
+def index_source_path(raw_path: object) -> Path:
+    """Resolve index source path while enforcing PROJECT_ROOT containment."""
+    if not isinstance(raw_path, str) or not raw_path:
+        raise ValueError("missing source path")
+    relative = raw_path[2:] if raw_path.startswith("./") else raw_path
+    return resolve_within(PROJECT_ROOT, relative)
+
 
 def parse_frontmatter(text: str) -> Optional[Dict]:
     """解析 YAML frontmatter。"""
@@ -139,95 +169,15 @@ def scan_skill(skill_dir: Path, source_type: str) -> Optional[Dict]:
     }
 
 
-# ─── scan ────────────────────────────────────────────────────────────────────
-
 def cmd_scan(args):
-    """扫描所有 skills，写入 index.json。"""
-    print("🔍 Scanning skills...")
+    """Run the sole full Arena build chain."""
+    script = PROJECT_ROOT / "scripts" / "build_arena_index.py"
+    env = os.environ.copy()
+    env["ULTRASKILLS_PIPELINE_LOCK_HELD"] = "1"
+    result = subprocess.run([sys.executable, str(script)], cwd=PROJECT_ROOT, env=env)
+    if result.returncode != 0:
+        raise SystemExit(result.returncode)
 
-    skills: List[Dict] = []
-    seen_ids: Dict[str, str] = {}  # id -> path (for dedup warning)
-
-    # 1. 自研 skills
-    for dir_name in OWNED_DIRS:
-        base = PROJECT_ROOT / dir_name
-        for skill_dir in find_skill_dirs(base):
-            skill = scan_skill(skill_dir, "owned")
-            if not skill:
-                continue
-            sid = skill["id"]
-            if sid in seen_ids:
-                print(f"  ⚠️  Duplicate id '{sid}': {skill['path']} vs {seen_ids[sid]}")
-            else:
-                seen_ids[sid] = skill["path"]
-                skills.append(skill)
-
-    owned_count = len(skills)
-    print(f"  Owned skills: {owned_count}")
-
-    # 2. External submodule skills
-    ext_count = 0
-    if EXTERNAL_DIR.exists():
-        for submodule_dir in sorted(EXTERNAL_DIR.iterdir()):
-            if not submodule_dir.is_dir() or submodule_dir.name.startswith("."):
-                continue
-            for skill_dir in find_skill_dirs(submodule_dir):
-                skill = scan_skill(skill_dir, "external")
-                if not skill:
-                    continue
-                sid = skill["id"]
-                if sid in seen_ids:
-                    # External 重复 owned → 跳过（owned 优先）
-                    continue
-                seen_ids[sid] = skill["path"]
-                skills.append(skill)
-                ext_count += 1
-
-    print(f"  External skills: {ext_count}")
-    print(f"  Total: {len(skills)}")
-
-    # 横向分析：按 tag 聚合
-    tag_index: Dict[str, List[str]] = {}
-    for s in skills:
-        for tag in s.get("tags") or []:
-            tag_index.setdefault(tag, []).append(s["id"])
-
-    # 纵向分析：按 source_dir 聚合
-    dir_index: Dict[str, List[str]] = {}
-    for s in skills:
-        dir_index.setdefault(s["source_dir"], []).append(s["id"])
-
-    # 读取现有 arena 数据（保留）
-    existing_arena: Dict[str, Dict] = {}
-    if INDEX_PATH.exists():
-        try:
-            old = json.loads(INDEX_PATH.read_text())
-            for s in old.get("skills", []):
-                if "arena" in s:
-                    existing_arena[s["id"]] = s["arena"]
-        except Exception:
-            pass
-
-    # 合并 arena 数据
-    for s in skills:
-        if s["id"] in existing_arena:
-            s["arena"] = existing_arena[s["id"]]
-
-    index = {
-        "version": "1.0.0",
-        "generated_at": datetime.now().strftime("%Y-%m-%d"),
-        "stats": {
-            "total": len(skills),
-            "owned": owned_count,
-            "external": ext_count,
-        },
-        "tag_index": tag_index,
-        "dir_index": dir_index,
-        "skills": skills,
-    }
-
-    INDEX_PATH.write_text(json.dumps(index, indent=2, ensure_ascii=False))
-    print(f"\n✅ index.json updated ({len(skills)} skills)")
 
 
 # ─── deploy ──────────────────────────────────────────────────────────────────
@@ -358,16 +308,20 @@ def cmd_deploy(args):
                         link.unlink()
 
         for skill in skills:
-            skill_id = skill["id"]
-            skill_path = (PROJECT_ROOT / skill["path"].lstrip("./")).resolve()
+            try:
+                skill_id = safe_skill_id(skill.get("id"))
+                skill_path = index_source_path(skill.get("path"))
+                link = resolve_within(target_base, skill_id)
+            except (TypeError, ValueError) as exc:
+                print(f"    ❌ Unsafe index entry: {exc}")
+                stats["error"] += 1
+                continue
 
             if not skill_path.exists():
                 print(f"    ⚠️  Missing: {skill['path']}")
                 print(f"       Fix: Check if skill was moved/deleted. Run: python3 scripts/deploy_skills.py scan")
                 stats["error"] += 1
                 continue
-
-            link = target_base / skill_id
 
             # Claude Code expects skill directories (with SKILL.md inside),
             # so symlink to the parent directory, not SKILL.md itself

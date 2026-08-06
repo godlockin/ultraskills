@@ -16,6 +16,7 @@ Usage:
 """
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -34,7 +35,9 @@ def run(stage_num: int) -> int:
     script_name, desc = STAGES[stage_num - 1][1], STAGES[stage_num - 1][2]
     script = SCRIPTS_DIR / script_name
     print(f"  [stage {stage_num}] {script_name} — {desc}")
-    r = subprocess.run([sys.executable, str(script)], cwd=REPO_ROOT)
+    env = os.environ.copy()
+    env["ULTRASKILLS_PIPELINE_LOCK_HELD"] = "1"
+    r = subprocess.run([sys.executable, str(script)], cwd=REPO_ROOT, env=env)
     return r.returncode
 
 
@@ -57,11 +60,13 @@ def main() -> int:
         print("--stage must be in range 1-3", file=sys.stderr)
         return 2
 
-    for s in stages:
-        rc = run(s)
-        if rc != 0:
-            print(f"Stage {s} failed (exit {rc})", file=sys.stderr)
-            return rc
+    from pipeline_lock import PipelineLock
+    with PipelineLock("arena_build"):
+        for s in stages:
+            rc = run(s)
+            if rc != 0:
+                print(f"Stage {s} failed (exit {rc})", file=sys.stderr)
+                return rc
     return 0
 
 

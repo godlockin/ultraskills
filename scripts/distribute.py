@@ -20,12 +20,37 @@ Usage:
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 INDEX_FILE = REPO_ROOT / "index.json"
+SAFE_SKILL_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
+def safe_skill_id(value: object) -> str:
+    if not isinstance(value, str) or not SAFE_SKILL_ID.fullmatch(value) or value in {".", ".."}:
+        raise ValueError(f"unsafe skill id: {value!r}")
+    return value
+
+
+def resolve_within(root: Path, *parts: str) -> Path:
+    root_resolved = root.resolve()
+    candidate = root_resolved.joinpath(*parts).resolve()
+    try:
+        candidate.relative_to(root_resolved)
+    except ValueError as exc:
+        raise ValueError(f"path escapes repository: {candidate}") from exc
+    return candidate
+
+
+def index_source_path(raw_path: object) -> Path:
+    if not isinstance(raw_path, str) or not raw_path:
+        raise ValueError("missing source path")
+    relative = raw_path[2:] if raw_path.startswith("./") else raw_path
+    return resolve_within(REPO_ROOT, relative)
 
 # Platform table — known AI tool conventions.
 # Add new platforms by appending; tests should cover each.
@@ -107,25 +132,50 @@ def list_platforms() -> None:
         print(f"  {name:<12} {cfg['label']:<24} {str(skill_full):<32} {mcp:<6}")
 
 
-def load_skills_from_index() -> list[dict]:
-    """Return all skills from index.json. Each entry has `id`, `src` (the
-    directory containing SKILL.md — parent of path), and `dst_name` (id)."""
+def load_skills_from_index(only_ids: set[str] | None = None) -> list[dict]:
+    """Load validated skill roots from public index.
+
+    Index is a release artifact: every path must be a repository-local SKILL.md.
+    Fail closed instead of silently omitting broken entries.
+    """
     if not INDEX_FILE.exists():
-        print(f"  ✗ index.json not found at {INDEX_FILE}", file=sys.stderr)
-        sys.exit(1)
-    with INDEX_FILE.open(encoding="utf-8") as f:
-        idx = json.load(f)
+        raise ValueError(f"index.json not found at {INDEX_FILE}")
+    try:
+        idx = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"cannot read index.json: {exc}") from exc
+
     out = []
-    for s in idx.get("skills", []):
-        rel = (s.get("path") or "").lstrip("./")
-        if not rel:
+    errors = []
+    seen_ids: set[str] = set()
+    for skill in idx.get("skills", []):
+        try:
+            skill_id = safe_skill_id(skill.get("id"))
+        except (TypeError, ValueError) as exc:
+            errors.append(str(exc))
             continue
-        src_file = REPO_ROOT / rel
-        if not src_file.exists():
+        if only_ids is not None and skill_id not in only_ids:
             continue
-        # index.json path points to SKILL.md file — use parent as the skill root
-        src_dir = src_file if src_file.is_dir() else src_file.parent
-        out.append({"id": s["id"], "src": src_dir, "dst_name": s["id"]})
+        rel = skill.get("path")
+        try:
+            candidate = index_source_path(rel)
+        except (TypeError, ValueError) as exc:
+            errors.append(f"{skill_id}: {exc}")
+            continue
+        if candidate.name != "SKILL.md" or not candidate.is_file():
+            errors.append(f"{skill_id}: missing SKILL.md ({rel})")
+            continue
+        if skill_id in seen_ids:
+            errors.append(f"{skill_id}: duplicate id")
+            continue
+        seen_ids.add(skill_id)
+        out.append({"id": skill_id, "src": candidate.parent, "dst_name": skill_id})
+
+    if only_ids is not None:
+        missing_ids = sorted(only_ids - seen_ids)
+        errors.extend(f"{skill_id}: not present in validated index" for skill_id in missing_ids)
+    if errors:
+        raise ValueError("index validation failed:\n  " + "\n  ".join(errors))
     return out
 
 
@@ -135,7 +185,12 @@ def deploy_symlink(skills: list[dict], dst_root: Path) -> tuple[int, int]:
     dst_root.mkdir(parents=True, exist_ok=True)
     ok = skip = 0
     for s in skills:
-        dst = dst_root / s["dst_name"]
+        try:
+            dst = resolve_within(dst_root, safe_skill_id(s["dst_name"]))
+        except (TypeError, ValueError) as exc:
+            print(f"    ✗ skip unsafe destination {s.get('id')}: {exc}")
+            skip += 1
+            continue
         if dst.is_symlink():
             dst.unlink()
         elif dst.exists():
@@ -153,7 +208,12 @@ def deploy_copy(skills: list[dict], dst_root: Path) -> tuple[int, int]:
     dst_root.mkdir(parents=True, exist_ok=True)
     ok = skip = 0
     for s in skills:
-        dst = dst_root / s["dst_name"]
+        try:
+            dst = resolve_within(dst_root, safe_skill_id(s["dst_name"]))
+        except (TypeError, ValueError) as exc:
+            print(f"    ✗ skip unsafe destination {s.get('id')}: {exc}")
+            skip += 1
+            continue
         if dst.exists():
             print(f"    ⚠ skip {s['id']} (already exists — remove first)")
             skip += 1
@@ -232,7 +292,7 @@ def remove_skills(dst_root: Path) -> int:
     return count
 
 
-def run(platform: str, mode: str, remove: bool) -> int:
+def run(platform: str, mode: str, remove: bool, only_ids: set[str] | None = None) -> int:
     cfg = PLATFORMS.get(platform)
     if not cfg:
         print(f"Unknown platform: {platform}", file=sys.stderr)
@@ -254,7 +314,11 @@ def run(platform: str, mode: str, remove: bool) -> int:
         return 0
 
     print(f"Deploying to {cfg['label']} ({skill_root}, mode={mode})...")
-    skills = load_skills_from_index()
+    try:
+        skills = load_skills_from_index(only_ids)
+    except ValueError as exc:
+        print(f"  ✗ {exc}", file=sys.stderr)
+        return 1
     if mode == "symlink":
         ok, skip = deploy_symlink(skills, skill_root)
     elif mode == "copy":
@@ -274,8 +338,10 @@ def main() -> int:
     ap.add_argument("--platform", default="claude-code", help="platform name or 'list' or 'all'")
     ap.add_argument("--mode", choices=["symlink", "copy"], default="symlink")
     ap.add_argument("--remove", action="store_true", help="uninstall instead of install")
+    ap.add_argument("--only", action="append", help="deploy only these skill IDs (repeatable)")
     args = ap.parse_args()
 
+    only_ids = set(args.only) if args.only else None
     if args.platform == "list":
         list_platforms()
         return 0
@@ -283,12 +349,12 @@ def main() -> int:
     if args.platform == "all":
         rc = 0
         for name in PLATFORMS:
-            r = run(name, args.mode, args.remove)
+            r = run(name, args.mode, args.remove, only_ids)
             if r != 0:
                 rc = r
         return rc
 
-    return run(args.platform, args.mode, args.remove)
+    return run(args.platform, args.mode, args.remove, only_ids)
 
 
 if __name__ == "__main__":

@@ -65,15 +65,10 @@ echo "   索引不存在,开始初始化..."
 echo ""
 echo "[3/4] 安装 CodeGraph MCP Server..."
 if ! command -v codegraph &>/dev/null; then
-  echo "   正在下载安装脚本..."
-  if [ "$(uname)" = "Darwin" ] || [ "$(uname)" = "Linux" ]; then
-    curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh
-  else
-    # Windows PowerShell
-    echo "   Windows 系统检测到,请手动运行:"
-    echo "   irm https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.ps1 | iex"
-    exit 1
-  fi
+  echo "   ✗ CodeGraph is not installed. Automatic remote installers are disabled." >&2
+  echo "   Install CodeGraph manually from a reviewed, version-pinned release, then rerun:" >&2
+  echo "   codegraph init -i --quiet" >&2
+  exit 1
 else
   echo "   ✓ CodeGraph 已安装: $(codegraph --version 2>&1 | head -n1)"
 fi

@@ -267,6 +267,13 @@ def scan_all_skills() -> list:
     for skill_md in skill_mds:
         # Deduplicate by real (resolved) path — catches symlinks and submodule overlaps
         real_path = skill_md.resolve()
+        try:
+            real_path.relative_to(ROOT.resolve())
+        except ValueError:
+            # Never publish symlinked skills outside this repository.
+            continue
+        if real_path.name != "SKILL.md" or not real_path.is_file():
+            continue
         if real_path in seen_real_paths:
             continue
         seen_real_paths.add(real_path)
@@ -362,6 +369,7 @@ def scan_all_skills() -> list:
 
 if __name__ == "__main__":
     from pipeline_lock import PipelineLock
+    from atomic_json import atomic_write_json
     with PipelineLock("arena_scan"):
 
         out_dir = ROOT / "skill-arena"
@@ -378,5 +386,5 @@ if __name__ == "__main__":
         print("Distribution:", json.dumps(dist, ensure_ascii=False))
 
         out_file = out_dir / "skills_inventory.json"
-        out_file.write_text(json.dumps(skills, ensure_ascii=False, indent=2))
+        atomic_write_json(out_file, skills)
         print(f"Written: {out_file}")

@@ -8,4 +8,4 @@
 # Or manually:
 #   pip3 install -r devops/ultraskills-hub/requirements.txt
 
-mcp>=1.0.0,<2.0.0
+mcp==1.9.4
