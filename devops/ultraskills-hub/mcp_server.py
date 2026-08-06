@@ -38,6 +38,14 @@ INDEX_FILE = REPO_ROOT / "index.json"
 server = Server(SERVER_NAME)
 _index_cache: dict[str, Any] | None = None
 
+_REFRESH_INDEX_RUNNER = """
+import subprocess
+import sys
+
+for script in sys.argv[2:]:
+    subprocess.run([sys.executable, script], check=True)
+"""
+
 
 def _load_index() -> dict[str, Any]:
     global _index_cache
@@ -228,13 +236,23 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
             log = log_path.open("w")
             proc = subprocess.Popen(
                 [
-                    "bash", "-c",
-                    f"python3 {scripts_dir}/arena_scan.py && "
-                    f"python3 {scripts_dir}/arena_cluster_score.py && "
-                    f"python3 {scripts_dir}/arena_build_index.py",
+                    sys.executable,
+                    "-c",
+                    _REFRESH_INDEX_RUNNER,
+                    "--",
+                    *[
+                        str(scripts_dir / script_name)
+                        for script_name in (
+                            "arena_scan.py",
+                            "arena_cluster_score.py",
+                            "arena_build_index.py",
+                        )
+                    ],
                 ],
                 cwd=REPO_ROOT,
-                stdout=log, stderr=log,
+                stdout=log,
+                stderr=log,
+                shell=False,
             )
             _invalidate()
             data = {
