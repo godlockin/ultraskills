@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 from pathlib import Path
 from typing import Any
 
@@ -61,6 +62,13 @@ def _load_index() -> dict[str, Any]:
 def _invalidate() -> None:
     global _index_cache
     _index_cache = None
+
+
+def _invalidate_after_refresh(proc: subprocess.Popen, log) -> None:
+    return_code = proc.wait()
+    log.close()
+    if return_code == 0:
+        _invalidate()
 
 
 def _arena(skill: dict) -> dict:
@@ -254,12 +262,16 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
                 stderr=log,
                 shell=False,
             )
-            _invalidate()
+            threading.Thread(
+                target=_invalidate_after_refresh,
+                args=(proc, log),
+                daemon=True,
+            ).start()
             data = {
                 "status": "started",
                 "pid": proc.pid,
                 "log": str(log_path),
-                "message": "Rebuild launched in background. Index invalidated — next call will reload.",
+                "message": "Rebuild launched in background. Cache invalidates after successful completion.",
             }
         else:
             data = {"error": f"Unknown tool: {name}"}
