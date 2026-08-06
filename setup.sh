@@ -85,7 +85,6 @@ TOP_SKILLS=(
   "pricing-strategy|external/marketingskills/skills/pricing-strategy"
   "karpathy-guidelines|community/karpathy-guidelines"
   "grill-me|community/grill-me"
-  "design-an-interface|community/design-an-interface"
   "git-guardrails-claude-code|community/git-guardrails-claude-code"
   "to-prd|community/to-prd"
   "to-issues|community/to-issues"
@@ -478,17 +477,18 @@ if [ "$INSTALL_MODE" = "--all" ]; then
 fi
 
 if [ "$INSTALL_MODE" = "--top" ]; then
-  echo "Installing hub + top 33 curated skills → $PLATFORM (mode=$LINK_MODE)"
+  echo "Installing hub + top 32 curated skills → $PLATFORM (mode=$LINK_MODE)"
   echo ""
   install_hub
-  # Deploy only the curated top skills (not the whole index) — overlay a
-  # filtered distribute. Implemented via filter: distribute reads index.json
-  # and creates links for ALL. For --top we create only TOP_SKILLS symlinks
-  # using the legacy per-skill symlink_skill function, scoped to PLATFORM.
   if [ "$PLATFORM" = "claude-code" ]; then
+    top_args=()
     for entry in "${TOP_SKILLS[@]}"; do
-      symlink_skill "${entry%%|*}" "${entry##*|}"
+      top_args+=(--only "${entry%%|*}")
     done
+    if ! python3 "$REPO_DIR/scripts/distribute.py" --platform "$PLATFORM" --mode "$LINK_MODE" "${top_args[@]}"; then
+      echo "✗ --top aborted: one or more curated skills are unavailable" >&2
+      exit 1
+    fi
   else
     # For other platforms we still deploy everything (--top only meaningful
     # for Claude Code where system-reminder cost matters)

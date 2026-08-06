@@ -267,6 +267,13 @@ def scan_all_skills() -> list:
     for skill_md in skill_mds:
         # Deduplicate by real (resolved) path — catches symlinks and submodule overlaps
         real_path = skill_md.resolve()
+        try:
+            real_path.relative_to(ROOT.resolve())
+        except ValueError:
+            # Never publish symlinked skills outside this repository.
+            continue
+        if real_path.name != "SKILL.md" or not real_path.is_file():
+            continue
         if real_path in seen_real_paths:
             continue
         seen_real_paths.add(real_path)

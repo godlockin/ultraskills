@@ -12,12 +12,12 @@ sync_skills.py - 自动扫描并同步所有 Skills
 import os
 import sys
 import json
-import yaml
 import shutil
 import subprocess
 from datetime import date
 from pathlib import Path
 from typing import Dict, List, Optional
+from urllib.parse import urlparse
 
 # 项目根目录
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -68,13 +68,66 @@ GITHUB_SKILL_REPOS = [
 # 导入目标目录
 IMPORT_TARGET_DIR = PROJECT_ROOT / "community"
 
+ALLOWED_GITHUB_HOST = "github.com"
+
+
+def canonical_repo_url(repo_url: str) -> str:
+    parsed = urlparse(repo_url)
+    path = parsed.path.rstrip("/")
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname != ALLOWED_GITHUB_HOST
+        or parsed.username is not None
+        or parsed.password is not None
+        or parsed.port is not None
+        or parsed.query
+        or parsed.fragment
+        or path.count("/") != 2
+    ):
+        raise ValueError(f"blocked repository URL (allowlist requires https://github.com/OWNER/REPO): {repo_url}")
+    owner, repo = path.lstrip("/").split("/")
+    if not owner or not repo or repo.endswith("/"):
+        raise ValueError(f"blocked repository URL: {repo_url}")
+    repo = repo.removesuffix(".git")
+    if not repo:
+        raise ValueError(f"blocked repository URL: {repo_url}")
+    return f"https://github.com/{owner}/{repo}"
+
+
+def validate_repo_url(repo_url: str) -> None:
+    canonical_repo_url(repo_url)
+
+
+def verify_cached_repo(repo_cache: Path, repo_url: str) -> str:
+    expected = canonical_repo_url(repo_url)
+    remote = subprocess.run(
+        ["git", "-C", str(repo_cache), "remote", "get-url", "origin"],
+        check=True, capture_output=True, text=True, timeout=10,
+    ).stdout.strip()
+    if canonical_repo_url(remote) != expected:
+        raise ValueError(f"cached remote mismatch for {repo_cache.name}: {remote}")
+    return subprocess.run(
+        ["git", "-C", str(repo_cache), "rev-parse", "HEAD"],
+        check=True, capture_output=True, text=True, timeout=10,
+    ).stdout.strip()
 
 def parse_frontmatter(content: str) -> Optional[Dict]:
-    """解析 YAML frontmatter。"""
-    parts = content.split("---")
-    if len(parts) < 3:
+    """Parse the small scalar/list subset used by skill frontmatter."""
+    if not content.startswith("---"):
         return None
-    return yaml.safe_load(parts[1])
+    end = content.find("\n---", 3)
+    if end < 0:
+        return None
+    result: Dict[str, object] = {}
+    for line in content[3:end].splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        value = value.strip().strip(" \\\"'")
+        if value.startswith("[") and value.endswith("]"):
+            value = [item.strip().strip(" \\\"'") for item in value[1:-1].split(",") if item.strip()]
+        result[key.strip()] = value
+    return result
 
 def scan_skill(skill_dir: Path, base_path: Path = None) -> Optional[Dict]:
     """扫描单个 skill 目录。"""
@@ -190,30 +243,25 @@ def fetch_github_skills(dry_run: bool = False) -> List[str]:
         repo_cache = cache_dir / repo_name
         
         try:
+            validate_repo_url(repo_url)
             if repo_cache.exists():
-                # Pull latest
-                print(f"  🔄 Updating {repo_name}...")
                 if not dry_run:
-                    result = subprocess.run(
-                        ["git", "-C", str(repo_cache), "pull", "--ff-only"],
-                        capture_output=True, timeout=30
-                    )
-                    if result.returncode != 0:
-                        raise RuntimeError(f"git pull failed for {repo_name}: {result.stderr.decode(errors='replace').strip()}")
+                    commit = verify_cached_repo(repo_cache, repo_url)
+                    print(f"  ✓ Using allowlisted cached commit {commit}")
+                else:
+                    print(f"  📋 Would verify cached origin for {repo_name} (no network refresh)")
             else:
-                # Clone
-                print(f"  📦 Cloning {repo_name}...")
+                print(f"  📦 Cloning allowlisted repository {repo_name}...")
                 if not dry_run:
                     cache_dir.mkdir(parents=True, exist_ok=True)
-                    result = subprocess.run(
-                        ["git", "clone", "--depth", "1", "-b", branch, repo_url, str(repo_cache)],
-                        capture_output=True, timeout=60
+                    subprocess.run(
+                        ["git", "clone", "--depth", "1", "--branch", branch, repo_url, str(repo_cache)],
+                        check=True, capture_output=True, text=True, timeout=60,
                     )
-                    if result.returncode != 0:
-                        raise RuntimeError(f"git clone failed for {repo_name}: {result.stderr.decode(errors='replace').strip()}")
-            
+                    commit = verify_cached_repo(repo_cache, repo_url)
+                    print(f"  ✓ Verified origin; cached commit {commit}")
             if dry_run:
-                print(f"  📋 Would scan {repo_name}")
+                print(f"  📋 Would scan {repo_name} (no network refresh)")
                 continue
             
             # 扫描并导入
@@ -239,10 +287,12 @@ def fetch_github_skills(dry_run: bool = False) -> List[str]:
                 print(f"  ✅ {item.name} (imported)")
                 fetched.append(item.name)
                 
-        except subprocess.TimeoutExpired:
-            print(f"  ❌ Timeout fetching {repo_name}")
-        except Exception as e:
-            print(f"  ❌ Error: {e}")
+        except subprocess.TimeoutExpired as exc:
+            print(f"  ❌ Timeout fetching {repo_name}", file=sys.stderr)
+            raise RuntimeError(f"timeout fetching {repo_name}") from exc
+        except Exception as exc:
+            print(f"  ❌ Error: {exc}", file=sys.stderr)
+            raise
     
     return fetched
 
