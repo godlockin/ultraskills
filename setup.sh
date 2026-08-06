@@ -460,6 +460,20 @@ fi
 # Print environment doctor report (skipped under --no-doctor / --quiet)
 doctor
 
+# Shield reverse-skill whenever an install path is used. A missing submodule is
+# safe to skip (there is no RULES.md to inject); an existing target must shield
+# successfully or setup stops without claiming a safe install.
+shield_reverse_skill_if_present() {
+  local target="$REPO_DIR/external/reverse-skill"
+  if [ ! -d "$target" ]; then
+    echo "  ⚠️  reverse-skill target missing — no RULES.md to shield; continuing safely"
+    return 0
+  fi
+  bash "$REPO_DIR/scripts/shield-reverse-skill.sh" "$target"
+}
+
+shield_reverse_skill_if_present
+
 # All install modes now delegate to distribute.py for skill deployment.
 # Claude-Code-specific concerns (hooks, RTK, MCP register) still happen here.
 
