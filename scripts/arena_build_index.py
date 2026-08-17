@@ -53,8 +53,28 @@ def load_aliases() -> dict:
     return {k: v for k, v in result.items() if v}
 
 
+def validate_inventory_paths(inventory: list[dict]) -> None:
+    """Reject release entries that do not point to local SKILL.md files."""
+    root = ROOT.resolve()
+    errors = []
+    for entry in inventory:
+        rel = str(entry.get("path", ""))
+        rel_path = rel.removeprefix("./")
+        candidate = (ROOT / rel_path).resolve()
+        try:
+            candidate.relative_to(root)
+        except ValueError:
+            errors.append(f"{entry.get('id', '<unknown>')}: path escapes repository ({rel})")
+            continue
+        if candidate.name != "SKILL.md" or not candidate.is_file():
+            errors.append(f"{entry.get('id', '<unknown>')}: missing SKILL.md ({rel})")
+    if errors:
+        raise ValueError("inventory path validation failed:\n  " + "\n  ".join(errors))
+
+
 def main():
     inventory  = json.loads((ARENA_DIR / "skills_inventory.json").read_text())
+    validate_inventory_paths(inventory)
     scores_raw = json.loads((ARENA_DIR / "scores.json").read_text())
     clusters   = json.loads((ARENA_DIR / "clusters.json").read_text())
     aliases    = load_aliases()
@@ -172,7 +192,8 @@ def main():
     }
 
     out_path = ROOT / "index.json"
-    out_path.write_text(json.dumps(index, ensure_ascii=False, indent=2))
+    from atomic_json import atomic_write_json
+    atomic_write_json(out_path, index)
 
     print(f"✅ index.json written: {len(skills_out)} skills, {cluster_cnt} clusters")
     print(f"   avg score: {avg_score:.2f} | winners: {len(winners)}")

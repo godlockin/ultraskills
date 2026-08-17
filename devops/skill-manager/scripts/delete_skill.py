@@ -1,75 +1,75 @@
 #!/usr/bin/env python3
-"""
-delete_skill.py - 删除指定的 Skill
+"""Delete one skill directory safely."""
 
-永久删除一个 skill 目录。请谨慎使用。
-"""
-
-import os
-import sys
+import argparse
+import re
 import shutil
+from pathlib import Path
+
+SAFE_SKILL_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
 
 
-def delete_skill(skills_root: str, skill_name: str) -> bool:
-    """
-    删除指定的 skill。
-    
-    Args:
-        skills_root: skills 根目录
-        skill_name: 要删除的 skill 名称
-        
-    Returns:
-        是否删除成功
-    """
-    skill_dir = os.path.join(skills_root, skill_name)
-    
-    if not os.path.exists(skill_dir):
+def safe_skill_name(skill_name: str) -> str:
+    if not isinstance(skill_name, str) or not SAFE_SKILL_ID.fullmatch(skill_name) or skill_name in {".", ".."}:
+        raise ValueError(f"unsafe skill name: {skill_name!r}")
+    return skill_name
+
+
+def resolve_within(root: Path, name: str) -> Path:
+    root_resolved = root.resolve()
+    target = (root_resolved / name).resolve()
+    try:
+        target.relative_to(root_resolved)
+    except ValueError as exc:
+        raise ValueError(f"target escapes skills root: {target}") from exc
+    return target
+
+
+def delete_skill(skills_root: str, skill_name: str, *, yes: bool = False) -> bool:
+    """Delete one safe, single-level skill directory after confirmation."""
+    try:
+        safe_name = safe_skill_name(skill_name)
+        skill_dir = resolve_within(Path(skills_root), safe_name)
+    except (TypeError, ValueError) as exc:
+        print(f"❌ Error: {exc}")
+        return False
+
+    if not skill_dir.exists():
         print(f"❌ Error: Skill '{skill_name}' not found at {skill_dir}")
         return False
-        
+
+    if not yes:
+        answer = input(f"⚠️  Delete {skill_dir}? [y/N] ").strip().lower()
+        if answer != "y":
+            print("Aborted.")
+            return False
+
     try:
         shutil.rmtree(skill_dir)
-        print(f"✅ Successfully deleted skill: {skill_name}")
+        print(f"✅ Successfully deleted skill: {safe_name}")
         return True
-    except Exception as e:
-        print(f"❌ Error deleting skill '{skill_name}': {e}")
+    except OSError as exc:
+        print(f"❌ Error deleting skill '{safe_name}': {exc}")
         return False
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python delete_skill.py <skill_name> [skills_root]")
-        print("\nExample:")
-        print("  python delete_skill.py yt-dlp ~/.claude/skills/")
-        sys.exit(1)
-        
-    skill_name = sys.argv[1]
-    
-    if len(sys.argv) > 2:
-        skills_root = sys.argv[2]
-    else:
-        # 尝试默认路径
-        default_paths = [
-            os.path.expanduser("~/.claude/skills"),
-            os.path.expanduser("~/.trae/skills"),
-        ]
-        skills_root = None
-        for path in default_paths:
-            if os.path.exists(path):
-                skills_root = path
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Delete one skill safely")
+    parser.add_argument("skill_name")
+    parser.add_argument("skills_root", nargs="?", help="skills root directory")
+    parser.add_argument("--yes", action="store_true", help="skip deletion confirmation")
+    args = parser.parse_args()
+
+    skills_root = args.skills_root
+    if skills_root is None:
+        for candidate in (Path.home() / ".claude" / "skills", Path.home() / ".trae" / "skills"):
+            if candidate.exists():
+                skills_root = str(candidate)
                 break
-        
-        if not skills_root:
-            print("Error: Could not find default skills directory")
-            print("Please specify the skills root directory")
-            sys.exit(1)
-    
-    # 确认删除
-    skill_path = os.path.join(skills_root, skill_name)
-    print(f"⚠️  About to delete: {skill_path}")
-    
-    success = delete_skill(skills_root, skill_name)
-    sys.exit(0 if success else 1)
+    if skills_root is None:
+        parser.error("Could not find default skills directory; specify skills_root")
+
+    raise SystemExit(0 if delete_skill(skills_root, args.skill_name, yes=args.yes) else 1)
 
 
 if __name__ == "__main__":

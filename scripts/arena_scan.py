@@ -267,6 +267,13 @@ def scan_all_skills() -> list:
     for skill_md in skill_mds:
         # Deduplicate by real (resolved) path — catches symlinks and submodule overlaps
         real_path = skill_md.resolve()
+        try:
+            real_path.relative_to(ROOT.resolve())
+        except ValueError:
+            # Never publish symlinked skills outside this repository.
+            continue
+        if real_path.name != "SKILL.md" or not real_path.is_file():
+            continue
         if real_path in seen_real_paths:
             continue
         seen_real_paths.add(real_path)
@@ -326,6 +333,9 @@ def scan_all_skills() -> list:
         # 标记配套 skills (不参与竞技场评分)
         is_auxiliary = any(pattern in skill_id for pattern in AUXILIARY_SKILL_PATTERNS)
 
+        # 标记 archived skills (frontmatter 有 archived_at 字段 = 已被 deep-module-design 等新 skill 替代)
+        is_archived = bool(fm.get("archived_at", "").strip())
+
         entry = {
             "id": skill_id,
             "path": f"./{skill_dir_rel}/SKILL.md",
@@ -335,6 +345,7 @@ def scan_all_skills() -> list:
             "version": str(version) if version else "",
             "github_url": str(github_url) if github_url else "",
             "auxiliary": is_auxiliary,  # 配套 skill 标记
+            "archived": is_archived,    # 已归档 skill 标记 (不参与竞技场评分与 winner 评选)
             "_priority": skill_priority(skill_dir_rel),
             "_rel_path": skill_dir_rel,
         }
@@ -358,6 +369,7 @@ def scan_all_skills() -> list:
 
 if __name__ == "__main__":
     from pipeline_lock import PipelineLock
+    from atomic_json import atomic_write_json
     with PipelineLock("arena_scan"):
 
         out_dir = ROOT / "skill-arena"
@@ -374,5 +386,5 @@ if __name__ == "__main__":
         print("Distribution:", json.dumps(dist, ensure_ascii=False))
 
         out_file = out_dir / "skills_inventory.json"
-        out_file.write_text(json.dumps(skills, ensure_ascii=False, indent=2))
+        atomic_write_json(out_file, skills)
         print(f"Written: {out_file}")

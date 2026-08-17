@@ -373,9 +373,16 @@ def compute_l2_subclusters(cluster_id: str, skill_ids: list, scores: dict) -> li
     return subclusters
 
 
-# ──────────────────────────────────────────────
-# 评分
-# ──────────────────────────────────────────────
+def rank_eligible(members: list, skills_lookup, scores: dict) -> list:
+    """Rank only non-auxiliary, non-archived contestants."""
+    eligible = [
+        m for m in members
+        if not skills_lookup(m).get("archived", False)
+        and not skills_lookup(m).get("auxiliary", False)
+    ]
+    return sorted(eligible, key=lambda x: scores[x]["total"], reverse=True)
+
+
 
 def score_skill(skill: dict, skill_md_text: str) -> dict:
     """
@@ -385,6 +392,7 @@ def score_skill(skill: dict, skill_md_text: str) -> dict:
       可维护性 (20%): 有 frontmatter、有 path、有 version
 
     配套 skills (auxiliary=True) 跳过评分，返回 score=0
+    archived skills (archived=True) 也跳过评分，返回 score=0
     """
     # 跳过配套 skills
     if skill.get("auxiliary", False):
@@ -395,6 +403,17 @@ def score_skill(skill: dict, skill_md_text: str) -> dict:
             "maint": 0,
             "total": 0,
             "auxiliary": True  # 标记为配套
+        }
+
+    # 跳过 archived skills (已被新 skill 替代,不参与竞技场评分)
+    if skill.get("archived", False):
+        return {
+            "score": 0,
+            "doc": 0,
+            "func": 0,
+            "maint": 0,
+            "total": 0,
+            "archived": True  # 标记为已归档
         }
 
     desc = skill.get("description", "") or ""
@@ -469,10 +488,14 @@ def main():
     # 聚类
     cluster_members = defaultdict(list)
     skill_cluster_map = {}
+    skills_by_id = {s["id"]: s for s in skills}
     for s in skills:
         cid = match_cluster(s)
         cluster_members[cid].append(s["id"])
         skill_cluster_map[s["id"]] = cid
+
+    def skills_lookup(sid):
+        return skills_by_id.get(sid, {})
 
     # 评分
     scores = {}
@@ -480,10 +503,10 @@ def main():
         sid = s["id"]
         scores[sid] = score_skill(s, skill_texts[sid])
 
-    # 每个 cluster 排名找 winner
+    # 每个 cluster 排名找 winner (跳过 archived 和 auxiliary)
     winners = {}
     for cid, members in cluster_members.items():
-        ranked = sorted(members, key=lambda x: scores[x]["total"], reverse=True)
+        ranked = rank_eligible(members, skills_lookup, scores)
         winners[cid] = ranked[0] if ranked else None
 
     # 生成 clusters.json
@@ -506,9 +529,7 @@ def main():
         clusters_out.append(entry)
     clusters_out.sort(key=lambda x: x["skill_count"], reverse=True)
 
-    (ARENA_DIR / "clusters.json").write_text(
-        json.dumps(clusters_out, ensure_ascii=False, indent=2)
-    )
+    atomic_write_json(ARENA_DIR / "clusters.json", clusters_out)
     print(f"Written clusters.json: {len(clusters_out)} clusters")
 
     # 生成 scores.json（按 total 降序）
@@ -526,9 +547,7 @@ def main():
         })
     scores_list.sort(key=lambda x: x["total"], reverse=True)
 
-    (ARENA_DIR / "scores.json").write_text(
-        json.dumps(scores_list, ensure_ascii=False, indent=2)
-    )
+    atomic_write_json(ARENA_DIR / "scores.json", scores_list)
     print(f"Written scores.json")
 
     # 生成 winners.json
@@ -536,9 +555,8 @@ def main():
     for cid, wid in sorted(winners.items()):
         if not wid:
             continue
-        # 找到该 cluster 的所有排名
-        members = cluster_members[cid]
-        ranked = sorted(members, key=lambda x: scores[x]["total"], reverse=True)
+        # runner_up/defeated must be derived from the same eligible set as winner.
+        ranked = rank_eligible(members, skills_lookup, scores)
         defeated = ranked[1:] if len(ranked) > 1 else []
         winners_list.append({
             "cluster": cid,
@@ -551,9 +569,7 @@ def main():
         })
     winners_list.sort(key=lambda x: x["score"], reverse=True)
 
-    (ARENA_DIR / "winners.json").write_text(
-        json.dumps(winners_list, ensure_ascii=False, indent=2)
-    )
+    atomic_write_json(ARENA_DIR / "winners.json", winners_list)
     print(f"Written winners.json: {len(winners_list)} category winners")
 
     # 统计摘要
@@ -578,7 +594,7 @@ def main():
     ELIMINATION_THRESHOLD = 3.0     # 低于此分数建议淘汰
 
     # 过滤掉配套 skills（不参与竞技场）
-    main_skills = [s for s in scores_list if not s.get("auxiliary", False)]
+    main_skills = [s for s in scores_list if not s.get("auxiliary", False) and not s.get("archived", False)]
     low_performers = [s for s in main_skills if s["total"] < LOW_SCORE_THRESHOLD]
     candidates_for_elimination = [s for s in main_skills if s["total"] < ELIMINATION_THRESHOLD]
 
@@ -628,7 +644,7 @@ def main():
         else:
             entry["recommendation"] = "monitor"
 
-    low_perf_file.write_text(json.dumps(history, ensure_ascii=False, indent=2))
+    atomic_write_json(low_perf_file, history)
 
     if eliminate_list:
         print(f"\n🚨 ELIMINATION RECOMMENDED ({len(eliminate_list)} skills, "
@@ -645,5 +661,6 @@ def main():
 
 if __name__ == "__main__":
     from pipeline_lock import PipelineLock
+    from atomic_json import atomic_write_json
     with PipelineLock("arena_cluster_score"):
         main()

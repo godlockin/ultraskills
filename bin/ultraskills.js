@@ -102,8 +102,8 @@ async function main() {
     case 'uninstall': {
       const skillId = rest[0];
       if (!skillId) { console.error('Usage: ultraskills uninstall <skill-id>'); process.exit(1); }
-      const { uninstallSkill } = await import('../lib/uninstall.js');
-      await uninstallSkill(skillId, { yes });
+      const { uninstall } = await import('../lib/uninstall.js');
+      await uninstall(skillId, process.cwd(), { yes });
       break;
     }
 

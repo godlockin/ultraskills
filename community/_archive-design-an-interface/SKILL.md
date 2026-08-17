@@ -1,14 +1,25 @@
 ---
 name: design-an-interface
-description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
+description: ⚠️ ARCHIVED — 内容已被 community/deep-module-design 完整覆盖（含 references/design-it-twice.md）。Use community/deep-module-design 代替本 skill。
 github_url: https://github.com/mattpocock/skills
 github_hash: 60aa99c0230fbac087514ba5fca2ae6e519965fe
 version: 1.0.0
 created_at: 2026-04-26T00:00:00Z
+archived_at: 2026-08-05T00:00:00Z
+archived_reason: 70% 重合于 deep-module-design，后者是完整词汇体系 + 含 design-it-twice 流程
+replacement: community/deep-module-design
 entry_point: SKILL.md
 dependencies: []
-tags: [design, architecture, api, interface, parallel-agents]
+tags: [design, architecture, api, interface, parallel-agents, archived]
 ---
+
+> **⚠️ 本 skill 已归档（2026-08-05）**
+>
+> 原因：70% 内容重合于 `community/deep-module-design`，后者是完整词汇体系（module/interface/seam/adapter/leverage/locality/depth）+ 包含完整的 design-it-twice 流程（references/design-it-twice.md）。
+>
+> **请使用 `deep-module-design`** 替代本 skill。
+>
+> 本文件保留以维护 git 历史与 arena 历史分数。
 
 # Design an Interface
 

@@ -54,23 +54,44 @@ def read_deny_list() -> set[str]:
     return denied
 
 
+def shield_reverse_skill(path: str) -> tuple[bool, str]:
+    """Shield reverse-skill after a successful update; never leave it unshielded."""
+    if path != "external/reverse-skill":
+        return True, "ok"
+    target = REPO_ROOT / path
+    rules_file = target / "RULES.md"
+    if not rules_file.is_file():
+        return False, f"shield target missing: {rules_file}"
+    script = REPO_ROOT / "scripts" / "shield-reverse-skill.sh"
+    result = subprocess.run(
+        ["bash", str(script), str(target)],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0:
+        return True, "ok"
+    error = (result.stderr or result.stdout or "shield failed").strip().splitlines()
+    return False, f"shield: {error[-1] if error else 'shield failed'}"
+
+
 def update_one(path: str) -> tuple[bool, str]:
-    """git submodule update --init --remote --recursive <path>. Return (ok, msg)."""
+    """Update one submodule and shield reverse-skill before reporting success."""
     r = subprocess.run(
         ["git", "submodule", "update", "--init", "--remote", "--recursive", path],
         cwd=REPO_ROOT,
         capture_output=True,
         text=True,
     )
-    if r.returncode == 0:
-        return True, "ok"
-    # Last non-empty error line
-    err = ""
-    for line in (r.stderr or "").splitlines():
-        line = line.strip()
-        if line and ("fatal" in line or "error" in line):
-            err = line
-    return False, err or f"exit {r.returncode}"
+    if r.returncode != 0:
+        # Last non-empty error line
+        err = ""
+        for line in (r.stderr or "").splitlines():
+            line = line.strip()
+            if line and ("fatal" in line or "error" in line):
+                err = line
+        return False, err or f"exit {r.returncode}"
+    return shield_reverse_skill(path)
 
 
 def main() -> int:
@@ -104,6 +125,7 @@ def main() -> int:
     print(f"Updating {len(targets)} submodule(s)...")
     ok = 0
     failed: list[tuple[str, str]] = []
+    shield_failed = False
     for path in targets:
         print(f"  {path:<48} ", end="", flush=True)
         success, msg = update_one(path)
@@ -113,6 +135,8 @@ def main() -> int:
         else:
             print(f"✗ {msg[:60]}")
             failed.append((path, msg))
+            if path == "external/reverse-skill" and msg.startswith("shield"):
+                shield_failed = True
 
     print()
     print(f"Done: {ok} updated, {len(failed)} failed")
@@ -122,7 +146,7 @@ def main() -> int:
         print("\nFailures (upstream debt, not blockers):")
         for p, msg in failed:
             print(f"  {p}: {msg[:80]}")
-    return 0  # never fail script on submodule issues
+    return 1 if shield_failed else 0  # shield failure must not leave injection active
 
 
 if __name__ == "__main__":
