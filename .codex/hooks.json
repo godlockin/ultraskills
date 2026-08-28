@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/hooks/post-skill-write.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/chenchen/working/sourcecode/tools/llm_apps/ultraskills/devops/hooks/stop-arena-rebuild.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

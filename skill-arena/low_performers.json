@@ -1,1 +1,138 @@
-{}
+{
+  "code-formatter": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "no-frontmatter": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "implement": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "friendly-greeter": {
+    "consecutive_low": 1,
+    "scores": [
+      3.8
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "markdown-formatter": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "config-reader": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "file-organizer": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "data-processor": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "data",
+    "recommendation": "monitor"
+  },
+  "file-indexer": {
+    "consecutive_low": 1,
+    "scores": [
+      3.8
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "general-assistant": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "legacy-json-only": {
+    "consecutive_low": 1,
+    "scores": [
+      3.2
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "report-generator": {
+    "consecutive_low": 1,
+    "scores": [
+      3.5
+    ],
+    "cluster": "data",
+    "recommendation": "monitor"
+  },
+  "my-tool": {
+    "consecutive_low": 1,
+    "scores": [
+      2.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "text-summarizer": {
+    "consecutive_low": 1,
+    "scores": [
+      3.8
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "underdeclared-agent": {
+    "consecutive_low": 1,
+    "scores": [
+      2.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "no-config": {
+    "consecutive_low": 1,
+    "scores": [
+      1.9
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  },
+  "over-privileged-helper": {
+    "consecutive_low": 1,
+    "scores": [
+      2.5
+    ],
+    "cluster": "misc",
+    "recommendation": "monitor"
+  }
+}
