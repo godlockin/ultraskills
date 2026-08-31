@@ -134,6 +134,13 @@ def parse_frontmatter(text: str) -> dict:
                 val = list_items if list_items else []
                 result[key] = val
                 continue
+            # 标量值：剥掉 YAML 引号，否则 id/description 会带着字面引号进 index，
+            # 导致精确 id 查找失败（如 name: "video-frame-extractor"）
+            if isinstance(val, str) and len(val) >= 2:
+                if (val[0] == '"' and val[-1] == '"') or (
+                    val[0] == "'" and val[-1] == "'"
+                ):
+                    val = val[1:-1]
             result[key] = val
         i += 1
     return result

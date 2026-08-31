@@ -113,7 +113,7 @@
 | 5 | baoyu-post-to-wechat (CN) | 公众号推送 |
 |    | xhs-publish (CN 小红书) | 同步 |
 |    | baoyu-danger-x-to-markdown (X) | tweet thread |
-|    | (LinkedIn via baoyu-format) | profile post |
+|    | (LinkedIn via baoyu-format-markdown) | profile post |
 | 6 | schema-markup | 网站结构化数据 |
 
 ### 关键决策
@@ -125,7 +125,9 @@
 ### Cross-Cluster Bridge
 
 - 公司上市逻辑: defer `business-orchestrator` Path B3 (pitch deck 配套)
-- 媒体投放: defer `marketing-*` (待 marketing-orchestrator)
+- 媒体投放/预算分配: defer `marketing-roi-calculator` + `ab-test-setup`
+  (无 marketing-orchestrator — 营销类为独立 skill,直接调用)
+- 纯营销文案(无预算/无投放): 留在本 cluster C1/C4,不外转
 
 ### 耗时
 

@@ -21,11 +21,13 @@
 
 | 阶段 | 数量 |
 |---|---|
-| ✅ 复验通过 | 1 |
-| 🔧 待复验 | 2 |
-| 🔍 review 中 | 5 |
-| ⬜ 未开始 | 22 |
+| 🔧 待复验(R1 修复完成) | 4 |
+| 🔍 review 中 | 10 |
+| ⬜ 未开始 | 16 |
 | **合计** | **30** |
+
+> 另有 `personal-ai-work-system-builder` 已完成两轮 review + 复验(它是本方法论的来源,
+> 不在 tier-1 的 30 个里,已入库)。
 
 ---
 
@@ -36,12 +38,15 @@
 | # | skill | score | 状态 | R1 findings | 关键修复 | commit |
 |---|---|---|---|---|---|---|
 | 1 | remotion | 9.7 | 🔧 FIXED-R1 | 4 P0 / 7 P1 | wrapper.py 从 10 行 stub 改为可运行 CLI(SKILL.md 原本指示用户运行它);版本锁定 `^4.0`;补 `continueRender` 配对(原先只提 `delayRender`,渲染必挂);字体加载;故障排查 9 类;`TransitionSeries`+`Easing`;2 个 examples(此前 0) | `914503d` |
-| 2 | strategy-consulting-framework | 9.5 | 🔧 FIXED-R1 | 2 P0 / 7 P1 | 证据分级门(数据不足强制 Diagnostic 模式,禁输出 `+X%`);重写 example 01(原先虚构基数推量化结论且无标注 = 最强反向示范);新增 example 02(结论为拒绝);反确认偏误(强制反向假设);超时降级;资源默认改「单人零预算」;边界 4→9 类 | 待提交 |
-| 3 | magazine-web-ppt | 10.0 | 🔍 REVIEWING | — | — | — |
-| 4 | awesome-design-md | 10.0 | 🔍 REVIEWING | — | — | — |
-| 5 | comps-analysis | 9.5 | 🔍 REVIEWING | — | 注意:在 `external/`,需先确认是否 submodule | — |
-| 6 | business-orchestrator | 9.5 | 🔍 REVIEWING | — | 重点:下游 skill 存在性逐个验证 | — |
-| 7 | learn-from-loss | 9.5 | 🔍 REVIEWING | — | 重点:归因安全 | — |
+| 2 | strategy-consulting-framework | 9.5 | 🔧 FIXED-R1 | 2 P0 / 7 P1 | 证据分级门(数据不足强制 Diagnostic 模式,禁输出百分比);重写 example 01(原先虚构基数推量化结论且无标注 = 最强反向示范);新增 example 02(结论为拒绝);反确认偏误;超时降级;资源默认改「单人零预算」;边界 4→9 类 | `1b3d9c6` |
+| 3 | ubiquitous-language | 9.5 | 🔧 FIXED-R1 | 2 P0 / 5 P1 | 新增适用性门槛(原先 3 文件 Todo CLI 也照常产出正式术语表);`Re-running` 去掉「同一会话」限制 + 新增 Drift check 代码漂移检测;**新增 bounded context 段**(原先该词全文零出现,而它是 Evans 原著配对概念,缺失导致跨上下文同名不同义被强行统一);与同上游 domain-modeling 的边界(避免双术语表竞争);2 个 examples(此前 0,含一个「拒绝生成」案例) | 待提交 |
+| 4 | content-orchestrator | 9.5 | 🔧 FIXED-R1 | 0 P0 / 6 P1 | 修 4 处路由断链;fallback 与 tiebreak 从 references 内联进 SKILL.md;**补 engineering-orchestrator 边界**(原先 3 个 bridge 表全无);修「Full 130-row」虚假声明(实际 26 行);C1 移除不连贯的 1-shot 步骤;C3 重排(analysis 提为 Step 0 gate,remotion/hyperframes 标为互斥后端);清除幻影 `marketing-orchestrator` 引用 | 待提交 |
+| 5 | magazine-web-ppt | 10.0 | 🔍 REVIEWING | — | — | — |
+| 6 | awesome-design-md | 10.0 | 🔍 REVIEWING | — | — | — |
+| 7 | comps-analysis | 9.5 | 🔍 REVIEWING | — | 注意:在 `external/`,需先确认是否 submodule | — |
+| 8 | business-orchestrator | 9.5 | 🔍 REVIEWING | — | 已知:12 处路由断链待修(见下) | — |
+| 9 | learn-from-loss | 9.5 | 🔍 REVIEWING | — | — | — |
+
 
 ### Wave 2
 
@@ -87,24 +92,56 @@
 
 | 工具 | 用途 |
 |---|---|
-| `scripts/check-skill-links.sh` | 检查 skill 内 markdown 本地链接断链(已用故意断链验证有效) |
+| `scripts/check-skill-links.sh` | 检查 skill 内 markdown **文件路径**断链(已用故意断链验证有效) |
+| `scripts/check-skill-refs.py` | 检查 SKILL.md 引用的**下游 skill id** 是否存在于 index.json —— orchestrator 类的核心正确性检查。`check-skill-links.sh` 查不出这类语义断链 |
 | `community/personal-ai-work-system-builder/scripts/test_validate_system.sh` | 自包含回归测试范式(1 正例 + 5 攻击例) |
 | `docs/ab-review-methodology.md` | AB 双轴 review harness 设计 + 5 类校验绕过 |
+
+### check-skill-refs.py 已发现的待修断链
+
+跑 `python3 scripts/check-skill-refs.py community/*-orchestrator` 得到:
+
+| skill | 数量 | 典型 |
+|---|---|---|
+| content-orchestrator | ~~4~~ 0 | 已修 |
+| business-orchestrator | 12 | `okr-alignment` → `okr-alignment-checker`;`crisis-comms` → `crisis-comms-playbook`;`3-statement` → `3-statement-model`;`plan-eng` → `plan-eng-review`;`initiating-coverage-critic` / `earnings-analysis-critic` 不存在 |
+| engineering-orchestrator | 14 | 多数是 cluster 名误判(`engineering-qa` / `engineering-debug`),但 `git-guardrails` → `git-guardrails-claude-code` 是真断链 |
+| design-orchestrator | 4 | `ui-ux-pro-max` → `ui-ux-pro-max-skill`(3 处);`hallmark-audit` → `hallmark` |
+
+> 注意区分真断链与 cluster 名误判 —— `engineering-qa` 是 sub-cluster 名不是 skill id,
+> 这类应加入检查器的 `NOT_SKILL_ID` 白名单而非改文档。
+
+### 顺带修的全库问题
+
+`scripts/arena_scan.py` 的 `parse_frontmatter` 对标量值不剥 YAML 引号,导致
+`name: "video-frame-extractor"` 这类写法在 index.json 里带着字面引号存储,
+精确 id 查找永久失败。已修(列表值原本就剥,只有标量漏了)。**下次跑 arena
+pipeline 后 index.json 里的脏 id 会自动修正。**
+
 
 ---
 
 ## 反复出现的问题模式(供后续 review 优先查)
 
-从前 3 个 skill 归纳,这些问题**反复出现**,新 skill 应优先检查:
+从已审 skill 归纳,这些问题**反复出现**,新 skill 应优先检查:
 
 1. **文档承诺 vs 实际能力脱节** — SKILL.md 指示运行的脚本是占位 stub(remotion)
 2. **example 违反 skill 自身规则** — 规则要求标注假设,example 却虚构数据不标(strategy-consulting-framework)
-3. **零 examples** — 不符 S-Tier 但 arena 高分(remotion 原本 0 个)
-4. **断链** — 引用不存在的文件(strategy-consulting-framework 的 `evals.json`)
-5. **无版本锁定** — 依赖快速迭代的外部库却不锁 major(remotion)
-6. **无失败处理** — 只有 happy path,无故障排查(remotion)
-7. **边界缺失** — 没有「何时不该用」,与同类 skill 无裁定规则
-8. **空洞化风险** — 框架类 skill 可能产出"需进一步分析"式废话
+3. **零 examples** — 不符 S-Tier 但 arena 高分(remotion、ubiquitous-language 原本都是 0 个)
+4. **文件路径断链** — 引用不存在的文件(strategy-consulting-framework 的 `evals.json`)
+5. **skill id 断链** — 路由指向不存在的 skill id,`check-skill-links.sh` 查不出来
+   (4 个 orchestrator 合计 30 处),用 `check-skill-refs.py`
+6. **无版本锁定** — 依赖快速迭代的外部库却不锁 major(remotion)
+7. **无失败处理** — 只有 happy path,无故障排查(remotion)
+8. **边界缺失** — 没有「何时不该用」,与同类 skill 无裁定规则(几乎每个都有此问题)
+9. **空洞化风险** — 框架类 skill 可能产出"需进一步分析"式废话
+10. **无适用性门槛** — 不问项目规模就套重方法论,小项目过度工程(ubiquitous-language)
+11. **关键规则只在 references 里** — SKILL.md 是唯一保证被加载的文件,
+    fallback/tiebreak 放 references 等于没有(content-orchestrator)
+12. **虚假的完整性声明** — 声称「Full 130-row」实际 26 行(content-orchestrator)
+13. **幻影引用** — 引用一个从未存在的 skill(content-orchestrator 的 `marketing-orchestrator`)
+14. **配对概念缺失** — 只讲方法论的一半(ubiquitous-language 缺 bounded context)
+
 
 ---
 

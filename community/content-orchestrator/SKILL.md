@@ -42,7 +42,7 @@ This skill is the **conductor** for the content cluster. It:
 |-------------|-------|---------------|----------------|
 | content-writing | 16 | **C1 (core)** | doc-coauthoring, document-release, support-ticket-triage |
 | content-doc | 19 | **C1 + C2** | magazine-web-ppt, baoyu-markdown-to-html, baoyu-slide-deck |
-| content-presentation | 6 | **C2 (core)** | deck-that-wins, spreadsheet-formula, to-prd |
+| content-presentation | 6 | **C2 (core)** | deck-that-wins, spreadsheet-formula-helper, to-prd |
 | content-video | 28 | **C3 (core)** | remotion, video-content-analyzer, video-analyzer |
 | content-image | 17 | **C2 (core)** | baoyu-article-illustrator, baoyu-comic, baoyu-cover-image |
 | content-social | 21 | **C4 (core)** | baoyu-format-markdown, baoyu-translate, baoyu-post-to-wechat |
@@ -67,6 +67,34 @@ This skill is the **conductor** for the content cluster. It:
 | "translate this article" | C1 step (baoyu-translate) |
 | "localize for CN market" | C4 CN-specialized (social-media-cn) |
 
+**Fallback — 信号不明确时(必读,不要跳到 Phase 2):**
+
+1. **先问,别猜**:用 AskUserQuestion 问交付物形态 —— 文档 / 幻灯片或图 / 视频 / 社媒帖?
+2. 用户说不清或只说"帮我搞内容" → **默认 C1**(文档是最通用的中间产物,后续可派生出 C2/C3/C4)
+3. 明确说明你的默认选择与理由,让用户能否决:「我按文档处理,如果你其实要的是视频,现在告我」
+
+**Tiebreak — 多路径同时命中:**
+
+| 情形 | 裁定 |
+|---|---|
+| 一次要 blog + deck + video + 社媒帖 | **C1 先产出规范源文**,C2/C3 从它派生,C4 最后做分发。不要四条并行 —— 会得到四份不一致的内容 |
+| "带图的文章" | C1 主,C2 作为其中一步(不是两条路径) |
+| "视频脚本" | C1(脚本是文档);"视频成片" → C3 |
+| 交付物形态冲突且用户坚持全都要 | 按上面顺序串行,并告知总步数;超过 8 步则拆成两次会话 |
+
+**跨 cluster 边界 — 什么时候不该留在 content:**
+
+| 请求特征 | 转交给 | 裁定依据 |
+|---|---|---|
+| 技术文档/API 文档,**代码准确性是主要风险** | `engineering-orchestrator` | 写错 API 签名比文笔差危害大 → 工程主导 |
+| 技术博客,**叙事与传播是主要目标** | 留在 C1 | 代码只是例子,重点是讲清概念 |
+| 附带财务模型/融资数据的 pitch deck | `business-orchestrator` B3 | 数字正确性优先于版式 |
+| 纯营销文案,无预算无投放 | 留在 C1/C4 | 就是写作与分发 |
+| 媒体投放、预算分配、A/B 测试 | `marketing-roi-calculator` / `ab-test-setup` | 是计算不是创作(注:无 marketing-orchestrator) |
+| 高保真 UI 稿、设计系统 | `design-orchestrator` | 封面图/信息图留在 C2,产品界面转设计 |
+
+完整路由表与更多边界见 [references/routing-table.md](references/routing-table.md)。
+
 ### Phase 2 — Composition (4 Pipelines)
 
 #### 📝 Path C1: Doc / Writing (long-form)
@@ -77,10 +105,12 @@ This skill is the **conductor** for the content cluster. It:
 Step 1: doc-coauthoring           [structured workflow: outline → draft → review]
 Step 2: markdown-mermaid-writing  [write + diagrams in markdown]
 Step 3: baoyu-markdown-to-html    [publish-ready HTML with theme]
-Step 4: support-ticket-triage     [if user wants ticket categorization]
-Step 5: document-release          [post-publish doc update]
-Step 6: ai-seo or seo-audit (gate)[make it discoverable]
+Step 4: document-release          [post-publish doc update]
+Step 5: ai-seo or seo-audit (gate)[make it discoverable]
 ```
+
+> `support-ticket-triage` 不在此链中 —— 它是 1-shot 分类器,不是长文写作步骤。
+> 需要工单分类时单独调用,见下方 1-shot 表。
 
 #### 🎨 Path C2: Visual / Deck / Image
 
@@ -100,15 +130,22 @@ Step 6: awesome-design-md (optional) [brand discipline]
 **Trigger**: *"make a YouTube video"*, *"faceless explainer"*, *"add captions"*, *"repurpose podcast"*
 
 ```
-Step 1: faceless-explainer        [if no talking head]
-        OR talking-head-recut      [if repurposing existing footage]
-Step 2: motion-graphics           [if motion is the message]
-Step 3: hyperframes-cli           [manage video frame catalog]
-Step 4: embedded-captions         [captioning step]
-Step 5: video-analyzer            [if user wants analysis first]
-        OR remotion               [if React/Remotion programmatic creation]
-Step 6: youtube-script-optimizer  [gating for YouTube]
+Step 0: video-analyzer            [仅当基于已有素材:先分析再决定怎么剪]
+Step 1: 选内容形态
+        faceless-explainer        [无真人出镜]
+        OR talking-head-recut     [重用已有出镜素材]
+Step 2: 选渲染后端(互斥,不要都用)
+        remotion                  [React 程序化生成:数据驱动/批量/需组件复用]
+        OR hyperframes-cli        [HTML 优先的一次性合成]
+Step 3: motion-graphics           [若动效本身是表达重点]
+Step 4: embedded-captions         [字幕]
+Step 5: youtube-script-optimizer  [YouTube 发布前的 gating]
 ```
+
+> **Step 0 是 gate 不是可选项**:基于已有素材时先分析,否则后面的剪辑决策没有依据。
+> 从零创作则跳过。
+> **Step 2 两个后端互斥** —— 它们是竞争关系,不是先后步骤。选择依据见
+> [remotion 的边界说明](../remotion/SKILL.md)。
 
 #### 📱 Path C4: Social / SEO / Distribution
 
@@ -170,7 +207,7 @@ This skill **never duplicates** content methods. Quick lookup:
 - **Always ask format first** (long-doc / visual / video / social)
 - **Always run ai-seo (C4) or zero-debt-lint (C2) as gating**
 - **Always include translation step** if multilingual audience (insert before Step 5 in C4)
-- **Always pair doc generation (C1) with markdown-to-html** for ready-to-publish
+- **Always pair doc generation (C1) with baoyu-markdown-to-html** for ready-to-publish
 - **Always run deck quality gate** after generating any deck (C2 step 5)
 - **Use baoyu-* skills for Chinese content** — they're best-in-class for the CN ecosystem
 
@@ -182,7 +219,12 @@ This skill **never duplicates** content methods. Quick lookup:
 - **Don't translate via generic skill** — use `baoyu-translate` (3 modes: quick / dual / formal)
 - **Don't mix WeChat / X / 小红书 publishing** — each has API/protocol differences
 
-## 🔀 Routing Decision Table (Full 130-row)
+## 🔀 Routing Decision Table (Top-26 高频信号)
+
+> 这里是**最高频的 26 条信号**,不是全量。content cluster 共 130 个 skill,
+> 其余按 Phase 1 的 sub-cluster 表 + [references/routing-table.md](references/routing-table.md) 定位。
+> 信号不在下表中 → 走 Phase 1 的 Fallback。
+
 
 ```
 User says                              → Path / Entry skill
@@ -205,7 +247,7 @@ User says                              → Path / Entry skill
 "programmatic React video"             → C3 (remotion)
 "post to WeChat OA"                    → C4 (baoyu-post-to-wechat)
 "post to 小红书"                       → C4 (xhs-publish)
-"post to X / Twitter"                  → C4 (markdown + manual)
+"post to X / Twitter"                  → C4 (baoyu-format-markdown → 用户手动发布;无自动发布 skill)
 "social media campaign"                → C4 (full pipeline)
 "AI SEO / cited by LLMs"               → C4 (ai-seo)
 "SEO at scale"                         → C4 (programmatic-seo)
