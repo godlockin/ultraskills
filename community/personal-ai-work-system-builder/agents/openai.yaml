@@ -1,0 +1,5 @@
+interface:
+  display_name: "个人AI工作系统搭建师"
+  short_description: "诊断真实工作，搭建可执行、可沉淀、可迭代的个人AI系统"
+  brand_color: "#2855D9"
+  default_prompt: "请使用 $personal-ai-work-system-builder 诊断我的AI工作成熟度，并从一条真实工作流开始搭建系统，本次至少交付一个能马上使用的成果。"
