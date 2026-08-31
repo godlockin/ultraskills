@@ -34,7 +34,7 @@
 | engineering-devops | canary (8.5) | E4 step 3 |
 | engineering-debug | systematic-debugging (8.3) | E3 step 2 |
 | engineering-debug | investigate (8.0) | E3 step 3 |
-| engineering-debug | git-guardrails (8.5) | all (hook setup) |
+| engineering-debug | git-guardrails-claude-code (8.5) | all (hook setup) |
 | engineering-qa | qa (7.9) | E1/E2/E3/E5 gating |
 | engineering-qa | devex-review (8.8) | E1 step 7 |
 | engineering-security | pre-mortem (9.0) | E5 step 1 |

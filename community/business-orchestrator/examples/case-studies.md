@@ -153,7 +153,7 @@ before any external pitch.
 |---------|---------|
 | 跳过 office-hours (Step 1) | 缺少 6 forcing questions, pitch 容易空 |
 | 用 pitch-deck-critic 之前未做 office-hours | VC 反馈变成 cosmetic |
-| 用 plan-ceo-review 之前未做 plan-eng | CEO 视角缺工程 anchor |
+| 用 plan-ceo-review 之前未做 plan-eng-review | CEO 视角缺工程 anchor |
 | OKR alignment check 之前未做 deck | 检查 dependency 反转 |
 
 ### 耗时

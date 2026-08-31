@@ -14,7 +14,7 @@ tags: [design, orchestrator, router, design-system, ui, ux, anti-slop, greenfiel
 UltraSkills has 22 design-related skills across two clusters (`设计·UX/产品设计`, `设计·产品UX`). New users face three problems:
 1. **Routing confusion** — which skill to invoke first?
 2. **Composition gap** — no skill tells you how to chain them
-3. **Anti-slop fragmentation** — rules live in hallmark (53 gates), ui-ux-pro-max (161 rules), awwwards (12 trends), but no unified index
+3. **Anti-slop fragmentation** — rules live in hallmark (53 gates), `ui-ux-pro-max-skill` (161 rules), awwwards (12 trends), but no unified index
 
 This skill is the **conductor** for the design cluster. It:
 - Routes a brief to 1-N right skills via a decision table
@@ -137,7 +137,7 @@ For a complete session-zero anti-slop pass, the orchestrator runs **hallmark aud
 - **Always ask "greenfield / existing / inspiration" first** if the brief is ambiguous
 - **Chain 3-6 skills max per pipeline** — more = coordination overhead, not quality
 - **Run `hallmark audit <target>` as the last step** of any build/redesign — it has 53 gates, single best anti-slop filter
-- **Use `design-an-interface` for module-shaped asks** ("design the upload flow") — it's parallel-agents-based, faster than ui-ux-pro-max
+- **Use `design-an-interface` for module-shaped asks** ("design the upload flow") — it's parallel-agents-based, faster than `ui-ux-pro-max-skill`
 - **Use `design-shotgun` for visual brainstorming only** — it produces variants, not final design
 - **Cross-check brand identity with `color-expert`** when user names a color (free MIT, 140 reference files)
 

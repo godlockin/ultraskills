@@ -61,6 +61,16 @@ NOT_SKILL_ID = {
     # 本仓库的目录/概念名(非 skill)
     "skill-arena", "ultraskills-hub", "skill-manager", "skill-loader",
     "arena-scan", "arena-build-index", "arena-cluster-score",
+    # sub-cluster 名前缀(engineering-orchestrator 的表格里是 sub-cluster 而非 skill)
+    "engineering-qa", "engineering-devops", "engineering-debug",
+    "engineering-lang", "engineering-arch", "engineering-security",
+    "business-finance", "business-legal", "business-clevel",
+    "business-product", "business-operations", "business-pm",
+    "business-strategy", "business-hr", "business-marketing",
+    "sales-marketing", "small-business-ops", "finance-accounting",
+    "hr-talent", "legal-compliance", "content-writing", "content-doc",
+    "content-presentation", "content-video", "content-image",
+    "content-social", "content-seo", "social-media-cn", "video-production",
 }
 
 

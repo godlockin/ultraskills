@@ -9,7 +9,7 @@
 | sales-marketing | 13 | — | — | ✅ (core) | ✅ (lead-triage) | ✅ (objection, OKR) |
 | business-operations | 13 | — | — | ✅ (data-viz) | ✅ (core) | ✅ (crisis, SOP) |
 | business-clevel | 11 | — | — | ✅ (core) | — | ✅ (plan-ceo-review) |
-| business-product | 11 | — | — | — | — | ✅ (prioritization, plan-eng) |
+| business-product | 11 | — | — | — | — | ✅ (prioritization-frameworks, plan-eng-review) |
 | finance-accounting | 7 | — | — | — | ✅ (variance, close) | ✅ (journal-entry) |
 | business-legal | 6 | — | ✅ (mandatory) | — | ✅ (if contracts) | ✅ (compliance-check) |
 | legal-compliance | 6 | ✅ (if material) | ✅ (mandatory) | ✅ (NDA pre-pitch) | — | ✅ (triage-nda) |
@@ -30,13 +30,13 @@
 | **3-statement-model** | business-finance | B1 step 6 | "model 3 statements" |
 | **lbo-model** | business-finance | B2 step 4 | "LBO on X" |
 | **pitch-deck** | business-finance | B2 step 5 / B3 step 5 | "build pitch deck" |
-| **initiating-coverage-critic** | business-finance | B3 step 6 | "review my coverage" |
+| **initiating-coverage** | business-finance | B3 step 6 | "review my coverage" — 该 skill 内置分阶段人工 review,无独立 critic skill |
 | **deck-refresh** | business-finance | B3 step 5 alt | "refresh pitch" |
 | **ai-readiness** | business-finance | 1-shot | "where to deploy AI" |
 | **audit-xls** | business-finance | 1-shot | "audit this spreadsheet" |
 | **competitive-analysis** | business-finance | 1-shot | "competitive landscape" |
 | **deal-sourcing** | business-finance | B2 step 1 | "find targets" |
-| **earnings-analysis-critic** | business-finance | 1-shot | "review earnings note" |
+| **earnings-analysis** | business-finance | 1-shot | "review earnings note" — 无独立 critic skill,复核用 audit-xls 或 ib-check-deck |
 | **smb-onboard** | small-business-ops | B4 step 6 | "onboard SMB" |
 | **canva-creator** | small-business-ops | B3 step 6 / B4 step 4 alt | "create campaign asset" |
 | **cash-flow-snapshot** | small-business-ops | B4 step 1 | "what's our cash position" |

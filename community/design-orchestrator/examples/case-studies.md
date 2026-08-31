@@ -32,7 +32,7 @@
 
 - **跳过 `ikea-designer-pro`** (用户没要 IKEA)
 - **跳过 `awesome-design-md`** (用户没指定品牌)
-- **插入 `color-expert`**: 当 ui-ux-pro-max 输出 palette 时, cross-check 用 color-expert 的 OKLCH formula 验证
+- **插入 `color-expert`**: 当 `ui-ux-pro-max-skill` 输出 palette 时, cross-check 用 color-expert 的 OKLCH formula 验证
 - **bridges**: Step 2 输出的 palette → Step 3 tokens → Step 8 HTML 是线性依赖, 不能并行
 
 ### 耗时估算

@@ -44,16 +44,16 @@ These four paths cover ~80% of business requests. The remaining 20% — single-s
 |-------------|-------|---------------|----------------|
 | business-finance | 56 | B1 + B2 | comps-analysis, dcf-model, lbo-model, earnings-analysis, initiating-coverage |
 | small-business-ops | 26 | B4 | smb-onboard, canva-creator, cash-flow-snapshot, invoice-chase, customer-pulse |
-| sales-marketing | 13 | B3 + B4 | objection-handler, pitch-deck, okr-alignment, lead-magnets |
-| business-operations | 13 | B4 | sop-writer, crisis-comms, customer-escalation, kb-article |
+| sales-marketing | 13 | B3 + B4 | objection-handler, pitch-deck, okr-alignment-checker, lead-magnets |
+| business-operations | 13 | B4 | sop-writer, crisis-comms-playbook, customer-escalation, kb-article |
 | business-clevel | 11 | B3 | data-viz, digital-brain, plan-ceo-review, office-hours |
 | business-product | 11 | (1-shot) | prioritize-assumptions, prioritization-frameworks |
 | finance-accounting | 7 | B4 | variance-analysis, journal-entry, close-management |
-| business-legal | 6 | B2 (always!) | compliance-check, legal-risk, contract-risk, legal-response |
+| business-legal | 6 | B2 (always!) | compliance-check, legal-risk-assessment, contract-risk-highlighter, legal-response |
 | legal-compliance | 6 | B2 + B3 | review-contract, triage-nda, vendor-check |
 | hr-talent | 6 | (1-shot) | performance-review, comp-analysis, draft-offer |
 | business-pm | 5 | (1-shot) | learn-from-loss, to-issues, retro, grill-me |
-| business-hr | 3 | (1-shot) | lead-magnets, interview-scorecard |
+| business-hr | 3 | (1-shot) | lead-magnets, interview-scorecard-generator |
 | business-strategy | 1 | (1-shot) | competitive-intelligence |
 
 **Important**: This skill does not generate any financial analysis itself. It tells the model *which* skill to invoke next, *in what order*, *with what review gates*.

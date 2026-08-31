@@ -8,7 +8,7 @@ This is the canonical routing map for the UltraSkills design cluster. Use it whe
 
 | User intent | Entry skill | Pipeline |
 |-------------|-------------|----------|
-| "Design my SaaS landing" | design-consultation → ui-ux-pro-max-skill → design-tokens → motion-design → icon-system → awwwards-check → hallmark-audit → design-html | Path 1 |
+| "Design my SaaS landing" | design-consultation → ui-ux-pro-max-skill → design-tokens → motion-design → icon-system → awwwards-check → hallmark (audit) → design-html | Path 1 |
 | "Make me a beauty spa site" | ui-ux-pro-max-skill (industry rules) → design-consultation (DESIGN.md) → design-html | Path 1 lite |
 | "Pick colors for my logo" | color-expert | Single |
 | "I have a brief, generate 5 designs" | design-shotgun | Single (variants) |
