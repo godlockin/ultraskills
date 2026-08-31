@@ -1639,10 +1639,9 @@
   {
     "id": "engineering-qa",
     "name": "工程·QA",
-    "skill_count": 10,
-    "winner": "churn-risk-playbook",
+    "skill_count": 9,
+    "winner": "devex-review",
     "skills": [
-      "churn-risk-playbook",
       "sales-funnel-analyzer",
       "devex-review",
       "plan-devex-review",
@@ -1652,6 +1651,15 @@
       "verification-before-completion",
       "pyhealth",
       "customer-health-scorecard"
+    ]
+  },
+  {
+    "id": "customer-success-retention",
+    "name": "客户成功·留存",
+    "skill_count": 1,
+    "winner": "churn-risk-playbook",
+    "skills": [
+      "churn-risk-playbook"
     ]
   },
   {

@@ -209,6 +209,12 @@ Every competition starts with this checklist:
 
 ## Anti-Patterns
 
+### 无归责复盘与使用边界（必遵守）
+
+本流程只用于改进**系统、流程、交付物与决策条件**，不得作为个人绩效、晋升、降级、纪律处分、排名或报复的依据。默认不点名归责；记录时分开写清事实、可观察行为、系统条件与决策，而非把结果归因给个人品格。
+
+公司内部使用时：只对齐业务 KPI／流程结果，使用脱敏后的最小必要数据，并先取得参与者对复盘目的和可见范围的同意。用户若明确要求评价个人绩效、追责或惩罚，停止本流程，转为经授权的 HR／管理程序。
+
 1. **"We lost because of X" (single cause)** — Losses are always multi-causal. Use the 8-dimension matrix to find ALL gaps.
 2. **"The winners just got lucky"** — Luck doesn't produce consistent patterns across multiple winners. Study what they did deliberately.
 3. **"Our content was strong, only the format was wrong"** — If the format prevents engagement, the content never existed for the judge.
@@ -265,7 +271,7 @@ A complete postmortem produces:
 ## 8. Next-Level Upgrade Path
 [From current state to end state, with investment estimates]
 
----
+```
 
 ## 🚨 边界(Boundaries)
 
@@ -274,7 +280,7 @@ A complete postmortem produces:
 | **纯情绪宣泄** | 用户没具体方案/比赛结果,只是想倾诉「我好气」 | 转 `career-coach`(情绪场景,非结构化复盘) |
 | **想吵架/告评委** | 用户想辩解规则不公平、黑幕 | 不接反驳路线,只接「规则不变情况下我能改进什么」 |
 | **照搬方法到新比赛** | 用户问「这套能不能直接复制到下个比赛」 | 提醒:Day-0 checklist 需要重新评估维度 |
-| **公司内部复盘** | 用户问的是团队 OKR 复盘/季度总结 | 可用,但去掉「评委」维度,改成「业务 KPI」对齐 |
+| **公司内部复盘** | 用户问的是团队 OKR 复盘/季度总结 | 可用,但去掉「评委」维度,改成「业务 KPI」对齐,且只对齐流程/交付物结果,不用于个人绩效归因 |
 
 ---
 

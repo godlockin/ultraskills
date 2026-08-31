@@ -55,6 +55,11 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 | **未成交客户** | 用户问「如何赢得新客户」 | 不接,转 objection-handler / sales-orchestrator |
 | **纯产品 bug** | 客户要走是因为产品功能缺失 | 转 engineering-orchestrator 排期 + 本 skill 维护 |
 | **法律/合规原因** | 客户走是因为合规问题 | 转律师 + 内部流程 audit |
+| **沉默 ≠ 同意** | 客户无回复 ≥ 30 天或多次回避 | 不得自动升级到高管/私人渠道；先确认沉默原因（休假、时区、组织变更、沟通偏好），按客户首选渠道在冷却期后再联系 |
+| **越权画像** | LinkedIn 等渠道去推断个人状态、裁员、绩效 | 禁止；仅允许使用客户已公开且与业务直接相关的信息 |
+| **个人绩效归因** | 复盘结论用于客户内部个人绩效、晋升、降级 | 停止本流程；输出仅用于系统/流程/交付物改进，由授权 HR/管理流程评估个人 |
+| **跨境/PIPL 数据** | 客户数据跨境传输或包含敏感个人信息 | 启动 PWSB 数据分级 + PIPL Art.38/39 复核；未确认前不输出健康分 |
+| **未验证预测** | 把 leading indicators 当成“必发生” | 不得输出确定性预测；按启发式 + 人工复核 + 验证协议标注 |
 
 ---
 
@@ -63,10 +68,13 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 | 信息 | 必要性 | 缺失时默认 |
 |---|---|---|
 | **账户名 + 历史合同** | 必须 | 不开始,问 |
-| **客户关系图**(Exec / Champion / 用户) | 强烈推荐 | 假设 1 个 Exec + 2-3 用户 |
-| **过去 90 天使用数据** | 强烈推荐 | 假设 4 个 pillar 数据都有 |
+| **4 pillar 原始数据**(Usage / Engagement / Support / Outcome) | **必须** | 输出 `Insufficient data — cannot score`，**禁止补 0、不允许补默认值、不允许把 N/A 当 0** |
+| **数据来源 + 观测窗口 + 采集时间** | 必须 | 不接受估算 |
+| **客户关系图**(Exec / Champion / 用户) | 必须 | 不假设 1+2-3，必须由用户提供 |
+| **已尝试过的救火动作** | 必须 | 不假设 0；缺失则问 |
 | **竞品动态**(若知道) | 推荐 | 不假设 |
-| **已尝试过的救火动作** | 推荐 | 假设 0 |
+
+> **健康分最低门槛：必须同时具备 4 pillar 的真实原始数据 + 观测窗口 + 数据来源 + 时间戳，否则输出 `Insufficient data`、禁止打分、禁止给出 Tier 与动作。**
 
 ---
 
@@ -81,7 +89,19 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 
 ---
 
-## 🔁 人机迭代闭环
+## 📇 Contact Safety Gate（任何客户触达前必过）
+
+> 失败任一条 = 停止该触达；不通过沉默或绕渠道绕过。
+
+- **渠道偏好**：使用客户在合同或既往沟通中已确认的渠道；未确认时默认邮件，且首次必须以邮件开场。
+- **同意状态**：客户必须就本触达目的表达过同意；沉默不构成同意。
+- **合法业务目的**：每次触达能说出 1 句具体业务目的与客户可获价值。
+- **最大尝试次数**：单一议题 7 个自然日内 ≤ 2 次；超限须冷却 ≥ 14 天。
+- **冷却期**：被忽略 ≥ 30 天再升级到下一渠道或高管，需先内部评审是否还存在业务目的。
+- **退订与拒绝**：客户明确退订、要求暂停或拒绝联系后立即停止非必要触达，并记录在 CRM。
+- **跨级联系**：未取得关系授权或合规批准前不得联系 CFO/Exec；联系前记录理由与授权人。
+- **个人信息**：不得使用 LinkedIn 等渠道推断个人状态、裁员、绩效；只使用客户已公开且与业务直接相关的事实。
+- **跨境**：跨境触达或涉及个人敏感信息时走 PWSB 数据分级 + PIPL Art.38/39 复核。
 
 ### 主公 → skill 反馈通道
 
@@ -105,14 +125,18 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 
 ## 🛠 自检 Checklist(每次输出前)
 
-- [ ] 健康分量化了?(4 pillar + 权重)
-- [ ] Tier 分级明确?(Tier 1/2/3)
-- [ ] 救火动作对应 Playbook 编号?
+- [ ] 4 pillar 真实原始数据 + 观测窗口 + 来源 + 时间戳 全部齐全？缺任一则输出 `Insufficient data`
+- [ ] 健康分每个 pillar 都标注了来源、窗口、采集时间、缺失字段、置信度？
+- [ ] Tier 分级明确？Tier 编号与 `references/health-scoring-guide.md` 矩阵一致？
+- [ ] 预测性语句是否已降级为「未验证启发式」？未依赖 `60–90 天`、`3x` 等确定性数字？
+- [ ] 任何对外触达都过 Contact Safety Gate？退订 / 拒绝后停止非必要触达？
+- [ ] 救火动作对应 Playbook 编号？
 - [ ] 时间窗明确?(48h/1 周/2 周)
-- [ ] Executive intervention 触发条件满足?
-- [ ] Expansion 机会识别?
-- [ ] Next step 有 Owner + 日期?
-- [ ] 数据能驱动复盘(流失原因分类)?
+- [ ] Executive intervention 触发条件满足 + 已取得授权？
+- [ ] Expansion 机会识别？只对 Tier 3 Healthy？
+- [ ] Next step 有 Owner + 日期？
+- [ ] 数据能驱动复盘(流失原因分类)？
+- [ ] 个人绩效归因被排除？跨境 / 个人信息走 PWSB 复核？
 
 ---
 
@@ -141,12 +165,14 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 | **Support Health** | 20% | <2 tickets/mo, <24h resolution | 3-5 tickets, 2-day avg | >5 tickets, >3 days |
 | **Business Outcome** | 15% | ROI proven, case study | Value unclear | No measurable value |
 
-**Leading indicators** (predict 90 days out):
+**Leading indicators** (unverified heuristics — not validated predictions; treat as triage signals, not forecast):
 - Usage decline >20% MoM
 - No exec contact >45 days
 - Support escalations
 - Champion turnover
 - Competitive eval signals
+
+> ⚠️ 本 skill 不提供经过验证的 churn 预测模型。leading indicators 是候选启发式，必须配合人工复核、明确的 churn outcome 定义、precision/recall 评估与时间外推验证后才可作为决策依据。`3+ indicators = playbook activation` 是建议阈值，不是验证过的触发器。
 
 ---
 
@@ -350,7 +376,7 @@ Systematic churn prevention framework using health scoring, leading indicators, 
 - **Impact one-pager** (leave-behind)
 - **Success plan doc** (shared doc, living)
 
-**Red flag:** Customer cancels/reschedules QBR 2x = churn risk
+**Red flag:** Customer cancels/reschedules QBR 2x — 提示需复核健康度，**不等于自动判定 churn risk**；先确认客户偏好与原因再走 Contact Safety Gate 升级。
 
 **Example:** See `examples/qbr-deck-template.md`
 

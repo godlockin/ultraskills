@@ -121,13 +121,16 @@ Each pillar scored 0-100, then weighted.
 
 ## Health Score Actions Matrix
 
+> 与 `SKILL.md` 保持唯一编号：Tier 1 Critical / Tier 2 At-Risk / Tier 3 Healthy。
+> Tier 0（Champions）合并入 Tier 3 Healthy 的 expansion 通道；不另设独立 Tier。
+> Tier 4 已被合并：得分 0–49 = Tier 1 Critical。
+
 | Score Range | Tier | Action | Owner | Frequency |
 |-------------|------|--------|-------|-----------|
-| **90-100** | Tier 0: Champions | Expansion qualify, case study | CSM + AE | Quarterly |
-| **80-89** | Tier 1: Healthy | Standard QBR, maintain | CSM | Quarterly |
-| **65-79** | Tier 2: Yellow | Proactive outreach, quick win | CSM | Bi-weekly |
-| **50-64** | Tier 3: At-Risk | Intervention playbook | CSM + Manager | Weekly |
-| **0-49** | Tier 4: Critical | Executive escalation | VP CS + Exec team | Daily |
+| **80-100** | Tier 3 Healthy | Standard QBR, expansion qualification | CSM + AE | Quarterly |
+| **65-79** | Tier 2 At-Risk | Proactive outreach, quick win | CSM | Bi-weekly |
+| **50-64** | Tier 2 At-Risk (declining) | Intervention playbook | CSM + Manager | Weekly |
+| **0-49** | Tier 1 Critical | Executive escalation | VP CS + Exec team | Daily |
 
 ---
 
@@ -186,10 +189,12 @@ These predict churn 60-90 days before renewal:
 | Outcome | 60 | 15% | 9.0 | ↔️ Stable |
 | **Total** | **64.5** | **100%** | **64.5** | **↘️ Declining** |
 
-**Tier:** 3 (At-Risk)
+**Tier:** 2 (At-Risk)
 **Action:** Intervention Playbook A (Usage Decline Recovery)
 **Owner:** CSM (Jane)
 **Next Review:** 2026-05-17 (weekly check-in)
+
+> Tier 编号必须与 `SKILL.md` 唯一矩阵一致。本卡与文档以 Tier 2 = At-Risk 为准。
 
 ---
 

@@ -1,162 +1,103 @@
 # Tier-1 Skill 加固进度
 
-> **范围(方案 C)**:Arena score ≥ 9.0 的 30 个 cluster winner
-> **每个 skill 的流程**:
-> 1. **背景分析** — 领域、作用、价值、Arena 分数、cluster 归类、定制考察点
-> 2. **AB 双轴专家组 review** — A 组 3 视角正向 + B 组 3 视角逆向(基于领域漏洞定制)
-> 3. **定向升级** — 修 P0 + P1,逐条 grep/实测验证,不接受"文档里说了"
-> 4. **迭代到满 3 轮** — R2 复验必跑;R3 仅在 R2 发现真问题时启动;3 轮后仍未达标的进"已知未达标"清单
-> 5. **下一个 skill**
-> 6. **最终报告** — 列明达标 / 触发 3 轮阈值的 skill,升级前 → 升级后对比
+> **范围（方案 C）**：Arena score ≥ 9.0 的 30 个 cluster winner。
 >
-> **方法论**:见 [ab-review-methodology.md](./ab-review-methodology.md)
-> **最后更新**:2026-08-31
+> **逐 skill 契约**：
+> 1. 分析背景、作用、价值、purpose 与领域风险；
+> 2. 按领域召集 A 组正向／B 组逆向的多元专家；
+> 3. 依据 findings 修 P0/P1，并给可运行或可检查证据；
+> 4. R2 复验；有真实 P0/P1 才进 R3；第 3 轮后仍不达标明确记录；
+> 5. 再进入下一 skill；
+> 6. 最终报告列升级前后、满意项、P2 残留、触发三轮阈值项。
+>
+> 方法论：[AB 双轴 review](./ab-review-methodology.md)。最后更新：2026-08-31。
 
-## 状态图例
+## 状态
 
 | 标记 | 含义 |
 |---|---|
-| `✅ DONE` | 修复完成且复验通过 |
-| `🔧 FIXED-R1` | 第 1 轮修复完成,**待复验** |
-| `🔍 REVIEWING` | AB review 进行中 |
-| `⬜ TODO` | 未开始 |
-| `⚠️ BLOCKED` | 有阻塞(如 submodule 不可改) |
-
----
-
-## 进度总览
+| `✅ DONE-R2` | R1 修复完成，R2 证据复验无 P0/P1 |
+| `🔧 FIXED-R1` | 已修 P0/P1，待 R2 |
+| `🚩 FINDINGS` | AB findings 已返回，尚待消化并修复 |
+| `🔍 REVIEWING` | 专家组正在审查 |
+| `⬜ TODO` | 未启动 |
+| `⚠️ BLOCKED` | 有明确外部阻塞 |
 
 | 阶段 | 数量 |
-|---|---|
-| 🔧 待复验(R1 修复完成) | 4 |
-| 🔍 review 中 | 10 |
-| ⬜ 未开始 | 16 |
+|---|---:|
+| ✅ DONE-R2 | 4 |
+| 🔧 FIXED-R1 | 3 |
+| 🚩 FINDINGS | 6 |
+| 🔍 REVIEWING | 3 |
+| ⬜ TODO | 14 |
 | **合计** | **30** |
 
-> 另有 `personal-ai-work-system-builder` 已完成两轮 review + 复验(它是本方法论的来源,
-> 不在 tier-1 的 30 个里,已入库)。
+`personal-ai-work-system-builder` 已完成两轮 review 与复验并入库；不属于这 30 项。
 
----
+## 目标表
 
-## 明细
+| # | skill | 分数 | 状态 | 背景／purpose | 定制专家组与关键审查点 | 已知结果／下一步 |
+|---:|---|---:|---|---|---|---|
+| 1 | remotion | 9.7 | ✅ DONE-R2 | React 视频渲染 | 视频工程、Node/渲染可靠性、版权边界；版本／异步渲染／OOM | 4 P0/7 P1 已修；R2 仅 P2 examples 残留 |
+| 2 | strategy-consulting-framework | 9.5 | ✅ DONE-R2 | 战略决策框架 | 策略顾问、统计证据、反确认偏误；数据幻觉 | 2 P0/7 P1 已修；R2 evidence gate 追加修复 |
+| 3 | ubiquitous-language | 9.5 | ✅ DONE-R2 | DDD 术语治理 | DDD、领域建模、维护性；bounded context／漂移 | 2 P0/5 P1 已修；R2 仅自动 drift P2 |
+| 4 | content-orchestrator | 9.5 | ✅ DONE-R2 | 内容生产编排 | 内容策略、路由正确性、平台合规；下游 id／fallback | 6 P1 已修；R2 仅 P2 |
+| 5 | magazine-web-ppt | 10.0 | 🚩 FINDINGS | 网页化演示稿 | 前端、设计系统、供应链；CDN pin／真实案例 | 修 CDN、缺失引用、字体与案例 |
+| 6 | awesome-design-md | 10.0 | 🚩 FINDINGS | 品牌设计参考 | 品牌／版权、设计系统、工具链；清单真实性／trade dress | 修品牌计数、not-found、npx pin、离线降级 |
+| 7 | comps-analysis | 9.5 | 🔍 REVIEWING | 可比公司估值 | 投资分析、统计、开源合规；免责声明／N gate／EV bridge | 消化 findings 后修模型与示例 |
+| 8 | business-orchestrator | 9.5 | 🔧 FIXED-R1 | 商业任务路由 | 业务架构、路由、审计；真实下游 id／tiebreak | 已修已知 id；待完整 R2 |
+| 9 | learn-from-loss | 9.5 | 🔍 REVIEWING | 赛后复盘与经验沉淀 | 组织心理、复盘、伦理；anti-blame／绩效滥用 | 修 fence、反归责门、断链与案例 |
+| 10 | goal-management | 9.5 | 🚩 FINDINGS | 目标与 KR 管理 | OKR、资源规划、PWSB 编排；总账／容量约束 | 加硬上限、冲突裁定、输入输出契约 |
+| 11 | engineering-orchestrator | 9.5 | 🔧 FIXED-R1 | 工程任务路由 | 软件架构、安全、路由；安全请求正确下游 | 已修一处 id；必须重做 E5 安全路由并 R2 |
+| 12 | cohort-analysis | 9.5 | 🚩 FINDINGS | 留存 cohort 数据分析 | 统计、产品分析、数据质量；样本量／CI／删失 | 加 N gate、显著性、缺失降级、案例 |
+| 13 | generalist-expert | 9.5 | 🚩 FINDINGS | 通用专家组模板 | 专家系统、路由、可复现性；verdict／handoff | 修断链、输出 verdict、专项 skill 交接、案例 |
+| 14 | churn-risk-playbook | 9.5 | 🔍 REVIEWING | 客户流失风险干预 | 客户成功、预测科学、隐私伦理；评分证据／停止规则 | 统一 tier，禁止缺数造分，补验证与干预红线 |
+| 15 | deep-concept-analyzer | 9.5 | 🚩 FINDINGS | 深层概念拆解 | 教育学、知识论、引用审计；来源／适用边界 | 修引文年份、证据分层、procedural 边界、10维逃生阀 |
+| 16 | marketing-roi-calculator | 9.5 | ⬜ TODO | 营销 ROI 计算 | 增长、财务建模、统计；计算正确性／假设透明 | 待 AB review |
+| 17 | ai-techbook-translation | 9.5 | ⬜ TODO | 技术书翻译 | 翻译、术语、QA；配套 review 一致性 | 待 AB review |
+| 18 | design-orchestrator | 9.5 | 🔧 FIXED-R1 | 设计任务路由 | 产品设计、路由、版权；真实 id／边界 | 已修 4 处 id；待 R2 |
+| 19 | growth-loops | 9.5 | ⬜ TODO | 增长循环设计 | 增长、实验设计、因果推断；可验证性 | 待 AB review |
+| 20 | objection-handler | 9.5 | ⬜ TODO | 异议处理话术 | 销售伦理、沟通、合规；反操纵 | 待 AB review |
+| 21 | advanced-evaluation | 9.2 | ⬜ TODO | 高级评估框架 | 测量学、统计、审计；评价严谨性 | 待 AB review |
+| 22 | receiving-code-review | 9.2 | ⬜ TODO | 接收 code review | 软件工程、审查、协作；验证而非盲从 | 待 AB review |
+| 23 | agent-docs-writing | 9.0 | ⬜ TODO | agent 文档写作 | 技术写作、DX、信息架构；标准自洽 | 待 AB review |
+| 24 | ui-ux-pro-max-skill | 9.0 | ⬜ TODO | UI/UX 设计建议 | 设计系统、无障碍、版权；与设计 skill 边界 | 待 AB review |
+| 25 | chinese-text-analysis | 9.0 | ⬜ TODO | 中文文本分析 | 中文 NLP、语言学、评估；分词／语义 | 待 AB review |
+| 26 | triage-issue | 9.0 | ⬜ TODO | issue 分诊 | 工程管理、支持运营、可复现性；规则可执行 | 待 AB review |
+| 27 | mac-tts | 9.0 | ⬜ TODO | macOS TTS | macOS、音频、隐私；版本／平台降级 | 待 AB review |
+| 28 | gh-fix-ci | 9.0 | ⬜ TODO | GitHub CI 故障修复 | CI、安全、变更管理；破坏性操作防护 | 待 AB review |
+| 29 | baoyu-danger-x-to-markdown | 9.5 | ⬜ TODO | X 内容转 Markdown | 内容归档、平台合规、安全；风险声明 | 待 AB review |
+| 30 | baoyu-article-illustrator | 9.5 | ⬜ TODO | 文章配图生成 | 版权、视觉设计、内容安全；生成图权利 | 待 AB review |
 
-### Wave 1
-
-| # | skill | score | 状态 | R1 findings | 关键修复 | commit |
-|---|---|---|---|---|---|---|
-| 1 | remotion | 9.7 | 🔧 FIXED-R1 | 4 P0 / 7 P1 | wrapper.py 从 10 行 stub 改为可运行 CLI(SKILL.md 原本指示用户运行它);版本锁定 `^4.0`;补 `continueRender` 配对(原先只提 `delayRender`,渲染必挂);字体加载;故障排查 9 类;`TransitionSeries`+`Easing`;2 个 examples(此前 0) | `914503d` |
-| 2 | strategy-consulting-framework | 9.5 | 🔧 FIXED-R1 | 2 P0 / 7 P1 | 证据分级门(数据不足强制 Diagnostic 模式,禁输出百分比);重写 example 01(原先虚构基数推量化结论且无标注 = 最强反向示范);新增 example 02(结论为拒绝);反确认偏误;超时降级;资源默认改「单人零预算」;边界 4→9 类 | `1b3d9c6` |
-| 3 | ubiquitous-language | 9.5 | 🔧 FIXED-R1 | 2 P0 / 5 P1 | 新增适用性门槛(原先 3 文件 Todo CLI 也照常产出正式术语表);`Re-running` 去掉「同一会话」限制 + 新增 Drift check 代码漂移检测;**新增 bounded context 段**(原先该词全文零出现,而它是 Evans 原著配对概念,缺失导致跨上下文同名不同义被强行统一);与同上游 domain-modeling 的边界(避免双术语表竞争);2 个 examples(此前 0,含一个「拒绝生成」案例) | 待提交 |
-| 4 | content-orchestrator | 9.5 | 🔧 FIXED-R1 | 0 P0 / 6 P1 | 修 4 处路由断链;fallback 与 tiebreak 从 references 内联进 SKILL.md;**补 engineering-orchestrator 边界**(原先 3 个 bridge 表全无);修「Full 130-row」虚假声明(实际 26 行);C1 移除不连贯的 1-shot 步骤;C3 重排(analysis 提为 Step 0 gate,remotion/hyperframes 标为互斥后端);清除幻影 `marketing-orchestrator` 引用 | 待提交 |
-| 5 | magazine-web-ppt | 10.0 | 🔍 REVIEWING | — | — | — |
-| 6 | awesome-design-md | 10.0 | 🔍 REVIEWING | — | — | — |
-| 7 | comps-analysis | 9.5 | 🔍 REVIEWING | — | 注意:在 `external/`,需先确认是否 submodule | — |
-| 8 | business-orchestrator | 9.5 | 🔍 REVIEWING | — | 已知:12 处路由断链待修(见下) | — |
-| 9 | learn-from-loss | 9.5 | 🔍 REVIEWING | — | — | — |
-
-
-### Wave 2
-
-| # | skill | score | 状态 | 定制考察点 |
-|---|---|---|---|---|
-| 8 | content-orchestrator | 9.5 | ⬜ TODO | 路由完整性(同 business-orchestrator) |
-| 9 | cohort-analysis | 9.5 | ⬜ TODO | 统计正确性、样本量不足时的处理 |
-| 10 | generalist-expert | 9.5 | ⬜ TODO | 泛化能力 vs 空洞化;与专项 skill 边界 |
-| 11 | deep-concept-analyzer | 9.5 | ⬜ TODO | 概念拆解深度、是否流于术语 |
-| 12 | ubiquitous-language | 9.5 | ⬜ TODO | DDD 方法论正确性 |
-| 13 | goal-management | 9.5 | ⬜ TODO | 与 PWSB 的编排关系(PWSB 会调用它) |
-| 14 | churn-risk-playbook | 9.5 | ⬜ TODO | 预测类结论的证据要求 |
-| 15 | engineering-orchestrator | 9.5 | ⬜ TODO | 路由完整性 |
-
-### Wave 3
-
-| # | skill | score | 状态 | 定制考察点 |
-|---|---|---|---|---|
-| 16 | marketing-roi-calculator | 9.5 | ⬜ TODO | 计算正确性、假设透明度 |
-| 17 | ai-techbook-translation | 9.5 | ⬜ TODO | 已有配套 review skill,查两者一致性 |
-| 18 | design-orchestrator | 9.5 | ⬜ TODO | 路由完整性 + 与 awesome-design-md 边界 |
-| 19 | growth-loops | 9.5 | ⬜ TODO | 增长模型可验证性 |
-| 20 | objection-handler | 9.5 | ⬜ TODO | 话术伦理(是否教操纵) |
-| 21 | advanced-evaluation | 9.2 | ⬜ TODO | 评估方法论严谨性 |
-| 22 | receiving-code-review | 9.2 | ⬜ TODO | 与 two-axis-code-review / review 边界 |
-| 23 | agent-docs-writing | 9.0 | ⬜ TODO | 文档标准自洽性 |
-
-### Wave 4
-
-| # | skill | score | 状态 | 定制考察点 |
-|---|---|---|---|---|
-| 24 | ui-ux-pro-max-skill | 9.0 | ⬜ TODO | 与 design 类 skill 重叠 |
-| 25 | chinese-text-analysis | 9.0 | ⬜ TODO | 中文分词/语义准确性 |
-| 26 | triage-issue | 9.0 | ⬜ TODO | 分类规则可执行性 |
-| 27 | mac-tts | 9.0 | ⬜ TODO | 平台依赖、版本兼容 |
-| 28 | gh-fix-ci | 9.0 | ⬜ TODO | 破坏性操作防护(会改 CI) |
-| 29 | baoyu-danger-x-to-markdown | 9.5 | ⬜ TODO | 名字含 "danger",查风险声明 |
-| 30 | baoyu-article-illustrator | 9.5 | ⬜ TODO | AI 生成图版权风险 |
-
----
-
-## 已建立的复用工具
+## 已建立复用工具
 
 | 工具 | 用途 |
 |---|---|
-| `scripts/check-skill-links.sh` | 检查 skill 内 markdown **文件路径**断链(已用故意断链验证有效) |
-| `scripts/check-skill-refs.py` | 检查 SKILL.md 引用的**下游 skill id** 是否存在于 index.json —— orchestrator 类的核心正确性检查。`check-skill-links.sh` 查不出这类语义断链 |
-| `community/personal-ai-work-system-builder/scripts/test_validate_system.sh` | 自包含回归测试范式(1 正例 + 5 攻击例) |
-| `docs/ab-review-methodology.md` | AB 双轴 review harness 设计 + 5 类校验绕过 |
+| `scripts/check-skill-links.sh` | Markdown 本地文件路径断链检查（已用故意断链验证） |
+| `scripts/check-skill-refs.py` | SKILL.md 下游 skill id 在 `index.json` 的可解析性检查 |
+| `community/personal-ai-work-system-builder/scripts/test_validate_system.sh` | 自包含：正例 + 攻击例的 validator 回归范式 |
+| `docs/ab-review-methodology.md` | AB 双轴 review、R2 evidence、validator bypass 方法论 |
 
-### check-skill-refs.py 已发现的待修断链
+## 高频问题模式
 
-跑 `python3 scripts/check-skill-refs.py community/*-orchestrator` 得到:
+1. 文档承诺与脚本实际能力脱节。
+2. example 违反 skill 自己的证据／安全规则。
+3. 高分 skill 仍为零 examples。
+4. Markdown 本地文件链接断链。
+5. 路由指向不存在或过时的 skill id。
+6. 快速演进依赖没有版本基线。
+7. 仅 happy path，无失败、离线、降级路径。
+8. 缺「何时不用」或与相邻 skill 的裁定。
+9. 框架输出可空洞化，缺拒绝与降级条件。
+10. 无适用性门槛，给小任务套重流程。
+11. 关键 gate 只在 references，未进入 `SKILL.md`。
+12. 夸大完整性声明或不可复现案例。
+13. 高风险领域缺证据、伦理、授权与停止机制。
 
-| skill | 数量 | 典型 |
-|---|---|---|
-| content-orchestrator | ~~4~~ 0 | 已修 |
-| business-orchestrator | 12 | `okr-alignment` → `okr-alignment-checker`;`crisis-comms` → `crisis-comms-playbook`;`3-statement` → `3-statement-model`;`plan-eng` → `plan-eng-review`;`initiating-coverage-critic` / `earnings-analysis-critic` 不存在 |
-| engineering-orchestrator | 14 | 多数是 cluster 名误判(`engineering-qa` / `engineering-debug`),但 `git-guardrails` → `git-guardrails-claude-code` 是真断链 |
-| design-orchestrator | 4 | `ui-ux-pro-max` → `ui-ux-pro-max-skill`(3 处);`hallmark-audit` → `hallmark` |
+## 续跑
 
-> 注意区分真断链与 cluster 名误判 —— `engineering-qa` 是 sub-cluster 名不是 skill id,
-> 这类应加入检查器的 `NOT_SKILL_ID` 白名单而非改文档。
-
-### 顺带修的全库问题
-
-`scripts/arena_scan.py` 的 `parse_frontmatter` 对标量值不剥 YAML 引号,导致
-`name: "video-frame-extractor"` 这类写法在 index.json 里带着字面引号存储,
-精确 id 查找永久失败。已修(列表值原本就剥,只有标量漏了)。**下次跑 arena
-pipeline 后 index.json 里的脏 id 会自动修正。**
-
-
----
-
-## 反复出现的问题模式(供后续 review 优先查)
-
-从已审 skill 归纳,这些问题**反复出现**,新 skill 应优先检查:
-
-1. **文档承诺 vs 实际能力脱节** — SKILL.md 指示运行的脚本是占位 stub(remotion)
-2. **example 违反 skill 自身规则** — 规则要求标注假设,example 却虚构数据不标(strategy-consulting-framework)
-3. **零 examples** — 不符 S-Tier 但 arena 高分(remotion、ubiquitous-language 原本都是 0 个)
-4. **文件路径断链** — 引用不存在的文件(strategy-consulting-framework 的 `evals.json`)
-5. **skill id 断链** — 路由指向不存在的 skill id,`check-skill-links.sh` 查不出来
-   (4 个 orchestrator 合计 30 处),用 `check-skill-refs.py`
-6. **无版本锁定** — 依赖快速迭代的外部库却不锁 major(remotion)
-7. **无失败处理** — 只有 happy path,无故障排查(remotion)
-8. **边界缺失** — 没有「何时不该用」,与同类 skill 无裁定规则(几乎每个都有此问题)
-9. **空洞化风险** — 框架类 skill 可能产出"需进一步分析"式废话
-10. **无适用性门槛** — 不问项目规模就套重方法论,小项目过度工程(ubiquitous-language)
-11. **关键规则只在 references 里** — SKILL.md 是唯一保证被加载的文件,
-    fallback/tiebreak 放 references 等于没有(content-orchestrator)
-12. **虚假的完整性声明** — 声称「Full 130-row」实际 26 行(content-orchestrator)
-13. **幻影引用** — 引用一个从未存在的 skill(content-orchestrator 的 `marketing-orchestrator`)
-14. **配对概念缺失** — 只讲方法论的一半(ubiquitous-language 缺 bounded context)
-
-
----
-
-## 续跑方法
-
-下个会话接手时:
-
-1. 读本文件确认状态
-2. 对 `🔧 FIXED-R1` 的 skill 发复验 review(prompt 模板见方法论文档「第二轮必须是复验而非重审」一节)
-3. 对 `⬜ TODO` 的 skill 按 Wave 分批发 AB review,专家组按上表「定制考察点」配置
-4. 每波完成即 commit,并更新本文件
+1. 先消化 `🔍 REVIEWING` 与 `🚩 FINDINGS`，逐项完成 R1 修复；
+2. 每项跑本地链接／引用及领域验证；
+3. 发 R2 证据复验，必要时 R3；
+4. 每波独立提交，避免混入用户原有 bazi/face/palm 与 `external/reverse-skill` 改动；
+5. 30 项完成后才全量 Arena pipeline、更新 index、提交推送、出总报告。
