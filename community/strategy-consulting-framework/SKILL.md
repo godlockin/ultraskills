@@ -1,7 +1,7 @@
 ---
 name: strategy-consulting-framework
-description: Strategy consulting framework - McKinsey/BCG problem-solving in 1h. Use when user wants to "decide whether to do X", "diagnose growth block", "prioritize backlog", "strategic plan", "resource allocation", "BCG matrix", "issue tree", "hypothesis-driven", "Pareto analysis", "quarterly review", "SCR framework", "GRAI retrospective", "year-end planning", "negotiation prep", "health check for business", "decide whether to take partnership", "MECE", "pyramid principle", or feels stuck on a business decision and needs structured framework. Triggers: 要不要做X / 该不该接 / 值不值得 / 战略卡点 / 增长卡住 / 转化掉了 / 复盘 / BCG / 麦肯锡 / 贝恩 / 季度规划 / 优先级 / GRAI.
-version: 2.0.0
+description: Strategy consulting framework - McKinsey/BCG problem-solving in 1h. Use when user wants to "decide whether to do X", "diagnose growth block", "prioritize backlog", "strategic plan", "resource allocation", "BCG matrix", "issue tree", "hypothesis-driven", "Pareto analysis", "quarterly review", "SCR framework", "GRAI retrospective", "year-end planning", "negotiation prep", "health check for business", "decide whether to take partnership", "MECE", "pyramid principle", or feels stuck on a business decision and needs structured framework. Triggers: 要不要做X / 该不该接 / 值不值得 / 战略卡点 / 增长卡住 / 转化掉了 / 复盘 / BCG / 麦肯锡 / 贝恩 / 季度规划 / 优先级 / GRAI. NOT-FOR: 纯技术架构选型 / 情绪疏导 / 法务合规判断 / 替代真实用户调研 / 瓶颈在外部情报而非内部结构(先转 competitive-intelligence)。
+version: 2.1.0
 tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, community, arena-winner]
 ---
 
@@ -55,12 +55,30 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 | **纯情绪倾诉** | 用户问「我好焦虑要不要辞职」 | 转 `career-coach` skill(教练场景,非决策) |
 | **已发生事实复盘** | 用户问「上次决定 X 结果错了为什么」 | 走 GRAI 复盘场景,但仍可用此 skill;只在表达上切到 Reflective 模式 |
 | **高风险财务** | 用户问「要不要押房产炒币」 | 不接决策,只帮拆问题结构 + 转介财务顾问 |
+| **瓶颈在外部事实而非内部结构** | 「竞品要不要跟」「这个市场多大」 | **先转 `competitive-intelligence` 取情报再回本 skill** —— 内部 issue tree 推不出外部事实,硬推会得到自洽但事实基础为空的结论 |
+| **只需单点专家意见** | 「这个定价合理吗」这类不需要 6 步拆解的问题 | 转 `office-hours`(直接问专家,别走完整流程) |
+| **泛开放问题** | 「我该怎么提升自己」这类没有明确决策点的 | 转 `generalist-expert` |
+| **法务 / 合规判断** | 「这条款有没有风险」「这样做违法吗」 | 不做法律判断,只帮整理需要咨询律师的问题清单 |
+| **替代真实用户调研** | 「帮我判断用户会不会喜欢」 | 本 skill 不能替代真实调研;可帮设计调研方案与假设,但结论必须来自真实用户 |
 
 ---
 
 ## ⚙️ 6 步主流程(强约束时间盒)
 
 > **总时间盒:60 分钟**。每步有最大时长,超时强制收尾。
+
+#### ⏱️ 超时降级产出(任何 Stage 超时都适用)
+
+时间盒的意义是**保证有产出**,不是保证走完六步。任何 Stage 超时 → **立即跳 Stage 6**,以当前信息给:
+
+```
+临时结论:[基于现有信息的最佳判断]
+置信度:高 / 中 / 低
+置信度受限于:[卡在哪 —— 如"issue tree 未达成共识"]
+提升置信度所需的 1 件事:[具体动作]
+```
+
+**严禁以「还需进一步分析」「视情况而定」「建议持续关注」结束。** 低置信度的明确判断 + 说清它为什么低,比没有判断有用。
 
 ### Stage 0 · 契约 (5 min)
 
@@ -126,8 +144,60 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 - **验证方法**: 用什么数据/证据验证
 - **数据清单**: 验证需要的最小数据集
 - **拒绝信号**: 什么情况下彻底否决这个假设
+- **证据等级**: `[实测]` / `[用户提供]` / `[行业基准]` / `[推测]`
 
-退出条件:假设数量与 issue tree 关键节点对齐,且都有可验证的最小数据清单。
+**反确认偏误要求**:**至少 1 个假设必须与用户的初始倾向相反**。
+
+用户带着已想好的答案来求背书是最常见的失败模式 —— 若三个假设都是"用户想做的那件事会成功"的不同说法,假设驱动就退化成了确认偏误的包装。
+
+```
+用户倾向:「我想涨价」
+✅ H1: 如果涨价 20%,留存不变,因为当前定价低于同类   ← 顺着倾向
+✅ H2: 如果涨价 20%,流失 30%,因为用户对价格敏感     ← 反向,必须有
+✅ H3: 如果不涨价而做 upsell,增量更大,因为老客有需求  ← 替代路径
+```
+
+退出条件:假设数量与 issue tree 关键节点对齐、都有可验证的最小数据清单、都标了证据等级、且**含至少 1 个反向假设**。
+
+#### 🚦 证据分级门(Stage 3 结束时必过)
+
+对每个假设标注**证据等级**,然后统计:
+
+| 等级 | 含义 |
+|---|---|
+| `[实测]` | 用户系统里真实存在的数字,可复查 |
+| `[用户提供]` | 用户口述但未核对的数字 |
+| `[行业基准]` | 有公开来源的参考值,注明来源 |
+| `[推测]` | 没有依据,纯假设 |
+
+**分流规则**:
+
+```
+关键假设中 ≥1 条有 [实测] 或 [用户提供]
+    → 正常走 Stage 4-6(Decision 模式)
+
+关键假设全部是 [行业基准] 或 [推测]
+    → 强制切 Diagnostic 模式(见下)
+```
+
+#### Diagnostic 模式(数据不足时的唯一合法产出)
+
+**禁止**输出 `+40%`、`流失 60%` 这类看似实测的量化结论 —— 建立在虚构基数上的量化是幻觉,比"不知道"更有害。
+
+只输出这四项:
+
+```
+1. Issue tree(拆解本身不需要数据,照常做)
+2. 待测清单:验证每个假设需要的最小数据集
+3. 取数方案:每条数据从哪来、怎么埋点、几天能拿到
+4. 顶端结论写成:
+   「当前无法判断 [X],先花 [N] 天取 [A/B/C] 三个数,
+     拿到后我给你 Decision 版结论」
+```
+
+Diagnostic 模式下 Stage 4 的 80/20 **可以做定性排序**(按"若假设成立则影响大小"),但不给百分比。
+
+> **推测项禁止进入 Stage 6 顶端结论的主要论据。** 可以作为背景提及,但不能是"所以你该做 A"的依据。
 
 ### Stage 4 · 80/20 + BCG 诊断 (10 min)
 
@@ -136,7 +206,17 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 1. **80/20**:把验证结果排序,找出贡献 80% 效果的那 20% 杠杆点
 2. **BCG 矩阵**(如适用):把多个杠杆点用「影响力 × 可行性」或「市场增长 × 份额」做 2x2 切分,优先做右上象限
 
-退出条件:识别出 1-2 个高杠杆动作,每个动作都有量化预期。
+**每个量化预期必须带证据标注**:
+
+```
+✅ upsell 可带来 +40% 增量 [实测:后台 23 个老客中 9 个已问过加购]
+✅ 修复首月流失可带来 +20% [用户提供:你说首月掉一半,未核对后台]
+⚠️ 定价上调可带来 +15% [推测] ← 不可作为主要论据
+```
+
+**确认偏误红旗**:若验证数据**全部支持**用户的初始倾向,视为异常信号 —— 回 Stage 2 检查 issue tree 是否漏了与初始倾向相反的分支。真实世界里假设很少全对。
+
+退出条件:识别出 1-2 个高杠杆动作,每个动作都有量化预期**且标注了证据等级**;主要论据中无 `[推测]`。
 
 ### Stage 5 · 行动方案 (5 min)
 
@@ -144,11 +224,13 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 
 把杠杆动作写成 SMART 清单:
 
-| # | 动作 | 具体指标 | Owner | 截止 | 风险预案 |
-|---|---|---|---|---|---|
-| 1 | [动作] | [SMART 衡量] | [谁] | [日期] | [如果失败怎么办] |
+| 顺序 | 动作 | 具体指标 | Owner | 截止 | 依赖 | 风险预案 |
+|---|---|---|---|---|---|---|
+| 1 | [动作] | [SMART 衡量] | [谁] | [日期] | [无 / 依赖谁] | [如果失败怎么办] |
 
-退出条件:行动清单 ≤ 5 条,每条都 SMART。
+**第 1 条必须是本周可独立启动、不依赖他人的动作** —— 否则清单会卡在"等别人"上。
+
+退出条件:行动清单 ≤ 5 条,每条都 SMART,且已按依赖关系排序。
 
 ### Stage 6 · SCR 汇报 + 闭环 (5 min)
 
@@ -192,10 +274,12 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 |---|---|---|
 | 场景类型(8 类) | 必须 | 不开始,问 |
 | 1 句话目标 | 必须 | 不开始,问 |
-| 背景与约束(时间/资源/合规) | 必须 | 默认 30 天、无限资源,后续提醒 |
-| 已有数据/证据 | 强烈推荐 | 用常识假设 + 标 [假设] |
+| 背景与约束(时间/资源/合规) | 必须 | **默认 30 天、单人、零预算**,后续提醒 |
+| 已有数据/证据 | 强烈推荐 | 标 `[推测]`,并按证据分级门判断是否切 Diagnostic 模式 |
 | 决策角色(自己拍板 / 要说服谁) | 推荐 | 默认自己拍板 |
 | 历史决策 | 可选 | 不假设 |
+
+> **资源默认取保守值(单人/零预算)而非"无限资源"** —— 无限资源会让 Stage 6 的 ART 资源检查自动通过,失去约束意义。保守假设使建议天然可执行。
 
 ---
 
@@ -258,21 +342,62 @@ tags: [consulting, strategy, problem-solving, framework, advisory, ROI-9.0, comm
 
 ## 📚 资源引用
 
+### References(方法论)
 - [Issue Tree 实战示例](./references/issue-tree-examples.md)
 - [MECE 检查清单 + 失败案例](./references/mece-checklist.md)
 - [SCR 模板 + 汇报范例](./references/scr-templates.md)
 - [BCG 矩阵应用场景](./references/bcg-matrix-uses.md)
-- [Arena 测试用例](./evals.json)
+
+### Examples(案例)
+- [01 · 收入翻倍](./examples/01-grow-2x.md) — 演示证据分级门:数据不足时先走 Diagnostic 模式,拿到数据后再给 Decision 版结论
+- [02 · 该不该接合作(结论是不接)](./examples/02-should-i-take-deal.md) — 演示拒绝结论、明确取舍、反向假设被实测否证
 
 ---
 
 ## 🛠 自检 Checklist(每次输出前)
 
+**形式检查**
+
 - [ ] 场景是否落在 8 类中?
 - [ ] MECE 检查清单是否通过?(Stage 2 退出时)
 - [ ] 假设是否都有可验证的最小数据清单?
 - [ ] 杠杆点是否 < 5 个?
-- [ ] 行动清单每条都 SMART?
+- [ ] 行动清单每条都 SMART?第 1 条是本周可独立启动的吗?
 - [ ] 金字塔顶端 ≤ 25 字?
 - [ ] ART 检查是否过了?
 - [ ] 主公能否用 1 句话复述结论?
+
+**实质检查(比形式更重要)**
+
+- [ ] **顶端结论是否含明确取舍?**("做 A 不做 B",而不是"A 和 B 都重要")
+- [ ] **是否出现空洞措辞?**——「需进一步分析」「视情况而定」「建议关注」「因人而异」出现即**重写**
+- [ ] **每个量化预期是否标了证据等级?**(`[实测]`/`[用户提供]`/`[行业基准]`/`[推测]`)
+- [ ] **主要论据里有没有 `[推测]`?**——有就降级为 Diagnostic 模式
+- [ ] **是否至少有 1 个假设与用户初始倾向相反?**——全部顺着用户想法 = 确认偏误
+- [ ] **验证结果是否全部支持初始假设?**——是则回 Stage 2 查漏分支
+
+---
+
+## 变更记录
+
+### v2.1.0 (2026-08-30)
+
+经 AB 双轴 review 后修复(2 P0 + 7 P1):
+
+**P0 — 证据幻觉**
+- 新增 **🚦 证据分级门**(Stage 3 出口):假设标 `[实测]`/`[用户提供]`/`[行业基准]`/`[推测]`;关键假设全无真实数据时**强制切 Diagnostic 模式**,只输出 issue tree + 待测清单 + 取数方案,禁止给 `+X%` 类数字
+- 重写 `examples/01-grow-2x.md`:原示例在 Stage 4 直接虚构「新客月 20 个、获客成本 $50」并据此推出量化结论且无标注 —— 这是最强的反向示范(模型会照抄)。改为两段式:第一次对话走 Diagnostic 模式明确拒绝给数字,第二次拿到真实数据后才给带证据标注的 Decision 结论
+
+**P1 — 确认偏误与空洞化**
+- Stage 3 要求**至少 1 个假设与用户初始倾向相反**;Stage 4 加确认偏误红旗(验证数据全部支持初始假设 → 回 Stage 2 查漏分支)
+- 新增**超时降级产出**:任何 Stage 超时立即跳 Stage 6,给「临时结论 + 置信度 + 提升置信度所需的 1 件事」,严禁以「还需进一步分析」结束
+- 自检 checklist 拆为形式/实质两组,新增取舍检查与空洞措辞黑名单
+- 资源缺失默认从「无限资源」改为「单人、零预算」—— 无限资源会让 ART 资源检查自动通过,失去约束意义
+- 边界表从 4 类扩到 9 类:补外部情报缺口(转 competitive-intelligence)、单点专家意见(转 office-hours)、泛开放问题(转 generalist-expert)、法务合规、替代用户调研
+- Stage 5 行动清单加「顺序」「依赖」列,要求第 1 条本周可独立启动
+- 新增 `examples/02-should-i-take-deal.md`(结论为**拒绝**),演示取舍表述与反向假设被实测否证
+
+**P2**
+- 修断链:删除指向不存在的 `./evals.json` 的引用
+- description 补 NOT-FOR,使边界在路由阶段可见
+
