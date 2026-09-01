@@ -2,7 +2,7 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 308,
+    "skill_count": 307,
     "winner": "ai-techbook-translation",
     "skills": [
       "ai-techbook-translation",
@@ -12,7 +12,6 @@
       "ziwei-doushu-fortune",
       "ai-techbook-translation-review",
       "diagnostic-debugging",
-      "face-reading",
       "feng-shui",
       "palm-reading",
       "beachhead-segment",
@@ -21,6 +20,7 @@
       "llm-model-selector",
       "daoist-cosmology-basics",
       "deep-module-design",
+      "face-reading",
       "review",
       "pm-skills",
       "identify-assumptions-new",
@@ -262,7 +262,6 @@
       "prototype",
       "actualize",
       "query",
-      "status",
       "commit",
       "judge",
       "elevenlabs",
@@ -278,7 +277,7 @@
       "identity-federation",
       "threat-hunting",
       "chef-assistant",
-      "\"status\"",
+      "status",
       "grilling",
       "teach",
       "why",
@@ -295,7 +294,7 @@
       "create-ideas",
       "deploy-service",
       "reset",
-      "\"reаd_data\"",
+      "reаd_data",
       "helpful-formatter",
       "grill-with-docs",
       "friendly-greeter",
@@ -530,7 +529,7 @@
       "remotion",
       "video-content-analyzer",
       "video-analyzer",
-      "\"video-frame-extractor\"",
+      "video-frame-extractor",
       "zero-debt-lint",
       "video-translate",
       "video-transcriber",
@@ -546,8 +545,8 @@
       "zoom-video-sdk-flutter",
       "video-sdk/linux",
       "video-sdk/windows",
-      "\"image-to-video\"",
-      "\"video-splitter\"",
+      "image-to-video",
+      "video-splitter",
       "huashu-douyin-script",
       "huashu-video-check",
       "zoom-video-sdk-android",
@@ -630,24 +629,24 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "monitoring-expert",
           "sre-engineer",
+          "spec-miner",
           "legacy-modernizer",
           "feature-forge",
-          "spec-miner"
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "postgres-pro",
+        "winner": "spark-engineer",
         "skills": [
-          "postgres-pro",
           "spark-engineer",
-          "pandas-pro",
+          "database-optimizer",
+          "postgres-pro",
           "sql-pro",
-          "database-optimizer"
+          "pandas-pro"
         ]
       },
       {
@@ -659,28 +658,28 @@
           "chaos-engineer",
           "cli-developer",
           "embedded-systems",
-          "mcp-developer",
-          "websocket-engineer"
+          "websocket-engineer",
+          "mcp-developer"
         ]
       },
       {
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "test-master",
+        "winner": "debugging-wizard",
         "skills": [
-          "test-master",
-          "debugging-wizard"
+          "debugging-wizard",
+          "test-master"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "ml-pipeline",
+        "winner": "fine-tuning-expert",
         "skills": [
-          "ml-pipeline",
-          "fine-tuning-expert"
+          "fine-tuning-expert",
+          "ml-pipeline"
         ]
       },
       {
@@ -769,17 +768,17 @@
         "id": "content-social-baoyu",
         "name": "Baoyu 内容工具",
         "skill_count": 9,
-        "winner": "baoyu-translate",
+        "winner": "baoyu-format-markdown",
         "skills": [
-          "baoyu-translate",
+          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
           "baoyu-danger-x-to-markdown",
-          "baoyu-format-markdown",
+          "baoyu-translate",
           "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
-          "baoyu-youtube-transcript",
+          "baoyu-post-to-weibo",
           "baoyu-post-to-x",
-          "baoyu-post-to-weibo"
+          "baoyu-youtube-transcript"
         ]
       },
       {
@@ -790,10 +789,10 @@
         "skills": [
           "baoyu-xhs-images",
           "x-mastery-mentor",
-          "khazix-writer",
-          "huashu-xhs-image",
           "huashu-wechat-image",
           "social-content",
+          "khazix-writer",
+          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -915,7 +914,7 @@
       "gh-fix-ci",
       "ultraskills-hub",
       "skill-creator",
-      "\"github-skill-scout\"",
+      "github-skill-scout",
       "command-development",
       "hook-development",
       "plugin-settings",
@@ -939,7 +938,7 @@
         "winner": "skill-creator",
         "skills": [
           "skill-creator",
-          "\"github-skill-scout\""
+          "github-skill-scout"
         ]
       },
       {
@@ -957,14 +956,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "command-development",
         "skills": [
-          "hook-development",
-          "plugin-settings",
           "command-development",
           "plugin-structure",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "plugin-settings",
+          "hook-development",
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -974,9 +973,9 @@
         "winner": "gh-fix-ci",
         "skills": [
           "gh-fix-ci",
-          "writing-skills",
           "context-engineering",
           "example-skill",
+          "writing-skills",
           "context-engineering-collection",
           "using-superpowers",
           "skill-template"
@@ -1022,11 +1021,11 @@
       "baoyu-imagine",
       "baoyu-infographic",
       "algorithmic-art",
-      "\"visual-expert-pro-(gemini-3.0-edition)\"",
-      "\"commercial-director-pro\"",
-      "\"photography-expert-pro\"",
+      "visual-expert-pro-(gemini-3.0-edition)",
+      "commercial-director-pro",
+      "photography-expert-pro",
       "face-beautification",
-      "\"gemini-image-optimizer\"",
+      "gemini-image-optimizer",
       "huashu-design",
       "huashu-image-upload",
       "image-analyzer",
@@ -1038,12 +1037,12 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-article-illustrator",
+        "winner": "baoyu-image-cards",
         "skills": [
+          "baoyu-image-cards",
+          "baoyu-infographic",
           "baoyu-article-illustrator",
           "baoyu-comic",
-          "baoyu-infographic",
-          "baoyu-image-cards",
           "baoyu-imagine",
           "baoyu-cover-image"
         ]
@@ -1052,14 +1051,14 @@
         "id": "content-image-analysis",
         "name": "图像分析 & 审计",
         "skill_count": 6,
-        "winner": "\"visual-expert-pro-(gemini-3.0-edition)\"",
+        "winner": "visual-expert-pro-(gemini-3.0-edition)",
         "skills": [
-          "\"visual-expert-pro-(gemini-3.0-edition)\"",
-          "\"photography-expert-pro\"",
+          "visual-expert-pro-(gemini-3.0-edition)",
+          "photography-expert-pro",
           "face-beautification",
+          "image-auditor",
           "image-analyzer",
-          "image-reviewer",
-          "image-auditor"
+          "image-reviewer"
         ]
       },
       {
@@ -1069,10 +1068,10 @@
         "winner": "algorithmic-art",
         "skills": [
           "algorithmic-art",
-          "\"commercial-director-pro\"",
-          "\"gemini-image-optimizer\"",
-          "huashu-image-upload",
-          "huashu-design"
+          "commercial-director-pro",
+          "gemini-image-optimizer",
+          "huashu-design",
+          "huashu-image-upload"
         ]
       }
     ]
@@ -1105,10 +1104,11 @@
   {
     "id": "engineering-arch",
     "name": "工程·架构",
-    "skill_count": 15,
+    "skill_count": 16,
     "winner": "ubiquitous-language",
     "skills": [
       "ubiquitous-language",
+      "personal-ai-work-system-builder",
       "information-architecture",
       "mcp-builder",
       "mcp-integration",
@@ -1257,10 +1257,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "land-and-deploy",
+        "winner": "setup-deploy",
         "skills": [
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "ship",
           "canary",
           "shipping-artifacts",
@@ -1477,8 +1477,8 @@
         "winner": "autoplan",
         "skills": [
           "autoplan",
-          "writing-plans",
-          "executing-plans"
+          "executing-plans",
+          "writing-plans"
         ]
       },
       {
@@ -1490,8 +1490,8 @@
           "planning-with-files-zh",
           "planning-with-files-zht",
           "planning-with-files",
-          "planning-with-files-es",
           "planning-with-files-de",
+          "planning-with-files-es",
           "planning-with-files-ar"
         ]
       },
@@ -1535,8 +1535,8 @@
           "smb-onboard",
           "onboarding-checklist-generator",
           "build-dashboard",
-          "metrics-dashboard",
           "zoom-mcp/whiteboard",
+          "metrics-dashboard",
           "onboarding",
           "onboarding-guide"
         ]
@@ -1597,7 +1597,7 @@
       "figma-to-code",
       "icon-system",
       "motion-design",
-      "\"ikea-designer-pro\""
+      "ikea-designer-pro"
     ]
   },
   {
@@ -1639,9 +1639,10 @@
   {
     "id": "engineering-qa",
     "name": "工程·QA",
-    "skill_count": 9,
-    "winner": "devex-review",
+    "skill_count": 10,
+    "winner": "churn-risk-playbook",
     "skills": [
+      "churn-risk-playbook",
       "sales-funnel-analyzer",
       "devex-review",
       "plan-devex-review",
@@ -1651,15 +1652,6 @@
       "verification-before-completion",
       "pyhealth",
       "customer-health-scorecard"
-    ]
-  },
-  {
-    "id": "customer-success-retention",
-    "name": "客户成功·留存",
-    "skill_count": 1,
-    "winner": "churn-risk-playbook",
-    "skills": [
-      "churn-risk-playbook"
     ]
   },
   {
