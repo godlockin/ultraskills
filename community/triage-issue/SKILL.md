@@ -60,6 +60,37 @@ Rules:
 - Each test should survive internal refactors
 - Include a final refactor step if needed
 - **Durability**: Only suggest fixes that would survive radical codebase changes. Describe behaviors and contracts, not internal structure. Tests assert on observable outcomes (API responses, UI state, user-visible effects), not internal state. A good suggestion reads like a spec; a bad one reads like a diff.
+- **Reproduction is MANDATORY**: every issue must include a minimal reproduction — environment (OS / language version / deps), exact steps, expected vs actual. Without these, treat the issue as "unconfirmed" and lower priority.
+
+### Common Failure-Mode Taxonomy
+
+When investigating root cause, classify the failure into one of these buckets (helps readers search and pattern-match):
+
+| Bucket | Examples |
+|---|---|
+| Race condition | concurrent updates, missing lock |
+| Null / undefined handling | missing default, wrong optional chain |
+| Configuration drift | env var vs default mismatch, missing migration |
+| Missing edge case | empty input, single-element collection, max value |
+| Resource exhaustion | connection pool, memory, file handles |
+| Time / timezone bug | DST, TZ-naive datetime, leap second |
+| API contract drift | upstream schema change, version pin |
+| Encoding / i18n | UTF-8 vs Latin-1, locale-aware formatting |
+
+### PII & Sensitive Data Sanitization
+
+Before pasting anything from logs / stack traces / `git log` / error messages into the issue, scrub:
+
+| Type | Replace with |
+|---|---|
+| API keys, tokens, secrets | `[REDACTED]` |
+| Internal hostnames (`*.internal`, `*.corp`) | `[INTERNAL_HOST]` |
+| User email, phone, address | `[USER_PII]` |
+| Stack traces with internal paths | strip paths, keep only file name + line offset |
+| Reproduction data with real users | synthesize / anonymize |
+| Authorization headers, cookies | `[REDACTED_HEADER]` |
+
+If reproduction **requires** real user data, mark the issue `needs-data-access` and route to the data steward team — do **not** paste PII into the issue body.
 
 ### 5. Create the GitHub issue
 

@@ -126,3 +126,29 @@ bash scripts/tts.sh script.txt --voice en-US-AriaNeural -o narration.mp3
 - This skill: MIT
 - edge-tts: GPL-3.0 (Python wrapper around free MS public service)
 - kokoro: Apache 2.0
+
+## 隐私说明
+
+| 后端 | 数据外送 | 隐私风险 |
+|------|----------|----------|
+| edge-tts | 文本 POST 到 `speech.platform.bing.com`（微软） | ⚠️ 敏感内容（PII、内部资料、未公开文本）请改用本地后端 |
+| kokoro-tts | 全本地推理 | ✅ 隐私敏感场景首选 |
+| say | 全本地（macOS 内置） | ✅ 无网络请求 |
+
+> edge-tts 是「免费」第三方公共服务，不等于零数据收集。微软会记录 IP 与请求文本；处理 PII / 商业秘密 / 未公开内容时，必须走本地后端。
+
+## macOS 兼容性
+
+`scripts/tts.sh` 的 `say` 声音名硬编码（`Tingting` / `Kyoko` / `Yuna`）在 macOS 13+ 已被 Siri Natural Voices（`zh-CN_Xiaoxiao` 等）取代。修复：
+
+1. 先用 `say -v "$VOICE" ?` 检查声音存在；
+2. 否则 fallback：`say -v ? | grep -i "${LANG_HINT}" | head -1 | cut -d' ' -f1`；
+3. 仅在 fallback 失败时报错，不要静默落到默认英文。
+
+> `--rate +20%` / `--pitch +50Hz` / `--volume +20%` **只适用于 edge-tts**；`say` 仅支持 `-r rate (wpm)`。脚本对不支持的参数应输出警告，而不是静默忽略。
+
+## 长文本与降级
+
+- `say` 对 > 5KB 文本不稳定；脚本应写临时文件 `say -v "$VOICE" -f <text> -o <aiff>` 而不是命令行直传。
+- edge-tts 网络失败（超时、防火墙）应 fallback 到 `kokoro` 或 `say`，不要直接 exit 1。
+- 输出文件覆盖默认需 `--force`，否则报错。
