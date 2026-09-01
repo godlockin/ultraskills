@@ -158,7 +158,7 @@ Example:
 
 ## Leading Indicator Checklist
 
-These predict churn 60-90 days before renewal:
+These are **unverified candidate heuristics** that may correlate with churn 60–90 days before renewal — they have not been validated and must not be treated as predictions. Pair them with manual review, explicit churn outcome definition, precision/recall evaluation, and time-out-of-sample validation before relying on them for decisions.
 
 - [ ] Usage decline >20% MoM (2 consecutive months)
 - [ ] No exec contact >45 days
