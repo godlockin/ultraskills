@@ -148,12 +148,14 @@ Systematic marketing ROI framework covering CAC, LTV, channel attribution, and c
 
 ### 2. LTV (Lifetime Value)
 
-**Formula:** ARPA ÷ Churn rate
+**Formula (MUST keep units consistent):**
 
-**Example:**
-- ARPA (Average Revenue Per Account): $500/month
-- Monthly churn: 3%
-- **LTV: $500 ÷ 0.03 = $16,667**
+| 口径 | 公式 | 示例 |
+|---|---|---|
+| **月度** | `LTV = Monthly ARPA ÷ Monthly Churn Rate` | $500/月 ÷ 3% = $16,667 |
+| **年度** | `LTV = Annual ARPA ÷ Annual Churn Rate` | $6,000/年 ÷ 36% = $16,667 |
+
+> ⚠️ **量纲一致性**：ARPA 与 churn 必须是同一时间口径（月度对月度、年度对年度），否则 LTV 计算会差 10× 以上。脚本里必须显式校验两者时间单位一致。
 
 **Alternative (for non-subscription):**
 - LTV = Avg purchase × Purchase frequency × Customer lifespan
@@ -165,16 +167,24 @@ Systematic marketing ROI framework covering CAC, LTV, channel attribution, and c
 
 ### 3. Payback Period
 
-**Formula:** CAC ÷ Gross margin per month
+**Naive formula (忽略流失，会低估):** `CAC ÷ Gross margin per month`
 
-**Example:**
+**Churn-adjusted formula (推荐):**
+```
+Effective Monthly Margin = MRR × Gross Margin × (1 − Monthly Churn)
+Payback (months) = CAC ÷ Effective Monthly Margin
+```
+
+**Example (churn-adjusted):**
 - CAC: $2,000
 - MRR: $500
 - Gross margin: 80%
-- **Payback: $2,000 ÷ ($500 × 0.8) = 5 months**
+- Monthly churn: 3%
+- **Naive:** $2,000 ÷ ($500 × 0.8) = 5.0 months（低估）
+- **Adjusted:** $2,000 ÷ ($500 × 0.8 × 0.97) = **5.15 months**
+- Higher-churn sensitivity: 8% 月流失 → Effective margin = $368 → Payback ≈ 5.43 月
 
-**Benchmark:**
-- SaaS: <12 months (healthy), <6 months (excellent)
+> 当月流失率 > 5% 时，naive 公式与 churn-adjusted 公式差距 ≥ 0.5 个月，必须使用 adjusted 版本以避免现金流风险。
 - Ecommerce: <3 months
 
 ---
@@ -249,16 +259,18 @@ Systematic marketing ROI framework covering CAC, LTV, channel attribution, and c
 
 ### Step 4: Cohort Analysis
 
-**Q1 2026 cohort LTV tracking:**
+**Q1 2026 cohort LTV tracking (illustrative):**
 
-| Month | Customers | MRR | Churn | Cumulative LTV |
-|-------|-----------|-----|-------|----------------|
-| Jan (M0) | 30 | $15K | 0% | $500 |
-| Feb (M1) | 30 | $15K | 3% | $1,000 |
-| Mar (M2) | 29 | $14.5K | 3% | $1,483 |
-| Apr (M3) | 28 | $14K | 3% | $1,983 |
+| Month | Customers | MRR | Churn | Cumulative Gross Margin |
+|-------|-----------|-----|-------|--------------------------|
+| Jan (M0) | 30 | $15,000 | 0% | $6,000 |
+| Feb (M1) | 30 | $15,000 | 3% | $12,000 |
+| Mar (M2) | 29 | $14,500 | 3% | $17,800 |
+| Apr (M3) | 28 | $14,000 | 3% | $23,560 |
 
-**Projection:** If 3% monthly churn holds, LTV = $16,667
+> **示例假设**：每个客户月初贡献当月 MRR；Cumulative Gross Margin = Σ(MRR × Gross Margin)。`Churn=0% at M0` 表示当月新签无即时流失；之后 3% 反映下月开始的 cohort-level 流失。客户数 = 30 × (1 − 0.03)^(n−1) 向上取整；MRR = Customer × ARPA（ARPA = $500/月）。实际数据若按日跟踪、按比例流失，请重做表格。
+
+**Projection:** If 3% monthly churn holds, gross-margin LTV ≈ $500 × (1 − 0.80) × Σ(0.97^n) ≈ $16,667（与上方 LTV 公式一致）。
 
 ---
 
@@ -366,12 +378,18 @@ Customer journey: Organic search → Paid ad → Webinar → Demo → Purchase
 - Measure organic lift in holdout geos
 - Compare total customers (paid + organic) vs control
 
-**Example result:**
+**Example result (illustrative — not empirical evidence):**
 - Control geos: 100 paid + 50 organic = 150 total
 - Holdout geos: 0 paid + 70 organic = 70 total
-- **Cannibalization:** 20 organic customers came from paid
+- Apparent cannibalization: 20 organic customers seemed to come from paid
 - **Incremental:** 80 customers truly incremental
-- **True CAC:** $15K spend ÷ 80 = $188 (not $150)
+- **True incremental CAC:** $15K spend ÷ 80 = **$188** (vs naive blended $15K ÷ 150 = $100, or "$150" cited in older versions)
+
+> ⚠️ **必读**：
+> - 30 天 geo-holdout 对 B2B 决策周期（90–180 天）可能不足；B2B 场景至少 90 天或基于历史 sales cycle 校准。
+> - 必须做季节性调整（Q4 vs Q1 差异显著）与竞争者响应控制（对手可能趁机扩量）。
+> - cannibalization 结论必须做统计显著性验证（p-value、CI），不能仅看差值。
+> - 任何 MMM / incrementality 结论只能标注 `illustrative` 或 `internal benchmark`，不得作为对外承诺。
 
 ---
 
