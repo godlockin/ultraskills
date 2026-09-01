@@ -201,31 +201,55 @@ recurrent and convolutional approaches.
 的基础,取代了早期的循环和卷积方法。
 ```
 
-## 🛠️ 工具集 (Toolbox)
+## 🛠 工具集 (Toolbox)
 
-### scripts/
+> 部分脚本 / 模板仅作占位描述；本仓库**实际仅包含** `glossary_init.py` / `normalize_punctuation.py` / `test_normalize_punctuation.py` / `glossary-template.md` / `translation-guide-template.md` / `good-translation.md`。其它文件（`parallel_translate.py` / `markdown_clean.py` / `chapter-template.md` / `glossary-sample.md`）**未实现**，使用时按需创建或删除对应条目。
+
+### scripts/（已实现）
 
 | 文件 | 用途 |
 |------|------|
-| `normalize_punctuation.py` | 全角标点规范化 |
+| `normalize_punctuation.py` | 全角标点规范化（含 URL 保护、emoji 跳过） |
 | `glossary_init.py` | 从原文提取候选术语 |
-| `parallel_translate.py` | 并行多 agent 翻译协调器 |
-| `markdown_clean.py` | 译文清理 (多余空行等) |
+| `test_normalize_punctuation.py` | normalize 的最小回归 |
 
-### templates/
+### scripts/（占位 — 尚未实现）
+
+| 文件 | 状态 |
+|------|------|
+| `parallel_translate.py` | **TBD** — 并行多 agent 翻译协调器 |
+| `markdown_clean.py` | **TBD** — 译文清理 |
+
+### templates/（已实现）
 
 | 文件 | 用途 |
 |------|------|
 | `translation-guide-template.md` | 翻译风格指南模板 |
 | `glossary-template.md` | 术语表模板 |
-| `chapter-template.md` | 章节翻译模板 |
+
+### templates/（占位）
+
+| 文件 | 状态 |
+|------|------|
+| `chapter-template.md` | **TBD** — 章节翻译模板 |
 
 ### examples/
 
-| 文件 | 用途 |
-|------|------|
-| `good-translation.md` | 优秀翻译案例对比 |
-| `glossary-sample.md` | 典型术语表示例 |
+| 文件 | 用途 | 状态 |
+|------|------|------|
+| `good-translation.md` | 优秀翻译案例对比 | 已实现 |
+| `glossary-sample.md` | 典型术语表示例 | **TBD** |
+
+## ⚖️ 版权与翻译授权（必读）
+
+> 本 skill 输出之前，**用户必须自行确认**：
+>
+> 1. **原书授权状态**：原书是闭源 / CC BY / 公有领域？翻译 25 章 × 241 万字前必须有合法授权（作者书面授权 / 出版社许可 / 公有领域声明 / CC BY-SA 等开放许可）。
+> 2. **译文归属**：译文版权归译者 / 团队 / 机构；不得仅因翻译行为取得原作者权利。
+> 3. **商用边界**：闭源或非 CC-BY 授权书籍的译文**禁止商用**；仅可作为个人学习、研究、内部使用。
+> 4. **多国法规**：翻译 / 复制 / 传播受原书司法管辖地（DMCA / 中国著作权法 / EU 著作权指令）约束。
+>
+> 若不确定授权状态，**先停下来确认授权**，再开始翻译。
 
 ## 🤝 并行多 Agent 协作
 
