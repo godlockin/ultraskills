@@ -327,3 +327,5 @@ The `to_prompt()` method in `DynamicExpert` produces the identity header; this s
 - [ ] 置信度标注 [HIGH] / [MED] / [LOW] 都打了?
 - [ ] 超过领域边界主动说?
 - [ ] Contrarian view 至少 1 个?
+- [ ] **输出末尾有结构化 verdict**(confidence / out_of_scope / recommendation / handoff_to / next_action)
+- [ ] **当 recommendation 为 handoff 时,给出真实存在的下游 skill id**(参考 `index.json`),不允许写 `general-purpose` 万能路由

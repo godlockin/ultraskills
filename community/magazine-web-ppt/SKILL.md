@@ -273,11 +273,13 @@ magazine-web-ppt/
 
 ## Update Policy (ultraskills)
 
-`github_hash` pinned to upstream `e0a9f71`. To refresh:
+`github_hash` pinned to upstream `e0a9f714a70ac52eace74a5e51d8c89af69920d1` (full 40-char SHA). To refresh:
 
 ```bash
 # re-clone upstream, diff against local, copy over changes, bump version + github_hash + created_at
 ```
+
+> **版本锁定约束**：模板中所有 CDN/字体必须锁版本号，不得使用 `@latest`、默认 npm latest 解析、或裸 `unpkg.com/<pkg>` 形式，避免供应链静默断裂。WebGL 上下文丢失、Shader 编译失败必须显式检测并降级；后台 tab 必须暂停 `requestAnimationFrame` 循环以保护 GPU / 电池。
 
 ## License
 
