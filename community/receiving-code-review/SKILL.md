@@ -21,6 +21,11 @@ WHEN receiving code review feedback:
 1. READ: Complete feedback without reacting
 2. UNDERSTAND: Restate requirement in own words (or ask)
 3. VERIFY: Check against codebase reality
+   a. grep codebase for actual usage (YAGNI / over-engineering concern)
+   b. Run existing tests; confirm the suggested change passes
+   c. Check platform/version compatibility (manifests, peer deps)
+   d. Build with the change; confirm no breakage
+   e. State what you verified: "[X] verified via [method]"
 4. EVALUATE: Technically sound for THIS codebase?
 5. RESPOND: Technical acknowledgment or reasoned pushback
 6. IMPLEMENT: One item at a time, test each
@@ -81,9 +86,17 @@ IF suggestion seems wrong:
 IF can't easily verify:
   Say so: "I can't verify this without [X]. Should I [investigate/ask/proceed]?"
 
+IF can't verify AND reviewer unreachable (offline / left team):
+  a. Estimate risk of implementing wrong:
+     - Low risk (cosmetic, isolated change)  → document assumption, implement with caveat
+     - High risk (architecture, data model, security) → escalate to human partner for decision
+  b. Always document what you assumed, why, and what would invalidate it
+
 IF conflicts with your human partner's prior decisions:
   Stop and discuss with your human partner first
 ```
+
+> **Human partner decisions may themselves be wrong.** Present verified evidence neutrally, not "you're wrong". Ask "Given [new evidence], should we revisit [decision]?" and let your human partner re-decide. Only unilaterally override when safety-critical (data loss, security breach, regulatory violation).
 
 **your human partner's rule:** "External feedback - be skeptical, but check carefully"
 
@@ -127,8 +140,12 @@ Push back when:
 - Ask specific questions
 - Reference working tests/code
 - Involve your human partner if architectural
+- **Human partner decisions may themselves be wrong:** present verified evidence neutrally ("Given [new evidence], should we revisit [decision]?"). Never unilaterally override except for safety-critical cases.
 
-**Signal if uncomfortable pushing back out loud:** "Strange things are afoot at the Circle K"
+**When pushing back feels uncomfortable**, name the tension directly:
+- "I want to understand more before implementing this."
+- "I'd like to ask one more question before deciding."
+- Request a quick sync if written async thread is going in circles.
 
 ## Acknowledging Correct Feedback
 
@@ -142,10 +159,12 @@ When feedback IS correct:
 ❌ "Great point!"
 ❌ "Thanks for catching that!"
 ❌ "Thanks for [anything]"
-❌ ANY gratitude expression
+❌ Performative gratitude — leading with thanks before stating the fix
 ```
 
-**Why no thanks:** Actions speak. Just fix it. The code itself shows you heard the feedback.
+> **Cross-cultural pragmatics**: in some collaboration contexts (formal / non-English / high-context), brief factual acknowledgement can be socially expected. Lead with the fix and use a minimal factual acknowledgement only when culturally required — never lead with it.
+
+**Why no performative thanks:** Actions speak. Just fix it. The code itself shows you heard the feedback.
 
 **If you catch yourself about to write "Thanks":** DELETE IT. State the fix instead.
 
