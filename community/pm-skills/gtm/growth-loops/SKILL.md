@@ -78,11 +78,39 @@ Create specific loop implementation:
 - Frequency of loop repetition per user
 
 ### Step 4: Calculate Loop Coefficient
-Estimate growth velocity:
-- Invites/shares per user per cycle
-- Conversion rate of invites to new users
-- Net new users per cycle
-- Time per cycle iteration
+
+> ⚠️ **Loop Coefficient 必须给出可验证公式**，而不是变量列表。
+
+**简化 K-factor（viral loop）：**
+
+```
+K = invites_per_user × conversion_rate
+
+K > 1   → 自我增长（viral coefficient > 1, exponential）
+K = 1   → 维持（self-sustaining）
+K < 1   → 不可持续（需付费 / 内容补量）
+```
+
+**完整 K-factor 漏斗（referral loop）：**
+
+```
+K = (invites_sent_per_user)
+  × P(signup | invite)
+  × P(activation | signup)
+  × P(retention_30d | activation)
+```
+
+每一步必须基于真实数据（not assumptions）；任何 P 缺失时按 `[unverified]` 标注，禁止按"行业惯例"伪造。
+
+**Unit Economics (referral loop)：**
+
+| 指标 | 公式 | 健康阈值 |
+|---|---|---|
+| 邀请 CAC | `reward_per_invite × invites_per_acquisition / conversion` | < blended CAC × 0.7 |
+| Payback | `CAC_referral / (LTV × gross_margin)` | < 12 月 |
+| 套利风险 | `fake_account_detection_rate / reward_loss_rate` | < 5% |
+
+K-factor 健康但 unit economics 不健康 → loop 不可持续。
 
 ### Step 5: Build the Loop
 Implement the highest-leverage loop first:
@@ -90,6 +118,31 @@ Implement the highest-leverage loop first:
 - Optimize messaging and friction
 - Measure loop metrics and conversion rates
 - Compound results over time
+
+## ⚖️ 合规与失败模式（必读）
+
+> 增长 loop 设计与实施前，**必须评估**以下风险与合规边界：
+
+### Dark Pattern 反模式
+
+- **多账号套利**：用户用虚假身份 / 临时邮箱 / 虚拟号码刷推荐奖励。**必须**设计 eligibility verification（如设备指纹、手机号绑定、KYC）才能上 referral 奖励。
+- **邀请已注册用户**：奖励结构设计不当会让用户邀请已注册的"熟人"刷奖励，**而非真正获客**。设置 first-time-only 奖励 + fraud detection。
+- **高额不可持续奖励**：Dropbox/Uber 早期靠 VC 补贴高额 referral bonus，但 unit economics 在补贴退坡后会崩溃。奖励金额必须 < CAC × 0.7。
+- **隐私边界**："邀请好友"功能若读取通讯录 / 社交图谱，需要明确 consent（PIPL / GDPR / CCPA）。未取得同意不得上传通讯录。
+- **虚假社会证明**："已有 1,000,000 用户"等声明必须有可验证来源；占位符与未经验证数字禁止用于宣传。
+
+### 平台 ToS 合规
+
+- **Apple App Store / Google Play**：禁止虚拟货币 / 真实货币 referral 奖励用于购买 IAP 内容（影响分成）；具体见 Apple Guideline 4.0 / Google Play Developer Policy。
+- **微信 / 微博 / 抖音 / X 等社交平台**：UGC 跨平台分发受平台 ToS 限制（Spam / 诱导分享 / 内容农场），违规可封号。
+- **金融 / 医疗 / 教育 / 博彩类**：referral 奖励属于营销活动，需符合当地金融营销规则（如中国《广告法》、美国 FTC Endorsement Guides、EU UCPD）。
+- **数据收集合规**：跨平台追踪 / 跨设备指纹需明确 consent 与 opt-out；PIPL 跨境传输需单独评估。
+
+### 因果推断边界
+
+- 增长归因时区分"内容驱动"vs"平台算法驱动"vs"运气"vs"循环驱动"。同一段时间内多 loop 同时运转会 confounding。
+- 推荐 A/B 测试用 cohort + 时间窗口 + 控制组同步变化；避免"saving the date"型偏倚。
+- 任何"我的增长由 loop X 驱动"结论必须有 holdout / counterfactual 验证，而不是单一时间序列对比。
 
 ## Input Format
 Use $ARGUMENTS to pass:
