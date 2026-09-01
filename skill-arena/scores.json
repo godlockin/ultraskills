@@ -1,5 +1,16 @@
 [
   {
+    "id": "agent-docs-writing",
+    "path": "./community/agent-docs-writing/SKILL.md",
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 10.0
+  },
+  {
     "id": "awesome-design-md",
     "path": "./community/awesome-design-md/SKILL.md",
     "cluster": "content-presentation",
@@ -15,6 +26,28 @@
     "path": "./community/magazine-web-ppt/SKILL.md",
     "cluster": "content-doc",
     "cluster_name": "内容·文档生成",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 10.0
+  },
+  {
+    "id": "triage-issue",
+    "path": "./community/triage-issue/SKILL.md",
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 10,
+    "maintainability": 10,
+    "total": 10.0
+  },
+  {
+    "id": "ubiquitous-language",
+    "path": "./community/ubiquitous-language/SKILL.md",
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
     "is_winner": true,
     "doc_quality": 10,
     "func_clarity": 10,
@@ -341,6 +374,17 @@
     "total": 9.5
   },
   {
+    "id": "personal-ai-work-system-builder",
+    "path": "./community/personal-ai-work-system-builder/SKILL.md",
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "cohort-analysis",
     "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
     "cluster": "data",
@@ -385,10 +429,10 @@
     "total": 9.5
   },
   {
-    "id": "ubiquitous-language",
-    "path": "./community/ubiquitous-language/SKILL.md",
-    "cluster": "engineering-arch",
-    "cluster_name": "工程·架构",
+    "id": "ui-ux-pro-max-skill",
+    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
+    "cluster": "design-ux",
+    "cluster_name": "设计·UX/产品设计",
     "is_winner": true,
     "doc_quality": 9,
     "func_clarity": 10,
@@ -550,17 +594,6 @@
     "total": 9.2
   },
   {
-    "id": "agent-docs-writing",
-    "path": "./community/agent-docs-writing/SKILL.md",
-    "cluster": "agent-pua",
-    "cluster_name": "Agent·激励强化",
-    "is_winner": true,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
     "id": "ai-techbook-translation-review",
     "path": "./community/ai-techbook-translation-review/SKILL.md",
     "cluster": "misc",
@@ -618,17 +651,6 @@
   {
     "id": "diagnostic-debugging",
     "path": "./community/diagnostic-debugging/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "face-reading",
-    "path": "./community/face-reading/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -808,28 +830,6 @@
     "cluster": "business-pm",
     "cluster_name": "商业·项目管理",
     "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 10,
-    "maintainability": 10,
-    "total": 9.0
-  },
-  {
-    "id": "triage-issue",
-    "path": "./community/triage-issue/SKILL.md",
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "is_winner": true,
-    "doc_quality": 8,
-    "func_clarity": 10,
-    "maintainability": 10,
-    "total": 9.0
-  },
-  {
-    "id": "ui-ux-pro-max-skill",
-    "path": "./community/ui-ux-pro-max-skill/SKILL.md",
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "is_winner": true,
     "doc_quality": 8,
     "func_clarity": 10,
     "maintainability": 10,
@@ -1474,6 +1474,17 @@
     "total": 8.5
   },
   {
+    "id": "face-reading",
+    "path": "./community/face-reading/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "gh-address-comments",
     "path": "./community/gh-address-comments/SKILL.md",
     "cluster": "engineering-code",
@@ -1496,7 +1507,7 @@
     "total": 8.5
   },
   {
-    "id": "\"github-skill-scout\"",
+    "id": "github-skill-scout",
     "path": "./community/github-skill-scout/SKILL.md",
     "cluster": "skills-mgmt",
     "cluster_name": "Skills·管理",
@@ -1826,7 +1837,7 @@
     "total": 8.5
   },
   {
-    "id": "\"video-frame-extractor\"",
+    "id": "video-frame-extractor",
     "path": "./community/video-frame-extractor/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
@@ -2354,7 +2365,7 @@
     "total": 8.3
   },
   {
-    "id": "\"visual-expert-pro-(gemini-3.0-edition)\"",
+    "id": "visual-expert-pro-(gemini-3.0-edition)",
     "path": "./community/visual-expert/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
@@ -2838,7 +2849,7 @@
     "total": 7.9
   },
   {
-    "id": "\"commercial-director-pro\"",
+    "id": "commercial-director-pro",
     "path": "./community/commercial-director/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
@@ -2915,7 +2926,7 @@
     "total": 7.8
   },
   {
-    "id": "\"photography-expert-pro\"",
+    "id": "photography-expert-pro",
     "path": "./community/photography-expert/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
@@ -4741,6 +4752,17 @@
     "total": 7.5
   },
   {
+    "id": "media-downloader",
+    "path": "./community/media-downloader/SKILL.md",
+    "cluster": "skills-web",
+    "cluster_name": "Skills·联网",
+    "is_winner": true,
+    "doc_quality": 6,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 7.5
+  },
+  {
     "id": "onboarding-checklist-generator",
     "path": "./community/onboarding-checklist-generator/SKILL.md",
     "cluster": "business-clevel",
@@ -5013,17 +5035,6 @@
     "doc_quality": 10,
     "func_clarity": 5,
     "maintainability": 5,
-    "total": 7.5
-  },
-  {
-    "id": "media-downloader",
-    "path": "./external/media-downloader/SKILL.md",
-    "cluster": "skills-web",
-    "cluster_name": "Skills·联网",
-    "is_winner": true,
-    "doc_quality": 6,
-    "func_clarity": 9,
-    "maintainability": 9,
     "total": 7.5
   },
   {
@@ -7227,7 +7238,7 @@
     "total": 7.2
   },
   {
-    "id": "\"image-to-video\"",
+    "id": "image-to-video",
     "path": "./community/image-to-video/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
@@ -8140,7 +8151,7 @@
     "total": 7.0
   },
   {
-    "id": "\"gemini-image-optimizer\"",
+    "id": "gemini-image-optimizer",
     "path": "./community/gemini-image-optimizer/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
@@ -8151,7 +8162,7 @@
     "total": 6.8
   },
   {
-    "id": "\"ikea-designer-pro\"",
+    "id": "ikea-designer-pro",
     "path": "./community/ikea-designer/SKILL.md",
     "cluster": "design-ux",
     "cluster_name": "设计·UX/产品设计",
@@ -8162,7 +8173,18 @@
     "total": 6.8
   },
   {
-    "id": "\"video-splitter\"",
+    "id": "prompt-engineer",
+    "path": "./community/prompt-engineer/SKILL.md",
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 8,
+    "maintainability": 7,
+    "total": 6.8
+  },
+  {
+    "id": "video-splitter",
     "path": "./community/video-splitter/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
@@ -8452,17 +8474,6 @@
     "path": "./external/fullstack-dev-skills/skills/graphql-architect/SKILL.md",
     "cluster": "engineering-arch",
     "cluster_name": "工程·架构",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 6.8
-  },
-  {
-    "id": "prompt-engineer",
-    "path": "./external/fullstack-dev-skills/skills/prompt-engineer/SKILL.md",
-    "cluster": "agent-pua",
-    "cluster_name": "Agent·激励强化",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 6,
@@ -11979,17 +11990,6 @@
     "total": 6.0
   },
   {
-    "id": "status",
-    "path": "./external/neolabhq-kit/plugins/fpf/skills/status/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 5,
-    "maintainability": 5,
-    "total": 6.0
-  },
-  {
     "id": "commit",
     "path": "./external/neolabhq-kit/plugins/git/skills/commit/SKILL.md",
     "cluster": "misc",
@@ -12364,7 +12364,7 @@
     "total": 5.5
   },
   {
-    "id": "\"status\"",
+    "id": "status",
     "path": "./external/claude-skills/engineering/agenthub/skills/status/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
@@ -12694,7 +12694,7 @@
     "total": 4.7
   },
   {
-    "id": "\"reаd_data\"",
+    "id": "reаd_data",
     "path": "./external/skillspector/tests/fixtures/mcp_poisoned_tool/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",

@@ -1,5 +1,20 @@
 [
   {
+    "cluster": "agent-pua",
+    "cluster_name": "Agent·激励强化",
+    "winner": "agent-docs-writing",
+    "score": 10.0,
+    "runner_up": "zoom-meeting-sdk-web",
+    "total_contestants": 42,
+    "defeated": [
+      "zoom-meeting-sdk-web",
+      "zoom-meeting-sdk-windows",
+      "zoom-oauth",
+      "build-zoom-rest-api-app",
+      "build-zoom-team-chat-app"
+    ]
+  },
+  {
     "cluster": "content-doc",
     "cluster_name": "内容·文档生成",
     "winner": "magazine-web-ppt",
@@ -18,6 +33,36 @@
     "cluster": "content-presentation",
     "cluster_name": "内容·演示设计",
     "winner": "awesome-design-md",
+    "score": 10.0,
+    "runner_up": "zoom-meeting-sdk-web",
+    "total_contestants": 42,
+    "defeated": [
+      "zoom-meeting-sdk-web",
+      "zoom-meeting-sdk-windows",
+      "zoom-oauth",
+      "build-zoom-rest-api-app",
+      "build-zoom-team-chat-app"
+    ]
+  },
+  {
+    "cluster": "engineering-arch",
+    "cluster_name": "工程·架构",
+    "winner": "ubiquitous-language",
+    "score": 10.0,
+    "runner_up": "zoom-meeting-sdk-web",
+    "total_contestants": 42,
+    "defeated": [
+      "zoom-meeting-sdk-web",
+      "zoom-meeting-sdk-windows",
+      "zoom-oauth",
+      "build-zoom-rest-api-app",
+      "build-zoom-team-chat-app"
+    ]
+  },
+  {
+    "cluster": "engineering-testing",
+    "cluster_name": "工程·测试",
+    "winner": "triage-issue",
     "score": 10.0,
     "runner_up": "zoom-meeting-sdk-web",
     "total_contestants": 42,
@@ -180,9 +225,9 @@
     ]
   },
   {
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "winner": "deep-concept-analyzer",
+    "cluster": "design-ux",
+    "cluster_name": "设计·UX/产品设计",
+    "winner": "ui-ux-pro-max-skill",
     "score": 9.5,
     "runner_up": "zoom-meeting-sdk-web",
     "total_contestants": 42,
@@ -195,9 +240,9 @@
     ]
   },
   {
-    "cluster": "engineering-arch",
-    "cluster_name": "工程·架构",
-    "winner": "ubiquitous-language",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "winner": "deep-concept-analyzer",
     "score": 9.5,
     "runner_up": "zoom-meeting-sdk-web",
     "total_contestants": 42,
@@ -360,54 +405,9 @@
     ]
   },
   {
-    "cluster": "agent-pua",
-    "cluster_name": "Agent·激励强化",
-    "winner": "agent-docs-writing",
-    "score": 9.0,
-    "runner_up": "zoom-meeting-sdk-web",
-    "total_contestants": 42,
-    "defeated": [
-      "zoom-meeting-sdk-web",
-      "zoom-meeting-sdk-windows",
-      "zoom-oauth",
-      "build-zoom-rest-api-app",
-      "build-zoom-team-chat-app"
-    ]
-  },
-  {
-    "cluster": "design-ux",
-    "cluster_name": "设计·UX/产品设计",
-    "winner": "ui-ux-pro-max-skill",
-    "score": 9.0,
-    "runner_up": "zoom-meeting-sdk-web",
-    "total_contestants": 42,
-    "defeated": [
-      "zoom-meeting-sdk-web",
-      "zoom-meeting-sdk-windows",
-      "zoom-oauth",
-      "build-zoom-rest-api-app",
-      "build-zoom-team-chat-app"
-    ]
-  },
-  {
     "cluster": "engineering-ml",
     "cluster_name": "工程·ML/AI",
     "winner": "chinese-text-analysis",
-    "score": 9.0,
-    "runner_up": "zoom-meeting-sdk-web",
-    "total_contestants": 42,
-    "defeated": [
-      "zoom-meeting-sdk-web",
-      "zoom-meeting-sdk-windows",
-      "zoom-oauth",
-      "build-zoom-rest-api-app",
-      "build-zoom-team-chat-app"
-    ]
-  },
-  {
-    "cluster": "engineering-testing",
-    "cluster_name": "工程·测试",
-    "winner": "triage-issue",
     "score": 9.0,
     "runner_up": "zoom-meeting-sdk-web",
     "total_contestants": 42,
