@@ -1,18 +1,23 @@
 ---
 name: awesome-design-md
-description: Fetch and apply brand DESIGN.md files for pixel-perfect AI-assisted UI. Triggers when user asks to "make it look like [brand]", "use [brand] design style", "add DESIGN.md", or "apply [brand] theme". Supports 68 brands including Stripe, Vercel, Linear, Apple, Figma, Supabase, Notion, and more.
-version: 1.0.0
-tags: [design, ui, branding, frontend, css, theming]
+description: Fetch and apply brand-inspired DESIGN.md files for AI-assisted UI scaffolding. Triggers when user asks to "make it look like [brand]", "use [brand] design style", "add DESIGN.md", or "apply [brand] theme". Supports 58 brands including Stripe, Vercel, Linear, Figma, Supabase, Notion, and more. Each entry is a community-curated spec inspired by publicly observable design patterns; not an official brand asset.
+version: 1.1.0
+tags: [design, ui, branding, frontend, css, theming, design-system, community, arena-winner]
 github_url: https://github.com/VoltAgent/awesome-design-md
 github_hash: 12c50a413f1aad774ed23770dcdbeb13aaf702be
 created_at: 2026-04-16
-entry_point: npx getdesign@latest add <brand>
+entry_point: npx -y getdesign@0.1.0 add <brand>
 dependencies: []
+license: MIT (covers code only; brand-inspired design specs are unofficial)
 ---
 
 # awesome-design-md
 
-Curated collection of DESIGN.md files — detailed plain-text design system specs for 68 developer-focused brands. Drop one into any project, tell your AI agent "build a page that looks like this", and get pixel-perfect UI matching the brand's actual design patterns.
+> ⚠️ **Trademark & Brand Asset Notice**
+> Brand names (Stripe, Vercel, Linear, Apple, etc.) are trademarks of their respective owners. The DESIGN.md files in this collection are **community-curated specifications inspired by publicly observable design patterns**. They are **not** official brand assets, do not represent any affiliation with or endorsement by the brands, and must not be used to misrepresent association with the brand owner.
+> Use them as **design intelligence for prototyping and learning**. For commercial production, consult each brand's official design system, brand guidelines, or licensed assets.
+
+Curated collection of brand-inspired DESIGN.md files — detailed plain-text design specs for **58** developer-focused brands. Drop one into any project, tell your AI agent "build a page following this spec", and produce UI that resembles the brand's publicly observable patterns.
 
 ## When to Use
 
@@ -36,110 +41,116 @@ Each DESIGN.md contains:
 - **Motion & Animation** — transition curves, durations, interaction patterns
 - **Code Examples** — real CSS variables and component snippets
 
-This is NOT a design system library. It's a **design intelligence file** — human-readable spec that AI agents can follow to produce authentic brand-matched UI.
+This is NOT a design system library. It's a **design intelligence file** — a human-readable spec that AI agents can follow to produce UI that resembles a brand's publicly observable design language. It is **not an official brand asset**.
+
+### Reproducibility & Staleness
+
+- The skill depends on the `getdesign` npm package and the upstream GitHub repo. If those are unavailable, the fetch command will fail.
+- `github_hash` documents the upstream commit this skill was tested against; it may go stale. When in doubt, run the fetch and review `DESIGN.md` before relying on it.
+- Offline / sandboxed environments: copy any previously fetched `DESIGN.md` from version control as a fallback.
 
 ## Install a Brand's DESIGN.md
 
 ```bash
 # Fetch and drop DESIGN.md into current project
-npx getdesign@latest add stripe
-npx getdesign@latest add vercel
-npx getdesign@latest add linear
+npx -y getdesign@0.1.0 add stripe
+npx -y getdesign@0.1.0 add vercel
+npx -y getdesign@0.1.0 add linear
 ```
 
 This creates a `DESIGN.md` file in your current directory.
 
 Then tell the AI: **"Build a landing page following DESIGN.md"**
 
-## Available Brands (68 total)
+## Available Brands (58 total)
 
 ### AI / LLM Tools
 | Brand | Command |
 |-------|---------|
-| Claude (Anthropic) | `npx getdesign@latest add claude` |
-| Cohere | `npx getdesign@latest add cohere` |
-| Mistral | `npx getdesign@latest add mistral.ai` |
-| MiniMax | `npx getdesign@latest add minimax` |
-| Ollama | `npx getdesign@latest add ollama` |
-| Replicate | `npx getdesign@latest add replicate` |
-| RunwayML | `npx getdesign@latest add runwayml` |
-| Together.ai | `npx getdesign@latest add together.ai` |
-| x.ai (Grok) | `npx getdesign@latest add x.ai` |
-| ElevenLabs | `npx getdesign@latest add elevenlabs` |
+| Claude (Anthropic) | `npx -y getdesign@0.1.0 add claude` |
+| Cohere | `npx -y getdesign@0.1.0 add cohere` |
+| Mistral | `npx -y getdesign@0.1.0 add mistral.ai` |
+| MiniMax | `npx -y getdesign@0.1.0 add minimax` |
+| Ollama | `npx -y getdesign@0.1.0 add ollama` |
+| Replicate | `npx -y getdesign@0.1.0 add replicate` |
+| RunwayML | `npx -y getdesign@0.1.0 add runwayml` |
+| Together.ai | `npx -y getdesign@0.1.0 add together.ai` |
+| x.ai (Grok) | `npx -y getdesign@0.1.0 add x.ai` |
+| ElevenLabs | `npx -y getdesign@0.1.0 add elevenlabs` |
 
 ### Developer Tools
 | Brand | Command |
 |-------|---------|
-| Vercel | `npx getdesign@latest add vercel` |
-| Linear | `npx getdesign@latest add linear.app` |
-| Figma | `npx getdesign@latest add figma` |
-| Cursor | `npx getdesign@latest add cursor` |
-| Raycast | `npx getdesign@latest add raycast` |
-| Warp | `npx getdesign@latest add warp` |
-| Posthog | `npx getdesign@latest add posthog` |
-| Sentry | `npx getdesign@latest add sentry` |
-| Framer | `npx getdesign@latest add framer` |
-| Webflow | `npx getdesign@latest add webflow` |
-| Mintlify | `npx getdesign@latest add mintlify` |
-| Expo | `npx getdesign@latest add expo` |
-| Sanity | `npx getdesign@latest add sanity` |
-| MongoDB | `npx getdesign@latest add mongodb` |
-| Hashicorp | `npx getdesign@latest add hashicorp` |
-| ClickHouse | `npx getdesign@latest add clickhouse` |
-| Composio | `npx getdesign@latest add composio` |
-| Opencode.ai | `npx getdesign@latest add opencode.ai` |
-| VoltAgent | `npx getdesign@latest add voltagent` |
-| IBM | `npx getdesign@latest add ibm` |
+| Vercel | `npx -y getdesign@0.1.0 add vercel` |
+| Linear | `npx -y getdesign@0.1.0 add linear.app` |
+| Figma | `npx -y getdesign@0.1.0 add figma` |
+| Cursor | `npx -y getdesign@0.1.0 add cursor` |
+| Raycast | `npx -y getdesign@0.1.0 add raycast` |
+| Warp | `npx -y getdesign@0.1.0 add warp` |
+| Posthog | `npx -y getdesign@0.1.0 add posthog` |
+| Sentry | `npx -y getdesign@0.1.0 add sentry` |
+| Framer | `npx -y getdesign@0.1.0 add framer` |
+| Webflow | `npx -y getdesign@0.1.0 add webflow` |
+| Mintlify | `npx -y getdesign@0.1.0 add mintlify` |
+| Expo | `npx -y getdesign@0.1.0 add expo` |
+| Sanity | `npx -y getdesign@0.1.0 add sanity` |
+| MongoDB | `npx -y getdesign@0.1.0 add mongodb` |
+| Hashicorp | `npx -y getdesign@0.1.0 add hashicorp` |
+| ClickHouse | `npx -y getdesign@0.1.0 add clickhouse` |
+| Composio | `npx -y getdesign@0.1.0 add composio` |
+| Opencode.ai | `npx -y getdesign@0.1.0 add opencode.ai` |
+| VoltAgent | `npx -y getdesign@0.1.0 add voltagent` |
+| IBM | `npx -y getdesign@0.1.0 add ibm` |
 
 ### SaaS / Productivity
 | Brand | Command |
 |-------|---------|
-| Notion | `npx getdesign@latest add notion` |
-| Airtable | `npx getdesign@latest add airtable` |
-| Miro | `npx getdesign@latest add miro` |
-| Intercom | `npx getdesign@latest add intercom` |
-| Superhuman | `npx getdesign@latest add superhuman` |
-| Zapier | `npx getdesign@latest add zapier` |
-| Resend | `npx getdesign@latest add resend` |
-| Cal.com | `npx getdesign@latest add cal` |
-| Semrush | `npx getdesign@latest add semrush` |
-| Lovable | `npx getdesign@latest add lovable` |
+| Notion | `npx -y getdesign@0.1.0 add notion` |
+| Airtable | `npx -y getdesign@0.1.0 add airtable` |
+| Miro | `npx -y getdesign@0.1.0 add miro` |
+| Intercom | `npx -y getdesign@0.1.0 add intercom` |
+| Superhuman | `npx -y getdesign@0.1.0 add superhuman` |
+| Zapier | `npx -y getdesign@0.1.0 add zapier` |
+| Resend | `npx -y getdesign@0.1.0 add resend` |
+| Cal.com | `npx -y getdesign@0.1.0 add cal` |
+| Semrush | `npx -y getdesign@0.1.0 add semrush` |
+| Lovable | `npx -y getdesign@0.1.0 add lovable` |
 
 ### Fintech / Crypto
 | Brand | Command |
 |-------|---------|
-| Stripe | `npx getdesign@latest add stripe` |
-| Coinbase | `npx getdesign@latest add coinbase` |
-| Kraken | `npx getdesign@latest add kraken` |
-| Revolut | `npx getdesign@latest add revolut` |
-| Wise | `npx getdesign@latest add wise` |
+| Stripe | `npx -y getdesign@0.1.0 add stripe` |
+| Coinbase | `npx -y getdesign@0.1.0 add coinbase` |
+| Kraken | `npx -y getdesign@0.1.0 add kraken` |
+| Revolut | `npx -y getdesign@0.1.0 add revolut` |
+| Wise | `npx -y getdesign@0.1.0 add wise` |
 
 ### Consumer / Social
 | Brand | Command |
 |-------|---------|
-| Spotify | `npx getdesign@latest add spotify` |
-| Airbnb | `npx getdesign@latest add airbnb` |
-| Pinterest | `npx getdesign@latest add pinterest` |
-| Uber | `npx getdesign@latest add uber` |
-| Supabase | `npx getdesign@latest add supabase` |
-| Clay | `npx getdesign@latest add clay` |
+| Spotify | `npx -y getdesign@0.1.0 add spotify` |
+| Airbnb | `npx -y getdesign@0.1.0 add airbnb` |
+| Pinterest | `npx -y getdesign@0.1.0 add pinterest` |
+| Uber | `npx -y getdesign@0.1.0 add uber` |
+| Supabase | `npx -y getdesign@0.1.0 add supabase` |
+| Clay | `npx -y getdesign@0.1.0 add clay` |
 
 ### Automotive / Luxury
 | Brand | Command |
 |-------|---------|
-| Tesla | `npx getdesign@latest add tesla` |
-| BMW | `npx getdesign@latest add bmw` |
-| Ferrari | `npx getdesign@latest add ferrari` |
-| Lamborghini | `npx getdesign@latest add lamborghini` |
-| Renault | `npx getdesign@latest add renault` |
-| SpaceX | `npx getdesign@latest add spacex` |
+| Tesla | `npx -y getdesign@0.1.0 add tesla` |
+| BMW | `npx -y getdesign@0.1.0 add bmw` |
+| Ferrari | `npx -y getdesign@0.1.0 add ferrari` |
+| Lamborghini | `npx -y getdesign@0.1.0 add lamborghini` |
+| Renault | `npx -y getdesign@0.1.0 add renault` |
+| SpaceX | `npx -y getdesign@0.1.0 add spacex` |
 
 ## Workflow
 
 ### Step 1: Fetch the DESIGN.md
 ```bash
 # Run in project root
-npx getdesign@latest add stripe
+npx -y getdesign@0.1.0 add stripe
 # → Creates DESIGN.md in current directory
 ```
 
@@ -163,4 +174,4 @@ The agent will use color tokens, typography specs, spacing rules, and component 
 
 - Repo: https://github.com/VoltAgent/awesome-design-md
 - Tool: https://getdesign.md
-- License: MIT
+- License: MIT (covers code only; brand-inspired design specs are unofficial and remain the property of their respective brand owners)

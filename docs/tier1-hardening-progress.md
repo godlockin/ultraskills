@@ -25,11 +25,11 @@
 
 | 阶段 | 数量 |
 |---|---:|
-| ✅ DONE-R2 | 4 |
-| 🔧 FIXED-R1 | 3 |
-| 🚩 FINDINGS | 6 |
-| 🔍 REVIEWING | 3 |
-| ⬜ TODO | 14 |
+| ✅ DONE-R2 | 5 |
+| 🔧 FIXED-R1 | 5 |
+| 🚩 FINDINGS | 5 |
+| 🔍 REVIEWING | 4 |
+| ⬜ TODO | 11 |
 | **合计** | **30** |
 
 `personal-ai-work-system-builder` 已完成两轮 review 与复验并入库；不属于这 30 项。
@@ -44,14 +44,14 @@
 | 4 | content-orchestrator | 9.5 | ✅ DONE-R2 | 内容生产编排 | 内容策略、路由正确性、平台合规；下游 id／fallback | 6 P1 已修；R2 仅 P2 |
 | 5 | magazine-web-ppt | 10.0 | 🚩 FINDINGS | 网页化演示稿 | 前端、设计系统、供应链；CDN pin／真实案例 | 修 CDN、缺失引用、字体与案例 |
 | 6 | awesome-design-md | 10.0 | 🚩 FINDINGS | 品牌设计参考 | 品牌／版权、设计系统、工具链；清单真实性／trade dress | 修品牌计数、not-found、npx pin、离线降级 |
-| 7 | comps-analysis | 9.5 | 🔍 REVIEWING | 可比公司估值 | 投资分析、统计、开源合规；免责声明／N gate／EV bridge | 消化 findings 后修模型与示例 |
+| 7 | comps-analysis | 9.5 | 🔧 FIXED-R1 | 可比公司估值 | 投资分析、统计、开源合规；免责声明／N gate／EV bridge | 投资免责声明 + peer N 表引用 + Valid N 门槛 + IFERROR→N/A + EV bridge 完整化 + 删失效 example 引用；待 R2 |
 | 8 | business-orchestrator | 9.5 | 🔧 FIXED-R1 | 商业任务路由 | 业务架构、路由、审计；真实下游 id／tiebreak | 已修已知 id；待完整 R2 |
-| 9 | learn-from-loss | 9.5 | 🔍 REVIEWING | 赛后复盘与经验沉淀 | 组织心理、复盘、伦理；anti-blame／绩效滥用 | 修 fence、反归责门、断链与案例 |
+| 9 | learn-from-loss | 9.5 | ✅ DONE-R2 | 赛后复盘与经验沉淀 | 组织心理、复盘、伦理；anti-blame／绩效滥用 | 4 P1 已修；R2 全 true：fence、broken link、anti-blame、examples |
 | 10 | goal-management | 9.5 | 🚩 FINDINGS | 目标与 KR 管理 | OKR、资源规划、PWSB 编排；总账／容量约束 | 加硬上限、冲突裁定、输入输出契约 |
 | 11 | engineering-orchestrator | 9.5 | 🔧 FIXED-R1 | 工程任务路由 | 软件架构、安全、路由；安全请求正确下游 | 已修一处 id；必须重做 E5 安全路由并 R2 |
 | 12 | cohort-analysis | 9.5 | 🚩 FINDINGS | 留存 cohort 数据分析 | 统计、产品分析、数据质量；样本量／CI／删失 | 加 N gate、显著性、缺失降级、案例 |
 | 13 | generalist-expert | 9.5 | 🚩 FINDINGS | 通用专家组模板 | 专家系统、路由、可复现性；verdict／handoff | 修断链、输出 verdict、专项 skill 交接、案例 |
-| 14 | churn-risk-playbook | 9.5 | 🔍 REVIEWING | 客户流失风险干预 | 客户成功、预测科学、隐私伦理；评分证据／停止规则 | 统一 tier，禁止缺数造分，补验证与干预红线 |
+| 14 | churn-risk-playbook | 9.5 | 🔧 FIXED-R1 | 客户流失风险干预 | 客户成功、预测科学、隐私伦理；评分证据／停止规则 | Tier 编号统一；4 pillar 硬门槛；leading indicators 降级；Contact Safety Gate；Arena cluster 修正（新增 customer-success-retention）；待 R2 |
 | 15 | deep-concept-analyzer | 9.5 | 🚩 FINDINGS | 深层概念拆解 | 教育学、知识论、引用审计；来源／适用边界 | 修引文年份、证据分层、procedural 边界、10维逃生阀 |
 | 16 | marketing-roi-calculator | 9.5 | ⬜ TODO | 营销 ROI 计算 | 增长、财务建模、统计；计算正确性／假设透明 | 待 AB review |
 | 17 | ai-techbook-translation | 9.5 | ⬜ TODO | 技术书翻译 | 翻译、术语、QA；配套 review 一致性 | 待 AB review |
