@@ -1,13 +1,14 @@
 # bazi-fortune resources/
 
-> 16 个知识源文件,按"知识模块"分类。每篇都是给 AI 看的**知识源**,**不要在 report 里复制粘贴它们的元提示或风格**。
+> 17 个知识源文件,按"知识模块"分类。每篇都是给 AI 看的**知识源**,**不要在 report 里复制粘贴它们的元提示或风格**。
 
 ## 📚 知识模块分类
 
 ### 🧱 基础概念层(给 AI 的"术语字典")
-- `pillar-construction.md` — 四柱排盘 + 56.16 万模型论
-- `ten-gods.md` — 十神三大类(比/生/克)
-- `ten-gods-detail.md` — 十神精讲(食伤/官杀/财/比劫)
+- `pillar-construction.md` — 四柱排盘 + 六十甲子 + 56.16 万模型论
+- `ten-gods.md` — 十神三大类(同/生/克)+ 完整排盘示例
+- `ten-gods-detail.md` — 十神精讲(印星/食伤/官杀/财星/比劫)+ 月令 + 实盘案例
+- `bazi-algorithm.md` — **合生克优先级 + 阴阳能量规则**(2026-08-30 加)
 - `five-elements-strength.md` — 五行强弱 + 用神确定法
 - `spirit-stars.md` — 神煞(经典表)
 
