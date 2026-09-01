@@ -76,13 +76,29 @@ The wrapper lazily clones the upstream repo into `~/.cache/ui-ux-pro-max/` on fi
 
 ## Pre-delivery checklist (always apply)
 
-- [ ] No emojis as icons — use SVG (Heroicons / Lucide)
+- [ ] No emojis as icons — use SVG (Heroicons / Lucide / Phosphor — all MIT/ISC; integrate via `icon-system` skill)
 - [ ] `cursor-pointer` on all clickable elements
 - [ ] Hover states with smooth transitions (150–300 ms)
-- [ ] Light-mode text contrast ≥ 4.5:1
-- [ ] Visible focus states for keyboard navigation
-- [ ] `prefers-reduced-motion` respected
+- [ ] **Contrast: normal text ≥ 4.5:1, large text (≥18pt / 14pt bold) ≥ 3:1** (WCAG 1.4.3)
+- [ ] **Non-text contrast (UI components, borders, focus rings) ≥ 3:1** (WCAG 1.4.11)
+- [ ] **Touch targets ≥ 44×44 CSS px** (WCAG 2.5.5)
+- [ ] **Full keyboard reachability** for all interactive elements (WCAG 2.1.1)
+- [ ] **Visible focus indicator**: 2px+ outline or background change (WCAG 2.4.7)
+- [ ] **ARIA name / role / value on custom widgets** (WCAG 4.1.2)
+- [ ] `prefers-reduced-motion` respected (WCAG 2.3.3)
 - [ ] Responsive: 375 / 768 / 1024 / 1440 px
+
+## Relationship with Other Skills
+
+- **`design-system` (external)**: audits / documents existing design systems. This skill **generates** from scratch; not a substitute.
+- **`hallmark`**: 53-gate slop test. After this skill generates output, run `hallmark audit <output>` as a final gate (see `design-orchestrator` Path 1 greenfield pipeline).
+
+## Design Ethics & License Boundaries
+
+- **Trade-dress**: do **not** generate palettes directly derived from trademarked brand identities ("Stripe blue", "Linear purple"). Palettes are mood-mapped suggestions, not brand clones.
+- **Brand-inspired designs**: run `hallmark study <reference>` first to extract design DNA without pixel-copy. Verify generated output does not reproduce protected trade dress.
+- **Typography**: pairings use Google Fonts (SIL OFL). Self-hosting requires bundling `OFL.txt` license files; preserve copyright notice.
+- **Icons**: stick to MIT/ISC libraries above. Do not embed paid icon fonts without confirmed licensing.
 
 ## Update policy
 

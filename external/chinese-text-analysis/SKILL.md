@@ -1,13 +1,14 @@
 ---
 name: chinese-text-analysis
-description: 中文文本NLP分析管道 - 情感正负面判断、关键词提取、语义主题聚类，适用于小红书/抖音帖子和评论批量分析
+description: 中文文本NLP分析管道 - 情感正负面判断、关键词提取、语义主题聚类，适用于小红书/抖音帖子和评论批量分析。仅限已获用户授权的数据；输出已去除直接标识符。
 github_url: https://github.com/fxsjy/jieba https://github.com/isnowfy/snownlp https://github.com/MaartenGr/BERTopic
 github_hash: jieba:67fa2e36 snownlp:fad6ae77 bertopic:b2ce0842
-version: 1.0.0
+version: 1.1.0
 created_at: 2026-04-27
 tags: [nlp, sentiment-analysis, keyword-extraction, semantic-clustering, chinese, text-analysis, social-media]
 entry_point: scripts/analyze.py
-dependencies: ["jieba==0.42.1", "snownlp", "bertopic", "sentence-transformers"]
+dependencies: ["jieba==0.42.1", "snownlp==0.12.3", "bertopic==0.16.0", "sentence-transformers==2.7.0", "pandas==2.2.2"]
+privacy_boundary: requires-authorized-data-only; strips user_id/nickname/avatar before returning
 ---
 
 # Chinese Text Analysis Skill
@@ -21,12 +22,16 @@ dependencies: ["jieba==0.42.1", "snownlp", "bertopic", "sentence-transformers"]
 - 对大量帖子/评论做语义聚类，发现主题群
 - 从 MediaCrawler 采集结果做二次分析
 
+> **前置条件**：输入数据必须**已获用户授权**且完成去标识化；输出已剥离 `user_id` / `nickname` / `avatar` 等直接标识符。涉及个人信息时须符合 PIPL / GDPR / 当地法规。
+
+> **适用范围**：模型针对标准简体中文社媒内容；繁体内容需先繁简转换；方言与网络用语（绝绝子 / yyds 等）需人工复核。
+
 ## 安装
 
 ```bash
-pip install jieba snownlp bertopic sentence-transformers pandas
+pip install jieba==0.42.1 snownlp==0.12.3 bertopic==0.16.0 sentence-transformers==2.7.0 pandas==2.2.2
 # 或
-uv add jieba snownlp bertopic sentence-transformers pandas
+uv add jieba==0.42.1 snownlp==0.12.3 bertopic==0.16.0 sentence-transformers==2.7.0 pandas==2.2.2
 ```
 
 ## 分析能力
