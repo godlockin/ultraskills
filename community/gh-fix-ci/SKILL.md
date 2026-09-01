@@ -19,11 +19,24 @@ Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable fai
 
 Prereq: ensure `gh` is authenticated (for example, run `gh auth login` once), then run `gh auth status` with escalated permissions (include workflow/repo scopes) so `gh` commands succeed. If sandboxing blocks `gh auth status`, rerun it with `sandbox_permissions=require_escalated`.
 
+> ⚠️ **Token 权限边界**：使用最小权限 token；只读操作（logs / status）只需 `repo` read + `workflow` read。修改 `.github/workflows/*.yml` 必须使用专用 service account，不要用个人 token。`sandbox_permissions=require_escalated` 是 fallback 而非常态，仅在确认无恶意注入后使用。
+
 ## Inputs
 
 - `repo`: path inside the repo (default `.`)
 - `pr`: PR number or URL (optional; defaults to current branch PR)
 - `gh` authentication for the repo host
+
+## Safety Gates（破坏性操作防护）
+
+> 任何 CI yaml 修改属破坏性操作，必须全部满足：
+
+1. **diff 必先展示**：实施修改前必须 `git diff -- .github/workflows/` 输出完整 diff 并由用户确认。
+2. **备份原 yaml**：修改前 `cp .github/workflows/<file>.yml /tmp/<file>.yml.bak`，失败时用其回退。
+3. **影响范围检查**：读取 workflow 中所有 `needs:`、`uses:` 与 `secrets.*`，列出修改会影响的下游 jobs。
+4. **优先改源而非 CI**：默认尝试修改源码、依赖版本或环境变量；改 workflow 本身只作为最后手段。
+5. **干跑 / 受影响 jobs 复跑**：修改后只 `gh run rerun <run_id> --failed-only`，不要全量重跑。
+6. **回滚路径**：保留原 commit hash（`git reflog`），失败时立即 `git revert <hash>`。
 
 ## Quick start
 
@@ -32,37 +45,27 @@ Prereq: ensure `gh` is authenticated (for example, run `gh auth login` once), th
 
 ## Workflow
 
-1. Verify gh authentication.
-   - Run `gh auth status` in the repo with escalated scopes (workflow/repo) after running `gh auth login`.
-   - If sandboxed auth status fails, rerun the command with `sandbox_permissions=require_escalated` to allow network/keyring access.
-   - If unauthenticated, ask the user to log in before proceeding.
-2. Resolve the PR.
-   - Prefer the current branch PR: `gh pr view --json number,url`.
-   - If the user provides a PR number or URL, use that directly.
-3. Inspect failing checks (GitHub Actions only).
-   - Preferred: run the bundled script (handles gh field drift and job-log fallbacks):
-     - `python "<path-to-skill>/scripts/inspect_pr_checks.py" --repo "." --pr "<number-or-url>"`
-     - Add `--json` for machine-friendly output.
-   - Manual fallback:
-     - `gh pr checks <pr> --json name,state,bucket,link,startedAt,completedAt,workflow`
-       - If a field is rejected, rerun with the available fields reported by `gh`.
-     - For each failing check, extract the run id from `detailsUrl` and run:
-       - `gh run view <run_id> --json name,workflowName,conclusion,status,url,event,headBranch,headSha`
-       - `gh run view <run_id> --log`
-     - If the run log says it is still in progress, fetch job logs directly:
-       - `gh api "/repos/<owner>/<repo>/actions/jobs/<job_id>/logs" > "<path>"`
-4. Scope non-GitHub Actions checks.
-   - If `detailsUrl` is not a GitHub Actions run, label it as external and only report the URL.
-   - Do not attempt Buildkite or other providers; keep the workflow lean.
-5. Summarize failures for the user.
-   - Provide the failing check name, run URL (if any), and a concise log snippet.
-   - Call out missing logs explicitly.
-6. Create a plan.
-   - Use the `plan` skill to draft a concise plan and request approval.
-7. Implement after approval.
-   - Apply the approved plan, summarize diffs/tests, and ask about opening a PR.
-8. Recheck status.
-   - After changes, suggest re-running the relevant tests and `gh pr checks` to confirm.
+> Workflow 拆为 `diagnose`（只读）与 `fix`（写）两阶段；只有 diagnose 完成后用户显式授权才能进 fix。
+
+1. **diagnose · gh authentication**（只读）
+   - 运行 `gh auth status`；如有 sandbox 限制才使用 `sandbox_permissions=require_escalated`。
+   - 未登录：停止，请用户先 `gh auth login`。
+2. **diagnose · Resolve the PR**（只读）
+   - 优先使用当前分支 PR：`gh pr view --json number,url`。
+   - 用户提供 PR 号 / URL 时直接用。
+3. **diagnose · Inspect failing checks**（GitHub Actions only；只读）
+   - 优先使用 bundled script；只读 logs 与 status。
+4. **diagnose · Scope non-GitHub Actions checks**（只读）
+   - 非 GitHub Actions 的 check 只输出 URL，不进入 fix 阶段。
+5. **diagnose · Summarize failures**（只读）
+   - 输出 failing check / run URL / log 摘要；显式标注缺失 logs。
+6. **fix · Create a plan**
+   - 用 `plan` skill 起草 fix 计划，明确区分"修改源码"和"修改 CI yaml"。
+   - 若计划涉及 `.github/workflows/*.yml`，必须额外执行上面"破坏性操作防护"全部 6 项；否则只执行 1、3、4 项。
+7. **fix · Implement after approval**
+   - 用户显式同意后实施；展示 diff、备份路径、影响范围；失败时立即按 Safety Gate 6 回滚。
+8. **diagnose · Recheck**
+   - 修改后用受影响 jobs 复跑 `gh pr checks`，不重跑无关 jobs。
 
 ## Bundled Resources
 
