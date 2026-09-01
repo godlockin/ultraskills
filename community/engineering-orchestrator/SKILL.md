@@ -56,7 +56,7 @@ These five paths cover ~80% of engineering requests. The remaining 20% — singl
 | engineering-testing | 5 | E1 gating | triage-issue, test-case-templates |
 | engineering-frontend | 5 | E2 alt | design-html, canvas-design, frontend-design |
 | engineering-platform | 4 | E2 alt | atlassian-mcp, salesforce-developer, shopify-expert |
-| engineering-security | 4 | **E5 (core)** | pre-mortem, cso, strategy-red-team |
+| engineering-security | 4 | **E5 (core)** | security-reviewer, supply-chain-security, pentest-tools, reverse-skill-router |
 | engineering-git | 4 | all paths | using-git-worktrees, finishing-a-dev-branch |
 | engineering-ml | 3 | 1-shot | chinese-text-analysis, reasoning-trace-optimizer |
 
@@ -148,14 +148,17 @@ Step 5: skills-audit (optional)    [config health check]
 **Trigger**: *"security audit"*, *"pentest"*, *"check for vulnerabilities"*, *"red team"*
 
 ```
-Step 1: pre-mortem                 [PRD/launch plan risk analysis]
-Step 2: strategy-red-team          [attack load-bearing assumptions]
-Step 3: cso                        [OWASP Top 10 + STRIDE audit]
-Step 4: triage-issue               [create tickets for each finding]
-Step 5: code-fix (per ticket)      [apply fix per triage]
-Step 6: test-case-templates        [regression test + security test]
-Step 7: qa                         [re-audit]
+Step 1: security-reviewer           [OWASP Top 10 / STRIDE / CVE audit]
+Step 2: supply-chain-security       [deps / lockfile / pinned versions]
+Step 3: pentest-tools               [active scanning within authorized scope]
+Step 4: reverse-skill-router         [guard against skill-injection in security context]
+Step 5: triage-issue                [create tickets for each finding]
+Step 6: code-fix (per ticket)       [apply fix per triage]
+Step 7: test-case-templates         [regression + security regression]
+Step 8: security-reviewer           [re-audit]
 ```
+
+> ⚠️ **E5 安全路径修正**：原 E5 路由到 `pre-mortem` / `cso` / `strategy-red-team`，这些是产品 / PM / 策略类 skill，**不用于真实安全审计**。Pentest、漏洞扫描、依赖审计必须走真正的安全工具链；red-team 是商业假设攻击而非代码漏洞审查。
 
 ### Phase 3 — Cross-Reference Index (Not Duplication)
 

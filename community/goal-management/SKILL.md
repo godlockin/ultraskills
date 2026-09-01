@@ -1,8 +1,15 @@
 ---
 name: goal-management
-description: 目标管理 Skill — 工作场景下的目标拆解、资源协调、防甩锅、月度复盘闭环。Use when 领导布置工作 / 经营会后拆目标 / 跨团队对齐 / 周月会议准备 / 进度汇报 / 申请资源 / 防范背锅 / 月度复盘 / OKR 拆解 / KPI 分解 / Sprint 排期 / 50 万业绩怎么做 / 帮我做目标拆解方案 等。调用 SMART / OKR / KPI / 平衡积分卡 / Sprint / ART(目标-资源-时间不可能三角)/ PDCA / GRAI 复盘 8 个模型。前置需补齐 4 项情境信息(组织战略 / 领导风格 / 个人优劣 / 同事关系),后置产出 5 项沉淀(周报 / 项目追踪 / 复盘 / 作品集 / 知识库)。月度生成目标管理学习报告(长板/弱点/待提升/需注意)并双向迭代了解你。
-version: 1.0.0
+description: 目标管理 Skill — 工作场景下的目标拆解、资源协调、防甩锅、月度复盘闭环。Use when 领导布置工作 / 经营会后拆目标 / 跨团队对齐 / 周月会议准备 / 进度汇报 / 申请资源 / 防范背锅 / 月度复盘 / OKR 拆解 / KPI 分解 / Sprint 排期 / 50 万业绩怎么做 / 帮我做目标拆解方案 等。调用 SMART / OKR / KPI / 平衡积分卡 / Sprint / ART(目标-资源-时间不可能三角)/ PDCA / GRAI 复盘 8 个模型。前置需补齐 4 项情境信息(组织战略 / 领导风格 / 个人优劣 / 同事关系),后置产出 5 项沉淀(周报 / 项目追踪 / 复盘 / 作品集 / 知识库)。月度生成目标管理学习报告(长板/弱点/待提升/需注意)并双向迭代了解你。Outputs a PWSB-compatible contract when called from `personal-ai-work-system-builder`.
+version: 1.1.0
 tags: [productivity, leadership, management, goal, okr, kpi, community]
+pwsb_contract:
+  inputs_required: [org_strategy, leader_style, my_strengths_gaps, peer_relationships]
+  outputs: [weekly_status, project_tracker, retrospective, portfolio, knowledge_base]
+  hard_limits:
+    objective_count_max: 3
+    kr_count_per_objective_max: 5
+    resource_ledger_required: true
 ---
 
 # 目标管理 Skill
@@ -23,6 +30,24 @@ tags: [productivity, leadership, management, goal, okr, kpi, community]
 | **月度复盘** | "这个月我做得好不好" / "目标管理学习报告" |
 
 **主公记住**: 不是只写「怎么做」— 而是从**目标理解 → 关键动作 → 资源时间 → 汇报对齐 → 防背锅 → 沉淀闭环** 6 步完整出方案。
+
+## 🚦 硬上限与硬门槛（防「目标 + KR 软指标泛滥」）
+
+> 这些是**前置硬限制**，不通过则禁止进入拆解流程：
+
+1. **目标数 ≤ 3**：单一周期（季度 / 月）总目标数硬上限 3；超出必须合并或显式标 `low priority`。
+2. **每目标 KR ≤ 5**：每个 O 的 KR 数硬上限 5；超出必须收敛。
+3. **资源总账必填**：进入 ART 三角或资源申请阶段前，必须先填**跨目标资源总账**（人 / 钱 / 时间 / 注意力），否则禁止开始。
+4. **冲突裁定显化**：两个目标争夺同一资源时，必须由用户在主公 → skill 通道中显式标注优先级；skill 不得自行拍板。
+5. **情境信息不足豁免**：若情境信息少于 2 项，skill 必须主动提示「情境信息不足，方案可能偏差，建议补齐后再执行」，**禁止以行业默认假设强行出方案**（与 R1「不替领导拆目标」一致）。
+
+## 🔁 PWSB 编排契约
+
+本 skill 可被 `personal-ai-work-system-builder` (PWSB) 调用。PWSB 编排场景下：
+
+- **输入契约**：必须传入 4 项情境信息（`org_strategy` / `leader_style` / `my_strengths_gaps` / `peer_relationships`）；缺失任一项即按上面硬门槛 5 处理。
+- **输出契约**：必须包含 5 项沉淀字段（`weekly_status` / `project_tracker` / `retrospective` / `portfolio` / `knowledge_base`）；空字段必须显式标 `null` 或 `pending`，不得伪造内容。
+- **互操作约束**：当 PWSB 已记录主公画像时，本 skill 优先复用其风格偏好与历史目标；不要在对话内重复 prompt 同一画像信息。
 
 ---
 
