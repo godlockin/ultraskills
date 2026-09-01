@@ -133,15 +133,32 @@ _PLATFORM_TABLES = {
 }
 
 
+def _safe_under(base: str, candidate: str) -> str:
+    """Resolve `candidate` and ensure it stays under `base` after symlink resolution.
+
+    Used to constrain CLI / library paths so callers cannot trick the script
+    into reading or writing outside an allow-listed directory via symlinks,
+    `..` traversal, or absolute paths.
+    """
+    base_real = os.path.realpath(base)
+    cand_real = os.path.realpath(candidate)
+    if cand_real != base_real and not cand_real.startswith(base_real + os.sep):
+        raise ValueError(f"path {candidate!r} is outside allowed root {base!r}")
+    return cand_real
+
+
 def analyze_crawl_results(db_path: str, platform: str = "xhs") -> dict:
     if platform not in _PLATFORM_TABLES:
         raise ValueError(f"unsupported platform: {platform!r}; allowed: {list(_PLATFORM_TABLES)}")
     note_table, comment_table = _PLATFORM_TABLES[platform]
 
-    if not os.path.isfile(db_path):
-        raise FileNotFoundError(db_path)
+    # Constrain db_path to a sibling `data/` directory of the skill so callers
+    # can't pass arbitrary absolute paths (e.g., /etc/passwd).
+    safe_db = _safe_under(os.path.join(os.path.dirname(__file__), "..", "data"), db_path)
+    if not os.path.isfile(safe_db):
+        raise FileNotFoundError(safe_db)
 
-    conn = sqlite3.connect(db_path)
+    conn = sqlite3.connect(safe_db)
     try:
         # Validate table exists before reading — fails loudly instead of
         # silently returning an empty DataFrame.
@@ -152,7 +169,7 @@ def analyze_crawl_results(db_path: str, platform: str = "xhs") -> dict:
             )
         }
         if note_table not in existing:
-            raise RuntimeError(f"table '{note_table}' not found in {db_path}")
+            raise RuntimeError(f"table '{note_table}' not found in {safe_db}")
         if comment_table not in existing:
             raise RuntimeError(f"table '{comment_table}' not found in {db_path}")
 
@@ -285,9 +302,15 @@ def main(argv: list[str] | None = None) -> int:
             "post_sentiments": result["post_sentiments"].to_dict(orient="records"),
             "comment_sentiments": result["comment_sentiments"].to_dict(orient="records"),
         }
-        with open(args.output, "w", encoding="utf-8") as fp:
+        # Constrain --output to a sibling `output/` directory of the skill so
+        # callers can't redirect writes outside the skill tree (e.g. to /etc/).
+        safe_output = _safe_under(
+            os.path.join(os.path.dirname(__file__), "..", "output"),
+            args.output,
+        )
+        with open(safe_output, "w", encoding="utf-8") as fp:
             json.dump(payload, fp, ensure_ascii=False, indent=2)
-        print(f"wrote {args.output}")
+        print(f"wrote {safe_output}")
         return 0
 
     parser.print_help()
