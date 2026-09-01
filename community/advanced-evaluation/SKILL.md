@@ -113,7 +113,31 @@ For each criterion:
 Respond with structured JSON containing scores, justifications, and summary.
 ```
 
-**Chain-of-Thought Requirement**: All scoring prompts must require justification before the score. Research shows this improves reliability by 15-25% compared to score-first approaches.
+**Chain-of-Thought Requirement**: All scoring prompts must require justification before the score. Studies such as CoT prompting suggest modest reliability improvements; the magnitude depends on rubric quality, judge model, and task type. Treat `15–25%` numbers as `illustrative` unless validated against your own data.
+
+### Reporting Requirements (Mandatory)
+
+Every evaluation report must include:
+
+1. **Confidence interval** on every reported statistic (Spearman ρ, Cohen's κ, accuracy). Use `scipy.stats.bootstrap` with at least 1000 resamples and 95% CI.
+2. **Sample size N** alongside each metric. ρ = 0.82 with N=20 is not the same as N=500.
+3. **Prevalence context** for Cohen's κ: when positive rate > 70% or < 30%, the Landis & Koch thresholds overstate or understate agreement. Report prevalence-adjusted κ (PABAK) or prevalence-index-bias-adjusted κ alongside raw κ.
+4. **Inter-rater reliability (IRR)** for PoLL setups: Krippendorff's α for any number of raters, or Fleiss' κ for fixed-rater designs. Report alongside judge agreement counts.
+5. **Weights & aggregation method**: explicit source (expert estimation / user study / data-driven) and formula (weighted arithmetic mean / geometric mean / max).
+
+### Correlation Thresholds
+
+Default reporting uses academic standards (Evans 1996 / Cohen 1988):
+
+| ρ range | Interpretation |
+|---|---|
+| < 0.20 | Very weak |
+| 0.20 – 0.39 | Weak |
+| 0.40 – 0.59 | Moderate |
+| 0.60 – 0.79 | Strong |
+| ≥ 0.80 | Very strong |
+
+For high-stakes evaluation systems, prefer ρ ≥ 0.75 between automated and human judges as the "acceptable" bar rather than ρ ≥ 0.6.
 
 ### Pairwise Comparison Implementation
 

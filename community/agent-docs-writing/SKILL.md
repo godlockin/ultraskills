@@ -1,10 +1,11 @@
 ---
 name: agent-docs-writing
 description: 为 agent 写文档的方法论——skill / AGENTS.md / CLAUDE.md / 任何 agent 消费的指针文件。Use when creating or editing skills, modifying AGENTS.md or CLAUDE.md, or auditing an existing agent-facing document. 核心关注:上下文指针 + 信息层级 + 双成本预算 + leading words + 完成标准 + pruning。用法关键词:skill 写作、上下文预算、CLAUDE.md 优化、prompt 工程、agent-friendly 文档、信息层级、leading words、trigger 词。
-version: 1.0.0
+github_url: https://github.com/mattpocock/skills
+github_hash: 711ee69d724457093d52f685d729917f5389c686
+version: 1.1.0
 tags: [meta, engineering, writing, methodology, prompt-engineering, community]
-source: https://github.com/mattpocock/skills (MIT)
-author: Matt Pocock
+attribution: Adapted from mattpocock/skills (MIT)
 ---
 
 # Agent Docs Writing（为 Agent 写文档）
@@ -12,6 +13,10 @@ author: Matt Pocock
 写任何 agent 消费的文档——skill、`AGENTS.md` / `CLAUDE.md`、被指针指向的 doc——的参考。**包装不同，写作相同**：同一套杠杆让每个文档可预测——agent 每次跑同一**过程**，不是同一输出。
 
 > **本 skill 的核心价值**：让 agent 文档不是"碰运气"，而是每次触发都给出可预测的工程化结果。
+
+> **调用方式**：本 skill 既是模板也是 prompt。两种用法：
+> - **直接读**：`Read SKILL.md` + `references/skill-mechanics.md`，按章节应用到目标文档。
+> - **Skill 工具**：`Skill("agent-docs-writing")` → 加载完整方法论，由模型在写作时主动参考。
 
 当文档本身是 skill 时，另读 [`references/skill-mechanics.md`](references/skill-mechanics.md) 看 frontmatter / invocation 选择 / router skill。
 

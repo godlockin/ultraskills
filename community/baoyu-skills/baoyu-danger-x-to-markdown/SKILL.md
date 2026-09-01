@@ -18,6 +18,14 @@ Converts X content to markdown:
 - Tweets/threads → Markdown with YAML front matter
 - X Articles → Full content extraction
 
+> ⚠️ **重要合规与风险声明**
+>
+> 1. **ToS 边界**：本 skill 使用 reverse-engineered API 直接访问 X / Twitter，违反 X Terms of Service §4 (no scraping, no automated access without written permission)。用户对使用本 skill 产生的账户封禁、法律追责承担全部责任。
+> 2. **内容版权**：归档的 tweet / 文章版权仍归原作者；本工具不授予任何再分发或商用权利。仅供个人学习、研究、备份使用；商用前必须取得作者书面授权。
+> 3. **数据留存**：建议用户自行管理归档内容保留期限；原内容被原作者删除后应同步删除本地归档；多国版权法（DMCA / GDPR / 中国著作权法）适用。
+> 4. **敏感内容过滤**：归档内容未经内容审核即保存，违规（暴力 / 色情 / 非法）内容可能被一同存入本地。用户应自行加内容过滤或人工复核。
+> 5. **认证 token**：使用用户 cookie / `X_AUTH_TOKEN` / `X_CT0` 长期会话 token，存在 token 泄露 / 跨账号串用 / CDP 端口复用等风险。建议使用专用 browser profile 与最小权限 cookie，并定期轮换。
+
 ## User Input Tools
 
 When this skill prompts the user, follow this tool-selection rule (priority order):

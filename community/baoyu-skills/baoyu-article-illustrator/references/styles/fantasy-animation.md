@@ -1,10 +1,12 @@
 # fantasy-animation
 
-Whimsical hand-drawn animation style inspired by Ghibli/Disney
+Whimsical hand-drawn animation aesthetic inspired by classic European storybook illustration.
+
+> ⚠️ Style names in this directory must avoid referencing trademarked or copyrighted works (Studio Ghibli, Disney, Pixar, etc.). Use neutral aesthetic descriptors instead.
 
 ## Design Aesthetic
 
-Charming hand-drawn animation aesthetic reminiscent of classic Disney, Studio Ghibli, or European storybook illustration. Soft, painterly textures with warm, inviting colors. Friendly characters, magical elements, and storybook feel. Enchanting, nostalgic, and emotionally engaging.
+Charming hand-drawn animation aesthetic in the style of classic European storybook illustration. Soft, painterly textures with warm, inviting colors. Friendly characters, magical elements, and storybook feel. Enchanting, nostalgic, and emotionally engaging.
 
 ## Background
 
@@ -52,6 +54,8 @@ Charming hand-drawn animation aesthetic reminiscent of classic Disney, Studio Gh
 - Add photorealistic elements
 - Use cold color palettes
 - Make it look digital/computerized
+- Generate character likenesses resembling real people (celebrities, public figures, private individuals)
+- Recreate recognizable portrait compositions in any style
 
 ## Best For
 
