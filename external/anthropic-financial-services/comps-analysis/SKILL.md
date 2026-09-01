@@ -45,6 +45,14 @@ tags:
 
 # Comparable Company Analysis
 
+## ⚠️ Important Disclaimer（必读）
+
+> 本 skill 是**教育性与分析性工具**，不构成投资建议、研究报告或推荐。  
+> 所有市场价格、估值、倍数、预测与来源**必须由用户独立验证**；本 skill 不保证数据完整、及时、准确，亦不保证估值结果或投资结果。  
+> 输出**不能替代**合格的金融专业人士、合格注册会计师、合规审查或公司内部审批。  
+> 涉及交易、投资、估值结论时，每条结论必须附带：数据日期、关键假设、不确定性范围与人工复核状态。  
+> 用户**不应仅凭**本 skill 的输出作出交易、投资或募资决定；任何结论都需用户签字 / 复核 / 归档。
+
 ## ⚠️ CRITICAL: Data Source Priority (READ FIRST)
 
 **ALWAYS follow this data source hierarchy:**
@@ -63,7 +71,9 @@ This skill teaches Claude to build institutional-grade comparable company analys
 
 **Reference Material & Contextualization:**
 
-An example comparable company analysis is provided in `examples/comps_example.xlsx`. When using this or other example files in this skill directory, use them intelligently:
+> 本 skill **不附带**示例 xlsx 文件。所有示例必须由用户在本地构建或从授权内部资料引用，避免误把第三方数据当作“skill 出品”。
+>
+> 使用任何外部示例时，按以下方式处理：
 
 **DO use examples for:**
 - Understanding structural hierarchy (how sections flow)
@@ -226,12 +236,21 @@ Rule of 40: =[Growth %]+[FCF Margin %]
 
 ```
 [Leave one blank row for visual separation]
-- Maximum: =MAX(B7:B9)
-- 75th Percentile: =QUARTILE(B7:B9,3)
-- Median: =MEDIAN(B7:B9)
-- 25th Percentile: =QUARTILE(B7:B9,1)
-- Minimum: =MIN(B7:B9)
+- Maximum: =MAX(Table1[Metric])          // 用结构化表引用，peer 数变化时自动扩展
+- 75th Percentile: =QUARTILE.INC(Table1[Metric],3)
+- Median: =MEDIAN(Table1[Metric])
+- 25th Percentile: =QUARTILE.INC(Table1[Metric],1)
+- Minimum: =MIN(Table1[Metric])
+- Valid N: =COUNT(Table1[Metric])
 ```
+
+> **Peer N 规则（必遵守）**：
+> 1. 统计公式应使用结构化表引用，让 peer 增加/减少时自动扩展，不要硬编码 `B7:B9`。
+> 2. 每个 metric 必须单独统计 **有效 N**，不把公司总数当作有效样本数。
+> 3. **N < 3**：不显示 quartile；显示 `Insufficient peers`，并把 N/A/N/M 排除。
+> 4. **N = 3–4**：显示统计值，但必须标注「低样本量，统计意义有限」。
+> 5. 排除 `N/A`（缺失）、`N/M`（不适用，例如负 EBITDA）、错误值，不得把它们当作 0。
+> 6. 模板中的 `B7:B9` 仅是 3-peer 示例，不是生产规则。
 
 **Columns that NEED statistics (comparable metrics):**
 - Revenue Growth %, Gross Margin %, EBITDA Margin %, EPS
@@ -252,7 +271,17 @@ Rule of 40: =[Growth %]+[FCF Margin %]
 ### Core Valuation Columns (Start with these)
 1. **Company** - Same order as operating section
 2. **Market Cap** - Current market valuation
-3. **Enterprise Value** - Market Cap ± Net Debt/Cash
+3. **Enterprise Value** - 严格按以下公式计算（不要再用 `± Net Debt/Cash` 模糊表述）：
+   ```
+   Enterprise Value
+   = Equity Value (Market Cap)
+   + Total Debt
+   + Preferred Stock
+   + Non-controlling Interest
+   - Cash & Cash Equivalents
+   - Non-operating Investments
+   ```
+   简化版可记作 `EV = Market Cap + Total Debt − Cash & Equivalents`；每个桥接项必须有来源、日期与口径注释。
 4. **EV/Revenue** - How much market pays per dollar of sales
 5. **EV/EBITDA** - How much market pays per dollar of earnings
 6. **P/E Ratio** - Price relative to net earnings
@@ -614,19 +643,19 @@ Add if relevant: Asset Turnover, Inventory Turns, Backlog
 =STDEV.P(range)          // Standard deviation
 
 // Financial Calculations
-=B7/C7                   // Simple ratio (Margin)
-=SUM(B7:B9)/3            // Average of multiple companies
-=IF(B7>0, C7/B7, "N/A")  // Conditional calculation
-=IFERROR(C7/D7, 0)       // Handle divide by zero
+=B7/C7                       // Simple ratio (Margin)
+=SUM(Table1[Metric])/COUNT(Table1[Metric])   // 平均，仅对有效样本
+=IF(OR(B7="",B7<=0),"N/M",C7/B7)            // 适用性门：负 EBITDA 等 → N/M
+=IF(OR(D7="",D7=0),"N/A",C7/D7)             // 数据缺失/除零 → N/A，禁止回退 0
 
 // Cross-Sheet References
-='Sheet1'!B7             // Reference another sheet
-=VLOOKUP(A7, Table1, 2)  // Lookup from data table
-=INDEX(MATCH())          // Advanced lookup
+='Sheet1'!B7                 // Reference another sheet
+=VLOOKUP(A7, Table1, 2)      // Lookup from data table
+=INDEX(MATCH())              // Advanced lookup
 
 // Formatting
-=TEXT(B7, "0.0%")        // Format as percentage
-=TEXT(C7, "#,##0")       // Thousands separator
+=TEXT(B7, "0.0%")           // Format as percentage
+=TEXT(C7, "#,##0")          // Thousands separator
 ```
 
 ### Common Ratio Formulas
@@ -658,18 +687,24 @@ Debt/Equity = Total Debt / Shareholders' Equity
 ## Output Checklist
 
 Before delivering a comp analysis, verify:
-- [ ] All companies are truly comparable
+- [ ] Companies are truly comparable (sector/industry/cohort 一致)
+- [ ] Peer classification 标明 taxonomy 与日期（GICS / NAICS / 自定义）
+- [ ] 每个 metric 旁标注 **Valid N**；`N/A`/`N/M` 数量与来源已披露
+- [ ] 行业适用性矩阵已检查（金融服务 EBITDA N/M；保险 / REIT 特定指标）
 - [ ] Data is from consistent time periods
 - [ ] Units are clearly labeled (millions/billions)
 - [ ] Formulas reference cells, not hardcoded values
 - [ ] **All hard-coded input cells have comments with either: (1) exact data source with citation, OR (2) clear assumption with explanation**
 - [ ] **Hyperlinks added where relevant** (SEC EDGAR filings, Bloomberg pages, research reports)
-- [ ] Statistics include at least 5 metrics (Max, 75th, Med, 25th, Min)
-- [ ] Notes section documents sources and methodology
+- [ ] Statistics include at least 5 metrics (Max, 75th, Med, 25th, Min) **with Valid N**
+- [ ] EV bridge 行展示 Total Debt / Cash / Preferred / NCI 各项及来源
+- [ ] Notes section documents sources, methodology, sector/industry/cohort
 - [ ] Visual formatting follows conventions (blue = input, black = formula)
 - [ ] Sanity checks pass (margins logical, multiples reasonable)
 - [ ] Date stamp is current ("As of [Date]")
 - [ ] Formula auditing shows no errors (#DIV/0!, #REF!, #N/A)
+- [ ] **Investment disclaimer 已附加；关键假设、数据日期、不确定性已标注**
+- [ ] **人工复核与签批已完成**（不得仅凭 skill 输出作投资 / 交易 / 募资决定）
 
 ---
 
