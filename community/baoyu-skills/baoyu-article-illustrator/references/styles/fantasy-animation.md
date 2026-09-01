@@ -2,7 +2,7 @@
 
 Whimsical hand-drawn animation aesthetic inspired by classic European storybook illustration.
 
-> ⚠️ Style names in this directory must avoid referencing trademarked or copyrighted works (Studio Ghibli, Disney, Pixar, etc.). Use neutral aesthetic descriptors instead.
+> ⚠️ Style names in this directory must use only neutral aesthetic descriptors; never name specific studios, franchises, or copyrighted works. Use terms like "classic European storybook" instead of studio names.
 
 ## Design Aesthetic
 

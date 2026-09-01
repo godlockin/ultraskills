@@ -1,6 +1,6 @@
 ---
 name: design-orchestrator
-description: "Routes design requests to the right skill in the 22-skill design cluster, and composes them into end-to-end pipelines. Three orchestration paths (greenfield / existing / inspiration) cover 80% of design requests. Includes routing decision table, anti-slop index cross-referencing hallmark 53 gates + ui-ux-pro-max 161 rules + awwwards anti-patterns. Trigger on 'build a new design from scratch', 'redesign this site', 'extract DNA from URL/screenshot', 'audit the design', 'I want a SaaS landing page', or any design brief that does not map to a single skill."
+description: "Routes design requests to the right skill in the 22-skill design cluster, and composes them into end-to-end pipelines. Three orchestration paths (greenfield / existing / inspiration) cover 80% of design requests. Includes routing decision table, anti-slop index cross-referencing hallmark 53 gates + ui-ux-pro-max-skill 161 rules + awwwards anti-patterns. Trigger on 'build a new design from scratch', 'redesign this site', 'extract DNA from URL/screenshot', 'audit the design', 'I want a SaaS landing page', or any design brief that does not map to a single skill."
 version: 1.0.0
 tags: [design, orchestrator, router, design-system, ui, ux, anti-slop, greenfield, redesign, inspiration, community]
 ---
@@ -49,7 +49,7 @@ This skill is the **conductor** for the design cluster. It:
 | 产品UX | design-handoff | 6.8 | Engineering handoff spec |
 | 产品UX | accessibility-review | 6.3 | WCAG 2.1 AA audit |
 | 产品UX | ux-copy | 6.3 | UX microcopy |
-| community | awesome-design-md | 10.0 | 68 brand DESIGN.md |
+| community | awesome-design-md | 10.0 | 57 brand DESIGN.md |
 | community | design-an-interface | 9.5 | Parallel API/interface design |
 | community | awwwards-design-intelligence | n/a | 5 Awwwards pattern categories |
 
