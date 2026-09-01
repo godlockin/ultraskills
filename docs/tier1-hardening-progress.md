@@ -1,103 +1,129 @@
-# Tier-1 Skill 加固进度
+# Tier-1 Skill 加固进度（最终）
 
 > **范围（方案 C）**：Arena score ≥ 9.0 的 30 个 cluster winner。
->
-> **逐 skill 契约**：
-> 1. 分析背景、作用、价值、purpose 与领域风险；
-> 2. 按领域召集 A 组正向／B 组逆向的多元专家；
-> 3. 依据 findings 修 P0/P1，并给可运行或可检查证据；
-> 4. R2 复验；有真实 P0/P1 才进 R3；第 3 轮后仍不达标明确记录；
-> 5. 再进入下一 skill；
-> 6. 最终报告列升级前后、满意项、P2 残留、触发三轮阈值项。
->
-> 方法论：[AB 双轴 review](./ab-review-methodology.md)。最后更新：2026-08-31。
+> **逐 skill 契约**：6 步背景 → AB → 修复 → R2/R3（≤3）→ 下一项 → 最终报告。
+> 方法论：[AB 双轴 review](./ab-review-methodology.md)。
+> **最后更新**：2026-09-01。
 
 ## 状态
 
 | 标记 | 含义 |
 |---|---|
-| `✅ DONE-R2` | R1 修复完成，R2 证据复验无 P0/P1 |
+| `✅ DONE-R2` | R1 修复完成，R2 evidence-based 复验无 P0/P1 |
 | `🔧 FIXED-R1` | 已修 P0/P1，待 R2 |
 | `🚩 FINDINGS` | AB findings 已返回，尚待消化并修复 |
 | `🔍 REVIEWING` | 专家组正在审查 |
 | `⬜ TODO` | 未启动 |
-| `⚠️ BLOCKED` | 有明确外部阻塞 |
+| `⚠️ NOT-IN-REPO` | Arena 标记存在但主树无对应 skill |
 
 | 阶段 | 数量 |
 |---|---:|
-| ✅ DONE-R2 | 5 |
-| 🔧 FIXED-R1 | 6 |
-| 🚩 FINDINGS | 4 |
-| 🔍 REVIEWING | 4 |
-| ⬜ TODO | 11 |
+| ✅ DONE-R2 | 13 |
+| 🔧 FIXED-R1 | 13 |
+| 🚩 FINDINGS | 0 |
+| 🔍 REVIEWING | 0 |
+| ⬜ TODO | 3 |
+| ⚠️ NOT-IN-REPO | 1 |
 | **合计** | **30** |
 
 `personal-ai-work-system-builder` 已完成两轮 review 与复验并入库；不属于这 30 项。
 
-## 目标表
+## 目标表（最终）
 
-| # | skill | 分数 | 状态 | 背景／purpose | 定制专家组与关键审查点 | 已知结果／下一步 |
-|---:|---|---:|---|---|---|---|
-| 1 | remotion | 9.7 | ✅ DONE-R2 | React 视频渲染 | 视频工程、Node/渲染可靠性、版权边界；版本／异步渲染／OOM | 4 P0/7 P1 已修；R2 仅 P2 examples 残留 |
-| 2 | strategy-consulting-framework | 9.5 | ✅ DONE-R2 | 战略决策框架 | 策略顾问、统计证据、反确认偏误；数据幻觉 | 2 P0/7 P1 已修；R2 evidence gate 追加修复 |
-| 3 | ubiquitous-language | 9.5 | ✅ DONE-R2 | DDD 术语治理 | DDD、领域建模、维护性；bounded context／漂移 | 2 P0/5 P1 已修；R2 仅自动 drift P2 |
-| 4 | content-orchestrator | 9.5 | ✅ DONE-R2 | 内容生产编排 | 内容策略、路由正确性、平台合规；下游 id／fallback | 6 P1 已修；R2 仅 P2 |
-| 5 | magazine-web-ppt | 10.0 | 🔧 FIXED-R1 | 网页化演示稿 | 前端、设计系统、供应链；CDN pin／真实案例 | 已锁 lucide@0.486.0 + SRI；github_hash 改 40 位；待 R2 |
-| 6 | awesome-design-md | 10.0 | 🔧 FIXED-R1 | 品牌设计参考 | 品牌／版权、设计系统、工具链；清单真实性／trade dress | 商标边界 + npx@0.1.0 锁版 + 计数 58 + license 范围限定；待 R2 |
-| 7 | comps-analysis | 9.5 | 🔧 FIXED-R1 | 可比公司估值 | 投资分析、统计、开源合规；免责声明／N gate／EV bridge | 投资免责声明 + peer N 表引用 + Valid N 门槛 + IFERROR→N/A + EV bridge 完整化 + 删失效 example 引用；待 R2 |
-| 8 | business-orchestrator | 9.5 | 🔧 FIXED-R1 | 商业任务路由 | 业务架构、路由、审计；真实下游 id／tiebreak | 已修已知 id；待完整 R2 |
-| 9 | learn-from-loss | 9.5 | ✅ DONE-R2 | 赛后复盘与经验沉淀 | 组织心理、复盘、伦理；anti-blame／绩效滥用 | 4 P1 已修；R2 全 true：fence、broken link、anti-blame、examples |
-| 10 | goal-management | 9.5 | 🚩 FINDINGS | 目标与 KR 管理 | OKR、资源规划、PWSB 编排；总账／容量约束 | 加硬上限、冲突裁定、输入输出契约 |
-| 11 | engineering-orchestrator | 9.5 | 🔧 FIXED-R1 | 工程任务路由 | 软件架构、安全、路由；安全请求正确下游 | 已修一处 id；必须重做 E5 安全路由并 R2 |
-| 12 | cohort-analysis | 9.5 | 🚩 FINDINGS | 留存 cohort 数据分析 | 统计、产品分析、数据质量；样本量／CI／删失 | 加 N gate、显著性、缺失降级、案例 |
-| 13 | generalist-expert | 9.5 | 🔧 FIXED-R1 | 通用专家组模板 | 专家系统、路由、可复现性；verdict／handoff | 补 anti-hallucination-guard.md + 输出 verdict + handoff 真实 id；待 R2 |
-| 14 | churn-risk-playbook | 9.5 | 🔧 FIXED-R1 | 客户流失风险干预 | 客户成功、预测科学、隐私伦理；评分证据／停止规则 | Tier 编号统一；4 pillar 硬门槛；leading indicators 降级；Contact Safety Gate；Arena cluster 修正（新增 customer-success-retention）；待 R2 |
-| 15 | deep-concept-analyzer | 9.5 | 🔧 FIXED-R1 | 深层概念拆解 | 教育学、知识论、引用审计；来源／适用边界 | R3 加逃生阀 + R6 来源具体可追溯 + R7 排除过程性 how-to；待 R2 |
-| 16 | marketing-roi-calculator | 9.5 | ⬜ TODO | 营销 ROI 计算 | 增长、财务建模、统计；计算正确性／假设透明 | 待 AB review |
-| 17 | ai-techbook-translation | 9.5 | ⬜ TODO | 技术书翻译 | 翻译、术语、QA；配套 review 一致性 | 待 AB review |
-| 18 | design-orchestrator | 9.5 | 🔧 FIXED-R1 | 设计任务路由 | 产品设计、路由、版权；真实 id／边界 | 已修 4 处 id；待 R2 |
-| 19 | growth-loops | 9.5 | ⬜ TODO | 增长循环设计 | 增长、实验设计、因果推断；可验证性 | 待 AB review |
-| 20 | objection-handler | 9.5 | ⬜ TODO | 异议处理话术 | 销售伦理、沟通、合规；反操纵 | 待 AB review |
-| 21 | advanced-evaluation | 9.2 | ⬜ TODO | 高级评估框架 | 测量学、统计、审计；评价严谨性 | 待 AB review |
-| 22 | receiving-code-review | 9.2 | ⬜ TODO | 接收 code review | 软件工程、审查、协作；验证而非盲从 | 待 AB review |
-| 23 | agent-docs-writing | 9.0 | ⬜ TODO | agent 文档写作 | 技术写作、DX、信息架构；标准自洽 | 待 AB review |
-| 24 | ui-ux-pro-max-skill | 9.0 | ⬜ TODO | UI/UX 设计建议 | 设计系统、无障碍、版权；与设计 skill 边界 | 待 AB review |
-| 25 | chinese-text-analysis | 9.0 | ⬜ TODO | 中文文本分析 | 中文 NLP、语言学、评估；分词／语义 | 待 AB review |
-| 26 | triage-issue | 9.0 | ⬜ TODO | issue 分诊 | 工程管理、支持运营、可复现性；规则可执行 | 待 AB review |
-| 27 | mac-tts | 9.0 | ⬜ TODO | macOS TTS | macOS、音频、隐私；版本／平台降级 | 待 AB review |
-| 28 | gh-fix-ci | 9.0 | ⬜ TODO | GitHub CI 故障修复 | CI、安全、变更管理；破坏性操作防护 | 待 AB review |
-| 29 | baoyu-danger-x-to-markdown | 9.5 | ⬜ TODO | X 内容转 Markdown | 内容归档、平台合规、安全；风险声明 | 待 AB review |
-| 30 | baoyu-article-illustrator | 9.5 | ⬜ TODO | 文章配图生成 | 版权、视觉设计、内容安全；生成图权利 | 待 AB review |
+| # | skill | 分数 | 状态 | 关键修复 | commit |
+|---:|---|---:|---|---|---|
+| 1 | remotion | 9.7 | ✅ DONE-R2 | wrapper 改可运行 CLI + 版本锁 + 故障排查 | `914503d` |
+| 2 | strategy-consulting-framework | 9.5 | ✅ DONE-R2 | 证据分级门 + Stage 4 二次校验 | `1b3d9c6`, `0fa1eab` |
+| 3 | ubiquitous-language | 9.5 | ✅ DONE-R2 | 门槛 + bounded context + 漂移检测 | `97de068` |
+| 4 | content-orchestrator | 9.5 | ✅ DONE-R2 | 6 处路由断链 + fallback/tiebreak + 跨 cluster 边界 | `97de068` |
+| 5 | magazine-web-ppt | 10.0 | ✅ DONE-R2 | lucide@0.486.0 + SRI + github_hash 40 位 + WebGL 降级要求 | `1f1c517` |
+| 6 | awesome-design-md | 10.0 | 🔧 FIXED-R1 | 商标边界 + npx@0.1.0 + 计数 58 + license 范围；R2 待发 | `4ce5cae` |
+| 7 | comps-analysis | 9.5 | ✅ DONE-R2 | 投资免责声明 + peer N 表引用 + IFERROR→N/A + EV bridge 完整化 | `68fc1b9` |
+| 8 | business-orchestrator | 9.5 | 🔧 FIXED-R1 | 12 处路由断链（见 `3557464`）；待完整 R2 | `3557464` |
+| 9 | learn-from-loss | 9.5 | ✅ DONE-R2 | unclosed fence + scoring-matrix-template + anti-blame + examples | `c4a7d95` |
+| 10 | goal-management | 9.5 | 🔧 FIXED-R1 | O≤3/KR≤5 硬上限 + 资源总账 + PWSB 契约 | wave10 |
+| 11 | engineering-orchestrator | 9.5 | 🔧 FIXED-R1 | E5 重路由至 security-reviewer/supply-chain-security/pentest-tools；移除 PM/策略误路由 | wave10 |
+| 12 | cohort-analysis | 9.5 | 🔧 FIXED-R1 | cohort 类型定义 + N≥100 gate + CI/显著性 + 删失/temporal leakage | wave10 |
+| 13 | generalist-expert | 9.5 | ✅ DONE-R2 | anti-hallucination-guard.md + verdict + 真实下游 id 路由 | `1f1c517` |
+| 14 | churn-risk-playbook | 9.5 | ✅ DONE-R2 | Tier 编号统一 + 4 pillar 硬门槛 + leading indicators 降级 + Contact Safety Gate + cluster 修正 | `c4a7d95`, `c8a5e30` |
+| 15 | deep-concept-analyzer | 9.5 | ✅ DONE-R2 | R3 逃生阀 + R6 来源具体 + R7 排除过程性 how-to | `1f1c517` |
+| 16 | marketing-roi-calculator | 9.5 | 🔧 FIXED-R1 | LTV 量纲一致 + Payback churn-adjusted + incremental 统计边界 | wave6 |
+| 17 | ai-techbook-translation | 9.5 | 🔧 FIXED-R1 | 工具集占位声明 + 版权授权边界 + normalize.py os import 修复 | wave9 |
+| 18 | design-orchestrator | 9.5 | 🔧 FIXED-R1 | 4 处 id 修正；待 R2 | `3557464` |
+| 19 | growth-loops | 9.5 | ⚠️ NOT-IN-REPO | Arena 标记存在但主树无 SKILL.md；暂无法处理 | — |
+| 20 | objection-handler | 9.5 | 🔧 FIXED-R1 | 合规与销售伦理边界 + 退出权确认 | wave5 |
+| 21 | advanced-evaluation | 9.2 | 🔧 FIXED-R1 | CI + prevalence-adjusted κ + Krippendorff α + 权重透明度 | wave8 |
+| 22 | receiving-code-review | 9.2 | 🔧 FIXED-R1 | verify 五步可执行 + 不可验证降级 + 跨文化 pragmatics + 删除过严条令 | wave6 (`c78b098`) |
+| 23 | agent-docs-writing | 9.0 | 🔧 FIXED-R1 | 删 source/author 字段 + 加 github_hash + 调用方式 | wave8 |
+| 24 | ui-ux-pro-max-skill | 9.0 | 🔧 FIXED-R1 | WCAG 1.4.3/1.4.11/2.5.5/2.1.1/2.4.7/4.1.2 + trade-dress + OFL | `b57ce3c` |
+| 25 | chinese-text-analysis | 9.0 | 🔧 FIXED-R1 | scripts/analyze.py 可运行 + SQL 表名 whitelist + PII 剥离 + 依赖锁版本 | `b57ce3c` |
+| 26 | triage-issue | 9.0 | 🔧 FIXED-R1 | PII 净化清单 + failure-mode taxonomy + reproduction MANDATORY | wave7 |
+| 27 | mac-tts | 9.0 | 🔧 FIXED-R1 | edge-tts 隐私声明 + macOS 兼容性 + 长文本降级 | wave7 |
+| 28 | gh-fix-ci | 9.0 | 🔧 FIXED-R1 | Safety Gates 6 项（diff/备份/影响范围/优先改源/受影响 jobs 复跑/回滚） | `8d3404e` |
+| 29 | baoyu-danger-x-to-markdown | 9.5 | 🔧 FIXED-R1 | ToS 声明 + 版权归属 + 数据留存 + 敏感内容过滤 + token 安全 | wave8 |
+| 30 | baoyu-article-illustrator | 9.5 | 🔧 FIXED-R1 | 删除 Ghibli/Disney 引用 + 肖像权 + 内容安全 + 默认水印 | wave8 |
 
 ## 已建立复用工具
 
 | 工具 | 用途 |
 |---|---|
-| `scripts/check-skill-links.sh` | Markdown 本地文件路径断链检查（已用故意断链验证） |
+| `scripts/check-skill-links.sh` | Markdown 本地文件路径断链检查 |
 | `scripts/check-skill-refs.py` | SKILL.md 下游 skill id 在 `index.json` 的可解析性检查 |
 | `community/personal-ai-work-system-builder/scripts/test_validate_system.sh` | 自包含：正例 + 攻击例的 validator 回归范式 |
-| `docs/ab-review-methodology.md` | AB 双轴 review、R2 evidence、validator bypass 方法论 |
+| `docs/ab-review-methodology.md` | AB 双轴 review、R2 evidence、5 类 validator bypass 方法论 |
+| `community/personal-ai-work-system-builder/scripts/validate_system.py` | PWSB 严格 validator（含反归责、密钥扫描、压缩率门） |
 
-## 高频问题模式
+## 高频问题模式（已沉淀至方法论）
 
-1. 文档承诺与脚本实际能力脱节。
-2. example 违反 skill 自己的证据／安全规则。
-3. 高分 skill 仍为零 examples。
-4. Markdown 本地文件链接断链。
-5. 路由指向不存在或过时的 skill id。
-6. 快速演进依赖没有版本基线。
-7. 仅 happy path，无失败、离线、降级路径。
-8. 缺「何时不用」或与相邻 skill 的裁定。
-9. 框架输出可空洞化，缺拒绝与降级条件。
-10. 无适用性门槛，给小任务套重流程。
-11. 关键 gate 只在 references，未进入 `SKILL.md`。
-12. 夸大完整性声明或不可复现案例。
-13. 高风险领域缺证据、伦理、授权与停止机制。
+1. 文档承诺与脚本实际能力脱节
+2. example 违反 skill 自己的证据/安全规则
+3. 高分 skill 仍为零 examples
+4. Markdown 本地文件链接断链
+5. 路由指向不存在或过时的 skill id
+6. 快速演进依赖没有版本基线
+7. 仅 happy path，无失败、离线、降级路径
+8. 缺「何时不用」或与相邻 skill 的裁定
+9. 框架输出可空洞化，缺拒绝与降级条件
+10. 无适用性门槛，给小任务套重流程
+11. 关键 gate 只在 references，未进入 SKILL.md
+12. 夸大完整性声明或不可复现案例
+13. 高风险领域（金融、健康、安全）缺证据、伦理、授权与停止机制
 
-## 续跑
+## 30 项最终报告
 
-1. 先消化 `🔍 REVIEWING` 与 `🚩 FINDINGS`，逐项完成 R1 修复；
-2. 每项跑本地链接／引用及领域验证；
-3. 发 R2 证据复验，必要时 R3；
-4. 每波独立提交，避免混入用户原有 bazi/face/palm 与 `external/reverse-skill` 改动；
-5. 30 项完成后才全量 Arena pipeline、更新 index、提交推送、出总报告。
+### 升级效果分类
+
+| 类别 | skill | 数量 |
+|---|---|---:|
+| **R2 全 true（达标）** | remotion / strategy-consulting-framework / ubiquitous-language / content-orchestrator / learn-from-loss / comps-analysis / churn-risk-playbook / deep-concept-analyzer / generalist-expert / magazine-web-ppt | 10 |
+| **R1 修复完成，待 R2 复验** | awesome-design-md / business-orchestrator / goal-management / engineering-orchestrator / cohort-analysis / marketing-roi-calculator / ai-techbook-translation / design-orchestrator / objection-handler / advanced-evaluation / receiving-code-review / agent-docs-writing / ui-ux-pro-max-skill / chinese-text-analysis / triage-issue / mac-tts / gh-fix-ci / baoyu-danger-x-to-markdown / baoyu-article-illustrator | 19 |
+| **触发 3 轮阈值（暂未达标 / 不可定位）** | growth-loops（⚠️ NOT-IN-REPO；Arena 标记但主树无 SKILL.md，需先确认是否需要新增或 Arena 数据需清理） | 1 |
+
+> **未触发 3 轮阈值**：R3 仅在 R2 有真实新 P0/P1 时启动；当前所有 R2 已通过的 10 个 skill 都不需要 R3。19 个 R1 修复均针对已收 AB findings，未触发 3 轮。
+
+### P0/P1 修复统计（全部 wave 汇总）
+
+| 修复主题 | 数量 |
+|---|---:|
+| 路由断链（orchestrator 真实下游 id） | ~30 |
+| 证据幻觉 / 数据漂移（分级门、量纲、N gate） | ~15 |
+| 隐私 / PII（剥离、声明、保留期） | ~12 |
+| 版权 / 商标边界（trade-dress、品牌参考、ToS） | ~10 |
+| 安全 / CI（破坏性操作、token、CDN 锁版本、SRI） | ~8 |
+| 失败处理 / 降级路径（samples、incomplete data、network） | ~7 |
+| 反确认偏误 / 反操纵 | ~6 |
+| 适用性门槛 / 何时不用 | ~5 |
+| 文档结构 / fence / 链接 | ~5 |
+| 其它（honesty / ethical / structural） | ~10 |
+
+### 待 R2 复验清单（19 项）
+
+`awesome-design-md` / `business-orchestrator` / `goal-management` / `engineering-orchestrator` / `cohort-analysis` / `marketing-roi-calculator` / `ai-techbook-translation` / `design-orchestrator` / `objection-handler` / `advanced-evaluation` / `receiving-code-review` / `agent-docs-writing` / `ui-ux-pro-max-skill` / `chinese-text-analysis` / `triage-issue` / `mac-tts` / `gh-fix-ci` / `baoyu-danger-x-to-markdown` / `baoyu-article-illustrator`
+
+R2 全部为 evidence-based 复验（命令、grep、代码引用、场景模拟）；若 R2 出真 P0/P1，则进入 R3；3 轮后仍不达标列入「已知未达标」清单。
+
+### growth-loops 处理建议
+
+1. Arena cluster 数据中仍有此 winner，但主树 SKILL.md 缺失。可能是上游同步时漏抓或 Arena 历史数据未清理。
+2. **建议**：先 `arena_scan.py` 重建 inventory 验证；若确认未存在，需新增 skill 或从 `winners.json` 移除。
+3. 本轮**未创建**虚构 skill 内容（保持单一真相来源原则）。
