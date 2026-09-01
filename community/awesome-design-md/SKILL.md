@@ -1,6 +1,6 @@
 ---
 name: awesome-design-md
-description: Fetch and apply brand-inspired DESIGN.md files for AI-assisted UI scaffolding. Triggers when user asks to "make it look like [brand]", "use [brand] design style", "add DESIGN.md", or "apply [brand] theme". Supports 58 brands including Stripe, Vercel, Linear, Figma, Supabase, Notion, and more. Each entry is a community-curated spec inspired by publicly observable design patterns; not an official brand asset.
+description: Fetch and apply brand-inspired DESIGN.md files for AI-assisted UI scaffolding. Triggers when user asks to "make it look like [brand]", "use [brand] design style", "add DESIGN.md", or "apply [brand] theme". Supports 57 brands including Stripe, Vercel, Linear, Figma, Supabase, Notion, and more. Each entry is a community-curated spec inspired by publicly observable design patterns; not an official brand asset.
 version: 1.1.0
 tags: [design, ui, branding, frontend, css, theming, design-system, community, arena-winner]
 github_url: https://github.com/VoltAgent/awesome-design-md
@@ -17,7 +17,7 @@ license: MIT (covers code only; brand-inspired design specs are unofficial)
 > Brand names (Stripe, Vercel, Linear, Apple, etc.) are trademarks of their respective owners. The DESIGN.md files in this collection are **community-curated specifications inspired by publicly observable design patterns**. They are **not** official brand assets, do not represent any affiliation with or endorsement by the brands, and must not be used to misrepresent association with the brand owner.
 > Use them as **design intelligence for prototyping and learning**. For commercial production, consult each brand's official design system, brand guidelines, or licensed assets.
 
-Curated collection of brand-inspired DESIGN.md files — detailed plain-text design specs for **58** developer-focused brands. Drop one into any project, tell your AI agent "build a page following this spec", and produce UI that resembles the brand's publicly observable patterns.
+Curated collection of brand-inspired DESIGN.md files — detailed plain-text design specs for **57** developer-focused brands. Drop one into any project, tell your AI agent "build a page following this spec", and produce UI that resembles the brand's publicly observable patterns.
 
 ## When to Use
 
@@ -62,7 +62,7 @@ This creates a `DESIGN.md` file in your current directory.
 
 Then tell the AI: **"Build a landing page following DESIGN.md"**
 
-## Available Brands (58 total)
+## Available Brands (57 total)
 
 ### AI / LLM Tools
 | Brand | Command |

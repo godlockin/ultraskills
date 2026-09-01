@@ -1,7 +1,7 @@
 ---
 brand: stripe
 type: example
-license: MIT (example only)
+license: MIT (covers code only; brand-inspired design specs are unofficial and remain the property of their respective brand owners)
 ---
 
 # Example: Build a Stripe-inspired Landing Page

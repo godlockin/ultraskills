@@ -213,7 +213,7 @@ For an end-to-end pipeline, the orchestrator guarantees **gating steps**:
 - **Don't run all 135 skills** — chain ≤ 8 per pipeline
 - **Don't skip regression test in E3** — every bug fix needs a regression test
 - **Don't skip canary in E4** — direct push to prod without monitoring = outage risk
-- **Don't run `cso` once and forget** — security is iterative; re-audit after every fix
+- **Don't run `security-reviewer` once and forget** — security is iterative; re-audit after every fix
 - **Don't conflate `code-review` (gstack) with `receiving-code-review`** — first is reviewer-side, second is author-side
 - **Don't mix E2 (build) with E4 (ship)** — these are different pipelines; mixing creates review fatigue
 
@@ -235,9 +235,9 @@ User says                              → Path / Entry skill
 "root cause this"                     → E3 (investigate)
 "ship this PR" / "deploy"             → E4 (setup-deploy → land-and-deploy → canary)
 "go live with this feature"           → E4 (full)
-"security audit" / "pentest"          → E5 (pre-mortem → strategy-red-team → cso)
+"security audit" / "pentest"          → E5 (security-reviewer → supply-chain-security → pentest-tools)
 "red team this plan"                  → 1-shot (strategy-red-team)
-"review OWASP compliance"             → E5 Step 3 (cso)
+"review OWASP compliance"             → E5 Step 1 (security-reviewer)
 "git workflow help"                   → 1-shot (using-git-worktrees)
 "explain this code"                   → 1-shot (code-documenter)
 "find deep opportunities"             → 1-shot (improve-codebase-architecture)
@@ -254,7 +254,7 @@ Same mechanism as `design-orchestrator` and `business-orchestrator`. Flags drift
 **Upstream bumps to watch for:**
 - `systematic-debugging` / `investigate` — debugging methodology rarely changes but watch
 - `land-and-deploy` / `canary` — deploy steps depend on cloud platform; platform additions are critical
-- `cso` — OWASP updates annually; version bumps trigger re-audit
+- `security-reviewer` / `supply-chain-security` / `pentest-tools` — security tooling upstream moves fast; track CVEs and OWASP updates
 - `qa` (gstack) — may adopt new test tier (quick / standard / exhaustive)
 
 ## 📚 Resources

@@ -388,7 +388,7 @@ Customer journey: Organic search → Paid ad → Webinar → Demo → Purchase
 > ⚠️ **必读**：
 > - 30 天 geo-holdout 对 B2B 决策周期（90–180 天）可能不足；B2B 场景至少 90 天或基于历史 sales cycle 校准。
 > - 必须做季节性调整（Q4 vs Q1 差异显著）与竞争者响应控制（对手可能趁机扩量）。
-> - cannibalization 结论必须做统计显著性验证（p-value、CI），不能仅看差值。
+> - cannibalization 结论必须做统计显著性验证（p < 0.05 且 CI 不跨零；不可仅看差值）。
 > - 任何 MMM / incrementality 结论只能标注 `illustrative` 或 `internal benchmark`，不得作为对外承诺。
 
 ---
