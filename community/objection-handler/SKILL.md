@@ -75,6 +75,7 @@ High-frequency sales skill that instantly generates objection responses using pr
 | **下次 deal 复用** | deal 完成/丢失 | 询问「这次的 objection + 响应要不要归档到团队 playbook?」 |
 | **数据回收** | deal close | 询问「你最后用了哪个响应 close 了? 2 周后我可以做转化率复盘」 |
 | **批量培训** | 团队 3+ 人用 | 建议「要不要把这个 skill 包装成团队一周 onboarding?」 |
+| **客户退出与跟进方式确认** | 任何后续动作前 | 必须先取得客户对跟进方式（邮件/电话/频次）的明确同意；客户退订或拒绝后立即停止非必要触达（详见 `churn-risk-playbook` Contact Safety Gate） |
 
 ---
 
@@ -315,21 +316,27 @@ Would any of these be helpful references?"
 ## Success Metrics
 
 Track in CRM:
-- **Objection → Close rate** (target: >40% for qualified deals)
+- **Objection → Close rate** (target: ≥40% for MEDDIC-qualified deals; 实际因团队 / 行业 / 产品而异,需结合内部数据校准)
 - **Time to objection resolution** (target: <1 business day)
 - **Objection recurrence** (same objection twice = process failure)
 - **Discount rate** (lower = better value articulation)
 
-**Benchmark:** Top AEs handle 80% of objections without discounting.
+**Benchmark:** 行业资料常见「Top AEs handle ~80% of objections without discounting」(参考 MEDDIC / Challenger Sale 培训资料);具体数字需以团队内部 CRM 数据为准,本 skill 不声称这些数字是普适真理。
 
 ---
 
-## References
+## ⚖️ 合规与销售伦理边界（必读）
 
-- MEDDIC qualification framework
-- BANT sales methodology
-- SPIN Selling (Rackham)
-- Challenger Sale (Dixon/Adamson)
+> 销售话术不等于操纵。本 skill 生成的响应**不得违反**以下边界：
+
+1. **数据真实性**：所有引用客户案例、社会证明、统计数字必须有可追溯来源（CRM / 案例库 / 第三方报告）；占位符（`[Company A]`、`[Customer X]`、`per 12 similar customers`）必须替换为真实数据或明确标注「示例」。
+2. **退款 / 担保承诺**：100% refund、no penalty 等条款必须定义前提条件、排除条款与签署流程；不得在口头异议响应中口头承诺未授权的财务条件。
+3. **虚假两难**：禁止用「Would you rather save $200K…or invest $200K more」类强制二选一。允许的真实选择必须真实存在，并保留「都不选」与「谈其他条款」的路径。
+4. **成功率 / 转化率**：所有「>40%」「Top AEs handle 80%」类断言必须标注数据来源；不得作为对客户的承诺或保证。
+5. **折扣条件**：限时折扣（「Sign by [date]」）需符合当地消费者保护法规；不得用「Never discount without getting something back」做单方面不平等条款。
+6. **客户内部推销边界**：禁止替客户做内部决策（Champion building 仅支持客户自主决策）。
+7. **退出权**：客户明确退订或拒绝后立即停止非必要触达；后续动作前必须取得客户对渠道 / 频次的同意。
+8. **跨境 / 行业合规**：金融、医疗、保险、教育等行业有专门消费者保护规则；本 skill 输出不替代法务审查。
 
 **Sources:**
 - ai-boost/awesome-prompts: Sales Strategist prompt
