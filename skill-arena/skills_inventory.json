@@ -3318,6 +3318,19 @@
     "archived": false
   },
   {
+    "id": "ppt-master",
+    "path": "./community/ppt-master/SKILL.md",
+    "description": "AI-driven presentation workflow for generating editable PPTX decks and slides, reconstructing page visuals, creating reusable Brand/Style/Layout/Deck workspaces, filling native PPTX templates, and enhancing finished PPTX files. Use when the user asks to create, generate, reconstruct, regenerate, beautify, redesign, template, fill, or enhance a presentation, PPT, PPTX, slide deck, or courseware — including adding narration or animation to one — requests a presentation-authored narrated/self-running video, or mentions ppt-master.",
+    "body_summary": "PPT Master Skill · PPT Master is a routed presentation workflow · Mandatory Load Order · directory containing this file as · and replace any   prefix with it · use CWD, or assume a repo checkout · stops the Skill immediately; do not inspect, repair, or bypass the integrity · gate. · absolute path  . · authority. · supporting documents. · procedure after routing · Image to PPTX activates Quick, while Beautify selects from explicit Quick · intent · never compete with it. · Authored Expression Range · emphasis runs, lead-in, kicker, pull quote, hero number, takeaway line · outline-carrier composi…",
+    "tags": [
+      "community"
+    ],
+    "version": "",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
     "id": "pptx",
     "path": "./community/pptx/SKILL.md",
     "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",

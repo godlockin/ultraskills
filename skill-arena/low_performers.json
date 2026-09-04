@@ -1,155 +1,172 @@
 {
   "code-formatter": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "no-frontmatter": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.2,
       3.2,
       3.2
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "implement": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "friendly-greeter": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.8,
       3.8,
       3.8
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "markdown-formatter": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "config-reader": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "file-organizer": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "data-processor": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "data",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "file-indexer": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.8,
       3.8,
       3.8
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "general-assistant": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "legacy-json-only": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.2,
       3.2,
       3.2
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "report-generator": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.5,
       3.5,
       3.5
     ],
     "cluster": "data",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "my-tool": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      2.5,
       2.5,
       2.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "text-summarizer": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      3.8,
       3.8,
       3.8
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "underdeclared-agent": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      2.5,
       2.5,
       2.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "no-config": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      1.9,
       1.9,
       1.9
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   },
   "over-privileged-helper": {
-    "consecutive_low": 2,
+    "consecutive_low": 3,
     "scores": [
+      2.5,
       2.5,
       2.5
     ],
     "cluster": "misc",
-    "recommendation": "warning"
+    "recommendation": "eliminate"
   }
 }

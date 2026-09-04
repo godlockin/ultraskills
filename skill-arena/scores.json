@@ -5148,6 +5148,17 @@
     "total": 7.3
   },
   {
+    "id": "ppt-master",
+    "path": "./community/ppt-master/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 7.3
+  },
+  {
     "id": "requesting-code-review",
     "path": "./community/requesting-code-review/SKILL.md",
     "cluster": "engineering-code",
