@@ -1617,6 +1617,17 @@
     "total": 8.5
   },
   {
+    "id": "patent-disclosure-skill",
+    "path": "./community/patent-disclosure-skill/SKILL.md",
+    "cluster": "business-legal",
+    "cluster_name": "商业·法务合规",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "pm-skills",
     "path": "./community/pm-skills/SKILL.md",
     "cluster": "misc",
@@ -2714,6 +2725,17 @@
     "doc_quality": 7,
     "func_clarity": 9,
     "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "ppt-master",
+    "path": "./community/ppt-master/SKILL.md",
+    "cluster": "content-doc",
+    "cluster_name": "内容·文档生成",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 8.0
   },
   {
@@ -5141,17 +5163,6 @@
     "path": "./community/planning-with-files/skills/planning-with-files-es/SKILL.md",
     "cluster": "agent-workflow",
     "cluster_name": "Agent·工作流",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 6,
-    "maintainability": 5,
-    "total": 7.3
-  },
-  {
-    "id": "ppt-master",
-    "path": "./community/ppt-master/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 6,
@@ -12364,6 +12375,17 @@
     "total": 5.8
   },
   {
+    "id": "patent-search",
+    "path": "./community/patent-disclosure-skill/skills/patent-search/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 6,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.5
+  },
+  {
     "id": "primekg",
     "path": "./external/claude-scientific-skills/scientific-skills/primekg/SKILL.md",
     "cluster": "scientific-bioinformatics",
@@ -12595,6 +12617,28 @@
     "total": 5.3
   },
   {
+    "id": "patent-disclosure",
+    "path": "./community/patent-disclosure-skill/skills/patent-disclosure/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
+    "id": "patent-reader",
+    "path": "./community/patent-disclosure-skill/skills/patent-reader/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 5,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 5.0
+  },
+  {
     "id": "handoff",
     "path": "./external/mattpocock-skills/skills/productivity/handoff/SKILL.md",
     "cluster": "misc",
@@ -12626,6 +12670,17 @@
     "func_clarity": 5,
     "maintainability": 5,
     "total": 5.0
+  },
+  {
+    "id": "patent-exam-policy",
+    "path": "./community/patent-disclosure-skill/skills/patent-exam-policy/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 6,
+    "maintainability": 5,
+    "total": 4.8
   },
   {
     "id": "huashu-info-search",
@@ -12703,6 +12758,17 @@
     "func_clarity": 4,
     "maintainability": 5,
     "total": 4.7
+  },
+  {
+    "id": "patent-oa",
+    "path": "./community/patent-disclosure-skill/skills/patent-oa/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 4,
+    "func_clarity": 5,
+    "maintainability": 5,
+    "total": 4.5
   },
   {
     "id": "reаd_data",
