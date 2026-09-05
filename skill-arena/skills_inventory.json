@@ -2422,6 +2422,26 @@
     "archived": false
   },
   {
+    "id": "mac-mole",
+    "path": "./community/mac-mole/SKILL.md",
+    "description": "用 Mole (`mo`) CLI 深度清理、卸载、优化和监控 macOS。清理缓存/日志/残留 (clean)、完全卸载应用 (uninstall)、刷新系统服务 (optimize)、磁盘空间分析 (analyze)、系统健康监控 (status)、清除构建产物 (purge)。所有破坏性操作先 --dry-run 预览 + 用户确认。Trigger on 清理 Mac / mac clean / 磁盘空间不足 / 清缓存 / uninstall app / 完全卸载 / 系统优化 / mac optimize / disk usage / 磁盘分析 / mole。",
+    "body_summary": "mac-mole · 驱动 Mole ( ) CLI 做 macOS 维护 · When to use · 磁盘空间不足，要找/清大头 · 卸载应用要清干净（launch agents / preferences / 残留） · 系统卡顿，刷新 DNS / Spotlight / Finder 缓存 · 查看 CPU/内存/磁盘/网络/电源健康度 · 清除 node_modules / target / dist 等可重建构建产物 · When NOT to use · Linux/Windows → Mole 仅支持 macOS · 清理 Homebrew 本身 → · Docker 镜像清理 → · 安全契约（必须遵守） · 第一步必须  ，把预览结果给用户看 · 才跑真删 · 3. **尊重白名单**：  里的路径受保护 · 4. **sudo 边界**：系统缓存需要 sudo · 免密 sudo（需用户同意），否则提示用户手动 · 可   回查 · Quick Start · 命令 × 场景路由 · 关键输出解读 · mo status --json（健康监控） · 判断规则： · → 列出异常项，建议 optimize · → CPU 过载，查 · 磁盘剩余 < 10% → 优先   + · mo clean --dry-run（清理预览） · → 按类别汇总项数/大小 …",
+    "tags": [
+      "mac",
+      "macos",
+      "clean",
+      "uninstall",
+      "optimize",
+      "disk-space",
+      "system-maintenance",
+      "community"
+    ],
+    "version": "1.0.0",
+    "github_url": "",
+    "auxiliary": false,
+    "archived": false
+  },
+  {
     "id": "mac-tts",
     "path": "./community/mac-tts/SKILL.md",
     "description": "在 Mac 本地把文字合成为高质量语音 (TTS)。三档后端：edge-tts (免费微软神经语音 / 多语种最佳) > kokoro-tts (本地开源 82M / 自然度高) > macOS say (兜底)。输出 wav/mp3。Trigger on TTS / 文字转语音 / 语音合成 / text-to-speech / 配音 / voiceover / read aloud / 朗读。",

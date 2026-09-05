@@ -1,7 +1,8 @@
 {
   "code-formatter": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -11,8 +12,9 @@
     "recommendation": "eliminate"
   },
   "no-frontmatter": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.2,
       3.2,
       3.2,
       3.2,
@@ -22,8 +24,9 @@
     "recommendation": "eliminate"
   },
   "implement": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -33,8 +36,9 @@
     "recommendation": "eliminate"
   },
   "friendly-greeter": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8,
@@ -44,8 +48,9 @@
     "recommendation": "eliminate"
   },
   "markdown-formatter": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -55,8 +60,9 @@
     "recommendation": "eliminate"
   },
   "config-reader": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -66,8 +72,9 @@
     "recommendation": "eliminate"
   },
   "file-organizer": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -77,8 +84,9 @@
     "recommendation": "eliminate"
   },
   "data-processor": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -88,8 +96,9 @@
     "recommendation": "eliminate"
   },
   "file-indexer": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8,
@@ -99,8 +108,9 @@
     "recommendation": "eliminate"
   },
   "general-assistant": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -110,8 +120,9 @@
     "recommendation": "eliminate"
   },
   "legacy-json-only": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.2,
       3.2,
       3.2,
       3.2,
@@ -121,8 +132,9 @@
     "recommendation": "eliminate"
   },
   "report-generator": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.5,
       3.5,
       3.5,
       3.5,
@@ -132,8 +144,9 @@
     "recommendation": "eliminate"
   },
   "my-tool": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      2.5,
       2.5,
       2.5,
       2.5,
@@ -143,8 +156,9 @@
     "recommendation": "eliminate"
   },
   "text-summarizer": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      3.8,
       3.8,
       3.8,
       3.8,
@@ -154,8 +168,9 @@
     "recommendation": "eliminate"
   },
   "underdeclared-agent": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      2.5,
       2.5,
       2.5,
       2.5,
@@ -165,8 +180,9 @@
     "recommendation": "eliminate"
   },
   "no-config": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      1.9,
       1.9,
       1.9,
       1.9,
@@ -176,8 +192,9 @@
     "recommendation": "eliminate"
   },
   "over-privileged-helper": {
-    "consecutive_low": 4,
+    "consecutive_low": 5,
     "scores": [
+      2.5,
       2.5,
       2.5,
       2.5,

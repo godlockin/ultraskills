@@ -2640,6 +2640,17 @@
     "total": 8.0
   },
   {
+    "id": "mac-mole",
+    "path": "./community/mac-mole/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "md-renderer",
     "path": "./community/md-renderer/SKILL.md",
     "cluster": "dev-tools",
