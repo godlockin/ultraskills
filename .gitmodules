@@ -155,3 +155,6 @@
 [submodule "external/reverse-skill"]
 	path = external/reverse-skill
 	url = https://github.com/zhaoxuya520/reverse-skill.git
+[submodule "community/metaphysics-skills"]
+	path = community/metaphysics-skills
+	url = https://github.com/godlockin/metaphysics-skills.git
