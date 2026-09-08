@@ -1,222 +1,51 @@
 ---
 name: autoresearch:execute
-description: "Execute a single experiment: modify code/config, run command, extract metrics, handle errors."
-version: 1.0.0
-tags: [engineering]
+description: "Execute a single experiment: modify code/config, run command, extract metrics, handle errors. 单次实验执行: 改代码 / 跑命令 / 提取指标 / 处理错误. Trigger on 跑实验 / run experiment / 改配置执行 / extract metric."
+version: 1.1.0
+tags: [engineering, optimization, execution]
 ---
 
-# Autoresearch Execute: Single Experiment Runner
+# Autoresearch Execute
 
-## Purpose
+Execute one hypothesis and return verifiable artifacts. Read [research protocol](../references/research-protocol.md), especially lifecycle and comparison rules.
 
-Executes one experiment cycle: apply a hypothesis, run the experiment, extract metrics, and return results. This is the atomic unit of work called by `autoresearch:optimize`.
+## Inputs and preparation
 
-## Inputs
+Require the objective contract, hypothesis, baseline ID, editable scope, execution command, evaluation protocol and available budget. Reuse existing project records rather than create a competing database. Check data availability, units, dependencies and disk before large downloads or outputs. Validate only assumptions relevant to this experiment.
 
-Requires:
-1. `task_config.yaml` - task definition
-2. Hypothesis - what to try (e.g., "increase depth to 6")
+Before changing files, snapshot or hash experiment inputs and preserve existing work. Use an isolated checkout/configuration where available. A commit is optional; do not stage unrelated files or commit merely to run an experiment.
 
-## Workflow
+## Run lifecycle
 
-```
-1. Apply Modification
-   └─ Edit target files based on hypothesis
+1. Allocate a unique run ID and output directory. Record parent attempt, code/config/data/split hashes, training IDs, seed streams, expected cases, command, runtime environment and configured deadline.
+2. Start the command through the environment's background execution mechanism. Persist its job handle, start time and log path. Follow repository logging rules; avoid progress streams.
+3. Inspect bounded status snapshots, not live log streams. A tool observation timeout means the process may still be running. Terminate only for a verified execution deadline, cancellation or diagnosed condition requiring termination.
+4. Confirm terminal state and exit code. A completed command is not yet a valid evaluation. Check finite metrics, expected folds/cases, missing predictions, protocol identity and output hashes.
+5. Return execution state and artifact paths. Keep/discard and goal achievement belong to the optimization decision, not process exit status.
 
-2. Git Commit (if git_based strategy)
-   └─ Commit with descriptive message
+## Recovery
 
-3. Run Experiment
-   └─ Execute command with timeout
-   └─ Redirect output to run.log
+- Inspect concise failure context. Fix ordinary local defects within existing authorization; preserve failed attempt evidence.
+- A change to batch size, training steps, loss or code creates a new attempt/configuration. Reassess comparability; do not silently overwrite the failed run.
+- Reparse completed output after parser repairs; do not rerun expensive training solely to fix metric extraction.
+- Verify checkpoint compatibility and completed folds before resuming. Never start a duplicate job because an observer stopped waiting.
+- Missing data/dependencies: investigate accessible alternatives. Report the specific unresolved dependency if no authorized path remains.
+- Record partial runs as partial; never rank them against complete runs as if denominators matched.
 
-4. Extract Metrics
-   └─ Parse primary metric from output
-   └─ Parse auxiliary metrics
-   └─ Parse constraint values
+## Output contract
 
-5. Handle Errors
-   └─ Detect crashes, OOM, timeouts
-   └─ Attempt simple fixes if possible
-   └─ Return structured error info
+Use the project's equivalent fields or the [record template](../references/research-protocol.md#record-template). Distinguish running/completed/failed/cancelled/unknown execution states; valid/partial/invalid evaluation; pending/keep/reject/incomparable decision. Unknown exit code remains unknown, not zero.
 
-6. Return Results
-   └─ All metrics + metadata + status
-```
+The bundled [storage adapter](../lib/storage.py) is optional. Inspect its schema before use: a storage helper does not implement job orchestration, leakage checks or promotion gates. Preserve richer provenance in an artifact manifest if the adapter cannot represent it.
 
-## Output Structure
+## Example
 
-```python
-{
-    "status": "success" | "crash" | "timeout",
-    "primary_metric": {
-        "name": "iou",
-        "value": 0.8612
-    },
-    "auxiliary_metrics": {
-        "dice": 0.86,
-        "inference_time": 43
-    },
-    "constraints": {
-        "vram_gb": {"value": 14.2, "limit": 16.0, "met": True},
-        "inference_time": {"value": 43, "limit": 100, "met": True}
-    },
-    "execution_time": 305.2,
-    "commit_hash": "b2c3d4e",  # if git_based
-    "error_log": null,  # or error message if crashed
-    "hypothesis": "Increase depth to 6"
-}
-```
+Input: observer returns after 30 seconds; configured training deadline is 2 hours.
+Output: record running or unknown from actual job state, retain handle, check later. Do not kill/restart training or label the experiment failed solely from the observation timeout.
 
-## Error Handling
+## Checklist
 
-### Crash Detection
-
-**OOM (Out of Memory)**:
-```
-Detected: "CUDA out of memory" in logs
-Action: Suggest reducing batch_size or model_size
-Retry: Yes, with smaller config
-```
-
-**Import Error**:
-```
-Detected: "ModuleNotFoundError" or "ImportError"
-Action: Check if it's a typo, suggest fix
-Retry: Yes, after fix
-```
-
-**Numerical Instability**:
-```
-Detected: "NaN" or "Inf" in metrics
-Action: Suggest lower learning rate
-Retry: Maybe (user decision)
-```
-
-### Timeout Handling
-
-If experiment exceeds timeout:
-```
-1. Kill process
-2. Mark as "timeout" status
-3. Log partial output
-4. Return timeout result (primary_metric = None)
-```
-
-### Metric Extraction Failure
-
-If pattern doesn't match output:
-```
-1. Show last 50 lines of output
-2. Ask user to verify pattern
-3. Offer to adjust pattern in config
-4. Retry with corrected pattern
-```
-
-## Example Execution
-
-```
-Input hypothesis: "Increase DEPTH from 4 to 6"
-
-[Step 1] Applying modification to train.py...
-  - Changed: DEPTH = 4 → DEPTH = 6
-
-[Step 2] Committing changes...
-  - Commit b2c3d4e: "experiment: increase depth to 6"
-
-[Step 3] Running experiment...
-  - Command: python train.py --val > run.log 2>&1
-  - Timeout: 300s
-  - Status: ████████████████████ 100% (305s elapsed)
-
-[Step 4] Extracting metrics...
-  ✓ Primary: iou = 0.8612
-  ✓ Auxiliary: dice = 0.86, inference_time = 43ms
-  ✓ Constraints: vram_gb = 14.2 (< 16.0 ✓), inference_time = 43 (< 100 ✓)
-
-[Step 5] All constraints satisfied, experiment successful!
-
-Result: {
-  "status": "success",
-  "primary_metric": {"name": "iou", "value": 0.8612},
-  ...
-}
-```
-
-## Retry Logic
-
-**Simple errors → Auto-retry (up to 3 times)**:
-- Typos in code
-- Missing imports (can be added)
-- Syntax errors (can be fixed)
-
-**Resource errors → Suggest and ask**:
-- OOM → "Try reducing BATCH_SIZE to 64?"
-- Timeout → "Try reducing DEPTH or NUM_EPOCHS?"
-
-**Fundamental errors → Give up**:
-- Missing data files
-- Invalid configuration
-- Incompatible dependencies
-
-## Integration with Strategies
-
-### git_based
-```python
-1. Modify files
-2. git add + git commit
-3. Run experiment
-4. If discard → git reset --hard HEAD~1
-5. If keep → do nothing (commit stays)
-```
-
-### config_snapshot
-```python
-1. Save current config to .autoresearch/snapshots/
-2. Modify config
-3. Run experiment
-4. If discard → restore from snapshot
-5. If keep → delete snapshot
-```
-
-### multi_objective & bandit
-Same as git_based or config_snapshot, strategy only affects decision logic.
-
-## Usage
-
-**Automatic** (called by `autoresearch:optimize`):
-```
-[optimize loop]
-  → generate hypothesis
-  → autoresearch:execute(hypothesis)
-  → receive results
-  → make decision
-```
-
-**Manual** (for testing):
-```
-User: "autoresearch:execute - try increasing depth to 6"
-→ Applies change, runs, reports results
-```
-
-## Output Storage
-
-Results are written to:
-- **Database mode**: `.autoresearch/experiments.db`
-- **File mode**: `.autoresearch/results.tsv` + `experiments/exp_NNN.json`
-
-Storage layer handles this automatically (see `lib/storage.py`).
-
-## Key Features
-
-- ✅ Atomic execution (one hypothesis → one result)
-- ✅ Structured error handling (categorize and suggest fixes)
-- ✅ Timeout protection (never hang indefinitely)
-- ✅ Metric validation (check constraints before returning)
-- ✅ Version tracking (git commits or snapshots)
-
-## Notes
-
-- This skill is **stateless** - it doesn't remember previous experiments
-- State management is handled by `autoresearch:optimize`
-- All experiment history is in the storage layer
+- Unique artifacts and actual process handle retained.
+- Exit and output completeness verified.
+- Retry lineage explicit; existing user changes preserved.
+- No deployment or research-success claim inferred from exit zero.

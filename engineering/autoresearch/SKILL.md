@@ -1,11 +1,15 @@
 ---
 name: autoresearch
-description: "Universal autonomous task optimization framework. Transforms any measurable, iterable task into a self-improving system through conversational design and intelligent optimization loops."
-version: 1.0.0
-tags: [engineering, arena-winner]
+description: "通用自主任务优化框架 — 把任何可测量、可迭代的任务变成自我改进系统。对话式设计 + 智能优化循环。Use when user asks 自动优化 / 自主调优 / 超参搜索 / 多目标优化 / Pareto / bandit / overnight 实验 / 调模型 / 调参 / 调配置 / 搜索最优配置 / self-improving / autonomous optimization / hyperparameter search / multi-objective / research loop / system tuning."
+version: 1.1.0
+tags: [engineering, optimization, ml-research, research-loop]
 ---
 
 # Autoresearch: Universal Task Optimization Framework
+
+## Research integrity
+
+Before designing or running experiments, read [research protocol](references/research-protocol.md). Freeze the objective, comparison protocol and evidence boundary; record decisions during execution. These skills guide an agent and are not an installed autonomous scheduler. Existing authorization persists; do not ask again merely to proceed to the next phase.
 
 ## Overview
 
@@ -17,7 +21,7 @@ Autoresearch is a meta-framework that applies autonomous optimization to **any t
 
 **Key Features:**
 - 🎯 Conversational task design - describe your task in natural language
-- 🔄 Autonomous optimization loops - runs indefinitely until goals met
+- 🔄 Autonomous optimization loops - continues within authorized scope and execution limits
 - 📊 Multi-objective support - balance competing metrics intelligently
 - 🛡️ Global progress tracking - avoids local optimization traps
 - 💾 Auto-fallback storage - SQLite → files, adapts to your environment
@@ -99,11 +103,11 @@ User: "autoresearch:analyze - show me the pareto front"
 2. **Optimization Phase** (`autoresearch:optimize`)
    - Loads strategy template (auto-recommended or user-specified)
    - Enters autonomous loop:
-     - Generate hypothesis (present options A/B/C with estimates)
+     - Generate a falsifiable hypothesis (label estimates and cite their basis)
      - Execute experiment (`autoresearch:execute`)
      - Evaluate results (multi-dimensional decision logic)
      - Keep or discard (update database/files)
-     - Check success criteria (continue or stop)
+     - Check goal achievement and stopping limits separately
 
 3. **Analysis Phase** (`autoresearch:analyze`)
    - Query experiment database
@@ -113,7 +117,7 @@ User: "autoresearch:analyze - show me the pareto front"
 
 ## Strategy Templates
 
-Four built-in optimization strategies:
+Four documented optimization strategies:
 
 | Strategy | Best For | Key Features |
 |----------|----------|--------------|

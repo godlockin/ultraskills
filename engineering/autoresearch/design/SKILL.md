@@ -1,11 +1,15 @@
 ---
 name: autoresearch:design
-description: "Conversational task design. Helps you define optimization objectives, metrics, constraints, and success criteria through natural dialogue."
-version: 1.0.0
-tags: [engineering]
+description: "Conversational task design. Helps you define optimization objectives, metrics, constraints, and success criteria through natural dialogue. 对话式设计任务: 定目标 / 选指标 / 配约束 / 设成功标准. Trigger on 任务设计 / define objective / configure task / 设计实验."
+version: 1.1.0
+tags: [engineering, optimization, task-design]
 ---
 
 # Autoresearch Design: Conversational Task Configuration
+
+## Research integrity
+
+Before designing or running experiments, read [research protocol](../references/research-protocol.md). Freeze the objective, comparison protocol and evidence boundary; record decisions during execution. These skills guide an agent and are not an installed autonomous scheduler. Existing authorization persists; do not ask again merely to proceed to the next phase.
 
 ## Purpose
 
@@ -187,7 +191,6 @@ inner:
     success_criteria:
       type: "threshold"
       primary_metric: "> 0.90"
-      max_iterations: 100
 
 outer:
   strategy: "git_based"
@@ -212,9 +215,8 @@ outer:
 
 After design is complete:
 1. Config is saved as `task_config.yaml`
-2. System asks: "Ready to start optimization?"
-3. If yes → automatically loads `autoresearch:optimize`
-4. If no → you can manually edit the YAML and return later
+2. If execution is already authorized, continue with `autoresearch:optimize`.
+3. If the request was design-only, return the reviewable configuration.
 
 ## Tips for Best Results
 
