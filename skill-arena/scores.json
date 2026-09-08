@@ -220,17 +220,6 @@
     "total": 9.5
   },
   {
-    "id": "bazi-fortune",
-    "path": "./community/bazi-fortune/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.5
-  },
-  {
     "id": "business-orchestrator",
     "path": "./community/business-orchestrator/SKILL.md",
     "cluster": "business-legal",
@@ -363,6 +352,28 @@
     "total": 9.5
   },
   {
+    "id": "bazi-fortune",
+    "path": "./community/metaphysics-skills/bazi-fortune/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "ziwei-doushu-fortune",
+    "path": "./community/metaphysics-skills/ziwei-doushu-fortune/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "objection-handler",
     "path": "./community/objection-handler/SKILL.md",
     "cluster": "sales-marketing",
@@ -444,17 +455,6 @@
     "path": "./community/visual-forge/SKILL.md",
     "cluster": "content-doc",
     "cluster_name": "内容·文档生成",
-    "is_winner": false,
-    "doc_quality": 10,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.5
-  },
-  {
-    "id": "ziwei-doushu-fortune",
-    "path": "./community/ziwei-doushu-fortune/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 9,
@@ -840,6 +840,17 @@
     "path": "./devops/ultraskills-hub/SKILL.md",
     "cluster": "skills-mgmt",
     "cluster_name": "Skills·管理",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "git-batch-sync",
+    "path": "./engineering/git-batch-sync/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
@@ -1441,17 +1452,6 @@
     "total": 8.5
   },
   {
-    "id": "daoist-cosmology-basics",
-    "path": "./community/daoist-cosmology-basics/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
     "id": "deep-module-design",
     "path": "./community/deep-module-design/SKILL.md",
     "cluster": "misc",
@@ -1614,6 +1614,17 @@
     "doc_quality": 7,
     "func_clarity": 10,
     "maintainability": 10,
+    "total": 8.5
+  },
+  {
+    "id": "daoist-cosmology-basics",
+    "path": "./community/metaphysics-skills/daoist-cosmology-basics/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 8.5
   },
   {
@@ -2824,17 +2835,6 @@
     "doc_quality": 7,
     "func_clarity": 9,
     "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "autoresearch:execute",
-    "path": "./engineering/autoresearch/execute/SKILL.md",
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 7,
-    "maintainability": 7,
     "total": 8.0
   },
   {
@@ -4826,17 +4826,6 @@
     "doc_quality": 6,
     "func_clarity": 9,
     "maintainability": 9,
-    "total": 7.5
-  },
-  {
-    "id": "autoresearch:analyze",
-    "path": "./engineering/autoresearch/analyze/SKILL.md",
-    "cluster": "education",
-    "cluster_name": "教育·学习研究",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 7,
-    "maintainability": 7,
     "total": 7.5
   },
   {
@@ -7345,6 +7334,28 @@
     "doc_quality": 5,
     "func_clarity": 9,
     "maintainability": 9,
+    "total": 7.0
+  },
+  {
+    "id": "autoresearch:analyze",
+    "path": "./engineering/autoresearch/analyze/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 7,
+    "maintainability": 7,
+    "total": 7.0
+  },
+  {
+    "id": "autoresearch:execute",
+    "path": "./engineering/autoresearch/execute/SKILL.md",
+    "cluster": "education",
+    "cluster_name": "教育·学习研究",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 7,
+    "maintainability": 7,
     "total": 7.0
   },
   {
