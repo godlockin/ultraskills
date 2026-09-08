@@ -4428,11 +4428,13 @@
   {
     "id": "autoresearch",
     "path": "./engineering/autoresearch/SKILL.md",
-    "description": "Universal autonomous task optimization framework. Transforms any measurable, iterable task into a self-improving system through conversational design and intelligent optimization loops.",
+    "description": "通用自主任务优化框架 — 把任何可测量、可迭代的任务变成自我改进系统。对话式设计 + 智能优化循环。Use when user asks 自动优化 / 自主调优 / 超参搜索 / 多目标优化 / Pareto / bandit / overnight 实验 / 调模型 / 调参 / 调配置 / 搜索最优配置 / self-improving / autonomous optimization / hyperparameter search / multi-objective / research loop / system tuning.",
     "body_summary": "Autoresearch: Universal Task Optimization Framework · Research integrity · Before designing or running experiments, read research protocol · Overview · Autoresearch is a meta-framework that applies autonomous optimization to **any task** with measurable outcomes · Inner Task**: The work being optimized (code, config, parameters) · Outer Task**: The optimization strategy (hypothesis generation, experimentation, decision-making) · 🎯 Conversational task design - describe your task in natural language · 🔄 Autonomous optimization loops - continues within authorized scope and execution limits · 📊 Mu…",
     "tags": [
       "engineering",
-      "arena-winner"
+      "optimization",
+      "ml-research",
+      "research-loop"
     ],
     "version": "1.1.0",
     "github_url": "",
@@ -4442,10 +4444,12 @@
   {
     "id": "autoresearch:analyze",
     "path": "./engineering/autoresearch/analyze/SKILL.md",
-    "description": "Analyze experiment history, generate insights, visualize trends, recommend next steps.",
+    "description": "Analyze experiment history, generate insights, visualize trends, recommend next steps. 分析实验历史: 生成洞察 / 趋势可视化 / 推荐下一步. Trigger on 实验分析 / analyze experiments / pareto front / 趋势分析 / 洞察.",
     "body_summary": "Autoresearch Analyze · Analyze recorded experiments and recommend the next informative test · Workflow · Reporting rules · Use observed numbers with denominator and units · A better mean can coexist with worse tails · A subgroup selected after viewing results is exploratory · Historical keep rates are descriptive, not calibrated probabilities of future success · Pareto fronts include only eligible comparable runs and respect metric direction · Budget exhaustion or a plateau demonstrates neither target achievement nor exhaustion of all usable methods. · Structural skill scores and exact checkpo…",
     "tags": [
-      "engineering"
+      "engineering",
+      "optimization",
+      "analysis"
     ],
     "version": "1.1.0",
     "github_url": "",
@@ -4455,10 +4459,12 @@
   {
     "id": "autoresearch:design",
     "path": "./engineering/autoresearch/design/SKILL.md",
-    "description": "Conversational task design. Helps you define optimization objectives, metrics, constraints, and success criteria through natural dialogue.",
+    "description": "Conversational task design. Helps you define optimization objectives, metrics, constraints, and success criteria through natural dialogue. 对话式设计任务: 定目标 / 选指标 / 配约束 / 设成功标准. Trigger on 任务设计 / define objective / configure task / 设计实验.",
     "body_summary": "Autoresearch Design: Conversational Task Configuration · Research integrity · Before designing or running experiments, read research protocol · Purpose · This skill helps you transform a vague idea into a complete task definition through natural conversation · How It Works · What Gets Configured · 🎯 Goal Layer (Most Important) · What are you optimizing · Single objective or multi-objective trade-offs · What does success look like · 📊 Evaluation Layer · Primary metric (the main success indicator) · Auxiliary metrics (secondary indicators) · How to extract these from outputs · 🛡️ Constraint Laye…",
     "tags": [
-      "engineering"
+      "engineering",
+      "optimization",
+      "task-design"
     ],
     "version": "1.1.0",
     "github_url": "",
@@ -4468,10 +4474,12 @@
   {
     "id": "autoresearch:execute",
     "path": "./engineering/autoresearch/execute/SKILL.md",
-    "description": "Execute a single experiment: modify code/config, run command, extract metrics, handle errors.",
+    "description": "Execute a single experiment: modify code/config, run command, extract metrics, handle errors. 单次实验执行: 改代码 / 跑命令 / 提取指标 / 处理错误. Trigger on 跑实验 / run experiment / 改配置执行 / extract metric.",
     "body_summary": "Autoresearch Execute · Execute one hypothesis and return verifiable artifacts · Inputs and preparation · Require the objective contract, hypothesis, baseline ID, editable scope, execution command, evaluation protocol and available budget · Before changing files, snapshot or hash experiment inputs and preserve existing work · Run lifecycle · Recovery · Inspect concise failure context · A change to batch size, training steps, loss or code creates a new attempt/configuration · Reparse completed output after parser repairs; do not rerun expensive training solely to fix metric extraction. · Verify …",
     "tags": [
-      "engineering"
+      "engineering",
+      "optimization",
+      "execution"
     ],
     "version": "1.1.0",
     "github_url": "",
@@ -4481,10 +4489,12 @@
   {
     "id": "autoresearch:optimize",
     "path": "./engineering/autoresearch/optimize/SKILL.md",
-    "description": "Autonomous optimization loop: generate hypotheses, run experiments, make decisions, repeat until success criteria met.",
+    "description": "Autonomous optimization loop: generate hypotheses, run experiments, make decisions, repeat until success criteria met. 自主优化循环: 生成假设 / 跑实验 / 决策 / 重复至达标. Trigger on 启动优化 / optimization loop / multi-objective / bandit / Pareto / 开始迭代.",
     "body_summary": "Autoresearch Optimize · Use for an authorized iterative research loop · Workflow · Decision rule · For a scalar objective, use improvement in its declared units: · Require gain to exceed a predeclared nonnegative minimum gain and every hard constraint to pass · For multiple objectives, calculate direction-aware Pareto dominance among complete comparable runs satisfying every hard guardrail · Strategies · Git**: use an isolated experiment checkout or tracked patch · Config snapshots**: retain the original and candidate configurations with hashes · Multi-objective**: retain the eligible frontier…",
     "tags": [
-      "engineering"
+      "engineering",
+      "optimization",
+      "loop"
     ],
     "version": "1.1.0",
     "github_url": "",
