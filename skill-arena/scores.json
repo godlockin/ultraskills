@@ -462,6 +462,17 @@
     "total": 9.5
   },
   {
+    "id": "git-batch-sync",
+    "path": "./engineering/git-batch-sync/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "comps-analysis",
     "path": "./external/anthropic-financial-services/comps-analysis/SKILL.md",
     "cluster": "business-finance",
@@ -840,17 +851,6 @@
     "path": "./devops/ultraskills-hub/SKILL.md",
     "cluster": "skills-mgmt",
     "cluster_name": "Skills·管理",
-    "is_winner": false,
-    "doc_quality": 9,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 9.0
-  },
-  {
-    "id": "git-batch-sync",
-    "path": "./engineering/git-batch-sync/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,

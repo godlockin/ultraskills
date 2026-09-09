@@ -1,0 +1,73 @@
+# git-batch-sync justfile
+# Usage: just <recipe>
+set shell := ["bash", "-uc"]
+
+ROOT := env_var_or_default('ROOT', env_var('HOME') + '/working/sourcecode')
+SCRIPT := '/tmp/git-batch-sync.sh'
+SKIPLIST := '/Users/chenchen/working/sourcecode/.git-batch-sync-skiplist'
+
+default: summary
+
+# 列出所有 repo 状态 (默认)
+summary:
+    bash {{SCRIPT}} {{ROOT}} --summary
+
+# dry-run 看会动哪些
+dry:
+    bash {{SCRIPT}} {{ROOT}} --dry-run
+
+# 实际更新
+update:
+    bash {{SCRIPT}} {{ROOT}} --skiplist={{SKIPLIST}}
+
+# 只更新不 fetch
+update-nofetch:
+    bash {{SCRIPT}} {{ROOT}} --no-fetch --skiplist={{SKIPLIST}}
+
+# sync-upstream: 同步 fork 上游
+sync-upstream:
+    bash {{SCRIPT}} {{ROOT}} --sync-upstream --skiplist={{SKIPLIST}}
+
+# fork 完整流程: sync upstream + push 到 origin
+sync-fork-push:
+    bash {{SCRIPT}} {{ROOT}} --sync-upstream --push --skiplist={{SKIPLIST}}
+
+# 一条龙: bench + stats + summary
+all:
+    bash {{SCRIPT}} {{ROOT}} --bench --stats --summary --skiplist={{SKIPLIST}}
+
+# hyperfine benchmark fd vs find
+bench:
+    bash {{SCRIPT}} {{ROOT}} --bench --summary
+
+# tokei 代码统计
+stats:
+    bash {{SCRIPT}} {{ROOT}} --stats --summary
+
+# 自定义目录
+scan dir:
+    bash {{SCRIPT}} {{dir}} --summary
+
+# 自定义目录 + 自定义 allowlist
+scan-allow dir allowlist:
+    bash {{SCRIPT}} {{dir}} --summary --allowlist={{allowlist}}
+
+# tail 最新日志
+log:
+    ls -t /tmp/claude-tasks/git-batch-sync-*.log | head -1 | xargs tail -50
+
+# 清旧日志 (保留最近 5 个)
+clean-logs:
+    ls -t /tmp/claude-tasks/git-batch-sync-*.log | tail -n +6 | xargs -r rm -v
+
+# 一键安装 rust 工具 (brew)
+install-deps:
+    bash {{SCRIPT}} --install-deps
+
+# 输出工具替代对照
+migrate-tools:
+    bash {{SCRIPT}} --migrate-tools
+
+# 显示帮助
+help:
+    bash {{SCRIPT}} --help

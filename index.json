@@ -6,7 +6,7 @@
     "arena_updated_at": "2026-09-09",
     "total_skills": 1185,
     "total_clusters": 76,
-    "avg_arena_score": 7.26,
+    "avg_arena_score": 7.27,
     "total_winners": 76
   },
   "hierarchy": {
@@ -17523,6 +17523,43 @@
       "version": "1.0.0"
     },
     {
+      "id": "git-batch-sync",
+      "name": "git-batch-sync",
+      "path": "./engineering/git-batch-sync/SKILL.md",
+      "description": "Batch-sync (fetch + pull + smart conflict resolve) all git repos under a directory tree. Forks also sync from upstream. Supports blacklist/allowlist filtering, tool migration hints, and one-click rust tool install. Use when user wants to update many git projects at once, sync all local clones, keep forks in sync with upstream, scan for outdated repos, fix merge conflicts across multiple repos, install fd/rg/eza/bat, or migrate from find/grep to rust equivalents. Triggers: \"update all repos\", \"sync all git projects\", \"批量更新 git\", \"扫所有 git 项目\", \"修复所有冲突\", \"git pull across repos\", \"find all git repos\", \"sync fork upstream\", \"同步上游\", \"fork 同步\", \"install fd/rg\", \"migrate to fd\", \"黑名单 同步\", \"白名单 同步\".",
+      "body_summary": "git-batch-sync · 🎯 Goal (目标) · Bulk-sync all git repositories under a directory tree in one command, with intelligent fork-upstream handling, blacklist/allowlist filtering, and automatic recovery from network failures · 🧠 Core Concepts (核心理念) · Why this exists · Three painful realities for anyone with many git repos: · Design principles · Linear history by default**:   first,   as fallback · Lockfiles auto-resolve, code conflicts abort**: Lockfiles are regenerable from manifests; code needs judgment · Fail fast on network, recover silently**: One proxy blip shouldn't block the whole batch — re…",
+      "tags": [
+        "git",
+        "devops",
+        "batch",
+        "sync",
+        "fork",
+        "upstream",
+        "conflict-resolve",
+        "fd",
+        "ripgrep",
+        "rust-cli",
+        "allowlist",
+        "skiplist",
+        "tool-migration",
+        "engineering"
+      ],
+      "recommended_for": [],
+      "arena": {
+        "cluster": "misc",
+        "cluster_name": "其他未分类",
+        "score": 9.5,
+        "doc_quality": 10,
+        "func_clarity": 9,
+        "maintainability": 9,
+        "is_winner": false,
+        "rank": 6,
+        "test_date": "2026-09-09",
+        "test_version": "1.0.0"
+      },
+      "version": "2.0.0"
+    },
+    {
       "id": "ai-techbook-translation-review",
       "name": "ai-techbook-translation-review",
       "path": "./community/ai-techbook-translation-review/SKILL.md",
@@ -17548,7 +17585,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 6,
+        "rank": 7,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17577,7 +17614,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 7,
+        "rank": 8,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17639,7 +17676,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 8,
+        "rank": 9,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17705,7 +17742,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 9,
+        "rank": 10,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17732,7 +17769,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 10,
+        "rank": 11,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17759,7 +17796,7 @@
         "func_clarity": 9,
         "maintainability": 9,
         "is_winner": false,
-        "rank": 11,
+        "rank": 12,
         "test_date": "2026-09-09",
         "test_version": "1.0.0"
       },
@@ -17776,39 +17813,6 @@
         "toolkit",
         "data",
         "community"
-      ],
-      "recommended_for": [],
-      "arena": {
-        "cluster": "misc",
-        "cluster_name": "其他未分类",
-        "score": 9.0,
-        "doc_quality": 9,
-        "func_clarity": 9,
-        "maintainability": 9,
-        "is_winner": false,
-        "rank": 12,
-        "test_date": "2026-09-09",
-        "test_version": "1.0.0"
-      },
-      "version": "1.0.0"
-    },
-    {
-      "id": "git-batch-sync",
-      "name": "git-batch-sync",
-      "path": "./engineering/git-batch-sync/SKILL.md",
-      "description": "Batch-sync (fetch + pull + smart conflict resolve) all git repos under a directory tree. Forks also sync from upstream. Use when user wants to update many git projects at once, sync all local clones, keep forks in sync with upstream, scan for outdated repos, or fix merge conflicts across multiple repos. Triggers: \"update all repos\", \"sync all git projects\", \"批量更新 git\", \"扫所有 git 项目\", \"修复所有冲突\", \"git pull across repos\", \"find all git repos\", \"sync fork upstream\", \"同步上游\", \"fork 同步\".",
-      "body_summary": "git-batch-sync · Bulk update git repos under a directory tree · When to use · Fork handling · When   is configured, the repo is treated as a fork · With  : · after successful update (works for both upstream-synced and direct pull flows) · Typical fork workflow: · When NOT to use · Single repo operations → use   directly (this skill is bulk) · Submodule-only changes → use · Push / PR operations → not in scope (local sync only) · Quick start · Command reference · Exit codes:   = all OK/updated,   = errors or conflicts unresolved,   = no repos found. · Conflict resolution policy · Code conflicts …",
-      "tags": [
-        "git",
-        "devops",
-        "batch",
-        "sync",
-        "fork",
-        "upstream",
-        "conflict-resolve",
-        "fd",
-        "ripgrep",
-        "engineering"
       ],
       "recommended_for": [],
       "arena": {
