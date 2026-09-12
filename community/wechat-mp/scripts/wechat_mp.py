@@ -126,3 +126,44 @@ def build_multipart(fields, file_field, filename, content, file_mime="applicatio
         f'Content-Type: {file_mime}\r\n\r\n'.encode() + content + b"\r\n")
     parts.append(f"--{boundary}--\r\n".encode())
     return b"".join(parts), f"multipart/form-data; boundary={boundary}"
+
+
+def _upload_multipart(url, fields, file_field, filename, content):
+    body, ctype = build_multipart(fields, file_field, filename, content)
+    req = urllib.request.Request(url, data=body, method="POST")
+    req.add_header("Content-Type", ctype)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        try:
+            return json.loads(e.read().decode("utf-8"))
+        except ValueError:
+            raise WechatNetworkError(f"HTTP {e.code}") from e
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        raise WechatNetworkError(str(e)) from e
+
+
+RETRYABLE_CODES = {40001, 42001}
+
+
+def api_call(method, path, body=None, file=None, file_field="media",
+             extra_query=None, token=None):
+    """网关: 附 token 调任意端点。file=(filename, bytes)。返回服务端 dict。"""
+    for attempt in (0, 1):  # 最多两次
+        if token is None:
+            token = get_access_token(force_refresh=attempt == 1)
+        query = dict(extra_query or {})
+        query["access_token"] = token
+        url = API_BASE + path + "?" + urllib.parse.urlencode(query)
+        try:
+            if file is not None:
+                payload = _upload_multipart(url, body or {}, file_field, file[0], file[1])
+            else:
+                payload = http_json(method, path, query=query, body=body)
+        except WechatNetworkError:
+            raise
+        if payload.get("errcode", 0) in RETRYABLE_CODES and attempt == 0:
+            token = None
+            continue
+        return payload

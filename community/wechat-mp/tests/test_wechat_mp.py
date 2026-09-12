@@ -90,3 +90,69 @@ class TestMultipart(unittest.TestCase):
         # boundary 在 ctype 与 body 一致
         b = ctype.split("boundary=")[1].encode()
         self.assertIn(b, body)
+
+
+class FakeUrllibRequest:
+    """捕获 urlopen 的 Request,按脚本顺序回放响应。"""
+    def __init__(self, responses):
+        self.responses = list(responses)
+        self.requests = []
+    def __call__(self, req, timeout=None):
+        self.requests.append(req)
+        r = self.responses.pop(0)
+        if isinstance(r, Exception):
+            raise r
+        return FakeResp(json.dumps(r))
+
+
+class TestApiCall(unittest.TestCase):
+    def setUp(self):
+        self.fx = FakeUrllibRequest([{"access_token": "T0", "expires_in": 7200}])
+        # 偏差: brief 原值 "/nonexistent/token.json" 在 macOS 只读根卷上 write_token_cache
+        # 的 makedirs 会 PermissionError,故改用真实临时目录,语义不变(读缓存必 miss)
+        self._t = mock.patch.object(wechat_mp, "TOKEN_FILE",
+                                    os.path.join(tempfile.mkdtemp(), "token.json"))
+        self._t.start(); self.addCleanup(self._t.stop)
+        self._c = mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec"))
+        self._c.start(); self.addCleanup(self._c.stop)
+
+    def test_token_attached(self):
+        fx = FakeUrllibRequest([{"access_token": "T0", "expires_in": 7200},
+                                {"errcode": 0, "data": "ok"}])
+        with mock.patch("urllib.request.urlopen", fx):
+            out = wechat_mp.api_call("GET", "/cgi-bin/draft/count")
+        self.assertEqual(out["data"], "ok")
+        self.assertIn("access_token=T0", fx.requests[1].full_url)
+
+    def test_retry_once_on_40001(self):
+        fx = FakeUrllibRequest([{"access_token": "T0", "expires_in": 7200},
+                                {"errcode": 40001, "errmsg": "invalid"},
+                                {"access_token": "T1", "expires_in": 7200},
+                                {"errcode": 0}])
+        with mock.patch("urllib.request.urlopen", fx), \
+             mock.patch.object(wechat_mp, "CONFIG_DIR", tempfile.mkdtemp()):
+            wechat_mp.TOKEN_FILE = os.path.join(wechat_mp.CONFIG_DIR, "token.json")
+            out = wechat_mp.api_call("GET", "/cgi-bin/draft/count")
+        self.assertEqual(out["errcode"], 0)
+        self.assertEqual(len(fx.requests), 4)  # 取token + 失败 + 强刷token + 重试
+
+    def test_no_retry_twice(self):
+        fx = FakeUrllibRequest([{"access_token": "T0", "expires_in": 7200},
+                                {"errcode": 40001, "errmsg": "invalid"},
+                                {"access_token": "T1", "expires_in": 7200},
+                                {"errcode": 40001, "errmsg": "still invalid"}])
+        with mock.patch("urllib.request.urlopen", fx):
+            out = wechat_mp.api_call("GET", "/cgi-bin/draft/count")
+        self.assertEqual(out["errcode"], 40001)
+        self.assertEqual(len(fx.requests), 4)
+
+    def test_multipart_upload(self):
+        fx = FakeUrllibRequest([{"access_token": "T0", "expires_in": 7200},
+                                {"errcode": 0, "media_id": "M1"}])
+        with mock.patch("urllib.request.urlopen", fx):
+            out = wechat_mp.api_call("POST", "/cgi-bin/material/add_material",
+                                     extra_query={"type": "image"},
+                                     file=("cover.png", b"\x89PNG"))
+        self.assertEqual(out["media_id"], "M1")
+        req = fx.requests[1]
+        self.assertIn("multipart/form-data", req.headers.get("Content-type", ""))
