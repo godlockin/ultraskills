@@ -306,3 +306,42 @@ class TestDoctor(unittest.TestCase):
             with contextlib.redirect_stdout(buf):
                 code = wechat_mp.main(["doctor"])
         self.assertEqual(code, 1)
+
+
+class TestConvenience(unittest.TestCase):
+    def _run(self, argv, responses):
+        fx = FakeUrllibRequest(responses)
+        # 偏差: brief 未隔离 token 缓存,与 TestRawCli/TestCallCmd 同理 —
+        # test_draft_ls 会写 cwd 缓存,导致 test_material_upload 缓存命中少发一次请求
+        # (fx.requests[1] IndexError)。统一每用例独立临时缓存,语义不变。
+        with tempfile.TemporaryDirectory() as d:
+            with mock.patch.object(wechat_mp, "TOKEN_FILE", os.path.join(d, "token.json")), \
+                 mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")):
+                code = wechat_mp.main(argv)
+        return code, fx
+
+    def test_draft_ls(self):
+        code, fx = self._run(["draft", "ls"],
+            [{"access_token": "T", "expires_in": 7200},
+             {"errcode": 0, "total_count": 1, "item": []}])
+        self.assertEqual(code, 0)
+        sent = json.loads(fx.requests[1].data.decode())
+        self.assertEqual(sent, {"offset": 0, "count": 20, "no_content": 1})
+
+    def test_draft_del_requires_yes(self):
+        code, _ = self._run(["draft", "del", "--media-id", "M"],
+            [{"access_token": "T", "expires_in": 7200}])
+        self.assertEqual(code, 2)
+
+    def test_material_upload(self):
+        code, fx = self._run(["material", "upload", "--file", __file__, "--type", "image"],
+            [{"access_token": "T", "expires_in": 7200},
+             {"errcode": 0, "media_id": "M1", "url": "http://x/1"}])
+        self.assertEqual(code, 0)
+        self.assertIn("type=image", fx.requests[1].full_url)
+
+    def test_material_ls_bad_type(self):
+        code, _ = self._run(["material", "ls", "--type", "doc"],
+            [{"access_token": "T", "expires_in": 7200}])
+        self.assertEqual(code, 2)

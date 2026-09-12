@@ -319,6 +319,52 @@ def cmd_doctor(args):
     return _report_doctor(steps)
 
 
+def _guarded_call(endpoint_id, body=None, file=None, yes=False, extra_query=None):
+    """按注册名调用; destructive 且缺 --yes 时打印 blocked JSON 并返回 (2, {})。"""
+    ep = load_endpoints().get(endpoint_id)
+    if ep.get("destructive") and not yes:
+        print(json.dumps({"blocked": True, "endpoint": endpoint_id, "name": ep["name"],
+                          "hint": "add --yes to confirm"}, ensure_ascii=False, indent=2))
+        return 2, {}
+    try:
+        payload = api_call(ep["method"], ep["path"], body=body, file=file,
+                           extra_query=extra_query)
+    except WechatNetworkError as e:
+        _emit({"errcode": -2, "errmsg": f"network error: {e}", "rid": None})
+        return 2, {}
+    _emit(payload)
+    return (0 if payload.get("errcode", 0) == 0 else 1), payload
+
+
+def cmd_draft(args):
+    if args.action == "ls":
+        return _guarded_call("draft_batchget", {"offset": args.offset, "count": args.count,
+                                                "no_content": 1})[0]
+    if args.action == "get":
+        return _guarded_call("draft_get", {"media_id": args.media_id})[0]
+    if args.action == "count":
+        return _guarded_call("draft_count")[0]
+    if args.action == "del":
+        return _guarded_call("draft_delete", {"media_id": args.media_id}, yes=args.yes)[0]
+
+
+def cmd_material(args):
+    if args.action == "ls":
+        if args.type not in ("image", "video", "voice", "news"):
+            print("type must be image|video|voice|news", file=sys.stderr)
+            return 2
+        return _guarded_call("material_batchget",
+                             {"type": args.type, "offset": args.offset,
+                              "count": args.count, "no_content": 1})[0]
+    if args.action == "upload":
+        # material_add 非 destructive; yes=True 仅跳过 guard,无副作用
+        return _guarded_call("material_add", {"description": args.name or ""},
+                             file=_read_file(args.file), yes=True,
+                             extra_query={"type": args.type})[0]
+    if args.action == "del":
+        return _guarded_call("material_del", {"media_id": args.media_id}, yes=args.yes)[0]
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -340,6 +386,23 @@ def build_parser():
     call.set_defaults(func=cmd_call)
     doc = sub.add_parser("doctor", help="环境自检: 凭证/token/quota")
     doc.set_defaults(func=cmd_doctor)
+    dr = sub.add_parser("draft", help="草稿箱管理")
+    dr.add_argument("action", choices=["ls", "get", "count", "del"])
+    dr.add_argument("--media-id")
+    dr.add_argument("--offset", type=int, default=0)
+    dr.add_argument("--count", type=int, default=20)
+    dr.add_argument("--yes", action="store_true")
+    dr.set_defaults(func=cmd_draft)
+    mt = sub.add_parser("material", help="永久素材管理")
+    mt.add_argument("action", choices=["ls", "upload", "del"])
+    mt.add_argument("--file")
+    mt.add_argument("--type", default="image")
+    mt.add_argument("--media-id")
+    mt.add_argument("--name")
+    mt.add_argument("--offset", type=int, default=0)
+    mt.add_argument("--count", type=int, default=20)
+    mt.add_argument("--yes", action="store_true")
+    mt.set_defaults(func=cmd_material)
     return p
 
 
