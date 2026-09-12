@@ -167,3 +167,77 @@ def api_call(method, path, body=None, file=None, file_field="media",
             token = None
             continue
         return payload
+
+
+import argparse, sys
+
+
+def _emit(payload):
+    print(json.dumps(payload, indent=2, ensure_ascii=False))
+
+
+def _load_data_arg(val):
+    if val is None:
+        return None
+    if val.startswith("@"):
+        with open(val[1:], encoding="utf-8") as f:
+            return json.load(f)
+    return json.loads(val)
+
+
+def _split_path(path):
+    if "?" in path:
+        p, q = path.split("?", 1)
+        extra = dict(urllib.parse.parse_qsl(q))
+        return p, extra
+    return path, {}
+
+
+def cmd_raw(args):
+    path, extra = _split_path(args.path)
+    try:
+        payload = api_call(args.method, path,
+                           body=_load_data_arg(args.data),
+                           file=_read_file(args.file) if args.file else None,
+                           extra_query=extra)
+    except WechatNetworkError as e:
+        _emit({"errcode": -2, "errmsg": f"network error: {e}", "rid": None})
+        return 2
+    _emit(payload)
+    return 0 if payload.get("errcode", 0) == 0 else 1
+
+
+def _read_file(path):
+    with open(path, "rb") as f:
+        return (os.path.basename(path), f.read())
+
+
+def build_parser():
+    p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
+    sub = p.add_subparsers(dest="command", required=True)
+    raw = sub.add_parser("raw", help="通用网关: 任意端点直达")
+    raw.add_argument("method", choices=["GET", "POST"])
+    raw.add_argument("path", help="API 路径,可带 ?query")
+    raw.add_argument("--data", help="JSON body,@file 读文件")
+    raw.add_argument("--file", help="上传文件路径(multipart)")
+    raw.set_defaults(func=cmd_raw)
+    return p
+
+
+def main(argv=None):
+    args = build_parser().parse_args(argv)
+    try:
+        return args.func(args)
+    except WechatApiError as e:
+        _emit(e.payload)
+        return 1
+    except WechatNetworkError as e:
+        _emit({"errcode": -2, "errmsg": f"network error: {e}", "rid": None})
+        return 2
+    except json.JSONDecodeError as e:
+        print(f"invalid JSON: {e}", file=sys.stderr)
+        return 2
+
+
+if __name__ == "__main__":
+    sys.exit(main())

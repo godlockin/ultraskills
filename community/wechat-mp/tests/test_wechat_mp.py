@@ -156,3 +156,56 @@ class TestApiCall(unittest.TestCase):
         self.assertEqual(out["media_id"], "M1")
         req = fx.requests[1]
         self.assertIn("multipart/form-data", req.headers.get("Content-type", ""))
+
+
+class TestRawCli(unittest.TestCase):
+    def run_raw(self, argv, responses):
+        fx = FakeUrllibRequest(responses)
+        # 偏差: brief 未隔离 token 缓存,首个执行的用例会把 token 写入 cwd 的
+        # .wechat-mp/token.json,导致同组后续用例缓存命中而少发一次请求
+        # (exit 0!=1 / requests[1] IndexError)。改为每用例独立临时缓存,语义不变。
+        with tempfile.TemporaryDirectory() as d:
+            with mock.patch.object(wechat_mp, "TOKEN_FILE", os.path.join(d, "token.json")), \
+                 mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")):
+                code = wechat_mp.main(argv)
+        return code, fx
+
+    def test_raw_get_ok(self):
+        code, _ = self.run_raw(
+            ["raw", "GET", "/cgi-bin/draft/count"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "total_count": 3}])
+        self.assertEqual(code, 0)
+
+    def test_raw_api_error_exit_1(self):
+        code, _ = self.run_raw(
+            ["raw", "GET", "/cgi-bin/draft/count"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 40013, "errmsg": "invalid appid"}])
+        self.assertEqual(code, 1)
+
+    def test_raw_post_data_inline(self):
+        code, fx = self.run_raw(
+            ["raw", "POST", "/cgi-bin/draft/add", "--data", '{"title":"t"}'],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "media_id": "M"}])
+        self.assertEqual(code, 0)
+        sent = json.loads(fx.requests[1].data.decode())
+        self.assertEqual(sent["title"], "t")
+
+    def test_raw_query_in_path(self):
+        # 偏差: brief 未创建上传文件,补建并自动清理,否则 _read_file 抛 FileNotFoundError
+        with open("cover.png", "wb") as f:
+            f.write(b"\x89PNG")
+        self.addCleanup(lambda: os.remove("cover.png"))
+        code, fx = self.run_raw(
+            ["raw", "POST", "/cgi-bin/material/add_material?type=image", "--file", "cover.png"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "media_id": "M"}])
+        self.assertEqual(code, 0)
+        self.assertIn("type=image", fx.requests[1].full_url)
+
+    def test_network_error_exit_2(self):
+        # 偏差: brief 原写法绕过 run_raw、未隔离 TOKEN_FILE,会读到 cwd 残留缓存
+        # 而缓存命中(该用例自己首次运行就会写入缓存,第二次必失败)。统一走 run_raw。
+        code, _ = self.run_raw(
+            ["raw", "GET", "/cgi-bin/draft/count"],
+            [{"access_token": "T", "expires_in": 7200}, urllib.error.URLError("boom")])
+        self.assertEqual(code, 2)
