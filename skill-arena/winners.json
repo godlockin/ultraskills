@@ -197,7 +197,7 @@
   {
     "cluster": "data",
     "cluster_name": "数据·分析",
-    "winner": "cohort-analysis",
+    "winner": "multi-source-fortune-report",
     "score": 9.5,
     "runner_up": "zoom-meeting-sdk-web",
     "total_contestants": 42,

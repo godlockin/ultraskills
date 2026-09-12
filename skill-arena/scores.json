@@ -363,6 +363,28 @@
     "total": 9.5
   },
   {
+    "id": "bazi-jiulong-kb",
+    "path": "./community/metaphysics-skills/bazi-jiulong-kb/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "multi-source-fortune-report",
+    "path": "./community/metaphysics-skills/multi-source-fortune-report/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "ziwei-doushu-fortune",
     "path": "./community/metaphysics-skills/ziwei-doushu-fortune/SKILL.md",
     "cluster": "misc",
@@ -400,7 +422,7 @@
     "path": "./community/pm-skills/data/cohort-analysis/SKILL.md",
     "cluster": "data",
     "cluster_name": "数据·分析",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 9,
     "maintainability": 9,
@@ -741,6 +763,39 @@
     "path": "./community/mac-whisper/SKILL.md",
     "cluster": "media-audio",
     "cluster_name": "媒体·语音音频",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "ditianshui-classics",
+    "path": "./community/metaphysics-skills/ditianshui-classics/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "shen-sha-jiulong",
+    "path": "./community/metaphysics-skills/shen-sha-jiulong/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 9,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.0
+  },
+  {
+    "id": "ziwei-huang-fortune",
+    "path": "./community/metaphysics-skills/ziwei-huang-fortune/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 9,
     "func_clarity": 9,
@@ -1661,6 +1716,39 @@
     "total": 8.5
   },
   {
+    "id": "jyotish-fortune",
+    "path": "./community/metaphysics-skills/jyotish-fortune/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "qimen-dunjia",
+    "path": "./community/metaphysics-skills/qimen-dunjia/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "western-astrology",
+    "path": "./community/metaphysics-skills/western-astrology/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "patent-disclosure-skill",
     "path": "./community/patent-disclosure-skill/SKILL.md",
     "cluster": "business-legal",
@@ -1815,6 +1903,17 @@
     "total": 8.5
   },
   {
+    "id": "psychology-safety",
+    "path": "./community/quality-skills/psychology-safety/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "reverse-skill-router",
     "path": "./community/reverse-skill-router/SKILL.md",
     "cluster": "engineering-security",
@@ -1896,6 +1995,17 @@
     "path": "./community/video-frame-extractor/SKILL.md",
     "cluster": "content-video",
     "cluster_name": "内容·视频",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
+    "id": "wechat-mp",
+    "path": "./community/wechat-mp/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 8,
     "func_clarity": 9,
@@ -2813,6 +2923,61 @@
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 7,
+    "total": 8.0
+  },
+  {
+    "id": "evidence-based-medicine",
+    "path": "./community/quality-skills/evidence-based-medicine/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "marketing-hooks",
+    "path": "./community/quality-skills/marketing-hooks/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "narrative-craft",
+    "path": "./community/quality-skills/narrative-craft/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "tcm-wellness",
+    "path": "./community/quality-skills/tcm-wellness/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "ux-report-design",
+    "path": "./community/quality-skills/ux-report-design/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
     "total": 8.0
   },
   {
@@ -4701,6 +4866,17 @@
     "path": "./community/face-beautification/SKILL.md",
     "cluster": "content-image",
     "cluster_name": "内容·图像设计",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 8,
+    "maintainability": 9,
+    "total": 7.7
+  },
+  {
+    "id": "biorhythm",
+    "path": "./community/metaphysics-skills/biorhythm/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
     "is_winner": false,
     "doc_quality": 7,
     "func_clarity": 8,

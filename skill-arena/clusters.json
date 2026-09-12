@@ -2,18 +2,22 @@
   {
     "id": "misc",
     "name": "其他未分类",
-    "skill_count": 314,
+    "skill_count": 328,
     "winner": "ai-techbook-translation",
     "skills": [
       "ai-techbook-translation",
       "career-coach",
       "bazi-fortune",
+      "bazi-jiulong-kb",
       "ziwei-doushu-fortune",
       "value-proposition",
       "git-batch-sync",
       "ai-techbook-translation-review",
       "diagnostic-debugging",
       "feng-shui",
+      "ditianshui-classics",
+      "shen-sha-jiulong",
+      "ziwei-huang-fortune",
       "palm-reading",
       "beachhead-segment",
       "porters-five-forces",
@@ -23,6 +27,9 @@
       "face-reading",
       "review",
       "daoist-cosmology-basics",
+      "jyotish-fortune",
+      "qimen-dunjia",
+      "western-astrology",
       "pm-skills",
       "identify-assumptions-new",
       "opportunity-solution-tree",
@@ -32,9 +39,15 @@
       "competitive-battlecard",
       "lean-canvas",
       "product-vision",
+      "psychology-safety",
+      "wechat-mp",
       "baoyu-skills",
       "mac-mole",
       "swot-analysis",
+      "evidence-based-medicine",
+      "marketing-hooks",
+      "narrative-craft",
+      "tcm-wellness",
       "rtk-bridge",
       "qa",
       "exploratory-data-analysis",
@@ -68,6 +81,7 @@
       "grok-build",
       "design-taste-frontend",
       "awwwards-design-intelligence",
+      "biorhythm",
       "impeccable",
       "radare2",
       "jules",
@@ -636,36 +650,36 @@
         "winner": "api-designer",
         "skills": [
           "api-designer",
-          "feature-forge",
-          "monitoring-expert",
           "legacy-modernizer",
+          "sre-engineer",
           "spec-miner",
-          "sre-engineer"
+          "feature-forge",
+          "monitoring-expert"
         ]
       },
       {
         "id": "engineering-fullstack-db",
         "name": "数据库 & 存储",
         "skill_count": 5,
-        "winner": "database-optimizer",
+        "winner": "postgres-pro",
         "skills": [
-          "database-optimizer",
-          "pandas-pro",
           "postgres-pro",
+          "database-optimizer",
           "sql-pro",
-          "spark-engineer"
+          "spark-engineer",
+          "pandas-pro"
         ]
       },
       {
         "id": "engineering-fullstack-tools",
         "name": "开发工具 & 基础设施",
         "skill_count": 5,
-        "winner": "chaos-engineer",
+        "winner": "websocket-engineer",
         "skills": [
-          "chaos-engineer",
-          "cli-developer",
           "websocket-engineer",
+          "chaos-engineer",
           "mcp-developer",
+          "cli-developer",
           "embedded-systems"
         ]
       },
@@ -673,20 +687,20 @@
         "id": "engineering-fullstack-testing",
         "name": "测试 & 质量",
         "skill_count": 2,
-        "winner": "debugging-wizard",
+        "winner": "test-master",
         "skills": [
-          "debugging-wizard",
-          "test-master"
+          "test-master",
+          "debugging-wizard"
         ]
       },
       {
         "id": "engineering-fullstack-ml",
         "name": "ML & AI 工程",
         "skill_count": 2,
-        "winner": "fine-tuning-expert",
+        "winner": "ml-pipeline",
         "skills": [
-          "fine-tuning-expert",
-          "ml-pipeline"
+          "ml-pipeline",
+          "fine-tuning-expert"
         ]
       },
       {
@@ -807,13 +821,13 @@
         "winner": "baoyu-danger-x-to-markdown",
         "skills": [
           "baoyu-danger-x-to-markdown",
+          "baoyu-format-markdown",
           "baoyu-post-to-wechat",
           "baoyu-translate",
-          "baoyu-format-markdown",
-          "baoyu-danger-gemini-web",
           "baoyu-url-to-markdown",
-          "baoyu-post-to-x",
+          "baoyu-danger-gemini-web",
           "baoyu-youtube-transcript",
+          "baoyu-post-to-x",
           "baoyu-post-to-weibo"
         ]
       },
@@ -826,9 +840,9 @@
           "baoyu-xhs-images",
           "x-mastery-mentor",
           "khazix-writer",
-          "huashu-xhs-image",
-          "huashu-wechat-image",
           "social-content",
+          "huashu-wechat-image",
+          "huashu-xhs-image",
           "huashu-article-to-x",
           "huashu-topic-gen"
         ]
@@ -964,14 +978,14 @@
         "id": "skills-mgmt-claude-config",
         "name": "Claude 配置工具",
         "skill_count": 6,
-        "winner": "hook-development",
+        "winner": "plugin-settings",
         "skills": [
+          "plugin-settings",
+          "plugin-structure",
           "hook-development",
           "command-development",
-          "plugin-structure",
-          "plugin-settings",
-          "claude-md-improver",
-          "claude-automation-recommender"
+          "claude-automation-recommender",
+          "claude-md-improver"
         ]
       },
       {
@@ -982,8 +996,8 @@
         "skills": [
           "gh-fix-ci",
           "context-engineering",
-          "example-skill",
           "writing-skills",
+          "example-skill",
           "using-superpowers",
           "context-engineering-collection",
           "skill-template"
@@ -1045,14 +1059,14 @@
         "id": "content-image-baoyu",
         "name": "Baoyu 图像生成",
         "skill_count": 6,
-        "winner": "baoyu-cover-image",
+        "winner": "baoyu-imagine",
         "skills": [
-          "baoyu-cover-image",
           "baoyu-imagine",
-          "baoyu-comic",
           "baoyu-infographic",
           "baoyu-article-illustrator",
-          "baoyu-image-cards"
+          "baoyu-cover-image",
+          "baoyu-image-cards",
+          "baoyu-comic"
         ]
       },
       {
@@ -1134,6 +1148,29 @@
     ]
   },
   {
+    "id": "data",
+    "name": "数据·分析",
+    "skill_count": 15,
+    "winner": "multi-source-fortune-report",
+    "skills": [
+      "multi-source-fortune-report",
+      "cohort-analysis",
+      "ab-test-analysis",
+      "book-sft-pipeline",
+      "ux-report-design",
+      "clinical-reports",
+      "statistical-analysis",
+      "people-report",
+      "performance-report",
+      "status-report",
+      "pipeline-review",
+      "huashu-data-pro",
+      "recruiting-pipeline",
+      "data-processor",
+      "report-generator"
+    ]
+  },
+  {
     "id": "engineering-security",
     "name": "工程·安全",
     "skill_count": 14,
@@ -1199,27 +1236,6 @@
     ]
   },
   {
-    "id": "data",
-    "name": "数据·分析",
-    "skill_count": 13,
-    "winner": "cohort-analysis",
-    "skills": [
-      "cohort-analysis",
-      "ab-test-analysis",
-      "book-sft-pipeline",
-      "clinical-reports",
-      "statistical-analysis",
-      "people-report",
-      "performance-report",
-      "status-report",
-      "pipeline-review",
-      "huashu-data-pro",
-      "recruiting-pipeline",
-      "data-processor",
-      "report-generator"
-    ]
-  },
-  {
     "id": "engineering-devops",
     "name": "工程·DevOps",
     "skill_count": 13,
@@ -1265,10 +1281,10 @@
         "id": "engineering-devops-cicd",
         "name": "CI/CD & 部署",
         "skill_count": 6,
-        "winner": "land-and-deploy",
+        "winner": "setup-deploy",
         "skills": [
-          "land-and-deploy",
           "setup-deploy",
+          "land-and-deploy",
           "canary",
           "ship",
           "shipping-artifacts",
@@ -1493,10 +1509,10 @@
         "id": "agent-workflow-files",
         "name": "文件驱动工作流",
         "skill_count": 6,
-        "winner": "planning-with-files-zht",
+        "winner": "planning-with-files-zh",
         "skills": [
-          "planning-with-files-zht",
           "planning-with-files-zh",
+          "planning-with-files-zht",
           "planning-with-files",
           "planning-with-files-ar",
           "planning-with-files-de",
@@ -1507,10 +1523,10 @@
         "id": "agent-workflow-development",
         "name": "开发辅助工作流",
         "skill_count": 2,
-        "winner": "skill-development",
+        "winner": "agent-development",
         "skills": [
-          "skill-development",
-          "agent-development"
+          "agent-development",
+          "skill-development"
         ]
       }
     ]
@@ -1542,9 +1558,9 @@
         "skills": [
           "smb-onboard",
           "onboarding-checklist-generator",
+          "zoom-mcp/whiteboard",
           "metrics-dashboard",
           "build-dashboard",
-          "zoom-mcp/whiteboard",
           "onboarding",
           "onboarding-guide"
         ]
