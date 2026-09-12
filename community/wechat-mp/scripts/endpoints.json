@@ -530,5 +530,312 @@
       "article_id"
     ],
     "destructive": false
+  },
+  "tags_get": {
+    "name": "获取标签",
+    "method": "GET",
+    "path": "/cgi-bin/tags/get",
+    "category": "标签管理",
+    "params": [],
+    "destructive": false
+  },
+  "tags_create": {
+    "name": "创建标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/create",
+    "category": "标签管理",
+    "params": [
+      "tag"
+    ],
+    "destructive": false
+  },
+  "tags_update": {
+    "name": "编辑标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/update",
+    "category": "标签管理",
+    "params": [
+      "tag"
+    ],
+    "destructive": false
+  },
+  "tags_delete": {
+    "name": "删除标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/delete",
+    "category": "标签管理",
+    "params": [
+      "tag"
+    ],
+    "destructive": true
+  },
+  "user_tag_get": {
+    "name": "获取标签下粉丝列表",
+    "method": "POST",
+    "path": "/cgi-bin/user/tag/get",
+    "category": "标签管理",
+    "params": [
+      "tagid",
+      "next_openid"
+    ],
+    "destructive": false
+  },
+  "batchtagging": {
+    "name": "批量为用户打标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchtagging",
+    "category": "标签管理",
+    "params": [
+      "openid_list",
+      "tagid"
+    ],
+    "destructive": false
+  },
+  "batchuntagging": {
+    "name": "批量为用户取消标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchuntagging",
+    "category": "标签管理",
+    "params": [
+      "openid_list",
+      "tagid"
+    ],
+    "destructive": false
+  },
+  "tag_getidlist": {
+    "name": "获取用户的标签列表",
+    "method": "POST",
+    "path": "/cgi-bin/tags/getidlist",
+    "category": "标签管理",
+    "params": [
+      "openid"
+    ],
+    "destructive": false
+  },
+  "user_info": {
+    "name": "获取用户基本信息",
+    "method": "GET",
+    "path": "/cgi-bin/user/info",
+    "category": "用户信息",
+    "params": [
+      "openid",
+      "lang"
+    ],
+    "destructive": false
+  },
+  "user_info_batchget": {
+    "name": "批量获取用户基本信息",
+    "method": "POST",
+    "path": "/cgi-bin/user/info/batchget",
+    "category": "用户信息",
+    "params": [
+      "user_list"
+    ],
+    "destructive": false
+  },
+  "user_get": {
+    "name": "获取关注用户列表",
+    "method": "GET",
+    "path": "/cgi-bin/user/get",
+    "category": "用户信息",
+    "params": [
+      "next_openid"
+    ],
+    "destructive": false
+  },
+  "blacklist_get": {
+    "name": "获取公众号的黑名单列表",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/getblacklist",
+    "category": "用户信息",
+    "params": [
+      "begin_openid"
+    ],
+    "destructive": false
+  },
+  "blacklist_batch": {
+    "name": "拉黑用户",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchblacklist",
+    "category": "用户信息",
+    "params": [
+      "openid_list"
+    ],
+    "destructive": true
+  },
+  "blacklist_batchun": {
+    "name": "取消拉黑用户",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchunblacklist",
+    "category": "用户信息",
+    "params": [
+      "openid_list"
+    ],
+    "destructive": false
+  },
+  "user_remark": {
+    "name": "设置用户备注名",
+    "method": "POST",
+    "path": "/cgi-bin/user/info/updateremark",
+    "category": "用户信息",
+    "params": [
+      "openid",
+      "remark"
+    ],
+    "destructive": false
+  },
+  "kflist": {
+    "name": "获取所有客服账号",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getkflist",
+    "category": "客服管理",
+    "params": [],
+    "destructive": false
+  },
+  "kfonlinelist": {
+    "name": "获取在线客服列表",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getonlinekflist",
+    "category": "客服管理",
+    "params": [],
+    "destructive": false
+  },
+  "kfaccount_add": {
+    "name": "添加客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/add",
+    "category": "客服管理",
+    "params": [
+      "kf_account",
+      "nickname"
+    ],
+    "destructive": false
+  },
+  "kfaccount_update": {
+    "name": "修改客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/update",
+    "category": "客服管理",
+    "params": [
+      "kf_account",
+      "nickname"
+    ],
+    "destructive": false
+  },
+  "kfaccount_del": {
+    "name": "删除客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/del",
+    "category": "客服管理",
+    "params": [
+      "kf_account"
+    ],
+    "destructive": true
+  },
+  "kfaccount_invite": {
+    "name": "邀请绑定客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/inviteworker",
+    "category": "客服管理",
+    "params": [
+      "kf_account",
+      "invite_wx"
+    ],
+    "destructive": false
+  },
+  "kf_uploadheadimg": {
+    "name": "设置客服头像",
+    "method": "POST",
+    "path": "/customservice/kfaccount/uploadheadimg",
+    "category": "客服管理",
+    "params": [],
+    "destructive": false,
+    "notes": "multipart 上传, 用 --file"
+  },
+  "kfsession_create": {
+    "name": "创建会话",
+    "method": "POST",
+    "path": "/customservice/kfsession/create",
+    "category": "会话控制",
+    "params": [
+      "kf_account",
+      "openid"
+    ],
+    "destructive": false
+  },
+  "kfsession_close": {
+    "name": "关闭会话",
+    "method": "POST",
+    "path": "/customservice/kfsession/close",
+    "category": "会话控制",
+    "params": [
+      "kf_account",
+      "openid"
+    ],
+    "destructive": false
+  },
+  "kfsession_get": {
+    "name": "获取客户会话状态",
+    "method": "GET",
+    "path": "/customservice/kfsession/getsession",
+    "category": "会话控制",
+    "params": [
+      "openid"
+    ],
+    "destructive": false
+  },
+  "kfsession_list": {
+    "name": "获取客服会话列表",
+    "method": "GET",
+    "path": "/customservice/kfsession/getsessionlist",
+    "category": "会话控制",
+    "params": [
+      "kf_account"
+    ],
+    "destructive": false
+  },
+  "kfsession_waitcase": {
+    "name": "获取未接入会话列表",
+    "method": "GET",
+    "path": "/customservice/kfsession/getwaitcase",
+    "category": "会话控制",
+    "params": [],
+    "destructive": false
+  },
+  "kf_msg_send": {
+    "name": "发送客服消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/send",
+    "category": "客服消息",
+    "params": [
+      "touser",
+      "msgtype",
+      "content"
+    ],
+    "destructive": false
+  },
+  "kf_typing": {
+    "name": "客服输入状态",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/typing",
+    "category": "客服消息",
+    "params": [
+      "touser",
+      "command"
+    ],
+    "destructive": false
+  },
+  "msg_record": {
+    "name": "获取聊天记录",
+    "method": "POST",
+    "path": "/customservice/msgrecord/getmsglist",
+    "category": "客服消息",
+    "params": [
+      "starttime",
+      "endtime",
+      "msgid",
+      "number"
+    ],
+    "destructive": false
   }
 }
