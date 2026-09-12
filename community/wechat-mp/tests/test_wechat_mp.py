@@ -76,3 +76,17 @@ class TestTokenFetch(unittest.TestCase):
                 with mock.patch.object(wechat_mp, "fetch_stable_token") as fs:
                     self.assertEqual(wechat_mp.get_access_token(), "Cached")
                     fs.assert_not_called()
+
+
+class TestMultipart(unittest.TestCase):
+    def test_build_contains_fields_and_file(self):
+        body, ctype = wechat_mp.build_multipart(
+            {"type": "image", "description": "封面"}, "media", "cover.png", b"\x89PNG...")
+        self.assertIn("multipart/form-data", ctype)
+        self.assertIn(b'name="type"', body)
+        self.assertIn(b"image", body)
+        self.assertIn(b'name="media"; filename="cover.png"', body)
+        self.assertIn(b"\x89PNG...", body)
+        # boundary 在 ctype 与 body 一致
+        b = ctype.split("boundary=")[1].encode()
+        self.assertIn(b, body)

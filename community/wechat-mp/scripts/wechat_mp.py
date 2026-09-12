@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """wechat-mp: 微信公众号全量 API CLI (纯标准库)."""
 import os
+import uuid
 
 CONFIG_DIR = ".wechat-mp"
 
@@ -113,3 +114,15 @@ def get_access_token(force_refresh=False):
     token, expires_in = fetch_stable_token(app_id, secret, force_refresh)
     write_token_cache(token, expires_in)
     return token
+
+
+def build_multipart(fields, file_field, filename, content, file_mime="application/octet-stream"):
+    boundary = "----wechatmp" + uuid.uuid4().hex
+    parts = []
+    for k, v in fields.items():
+        parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode())
+    parts.append(
+        f'--{boundary}\r\nContent-Disposition: form-data; name="{file_field}"; filename="{filename}"\r\n'
+        f'Content-Type: {file_mime}\r\n\r\n'.encode() + content + b"\r\n")
+    parts.append(f"--{boundary}--\r\n".encode())
+    return b"".join(parts), f"multipart/form-data; boundary={boundary}"
