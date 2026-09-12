@@ -382,6 +382,122 @@ def cmd_comment(args):
     return _guarded_call(endpoint_id, body, yes=args.yes)[0]
 
 
+def parse_markdown(md_text):
+    """解析简单 frontmatter (--- 块)。返回 (meta dict, body)。"""
+    meta = {}
+    body = md_text
+    if md_text.startswith("---"):
+        parts = md_text.split("---", 2)
+        if len(parts) >= 3:
+            for line in parts[1].strip().splitlines():
+                if ":" in line:
+                    k, v = line.split(":", 1)
+                    meta[k.strip()] = v.strip()
+            body = parts[2].lstrip("\n")
+    return meta, body
+
+
+def replace_local_images(body, basedir):
+    """正文本地图片 ![](./x.png) → uploadimg 换微信 URL。返回 (新 body, 上传记录)。"""
+    import re
+    uploaded = []
+
+    def repl(m):
+        alt, path = m.group(1), m.group(2)
+        if not re.match(r"^(https?://|/)", path):
+            local = os.path.join(basedir, path)
+            if os.path.isfile(local):
+                up = api_call("POST", "/cgi-bin/media/uploadimg", file=_read_file(local))
+                if up.get("errcode", 0) == 0:
+                    uploaded.append({"local": path, "url": up["url"]})
+                    return f"![{alt}]({up['url']})"
+        return m.group(0)
+
+    return re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", repl, body), uploaded
+
+
+def _upload_cover(cover_path):
+    payload = api_call("POST", "/cgi-bin/material/add_material",
+                       extra_query={"type": "image"}, file=_read_file(cover_path))
+    if payload.get("errcode", 0) != 0:
+        _emit(payload)
+        raise SystemExit(1)
+    return payload["media_id"]
+
+
+def cmd_publish(args):
+    with open(args.file, encoding="utf-8") as f:
+        raw = f.read()
+    if args.file.endswith(".json"):
+        payload = json.loads(raw)
+        articles = payload.get("articles")
+        if not articles:
+            print("json must contain 'articles' array", file=sys.stderr)
+            return 2
+    else:
+        meta, body = parse_markdown(raw)
+        basedir = os.path.dirname(os.path.abspath(args.file))
+        body, _imgs = replace_local_images(body, basedir)
+        articles = [{
+            "title": args.title or meta.get("title", ""),
+            "content": body,
+            "need_open_comment": 1, "only_fans_can_comment": 0}]
+        if args.author or meta.get("author"):
+            articles[0]["author"] = args.author or meta.get("author")
+        if args.digest or meta.get("digest"):
+            articles[0]["digest"] = args.digest or meta.get("digest")
+
+    cover = args.cover
+    if not cover:
+        cand = os.path.join(os.path.dirname(os.path.abspath(args.file)), "imgs", "cover.png")
+        if os.path.isfile(cand):
+            cover = cand
+    if not cover:
+        print("cover image required: --cover or imgs/cover.png", file=sys.stderr)
+        return 2
+    thumb_media_id = _upload_cover(cover)
+    # 封面统一覆盖: 每篇文章的 thumb_media_id 无条件替换为已上传封面
+    for a in articles:
+        a["thumb_media_id"] = thumb_media_id
+
+    resp = api_call("POST", "/cgi-bin/draft/add", body={"articles": articles})
+    if resp.get("errcode", 0) != 0:
+        _emit(resp)
+        return 1
+    media_id = resp["media_id"]
+    if not args.yes:
+        print(json.dumps({"draft_media_id": media_id,
+                          "hint": "draft created; run again with --yes to publish"},
+                         ensure_ascii=False, indent=2))
+        return 0
+
+    sub = api_call("POST", "/cgi-bin/freepublish/submit", body={"media_id": media_id})
+    if sub.get("errcode", 0) != 0:
+        _emit(sub)
+        return 1
+    publish_id = sub["publish_id"]
+    for _ in range(20):
+        time.sleep(3)
+        st = api_call("POST", "/cgi-bin/freepublish/get", body={"publish_id": publish_id})
+        if st.get("errcode", 0) != 0:
+            _emit(st)
+            return 1
+        state = st.get("publish_state")
+        if state == 0:
+            urls = [i["article_url"] for i in
+                    st.get("article_detail", {}).get("item", []) if i.get("article_url")]
+            _emit({"publish_id": publish_id, "state": "success", "article_urls": urls,
+                   "draft_media_id": media_id})
+            return 0
+        if state in (2, 3):  # 原创失败/常规失败
+            _emit({"publish_id": publish_id, "state": state, "fail_idx":
+                   st.get("fail_idx", []), "raw": st})
+            return 1
+    _emit({"publish_id": publish_id, "state": "timeout",
+           "hint": "still publishing; check later via 'raw POST /cgi-bin/freepublish/get'"})
+    return 1
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -430,6 +546,14 @@ def build_parser():
     cm.add_argument("--type", type=int, default=0)
     cm.add_argument("--yes", action="store_true")
     cm.set_defaults(func=cmd_comment)
+    pb = sub.add_parser("publish", help="一键发文: 封面→草稿→发布→轮询")
+    pb.add_argument("file", help=".md 或 .json (标准 articles 结构)")
+    pb.add_argument("--cover")
+    pb.add_argument("--title")
+    pb.add_argument("--author")
+    pb.add_argument("--digest")
+    pb.add_argument("--yes", action="store_true")
+    pb.set_defaults(func=cmd_publish)
     return p
 
 

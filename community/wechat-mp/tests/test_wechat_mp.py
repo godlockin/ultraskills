@@ -387,3 +387,80 @@ class TestCommentCmd(unittest.TestCase):
         eps = wechat_mp.load_endpoints()
         self.assertTrue(eps["comment_markelect"]["destructive"])
         self.assertTrue(eps["comment_unmarkelect"]["destructive"])
+
+
+class TestPublish(unittest.TestCase):
+    def test_parse_markdown_frontmatter(self):
+        md = "---\ntitle: T\nauthor: A\n---\n\n# Hello\n\nbody"
+        meta, body = wechat_mp.parse_markdown(md)
+        self.assertEqual(meta["title"], "T")
+        self.assertIn("body", body)
+        self.assertNotIn("---", body)
+
+    def test_parse_markdown_no_frontmatter(self):
+        meta, body = wechat_mp.parse_markdown("# Hi\nbody")
+        self.assertEqual(meta, {})
+        self.assertIn("body", body)
+
+    def test_publish_full_chain_with_yes(self):
+        fx = FakeUrllibRequest([
+            {"access_token": "T", "expires_in": 7200},            # token
+            {"errcode": 0, "media_id": "THUMB", "url": "http://c"}, # material_add
+            {"errcode": 0, "media_id": "DRAFT"},                  # draft_add
+            {"errcode": 0, "publish_id": "P1"},                   # submit
+            {"errcode": 0, "publish_state": 0,
+             "article_detail": {"item": [{"article_url": "http://final"}]}}])
+        with tempfile.TemporaryDirectory() as d:
+            art = os.path.join(d, "a.json")
+            with open(art, "w") as f:
+                f.write(json.dumps({"articles": [{"title": "t", "content": "<p>c</p>",
+                                                  "thumb_media_id": "IGNORED", "need_open_comment": 1}]}))
+            cov = os.path.join(d, "cover.png")
+            with open(cov, "wb") as f:
+                f.write(b"\x89PNG")
+            # 偏差: brief 未隔离 token 缓存 — 全链路首例写入 cwd 缓存会让后续用例
+            # 缓存命中少发请求。统一独立临时缓存,语义不变。
+            with mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")), \
+                 mock.patch.object(wechat_mp, "TOKEN_FILE",
+                                   os.path.join(tempfile.mkdtemp(), "token.json")), \
+                 mock.patch.object(wechat_mp.time, "sleep"):
+                import io, contextlib
+                buf = io.StringIO()
+                with contextlib.redirect_stdout(buf):
+                    code = wechat_mp.main(["publish", art, "--cover", cov, "--yes"])
+        self.assertEqual(code, 0)
+        # 请求顺序: [0]=stable_token [1]=material_add [2]=draft_add [3]=submit [4]=freepublish_get
+        # (控制器裁定: brief 原断言用 requests[3] 是错误索引, draft_add 在 requests[2])
+        draft_sent = json.loads(fx.requests[2].data.decode())
+        self.assertEqual(draft_sent["articles"][0]["thumb_media_id"], "THUMB")
+        self.assertIn("http://final", buf.getvalue())
+
+    def test_publish_without_yes_stops_at_draft(self):
+        fx = FakeUrllibRequest([
+            {"access_token": "T", "expires_in": 7200},
+            {"errcode": 0, "media_id": "THUMB", "url": "http://c"},
+            {"errcode": 0, "media_id": "DRAFT"}])
+        with tempfile.TemporaryDirectory() as d:
+            art = os.path.join(d, "a.json")
+            with open(art, "w") as f:
+                f.write(json.dumps({"articles": [{"title": "t", "content": "c"}]}))
+            cov = os.path.join(d, "cover.png")
+            with open(cov, "wb") as f:
+                f.write(b"\x89PNG")
+            # 偏差: 同上, 隔离 token 缓存
+            with mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")), \
+                 mock.patch.object(wechat_mp, "TOKEN_FILE",
+                                   os.path.join(tempfile.mkdtemp(), "token.json")):
+                code = wechat_mp.main(["publish", art, "--cover", cov])
+        self.assertEqual(code, 0)
+        self.assertEqual(len(fx.requests), 3)  # 未 submit
+
+    def test_publish_requires_cover(self):
+        with tempfile.TemporaryDirectory() as d:
+            art = os.path.join(d, "a.json")
+            with open(art, "w") as f:
+                f.write(json.dumps({"articles": [{"title": "t", "content": "c"}]}))
+            code = wechat_mp.main(["publish", art])
+        self.assertEqual(code, 2)
