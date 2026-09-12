@@ -280,6 +280,7 @@ DOCTOR_HINTS = {
     40125: "secret 无效: 检查 .wechat-mp/.env 中 WECHAT_APP_SECRET (注意大小写)",
     40013: "appid 无效: 检查 WECHAT_APP_ID",
     40243: "AppSecret 已冻结: mp.weixin.qq.com → 基本配置 → 重置后更新 .env",
+    48001: "api 无权限: 账号未微信认证或无该接口权限 (如未认证订阅号无 freepublish 发布/留言权限)",
 }
 
 
