@@ -212,6 +212,69 @@ def _read_file(path):
         return (os.path.basename(path), f.read())
 
 
+ENDPOINTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "endpoints.json")
+
+
+def load_endpoints():
+    with open(ENDPOINTS_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def validate_endpoints(registry):
+    errs = []
+    seen_paths = {}
+    for eid, e in registry.items():
+        if e.get("method") not in ("GET", "POST"):
+            errs.append(f"{eid}: method must be GET/POST")
+        if not str(e.get("path", "")).startswith("/"):
+            errs.append(f"{eid}: path must start with /")
+        for field in ("name", "category", "params", "destructive"):
+            if field not in e:
+                errs.append(f"{eid}: missing field {field}")
+        if e.get("auth", "token") not in ("token", "none"):
+            errs.append(f"{eid}: auth must be token/none")
+        key = (e.get("method"), e.get("path"))
+        if key in seen_paths:
+            errs.append(f"{eid}: duplicate method+path with {seen_paths[key]}")
+        seen_paths[key] = eid
+    return errs
+
+
+def cmd_list(args):
+    registry = load_endpoints()
+    errs = validate_endpoints(registry)
+    if errs:
+        print(json.dumps(errs, ensure_ascii=False, indent=2), file=sys.stderr)
+        return 2
+    rows = [{"id": k, **v} for k, v in registry.items()
+             if (not args.category or v["category"] == args.category)
+             and (not args.search or args.search in v["name"] or args.search in k)]
+    _emit(rows)
+    return 0
+
+
+def cmd_call(args):
+    registry = load_endpoints()
+    ep = registry.get(args.endpoint)
+    if ep is None:
+        print(f"unknown endpoint: {args.endpoint} (run 'list' to see all)", file=sys.stderr)
+        return 2
+    if ep.get("destructive") and not args.yes:
+        print(json.dumps({"blocked": True, "endpoint": args.endpoint,
+                          "name": ep["name"], "path": ep["path"],
+                          "hint": "destructive operation, add --yes to confirm"},
+                         ensure_ascii=False, indent=2))
+        return 2
+    try:
+        payload = api_call(ep["method"], ep["path"], body=_load_data_arg(args.data),
+                           file=_read_file(args.file) if args.file else None)
+    except WechatNetworkError as e:
+        _emit({"errcode": -2, "errmsg": f"network error: {e}", "rid": None})
+        return 2
+    _emit(payload)
+    return 0 if payload.get("errcode", 0) == 0 else 1
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -221,6 +284,16 @@ def build_parser():
     raw.add_argument("--data", help="JSON body,@file 读文件")
     raw.add_argument("--file", help="上传文件路径(multipart)")
     raw.set_defaults(func=cmd_raw)
+    ls = sub.add_parser("list", help="列出端点")
+    ls.add_argument("--category")
+    ls.add_argument("--search")
+    ls.set_defaults(func=cmd_list)
+    call = sub.add_parser("call", help="按注册名调用端点")
+    call.add_argument("endpoint")
+    call.add_argument("--data")
+    call.add_argument("--file")
+    call.add_argument("--yes", action="store_true", help="确认 destructive 操作")
+    call.set_defaults(func=cmd_call)
     return p
 
 

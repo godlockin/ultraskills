@@ -209,3 +209,60 @@ class TestRawCli(unittest.TestCase):
             ["raw", "GET", "/cgi-bin/draft/count"],
             [{"access_token": "T", "expires_in": 7200}, urllib.error.URLError("boom")])
         self.assertEqual(code, 2)
+
+
+class TestRegistry(unittest.TestCase):
+    def test_validate_ok(self):
+        self.assertEqual(wechat_mp.validate_endpoints(wechat_mp.load_endpoints()), [])
+
+    def test_validate_catches_bad_entries(self):
+        bad = {"x": {"name": "n", "method": "PUT", "path": "no-slash",
+                     "category": "c", "params": [], "destructive": False},
+               "draft_count": {"name": "n", "method": "GET", "path": "/p",
+                     "category": "c", "params": [], "destructive": False}}
+        errs = wechat_mp.validate_endpoints(bad)
+        self.assertTrue(any("method" in e for e in errs))
+        self.assertTrue(any("path" in e for e in errs))
+
+
+class TestCallCmd(unittest.TestCase):
+    def run_call(self, argv, responses):
+        fx = FakeUrllibRequest(responses)
+        # 与 TestRawCli 同理: 隔离 TOKEN_FILE,避免读到/写脏 cwd 的 .wechat-mp/token.json
+        with tempfile.TemporaryDirectory() as d:
+            with mock.patch.object(wechat_mp, "TOKEN_FILE", os.path.join(d, "token.json")), \
+                 mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")):
+                code = wechat_mp.main(argv)
+        return code, fx
+
+    def test_call_routes_to_path(self):
+        code, fx = self.run_call(
+            ["call", "draft_count"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "total_count": 5}])
+        self.assertEqual(code, 0)
+        self.assertIn("/cgi-bin/draft/count", fx.requests[1].full_url.split("?")[0])
+
+    def test_call_unknown_id(self):
+        code, _ = self.run_call(["call", "nope"], [])
+        self.assertEqual(code, 2)
+
+    def test_call_destructive_requires_yes(self):
+        code, _ = self.run_call(
+            ["call", "draft_delete", "--data", '{"media_id":"M"}'], [])
+        self.assertEqual(code, 2)
+
+    def test_call_destructive_with_yes(self):
+        code, _ = self.run_call(
+            ["call", "draft_delete", "--data", '{"media_id":"M"}', "--yes"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0}])
+        self.assertEqual(code, 0)
+
+    def test_list_filters_category(self):
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            code = wechat_mp.main(["list", "--category", "草稿管理"])
+        self.assertEqual(code, 0)
+        self.assertIn("draft_add", buf.getvalue())
+        self.assertNotIn("stable_token", buf.getvalue())

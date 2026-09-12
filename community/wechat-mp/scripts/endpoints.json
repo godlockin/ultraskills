@@ -1,0 +1,36 @@
+{
+  "draft_count": {
+    "name": "获取草稿的总数",
+    "method": "GET",
+    "path": "/cgi-bin/draft/count",
+    "category": "草稿管理",
+    "params": [],
+    "destructive": false
+  },
+  "draft_add": {
+    "name": "新增草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/add",
+    "category": "草稿管理",
+    "params": ["articles"],
+    "destructive": false,
+    "notes": "thumb_media_id 需先经 material/add_material 获取"
+  },
+  "draft_delete": {
+    "name": "删除草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/delete",
+    "category": "草稿管理",
+    "params": ["media_id"],
+    "destructive": true
+  },
+  "stable_token": {
+    "name": "获取稳定版接口调用凭据",
+    "method": "POST",
+    "path": "/cgi-bin/stable_token",
+    "category": "基础接口",
+    "params": ["grant_type", "appid", "secret", "force_refresh"],
+    "destructive": false,
+    "auth": "none"
+  }
+}
