@@ -837,5 +837,569 @@
       "number"
     ],
     "destructive": false
+  },
+  "mass_sendall": {
+    "name": "根据标签群发消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/sendall",
+    "category": "群发消息",
+    "params": [
+      "filter",
+      "msgtype"
+    ],
+    "destructive": true
+  },
+  "mass_delete": {
+    "name": "删除群发消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/delete",
+    "category": "群发消息",
+    "params": [
+      "msg_id",
+      "article_idx"
+    ],
+    "destructive": true
+  },
+  "mass_preview": {
+    "name": "预览消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/preview",
+    "category": "群发消息",
+    "params": [
+      "touser",
+      "msgtype"
+    ],
+    "destructive": false
+  },
+  "mass_get": {
+    "name": "查询群发消息发送状态",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/get",
+    "category": "群发消息",
+    "params": [
+      "msg_id"
+    ],
+    "destructive": false
+  },
+  "mass_speed_get": {
+    "name": "获取群发速度",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/speed/get",
+    "category": "群发消息",
+    "params": [],
+    "destructive": false
+  },
+  "mass_speed_set": {
+    "name": "设置群发速度",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/speed/set",
+    "category": "群发消息",
+    "params": [
+      "speed"
+    ],
+    "destructive": false
+  },
+  "uploadnews": {
+    "name": "上传图文消息素材(旧)",
+    "method": "POST",
+    "path": "/cgi-bin/media/uploadnews",
+    "category": "群发消息",
+    "params": [
+      "articles"
+    ],
+    "destructive": false
+  },
+  "getusersummary": {
+    "name": "获取用户增减数据",
+    "method": "POST",
+    "path": "/datacube/getusersummary",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 7 天"
+  },
+  "getusercumulate": {
+    "name": "获取累计用户数据",
+    "method": "POST",
+    "path": "/datacube/getusercumulate",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 7 天"
+  },
+  "getarticlesummary": {
+    "name": "获取图文群发每日数据",
+    "method": "POST",
+    "path": "/datacube/getarticlesummary",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "getarticletotal": {
+    "name": "获取图文群发总数据",
+    "method": "POST",
+    "path": "/datacube/getarticletotal",
+    "category": "数据统计",
+    "params": [
+      "begin_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "getuserread": {
+    "name": "获取图文统计数据",
+    "method": "POST",
+    "path": "/datacube/getuserread",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 3 天"
+  },
+  "getuserreadhour": {
+    "name": "获取图文统计分时数据",
+    "method": "POST",
+    "path": "/datacube/getuserreadhour",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "getusershare": {
+    "name": "获取图文分享转发数据",
+    "method": "POST",
+    "path": "/datacube/getusershare",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 7 天"
+  },
+  "getusersharehour": {
+    "name": "获取图文分享转发分时数据",
+    "method": "POST",
+    "path": "/datacube/getusersharehour",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "getupstreammsg": {
+    "name": "获取消息发送概况数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsg",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 7 天"
+  },
+  "getupstreammsghour": {
+    "name": "获取消息发送分时数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsghour",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "getupstreammsgweek": {
+    "name": "获取消息发送周数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgweek",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 必须为自然周"
+  },
+  "getupstreammsgmonth": {
+    "name": "获取消息发送月数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgmonth",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 必须为自然月"
+  },
+  "getupstreammsgdist": {
+    "name": "获取消息发送分布数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdist",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 15 天"
+  },
+  "getupstreammsgdistweek": {
+    "name": "获取消息发送分布周数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdistweek",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 必须为自然周"
+  },
+  "getupstreammsgdistmonth": {
+    "name": "获取消息发送分布月数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdistmonth",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 必须为自然月"
+  },
+  "getarticleread": {
+    "name": "获取图文阅读数据",
+    "method": "POST",
+    "path": "/datacube/getarticleread",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询"
+  },
+  "getarticleshare": {
+    "name": "获取图文分享数据",
+    "method": "POST",
+    "path": "/datacube/getarticleshare",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询"
+  },
+  "getbizsummary": {
+    "name": "获取公众号概况数据",
+    "method": "POST",
+    "path": "/datacube/getbizsummary",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询"
+  },
+  "getarticletotaldetail": {
+    "name": "获取图文群发总数据明细",
+    "method": "POST",
+    "path": "/datacube/getarticletotaldetail",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询"
+  },
+  "getinterfacesummary": {
+    "name": "获取接口分析数据",
+    "method": "POST",
+    "path": "/datacube/getinterfacesummary",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 30 天"
+  },
+  "getinterfacesummaryhour": {
+    "name": "获取接口分析分时数据",
+    "method": "POST",
+    "path": "/datacube/getinterfacesummaryhour",
+    "category": "数据统计",
+    "params": [
+      "begin_date",
+      "end_date"
+    ],
+    "destructive": false,
+    "notes": "按 begin_date/end_date 日期区间查询, 最大跨度 1 天"
+  },
+  "voice_translate": {
+    "name": "提交语音翻译内容",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/translatecontent",
+    "category": "智能接口",
+    "params": [
+      "voice_id",
+      "lfrom",
+      "lto"
+    ],
+    "destructive": false
+  },
+  "voice_add": {
+    "name": "提交语音内容进语音识别",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/addvoicetorecofortext",
+    "category": "智能接口",
+    "params": [
+      "format",
+      "voice_id",
+      "lang"
+    ],
+    "destructive": false
+  },
+  "voice_query": {
+    "name": "获取语音识别结果",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/queryrecoresultfortext",
+    "category": "智能接口",
+    "params": [
+      "voice_id"
+    ],
+    "destructive": false
+  },
+  "ocr_menu": {
+    "name": "OCR菜单识别",
+    "method": "POST",
+    "path": "/cv/ocr/menu",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_comm": {
+    "name": "OCR通用印刷体识别",
+    "method": "POST",
+    "path": "/cv/ocr/comm",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_driving": {
+    "name": "OCR行驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/driving",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_bankcard": {
+    "name": "OCR银行卡识别",
+    "method": "POST",
+    "path": "/cv/ocr/bankcard",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_bizlicense": {
+    "name": "OCR营业执照识别",
+    "method": "POST",
+    "path": "/cv/ocr/bizlicense",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_drivinglicense": {
+    "name": "OCR驾驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/drivinglicense",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "ocr_idcard": {
+    "name": "OCR身份证识别",
+    "method": "POST",
+    "path": "/cv/ocr/idcard",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "img_aicrop": {
+    "name": "图片智能裁剪",
+    "method": "POST",
+    "path": "/cv/img/aicrop",
+    "category": "智能接口",
+    "params": [
+      "img_url",
+      "ratios"
+    ],
+    "destructive": false
+  },
+  "img_qrcode": {
+    "name": "图片二维码识别",
+    "method": "POST",
+    "path": "/cv/img/qrcode",
+    "category": "智能接口",
+    "params": [
+      "img_url"
+    ],
+    "destructive": false
+  },
+  "store_category": {
+    "name": "获取门店类目表",
+    "method": "POST",
+    "path": "/wxa/get_merchant_category",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "store_apply": {
+    "name": "申请开通门店功能",
+    "method": "POST",
+    "path": "/wxa/apply_merchant",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "store_audit_info": {
+    "name": "查询门店功能审核信息",
+    "method": "POST",
+    "path": "/wxa/get_merchant_audit_info",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "store_modify": {
+    "name": "修改门店基本信息",
+    "method": "POST",
+    "path": "/wxa/modify_merchant",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "district_get": {
+    "name": "获取省市区信息",
+    "method": "POST",
+    "path": "/wxa/get_district",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "map_poi_search": {
+    "name": "搜索地图POI",
+    "method": "POST",
+    "path": "/wxa/search_map_poi",
+    "category": "微信门店",
+    "params": [
+      "districtid",
+      "keyword"
+    ],
+    "destructive": false
+  },
+  "store_add": {
+    "name": "添加门店",
+    "method": "POST",
+    "path": "/wxa/add_store",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "store_info": {
+    "name": "获取门店信息",
+    "method": "POST",
+    "path": "/wxa/get_store_info",
+    "category": "微信门店",
+    "params": [
+      "poi_id"
+    ],
+    "destructive": false
+  },
+  "store_list": {
+    "name": "获取门店列表",
+    "method": "POST",
+    "path": "/wxa/get_store_list",
+    "category": "微信门店",
+    "params": [
+      "offset",
+      "limit"
+    ],
+    "destructive": false
+  },
+  "store_del": {
+    "name": "删除门店",
+    "method": "POST",
+    "path": "/wxa/del_store",
+    "category": "微信门店",
+    "params": [
+      "poi_id"
+    ],
+    "destructive": true
+  },
+  "store_update": {
+    "name": "更新门店信息",
+    "method": "POST",
+    "path": "/wxa/update_store",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "map_poi_create": {
+    "name": "在地图创建新的POI",
+    "method": "POST",
+    "path": "/wxa/create_map_poi",
+    "category": "微信门店",
+    "params": [],
+    "destructive": false
+  },
+  "cityservice_send": {
+    "name": "发送就医助手消息",
+    "method": "POST",
+    "path": "/cityservice/sendchannelmsg",
+    "category": "就医助手",
+    "params": [
+      "openid",
+      "channel"
+    ],
+    "destructive": false
   }
 }
