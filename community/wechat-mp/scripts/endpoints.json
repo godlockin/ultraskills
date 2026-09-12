@@ -15,8 +15,7 @@
     "params": [
       "articles"
     ],
-    "destructive": false,
-    "notes": "thumb_media_id 需先经 material/add_material 获取"
+    "destructive": false
   },
   "draft_delete": {
     "name": "删除草稿",
@@ -233,6 +232,302 @@
     "params": [
       "openid",
       "destination_appid"
+    ],
+    "destructive": false
+  },
+  "material_add": {
+    "name": "上传永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/add_material",
+    "category": "素材管理",
+    "params": [
+      "type"
+    ],
+    "destructive": false,
+    "notes": "multipart 上传, 用 --file"
+  },
+  "material_get": {
+    "name": "获取永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/get_material",
+    "category": "素材管理",
+    "params": [
+      "media_id"
+    ],
+    "destructive": false
+  },
+  "material_count": {
+    "name": "获取永久素材总数",
+    "method": "GET",
+    "path": "/cgi-bin/material/get_materialcount",
+    "category": "素材管理",
+    "params": [],
+    "destructive": false
+  },
+  "material_batchget": {
+    "name": "获取永久素材列表",
+    "method": "POST",
+    "path": "/cgi-bin/material/batchget_material",
+    "category": "素材管理",
+    "params": [
+      "type",
+      "offset",
+      "count"
+    ],
+    "destructive": false
+  },
+  "material_del": {
+    "name": "删除永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/del_material",
+    "category": "素材管理",
+    "params": [
+      "media_id"
+    ],
+    "destructive": true
+  },
+  "media_uploadimg": {
+    "name": "上传发表内容中的图片",
+    "method": "POST",
+    "path": "/cgi-bin/media/uploadimg",
+    "category": "素材管理",
+    "params": [],
+    "destructive": false,
+    "notes": "multipart 上传, 用 --file"
+  },
+  "media_upload": {
+    "name": "新增临时素材",
+    "method": "POST",
+    "path": "/cgi-bin/media/upload",
+    "category": "素材管理",
+    "params": [
+      "type"
+    ],
+    "destructive": false,
+    "notes": "multipart 上传, 用 --file"
+  },
+  "media_get": {
+    "name": "获取临时素材",
+    "method": "GET",
+    "path": "/cgi-bin/media/get",
+    "category": "素材管理",
+    "params": [
+      "media_id"
+    ],
+    "destructive": false
+  },
+  "media_get_jssdk": {
+    "name": "获取高清语音素材",
+    "method": "GET",
+    "path": "/cgi-bin/media/get/jssdk",
+    "category": "素材管理",
+    "params": [
+      "media_id"
+    ],
+    "destructive": false
+  },
+  "draft_switch": {
+    "name": "草稿箱开关设置",
+    "method": "POST",
+    "path": "/cgi-bin/draft/switch",
+    "category": "草稿管理",
+    "params": [
+      "value"
+    ],
+    "destructive": true
+  },
+  "draft_get": {
+    "name": "获取草稿详情",
+    "method": "POST",
+    "path": "/cgi-bin/draft/get",
+    "category": "草稿管理",
+    "params": [
+      "media_id"
+    ],
+    "destructive": false
+  },
+  "draft_update": {
+    "name": "更新草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/update",
+    "category": "草稿管理",
+    "params": [
+      "media_id",
+      "index",
+      "articles"
+    ],
+    "destructive": false
+  },
+  "draft_batchget": {
+    "name": "获取草稿列表",
+    "method": "POST",
+    "path": "/cgi-bin/draft/batchget",
+    "category": "草稿管理",
+    "params": [
+      "offset",
+      "count",
+      "no_content"
+    ],
+    "destructive": false
+  },
+  "product_card_info": {
+    "name": "获取商品卡片的DOM结构",
+    "method": "POST",
+    "path": "/channels/ec/service/product/getcardinfo",
+    "category": "商品卡片",
+    "params": [
+      "product_key"
+    ],
+    "destructive": false
+  },
+  "comment_open": {
+    "name": "打开已群发文章评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/open",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index"
+    ],
+    "destructive": false
+  },
+  "comment_close": {
+    "name": "关闭已群发文章评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/close",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index"
+    ],
+    "destructive": false
+  },
+  "comment_list": {
+    "name": "查看指定文章的评论数据",
+    "method": "POST",
+    "path": "/cgi-bin/comment/list",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "begin",
+      "count",
+      "comment_type"
+    ],
+    "destructive": false
+  },
+  "comment_markelect": {
+    "name": "评论标记精选",
+    "method": "POST",
+    "path": "/cgi-bin/comment/markelect",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "user_comment_id"
+    ],
+    "destructive": false
+  },
+  "comment_unmarkelect": {
+    "name": "评论取消精选",
+    "method": "POST",
+    "path": "/cgi-bin/comment/unmarkelect",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "user_comment_id"
+    ],
+    "destructive": false
+  },
+  "comment_delete": {
+    "name": "删除评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/delete",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "user_comment_id"
+    ],
+    "destructive": true
+  },
+  "comment_reply_add": {
+    "name": "回复评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/reply/add",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "user_comment_id",
+      "content"
+    ],
+    "destructive": false
+  },
+  "comment_reply_delete": {
+    "name": "删除回复",
+    "method": "POST",
+    "path": "/cgi-bin/comment/reply/delete",
+    "category": "留言管理",
+    "params": [
+      "msg_data_id",
+      "index",
+      "user_comment_id"
+    ],
+    "destructive": true
+  },
+  "freepublish_submit": {
+    "name": "发布草稿",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/submit",
+    "category": "发布能力",
+    "params": [
+      "media_id"
+    ],
+    "destructive": true,
+    "notes": "发布后对全部粉丝可见"
+  },
+  "freepublish_get": {
+    "name": "发布状态查询",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/get",
+    "category": "发布能力",
+    "params": [
+      "publish_id"
+    ],
+    "destructive": false
+  },
+  "freepublish_delete": {
+    "name": "删除发布文章",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/delete",
+    "category": "发布能力",
+    "params": [
+      "article_id",
+      "index"
+    ],
+    "destructive": true
+  },
+  "freepublish_batchget": {
+    "name": "获取已发布的消息列表",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/batchget",
+    "category": "发布能力",
+    "params": [
+      "offset",
+      "count",
+      "no_content"
+    ],
+    "destructive": false
+  },
+  "freepublish_getarticle": {
+    "name": "获取已发布图文信息",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/getarticle",
+    "category": "发布能力",
+    "params": [
+      "article_id"
     ],
     "destructive": false
   }
