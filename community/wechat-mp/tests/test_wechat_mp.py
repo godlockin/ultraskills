@@ -210,6 +210,14 @@ class TestRawCli(unittest.TestCase):
             [{"access_token": "T", "expires_in": 7200}, urllib.error.URLError("boom")])
         self.assertEqual(code, 2)
 
+    def test_missing_data_file_exit_2(self):
+        import contextlib, io
+        buf = io.StringIO()
+        with contextlib.redirect_stderr(buf):
+            code = wechat_mp.main(["raw", "POST", "/x", "--data", "@/nonexistent/x.json"])
+        self.assertEqual(code, 2)
+        self.assertIn("invalid file path", buf.getvalue())
+
 
 class TestRegistry(unittest.TestCase):
     def test_validate_ok(self):
@@ -359,28 +367,46 @@ class TestCommentCmd(unittest.TestCase):
         return code, fx
 
     def test_comment_ls(self):
-        code, fx = self._run(["comment", "ls", "--article-id", "A1"],
+        code, fx = self._run(["comment", "ls", "--article-id", "1000000001"],
             [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "comment": []}])
         self.assertEqual(code, 0)
         sent = json.loads(fx.requests[1].data.decode())
-        self.assertEqual(sent, {"article_id": "A1", "begin": 0, "count": 50, "type": 0})
+        self.assertEqual(sent, {"msg_data_id": 1000000001, "index": 0,
+                                "begin": 0, "count": 49, "type": 0})
 
     def test_comment_reply(self):
-        code, fx = self._run(["comment", "reply", "--article-id", "A1",
-                              "--user-id", "U1", "--content", "hi"],
+        code, fx = self._run(["comment", "reply", "--article-id", "1000000001",
+                              "--comment-id", "5001", "--content", "hi"],
             [{"access_token": "T", "expires_in": 7200}, {"errcode": 0}])
         self.assertEqual(code, 0)
         sent = json.loads(fx.requests[1].data.decode())
-        self.assertEqual(sent, {"article_id": "A1", "openid": "U1", "content": "hi"})
+        self.assertEqual(sent, {"msg_data_id": 1000000001, "index": 0,
+                                "user_comment_id": 5001, "content": "hi"})
 
     def test_comment_elect_needs_yes(self):
-        code, _ = self._run(["comment", "elect", "--article-id", "A1", "--user-id", "U1"],
+        code, _ = self._run(["comment", "elect", "--article-id", "1000000001",
+                             "--comment-id", "5001"],
             [{"access_token": "T", "expires_in": 7200}])
         self.assertEqual(code, 2)
 
     def test_comment_unelect_needs_yes(self):
-        code, _ = self._run(["comment", "unelect", "--article-id", "A1", "--user-id", "U1"],
+        code, _ = self._run(["comment", "unelect", "--article-id", "1000000001",
+                             "--comment-id", "5001"],
             [{"access_token": "T", "expires_in": 7200}])
+        self.assertEqual(code, 2)
+
+    def test_comment_delete_with_yes(self):
+        code, fx = self._run(["comment", "delete", "--article-id", "1000000001",
+                              "--comment-id", "5001", "--yes"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0}])
+        self.assertEqual(code, 0)
+        sent = json.loads(fx.requests[1].data.decode())
+        self.assertEqual(sent, {"msg_data_id": 1000000001, "index": 0,
+                                "user_comment_id": 5001})
+
+    def test_comment_missing_comment_id_exit_2(self):
+        code, _ = self._run(["comment", "reply", "--article-id", "1000000001",
+                             "--content", "hi"], [])
         self.assertEqual(code, 2)
 
     def test_markelect_registered_destructive(self):

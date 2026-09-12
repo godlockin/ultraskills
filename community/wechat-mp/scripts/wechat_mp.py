@@ -366,18 +366,28 @@ def cmd_material(args):
 
 
 def cmd_comment(args):
-    m = {
-        "ls": ("comment_list", {"article_id": args.article_id, "begin": args.begin,
-                                 "count": args.count, "type": args.type}),
-        "reply": ("comment_reply_add", {"article_id": args.article_id,
-                                         "openid": args.user_id, "content": args.content}),
-        "elect": ("comment_markelect", {"article_id": args.article_id, "openid": args.user_id}),
-        "unelect": ("comment_unmarkelect", {"article_id": args.article_id, "openid": args.user_id}),
-        "open": ("comment_open", {"article_id": args.article_id}),
-        "close": ("comment_close", {"article_id": args.article_id}),
-    }
-    if args.action not in m:
+    # 官方契约: 一律 msg_data_id(int) + index; 精选/取消/删除/回复另需 user_comment_id
+    # (developers.weixin.qq.com 留言管理; comment/list count >=50 会被拒绝)
+    if args.action in ("reply", "elect", "unelect", "delete") and args.comment_id is None:
+        print(f"comment {args.action} requires --comment-id (user_comment_id)", file=sys.stderr)
         return 2
+    article = int(args.article_id)
+    m = {
+        "ls": ("comment_list", {"msg_data_id": article, "index": args.index,
+                                "begin": args.begin, "count": args.count,
+                                "type": args.type}),
+        "reply": ("comment_reply_add", {"msg_data_id": article, "index": args.index,
+                                        "user_comment_id": args.comment_id,
+                                        "content": args.content}),
+        "elect": ("comment_markelect", {"msg_data_id": article, "index": args.index,
+                                        "user_comment_id": args.comment_id}),
+        "unelect": ("comment_unmarkelect", {"msg_data_id": article, "index": args.index,
+                                            "user_comment_id": args.comment_id}),
+        "delete": ("comment_delete", {"msg_data_id": article, "index": args.index,
+                                      "user_comment_id": args.comment_id}),
+        "open": ("comment_open", {"msg_data_id": article, "index": args.index}),
+        "close": ("comment_close", {"msg_data_id": article, "index": args.index}),
+    }
     endpoint_id, body = m[args.action]
     return _guarded_call(endpoint_id, body, yes=args.yes)[0]
 
@@ -537,12 +547,16 @@ def build_parser():
     mt.add_argument("--yes", action="store_true")
     mt.set_defaults(func=cmd_material)
     cm = sub.add_parser("comment", help="留言管理")
-    cm.add_argument("action", choices=["ls", "reply", "elect", "unelect", "open", "close"])
-    cm.add_argument("--article-id", required=True)
-    cm.add_argument("--user-id")
+    cm.add_argument("action", choices=["ls", "reply", "elect", "unelect", "delete",
+                                       "open", "close"])
+    cm.add_argument("--article-id", required=True,
+                    help="群发返回的 msg_data_id (整数)")
+    cm.add_argument("--comment-id", type=int,
+                    help="user_comment_id (reply/elect/unelect/delete 必填)")
+    cm.add_argument("--index", type=int, default=0, help="多图文时第几篇,从 0 开始")
     cm.add_argument("--content")
     cm.add_argument("--begin", type=int, default=0)
-    cm.add_argument("--count", type=int, default=50)
+    cm.add_argument("--count", type=int, default=49, help="ls 单页条数,官方 count>=50 会被拒绝")
     cm.add_argument("--type", type=int, default=0)
     cm.add_argument("--yes", action="store_true")
     cm.set_defaults(func=cmd_comment)
@@ -569,6 +583,9 @@ def main(argv=None):
         return 2
     except json.JSONDecodeError as e:
         print(f"invalid JSON: {e}", file=sys.stderr)
+        return 2
+    except OSError as e:
+        print(f"invalid file path: {e}", file=sys.stderr)
         return 2
 
 

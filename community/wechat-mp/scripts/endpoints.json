@@ -412,7 +412,7 @@
       "index",
       "begin",
       "count",
-      "comment_type"
+      "type"
     ],
     "destructive": false
   },

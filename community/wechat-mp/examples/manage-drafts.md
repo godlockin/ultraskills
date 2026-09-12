@@ -120,12 +120,12 @@ python3 scripts/wechat_mp.py material del --media-id COvNcBK1s3Y1IqgGeD4Syt4TT7Y
 
 ## 留言管理 (comment)
 
-所有 comment 子命令必须带 `--article-id`(从 freepublish 结果或 `publish` 输出的 `article_urls` 对应文章获取)。
+官方契约:留言接口一律用 `msg_data_id`(整数,群发返回的 `msg_data_id`,`--article-id` 即它)+ `--index`(多图文时第几篇,从 0 开始);精选/取消精选/删除/回复另需 `user_comment_id`(`--comment-id`,整数,从 `comment ls` 结果的 `comment_id` 获取)。`comment ls` 单页 `--count` 最大 50(>=50 会被拒绝)。
 
 ### 列出留言
 
 ```bash
-python3 scripts/wechat_mp.py comment ls --article-id AbCdEfGh1234567890 --count 20
+python3 scripts/wechat_mp.py comment ls --article-id 1000000001 --count 20
 ```
 
 ```json
@@ -137,12 +137,12 @@ python3 scripts/wechat_mp.py comment ls --article-id AbCdEfGh1234567890 --count 
 }
 ```
 
-`--type 0` 全部留言 / `--type 1` 仅精选。
+`--type 0` 全部留言 / `--type 1` 普通 / `--type 2` 仅精选。
 
 ### 回复留言
 
 ```bash
-python3 scripts/wechat_mp.py comment reply --article-id AbCdEfGh1234567890 --user-id oXYZ123 --content "感谢支持!"
+python3 scripts/wechat_mp.py comment reply --article-id 1000000001 --comment-id 5001 --content "感谢支持!"
 ```
 
 ```json
@@ -152,7 +152,7 @@ python3 scripts/wechat_mp.py comment reply --article-id AbCdEfGh1234567890 --use
 ### 精选留言(destructive,需 --yes)
 
 ```bash
-python3 scripts/wechat_mp.py comment elect --article-id AbCdEfGh1234567890 --user-id oXYZ123 --yes
+python3 scripts/wechat_mp.py comment elect --article-id 1000000001 --comment-id 5001 --yes
 ```
 
 ```json
@@ -162,23 +162,29 @@ python3 scripts/wechat_mp.py comment elect --article-id AbCdEfGh1234567890 --use
 取消精选:
 
 ```bash
-python3 scripts/wechat_mp.py comment unelect --article-id AbCdEfGh1234567890 --user-id oXYZ123 --yes
+python3 scripts/wechat_mp.py comment unelect --article-id 1000000001 --comment-id 5001 --yes
+```
+
+删除留言(destructive,需 --yes):
+
+```bash
+python3 scripts/wechat_mp.py comment delete --article-id 1000000001 --comment-id 5001 --yes
 ```
 
 ### 开关留言功能
 
 ```bash
-python3 scripts/wechat_mp.py comment open --article-id AbCdEfGh1234567890
-python3 scripts/wechat_mp.py comment close --article-id AbCdEfGh1234567890
+python3 scripts/wechat_mp.py comment open --article-id 1000000001
+python3 scripts/wechat_mp.py comment close --article-id 1000000001
 ```
 
-注:open/close 非 destructive,无需 `--yes`;elect/unelect/reply 删除类为 destructive,需 `--yes`。
+注:open/close 非 destructive,无需 `--yes`;elect/unelect/delete 为 destructive,需 `--yes`。
 
 ## 通用:不确定参数时先查目录
 
 ```bash
 python3 scripts/wechat_mp.py list --search 留言
-python3 scripts/wechat_mp.py call comment_list --data '{"article_id": "AbCdEfGh1234567890", "begin": 0, "count": 20}'
+python3 scripts/wechat_mp.py call comment_list --data '{"msg_data_id": 1000000001, "begin": 0, "count": 20}'
 ```
 
 全量端点见 [references/api-catalog.md](../references/api-catalog.md),errcode 见 [references/errors.md](../references/errors.md)。

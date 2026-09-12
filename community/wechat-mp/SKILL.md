@@ -62,6 +62,7 @@ FAIL 时按提示行修复(如 40164 → mp.weixin.qq.com 加 IP 白名单)。
 ## 安全规则
 
 - **destructive 端点必须 `--yes`**:注册表标记 `destructive: true` 的端点(删除类、群发、菜单覆盖等),不加 `--yes` 会输出 `blocked` JSON 并退出 2,不做任何网络请求。
+- **`raw` 网关不做 destructive 拦截**:`--yes` 闸仅覆盖 `call`/`draft`/`material`/`comment`;`raw` 是逃生通道,直达任意端点。破坏性操作建议优先用 `call`。
 - **secret 不落日志**:输出统一脱敏,`WECHAT_APP_SECRET` 永不出现在 stdout/token 缓存中;`.wechat-mp/.env` 勿提交进 git(加 `.gitignore`)。
 - 群发 (`mass_sendall`)、`quota_clear_all` 等高影响操作,先在测试号验证。
 
