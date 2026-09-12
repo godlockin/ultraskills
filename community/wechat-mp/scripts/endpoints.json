@@ -12,7 +12,9 @@
     "method": "POST",
     "path": "/cgi-bin/draft/add",
     "category": "草稿管理",
-    "params": ["articles"],
+    "params": [
+      "articles"
+    ],
     "destructive": false,
     "notes": "thumb_media_id 需先经 material/add_material 获取"
   },
@@ -21,7 +23,9 @@
     "method": "POST",
     "path": "/cgi-bin/draft/delete",
     "category": "草稿管理",
-    "params": ["media_id"],
+    "params": [
+      "media_id"
+    ],
     "destructive": true
   },
   "stable_token": {
@@ -29,8 +33,207 @@
     "method": "POST",
     "path": "/cgi-bin/stable_token",
     "category": "基础接口",
-    "params": ["grant_type", "appid", "secret", "force_refresh"],
+    "params": [
+      "grant_type",
+      "appid",
+      "secret",
+      "force_refresh"
+    ],
     "destructive": false,
     "auth": "none"
+  },
+  "token_get": {
+    "name": "获取接口调用凭据",
+    "method": "GET",
+    "path": "/cgi-bin/token",
+    "category": "基础接口",
+    "params": [
+      "grant_type",
+      "appid",
+      "secret"
+    ],
+    "destructive": false,
+    "auth": "none"
+  },
+  "callback_check": {
+    "name": "网络通信检测",
+    "method": "POST",
+    "path": "/cgi-bin/callback/check",
+    "category": "基础接口",
+    "params": [],
+    "destructive": false
+  },
+  "get_api_domain_ip": {
+    "name": "获取微信API服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/get_api_domain_ip",
+    "category": "基础接口",
+    "params": [],
+    "destructive": false
+  },
+  "getcallbackip": {
+    "name": "获取微信推送服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/getcallbackip",
+    "category": "基础接口",
+    "params": [],
+    "destructive": false
+  },
+  "quota_clear_all": {
+    "name": "重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota",
+    "category": "openApi管理",
+    "params": [],
+    "destructive": true
+  },
+  "quota_get": {
+    "name": "查询API调用额度",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/get",
+    "category": "openApi管理",
+    "params": [
+      "cgi_path"
+    ],
+    "destructive": false
+  },
+  "rid_get": {
+    "name": "查询rid信息",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/rid/get",
+    "category": "openApi管理",
+    "params": [
+      "rid"
+    ],
+    "destructive": false
+  },
+  "quota_clear_all_v2": {
+    "name": "用AppSecret重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota/v2",
+    "category": "openApi管理",
+    "params": [
+      "appid",
+      "appsecret"
+    ],
+    "destructive": true
+  },
+  "quota_clear": {
+    "name": "重置指定API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/clear",
+    "category": "openApi管理",
+    "params": [
+      "cgi_path",
+      "appids"
+    ],
+    "destructive": true
+  },
+  "menu_create": {
+    "name": "创建自定义菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/create",
+    "category": "自定义菜单",
+    "params": [
+      "button"
+    ],
+    "destructive": true
+  },
+  "selfmenu_info": {
+    "name": "查询自定义菜单信息",
+    "method": "GET",
+    "path": "/cgi-bin/get_current_selfmenu_info",
+    "category": "自定义菜单",
+    "params": [],
+    "destructive": false
+  },
+  "menu_get": {
+    "name": "获取自定义菜单配置",
+    "method": "GET",
+    "path": "/cgi-bin/menu/get",
+    "category": "自定义菜单",
+    "params": [],
+    "destructive": false
+  },
+  "menu_delete": {
+    "name": "删除自定义菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/delete",
+    "category": "自定义菜单",
+    "params": [],
+    "destructive": true
+  },
+  "menu_addconditional": {
+    "name": "创建个性化菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/addconditional",
+    "category": "自定义菜单",
+    "params": [
+      "button",
+      "matchrule"
+    ],
+    "destructive": true
+  },
+  "menu_delconditional": {
+    "name": "删除个性化菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/delconditional",
+    "category": "自定义菜单",
+    "params": [
+      "menuid"
+    ],
+    "destructive": true
+  },
+  "menu_trymatch": {
+    "name": "测试个性化菜单匹配结果",
+    "method": "POST",
+    "path": "/cgi-bin/menu/trymatch",
+    "category": "自定义菜单",
+    "params": [
+      "user_id"
+    ],
+    "destructive": false
+  },
+  "autoreply_info": {
+    "name": "获取自动回复规则",
+    "method": "GET",
+    "path": "/cgi-bin/get_current_autoreply_info",
+    "category": "自动回复",
+    "params": [],
+    "destructive": false
+  },
+  "ticket_get": {
+    "name": "获取sdk临时票据",
+    "method": "GET",
+    "path": "/cgi-bin/ticket/getticket",
+    "category": "网页开发",
+    "params": [
+      "type"
+    ],
+    "destructive": false
+  },
+  "subscribe_send": {
+    "name": "发送一次性订阅消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/template/subscribe",
+    "category": "一次性订阅消息",
+    "params": [
+      "touser",
+      "template_id",
+      "page",
+      "data"
+    ],
+    "destructive": false
+  },
+  "changeopenid": {
+    "name": "转换openid",
+    "method": "POST",
+    "path": "/cgi-bin/changeopenid",
+    "category": "用户管理",
+    "params": [
+      "openid",
+      "destination_appid"
+    ],
+    "destructive": false
   }
 }
