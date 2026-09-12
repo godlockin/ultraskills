@@ -266,3 +266,43 @@ class TestCallCmd(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertIn("draft_add", buf.getvalue())
         self.assertNotIn("stable_token", buf.getvalue())
+
+
+class TestDoctor(unittest.TestCase):
+    def test_doctor_all_pass(self):
+        fx = FakeUrllibRequest([
+            {"access_token": "T", "expires_in": 7200},
+            {"errcode": 0, "quota": 100000, "used": 5}])
+        with mock.patch("urllib.request.urlopen", fx), \
+             mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")), \
+             mock.patch.object(wechat_mp, "CONFIG_DIR", tempfile.mkdtemp()):
+            wechat_mp.TOKEN_FILE = os.path.join(wechat_mp.CONFIG_DIR, "token.json")
+            import io, contextlib
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                code = wechat_mp.main(["doctor"])
+        self.assertEqual(code, 0)
+        self.assertIn("PASS", buf.getvalue())
+
+    def test_doctor_whitelist_hint(self):
+        fx = FakeUrllibRequest([
+            {"errcode": 40164, "errmsg": "invalid ip, not in whitelist"}])
+        with mock.patch("urllib.request.urlopen", fx), \
+             mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")), \
+             mock.patch.object(wechat_mp, "CONFIG_DIR", tempfile.mkdtemp()):
+            wechat_mp.TOKEN_FILE = os.path.join(wechat_mp.CONFIG_DIR, "token.json")
+            import io, contextlib
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                code = wechat_mp.main(["doctor"])
+        self.assertEqual(code, 1)
+        self.assertIn("IP", buf.getvalue())
+
+    def test_doctor_no_creds(self):
+        with mock.patch.object(wechat_mp, "CONFIG_DIR", "/nonexistent"), \
+             mock.patch.dict(os.environ, {}, clear=True):
+            import io, contextlib
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                code = wechat_mp.main(["doctor"])
+        self.assertEqual(code, 1)

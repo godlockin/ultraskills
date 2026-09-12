@@ -275,6 +275,50 @@ def cmd_call(args):
     return 0 if payload.get("errcode", 0) == 0 else 1
 
 
+DOCTOR_HINTS = {
+    40164: "IP 不在白名单: mp.weixin.qq.com → 设置与开发 → 基本配置 → IP白名单, 加入本机出口 IP",
+    40125: "secret 无效: 检查 .wechat-mp/.env 中 WECHAT_APP_SECRET (注意大小写)",
+    40013: "appid 无效: 检查 WECHAT_APP_ID",
+    40243: "AppSecret 已冻结: mp.weixin.qq.com → 基本配置 → 重置后更新 .env",
+}
+
+
+def _report_doctor(steps):
+    all_ok = True
+    for name, ok, hint in steps:
+        mark = "PASS" if ok else "FAIL"
+        if not ok:
+            all_ok = False
+        line = f"[{mark}] {name}" + (f" — {hint}" if hint and not ok else "")
+        print(line)
+    return 0 if all_ok else 1
+
+
+def cmd_doctor(args):
+    steps = []
+    app_id, secret = load_config()
+    steps.append(("credentials", app_id and secret,
+                  "set WECHAT_APP_ID/WECHAT_APP_SECRET or .wechat-mp/.env"))
+    if not (app_id and secret):
+        return _report_doctor(steps)
+    try:
+        token, _ = fetch_stable_token(app_id, secret)
+        steps.append(("stable_token", True, ""))
+        write_token_cache(token, 7200)
+        quota = http_json("POST", "/cgi-bin/openapi/quota/get",
+                          query={"access_token": token},
+                          body={"cgi_path": "/cgi-bin/draft/count"})
+        ok = quota.get("errcode", 0) == 0
+        hint = DOCTOR_HINTS.get(quota.get("errcode"), quota.get("errmsg", ""))
+        steps.append(("quota", ok, hint))
+    except WechatApiError as e:
+        code = e.payload.get("errcode", -1)
+        steps.append(("stable_token", False, DOCTOR_HINTS.get(code, e.payload.get("errmsg", ""))))
+    except WechatNetworkError as e:
+        steps.append(("network", False, str(e)))
+    return _report_doctor(steps)
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -294,6 +338,8 @@ def build_parser():
     call.add_argument("--file")
     call.add_argument("--yes", action="store_true", help="确认 destructive 操作")
     call.set_defaults(func=cmd_call)
+    doc = sub.add_parser("doctor", help="环境自检: 凭证/token/quota")
+    doc.set_defaults(func=cmd_doctor)
     return p
 
 
