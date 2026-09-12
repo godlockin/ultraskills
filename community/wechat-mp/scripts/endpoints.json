@@ -426,7 +426,7 @@
       "index",
       "user_comment_id"
     ],
-    "destructive": false
+    "destructive": true
   },
   "comment_unmarkelect": {
     "name": "评论取消精选",
@@ -438,7 +438,7 @@
       "index",
       "user_comment_id"
     ],
-    "destructive": false
+    "destructive": true
   },
   "comment_delete": {
     "name": "删除评论",

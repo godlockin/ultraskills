@@ -365,6 +365,23 @@ def cmd_material(args):
         return _guarded_call("material_del", {"media_id": args.media_id}, yes=args.yes)[0]
 
 
+def cmd_comment(args):
+    m = {
+        "ls": ("comment_list", {"article_id": args.article_id, "begin": args.begin,
+                                 "count": args.count, "type": args.type}),
+        "reply": ("comment_reply_add", {"article_id": args.article_id,
+                                         "openid": args.user_id, "content": args.content}),
+        "elect": ("comment_markelect", {"article_id": args.article_id, "openid": args.user_id}),
+        "unelect": ("comment_unmarkelect", {"article_id": args.article_id, "openid": args.user_id}),
+        "open": ("comment_open", {"article_id": args.article_id}),
+        "close": ("comment_close", {"article_id": args.article_id}),
+    }
+    if args.action not in m:
+        return 2
+    endpoint_id, body = m[args.action]
+    return _guarded_call(endpoint_id, body, yes=args.yes)[0]
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="wechat_mp.py", description="微信公众号全量 API CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -403,6 +420,16 @@ def build_parser():
     mt.add_argument("--count", type=int, default=20)
     mt.add_argument("--yes", action="store_true")
     mt.set_defaults(func=cmd_material)
+    cm = sub.add_parser("comment", help="留言管理")
+    cm.add_argument("action", choices=["ls", "reply", "elect", "unelect", "open", "close"])
+    cm.add_argument("--article-id", required=True)
+    cm.add_argument("--user-id")
+    cm.add_argument("--content")
+    cm.add_argument("--begin", type=int, default=0)
+    cm.add_argument("--count", type=int, default=50)
+    cm.add_argument("--type", type=int, default=0)
+    cm.add_argument("--yes", action="store_true")
+    cm.set_defaults(func=cmd_comment)
     return p
 
 

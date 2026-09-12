@@ -345,3 +345,45 @@ class TestConvenience(unittest.TestCase):
         code, _ = self._run(["material", "ls", "--type", "doc"],
             [{"access_token": "T", "expires_in": 7200}])
         self.assertEqual(code, 2)
+
+
+class TestCommentCmd(unittest.TestCase):
+    def _run(self, argv, responses):
+        fx = FakeUrllibRequest(responses)
+        # 偏差: 同 TestConvenience — 隔离 token 缓存,避免 cwd 缓存跨用例污染
+        with tempfile.TemporaryDirectory() as d:
+            with mock.patch.object(wechat_mp, "TOKEN_FILE", os.path.join(d, "token.json")), \
+                 mock.patch("urllib.request.urlopen", fx), \
+                 mock.patch.object(wechat_mp, "load_config", return_value=("id", "sec")):
+                code = wechat_mp.main(argv)
+        return code, fx
+
+    def test_comment_ls(self):
+        code, fx = self._run(["comment", "ls", "--article-id", "A1"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0, "comment": []}])
+        self.assertEqual(code, 0)
+        sent = json.loads(fx.requests[1].data.decode())
+        self.assertEqual(sent, {"article_id": "A1", "begin": 0, "count": 50, "type": 0})
+
+    def test_comment_reply(self):
+        code, fx = self._run(["comment", "reply", "--article-id", "A1",
+                              "--user-id", "U1", "--content", "hi"],
+            [{"access_token": "T", "expires_in": 7200}, {"errcode": 0}])
+        self.assertEqual(code, 0)
+        sent = json.loads(fx.requests[1].data.decode())
+        self.assertEqual(sent, {"article_id": "A1", "openid": "U1", "content": "hi"})
+
+    def test_comment_elect_needs_yes(self):
+        code, _ = self._run(["comment", "elect", "--article-id", "A1", "--user-id", "U1"],
+            [{"access_token": "T", "expires_in": 7200}])
+        self.assertEqual(code, 2)
+
+    def test_comment_unelect_needs_yes(self):
+        code, _ = self._run(["comment", "unelect", "--article-id", "A1", "--user-id", "U1"],
+            [{"access_token": "T", "expires_in": 7200}])
+        self.assertEqual(code, 2)
+
+    def test_markelect_registered_destructive(self):
+        eps = wechat_mp.load_endpoints()
+        self.assertTrue(eps["comment_markelect"]["destructive"])
+        self.assertTrue(eps["comment_unmarkelect"]["destructive"])
