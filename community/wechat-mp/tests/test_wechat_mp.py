@@ -27,3 +27,14 @@ class TestLoadConfig(unittest.TestCase):
         with mock.patch.object(wechat_mp, "CONFIG_DIR", "/nonexistent"), \
              mock.patch.dict(os.environ, {}, clear=True):
             self.assertEqual(wechat_mp.load_config(), (None, None))
+
+
+class TestTokenCache(unittest.TestCase):
+    def test_write_read_roundtrip_and_expiry(self):
+        with tempfile.TemporaryDirectory() as d:
+            with mock.patch.object(wechat_mp, "CONFIG_DIR", d):
+                wechat_mp.TOKEN_FILE = os.path.join(d, "token.json")
+                wechat_mp.write_token_cache("T", 7200, now=1000)
+                self.assertEqual(wechat_mp.read_token_cache(now=7000), "T")   # 1000+7200-300=7900
+                self.assertIsNone(wechat_mp.read_token_cache(now=7900))      # 过期
+                self.assertIsNone(wechat_mp.read_token_cache(now=100))       # 未来时间异常视为无效
