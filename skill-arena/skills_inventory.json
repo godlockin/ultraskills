@@ -4638,7 +4638,7 @@
     "id": "wechat-mp",
     "path": "./community/wechat-mp/SKILL.md",
     "description": "微信公众号全量 API skill (WeChat MP)。纯标准库 CLI 通用网关 raw/call 直达全部 134 个服务端接口(素材、草稿、发布、留言、菜单、用户、客服、群发、数据统计等),内置 doctor 自检与 publish 一键发文链路(封面→草稿→发布→取 URL)。当用户提到微信公众号、公众号接口、公众号素材、草稿、发布、留言、菜单、群发、数据统计时使用。",
-    "body_summary": "wechat-mp — 微信公众号全量 API CLI · 纯 Python 标准库实现,无第三方依赖 · 快速开始 · 凭证支持两种方式(env 优先): · 首次使用先自检(凭证 / stable_token / quota 三步): · 期望输出: · FAIL 时按提示行修复(如 40164 → mp.weixin.qq.com 加 IP 白名单) · 4 层用法 · 各子命令完整 flag 见  ;发布全流程见 examples/publish-article.md,草稿/素材/留言日常操作见 examples/manage-drafts.md · 通用参数: · 或   — 请求 body · — multipart 上传文件(素材) · exit code:   成功 /   服务端 errcode≠0 /   本地错误(参数、blocked、网络) · 安全规则 · destructive 端点必须  **:注册表标记   的端点(删除类、群发、菜单覆盖等),不加   会输出   JSON 并退出 2,不做任何网络请求 · secret 不落日志**:输出统一脱敏,  永不出现在 stdout/token 缓存中;  勿提交进 git(加  ) · 群发 ( )、  等高影响操作,先在测试号验证 · 常见 errcode · 完整表见 references/erro…",
+    "body_summary": "wechat-mp — 微信公众号全量 API CLI · 纯 Python 标准库实现,无第三方依赖 · 快速开始 · 凭证支持两种方式(env 优先): · 首次使用先自检(凭证 / stable_token / quota 三步): · 期望输出: · FAIL 时按提示行修复(如 40164 → mp.weixin.qq.com 加 IP 白名单) · 4 层用法 · 各子命令完整 flag 见  ;发布全流程见 examples/publish-article.md,草稿/素材/留言日常操作见 examples/manage-drafts.md · 通用参数: · 或   — 请求 body · — multipart 上传文件(素材) · exit code:   成功 /   服务端 errcode≠0 /   本地错误(参数、blocked、网络) · 安全规则 · destructive 端点必须  **:注册表标记   的端点(删除类、群发、菜单覆盖等),不加   会输出   JSON 并退出 2,不做任何网络请求 · 网关不做 destructive 拦截**:  闸仅覆盖  / / / ;  是逃生通道,直达任意端点 · secret 不落日志**:输出统一脱敏,  永不出现在 stdout/token 缓存中;  勿提交进 git(加  ) · 群发 ( …",
     "tags": [
       "wechat",
       "weixin",

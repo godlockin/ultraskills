@@ -158,3 +158,6 @@
 [submodule "community/metaphysics-skills"]
 	path = community/metaphysics-skills
 	url = https://github.com/godlockin/metaphysics-skills.git
+[submodule "community/wechat-mp"]
+	path = community/wechat-mp
+	url = https://github.com/godlockin/wechat-mp-skill.git
