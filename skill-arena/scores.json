@@ -1738,6 +1738,17 @@
     "total": 8.5
   },
   {
+    "id": "psychology-safety",
+    "path": "./community/metaphysics-skills/quality-skills/psychology-safety/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 8,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.5
+  },
+  {
     "id": "western-astrology",
     "path": "./community/metaphysics-skills/western-astrology/SKILL.md",
     "cluster": "misc",
@@ -1894,17 +1905,6 @@
   {
     "id": "product-vision",
     "path": "./community/pm-skills/strategy/product-vision/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 8,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.5
-  },
-  {
-    "id": "psychology-safety",
-    "path": "./community/quality-skills/psychology-safety/SKILL.md",
     "cluster": "misc",
     "cluster_name": "其他未分类",
     "is_winner": false,
@@ -2838,6 +2838,61 @@
     "total": 8.0
   },
   {
+    "id": "evidence-based-medicine",
+    "path": "./community/metaphysics-skills/quality-skills/evidence-based-medicine/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "marketing-hooks",
+    "path": "./community/metaphysics-skills/quality-skills/marketing-hooks/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "narrative-craft",
+    "path": "./community/metaphysics-skills/quality-skills/narrative-craft/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "tcm-wellness",
+    "path": "./community/metaphysics-skills/quality-skills/tcm-wellness/SKILL.md",
+    "cluster": "misc",
+    "cluster_name": "其他未分类",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
+    "id": "ux-report-design",
+    "path": "./community/metaphysics-skills/quality-skills/ux-report-design/SKILL.md",
+    "cluster": "data",
+    "cluster_name": "数据·分析",
+    "is_winner": false,
+    "doc_quality": 7,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 8.0
+  },
+  {
     "id": "motion-design",
     "path": "./community/motion-design/SKILL.md",
     "cluster": "design-ux",
@@ -2923,61 +2978,6 @@
     "doc_quality": 9,
     "func_clarity": 7,
     "maintainability": 7,
-    "total": 8.0
-  },
-  {
-    "id": "evidence-based-medicine",
-    "path": "./community/quality-skills/evidence-based-medicine/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "marketing-hooks",
-    "path": "./community/quality-skills/marketing-hooks/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "narrative-craft",
-    "path": "./community/quality-skills/narrative-craft/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "tcm-wellness",
-    "path": "./community/quality-skills/tcm-wellness/SKILL.md",
-    "cluster": "misc",
-    "cluster_name": "其他未分类",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
-    "total": 8.0
-  },
-  {
-    "id": "ux-report-design",
-    "path": "./community/quality-skills/ux-report-design/SKILL.md",
-    "cluster": "data",
-    "cluster_name": "数据·分析",
-    "is_winner": false,
-    "doc_quality": 7,
-    "func_clarity": 9,
-    "maintainability": 9,
     "total": 8.0
   },
   {
