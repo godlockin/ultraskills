@@ -1,8 +1,15 @@
-# UltraSkills: 674 AI Skills for Claude Code 🚀
+<div align="center">
+  <img src="docs/logo.png" width="160" alt="UltraSkills logo"/>
 
-> **定义 AI 协作的新标准** — 模块化、可复用、竞技场排名的 AI Skills 工业级标准库
+# UltraSkills: 1201 AI Skills for Claude Code 🚀
+
+> **定义 AI 协作的新标准** — 模块化、可复用、竞技场排名的 AI Skills 工业级库
+
+**1201 skills · 76 聚类 · 76 个类目冠军** · hub 按需搜索,context 零负担
 
 📚 **Navigation**: [Skills Index](./SKILLS_INDEX.md) | [Directory Structure](./DIRECTORY_STRUCTURE.md) | [Contributing](./CONTRIBUTING.md)
+
+</div>
 
 ---
 
@@ -14,7 +21,7 @@ cd ultraskills
 ./setup.sh          # auto-inits submodules + installs ultraskills-hub
 ```
 
-Done. Restart Claude Code — Claude can now search all 674 skills on demand.
+Done. Restart Claude Code — Claude can now search all 1201 skills on demand.
 
 > **Submodules**: `setup.sh` automatically runs `git submodule update --init --recursive` on first run.
 > Pass `--no-submodules` to skip (some external skills will be unavailable).
@@ -37,7 +44,7 @@ Hub 内部使用 `devops/ultraskills-hub/scripts/search.py` 对 `index.json` 做
 ```bash
 ./setup.sh                # 推荐：hub-only（1 个 skill 在 system prompt）
 ./setup.sh --top          # hub + 33 个精选高分 skills
-./setup.sh --all          # 全部 674 个（不推荐，context 很大）
+./setup.sh --all          # 全部 1201 个（不推荐，context 很大）
 ./setup.sh --no-submodules  # 跳过 submodule 初始化（部分 external skills 不可用）
 ./setup.sh --remove       # 卸载
 ```

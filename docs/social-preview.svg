@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="ubg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14123a"/>
+      <stop offset="0.6" stop-color="#3b1d6e"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#ubg)"/>
+  <!-- faint oversized grid watermark -->
+  <g opacity="0.06">
+    <rect x="920" y="-80" width="180" height="180" rx="40" fill="#ffffff"/>
+    <rect x="1120" y="-80" width="180" height="180" rx="40" fill="#ffffff"/>
+    <rect x="1020" y="120" width="180" height="180" rx="40" fill="#ffffff"/>
+    <rect x="1220" y="120" width="180" height="180" rx="40" fill="#ffffff"/>
+    <rect x="920" y="320" width="180" height="180" rx="40" fill="#ffffff"/>
+    <rect x="1120" y="320" width="180" height="180" rx="40" fill="#ffffff"/>
+  </g>
+  <!-- logo tile -->
+  <g transform="translate(64,88) scale(0.86)">
+    <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#ubg)" stroke="#a78bfa" stroke-width="8"/>
+    <rect x="76"  y="76"  width="104" height="104" rx="24" fill="#ffffff" opacity="0.16"/>
+    <rect x="204" y="76"  width="104" height="104" rx="24" fill="#ffffff" opacity="0.30"/>
+    <rect x="332" y="76"  width="104" height="104" rx="24" fill="#ffffff" opacity="0.16"/>
+    <rect x="76"  y="204" width="104" height="104" rx="24" fill="#ffffff" opacity="0.30"/>
+    <rect x="204" y="204" width="104" height="104" rx="24" fill="url(#gold)"/>
+    <path d="M256 224l11.8 24.2 26.7 3.8-19.3 18.7 4.6 26.6L256 285l-23.8 12.5 4.6-26.6-19.3-18.7 26.7-3.8z" fill="#1e1b4b"/>
+    <rect x="332" y="204" width="104" height="104" rx="24" fill="#ffffff" opacity="0.30"/>
+    <rect x="76"  y="332" width="104" height="104" rx="24" fill="#ffffff" opacity="0.30"/>
+    <rect x="204" y="332" width="104" height="104" rx="24" fill="#ffffff" opacity="0.16"/>
+    <rect x="332" y="332" width="104" height="104" rx="24" fill="#ffffff" opacity="0.16"/>
+  </g>
+  <!-- text -->
+  <text x="560" y="190" font-family="Menlo, Consolas, monospace" font-size="88" font-weight="700" fill="#ffffff">UltraSkills</text>
+  <text x="560" y="286" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="44" font-weight="600" fill="#FBBF24">1201 个 AI Skills · 竞技场排名</text>
+  <text x="560" y="376" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="36" fill="#ffffff" opacity="0.9">hub 按需搜索 · context 零负担</text>
+  <text x="560" y="452" font-family="Menlo, Consolas, monospace" font-size="28" fill="#c4b5fd" opacity="0.85">./setup.sh → 1201 skills on demand</text>
+</svg>
