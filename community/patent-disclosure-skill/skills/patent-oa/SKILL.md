@@ -1,6 +1,8 @@
 ---
 name: patent-oa
 description: "审查答复辅助：审查意见问答与草稿；库薄时引导案例入库与实务书蒸馏。须显式触发。"
+version: "1.0.0"
+tags: [patent, legal, documentation, ip]
 user-invocable: false
 ---
 

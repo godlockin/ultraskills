@@ -16,13 +16,7 @@ metadata:
   sponsors:
     - "SPONSORS.md"
     - "SPONSORS_CN.md"
-tags:
-  - productivity
-  - presentation
-  - pptx
-  - design
-  - content-generation
-  - community
+tags: [productivity, presentation, pptx, design, content-generation, community]
 ---
 
 # PPT Master Skill

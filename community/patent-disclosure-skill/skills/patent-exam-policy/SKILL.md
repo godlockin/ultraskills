@@ -1,6 +1,8 @@
 ---
 name: patent-exam-policy
 description: "给交底用的政策简报：对照国知局近期口径，说明对交底写法/本稿的影响。技能进化仅为旁路，须另点名才改文件。"
+version: "1.0.0"
+tags: [patent, legal, documentation, ip]
 user-invocable: false
 ---
 

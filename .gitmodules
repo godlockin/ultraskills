@@ -161,3 +161,6 @@
 [submodule "community/wechat-mp"]
 	path = community/wechat-mp
 	url = https://github.com/godlockin/wechat-mp-skill.git
+[submodule "external/apk-reverse"]
+	path = external/apk-reverse
+	url = https://github.com/newliver666/apk-reverse
