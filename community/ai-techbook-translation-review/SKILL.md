@@ -1,7 +1,7 @@
 ---
 name: ai-techbook-translation-review
 description: 英文→中文 AI/技术书籍翻译结果 review 工具集 — 核心检查译文是否**正确、完整、可靠**(术语/公式/数据/代码/链接),加分项包括教辅材料、排版美观度、可读性等。生成结构化 report: 必须项 + 加分项 + 综合评分。触发场景: AI/技术书籍翻译验收、Markdown 翻译文档审计、术语一致性核查、公式保留检查、章节覆盖度检查。
-version: 1.0.0
+version: 1.1.0
 tags: [translation, review, audit, ai-techbook, technical-book, markdown, terminology, formula]
 ---
 
@@ -57,7 +57,7 @@ tags: [translation, review, audit, ai-techbook, technical-book, markdown, termin
 | 维度 | 检查项 | 自动化工具 |
 |------|--------|-----------|
 | **术语** | 跨章一致,无混用,无错译 | 术语表对比 |
-| **公式** | `$...$` `$$...$$` 内 LaTeX 源码未改 | `audit_translation.py` |
+| **公式** | `$...$` `$$...$$` 内 LaTeX 源码未改; 含 `|` 公式已转义 `\|` 并在 `$ $` 内; 无 ` ```math ` 块; `$$` 前后均空行不贴字符 | `audit_translation.py` |
 | **代码** | 语法高亮正确,缩进未变 | 字符 diff |
 | **章节** | 25 章齐备,小节标题覆盖 | 文件统计 |
 | **数据** | 2024+ 数据更新,无过时统计 | 时效审计 |
@@ -198,6 +198,9 @@ python3 scripts/generate_report.py \
 - 公式/术语是翻译 review 的"硬指标"
 
 ## 📝 更新日志
+
+**v1.1.0 (2026-09-21)**
+- 公式维度新增 3 项排版检查: `\|` 转义、禁用 ` ```math ` 块、`$$` 前后空行
 
 **v1.0.0 (2026-07-31)**
 - 初版: 翻译 review 工具集
