@@ -407,6 +407,28 @@
     "total": 9.5
   },
   {
+    "id": "open-code-review",
+    "path": "./community/open-code-review/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": true,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
+    "id": "open-code-review-delegate",
+    "path": "./community/open-code-review-delegate/SKILL.md",
+    "cluster": "engineering-code",
+    "cluster_name": "工程·代码质量",
+    "is_winner": false,
+    "doc_quality": 10,
+    "func_clarity": 9,
+    "maintainability": 9,
+    "total": 9.5
+  },
+  {
     "id": "personal-ai-work-system-builder",
     "path": "./community/personal-ai-work-system-builder/SKILL.md",
     "cluster": "engineering-arch",
@@ -620,7 +642,7 @@
     "path": "./community/receiving-code-review/SKILL.md",
     "cluster": "engineering-code",
     "cluster_name": "工程·代码质量",
-    "is_winner": true,
+    "is_winner": false,
     "doc_quality": 10,
     "func_clarity": 8,
     "maintainability": 9,

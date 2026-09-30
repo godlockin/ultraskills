@@ -1,6 +1,6 @@
 {
   "implement": {
-    "consecutive_low": 25,
+    "consecutive_low": 26,
     "scores": [
       3.5,
       3.5,
@@ -12,7 +12,7 @@
     "recommendation": "eliminate"
   },
   "legacy-json-only": {
-    "consecutive_low": 25,
+    "consecutive_low": 26,
     "scores": [
       3.2,
       3.2,
@@ -24,7 +24,7 @@
     "recommendation": "eliminate"
   },
   "no-config": {
-    "consecutive_low": 25,
+    "consecutive_low": 26,
     "scores": [
       1.9,
       1.9,
