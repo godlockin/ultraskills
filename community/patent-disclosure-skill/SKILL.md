@@ -5,13 +5,7 @@ version: "4.1.0"
 user-invocable: true
 argument-hint: "[可选：项目路径 / 交底书 / 专利检索 / 专利号或 PDF / 政策简报 / 审查答复]"
 allowed-tools: Read, Write, Edit, Grep, Glob, WebSearch, Bash
-tags:
-  - productivity
-  - patent
-  - ip
-  - legal
-  - documentation
-  - community
+tags: [productivity, patent, ip, legal, documentation, community]
 ---
 
 # 中国专利技能

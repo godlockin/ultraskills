@@ -25,6 +25,9 @@ EXCLUDE_PREFIXES = [
     "external/anthropic-quickstarts",
     # html-anything 内部模板 (低分，不适合作为独立 skill)
     "external/html-anything/next/src/lib/templates/skills",
+    # 测试夹具,非真实 skill (waza 测试用 pdf-processor / skillspector fixture)
+    "external/microsoft-waza/cmd/waza/dev/testdata",
+    "external/skillspector/tests",
 ]
 
 # 排除特定低价值 skills (保持 external/ 完整性，但从索引剔除)
@@ -56,6 +59,15 @@ EXCLUDE_SKILL_IDS = [
     # Media downloader: keep external/media-downloader (bare), exclude community copy
     '"media-downloader"',
 ]
+
+# id 冲突别名表: skill 目录相对路径(相对 ROOT) -> 强制 id
+# 用途: 不同来源子模块自带同名 skill 且并非重复副本时,避免静默丢一个
+# (arena_scan 只按 realpath 去重,同 id 按优先级保留;此表优先级最高)
+ID_OVERRIDES = {
+    # newliver666/apk-reverse (gate 化重制,45 refs/40 scripts)
+    # 与 external/reverse-skill 内简陋同名中文 skill 撞名
+    'external/apk-reverse/skills/apk-reverse': 'apk-reverse-pro',
+}
 
 # 配套/辅助 skills (标记为 auxiliary，不参与竞技场评分但保留索引)
 # 注: caveman 子 skills 已证明有价值，移除 auxiliary 标记
@@ -268,6 +280,7 @@ def extract_body_summary(text: str, max_len: int = 600) -> str:
 def scan_all_skills() -> list:
     skills = {}  # id -> dict
     seen_real_paths = set()  # canonical paths to detect symlink/submodule duplicates
+    id_collisions = []  # 同 id 不同路径的去重记录 (扫描后告警)
 
     skill_mds = sorted(ROOT.rglob("SKILL.md"))
 
@@ -313,6 +326,8 @@ def scan_all_skills() -> list:
         skill_id = fm.get("name", "").strip() or skill_dir.name
         # 规范化：小写，去空格
         skill_id = skill_id.lower().replace(" ", "-")
+        # id 冲突别名表优先 (key 为 skill 目录相对路径)
+        skill_id = ID_OVERRIDES.get(skill_dir_rel, skill_id)
 
         # 排除特定低价值 skills (保持 external/ 完整性)
         if skill_id in EXCLUDE_SKILL_IDS:
@@ -362,8 +377,17 @@ def scan_all_skills() -> list:
             skills[skill_id] = entry
         else:
             existing = skills[skill_id]
+            id_collisions.append(
+                f"  id={skill_id} kept={existing['_rel_path']} (prio {existing['_priority']})"
+                f" vs {skill_dir_rel} (prio {entry['_priority']})"
+            )
             if entry["_priority"] < existing["_priority"]:
                 skills[skill_id] = entry
+
+    if id_collisions:
+        print(f"[WARN] {len(id_collisions)} id collision(s) resolved by priority;"
+              f" distinct skills need ID_OVERRIDES entry:")
+        print("\n".join(id_collisions))
 
     result = sorted(skills.values(), key=lambda x: (x["_rel_path"]))
     # 清理内部字段

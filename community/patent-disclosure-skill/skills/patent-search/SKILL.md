@@ -1,6 +1,8 @@
 ---
 name: patent-search
 description: "中国专利公布公告著录检索：发明人、申请人、分类号、名称等高级查询字段。"
+version: "1.0.0"
+tags: [patent, legal, documentation, ip]
 user-invocable: false
 ---
 

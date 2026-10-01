@@ -1,6 +1,8 @@
 ---
 name: patent-disclosure
 description: "中国专利交底书：发明/实用新型/外观设计的专利点挖掘、轻量查新与成文。"
+version: "1.0.0"
+tags: [patent, legal, documentation, ip]
 user-invocable: false
 ---
 

@@ -1,6 +1,8 @@
 ---
 name: patent-reader
 description: "中国专利通俗解读：公开号/PDF 成通俗笔记、图谱与 Obsidian 入库。"
+version: "1.0.0"
+tags: [patent, legal, documentation, ip]
 user-invocable: false
 ---
 
