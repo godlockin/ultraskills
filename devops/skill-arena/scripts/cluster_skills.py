@@ -9,12 +9,18 @@ Each subcategory has dedicated expert panel and specialized test cases.
 import json
 import hashlib
 import os
+import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
+# 与 validate_skills.py / sync_skill_index.py 共用同一套扫描与解析口径，
+# 避免旧的有限 glob 再次造成索引与校验器漂移。
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import skill_contract as sc
+
 
 def scan_skills(project_root: Path) -> List[Dict[str, Any]]:
-    """Scan project for all skills."""
+    """Scan project for all skills using the unified skill_contract scan scope."""
     skills = []
 
     # Method 1: Scan index.json
@@ -33,33 +39,22 @@ def scan_skills(project_root: Path) -> List[Dict[str, Any]]:
                 "source": "index.json"
             })
 
-    # Method 2: Scan directories for SKILL.md files
-    skill_md_patterns = [
-        "community/*/SKILL.md",
-        "engineering/*/SKILL.md",
-        "creative/*/SKILL.md",
-        "productivity/*/SKILL.md",
-        "devops/*/SKILL.md",
-        "external/*/skills/*/SKILL.md",
-        "external/*/*/*/SKILL.md",
-    ]
-
+    # Method 2: 统一口径递归扫描（替换原先的有限 glob 列表）
     scanned_ids = set(s["id"] for s in skills)
 
-    for pattern in skill_md_patterns:
-        for skill_md in project_root.glob(pattern):
-            skill_id = skill_md.parent.name.lower().replace('_', '-').replace(' ', '-')
+    for norm_root, rel, skill_md in sc.iter_skill_dirs(str(project_root)):
+        skill_id = Path(norm_root).name.lower().replace('_', '-').replace(' ', '-')
 
-            if skill_id not in scanned_ids:
-                scanned_ids.add(skill_id)
-                skills.append({
-                    "id": skill_id,
-                    "name": skill_id,
-                    "path": str(skill_md.relative_to(project_root)),
-                    "description": "",
-                    "tags": [],
-                    "source": f"scan:{pattern}"
-                })
+        if skill_id not in scanned_ids:
+            scanned_ids.add(skill_id)
+            skills.append({
+                "id": skill_id,
+                "name": skill_id,
+                "path": str(Path(rel) / "SKILL.md"),
+                "description": "",
+                "tags": [],
+                "source": "scan:skill_contract.iter_skill_dirs"
+            })
 
     return skills
 
@@ -83,23 +78,20 @@ def analyze_skills(skills: List[Dict], project_root: Path) -> List[Dict]:
         if skill_path.exists() and skill_path.is_file():
             content = skill_path.read_text(encoding='utf-8')
 
-            # Extract frontmatter
-            import re
-            frontmatter_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
-            if frontmatter_match:
-                frontmatter = frontmatter_match.group(1)
-
-                name_match = re.search(r'^name:\s*(.+?)$', frontmatter, re.MULTILINE)
-                if name_match:
-                    analysis["name"] = name_match.group(1).strip()
-
-                desc_match = re.search(r'^description:\s*(.+?)$', frontmatter, re.MULTILINE)
-                if desc_match:
-                    analysis["description"] = desc_match.group(1).strip()
-
-                tags_match = re.search(r'^tags:\s*\[(.*?)\]', frontmatter, re.MULTILINE)
-                if tags_match:
-                    analysis["tags"] = [t.strip().strip('"\'') for t in tags_match.group(1).split(',')]
+            # 统一解析器：支持多行描述、嵌套 metadata.version、块列表 tags
+            fields = sc.parse_frontmatter(content) or {}
+            if fields.get("name"):
+                analysis["name"] = fields["name"]
+            if fields.get("description"):
+                analysis["description"] = fields["description"]
+            if fields.get("tags"):
+                raw_tags = fields["tags"]
+                if isinstance(raw_tags, str):
+                    analysis["tags"] = [
+                        t.strip().strip('"\'') for t in raw_tags.split(',') if t.strip()
+                    ]
+                else:
+                    analysis["tags"] = raw_tags
 
             analysis["keywords"] = extract_keywords(analysis)
             analysis["complexity"] = analyze_complexity(content)
